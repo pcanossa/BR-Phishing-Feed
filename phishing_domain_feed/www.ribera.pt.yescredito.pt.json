@@ -1,0 +1,13 @@
+{
+    "dominio": "www.ribera.pt.yescredito.pt",
+    "data_registro": "26/04/26 09:12:45",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "O domínio utiliza a marca 'yescredito' – instituição financeira brasileira – que pode ser usada para enganar usuários e capturar credenciais.",
+        "A estrutura do subdomínio inclui um TLD externo 'ribera.pt', gerando confusão visual (ex.: 'ribera.pt.yescredito.pt') e facilitando engenharia social.",
+        "Domínio recém‑registrado (registro em 26/04/2026) e ainda não presente em listas de domínios legítimos ou em serviços de reputação conhecidos.",
+        "Ausência de registros DNS públicos para serviços legítimos (ex.: SPF, DKIM, DMARC) que são típicos de sites de phishing que não enviam e‑mail legítimo.",
+        "Não há informações de certificados TLS emitidos por Autoridades Certificate Authorities (CA) confiáveis; ausência de HTTPS reforça a suspeita de página de captura simples."
+    ],
+    "analise_comportamental": "O subdomínio 'ribera.pt.yescredito.pt' apresenta um padrão clássico de phishing direcionado ao público brasileiro: usa a identidade de uma instituição financeira conhecida (yescredito) e adiciona um rótulo confuso com o domínio '.pt' para induzir a confiança do usuário. A combinação de registro recente, falta de registros DNS de segurança e ausência de certificado TLS indica que o domínio foi possivelmente criado para hospedar páginas de coleta de credenciais ou documentos pessoais, caracterizando-se como um vetor de phishing."
+}
