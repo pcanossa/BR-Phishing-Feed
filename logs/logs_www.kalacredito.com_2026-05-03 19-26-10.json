@@ -1,0 +1,51 @@
+{
+  "dominio": "www.kalacredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 19:26:10",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.kalacredito.com",
+        "aggregated": "/CN=www.kalacredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A4CBF44B170B10FD119EDD04E4123946",
+      "not_before": 1777839850,
+      "not_after": 1785619439,
+      "fingerprint": "CB:0C:79:D5:CF:A8:93:72:06:4A:42:7F:D1:B0:68:49:0A:D9:F6:14",
+      "sha1": "CB:0C:79:D5:CF:A8:93:72:06:4A:42:7F:D1:B0:68:49:0A:D9:F6:14",
+      "sha256": "4F:9B:0D:07:64:56:A7:D9:02:10:03:13:97:66:89:0B:2A:68:FA:FF:90:ED:29:77:49:C6:63:1C:75:ED:5D:9D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.kalacredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/pMs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.kalacredito.com",
+        "subjectKeyIdentifier": "keyid:26:30:a3:37:70:34:32:d4:3b:6b:14:ef:70:c8:73:c7:05:b3:3e:00"
+      }
+    },
+    "cert_index": 4040443234,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4040443234&end=4040443234",
+    "seen": 1777847170.856,
+    "submission_timestamp": 1777843504.525,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

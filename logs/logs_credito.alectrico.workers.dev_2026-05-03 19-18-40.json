@@ -1,0 +1,53 @@
+{
+  "dominio": "credito.alectrico.workers.dev",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 19:18:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alectrico.workers.dev",
+        "aggregated": "/CN=alectrico.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "69BB4CCF92AC42A40DEB0899B73EF30C",
+      "not_before": 1777814079,
+      "not_after": 1785593666,
+      "fingerprint": "4B:7E:A9:5E:F7:0C:46:66:57:4F:7E:D6:04:5D:13:F5:91:87:DA:66",
+      "sha1": "4B:7E:A9:5E:F7:0C:46:66:57:4F:7E:D6:04:5D:13:F5:91:87:DA:66",
+      "sha256": "7C:71:94:4C:5F:02:08:07:5D:66:FD:C7:AD:EC:93:AA:6D:07:6B:F2:6E:91:E0:87:4F:75:4C:86:5E:3B:CC:32",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "alectrico.workers.dev",
+        "*.credito.alectrico.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/abs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:alectrico.workers.dev, DNS:*.credito.alectrico.workers.dev",
+        "subjectKeyIdentifier": "keyid:d4:70:02:a4:cb:64:d1:0e:dd:d5:ac:d3:05:2d:04:b2:97:28:ce:3a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 816659398,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=816659398&end=816659398",
+    "seen": 1777846720.43,
+    "submission_timestamp": 1777817679.647,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

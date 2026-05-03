@@ -1,0 +1,52 @@
+{
+  "dominio": "my.credito.bg",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 19:15:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my.credito.bg",
+        "aggregated": "/CN=my.credito.bg"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "065CD9BD7304F4BE3AA1F72E604B73F8BEE0",
+      "not_before": 1777839044,
+      "not_after": 1785615043,
+      "fingerprint": "D6:F1:7A:57:0E:AE:8E:C9:06:1A:48:1F:80:4F:BC:0A:8F:44:DA:8E",
+      "sha1": "D6:F1:7A:57:0E:AE:8E:C9:06:1A:48:1F:80:4F:BC:0A:8F:44:DA:8E",
+      "sha256": "E1:2F:C2:77:B4:54:B4:C5:FA:02:22:67:D3:07:67:C1:04:C0:97:B7:16:2B:CF:EC:8E:97:34:40:8E:27:DD:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "my.credito.bg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:my.credito.bg",
+        "subjectKeyIdentifier": "keyid:55:4d:d7:b4:1b:2b:21:c6:cd:28:ac:74:23:a1:e5:53:d4:51:28:05",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4040254710,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4040254710&end=4040254710",
+    "seen": 1777846514.296,
+    "submission_timestamp": 1777842555.142,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cord-okta-oidc-1.gov.osaas.app",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 19:13:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cord-okta-oidc-1.gov.osaas.app",
+        "aggregated": "/CN=cord-okta-oidc-1.gov.osaas.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E88FD070AF295DDB119D23ED5C445BFE",
+      "not_before": 1777832890,
+      "not_after": 1785612489,
+      "fingerprint": "53:A6:C6:10:8A:D5:2B:F4:25:4B:43:BB:E7:D8:45:AB:6F:24:17:9E",
+      "sha1": "53:A6:C6:10:8A:D5:2B:F4:25:4B:43:BB:E7:D8:45:AB:6F:24:17:9E",
+      "sha256": "9E:72:8D:56:10:9E:1D:CD:53:C6:03:8A:D8:F9:12:68:AF:3A:57:5E:F5:6D:83:85:97:87:58:EA:2F:14:F9:64",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cord-okta-oidc-1.gov.osaas.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/6I8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cord-okta-oidc-1.gov.osaas.app",
+        "subjectKeyIdentifier": "keyid:70:3b:cd:2f:c6:a7:ff:75:21:06:d3:91:06:dd:0d:a1:6d:43:79:d9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 548899145,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=548899145&end=548899145",
+    "seen": 1777846404.926,
+    "submission_timestamp": 1777836490.779,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
