@@ -1,0 +1,53 @@
+{
+  "dominio": "apps.verclaroit.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/03/26 15:42:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.verclaroit.com",
+        "aggregated": "/CN=apps.verclaroit.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0B840A98F55FC2EF6A222A0E52E0430C",
+      "not_before": 1777766400,
+      "not_after": 1785542399,
+      "fingerprint": "DC:06:34:73:90:A2:E9:55:D7:21:91:C7:32:A1:A1:98:93:D6:28:93",
+      "sha1": "DC:06:34:73:90:A2:E9:55:D7:21:91:C7:32:A1:A1:98:93:D6:28:93",
+      "sha256": "22:3E:9D:80:C4:E9:D2:BB:F4:12:E0:9A:56:F9:86:71:E9:AF:1F:AE:09:68:BE:E3:EC:FE:B7:D8:2C:0C:90:41",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.verclaroit.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.verclaroit.com",
+        "subjectKeyIdentifier": "keyid:d0:3d:c7:c5:16:95:dc:d9:71:15:6a:01:e8:07:6f:b1:bc:04:fe:12",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4037511203,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4037511203&end=4037511203",
+    "seen": 1777833745.956,
+    "submission_timestamp": 1777829806.755,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
