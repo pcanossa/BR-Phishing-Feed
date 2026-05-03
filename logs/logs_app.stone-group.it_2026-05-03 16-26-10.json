@@ -1,0 +1,51 @@
+{
+  "dominio": "app.stone-group.it",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/03/26 16:26:10",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.stone-group.it",
+        "aggregated": "/CN=app.stone-group.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05C425FCC2936878CB62FB650E327515FE76",
+      "not_before": 1777813425,
+      "not_after": 1785589424,
+      "fingerprint": "8D:20:99:3D:CE:B9:D9:65:BF:BD:16:E8:C2:D3:AE:2D:06:70:DE:1C",
+      "sha1": "8D:20:99:3D:CE:B9:D9:65:BF:BD:16:E8:C2:D3:AE:2D:06:70:DE:1C",
+      "sha256": "24:B1:24:97:8F:2E:27:EE:DC:18:00:5E:51:A0:5C:A8:FD:6E:53:32:AA:34:BF:50:A0:36:35:30:BE:DB:0C:D8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.stone-group.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.stone-group.it",
+        "subjectKeyIdentifier": "keyid:cf:46:56:fc:07:df:c6:50:b0:f1:16:44:ad:80:76:ee:4f:c3:e0:15"
+      }
+    },
+    "cert_index": 674526043,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=674526043&end=674526043",
+    "seen": 1777836370.293,
+    "submission_timestamp": 1777816936.411,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

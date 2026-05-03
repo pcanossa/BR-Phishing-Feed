@@ -1,0 +1,13 @@
+{
+    "dominio": "teste-espn2-vivo.appino.workers.dev",
+    "data_registro": "03/05/26 12:00:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "O subdomínio contém as marcas registradas 'ESPN' e 'VIVO', ambas amplamente reconhecidas no Brasil, o que indica tentativa de spoofing de identidade para enganar vítimas locais",
+        "Inclui a palavra 'teste', frequentemente usada por atores maliciosos para criar URLs que pareçam inofensivas ou de desenvolvimento interno, dificultando a detecção automática",
+        "Utiliza o serviço de hospedagem gratuito e de confiança 'workers.dev' da Cloudflare, que fornece TLS válido e anonimato de IP, prática comum em campanhas de phishing para evitar bloqueios de reputação",
+        "O domínio de segundo nível 'appino' não possui histórico conhecido em listas de domínios legítimos ou whitelists de fornecedores de segurança, aumentando a incerteza sobre a procedência",
+        "A combinação de duas marcas brasileiras (ESPN – conteúdo esportivo, VIVO – operadora de telecomunicações) sugere um vetor de engenharia social focado em usuários brasileiros interessados em esportes ou serviços de telefonia"
+    ],
+    "analise_comportamental": "O subdomínio 'teste-espn2-vivo.appino.workers.dev' apresenta características típicas de infraestrutura utilizada em campanhas de phishing direcionadas ao público brasileiro: abuso de marcas reconhecidas nacionalmente, uso de termos genéricos de teste para mascarar intenções maliciosas e hospedagem em plataforma de cloud que oferece certificados TLS válidos sem revelar o IP real do servidor. Embora não haja evidência pública de um site phishing ativo, os indicadores acima justificam classificar o domínio como potencialmente maligno na categoria 'phishing', com foco em vítimas do Brasil."
+}

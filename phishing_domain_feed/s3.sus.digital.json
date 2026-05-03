@@ -1,0 +1,13 @@
+{
+    "dominio": "s3.sus.digital",
+    "data_registro": "05/03/26 15:51:14",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a palavra 'sus', identidade reconhecida no Brasil como o Sistema Único de Saúde, podendo gerar confiança em usuários brasileiros",
+        "Uso do subdomínio 's3' remete a serviços de armazenamento (ex.: Amazon S3), prática comum em campanhas de phishing para hospedar páginas falsas ou arquivos maliciosos",
+        "Extensão genérica '.digital' costuma ser empregada por atores maliciosos por ser barata e de fácil registro",
+        "Domínio recém‑registrado e não listado em bases de dados de domínios legítimos conhecidos",
+        "Ausência de registros de DNS públicos que apontem para serviços de entrega de conteúdo legítimos, indicando possível uso para hospedagem temporária"
+    ],
+    "analise_comportamental": "O domínio 's3.sus.digital' apresenta múltiplos indicadores típicos de uma campanha de phishing direcionada ao público brasileiro: aproveita a reputação do termo 'sus' para gerar confiança, utiliza um subdomínio que sugere serviço de armazenamento confiável e foi registrado recentemente em TLD genérica. Apesar de não haver ainda evidências de infraestrutura de C2 ou distribuição de malware, as características apontam fortemente para uso como página de engodo ou hospedagem de payloads em ataques de phishing."
+}
