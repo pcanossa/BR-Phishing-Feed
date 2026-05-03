@@ -1,0 +1,13 @@
+{
+    "dominio": "autodiscover.fullcreditos.cl",
+    "data_registro": "02/04/26 10:45:12",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Subdomínio 'autodiscover' imitando o serviço legítimo de descoberta automática do Outlook, comumente usado para roubo de credenciais",
+        "Domínio contém a palavra 'creditos', associada a serviços financeiros, o que pode atrair usuários brasileiros em busca de crédito ou financiamento",
+        "TLD '.cl' (Chile) não corresponde ao país-alvo (Brasil), prática comum de atores maliciosos para dificultar bloqueios por região",
+        "Domínio não aparece em listas públicas de domínios legítimos de instituições financeiras ou de provedores de email reconhecidos",
+        "Nenhum registro de DNSSEC ou políticas de segurança (DMARC, SPF, DKIM) aparentes, indicando baixa preocupação com legitimidade"
+    ],
+    "analise_comportamental": "O domínio 'autodiscover.fullcreditos.cl' apresenta um padrão típico de campanhas de phishing de credenciais, ao reutilizar o subdomínio 'autodiscover' que usuários de Outlook reconhecem como ponto de coleta de configurações de conta. A combinação com a palavra 'creditos' indica tentativa de lure focada em serviços financeiros, alvo provável de usuários brasileiros que buscam linhas de crédito. A escolha de um TLD estrangeiro e a ausência de mecanismos de autenticação de e‑mail reforçam a suspeita de uso malicioso."
+}

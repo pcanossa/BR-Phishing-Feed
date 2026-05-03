@@ -1,0 +1,15 @@
+{
+    "dominio": "search-datacredito.cs3.services",
+    "data_registro": "03/04/26 12:45:30",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "O nome do domínio contém a marca registrada ‘datacredito’, serviço brasileiro de consulta de crédito, indicativo de tentativa de se passar por entidade legítima.",
+        "Uso de termo genérico ‘search‑’ e sub‑domínio ‘cs3’, prática comum em campanhas de phishing para gerar URLs que pareçam técnicas e difíceis de memorizar.",
+        "TLD ‘.services’ é de uso livre e costuma ser utilizado por atores maliciosos para criar domínios que se assemelham a serviços legítimos.",
+        "Domínio registrado recentemente (menos de 30 dias) – comportamento típico de domínios criados para campanhas de phishing de curta duração.",
+        "Ausência de registros DNS públicos (nenhum A/AAAA apontando para IPs conhecidos) e ausência de certificado SSL válido, o que indica que o site ainda não está operando de forma legítima.",
+        "Domínio não consta em listas de domínios confiáveis (e.g., Google Safe Browsing, PhishTank) nem em bases de dados de marcas registradas brasileiras.",
+        "Combinação de hífen e sub‑domínio pode confundir usuários ao tentar digitar ‘datacredito.com.br’, facilitando ataques de engenharia social."
+    ],
+    "analise_comportamental": "O domínio 'search-datacredito.cs3.services' apresenta múltiplas bandeiras típicas de sites de phishing direcionados ao público brasileiro: uso não autorizado de marca reconhecida nacionalmente, registro recente, TLD genérico e estrutura de URL que visa confundir vítimas ao solicitar credenciais ou dados pessoais relacionados a consultas de crédito. Até o momento não há evidência de atividades de C2 ou entrega de malware, mas a principal motivação provável é a coleta de informações sensíveis por meio de páginas de login falsificadas."
+}
