@@ -12,12 +12,9 @@ if ($status) {
     git add .
     git commit -m "Auto-update feed: $timestamp"
     
-    # Altere 'main' para 'master' se a sua branch principal tiver o nome antigo
-    git push origin main
+    git push origin master
     
-    # Opcional: Registra no log do Windows que rodou com sucesso
     Write-Output "[+] Push realizado com sucesso em $timestamp" | Out-File ".\auto-push.log" -Append
 } else {
-    # Se não houver nada de novo, não faz commits vazios
     Write-Output "[-] Nenhuma alteração detectada em $(Get-Date)" | Out-File ".\auto-push.log" -Append
 }

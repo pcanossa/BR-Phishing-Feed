@@ -87,7 +87,7 @@ def print_callback(message, context):
             # CORREÇÃO: Desempacotando as variáveis corretamente
             suspeito, marcas_encontradas = is_suspicious(clean_domain)
             
-            # Agora o if avalia apenas o Booleano (True/False)
+            # If avalia apenas o Booleano (True/False)
             if suspeito:
                 timestamp = datetime.datetime.now().strftime('%m/%d/%y %H:%M:%S')
                 
@@ -119,11 +119,8 @@ def print_callback(message, context):
 print("Iniciando o monitoramento de certificados. Filtro de ameaças ativado...")
 logging.basicConfig(format='[%(levelname)s:%(name)s] %(asctime)s - %(message)s', level=logging.INFO)
 
-# Adicionado um bloco try/except no loop principal. 
-# Como o websocket do CertStream pode cair ocasionalmente, isso mantém seu script rodando no background.
-#while True:
+
 try:
-    # No seu script Python
     certstream.listen_for_events(print_callback, url='ws://127.0.0.1:8080/')
 except Exception as e:
     logging.error(f"Conexão perdida: {e}. Reconectando em 5 segundos...")
