@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  certstream:
+    image: ghcr.io/reloading01/certstream-server-rust:latest
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - ./state:/app/state
+    restart: unless-stopped

@@ -1,0 +1,52 @@
+{
+  "dominio": "hw-e2etest.app-staging.gov.nominal.io",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 12:48:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hw-e2etest.app-staging.gov.nominal.io",
+        "aggregated": "/CN=hw-e2etest.app-staging.gov.nominal.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0580C40A99465B27AE93B09B1967682E480B",
+      "not_before": 1777816482,
+      "not_after": 1785592481,
+      "fingerprint": "38:D5:E1:5A:97:02:2E:0F:0D:FF:C2:50:FD:69:F3:E1:EE:49:2C:E7",
+      "sha1": "38:D5:E1:5A:97:02:2E:0F:0D:FF:C2:50:FD:69:F3:E1:EE:49:2C:E7",
+      "sha256": "5E:F5:CD:D3:8D:B6:7D:E2:A4:20:AC:EC:FD:B4:AC:9C:B0:C1:94:0D:5F:10:43:69:98:0B:E8:73:E8:53:C7:2B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hw-e2etest.app-staging.gov.nominal.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hw-e2etest.app-staging.gov.nominal.io",
+        "subjectKeyIdentifier": "keyid:90:58:75:64:52:0c:fd:a1:0c:e6:1d:39:35:40:dd:07:a3:33:4f:68",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 573997394,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=573997394&end=573997394",
+    "seen": 1777823300.084,
+    "submission_timestamp": 1777819992.259,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
