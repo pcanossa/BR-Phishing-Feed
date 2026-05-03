@@ -1,0 +1,51 @@
+{
+  "dominio": "nb-app1.test.md.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 17:39:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nb-app1.test.md.gov",
+        "aggregated": "/CN=nb-app1.test.md.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "063F8A30BEB998BA73FBD29B172DDBA9C7D9",
+      "not_before": 1777378221,
+      "not_after": 1785154220,
+      "fingerprint": "7F:E0:72:72:15:FF:1A:A6:FD:70:5C:BD:FF:0C:BE:06:07:A2:BD:20",
+      "sha1": "7F:E0:72:72:15:FF:1A:A6:FD:70:5C:BD:FF:0C:BE:06:07:A2:BD:20",
+      "sha256": "E6:1A:AF:59:65:A3:80:D4:4F:9B:4B:F1:72:D9:4E:B0:CE:32:D9:99:B5:8E:4B:3A:9E:35:53:9D:C4:E4:62:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "nb-app1.test.md.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:nb-app1.test.md.gov",
+        "subjectKeyIdentifier": "keyid:f4:42:cb:2c:65:8a:a8:78:79:54:84:1b:6e:52:21:3c:60:f9:39:eb"
+      }
+    },
+    "cert_index": 4039047450,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039047450&end=4039047450",
+    "seen": 1777840779.621,
+    "submission_timestamp": 1777836923.804,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "www.creditoffice.co.za",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 16:51:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditoffice.co.za",
+        "aggregated": "/CN=www.creditoffice.co.za"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058E5D9D478E88549CE53F86ACFAC66BF88D",
+      "not_before": 1777813234,
+      "not_after": 1785589233,
+      "fingerprint": "A9:45:7F:72:B6:04:99:FC:33:8E:23:EE:F5:55:A3:4C:44:FB:BC:AF",
+      "sha1": "A9:45:7F:72:B6:04:99:FC:33:8E:23:EE:F5:55:A3:4C:44:FB:BC:AF",
+      "sha256": "76:75:B9:95:3B:8C:E8:F1:C7:A1:4C:F3:06:A3:52:7B:FB:59:3D:5C:57:C4:6C:2B:B7:9E:0F:C5:70:36:D7:EC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditoffice.co.za",
+        "portal.creditoffice.co.za"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portal.creditoffice.co.za, DNS:www.creditoffice.co.za",
+        "subjectKeyIdentifier": "keyid:e5:f7:8c:e1:ea:27:88:06:80:43:f4:b2:97:97:1d:2f:51:84:4e:2b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 816509234,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=816509234&end=816509234",
+    "seen": 1777837906.164,
+    "submission_timestamp": 1777816744.85,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

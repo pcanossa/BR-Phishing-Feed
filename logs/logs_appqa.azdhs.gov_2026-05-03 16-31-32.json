@@ -1,0 +1,52 @@
+{
+  "dominio": "appqa.azdhs.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 16:31:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appqa.azdhs.gov",
+        "aggregated": "/CN=appqa.azdhs.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "C99C953B2427E9180D059B71C51E7949",
+      "not_before": 1777828974,
+      "not_after": 1785608571,
+      "fingerprint": "21:7C:DA:A8:31:B6:69:AA:F6:6A:E6:55:FE:F4:21:6D:C5:BA:DF:5C",
+      "sha1": "21:7C:DA:A8:31:B6:69:AA:F6:6A:E6:55:FE:F4:21:6D:C5:BA:DF:5C",
+      "sha256": "74:44:2F:80:6D:33:5C:19:21:03:42:65:BC:CF:84:E7:5C:16:E7:4B:3B:82:BA:80:4B:A2:97:B1:72:8E:93:FC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "appqa.azdhs.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/yZw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:appqa.azdhs.gov",
+        "subjectKeyIdentifier": "keyid:1f:49:4b:f9:65:ee:4c:b8:c1:24:e4:73:e2:34:cc:44:f1:44:97:85",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4038110135,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4038110135&end=4038110135",
+    "seen": 1777836692.474,
+    "submission_timestamp": 1777832574.589,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

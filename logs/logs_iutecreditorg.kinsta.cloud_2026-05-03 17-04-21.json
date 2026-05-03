@@ -1,0 +1,52 @@
+{
+  "dominio": "iutecreditorg.kinsta.cloud",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 17:04:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.iutecreditorg.kinsta.cloud",
+        "aggregated": "/CN=*.iutecreditorg.kinsta.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0A9A8E5C9BD1FFAF116BC2B398E77DD4",
+      "not_before": 1777830808,
+      "not_after": 1785610407,
+      "fingerprint": "9C:43:99:26:E8:1F:0D:F5:8B:C2:2F:37:4E:5A:63:C9:9F:3A:8E:61",
+      "sha1": "9C:43:99:26:E8:1F:0D:F5:8B:C2:2F:37:4E:5A:63:C9:9F:3A:8E:61",
+      "sha256": "AE:40:4B:45:2E:69:0F:24:00:7F:B7:92:18:91:64:B7:7C:CC:AF:00:23:CC:3D:7D:E7:1F:43:42:86:9E:95:AE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "*.iutecreditorg.kinsta.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Cpo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.iutecreditorg.kinsta.cloud",
+        "subjectKeyIdentifier": "keyid:25:1a:cb:f8:38:38:2d:be:db:be:51:52:c4:3b:ee:f3:e9:b3:7f:86",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4038480728,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4038480728&end=4038480728",
+    "seen": 1777838661.141,
+    "submission_timestamp": 1777834409.596,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
