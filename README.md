@@ -39,8 +39,8 @@ Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar 
 ```
 ---
 ## Criadora do Projeto
-**Github:** pcanossa
-**Linkedin:** linkedin.com/in/paulopatricia-canossa-gagliardi
+* **Github:** pcanossa
+* **Linkedin:** linkedin.com/in/patricia-canossa-gagliardi
 
 ---
 ## Objetivo do Projeto
