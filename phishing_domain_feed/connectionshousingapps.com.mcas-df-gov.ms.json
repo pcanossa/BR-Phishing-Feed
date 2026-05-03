@@ -1,14 +1,13 @@
 {
     "dominio": "connectionshousingapps.com.mcas-df-gov.ms",
-    "data_registro": "desconhecida",
+    "data_registro": "05/03/26 15:37:34",
     "categoria_ameaca": "phishing",
     "caracteristicas_suspeitas": [
-        "Domínio utiliza a extensão de nível superior '.ms' (Montserrat), mas imita um endereço governamental brasileiro ao incluir 'gov' e 'df' (Distrito Federal), o que pode confundir usuários que esperam um domínio '.gov.br'",
-        "A sequência 'connectionshousingapps.com' está inserida como subdomínio, criando a ilusão de um site legítimo de aplicativos de habitação, reforçando engenharia social",
-        "Uso de termos genéricos (connections, housing, apps) associados a serviços públicos, típicos de campanhas de phishing que simulam portais governamentais ou de auxílio habitacional",
-        "Domínio não está presente em listas públicas de domínios governamentais brasileiros (.gov.br) nem em bases de dados de domínios legítimos de agências habitacionais do DF",
-        "O comprimento e a complexidade do domínio favorecem a técnica de typo‑squatting, onde usuários podem interpretar erroneamente 'mcas-df-gov.ms' como 'mcas.df.gov.br'",
-        "Nenhum registro de DNS público aponta para serviços ou infraestrutura conhecidos; ausência de registros de MX ou A legítimos pode indicar uso temporário para páginas de captura"
+        "Domínio utiliza um sub‑domínio longo que inclui a palavra 'gov' e a sigla 'df', tentando imitar órgãos governamentais do Distrito Federal (Brasil).",
+        "A extensão de topo (.ms) não corresponde a domínios governamentais brasileiros (.gov.br), indicando tentativa de ‘domain shadowing’ para enganar usuários que olham apenas para a parte visual do endereço.",
+        "O rótulo intermediário 'connectionshousingapps.com' corresponde a um domínio aparentemente legítimo, mas ao ser usado como sub‑domínio de um domínio suspeito pode indicar comprometimento ou registro mal‑intencionado (sub‑domain hijacking).",
+        "Domínio não está presente em listas públicas de domínios confiáveis ou em bases de dados de entidades governamentais brasileiras.",
+        "A presença de termos em português como 'housing' e 'apps' combinada com a estrutura de imitação de governo sugere engenharia social direcionada a servidores públicos ou cidadãos que buscam serviços habitacionais."
     ],
-    "analise_comportamental": "O domínio 'connectionshousingapps.com.mcas-df-gov.ms' apresenta um padrão típico de phishing direcionado a usuários brasileiros: finge ser um portal governamental do Distrito Federal ao combinar a sigla 'gov' e 'df' com um subdomínio que parece ser de um serviço oficial de habitação. A escolha da TLD '.ms' e a inserção de um domínio '.com' dentro do subdomínio são estratégias de enganação para gerar confiança e induzir vítimas a inserir credenciais ou dados pessoais em uma página de coleta."
+    "analise_comportamental": "O domínio 'connectionshousingapps.com.mcas-df-gov.ms' apresenta características típicas de um site de phishing que utiliza técnicas de domain shadowing para se passar por um serviço governamental do Distrito Federal. A combinação de um sub‑domínio legítimo com um sufixo que imita autoridade pública, aliado ao TLD não‑brasileiro, aponta para um esforço de enganar vítimas no Brasil, possivelmente para coleta de credenciais ou distribuição de malware."
 }
