@@ -5,6 +5,10 @@ O **Br-Phishing-Feed** é uma infraestrutura de coleta rápida e resiliente proj
 
 Este repositório disponibiliza **exclusivamente o Feed obtido e filtrado**. O objetivo é fornecer uma "mangueira de dados" limpa, sem latência e sem limites de taxa (rate limiting), servindo como base para pipelines de segurança, detecção de phishing e proteção de marcas.
 
+Os dompinios filtrados, podem ser encontrados na pasta `phishing-domain-feed` e o log de base para filtro, obtido pelo CertStream na pasta `Logs`.
+
+---
+
 ## 🏗️ Arquitetura Criada (O Funil de CTI)
 
 Para lidar com a avalanche de dados globais (centenas de certificados por segundo) sem esgotar recursos, recomendamos o consumo deste Feed através de uma arquitetura de múltiplas camadas, culminando em uma triagem baseada em Inteligência Artificial.
