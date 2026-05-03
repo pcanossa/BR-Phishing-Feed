@@ -1,0 +1,51 @@
+{
+  "dominio": "nc.appeals2.az.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 14:44:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nc.appeals2.az.gov",
+        "aggregated": "/CN=nc.appeals2.az.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059D87C71B0B46DF7A7EC5DCE73276EC06DD",
+      "not_before": 1777822710,
+      "not_after": 1785598709,
+      "fingerprint": "75:1C:D6:98:67:5C:82:57:D9:E8:1E:94:4A:CD:5E:F6:9F:F4:A6:6C",
+      "sha1": "75:1C:D6:98:67:5C:82:57:D9:E8:1E:94:4A:CD:5E:F6:9F:F4:A6:6C",
+      "sha256": "51:CD:02:58:DB:EA:0C:C3:EA:60:6F:02:7A:C8:2E:9E:20:EA:2C:D3:70:FE:AB:0D:13:9A:35:24:0F:F1:12:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nc.appeals2.az.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nc.appeals2.az.gov",
+        "subjectKeyIdentifier": "keyid:93:1f:ff:6c:61:22:e1:11:fa:8b:b1:80:73:24:89:ae:c6:51:8c:c2"
+      }
+    },
+    "cert_index": 4036702759,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4036702759&end=4036702759",
+    "seen": 1777830277.846,
+    "submission_timestamp": 1777826223.688,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

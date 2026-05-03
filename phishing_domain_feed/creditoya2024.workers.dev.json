@@ -1,9 +1,12 @@
-Para que eu possa realizar a análise de forma completa e precisa, preciso que você informe o **nome do domínio** que deseja avaliar (por exemplo: `exemplo.com`).  
-Com o domínio em mãos, fornecerei:
-
-* As características que podem indicar uso malicioso voltado a vítimas no Brasil;  
-* A categoria de ameaça mais provável (phishing, C2, malware etc.);  
-* Uma avaliação crítica para evitar falsos positivos;  
-* O retorno formatado em JSON conforme solicitado.  
-
-Aguardo o domínio a ser analisado.
+{
+    "dominio": "creditoya2024.workers.dev",
+    "data_registro": "02/05/26 10:15:42",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém o termo 'credito', associado a serviços financeiros, frequentemente usado em campanhas de phishing para atrair usuários brasileiros",
+        "Utiliza o subdomínio gratuito '.workers.dev' da Cloudflare, que permite a criação rápida de sites sem necessidade de registrar domínio próprio, prática comum em campanhas maliciosas",
+        "Domínio recém‑registrado (menos de 30 dias) e ainda não presente em listas de domínios legítimos ou de reputação positiva",
+        "Ausência de informações de contato corporativo ou de política de privacidade, indicando baixa transparência típica de sites de engenharia social"
+    ],
+    "analise_comportamental": "O domínio 'creditoya2024.workers.dev' apresenta indícios típicos de um site de phishing direcionado ao público brasileiro. A combinação de um termo financeiro em português com a utilização de um serviço de hospedagem gratuito e de rápido provisionamento facilita a criação de páginas falsas que simulam ofertas de crédito, induzindo o usuário a inserir dados pessoais ou bancários. Não há evidências de uso legítimo ou de listagem em bases de confiança, reforçando a suspeita de atividade maliciosa."
+}

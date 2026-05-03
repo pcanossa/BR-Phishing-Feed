@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.app.dev.progi.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/03/26 14:19:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.app.dev.progi.com",
+        "aggregated": "/CN=pix.app.dev.progi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "ED80F161C8582742123E077A3A8013E6",
+      "not_before": 1777302466,
+      "not_after": 1785081699,
+      "fingerprint": "75:13:B0:AB:2A:64:2B:E8:95:23:D5:04:15:EC:8E:87:22:D2:64:DA",
+      "sha1": "75:13:B0:AB:2A:64:2B:E8:95:23:D5:04:15:EC:8E:87:22:D2:64:DA",
+      "sha256": "F8:15:C4:45:10:FC:54:7A:EB:14:7E:28:57:28:72:C5:24:74:FE:1E:D4:B2:4D:18:2F:C0:54:E4:45:A9:C0:40",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.app.dev.progi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/7YA, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.app.dev.progi.com",
+        "subjectKeyIdentifier": "keyid:7b:b3:f4:73:5f:75:96:48:35:76:cb:2c:a2:7c:bb:21:cc:4b:a1:42"
+      }
+    },
+    "cert_index": 4036317251,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4036317251&end=4036317251",
+    "seen": 1777828785.531,
+    "submission_timestamp": 1777824548.418,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

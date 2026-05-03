@@ -1,0 +1,51 @@
+{
+  "dominio": "www.autocreditoahora.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 15:22:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.autocreditoahora.com",
+        "aggregated": "/CN=www.autocreditoahora.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "079AF03AE5B64CA7",
+      "not_before": 1777823872,
+      "not_after": 1794931072,
+      "fingerprint": "76:36:F3:88:47:60:2D:2A:D6:9B:1A:89:CB:05:73:7D:75:6B:FD:49",
+      "sha1": "76:36:F3:88:47:60:2D:2A:D6:9B:1A:89:CB:05:73:7D:75:6B:FD:49",
+      "sha256": "E6:D5:6D:29:9A:AA:20:63:F1:2E:5D:79:48:1D:64:DB:62:FA:E4:DC:A4:15:1C:33:2A:FD:63:0C:85:5B:D3:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.autocreditoahora.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.autocreditoahora.com",
+        "subjectKeyIdentifier": "keyid:e2:2e:76:f0:21:d9:03:50:21:40:94:10:4e:fa:08:cb:e3:8f:b9:dd"
+      }
+    },
+    "cert_index": 4037187526,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4037187526&end=4037187526",
+    "seen": 1777832529.778,
+    "submission_timestamp": 1777828352.828,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

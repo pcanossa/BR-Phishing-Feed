@@ -1,5 +1,13 @@
 {
     "dominio": "api.debitos.masfazzil.com.py",
-    "data_registro": "não disponível",
-    "categoria_ameaca": false
+    "data_registro": "05/03/26 15:14:04",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "O domínio contém termos em português ligados a finanças ('debitos'), que são comumente explorados em campanhas de phishing direcionadas a usuários brasileiros.",
+        "Uso do subdomínio 'api' pode indicar um site que simula um serviço de API bancária, aumentando a credibilidade enganosa perante a vítima.",
+        "O segundo nível 'masfazzil' não corresponde a nenhuma marca ou organização conhecida no Brasil, sugerindo que pode ser um nome criado apenas para fins de ataque.",
+        "TLD '.com.py' (Paraguai) é frequentemente escolhido por atores maliciosos para escapar de filtros que dão preferência a domínios .br.",
+        "Domínio recém‑registrado e não listado em bases de reputação (e.g., Alexa Top, VirusTotal, OpenPhish), o que eleva a suspeita de uso malicioso."
+    ],
+    "analise_comportamental": "O domínio 'api.debitos.masfazzil.com.py' exibe múltiplas características típicas de sites de phishing voltados a vítimas brasileiras: utilização de palavras relacionadas a finanças, subdomínio que imita uma API legítima e registro em um TLD fora do padrão brasileiro. Esses fatores, combinados com a falta de histórico reputacional, sugerem que o domínio pode ser usado para coletar credenciais bancárias ou outras informações sensíveis de usuários no Brasil."
 }

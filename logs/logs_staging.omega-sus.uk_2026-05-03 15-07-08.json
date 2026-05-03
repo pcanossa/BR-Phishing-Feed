@@ -1,0 +1,51 @@
+{
+  "dominio": "staging.omega-sus.uk",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/03/26 15:07:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.omega-sus.uk",
+        "aggregated": "/CN=staging.omega-sus.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05B21418A8B3DBD8193C5EC77222ABCE08BE",
+      "not_before": 1777823738,
+      "not_after": 1785599737,
+      "fingerprint": "6E:1E:21:DD:AA:C0:58:FE:A2:BE:F3:E1:C4:84:2C:1E:2A:0A:62:88",
+      "sha1": "6E:1E:21:DD:AA:C0:58:FE:A2:BE:F3:E1:C4:84:2C:1E:2A:0A:62:88",
+      "sha256": "F1:A6:92:DA:F9:9E:2B:5B:D8:A7:6E:EA:FC:3E:0D:60:82:7F:64:29:F9:2D:C3:45:70:38:75:F5:EA:FC:2A:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging.omega-sus.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging.omega-sus.uk",
+        "subjectKeyIdentifier": "keyid:40:0e:9b:09:a8:e5:ff:7b:35:28:d9:ba:8a:d8:32:f2:00:1c:e9:50"
+      }
+    },
+    "cert_index": 4036941422,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4036941422&end=4036941422",
+    "seen": 1777831628.903,
+    "submission_timestamp": 1777827250.877,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

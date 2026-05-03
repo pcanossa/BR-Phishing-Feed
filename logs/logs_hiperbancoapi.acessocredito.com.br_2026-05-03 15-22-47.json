@@ -1,0 +1,55 @@
+{
+  "dominio": "hiperbancoapi.acessocredito.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 15:22:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.hiperbancoapi.acessocredito.com.br",
+        "aggregated": "/CN=www.hiperbancoapi.acessocredito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "FCF7907A213C66B10A2D493B8DD9E60F",
+      "not_before": 1777812895,
+      "not_after": 1785592108,
+      "fingerprint": "18:BA:71:22:79:61:4F:58:B9:38:9B:35:34:C7:17:68:55:7F:52:74",
+      "sha1": "18:BA:71:22:79:61:4F:58:B9:38:9B:35:34:C7:17:68:55:7F:52:74",
+      "sha256": "67:B0:49:C2:92:BD:83:E8:46:07:D9:94:5B:DA:7C:B6:7B:8A:E4:96:68:45:8C:86:CC:C9:49:9F:F4:AC:ED:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.hiperbancoapi.acessocredito.com.br",
+        "hiperbancoapi.acessocredito.com.br",
+        "www.dev.hiperbanco.acessocredito.com.br",
+        "dev.hiperbanco.acessocredito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/_Pc, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.hiperbancoapi.acessocredito.com.br, DNS:hiperbancoapi.acessocredito.com.br, DNS:www.dev.hiperbanco.acessocredito.com.br, DNS:dev.hiperbanco.acessocredito.com.br",
+        "subjectKeyIdentifier": "keyid:1d:46:a0:9b:4f:23:b8:c9:1b:aa:f0:e8:e0:7e:14:af:ee:26:6a:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 674465377,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=674465377&end=674465377",
+    "seen": 1777832568.008,
+    "submission_timestamp": 1777816496.329,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

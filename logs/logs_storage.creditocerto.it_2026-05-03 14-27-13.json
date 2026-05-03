@@ -1,0 +1,51 @@
+{
+  "dominio": "storage.creditocerto.it",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 14:27:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "storage.creditocerto.it",
+        "aggregated": "/CN=storage.creditocerto.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0581FE0581D727E345217D4F2D40853C040D",
+      "not_before": 1777302706,
+      "not_after": 1785078705,
+      "fingerprint": "F7:39:87:CF:F7:8B:8B:9E:06:7F:02:43:E4:6D:E1:25:8F:F1:6E:AA",
+      "sha1": "F7:39:87:CF:F7:8B:8B:9E:06:7F:02:43:E4:6D:E1:25:8F:F1:6E:AA",
+      "sha256": "17:4D:3F:5B:60:A2:49:C1:9B:3F:0D:E2:72:79:B6:D7:DE:D9:67:AD:7B:81:7A:85:24:7D:D8:03:91:56:51:B2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "storage.creditocerto.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:storage.creditocerto.it",
+        "subjectKeyIdentifier": "keyid:d8:51:9c:70:45:70:39:3e:99:4f:f6:33:e4:ec:57:dd:51:e4:d6:be"
+      }
+    },
+    "cert_index": 4036430982,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4036430982&end=4036430982",
+    "seen": 1777829233.543,
+    "submission_timestamp": 1777824994.911,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

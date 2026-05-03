@@ -1,0 +1,53 @@
+{
+  "dominio": "www.whmcredito.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 15:22:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "whmcredito.com.br",
+        "aggregated": "/CN=whmcredito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "050DEC0297C0B4F6EC3AD91F9883DDCD0B0A",
+      "not_before": 1777812676,
+      "not_after": 1785588675,
+      "fingerprint": "DE:6B:6B:7D:77:32:BD:25:4E:FF:FD:24:8E:AF:69:7E:83:8F:DD:6F",
+      "sha1": "DE:6B:6B:7D:77:32:BD:25:4E:FF:FD:24:8E:AF:69:7E:83:8F:DD:6F",
+      "sha256": "B7:9A:39:55:44:56:BF:31:5E:F7:B0:D2:64:F4:96:A3:18:4C:E2:4A:9C:A7:25:85:B7:15:74:7C:C1:38:12:46",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "whmcredito.com.br",
+        "www.whmcredito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:whmcredito.com.br, DNS:www.whmcredito.com.br",
+        "subjectKeyIdentifier": "keyid:6e:23:1d:e4:e7:4c:e5:36:86:c5:13:11:40:1f:23:5c:80:29:75:cb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 816418347,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=816418347&end=816418347",
+    "seen": 1777832536.262,
+    "submission_timestamp": 1777816186.538,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

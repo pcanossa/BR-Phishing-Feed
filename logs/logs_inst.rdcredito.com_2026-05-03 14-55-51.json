@@ -1,0 +1,51 @@
+{
+  "dominio": "inst.rdcredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 14:55:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "inst.rdcredito.com",
+        "aggregated": "/CN=inst.rdcredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06967543DA00730D539796890A268A67E495",
+      "not_before": 1777822913,
+      "not_after": 1785598912,
+      "fingerprint": "FA:BD:1E:F5:9A:95:21:0F:CF:CE:9E:AE:6A:F6:D8:61:9E:CE:FA:92",
+      "sha1": "FA:BD:1E:F5:9A:95:21:0F:CF:CE:9E:AE:6A:F6:D8:61:9E:CE:FA:92",
+      "sha256": "46:0A:16:5A:9A:01:8C:76:F2:10:29:D4:B1:0A:B9:FF:8D:ED:90:6B:53:4D:97:A0:99:67:BD:E2:2E:6F:DB:C9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "inst.rdcredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:inst.rdcredito.com",
+        "subjectKeyIdentifier": "keyid:5c:72:30:30:ad:bb:90:3c:f1:3a:ea:2f:ca:ce:41:1f:1c:34:a0:37"
+      }
+    },
+    "cert_index": 4036745768,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4036745768&end=4036745768",
+    "seen": 1777830950.994,
+    "submission_timestamp": 1777826426.6,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
