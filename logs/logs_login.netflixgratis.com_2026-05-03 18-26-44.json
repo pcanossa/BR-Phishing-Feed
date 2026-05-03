@@ -1,0 +1,53 @@
+{
+  "dominio": "login.netflixgratis.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/03/26 18:26:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.netflixgratis.com",
+        "aggregated": "/CN=login.netflixgratis.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "015792CC618C2B1A2FD2C8ED0C97A016",
+      "not_before": 1777766400,
+      "not_after": 1785542399,
+      "fingerprint": "4D:5E:18:A3:D4:1C:48:3C:16:83:37:E2:8F:8A:8F:96:D9:54:16:BF",
+      "sha1": "4D:5E:18:A3:D4:1C:48:3C:16:83:37:E2:8F:8A:8F:96:D9:54:16:BF",
+      "sha256": "EA:B0:18:EE:89:6B:87:83:59:9B:48:04:AA:70:B7:13:96:CA:62:0D:6F:7A:72:FD:9C:7B:99:E0:88:6B:34:C3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.netflixgratis.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.netflixgratis.com",
+        "subjectKeyIdentifier": "keyid:22:97:33:1d:42:e2:4c:21:b3:a3:53:74:f5:eb:ec:dc:6b:bf:2a:02",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 548686342,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=548686342&end=548686342",
+    "seen": 1777843604.486,
+    "submission_timestamp": 1777834611.875,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

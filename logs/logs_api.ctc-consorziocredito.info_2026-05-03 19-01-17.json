@@ -1,0 +1,51 @@
+{
+  "dominio": "api.ctc-consorziocredito.info",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 19:01:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.ctc-consorziocredito.info",
+        "aggregated": "/CN=api.ctc-consorziocredito.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0514BF1F0872919C37D248B18A0A71846E07",
+      "not_before": 1777837799,
+      "not_after": 1785613798,
+      "fingerprint": "FE:05:E0:2A:18:ED:20:BB:89:02:DB:6B:FD:77:E3:C2:4C:1A:78:B7",
+      "sha1": "FE:05:E0:2A:18:ED:20:BB:89:02:DB:6B:FD:77:E3:C2:4C:1A:78:B7",
+      "sha256": "4C:BD:58:B8:28:0D:28:F7:87:F0:AE:27:DB:E3:8E:D2:C7:5B:2C:39:23:3F:17:98:28:39:90:06:B0:95:D8:FF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api.ctc-consorziocredito.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.ctc-consorziocredito.info",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4040009450,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4040009450&end=4040009450",
+    "seen": 1777845676.91,
+    "submission_timestamp": 1777841311.157,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

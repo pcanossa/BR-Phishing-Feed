@@ -1,0 +1,58 @@
+Análise de Domínio para Identificação de Ameaças Maliciosas:
+
+**Domínio:** ctc-consorciocredito.info
+**Data Registro:** 05/03/26 18:21:07
+**Categoria Ameaca:** Não Detectado
+
+**Características Suspeitas:**
+
+*   Não encontrado na lista de domínios legítimos conhecidos.
+*   Não é um registro público ou não possui registros significativos.
+
+**Análise Comportamental:** O domínio 'ctc-consorciocredito.info' não apresenta características típicas de atividades maliciosas. Não é detectado em listas de domínios maliciosos conhecidas, nem possui registros relevantes que indiquem a presença de atividades suspeitas.
+
+**Exemplo:**
+
+```json
+{
+    "dominio": "ctc-consorciocredito.info",
+    "data_registro": "05/03/26 18:21:07",
+    "categoria_ameaca": "false"
+}
+```
+
+**Domínio:** amazon.com.br
+**Data Registro:** 05/03/26 18:21:07
+**Categoria Ameaca:** Phishing
+**Características Suspeitas:**
+
+*   Domínio contém a marca 'amazon', que é de orgão público, o que pode ser usado para enganar usuários desavisados.
+*   Domínio contém o termo 'com', que é comumente usada em campanhas de phishing para induzir a ação do usuário.
+
+**Análise Comportamental:** O domínio 'amazon.com.br' apresenta características típicas de um site de phishing, como a presença da de orgão público e termos de engenharia social.
+
+**Exemplo:**
+
+```json
+{
+    "dominio": "amazon.com.br",
+    "data_registro": "05/03/26 18:21:07",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'amazon', que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a extensão '.com' que é comumente usada em campanhas de phishing para induzir a ação do usuário"
+    ],
+    "analise_comportamental": "O domínio 'amazon.com.br' apresenta características típicas de um site de phishing, como a presença da marca de orgão público e termos de engenharia social."
+}
+```
+
+**Domínio:** paypal.com
+**Data Registro:** 05/03/26 18:21:07
+**Categoria Ameaca:** Não Detectado
+
+**Características Suspeitas:**
+
+*   O domínio 'paypal' é conhecido por ser uma marca de instituição financeira.
+*   Não possui registros significativos que indiquem a presença de atividades maliciosas.
+
+**Análise Comportamental:** O domínio 'paypal.com' não apresenta características típicas de atividades maliciosas. É um domínio legítimo e conhecido por ser uma marca de instituição financeira.

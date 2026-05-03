@@ -1,27 +1,12 @@
-Analisaremos o domínio `appsantander.geo-trans.pro` para identificar se ele apresenta características que possam indicar atividades maliciosas com escopo em vítimas do Brasil, como phishing, malware, C2, etc.
-
-## Análise das Características
-
-*   **Domínio Contém a marca 'geo-trans' que é de empresa privada**: o domínio contém a marca 'geo-trans', que é de uma empresa privada. Isso não é suficiente para indicar atividade maliciosa, já que muitas empresas têm nomes semelhantes.
-*   **Domínio Contém a extensão '.pro'**: a extensão '.pro' é comum em domínios registrados por empresas ou organizações. Isso não é suficiente para indicar atividade maliciosa, já que muitos domínios legítimos têm essa extensão.
-*   **Domínio Não Contém Marcas de Instituições Públicas**: o domínio não contém marcas de instituições públicas, como 'gov' ou 'edu'. Isso é um indicativo de que o domínio pode ser legítimo.
-
-## Análise Comportamental
-
-*   **O Domínio 'appsantander.geo-trans.pro' Não Apresenta Características Típicas de Phishing**: O domínio não apresenta características típicas de phishing, como a presença da marca de uma instituição financeira ou o uso de termos comuns em campanhas de phishing.
-
-## Conclusão
-
-Com base na análise das características e no comportamento do domínio `appsantander.geo-trans.pro`, não há evidências suficientes para indicar que o domínio seja usado para atividades maliciosas com escopo em vítimas do Brasil, como phishing, malware, C2, etc. O domínio parece ser legítimo e não apresenta características típicas de atividade maliciosa.
-
-**Retorno da Análise:**
-
-```json
 {
     "dominio": "appsantander.geo-trans.pro",
-    "data_registro": "05/03/26 18:05:53",
-    "categoria_ameaca": "false",
+    "data_registro": "desconhecida",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'santander' que é de instituição financeira brasileira, o que pode ser usado para enganar usuários desavisados",
+        "A extensão '.pro' não é comumente utilizada por serviços legítimos do Santander, aumentando a suspeita",
+        "O subdomínio 'appsantander' pode indicar tentativa de imitar um aplicativo ou serviço oficial do banco",
+        "Dominio não está presente em listas de domínios legítimos conhecidos do Santander"
+    ],
+    "analise_comportamental": "O domínio 'appsantander.geo-trans.pro' apresenta características típicas de um site de phishing, como a presença de marca de instituição financeira brasileira e termos que sugerem serviço oficial, possivelmente para roubo de credenciais de vítimas no Brasil."
 }
-```
-
-Esse retorno indica que o domínio não é considerado ameaçador.

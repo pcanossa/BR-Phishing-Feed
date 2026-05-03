@@ -1,0 +1,26 @@
+Para o domínio `associazione-debitori.it`, como não atende ao escopo definido de foco em vítimas do Brasil e não possui características típicas de phishing ou malware, a análise é negativa.
+
+```json
+{
+    "dominio": "associazione-debitori.it",
+    "data_registro": "05/03/26 18:24:10",
+    "categoria_ameaca": "false"
+}
+```
+
+No entanto, para o domínio `cartao-bradescard.com`, apresenta características típicas de um site de phishing, como a presença da marca de instituição financeira, de extensão `.com` e termos de engenharia social. Além disso, não está presente em listas de domínios legítimos conhecidos e contém palavras-chave comuns usadas em campanhas de phishing.
+
+```json
+{
+    "dominio": "cartao-bradescard.com",
+    "data_registro": "05/03/26 18:24:10",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'bradescard' que é de instituição financeira, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a extensão '.com' que é comumente usada em campanhas de phishing para induzir a ação do usuário",
+        "Domínio contém o termo 'cartao' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'cartao-bradescard.com' apresenta características típicas de um site de phishing, como a presença da marca de instituição financeira, de extensão '.com' e termos de engenharia social."
+}
+```

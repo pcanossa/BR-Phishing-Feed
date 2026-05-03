@@ -12,7 +12,7 @@ def ollama_engine(message):
 
     try:
             full_response = []
-            for part in client.chat('llama3.2:latest', messages=message, stream=True):
+            for part in client.chat('deepseek-v3.2:cloud', messages=message, stream=True):
               content = part['message']['content']
               full_response.append(content)
             return "".join(full_response)

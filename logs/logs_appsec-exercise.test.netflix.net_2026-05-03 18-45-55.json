@@ -1,0 +1,56 @@
+{
+  "dominio": "appsec-exercise.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/03/26 18:45:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "appsec-exercise.test.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=appsec-exercise.test.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0CB158B0DC2D84ADEBBD753837CD84A1",
+      "not_before": 1777766400,
+      "not_after": 1785607226,
+      "fingerprint": "75:A4:36:96:AC:D6:80:23:1F:36:35:D5:DE:9B:AF:7D:A8:F5:51:E4",
+      "sha1": "75:A4:36:96:AC:D6:80:23:1F:36:35:D5:DE:9B:AF:7D:A8:F5:51:E4",
+      "sha256": "81:2D:27:FB:53:C1:12:6B:1C:1F:54:CC:1C:65:28:97:4D:41:80:26:3D:CC:0C:1D:1F:D4:5F:41:9C:E6:28:9D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "appsec-exercise.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:appsec-exercise.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:4e:7c:74:cd:80:d8:59:15:04:55:52:4b:4e:6b:11:40:b0:7b:5a:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 575234050,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=575234050&end=575234050",
+    "seen": 1777844755.5,
+    "submission_timestamp": 1777831227.345,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

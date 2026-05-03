@@ -1,0 +1,53 @@
+{
+  "dominio": "apps.areglarcredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 18:13:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.areglarcredito.com",
+        "aggregated": "/CN=apps.areglarcredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0BD99419DE50B2F5C39EF1A487FE76BF",
+      "not_before": 1777766400,
+      "not_after": 1785542399,
+      "fingerprint": "B7:99:51:99:6D:F5:C1:EE:2C:CD:BD:BF:F0:91:FD:98:D6:34:F4:A3",
+      "sha1": "B7:99:51:99:6D:F5:C1:EE:2C:CD:BD:BF:F0:91:FD:98:D6:34:F4:A3",
+      "sha256": "A4:0C:EA:01:8C:6D:4B:5A:AA:A5:40:C7:3E:B2:47:48:73:CC:5E:19:AE:E3:88:1E:EA:88:A2:BC:93:16:D4:0D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.areglarcredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.areglarcredito.com",
+        "subjectKeyIdentifier": "keyid:0b:fe:85:fe:ba:79:d9:7b:d1:e8:9a:fa:e7:bc:14:1c:6e:7c:38:9a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4039382743,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039382743&end=4039382743",
+    "seen": 1777842794.864,
+    "submission_timestamp": 1777838523.442,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

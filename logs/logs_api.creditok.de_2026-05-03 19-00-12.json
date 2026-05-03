@@ -1,0 +1,53 @@
+{
+  "dominio": "api.creditok.de",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 19:00:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.creditok.de",
+        "aggregated": "/CN=api.creditok.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "040370628AF0B1D544C816978C895E93",
+      "not_before": 1777766400,
+      "not_after": 1785542399,
+      "fingerprint": "5D:29:59:E8:E2:39:19:71:B0:EB:72:55:DB:8C:83:CA:EF:F0:FA:E8",
+      "sha1": "5D:29:59:E8:E2:39:19:71:B0:EB:72:55:DB:8C:83:CA:EF:F0:FA:E8",
+      "sha256": "27:5D:4B:C4:2F:18:BA:AD:9E:FC:FE:E3:0C:8B:88:47:69:64:37:C0:B8:26:D2:D1:FE:5B:A0:FA:64:64:06:BF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.creditok.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.creditok.de",
+        "subjectKeyIdentifier": "keyid:db:c4:92:d0:3f:8f:ed:15:1a:8b:bc:71:e5:75:b2:9a:48:ff:a2:3c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 548840643,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=548840643&end=548840643",
+    "seen": 1777845613.228,
+    "submission_timestamp": 1777835987.157,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

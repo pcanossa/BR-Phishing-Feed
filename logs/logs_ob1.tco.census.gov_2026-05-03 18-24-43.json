@@ -1,0 +1,51 @@
+{
+  "dominio": "ob1.tco.census.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 18:24:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ob1.tco.census.gov",
+        "aggregated": "/CN=ob1.tco.census.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0584EC7F540B84E516A6BBA3D1D1EDF041B4",
+      "not_before": 1777835599,
+      "not_after": 1785611598,
+      "fingerprint": "BC:C8:9C:45:11:99:A4:7C:4E:43:33:AE:E1:90:BE:3C:1C:5D:39:37",
+      "sha1": "BC:C8:9C:45:11:99:A4:7C:4E:43:33:AE:E1:90:BE:3C:1C:5D:39:37",
+      "sha256": "D9:F9:F2:8E:F1:51:A3:F8:F8:BC:81:D0:87:C7:72:6F:2A:91:F7:1A:60:07:7A:59:E5:24:19:A5:15:51:E3:9C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ob1.tco.census.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ob1.tco.census.gov",
+        "subjectKeyIdentifier": "keyid:9f:df:27:54:b3:73:10:76:f6:74:7a:8f:44:79:ee:a6:c8:ff:4f:d5"
+      }
+    },
+    "cert_index": 4039560259,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039560259&end=4039560259",
+    "seen": 1777843482.365,
+    "submission_timestamp": 1777839112.284,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

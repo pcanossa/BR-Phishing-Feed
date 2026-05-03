@@ -1,0 +1,53 @@
+{
+  "dominio": "app-balady-gov.site",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 18:31:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-balady-gov.site",
+        "aggregated": "/CN=app-balady-gov.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0580788A12B9C29DCB5D1B575AE3DF45501C",
+      "not_before": 1777836077,
+      "not_after": 1785612076,
+      "fingerprint": "6E:8A:12:0C:7B:18:2E:C3:3D:61:5A:89:48:BB:99:B3:58:7C:64:90",
+      "sha1": "6E:8A:12:0C:7B:18:2E:C3:3D:61:5A:89:48:BB:99:B3:58:7C:64:90",
+      "sha256": "B6:EE:2D:F6:65:6D:F0:26:E8:49:A7:26:6D:52:08:D0:B3:49:A5:1D:A3:6C:6C:B7:B8:58:A5:D9:92:F7:C0:02",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-balady-gov.site",
+        "www.app-balady-gov.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-balady-gov.site, DNS:www.app-balady-gov.site",
+        "subjectKeyIdentifier": "keyid:57:9e:5e:1d:10:70:82:d9:88:67:69:14:31:11:12:e9:a7:e5:6d:2d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4039670408,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039670408&end=4039670408",
+    "seen": 1777843912.536,
+    "submission_timestamp": 1777839588.044,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

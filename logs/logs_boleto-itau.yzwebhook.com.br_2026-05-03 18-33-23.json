@@ -1,0 +1,52 @@
+{
+  "dominio": "boleto-itau.yzwebhook.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/03/26 18:33:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto-itau.yzwebhook.com.br",
+        "aggregated": "/CN=boleto-itau.yzwebhook.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "056F99733D1A1576E38B8A0AACFC3839C7EB",
+      "not_before": 1777836205,
+      "not_after": 1785612204,
+      "fingerprint": "5E:90:82:72:34:12:C0:71:79:3B:E9:4C:79:CB:5B:16:63:6E:01:24",
+      "sha1": "5E:90:82:72:34:12:C0:71:79:3B:E9:4C:79:CB:5B:16:63:6E:01:24",
+      "sha256": "43:CA:2A:DA:AC:48:AA:47:C6:35:D8:E2:54:2D:F7:12:85:4D:CF:77:D1:6A:B8:74:01:5A:59:01:55:E2:4F:34",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "boleto-itau.yzwebhook.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:boleto-itau.yzwebhook.com.br",
+        "subjectKeyIdentifier": "keyid:89:7c:46:92:73:4c:bd:4e:aa:5c:4a:2d:7e:b9:96:91:7d:c0:ed:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4039695209,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039695209&end=4039695209",
+    "seen": 1777844003.045,
+    "submission_timestamp": 1777839715.741,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
