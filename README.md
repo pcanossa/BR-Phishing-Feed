@@ -1,9 +1,9 @@
 # Br-Phishing-Feed: Feed de Detecções de Domínios Phishing no Brasil
 
 
-O **Br-Phishing-Feed** é uma infraestrutura de coleta rápida e resiliente projetada para operações de Cyber Threat Intelligence (CTI). Ele fornece um nó local do CertStream (escrito em Rust) que consome o feed global de Transparência de Certificados (CT Logs) em tempo real.
+O **Br-Phishing-Feed** é uma infraestrutura de coleta rápida e resiliente projetada para operações de Cyber Threat Intelligence (CTI). Ele fornece um feed de domínios potencialmente malignos, obtidos diretamente pelo CertStream que consome o feed global de Transparência de Certificados (CT Logs) em tempo real, com filtro de falsos positivos relizados por IA Ollama.
 
-Este repositório disponibiliza **exclusivamente a infraestrutura do Feed (Backend)**. O objetivo é fornecer uma "mangueira de dados" limpa, sem latência e sem limites de taxa (rate limiting), servindo como base para pipelines de segurança, detecção de phishing e proteção de marcas.
+Este repositório disponibiliza **exclusivamente o Feed obtido e filtrado**. O objetivo é fornecer uma "mangueira de dados" limpa, sem latência e sem limites de taxa (rate limiting), servindo como base para pipelines de segurança, detecção de phishing e proteção de marcas.
 
 ## 🏗️ Arquitetura Criada (O Funil de CTI)
 
