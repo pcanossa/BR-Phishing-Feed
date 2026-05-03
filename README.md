@@ -46,5 +46,7 @@ Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar 
 ## Objetivo do Projeto
 
 Esse projeto foi criado, principalmente, para, fornecer de forma fácil e aberta, inteligência de detecção de domínios, com alto potencial de malignidade, para vítimas do Brasil, assim, permitindo a fácil detecção e atividade em CTI, por profissionais atuantes no mercado de trabalho e pesquisadores indepentes, fortalecendo a comunidade de Cibersegutana do Brasil e auxiliando no aumento segurança cibernética nacional e proteção das vítimas. 
+<br>
+<br>
 Sinta-se a vontade para **apoiar** o projeto com **sugestões**, **críticas** e **colaboração direta de melhorias**. **Toda ajuda é bem vinda**!!
 
