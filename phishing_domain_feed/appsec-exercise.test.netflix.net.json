@@ -1,0 +1,58 @@
+Análise de Domínios Malignos para Atividades Maliciosas em Vítimas do Brasil:
+
+**Análise do Domínio**
+
+* **appsec-exercise.test.netflix.net**: Este domínio não parece ter características típicas de atividades maliciosas, pois não contém a marca de instituição financeira, nem o termo "entrega" ou "cartão", que são comumente usados em campanhas de phishing. Além disso, o domínio não está presente em listas de domínios legítimos conhecidos.
+* **Entrega-correios.com**: Este domínio apresenta características típicas de um site de phishing, como a presença da marca "correios" que é de orgão público, e o termo "entrega" que é comumente usado em campanhas de phishing. Além disso, o domínio não está presente em listas de domínios legítimos conhecidos.
+* **Cartao-bradescard.com**: Este domínio apresenta características típicas de um site de phishing, como a presença da marca "bradescard" que é de instituição financeira, e o termo "cartão" que é comumente usado em campanhas de phishing. Além disso, o domínio não está presente em listas de domínios legítimos conhecidos.
+
+**Análise Comportamental**
+
+* **appsec-exercise.test.netflix.net**: Não há características típicas de atividades maliciosas.
+* **entrega-correios.com**: O domínio apresenta comportamento típico de um site de phishing, com a presença da marca "correios" e o termo "entrega".
+* **cartao-bradescard.com**: O domínio apresenta comportamento típico de um site de phishing, com a presença da marca "bradescard" e o termo "cartão".
+
+**Classificação**
+
+* **appsec-exercise.test.netflix.net**: Não é um domínio maligno.
+* **entrega-correios.com**: É um domínio maligno, pois apresenta características típicas de um site de phishing.
+* **cartao-bradescard.com**: É um domínio maligno, pois apresenta características típicas de um site de phishing.
+
+**Retorno da Análise**
+
+```json
+{
+    "dominio": "appsec-exercise.test.netflix.net",
+    "data_registro": "05/03/26 18:06:09",
+    "categoria_ameaca": "false"
+}
+```
+
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 18:06:09",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "Domínio contém o termo 'entrega' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da de orgão público e termos de engenharia social."
+}
+```
+
+```json
+{
+    "dominio": "cartao-bradescard.com",
+    "data_registro": "05/03/26 18:06:09",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'bradescard' que é de instituição financeira, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a extensão '.com' que é comumente usada em campanhas de phishing para induzir a ação do usuário",
+        "Domínio contém o termo 'cartao' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'cartao-bradescard.com' apresenta características típicas de um site de phishing, como a presença da de marca de instituição financeira, de extensão '.com' e termos de engenharia social."
+}
+```

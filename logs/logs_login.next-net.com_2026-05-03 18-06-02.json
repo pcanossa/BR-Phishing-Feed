@@ -1,0 +1,52 @@
+{
+  "dominio": "login.next-net.com",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/03/26 18:06:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.next-net.com",
+        "aggregated": "/CN=login.next-net.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "092C076809A7DA4CB5A6462F8DD9B8C2",
+      "not_before": 1777766400,
+      "not_after": 1785542399,
+      "fingerprint": "BC:0B:96:2E:19:8D:E6:45:F7:B1:8D:48:D8:6C:6D:A7:01:FC:7F:C0",
+      "sha1": "BC:0B:96:2E:19:8D:E6:45:F7:B1:8D:48:D8:6C:6D:A7:01:FC:7F:C0",
+      "sha256": "41:D1:DB:E6:1A:AD:00:D6:41:33:4B:7D:D1:BE:CF:BD:39:B4:38:E4:0A:85:77:73:B0:85:5E:35:14:E8:F1:21",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.next-net.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.next-net.com",
+        "subjectKeyIdentifier": "keyid:a5:06:14:34:d4:75:3c:91:84:06:02:76:ff:77:cc:47:f5:35:ed:ac"
+      }
+    },
+    "cert_index": 4039269558,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039269558&end=4039269558",
+    "seen": 1777842362.501,
+    "submission_timestamp": 1777837914.405,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

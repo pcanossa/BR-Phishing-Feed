@@ -1,0 +1,111 @@
+**Análise de Domínios Maliciosos**
+
+Aqui está a análise do domínio `app.netflixav.com`:
+
+*   **Características suspeitas:**
+    *   Domínio contém a marca "Netflix", que é uma empresa legítima.
+    *   O domínio não contém nenhuma característica típica de um site de phishing.
+
+**Conclusão:** O domínio `app.netflixav.com` não apresenta características típicas de um site de phishing e, portanto, não é considerado maligno. A categoria de ameaça é "false".
+
+**Retorno da Análise em JSON:**
+
+```json
+{
+    "dominio": "app.netflixav.com",
+    "data_registro": "05/03/26 17:54:53",
+    "categoria_ameaca": "false"
+}
+```
+
+Agora que analisamos o domínio `app.netflixav.com`, vamos realizar a análise do próximo domínio, que é `cartao-bradescard.com`.
+
+**Análise de Domínios Maliciosos**
+
+Aqui está a análise do domínio `cartao-bradescard.com`:
+
+*   **Características suspeitas:**
+    *   O domínio contém a marca "bradesco", que é uma instituição financeira legítima.
+    *   Domínio não contém a extensão `.com`, como em muitas campanhas de phishing.
+
+**Conclusão:** O domínio `cartao-bradescard.com` não apresenta características típicas de um site de phishing e, portanto, não é considerado maligno. A categoria de ameaça é "false".
+
+**Retorno da Análise em JSON:**
+
+```json
+{
+    "dominio": "cartao-bradescard.com",
+    "data_registro": "05/03/26 17:54:53",
+    "categoria_ameaca": "false"
+}
+```
+
+Agora que analisamos o domínio `cartao-bradescard.com`, vamos realizar a análise do próximo domínio, que é `entrega-correios.com`.
+
+**Análise de Domínios Maliciosos**
+
+Aqui está a análise do domínio `entrega-correios.com`:
+
+*   **Características suspeitas:**
+    *   O domínio contém a marca "correios", que é um orgão público.
+    *   A palavra-chave "entrega" pode ser usada em campanhas de phishing para induzir ação dos usuários.
+
+**Conclusão:** O domínio `entrega-correios.com` apresenta características típicas de um site de phishing, como a presença da marca de orgão público e a palavra-chave "entrega", que pode ser usada em campanhas de phishing. A categoria de ameaça é "phishing".
+
+**Retorno da Análise em JSON:**
+
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 17:54:53",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a palavra-chave 'entrega', que é comumente usada em campanhas de phishing para induzir ação do usuário"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da marca de orgão público e a palavra-chave 'entrega', que pode ser usada em campanhas de phishing."
+}
+```
+
+Agora que analisamos o domínio `entrega-correios.com`, vamos realizar a análise do próximo domínio.
+
+**Análise de Domínios Maliciosos**
+
+O próximo domínio é `sus.vulcanstars.win`.
+
+**Conclusão:** O domínio "sus.vulcanstars.win" não apresenta características típicas de um site de phishing e, portanto, não é considerado maligno. A categoria de ameaça é "false".
+
+**Retorno da Análise em JSON:**
+
+```json
+{
+    "dominio": "sus.vulcanstars.win",
+    "data_registro": "05/03/26 17:54:53",
+    "categoria_ameaca": "false"
+}
+```
+
+Agora que analisamos o domínio `sus.vulcanstars.win`, é hora de realizar a análise do próximo domínio.
+
+**Análise de Domínios Maliciosos**
+
+O próximo domínio é `entrega-correios.com` ( novamente ).
+
+**Conclusão:** O domínio "entrega-correios.com" apresenta características típicas de um site de phishing, como a presença da marca de orgão público e a palavra-chave "entrega", que pode ser usada em campanhas de phishing. A categoria de ameaça é "phishing".
+
+**Retorno da Análise em JSON:**
+
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 17:54:53",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a palavra-chave 'entrega', que é comumente usada em campanhas de phishing para induzir ação do usuário"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da marca de orgão público e a palavra-chave 'entrega', que pode ser usada em campanhas de phishing."
+}
+```
+
+Seu domínio foi novamente detectado com o mesmo resultado.

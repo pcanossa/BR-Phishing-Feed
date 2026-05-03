@@ -1,0 +1,57 @@
+{
+  "dominio": "wapig.kiwicredito.hudsondata.ai",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 18:01:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "auth.kiwicredito.hudsondata.ai",
+        "aggregated": "/CN=auth.kiwicredito.hudsondata.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "BB91C933FF6CF12B09AFFD7F98DCF226",
+      "not_before": 1777834019,
+      "not_after": 1785613292,
+      "fingerprint": "92:DD:49:17:BF:3C:B5:25:72:57:ED:C4:73:F0:97:0E:DB:31:E8:69",
+      "sha1": "92:DD:49:17:BF:3C:B5:25:72:57:ED:C4:73:F0:97:0E:DB:31:E8:69",
+      "sha256": "87:19:F2:95:00:CD:45:F6:08:C6:27:86:BE:D6:A5:C1:E5:30:C0:79:D4:5C:9E:E7:7A:00:47:F7:3A:78:7D:19",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "auth.kiwicredito.hudsondata.ai",
+        "version-control.kiwicredito.hudsondata.ai",
+        "wapi.kiwicredito.hudsondata.ai",
+        "kiwicredito.hudsondata.ai",
+        "grafana.kiwicredito.hudsondata.ai",
+        "wapig.kiwicredito.hudsondata.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/u5E, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:auth.kiwicredito.hudsondata.ai, DNS:version-control.kiwicredito.hudsondata.ai, DNS:wapi.kiwicredito.hudsondata.ai, DNS:kiwicredito.hudsondata.ai, DNS:grafana.kiwicredito.hudsondata.ai, DNS:wapig.kiwicredito.hudsondata.ai",
+        "subjectKeyIdentifier": "keyid:7a:2c:79:50:ba:e6:e0:1d:20:85:f9:30:08:f5:01:b0:cc:96:d7:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4039209989,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4039209989&end=4039209989",
+    "seen": 1777842091.623,
+    "submission_timestamp": 1777837621.313,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

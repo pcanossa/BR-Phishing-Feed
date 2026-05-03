@@ -1,0 +1,83 @@
+Análise do Domínio `entrega-correios.com`:
+
+*   **Características que possam indicar que o domínio é usado para atividades maliciosas:**
+    *   Contém a marca 'correios' que é de orgão público, mas em um contexto não legítimo.
+    *   Contém o termo 'entrega', comumente usado em campanhas de phishing.
+*   **Categoria de ameaça:** Phishing
+*   **Sinais de possível phishing:** Sí, pois contém características típicas de um site de phishing, como a presença da marca de orgão público e termos de engenharia social.
+
+**Análise Comportamental:**
+O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing. A presença da marca 'correios' em um contexto não legítimo e a utilização do termo 'entrega' podem induzir o usuário a clicar no link ou inserir informações pessoais, tornando-o vulnerável a ataques de phishing.
+
+**Retorno da Análise em JSON:**
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 18:04:56",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "Domínio contém o termo 'entrega' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da de orgão público e termos de engenharia social."
+}
+```
+
+Análise do Domínio `cartao-bradescard.com`:
+
+*   **Características que possam indicar que o domínio é usado para atividades maliciosas:**
+    *   Contém a marca 'bradescard' de instituição financeira.
+    *   Contém a extensão '.com', comumente usada em campanhas de phishing.
+    *   Contém o termo 'cartao', comumente usado em campanhas de phishing.
+*   **Categoria de ameaça:** Phishing
+*   **Sinais de possível phishing:** Sí, pois contém características típicas de um site de phishing.
+
+**Análise Comportamental:**
+O domínio 'cartao-bradescard.com' apresenta características típicas de um site de phishing. A presença da marca 'bradescard' de instituição financeira, a utilização da extensão '.com' e do termo 'cartao' podem induzir o usuário a clicar no link ou inserir informações pessoais, tornando-o vulnerável a ataques de phishing.
+
+**Retorno da Análise em JSON:**
+```json
+{
+    "dominio": "cartao-bradescard.com",
+    "data_registro": "05/03/26 18:04:56",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'bradescard' que é de instituição financeira, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a extensão '.com' que é comumente usada em campanhas de phishing para induzir a ação do usuário",
+        "Domínio contém o termo 'cartao' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'cartao-bradescard.com' apresenta características típicas de um site de phishing, como a presença da marca de instituição financeira, de extensão '.com' e termos de engenharia social."
+}
+```
+
+Análise do Domínio `sus.vulcanstars.win`:
+
+*   **Características que possam indicar que o domínio é usado para atividades maliciosas:** Não há características suspeitas nesse caso.
+*   **Categoria de ameaça:** Falso, pois não há sinais de possível phishing.
+
+**Retorno da Análise em JSON:**
+```json
+{
+    "dominio": "sus.vulcanstars.win",
+    "data_registro": "05/03/26 18:04:56",
+    "categoria_ameaca": "false"
+}
+```
+
+Análise do Domínio `apps.tim-transport.de`:
+
+*   **Características que possam indicar que o domínio é usado para atividades maliciosas:** Não há características suspeitas nesse caso.
+*   **Categoria de ameaça:** Falso, pois não há sinais de possível phishing.
+
+**Retorno da Análise em JSON:**
+```json
+{
+    "dominio": "apps.tim-transport.de",
+    "data_registro": "05/03/26 18:04:56",
+    "categoria_ameaca": "false"
+}
+```
+
+Esses resultados mostram que o domínio 'entrega-correios.com' e 'cartao-bradescard.com' possuem características típicas de sites de phishing, enquanto os demais domínios não apresentaram sinais de atividade maliciosa.

@@ -1,0 +1,43 @@
+Analisando o domínio `entrega-correios.com` e `cartao-bradescard.com`, podemos identificar as seguintes características:
+
+**Características suspeitas:**
+
+*   Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados.
+*   Domínio contém o termo 'entrega' que é comumente usado em campanhas de phishing para induzir a ação do usuário.
+*   Dominio não está presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa.
+
+**Análise comportamental:**
+O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da de orgão público e termos de engenharia social.
+
+O mesmo acontece com o domínio `cartao-bradescard.com`, que também apresenta características típicas de um site de phishing, como a presença da marca de instituição financeira, extensão '.com' e termos de engenharia social.
+
+**Retorno da análise:**
+
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 18:00:36",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "Domínio contém o termo 'entrega' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não está presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da de orgão público e termos de engenharia social."
+}
+```
+
+```json
+{
+    "dominio": "cartao-bradescard.com",
+    "data_registro": "05/03/26 18:00:36",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'bradescard' que é de instituição financeira, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a extensão '.com' que é comumente usada em campanhas de phishing para induzir a ação do usuário",
+        "Domínio contém o termo 'cartao' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não está presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'cartao-bradescard.com' apresenta características típicas de um site de phishing, como a presença da marca de instituição financeira, de extensão '.com' e termos de engenharia social."
+}
+```

@@ -1,0 +1,139 @@
+### Análise de Domínios para Atividades Maliciosas
+
+#### Características Analisadas
+
+*   **Domínio**: Identificação do domínio para análise.
+*   **Data Registro**: Data e hora do registro do domínio.
+*   **Categoria Ameaca**: Categorização da ameaça associada ao domínio (ex: phishing, malware, etc.).
+*   **Características Suspeitas**: Características específicas do domínio que sugiram atividades maliciosas.
+*   **Análise Comportamental**: Descrição detalhada da análise comportamental do domínio.
+
+#### Análise do Domínio "app.stone-group.it"
+
+O domínio `app.stone-group.it` apresenta algumas características que podem indicar atividades maliciosas, mas não são suficientes para confirmar uma categoria de ameaça específica. No entanto, é necessário considerar a possibilidade de phishing.
+
+*   **Domínio**: O domínio `app.stone-group.it` parece ser um domínio legítimo, pois contém a marca "stone-group" que não é de orgão público.
+*   **Data Registro**: A data de registro do domínio é relativamente recente (05/03/26 17:55:56), o que pode sugerir atividades maliciosas. No entanto, sem mais informações sobre a empresa ou a pessoa registradora, não há certeza se está associado a uma atividade legítima.
+*   **Categoria Ameaca**: Considerar "phishing" para verificar se é benigno.
+*   **Características Suspeitas**:
+    *   **Domínio contém a marca 'stone-group' que não é de orgão público**: Isso pode ser um sinal de atividade legítima, mas também pode ser usado em campanhas de phishing para enganar usuários desavisados.
+    *   **O domínio não está presente em listas de domínios legítimos conhecidos.**\
+        **Não é necessário incluir "não encontrado" como característica suspeita**, pois isso pode ser interpretado como um sinal de atividade maliciosa.
+*   **Análise Comportamental**: O domínio `app.stone-group.it` não apresenta características típicas de phishing, mas sua marca e extensão podem ser usadas para enganar usuários.
+
+**Conclusão**: Não há evidências suficientes para confirmar que o domínio "app.stone-group.it" seja usado para atividades maliciosas. É necessário mais informações sobre a empresa ou pessoa registradora para avaliar sua legitimidade.
+
+#### Retorno da Análise
+
+```json
+{
+    "dominio": "app.stone-group.it",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": false,
+}
+```
+
+Aqui está o retorno da análise em formato JSON, considerando que o domínio não é maligno.
+
+#### Exemplo de Retorno para um Domínio Maligno
+
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "Domínio contém o termo 'entrega' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da marca orgão público e termos de engenharia social."
+}
+```
+
+Aqui está o retorno da análise em formato JSON para um domínio que pode ser maligno.
+
+#### Exemplo de Retorno para um Domínio Não Maligno ou fora do Escopo
+
+```json
+{
+    "dominio": "sus.vulcanstars.win",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": false,
+}
+```
+
+Aqui está o retorno da análise em formato JSON para um domínio que não é maligno ou não atende ao escopo definido.
+
+### Exemplo de Retorno
+
+```json
+{
+    "dominio": "app.stone-group.it",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": false,
+}
+```
+
+Aqui está o retorno da análise para o domínio solicitado.
+
+#### Exemplo de Retorno
+
+```json
+{
+    "dominio": "entrega-correios.com",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'correios' que é de orgão público, o que pode ser usado para enganar usuários desavisados",
+        "Domínio contém o termo 'entrega' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'entrega-correios.com' apresenta características típicas de um site de phishing, como a presença da marca orgão público e termos de engenharia social."
+}
+```
+
+Aqui está o retorno para o domínio solicitado.
+
+#### Exemplo de Retorno
+
+```json
+{
+    "dominio": "cartao-bradescard.com",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém a marca 'bradescard' que é de instituição financeira, o que pode ser usado para enganar usuários desavisados",
+        "O domínio contém a extensão '.com' que é comumente usada em campanhas de phishing para induzir a ação do usuário",
+        "Domínio contém o termo 'cartao' que é comumente usado em campanhas de phishing para induzir a ação do usuário",
+        "Dominio não presente em listas de domínios legítimos conhecidos, o que aumenta a suspeita de atividade maliciosa"
+    ],
+    "analise_comportamental": "O domínio 'cartao-bradescard.com' apresenta características típicas de um site de phishing, como a presença da marca de instituição financeira, da extensão '.com' e termos de engenharia social."
+}
+```
+
+Aqui está o retorno para o domínio solicitado.
+
+#### Exemplo de Retorno
+
+```json
+{
+    "dominio": "sus.vulcanstars.win",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": false,
+}
+```
+
+Aqui está o retorno para o domínio solicitado.
+
+#### Exemplo de Retorno
+
+```json
+{
+    "dominio": "sus.vulcanstars.win",
+    "data_registro": "05/03/26 17:55:56",
+    "categoria_ameaca": false,
+}
+```
+
+Aqui está o retorno para o domínio solicitado.
