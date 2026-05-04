@@ -1,0 +1,57 @@
+{
+  "dominio": "tls.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 08:59:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06506E106C0D22F25B615EBE777C92E8",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "B3:58:F2:C6:AE:1F:A4:8D:5E:1F:BD:8F:E8:B8:E4:44:E9:EA:B9:32",
+      "sha1": "B3:58:F2:C6:AE:1F:A4:8D:5E:1F:BD:8F:E8:B8:E4:44:E9:EA:B9:32",
+      "sha256": "8C:B6:6C:E4:FB:32:C0:90:CB:53:0C:86:85:6A:72:33:5A:8E:96:77:A5:89:20:B6:17:4E:F9:32:87:6B:7F:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "*.scram.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "*.tls.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "*.iam2.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "*.tls2.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "*.iam.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "*.scram2.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com, DNS:*.scram.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com, DNS:*.tls.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com, DNS:*.iam2.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com, DNS:*.tls2.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com, DNS:*.iam.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com, DNS:*.scram2.rmcanarycpfa947f32bd1b.3ld0tb.c1.kafka.ap-east-2.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:3f:52:a3:60:2e:b5:c5:eb:dc:75:c8:c1:de:a4:ee:7a:1a:db:61:a4"
+      }
+    },
+    "cert_index": 159612361,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x623/485",
+    "seen": 1777895962.843,
+    "submission_timestamp": 1777895959.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

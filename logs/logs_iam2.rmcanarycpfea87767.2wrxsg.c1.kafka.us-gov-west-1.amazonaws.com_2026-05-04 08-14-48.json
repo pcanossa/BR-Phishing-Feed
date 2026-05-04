@@ -1,0 +1,59 @@
+{
+  "dominio": "iam2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+  "marcas_encontradas": [
+    "gov",
+    "amazon"
+  ],
+  "timestamp": "05/04/26 08:14:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06FD8A76C23FF8AAB3A44895C9A01959",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "AE:BF:38:25:42:93:56:8A:83:53:49:F5:E4:8A:AE:94:1B:AD:3B:25",
+      "sha1": "AE:BF:38:25:42:93:56:8A:83:53:49:F5:E4:8A:AE:94:1B:AD:3B:25",
+      "sha256": "CC:F4:6E:BA:3D:4B:FD:7E:F2:AE:1C:8E:E0:8C:30:E9:F7:88:B0:D9:E8:C5:D3:86:BD:64:C1:FF:02:0E:B5:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "*.scram.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "*.scram2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "*.iam2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "*.tls.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "*.tls2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "*.iam.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com, DNS:*.scram.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com, DNS:*.scram2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com, DNS:*.iam2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com, DNS:*.tls.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com, DNS:*.tls2.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com, DNS:*.iam.rmcanarycpfea87767.2wrxsg.c1.kafka.us-gov-west-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:22:64:77:21:32:f2:69:83:2c:24:84:bd:e0:cb:53:7b:b0:13:e5:5c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 552260024,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=552260024&end=552260024",
+    "seen": 1777893286.48,
+    "submission_timestamp": 1777866733.12,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

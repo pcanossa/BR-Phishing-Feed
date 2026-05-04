@@ -1,0 +1,51 @@
+{
+  "dominio": "woocommerce-demo.pix-digital.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 08:48:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "woocommerce-demo.pix-digital.com",
+        "aggregated": "/CN=woocommerce-demo.pix-digital.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060FBF1C9B0E84957488A11361BBAEBAD292",
+      "not_before": 1777887257,
+      "not_after": 1785663256,
+      "fingerprint": "6D:15:F7:5F:EA:83:8F:17:2F:D4:A5:CD:71:04:FB:76:12:DF:F1:C3",
+      "sha1": "6D:15:F7:5F:EA:83:8F:17:2F:D4:A5:CD:71:04:FB:76:12:DF:F1:C3",
+      "sha256": "51:EB:64:D1:4A:83:00:28:70:D8:E2:FE:C5:52:A5:B9:F8:94:2F:B4:25:DE:D7:74:F5:17:B3:23:D5:B5:B4:E3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "woocommerce-demo.pix-digital.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:woocommerce-demo.pix-digital.com",
+        "subjectKeyIdentifier": "keyid:91:20:02:56:c0:3e:47:7c:3d:47:3d:31:b5:28:42:3d:b4:9c:60:5d"
+      }
+    },
+    "cert_index": 4051531961,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051531961&end=4051531961",
+    "seen": 1777895329.97,
+    "submission_timestamp": 1777890770.4,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

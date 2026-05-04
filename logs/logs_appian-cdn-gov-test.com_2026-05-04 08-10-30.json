@@ -1,0 +1,53 @@
+{
+  "dominio": "appian-cdn-gov-test.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 08:10:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "web-assets.appian-cdn-gov-test.com",
+        "aggregated": "/CN=web-assets.appian-cdn-gov-test.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "031D45CE38D078CFD7E6897B84643611",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "D5:5A:E3:99:95:23:6F:78:0D:38:02:BA:44:1C:6A:BF:BC:70:02:0D",
+      "sha1": "D5:5A:E3:99:95:23:6F:78:0D:38:02:BA:44:1C:6A:BF:BC:70:02:0D",
+      "sha256": "58:8E:EF:06:1D:48:6A:3A:C4:8F:01:45:C0:40:BE:C0:97:E6:52:BD:BE:30:22:6B:31:24:CF:4F:10:8C:E8:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "web-assets.appian-cdn-gov-test.com",
+        "appian-cdn-gov-test.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:web-assets.appian-cdn-gov-test.com, DNS:appian-cdn-gov-test.com",
+        "subjectKeyIdentifier": "keyid:f8:18:01:e8:af:a2:d5:9c:d8:89:72:72:3e:df:c4:f9:b2:12:e9:3f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 552242652,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=552242652&end=552242652",
+    "seen": 1777893028.622,
+    "submission_timestamp": 1777866574.706,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "3betnncnhfyb3fdt8rtcd03ifo.gamma.us-west-2.amazongamelift.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 08:48:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.3betnncnhfyb3fdt8rtcd03ifo.gamma.us-west-2.amazongamelift.com",
+        "aggregated": "/CN=*.3betnncnhfyb3fdt8rtcd03ifo.gamma.us-west-2.amazongamelift.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "075305E5EA2E94A95FDF67020193BE33",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "F1:3F:9F:73:90:E4:45:54:7B:4E:82:F9:0B:6B:20:82:8D:D7:1A:37",
+      "sha1": "F1:3F:9F:73:90:E4:45:54:7B:4E:82:F9:0B:6B:20:82:8D:D7:1A:37",
+      "sha256": "6D:96:DA:AA:DA:DC:7B:D3:3B:FE:B2:C5:3B:68:43:D6:73:A8:88:99:27:F2:DF:39:FA:3D:74:40:4C:FA:23:17",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.3betnncnhfyb3fdt8rtcd03ifo.gamma.us-west-2.amazongamelift.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.3betnncnhfyb3fdt8rtcd03ifo.gamma.us-west-2.amazongamelift.com",
+        "subjectKeyIdentifier": "keyid:c4:3c:d7:a4:98:75:5d:de:27:7b:3e:dd:1e:70:f1:e1:d6:45:92:6e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4051527356,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051527356&end=4051527356",
+    "seen": 1777895311.723,
+    "submission_timestamp": 1777890753.288,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

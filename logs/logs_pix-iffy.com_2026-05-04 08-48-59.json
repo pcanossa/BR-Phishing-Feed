@@ -1,0 +1,55 @@
+{
+  "dominio": "pix-iffy.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 08:48:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-iffy.com",
+        "aggregated": "/CN=pix-iffy.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "L": "Scottsdale",
+        "O": "GoDaddy.com, Inc.",
+        "OU": "http://certs.godaddy.com/repository/",
+        "ST": "Arizona",
+        "aggregated": "/C=US/CN=Go Daddy Secure Certificate Authority - G2/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//ST=Arizona"
+      },
+      "serial_number": "CC27F9EDEF7D0868",
+      "not_before": 1777886418,
+      "not_after": 1785662418,
+      "fingerprint": "C6:A4:8E:72:A1:5D:DB:73:48:40:B3:2F:C7:D5:91:E0:38:A7:EB:C1",
+      "sha1": "C6:A4:8E:72:A1:5D:DB:73:48:40:B3:2F:C7:D5:91:E0:38:A7:EB:C1",
+      "sha256": "E7:EB:10:86:BE:06:2C:53:C6:B0:27:D4:62:A3:D4:06:0D:0F:30:34:F8:1C:65:CB:38:A3:36:4D:20:D7:0B:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix-iffy.com",
+        "www.pix-iffy.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gdig2.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:40:c2:bd:27:8e:cc:34:83:30:a2:33:d7:fb:6c:b3:f0:b4:2c:80:ce",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix-iffy.com, DNS:www.pix-iffy.com",
+        "subjectKeyIdentifier": "keyid:a6:f6:04:9d:d0:27:0f:a9:76:28:5a:6d:03:0a:45:c8:a9:6b:13:cd"
+      }
+    },
+    "cert_index": 4051533703,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051533703&end=4051533703",
+    "seen": 1777895338.077,
+    "submission_timestamp": 1777890776.899,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

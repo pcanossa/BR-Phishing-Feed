@@ -1,0 +1,52 @@
+{
+  "dominio": "twin-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 08:13:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "twin-pix.com",
+        "aggregated": "/CN=twin-pix.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "04FE88A7240CC912F5771F7AEEFB1F6D",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "21:ED:1B:4B:0F:3F:1E:C0:0C:E1:C9:0B:21:6C:19:80:47:B7:EB:0D",
+      "sha1": "21:ED:1B:4B:0F:3F:1E:C0:0C:E1:C9:0B:21:6C:19:80:47:B7:EB:0D",
+      "sha256": "8F:1F:C9:C5:10:B7:C2:66:FD:22:A0:82:1A:F4:16:13:64:A5:12:34:E6:5D:32:E9:E7:C3:34:FF:4B:D6:07:71",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "twin-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:twin-pix.com",
+        "subjectKeyIdentifier": "keyid:ed:7f:39:df:fe:6e:39:eb:20:38:62:0c:6a:44:23:b0:81:ce:f1:34",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4051021861,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051021861&end=4051021861",
+    "seen": 1777893199.859,
+    "submission_timestamp": 1777888884.241,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

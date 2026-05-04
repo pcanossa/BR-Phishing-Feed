@@ -1,0 +1,53 @@
+{
+  "dominio": "www.api.certificadodigital.app2.amazonsistemas.com.br",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 08:48:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.api.certificadodigital.app2.amazonsistemas.com.br",
+        "aggregated": "/CN=www.api.certificadodigital.app2.amazonsistemas.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E356FC0DB4E7C0FBDCFBAFD3B98B06C25F",
+      "not_before": 1777855299,
+      "not_after": 1785631298,
+      "fingerprint": "51:03:13:6A:8A:D0:F3:97:82:09:83:E3:D6:3F:0C:F5:3C:86:ED:88",
+      "sha1": "51:03:13:6A:8A:D0:F3:97:82:09:83:E3:D6:3F:0C:F5:3C:86:ED:88",
+      "sha256": "62:25:19:B1:55:EC:E9:92:7C:F6:CD:10:E9:52:DD:9A:BF:81:F0:CA:B6:F4:41:78:6D:55:D5:FD:67:C9:17:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.api.certificadodigital.app2.amazonsistemas.com.br",
+        "api.certificadodigital.app2.amazonsistemas.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.certificadodigital.app2.amazonsistemas.com.br, DNS:www.api.certificadodigital.app2.amazonsistemas.com.br",
+        "subjectKeyIdentifier": "keyid:77:5f:21:cb:98:95:2d:b8:d0:3b:49:0b:25:5b:c5:3a:40:76:6e:d2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 578263621,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=578263621&end=578263621",
+    "seen": 1777895291.145,
+    "submission_timestamp": 1777858809.81,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

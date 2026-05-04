@@ -1,0 +1,52 @@
+{
+  "dominio": "app.gov.cn.8789.tjrayly.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 09:02:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.gov.cn.8789.tjrayly.com",
+        "aggregated": "/CN=app.gov.cn.8789.tjrayly.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9681A1354D227EEA23589A0108DA0001",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "6F:C9:BB:6F:70:CB:F0:1A:3A:62:C6:79:48:B7:DB:CD:AD:34:F0:12",
+      "sha1": "6F:C9:BB:6F:70:CB:F0:1A:3A:62:C6:79:48:B7:DB:CD:AD:34:F0:12",
+      "sha256": "9D:9C:AB:22:B9:48:F9:F5:35:35:67:7B:C8:E3:0F:8F:40:08:A3:7E:92:3E:3F:BF:52:38:B1:8F:D8:27:4B:01",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.gov.cn.8789.tjrayly.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.gov.cn.8789.tjrayly.com",
+        "subjectKeyIdentifier": "keyid:73:f4:10:0f:61:13:a5:b4:52:b5:14:e4:fd:6c:2c:bc:23:ff:5a:ea",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4051725670,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051725670&end=4051725670",
+    "seen": 1777896156.279,
+    "submission_timestamp": 1777891565.373,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

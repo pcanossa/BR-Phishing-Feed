@@ -1,0 +1,52 @@
+{
+  "dominio": "appsync-api.eu-west-1.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 08:27:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.appsync-api.eu-west-1.amazonaws.com",
+        "aggregated": "/CN=*.appsync-api.eu-west-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0B6E83752F360907555F94743E4063E3",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "92:E4:98:28:64:6E:5B:6F:74:FF:EB:18:0C:0C:AC:17:A4:98:BA:E5",
+      "sha1": "92:E4:98:28:64:6E:5B:6F:74:FF:EB:18:0C:0C:AC:17:A4:98:BA:E5",
+      "sha256": "BE:63:F7:20:8B:95:FA:4D:55:3D:17:B9:14:91:65:97:F3:C5:87:C0:C1:33:BE:79:61:72:85:34:02:96:85:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.appsync-api.eu-west-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.appsync-api.eu-west-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:a9:39:55:ab:ac:9c:ec:20:85:b7:9b:45:87:4e:36:66:f8:16:dc:7d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 552315859,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=552315859&end=552315859",
+    "seen": 1777894071.203,
+    "submission_timestamp": 1777867259.292,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

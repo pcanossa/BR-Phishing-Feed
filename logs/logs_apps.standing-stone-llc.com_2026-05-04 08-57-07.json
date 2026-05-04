@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.standing-stone-llc.com",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/04/26 08:57:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.standing-stone-llc.com",
+        "aggregated": "/CN=apps.standing-stone-llc.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "FD38BCBCAAE90896279F534EB45D524F",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "F3:6A:E9:3F:33:22:25:41:95:06:95:45:A2:3F:CF:23:40:C3:5F:66",
+      "sha1": "F3:6A:E9:3F:33:22:25:41:95:06:95:45:A2:3F:CF:23:40:C3:5F:66",
+      "sha256": "95:F4:B5:C0:CB:D7:8C:25:CE:08:49:79:34:65:1A:EF:30:A5:A1:CE:E2:6C:45:60:DA:8C:BB:E2:F2:8F:B2:4E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.standing-stone-llc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.standing-stone-llc.com",
+        "subjectKeyIdentifier": "keyid:48:fc:3b:ac:4f:b5:00:13:e0:0d:8b:0a:21:19:9a:a4:b2:81:23:8b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4051648963,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051648963&end=4051648963",
+    "seen": 1777895825.636,
+    "submission_timestamp": 1777891236.291,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

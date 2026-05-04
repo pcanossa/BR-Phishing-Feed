@@ -1,0 +1,52 @@
+{
+  "dominio": "credito.enricorovere.it",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 08:57:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "credito.enricorovere.it",
+        "aggregated": "/CN=credito.enricorovere.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05845C34863B7CF11A32D416535AC458CC77",
+      "not_before": 1777887769,
+      "not_after": 1785663768,
+      "fingerprint": "A6:FD:DD:A6:C7:61:82:F8:D1:12:90:32:CD:E0:DB:29:EC:85:50:0A",
+      "sha1": "A6:FD:DD:A6:C7:61:82:F8:D1:12:90:32:CD:E0:DB:29:EC:85:50:0A",
+      "sha256": "09:C5:0B:CA:91:D8:FD:A4:1C:8F:7D:D1:82:FE:FA:37:AD:D1:F8:49:07:2B:1B:C6:A5:38:72:62:49:97:00:47",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "credito.enricorovere.it",
+        "www.credito.enricorovere.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:credito.enricorovere.it, DNS:www.credito.enricorovere.it",
+        "subjectKeyIdentifier": "keyid:0f:0f:8f:96:9b:15:3b:37:87:76:32:66:0b:80:81:be:cb:fa:ae:66"
+      }
+    },
+    "cert_index": 4051659639,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051659639&end=4051659639",
+    "seen": 1777895873.314,
+    "submission_timestamp": 1777891283.049,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
