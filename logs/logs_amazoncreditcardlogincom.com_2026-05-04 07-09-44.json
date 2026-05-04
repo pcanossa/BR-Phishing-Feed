@@ -1,0 +1,52 @@
+{
+  "dominio": "amazoncreditcardlogincom.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 07:09:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "amazoncreditcardlogincom.com",
+        "aggregated": "/CN=amazoncreditcardlogincom.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E443BA68AC6B4F87",
+      "not_before": 1777884928,
+      "not_after": 1794992128,
+      "fingerprint": "06:CE:59:67:B4:D8:4E:BF:37:06:53:4B:2C:73:1F:DB:FC:F1:B7:5D",
+      "sha1": "06:CE:59:67:B4:D8:4E:BF:37:06:53:4B:2C:73:1F:DB:FC:F1:B7:5D",
+      "sha256": "0F:79:08:3C:C1:97:60:03:08:89:CB:C8:29:6D:F7:8D:09:2E:3D:D6:2C:20:6E:3F:94:F2:4E:64:61:10:47:1C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "amazoncreditcardlogincom.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:amazoncreditcardlogincom.com",
+        "subjectKeyIdentifier": "keyid:24:a0:32:fe:16:63:46:b4:99:8d:dd:9d:70:34:3a:97:bd:2a:58:00",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050131718,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050131718&end=4050131718",
+    "seen": 1777889382.098,
+    "submission_timestamp": 1777884928.871,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "api.boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/04/26 07:36:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.boletosserasa.com",
+        "aggregated": "/CN=api.boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "17F6F9FFE92C6B408325E800CBBE9873",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "CF:F0:7A:86:FB:9F:7A:EA:1A:D8:AC:F7:F8:95:B9:A4:9F:DF:9B:61",
+      "sha1": "CF:F0:7A:86:FB:9F:7A:EA:1A:D8:AC:F7:F8:95:B9:A4:9F:DF:9B:61",
+      "sha256": "F7:40:8D:A8:E9:9C:94:B6:0C:01:39:F3:4A:D1:E3:06:27:63:D8:67:98:80:02:24:B2:67:17:DF:B8:FA:52:FC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "api.boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:1b:94:8d:53:37:86:31:76:56:97:9d:1c:22:e0:e7:ef:6e:a6:85:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050510759,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050510759&end=4050510759",
+    "seen": 1777890982.497,
+    "submission_timestamp": 1777886569.839,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

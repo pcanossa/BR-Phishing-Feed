@@ -1,0 +1,52 @@
+{
+  "dominio": "login.amazongosmile.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 08:03:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.amazongosmile.com",
+        "aggregated": "/CN=login.amazongosmile.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "C278F5AC68078AD7315C7E5F676E1BE9",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "8D:9C:91:37:C3:3F:AD:24:00:AD:2C:7D:61:46:BF:C0:33:85:D9:1E",
+      "sha1": "8D:9C:91:37:C3:3F:AD:24:00:AD:2C:7D:61:46:BF:C0:33:85:D9:1E",
+      "sha256": "D6:BF:7C:A6:1B:12:91:B7:3A:19:77:86:72:0F:25:D0:5F:27:C1:6A:0E:4C:5D:AC:8D:59:98:7E:B0:D9:AA:21",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.amazongosmile.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.amazongosmile.com",
+        "subjectKeyIdentifier": "keyid:8b:12:b3:e7:08:09:9b:c9:85:64:2d:6d:6c:8b:28:96:94:e2:d9:55",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050859984,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050859984&end=4050859984",
+    "seen": 1777892599.262,
+    "submission_timestamp": 1777888144.443,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

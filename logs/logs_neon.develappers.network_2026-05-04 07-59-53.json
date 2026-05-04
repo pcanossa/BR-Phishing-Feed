@@ -1,0 +1,51 @@
+{
+  "dominio": "neon.develappers.network",
+  "marcas_encontradas": [
+    "neon"
+  ],
+  "timestamp": "05/04/26 07:59:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "neon.develappers.network",
+        "aggregated": "/CN=neon.develappers.network"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05FC41F3C7C6FD043A6A6BF6C9E841CD73EC",
+      "not_before": 1777884375,
+      "not_after": 1785660374,
+      "fingerprint": "25:F6:B6:A5:BE:17:F3:34:E2:A2:05:1B:0D:F1:30:66:E6:2A:17:0B",
+      "sha1": "25:F6:B6:A5:BE:17:F3:34:E2:A2:05:1B:0D:F1:30:66:E6:2A:17:0B",
+      "sha256": "5F:FB:86:5D:21:9F:75:4C:86:0D:E0:66:AF:4B:82:D6:FC:99:30:B3:FA:EB:42:BB:45:A4:DE:D0:62:44:0B:9B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "neon.develappers.network"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:neon.develappers.network",
+        "subjectKeyIdentifier": "keyid:d8:8e:a1:d8:b1:6b:95:7d:ef:62:99:d8:6b:5b:57:09:3b:c3:0f:76"
+      }
+    },
+    "cert_index": 4050807104,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050807104&end=4050807104",
+    "seen": 1777892392.059,
+    "submission_timestamp": 1777887887.009,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

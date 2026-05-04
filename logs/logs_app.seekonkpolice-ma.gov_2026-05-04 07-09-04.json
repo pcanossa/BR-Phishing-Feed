@@ -1,0 +1,52 @@
+{
+  "dominio": "app.seekonkpolice-ma.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 07:09:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.seekonkpolice-ma.gov",
+        "aggregated": "/CN=app.seekonkpolice-ma.gov"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "A4BD76AE9754FC3A251F363DFABE105D",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "92:8F:69:15:D0:F7:0F:67:A0:DE:DE:25:83:2F:34:BB:55:E0:78:D3",
+      "sha1": "92:8F:69:15:D0:F7:0F:67:A0:DE:DE:25:83:2F:34:BB:55:E0:78:D3",
+      "sha256": "66:17:B0:E5:8A:B3:A3:F2:A4:A7:8F:42:75:EA:7A:BA:8A:33:01:91:F6:73:ED:B5:3C:13:FE:48:F0:87:DC:E3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.seekonkpolice-ma.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.seekonkpolice-ma.gov",
+        "subjectKeyIdentifier": "keyid:db:fc:4f:87:e4:6b:79:c9:3b:36:0f:ae:36:5c:58:e5:1c:af:9d:d6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050120810,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050120810&end=4050120810",
+    "seen": 1777889344.228,
+    "submission_timestamp": 1777884897.943,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

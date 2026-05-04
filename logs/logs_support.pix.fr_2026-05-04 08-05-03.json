@@ -1,0 +1,51 @@
+{
+  "dominio": "support.pix.fr",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 08:05:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "support.pix.fr",
+        "aggregated": "/CN=support.pix.fr"
+      },
+      "issuer": {
+        "C": "FR",
+        "CN": "GandiCert",
+        "O": "Gandi SAS",
+        "aggregated": "/C=FR/CN=GandiCert/O=Gandi SAS"
+      },
+      "serial_number": "069340D78C208F8AFE2EB0840E7671A0",
+      "not_before": 1777852800,
+      "not_after": 1795046399,
+      "fingerprint": "50:0B:D0:38:32:08:8A:85:79:38:98:8B:18:63:58:23:70:1A:57:26",
+      "sha1": "50:0B:D0:38:32:08:8A:85:79:38:98:8B:18:63:58:23:70:1A:57:26",
+      "sha256": "13:29:E9:DC:BB:94:2E:0D:66:7F:89:AD:98:A5:D1:0E:62:B1:50:92:F9:D9:24:26:32:FE:B9:B6:C6:D4:45:9E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "support.pix.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/GandiCert.crt",
+        "authorityKeyIdentifier": "keyid:ba:bb:46:88:45:ec:dd:5a:2b:18:c5:d1:4e:ec:e3:3c:06:52:53:ac",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:support.pix.fr",
+        "subjectKeyIdentifier": "keyid:fa:22:eb:0c:4e:4b:34:0b:e8:33:d8:6a:ee:76:e7:af:54:f8:39:39"
+      }
+    },
+    "cert_index": 4050888929,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050888929&end=4050888929",
+    "seen": 1777892703.483,
+    "submission_timestamp": 1777888283.692,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

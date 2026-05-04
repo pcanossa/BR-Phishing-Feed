@@ -1,0 +1,51 @@
+{
+  "dominio": "amazoncreditcardlogincom.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 07:09:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "amazoncreditcardlogincom.com",
+        "aggregated": "/CN=amazoncreditcardlogincom.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E443BA68AC6B4F87",
+      "not_before": 1777884928,
+      "not_after": 1794992128,
+      "fingerprint": "AF:6C:AB:77:FF:E8:F4:4A:DA:AF:70:26:02:B3:B6:72:3F:F3:23:A0",
+      "sha1": "AF:6C:AB:77:FF:E8:F4:4A:DA:AF:70:26:02:B3:B6:72:3F:F3:23:A0",
+      "sha256": "09:FD:DB:F5:18:4D:DA:BF:03:0A:4A:01:58:A2:CF:7B:21:EB:80:81:F6:69:A6:48:C8:78:94:B5:42:70:0D:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "amazoncreditcardlogincom.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:amazoncreditcardlogincom.com",
+        "subjectKeyIdentifier": "keyid:24:a0:32:fe:16:63:46:b4:99:8d:dd:9d:70:34:3a:97:bd:2a:58:00"
+      }
+    },
+    "cert_index": 4050132463,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050132463&end=4050132463",
+    "seen": 1777889386.971,
+    "submission_timestamp": 1777884932.113,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

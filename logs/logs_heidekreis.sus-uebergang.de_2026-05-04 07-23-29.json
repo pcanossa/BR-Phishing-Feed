@@ -1,0 +1,51 @@
+{
+  "dominio": "heidekreis.sus-uebergang.de",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/04/26 07:23:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "heidekreis.sus-uebergang.de",
+        "aggregated": "/CN=heidekreis.sus-uebergang.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "062AFFA5F2BABEDE6608A13E793C6A86FD4C",
+      "not_before": 1777882253,
+      "not_after": 1785658252,
+      "fingerprint": "68:CD:B5:0D:10:76:56:8F:FB:46:A2:6B:84:C5:25:7E:9F:79:12:E3",
+      "sha1": "68:CD:B5:0D:10:76:56:8F:FB:46:A2:6B:84:C5:25:7E:9F:79:12:E3",
+      "sha256": "4E:57:31:B6:31:D7:9A:61:62:B4:A9:07:2F:5E:4E:56:57:CD:E3:8C:AE:97:00:8A:D7:84:B1:FB:92:22:45:78",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "heidekreis.sus-uebergang.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:heidekreis.sus-uebergang.de",
+        "subjectKeyIdentifier": "keyid:5d:0d:99:38:7a:55:4e:1e:76:f2:c3:dd:a1:63:2b:c5:a2:a6:c5:a9"
+      }
+    },
+    "cert_index": 4050327400,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050327400&end=4050327400",
+    "seen": 1777890207.668,
+    "submission_timestamp": 1777885766.948,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

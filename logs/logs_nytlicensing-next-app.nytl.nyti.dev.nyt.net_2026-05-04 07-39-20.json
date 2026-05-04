@@ -1,0 +1,51 @@
+{
+  "dominio": "nytlicensing-next-app.nytl.nyti.dev.nyt.net",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 07:39:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nytlicensing-next-app.nytl.nyti.dev.nyt.net",
+        "aggregated": "/CN=nytlicensing-next-app.nytl.nyti.dev.nyt.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05930647A7DC0D793D3AA75663F3E972A5DA",
+      "not_before": 1777883244,
+      "not_after": 1785659243,
+      "fingerprint": "31:53:5D:92:AF:9B:D1:80:07:19:5B:61:36:8E:18:C4:B4:79:A6:2C",
+      "sha1": "31:53:5D:92:AF:9B:D1:80:07:19:5B:61:36:8E:18:C4:B4:79:A6:2C",
+      "sha256": "14:67:19:12:B7:65:F6:F0:67:B0:71:4C:28:C4:0F:8C:16:03:FA:47:52:61:7B:48:B9:AC:58:D0:0B:92:C2:5A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nytlicensing-next-app.nytl.nyti.dev.nyt.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nytlicensing-next-app.nytl.nyti.dev.nyt.net",
+        "subjectKeyIdentifier": "keyid:31:d9:e6:4e:5d:a1:cf:a8:ee:90:b2:76:ad:8c:51:9a:8c:94:f7:14"
+      }
+    },
+    "cert_index": 4050553392,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050553392&end=4050553392",
+    "seen": 1777891161.073,
+    "submission_timestamp": 1777886756.876,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

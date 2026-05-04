@@ -1,0 +1,51 @@
+{
+  "dominio": "dev.datahub.creditok.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 07:36:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.datahub.creditok.co",
+        "aggregated": "/CN=dev.datahub.creditok.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "5BE0F0BF4FC52C2E12093C0472FC5D38",
+      "not_before": 1777878563,
+      "not_after": 1785657312,
+      "fingerprint": "97:80:B4:AA:7C:B1:FF:2A:8B:AE:85:A7:C0:39:91:E6:96:ED:5E:F8",
+      "sha1": "97:80:B4:AA:7C:B1:FF:2A:8B:AE:85:A7:C0:39:91:E6:96:ED:5E:F8",
+      "sha256": "E1:FB:A3:D8:71:83:07:3B:29:B3:8A:E5:50:79:2B:72:26:0F:C5:97:04:1D:54:95:88:17:68:76:46:94:8C:B5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.datahub.creditok.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/W-A, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.datahub.creditok.co",
+        "subjectKeyIdentifier": "keyid:2b:41:da:c3:32:43:e0:e9:af:2f:e7:20:d4:95:23:96:89:22:f4:fb"
+      }
+    },
+    "cert_index": 4050510591,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050510591&end=4050510591",
+    "seen": 1777890981.211,
+    "submission_timestamp": 1777886569.179,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

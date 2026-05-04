@@ -1,0 +1,52 @@
+{
+  "dominio": "api.beta.yoda-app.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 07:16:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.beta.yoda-app.amazon.dev",
+        "aggregated": "/CN=api.beta.yoda-app.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "090229B3979E5E5E8015AFC27404EA2D",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "87:8A:63:00:4C:EE:75:17:6C:FD:09:05:CE:48:72:17:CA:36:6F:61",
+      "sha1": "87:8A:63:00:4C:EE:75:17:6C:FD:09:05:CE:48:72:17:CA:36:6F:61",
+      "sha256": "C0:86:C1:27:BA:91:6D:47:E0:0E:25:18:1B:C5:B0:30:B8:24:97:14:76:9C:C4:EB:8D:3E:41:0E:60:10:93:6A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.beta.yoda-app.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.beta.yoda-app.amazon.dev",
+        "subjectKeyIdentifier": "keyid:35:37:1a:a5:c9:40:34:2d:39:bb:b2:b7:12:ec:d1:d0:29:96:78:a8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050221973,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050221973&end=4050221973",
+    "seen": 1777889774.094,
+    "submission_timestamp": 1777885316.975,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

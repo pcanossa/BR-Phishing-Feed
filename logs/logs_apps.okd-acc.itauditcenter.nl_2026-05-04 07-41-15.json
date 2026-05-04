@@ -1,0 +1,54 @@
+{
+  "dominio": "apps.okd-acc.itauditcenter.nl",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/04/26 07:41:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "okd-acc.itauditcenter.nl",
+        "aggregated": "/CN=okd-acc.itauditcenter.nl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06C3A21F1BD3AEFA1EA32E7293280BACA3B5",
+      "not_before": 1777883358,
+      "not_after": 1785659357,
+      "fingerprint": "48:18:A9:13:DD:B6:AA:B9:6C:0E:0A:6D:E9:59:88:BD:46:4F:5F:CF",
+      "sha1": "48:18:A9:13:DD:B6:AA:B9:6C:0E:0A:6D:E9:59:88:BD:46:4F:5F:CF",
+      "sha256": "59:F2:0E:30:5F:34:46:F8:69:0D:23:E9:92:9D:C8:3D:69:1D:93:E8:D4:05:49:4C:E4:34:80:79:30:75:74:10",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "okd-acc.itauditcenter.nl",
+        "*.apps.okd-acc.itauditcenter.nl",
+        "api.okd-acc.itauditcenter.nl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.okd-acc.itauditcenter.nl, DNS:api.okd-acc.itauditcenter.nl, DNS:okd-acc.itauditcenter.nl",
+        "subjectKeyIdentifier": "keyid:75:90:33:76:df:75:f4:0d:80:75:fe:c2:4f:dc:10:ba:e1:51:7f:65",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050579522,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050579522&end=4050579522",
+    "seen": 1777891274.626,
+    "submission_timestamp": 1777886868.814,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

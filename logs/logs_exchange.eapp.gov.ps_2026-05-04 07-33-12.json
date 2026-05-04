@@ -1,0 +1,51 @@
+{
+  "dominio": "exchange.eapp.gov.ps",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 07:33:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "exchange.eapp.gov.ps",
+        "aggregated": "/CN=exchange.eapp.gov.ps"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06BD83F9178B696E93DCB5D27B6F07C0DFE8",
+      "not_before": 1777882866,
+      "not_after": 1785658865,
+      "fingerprint": "F5:86:01:EE:5E:9B:6A:ED:5E:AF:10:E9:87:6E:72:0B:21:0F:83:98",
+      "sha1": "F5:86:01:EE:5E:9B:6A:ED:5E:AF:10:E9:87:6E:72:0B:21:0F:83:98",
+      "sha256": "23:AB:46:A8:E6:9C:28:B8:91:64:86:12:B3:AF:BF:24:A2:A8:1E:5F:4F:88:87:F5:9B:6F:50:8B:E0:78:2F:C9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "exchange.eapp.gov.ps"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:exchange.eapp.gov.ps",
+        "subjectKeyIdentifier": "keyid:f9:d1:4d:30:53:79:0d:a5:47:e2:96:bb:2a:37:33:e7:b5:ef:aa:57"
+      }
+    },
+    "cert_index": 4050466849,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050466849&end=4050466849",
+    "seen": 1777890791.867,
+    "submission_timestamp": 1777886379.625,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
