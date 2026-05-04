@@ -1,0 +1,58 @@
+{
+  "dominio": "dcs.apps.mil.admin-mcas-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 03:34:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.dcs.apps.mil.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.dcs.apps.mil.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "41002183411C1C52E56D60CD90000000218341",
+      "not_before": 1777875770,
+      "not_after": 1793427770,
+      "fingerprint": "73:41:05:FB:A6:63:76:0F:BD:74:3B:52:CB:A8:45:C0:36:26:A3:B5",
+      "sha1": "73:41:05:FB:A6:63:76:0F:BD:74:3B:52:CB:A8:45:C0:36:26:A3:B5",
+      "sha256": "6B:37:23:97:D9:D2:BD:28:F4:19:F6:72:1D:01:FD:B3:6F:D1:00:00:28:5B:57:7D:D4:9D:B6:4D:6C:B6:FE:C7",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.dcs.apps.mil.mcas-gov.us",
+        "*.dcs.apps.mil.admin-mcas-gov.us",
+        "*.dcs.apps.mil.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.dcs.apps.mil.mcas-gov.us, DNS:*.dcs.apps.mil.admin-mcas-gov.us, DNS:*.dcs.apps.mil.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:9b:46:28:99:75:ed:f8:9c:f9:89:4a:2e:ac:08:f8:2c:06:67:58:66",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 595068004,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=595068004&end=595068004",
+    "seen": 1777876487.289,
+    "submission_timestamp": 1777876376.438,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "qa.send.creditorwatchcollect.com.au",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 04:05:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.qa.send.creditorwatchcollect.com.au",
+        "aggregated": "/CN=*.qa.send.creditorwatchcollect.com.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "056AD3468B80911896C8F4A2908ECA2A86D2",
+      "not_before": 1777870268,
+      "not_after": 1785646267,
+      "fingerprint": "5C:FB:CA:66:02:18:DC:D8:16:24:95:1B:88:66:D5:DF:10:C6:34:A7",
+      "sha1": "5C:FB:CA:66:02:18:DC:D8:16:24:95:1B:88:66:D5:DF:10:C6:34:A7",
+      "sha256": "6D:05:C7:10:F8:22:EF:6E:96:17:F2:FD:04:5A:71:13:2D:1D:1E:E6:C4:2F:20:DF:DE:75:AD:20:9C:93:99:5E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.qa.send.creditorwatchcollect.com.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.qa.send.creditorwatchcollect.com.au",
+        "subjectKeyIdentifier": "keyid:38:27:cb:a2:81:10:78:b1:5c:35:8f:d9:45:08:9a:ea:a1:1f:10:72"
+      }
+    },
+    "cert_index": 4047332289,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4047332289&end=4047332289",
+    "seen": 1777878353.762,
+    "submission_timestamp": 1777873804.496,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dominio": "iam2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 03:06:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "aggregated": "/CN=*.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "02CA2335EE898C5AC3A9F6BA5FDE64CC",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "56:9D:37:85:63:CA:54:9B:45:C5:5E:AC:ED:53:9A:80:2F:CA:B8:79",
+      "sha1": "56:9D:37:85:63:CA:54:9B:45:C5:5E:AC:ED:53:9A:80:2F:CA:B8:79",
+      "sha256": "1F:96:3D:56:D7:DF:A9:89:60:16:5D:49:DF:BE:AA:2B:B6:BA:8B:D6:93:CF:A1:8F:14:62:72:6C:DB:DA:F4:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "*.tls.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "*.scram.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "*.iam.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "*.iam2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "*.scram2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "*.tls2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com, DNS:*.tls.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com, DNS:*.scram.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com, DNS:*.iam.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com, DNS:*.iam2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com, DNS:*.scram2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com, DNS:*.tls2.coreappstesttestharnes.djaopo.c4.kafka.eu-west-2.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:1e:bb:19:be:5f:f5:b2:f4:a4:1d:41:2b:36:cd:b3:77:0c:ee:35:fc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4046478435,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4046478435&end=4046478435",
+    "seen": 1777874778.353,
+    "submission_timestamp": 1777870505.247,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
