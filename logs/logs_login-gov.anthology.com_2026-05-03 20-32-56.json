@@ -1,0 +1,51 @@
+{
+  "dominio": "login-gov.anthology.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 20:32:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login-gov.anthology.com",
+        "aggregated": "/CN=login-gov.anthology.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06DE5CD5F034ED726C25CD93E5BAD42D8799",
+      "not_before": 1777814665,
+      "not_after": 1785590664,
+      "fingerprint": "3A:B9:C1:A7:5C:FA:6A:1B:25:02:1B:59:08:65:FB:E3:CC:B1:B7:14",
+      "sha1": "3A:B9:C1:A7:5C:FA:6A:1B:25:02:1B:59:08:65:FB:E3:CC:B1:B7:14",
+      "sha256": "F6:FF:F3:54:70:8E:05:9D:6D:70:87:11:FE:ED:AE:F7:F4:D3:C9:45:1E:CA:0C:04:A4:AB:96:B5:25:25:BC:E7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login-gov.anthology.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login-gov.anthology.com",
+        "subjectKeyIdentifier": "keyid:b2:ee:21:39:12:01:f7:d4:be:e4:63:ce:11:08:13:f4:71:ad:ca:c4"
+      }
+    },
+    "cert_index": 816736298,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=816736298&end=816736298",
+    "seen": 1777851175.459,
+    "submission_timestamp": 1777818175.711,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

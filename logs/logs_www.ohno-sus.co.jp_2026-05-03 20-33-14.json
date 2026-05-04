@@ -1,0 +1,52 @@
+{
+  "dominio": "www.ohno-sus.co.jp",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/03/26 20:33:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.ohno-sus.co.jp",
+        "aggregated": "/CN=www.ohno-sus.co.jp"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0533CD868864B81E1CE8C9BE6904958EF149",
+      "not_before": 1777843821,
+      "not_after": 1785619820,
+      "fingerprint": "DD:EC:6A:8E:C6:21:27:4D:C9:81:37:46:A1:13:36:D5:FC:18:73:C6",
+      "sha1": "DD:EC:6A:8E:C6:21:27:4D:C9:81:37:46:A1:13:36:D5:FC:18:73:C6",
+      "sha256": "29:26:DC:53:1A:9B:F8:B5:BD:2D:7B:39:B0:99:05:42:60:AC:3A:7E:FB:E3:E4:08:20:EF:0B:E2:53:49:EB:8B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.ohno-sus.co.jp",
+        "ohno-sus.co.jp"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ohno-sus.co.jp, DNS:www.ohno-sus.co.jp",
+        "subjectKeyIdentifier": "keyid:61:89:c5:70:ec:60:27:d1:4d:21:dc:cd:15:99:a9:d8:ed:c7:32:49"
+      }
+    },
+    "cert_index": 4041249033,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4041249033&end=4041249033",
+    "seen": 1777851194.492,
+    "submission_timestamp": 1777847333.775,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "api.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/03/26 21:05:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "050C76D4AFF740ABFD2B188F869D6DCC9D7D",
+      "not_before": 1777849610,
+      "not_after": 1785625609,
+      "fingerprint": "EA:B5:BE:AA:6D:E5:8C:22:9A:1A:1D:84:BA:82:78:46:02:35:F9:E1",
+      "sha1": "EA:B5:BE:AA:6D:E5:8C:22:9A:1A:1D:84:BA:82:78:46:02:35:F9:E1",
+      "sha256": "D4:A9:E6:02:42:B5:F7:27:DB:A4:F4:90:24:14:21:22:C8:F8:F9:BF:53:CF:6A:3A:82:96:26:1C:BB:8D:E7:F2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:af:bc:c5:9d:35:36:5e:d3:a0:bc:a2:87:1e:ce:7d:56:2e:20:c7:16"
+      }
+    },
+    "cert_index": 165984389,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x648/376",
+    "seen": 1777853122.295,
+    "submission_timestamp": 1777853121.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "management.creditolo.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 20:37:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "management.creditolo.com",
+        "aggregated": "/CN=management.creditolo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06FF2F1C6AB1F316167A32D6B13BCFEF9EFC",
+      "not_before": 1777844139,
+      "not_after": 1785620138,
+      "fingerprint": "11:B2:BD:93:31:BA:C7:40:16:7E:2C:A3:98:B4:70:13:F4:74:34:E6",
+      "sha1": "11:B2:BD:93:31:BA:C7:40:16:7E:2C:A3:98:B4:70:13:F4:74:34:E6",
+      "sha256": "2F:89:13:54:97:A1:DB:DB:89:39:E8:AB:BE:CC:2F:D8:68:F2:BD:0F:36:27:0D:15:78:F0:C4:B6:06:6F:91:81",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "management.creditolo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:management.creditolo.com",
+        "subjectKeyIdentifier": "keyid:90:87:15:17:84:60:5d:44:3c:3d:46:b2:a5:4b:c6:89:23:d5:6e:9a"
+      }
+    },
+    "cert_index": 4041315265,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4041315265&end=4041315265",
+    "seen": 1777851430.525,
+    "submission_timestamp": 1777847650.465,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

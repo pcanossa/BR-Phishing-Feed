@@ -1,0 +1,51 @@
+{
+  "dominio": "saparkapp.sanantonio.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 20:07:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "saparkapp.sanantonio.gov",
+        "aggregated": "/CN=saparkapp.sanantonio.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0587C121D5DCACE5FDA31978DB0D1868E723",
+      "not_before": 1777814607,
+      "not_after": 1785590606,
+      "fingerprint": "92:9F:B5:7F:C4:58:0A:CA:AC:FA:75:CC:E8:86:75:E9:85:30:15:7C",
+      "sha1": "92:9F:B5:7F:C4:58:0A:CA:AC:FA:75:CC:E8:86:75:E9:85:30:15:7C",
+      "sha256": "1E:12:7E:E9:EA:F1:F1:3C:19:54:07:61:A0:1F:D7:D0:40:92:9B:E2:C5:E7:55:49:65:C0:A0:D0:5A:61:75:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "saparkapp.sanantonio.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:saparkapp.sanantonio.gov",
+        "subjectKeyIdentifier": "keyid:7e:08:f6:bf:c1:75:33:6d:34:73:ac:26:91:bb:ad:a7:34:92:09:a3"
+      }
+    },
+    "cert_index": 816709659,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=816709659&end=816709659",
+    "seen": 1777849625.545,
+    "submission_timestamp": 1777818118.671,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
