@@ -1,0 +1,53 @@
+{
+  "dominio": "app.art-next.de",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 18:41:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.art-next.de",
+        "aggregated": "/CN=app.art-next.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "04C40CF224184C282A8545528FB1CB87",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "46:E6:74:0D:65:37:73:A7:20:F0:54:21:99:48:6A:A9:FA:8F:AA:6B",
+      "sha1": "46:E6:74:0D:65:37:73:A7:20:F0:54:21:99:48:6A:A9:FA:8F:AA:6B",
+      "sha256": "2E:C1:D8:B2:3B:F7:9F:5A:0F:F5:6F:9C:DA:F4:67:06:80:0B:09:CE:E7:F2:EA:41:3F:5A:41:A0:F9:3B:8F:2D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.art-next.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.art-next.de",
+        "subjectKeyIdentifier": "keyid:38:65:a2:ff:38:ed:11:ba:c4:e9:5f:a6:2d:46:87:30:9f:cf:26:6e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4058966990,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058966990&end=4058966990",
+    "seen": 1777930901.025,
+    "submission_timestamp": 1777922530.398,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

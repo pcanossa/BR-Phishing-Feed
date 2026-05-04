@@ -1,0 +1,52 @@
+{
+  "dominio": "www.damadocredito.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 18:59:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.damadocredito.com.br",
+        "aggregated": "/CN=www.damadocredito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05EBDF4CBA0D476604D6D0CAB7FD0A583D32",
+      "not_before": 1777919951,
+      "not_after": 1785695950,
+      "fingerprint": "79:01:9D:91:76:8F:8B:B7:34:D8:63:4F:91:3D:23:D9:9A:41:9A:3B",
+      "sha1": "79:01:9D:91:76:8F:8B:B7:34:D8:63:4F:91:3D:23:D9:9A:41:9A:3B",
+      "sha256": "37:1C:0C:AE:4F:D5:1C:EF:B3:C9:DB:AF:94:F3:B7:D0:08:77:04:1D:43:80:38:21:06:4A:54:AF:38:D0:2E:28",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.damadocredito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.damadocredito.com.br",
+        "subjectKeyIdentifier": "keyid:7f:23:25:31:3e:06:7a:c4:13:02:14:01:85:10:22:ca:65:65:cd:16",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4059169815,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059169815&end=4059169815",
+    "seen": 1777931959.266,
+    "submission_timestamp": 1777923461.951,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

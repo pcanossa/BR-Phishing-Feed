@@ -1,0 +1,51 @@
+{
+  "dominio": "www.mycreditofficer.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 18:22:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.mycreditofficer.com",
+        "aggregated": "/CN=www.mycreditofficer.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "4EB37A580BAB02E1",
+      "not_before": 1777918596,
+      "not_after": 1795025796,
+      "fingerprint": "0D:DB:AE:68:EE:6D:90:31:5F:5E:38:27:5A:81:A7:DC:16:E8:71:1E",
+      "sha1": "0D:DB:AE:68:EE:6D:90:31:5F:5E:38:27:5A:81:A7:DC:16:E8:71:1E",
+      "sha256": "C4:36:DB:EB:96:67:62:50:AB:5D:65:EE:D9:E1:FD:5E:BC:A1:1D:0C:3D:25:AA:B4:31:88:E3:BF:3B:ED:D0:B3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.mycreditofficer.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.mycreditofficer.com",
+        "subjectKeyIdentifier": "keyid:2f:ef:32:5b:4d:32:2d:2a:34:68:dd:80:cf:80:7a:a6:92:91:fc:50"
+      }
+    },
+    "cert_index": 4058760779,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058760779&end=4058760779",
+    "seen": 1777929750.189,
+    "submission_timestamp": 1777921667.61,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

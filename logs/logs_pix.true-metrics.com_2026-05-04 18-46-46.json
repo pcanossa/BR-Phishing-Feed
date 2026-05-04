@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.true-metrics.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 18:46:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "true-metrics.com",
+        "aggregated": "/CN=true-metrics.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "30B8BAEC2B1A19950E9D6531584777E1",
+      "not_before": 1777919155,
+      "not_after": 1785698751,
+      "fingerprint": "5E:96:C4:CC:60:77:37:81:E3:5A:A1:48:FF:9C:65:81:67:B3:D3:53",
+      "sha1": "5E:96:C4:CC:60:77:37:81:E3:5A:A1:48:FF:9C:65:81:67:B3:D3:53",
+      "sha256": "74:09:AA:8B:A1:BD:8E:26:A6:6B:37:6A:25:49:6D:98:5E:14:81:FA:6D:95:1D:E2:B2:57:9D:02:8B:A6:FB:3F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "true-metrics.com",
+        "pix.true-metrics.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MLg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:true-metrics.com, DNS:pix.true-metrics.com",
+        "subjectKeyIdentifier": "keyid:84:31:22:2c:4c:fc:3a:b1:07:56:f0:57:60:19:76:1f:57:5f:3f:b5"
+      }
+    },
+    "cert_index": 4059024660,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059024660&end=4059024660",
+    "seen": 1777931206.669,
+    "submission_timestamp": 1777922810.756,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

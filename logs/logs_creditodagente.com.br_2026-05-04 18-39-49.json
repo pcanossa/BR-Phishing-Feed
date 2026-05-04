@@ -1,0 +1,53 @@
+{
+  "dominio": "creditodagente.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 18:39:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditodagente.com.br",
+        "aggregated": "/CN=creditodagente.com.br"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "3768F4060E6E87293DBFEAF983BAD99A",
+      "not_before": 1777852800,
+      "not_after": 1785706537,
+      "fingerprint": "EF:72:7B:DB:5B:7D:89:22:BF:A1:FD:D8:E5:E4:D3:D0:3E:B7:E2:7F",
+      "sha1": "EF:72:7B:DB:5B:7D:89:22:BF:A1:FD:D8:E5:E4:D3:D0:3E:B7:E2:7F",
+      "sha256": "3F:43:F3:04:78:7D:9F:35:31:C5:79:98:6C:FB:BC:DE:A0:D7:12:B8:ED:C6:D0:15:B1:E9:12:1D:05:7D:BE:F1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditodagente.com.br",
+        "*.creditodagente.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditodagente.com.br, DNS:*.creditodagente.com.br",
+        "subjectKeyIdentifier": "keyid:d8:43:cb:15:ae:fa:30:20:54:6c:81:87:26:7e:6a:ba:24:39:dc:20",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 603591876,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=603591876&end=603591876",
+    "seen": 1777930789.79,
+    "submission_timestamp": 1777930635.236,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

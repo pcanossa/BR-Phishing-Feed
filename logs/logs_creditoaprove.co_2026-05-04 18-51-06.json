@@ -1,0 +1,52 @@
+{
+  "dominio": "creditoaprove.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 18:51:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoaprove.co",
+        "aggregated": "/CN=creditoaprove.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EFC11A7D2FE0F96E13D0F2D9DE9C4256",
+      "not_before": 1777919350,
+      "not_after": 1785698803,
+      "fingerprint": "51:C8:27:9F:42:38:C2:81:DB:7A:EE:DE:2F:F3:5A:33:30:66:66:45",
+      "sha1": "51:C8:27:9F:42:38:C2:81:DB:7A:EE:DE:2F:F3:5A:33:30:66:66:45",
+      "sha256": "95:06:B9:5E:28:55:4D:4B:6A:8F:1D:82:57:73:5C:CC:6A:BB:03:50:3D:92:D7:AA:FE:2E:DE:02:81:C7:11:4A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditoaprove.co",
+        "*.creditoaprove.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/78E, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditoaprove.co, DNS:*.creditoaprove.co",
+        "subjectKeyIdentifier": "keyid:dd:8c:35:98:35:4c:56:b7:f6:a8:66:4a:47:07:5f:23:df:3b:98:57"
+      }
+    },
+    "cert_index": 4059074017,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059074017&end=4059074017",
+    "seen": 1777931466.461,
+    "submission_timestamp": 1777923019.201,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

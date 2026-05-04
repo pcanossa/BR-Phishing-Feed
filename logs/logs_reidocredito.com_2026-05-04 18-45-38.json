@@ -1,0 +1,52 @@
+{
+  "dominio": "reidocredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 18:45:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "reidocredito.com",
+        "aggregated": "/CN=reidocredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E67EEF1C58E5ABC21381A4A73300A7B5",
+      "not_before": 1777919075,
+      "not_after": 1785698538,
+      "fingerprint": "37:19:D2:56:DA:32:41:B3:94:AB:03:44:51:A3:C6:86:2D:D1:66:D7",
+      "sha1": "37:19:D2:56:DA:32:41:B3:94:AB:03:44:51:A3:C6:86:2D:D1:66:D7",
+      "sha256": "B0:2E:AE:1E:25:E1:4C:EB:57:5A:0E:AC:10:25:1A:DE:89:72:B4:B0:11:D3:F9:F2:C0:2F:54:20:A7:80:C5:72",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "reidocredito.com",
+        "*.reidocredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/5n4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:reidocredito.com, DNS:*.reidocredito.com",
+        "subjectKeyIdentifier": "keyid:bb:05:3d:75:2f:77:d0:65:74:6c:dc:a7:e2:c8:8b:14:89:58:2b:90"
+      }
+    },
+    "cert_index": 4059011340,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059011340&end=4059011340",
+    "seen": 1777931139.334,
+    "submission_timestamp": 1777922741.391,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

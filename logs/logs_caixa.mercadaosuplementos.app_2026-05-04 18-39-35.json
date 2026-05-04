@@ -1,0 +1,52 @@
+{
+  "dominio": "caixa.mercadaosuplementos.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/04/26 18:39:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa.mercadaosuplementos.app",
+        "aggregated": "/CN=caixa.mercadaosuplementos.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "601E8ADA19CD8C3D139140475A349BEE",
+      "not_before": 1777918822,
+      "not_after": 1785698421,
+      "fingerprint": "17:D3:57:22:56:21:44:F8:DF:02:90:00:EC:5A:77:28:5A:83:1A:D9",
+      "sha1": "17:D3:57:22:56:21:44:F8:DF:02:90:00:EC:5A:77:28:5A:83:1A:D9",
+      "sha256": "3F:F2:CF:E1:2F:00:B0:CB:21:4B:91:43:95:7B:48:D6:F0:41:F1:66:07:13:78:32:8F:0A:17:79:16:89:5D:B6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixa.mercadaosuplementos.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/YB4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixa.mercadaosuplementos.app",
+        "subjectKeyIdentifier": "keyid:77:13:ba:22:60:0c:2d:be:15:9a:7c:c5:71:61:10:3c:a6:7d:d2:ed",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4058942769,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058942769&end=4058942769",
+    "seen": 1777930776.518,
+    "submission_timestamp": 1777922423.462,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

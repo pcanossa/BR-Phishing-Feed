@@ -1,0 +1,53 @@
+{
+  "dominio": "bienesacredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 18:16:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bienesacredito.com",
+        "aggregated": "/CN=*.bienesacredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06BDF2A0B6E48DE36460334A8F88C525B16A",
+      "not_before": 1777868910,
+      "not_after": 1785644909,
+      "fingerprint": "DD:6A:DB:9F:0B:CD:A2:A4:EB:5E:D3:6A:58:21:27:DF:03:AC:B0:07",
+      "sha1": "DD:6A:DB:9F:0B:CD:A2:A4:EB:5E:D3:6A:58:21:27:DF:03:AC:B0:07",
+      "sha256": "AC:07:79:1A:16:57:D9:30:3A:C1:47:0F:B2:08:F7:1D:D0:52:30:3D:70:07:9A:27:8C:41:7A:B3:5F:EB:51:E7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bienesacredito.com",
+        "bienesacredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bienesacredito.com, DNS:bienesacredito.com",
+        "subjectKeyIdentifier": "keyid:92:ce:49:02:3e:dd:ac:ac:27:79:88:9a:32:6f:55:74:42:2f:91:7c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 579871569,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=579871569&end=579871569",
+    "seen": 1777929392.149,
+    "submission_timestamp": 1777872420.98,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

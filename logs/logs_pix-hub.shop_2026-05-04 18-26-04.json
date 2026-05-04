@@ -1,0 +1,51 @@
+{
+  "dominio": "pix-hub.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 18:26:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-hub.shop",
+        "aggregated": "/CN=pix-hub.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05C333248340656034BD5DA31BFA732CCA5B",
+      "not_before": 1777822662,
+      "not_after": 1785598661,
+      "fingerprint": "FD:A1:19:D1:0A:74:8A:07:01:FE:B6:45:4E:60:B2:2A:29:3D:42:2D",
+      "sha1": "FD:A1:19:D1:0A:74:8A:07:01:FE:B6:45:4E:60:B2:2A:29:3D:42:2D",
+      "sha256": "E8:56:CF:F7:B1:C9:7E:5D:1F:E8:7D:4A:B6:83:C8:17:B3:3D:D7:F2:B3:B7:64:C8:BE:06:AE:20:BB:C1:92:E6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-hub.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix-hub.shop",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 818106400,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=818106400&end=818106400",
+    "seen": 1777929964.271,
+    "submission_timestamp": 1777826173.03,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

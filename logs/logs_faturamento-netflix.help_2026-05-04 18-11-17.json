@@ -1,0 +1,52 @@
+{
+  "dominio": "faturamento-netflix.help",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/04/26 18:11:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "faturamento-netflix.help",
+        "aggregated": "/CN=faturamento-netflix.help"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05F1F5649F45BC7D43498ED9502644D647E2",
+      "not_before": 1777917642,
+      "not_after": 1785693641,
+      "fingerprint": "61:A3:2C:6B:35:9F:9D:B6:2C:7C:4B:9E:C8:41:B0:1C:7E:48:A2:0D",
+      "sha1": "61:A3:2C:6B:35:9F:9D:B6:2C:7C:4B:9E:C8:41:B0:1C:7E:48:A2:0D",
+      "sha256": "01:A6:4B:A4:E3:2A:89:07:CA:D4:35:BE:93:8E:91:78:1D:DE:0E:A1:9A:BC:D8:61:8F:D9:D4:82:4C:6F:5C:12",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "faturamento-netflix.help",
+        "*.faturamento-netflix.help"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.faturamento-netflix.help, DNS:faturamento-netflix.help",
+        "subjectKeyIdentifier": "keyid:97:89:83:ef:52:8c:94:6e:15:cc:c6:77:56:ba:1e:45:f5:88:2f:0c"
+      }
+    },
+    "cert_index": 4058634009,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058634009&end=4058634009",
+    "seen": 1777929078.652,
+    "submission_timestamp": 1777921155.549,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

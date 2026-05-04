@@ -1,0 +1,51 @@
+{
+  "dominio": "caixa.mercadaosuplementos.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/04/26 18:40:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa.mercadaosuplementos.app",
+        "aggregated": "/CN=caixa.mercadaosuplementos.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "601E8ADA19CD8C3D139140475A349BEE",
+      "not_before": 1777918822,
+      "not_after": 1785698421,
+      "fingerprint": "F7:93:09:A7:BC:1A:81:04:3B:BD:BB:4D:E2:FD:EE:E7:04:32:28:7B",
+      "sha1": "F7:93:09:A7:BC:1A:81:04:3B:BD:BB:4D:E2:FD:EE:E7:04:32:28:7B",
+      "sha256": "50:40:1B:46:DC:F3:57:D5:80:C5:DA:5F:C5:30:FE:6E:DB:68:33:38:B1:15:74:CE:34:B5:1F:C1:27:8B:B6:B9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixa.mercadaosuplementos.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/YB4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixa.mercadaosuplementos.app",
+        "subjectKeyIdentifier": "keyid:77:13:ba:22:60:0c:2d:be:15:9a:7c:c5:71:61:10:3c:a6:7d:d2:ed"
+      }
+    },
+    "cert_index": 4058956109,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058956109&end=4058956109",
+    "seen": 1777930841.604,
+    "submission_timestamp": 1777922484.529,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
