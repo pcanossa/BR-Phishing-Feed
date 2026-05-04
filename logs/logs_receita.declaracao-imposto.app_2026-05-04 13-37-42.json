@@ -1,0 +1,52 @@
+{
+  "dominio": "receita.declaracao-imposto.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/04/26 13:37:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receita.declaracao-imposto.app",
+        "aggregated": "/CN=receita.declaracao-imposto.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "067D06C7A662EA9FF1849EC4A7790A1BF850",
+      "not_before": 1777904563,
+      "not_after": 1785680562,
+      "fingerprint": "1D:46:1A:96:F6:B5:0E:E6:9F:5A:AB:A5:52:B7:E4:41:EA:AD:92:61",
+      "sha1": "1D:46:1A:96:F6:B5:0E:E6:9F:5A:AB:A5:52:B7:E4:41:EA:AD:92:61",
+      "sha256": "EA:59:0F:3F:9E:31:D6:ED:82:5B:4D:8A:B9:F3:84:6C:E7:E8:48:36:1A:19:18:0C:E5:5D:87:0D:09:04:B3:C1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "receita.declaracao-imposto.app",
+        "www.receita.declaracao-imposto.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receita.declaracao-imposto.app, DNS:www.receita.declaracao-imposto.app",
+        "subjectKeyIdentifier": "keyid:ee:37:bf:39:42:d4:1b:c5:65:3c:0f:00:c3:72:ee:d6:21:0d:e2:ad"
+      }
+    },
+    "cert_index": 4055615099,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055615099&end=4055615099",
+    "seen": 1777912660.775,
+    "submission_timestamp": 1777908076.068,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

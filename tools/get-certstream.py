@@ -5,11 +5,11 @@ import sys
 import datetime
 import os
 import re
-
+from collections import deque
 from zmq import has
 
 MARCAS_CURTAS = [
-    'oi', 'tim', 'gov', 'b3', 'pix', 'cpf', 'neon', 'next', 
+    'oi', 'tim', 'b3', 'pix', 'cpf', 'neon', 'next', 
     'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
 ]
 
@@ -18,7 +18,7 @@ MARCAS_LONGAS = [
     'correios', 'caixa', 'nubank', 'itau', 'bancodobrasil', 'receita', 
     'bradesco', 'santander', 'mercadolivre', 'magalu', 'americanas', 
     'detran', 'serasa', 'sicoob', 'c6bank', 'pagseguro', 'picpay', 
-    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'credito', 'debito', 'sedex', 'amazon', 'fazenda'
+    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'credito', 'debito', 'sedex', 'fazenda'
 ]
 
 # Iscas de Engenharia Social
@@ -38,6 +38,8 @@ WHITELIST = [
     'picpay.com', 'stone.com.br', 'vivo.com.br', 'claro.com.br', 'tim.com.br', 
     'oi.com.br', 'netflix.com', 'spotify.com', 'uber.com', 'ifood.com.br', 
     'bancopaulista.com.br', 'b3.com.br', 'pix.com.br', 'amazon.com.br', 'detran.sp.gov.br', 'loterias.caixa.gov.br', 'receita.fazenda.gov.br', 'bancodobrasil.com.br']
+
+dominios_vistos = deque(maxlen=5000)
 
 def is_suspicious(domain):
     domain_lower = domain.lower()
@@ -79,18 +81,27 @@ def print_callback(message, context):
     if message['message_type'] == "certificate_update":
         all_domains = message['data']['leaf_cert']['all_domains']
 
+        # 1. Limpa duplicatas da mesma mensagem
+        dominios_limpos = set()
         for domain in all_domains:
-            # Remove o prefixo wildcard (*.) para limpar a string de análise
-            clean_domain = domain.replace('*.', '')
+            dominios_limpos.add(domain.replace('*.', ''))
+
+        # 2. Analisa a lista limpa
+        for clean_domain in dominios_limpos:
             
-            # CORREÇÃO: Desempacotando as variáveis corretamente
+            # SE O DOMÍNIO JÁ ESTIVER NA MEMÓRIA, PULA PARA O PRÓXIMO
+            if clean_domain in dominios_vistos:
+                continue
+                
+            # ADICIONA O NOVO DOMÍNIO NA MEMÓRIA
+            dominios_vistos.append(clean_domain)
+
+            # Faz a análise normal de Threat Intelligence
             suspeito, marcas_encontradas = is_suspicious(clean_domain)
             
-            # If avalia apenas o Booleano (True/False)
             if suspeito:
                 timestamp = datetime.datetime.now().strftime('%m/%d/%y %H:%M:%S')
                 
-                # Formata a saída no terminal destacando o achado e as marcas
                 sys.stdout.write(f"[ALERTA] {timestamp} - Phishing Detectado: {clean_domain} | Marca(s): {marcas_encontradas}\n")
                 sys.stdout.flush()
                 
@@ -110,7 +121,6 @@ def print_callback(message, context):
                     
                     with open(log_path, 'a', encoding='utf-8') as f:
                         json.dump(json_dominio, f, indent=2)
-                        # Força o S.O. a despejar a memória no arquivo físico na mesma hora
                         f.flush()
                 except Exception as e:
                     logging.error(f"Erro ao salvar no arquivo: {e}")

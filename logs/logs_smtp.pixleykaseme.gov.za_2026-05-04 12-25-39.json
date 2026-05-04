@@ -1,0 +1,55 @@
+{
+  "dominio": "smtp.pixleykaseme.gov.za",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 12:25:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pixleykaseme.gov.za",
+        "aggregated": "/CN=pixleykaseme.gov.za"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "069488D17B8E7DC593FDADFD7448EC0FFAA1",
+      "not_before": 1777900314,
+      "not_after": 1785676313,
+      "fingerprint": "2A:69:11:A6:E3:D9:16:5A:CF:5C:3B:3E:2D:F3:AC:46:DF:90:A1:27",
+      "sha1": "2A:69:11:A6:E3:D9:16:5A:CF:5C:3B:3E:2D:F3:AC:46:DF:90:A1:27",
+      "sha256": "7F:02:A3:9A:0E:9A:23:FC:1C:24:04:EA:A1:BC:32:93:89:53:7B:12:B5:78:77:FF:C6:76:39:80:C1:6D:98:B5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pixleykaseme.gov.za",
+        "imap.pixleykaseme.gov.za",
+        "mail.pixleykaseme.gov.za",
+        "smtp.pixleykaseme.gov.za",
+        "www.pixleykaseme.gov.za"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:imap.pixleykaseme.gov.za, DNS:mail.pixleykaseme.gov.za, DNS:pixleykaseme.gov.za, DNS:smtp.pixleykaseme.gov.za, DNS:www.pixleykaseme.gov.za",
+        "subjectKeyIdentifier": "keyid:60:38:fb:6c:be:72:3d:61:78:87:2b:b1:37:9a:eb:05:00:fe:44:c7"
+      }
+    },
+    "cert_index": 4054615513,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054615513&end=4054615513",
+    "seen": 1777908339.204,
+    "submission_timestamp": 1777903826.67,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

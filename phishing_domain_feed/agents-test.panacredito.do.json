@@ -1,0 +1,12 @@
+{
+    "dominio": "agents-test.panacredito.do",
+    "data_registro": "05/04/26 13:59:38",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de TLD '.do' (República Dominicana) para hospedar conteúdo que mimetiza marca financeira brasileira, técnica comum para evitar bloqueios regionais imediatos",
+        "Presença do termo 'panacredito' que remete ao Banco Pan, instituição financeira brasileira, configurando claro caso de typosquatting ou impersonação de marca",
+        "Subdomínio 'agents-test' frequentemente utilizado em servidores C2 ou painéis de administração de phishing para testes de comunicação com vítimas",
+        "Inconsistência entre a TLD geográfica e a marca financeira visada, indicando intenção maliciosa"
+    ],
+    "analise_comportamental": "O domínio utiliza o nome de uma instituição financeira brasileira reconhecida ('Pan') em conjunto com termos técnicos, visando a aplicação de golpes de phishing ou captura de credenciais de clientes brasileiros, sendo que a infraestrutura externa (.do) é um indicador forte de tentativa de evasão de defesas nacionais."
+}

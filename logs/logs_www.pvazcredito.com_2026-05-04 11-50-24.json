@@ -1,0 +1,51 @@
+{
+  "dominio": "www.pvazcredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 11:50:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pvazcredito.com",
+        "aggregated": "/CN=www.pvazcredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "057F10454614469F36C7DF66F6185D293251",
+      "not_before": 1777898225,
+      "not_after": 1785674224,
+      "fingerprint": "07:85:81:E5:9F:07:93:17:61:95:59:33:1D:5F:5A:14:3B:1E:74:8D",
+      "sha1": "07:85:81:E5:9F:07:93:17:61:95:59:33:1D:5F:5A:14:3B:1E:74:8D",
+      "sha256": "C6:6D:7C:D9:BB:69:C2:7A:C4:37:BB:F6:1C:7B:6E:AE:9C:45:4A:9A:F9:C8:FD:1B:C4:31:E9:1D:F8:F2:33:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pvazcredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pvazcredito.com",
+        "subjectKeyIdentifier": "keyid:dc:c1:81:6a:26:b1:3a:77:5b:ab:6b:9d:03:09:93:61:5c:c7:e3:30"
+      }
+    },
+    "cert_index": 4054129648,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054129648&end=4054129648",
+    "seen": 1777906223.195,
+    "submission_timestamp": 1777901737.584,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

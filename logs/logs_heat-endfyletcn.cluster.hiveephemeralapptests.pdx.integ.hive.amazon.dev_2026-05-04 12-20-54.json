@@ -1,0 +1,52 @@
+{
+  "dominio": "heat-endfyletcn.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 12:20:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "aggregated": "/CN=dummy.nlb.pdx.integ.hive.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 384 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 384 M01/O=Amazon"
+      },
+      "serial_number": "05AAD7DE905696DC3C7DB305E394BB11",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "0C:37:37:4E:60:DA:8D:8F:37:FA:5B:46:66:92:6B:0E:9E:0C:20:28",
+      "sha1": "0C:37:37:4E:60:DA:8D:8F:37:FA:5B:46:66:92:6B:0E:9E:0C:20:28",
+      "sha256": "09:30:2A:57:9F:42:F2:34:2F:68:C6:FB:55:45:DD:C9:4B:74:40:42:32:E9:A5:F2:74:F8:81:42:EF:F7:C6:0B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "heat-endfyletcn.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e3m01.amazontrust.com, URI:http://crt.e3m01.amazontrust.com/e3m01.cer",
+        "authorityKeyIdentifier": "keyid:03:e4:a4:04:8e:05:7f:9a:12:97:84:04:ff:11:77:30:8c:ba:2a:a7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:dummy.nlb.pdx.integ.hive.amazon.dev, DNS:heat-endfyletcn.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+        "subjectKeyIdentifier": "keyid:c5:ba:b1:f0:e3:c7:5c:57:b4:4e:d8:03:d4:20:9b:6c:62:98:44:9b"
+      }
+    },
+    "cert_index": 159882116,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x624/539",
+    "seen": 1777908052.485,
+    "submission_timestamp": 1777908050.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

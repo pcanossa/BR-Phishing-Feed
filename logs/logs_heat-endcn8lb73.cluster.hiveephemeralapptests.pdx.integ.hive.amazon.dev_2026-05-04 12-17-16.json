@@ -1,0 +1,52 @@
+{
+  "dominio": "heat-endcn8lb73.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 12:17:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "aggregated": "/CN=dummy.nlb.pdx.integ.hive.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 384 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 384 M04/O=Amazon"
+      },
+      "serial_number": "0CB42129888EC7CCDD835DF6FB5C99AA",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "3B:87:36:DE:77:B7:F1:A8:68:69:07:8A:0F:66:92:65:C9:8B:74:09",
+      "sha1": "3B:87:36:DE:77:B7:F1:A8:68:69:07:8A:0F:66:92:65:C9:8B:74:09",
+      "sha256": "6D:68:AB:F7:40:70:E9:F6:D8:E8:85:AA:2A:5A:AB:24:78:61:81:90:2D:57:78:97:62:86:0A:55:1C:9A:57:E3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "heat-endcn8lb73.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e3m04.amazontrust.com, URI:http://crt.e3m04.amazontrust.com/e3m04.cer",
+        "authorityKeyIdentifier": "keyid:52:f0:d2:50:80:3c:d4:19:11:c8:83:6f:0e:02:be:a8:4a:17:4d:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:dummy.nlb.pdx.integ.hive.amazon.dev, DNS:heat-endcn8lb73.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+        "subjectKeyIdentifier": "keyid:00:96:77:9d:5f:0a:6d:6d:70:94:ce:2a:77:b1:87:61:8a:66:40:61"
+      }
+    },
+    "cert_index": 236770651,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x924/885",
+    "seen": 1777907834.64,
+    "submission_timestamp": 1777907830.335,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

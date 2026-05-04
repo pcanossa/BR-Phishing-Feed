@@ -1,0 +1,52 @@
+{
+  "dominio": "creditoimediato.online",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 13:19:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoimediato.online",
+        "aggregated": "/CN=creditoimediato.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068B1AEA9CFA1F0A9878A680529AF85F1947",
+      "not_before": 1777903497,
+      "not_after": 1785679496,
+      "fingerprint": "B5:13:A7:38:AC:37:40:7B:CE:8C:B6:5F:2E:E8:79:7E:CE:A1:94:4B",
+      "sha1": "B5:13:A7:38:AC:37:40:7B:CE:8C:B6:5F:2E:E8:79:7E:CE:A1:94:4B",
+      "sha256": "95:4E:F6:83:4F:B3:D0:4D:E1:0E:3C:D3:49:66:4E:14:B0:7F:44:4E:A4:EB:37:E6:BD:AE:97:25:F5:8D:86:47",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "creditoimediato.online",
+        "*.creditoimediato.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.creditoimediato.online, DNS:creditoimediato.online",
+        "subjectKeyIdentifier": "keyid:5f:94:f4:f5:51:06:6e:51:df:12:cb:46:e7:dd:78:75:32:4c:b5:88"
+      }
+    },
+    "cert_index": 4055365373,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055365373&end=4055365373",
+    "seen": 1777911560.818,
+    "submission_timestamp": 1777907010.591,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

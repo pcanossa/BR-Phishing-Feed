@@ -1,0 +1,53 @@
+{
+  "dominio": "sfa.ird.appdat.jsc.nasa.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 13:02:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sfa.ird.appdat.jsc.nasa.gov",
+        "aggregated": "/CN=sfa.ird.appdat.jsc.nasa.gov"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F688EE315606E19DC7444EAB8092A335",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "81:13:10:BD:F4:79:B1:A6:BE:BD:D6:1E:85:63:07:EA:4E:BA:93:4C",
+      "sha1": "81:13:10:BD:F4:79:B1:A6:BE:BD:D6:1E:85:63:07:EA:4E:BA:93:4C",
+      "sha256": "D5:47:B8:4A:12:54:10:95:17:B3:08:5C:27:5A:73:C2:E4:AA:1A:00:18:0C:26:28:6A:5A:62:42:50:26:FB:86",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sfa.ird.appdat.jsc.nasa.gov",
+        "sfa.jsc.nasa.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sfa.ird.appdat.jsc.nasa.gov, DNS:sfa.jsc.nasa.gov",
+        "subjectKeyIdentifier": "keyid:7d:f7:18:8d:8a:5b:54:d0:d9:4f:ec:df:ce:d2:b6:6c:4c:ff:0c:17",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 600416277,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=600416277&end=600416277",
+    "seen": 1777910571.803,
+    "submission_timestamp": 1777910437.988,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

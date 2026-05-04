@@ -1,0 +1,51 @@
+{
+  "dominio": "skynet.na.integ.aftx.amazonoperations.app",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 11:45:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "skynet.na.integ.aftx.amazonoperations.app",
+        "aggregated": "/CN=skynet.na.integ.aftx.amazonoperations.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0B5B43CEED89CD73D9E93F8E64097C3E",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "30:66:7E:E7:2B:05:C8:FA:82:B8:C9:99:46:94:A1:D3:9D:B2:20:86",
+      "sha1": "30:66:7E:E7:2B:05:C8:FA:82:B8:C9:99:46:94:A1:D3:9D:B2:20:86",
+      "sha256": "D1:14:2F:66:77:32:8C:54:06:2A:A1:3C:20:AC:D7:D1:9E:59:92:1F:39:88:1A:85:A0:6E:E2:3C:17:5E:9F:71",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "skynet.na.integ.aftx.amazonoperations.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:skynet.na.integ.aftx.amazonoperations.app",
+        "subjectKeyIdentifier": "keyid:dd:96:dd:49:b9:0b:27:ba:f2:c1:2f:3b:51:ba:86:c0:9f:45:49:97"
+      }
+    },
+    "cert_index": 4054054025,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054054025&end=4054054025",
+    "seen": 1777905914.787,
+    "submission_timestamp": 1777901429.745,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

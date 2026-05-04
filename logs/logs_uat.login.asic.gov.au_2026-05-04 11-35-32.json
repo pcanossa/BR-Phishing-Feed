@@ -1,0 +1,52 @@
+{
+  "dominio": "uat.login.asic.gov.au",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 11:35:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uat.login.asic.gov.au",
+        "aggregated": "/CN=uat.login.asic.gov.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "061F52D9435749D84D7B7CDD0D1A7B983ACC",
+      "not_before": 1777901683,
+      "not_after": 1785677682,
+      "fingerprint": "45:45:1B:27:FD:A4:74:52:F1:F5:15:B0:23:3E:1F:62:16:3E:98:44",
+      "sha1": "45:45:1B:27:FD:A4:74:52:F1:F5:15:B0:23:3E:1F:62:16:3E:98:44",
+      "sha256": "A1:96:2C:1F:D5:63:0A:9F:F5:45:80:EF:0A:1D:3F:60:66:D0:D2:2D:64:55:D2:E3:BB:BA:4D:C0:F5:12:09:A3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "uat.login.asic.gov.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:uat.login.asic.gov.au",
+        "subjectKeyIdentifier": "keyid:50:90:d7:18:5a:e7:d1:3b:ba:2f:a2:6b:d1:fc:78:61:6f:27:7d:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 518168418,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=518168418&end=518168418",
+    "seen": 1777905332.427,
+    "submission_timestamp": 1777905195.092,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "gov-brj.help",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 12:16:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gov-brj.help",
+        "aggregated": "/CN=gov-brj.help"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "FF0FB5E5E1A1EDCCF530F7EE0B936C0E",
+      "not_before": 1777852800,
+      "not_after": 1785683563,
+      "fingerprint": "50:35:7C:CD:E1:23:E3:88:1E:4B:55:23:28:8F:91:D8:B5:80:58:DA",
+      "sha1": "50:35:7C:CD:E1:23:E3:88:1E:4B:55:23:28:8F:91:D8:B5:80:58:DA",
+      "sha256": "B1:4D:6A:71:AC:9F:50:9F:AC:54:6C:5D:65:FE:9A:22:6E:AC:C1:19:6A:E3:28:A4:DA:C2:D0:3E:57:82:2D:5D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gov-brj.help",
+        "*.gov-brj.help"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gov-brj.help, DNS:*.gov-brj.help",
+        "subjectKeyIdentifier": "keyid:ea:80:1d:03:a0:68:ad:c8:04:5a:02:d4:31:22:05:00:ec:fd:b3:3e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 599994267,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=599994267&end=599994267",
+    "seen": 1777907811.875,
+    "submission_timestamp": 1777907673.668,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

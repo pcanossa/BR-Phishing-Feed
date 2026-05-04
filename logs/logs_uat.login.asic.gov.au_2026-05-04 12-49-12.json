@@ -1,0 +1,51 @@
+{
+  "dominio": "uat.login.asic.gov.au",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 12:49:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uat.login.asic.gov.au",
+        "aggregated": "/CN=uat.login.asic.gov.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060B08D95A969B12C5ED5AF7E5EBE4C1CAD2",
+      "not_before": 1777901689,
+      "not_after": 1785677688,
+      "fingerprint": "C0:91:3E:21:D5:3E:45:10:90:2E:E8:55:77:D6:AE:A1:ED:4B:B2:52",
+      "sha1": "C0:91:3E:21:D5:3E:45:10:90:2E:E8:55:77:D6:AE:A1:ED:4B:B2:52",
+      "sha256": "09:CF:BE:7E:50:F5:AB:23:24:9F:43:DD:BC:31:4D:A1:B4:06:5D:54:8D:33:ED:B4:46:D8:CC:6B:EA:ED:68:1D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uat.login.asic.gov.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:uat.login.asic.gov.au",
+        "subjectKeyIdentifier": "keyid:8f:01:a4:64:da:ee:3a:4b:84:bc:07:80:6c:eb:19:cc:aa:4c:21:f4"
+      }
+    },
+    "cert_index": 4054944905,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054944905&end=4054944905",
+    "seen": 1777909751.953,
+    "submission_timestamp": 1777905203.069,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "login-stg.ny.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 12:51:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login-stg.ny.gov",
+        "aggregated": "/CN=login-stg.ny.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06D6BF2766679A79495D42926706FC676ACB",
+      "not_before": 1777906391,
+      "not_after": 1785682390,
+      "fingerprint": "1C:ED:EA:17:AF:E7:E5:89:F8:49:1C:90:04:8C:A8:36:22:BE:68:52",
+      "sha1": "1C:ED:EA:17:AF:E7:E5:89:F8:49:1C:90:04:8C:A8:36:22:BE:68:52",
+      "sha256": "F9:2C:35:E0:E6:D4:B0:92:8A:E1:CA:30:DD:0C:97:52:63:B7:33:F7:0D:14:04:43:D3:99:6A:18:22:12:41:15",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login-stg.ny.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login-stg.ny.gov",
+        "subjectKeyIdentifier": "keyid:2c:b8:ba:16:cb:27:05:53:8c:fe:eb:c8:7d:04:b3:6c:5d:89:e7:ad"
+      }
+    },
+    "cert_index": 159924495,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x624/705",
+    "seen": 1777909904.881,
+    "submission_timestamp": 1777909902.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

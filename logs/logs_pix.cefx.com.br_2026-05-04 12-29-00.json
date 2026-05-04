@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.cefx.com.br",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 12:29:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.cefx.com.br",
+        "aggregated": "/CN=pix.cefx.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05E8964AF3694A959F674AF3BA528C3B0BED",
+      "not_before": 1777900391,
+      "not_after": 1785676390,
+      "fingerprint": "02:F0:8C:00:82:F2:8C:F3:46:C6:5A:47:62:E3:61:56:33:A2:EE:26",
+      "sha1": "02:F0:8C:00:82:F2:8C:F3:46:C6:5A:47:62:E3:61:56:33:A2:EE:26",
+      "sha256": "F9:B3:1F:4B:C5:7C:4B:68:F6:3D:05:7C:C8:E9:37:5D:1A:0E:E4:35:FD:0B:70:E2:F0:99:48:5A:0E:AE:A8:53",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.cefx.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.cefx.com.br",
+        "subjectKeyIdentifier": "keyid:2f:7a:b4:4d:69:62:e6:09:6a:e6:dc:f2:35:d6:fe:63:fe:0f:65:24"
+      }
+    },
+    "cert_index": 4054661539,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054661539&end=4054661539",
+    "seen": 1777908538.55,
+    "submission_timestamp": 1777904032.325,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

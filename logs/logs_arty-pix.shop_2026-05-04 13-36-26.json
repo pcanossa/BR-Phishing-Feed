@@ -1,0 +1,52 @@
+{
+  "dominio": "arty-pix.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 13:36:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "arty-pix.shop",
+        "aggregated": "/CN=arty-pix.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "061084154FD838CACC1EC7CCE5442DCA13C5",
+      "not_before": 1777904406,
+      "not_after": 1785680405,
+      "fingerprint": "C5:39:FA:BD:05:B4:FA:7F:57:37:80:CC:8D:5C:BD:91:DF:15:DF:6E",
+      "sha1": "C5:39:FA:BD:05:B4:FA:7F:57:37:80:CC:8D:5C:BD:91:DF:15:DF:6E",
+      "sha256": "A6:33:4C:CF:1C:6A:59:DC:29:0A:FD:1A:EF:39:6E:40:C7:59:0B:BA:C3:51:88:DB:65:9C:D2:11:65:7C:CF:17",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "arty-pix.shop",
+        "*.arty-pix.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.arty-pix.shop, DNS:arty-pix.shop",
+        "subjectKeyIdentifier": "keyid:35:6a:ce:4c:6e:83:38:4d:cc:b9:4f:69:2e:66:22:ff:75:3f:35:3a"
+      }
+    },
+    "cert_index": 4055597031,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055597031&end=4055597031",
+    "seen": 1777912584.631,
+    "submission_timestamp": 1777907999.142,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

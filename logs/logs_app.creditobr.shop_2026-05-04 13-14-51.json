@@ -1,0 +1,51 @@
+{
+  "dominio": "app.creditobr.shop",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 13:14:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.creditobr.shop",
+        "aggregated": "/CN=app.creditobr.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0C55474A447F1D251182F95282F3BF39",
+      "not_before": 1777903109,
+      "not_after": 1785682698,
+      "fingerprint": "9B:89:42:49:02:CF:CF:21:16:19:BD:29:0C:99:FB:96:68:92:E3:D4",
+      "sha1": "9B:89:42:49:02:CF:CF:21:16:19:BD:29:0C:99:FB:96:68:92:E3:D4",
+      "sha256": "48:C5:C9:80:9D:C4:6A:8F:84:AC:99:70:D0:94:91:C9:81:4D:CE:04:89:D8:B4:41:CD:52:69:55:BA:93:2A:39",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.creditobr.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/DFU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.creditobr.shop",
+        "subjectKeyIdentifier": "keyid:15:1e:ec:22:0f:c7:81:4b:fe:4e:ca:9e:be:fd:26:7f:87:12:53:cd"
+      }
+    },
+    "cert_index": 4055305813,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055305813&end=4055305813",
+    "seen": 1777911288.979,
+    "submission_timestamp": 1777906761.266,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

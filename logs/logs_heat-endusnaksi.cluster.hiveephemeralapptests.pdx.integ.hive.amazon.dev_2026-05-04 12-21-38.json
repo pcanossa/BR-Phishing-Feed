@@ -1,0 +1,52 @@
+{
+  "dominio": "heat-endusnaksi.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 12:21:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "aggregated": "/CN=dummy.nlb.pdx.integ.hive.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 384 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 384 M01/O=Amazon"
+      },
+      "serial_number": "0552AD21122E79A05EA2733B52DCA1A1",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "92:D8:1E:2E:6F:CC:BF:A6:A0:28:9C:9D:F6:00:4D:7A:AE:19:3E:8D",
+      "sha1": "92:D8:1E:2E:6F:CC:BF:A6:A0:28:9C:9D:F6:00:4D:7A:AE:19:3E:8D",
+      "sha256": "5F:46:BB:8B:8F:B7:74:BD:75:FD:60:CC:5A:61:DC:56:94:C3:38:AD:9A:E0:1D:46:72:38:F8:A1:28:5C:E2:21",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "heat-endusnaksi.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e3m01.amazontrust.com, URI:http://crt.e3m01.amazontrust.com/e3m01.cer",
+        "authorityKeyIdentifier": "keyid:03:e4:a4:04:8e:05:7f:9a:12:97:84:04:ff:11:77:30:8c:ba:2a:a7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:dummy.nlb.pdx.integ.hive.amazon.dev, DNS:heat-endusnaksi.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+        "subjectKeyIdentifier": "keyid:57:ec:59:98:92:4b:58:91:74:b3:99:ee:7b:f6:25:f0:d9:f7:0c:7a"
+      }
+    },
+    "cert_index": 167656188,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x654/906",
+    "seen": 1777908095.751,
+    "submission_timestamp": 1777908095.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

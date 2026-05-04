@@ -1,0 +1,51 @@
+{
+  "dominio": "www.viajeclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/04/26 11:34:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.viajeclaro.app",
+        "aggregated": "/CN=www.viajeclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0F8E2B1AD527692E11EEE16FD880CD4D",
+      "not_before": 1777897112,
+      "not_after": 1785676711,
+      "fingerprint": "43:05:C3:69:9B:ED:97:AA:44:0F:AF:AB:63:37:61:5D:22:EF:5A:BA",
+      "sha1": "43:05:C3:69:9B:ED:97:AA:44:0F:AF:AB:63:37:61:5D:22:EF:5A:BA",
+      "sha256": "0F:E7:13:19:44:67:87:99:62:35:62:E5:74:2B:D5:ED:4A:D7:7E:10:9D:6E:E8:1B:60:2D:DE:9D:27:1F:7B:35",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.viajeclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/D44, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.viajeclaro.app",
+        "subjectKeyIdentifier": "keyid:c5:1f:2a:9c:b1:11:6a:25:0b:61:5f:e3:c9:6b:b6:82:f1:72:8d:8e"
+      }
+    },
+    "cert_index": 4053901790,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4053901790&end=4053901790",
+    "seen": 1777905267.939,
+    "submission_timestamp": 1777900782.035,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

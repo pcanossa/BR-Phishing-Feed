@@ -1,0 +1,52 @@
+{
+  "dominio": "sun-pix.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 13:36:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sun-pix.shop",
+        "aggregated": "/CN=sun-pix.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "064ECF96D3FC350350F6DDB1A0A88AED991B",
+      "not_before": 1777904415,
+      "not_after": 1785680414,
+      "fingerprint": "53:31:C8:9E:6A:4D:45:DA:D3:F6:25:78:B0:FE:4C:8B:3A:2D:F0:F2",
+      "sha1": "53:31:C8:9E:6A:4D:45:DA:D3:F6:25:78:B0:FE:4C:8B:3A:2D:F0:F2",
+      "sha256": "04:BE:29:13:1E:62:C5:38:17:D4:79:C1:29:56:28:C3:A5:11:9A:7C:02:28:65:CF:2E:31:03:8E:4F:07:2B:3D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "sun-pix.shop",
+        "*.sun-pix.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.sun-pix.shop, DNS:sun-pix.shop",
+        "subjectKeyIdentifier": "keyid:cb:49:02:2c:f8:05:6c:44:ec:5b:22:22:81:7e:5d:50:81:c6:32:17"
+      }
+    },
+    "cert_index": 4055597024,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055597024&end=4055597024",
+    "seen": 1777912584.63,
+    "submission_timestamp": 1777907999.105,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

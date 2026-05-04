@@ -1,0 +1,56 @@
+{
+  "dominio": "cartao.uc.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/04/26 13:49:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "PT",
+        "CN": "poseidon.uc.pt",
+        "L": "Coimbra",
+        "O": "Universidade de Coimbra",
+        "aggregated": "/C=PT/CN=poseidon.uc.pt/L=Coimbra/O=Universidade de Coimbra"
+      },
+      "issuer": {
+        "C": "GR",
+        "CN": "GEANT TLS ECC 1",
+        "O": "Hellenic Academic and Research Institutions CA",
+        "aggregated": "/C=GR/CN=GEANT TLS ECC 1/O=Hellenic Academic and Research Institutions CA"
+      },
+      "serial_number": "0E38CCF0732D40F2F462AFAC37A50EF1",
+      "not_before": 1747406568,
+      "not_after": 1778942568,
+      "fingerprint": "81:F1:65:26:06:88:25:5D:76:58:1D:46:A9:EE:A2:86:A6:17:FF:97",
+      "sha1": "81:F1:65:26:06:88:25:5D:76:58:1D:46:A9:EE:A2:86:A6:17:FF:97",
+      "sha256": "9D:99:CF:02:04:B2:D0:7D:F4:39:58:77:E3:68:1F:C5:BA:E2:41:D3:6A:05:D2:00:00:BB:2B:CF:39:A0:02:B0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "poseidon.uc.pt",
+        "www.poseidon.uc.pt",
+        "cartao.uc.pt",
+        "www.cartao.uc.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.harica.gr/HARICA-GEANT-TLS-E1.cer, URI:http://ocsp-tls.harica.gr",
+        "authorityKeyIdentifier": "keyid:e9:99:06:8d:17:1f:ab:fb:96:1a:5a:c8:5b:5e:5d:5e:ec:da:9c:8f",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 0.4.0.2042.1.7\nPolicy: 1.3.6.1.4.1.26513.1.1.1.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:poseidon.uc.pt, DNS:www.poseidon.uc.pt, DNS:cartao.uc.pt, DNS:www.cartao.uc.pt",
+        "subjectKeyIdentifier": "keyid:f5:5d:e4:c7:b7:83:34:c0:21:72:9a:e3:25:e6:c5:95:f3:6d:5d:b4"
+      }
+    },
+    "cert_index": 913576463,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h1/tile/data/x003/x568/658",
+    "seen": 1777913347.454,
+    "submission_timestamp": 1777913344.524,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h1"
+    }
+  }
+}

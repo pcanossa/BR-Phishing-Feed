@@ -1,0 +1,51 @@
+{
+  "dominio": "vpngtest133.us-gov-east-1.k8s.dev.appian-gov-dev.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 12:54:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.vpngtest133.us-gov-east-1.k8s.dev.appian-gov-dev.com",
+        "aggregated": "/CN=*.vpngtest133.us-gov-east-1.k8s.dev.appian-gov-dev.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "04C171601A014E335FB4A5DB626FE922",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "F6:3E:0B:2A:01:86:E7:64:35:99:5F:74:AA:A2:00:B5:50:35:95:DA",
+      "sha1": "F6:3E:0B:2A:01:86:E7:64:35:99:5F:74:AA:A2:00:B5:50:35:95:DA",
+      "sha256": "89:DD:5A:2F:66:D2:6C:F0:60:55:BE:86:01:CA:EF:E7:3E:88:B7:8F:A2:24:83:6C:2A:9C:9D:2F:4E:D3:4F:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.vpngtest133.us-gov-east-1.k8s.dev.appian-gov-dev.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.vpngtest133.us-gov-east-1.k8s.dev.appian-gov-dev.com",
+        "subjectKeyIdentifier": "keyid:f3:bf:c6:33:f0:ec:f8:a2:de:b6:07:dd:17:8b:b7:d7:5f:31:f3:5f"
+      }
+    },
+    "cert_index": 159927229,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x624/715",
+    "seen": 1777910039.32,
+    "submission_timestamp": 1777910037.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

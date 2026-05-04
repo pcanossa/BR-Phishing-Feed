@@ -1,0 +1,52 @@
+{
+  "dominio": "creditopublico.tujujuy.gob.ar",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:02:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditopublico.tujujuy.gob.ar",
+        "aggregated": "/CN=creditopublico.tujujuy.gob.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0646A2E73E0F8A8F31F134093EAE5B8A5DE0",
+      "not_before": 1777906100,
+      "not_after": 1785682099,
+      "fingerprint": "DB:24:79:86:A7:DE:D4:E0:C3:67:16:F8:6B:98:55:B4:F6:77:F4:35",
+      "sha1": "DB:24:79:86:A7:DE:D4:E0:C3:67:16:F8:6B:98:55:B4:F6:77:F4:35",
+      "sha256": "25:59:E3:D7:63:78:6F:90:C4:01:C7:FC:82:88:EA:63:D3:06:05:9E:05:3D:7B:0C:1F:50:46:25:41:D5:20:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditopublico.tujujuy.gob.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditopublico.tujujuy.gob.ar",
+        "subjectKeyIdentifier": "keyid:a8:42:01:d8:cd:ac:24:28:72:8f:8c:8e:ad:df:c7:a4:78:aa:dd:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4055950744,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055950744&end=4055950744",
+    "seen": 1777914142.753,
+    "submission_timestamp": 1777909610.477,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

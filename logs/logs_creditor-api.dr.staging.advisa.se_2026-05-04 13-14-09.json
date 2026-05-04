@@ -1,0 +1,52 @@
+{
+  "dominio": "creditor-api.dr.staging.advisa.se",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 13:14:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditor-api.dr.staging.advisa.se",
+        "aggregated": "/CN=creditor-api.dr.staging.advisa.se"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D9C154A80ECA19DDDD37F7A22D3122B",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "86:CB:C2:11:65:96:09:BD:D6:F7:7E:42:11:19:66:BB:51:62:90:71",
+      "sha1": "86:CB:C2:11:65:96:09:BD:D6:F7:7E:42:11:19:66:BB:51:62:90:71",
+      "sha256": "6E:07:0F:55:9C:11:B7:20:E2:41:A5:7B:00:BB:7B:0C:6F:D0:4F:FB:CB:7B:ED:45:6E:1C:D4:BA:8E:B9:E1:0E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditor-api.dr.staging.advisa.se"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditor-api.dr.staging.advisa.se",
+        "subjectKeyIdentifier": "keyid:6a:58:41:da:ae:1c:16:cc:dc:13:dc:9c:58:49:af:fe:f8:9f:d7:6e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4055296642,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055296642&end=4055296642",
+    "seen": 1777911247.952,
+    "submission_timestamp": 1777906717.326,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

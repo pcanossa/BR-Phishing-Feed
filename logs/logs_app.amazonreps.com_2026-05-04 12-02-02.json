@@ -1,0 +1,51 @@
+{
+  "dominio": "app.amazonreps.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 12:02:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.amazonreps.com",
+        "aggregated": "/CN=app.amazonreps.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1F1C6154119BCF218FFC15A7278E34B2",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "81:9E:76:E5:DF:70:A9:2E:14:73:DF:31:E2:13:85:D5:7C:8F:42:10",
+      "sha1": "81:9E:76:E5:DF:70:A9:2E:14:73:DF:31:E2:13:85:D5:7C:8F:42:10",
+      "sha256": "AB:F5:26:2A:A1:C1:5C:24:C9:AE:86:D3:4A:EE:09:6B:DE:54:AD:81:29:DD:30:E9:9A:70:C9:8D:38:B7:61:0E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.amazonreps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.amazonreps.com",
+        "subjectKeyIdentifier": "keyid:2e:2d:0a:8f:86:8c:e7:7e:39:da:f3:26:f8:d4:41:91:43:cc:97:6c"
+      }
+    },
+    "cert_index": 4054287439,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054287439&end=4054287439",
+    "seen": 1777906922.479,
+    "submission_timestamp": 1777902431.898,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "pix-kid.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 13:37:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-kid.shop",
+        "aggregated": "/CN=pix-kid.shop"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "8D86C38CE35746BE7AFD034D7C444BE4",
+      "not_before": 1777852800,
+      "not_after": 1785683809,
+      "fingerprint": "A1:56:E4:B1:DC:A4:4A:3B:0A:24:61:5B:6B:37:7D:D6:EE:A7:DC:D6",
+      "sha1": "A1:56:E4:B1:DC:A4:4A:3B:0A:24:61:5B:6B:37:7D:D6:EE:A7:DC:D6",
+      "sha256": "0B:AB:78:01:CD:CC:AD:EE:ED:0F:6D:40:70:A8:42:BF:D8:89:FE:64:7F:B0:F8:4B:91:44:BC:F9:EE:1F:1E:45",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix-kid.shop",
+        "*.pix-kid.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix-kid.shop, DNS:*.pix-kid.shop",
+        "subjectKeyIdentifier": "keyid:5a:bb:a2:b6:7d:08:57:eb:ad:0e:bd:7e:5f:bf:1f:e8:eb:f2:40:ac",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4055610761,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055610761&end=4055610761",
+    "seen": 1777912642.242,
+    "submission_timestamp": 1777908058.109,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "heat-endlwwsa0i.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 12:00:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "aggregated": "/CN=dummy.nlb.pdx.integ.hive.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 384 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 384 M04/O=Amazon"
+      },
+      "serial_number": "05D11E61A525BF3AB7A22F8CC059E180",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "FB:FA:56:39:81:D2:0C:70:CF:8C:D1:B8:4A:71:58:33:1A:18:98:27",
+      "sha1": "FB:FA:56:39:81:D2:0C:70:CF:8C:D1:B8:4A:71:58:33:1A:18:98:27",
+      "sha256": "0E:3C:1F:4C:4A:78:0B:92:49:1A:DC:27:4A:D4:B8:A3:83:11:39:B5:99:D0:62:19:C2:09:93:B4:FA:2E:B5:F3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "heat-endlwwsa0i.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e3m04.amazontrust.com, URI:http://crt.e3m04.amazontrust.com/e3m04.cer",
+        "authorityKeyIdentifier": "keyid:52:f0:d2:50:80:3c:d4:19:11:c8:83:6f:0e:02:be:a8:4a:17:4d:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:dummy.nlb.pdx.integ.hive.amazon.dev, DNS:heat-endlwwsa0i.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+        "subjectKeyIdentifier": "keyid:b0:b5:2e:ac:b3:d5:ed:83:1f:33:f1:53:03:78:84:f6:22:0c:95:f2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 599835203,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=599835203&end=599835203",
+    "seen": 1777906841.494,
+    "submission_timestamp": 1777906668.263,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "creditor-rest-server.dr.staging.advisa.se",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 13:16:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditor-rest-server.dr.staging.advisa.se",
+        "aggregated": "/CN=creditor-rest-server.dr.staging.advisa.se"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "03A84CE901C907B9E49AA9F70C6344C3",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "CA:89:92:BF:C2:37:D3:4D:7C:36:EC:0C:62:D7:98:4A:AC:67:A2:4F",
+      "sha1": "CA:89:92:BF:C2:37:D3:4D:7C:36:EC:0C:62:D7:98:4A:AC:67:A2:4F",
+      "sha256": "35:DA:98:68:59:AA:48:A4:BE:15:07:AA:C6:84:89:FF:F9:6C:03:C5:56:ED:C7:85:8B:7C:F7:54:2A:5C:C0:E1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditor-rest-server.dr.staging.advisa.se"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditor-rest-server.dr.staging.advisa.se",
+        "subjectKeyIdentifier": "keyid:29:c5:4c:96:4c:b0:c8:5e:74:ea:37:5c:f6:8f:3f:29:31:05:cd:6c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4055321656,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055321656&end=4055321656",
+    "seen": 1777911362.342,
+    "submission_timestamp": 1777906831.065,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

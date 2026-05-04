@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-go.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 13:34:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-go.shop",
+        "aggregated": "/CN=pix-go.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05885606B6096F5A49C3AFAABD377B0DD99D",
+      "not_before": 1777904384,
+      "not_after": 1785680383,
+      "fingerprint": "9C:AF:A4:4B:CC:2C:32:15:6A:AA:01:66:C4:DE:81:EE:94:4E:57:86",
+      "sha1": "9C:AF:A4:4B:CC:2C:32:15:6A:AA:01:66:C4:DE:81:EE:94:4E:57:86",
+      "sha256": "C0:25:3C:A9:BA:C0:B9:E5:30:5E:53:11:27:56:59:18:35:FE:79:D0:CA:69:91:BF:3D:EA:F6:62:1E:1D:BE:71",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-go.shop",
+        "*.pix-go.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pix-go.shop, DNS:pix-go.shop",
+        "subjectKeyIdentifier": "keyid:d8:31:ec:d1:28:90:64:82:89:3c:ec:6d:27:42:ef:37:01:a0:a0:8a"
+      }
+    },
+    "cert_index": 4055573137,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055573137&end=4055573137",
+    "seen": 1777912478.226,
+    "submission_timestamp": 1777907896.605,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

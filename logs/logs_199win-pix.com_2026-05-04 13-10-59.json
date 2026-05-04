@@ -1,0 +1,53 @@
+{
+  "dominio": "199win-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 13:10:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "199win-pix.com",
+        "aggregated": "/CN=199win-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0675ED4D91A2D8342BBECC1846B10D334E4C",
+      "not_before": 1777903014,
+      "not_after": 1785679013,
+      "fingerprint": "13:83:2F:DD:21:26:72:1F:BD:15:3C:C5:81:2C:2D:38:41:D0:53:38",
+      "sha1": "13:83:2F:DD:21:26:72:1F:BD:15:3C:C5:81:2C:2D:38:41:D0:53:38",
+      "sha256": "6A:ED:D3:56:09:C0:1E:C4:3F:D2:F1:DE:26:73:82:F4:8F:FD:F6:B7:E2:7F:11:E8:57:88:52:74:09:24:27:35",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "199win-pix.com",
+        "*.199win-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.199win-pix.com, DNS:199win-pix.com",
+        "subjectKeyIdentifier": "keyid:1e:39:fb:ea:bd:ac:20:74:9a:4e:78:0a:8f:85:56:35:85:9b:bf:1f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4055250915,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055250915&end=4055250915",
+    "seen": 1777911057.959,
+    "submission_timestamp": 1777906524.792,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

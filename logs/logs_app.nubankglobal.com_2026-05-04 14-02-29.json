@@ -1,0 +1,52 @@
+{
+  "dominio": "app.nubankglobal.com",
+  "marcas_encontradas": [
+    "nubank"
+  ],
+  "timestamp": "05/04/26 14:02:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.nubankglobal.com",
+        "aggregated": "/CN=app.nubankglobal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "05ABC3E63A14225C428710712ED50725",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "E6:52:6E:B0:5C:36:37:50:F8:15:80:B0:03:3F:AF:BC:61:D8:19:0A",
+      "sha1": "E6:52:6E:B0:5C:36:37:50:F8:15:80:B0:03:3F:AF:BC:61:D8:19:0A",
+      "sha256": "86:1F:4B:DD:6D:D5:79:29:4D:4A:9C:5F:0F:F7:BA:AA:60:4D:7A:53:80:C9:C3:10:99:D8:ED:E8:BB:5A:BF:2A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.nubankglobal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.nubankglobal.com",
+        "subjectKeyIdentifier": "keyid:64:d5:51:75:b0:f3:6c:cf:7c:d0:f9:99:e4:ff:df:1f:69:4c:5e:23"
+      }
+    },
+    "cert_index": 4055951781,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4055951781&end=4055951781",
+    "seen": 1777914148.315,
+    "submission_timestamp": 1777909615.953,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

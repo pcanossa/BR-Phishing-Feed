@@ -1,0 +1,51 @@
+{
+  "dominio": "fe.geoeditor.app.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 11:23:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fe.geoeditor.app.amazon.dev",
+        "aggregated": "/CN=fe.geoeditor.app.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0AFD3691508154ABA49864C482438B96",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "62:F5:37:42:E0:B7:8C:4C:CA:86:3E:34:54:92:CF:4E:7B:AB:20:74",
+      "sha1": "62:F5:37:42:E0:B7:8C:4C:CA:86:3E:34:54:92:CF:4E:7B:AB:20:74",
+      "sha256": "44:F3:DD:B7:27:A6:0B:D3:69:31:66:34:8E:FA:71:6E:A6:FE:2C:32:05:E5:AA:76:9F:64:52:9D:9A:F2:ED:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fe.geoeditor.app.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fe.geoeditor.app.amazon.dev",
+        "subjectKeyIdentifier": "keyid:5b:a3:65:66:1c:ba:d5:6a:bd:a0:ae:bd:46:2d:78:48:e2:aa:fa:d1"
+      }
+    },
+    "cert_index": 4053752221,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4053752221&end=4053752221",
+    "seen": 1777904628.396,
+    "submission_timestamp": 1777900136.125,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

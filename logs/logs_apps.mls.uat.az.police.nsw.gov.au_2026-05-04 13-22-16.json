@@ -1,0 +1,59 @@
+{
+  "dominio": "apps.mls.uat.az.police.nsw.gov.au",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 13:22:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "AU",
+        "CN": "api-external.mls.uat.police.nsw.gov.au",
+        "L": "Parramatta",
+        "O": "NSW Police Force",
+        "ST": "New South Wales",
+        "aggregated": "/C=AU/CN=api-external.mls.uat.police.nsw.gov.au/L=Parramatta/O=NSW Police Force/ST=New South Wales"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "066C272D381EE0B4AC8BC742E01DAF19",
+      "not_before": 1777852800,
+      "not_after": 1795046399,
+      "fingerprint": "ED:C1:7B:1E:63:ED:79:43:DE:31:BC:49:C8:77:9C:05:A5:32:42:CD",
+      "sha1": "ED:C1:7B:1E:63:ED:79:43:DE:31:BC:49:C8:77:9C:05:A5:32:42:CD",
+      "sha256": "DF:00:CB:D2:B6:BD:91:C4:AE:2A:C0:D4:32:3A:A6:3C:A6:A9:47:8B:32:5C:F0:A8:40:70:CA:E7:D9:BC:AE:5F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-external.mls.uat.police.nsw.gov.au",
+        "api-internal.mls.uat.phq.police.nsw.gov.au",
+        "apps.mls.uat.az.police.nsw.gov.au",
+        "apps.mls.uat.phq.police.nsw.gov.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-external.mls.uat.police.nsw.gov.au, DNS:api-internal.mls.uat.phq.police.nsw.gov.au, DNS:apps.mls.uat.az.police.nsw.gov.au, DNS:apps.mls.uat.phq.police.nsw.gov.au",
+        "subjectKeyIdentifier": "keyid:3b:36:ea:83:b9:11:63:2b:37:5d:80:0f:4c:8f:0f:5e:71:1d:9f:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 579115051,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=579115051&end=579115051",
+    "seen": 1777911734.869,
+    "submission_timestamp": 1777865985.413,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

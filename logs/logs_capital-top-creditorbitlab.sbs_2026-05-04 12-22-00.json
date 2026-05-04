@@ -1,0 +1,53 @@
+{
+  "dominio": "capital-top-creditorbitlab.sbs",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 12:22:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "capital-top-creditorbitlab.sbs",
+        "aggregated": "/CN=capital-top-creditorbitlab.sbs"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B37BC09CF0A541C911677948F40A59FF",
+      "not_before": 1777899998,
+      "not_after": 1785679456,
+      "fingerprint": "05:15:B8:9F:AC:33:BF:56:4E:CC:CF:EF:1E:12:38:A7:91:A6:A2:5E",
+      "sha1": "05:15:B8:9F:AC:33:BF:56:4E:CC:CF:EF:1E:12:38:A7:91:A6:A2:5E",
+      "sha256": "77:02:00:86:0C:50:47:C5:BB:FA:44:41:DC:B3:4A:5B:16:5B:33:5C:83:5F:7E:F0:08:17:D2:B1:05:EC:4B:67",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "capital-top-creditorbitlab.sbs",
+        "*.capital-top-creditorbitlab.sbs"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/s3s, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:capital-top-creditorbitlab.sbs, DNS:*.capital-top-creditorbitlab.sbs",
+        "subjectKeyIdentifier": "keyid:27:d6:30:b4:2d:f0:32:43:ab:35:74:5b:f3:87:19:3d:fb:5c:25:35",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4054565178,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054565178&end=4054565178",
+    "seen": 1777908119.861,
+    "submission_timestamp": 1777903599.287,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.see-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 12:25:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.see-pix.com",
+        "aggregated": "/CN=apps.see-pix.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "A9821FBB5469B1DB86A071C73B444771",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "86:52:3E:D9:FE:70:9E:F5:E5:5D:CB:F6:1C:53:8C:7C:7A:1C:A9:82",
+      "sha1": "86:52:3E:D9:FE:70:9E:F5:E5:5D:CB:F6:1C:53:8C:7C:7A:1C:A9:82",
+      "sha256": "84:61:CB:46:17:BD:31:D2:E2:E7:CB:0B:DB:EA:C4:70:69:C4:34:58:79:E2:F6:F9:09:AF:47:D3:0F:9D:6D:72",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.see-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.see-pix.com",
+        "subjectKeyIdentifier": "keyid:a0:83:4e:a1:ef:7c:55:b1:ff:e7:15:71:23:1a:c5:9d:c3:67:11:89",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4054611378,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054611378&end=4054611378",
+    "seen": 1777908319.124,
+    "submission_timestamp": 1777903810.382,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "creditodisponivel.digital",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 12:41:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditodisponivel.digital",
+        "aggregated": "/CN=creditodisponivel.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6A953A4DAD36C0A80E35F494285FF1FE",
+      "not_before": 1777901168,
+      "not_after": 1785680762,
+      "fingerprint": "8E:28:66:C0:DB:6C:DF:8F:5C:AE:15:4C:52:96:96:FB:6F:5B:AA:7D",
+      "sha1": "8E:28:66:C0:DB:6C:DF:8F:5C:AE:15:4C:52:96:96:FB:6F:5B:AA:7D",
+      "sha256": "35:84:1F:91:C3:E6:BE:FE:AF:6A:8D:0B:59:9D:DC:00:4E:DF:8D:C4:01:86:F7:F0:C0:6F:04:45:DD:F7:50:93",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditodisponivel.digital",
+        "*.creditodisponivel.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/apU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditodisponivel.digital, DNS:*.creditodisponivel.digital",
+        "subjectKeyIdentifier": "keyid:57:a2:7a:11:0f:0c:00:c7:e7:04:93:41:94:99:a2:b1:f8:46:86:ce",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4054836334,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4054836334&end=4054836334",
+    "seen": 1777909296.064,
+    "submission_timestamp": 1777904768.818,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
