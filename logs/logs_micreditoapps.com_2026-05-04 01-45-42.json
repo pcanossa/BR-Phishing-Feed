@@ -1,0 +1,57 @@
+{
+  "dominio": "micreditoapps.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 01:45:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fincaapp.com",
+        "aggregated": "/CN=fincaapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "L": "Scottsdale",
+        "O": "GoDaddy.com, Inc.",
+        "OU": "http://certs.godaddy.com/repository/",
+        "ST": "Arizona",
+        "aggregated": "/C=US/CN=Go Daddy Secure Certificate Authority - G2/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//ST=Arizona"
+      },
+      "serial_number": "DE62D317A1F74230",
+      "not_before": 1777865812,
+      "not_after": 1794973012,
+      "fingerprint": "27:45:38:EE:50:41:45:3F:EA:C5:D0:B0:E2:65:25:0E:BD:71:AB:B6",
+      "sha1": "27:45:38:EE:50:41:45:3F:EA:C5:D0:B0:E2:65:25:0E:BD:71:AB:B6",
+      "sha256": "A4:91:DB:29:3F:67:A5:E7:0D:89:8F:C3:FF:88:3B:5E:0B:5F:E6:53:1D:D9:B8:6B:02:9B:F6:3D:3C:04:E5:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fincaapp.com",
+        "www.fincaapp.com",
+        "micreditoapps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gdig2.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:40:c2:bd:27:8e:cc:34:83:30:a2:33:d7:fb:6c:b3:f0:b4:2c:80:ce",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fincaapp.com, DNS:www.fincaapp.com, DNS:micreditoapps.com",
+        "subjectKeyIdentifier": "keyid:07:7f:d8:77:67:a6:3d:59:7b:05:3a:20:6c:d0:5a:68:cc:f2:db:b0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045443302,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045443302&end=4045443302",
+    "seen": 1777869940.877,
+    "submission_timestamp": 1777865813.91,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

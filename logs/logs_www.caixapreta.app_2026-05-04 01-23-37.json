@@ -1,0 +1,51 @@
+{
+  "dominio": "www.caixapreta.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/04/26 01:23:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.caixapreta.app",
+        "aggregated": "/CN=www.caixapreta.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0648345B4B8700E40D4422A5CD648FC3328C",
+      "not_before": 1777816531,
+      "not_after": 1785592530,
+      "fingerprint": "65:F4:77:AC:04:C8:A9:2B:32:7C:BA:8A:3D:C8:CC:65:F8:BD:FA:C6",
+      "sha1": "65:F4:77:AC:04:C8:A9:2B:32:7C:BA:8A:3D:C8:CC:65:F8:BD:FA:C6",
+      "sha256": "A2:92:FE:53:BA:EF:DE:C6:62:23:81:FA:18:C4:2D:95:6D:37:D8:01:E3:92:0E:38:98:38:90:ED:05:2C:83:36",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.caixapreta.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.caixapreta.app",
+        "subjectKeyIdentifier": "keyid:15:a7:4c:e7:60:64:ff:76:a0:54:f8:f8:48:f5:c2:d6:0f:ee:32:a2"
+      }
+    },
+    "cert_index": 817040995,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=817040995&end=817040995",
+    "seen": 1777868616.797,
+    "submission_timestamp": 1777820042.002,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

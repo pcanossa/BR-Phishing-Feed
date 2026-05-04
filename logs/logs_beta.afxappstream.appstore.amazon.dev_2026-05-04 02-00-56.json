@@ -1,0 +1,52 @@
+{
+  "dominio": "beta.afxappstream.appstore.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 02:00:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beta.afxappstream.appstore.amazon.dev",
+        "aggregated": "/CN=beta.afxappstream.appstore.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "037086664E3F347B074E8D1864DED4D6",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "8E:35:70:48:E8:FB:2D:AB:9D:1A:DC:9D:BC:49:43:E4:D2:B4:5A:2A",
+      "sha1": "8E:35:70:48:E8:FB:2D:AB:9D:1A:DC:9D:BC:49:43:E4:D2:B4:5A:2A",
+      "sha256": "50:D5:59:65:E2:61:D8:E2:DE:3A:39:80:BF:A7:71:2B:85:1A:C2:C6:40:20:7F:A3:66:69:D3:4A:08:E1:C7:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "beta.afxappstream.appstore.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:beta.afxappstream.appstore.amazon.dev",
+        "subjectKeyIdentifier": "keyid:81:7c:fd:70:1a:d9:13:cc:82:5e:a6:dd:9f:72:11:3b:5a:99:64:6e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045577256,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045577256&end=4045577256",
+    "seen": 1777870855.376,
+    "submission_timestamp": 1777866404.338,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

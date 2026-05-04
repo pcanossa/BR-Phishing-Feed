@@ -1,0 +1,53 @@
+{
+  "dominio": "app.stone-cold.de",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/04/26 01:24:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.stone-cold.de",
+        "aggregated": "/CN=app.stone-cold.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "054D3536DC25F5F9C6BF41E2B5EEF453",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "64:66:5F:60:ED:6D:AB:B4:F0:FD:73:14:89:79:FB:54:58:A0:B5:CD",
+      "sha1": "64:66:5F:60:ED:6D:AB:B4:F0:FD:73:14:89:79:FB:54:58:A0:B5:CD",
+      "sha256": "F0:1C:C3:6F:BE:6B:ED:9B:57:12:DC:47:98:24:7C:A7:D1:6D:F7:9D:B7:37:52:D5:77:8E:1A:74:87:25:FF:9D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.stone-cold.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.stone-cold.de",
+        "subjectKeyIdentifier": "keyid:7d:db:44:12:0b:22:95:fd:78:e8:72:68:72:80:ea:dc:66:f4:b6:90",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045085387,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045085387&end=4045085387",
+    "seen": 1777868651.1,
+    "submission_timestamp": 1777864339.68,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

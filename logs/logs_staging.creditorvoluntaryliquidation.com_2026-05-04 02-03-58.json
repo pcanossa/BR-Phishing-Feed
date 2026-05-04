@@ -1,0 +1,53 @@
+{
+  "dominio": "staging.creditorvoluntaryliquidation.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 02:03:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.creditorvoluntaryliquidation.com",
+        "aggregated": "/CN=staging.creditorvoluntaryliquidation.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "072FDCE96EC2D0253741CEBB360013C2",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "4F:DA:C5:36:40:DF:12:C8:FE:2E:7A:EA:51:E0:AF:7B:0E:FF:3E:F0",
+      "sha1": "4F:DA:C5:36:40:DF:12:C8:FE:2E:7A:EA:51:E0:AF:7B:0E:FF:3E:F0",
+      "sha256": "2F:0B:5A:24:4B:CD:D4:2F:46:0D:4B:F3:E9:38:41:88:A3:33:D5:D5:2D:2F:66:38:B2:A0:D0:71:ED:29:DE:FF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging.creditorvoluntaryliquidation.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging.creditorvoluntaryliquidation.com",
+        "subjectKeyIdentifier": "keyid:db:db:8c:f6:90:4f:70:5b:d1:e0:f2:f8:40:46:f6:aa:5a:e0:96:73",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045629988,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045629988&end=4045629988",
+    "seen": 1777871038.746,
+    "submission_timestamp": 1777866661.866,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

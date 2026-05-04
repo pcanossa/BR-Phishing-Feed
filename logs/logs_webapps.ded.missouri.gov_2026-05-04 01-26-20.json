@@ -1,0 +1,53 @@
+{
+  "dominio": "webapps.ded.missouri.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 01:26:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "015BBCD116DFA60ED7C8B9AA80B3B4B7",
+      "not_before": 1777868753,
+      "not_after": 1777955153,
+      "fingerprint": "FD:9E:D3:CB:D0:6D:1E:59:DE:1C:77:A2:F2:9A:4E:BA:1E:73:DB:B5",
+      "sha1": "FD:9E:D3:CB:D0:6D:1E:59:DE:1C:77:A2:F2:9A:4E:BA:1E:73:DB:B5",
+      "sha256": "E9:AD:82:E5:E2:7A:3E:4E:E0:73:37:7E:25:FC:18:42:CF:4F:A7:EA:0F:8B:B2:F1:8E:38:D7:07:8F:14:4B:F2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.webapps.ded.missouri.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.webapps.ded.missouri.gov, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:a8:96:63:72:74:24:03:12:e1:24:a4:77:bf:54:75:e1:a3:3c:96:e1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1184826054,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1184826054&end=1184826054",
+    "seen": 1777868779.284,
+    "submission_timestamp": 1777868755.748,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h1'",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}

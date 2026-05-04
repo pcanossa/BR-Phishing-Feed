@@ -1,0 +1,53 @@
+{
+  "dominio": "app.amazoni.ai",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 01:26:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.amazoni.ai",
+        "aggregated": "/CN=app.amazoni.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "06A3AE27E94CF56CD049D1671978598C",
+      "not_before": 1777766400,
+      "not_after": 1785542399,
+      "fingerprint": "35:69:78:42:35:F9:DC:ED:2C:39:42:8B:58:51:82:1D:6B:BE:5C:3F",
+      "sha1": "35:69:78:42:35:F9:DC:ED:2C:39:42:8B:58:51:82:1D:6B:BE:5C:3F",
+      "sha256": "72:EE:3C:CF:AA:F6:13:90:1E:4E:55:E0:87:27:5F:5F:7E:6C:90:24:53:1E:7C:06:14:E9:C6:1F:0C:2D:00:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.amazoni.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.amazoni.ai",
+        "subjectKeyIdentifier": "keyid:25:f6:83:1f:93:00:9e:bc:82:2d:da:64:9b:57:30:a0:72:2a:95:b4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 550597114,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=550597114&end=550597114",
+    "seen": 1777868797.251,
+    "submission_timestamp": 1777852766.118,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

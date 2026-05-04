@@ -1,0 +1,53 @@
+{
+  "dominio": "login.neon-logo.com",
+  "marcas_encontradas": [
+    "neon"
+  ],
+  "timestamp": "05/04/26 01:48:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.neon-logo.com",
+        "aggregated": "/CN=login.neon-logo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E786B0E62336FE6E64C7A96290D1671",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "66:F0:86:AD:1A:D2:FA:8F:C4:A9:17:7B:D0:BA:E7:5B:93:9D:8A:6D",
+      "sha1": "66:F0:86:AD:1A:D2:FA:8F:C4:A9:17:7B:D0:BA:E7:5B:93:9D:8A:6D",
+      "sha256": "13:2F:7D:02:26:FB:CA:F6:6A:77:23:FD:95:DB:49:49:69:A8:2A:D6:1B:67:E2:F5:33:C1:3F:69:DA:89:FA:91",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.neon-logo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.neon-logo.com",
+        "subjectKeyIdentifier": "keyid:4a:58:81:d4:ad:31:5e:dc:01:2e:37:d2:ce:3b:46:ef:1f:ed:ed:39",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 550683761,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=550683761&end=550683761",
+    "seen": 1777870090.588,
+    "submission_timestamp": 1777853419.391,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

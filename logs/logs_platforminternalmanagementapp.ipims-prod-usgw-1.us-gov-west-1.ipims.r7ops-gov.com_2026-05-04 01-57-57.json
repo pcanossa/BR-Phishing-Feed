@@ -1,0 +1,53 @@
+{
+  "dominio": "platforminternalmanagementapp.ipims-prod-usgw-1.us-gov-west-1.ipims.r7ops-gov.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 01:57:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "wwwistio.ipims.r7ops-gov.com",
+        "aggregated": "/CN=wwwistio.ipims.r7ops-gov.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05780F14FD8E0C3C1D36A1A3E7879F453AAA",
+      "not_before": 1777862648,
+      "not_after": 1785638647,
+      "fingerprint": "69:7C:DA:74:7C:1C:55:12:E1:B3:1B:59:9D:B9:CC:54:50:07:5D:C9",
+      "sha1": "69:7C:DA:74:7C:1C:55:12:E1:B3:1B:59:9D:B9:CC:54:50:07:5D:C9",
+      "sha256": "8B:C4:55:3B:C9:C5:68:9A:2B:77:AA:7E:1F:A0:7F:90:FC:B5:70:9A:52:29:C2:40:ED:CC:77:EF:68:76:6B:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "wwwistio.ipims.r7ops-gov.com",
+        "platforminternalmanagementapp.ipims-prod-usgw-1.us-gov-west-1.ipims.r7ops-gov.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:platforminternalmanagementapp.ipims-prod-usgw-1.us-gov-west-1.ipims.r7ops-gov.com, DNS:wwwistio.ipims.r7ops-gov.com",
+        "subjectKeyIdentifier": "keyid:38:bb:af:f7:21:da:99:c0:a8:93:f7:a4:03:ba:02:a3:41:37:1d:b1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045522708,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045522708&end=4045522708",
+    "seen": 1777870677.86,
+    "submission_timestamp": 1777866159.011,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

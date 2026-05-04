@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.ritm.gov.ph",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 01:47:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.ritm.gov.ph",
+        "aggregated": "/CN=apps.ritm.gov.ph"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05CC8401017992D45914C00E6CB2FEA5B57F",
+      "not_before": 1777862442,
+      "not_after": 1785638441,
+      "fingerprint": "E8:0C:74:71:D7:6E:1C:2D:F6:38:8F:D4:7E:21:0A:4C:79:AE:0B:CA",
+      "sha1": "E8:0C:74:71:D7:6E:1C:2D:F6:38:8F:D4:7E:21:0A:4C:79:AE:0B:CA",
+      "sha256": "92:B2:C6:42:EC:90:A0:5C:49:F5:40:22:CE:3A:69:96:22:3D:AD:D7:FE:A7:E7:4A:13:09:D1:C1:4C:F9:A8:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.ritm.gov.ph"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.ritm.gov.ph",
+        "subjectKeyIdentifier": "keyid:41:72:38:30:64:49:b3:c4:8c:b3:bc:82:77:2d:04:3d:2f:4c:30:3c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045476050,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045476050&end=4045476050",
+    "seen": 1777870074.637,
+    "submission_timestamp": 1777865952.494,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

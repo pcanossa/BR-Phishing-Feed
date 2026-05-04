@@ -1,0 +1,51 @@
+{
+  "dominio": "argocd.dev.codesec.gov.aquasec.app",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 01:10:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "argocd.dev.codesec.gov.aquasec.app",
+        "aggregated": "/CN=argocd.dev.codesec.gov.aquasec.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06140E022C345D53AB59EA78E45F08E29253",
+      "not_before": 1777864342,
+      "not_after": 1785640341,
+      "fingerprint": "67:D9:8D:45:A4:19:44:D4:BE:93:20:5D:53:55:B5:8D:15:C3:D1:3F",
+      "sha1": "67:D9:8D:45:A4:19:44:D4:BE:93:20:5D:53:55:B5:8D:15:C3:D1:3F",
+      "sha256": "3D:E8:11:CB:B5:DA:FD:E7:D2:F4:CA:AE:08:45:56:CA:95:B1:36:55:95:9B:54:81:06:48:B9:EB:A1:A1:DC:04",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "argocd.dev.codesec.gov.aquasec.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:argocd.dev.codesec.gov.aquasec.app",
+        "subjectKeyIdentifier": "keyid:38:66:ea:21:10:20:35:10:37:38:a1:b5:39:6e:3a:96:ae:68:ca:3e"
+      }
+    },
+    "cert_index": 158910583,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x620/744",
+    "seen": 1777867857.649,
+    "submission_timestamp": 1777867853.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

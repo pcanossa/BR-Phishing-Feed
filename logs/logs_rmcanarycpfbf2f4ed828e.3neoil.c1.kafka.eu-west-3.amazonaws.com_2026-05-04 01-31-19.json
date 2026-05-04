@@ -1,0 +1,58 @@
+{
+  "dominio": "rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 01:31:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "058D5C249B4F9FF396BF737ECC803446",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "7C:9F:91:5A:B8:DB:F2:9D:CA:D0:D8:25:93:B9:8D:FD:C7:A6:7A:C2",
+      "sha1": "7C:9F:91:5A:B8:DB:F2:9D:CA:D0:D8:25:93:B9:8D:FD:C7:A6:7A:C2",
+      "sha256": "1F:78:6E:CF:AE:03:23:76:38:E7:59:7E:18:40:F6:6A:0D:B3:69:C3:4F:F9:70:06:0E:EC:E5:E0:5D:3F:E7:37",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "*.tls2.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "*.scram.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "*.scram2.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "*.tls.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "*.iam.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "*.iam2.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com, DNS:*.tls2.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com, DNS:*.scram.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com, DNS:*.scram2.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com, DNS:*.tls.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com, DNS:*.iam.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com, DNS:*.iam2.rmcanarycpfbf2f4ed828e.3neoil.c1.kafka.eu-west-3.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:82:5c:ea:74:1b:76:6a:e4:17:c4:9f:8e:56:13:19:3b:00:ae:af:8a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4045205971,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4045205971&end=4045205971",
+    "seen": 1777869080.079,
+    "submission_timestamp": 1777864784.293,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
