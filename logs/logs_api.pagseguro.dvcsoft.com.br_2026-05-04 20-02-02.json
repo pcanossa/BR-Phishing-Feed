@@ -1,0 +1,52 @@
+{
+  "dominio": "api.pagseguro.dvcsoft.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/04/26 20:02:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.pagseguro.dvcsoft.com.br",
+        "aggregated": "/CN=api.pagseguro.dvcsoft.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06571934791655034B7804178ADD5A6E0116",
+      "not_before": 1777932210,
+      "not_after": 1785708209,
+      "fingerprint": "15:8A:B0:B4:33:81:F8:58:6C:E5:7D:31:43:53:A4:F7:DD:B9:7C:35",
+      "sha1": "15:8A:B0:B4:33:81:F8:58:6C:E5:7D:31:43:53:A4:F7:DD:B9:7C:35",
+      "sha256": "63:B4:8B:3D:11:F0:FE:99:31:F2:73:EC:5F:D3:95:F9:88:57:B2:DA:FB:9B:F5:72:54:C8:EB:2E:C3:BA:C4:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.pagseguro.dvcsoft.com.br",
+        "www.api.pagseguro.dvcsoft.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.pagseguro.dvcsoft.com.br, DNS:www.api.pagseguro.dvcsoft.com.br",
+        "subjectKeyIdentifier": "keyid:da:f9:20:80:08:ae:55:80:47:a8:06:8a:e9:3a:31:09:97:52:b9:ec"
+      }
+    },
+    "cert_index": 168318820,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x657/495",
+    "seen": 1777935722.812,
+    "submission_timestamp": 1777935721.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

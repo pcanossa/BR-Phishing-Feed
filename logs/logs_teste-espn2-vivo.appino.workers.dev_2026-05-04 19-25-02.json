@@ -1,0 +1,53 @@
+{
+  "dominio": "teste-espn2-vivo.appino.workers.dev",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/04/26 19:25:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appino.workers.dev",
+        "aggregated": "/CN=appino.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "58BBE1D1CC93266411856CBF6757E33E",
+      "not_before": 1777823932,
+      "not_after": 1785603407,
+      "fingerprint": "2D:0B:85:3C:4B:61:92:D1:27:27:73:6E:1B:68:67:41:30:F8:BD:BF",
+      "sha1": "2D:0B:85:3C:4B:61:92:D1:27:27:73:6E:1B:68:67:41:30:F8:BD:BF",
+      "sha256": "48:D0:26:65:3C:21:0C:E6:1B:8B:65:40:22:1C:3B:A1:75:37:70:98:C6:61:65:69:66:A7:8D:A9:C4:D5:74:A2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "appino.workers.dev",
+        "*.teste-espn2-vivo.appino.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/WLs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:appino.workers.dev, DNS:*.teste-espn2-vivo.appino.workers.dev",
+        "subjectKeyIdentifier": "keyid:3f:94:40:5e:e1:5a:c4:53:8c:a0:6e:af:38:bf:0d:2a:42:78:73:26",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 676061214,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=676061214&end=676061214",
+    "seen": 1777933504.048,
+    "submission_timestamp": 1777827532.846,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

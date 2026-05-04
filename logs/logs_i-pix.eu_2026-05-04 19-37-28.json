@@ -1,0 +1,52 @@
+{
+  "dominio": "i-pix.eu",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 19:37:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "i-pix.eu",
+        "aggregated": "/CN=i-pix.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06C803FA7DDBF33297AD3657530D1AFF2BE2",
+      "not_before": 1777930737,
+      "not_after": 1785706736,
+      "fingerprint": "C8:91:9B:25:27:4B:28:9C:28:81:DA:85:BE:13:C6:3C:75:6F:CD:F2",
+      "sha1": "C8:91:9B:25:27:4B:28:9C:28:81:DA:85:BE:13:C6:3C:75:6F:CD:F2",
+      "sha256": "4B:6D:6C:1A:01:9A:42:F5:A8:03:35:DE:6D:E6:18:CB:52:23:7F:A6:5E:B3:74:7F:F8:C6:B7:2A:89:CF:77:9D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "i-pix.eu",
+        "*.i-pix.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.i-pix.eu, DNS:i-pix.eu",
+        "subjectKeyIdentifier": "keyid:85:8d:17:32:8a:97:6a:9a:06:29:d9:ee:6c:81:62:12:bf:fe:65:24"
+      }
+    },
+    "cert_index": 168278370,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x657/337",
+    "seen": 1777934248.872,
+    "submission_timestamp": 1777934248.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

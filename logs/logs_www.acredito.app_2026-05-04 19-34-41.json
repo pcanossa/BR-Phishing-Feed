@@ -1,0 +1,51 @@
+{
+  "dominio": "www.acredito.app",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 19:34:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.acredito.app",
+        "aggregated": "/CN=www.acredito.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "CB5DD4597C4513E1",
+      "not_before": 1777921150,
+      "not_after": 1795028350,
+      "fingerprint": "14:50:86:B8:50:48:C8:E6:0E:AF:D7:FB:D9:3F:15:4C:52:37:99:B1",
+      "sha1": "14:50:86:B8:50:48:C8:E6:0E:AF:D7:FB:D9:3F:15:4C:52:37:99:B1",
+      "sha256": "FA:64:8D:F2:38:F5:A1:4D:15:CA:79:18:ED:ED:5A:54:EE:E3:CB:AC:E4:99:A2:75:27:38:7F:C2:69:B0:7A:A7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.acredito.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.acredito.app",
+        "subjectKeyIdentifier": "keyid:9d:3c:df:4d:2b:24:bf:87:cb:2f:71:ad:43:45:fd:bb:09:9a:fa:f7"
+      }
+    },
+    "cert_index": 4059565557,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059565557&end=4059565557",
+    "seen": 1777934082.455,
+    "submission_timestamp": 1777925269.384,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

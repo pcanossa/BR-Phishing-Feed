@@ -1,0 +1,54 @@
+{
+  "dominio": "app.neon-mosaic.co.uk",
+  "marcas_encontradas": [
+    "neon"
+  ],
+  "timestamp": "05/04/26 19:11:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.neon-mosaic.co.uk",
+        "aggregated": "/CN=*.app.neon-mosaic.co.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05A786483456D52CDF97095CC2C9136C0A48",
+      "not_before": 1777883259,
+      "not_after": 1785659258,
+      "fingerprint": "DC:30:1F:20:A8:F9:22:56:CC:22:93:D4:8A:DE:F5:7F:F7:AB:38:85",
+      "sha1": "DC:30:1F:20:A8:F9:22:56:CC:22:93:D4:8A:DE:F5:7F:F7:AB:38:85",
+      "sha256": "62:DF:BC:46:25:52:F4:A8:76:3F:5E:87:4E:99:6F:20:4D:83:96:52:0A:16:EA:2B:8B:3A:39:D6:99:8F:07:D9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.neon-mosaic.co.uk",
+        "*.neon-mosaic.co.uk",
+        "neon-mosaic.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.app.neon-mosaic.co.uk, DNS:*.neon-mosaic.co.uk, DNS:neon-mosaic.co.uk",
+        "subjectKeyIdentifier": "keyid:ec:70:6b:b9:bf:9b:cf:1b:4f:98:4a:0f:6f:68:a2:e3:3a:67:16:a8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 554732158,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=554732158&end=554732158",
+    "seen": 1777932710.94,
+    "submission_timestamp": 1777886769.631,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

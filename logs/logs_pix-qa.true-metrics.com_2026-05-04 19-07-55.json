@@ -1,0 +1,53 @@
+{
+  "dominio": "pix-qa.true-metrics.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 19:07:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "true-metrics.com",
+        "aggregated": "/CN=true-metrics.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "80DB681817C8F78A0E4815B6B9570DF8",
+      "not_before": 1777920316,
+      "not_after": 1785699914,
+      "fingerprint": "F0:66:D5:2E:08:6E:F2:F0:52:47:33:AB:B7:FE:D4:1A:77:62:0B:DB",
+      "sha1": "F0:66:D5:2E:08:6E:F2:F0:52:47:33:AB:B7:FE:D4:1A:77:62:0B:DB",
+      "sha256": "7C:DC:ED:B8:D0:C2:26:73:77:20:A0:36:5F:2A:4D:21:33:5B:10:59:F8:6B:78:B4:88:F7:D4:4B:03:7D:28:D5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "true-metrics.com",
+        "pix-qa.true-metrics.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/gNs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:true-metrics.com, DNS:pix-qa.true-metrics.com",
+        "subjectKeyIdentifier": "keyid:20:90:09:8e:21:b5:f8:53:88:7f:7e:99:32:ff:f8:1d:8c:50:20:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4059268968,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059268968&end=4059268968",
+    "seen": 1777932476.48,
+    "submission_timestamp": 1777923916.95,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

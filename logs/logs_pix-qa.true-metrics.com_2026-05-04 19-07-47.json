@@ -1,0 +1,53 @@
+{
+  "dominio": "pix-qa.true-metrics.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 19:07:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "true-metrics.com",
+        "aggregated": "/CN=true-metrics.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "43C7CE148204328A0E687B1F879322CA",
+      "not_before": 1777920308,
+      "not_after": 1785699761,
+      "fingerprint": "AC:68:66:42:EB:31:A3:B1:5F:38:F3:78:3A:D1:13:AD:A0:A5:E5:E0",
+      "sha1": "AC:68:66:42:EB:31:A3:B1:5F:38:F3:78:3A:D1:13:AD:A0:A5:E5:E0",
+      "sha256": "06:0B:69:74:37:72:CC:BE:D0:E0:CD:95:9C:74:9C:1D:8A:89:94:1E:35:58:5D:21:F0:61:31:52:F2:C7:BF:A7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "true-metrics.com",
+        "pix-qa.true-metrics.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Q8c, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:true-metrics.com, DNS:pix-qa.true-metrics.com",
+        "subjectKeyIdentifier": "keyid:79:1a:fb:e0:82:81:9e:d0:08:9c:a2:8b:42:62:bf:7c:ca:00:0b:5d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4059267352,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059267352&end=4059267352",
+    "seen": 1777932466.858,
+    "submission_timestamp": 1777923909.192,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "kontakt.debitorcloud.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/04/26 19:15:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "kontakt.debitorcloud.com",
+        "aggregated": "/CN=kontakt.debitorcloud.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0678F3ED040EF904417F097FFF2E64336782",
+      "not_before": 1777920775,
+      "not_after": 1785696774,
+      "fingerprint": "F6:F5:16:02:AA:67:52:4E:E1:2D:30:70:88:3A:ED:17:B5:9D:45:31",
+      "sha1": "F6:F5:16:02:AA:67:52:4E:E1:2D:30:70:88:3A:ED:17:B5:9D:45:31",
+      "sha256": "20:35:D3:FF:2C:19:9A:5A:49:2D:D7:7D:5A:B9:22:F8:F8:0E:9D:29:5C:86:6F:45:DA:E6:9D:0D:FE:52:5F:64",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "kontakt.debitorcloud.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:kontakt.debitorcloud.com",
+        "subjectKeyIdentifier": "keyid:38:2d:b9:fb:76:14:fc:64:84:ab:12:fe:b1:cb:32:d3:2d:a9:8d:cb"
+      }
+    },
+    "cert_index": 4059348852,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059348852&end=4059348852",
+    "seen": 1777932908.821,
+    "submission_timestamp": 1777924288.168,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
