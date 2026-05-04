@@ -1,0 +1,51 @@
+{
+  "dominio": "api.stone.dev.hub.fsapps.io",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/03/26 22:15:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.stone.dev.hub.fsapps.io",
+        "aggregated": "/CN=api.stone.dev.hub.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05BA3CA4EDBFE214BAE5B77179987AE16C75",
+      "not_before": 1777849595,
+      "not_after": 1785625594,
+      "fingerprint": "6A:27:71:40:46:86:D4:B6:52:61:31:5B:58:21:30:84:DA:0B:43:75",
+      "sha1": "6A:27:71:40:46:86:D4:B6:52:61:31:5B:58:21:30:84:DA:0B:43:75",
+      "sha256": "8C:42:A0:2D:EC:BF:86:97:FE:E4:2C:75:88:9C:E1:C7:3C:19:6D:E9:DF:75:D0:D0:8D:56:DC:49:30:71:12:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.stone.dev.hub.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.stone.dev.hub.fsapps.io",
+        "subjectKeyIdentifier": "keyid:e9:b8:aa:b8:58:34:f6:40:b4:76:a3:b0:72:72:c7:74:d3:12:e5:e7"
+      }
+    },
+    "cert_index": 4042385467,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4042385467&end=4042385467",
+    "seen": 1777857312.152,
+    "submission_timestamp": 1777853107.974,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

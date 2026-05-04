@@ -9,13 +9,20 @@ def ollama_engine(message):
         client = Client(host=ollama_host.replace('0.0.0.0', '127.0.0.1'))
     else:
         client = Client()
-
-    try:
+    while True:
+        try:
             full_response = []
             for part in client.chat('deepseek-v3.2:cloud', messages=message, stream=True):
               content = part['message']['content']
               full_response.append(content)
             return "".join(full_response)
-    except Exception as e:
-        print(f"\n\nErro ao comunicar com o modelo de IA: {e}")
-        sys.exit(1)
+            break
+        except Exception as e:
+            print(f"\n[!] Erro ao comunicar com o modelo de IA (Rate Limit/Timeout): {e}")
+            print("[*] A API bloqueou. Aguardando 5 minutos antes de tentar novamente...")
+            
+            import time
+            time.sleep(300) 
+            
+            print("[*] Fim da pausa. Tentando reconectar...")
+        

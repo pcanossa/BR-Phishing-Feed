@@ -9,7 +9,6 @@ from tools.ollama_engine import ollama_engine
 from prompts.filter_phish import generate_phishing_prompt as phishing_prompt
 import json
 import datetime
-
 #
 
 def ollama_filter(dominio):
@@ -42,25 +41,14 @@ def ollama_filter(dominio):
         return
 
     print(f"[+] Domínio '{dominio}' ainda não analisado. Gerando novo relatório...")
-    while True:
-        try:
-            # Tenta se comunicar com a IA
-            full_response = ollama_engine(message=final_message)
-            
-            # Se deu certo e não teve erro, o break quebra o 'while' e o código continua para o JSON lá embaixo
-            break 
-            
-        except Exception as e:
-            print(f"\n[!] Erro ao comunicar com o modelo de IA (Rate Limit/Timeout): {e}")
-            print(f"[*] A API bloqueou. Aguardando 5 minutos antes de tentar o domínio '{dominio}' novamente...")
-            
-            # Dorme por 5 minutos (300 segundos). O tempo todo que o script ficar parado aqui, 
-            # os novos domínios do CertStream continuam se acumulando com segurança na pasta /logs.
-            import time
-            time.sleep(300) 
-            
-            print("[*] Fim da pausa. Tentando reconectar...")
+   
     try:
+        # Tenta se comunicar com a IA
+        full_response = ollama_engine(message=final_message)
+        
+    except Exception as e:
+        print(f"[-] Erro ao se comunicar com o modelo de IA para o domínio '{dominio}': {e}")
+        sys.exit(1)
         # Extrai de forma segura o JSON do texto, caso o modelo inclua formatação Markdown ou texto extra
         json_str = full_response.strip()
         start_idx = json_str.find('{')

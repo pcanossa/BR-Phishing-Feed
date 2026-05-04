@@ -1,0 +1,51 @@
+{
+  "dominio": "examples-blazorwebapp.apps.fareham.gov.uk",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 22:15:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "examples-blazorwebapp.apps.fareham.gov.uk",
+        "aggregated": "/CN=examples-blazorwebapp.apps.fareham.gov.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "055436DC0003053470F50C78C5C1BF95D1F4",
+      "not_before": 1777849618,
+      "not_after": 1785625617,
+      "fingerprint": "C5:4E:7A:61:74:03:3C:BB:5A:52:04:6A:93:FD:31:02:13:2E:CF:D4",
+      "sha1": "C5:4E:7A:61:74:03:3C:BB:5A:52:04:6A:93:FD:31:02:13:2E:CF:D4",
+      "sha256": "87:48:9D:FD:D1:12:36:BE:7E:93:BF:EF:2A:F1:C8:88:94:5E:0B:4E:D4:FC:EE:AC:27:02:5E:D9:29:A4:FE:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "examples-blazorwebapp.apps.fareham.gov.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:examples-blazorwebapp.apps.fareham.gov.uk",
+        "subjectKeyIdentifier": "keyid:bd:84:fb:ac:0c:a7:0e:80:a1:91:e7:46:35:62:85:ee:56:5d:1c:83"
+      }
+    },
+    "cert_index": 4042390199,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4042390199&end=4042390199",
+    "seen": 1777857329.037,
+    "submission_timestamp": 1777853130.648,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

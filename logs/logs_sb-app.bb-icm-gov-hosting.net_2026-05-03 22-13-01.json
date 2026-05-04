@@ -1,0 +1,52 @@
+{
+  "dominio": "sb-app.bb-icm-gov-hosting.net",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 22:13:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sb-app.bb-icm-gov-hosting.net",
+        "aggregated": "/CN=*.sb-app.bb-icm-gov-hosting.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06C6C03E78BD35A1D7D3140FF0A03B63",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "29:11:08:EB:50:82:FC:80:E3:A0:60:5A:BE:7D:0F:A6:71:4F:7E:05",
+      "sha1": "29:11:08:EB:50:82:FC:80:E3:A0:60:5A:BE:7D:0F:A6:71:4F:7E:05",
+      "sha256": "6A:B0:F7:FF:22:B1:D2:5B:B9:F2:7C:06:15:E9:CE:E7:74:F5:A6:D2:2A:D7:6A:93:82:D6:5C:CA:31:13:FB:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sb-app.bb-icm-gov-hosting.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sb-app.bb-icm-gov-hosting.net",
+        "subjectKeyIdentifier": "keyid:89:cc:33:78:26:40:78:ab:2c:b2:ce:3c:a0:2d:d9:34:17:5f:14:86",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4042350366,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4042350366&end=4042350366",
+    "seen": 1777857181.97,
+    "submission_timestamp": 1777852976.001,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

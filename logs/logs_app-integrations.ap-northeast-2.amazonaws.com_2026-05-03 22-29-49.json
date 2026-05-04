@@ -1,0 +1,51 @@
+{
+  "dominio": "app-integrations.ap-northeast-2.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/03/26 22:29:49",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-integrations.ap-northeast-2.amazonaws.com",
+        "aggregated": "/CN=app-integrations.ap-northeast-2.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E71B50FE81689FEFDED2DBD2E997380",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "AD:55:63:C8:2C:2C:AF:A2:A2:96:B1:46:95:67:C5:D9:B8:FA:B6:36",
+      "sha1": "AD:55:63:C8:2C:2C:AF:A2:A2:96:B1:46:95:67:C5:D9:B8:FA:B6:36",
+      "sha256": "6B:76:27:66:C0:99:71:04:75:C8:30:E5:3C:12:00:A2:11:D4:57:F1:BC:0D:EA:81:71:CD:F1:B8:C3:66:FA:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-integrations.ap-northeast-2.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-integrations.ap-northeast-2.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:5f:f1:6e:a0:fd:1e:fa:f1:c5:03:21:40:73:7e:21:5e:c9:54:32:dc"
+      }
+    },
+    "cert_index": 511820338,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=511820338&end=511820338",
+    "seen": 1777858189.967,
+    "submission_timestamp": 1777858056.989,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

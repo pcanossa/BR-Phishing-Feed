@@ -1,0 +1,52 @@
+{
+  "dominio": "credito-integrador.nave.dev.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 22:18:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "credito-integrador.nave.dev.br",
+        "aggregated": "/CN=credito-integrador.nave.dev.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "068FB7D708980416DCDD8EB40811BE154398",
+      "not_before": 1777849781,
+      "not_after": 1785625780,
+      "fingerprint": "FE:35:0B:23:E6:C1:D6:6A:A6:54:7B:CD:E2:06:03:E1:BE:F4:A6:EC",
+      "sha1": "FE:35:0B:23:E6:C1:D6:6A:A6:54:7B:CD:E2:06:03:E1:BE:F4:A6:EC",
+      "sha256": "E7:FF:3D:3E:2E:D6:AC:6F:E5:E5:37:91:E6:4D:78:00:53:24:B4:DA:11:FD:93:53:83:AC:32:33:F6:D4:6F:DB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "credito-integrador.nave.dev.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:credito-integrador.nave.dev.br",
+        "subjectKeyIdentifier": "keyid:ba:dc:75:30:3c:2f:d6:20:6b:00:4e:05:cf:ec:28:57:79:7d:f7:51",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4042432768,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4042432768&end=4042432768",
+    "seen": 1777857504.385,
+    "submission_timestamp": 1777853291.425,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

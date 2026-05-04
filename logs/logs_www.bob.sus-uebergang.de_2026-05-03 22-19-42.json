@@ -1,0 +1,51 @@
+{
+  "dominio": "www.bob.sus-uebergang.de",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/03/26 22:19:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.bob.sus-uebergang.de",
+        "aggregated": "/CN=www.bob.sus-uebergang.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "057212501D29D182ABF3782D00DC0DD9AC04",
+      "not_before": 1777849844,
+      "not_after": 1785625843,
+      "fingerprint": "81:7A:EC:3A:02:2E:42:C7:07:B2:73:02:C5:45:7D:9D:FF:21:25:B3",
+      "sha1": "81:7A:EC:3A:02:2E:42:C7:07:B2:73:02:C5:45:7D:9D:FF:21:25:B3",
+      "sha256": "59:C0:37:03:AC:84:7C:2F:E2:CD:44:0A:D5:E4:09:40:5A:0F:12:C1:84:F8:46:4D:7F:74:7B:E4:72:79:9A:B4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.bob.sus-uebergang.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.bob.sus-uebergang.de",
+        "subjectKeyIdentifier": "keyid:32:62:ea:38:a2:af:d6:55:fb:5c:48:ca:50:31:2f:c6:c9:a7:53:ec"
+      }
+    },
+    "cert_index": 4042454921,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4042454921&end=4042454921",
+    "seen": 1777857581.486,
+    "submission_timestamp": 1777853378.102,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

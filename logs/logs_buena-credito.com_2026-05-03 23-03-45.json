@@ -1,0 +1,55 @@
+{
+  "dominio": "buena-credito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 23:03:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "buena-credito.com",
+        "aggregated": "/CN=buena-credito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Starfield Secure Certificate Authority - G2",
+        "L": "Scottsdale",
+        "O": "Starfield Technologies, Inc.",
+        "OU": "http://certs.starfieldtech.com/repository/",
+        "ST": "Arizona",
+        "aggregated": "/C=US/CN=Starfield Secure Certificate Authority - G2/L=Scottsdale/O=Starfield Technologies, Inc./OU=http://certs.starfieldtech.com/repository//ST=Arizona"
+      },
+      "serial_number": "A9F60EA471096322",
+      "not_before": 1777852249,
+      "not_after": 1785628249,
+      "fingerprint": "03:9D:E7:B2:F7:75:84:35:17:7E:DE:AA:64:15:18:AD:2C:02:26:DF",
+      "sha1": "03:9D:E7:B2:F7:75:84:35:17:7E:DE:AA:64:15:18:AD:2C:02:26:DF",
+      "sha256": "FE:02:DC:A0:CE:3D:5D:F5:AD:6D:3B:71:4A:FF:F6:1A:14:6E:BD:E8:CF:58:41:DE:E2:FA:59:D6:1F:04:BB:D5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "buena-credito.com",
+        "www.buena-credito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.starfieldtech.com/repository/sfig2.crt, URI:http://ocsp.starfieldtech.com/",
+        "authorityKeyIdentifier": "keyid:25:45:81:68:50:26:38:3d:3b:2d:2c:be:cd:6a:d9:b6:3d:b3:66:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114414.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.buena-credito.com, DNS:buena-credito.com",
+        "subjectKeyIdentifier": "keyid:84:31:7f:3f:a5:67:7a:53:52:78:d6:c5:6e:27:0b:40:52:f7:31:31"
+      }
+    },
+    "cert_index": 4043047582,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4043047582&end=4043047582",
+    "seen": 1777860226.046,
+    "submission_timestamp": 1777855773.715,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

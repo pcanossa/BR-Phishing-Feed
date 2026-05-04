@@ -1,0 +1,51 @@
+{
+  "dominio": "www.appealamazon.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/03/26 22:32:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.appealamazon.com",
+        "aggregated": "/CN=www.appealamazon.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "EDBEC04B03F4A960",
+      "not_before": 1777815692,
+      "not_after": 1794922892,
+      "fingerprint": "C3:C4:4E:4F:65:3C:E2:EC:22:29:AE:78:E0:E2:BC:C6:58:74:D3:CE",
+      "sha1": "C3:C4:4E:4F:65:3C:E2:EC:22:29:AE:78:E0:E2:BC:C6:58:74:D3:CE",
+      "sha256": "A3:18:40:15:3B:58:96:01:FA:5D:73:BB:05:DF:69:11:2E:FB:D3:A9:E1:95:E6:EE:CC:54:A1:FE:47:43:17:76",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.appealamazon.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.appealamazon.com",
+        "subjectKeyIdentifier": "keyid:18:64:81:67:9d:13:bf:24:f9:99:21:a3:39:cd:0e:5d:4c:45:9f:93"
+      }
+    },
+    "cert_index": 1537140538,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1537140538&end=1537140538",
+    "seen": 1777858355.541,
+    "submission_timestamp": 1777819428.663,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

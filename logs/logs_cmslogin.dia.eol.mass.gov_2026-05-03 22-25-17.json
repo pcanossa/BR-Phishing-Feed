@@ -1,0 +1,52 @@
+{
+  "dominio": "cmslogin.dia.eol.mass.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 22:25:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cms.dia.eol.mass.gov",
+        "aggregated": "/CN=cms.dia.eol.mass.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06EA3302465B565F6E61D797079EB079",
+      "not_before": 1777248000,
+      "not_after": 1794355199,
+      "fingerprint": "BC:58:67:AE:E5:5B:54:53:4E:D9:AA:60:68:E1:64:15:B1:FE:D7:96",
+      "sha1": "BC:58:67:AE:E5:5B:54:53:4E:D9:AA:60:68:E1:64:15:B1:FE:D7:96",
+      "sha256": "5A:2E:03:8F:C0:4B:DC:82:34:81:81:66:12:1C:D1:B0:51:00:95:1B:0C:CC:A8:B6:82:31:F4:10:BF:89:04:0B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cms.dia.eol.mass.gov",
+        "cmslogin.dia.eol.mass.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cms.dia.eol.mass.gov, DNS:cmslogin.dia.eol.mass.gov",
+        "subjectKeyIdentifier": "keyid:fd:a5:fa:a1:94:b3:0f:1f:a6:dc:68:e5:a7:96:f9:92:1e:2b:74:6b"
+      }
+    },
+    "cert_index": 4042542196,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4042542196&end=4042542196",
+    "seen": 1777857916.811,
+    "submission_timestamp": 1777853693.545,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
