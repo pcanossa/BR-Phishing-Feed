@@ -1,0 +1,51 @@
+{
+  "dominio": "app.starface-neon.com",
+  "marcas_encontradas": [
+    "neon"
+  ],
+  "timestamp": "05/04/26 17:59:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.starface-neon.com",
+        "aggregated": "/CN=app.starface-neon.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0665091324FF7BAC86D102A615F85ADC3F5D",
+      "not_before": 1777138045,
+      "not_after": 1784914044,
+      "fingerprint": "2B:16:B4:E9:D9:EE:FB:3F:8E:B4:02:86:EA:49:1E:C6:66:D5:83:5D",
+      "sha1": "2B:16:B4:E9:D9:EE:FB:3F:8E:B4:02:86:EA:49:1E:C6:66:D5:83:5D",
+      "sha256": "28:71:26:C5:97:71:6F:86:D8:5B:1D:F2:74:AC:A2:14:7B:B3:05:2B:E2:03:91:3E:E8:CD:74:93:90:0D:1C:D7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.starface-neon.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.starface-neon.com",
+        "subjectKeyIdentifier": "keyid:98:5a:7b:4f:15:8c:9c:bb:1e:5b:3b:f2:84:1d:15:7f:74:c3:d7:7c"
+      }
+    },
+    "cert_index": 4058493014,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058493014&end=4058493014",
+    "seen": 1777928352.564,
+    "submission_timestamp": 1777920520.57,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

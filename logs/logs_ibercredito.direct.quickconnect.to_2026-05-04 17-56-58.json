@@ -1,0 +1,52 @@
+{
+  "dominio": "ibercredito.direct.quickconnect.to",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 17:56:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ibercredito.direct.quickconnect.to",
+        "aggregated": "/CN=ibercredito.direct.quickconnect.to"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "064F22C861A870CA1842794688C3EAD8426F",
+      "not_before": 1777916885,
+      "not_after": 1785692884,
+      "fingerprint": "F5:83:9F:B3:A5:AE:B7:EE:BA:5B:67:C6:77:17:82:A4:35:4F:F5:F1",
+      "sha1": "F5:83:9F:B3:A5:AE:B7:EE:BA:5B:67:C6:77:17:82:A4:35:4F:F5:F1",
+      "sha256": "15:14:92:3F:2B:1F:09:EB:16:82:09:C9:42:B3:8F:B7:EE:0B:BC:DC:5B:84:02:5B:77:EC:C9:C8:57:2B:EF:C5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ibercredito.direct.quickconnect.to",
+        "*.ibercredito.direct.quickconnect.to"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ibercredito.direct.quickconnect.to, DNS:ibercredito.direct.quickconnect.to",
+        "subjectKeyIdentifier": "keyid:53:0f:29:fa:a0:83:11:4a:21:44:9e:1a:7f:af:b6:7e:6e:a7:6c:0d"
+      }
+    },
+    "cert_index": 4058467610,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058467610&end=4058467610",
+    "seen": 1777928218.895,
+    "submission_timestamp": 1777920397.395,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

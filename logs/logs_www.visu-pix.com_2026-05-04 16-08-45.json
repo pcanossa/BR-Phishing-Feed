@@ -1,0 +1,52 @@
+{
+  "dominio": "www.visu-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 16:08:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.visu-pix.com",
+        "aggregated": "/CN=www.visu-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "114780BF7A56BEF2",
+      "not_before": 1777917009,
+      "not_after": 1795024209,
+      "fingerprint": "CE:77:A1:08:D4:1F:9B:8C:34:ED:6C:3C:FE:E9:B4:5A:99:8B:20:2C",
+      "sha1": "CE:77:A1:08:D4:1F:9B:8C:34:ED:6C:3C:FE:E9:B4:5A:99:8B:20:2C",
+      "sha256": "5A:48:23:48:BB:EC:4B:D4:B5:F0:94:41:89:F4:9E:29:1E:DC:F7:53:4B:BD:94:94:BA:58:BE:75:4E:B6:4F:3E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.visu-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.visu-pix.com",
+        "subjectKeyIdentifier": "keyid:a6:f7:7f:e3:66:b9:4d:80:6a:ea:8d:cb:64:7c:ab:a5:2e:b3:5a:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4057713820,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4057713820&end=4057713820",
+    "seen": 1777921723.358,
+    "submission_timestamp": 1777917011.298,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

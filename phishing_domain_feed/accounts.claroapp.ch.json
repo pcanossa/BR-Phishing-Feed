@@ -1,0 +1,12 @@
+{
+    "dominio": "accounts.claroapp.ch",
+    "data_registro": "05/04/26 17:44:20",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso da marca 'Claro' (operadora de telecomunicações com forte presença no Brasil) para induzir confiança do usuário",
+        "Utilização de subdomínio 'accounts' simulando um portal de autenticação legítimo",
+        "Uso de TLD '.ch' (Suíça) para hospedar serviços que deveriam estar em domínios oficiais '.com.br', uma técnica comum para contornar bloqueios locais e dificultar a análise de órgãos brasileiros",
+        "Padrão de nomenclatura tipicamente usado em páginas de captura de credenciais (creds harvesting)"
+    ],
+    "analise_comportamental": "O domínio apresenta claros indícios de phishing voltado para usuários brasileiros da operadora Claro. A estrutura 'accounts.claroapp' imita portais de autoatendimento, utilizando um TLD estrangeiro para ocultar a infraestrutura maliciosa de sistemas de detecção brasileiros, visando o roubo de dados de login dos clientes."
+}

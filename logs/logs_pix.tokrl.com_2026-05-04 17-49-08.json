@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.tokrl.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 17:49:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.tokrl.com",
+        "aggregated": "/CN=pix.tokrl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "020B741E02401690B91BDB08FCD9E851",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "FA:C9:50:FE:66:24:D4:09:BA:CA:93:D6:18:16:D6:54:5F:60:53:EF",
+      "sha1": "FA:C9:50:FE:66:24:D4:09:BA:CA:93:D6:18:16:D6:54:5F:60:53:EF",
+      "sha256": "B0:F9:76:04:24:E4:15:CE:F8:7D:EB:37:65:94:9C:85:F2:B0:1F:C1:AE:D8:52:7C:42:70:3C:B2:60:73:19:E3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.tokrl.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.tokrl.com",
+        "subjectKeyIdentifier": "keyid:82:47:10:92:4b:d3:1a:d5:f7:ad:48:d2:9f:e5:b8:63:a3:2b:ab:b0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4058355977,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058355977&end=4058355977",
+    "seen": 1777927750.084,
+    "submission_timestamp": 1777919893.745,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

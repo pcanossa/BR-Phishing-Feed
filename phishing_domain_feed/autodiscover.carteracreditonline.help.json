@@ -1,0 +1,12 @@
+{
+    "dominio": "autodiscover.carteracreditonline.help",
+    "data_registro": "05/04/26 16:37:06",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso do prefixo 'autodiscover', comumente utilizado em ataques de phishing para capturar credenciais de e-mail corporativo ou serviços Microsoft 365",
+        "Presença dos termos 'carteira' e 'credito' (em português), visando usuários brasileiros com promessas de serviços financeiros",
+        "Utilização do TLD '.help', frequentemente empregado em campanhas de phishing por ser de baixo custo e evitar filtragens comuns de TLDs mais populares",
+        "Estrutura do domínio tenta simular um subdomínio de configuração de serviços de e-mail (autodiscover), técnica clássica de engenharia social para obter credenciais"
+    ],
+    "analise_comportamental": "O domínio apresenta padrões claros de engenharia social voltados ao público brasileiro, utilizando termos do setor financeiro em conjunto com o prefixo 'autodiscover'. O objetivo provável é a exfiltração de credenciais de usuários, simulando uma página de configuração ou portal de acesso a serviços de crédito, caracterizando um vetor de phishing."
+}

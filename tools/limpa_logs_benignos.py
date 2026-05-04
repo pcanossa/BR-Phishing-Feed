@@ -3,8 +3,8 @@ import sqlite3
 import re
 
 def limpar_logs_benignos():
-    logs_dir = "../logs"
-    db_path = "../database/historico_cti.db"
+    logs_dir = "./logs"
+    db_path = "./database/historico_cti.db"
 
     if not os.path.exists(logs_dir):
         print(f"[!] Diretório '{logs_dir}' não encontrado.")

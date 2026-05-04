@@ -1,0 +1,52 @@
+{
+  "dominio": "account.pix-immo.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 17:46:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "account.pix-immo.com",
+        "aggregated": "/CN=account.pix-immo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "803C87306430AF8113B33A768CD4DE2E",
+      "not_before": 1777916159,
+      "not_after": 1785695748,
+      "fingerprint": "02:DF:68:20:A7:8D:1C:54:1F:6E:06:E5:90:47:BB:AB:D9:A2:53:C3",
+      "sha1": "02:DF:68:20:A7:8D:1C:54:1F:6E:06:E5:90:47:BB:AB:D9:A2:53:C3",
+      "sha256": "59:0B:8D:8C:0E:86:FF:DB:12:FF:FF:35:20:BC:38:C5:3D:CE:D9:92:9E:CF:B6:91:23:8F:A4:48:6F:1F:69:3F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "account.pix-immo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/gDw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:account.pix-immo.com",
+        "subjectKeyIdentifier": "keyid:c7:22:be:86:41:9f:46:3b:5b:00:3f:46:bb:f6:c6:53:49:91:a2:f7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4058327607,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058327607&end=4058327607",
+    "seen": 1777927618.633,
+    "submission_timestamp": 1777919760.076,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

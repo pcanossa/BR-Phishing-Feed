@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.your-tim.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/04/26 16:31:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.your-tim.com",
+        "aggregated": "/CN=apps.your-tim.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "798B68BB7E202AE087596EFCE86B6BA8",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "30:70:8B:A4:F7:AF:AD:D7:24:2D:FC:F8:60:DB:83:0B:55:B2:69:96",
+      "sha1": "30:70:8B:A4:F7:AF:AD:D7:24:2D:FC:F8:60:DB:83:0B:55:B2:69:96",
+      "sha256": "C4:1E:03:60:3B:CD:35:A6:25:39:C6:00:32:C3:9C:73:B9:CA:82:F7:1A:EC:74:64:C5:1F:CE:1B:9F:74:80:47",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.your-tim.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.your-tim.com",
+        "subjectKeyIdentifier": "keyid:fc:62:bd:2e:5f:5e:a1:28:f9:ac:54:5e:10:ef:d3:13:19:74:d5:dc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 602412652,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=602412652&end=602412652",
+    "seen": 1777923106.751,
+    "submission_timestamp": 1777923024.854,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

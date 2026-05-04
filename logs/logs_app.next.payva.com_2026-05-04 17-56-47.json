@@ -1,0 +1,52 @@
+{
+  "dominio": "app.next.payva.com",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 17:56:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.next.payva.com",
+        "aggregated": "/CN=app.next.payva.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B07D6B75262AEDFA13D916919450E2D0",
+      "not_before": 1777916787,
+      "not_after": 1785696385,
+      "fingerprint": "6E:9D:87:23:25:EB:1B:AC:FA:1A:5D:4B:D8:19:C3:48:27:7F:4D:A7",
+      "sha1": "6E:9D:87:23:25:EB:1B:AC:FA:1A:5D:4B:D8:19:C3:48:27:7F:4D:A7",
+      "sha256": "13:07:0C:99:80:EB:39:CE:15:D3:C3:1A:C5:68:4F:0E:9D:73:F8:1D:65:08:B4:D9:8E:A4:A8:1C:13:46:FB:0D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.next.payva.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/sH0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.next.payva.com",
+        "subjectKeyIdentifier": "keyid:9d:8b:ab:58:22:56:35:df:6c:d5:e7:d2:ff:97:22:4d:6e:2f:c3:8b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4058465696,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4058465696&end=4058465696",
+    "seen": 1777928208.176,
+    "submission_timestamp": 1777920388.027,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

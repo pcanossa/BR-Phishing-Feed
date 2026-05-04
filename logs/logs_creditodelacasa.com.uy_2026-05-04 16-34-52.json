@@ -1,0 +1,53 @@
+{
+  "dominio": "creditodelacasa.com.uy",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 16:34:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01E6F6C70340DF45B33532D77CCB2796",
+      "not_before": 1777923273,
+      "not_after": 1778009613,
+      "fingerprint": "0B:D2:7C:26:93:DD:AB:83:75:7E:E0:D1:AB:AE:89:8F:33:AF:F4:C5",
+      "sha1": "0B:D2:7C:26:93:DD:AB:83:75:7E:E0:D1:AB:AE:89:8F:33:AF:F4:C5",
+      "sha256": "51:36:EA:ED:A7:1B:60:79:C3:D9:BB:DC:BB:B2:B2:B1:6B:F0:48:F2:65:0C:7D:FD:56:FB:42:0D:EF:96:46:71",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.creditodelacasa.com.uy"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditodelacasa.com.uy, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:9b:23:5e:60:41:5e:9e:8f:f8:9b:bd:12:55:68:a7:0b:ac:9f:ff:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1185025882,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1185025882&end=1185025882",
+    "seen": 1777923292.378,
+    "submission_timestamp": 1777923284.149,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h1'",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}
