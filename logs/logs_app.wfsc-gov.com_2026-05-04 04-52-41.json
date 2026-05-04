@@ -1,0 +1,51 @@
+{
+  "dominio": "app.wfsc-gov.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 04:52:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.wfsc-gov.com",
+        "aggregated": "/CN=app.wfsc-gov.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0F0657D7269FDA80CD0BA45B1AC6594B",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "8E:08:D6:6F:4C:BE:AF:DA:F5:99:B8:5A:44:46:23:40:F9:6A:31:99",
+      "sha1": "8E:08:D6:6F:4C:BE:AF:DA:F5:99:B8:5A:44:46:23:40:F9:6A:31:99",
+      "sha256": "FC:A3:E5:B3:63:0C:B4:D4:F8:BE:FF:04:AB:F9:EC:03:CE:F2:DB:85:CB:AC:37:70:0E:73:A6:FA:FF:63:CE:35",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.wfsc-gov.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.wfsc-gov.com",
+        "subjectKeyIdentifier": "keyid:5f:c7:b3:f5:0e:74:bc:33:24:a6:1b:1b:f8:3b:3c:4f:e3:46:52:c3"
+      }
+    },
+    "cert_index": 595845929,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=595845929&end=595845929",
+    "seen": 1777881162.672,
+    "submission_timestamp": 1777880996.635,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

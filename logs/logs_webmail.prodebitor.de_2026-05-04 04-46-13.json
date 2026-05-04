@@ -1,0 +1,52 @@
+{
+  "dominio": "webmail.prodebitor.de",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/04/26 04:46:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mail.prodebitor.de",
+        "aggregated": "/CN=mail.prodebitor.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0665C431073F2AFA69C4947A5D1221902C1E",
+      "not_before": 1777872708,
+      "not_after": 1785648707,
+      "fingerprint": "71:E4:9C:13:0E:D2:40:51:26:F9:3F:0F:DB:BD:D2:0E:9C:AB:C7:0B",
+      "sha1": "71:E4:9C:13:0E:D2:40:51:26:F9:3F:0F:DB:BD:D2:0E:9C:AB:C7:0B",
+      "sha256": "A6:F2:40:37:55:F5:EF:7E:EE:29:85:0F:62:EB:5B:F1:34:E2:2F:80:CC:F0:AE:5E:BE:EA:AF:BC:51:43:1F:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mail.prodebitor.de",
+        "webmail.prodebitor.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mail.prodebitor.de, DNS:webmail.prodebitor.de",
+        "subjectKeyIdentifier": "keyid:8b:6b:54:bd:99:ef:65:94:ad:2b:83:7e:aa:59:5d:ed:c7:81:46:9d"
+      }
+    },
+    "cert_index": 4047992530,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4047992530&end=4047992530",
+    "seen": 1777880773.756,
+    "submission_timestamp": 1777876220.096,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

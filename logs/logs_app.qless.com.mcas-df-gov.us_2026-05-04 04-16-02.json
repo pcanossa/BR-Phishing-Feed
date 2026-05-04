@@ -1,0 +1,58 @@
+{
+  "dominio": "app.qless.com.mcas-df-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 04:16:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.app.qless.com.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.app.qless.com.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "550020BC9D564039D389B89DD200000020BC9D",
+      "not_before": 1777873596,
+      "not_after": 1793425596,
+      "fingerprint": "6F:54:EC:C6:A3:76:99:F2:C1:34:E9:B2:E3:05:BF:37:2D:A3:24:89",
+      "sha1": "6F:54:EC:C6:A3:76:99:F2:C1:34:E9:B2:E3:05:BF:37:2D:A3:24:89",
+      "sha256": "AA:F2:B7:03:7F:95:61:54:2B:99:EC:8A:95:12:A1:D4:33:FE:20:DE:08:3A:7B:AA:69:88:AD:D1:AA:D0:80:A8",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.qless.com.mcas-gov.us",
+        "*.app.qless.com.admin-mcas-gov.us",
+        "*.app.qless.com.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.qless.com.mcas-gov.us, DNS:*.app.qless.com.admin-mcas-gov.us, DNS:*.app.qless.com.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:8d:aa:f5:02:d8:56:6d:3f:f8:0a:12:7f:85:fa:cc:cc:5d:f5:3b:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4047508603,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4047508603&end=4047508603",
+    "seen": 1777878961.106,
+    "submission_timestamp": 1777874488.646,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

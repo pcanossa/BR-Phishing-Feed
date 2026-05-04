@@ -1,0 +1,51 @@
+{
+  "dominio": "amazon.hyax.app",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 04:18:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "amazon.hyax.app",
+        "aggregated": "/CN=amazon.hyax.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "066B5F74D33DF1AB1E4CAC88DB668D3A3099",
+      "not_before": 1777871020,
+      "not_after": 1785647019,
+      "fingerprint": "30:20:76:40:EB:CA:A2:02:3E:D6:5F:44:0F:8F:6D:80:F8:8F:80:CC",
+      "sha1": "30:20:76:40:EB:CA:A2:02:3E:D6:5F:44:0F:8F:6D:80:F8:8F:80:CC",
+      "sha256": "FB:11:D3:6C:22:EF:73:FD:74:10:40:67:08:95:91:BF:A0:5F:75:23:03:EF:5E:53:05:C3:13:9D:D4:E6:02:2C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "amazon.hyax.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:amazon.hyax.app",
+        "subjectKeyIdentifier": "keyid:fc:d3:75:50:42:7f:5a:52:b7:0a:5d:94:52:23:55:d2:72:d4:62:27"
+      }
+    },
+    "cert_index": 4047550151,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4047550151&end=4047550151",
+    "seen": 1777879116.75,
+    "submission_timestamp": 1777874600.646,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

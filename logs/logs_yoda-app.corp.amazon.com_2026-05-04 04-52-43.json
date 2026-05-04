@@ -1,0 +1,51 @@
+{
+  "dominio": "yoda-app.corp.amazon.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 04:52:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "yoda-app.corp.amazon.com",
+        "aggregated": "/CN=yoda-app.corp.amazon.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D2A231DAC4EBC27B87E6E1D3266D537",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "31:0B:6E:ED:E2:00:02:99:42:B5:5C:C7:04:B2:0C:EB:B3:22:6E:F1",
+      "sha1": "31:0B:6E:ED:E2:00:02:99:42:B5:5C:C7:04:B2:0C:EB:B3:22:6E:F1",
+      "sha256": "32:46:28:D9:6D:9A:05:0F:E7:57:0D:97:93:E6:CA:96:B1:F1:77:97:9F:6F:FB:C5:64:D2:74:F0:14:10:10:1C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "yoda-app.corp.amazon.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:yoda-app.corp.amazon.com",
+        "subjectKeyIdentifier": "keyid:10:c5:45:6d:2c:e6:a9:49:4d:2a:d4:25:b8:73:b0:d8:36:f2:a7:1c"
+      }
+    },
+    "cert_index": 514946438,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=514946438&end=514946438",
+    "seen": 1777881161.447,
+    "submission_timestamp": 1777881107.334,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.netflix.au.login.dejan.com.au",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/04/26 04:21:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.netflix.au.login.dejan.com.au",
+        "aggregated": "/CN=www.netflix.au.login.dejan.com.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06A972046AB4539241B9B2D7ACEE4977D9B5",
+      "not_before": 1777875806,
+      "not_after": 1785651805,
+      "fingerprint": "D1:11:9C:6B:E9:6E:6B:61:25:66:B3:B0:7D:37:B8:80:AB:4C:52:EF",
+      "sha1": "D1:11:9C:6B:E9:6E:6B:61:25:66:B3:B0:7D:37:B8:80:AB:4C:52:EF",
+      "sha256": "F8:79:86:89:B6:66:C8:2A:1F:2A:A0:21:18:67:D4:1A:B7:19:A1:49:2F:14:A7:60:90:45:0F:97:AF:E3:C4:47",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.netflix.au.login.dejan.com.au",
+        "netflix.au.login.dejan.com.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:netflix.au.login.dejan.com.au, DNS:www.netflix.au.login.dejan.com.au",
+        "subjectKeyIdentifier": "keyid:25:42:c1:d6:15:d5:a8:81:85:d5:04:54:83:b5:33:d9:65:ab:38:a0"
+      }
+    },
+    "cert_index": 159215163,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x621/934",
+    "seen": 1777879319.025,
+    "submission_timestamp": 1777879316.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

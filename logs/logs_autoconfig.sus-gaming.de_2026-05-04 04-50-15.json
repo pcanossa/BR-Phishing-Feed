@@ -1,0 +1,54 @@
+{
+  "dominio": "autoconfig.sus-gaming.de",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/04/26 04:50:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "autoconfig.sus-gaming.de",
+        "aggregated": "/CN=autoconfig.sus-gaming.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "055B0F737E5AFC2812FB5BEC60C8B3515209",
+      "not_before": 1777847669,
+      "not_after": 1785623668,
+      "fingerprint": "B8:23:B6:A3:42:03:A3:49:ED:C1:CE:A2:25:60:F0:F5:22:B0:B9:4F",
+      "sha1": "B8:23:B6:A3:42:03:A3:49:ED:C1:CE:A2:25:60:F0:F5:22:B0:B9:4F",
+      "sha256": "69:4E:5E:07:B4:7B:11:C8:96:60:94:0E:06:47:C8:C0:47:31:29:EC:33:7B:B5:18:EA:F9:CC:39:C6:74:62:4C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "autoconfig.sus-gaming.de",
+        "autoconfig.wilgmann.de",
+        "autodiscover.wilgmann.de",
+        "mailclient.sus-gaming.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:autoconfig.sus-gaming.de, DNS:autoconfig.wilgmann.de, DNS:autodiscover.wilgmann.de, DNS:mailclient.sus-gaming.de",
+        "subjectKeyIdentifier": "keyid:e1:ae:9b:50:20:fb:7b:8a:f3:d4:18:e7:5b:5b:ad:db:bf:f5:57:53"
+      }
+    },
+    "cert_index": 577365640,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=577365640&end=577365640",
+    "seen": 1777881015.581,
+    "submission_timestamp": 1777851183.336,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
