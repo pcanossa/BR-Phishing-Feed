@@ -1,0 +1,51 @@
+{
+  "dominio": "km-test-app.testing.acp.homeoffice.gov.uk",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 09:50:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "km-test-app.testing.acp.homeoffice.gov.uk",
+        "aggregated": "/CN=km-test-app.testing.acp.homeoffice.gov.uk"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "CE26EC0BCF9B88135BC636AB1D52EC52",
+      "not_before": 1777766400,
+      "not_after": 1785628799,
+      "fingerprint": "B9:01:AC:07:A9:AC:80:F7:DB:F1:1A:F9:46:1D:F3:33:50:8F:F5:75",
+      "sha1": "B9:01:AC:07:A9:AC:80:F7:DB:F1:1A:F9:46:1D:F3:33:50:8F:F5:75",
+      "sha256": "88:22:9E:E2:AC:2D:65:43:C5:7F:D4:78:1E:D3:BB:F5:23:49:5F:44:DE:35:A2:F2:F1:EB:0F:2F:6B:34:6C:9E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "km-test-app.testing.acp.homeoffice.gov.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:km-test-app.testing.acp.homeoffice.gov.uk",
+        "subjectKeyIdentifier": "keyid:bd:39:b1:09:44:0e:30:6f:79:99:2a:8d:6e:85:e0:7a:03:26:70:83"
+      }
+    },
+    "cert_index": 675556859,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675556859&end=675556859",
+    "seen": 1777899052.89,
+    "submission_timestamp": 1777824219.409,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

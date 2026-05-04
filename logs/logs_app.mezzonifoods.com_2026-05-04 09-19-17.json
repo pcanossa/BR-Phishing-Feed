@@ -1,0 +1,51 @@
+{
+  "dominio": "app.mezzonifoods.com",
+  "marcas_encontradas": [
+    "ifood"
+  ],
+  "timestamp": "05/04/26 09:19:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.mezzonifoods.com",
+        "aggregated": "/CN=app.mezzonifoods.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058B85BA55FF9CA0B638B815C7D8C1EA6624",
+      "not_before": 1777889006,
+      "not_after": 1785665005,
+      "fingerprint": "76:DD:84:9C:9A:6E:2C:9D:F6:9E:43:6B:39:3C:3D:E3:90:DD:0D:80",
+      "sha1": "76:DD:84:9C:9A:6E:2C:9D:F6:9E:43:6B:39:3C:3D:E3:90:DD:0D:80",
+      "sha256": "7F:52:D0:8E:BD:E5:61:8C:B6:15:46:78:66:16:12:5F:97:15:7E:32:D7:D1:D7:99:C0:D4:DD:4B:BB:CC:E9:D1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.mezzonifoods.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.mezzonifoods.com",
+        "subjectKeyIdentifier": "keyid:d0:b7:ae:b7:d6:0f:25:8c:a9:a3:02:95:cc:49:5a:65:5d:2f:d3:7e"
+      }
+    },
+    "cert_index": 4051961161,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051961161&end=4051961161",
+    "seen": 1777897155.479,
+    "submission_timestamp": 1777892518.464,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

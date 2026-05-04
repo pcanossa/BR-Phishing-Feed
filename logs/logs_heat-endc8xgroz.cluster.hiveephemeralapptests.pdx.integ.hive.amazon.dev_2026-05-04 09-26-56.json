@@ -1,0 +1,53 @@
+{
+  "dominio": "heat-endc8xgroz.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 09:26:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "aggregated": "/CN=dummy.nlb.pdx.integ.hive.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 384 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 384 M04/O=Amazon"
+      },
+      "serial_number": "01F3C52DB957460A28AD6F5344593B49",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "8E:D2:5D:56:5B:51:74:A7:4B:A2:5F:E1:4A:CA:27:30:0E:15:91:8F",
+      "sha1": "8E:D2:5D:56:5B:51:74:A7:4B:A2:5F:E1:4A:CA:27:30:0E:15:91:8F",
+      "sha256": "4E:2E:C0:66:87:D8:14:5C:69:A0:81:F8:87:CF:CF:18:E9:25:5B:B8:C2:1E:63:70:5C:D6:FB:A5:E2:AA:3B:B1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "heat-endc8xgroz.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e3m04.amazontrust.com, URI:http://crt.e3m04.amazontrust.com/e3m04.cer",
+        "authorityKeyIdentifier": "keyid:52:f0:d2:50:80:3c:d4:19:11:c8:83:6f:0e:02:be:a8:4a:17:4d:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:dummy.nlb.pdx.integ.hive.amazon.dev, DNS:heat-endc8xgroz.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+        "subjectKeyIdentifier": "keyid:01:c2:d2:7e:2c:30:4d:10:c6:0a:c9:f5:66:51:a3:69:3c:92:5e:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 817574578,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=817574578&end=817574578",
+    "seen": 1777897616.286,
+    "submission_timestamp": 1777823252.788,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

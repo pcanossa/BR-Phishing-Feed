@@ -1,0 +1,51 @@
+{
+  "dominio": "app.next.surfstudio.com",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 09:52:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.next.surfstudio.com",
+        "aggregated": "/CN=*.app.next.surfstudio.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "055B223C1E7A26DB20D07DCA2D23B9663A9F",
+      "not_before": 1777891038,
+      "not_after": 1785667037,
+      "fingerprint": "8D:F4:00:07:31:13:B7:06:82:89:5A:83:2A:30:50:AB:7E:41:2D:19",
+      "sha1": "8D:F4:00:07:31:13:B7:06:82:89:5A:83:2A:30:50:AB:7E:41:2D:19",
+      "sha256": "A0:CD:51:51:42:7E:35:7E:D0:06:09:C7:A2:BA:6A:1F:E5:8B:82:15:E2:7E:AB:D6:00:53:A5:CB:0B:B8:92:FA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.next.surfstudio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.app.next.surfstudio.com",
+        "subjectKeyIdentifier": "keyid:a2:6e:f7:f5:d7:ee:9b:bd:7a:57:38:78:22:29:7b:3c:d0:b7:a0:28"
+      }
+    },
+    "cert_index": 4052434996,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4052434996&end=4052434996",
+    "seen": 1777899135.268,
+    "submission_timestamp": 1777894550.905,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

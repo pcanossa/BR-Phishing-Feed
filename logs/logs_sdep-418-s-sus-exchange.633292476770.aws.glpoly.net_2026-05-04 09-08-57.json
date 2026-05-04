@@ -1,0 +1,52 @@
+{
+  "dominio": "sdep-418-s-sus-exchange.633292476770.aws.glpoly.net",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/04/26 09:08:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sdep-418-s-sus-exchange.633292476770.aws.glpoly.net",
+        "aggregated": "/CN=sdep-418-s-sus-exchange.633292476770.aws.glpoly.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "06809D05D406A0334BE3B4F65D94996C",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "98:D7:32:E4:14:5D:E3:0D:CD:B6:1A:2B:11:62:B8:62:D6:7F:E6:D8",
+      "sha1": "98:D7:32:E4:14:5D:E3:0D:CD:B6:1A:2B:11:62:B8:62:D6:7F:E6:D8",
+      "sha256": "6C:4B:EE:C4:92:44:42:E5:C3:B5:66:F5:70:09:EA:6F:CA:CD:86:AB:ED:86:B5:E4:24:5F:27:F8:73:66:A2:64",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sdep-418-s-sus-exchange.633292476770.aws.glpoly.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sdep-418-s-sus-exchange.633292476770.aws.glpoly.net",
+        "subjectKeyIdentifier": "keyid:9d:a4:a9:90:76:38:61:53:75:ca:96:a2:17:a0:c9:44:7e:ef:23:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4051814857,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051814857&end=4051814857",
+    "seen": 1777896535.447,
+    "submission_timestamp": 1777891912.316,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

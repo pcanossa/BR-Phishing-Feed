@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.santander123.de",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/04/26 09:26:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.santander123.de",
+        "aggregated": "/CN=apps.santander123.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0619D1587058D315EC8B9E412FA5F33FE247",
+      "not_before": 1777328666,
+      "not_after": 1785104665,
+      "fingerprint": "9B:2E:7A:47:1B:34:61:82:26:D1:CC:93:7F:FD:40:2E:CE:B7:55:C2",
+      "sha1": "9B:2E:7A:47:1B:34:61:82:26:D1:CC:93:7F:FD:40:2E:CE:B7:55:C2",
+      "sha256": "2D:1A:D2:16:CD:EC:01:EF:DE:AB:29:0F:57:68:0A:6B:A5:59:F5:19:EF:3E:23:A8:19:C3:2D:79:C0:EF:14:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.santander123.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.santander123.de",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4052058183,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4052058183&end=4052058183",
+    "seen": 1777897574.123,
+    "submission_timestamp": 1777892951.079,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

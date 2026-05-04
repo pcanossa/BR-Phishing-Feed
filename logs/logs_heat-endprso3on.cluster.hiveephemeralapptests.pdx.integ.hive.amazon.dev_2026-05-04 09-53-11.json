@@ -1,0 +1,53 @@
+{
+  "dominio": "heat-endprso3on.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 09:53:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "aggregated": "/CN=dummy.nlb.pdx.integ.hive.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 384 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 384 M04/O=Amazon"
+      },
+      "serial_number": "04E98BCD532251B74E9350D7CB75B241",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "2E:9C:79:CB:5E:42:53:DB:18:45:0B:95:92:3E:F8:09:F1:AF:83:51",
+      "sha1": "2E:9C:79:CB:5E:42:53:DB:18:45:0B:95:92:3E:F8:09:F1:AF:83:51",
+      "sha256": "71:C0:47:80:09:C7:93:E1:68:46:1A:E5:AE:0A:BF:40:E4:3B:0D:CC:00:10:0D:65:69:5C:55:06:DB:6F:D1:F7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dummy.nlb.pdx.integ.hive.amazon.dev",
+        "heat-endprso3on.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e3m04.amazontrust.com, URI:http://crt.e3m04.amazontrust.com/e3m04.cer",
+        "authorityKeyIdentifier": "keyid:52:f0:d2:50:80:3c:d4:19:11:c8:83:6f:0e:02:be:a8:4a:17:4d:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:dummy.nlb.pdx.integ.hive.amazon.dev, DNS:heat-endprso3on.cluster.hiveephemeralapptests.pdx.integ.hive.amazon.dev",
+        "subjectKeyIdentifier": "keyid:4a:60:f3:e0:f3:98:55:80:a1:cd:90:91:0b:bb:9d:e9:fd:9b:db:b6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1537595713,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1537595713&end=1537595713",
+    "seen": 1777899189.912,
+    "submission_timestamp": 1777823758.179,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

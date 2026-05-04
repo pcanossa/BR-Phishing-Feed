@@ -1,0 +1,60 @@
+{
+  "dominio": "match.amazonbrowserapp.de",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 09:23:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.amazon.de",
+        "aggregated": "/CN=www.amazon.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0CBD5ACF95C1B7AB43761091ED9478E0",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "B0:8D:BE:B3:94:9A:60:34:02:8C:E1:1C:E6:2A:08:33:5D:1C:79:12",
+      "sha1": "B0:8D:BE:B3:94:9A:60:34:02:8C:E1:1C:E6:2A:08:33:5D:1C:79:12",
+      "sha256": "88:08:04:CE:22:85:DE:07:6A:10:83:8D:75:16:90:9D:89:2A:46:1F:11:9B:01:F0:91:E6:2D:CA:D2:AA:A4:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.amazon.de",
+        "amazon.de",
+        "match.amazonbrowserapp.de",
+        "p-nt-www-amazon-de-kalias.amazon.de",
+        "p-y3-www-amazon-de-kalias.amazon.de",
+        "p-yo-www-amazon-de-kalias.amazon.de",
+        "static.amazon.de",
+        "www.cdn.amazon.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:amazon.de, DNS:match.amazonbrowserapp.de, DNS:p-nt-www-amazon-de-kalias.amazon.de, DNS:p-y3-www-amazon-de-kalias.amazon.de, DNS:p-yo-www-amazon-de-kalias.amazon.de, DNS:static.amazon.de, DNS:www.amazon.de, DNS:www.cdn.amazon.de",
+        "subjectKeyIdentifier": "keyid:08:25:d7:03:ba:88:6a:3f:95:3b:0d:a1:56:d8:4e:b0:38:64:9a:51",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4052012791,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4052012791&end=4052012791",
+    "seen": 1777897381.616,
+    "submission_timestamp": 1777892728.015,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

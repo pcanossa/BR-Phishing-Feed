@@ -1,0 +1,52 @@
+{
+  "dominio": "www.credito-facil.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 09:40:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.credito-facil.com",
+        "aggregated": "/CN=www.credito-facil.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0530132F70BE97F31A0D3E81258D98C76C6B",
+      "not_before": 1777820639,
+      "not_after": 1785596638,
+      "fingerprint": "52:E8:6F:70:EF:26:D8:03:5C:D3:E2:83:F2:89:B7:3C:5D:00:76:AF",
+      "sha1": "52:E8:6F:70:EF:26:D8:03:5C:D3:E2:83:F2:89:B7:3C:5D:00:76:AF",
+      "sha256": "04:7C:54:43:89:AF:EE:12:55:EC:A4:16:77:B1:51:CA:40:BD:F3:FC:5E:C0:A2:5A:F5:87:EF:AF:FA:78:5D:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.credito-facil.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.credito-facil.com",
+        "subjectKeyIdentifier": "keyid:2d:2e:72:eb:6a:3d:1d:a1:f5:fb:68:e2:c7:dd:78:95:87:3c:e1:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 675545729,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675545729&end=675545729",
+    "seen": 1777898401.853,
+    "submission_timestamp": 1777824149.717,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

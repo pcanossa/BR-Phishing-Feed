@@ -1,0 +1,52 @@
+{
+  "dominio": "almeidascredito.xyz",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 09:20:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "almeidascredito.xyz",
+        "aggregated": "/CN=almeidascredito.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "063EBED4C2CD781165946618B75B44C1182B",
+      "not_before": 1777889090,
+      "not_after": 1785665089,
+      "fingerprint": "53:88:54:84:F3:36:60:34:F6:10:C4:A3:EB:5D:AE:93:3C:1D:BC:15",
+      "sha1": "53:88:54:84:F3:36:60:34:F6:10:C4:A3:EB:5D:AE:93:3C:1D:BC:15",
+      "sha256": "30:42:41:62:09:3E:A8:5E:52:5F:65:65:C6:9F:C0:F6:C2:9A:76:B1:DE:1C:E0:D6:AC:6E:31:BD:11:B5:2C:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "almeidascredito.xyz",
+        "www.almeidascredito.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:almeidascredito.xyz, DNS:www.almeidascredito.xyz",
+        "subjectKeyIdentifier": "keyid:06:58:9a:77:e8:9b:57:00:e0:97:11:7d:d0:64:d3:7b:1d:ad:52:61"
+      }
+    },
+    "cert_index": 4051982806,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4051982806&end=4051982806",
+    "seen": 1777897256.066,
+    "submission_timestamp": 1777892603.954,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
