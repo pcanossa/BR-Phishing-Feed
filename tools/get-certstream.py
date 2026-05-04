@@ -37,8 +37,8 @@ WHITELIST = [
     'c6bank.com.br', 'neon.com.br', 'next.com.br', 'pagseguro.uol.com.br', 
     'picpay.com', 'stone.com.br', 'vivo.com.br', 'claro.com.br', 'tim.com.br', 
     'oi.com.br', 'netflix.com', 'spotify.com', 'uber.com', 'ifood.com.br', 
-    'bancopaulista.com.br', 'b3.com.br', 'pix.com.br', 'amazon.com.br', 'detran.sp.gov.br', 'loterias.caixa.gov.br', 'receita.fazenda.gov.br', 'bancodobrasil.com.br']
-
+    'bancopaulista.com.br', 'b3.com.br', 'pix.com.br', 'amazon.com.br', 'detran.sp.gov.br', 'loterias.caixa.gov.br', 'receita.fazenda.gov.br', 'bancodobrasil.com.br', 'serasaexperian.com.br', 'clarodigital.com.br', 'clarodigital.net', 'pagseguro.uol.com.br'
+]
 dominios_vistos = deque(maxlen=5000)
 
 def is_suspicious(domain):

@@ -1,0 +1,53 @@
+{
+  "dominio": "segurosdecreditotenerife.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:48:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "segurosdecreditotenerife.com",
+        "aggregated": "/CN=segurosdecreditotenerife.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "F46972E9F48D2DD80DAFD67F024AA2CA",
+      "not_before": 1777821580,
+      "not_after": 1785601167,
+      "fingerprint": "A3:28:1C:51:3A:D8:1A:90:38:ED:1C:E0:27:B1:07:7B:57:60:65:87",
+      "sha1": "A3:28:1C:51:3A:D8:1A:90:38:ED:1C:E0:27:B1:07:7B:57:60:65:87",
+      "sha256": "FD:3B:E7:52:DF:8A:FA:89:6A:3B:94:D1:03:B6:FC:98:3F:EC:D0:16:F9:89:C6:E0:60:C6:F4:8E:D8:AC:F1:35",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "segurosdecreditotenerife.com",
+        "*.segurosdecreditotenerife.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/9Gk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:segurosdecreditotenerife.com, DNS:*.segurosdecreditotenerife.com",
+        "subjectKeyIdentifier": "keyid:5d:a5:57:95:6b:ab:9f:dc:9d:50:1e:0d:fe:59:85:ba:b9:f3:11:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 817927781,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=817927781&end=817927781",
+    "seen": 1777916919.066,
+    "submission_timestamp": 1777825180.836,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

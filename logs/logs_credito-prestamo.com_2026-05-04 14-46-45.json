@@ -1,0 +1,52 @@
+{
+  "dominio": "credito-prestamo.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:46:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "credito-prestamo.com",
+        "aggregated": "/CN=credito-prestamo.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F84ACC368612404D9ADDCAD71CCFCB19",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "F9:2A:4E:E8:8B:A5:D4:8E:56:A4:DA:30:72:8F:53:0C:AE:3D:9C:7C",
+      "sha1": "F9:2A:4E:E8:8B:A5:D4:8E:56:A4:DA:30:72:8F:53:0C:AE:3D:9C:7C",
+      "sha256": "9C:DE:DD:49:36:36:7C:3A:C4:B3:87:D1:D9:56:CE:C7:21:B5:EF:37:C4:F2:4B:48:F3:49:CE:C3:A3:46:88:31",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "credito-prestamo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:credito-prestamo.com",
+        "subjectKeyIdentifier": "keyid:e2:bb:02:ee:1b:39:22:51:0b:0d:f3:c1:ce:43:1c:5d:c9:93:29:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4056552115,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056552115&end=4056552115",
+    "seen": 1777916803.301,
+    "submission_timestamp": 1777912135.201,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

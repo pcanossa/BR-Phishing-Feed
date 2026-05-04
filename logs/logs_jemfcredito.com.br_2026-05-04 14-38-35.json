@@ -1,0 +1,53 @@
+{
+  "dominio": "jemfcredito.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:38:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.jemfcredito.com.br",
+        "aggregated": "/CN=*.jemfcredito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "050594B2083925C4E4B7065857D77B466036",
+      "not_before": 1777908145,
+      "not_after": 1785684144,
+      "fingerprint": "E5:6E:2A:C6:21:F6:C4:8F:38:3E:71:2E:8D:1E:57:97:EF:C7:AB:59",
+      "sha1": "E5:6E:2A:C6:21:F6:C4:8F:38:3E:71:2E:8D:1E:57:97:EF:C7:AB:59",
+      "sha256": "D0:CE:2B:98:8A:D8:BC:FF:28:43:14:4F:34:49:45:06:E6:E0:4B:C4:11:BF:2D:03:99:04:5E:ED:FC:D6:6C:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.jemfcredito.com.br",
+        "jemfcredito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.jemfcredito.com.br, DNS:jemfcredito.com.br",
+        "subjectKeyIdentifier": "keyid:c4:31:87:be:0a:33:49:7d:7f:a5:60:32:1d:d9:2e:02:ea:59:87:a6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4056437806,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056437806&end=4056437806",
+    "seen": 1777916312.877,
+    "submission_timestamp": 1777911655.724,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

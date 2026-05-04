@@ -1,0 +1,50 @@
+{
+  "dominio": "poc-isr-next-marketing-app.us-east-1.internal.datacamp-staging.com",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 14:43:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "aggregated": ""
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0619A9CF16DB2347FEC8C355960279449F27",
+      "not_before": 1777908413,
+      "not_after": 1785684412,
+      "fingerprint": "A3:44:C0:08:FA:94:83:36:F6:CD:95:5D:E7:B7:74:B8:80:AE:E6:1B",
+      "sha1": "A3:44:C0:08:FA:94:83:36:F6:CD:95:5D:E7:B7:74:B8:80:AE:E6:1B",
+      "sha256": "3E:5E:E3:E4:25:A5:74:68:63:85:C3:6D:5D:E7:80:9B:30:20:AF:04:4F:B7:97:F5:C9:05:B1:05:ED:41:B2:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "poc-isr-next-marketing-app.us-east-1.internal.datacamp-staging.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:poc-isr-next-marketing-app.us-east-1.internal.datacamp-staging.com",
+        "subjectKeyIdentifier": "keyid:1f:aa:2d:01:d6:98:2d:6d:0d:b5:91:c1:b8:6b:27:5b:14:b7:59:17"
+      }
+    },
+    "cert_index": 4056502791,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056502791&end=4056502791",
+    "seen": 1777916581.519,
+    "submission_timestamp": 1777911926.881,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

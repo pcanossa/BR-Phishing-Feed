@@ -1,0 +1,53 @@
+{
+  "dominio": "koubai-app.ishiifood.com",
+  "marcas_encontradas": [
+    "ifood"
+  ],
+  "timestamp": "05/04/26 14:23:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "koubai-app.ishiifood.com",
+        "aggregated": "/CN=koubai-app.ishiifood.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0555B92A8E7A6AF49C8BD6C4B874FA9A",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "D8:E4:54:D2:A1:BC:3C:65:CF:35:38:D5:21:AF:02:C4:F9:7F:1F:0A",
+      "sha1": "D8:E4:54:D2:A1:BC:3C:65:CF:35:38:D5:21:AF:02:C4:F9:7F:1F:0A",
+      "sha256": "9B:9E:8C:D4:53:10:3F:2B:4C:F5:80:5B:14:8D:FE:97:C2:69:AD:F0:FC:15:A4:31:6E:8F:67:6F:7B:09:0F:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "koubai-app.ishiifood.com",
+        "*.koubai-app.ishiifood.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:koubai-app.ishiifood.com, DNS:*.koubai-app.ishiifood.com",
+        "subjectKeyIdentifier": "keyid:49:67:90:2b:6b:37:d1:1c:a4:81:07:9f:7f:2f:be:55:89:d5:9e:23",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 579321950,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=579321950&end=579321950",
+    "seen": 1777915402.918,
+    "submission_timestamp": 1777867740.362,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

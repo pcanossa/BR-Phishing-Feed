@@ -1,0 +1,51 @@
+{
+  "dominio": "bancosucredito.com.ar",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:24:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bancosucredito.com.ar",
+        "aggregated": "/CN=*.bancosucredito.com.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06E58862A3ED3B0CB5D1898E055F345E37D7",
+      "not_before": 1777907357,
+      "not_after": 1785683356,
+      "fingerprint": "85:30:10:A6:91:61:66:3D:10:3F:5C:97:B6:12:9D:84:FD:AE:89:59",
+      "sha1": "85:30:10:A6:91:61:66:3D:10:3F:5C:97:B6:12:9D:84:FD:AE:89:59",
+      "sha256": "73:E3:79:3A:62:73:7F:33:39:D9:F4:C1:C1:5D:62:B7:DE:53:78:36:84:C0:E2:BC:1B:33:D4:91:A4:6B:EE:E0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.bancosucredito.com.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.bancosucredito.com.ar",
+        "subjectKeyIdentifier": "keyid:97:02:8f:11:58:ec:95:f0:5d:d9:aa:b2:e2:05:f4:dd:5f:ed:24:3c"
+      }
+    },
+    "cert_index": 4056247333,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056247333&end=4056247333",
+    "seen": 1777915439.394,
+    "submission_timestamp": 1777910871.494,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

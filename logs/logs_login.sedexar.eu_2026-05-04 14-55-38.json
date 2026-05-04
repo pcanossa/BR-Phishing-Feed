@@ -1,0 +1,52 @@
+{
+  "dominio": "login.sedexar.eu",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/04/26 14:55:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.sedexar.eu",
+        "aggregated": "/CN=login.sedexar.eu"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "10F0D5195F82EA11EA2AB300F2600FF5",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "C6:87:D4:C5:8D:4C:4C:D4:91:74:A2:D1:F1:9D:9E:D2:9A:E4:9D:CD",
+      "sha1": "C6:87:D4:C5:8D:4C:4C:D4:91:74:A2:D1:F1:9D:9E:D2:9A:E4:9D:CD",
+      "sha256": "D0:3D:50:D9:28:EC:EC:D1:DC:0E:FF:96:C7:87:F4:3E:3B:2F:B6:E6:6E:B4:90:80:95:DE:C9:5C:21:0B:85:89",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.sedexar.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.sedexar.eu",
+        "subjectKeyIdentifier": "keyid:c5:3e:65:3e:22:57:bb:4b:bb:c0:c8:dc:92:cb:01:33:7a:a7:83:09",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 553897196,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=553897196&end=553897196",
+    "seen": 1777917337.3,
+    "submission_timestamp": 1777879701.217,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "dev-app.next.enviromap.com",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 14:23:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev-app.next.enviromap.com",
+        "aggregated": "/CN=dev-app.next.enviromap.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E971676929C23CE8787D0C011D85F5D",
+      "not_before": 1777852800,
+      "not_after": 1793836799,
+      "fingerprint": "6F:17:BD:EF:AA:26:EF:10:08:4C:70:92:0B:C2:1E:60:D5:F4:16:D7",
+      "sha1": "6F:17:BD:EF:AA:26:EF:10:08:4C:70:92:0B:C2:1E:60:D5:F4:16:D7",
+      "sha256": "AF:F7:DD:61:77:54:3B:9C:73:6C:8F:C1:2C:4B:B3:AF:68:10:3D:C8:70:74:86:75:AB:1C:DE:88:1E:97:A6:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev-app.next.enviromap.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev-app.next.enviromap.com",
+        "subjectKeyIdentifier": "keyid:e9:93:95:c2:70:92:31:51:fd:4b:54:56:97:5d:0b:af:db:fd:ad:84",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4056236429,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056236429&end=4056236429",
+    "seen": 1777915394.495,
+    "submission_timestamp": 1777910833.112,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "testing.elcreditoargentino.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:27:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.elcreditoargentino.com",
+        "aggregated": "/CN=testing.elcreditoargentino.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "86D63D3DF9D9F42347CA35F5E660B88B",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "78:32:67:26:92:E8:8A:6F:B9:71:28:99:49:E0:E5:60:AD:E5:0F:FA",
+      "sha1": "78:32:67:26:92:E8:8A:6F:B9:71:28:99:49:E0:E5:60:AD:E5:0F:FA",
+      "sha256": "63:16:63:D4:94:46:23:65:74:BD:C4:D6:6C:6E:99:ED:5A:E6:27:3A:18:A6:F6:B9:57:A7:A5:00:86:0D:F4:9C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "testing.elcreditoargentino.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:testing.elcreditoargentino.com",
+        "subjectKeyIdentifier": "keyid:93:8e:82:35:c3:fa:e9:cf:bc:ec:b8:59:6b:24:b1:c5:a8:77:af:0c"
+      }
+    },
+    "cert_index": 4056293551,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056293551&end=4056293551",
+    "seen": 1777915656.675,
+    "submission_timestamp": 1777911065.356,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

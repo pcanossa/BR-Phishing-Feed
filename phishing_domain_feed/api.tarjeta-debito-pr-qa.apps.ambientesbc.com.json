@@ -1,0 +1,12 @@
+{
+    "dominio": "api.tarjeta-debito-pr-qa.apps.ambientesbc.com",
+    "data_registro": "05/04/26 14:42:22",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de termo em espanhol ('tarjeta') em um contexto que, pelo domínio de segundo nível 'ambientesbc', tenta mimetizar serviços financeiros ou institucionais brasileiros.",
+        "Estrutura de subdomínio 'api' frequentemente utilizada para mascarar endpoints de captura de dados (phishing-as-a-service).",
+        "Presença de sufixos como '-qa' e '-apps' em domínios de terceiros é uma técnica comum de ofuscação para simular ambientes de testes ou infraestruturas legítimas de grandes empresas e enganar filtros de reputação.",
+        "O domínio não pertence à infraestrutura oficial de instituições financeiras brasileiras, indicando uso de engenharia social focada em usuários de cartões de débito no Brasil."
+    ],
+    "analise_comportamental": "O domínio apresenta padrões consistentes com infraestruturas de phishing direcionadas a usuários brasileiros de serviços bancários. A combinação de termos financeiros ('tarjeta-debito') com uma estrutura de subdomínio que tenta conferir legitimidade ('apps.ambientesbc.com') é um forte indicador de uma página de captura de credenciais ou dados de cartão de crédito."
+}

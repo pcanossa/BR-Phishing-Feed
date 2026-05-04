@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.kodexpert.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/04/26 14:53:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.kodexpert.com.br",
+        "aggregated": "/CN=cpf.kodexpert.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0C18EBCE7B2D8134139AE36A98048A93",
+      "not_before": 1777908853,
+      "not_after": 1785688443,
+      "fingerprint": "D0:A1:2D:92:48:E2:93:E9:05:40:CB:57:86:F1:98:94:60:03:F2:C5",
+      "sha1": "D0:A1:2D:92:48:E2:93:E9:05:40:CB:57:86:F1:98:94:60:03:F2:C5",
+      "sha256": "D5:0C:63:5E:0A:8B:DA:9A:41:2F:62:7E:35:9A:CB:E3:40:64:17:E4:19:2E:91:DC:C5:B8:72:0D:5F:90:CE:E2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.kodexpert.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/DBg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.kodexpert.com.br",
+        "subjectKeyIdentifier": "keyid:12:80:fc:a6:3e:fd:11:04:27:d2:5f:47:b5:89:e4:5c:0c:99:a4:1b"
+      }
+    },
+    "cert_index": 4056649086,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056649086&end=4056649086",
+    "seen": 1777917222.963,
+    "submission_timestamp": 1777912518.512,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

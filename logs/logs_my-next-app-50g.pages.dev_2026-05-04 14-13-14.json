@@ -1,0 +1,52 @@
+{
+  "dominio": "my-next-app-50g.pages.dev",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 14:13:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-next-app-50g.pages.dev",
+        "aggregated": "/CN=my-next-app-50g.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CF681304F64873BF0E9F7E6670AECF7B",
+      "not_before": 1777906617,
+      "not_after": 1785686074,
+      "fingerprint": "E5:D5:39:E1:89:4B:87:BE:13:BF:CE:98:9A:DC:24:2C:00:BD:31:43",
+      "sha1": "E5:D5:39:E1:89:4B:87:BE:13:BF:CE:98:9A:DC:24:2C:00:BD:31:43",
+      "sha256": "F9:6F:0C:9F:2A:2F:BE:74:5C:62:10:8C:87:38:E7:A2:35:D6:4C:C2:38:2A:F7:84:AD:3F:58:6A:03:1A:01:4B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "my-next-app-50g.pages.dev",
+        "*.my-next-app-50g.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/z2g, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:my-next-app-50g.pages.dev, DNS:*.my-next-app-50g.pages.dev",
+        "subjectKeyIdentifier": "keyid:aa:eb:fa:25:a8:b8:1b:1c:f3:ad:0c:da:31:cf:5f:e2:36:95:8e:44"
+      }
+    },
+    "cert_index": 4056100705,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056100705&end=4056100705",
+    "seen": 1777914792.114,
+    "submission_timestamp": 1777910267.601,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

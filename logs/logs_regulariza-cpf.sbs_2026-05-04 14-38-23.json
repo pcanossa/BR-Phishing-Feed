@@ -1,0 +1,53 @@
+{
+  "dominio": "regulariza-cpf.sbs",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/04/26 14:38:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "regulariza-cpf.sbs",
+        "aggregated": "/CN=regulariza-cpf.sbs"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A6BF77E8C6244EA43BDAB5E046435203",
+      "not_before": 1777852800,
+      "not_after": 1785691898,
+      "fingerprint": "4C:CC:28:EA:A7:59:F4:89:A7:F6:4F:16:7F:05:FD:65:74:5B:BF:39",
+      "sha1": "4C:CC:28:EA:A7:59:F4:89:A7:F6:4F:16:7F:05:FD:65:74:5B:BF:39",
+      "sha256": "33:9F:B5:AB:91:3A:8B:D8:25:E0:D5:68:70:16:34:A7:CB:DC:17:BE:94:6B:E8:4B:9C:E1:F3:FA:C5:8A:A0:AB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "regulariza-cpf.sbs",
+        "*.regulariza-cpf.sbs"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:regulariza-cpf.sbs, DNS:*.regulariza-cpf.sbs",
+        "subjectKeyIdentifier": "keyid:ba:61:f8:d1:e6:3d:68:5f:3e:f4:d8:e3:48:15:7c:c9:6c:10:bf:d1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 601353067,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=601353067&end=601353067",
+    "seen": 1777916301.514,
+    "submission_timestamp": 1777916133.71,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "creditosdireto.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:12:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditosdireto.co",
+        "aggregated": "/CN=creditosdireto.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "323A173FFB99CF2413A4849DEDE48773",
+      "not_before": 1777906626,
+      "not_after": 1785686089,
+      "fingerprint": "29:6B:CD:39:96:9E:75:AC:DE:63:B9:81:2D:8A:01:1E:BF:7D:BE:67",
+      "sha1": "29:6B:CD:39:96:9E:75:AC:DE:63:B9:81:2D:8A:01:1E:BF:7D:BE:67",
+      "sha256": "F1:64:95:13:E5:1A:50:3E:79:7B:AA:4E:AE:F5:41:38:19:ED:D0:B7:9F:0D:57:31:12:02:EA:52:69:6A:5C:70",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditosdireto.co",
+        "*.creditosdireto.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Mjo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditosdireto.co, DNS:*.creditosdireto.co",
+        "subjectKeyIdentifier": "keyid:7b:58:c3:41:51:11:84:d1:dd:fc:b3:dc:c5:5f:61:5e:f3:fd:68:30",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4056091418,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056091418&end=4056091418",
+    "seen": 1777914754.161,
+    "submission_timestamp": 1777910227.025,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

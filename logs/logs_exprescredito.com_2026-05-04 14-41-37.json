@@ -1,0 +1,52 @@
+{
+  "dominio": "exprescredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:41:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "exprescredito.com",
+        "aggregated": "/CN=exprescredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C632C2C70D54F60611CBB44D49E8A7FC",
+      "not_before": 1777822249,
+      "not_after": 1785601847,
+      "fingerprint": "CC:15:93:77:4C:32:4A:7D:76:AD:0B:D7:F4:99:55:75:A8:1E:36:DB",
+      "sha1": "CC:15:93:77:4C:32:4A:7D:76:AD:0B:D7:F4:99:55:75:A8:1E:36:DB",
+      "sha256": "89:E2:54:7C:28:0C:83:F2:8B:72:CE:58:18:A6:73:92:DC:70:0B:17:0C:29:45:49:7F:2A:D8:AB:20:4B:48:DC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "exprescredito.com",
+        "*.exprescredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/xjI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:exprescredito.com, DNS:*.exprescredito.com",
+        "subjectKeyIdentifier": "keyid:7d:5c:62:71:97:f2:96:88:01:b0:36:a0:25:fc:42:4f:fd:e2:0d:7f"
+      }
+    },
+    "cert_index": 675837725,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675837725&end=675837725",
+    "seen": 1777916497.402,
+    "submission_timestamp": 1777826033.576,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

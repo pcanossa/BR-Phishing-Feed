@@ -1,0 +1,52 @@
+{
+  "dominio": "www.formalizacao-credito.trust.group",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 14:50:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "formalizacao-credito.trust.group",
+        "aggregated": "/CN=formalizacao-credito.trust.group"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0BFDCD78B14E5C858D46F467FDCE182A",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "07:20:41:71:CA:E4:AB:3B:F9:4D:60:EC:AC:65:1C:D3:00:1D:45:40",
+      "sha1": "07:20:41:71:CA:E4:AB:3B:F9:4D:60:EC:AC:65:1C:D3:00:1D:45:40",
+      "sha256": "82:DB:BE:0B:BB:00:10:9C:C0:F4:4C:FF:26:1C:0E:8E:D5:2F:91:75:29:44:7F:46:D5:1D:87:F9:FC:B6:DC:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "formalizacao-credito.trust.group",
+        "www.formalizacao-credito.trust.group"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:formalizacao-credito.trust.group, DNS:www.formalizacao-credito.trust.group",
+        "subjectKeyIdentifier": "keyid:86:a7:ac:d5:f2:e2:16:ac:1f:b3:20:e7:0e:f1:e7:cb:c8:7f:c4:12"
+      }
+    },
+    "cert_index": 4056600768,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056600768&end=4056600768",
+    "seen": 1777917026.984,
+    "submission_timestamp": 1777912319.97,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
