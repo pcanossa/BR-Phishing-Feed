@@ -1,0 +1,52 @@
+{
+  "dominio": "dev.apps.aims.gov.au",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 02:40:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.api.aims.gov.au",
+        "aggregated": "/CN=dev.api.aims.gov.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0873C5B8C49DEAC7BC46A8C77543560F",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "8C:C7:4A:3F:E8:F3:AF:EB:4F:D8:0B:76:8B:81:E8:01:D9:35:98:6F",
+      "sha1": "8C:C7:4A:3F:E8:F3:AF:EB:4F:D8:0B:76:8B:81:E8:01:D9:35:98:6F",
+      "sha256": "90:70:42:33:B5:9A:6C:12:39:E8:DA:E2:2D:90:51:BC:18:6E:C0:D8:0D:22:05:7E:A8:38:A2:B6:7E:2E:21:9C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.api.aims.gov.au",
+        "dev.apps.aims.gov.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.api.aims.gov.au, DNS:dev.apps.aims.gov.au",
+        "subjectKeyIdentifier": "keyid:d8:4d:e5:9e:8a:a4:76:0a:5a:f8:3a:09:01:59:2a:5e:3b:f4:37:0e"
+      }
+    },
+    "cert_index": 594446015,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=594446015&end=594446015",
+    "seen": 1777873220.84,
+    "submission_timestamp": 1777873078.262,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

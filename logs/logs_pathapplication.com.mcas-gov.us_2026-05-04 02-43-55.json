@@ -1,0 +1,58 @@
+{
+  "dominio": "pathapplication.com.mcas-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 02:43:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.pathapplication.com.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.pathapplication.com.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "4300218B61F9A48B64D1CF6F23000000218B61",
+      "not_before": 1777872759,
+      "not_after": 1793424759,
+      "fingerprint": "36:B6:D2:B6:7D:84:B1:2B:0A:55:03:00:23:9C:6E:D2:28:D8:C2:BD",
+      "sha1": "36:B6:D2:B6:7D:84:B1:2B:0A:55:03:00:23:9C:6E:D2:28:D8:C2:BD",
+      "sha256": "B1:D0:8C:8A:2B:B8:EB:3D:38:34:80:BB:3F:8F:BB:C1:1A:A7:24:C0:ED:AF:74:44:CE:32:D1:33:FD:35:AE:94",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.pathapplication.com.mcas-gov.us",
+        "*.pathapplication.com.admin-mcas-gov.us",
+        "*.pathapplication.com.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.pathapplication.com.mcas-gov.us, DNS:*.pathapplication.com.admin-mcas-gov.us, DNS:*.pathapplication.com.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:64:0f:cb:58:b1:0b:98:90:16:78:d4:94:a2:ab:cb:96:a8:6e:7b:2c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 594504062,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=594504062&end=594504062",
+    "seen": 1777873433.659,
+    "submission_timestamp": 1777873364.419,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

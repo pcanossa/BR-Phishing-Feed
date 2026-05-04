@@ -1,0 +1,58 @@
+{
+  "dominio": "goconsensus.com.admin-mcas-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 02:40:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.goconsensus.com.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.goconsensus.com.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 10",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 10/O=Microsoft Corporation"
+      },
+      "serial_number": "4900209733C21BE4B33DAF112F000000209733",
+      "not_before": 1777872511,
+      "not_after": 1793424511,
+      "fingerprint": "14:5D:AF:B7:3B:93:52:47:DA:9E:26:50:6D:06:31:BD:39:3A:F5:C0",
+      "sha1": "14:5D:AF:B7:3B:93:52:47:DA:9E:26:50:6D:06:31:BD:39:3A:F5:C0",
+      "sha256": "AF:FE:09:D7:71:04:D4:49:E6:CE:CA:3A:AC:EB:9E:82:A9:8E:47:79:AF:4C:60:45:7B:D8:E4:35:9B:CE:AC:16",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.goconsensus.com.mcas-gov.us",
+        "*.goconsensus.com.admin-mcas-gov.us",
+        "*.goconsensus.com.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:d0:4c:83:d1:8e:71:2e:3d:34:b1:ff:9b:79:2c:8e:74:d4:e2:78:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.goconsensus.com.mcas-gov.us, DNS:*.goconsensus.com.admin-mcas-gov.us, DNS:*.goconsensus.com.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:d8:6b:f4:39:88:0f:7a:c4:1a:1a:22:6d:3c:42:18:44:0c:ff:f2:a8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 594456262,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=594456262&end=594456262",
+    "seen": 1777873240.357,
+    "submission_timestamp": 1777873115.947,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

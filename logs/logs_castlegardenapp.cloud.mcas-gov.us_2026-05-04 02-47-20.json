@@ -1,0 +1,58 @@
+{
+  "dominio": "castlegardenapp.cloud.mcas-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 02:47:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.castlegardenapp.cloud.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.castlegardenapp.cloud.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "41002179985211EC16D658FFF2000000217998",
+      "not_before": 1777872951,
+      "not_after": 1793424951,
+      "fingerprint": "BA:C7:F3:2F:C5:46:AE:03:89:94:76:40:96:27:CD:FD:D8:23:31:72",
+      "sha1": "BA:C7:F3:2F:C5:46:AE:03:89:94:76:40:96:27:CD:FD:D8:23:31:72",
+      "sha256": "CC:94:64:A1:F7:8B:CC:DA:FC:33:3C:5E:46:7C:E3:ED:DF:4A:C2:C7:7E:6D:71:4B:B2:E7:76:C3:8D:20:6D:CF",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.castlegardenapp.cloud.mcas-gov.us",
+        "*.castlegardenapp.cloud.admin-mcas-gov.us",
+        "*.castlegardenapp.cloud.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.castlegardenapp.cloud.mcas-gov.us, DNS:*.castlegardenapp.cloud.admin-mcas-gov.us, DNS:*.castlegardenapp.cloud.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:29:ca:2e:5c:29:fb:8e:91:eb:36:21:e9:1c:59:09:d8:e3:95:fe:76",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 594543887,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=594543887&end=594543887",
+    "seen": 1777873640.182,
+    "submission_timestamp": 1777873555.921,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

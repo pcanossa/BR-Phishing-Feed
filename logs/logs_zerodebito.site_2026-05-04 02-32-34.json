@@ -1,0 +1,52 @@
+{
+  "dominio": "zerodebito.site",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/04/26 02:32:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "zerodebito.site",
+        "aggregated": "/CN=zerodebito.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B1B4E132E2C38079",
+      "not_before": 1777868764,
+      "not_after": 1794975964,
+      "fingerprint": "08:BC:02:DC:D1:77:68:D9:20:2B:52:57:9B:A1:75:FE:26:3D:DB:58",
+      "sha1": "08:BC:02:DC:D1:77:68:D9:20:2B:52:57:9B:A1:75:FE:26:3D:DB:58",
+      "sha256": "CD:C7:44:0C:CA:81:AC:30:32:C0:7D:DC:6E:81:38:83:CA:AA:7E:1F:D8:36:FD:0D:B0:08:8E:93:3F:27:6A:36",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "zerodebito.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:zerodebito.site",
+        "subjectKeyIdentifier": "keyid:21:e0:3f:d7:d3:68:4c:05:c7:a0:e5:4f:f5:f0:fc:ad:cf:a8:1a:cb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4046103241,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4046103241&end=4046103241",
+    "seen": 1777872753.099,
+    "submission_timestamp": 1777868765.384,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

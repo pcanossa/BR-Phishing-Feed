@@ -1,0 +1,51 @@
+{
+  "dominio": "www.rotenburg.sus-uebergang.de",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/04/26 02:27:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.rotenburg.sus-uebergang.de",
+        "aggregated": "/CN=www.rotenburg.sus-uebergang.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0687E278B8D130709E2647200C7210601BB0",
+      "not_before": 1777864858,
+      "not_after": 1785640857,
+      "fingerprint": "9A:8E:14:C1:B5:B7:63:66:F7:7E:7D:D4:9E:79:F1:B6:DF:B9:CA:A3",
+      "sha1": "9A:8E:14:C1:B5:B7:63:66:F7:7E:7D:D4:9E:79:F1:B6:DF:B9:CA:A3",
+      "sha256": "71:81:3B:E9:76:29:4D:78:1B:DD:12:A4:D0:95:49:CD:32:F0:47:53:84:75:CD:31:F1:2F:ED:C5:44:AF:50:75",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.rotenburg.sus-uebergang.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.rotenburg.sus-uebergang.de",
+        "subjectKeyIdentifier": "keyid:9b:76:c0:3d:35:6c:cc:d2:05:60:2c:2e:5d:ed:b7:60:f1:10:b6:f7"
+      }
+    },
+    "cert_index": 4046018870,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4046018870&end=4046018870",
+    "seen": 1777872463.521,
+    "submission_timestamp": 1777868371.281,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dominio": "ungapped.io.mcas-df-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 02:43:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.ungapped.io.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.ungapped.io.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "410021788FBA4D780C8FB6964600000021788F",
+      "not_before": 1777872690,
+      "not_after": 1793424690,
+      "fingerprint": "77:7E:1A:BC:94:D2:8F:56:D8:EB:79:26:46:DD:09:B6:A7:B8:6D:A9",
+      "sha1": "77:7E:1A:BC:94:D2:8F:56:D8:EB:79:26:46:DD:09:B6:A7:B8:6D:A9",
+      "sha256": "1A:E2:34:93:86:91:18:A3:93:FF:0E:1F:CA:00:B3:9F:C7:B0:89:09:CB:62:E6:BF:05:C3:70:B7:E0:95:69:18",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.ungapped.io.mcas-gov.us",
+        "*.ungapped.io.admin-mcas-gov.us",
+        "*.ungapped.io.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ungapped.io.mcas-gov.us, DNS:*.ungapped.io.admin-mcas-gov.us, DNS:*.ungapped.io.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:f8:3c:d5:2e:36:dd:d7:fe:0b:fb:73:f2:6f:10:96:bd:07:72:93:8b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 594490826,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=594490826&end=594490826",
+    "seen": 1777873409.933,
+    "submission_timestamp": 1777873295.151,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

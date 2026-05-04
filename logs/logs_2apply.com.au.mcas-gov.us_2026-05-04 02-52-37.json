@@ -1,0 +1,58 @@
+{
+  "dominio": "2apply.com.au.mcas-gov.us",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 02:52:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.2apply.com.au.mcas-gov.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.2apply.com.au.mcas-gov.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100217A7A969C3D4940A82500000000217A7A",
+      "not_before": 1777873207,
+      "not_after": 1793425207,
+      "fingerprint": "D7:62:F8:65:89:DA:AE:A2:D8:4A:9D:D0:11:FD:24:4F:89:CD:C3:44",
+      "sha1": "D7:62:F8:65:89:DA:AE:A2:D8:4A:9D:D0:11:FD:24:4F:89:CD:C3:44",
+      "sha256": "23:62:C1:A7:D3:03:DB:27:FA:2D:31:64:54:46:F6:F0:F3:C0:EE:92:83:8B:BE:DF:7F:6B:22:C6:3C:E7:3D:9B",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.2apply.com.au.mcas-gov.us",
+        "*.2apply.com.au.admin-mcas-gov.us",
+        "*.2apply.com.au.mcas-df-gov.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.2apply.com.au.mcas-gov.us, DNS:*.2apply.com.au.admin-mcas-gov.us, DNS:*.2apply.com.au.mcas-df-gov.us",
+        "subjectKeyIdentifier": "keyid:04:02:f8:ea:9e:9c:14:7b:fa:bc:53:a2:64:57:99:c0:01:a5:37:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 594596136,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=594596136&end=594596136",
+    "seen": 1777873955.615,
+    "submission_timestamp": 1777873812.138,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

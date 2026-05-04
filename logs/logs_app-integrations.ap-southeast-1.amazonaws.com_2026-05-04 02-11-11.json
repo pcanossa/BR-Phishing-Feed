@@ -1,0 +1,52 @@
+{
+  "dominio": "app-integrations.ap-southeast-1.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 02:11:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-integrations.ap-southeast-1.amazonaws.com",
+        "aggregated": "/CN=app-integrations.ap-southeast-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A6FE6EB878484AD265485F83BBFF0CE",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "5B:CF:8B:22:BA:D2:BB:50:04:82:B9:6C:1A:A2:AB:80:75:7A:86:86",
+      "sha1": "5B:CF:8B:22:BA:D2:BB:50:04:82:B9:6C:1A:A2:AB:80:75:7A:86:86",
+      "sha256": "93:78:93:5A:F0:EF:8F:41:2B:1E:18:03:D0:94:67:0A:CE:E2:C7:22:0F:0E:88:E6:71:AA:67:46:AC:B7:77:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-integrations.ap-southeast-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-integrations.ap-southeast-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:d0:0c:fe:a3:a6:af:dd:93:c9:6b:46:89:d5:5e:4a:59:52:fe:a5:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 550770902,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=550770902&end=550770902",
+    "seen": 1777871471.018,
+    "submission_timestamp": 1777854092.983,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

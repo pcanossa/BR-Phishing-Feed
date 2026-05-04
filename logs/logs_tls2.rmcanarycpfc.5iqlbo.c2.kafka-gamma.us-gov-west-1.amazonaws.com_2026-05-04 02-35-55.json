@@ -1,0 +1,58 @@
+{
+  "dominio": "tls2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+  "marcas_encontradas": [
+    "gov",
+    "amazon"
+  ],
+  "timestamp": "05/04/26 02:35:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "09EC1709635DCD7F0179156080A4065D",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "30:B4:C8:F7:B2:BA:08:7B:AB:66:F6:A5:26:4C:51:1A:AC:F2:60:EC",
+      "sha1": "30:B4:C8:F7:B2:BA:08:7B:AB:66:F6:A5:26:4C:51:1A:AC:F2:60:EC",
+      "sha256": "D9:DF:A7:E2:CC:E7:3E:16:64:CF:46:E4:CB:46:D4:BF:72:FE:CF:A7:8E:AC:FF:1B:92:04:8B:11:CB:4E:DC:71",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "*.scram.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "*.scram2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "*.tls2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "*.iam.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "*.tls.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "*.iam2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com, DNS:*.scram.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com, DNS:*.scram2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com, DNS:*.tls2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com, DNS:*.iam.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com, DNS:*.tls.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com, DNS:*.iam2.rmcanarycpfc.5iqlbo.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:dc:74:4e:67:a4:16:bc:ae:0a:66:9b:6d:0b:0b:20:b8:25:a4:7e:93"
+      }
+    },
+    "cert_index": 159046510,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x621/275",
+    "seen": 1777872954.906,
+    "submission_timestamp": 1777872952.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
