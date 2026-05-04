@@ -1,0 +1,52 @@
+{
+  "dominio": "app.amazonreps.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 10:47:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.amazonreps.com",
+        "aggregated": "/CN=app.amazonreps.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1F1C6154119BCF218FFC15A7278E34B2",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "57:DB:5E:3F:6E:09:E5:BD:72:02:0A:51:AB:41:11:27:3F:DA:F0:AB",
+      "sha1": "57:DB:5E:3F:6E:09:E5:BD:72:02:0A:51:AB:41:11:27:3F:DA:F0:AB",
+      "sha256": "77:C5:67:D0:2D:DA:D5:99:4F:4E:7B:64:DD:2C:E9:0E:50:40:27:61:39:CE:CE:23:7F:A7:1C:F4:B1:D0:48:9C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.amazonreps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.amazonreps.com",
+        "subjectKeyIdentifier": "keyid:2e:2d:0a:8f:86:8c:e7:7e:39:da:f3:26:f8:d4:41:91:43:cc:97:6c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 599140871,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=599140871&end=599140871",
+    "seen": 1777902475.877,
+    "submission_timestamp": 1777902307.261,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

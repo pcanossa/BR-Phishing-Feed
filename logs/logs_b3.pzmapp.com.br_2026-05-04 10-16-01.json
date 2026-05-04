@@ -1,0 +1,52 @@
+{
+  "dominio": "b3.pzmapp.com.br",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/04/26 10:16:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "b3.pzmapp.com.br",
+        "aggregated": "/CN=b3.pzmapp.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "064D91F101FFB03C48AC0093A751CBCC2940",
+      "not_before": 1777820108,
+      "not_after": 1785596107,
+      "fingerprint": "BC:3E:CF:2F:71:EC:B4:8B:D8:E5:58:12:72:83:6D:2C:21:16:F3:4A",
+      "sha1": "BC:3E:CF:2F:71:EC:B4:8B:D8:E5:58:12:72:83:6D:2C:21:16:F3:4A",
+      "sha256": "C8:80:87:BF:F0:DB:0A:6C:4D:63:44:D9:0C:91:09:F0:6B:F6:92:98:CF:A0:44:55:69:F6:50:91:C2:CE:29:D1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "b3.pzmapp.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:b3.pzmapp.com.br",
+        "subjectKeyIdentifier": "keyid:b7:95:06:d7:ae:93:b7:2f:46:cb:f5:fd:4f:9f:aa:b9:b0:f6:6b:7b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 817629680,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=817629680&end=817629680",
+    "seen": 1777900561.044,
+    "submission_timestamp": 1777823619.01,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "creditoyseguros.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 10:12:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoyseguros.com",
+        "aggregated": "/CN=creditoyseguros.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06845CE369BB2F7C805A3DB2B7D01D39A8BF",
+      "not_before": 1777892335,
+      "not_after": 1785668334,
+      "fingerprint": "2A:A8:93:A7:4D:2F:6C:2C:00:AD:44:BC:AB:B4:E3:3D:42:64:6A:B8",
+      "sha1": "2A:A8:93:A7:4D:2F:6C:2C:00:AD:44:BC:AB:B4:E3:3D:42:64:6A:B8",
+      "sha256": "63:42:43:1D:6D:1D:9E:03:33:99:DF:44:80:C6:52:C2:64:F9:68:E0:5E:01:62:19:2C:F3:A0:F6:36:56:09:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditoyseguros.com",
+        "www.creditoyseguros.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditoyseguros.com, DNS:www.creditoyseguros.com",
+        "subjectKeyIdentifier": "keyid:2a:92:2c:11:47:be:40:f4:30:54:b2:92:55:3b:34:f6:6a:13:43:bd"
+      }
+    },
+    "cert_index": 4052730528,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4052730528&end=4052730528",
+    "seen": 1777900347.567,
+    "submission_timestamp": 1777895849.602,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

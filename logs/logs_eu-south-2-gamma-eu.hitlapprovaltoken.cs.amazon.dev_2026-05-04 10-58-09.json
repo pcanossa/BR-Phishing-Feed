@@ -1,0 +1,52 @@
+{
+  "dominio": "eu-south-2-gamma-eu.hitlapprovaltoken.cs.amazon.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 10:58:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eu-south-2-gamma-eu.hitlapprovaltoken.cs.amazon.dev",
+        "aggregated": "/CN=eu-south-2-gamma-eu.hitlapprovaltoken.cs.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "06CC856EE504999DF5A07E66E6679FF9",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "FA:B0:CF:FB:CD:D4:71:00:30:03:41:8D:34:E0:98:3F:92:B9:E5:AB",
+      "sha1": "FA:B0:CF:FB:CD:D4:71:00:30:03:41:8D:34:E0:98:3F:92:B9:E5:AB",
+      "sha256": "62:88:0B:50:06:72:9A:5F:36:EC:6B:35:35:C3:3C:CF:51:95:06:19:14:63:BD:E3:B3:F8:3D:99:4B:5A:2C:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "eu-south-2-gamma-eu.hitlapprovaltoken.cs.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:eu-south-2-gamma-eu.hitlapprovaltoken.cs.amazon.dev",
+        "subjectKeyIdentifier": "keyid:d2:51:e4:c9:f9:89:f3:b2:62:8a:0b:d6:80:33:0e:e5:6b:53:20:1b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 552909347,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=552909347&end=552909347",
+    "seen": 1777903087.735,
+    "submission_timestamp": 1777872333.808,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

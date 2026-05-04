@@ -1,0 +1,51 @@
+{
+  "dominio": "mission.app.gov.mg",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 10:14:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mission.app.gov.mg",
+        "aggregated": "/CN=mission.app.gov.mg"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05FE769E7156E42CCBA99B771E69EF39DE3F",
+      "not_before": 1777892438,
+      "not_after": 1785668437,
+      "fingerprint": "1C:98:2E:94:F8:38:1A:38:89:AA:C8:20:D4:2E:A7:D0:24:D6:C6:6C",
+      "sha1": "1C:98:2E:94:F8:38:1A:38:89:AA:C8:20:D4:2E:A7:D0:24:D6:C6:6C",
+      "sha256": "DE:2D:D7:88:50:34:F1:F6:82:CE:AE:E1:6A:55:5D:4F:6C:C8:28:02:DE:9A:DA:74:41:3B:33:BC:0D:4D:1A:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mission.app.gov.mg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mission.app.gov.mg",
+        "subjectKeyIdentifier": "keyid:0c:34:1b:14:cd:f1:8d:67:a3:a3:7d:ef:ef:a1:a4:09:c2:70:de:8a"
+      }
+    },
+    "cert_index": 4052753988,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4052753988&end=4052753988",
+    "seen": 1777900446.855,
+    "submission_timestamp": 1777895951.231,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

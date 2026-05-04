@@ -1,0 +1,52 @@
+{
+  "dominio": "rapidocredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 11:01:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rapidocredito.com",
+        "aggregated": "/CN=rapidocredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "8D10D48E4E3A2585",
+      "not_before": 1777898760,
+      "not_after": 1795005960,
+      "fingerprint": "BE:C0:5F:34:45:B3:51:97:FA:8C:05:CE:F7:07:5C:4D:9F:61:8E:DC",
+      "sha1": "BE:C0:5F:34:45:B3:51:97:FA:8C:05:CE:F7:07:5C:4D:9F:61:8E:DC",
+      "sha256": "89:54:F4:B8:9E:8D:50:6A:32:16:E6:C9:03:BD:81:C1:80:B1:A4:4F:A2:7F:B0:E8:FB:70:D5:D5:EA:7F:23:85",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "rapidocredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:rapidocredito.com",
+        "subjectKeyIdentifier": "keyid:1e:5c:46:8f:7f:87:bc:24:de:f4:6d:44:00:37:b5:a4:d6:90:85:6f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4053435881,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4053435881&end=4053435881",
+    "seen": 1777903309.853,
+    "submission_timestamp": 1777898760.621,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

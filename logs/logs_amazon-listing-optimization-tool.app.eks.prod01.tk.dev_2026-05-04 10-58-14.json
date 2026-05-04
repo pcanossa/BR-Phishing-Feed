@@ -1,0 +1,53 @@
+{
+  "dominio": "amazon-listing-optimization-tool.app.eks.prod01.tk.dev",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 10:58:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "amazon-listing-optimization-tool.app.eks.prod01.tk.dev",
+        "aggregated": "/CN=amazon-listing-optimization-tool.app.eks.prod01.tk.dev"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9C5C7F8A3D071D08BD615EA9502BE410",
+      "not_before": 1777766400,
+      "not_after": 1785628799,
+      "fingerprint": "B2:E6:8C:5E:CC:9A:15:F2:1B:0F:B6:6A:A3:68:C9:AC:1A:87:62:51",
+      "sha1": "B2:E6:8C:5E:CC:9A:15:F2:1B:0F:B6:6A:A3:68:C9:AC:1A:87:62:51",
+      "sha256": "EA:E7:68:3F:EE:AA:35:71:16:B7:15:68:69:D4:28:DB:8D:25:32:D1:4C:4B:E5:E7:EB:E0:6F:DC:35:55:85:17",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "amazon-listing-optimization-tool.app.eks.prod01.tk.dev",
+        "amazon-listing-optimization-tool.prod01.tk.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:amazon-listing-optimization-tool.app.eks.prod01.tk.dev, DNS:amazon-listing-optimization-tool.prod01.tk.dev",
+        "subjectKeyIdentifier": "keyid:76:df:db:bd:b1:3d:11:76:42:c9:f6:e1:e2:f8:f9:de:73:55:8b:4e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 675617943,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675617943&end=675617943",
+    "seen": 1777903094.148,
+    "submission_timestamp": 1777824589.203,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

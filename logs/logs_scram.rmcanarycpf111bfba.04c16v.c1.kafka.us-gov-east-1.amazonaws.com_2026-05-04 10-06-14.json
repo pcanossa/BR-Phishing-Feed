@@ -1,0 +1,59 @@
+{
+  "dominio": "scram.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+  "marcas_encontradas": [
+    "gov",
+    "amazon"
+  ],
+  "timestamp": "05/04/26 10:06:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0ACBDE717A3C0FB364E4E41FE12850CE",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "11:3D:D3:C8:A0:F4:B2:AF:91:06:C6:26:5A:3E:C0:1A:D9:26:41:CE",
+      "sha1": "11:3D:D3:C8:A0:F4:B2:AF:91:06:C6:26:5A:3E:C0:1A:D9:26:41:CE",
+      "sha256": "53:C5:7F:FF:1F:B9:8B:67:FA:3C:78:95:68:9D:2F:A4:0D:4E:1C:7C:0E:F9:0E:42:DB:6D:69:5C:3B:44:D9:40",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "*.scram2.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "*.scram.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "*.tls.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "*.tls2.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "*.iam2.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "*.iam.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com, DNS:*.scram2.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com, DNS:*.scram.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com, DNS:*.tls.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com, DNS:*.tls2.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com, DNS:*.iam2.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com, DNS:*.iam.rmcanarycpf111bfba.04c16v.c1.kafka.us-gov-east-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:1d:84:d5:ae:7f:50:26:c5:b3:a6:25:2b:cc:fa:85:56:e1:18:0a:2e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 817618226,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=817618226&end=817618226",
+    "seen": 1777899973.391,
+    "submission_timestamp": 1777823523.596,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "mapphgr8bmpbi.mrap.accesspoint.s3-global.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 10:29:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mapphgr8bmpbi.mrap.accesspoint.s3-global.amazonaws.com",
+        "aggregated": "/CN=mapphgr8bmpbi.mrap.accesspoint.s3-global.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "03B873A0F0BCEFC5861A7E8EABE011BB",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "14:90:98:95:25:35:35:BE:12:C6:37:3A:A4:F8:71:8A:31:01:24:93",
+      "sha1": "14:90:98:95:25:35:35:BE:12:C6:37:3A:A4:F8:71:8A:31:01:24:93",
+      "sha256": "80:DA:3E:EE:F6:5A:A9:69:CC:EE:53:14:85:47:41:0D:F1:61:13:64:E9:06:A2:9C:C0:50:64:A3:3B:CF:DF:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mapphgr8bmpbi.mrap.accesspoint.s3-global.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mapphgr8bmpbi.mrap.accesspoint.s3-global.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:a5:ee:19:83:44:57:32:a5:47:cd:ba:29:7f:21:b3:43:bf:ec:bc:97",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4052973480,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4052973480&end=4052973480",
+    "seen": 1777901363.586,
+    "submission_timestamp": 1777896822.044,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

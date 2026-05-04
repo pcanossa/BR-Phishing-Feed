@@ -9,7 +9,7 @@ import re
 from zmq import has
 
 MARCAS_CURTAS = [
-    'oi', 'tim', 'sus', 'gov', 'b3', 'pix', 'cpf', 'neon', 'next', 
+    'oi', 'tim', 'gov', 'b3', 'pix', 'cpf', 'neon', 'next', 
     'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
 ]
 
