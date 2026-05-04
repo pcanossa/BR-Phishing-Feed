@@ -1,0 +1,53 @@
+{
+  "dominio": "my-next-app-681.pages.dev",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 16:04:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-next-app-681.pages.dev",
+        "aggregated": "/CN=my-next-app-681.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C1F2EDC7F40A8879131E135DCB31697C",
+      "not_before": 1777822984,
+      "not_after": 1785602442,
+      "fingerprint": "C6:CC:83:F3:04:2B:FF:E8:FE:5F:7F:3F:2B:E8:09:8E:5F:24:8B:85",
+      "sha1": "C6:CC:83:F3:04:2B:FF:E8:FE:5F:7F:3F:2B:E8:09:8E:5F:24:8B:85",
+      "sha256": "3E:D6:97:CE:F0:F0:32:08:19:67:F7:4F:D0:73:11:3D:DF:B9:C1:2C:59:65:69:5A:D3:CD:0F:D1:1C:82:9A:B7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "my-next-app-681.pages.dev",
+        "*.my-next-app-681.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/wfI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:my-next-app-681.pages.dev, DNS:*.my-next-app-681.pages.dev",
+        "subjectKeyIdentifier": "keyid:b7:a9:e2:4a:1c:38:1c:17:f7:71:e9:99:56:13:64:1d:57:30:63:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 675920515,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675920515&end=675920515",
+    "seen": 1777921495.902,
+    "submission_timestamp": 1777826584.978,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

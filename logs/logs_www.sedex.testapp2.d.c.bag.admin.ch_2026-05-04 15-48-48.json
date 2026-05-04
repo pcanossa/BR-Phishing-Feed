@@ -1,0 +1,53 @@
+{
+  "dominio": "www.sedex.testapp2.d.c.bag.admin.ch",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/04/26 15:48:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sedex.testapp2.d.c.bag.admin.ch",
+        "aggregated": "/CN=sedex.testapp2.d.c.bag.admin.ch"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "069F22E747629BA3F1C551E5CC87868526BD",
+      "not_before": 1777878088,
+      "not_after": 1785654087,
+      "fingerprint": "39:08:5B:11:99:19:1E:FE:B6:DF:85:60:B2:DF:44:36:52:7F:8D:68",
+      "sha1": "39:08:5B:11:99:19:1E:FE:B6:DF:85:60:B2:DF:44:36:52:7F:8D:68",
+      "sha256": "23:0E:E6:44:DA:02:27:C4:B6:FE:99:CF:03:AB:7E:FE:B7:90:8D:86:40:4E:26:71:93:6C:EF:9C:9A:AF:7A:80",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sedex.testapp2.d.c.bag.admin.ch",
+        "www.sedex.testapp2.d.c.bag.admin.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sedex.testapp2.d.c.bag.admin.ch, DNS:www.sedex.testapp2.d.c.bag.admin.ch",
+        "subjectKeyIdentifier": "keyid:85:83:0b:31:a5:50:0a:ee:08:7d:83:aa:4e:9b:22:2d:ab:01:e0:cb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 554116234,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=554116234&end=554116234",
+    "seen": 1777920527.107,
+    "submission_timestamp": 1777881599.137,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

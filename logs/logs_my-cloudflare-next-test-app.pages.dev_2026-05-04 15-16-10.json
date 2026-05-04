@@ -1,0 +1,53 @@
+{
+  "dominio": "my-cloudflare-next-test-app.pages.dev",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 15:16:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-cloudflare-next-test-app.pages.dev",
+        "aggregated": "/CN=my-cloudflare-next-test-app.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B75B2C5ACE84929911222540BF56E5A1",
+      "not_before": 1777865515,
+      "not_after": 1785645102,
+      "fingerprint": "1A:73:4C:1D:8F:25:4F:2A:B6:14:6F:6E:31:71:6E:5B:82:4C:CE:D2",
+      "sha1": "1A:73:4C:1D:8F:25:4F:2A:B6:14:6F:6E:31:71:6E:5B:82:4C:CE:D2",
+      "sha256": "9A:C6:96:57:7B:B1:A0:06:1C:6D:DF:CD:C6:9C:A9:67:44:F0:6E:2C:1B:F7:1F:69:97:A1:0F:AC:82:3F:C1:5B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "my-cloudflare-next-test-app.pages.dev",
+        "*.my-cloudflare-next-test-app.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/t1s, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:my-cloudflare-next-test-app.pages.dev, DNS:*.my-cloudflare-next-test-app.pages.dev",
+        "subjectKeyIdentifier": "keyid:23:53:06:6e:0b:5f:78:fc:82:48:b1:6a:1c:01:c5:a0:70:54:5d:f5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 579484832,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=579484832&end=579484832",
+    "seen": 1777918569.44,
+    "submission_timestamp": 1777869115.9,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

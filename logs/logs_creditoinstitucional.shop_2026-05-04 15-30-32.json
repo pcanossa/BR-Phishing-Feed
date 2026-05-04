@@ -1,0 +1,53 @@
+{
+  "dominio": "creditoinstitucional.shop",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 15:30:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoinstitucional.shop",
+        "aggregated": "/CN=creditoinstitucional.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C62CC4ECC9B5E4FD138A1E3BDB77B63E",
+      "not_before": 1777911004,
+      "not_after": 1785690471,
+      "fingerprint": "24:E0:C9:92:4A:EB:0A:05:B8:0B:05:F3:F6:82:ED:1E:DD:D4:9C:E3",
+      "sha1": "24:E0:C9:92:4A:EB:0A:05:B8:0B:05:F3:F6:82:ED:1E:DD:D4:9C:E3",
+      "sha256": "CE:6A:03:43:BE:E7:32:6A:1B:C2:17:9C:11:85:80:26:46:46:1E:40:86:C4:60:3A:0F:21:3A:1D:28:FF:69:24",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditoinstitucional.shop",
+        "*.creditoinstitucional.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/xiw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditoinstitucional.shop, DNS:*.creditoinstitucional.shop",
+        "subjectKeyIdentifier": "keyid:13:08:ba:5e:6a:16:fa:70:38:41:82:49:9b:ad:d5:9b:77:02:00:f1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4057161702,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4057161702&end=4057161702",
+    "seen": 1777919430.333,
+    "submission_timestamp": 1777914604.936,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "qa-cms.credito.co.uk",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 15:08:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "qa-cms.credito.co.uk",
+        "aggregated": "/CN=qa-cms.credito.co.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "617C3AD76AC8CE9B0EBB93466C9B6286",
+      "not_before": 1777909739,
+      "not_after": 1785689338,
+      "fingerprint": "5F:97:D2:9E:34:81:98:6C:11:14:C9:CD:B2:63:4C:06:5A:32:93:E7",
+      "sha1": "5F:97:D2:9E:34:81:98:6C:11:14:C9:CD:B2:63:4C:06:5A:32:93:E7",
+      "sha256": "E1:BA:40:BA:E4:01:94:07:3E:E0:CB:D9:D3:65:83:90:31:49:52:A2:6A:F5:80:46:18:AE:D6:E7:B9:0F:51:15",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "qa-cms.credito.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/YXw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:qa-cms.credito.co.uk",
+        "subjectKeyIdentifier": "keyid:28:c7:44:33:42:26:2d:a2:d7:b1:a5:81:c6:13:48:da:da:e1:60:39"
+      }
+    },
+    "cert_index": 4056861736,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4056861736&end=4056861736",
+    "seen": 1777918092.816,
+    "submission_timestamp": 1777913400.683,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

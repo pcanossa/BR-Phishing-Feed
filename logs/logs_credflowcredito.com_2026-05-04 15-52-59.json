@@ -1,0 +1,52 @@
+{
+  "dominio": "credflowcredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 15:52:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "credflowcredito.com",
+        "aggregated": "/CN=credflowcredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "054C6607EF1DB4B25CD79ACD0E3635ACE210",
+      "not_before": 1777912356,
+      "not_after": 1785688355,
+      "fingerprint": "7A:90:1D:D9:9B:5D:62:B1:3B:9D:A6:69:90:8D:AB:12:15:DF:FF:BE",
+      "sha1": "7A:90:1D:D9:9B:5D:62:B1:3B:9D:A6:69:90:8D:AB:12:15:DF:FF:BE",
+      "sha256": "CD:6C:75:CE:B8:BC:2B:F2:78:C0:9C:C8:8B:F5:35:3B:E4:6B:CF:9D:B3:A1:B2:1E:AB:6B:D1:B1:FD:A1:D2:61",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "credflowcredito.com",
+        "www.credflowcredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:credflowcredito.com, DNS:www.credflowcredito.com",
+        "subjectKeyIdentifier": "keyid:0d:a4:93:21:04:e8:9d:eb:52:bd:ad:45:49:b2:1f:db:22:9b:22:16"
+      }
+    },
+    "cert_index": 4057484022,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4057484022&end=4057484022",
+    "seen": 1777920779.225,
+    "submission_timestamp": 1777915980.97,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

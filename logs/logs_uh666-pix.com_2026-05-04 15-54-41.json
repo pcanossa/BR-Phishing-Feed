@@ -1,0 +1,53 @@
+{
+  "dominio": "uh666-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 15:54:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uh666-pix.com",
+        "aggregated": "/CN=uh666-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "555A092EE8FCA176119EA35D519CF4A1",
+      "not_before": 1777821977,
+      "not_after": 1785601430,
+      "fingerprint": "15:22:6E:66:74:13:7C:78:C5:96:5B:93:FB:A6:31:55:13:43:C8:66",
+      "sha1": "15:22:6E:66:74:13:7C:78:C5:96:5B:93:FB:A6:31:55:13:43:C8:66",
+      "sha256": "C1:4D:B1:03:73:FF:82:35:F3:E6:2D:4E:5E:0E:62:90:88:45:A0:FE:19:D1:33:6F:71:E8:77:A9:F7:9E:9C:71",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "uh666-pix.com",
+        "*.uh666-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/VVo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:uh666-pix.com, DNS:*.uh666-pix.com",
+        "subjectKeyIdentifier": "keyid:89:f5:8b:ff:28:48:b0:c0:de:eb:19:d9:3d:e0:e6:98:a1:c9:36:c0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 817999182,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=817999182&end=817999182",
+    "seen": 1777920880.505,
+    "submission_timestamp": 1777825578.441,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

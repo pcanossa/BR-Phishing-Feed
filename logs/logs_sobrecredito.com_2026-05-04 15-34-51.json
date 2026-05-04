@@ -1,0 +1,52 @@
+{
+  "dominio": "sobrecredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 15:34:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sobrecredito.com",
+        "aggregated": "/CN=*.sobrecredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0664B63E82DD0DEA26A813FFADA83AF85312",
+      "not_before": 1777911336,
+      "not_after": 1785687335,
+      "fingerprint": "5F:0F:70:3A:98:18:B5:69:64:1A:F9:1F:84:93:6B:97:23:93:D6:31",
+      "sha1": "5F:0F:70:3A:98:18:B5:69:64:1A:F9:1F:84:93:6B:97:23:93:D6:31",
+      "sha256": "E9:EB:E0:A2:61:DB:59:5F:13:12:EB:7E:0D:9B:25:28:1D:FE:A4:41:30:B6:09:A8:5B:1D:A6:5F:A0:97:BB:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sobrecredito.com",
+        "sobrecredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sobrecredito.com, DNS:sobrecredito.com",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4057218490,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4057218490&end=4057218490",
+    "seen": 1777919690.895,
+    "submission_timestamp": 1777914849.867,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

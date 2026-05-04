@@ -1,0 +1,52 @@
+{
+  "dominio": "app.livrocaixa.net",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/04/26 15:24:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.livrocaixa.net",
+        "aggregated": "/CN=app.livrocaixa.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05EC1F723FDBD8D882A42A513909A81DC101",
+      "not_before": 1777877186,
+      "not_after": 1785653185,
+      "fingerprint": "30:9E:31:DB:F0:B7:E7:85:39:99:E2:5C:13:75:FC:B4:35:A6:2E:8C",
+      "sha1": "30:9E:31:DB:F0:B7:E7:85:39:99:E2:5C:13:75:FC:B4:35:A6:2E:8C",
+      "sha256": "FE:B0:27:33:AA:92:91:DD:CD:35:2D:37:A9:2D:FB:D1:6A:70:0F:89:9E:9C:C1:92:91:2F:3E:6E:15:7A:51:26",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.livrocaixa.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.livrocaixa.net",
+        "subjectKeyIdentifier": "keyid:c3:22:f5:ba:cc:f6:ab:63:df:54:a2:b8:3b:ba:3b:cf:03:9c:6b:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 554015698,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=554015698&end=554015698",
+    "seen": 1777919096.81,
+    "submission_timestamp": 1777880696.383,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

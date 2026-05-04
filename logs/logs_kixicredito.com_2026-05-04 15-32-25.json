@@ -1,0 +1,53 @@
+{
+  "dominio": "kixicredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 15:32:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.kixicredito.com",
+        "aggregated": "/CN=*.kixicredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06F05D3472CD53E875A45AB520543F5A6038",
+      "not_before": 1777822876,
+      "not_after": 1785598875,
+      "fingerprint": "9F:E2:1C:6E:9C:F4:AA:74:65:76:C0:71:69:FC:68:96:47:26:13:56",
+      "sha1": "9F:E2:1C:6E:9C:F4:AA:74:65:76:C0:71:69:FC:68:96:47:26:13:56",
+      "sha256": "0C:F3:E4:D5:72:39:35:9D:5F:34:6B:DD:84:0E:B1:FD:31:B9:69:8B:77:A7:CA:7F:C2:B0:91:F8:79:B1:EF:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.kixicredito.com",
+        "kixicredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.kixicredito.com, DNS:kixicredito.com",
+        "subjectKeyIdentifier": "keyid:02:e7:4b:ef:31:51:7a:ea:bd:da:95:ef:1d:36:b9:96:7d:e9:9e:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 675887914,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675887914&end=675887914",
+    "seen": 1777919544.129,
+    "submission_timestamp": 1777826386.759,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

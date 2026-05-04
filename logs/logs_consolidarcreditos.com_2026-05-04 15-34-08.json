@@ -1,0 +1,52 @@
+{
+  "dominio": "consolidarcreditos.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 15:34:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "consolidarcreditos.com",
+        "aggregated": "/CN=consolidarcreditos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06BF7A87E94DAC8C18ABC759AE3E0BFE77CE",
+      "not_before": 1777911299,
+      "not_after": 1785687298,
+      "fingerprint": "47:86:DF:8F:E6:E6:33:28:DD:17:A4:77:5C:4B:0B:3D:77:27:BF:2E",
+      "sha1": "47:86:DF:8F:E6:E6:33:28:DD:17:A4:77:5C:4B:0B:3D:77:27:BF:2E",
+      "sha256": "BB:EA:40:85:48:B6:F3:68:DB:5C:92:5B:12:9C:DD:5B:4C:6B:7E:60:B3:06:67:88:D7:63:BF:6D:08:3A:87:5E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "consolidarcreditos.com",
+        "*.consolidarcreditos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.consolidarcreditos.com, DNS:consolidarcreditos.com",
+        "subjectKeyIdentifier": "keyid:b4:ad:ea:a7:ac:fd:31:a0:66:6e:9b:c2:ca:13:cb:12:cc:be:22:a3"
+      }
+    },
+    "cert_index": 4057209386,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4057209386&end=4057209386",
+    "seen": 1777919646.575,
+    "submission_timestamp": 1777914812.303,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
