@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.ddd27.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/03/26 23:25:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao.ddd27.com.br",
+        "aggregated": "/CN=www.cartao.ddd27.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "057CEBA6546D09FAB98B03419D649DE352C8",
+      "not_before": 1777815757,
+      "not_after": 1785591756,
+      "fingerprint": "59:FD:55:AD:97:D1:3D:CB:B4:75:E2:DA:E2:8F:60:F4:F4:9E:13:23",
+      "sha1": "59:FD:55:AD:97:D1:3D:CB:B4:75:E2:DA:E2:8F:60:F4:F4:9E:13:23",
+      "sha256": "91:69:81:3D:00:43:17:11:30:E1:51:65:F3:02:49:65:05:44:71:54:8E:07:2B:4F:C5:BD:B0:A6:BF:8E:49:1F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao.ddd27.com.br",
+        "cartao.ddd27.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.ddd27.com.br, DNS:www.cartao.ddd27.com.br",
+        "subjectKeyIdentifier": "keyid:55:bd:22:a8:3d:14:5c:3a:03:c3:71:6e:75:59:6a:bb:03:8c:71:9f"
+      }
+    },
+    "cert_index": 816915353,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=816915353&end=816915353",
+    "seen": 1777861530.656,
+    "submission_timestamp": 1777819268.377,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

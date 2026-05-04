@@ -1,0 +1,51 @@
+{
+  "dominio": "login.delaware.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 00:04:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.delaware.gov",
+        "aggregated": "/CN=login.delaware.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05375D828CA98736AAFD5248A8BB1EC56E94",
+      "not_before": 1777156416,
+      "not_after": 1784932415,
+      "fingerprint": "63:51:10:5D:93:97:AD:81:A7:6D:13:93:AD:E1:59:BB:B3:B3:D9:61",
+      "sha1": "63:51:10:5D:93:97:AD:81:A7:6D:13:93:AD:E1:59:BB:B3:B3:D9:61",
+      "sha256": "38:EF:DB:F5:BE:0D:73:DD:EA:24:A5:78:B9:82:EA:DE:7B:95:CF:88:9F:6E:0C:8A:72:43:3C:66:2C:DC:EE:12",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "login.delaware.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.delaware.gov",
+        "subjectKeyIdentifier": "keyid:93:03:6f:2f:e2:59:04:58:4e:ea:0c:36:11:9a:50:51:f8:df:81:17"
+      }
+    },
+    "cert_index": 576292637,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=576292637&end=576292637",
+    "seen": 1777863898.73,
+    "submission_timestamp": 1777840975.783,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

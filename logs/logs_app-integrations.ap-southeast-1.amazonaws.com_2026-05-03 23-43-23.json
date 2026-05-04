@@ -1,0 +1,51 @@
+{
+  "dominio": "app-integrations.ap-southeast-1.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/03/26 23:43:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-integrations.ap-southeast-1.amazonaws.com",
+        "aggregated": "/CN=app-integrations.ap-southeast-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A6FE6EB878484AD265485F83BBFF0CE",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "C8:54:45:BC:D8:40:4C:9C:59:3E:61:73:13:8C:22:0A:8D:F8:09:78",
+      "sha1": "C8:54:45:BC:D8:40:4C:9C:59:3E:61:73:13:8C:22:0A:8D:F8:09:78",
+      "sha256": "71:D0:80:1B:DC:DB:7C:A8:4F:CA:D3:35:DC:1B:6F:3C:0B:67:10:2A:5C:3E:82:AD:4F:DB:8E:50:30:BD:B6:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-integrations.ap-southeast-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-integrations.ap-southeast-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:d0:0c:fe:a3:a6:af:dd:93:c9:6b:46:89:d5:5e:4a:59:52:fe:a5:94"
+      }
+    },
+    "cert_index": 4043692281,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4043692281&end=4043692281",
+    "seen": 1777862602.363,
+    "submission_timestamp": 1777858464.653,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

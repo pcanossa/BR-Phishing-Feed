@@ -1,0 +1,52 @@
+{
+  "dominio": "credito-server.nave.dev.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 23:18:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "credito-server.nave.dev.br",
+        "aggregated": "/CN=credito-server.nave.dev.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06C24CD3CFB341FCFB7714F980AABF30A604",
+      "not_before": 1777853374,
+      "not_after": 1785629373,
+      "fingerprint": "01:DB:7B:5E:A0:00:31:42:C4:15:29:ED:FF:B2:CD:CD:82:33:4C:4B",
+      "sha1": "01:DB:7B:5E:A0:00:31:42:C4:15:29:ED:FF:B2:CD:CD:82:33:4C:4B",
+      "sha256": "10:50:C5:46:BE:1B:FF:49:76:0E:60:60:D5:0B:28:AA:09:44:47:3E:A8:5D:90:3D:70:13:C3:95:9C:42:CE:BF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "credito-server.nave.dev.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:credito-server.nave.dev.br",
+        "subjectKeyIdentifier": "keyid:cc:0e:10:da:45:85:9a:c4:5a:4f:50:8c:99:23:b6:42:c5:01:f9:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4043299253,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4043299253&end=4043299253",
+    "seen": 1777861129.556,
+    "submission_timestamp": 1777856884.578,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

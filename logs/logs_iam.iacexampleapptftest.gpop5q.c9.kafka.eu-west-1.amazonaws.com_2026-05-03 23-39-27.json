@@ -1,0 +1,58 @@
+{
+  "dominio": "iam.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/03/26 23:39:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "aggregated": "/CN=*.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "02FB6BB4CA0D8258FC548F97A1F60982",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "34:3C:4D:5A:11:A1:57:68:03:31:DE:D0:DF:1F:A0:3B:8F:48:C0:E0",
+      "sha1": "34:3C:4D:5A:11:A1:57:68:03:31:DE:D0:DF:1F:A0:3B:8F:48:C0:E0",
+      "sha256": "3C:14:D4:99:C9:1E:37:78:29:A8:15:50:25:14:E3:94:40:9A:2A:A6:66:C2:9A:40:0E:23:F4:65:64:18:5F:F0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "*.scram.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "*.iam2.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "*.tls2.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "*.scram2.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "*.tls.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "*.iam.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com, DNS:*.scram.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com, DNS:*.iam2.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com, DNS:*.tls2.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com, DNS:*.scram2.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com, DNS:*.tls.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com, DNS:*.iam.iacexampleapptftest.gpop5q.c9.kafka.eu-west-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:d2:f1:2b:d3:f5:97:7a:3e:1b:ed:94:85:07:54:43:9b:0a:db:d5:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 550126493,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=550126493&end=550126493",
+    "seen": 1777862367.891,
+    "submission_timestamp": 1777848009.928,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

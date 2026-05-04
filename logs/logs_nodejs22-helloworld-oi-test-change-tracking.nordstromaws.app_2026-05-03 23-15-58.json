@@ -1,0 +1,55 @@
+{
+  "dominio": "nodejs22-helloworld-oi-test-change-tracking.nordstromaws.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/03/26 23:15:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "nodejs22-helloworld-oi-test-change-tracking.nordstromaws.app",
+        "O": "Nordstrom, Inc.",
+        "ST": "Washington",
+        "aggregated": "/C=US/CN=nodejs22-helloworld-oi-test-change-tracking.nordstromaws.app/O=Nordstrom, Inc./ST=Washington"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "228015FA6E9CEB9AC8C4A4F5BD7391D1",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "69:BC:36:E2:23:09:FF:24:7E:89:9F:6A:66:50:34:6E:85:F9:46:A6",
+      "sha1": "69:BC:36:E2:23:09:FF:24:7E:89:9F:6A:66:50:34:6E:85:F9:46:A6",
+      "sha256": "22:07:AE:40:C7:B1:CD:14:9F:EA:FF:F0:EF:66:53:31:80:C8:D9:41:7C:B2:57:2C:FD:2E:33:F6:0A:A2:D1:6F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nodejs22-helloworld-oi-test-change-tracking.nordstromaws.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nodejs22-helloworld-oi-test-change-tracking.nordstromaws.app",
+        "subjectKeyIdentifier": "keyid:0b:3d:47:e4:3a:a8:7a:15:de:76:f7:09:8c:7d:20:23:99:6a:c6:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4043252074,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4043252074&end=4043252074",
+    "seen": 1777860956.914,
+    "submission_timestamp": 1777856680.873,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

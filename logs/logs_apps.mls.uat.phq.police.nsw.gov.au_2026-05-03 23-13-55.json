@@ -1,0 +1,56 @@
+{
+  "dominio": "apps.mls.uat.phq.police.nsw.gov.au",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/03/26 23:13:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "AU",
+        "CN": "api-external.mls.uat.police.nsw.gov.au",
+        "L": "Parramatta",
+        "O": "NSW Police Force",
+        "ST": "New South Wales",
+        "aggregated": "/C=AU/CN=api-external.mls.uat.police.nsw.gov.au/L=Parramatta/O=NSW Police Force/ST=New South Wales"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0E2E764EA23211028458FF324E7DCAE9",
+      "not_before": 1777852800,
+      "not_after": 1795046399,
+      "fingerprint": "D5:39:87:4D:26:95:84:13:30:54:86:16:DD:44:1B:8B:D3:78:8C:26",
+      "sha1": "D5:39:87:4D:26:95:84:13:30:54:86:16:DD:44:1B:8B:D3:78:8C:26",
+      "sha256": "97:7A:91:15:5F:3C:85:1A:C4:55:F6:D8:0E:DF:78:2F:99:41:D0:A0:02:CD:2D:5A:A8:15:75:82:65:A6:08:CD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-external.mls.uat.police.nsw.gov.au",
+        "apps.mls.uat.phq.police.nsw.gov.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-external.mls.uat.police.nsw.gov.au, DNS:apps.mls.uat.phq.police.nsw.gov.au",
+        "subjectKeyIdentifier": "keyid:23:cd:fa:57:8b:c0:ae:01:e9:e4:0b:55:d4:0b:d1:39:de:fc:77:33"
+      }
+    },
+    "cert_index": 166328949,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x649/722",
+    "seen": 1777860836.046,
+    "submission_timestamp": 1777860833.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "neon.0345.app",
+  "marcas_encontradas": [
+    "neon"
+  ],
+  "timestamp": "05/03/26 23:29:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "neon.0345.app",
+        "aggregated": "/CN=neon.0345.app"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "AA2E54FC50657402DF981593A0A7B6B8",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "4E:19:22:8E:7E:07:4E:41:C9:37:54:4E:89:8A:C9:DF:0C:97:76:3A",
+      "sha1": "4E:19:22:8E:7E:07:4E:41:C9:37:54:4E:89:8A:C9:DF:0C:97:76:3A",
+      "sha256": "F2:EA:B2:76:6B:61:91:D9:C0:FA:25:88:0F:9D:BA:14:32:6C:1C:A3:1E:DF:0E:4F:8A:E1:06:0C:3B:C2:45:E4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "neon.0345.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:neon.0345.app",
+        "subjectKeyIdentifier": "keyid:1f:01:ea:0f:d9:a2:4b:38:62:0a:d8:a7:7d:ef:c3:24:ee:a4:29:a5"
+      }
+    },
+    "cert_index": 4043470093,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4043470093&end=4043470093",
+    "seen": 1777861786.371,
+    "submission_timestamp": 1777857569.829,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

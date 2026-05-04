@@ -1,0 +1,55 @@
+{
+  "dominio": "api.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/03/26 23:43:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+        "aggregated": "/CN=in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B2EEE59A380DC4352EB82C025053986",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "CB:DC:4C:87:5A:6E:9D:9F:7E:3B:44:79:AD:74:89:4E:33:3E:57:BC",
+      "sha1": "CB:DC:4C:87:5A:6E:9D:9F:7E:3B:44:79:AD:74:89:4E:33:3E:57:BC",
+      "sha256": "31:CC:09:10:CB:A2:61:B9:E9:09:27:BA:E0:6C:81:3E:28:5F:3C:3D:36:A0:DD:18:76:8B:BC:33:32:E6:E3:9B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+        "api.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+        "alb.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+        "*.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+        "nlb.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app, DNS:api.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app, DNS:alb.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app, DNS:*.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app, DNS:nlb.in-t1-atlas.us-west-2.gamma.schengen.amazonoperations.app",
+        "subjectKeyIdentifier": "keyid:b1:9d:70:ce:61:22:cb:ee:f3:9e:0c:79:3f:d1:e8:68:87:ae:da:02"
+      }
+    },
+    "cert_index": 4043701621,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4043701621&end=4043701621",
+    "seen": 1777862632.696,
+    "submission_timestamp": 1777858505.329,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

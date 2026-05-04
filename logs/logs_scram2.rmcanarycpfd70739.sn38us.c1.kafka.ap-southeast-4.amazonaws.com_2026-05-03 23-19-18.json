@@ -1,0 +1,58 @@
+{
+  "dominio": "scram2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/03/26 23:19:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0395F13D2F1D579E4F49828DEC818254",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "C8:2D:F8:18:77:A5:2C:1A:0E:7D:AB:0A:88:18:07:02:1E:73:57:03",
+      "sha1": "C8:2D:F8:18:77:A5:2C:1A:0E:7D:AB:0A:88:18:07:02:1E:73:57:03",
+      "sha256": "18:C1:1B:F9:7A:00:5A:2E:77:CC:19:4B:E1:D2:A8:27:00:C7:0B:43:3E:58:77:B4:F1:05:52:AF:E8:37:8D:D4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "*.iam.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "*.tls.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "*.scram2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "*.scram.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "*.tls2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "*.iam2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com, DNS:*.iam.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com, DNS:*.tls.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com, DNS:*.scram2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com, DNS:*.scram.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com, DNS:*.tls2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com, DNS:*.iam2.rmcanarycpfd70739.sn38us.c1.kafka.ap-southeast-4.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:73:1a:8e:1b:4b:48:a9:5a:a5:32:89:eb:6e:58:9c:a1:10:eb:d3:b4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 576120053,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=576120053&end=576120053",
+    "seen": 1777861157.39,
+    "submission_timestamp": 1777839281.977,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

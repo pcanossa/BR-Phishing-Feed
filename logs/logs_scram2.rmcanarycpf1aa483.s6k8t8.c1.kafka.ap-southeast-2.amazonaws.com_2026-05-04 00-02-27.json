@@ -1,0 +1,57 @@
+{
+  "dominio": "scram2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 00:02:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "aggregated": "/CN=*.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "074DA14BE9CE111091129B8D86566219",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "1C:8A:58:78:F8:2F:49:40:6D:FB:89:AC:68:E4:2A:36:FF:F6:C2:60",
+      "sha1": "1C:8A:58:78:F8:2F:49:40:6D:FB:89:AC:68:E4:2A:36:FF:F6:C2:60",
+      "sha256": "E0:0D:27:F9:80:31:6E:FB:9C:68:D3:82:AD:31:58:96:EE:5D:FD:8B:D0:E1:F1:DF:61:1C:D3:67:82:C0:6D:A8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "*.tls2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "*.iam2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "*.scram.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "*.tls.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "*.iam.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "*.scram2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com, DNS:*.tls2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com, DNS:*.iam2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com, DNS:*.scram.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com, DNS:*.tls.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com, DNS:*.iam.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com, DNS:*.scram2.rmcanarycpf1aa483.s6k8t8.c1.kafka.ap-southeast-2.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:7e:fa:93:0d:c9:8c:9e:3a:2d:36:a6:77:85:f1:fb:b2:30:99:6e:b8"
+      }
+    },
+    "cert_index": 166450513,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x650/197",
+    "seen": 1777863746.495,
+    "submission_timestamp": 1777863743.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
