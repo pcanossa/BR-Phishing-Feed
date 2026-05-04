@@ -1,0 +1,51 @@
+{
+  "dominio": "logisticsbg-sus-test.medoma.com",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/04/26 07:04:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "logisticsbg-sus-test.medoma.com",
+        "aggregated": "/CN=logisticsbg-sus-test.medoma.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05D642CB97EC60039C7DAE98D89E004762B8",
+      "not_before": 1777881073,
+      "not_after": 1785657072,
+      "fingerprint": "C4:97:E1:7D:78:15:55:21:D7:FA:F0:4F:31:68:85:93:8C:C1:74:57",
+      "sha1": "C4:97:E1:7D:78:15:55:21:D7:FA:F0:4F:31:68:85:93:8C:C1:74:57",
+      "sha256": "91:88:A8:6F:62:66:C2:F8:B5:8E:85:2C:8F:DE:29:6B:CC:6A:F2:2E:8F:BB:2B:F0:37:43:16:13:19:1F:63:EF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "logisticsbg-sus-test.medoma.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:logisticsbg-sus-test.medoma.com",
+        "subjectKeyIdentifier": "keyid:b3:df:e3:d5:52:6f:ab:32:b4:3b:5f:16:b2:07:3f:10:49:51:e3:5b"
+      }
+    },
+    "cert_index": 4050047758,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050047758&end=4050047758",
+    "seen": 1777889051.904,
+    "submission_timestamp": 1777884586.163,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

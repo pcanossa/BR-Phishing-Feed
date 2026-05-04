@@ -1,0 +1,53 @@
+{
+  "dominio": "ci.bmocreditorinsurancediscoverytool.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 06:46:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01CFEE415BB4F0190B09A35B4DA585D1",
+      "not_before": 1777883597,
+      "not_after": 1777969964,
+      "fingerprint": "96:C4:2B:16:E0:A5:81:15:39:4B:48:57:FD:4D:CE:19:97:0F:D5:E6",
+      "sha1": "96:C4:2B:16:E0:A5:81:15:39:4B:48:57:FD:4D:CE:19:97:0F:D5:E6",
+      "sha256": "90:87:68:9E:18:5C:64:85:6E:36:48:9C:E1:F4:B4:C5:78:86:1A:3E:E2:22:11:45:57:AD:D0:17:7F:9B:1F:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "ci.bmocreditorinsurancediscoverytool.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ci.bmocreditorinsurancediscoverytool.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:93:5e:5a:47:b4:38:48:ea:d1:53:1a:10:97:5f:2b:a0:b2:fd:6c:27",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4049808488,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4049808488&end=4049808488",
+    "seen": 1777888014.442,
+    "submission_timestamp": 1777883600.024,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

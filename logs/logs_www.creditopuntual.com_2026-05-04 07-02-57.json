@@ -1,0 +1,53 @@
+{
+  "dominio": "www.creditopuntual.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 07:02:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditopuntual.com",
+        "aggregated": "/CN=www.creditopuntual.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0672E4F5770C4E3DE9D50C94AA215C7E05B2",
+      "not_before": 1777881008,
+      "not_after": 1785657007,
+      "fingerprint": "55:ED:4C:81:B3:F8:FE:31:15:C3:F7:29:6D:71:AD:D6:FE:EB:91:F8",
+      "sha1": "55:ED:4C:81:B3:F8:FE:31:15:C3:F7:29:6D:71:AD:D6:FE:EB:91:F8",
+      "sha256": "E5:A9:A6:D9:28:CA:09:73:BE:AE:26:E3:2E:71:C5:5D:73:1B:84:DC:D0:F7:82:4F:F4:DA:CF:B7:DE:79:18:78",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditopuntual.com",
+        "creditopuntual.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditopuntual.com, DNS:www.creditopuntual.com",
+        "subjectKeyIdentifier": "keyid:29:78:52:e9:b9:18:b2:7e:25:f3:0d:20:62:f6:bf:3f:75:18:36:e6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4050028419,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4050028419&end=4050028419",
+    "seen": 1777888976.075,
+    "submission_timestamp": 1777884518.343,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.wfsc-gov.com",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 06:06:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.wfsc-gov.com",
+        "aggregated": "/CN=app.wfsc-gov.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0F0657D7269FDA80CD0BA45B1AC6594B",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "8A:B9:7B:B0:AB:C1:35:A0:F5:02:39:35:DC:32:86:D0:74:36:FF:16",
+      "sha1": "8A:B9:7B:B0:AB:C1:35:A0:F5:02:39:35:DC:32:86:D0:74:36:FF:16",
+      "sha256": "72:D9:A7:C9:14:2D:BA:2F:D6:6D:39:C6:AB:AB:67:F9:9F:E3:4B:02:13:1F:68:C3:43:4D:87:34:35:99:E6:7F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.wfsc-gov.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.wfsc-gov.com",
+        "subjectKeyIdentifier": "keyid:5f:c7:b3:f5:0e:74:bc:33:24:a6:1b:1b:f8:3b:3c:4f:e3:46:52:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4049223823,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4049223823&end=4049223823",
+    "seen": 1777885584.808,
+    "submission_timestamp": 1777881140.383,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "skynet.na.integ.aftx.amazonoperations.app",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 06:24:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "skynet.na.integ.aftx.amazonoperations.app",
+        "aggregated": "/CN=skynet.na.integ.aftx.amazonoperations.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0378AF6A1CAD3C978D2498E49CDAB728",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "BE:C3:ED:12:B9:86:CF:E0:F1:94:49:A3:B2:23:05:0F:AC:37:F8:A1",
+      "sha1": "BE:C3:ED:12:B9:86:CF:E0:F1:94:49:A3:B2:23:05:0F:AC:37:F8:A1",
+      "sha256": "55:58:71:14:F4:CD:5C:1C:44:85:64:20:40:60:49:B9:9C:7D:AE:56:F8:20:48:EE:8C:C4:7F:75:D9:22:0B:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "skynet.na.integ.aftx.amazonoperations.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:skynet.na.integ.aftx.amazonoperations.app",
+        "subjectKeyIdentifier": "keyid:bd:55:87:c0:89:b7:f1:61:bd:1e:59:b7:9f:0a:d9:09:0b:1e:0d:d6"
+      }
+    },
+    "cert_index": 167126400,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x652/837",
+    "seen": 1777886665.499,
+    "submission_timestamp": 1777886663.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
