@@ -24,6 +24,8 @@ O grande desafio da detecção baseada em palavras-chave é o alto índice de **
 Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar um relatório em JSON documentando o raciocínio forense que a levou a classificar o domínio como um **Real Positivo**. 
 
 **------------------IMPORTANTE: O FLUXO DE TRIAGEM CRIADA, NÃO EXCLUI A POSSIBILIDADE 0% DE OCORRÊNCIA DE FALSOS POSITIVOS------------------**
+
+
 **Exemplo de Saída Esperada do Pipeline de IA:**
 ```json
 {
@@ -41,6 +43,13 @@ Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar 
   }
 }
 ```
+---
+## 🚧 Known Issues (Versão 1.0)
+Como todo feed recém-lançado operando em cima de logs brutos, esta versão inicial possui pontos de melhoria que já estão mapeados para as próximas atualizações:
+
+* **Falsos Positivos:** O filtro de Regex e a triagem atual com IA ainda podem deixar vazar domínios ambíguos. O tuning das regras heurísticas está em andamento.
+* **Gargalo de API:** O volume de domínios em lote estourou limites de cota em testes com LLMs. A implementação de um sistema de filas (Queue/Worker) para processamento assíncrono está no roadmap da V1.1.
+  
 ---
 ## Criadora do Projeto
 * **Github:** pcanossa

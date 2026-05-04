@@ -1,0 +1,52 @@
+{
+  "dominio": "www.heycreditos.com.ar",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/03/26 21:07:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "heycreditos.com.ar",
+        "aggregated": "/CN=heycreditos.com.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06FC75A7FCFD2D9DB8BFF5F640CD2B735E70",
+      "not_before": 1777845537,
+      "not_after": 1785621536,
+      "fingerprint": "B9:9F:65:AB:78:76:97:7D:32:37:55:CF:3A:CD:72:DC:88:32:94:E5",
+      "sha1": "B9:9F:65:AB:78:76:97:7D:32:37:55:CF:3A:CD:72:DC:88:32:94:E5",
+      "sha256": "91:38:6A:C8:3D:F3:44:61:35:B6:16:9E:C9:3B:C3:B0:C9:8A:FF:9E:1A:E6:B0:95:93:C9:E5:68:48:D0:23:B0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "heycreditos.com.ar",
+        "www.heycreditos.com.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:heycreditos.com.ar, DNS:www.heycreditos.com.ar",
+        "subjectKeyIdentifier": "keyid:26:a1:aa:8c:89:90:9c:3b:66:ab:01:4d:e6:21:b5:9b:04:eb:6c:f6"
+      }
+    },
+    "cert_index": 4041581785,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4041581785&end=4041581785",
+    "seen": 1777853257.277,
+    "submission_timestamp": 1777849051.257,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

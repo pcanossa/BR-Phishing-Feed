@@ -1,0 +1,52 @@
+{
+  "dominio": "santander-uk-slz-dev.app.elastio.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/03/26 21:11:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-uk-slz-dev.app.elastio.com",
+        "aggregated": "/CN=santander-uk-slz-dev.app.elastio.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6A6F9DD4724C6D530D8D60DEB000175E",
+      "not_before": 1777838109,
+      "not_after": 1785617707,
+      "fingerprint": "21:FB:54:0D:11:00:51:95:B0:8D:00:14:79:C5:2B:51:44:D3:8E:3F",
+      "sha1": "21:FB:54:0D:11:00:51:95:B0:8D:00:14:79:C5:2B:51:44:D3:8E:3F",
+      "sha256": "56:82:4B:19:15:5F:71:C1:39:BB:BE:32:BD:4B:BC:E9:2C:23:59:1A:A4:BD:8F:47:46:8C:F5:FC:75:FA:13:72",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander-uk-slz-dev.app.elastio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/am8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander-uk-slz-dev.app.elastio.com",
+        "subjectKeyIdentifier": "keyid:21:e1:b1:0d:c0:1c:8c:8c:30:da:5d:89:8d:28:ab:45:63:8d:9b:23",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 549452566,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=549452566&end=549452566",
+    "seen": 1777853490.635,
+    "submission_timestamp": 1777841710.132,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

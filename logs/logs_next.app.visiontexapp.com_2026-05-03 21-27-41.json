@@ -1,0 +1,51 @@
+{
+  "dominio": "next.app.visiontexapp.com",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/03/26 21:27:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "next.app.visiontexapp.com",
+        "aggregated": "/CN=next.app.visiontexapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05B11D895CFAA568345B11D98F90859D18F5",
+      "not_before": 1777842822,
+      "not_after": 1785618821,
+      "fingerprint": "02:27:02:61:F1:7E:C7:FC:90:63:AE:A0:8D:7E:12:B4:DD:8B:9E:3D",
+      "sha1": "02:27:02:61:F1:7E:C7:FC:90:63:AE:A0:8D:7E:12:B4:DD:8B:9E:3D",
+      "sha256": "01:98:D4:0E:43:BB:7A:94:6D:82:23:F0:96:4F:61:5D:42:33:EF:15:31:BC:DC:90:53:0F:B4:11:0B:18:45:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "next.app.visiontexapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:next.app.visiontexapp.com",
+        "subjectKeyIdentifier": "keyid:c4:d4:7d:a2:07:21:84:40:20:ea:97:b5:aa:5c:1e:ff:ec:b1:68:e0"
+      }
+    },
+    "cert_index": 4041891553,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4041891553&end=4041891553",
+    "seen": 1777854462.253,
+    "submission_timestamp": 1777850673.383,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

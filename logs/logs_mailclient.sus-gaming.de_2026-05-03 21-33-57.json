@@ -1,0 +1,55 @@
+{
+  "dominio": "mailclient.sus-gaming.de",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/03/26 21:33:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "autoconfig.sus-gaming.de",
+        "aggregated": "/CN=autoconfig.sus-gaming.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "055B0F737E5AFC2812FB5BEC60C8B3515209",
+      "not_before": 1777847669,
+      "not_after": 1785623668,
+      "fingerprint": "30:DA:52:CD:57:C4:BB:44:36:BF:A7:70:B6:2A:B0:84:AC:71:97:6C",
+      "sha1": "30:DA:52:CD:57:C4:BB:44:36:BF:A7:70:B6:2A:B0:84:AC:71:97:6C",
+      "sha256": "C2:B3:65:22:58:89:B8:EC:32:CC:39:97:1C:54:3E:FD:5D:22:82:42:5E:8D:F8:CB:75:AA:AA:FB:06:FF:74:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "autoconfig.sus-gaming.de",
+        "autoconfig.wilgmann.de",
+        "autodiscover.wilgmann.de",
+        "mailclient.sus-gaming.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:autoconfig.sus-gaming.de, DNS:autoconfig.wilgmann.de, DNS:autodiscover.wilgmann.de, DNS:mailclient.sus-gaming.de",
+        "subjectKeyIdentifier": "keyid:e1:ae:9b:50:20:fb:7b:8a:f3:d4:18:e7:5b:5b:ad:db:bf:f5:57:53",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4041991970,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4041991970&end=4041991970",
+    "seen": 1777854836.865,
+    "submission_timestamp": 1777851179.688,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

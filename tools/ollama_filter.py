@@ -1,5 +1,6 @@
 import os
 import sys
+from time import time
 
 # Adiciona o diretório raiz do projeto ao path do Python para encontrar a pasta 'prompts'
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -41,12 +42,24 @@ def ollama_filter(dominio):
         return
 
     print(f"[+] Domínio '{dominio}' ainda não analisado. Gerando novo relatório...")
-    try:
-        full_response = ollama_engine(message=final_message)
-    except Exception as e:
-        print(f"\n\nErro ao comunicar com o modelo de IA: {e}")
-        sys.exit(1)
-
+    while True:
+        try:
+            # Tenta se comunicar com a IA
+            full_response = ollama_engine(message=final_message)
+            
+            # Se deu certo e não teve erro, o break quebra o 'while' e o código continua para o JSON lá embaixo
+            break 
+            
+        except Exception as e:
+            print(f"\n[!] Erro ao comunicar com o modelo de IA (Rate Limit/Timeout): {e}")
+            print(f"[*] A API bloqueou. Aguardando 5 minutos antes de tentar o domínio '{dominio}' novamente...")
+            
+            # Dorme por 5 minutos (300 segundos). O tempo todo que o script ficar parado aqui, 
+            # os novos domínios do CertStream continuam se acumulando com segurança na pasta /logs.
+            import time
+            time.sleep(300) 
+            
+            print("[*] Fim da pausa. Tentando reconectar...")
     try:
         # Extrai de forma segura o JSON do texto, caso o modelo inclua formatação Markdown ou texto extra
         json_str = full_response.strip()
@@ -93,6 +106,7 @@ while True:
                         data, pos = decoder.raw_decode(content, pos)
                         if 'dominio' in data:
                             ollama_filter(data['dominio'])
+                            time.sleep(5)
                     except json.JSONDecodeError as e:
                         print(f"[-] Erro ao decodificar pacote JSON no arquivo {file}: {e}")
                         break

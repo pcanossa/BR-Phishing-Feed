@@ -18,7 +18,7 @@ MARCAS_LONGAS = [
     'correios', 'caixa', 'nubank', 'itau', 'bancodobrasil', 'receita', 
     'bradesco', 'santander', 'mercadolivre', 'magalu', 'americanas', 
     'detran', 'serasa', 'sicoob', 'c6bank', 'pagseguro', 'picpay', 
-    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'credito', 'debito'
+    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'credito', 'debito', 'sedex', 'amazon', 'fazenda', 'irpf'
 ]
 
 # Iscas de Engenharia Social
@@ -37,8 +37,7 @@ WHITELIST = [
     'c6bank.com.br', 'neon.com.br', 'next.com.br', 'pagseguro.uol.com.br', 
     'picpay.com', 'stone.com.br', 'vivo.com.br', 'claro.com.br', 'tim.com.br', 
     'oi.com.br', 'netflix.com', 'spotify.com', 'uber.com', 'ifood.com.br', 
-    'bancopaulista.com.br', 'b3.com.br', 'pix.com.br'
-]
+    'bancopaulista.com.br', 'b3.com.br', 'pix.com.br', 'amazon.com.br', 'detran.sp.gov.br', 'loterias.caixa.gov.br', 'receita.fazenda.gov.br', 'bancodobrasil.com.br']
 
 def is_suspicious(domain):
     domain_lower = domain.lower()
