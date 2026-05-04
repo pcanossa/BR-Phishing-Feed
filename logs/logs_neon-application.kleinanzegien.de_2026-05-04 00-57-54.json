@@ -1,0 +1,53 @@
+{
+  "dominio": "neon-application.kleinanzegien.de",
+  "marcas_encontradas": [
+    "neon"
+  ],
+  "timestamp": "05/04/26 00:57:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "neon-application.kleinanzegien.de",
+        "aggregated": "/CN=neon-application.kleinanzegien.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0AC5BE235848C8B2B655F3E13DE4E621",
+      "not_before": 1777852800,
+      "not_after": 1795046399,
+      "fingerprint": "A0:BF:6F:8A:5B:99:0A:CB:62:71:0E:18:C9:13:CC:74:86:4F:E9:6A",
+      "sha1": "A0:BF:6F:8A:5B:99:0A:CB:62:71:0E:18:C9:13:CC:74:86:4F:E9:6A",
+      "sha256": "7F:BC:ED:F7:53:BC:E3:7B:C1:B7:69:3E:21:EB:40:91:F5:D1:AD:EE:8A:90:7E:1A:42:7D:F1:F9:ED:DE:F3:52",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "neon-application.kleinanzegien.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:neon-application.kleinanzegien.de",
+        "subjectKeyIdentifier": "keyid:cf:d4:20:38:98:fb:c2:2b:15:cb:97:f6:a1:c2:44:b3:85:44:c0:ed",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4044627921,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4044627921&end=4044627921",
+    "seen": 1777867073.417,
+    "submission_timestamp": 1777862550.044,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

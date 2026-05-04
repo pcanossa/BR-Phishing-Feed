@@ -1,0 +1,53 @@
+{
+  "dominio": "apps.ppdkintautara.gov.my",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 01:02:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.apps.ppdkintautara.gov.my",
+        "aggregated": "/CN=www.apps.ppdkintautara.gov.my"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E0C014EE502504144597042181D5C35174",
+      "not_before": 1777859415,
+      "not_after": 1785635414,
+      "fingerprint": "2A:24:53:C9:D1:57:F4:DA:1A:30:D6:59:6B:C6:E9:C6:A3:7A:DA:DC",
+      "sha1": "2A:24:53:C9:D1:57:F4:DA:1A:30:D6:59:6B:C6:E9:C6:A3:7A:DA:DC",
+      "sha256": "EF:61:0E:D7:09:59:27:53:A6:0F:40:6A:AC:19:03:89:58:83:0E:51:F9:E2:04:EC:55:A1:5B:49:FF:A5:1B:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.apps.ppdkintautara.gov.my",
+        "apps.ppdkintautara.gov.my"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.ppdkintautara.gov.my, DNS:www.apps.ppdkintautara.gov.my",
+        "subjectKeyIdentifier": "keyid:ce:76:d2:fb:c0:ed:6f:a7:2e:30:de:87:d4:25:39:88:a0:53:45:52",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4044706920,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4044706920&end=4044706920",
+    "seen": 1777867339.356,
+    "submission_timestamp": 1777862925.313,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

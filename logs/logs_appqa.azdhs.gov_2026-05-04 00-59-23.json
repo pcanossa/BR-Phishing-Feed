@@ -1,0 +1,52 @@
+{
+  "dominio": "appqa.azdhs.gov",
+  "marcas_encontradas": [
+    "gov"
+  ],
+  "timestamp": "05/04/26 00:59:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appqa.azdhs.gov",
+        "aggregated": "/CN=appqa.azdhs.gov"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "56D62F1950A7ADFA0DB0494CD70D6B7E",
+      "not_before": 1777817018,
+      "not_after": 1785596550,
+      "fingerprint": "BA:18:89:F0:7E:95:AE:6F:4F:DA:59:3A:02:09:82:39:97:6A:B4:48",
+      "sha1": "BA:18:89:F0:7E:95:AE:6F:4F:DA:59:3A:02:09:82:39:97:6A:B4:48",
+      "sha256": "E0:A2:56:3E:83:D2:A2:0F:2B:FC:57:D9:43:C8:E7:09:C5:28:01:55:F9:A2:42:4D:B3:98:C8:18:1F:25:8B:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "appqa.azdhs.gov"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/VtY, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:appqa.azdhs.gov",
+        "subjectKeyIdentifier": "keyid:a3:e3:ad:e4:cc:02:86:65:0c:45:ab:16:03:f7:7a:3b:7a:ec:aa:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 675039043,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=675039043&end=675039043",
+    "seen": 1777867163.672,
+    "submission_timestamp": 1777820619.303,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

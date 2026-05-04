@@ -1,0 +1,51 @@
+{
+  "dominio": "www.creditoartigianale.it",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 00:58:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditoartigianale.it",
+        "aggregated": "/CN=www.creditoartigianale.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "068109C64442887FD5E8C692EEC76BF641B9",
+      "not_before": 1777859051,
+      "not_after": 1785635050,
+      "fingerprint": "01:EF:B6:C9:8B:D5:95:1F:CB:2A:B4:83:90:7B:55:7E:B8:ED:31:4E",
+      "sha1": "01:EF:B6:C9:8B:D5:95:1F:CB:2A:B4:83:90:7B:55:7E:B8:ED:31:4E",
+      "sha256": "EC:E4:43:ED:95:E5:77:68:30:00:E3:B8:4F:02:E8:05:F8:8E:12:62:EF:F0:59:D4:FB:BD:34:CD:B3:8B:51:0F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditoartigianale.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.creditoartigianale.it",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4044631420,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4044631420&end=4044631420",
+    "seen": 1777867085.285,
+    "submission_timestamp": 1777862565.101,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

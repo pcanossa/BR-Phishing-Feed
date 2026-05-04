@@ -1,0 +1,52 @@
+{
+  "dominio": "santander-uk-slz-dev.app.elastio.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/04/26 00:22:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-uk-slz-dev.app.elastio.com",
+        "aggregated": "/CN=santander-uk-slz-dev.app.elastio.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "2C61C82C812A79C111056B45FFB48591",
+      "not_before": 1777838101,
+      "not_after": 1785617633,
+      "fingerprint": "70:E1:63:96:BD:61:35:52:56:BA:5D:4B:5D:5F:D2:92:B4:1C:A2:6F",
+      "sha1": "70:E1:63:96:BD:61:35:52:56:BA:5D:4B:5D:5F:D2:92:B4:1C:A2:6F",
+      "sha256": "E2:27:95:C8:C9:51:5C:F9:20:96:48:1F:13:73:B9:7B:BA:D3:76:99:42:82:7E:AA:8D:11:D0:C6:35:07:33:9B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander-uk-slz-dev.app.elastio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/LGE, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander-uk-slz-dev.app.elastio.com",
+        "subjectKeyIdentifier": "keyid:ba:aa:d0:4f:84:4d:75:72:e0:e1:b6:60:4b:20:52:74:bc:c9:28:2b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 576367495,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=576367495&end=576367495",
+    "seen": 1777864924.606,
+    "submission_timestamp": 1777841702.259,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

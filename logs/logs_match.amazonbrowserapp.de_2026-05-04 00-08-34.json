@@ -1,0 +1,60 @@
+{
+  "dominio": "match.amazonbrowserapp.de",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 00:08:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.amazon.de",
+        "aggregated": "/CN=www.amazon.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "011AC9320D4E021C04F26F089BC6095A",
+      "not_before": 1777766400,
+      "not_after": 1794873599,
+      "fingerprint": "6A:5C:20:F4:27:75:7A:CC:B0:FE:81:E7:5E:6A:37:E9:4E:87:AA:D6",
+      "sha1": "6A:5C:20:F4:27:75:7A:CC:B0:FE:81:E7:5E:6A:37:E9:4E:87:AA:D6",
+      "sha256": "E0:B0:FE:04:7A:58:7C:41:65:65:63:85:10:B8:1D:57:8E:38:AB:D4:66:9C:B2:5A:83:D4:4D:A9:C1:52:12:5E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.amazon.de",
+        "amazon.de",
+        "match.amazonbrowserapp.de",
+        "p-nt-www-amazon-de-kalias.amazon.de",
+        "p-y3-www-amazon-de-kalias.amazon.de",
+        "p-yo-www-amazon-de-kalias.amazon.de",
+        "static.amazon.de",
+        "www.cdn.amazon.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:amazon.de, DNS:match.amazonbrowserapp.de, DNS:p-nt-www-amazon-de-kalias.amazon.de, DNS:p-y3-www-amazon-de-kalias.amazon.de, DNS:p-yo-www-amazon-de-kalias.amazon.de, DNS:static.amazon.de, DNS:www.amazon.de, DNS:www.cdn.amazon.de",
+        "subjectKeyIdentifier": "keyid:d9:bd:ff:03:a9:87:75:3d:6f:0b:49:fb:17:e2:9f:6e:6f:a7:79:f2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 550256804,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=550256804&end=550256804",
+    "seen": 1777864114.008,
+    "submission_timestamp": 1777849370.639,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
