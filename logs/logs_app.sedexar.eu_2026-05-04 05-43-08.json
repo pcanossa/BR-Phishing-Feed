@@ -1,0 +1,52 @@
+{
+  "dominio": "app.sedexar.eu",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/04/26 05:43:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.sedexar.eu",
+        "aggregated": "/CN=app.sedexar.eu"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "03D88627E1A5C29EADB476715E0DD8BA",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "6D:3E:7E:A0:5D:6F:97:DD:7E:28:F0:A9:F1:AD:17:29:EC:4B:91:7A",
+      "sha1": "6D:3E:7E:A0:5D:6F:97:DD:7E:28:F0:A9:F1:AD:17:29:EC:4B:91:7A",
+      "sha256": "02:95:F2:A8:54:0C:0E:B5:64:E5:E1:1A:5D:78:B0:7E:64:9E:31:EC:33:05:BD:65:90:75:69:C0:8B:04:56:81",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.sedexar.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.sedexar.eu",
+        "subjectKeyIdentifier": "keyid:94:cd:24:44:79:20:d9:94:70:74:4a:79:34:6f:2a:17:61:c2:ac:3f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4048898817,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4048898817&end=4048898817",
+    "seen": 1777884189.126,
+    "submission_timestamp": 1777879702.345,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

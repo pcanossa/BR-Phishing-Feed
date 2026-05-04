@@ -1,0 +1,51 @@
+{
+  "dominio": "cz.minicredito24.uno",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 05:54:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cz.minicredito24.uno",
+        "aggregated": "/CN=cz.minicredito24.uno"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0678F0E9A81964584A9D39F4D897B578C6F8",
+      "not_before": 1777876861,
+      "not_after": 1785652860,
+      "fingerprint": "9C:D5:BD:91:73:38:D9:2F:8B:12:07:E8:47:DA:65:36:8D:C3:05:6A",
+      "sha1": "9C:D5:BD:91:73:38:D9:2F:8B:12:07:E8:47:DA:65:36:8D:C3:05:6A",
+      "sha256": "D2:B7:CA:A3:33:59:83:BF:43:A0:6A:97:EF:1A:F7:8A:4E:11:38:6F:3F:23:67:9A:25:3A:4E:58:B9:CB:0A:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cz.minicredito24.uno"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cz.minicredito24.uno",
+        "subjectKeyIdentifier": "keyid:34:d3:d3:43:a1:df:8c:47:c2:98:8c:ce:e6:ee:00:0d:aa:6d:31:ed"
+      }
+    },
+    "cert_index": 4049053792,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4049053792&end=4049053792",
+    "seen": 1777884842.397,
+    "submission_timestamp": 1777880374.114,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

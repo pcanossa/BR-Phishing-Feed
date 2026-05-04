@@ -1,0 +1,58 @@
+{
+  "dominio": "iam2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+  "marcas_encontradas": [
+    "amazon"
+  ],
+  "timestamp": "05/04/26 06:02:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "aggregated": "/CN=*.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0BC5EF965105BEF8D1E4D4C370F34B9B",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "EF:92:4F:5A:A1:16:94:08:4E:9F:B5:FA:8E:E8:CA:18:6D:83:F0:80",
+      "sha1": "EF:92:4F:5A:A1:16:94:08:4E:9F:B5:FA:8E:E8:CA:18:6D:83:F0:80",
+      "sha256": "1C:1D:E0:94:D3:D0:A2:1D:C6:53:A4:2E:9F:68:74:02:7B:41:BF:4C:98:E1:6B:E2:1C:B3:55:54:9B:BF:5E:5F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "*.iam.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "*.tls2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "*.scram2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "*.tls.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "*.scram.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "*.iam2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com, DNS:*.iam.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com, DNS:*.tls2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com, DNS:*.scram2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com, DNS:*.tls.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com, DNS:*.scram.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com, DNS:*.iam2.happyshavemsk.4d0100.c3.kafka.us-east-2.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:4f:46:50:67:f7:54:bd:bb:15:3e:bb:e0:56:b1:94:e8:a3:f8:54:43",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4049167821,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4049167821&end=4049167821",
+    "seen": 1777885351.523,
+    "submission_timestamp": 1777880881.13,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

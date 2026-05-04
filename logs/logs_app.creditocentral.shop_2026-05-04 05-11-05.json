@@ -1,0 +1,52 @@
+{
+  "dominio": "app.creditocentral.shop",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 05:11:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.creditocentral.shop",
+        "aggregated": "/CN=app.creditocentral.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "DDC1A46291EB5F4D0DB8064AF9F4C3A9",
+      "not_before": 1777874234,
+      "not_after": 1785653756,
+      "fingerprint": "5F:F9:3A:03:BC:0B:64:25:B8:38:CC:C0:53:D1:FB:BA:4A:E3:AE:A2",
+      "sha1": "5F:F9:3A:03:BC:0B:64:25:B8:38:CC:C0:53:D1:FB:BA:4A:E3:AE:A2",
+      "sha256": "D1:AA:E5:16:63:3C:A9:DD:A2:F4:23:AC:9E:3B:FC:78:23:51:78:E5:BC:80:A9:BC:DE:55:F5:BD:A5:7C:0B:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.creditocentral.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/3cE, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.creditocentral.shop",
+        "subjectKeyIdentifier": "keyid:b8:71:d0:58:7d:d4:ef:a6:84:73:cd:8a:76:50:77:e1:ee:ec:2e:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4048415643,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4048415643&end=4048415643",
+    "seen": 1777882264.232,
+    "submission_timestamp": 1777877835.432,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.sus-poeppinghausen.de",
+  "marcas_encontradas": [
+    "sus"
+  ],
+  "timestamp": "05/04/26 05:56:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sus-poeppinghausen.de",
+        "aggregated": "/CN=sus-poeppinghausen.de"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "1D7165BB5C8FEC8C4741DD3ECBFBE05E",
+      "not_before": 1777852800,
+      "not_after": 1795046399,
+      "fingerprint": "02:AB:01:68:36:0E:4D:C2:14:2C:47:C0:6F:F1:EC:72:97:47:32:D7",
+      "sha1": "02:AB:01:68:36:0E:4D:C2:14:2C:47:C0:6F:F1:EC:72:97:47:32:D7",
+      "sha256": "EC:3C:76:19:FB:32:2B:BB:48:EC:F4:CF:91:2D:71:2E:1C:BB:0F:13:68:E4:3D:F1:36:4E:6A:81:5D:14:54:F1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sus-poeppinghausen.de",
+        "www.sus-poeppinghausen.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sus-poeppinghausen.de, DNS:www.sus-poeppinghausen.de",
+        "subjectKeyIdentifier": "keyid:24:9c:b1:00:5d:6c:16:33:97:46:36:71:06:d9:a5:ee:11:b6:30:e7"
+      }
+    },
+    "cert_index": 4049079045,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4049079045&end=4049079045",
+    "seen": 1777885008.623,
+    "submission_timestamp": 1777880485.37,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app.creditocentral.shop",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 05:12:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.creditocentral.shop",
+        "aggregated": "/CN=app.creditocentral.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "74AB249D0E4EE1B0112C6471EA54F4CD",
+      "not_before": 1777874242,
+      "not_after": 1785653840,
+      "fingerprint": "26:AF:D9:71:6E:7F:5D:2A:DB:32:68:D4:0B:A5:80:36:82:B9:C4:E4",
+      "sha1": "26:AF:D9:71:6E:7F:5D:2A:DB:32:68:D4:0B:A5:80:36:82:B9:C4:E4",
+      "sha256": "CA:8C:18:76:81:8E:19:1E:3C:AD:C6:FF:87:FD:24:61:47:71:6B:E5:61:57:94:46:5E:5F:55:D8:1C:75:BE:66",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.creditocentral.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/dKs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.creditocentral.shop",
+        "subjectKeyIdentifier": "keyid:55:a1:46:31:7d:2c:b2:ee:c5:0d:ae:bd:ff:df:ca:6d:33:f0:7e:dc"
+      }
+    },
+    "cert_index": 4048434688,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4048434688&end=4048434688",
+    "seen": 1777882335.317,
+    "submission_timestamp": 1777877905.317,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
