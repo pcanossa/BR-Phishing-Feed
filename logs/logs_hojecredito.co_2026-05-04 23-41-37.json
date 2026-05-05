@@ -1,0 +1,53 @@
+{
+  "dominio": "hojecredito.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 23:41:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hojecredito.co",
+        "aggregated": "/CN=hojecredito.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4412A24DB7AF6A8C13B99FCA3DADAD71",
+      "not_before": 1777934556,
+      "not_after": 1785714082,
+      "fingerprint": "39:5B:FC:0E:EE:34:6F:27:E2:07:18:6F:A5:25:D7:14:15:4C:CE:E5",
+      "sha1": "39:5B:FC:0E:EE:34:6F:27:E2:07:18:6F:A5:25:D7:14:15:4C:CE:E5",
+      "sha256": "97:18:9F:6A:47:E3:27:78:91:A4:36:38:3C:CC:6C:A3:F2:C5:97:8E:60:10:45:36:D4:63:3B:0A:E9:96:7E:8D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "hojecredito.co",
+        "*.hojecredito.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/RBI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hojecredito.co, DNS:*.hojecredito.co",
+        "subjectKeyIdentifier": "keyid:c1:11:c3:b6:82:51:27:e3:d0:e9:58:7f:ac:c6:69:52:5e:41:89:aa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4062448556,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4062448556&end=4062448556",
+    "seen": 1777948897.171,
+    "submission_timestamp": 1777938156.916,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

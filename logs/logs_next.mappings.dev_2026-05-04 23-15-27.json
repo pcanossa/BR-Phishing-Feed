@@ -1,0 +1,52 @@
+{
+  "dominio": "next.mappings.dev",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 23:15:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mappings.dev",
+        "aggregated": "/CN=mappings.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2DE4CBAA694B065013321764389EECB1",
+      "not_before": 1777932889,
+      "not_after": 1785712486,
+      "fingerprint": "52:6B:86:7F:B8:42:29:18:D5:05:6D:FB:9D:D5:CE:7C:6F:34:66:E9",
+      "sha1": "52:6B:86:7F:B8:42:29:18:D5:05:6D:FB:9D:D5:CE:7C:6F:34:66:E9",
+      "sha256": "A4:66:D9:52:78:64:A7:0D:3E:F5:F8:96:3B:46:58:28:7F:63:F3:FE:1C:9D:82:ED:3B:68:41:33:D9:9E:DB:45",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mappings.dev",
+        "next.mappings.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/LeQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mappings.dev, DNS:next.mappings.dev",
+        "subjectKeyIdentifier": "keyid:40:d9:96:ac:0f:3e:a9:b4:08:5d:ca:fa:e1:73:d0:14:2b:29:d2:03"
+      }
+    },
+    "cert_index": 4062136774,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4062136774&end=4062136774",
+    "seen": 1777947328.252,
+    "submission_timestamp": 1777936551.84,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

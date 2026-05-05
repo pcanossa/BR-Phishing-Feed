@@ -1,0 +1,51 @@
+{
+  "dominio": "academy.creditologymaster.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 23:38:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "academy.creditologymaster.com",
+        "aggregated": "/CN=academy.creditologymaster.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "F28282F3D7B872D10EBB9AA3923267DA",
+      "not_before": 1777934318,
+      "not_after": 1785713912,
+      "fingerprint": "4A:4D:6F:B8:1B:46:32:4D:14:27:6C:4E:C3:E3:07:C1:FD:18:C2:C0",
+      "sha1": "4A:4D:6F:B8:1B:46:32:4D:14:27:6C:4E:C3:E3:07:C1:FD:18:C2:C0",
+      "sha256": "81:68:3E:7A:4C:5F:FB:6D:D7:CF:D5:45:0F:37:B5:19:02:4F:E1:02:9C:89:AD:47:7D:CF:9B:D2:0B:22:04:CB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "academy.creditologymaster.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/8oI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:academy.creditologymaster.com",
+        "subjectKeyIdentifier": "keyid:58:9c:89:27:ea:19:fa:2a:ab:dd:1b:43:c0:96:9b:f2:07:67:5c:98"
+      }
+    },
+    "cert_index": 4062411910,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4062411910&end=4062411910",
+    "seen": 1777948722.922,
+    "submission_timestamp": 1777937971.186,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

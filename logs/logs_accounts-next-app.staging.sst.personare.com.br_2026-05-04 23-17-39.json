@@ -1,0 +1,51 @@
+{
+  "dominio": "accounts-next-app.staging.sst.personare.com.br",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 23:17:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "accounts-next-app.staging.sst.personare.com.br",
+        "aggregated": "/CN=accounts-next-app.staging.sst.personare.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E91D3774C15ACA3CA8DE51150E21578",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "34:AB:3A:F6:10:76:19:0F:53:6B:7D:C3:06:9D:58:87:7D:50:CF:5F",
+      "sha1": "34:AB:3A:F6:10:76:19:0F:53:6B:7D:C3:06:9D:58:87:7D:50:CF:5F",
+      "sha256": "4E:35:36:B5:0A:82:64:EF:65:47:01:40:59:F8:F9:7B:7A:A0:C9:D3:3B:AB:2E:AF:15:41:B5:4A:65:56:A1:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "accounts-next-app.staging.sst.personare.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:accounts-next-app.staging.sst.personare.com.br",
+        "subjectKeyIdentifier": "keyid:46:c6:7c:a5:5a:98:82:ed:c5:b3:4f:17:77:2c:f0:cc:61:44:23:e1"
+      }
+    },
+    "cert_index": 4062162711,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4062162711&end=4062162711",
+    "seen": 1777947460.195,
+    "submission_timestamp": 1777936684.292,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

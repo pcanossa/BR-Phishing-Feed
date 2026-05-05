@@ -1,0 +1,52 @@
+{
+  "dominio": "academy.creditologymaster.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 23:51:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "academy.creditologymaster.com",
+        "aggregated": "/CN=academy.creditologymaster.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "824BC8773C560BED0E602AE0ED82B3DB",
+      "not_before": 1777935149,
+      "not_after": 1785714741,
+      "fingerprint": "BA:CE:77:56:3A:16:86:11:96:86:7D:BC:40:A3:D6:06:C0:02:D3:D9",
+      "sha1": "BA:CE:77:56:3A:16:86:11:96:86:7D:BC:40:A3:D6:06:C0:02:D3:D9",
+      "sha256": "72:1D:4C:AF:E9:82:19:1C:70:63:1A:D6:1B:D3:6F:02:9E:0B:94:0F:94:32:1E:E8:46:31:CE:67:EF:49:D3:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "academy.creditologymaster.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/gks, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:academy.creditologymaster.com",
+        "subjectKeyIdentifier": "keyid:8a:69:fc:75:07:9c:7d:df:d6:40:19:d5:37:27:6b:d1:b2:f2:78:6f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4062561281,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4062561281&end=4062561281",
+    "seen": 1777949473.354,
+    "submission_timestamp": 1777938750.053,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
