@@ -1,0 +1,51 @@
+{
+  "dominio": "staging.creditonebabk.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 18:07:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.creditonebabk.com",
+        "aggregated": "/CN=staging.creditonebabk.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "A050B2A22D76228F8A712BABBC77BD88",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "9A:2E:10:87:B1:70:9B:23:93:2D:08:5B:E9:B9:D1:A6:30:3D:FB:FD",
+      "sha1": "9A:2E:10:87:B1:70:9B:23:93:2D:08:5B:E9:B9:D1:A6:30:3D:FB:FD",
+      "sha256": "9C:D9:45:06:22:D6:B7:9C:A0:31:DE:23:CF:F8:6F:81:E1:A7:7E:47:3C:9D:D5:E2:3F:D8:7D:90:E8:71:93:A8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "staging.creditonebabk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.creditonebabk.com",
+        "subjectKeyIdentifier": "keyid:e8:8a:61:da:2f:86:f9:3f:9f:f4:ca:24:8d:5c:12:44:ad:47:cc:85"
+      }
+    },
+    "cert_index": 4077378777,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4077378777&end=4077378777",
+    "seen": 1778015248.854,
+    "submission_timestamp": 1777998953.369,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

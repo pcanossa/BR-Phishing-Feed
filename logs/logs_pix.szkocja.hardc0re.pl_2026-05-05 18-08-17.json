@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.szkocja.hardc0re.pl",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 18:08:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "1fb0b093.sni.cloudflaressl.com",
+        "aggregated": "/CN=1fb0b093.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "FE1C0A9230405E610EF3C407C3C5F2D7",
+      "not_before": 1777995358,
+      "not_after": 1785774951,
+      "fingerprint": "41:4D:80:F8:7B:1B:39:20:B6:17:A5:FD:A5:8D:A3:4D:CB:49:DD:46",
+      "sha1": "41:4D:80:F8:7B:1B:39:20:B6:17:A5:FD:A5:8D:A3:4D:CB:49:DD:46",
+      "sha256": "E6:21:A9:9F:8E:EA:D8:58:02:0D:3A:65:02:4C:44:30:EF:8A:AD:AF:F3:E3:8B:F9:E6:9A:57:3D:46:15:1E:1A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "1fb0b093.sni.cloudflaressl.com",
+        "pix.szkocja.hardc0re.pl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/_hw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:1fb0b093.sni.cloudflaressl.com, DNS:pix.szkocja.hardc0re.pl",
+        "subjectKeyIdentifier": "keyid:65:17:47:d8:53:fc:0f:1a:83:d4:07:48:48:77:21:13:ff:11:5c:e0"
+      }
+    },
+    "cert_index": 4077393497,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4077393497&end=4077393497",
+    "seen": 1778015297.586,
+    "submission_timestamp": 1777999012.224,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

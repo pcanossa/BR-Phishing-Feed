@@ -1,0 +1,52 @@
+{
+  "dominio": "login.unitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/05/26 19:03:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.unitau.com",
+        "aggregated": "/CN=login.unitau.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "8FBFDB9D902DF68372F715BB5FF0FD57",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "5D:82:47:A7:B0:6D:9E:5F:6F:37:2C:D3:98:60:CF:F9:6A:0E:F8:4A",
+      "sha1": "5D:82:47:A7:B0:6D:9E:5F:6F:37:2C:D3:98:60:CF:F9:6A:0E:F8:4A",
+      "sha256": "67:3C:DA:A7:D3:36:E4:F2:C7:43:EA:A2:30:88:B9:BF:03:66:AE:9B:92:3F:4C:8F:48:38:21:AB:7D:CA:CF:8F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.unitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.unitau.com",
+        "subjectKeyIdentifier": "keyid:db:60:f4:a1:ca:b5:63:09:15:06:6b:53:b1:a2:c0:00:62:2a:2b:34",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 617845831,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=617845831&end=617845831",
+    "seen": 1778018630.684,
+    "submission_timestamp": 1778018471.936,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

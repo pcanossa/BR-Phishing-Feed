@@ -1,0 +1,53 @@
+{
+  "dominio": "creditorapido.es",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 18:40:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditorapido.es",
+        "aggregated": "/CN=creditorapido.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "114D61C2F2F7498213B1F089A45DC2A4",
+      "not_before": 1777997383,
+      "not_after": 1785776841,
+      "fingerprint": "01:2B:A5:44:4D:14:7B:51:60:31:F5:06:E5:C4:DB:C2:79:43:2C:03",
+      "sha1": "01:2B:A5:44:4D:14:7B:51:60:31:F5:06:E5:C4:DB:C2:79:43:2C:03",
+      "sha256": "04:9B:FB:E8:A4:16:EB:5B:FB:EF:F8:F0:AD:BA:3B:E2:EC:57:12:56:0A:CD:74:79:90:F5:00:E7:06:F9:96:AF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditorapido.es",
+        "*.creditorapido.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/EU0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditorapido.es, DNS:*.creditorapido.es",
+        "subjectKeyIdentifier": "keyid:4d:7d:9d:66:dd:01:08:af:f4:24:ad:a0:cc:cf:fc:d6:97:40:6d:bf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4077857672,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4077857672&end=4077857672",
+    "seen": 1778017243.207,
+    "submission_timestamp": 1778000984.289,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
