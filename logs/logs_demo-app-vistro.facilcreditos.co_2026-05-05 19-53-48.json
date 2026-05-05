@@ -1,0 +1,51 @@
+{
+  "dominio": "demo-app-vistro.facilcreditos.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 19:53:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "demo-app-vistro.facilcreditos.co",
+        "aggregated": "/CN=demo-app-vistro.facilcreditos.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06D998EADDAF0AEDDAD74E332E42736C9394",
+      "not_before": 1778002055,
+      "not_after": 1785778054,
+      "fingerprint": "88:FE:F1:94:AD:B1:A9:13:B6:CE:FD:E0:78:CE:21:D8:4F:E7:79:BE",
+      "sha1": "88:FE:F1:94:AD:B1:A9:13:B6:CE:FD:E0:78:CE:21:D8:4F:E7:79:BE",
+      "sha256": "6C:18:CD:57:39:CC:CA:B6:98:1A:C3:04:C4:3E:84:04:71:E8:F3:42:7F:D7:A0:66:10:50:71:49:3A:1C:70:EB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "demo-app-vistro.facilcreditos.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:demo-app-vistro.facilcreditos.co",
+        "subjectKeyIdentifier": "keyid:17:2c:20:17:cc:16:d4:da:e7:a6:62:83:18:08:01:5f:bc:26:98:c9"
+      }
+    },
+    "cert_index": 4078930051,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078930051&end=4078930051",
+    "seen": 1778021627.955,
+    "submission_timestamp": 1778005630.93,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

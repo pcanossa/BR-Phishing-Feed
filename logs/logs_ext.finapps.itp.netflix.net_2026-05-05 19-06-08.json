@@ -1,0 +1,57 @@
+{
+  "dominio": "ext.finapps.itp.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/05/26 19:06:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "ext.mule.prod.hrfinapps.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=ext.mule.prod.hrfinapps.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0D4BF256DBA34E8125BBED0C64633F9D",
+      "not_before": 1777939200,
+      "not_after": 1785794765,
+      "fingerprint": "B5:D0:2A:72:18:23:84:C2:0F:E7:73:CB:1A:4B:5A:4D:FA:18:96:8D",
+      "sha1": "B5:D0:2A:72:18:23:84:C2:0F:E7:73:CB:1A:4B:5A:4D:FA:18:96:8D",
+      "sha256": "5E:07:51:09:2B:16:E9:87:56:16:CE:41:7A:57:BC:58:E7:1B:73:17:6A:8B:89:26:FF:66:C4:06:CE:20:A8:8E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ext.mule.prod.hrfinapps.netflix.net",
+        "*.finapps.mule.itp.netflix.net",
+        "ext.finapps.itp.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.finapps.mule.itp.netflix.net, DNS:ext.finapps.itp.netflix.net, DNS:ext.mule.prod.hrfinapps.netflix.net",
+        "subjectKeyIdentifier": "keyid:ad:35:d4:e4:bd:73:db:0e:87:50:61:25:d1:92:d1:11:88:72:1d:b7"
+      }
+    },
+    "cert_index": 162609476,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x635/193",
+    "seen": 1778018768.162,
+    "submission_timestamp": 1778018766.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

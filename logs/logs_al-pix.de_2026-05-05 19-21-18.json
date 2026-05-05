@@ -1,0 +1,51 @@
+{
+  "dominio": "al-pix.de",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 19:21:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "al-pix.de",
+        "aggregated": "/CN=al-pix.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "050A47EEC356EF89C35197D5921691C8F186",
+      "not_before": 1778000059,
+      "not_after": 1785776058,
+      "fingerprint": "C5:B0:76:65:F5:B3:E7:93:40:F5:D0:37:73:FC:38:C5:CE:A8:1D:D9",
+      "sha1": "C5:B0:76:65:F5:B3:E7:93:40:F5:D0:37:73:FC:38:C5:CE:A8:1D:D9",
+      "sha256": "60:24:7E:50:98:F3:95:34:A6:5F:EE:A5:42:F3:14:11:CD:7B:6F:C8:C0:B7:A8:DC:0F:2D:55:40:7C:E6:93:89",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "al-pix.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:al-pix.de",
+        "subjectKeyIdentifier": "keyid:58:d7:95:27:00:43:33:47:1b:3d:1e:e8:66:24:48:da:4b:fb:99:0f"
+      }
+    },
+    "cert_index": 4078450794,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078450794&end=4078450794",
+    "seen": 1778019678.437,
+    "submission_timestamp": 1778003570.814,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

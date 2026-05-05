@@ -1,0 +1,52 @@
+{
+  "dominio": "portal-sefaz-es-gov-br.site",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/05/26 19:51:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal-sefaz-es-gov-br.site",
+        "aggregated": "/CN=portal-sefaz-es-gov-br.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "056BE1B9D9DCA8D4B5D78FF6ACDE6124AC03",
+      "not_before": 1778001904,
+      "not_after": 1785777903,
+      "fingerprint": "27:B3:41:E0:75:71:32:B1:0B:95:ED:C2:27:4F:A2:F2:A2:D5:FF:20",
+      "sha1": "27:B3:41:E0:75:71:32:B1:0B:95:ED:C2:27:4F:A2:F2:A2:D5:FF:20",
+      "sha256": "0D:30:F8:EA:44:05:BF:44:A2:CB:02:0B:93:9D:20:3A:65:A6:7C:2B:66:EF:3A:17:3A:2D:38:24:31:F0:06:B5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "portal-sefaz-es-gov-br.site",
+        "*.portal-sefaz-es-gov-br.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.portal-sefaz-es-gov-br.site, DNS:portal-sefaz-es-gov-br.site",
+        "subjectKeyIdentifier": "keyid:ca:b2:91:be:93:08:04:f5:ba:7e:4c:2f:cc:33:86:37:cf:ed:6a:bb"
+      }
+    },
+    "cert_index": 4078882956,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078882956&end=4078882956",
+    "seen": 1778021460.753,
+    "submission_timestamp": 1778005416.315,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

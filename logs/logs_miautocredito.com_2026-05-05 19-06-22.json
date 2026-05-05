@@ -1,0 +1,51 @@
+{
+  "dominio": "miautocredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 19:06:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "miautocredito.com",
+        "aggregated": "/CN=miautocredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B518903EBD0AB0E3",
+      "not_before": 1777991203,
+      "not_after": 1795098403,
+      "fingerprint": "B4:A3:41:3D:30:50:3A:61:1B:D4:FB:02:9E:01:0D:EC:F4:D8:19:9D",
+      "sha1": "B4:A3:41:3D:30:50:3A:61:1B:D4:FB:02:9E:01:0D:EC:F4:D8:19:9D",
+      "sha256": "17:A2:B5:59:01:F2:E6:E2:A1:66:EC:0A:D8:90:B7:07:A8:41:7F:CA:6B:E9:C8:E9:23:70:53:99:8C:A9:77:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "miautocredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:miautocredito.com",
+        "subjectKeyIdentifier": "keyid:ac:26:b3:79:df:43:10:80:9c:6d:30:e1:8a:34:49:b5:6d:fa:e9:78"
+      }
+    },
+    "cert_index": 4078233522,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078233522&end=4078233522",
+    "seen": 1778018783.307,
+    "submission_timestamp": 1778002618.632,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dominio": "cbr2-oi-ods-a.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/05/26 19:18:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cbr2-oi-ods.trafficmanager.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=cbr2-oi-ods.trafficmanager.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "55002307216FE90C760F222060000000230721",
+      "not_before": 1778018644,
+      "not_after": 1793570644,
+      "fingerprint": "D8:33:2D:7C:CE:E4:1D:83:D6:5F:50:BD:5D:4D:6E:97:37:35:C9:52",
+      "sha1": "D8:33:2D:7C:CE:E4:1D:83:D6:5F:50:BD:5D:4D:6E:97:37:35:C9:52",
+      "sha256": "83:2E:4F:E4:0B:35:AD:1E:8B:B4:0C:D2:7A:ED:4A:10:E9:0E:C3:02:08:CE:68:A9:6C:C6:D2:BF:14:06:4E:3A",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cbr2-oi-ods.trafficmanager.net",
+        "*.ods.opinsights.azure.com",
+        "cbr2-oi-ods-a.cloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ods.opinsights.azure.com, DNS:cbr2-oi-ods-a.cloudapp.net, DNS:cbr2-oi-ods.trafficmanager.net",
+        "subjectKeyIdentifier": "keyid:b8:3f:2c:8a:4d:70:3e:60:08:be:ff:a4:30:6f:30:35:63:f8:b3:2e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 617961288,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=617961288&end=617961288",
+    "seen": 1778019494.771,
+    "submission_timestamp": 1778019249.705,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

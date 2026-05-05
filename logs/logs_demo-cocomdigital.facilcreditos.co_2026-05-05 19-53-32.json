@@ -1,0 +1,52 @@
+{
+  "dominio": "demo-cocomdigital.facilcreditos.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 19:53:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "demo-cocomdigital.facilcreditos.co",
+        "aggregated": "/CN=demo-cocomdigital.facilcreditos.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0547390B50F3078B8C568E84BAEF9DA72E53",
+      "not_before": 1778002096,
+      "not_after": 1785778095,
+      "fingerprint": "C1:A7:63:13:8A:86:52:56:D0:32:71:4A:69:B3:06:6D:EF:13:77:FA",
+      "sha1": "C1:A7:63:13:8A:86:52:56:D0:32:71:4A:69:B3:06:6D:EF:13:77:FA",
+      "sha256": "35:F9:50:66:C9:EE:04:14:F2:9A:A5:CF:FE:21:45:F8:F9:59:D5:10:97:D7:14:00:F0:AA:D9:5D:85:A3:59:27",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "demo-cocomdigital.facilcreditos.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:demo-cocomdigital.facilcreditos.co",
+        "subjectKeyIdentifier": "keyid:c8:92:77:cd:45:eb:a0:75:2f:02:b1:3b:5c:a9:c6:c9:81:44:9e:5e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4078925409,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078925409&end=4078925409",
+    "seen": 1778021610.807,
+    "submission_timestamp": 1778005606.555,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

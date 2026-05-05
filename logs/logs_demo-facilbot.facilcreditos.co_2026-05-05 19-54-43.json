@@ -1,0 +1,51 @@
+{
+  "dominio": "demo-facilbot.facilcreditos.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 19:54:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "demo-facilbot.facilcreditos.co",
+        "aggregated": "/CN=demo-facilbot.facilcreditos.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "067C2EA19E55D62825F5A2B21CD74BD85067",
+      "not_before": 1778002178,
+      "not_after": 1785778177,
+      "fingerprint": "7A:C9:C0:01:47:DB:AE:A6:4E:4A:CB:78:10:9E:43:24:68:63:FB:9A",
+      "sha1": "7A:C9:C0:01:47:DB:AE:A6:4E:4A:CB:78:10:9E:43:24:68:63:FB:9A",
+      "sha256": "F4:1C:5E:63:77:3C:16:08:C9:93:A9:09:00:5B:7C:F5:07:CF:83:EB:AD:C7:39:F8:76:00:62:C2:0D:14:85:14",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "demo-facilbot.facilcreditos.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:demo-facilbot.facilcreditos.co",
+        "subjectKeyIdentifier": "keyid:20:a9:44:08:bd:b6:68:ca:f6:a4:1a:17:5f:bd:de:37:9f:e7:fb:45"
+      }
+    },
+    "cert_index": 4078943972,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078943972&end=4078943972",
+    "seen": 1778021683.686,
+    "submission_timestamp": 1778005692.521,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

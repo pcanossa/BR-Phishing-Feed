@@ -1,0 +1,51 @@
+{
+  "dominio": "backend.carecreditonline.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 19:09:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "backend.carecreditonline.com",
+        "aggregated": "/CN=backend.carecreditonline.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "756F19B73B9B6795ED52F6FCFDF1FD37",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "68:D9:E0:79:13:FC:E5:87:EE:64:AC:B8:9E:D6:83:F9:A8:E2:06:E5",
+      "sha1": "68:D9:E0:79:13:FC:E5:87:EE:64:AC:B8:9E:D6:83:F9:A8:E2:06:E5",
+      "sha256": "01:67:BB:D8:D9:3B:5D:D1:0E:B9:AA:A2:C6:8A:45:D6:04:E9:4A:09:B6:2B:E8:6B:26:8D:C7:AA:58:92:78:89",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "backend.carecreditonline.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:backend.carecreditonline.com",
+        "subjectKeyIdentifier": "keyid:72:ac:dc:3c:33:c9:42:75:4a:ce:d4:be:d3:4e:e8:6a:bf:50:86:6e"
+      }
+    },
+    "cert_index": 4078284838,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078284838&end=4078284838",
+    "seen": 1778018991.61,
+    "submission_timestamp": 1778002856.445,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

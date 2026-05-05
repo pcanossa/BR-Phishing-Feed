@@ -1,0 +1,52 @@
+{
+  "dominio": "cdn.carecreditonline.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 19:33:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cdn.carecreditonline.com",
+        "aggregated": "/CN=cdn.carecreditonline.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3315C775ACE463527C5F761EB45FCD13",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "AD:64:73:DC:37:36:0C:7C:E8:9D:A3:AC:D5:7D:0F:76:A1:7A:BA:A9",
+      "sha1": "AD:64:73:DC:37:36:0C:7C:E8:9D:A3:AC:D5:7D:0F:76:A1:7A:BA:A9",
+      "sha256": "72:CD:B1:AF:F8:97:AE:87:CF:B2:BA:02:B4:79:A3:1D:CD:76:5E:A3:E3:E4:CF:E2:34:69:5F:E0:38:3C:14:96",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cdn.carecreditonline.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cdn.carecreditonline.com",
+        "subjectKeyIdentifier": "keyid:ec:1d:69:5a:fa:4a:b8:6b:a0:e4:65:dd:97:2f:e7:b7:be:8b:6e:33",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4078624981,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078624981&end=4078624981",
+    "seen": 1778020408.805,
+    "submission_timestamp": 1778004311.119,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

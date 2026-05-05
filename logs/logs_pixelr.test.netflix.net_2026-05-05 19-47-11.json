@@ -1,0 +1,55 @@
+{
+  "dominio": "pixelr.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/05/26 19:47:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "pixelr.test.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=pixelr.test.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "05093D3CDB8FAF5965242EF919509A94",
+      "not_before": 1777939200,
+      "not_after": 1785797227,
+      "fingerprint": "A1:5C:77:D7:42:CA:C6:A8:E9:C1:E9:38:D2:6C:CC:D5:5C:FE:98:AD",
+      "sha1": "A1:5C:77:D7:42:CA:C6:A8:E9:C1:E9:38:D2:6C:CC:D5:5C:FE:98:AD",
+      "sha256": "33:27:60:4C:83:44:AE:C9:84:82:2F:FE:52:05:2C:EA:AB:19:F3:00:54:2B:98:A4:DE:F3:48:BD:2B:D9:09:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pixelr.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pixelr.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:f7:8c:f8:b6:aa:bd:ab:13:17:30:9c:4e:50:a0:44:ec:ff:d0:65:9c"
+      }
+    },
+    "cert_index": 162663806,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x635/405",
+    "seen": 1778021231.22,
+    "submission_timestamp": 1778021229.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

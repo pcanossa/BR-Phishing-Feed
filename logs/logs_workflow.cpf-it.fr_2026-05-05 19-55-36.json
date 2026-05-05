@@ -1,0 +1,52 @@
+{
+  "dominio": "workflow.cpf-it.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/05/26 19:55:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "workflow.cpf-it.fr",
+        "aggregated": "/CN=workflow.cpf-it.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0565CBA90A1019316E2724625AC5207DAEB0",
+      "not_before": 1778002236,
+      "not_after": 1785778235,
+      "fingerprint": "C0:9A:23:96:AC:D2:92:B6:DE:90:79:B8:F7:B2:D9:FC:5B:29:B4:FF",
+      "sha1": "C0:9A:23:96:AC:D2:92:B6:DE:90:79:B8:F7:B2:D9:FC:5B:29:B4:FF",
+      "sha256": "8B:77:AE:47:31:A1:D3:16:06:2C:12:3C:B7:EC:FC:18:02:24:D9:47:8A:A7:93:AF:9D:98:03:5E:CE:34:62:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "workflow.cpf-it.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:workflow.cpf-it.fr",
+        "subjectKeyIdentifier": "keyid:bf:aa:e7:a2:e8:05:8c:1e:7e:8e:92:3c:b1:51:e9:a1:45:76:1e:c9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4078956210,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4078956210&end=4078956210",
+    "seen": 1778021736.272,
+    "submission_timestamp": 1778005746.863,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
