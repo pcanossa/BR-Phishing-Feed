@@ -1,0 +1,53 @@
+{
+  "dominio": "detrancnh.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/05/26 17:02:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detrancnh.com",
+        "aggregated": "/CN=detrancnh.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D4DAA5484B0EC4D90D5CB4F7AA5C507D",
+      "not_before": 1777832120,
+      "not_after": 1785611641,
+      "fingerprint": "D6:EF:78:D3:56:73:DA:34:28:25:A7:11:23:86:F6:73:B7:64:7C:18",
+      "sha1": "D6:EF:78:D3:56:73:DA:34:28:25:A7:11:23:86:F6:73:B7:64:7C:18",
+      "sha256": "37:9C:22:9F:C3:3A:58:91:0B:E5:3E:A7:D4:57:BB:CB:D1:FC:71:41:7B:C7:CB:DC:F6:4D:2A:90:81:69:CA:D8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "detrancnh.com",
+        "*.detrancnh.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/1No, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:detrancnh.com, DNS:*.detrancnh.com",
+        "subjectKeyIdentifier": "keyid:c9:26:8d:3e:3c:e5:a4:38:d6:0c:b9:91:cd:a5:9d:8c:ec:fc:fe:6e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 677265167,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=677265167&end=677265167",
+    "seen": 1778011328.118,
+    "submission_timestamp": 1777835721.514,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

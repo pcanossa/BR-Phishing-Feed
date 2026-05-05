@@ -1,0 +1,51 @@
+{
+  "dominio": "getapp.credito.co.uk",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 16:59:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "getapp.credito.co.uk",
+        "aggregated": "/CN=getapp.credito.co.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0607540B4A8CFBDA486F0C435C527B382D4F",
+      "not_before": 1777991319,
+      "not_after": 1785767318,
+      "fingerprint": "B8:A8:81:21:01:34:93:92:0A:C3:83:E2:5A:6E:A9:E9:31:A7:94:A6",
+      "sha1": "B8:A8:81:21:01:34:93:92:0A:C3:83:E2:5A:6E:A9:E9:31:A7:94:A6",
+      "sha256": "61:12:2A:C3:C4:66:09:D0:36:96:99:B9:B2:32:C5:65:E5:19:48:3A:76:E0:DA:FD:8F:8C:AA:59:68:4A:FB:A5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "getapp.credito.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:getapp.credito.co.uk",
+        "subjectKeyIdentifier": "keyid:5b:46:c6:ca:89:c4:38:de:11:9a:0a:1c:53:da:eb:6f:4b:90:9f:33"
+      }
+    },
+    "cert_index": 4076372477,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076372477&end=4076372477",
+    "seen": 1778011148.355,
+    "submission_timestamp": 1777994931.729,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

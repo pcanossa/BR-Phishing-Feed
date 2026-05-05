@@ -1,0 +1,51 @@
+{
+  "dominio": "login.ffi.dev.stone-env.io",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/05/26 16:55:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.ffi.dev.stone-env.io",
+        "aggregated": "/CN=login.ffi.dev.stone-env.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06B89B4FD2C3B0812B4A9CE0CD77B2BD632D",
+      "not_before": 1777991197,
+      "not_after": 1785767196,
+      "fingerprint": "12:99:EB:3B:4A:8B:AC:EC:DE:4F:58:00:1E:B6:D8:17:EF:71:ED:DB",
+      "sha1": "12:99:EB:3B:4A:8B:AC:EC:DE:4F:58:00:1E:B6:D8:17:EF:71:ED:DB",
+      "sha256": "9F:89:5C:2E:26:8B:54:A6:B7:FB:1F:46:C7:10:2B:27:0F:75:C0:D7:0B:68:2D:27:F7:58:9C:B9:4D:A5:FE:C6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "login.ffi.dev.stone-env.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.ffi.dev.stone-env.io",
+        "subjectKeyIdentifier": "keyid:19:44:06:d1:c4:ea:25:b0:4b:d3:fb:51:11:94:b8:e2:bf:4d:3c:4e"
+      }
+    },
+    "cert_index": 4076319258,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076319258&end=4076319258",
+    "seen": 1778010926.238,
+    "submission_timestamp": 1777994710.537,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

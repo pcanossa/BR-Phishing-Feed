@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-max.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 16:26:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-max.shop",
+        "aggregated": "/CN=pix-max.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06938056FE50F5F030AE8B75DA3BD08C44F4",
+      "not_before": 1777928438,
+      "not_after": 1785704437,
+      "fingerprint": "79:DF:0B:D8:F6:55:AF:85:E3:ED:FD:C1:8C:4D:95:55:13:6B:89:8F",
+      "sha1": "79:DF:0B:D8:F6:55:AF:85:E3:ED:FD:C1:8C:4D:95:55:13:6B:89:8F",
+      "sha256": "2A:A9:9F:E5:15:05:2E:96:1E:D4:74:82:1C:52:E4:21:02:5A:42:5C:78:2E:FC:E9:E2:44:B3:DB:E8:5D:43:06",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-max.shop",
+        "*.pix-max.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pix-max.shop, DNS:pix-max.shop",
+        "subjectKeyIdentifier": "keyid:6c:2e:7d:b0:97:c5:5a:a6:5d:0d:38:43:54:eb:5e:d3:a6:c1:97:8a"
+      }
+    },
+    "cert_index": 560095061,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=560095061&end=560095061",
+    "seen": 1778009197.512,
+    "submission_timestamp": 1777931950.014,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

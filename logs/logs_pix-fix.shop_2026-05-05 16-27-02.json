@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-fix.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 16:27:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-fix.shop",
+        "aggregated": "/CN=pix-fix.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05937348D7371010BB7E39C095C71B7E64CC",
+      "not_before": 1777928448,
+      "not_after": 1785704447,
+      "fingerprint": "04:8B:CB:87:56:01:2E:9D:FE:97:D0:B6:26:9F:32:D5:CD:C9:57:26",
+      "sha1": "04:8B:CB:87:56:01:2E:9D:FE:97:D0:B6:26:9F:32:D5:CD:C9:57:26",
+      "sha256": "CA:0F:E5:2D:E5:F8:26:A3:78:D7:BE:78:86:4B:A9:D6:0D:08:25:51:EC:E7:F4:E7:C5:F9:13:22:87:D0:80:19",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-fix.shop",
+        "*.pix-fix.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pix-fix.shop, DNS:pix-fix.shop",
+        "subjectKeyIdentifier": "keyid:56:7f:75:3f:46:e4:1d:88:6f:d0:ab:3c:93:9f:ca:9e:43:fb:67:3f"
+      }
+    },
+    "cert_index": 560096049,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=560096049&end=560096049",
+    "seen": 1778009222.103,
+    "submission_timestamp": 1777931961.425,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

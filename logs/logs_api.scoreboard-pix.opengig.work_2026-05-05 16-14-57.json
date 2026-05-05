@@ -1,0 +1,53 @@
+{
+  "dominio": "api.scoreboard-pix.opengig.work",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 16:14:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "web.scoreboard-pix.opengig.work",
+        "aggregated": "/CN=web.scoreboard-pix.opengig.work"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "C08E1CF5588DEEC9129B2B605180615D",
+      "not_before": 1777988801,
+      "not_after": 1785768055,
+      "fingerprint": "84:C2:3C:20:A6:16:93:3E:5B:F4:21:1E:A6:B6:F0:49:DA:2A:6F:B4",
+      "sha1": "84:C2:3C:20:A6:16:93:3E:5B:F4:21:1E:A6:B6:F0:49:DA:2A:6F:B4",
+      "sha256": "E4:98:58:31:D4:AE:03:0A:70:C8:BC:93:79:91:88:42:03:04:C2:0C:64:C9:08:A3:DB:CA:D2:52:7B:A1:24:F2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "web.scoreboard-pix.opengig.work",
+        "api.scoreboard-pix.opengig.work"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/wI4, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:web.scoreboard-pix.opengig.work, DNS:api.scoreboard-pix.opengig.work",
+        "subjectKeyIdentifier": "keyid:49:77:94:f8:08:bb:bd:fb:ef:89:ab:96:8b:d8:88:59:dd:74:ad:45",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4075743313,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075743313&end=4075743313",
+    "seen": 1778008497.521,
+    "submission_timestamp": 1777992402.017,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

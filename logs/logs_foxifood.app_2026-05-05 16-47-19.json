@@ -1,0 +1,52 @@
+{
+  "dominio": "foxifood.app",
+  "marcas_encontradas": [
+    "ifood"
+  ],
+  "timestamp": "05/05/26 16:47:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "foxifood.app",
+        "aggregated": "/CN=foxifood.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CCFC2842BEF84FE90EC10858E041AD63",
+      "not_before": 1777990602,
+      "not_after": 1785770131,
+      "fingerprint": "24:BA:F7:D0:72:AD:41:61:CD:FA:D0:B4:7B:98:36:CB:14:19:97:27",
+      "sha1": "24:BA:F7:D0:72:AD:41:61:CD:FA:D0:B4:7B:98:36:CB:14:19:97:27",
+      "sha256": "DC:CF:1B:AF:F0:03:7C:60:5B:8D:04:29:98:18:6F:A5:92:90:C9:2E:4A:C6:7D:C9:04:FE:EF:A5:3D:52:E1:A4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "foxifood.app",
+        "*.foxifood.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/zPw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:foxifood.app, DNS:*.foxifood.app",
+        "subjectKeyIdentifier": "keyid:6f:01:e7:6f:aa:ab:19:1b:ad:f4:c2:d8:d0:89:00:64:1f:ec:09:2d"
+      }
+    },
+    "cert_index": 4076201734,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076201734&end=4076201734",
+    "seen": 1778010439.517,
+    "submission_timestamp": 1777994271.459,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

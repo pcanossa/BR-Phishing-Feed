@@ -1,0 +1,52 @@
+{
+  "dominio": "panel.debitone.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/05/26 16:37:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "panel.debitone.com",
+        "aggregated": "/CN=panel.debitone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "08D09F9AF37A24CB9A1858A4B94A4AAA",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "D1:D4:0D:8F:EE:57:C8:63:B6:26:17:71:60:C4:96:D5:82:1C:B4:D6",
+      "sha1": "D1:D4:0D:8F:EE:57:C8:63:B6:26:17:71:60:C4:96:D5:82:1C:B4:D6",
+      "sha256": "1A:77:80:C3:DB:44:C6:71:20:2D:ED:D9:80:E4:29:E2:C6:59:7C:94:97:74:EC:CB:B6:07:AB:93:7E:2A:EF:7D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "panel.debitone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:panel.debitone.com",
+        "subjectKeyIdentifier": "keyid:1d:9d:30:d6:c0:71:12:be:31:4d:68:82:e7:fc:23:c5:c9:06:00:b2"
+      }
+    },
+    "cert_index": 162424257,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x634/469",
+    "seen": 1778009861.958,
+    "submission_timestamp": 1778009860.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

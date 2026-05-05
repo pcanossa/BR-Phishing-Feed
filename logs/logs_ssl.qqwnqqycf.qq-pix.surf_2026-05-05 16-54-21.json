@@ -1,0 +1,52 @@
+{
+  "dominio": "ssl.qqwnqqycf.qq-pix.surf",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 16:54:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ssl.qqwnqqycf.qq-pix.surf",
+        "aggregated": "/CN=ssl.qqwnqqycf.qq-pix.surf"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06CCF0355FA64AFE37127F32BB6E4C56EF89",
+      "not_before": 1777991139,
+      "not_after": 1785767138,
+      "fingerprint": "E1:C0:E5:E0:81:56:54:77:9D:91:23:A5:78:B4:A5:FE:8E:27:3F:C1",
+      "sha1": "E1:C0:E5:E0:81:56:54:77:9D:91:23:A5:78:B4:A5:FE:8E:27:3F:C1",
+      "sha256": "D5:5E:6F:AD:1B:05:7A:37:CC:FB:2E:62:CC:99:52:BC:3B:3D:2D:4A:5C:59:B4:71:8F:B8:F9:01:84:C6:EB:5D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "ssl.qqwnqqycf.qq-pix.surf"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ssl.qqwnqqycf.qq-pix.surf",
+        "subjectKeyIdentifier": "keyid:71:14:5f:56:21:a0:04:79:26:52:64:62:2a:09:e6:f7:23:f2:79:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4076301542,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076301542&end=4076301542",
+    "seen": 1778010862.544,
+    "submission_timestamp": 1777994649.339,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

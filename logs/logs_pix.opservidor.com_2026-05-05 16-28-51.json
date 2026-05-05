@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.opservidor.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 16:28:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.opservidor.com",
+        "aggregated": "/CN=pix.opservidor.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0654DE473E9C78056FC93F46904E583B891A",
+      "not_before": 1777989606,
+      "not_after": 1785765605,
+      "fingerprint": "BB:FA:88:B7:2F:E3:DE:AC:20:0F:FB:D0:C0:6D:92:43:03:35:E7:6A",
+      "sha1": "BB:FA:88:B7:2F:E3:DE:AC:20:0F:FB:D0:C0:6D:92:43:03:35:E7:6A",
+      "sha256": "11:BD:DA:FE:BF:0C:69:5C:1F:A5:48:D4:FB:D2:24:64:A8:BC:9B:8B:BF:37:B5:14:52:FA:AA:30:37:50:AA:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.opservidor.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.opservidor.com",
+        "subjectKeyIdentifier": "keyid:ba:fc:5d:9f:1e:43:a2:06:43:95:68:8e:34:c1:89:21:e1:f3:bc:21"
+      }
+    },
+    "cert_index": 4075939536,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075939536&end=4075939536",
+    "seen": 1778009330.971,
+    "submission_timestamp": 1777993249.353,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "bradescoacesso.digital",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/05/26 16:27:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradescoacesso.digital",
+        "aggregated": "/CN=bradescoacesso.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06CD1459B4EB3576DAE6D31C38C1E29C5DB7",
+      "not_before": 1777989642,
+      "not_after": 1785765641,
+      "fingerprint": "5A:E1:3B:22:FC:6C:69:11:D2:46:5B:B1:93:3F:B0:13:53:27:9B:AB",
+      "sha1": "5A:E1:3B:22:FC:6C:69:11:D2:46:5B:B1:93:3F:B0:13:53:27:9B:AB",
+      "sha256": "83:17:AA:42:91:21:2F:7F:7C:19:B4:B6:BF:11:45:22:88:07:7C:91:58:4A:F8:DA:3C:51:77:2C:CD:85:7E:C7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bradescoacesso.digital",
+        "*.bradescoacesso.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.bradescoacesso.digital, DNS:bradescoacesso.digital",
+        "subjectKeyIdentifier": "keyid:92:a9:f6:8a:44:4e:24:dc:a0:c0:8c:ae:79:c3:47:61:02:fa:1a:43",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4075915937,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075915937&end=4075915937",
+    "seen": 1778009232.38,
+    "submission_timestamp": 1777993152.45,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

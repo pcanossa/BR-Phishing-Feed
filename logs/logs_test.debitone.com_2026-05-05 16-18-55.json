@@ -1,0 +1,52 @@
+{
+  "dominio": "test.debitone.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/05/26 16:18:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test.debitone.com",
+        "aggregated": "/CN=test.debitone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "062E5569921E424C75F5821FA00AFA0E",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "66:22:2D:38:87:2E:0E:A3:E7:96:BE:68:B7:69:A3:CE:B3:A7:D7:30",
+      "sha1": "66:22:2D:38:87:2E:0E:A3:E7:96:BE:68:B7:69:A3:CE:B3:A7:D7:30",
+      "sha256": "B4:D8:4B:88:EE:23:A3:CA:E7:60:DF:35:0E:C5:38:83:A4:91:0A:3C:FD:DF:A3:01:B8:C0:D3:21:BC:06:B6:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "test.debitone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:test.debitone.com",
+        "subjectKeyIdentifier": "keyid:08:3b:75:6c:5c:95:37:4e:ab:81:14:5e:a2:9f:5d:97:dd:fe:e5:73"
+      }
+    },
+    "cert_index": 242344501,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x946/658",
+    "seen": 1778008734.575,
+    "submission_timestamp": 1778008732.007,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

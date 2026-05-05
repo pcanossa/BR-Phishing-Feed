@@ -1,0 +1,52 @@
+{
+  "dominio": "app.burodecredito.ec",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 16:30:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.burodecredito.ec",
+        "aggregated": "/CN=app.burodecredito.ec"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058CDE1B3CEB4EBBED01D8C819EF3E207BEA",
+      "not_before": 1777989699,
+      "not_after": 1785765698,
+      "fingerprint": "8C:B5:4C:1B:DC:D4:6F:CB:D2:D4:60:19:48:F2:4E:45:BF:57:FA:64",
+      "sha1": "8C:B5:4C:1B:DC:D4:6F:CB:D2:D4:60:19:48:F2:4E:45:BF:57:FA:64",
+      "sha256": "2D:9E:14:38:14:90:57:D5:BF:C2:0F:7A:D9:CB:9C:D3:FA:7F:A6:41:68:E1:A0:52:F4:DD:40:09:10:24:39:47",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.burodecredito.ec",
+        "www.app.burodecredito.ec"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.burodecredito.ec, DNS:www.app.burodecredito.ec",
+        "subjectKeyIdentifier": "keyid:cb:58:ff:04:72:42:93:b9:2c:26:ca:13:02:8f:fe:cb:bc:c4:3e:d0"
+      }
+    },
+    "cert_index": 4075966794,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075966794&end=4075966794",
+    "seen": 1778009448.731,
+    "submission_timestamp": 1777993358.444,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

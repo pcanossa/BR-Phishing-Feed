@@ -1,0 +1,53 @@
+{
+  "dominio": "dev1-apruebacredito.yanbalcorp.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 16:59:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev1-apruebacredito.yanbalcorp.com",
+        "aggregated": "/CN=dev1-apruebacredito.yanbalcorp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "09BD29FD044D9F3ECF159078BE0883F8",
+      "not_before": 1777852800,
+      "not_after": 1793836799,
+      "fingerprint": "61:06:B3:16:08:E7:71:3B:AF:D3:D5:08:8E:84:84:F1:9A:5D:41:79",
+      "sha1": "61:06:B3:16:08:E7:71:3B:AF:D3:D5:08:8E:84:84:F1:9A:5D:41:79",
+      "sha256": "77:03:A3:D6:47:20:F7:0E:C8:23:84:1E:05:8A:CB:0F:D4:0B:27:79:F6:4F:E9:2C:27:21:15:27:DD:76:0A:88",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev1-apruebacredito.yanbalcorp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev1-apruebacredito.yanbalcorp.com",
+        "subjectKeyIdentifier": "keyid:79:4e:1d:21:f6:c9:62:65:9d:8a:75:28:d1:46:34:51:ee:5b:22:be",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 584521531,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=584521531&end=584521531",
+    "seen": 1778011152.359,
+    "submission_timestamp": 1777910146.6,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

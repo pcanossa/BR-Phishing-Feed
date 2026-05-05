@@ -1,0 +1,56 @@
+{
+  "dominio": "psecreditohipotecario-qa.apps.ambientesbc.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 16:14:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "CO",
+        "CN": "psecreditohipotecario-qa.apps.ambientesbc.com",
+        "L": "Medell\u00edn",
+        "O": "BANCOLOMBIA S.A.",
+        "ST": "Antioquia",
+        "aggregated": "/C=CO/CN=psecreditohipotecario-qa.apps.ambientesbc.com/L=Medell\u00edn/O=BANCOLOMBIA S.A./ST=Antioquia"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign GCC R3 EV TLS CA 2025",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign GCC R3 EV TLS CA 2025/O=GlobalSign nv-sa"
+      },
+      "serial_number": "7CE7BD2F65D0FD7EB532751E",
+      "not_before": 1777992364,
+      "not_after": 1795185964,
+      "fingerprint": "C2:03:43:5B:68:06:D5:B4:3F:0C:28:B0:4F:DF:AE:38:48:F7:55:40",
+      "sha1": "C2:03:43:5B:68:06:D5:B4:3F:0C:28:B0:4F:DF:AE:38:48:F7:55:40",
+      "sha256": "91:96:1B:45:EC:48:21:47:97:39:EC:D8:D4:16:DD:6E:37:02:CF:7E:FA:6B:9F:46:FE:71:F4:5C:D3:8B:1E:B5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "psecreditohipotecario-qa.apps.ambientesbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://secure.globalsign.com/cacert/gsgccr3evtlsca2025.crt, URI:http://ocsp.globalsign.com/gsgccr3evtlsca2025",
+        "authorityKeyIdentifier": "keyid:63:10:7f:e4:28:33:9a:f8:47:60:59:52:7e:57:10:c7:4d:f8:17:16",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.1\nPolicy: 1.3.6.1.4.1.4146.10.1.1\nPolicy: 1.3.6.1.4.1.4146.1.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:psecreditohipotecario-qa.apps.ambientesbc.com",
+        "subjectKeyIdentifier": "keyid:3b:14:9f:73:d2:a1:5a:dc:e1:09:7f:ab:a6:f0:99:ae:52:33:46:8a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4075736937,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075736937&end=4075736937",
+    "seen": 1778008470.306,
+    "submission_timestamp": 1777992367.767,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
