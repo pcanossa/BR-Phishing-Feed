@@ -1,0 +1,53 @@
+{
+  "dominio": "www.pix.mediadom.pl",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 20:59:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.mediadom.pl",
+        "aggregated": "/CN=pix.mediadom.pl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06D6DBCD40D4266557CAD159A426CA645551",
+      "not_before": 1777824559,
+      "not_after": 1785600558,
+      "fingerprint": "D3:5F:01:EF:3C:69:A8:21:C7:4B:2B:DF:A4:84:DE:9C:6A:B9:95:28",
+      "sha1": "D3:5F:01:EF:3C:69:A8:21:C7:4B:2B:DF:A4:84:DE:9C:6A:B9:95:28",
+      "sha256": "A3:F8:2D:40:F8:D2:67:82:12:7F:9C:F2:0C:B2:94:55:57:7C:E7:64:A2:67:9C:07:41:8D:71:1C:3D:9C:6E:50",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.mediadom.pl",
+        "www.pix.mediadom.pl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.mediadom.pl, DNS:www.pix.mediadom.pl",
+        "subjectKeyIdentifier": "keyid:d3:15:b0:f0:78:6d:58:f1:f8:ef:38:ca:ea:d5:aa:e0:7b:ea:81:dc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 676143928,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=676143928&end=676143928",
+    "seen": 1777939186.133,
+    "submission_timestamp": 1777828070.328,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

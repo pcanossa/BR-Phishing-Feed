@@ -1,0 +1,53 @@
+{
+  "dominio": "xfincredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:26:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "xfincredito.com",
+        "aggregated": "/CN=xfincredito.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "F41FC0AF7B799E760979769785881175",
+      "not_before": 1777766400,
+      "not_after": 1785602731,
+      "fingerprint": "6C:E4:A5:62:81:61:66:BD:F4:C2:00:4E:F3:DD:D8:E6:1F:2F:B2:FC",
+      "sha1": "6C:E4:A5:62:81:61:66:BD:F4:C2:00:4E:F3:DD:D8:E6:1F:2F:B2:FC",
+      "sha256": "E2:25:15:66:EB:46:DC:13:7B:CC:7E:4A:D9:5E:08:0F:4D:C2:14:BD:5A:8E:3C:D4:ED:0B:80:59:A5:50:A7:A6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "xfincredito.com",
+        "*.xfincredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:xfincredito.com, DNS:*.xfincredito.com",
+        "subjectKeyIdentifier": "keyid:38:11:ce:66:70:e6:19:92:eb:b1:9e:01:20:99:6a:88:7c:ca:ff:1e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 818216523,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=818216523&end=818216523",
+    "seen": 1777937167.749,
+    "submission_timestamp": 1777826835.548,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

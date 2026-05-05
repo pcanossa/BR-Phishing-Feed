@@ -1,0 +1,52 @@
+{
+  "dominio": "creditonline.pro",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:19:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditonline.pro",
+        "aggregated": "/CN=creditonline.pro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "FE99A24421A10981",
+      "not_before": 1777927425,
+      "not_after": 1795034625,
+      "fingerprint": "14:0D:DD:61:61:E4:66:F5:A2:3A:91:6C:D1:89:A6:6F:0C:90:5C:3C",
+      "sha1": "14:0D:DD:61:61:E4:66:F5:A2:3A:91:6C:D1:89:A6:6F:0C:90:5C:3C",
+      "sha256": "2F:BC:14:72:8D:43:34:FE:F4:C1:58:8D:8E:61:E5:5D:E6:C6:82:EE:0F:B6:BB:6B:B1:3D:48:BC:E5:9F:98:6B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditonline.pro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditonline.pro",
+        "subjectKeyIdentifier": "keyid:5f:4e:63:1a:c7:48:ba:40:94:09:e2:65:d5:01:04:6a:44:bd:10:c6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4060064930,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4060064930&end=4060064930",
+    "seen": 1777936752.75,
+    "submission_timestamp": 1777927425.6,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "xfincredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:30:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "xfincredito.com",
+        "aggregated": "/CN=xfincredito.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "F41FC0AF7B799E760979769785881175",
+      "not_before": 1777766400,
+      "not_after": 1785602731,
+      "fingerprint": "F2:D3:3D:53:88:C8:8D:FC:90:80:26:F9:54:94:DB:CC:80:6F:AF:9F",
+      "sha1": "F2:D3:3D:53:88:C8:8D:FC:90:80:26:F9:54:94:DB:CC:80:6F:AF:9F",
+      "sha256": "C6:C1:BF:DB:95:00:0F:E5:37:FE:95:C8:AB:86:2A:92:37:4E:E6:98:CD:1C:45:E3:06:D0:6C:4E:F7:C8:90:6C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "xfincredito.com",
+        "*.xfincredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:xfincredito.com, DNS:*.xfincredito.com",
+        "subjectKeyIdentifier": "keyid:38:11:ce:66:70:e6:19:92:eb:b1:9e:01:20:99:6a:88:7c:ca:ff:1e"
+      }
+    },
+    "cert_index": 818220193,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=818220193&end=818220193",
+    "seen": 1777937408.476,
+    "submission_timestamp": 1777826836.311,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

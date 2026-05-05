@@ -1,0 +1,53 @@
+{
+  "dominio": "cdnitausuperapp.cl",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/04/26 20:44:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01E642E365F023E4940A42AC669E6E2A",
+      "not_before": 1777938223,
+      "not_after": 1778024623,
+      "fingerprint": "81:7F:C3:2F:D7:B5:59:75:E7:4C:1B:FE:77:5D:87:67:CA:50:AE:4A",
+      "sha1": "81:7F:C3:2F:D7:B5:59:75:E7:4C:1B:FE:77:5D:87:67:CA:50:AE:4A",
+      "sha256": "CA:D9:7A:54:9F:6B:C0:48:AF:F7:5E:87:A4:A7:8C:A3:19:44:E6:A9:B9:B1:7D:FB:4C:82:9B:A4:28:89:AF:97",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.cdnitausuperapp.cl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cdnitausuperapp.cl, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:7a:1f:60:f9:61:30:f6:b7:75:82:26:21:de:db:e9:5d:95:25:c5:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1185072949,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1185072949&end=1185072949",
+    "seen": 1777938255.263,
+    "submission_timestamp": 1777938225.401,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h1'",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}

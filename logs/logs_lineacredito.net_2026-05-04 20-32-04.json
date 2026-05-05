@@ -1,0 +1,52 @@
+{
+  "dominio": "lineacredito.net",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:32:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.lineacredito.net",
+        "aggregated": "/CN=*.lineacredito.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05D37DDA7F27ACEF2EC5989FCEB123B8C9E2",
+      "not_before": 1777823337,
+      "not_after": 1785599336,
+      "fingerprint": "49:02:D7:8C:FB:3C:50:80:B0:0D:04:5D:9F:4C:34:63:5E:8F:BC:85",
+      "sha1": "49:02:D7:8C:FB:3C:50:80:B0:0D:04:5D:9F:4C:34:63:5E:8F:BC:85",
+      "sha256": "E7:8E:94:25:A5:68:11:BC:36:E8:0F:B8:AA:EE:51:21:0A:E2:A7:AC:25:7A:3A:4F:DF:30:74:40:EC:7F:31:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.lineacredito.net",
+        "lineacredito.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.lineacredito.net, DNS:lineacredito.net",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 818222026,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=818222026&end=818222026",
+    "seen": 1777937524.148,
+    "submission_timestamp": 1777826848.714,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

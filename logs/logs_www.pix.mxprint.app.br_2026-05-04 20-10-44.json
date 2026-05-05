@@ -1,0 +1,52 @@
+{
+  "dominio": "www.pix.mxprint.app.br",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 20:10:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pix.mxprint.app.br",
+        "aggregated": "/CN=www.pix.mxprint.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "069C34C3E6E2258D2D1BFC4AFCF9C000C93F",
+      "not_before": 1777923511,
+      "not_after": 1785699510,
+      "fingerprint": "E7:DD:BD:DE:9A:3E:80:B3:95:29:5A:EB:E2:24:47:27:D4:A3:9B:9E",
+      "sha1": "E7:DD:BD:DE:9A:3E:80:B3:95:29:5A:EB:E2:24:47:27:D4:A3:9B:9E",
+      "sha256": "84:D6:8C:12:AB:1A:30:E7:F4:4A:7F:EF:42:A3:44:D4:C8:EC:B9:CD:60:F6:BE:CF:50:D5:18:17:9C:BB:EB:1B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pix.mxprint.app.br",
+        "*.mxprint.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.mxprint.app.br, DNS:www.pix.mxprint.app.br",
+        "subjectKeyIdentifier": "keyid:e9:7f:3a:d3:ff:2b:3a:99:68:8b:2a:4e:39:d2:62:4d:50:f4:97:12"
+      }
+    },
+    "cert_index": 4059973611,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059973611&end=4059973611",
+    "seen": 1777936243.887,
+    "submission_timestamp": 1777927042.208,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

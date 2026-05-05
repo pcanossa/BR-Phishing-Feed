@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.limelab.fun",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 20:31:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.limelab.fun",
+        "aggregated": "/CN=pix.limelab.fun"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06F68A6C5AA57AAD2ADB830313568772339D",
+      "not_before": 1777924553,
+      "not_after": 1785700552,
+      "fingerprint": "ED:EC:7F:37:47:44:E3:83:1D:E6:6B:6A:F7:F1:D9:82:07:BC:C0:8E",
+      "sha1": "ED:EC:7F:37:47:44:E3:83:1D:E6:6B:6A:F7:F1:D9:82:07:BC:C0:8E",
+      "sha256": "CF:96:C3:75:6A:2C:4D:BD:AD:CE:CF:D5:9A:0B:7A:99:6A:DF:7A:5E:BB:77:27:86:41:39:6D:84:18:06:70:33",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix.limelab.fun"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.limelab.fun",
+        "subjectKeyIdentifier": "keyid:8b:29:c2:35:71:1f:cc:dc:b2:71:b6:f8:cb:54:d9:ae:94:0d:64:e9"
+      }
+    },
+    "cert_index": 4060212389,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4060212389&end=4060212389",
+    "seen": 1777937503.82,
+    "submission_timestamp": 1777928066.175,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

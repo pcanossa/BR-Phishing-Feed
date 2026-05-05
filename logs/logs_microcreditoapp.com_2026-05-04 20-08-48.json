@@ -1,0 +1,53 @@
+{
+  "dominio": "microcreditoapp.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:08:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "microcreditoapp.com",
+        "aggregated": "/CN=microcreditoapp.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A839A1B53B006424E78661C043E8569D",
+      "not_before": 1777852800,
+      "not_after": 1785711881,
+      "fingerprint": "E5:8F:B7:F5:ED:D3:A4:D7:65:E3:4B:69:F8:42:10:74:F3:3D:0D:FD",
+      "sha1": "E5:8F:B7:F5:ED:D3:A4:D7:65:E3:4B:69:F8:42:10:74:F3:3D:0D:FD",
+      "sha256": "72:93:8D:1C:AE:0B:04:18:F5:4F:C9:E4:17:69:A8:9B:D6:0E:6F:A9:61:78:AE:1D:E6:B1:DE:88:44:61:DF:C6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "microcreditoapp.com",
+        "*.microcreditoapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:microcreditoapp.com, DNS:*.microcreditoapp.com",
+        "subjectKeyIdentifier": "keyid:e6:f3:de:74:a7:66:62:b2:ee:05:42:28:e5:f9:c6:13:67:cd:e0:e2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 604390948,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=604390948&end=604390948",
+    "seen": 1777936129.21,
+    "submission_timestamp": 1777935992.413,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "creditofiscal.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:06:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditofiscal.com",
+        "aggregated": "/CN=creditofiscal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "EF61F6ECC10C804F",
+      "not_before": 1777926822,
+      "not_after": 1795034022,
+      "fingerprint": "80:C7:4E:15:F0:0E:2A:5A:F2:2F:DE:E9:2C:7E:FB:53:C5:CD:88:56",
+      "sha1": "80:C7:4E:15:F0:0E:2A:5A:F2:2F:DE:E9:2C:7E:FB:53:C5:CD:88:56",
+      "sha256": "79:0D:3C:6A:EA:2D:FB:36:CA:DA:2D:BD:AE:29:37:69:C2:D3:7B:F2:F0:61:EF:A7:20:8B:81:72:E3:1B:FC:8C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditofiscal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditofiscal.com",
+        "subjectKeyIdentifier": "keyid:c2:4a:ad:14:2b:08:84:8a:7e:bc:61:75:5c:ec:70:f6:82:1e:a3:26",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4059922056,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4059922056&end=4059922056",
+    "seen": 1777935970.631,
+    "submission_timestamp": 1777926822.761,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

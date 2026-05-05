@@ -1,0 +1,51 @@
+{
+  "dominio": "micreditotracking.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 20:32:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "micreditotracking.com",
+        "aggregated": "/CN=micreditotracking.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F35A94CF044257A4",
+      "not_before": 1777923683,
+      "not_after": 1795030883,
+      "fingerprint": "0C:87:E0:CC:F9:4B:C0:AF:5B:49:F4:EA:3A:A6:EA:EB:65:19:76:1A",
+      "sha1": "0C:87:E0:CC:F9:4B:C0:AF:5B:49:F4:EA:3A:A6:EA:EB:65:19:76:1A",
+      "sha256": "92:85:87:80:47:CF:92:62:B7:C6:48:E1:A3:1F:81:AA:57:D7:67:5B:00:AD:46:AE:86:2B:80:EE:FD:AB:6B:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "micreditotracking.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:micreditotracking.com",
+        "subjectKeyIdentifier": "keyid:16:35:de:e3:ab:85:99:2b:fb:fd:4f:1b:e4:27:d0:52:62:8a:d6:40"
+      }
+    },
+    "cert_index": 4060223864,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4060223864&end=4060223864",
+    "seen": 1777937561.31,
+    "submission_timestamp": 1777928106.69,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

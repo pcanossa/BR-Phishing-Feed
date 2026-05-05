@@ -1,0 +1,53 @@
+{
+  "dominio": "www.pix.tvplay.digital",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 20:25:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.uber.tvplay.digital",
+        "aggregated": "/CN=www.uber.tvplay.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06D2C902C8C5A9140854CB8D297CD02B9AD7",
+      "not_before": 1777924234,
+      "not_after": 1785700233,
+      "fingerprint": "36:B1:16:4A:AF:B0:B2:AB:55:B4:F1:3C:B9:80:E9:79:CE:2C:C9:57",
+      "sha1": "36:B1:16:4A:AF:B0:B2:AB:55:B4:F1:3C:B9:80:E9:79:CE:2C:C9:57",
+      "sha256": "86:46:71:1C:21:16:16:73:3A:66:70:19:D1:31:21:32:4E:6B:70:E5:DD:65:AE:E1:5D:AE:0C:3A:24:1E:F0:BA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.uber.tvplay.digital",
+        "*.tvplay.digital",
+        "www.pix.tvplay.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.tvplay.digital, DNS:www.pix.tvplay.digital, DNS:www.uber.tvplay.digital",
+        "subjectKeyIdentifier": "keyid:7c:b5:74:6a:af:46:28:93:28:61:5c:23:18:76:78:36:50:6d:40:ac"
+      }
+    },
+    "cert_index": 4060139874,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4060139874&end=4060139874",
+    "seen": 1777937132.696,
+    "submission_timestamp": 1777927747.19,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
