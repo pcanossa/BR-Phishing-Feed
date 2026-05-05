@@ -1,0 +1,52 @@
+{
+  "dominio": "receitadigital.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/05/26 14:44:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitadigital.app",
+        "aggregated": "/CN=receitadigital.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F2770E3F0F5524E3",
+      "not_before": 1777987204,
+      "not_after": 1795094404,
+      "fingerprint": "0A:AC:8D:D2:05:B6:62:44:83:CE:C7:2B:40:16:C0:AD:5D:06:8D:8D",
+      "sha1": "0A:AC:8D:D2:05:B6:62:44:83:CE:C7:2B:40:16:C0:AD:5D:06:8D:8D",
+      "sha256": "AF:89:D5:06:70:C0:DA:95:C6:5C:D3:7C:3A:B5:4D:E5:98:D9:04:54:28:4B:E1:5B:BD:59:8F:E8:4A:6F:27:09",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "receitadigital.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:receitadigital.app",
+        "subjectKeyIdentifier": "keyid:66:e3:2d:b5:6b:a3:49:a6:7d:cd:4a:64:7e:79:b0:b6:d9:97:41:cf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4074459141,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074459141&end=4074459141",
+    "seen": 1778003097.493,
+    "submission_timestamp": 1777987205.623,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

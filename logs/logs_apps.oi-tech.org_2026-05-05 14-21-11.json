@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.oi-tech.org",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/05/26 14:21:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.oi-tech.org",
+        "aggregated": "/CN=apps.oi-tech.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "439B39DE47591BB03C5DF7D449C38542",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "63:29:DF:BE:96:97:63:B5:39:9A:3E:B5:1A:92:73:8D:BB:3A:E6:A6",
+      "sha1": "63:29:DF:BE:96:97:63:B5:39:9A:3E:B5:1A:92:73:8D:BB:3A:E6:A6",
+      "sha256": "36:C3:56:D9:EB:CE:E5:54:C0:E9:52:DE:95:F3:4F:6E:43:5A:FF:FB:6B:6B:B2:45:E7:6C:F1:BA:A1:14:B1:40",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.oi-tech.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.oi-tech.org",
+        "subjectKeyIdentifier": "keyid:32:b1:7c:44:78:79:50:f9:56:d0:50:c1:70:7e:f5:23:c2:b0:92:be"
+      }
+    },
+    "cert_index": 170195711,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x664/826",
+    "seen": 1778001671.688,
+    "submission_timestamp": 1778001669.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

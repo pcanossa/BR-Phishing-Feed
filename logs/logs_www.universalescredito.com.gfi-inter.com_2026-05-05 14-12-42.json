@@ -1,0 +1,55 @@
+{
+  "dominio": "www.universalescredito.com.gfi-inter.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 14:12:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "universalescredito.com.gfi-inter.com",
+        "aggregated": "/CN=universalescredito.com.gfi-inter.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "069EBC7FBF6756F7042B83A0A5661AD591E4",
+      "not_before": 1777981852,
+      "not_after": 1785757851,
+      "fingerprint": "83:95:36:95:6B:21:11:EF:C7:08:E9:2D:C1:A6:45:C0:C8:64:E9:24",
+      "sha1": "83:95:36:95:6B:21:11:EF:C7:08:E9:2D:C1:A6:45:C0:C8:64:E9:24",
+      "sha256": "EB:4F:BA:20:10:23:E2:51:B5:58:D6:64:9E:18:7E:A6:9E:FC:1D:B8:4A:1E:83:B3:6F:68:D7:E4:C0:2F:22:87",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "universalescredito.com.gfi-inter.com",
+        "*.universalescredito.com",
+        "universalescredito.com",
+        "www.universalescredito.com.gfi-inter.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.universalescredito.com, DNS:universalescredito.com, DNS:universalescredito.com.gfi-inter.com, DNS:www.universalescredito.com.gfi-inter.com",
+        "subjectKeyIdentifier": "keyid:60:4a:36:c1:30:62:93:a4:3b:f9:c8:cb:6a:73:22:fd:4a:b0:43:a0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4074022323,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074022323&end=4074022323",
+    "seen": 1778001161.326,
+    "submission_timestamp": 1777985362.326,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

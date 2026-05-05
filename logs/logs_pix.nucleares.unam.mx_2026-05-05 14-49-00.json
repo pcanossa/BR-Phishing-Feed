@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.nucleares.unam.mx",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 14:49:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.nucleares.unam.mx",
+        "aggregated": "/CN=pix.nucleares.unam.mx"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06BD211EDF6F67A474C5786DA9AF343886AE",
+      "not_before": 1777983787,
+      "not_after": 1785759786,
+      "fingerprint": "3F:FD:11:93:FC:DF:88:3F:60:E4:0E:74:FA:3C:81:CA:00:4A:76:0F",
+      "sha1": "3F:FD:11:93:FC:DF:88:3F:60:E4:0E:74:FA:3C:81:CA:00:4A:76:0F",
+      "sha256": "83:C5:B4:E8:DB:5D:57:9B:E9:51:3B:EE:F5:3E:09:65:6B:C8:5A:4D:80:B5:5D:9A:7B:D8:AD:26:E6:59:D5:69",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.nucleares.unam.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.nucleares.unam.mx",
+        "subjectKeyIdentifier": "keyid:2c:7e:27:a5:4a:ac:44:4a:9a:0a:5b:05:73:81:0d:01:23:d3:34:9b"
+      }
+    },
+    "cert_index": 4074514954,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074514954&end=4074514954",
+    "seen": 1778003341.061,
+    "submission_timestamp": 1777987446.949,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.lucida.in",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 14:32:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.lucida.in",
+        "aggregated": "/CN=pix.lucida.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "08F47474F98104CCBB7145D07BE82444",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "1F:B5:47:F6:6F:7D:42:2E:A2:BA:21:C9:7F:C6:5A:10:2C:BB:D5:9C",
+      "sha1": "1F:B5:47:F6:6F:7D:42:2E:A2:BA:21:C9:7F:C6:5A:10:2C:BB:D5:9C",
+      "sha256": "D1:28:66:13:65:F3:85:C7:4C:A6:A6:F2:4E:5D:E7:67:A0:4E:9E:F4:1B:18:C0:55:BC:71:76:34:FF:44:66:C2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.lucida.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.lucida.in",
+        "subjectKeyIdentifier": "keyid:55:ba:b2:02:98:8e:6d:84:4f:d1:75:54:eb:4c:6e:bc:4b:b2:95:b7"
+      }
+    },
+    "cert_index": 4074297689,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074297689&end=4074297689",
+    "seen": 1778002357.608,
+    "submission_timestamp": 1777986563.061,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.antimoney-laundering.org",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 14:34:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.antimoney-laundering.org",
+        "aggregated": "/CN=pix.antimoney-laundering.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "6A48962F6DBDCEA2321009D5BE23E204",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "10:A9:FD:0F:2D:86:EC:E6:FC:C5:61:A6:AF:77:73:27:AD:27:DA:12",
+      "sha1": "10:A9:FD:0F:2D:86:EC:E6:FC:C5:61:A6:AF:77:73:27:AD:27:DA:12",
+      "sha256": "06:A1:35:F1:C8:08:BE:86:8B:9D:9A:8E:D7:B4:7A:07:19:AA:FC:15:78:AA:14:5F:27:DC:28:91:C6:77:C2:56",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix.antimoney-laundering.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.antimoney-laundering.org",
+        "subjectKeyIdentifier": "keyid:e4:b6:cc:dc:18:2e:16:fd:85:ee:8d:74:1b:c8:7f:ed:c5:6a:76:9d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4074324355,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074324355&end=4074324355",
+    "seen": 1778002473.617,
+    "submission_timestamp": 1777986665.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

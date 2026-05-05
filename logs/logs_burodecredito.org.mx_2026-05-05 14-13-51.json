@@ -1,0 +1,52 @@
+{
+  "dominio": "burodecredito.org.mx",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 14:13:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "burodecredito.org.mx",
+        "aggregated": "/CN=burodecredito.org.mx"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0523A32372AF33BAB89354EA2B4D19ABF08E",
+      "not_before": 1777831198,
+      "not_after": 1785607197,
+      "fingerprint": "62:07:78:C6:BE:6A:7D:60:4A:42:0E:56:3B:BB:0E:DB:5B:FA:48:C7",
+      "sha1": "62:07:78:C6:BE:6A:7D:60:4A:42:0E:56:3B:BB:0E:DB:5B:FA:48:C7",
+      "sha256": "69:74:AC:3F:45:B9:FA:9C:E9:85:FA:7A:FA:C9:F2:32:A2:27:0A:51:CB:CA:0A:2A:36:4C:E5:9A:D3:1E:6C:BA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "burodecredito.org.mx",
+        "*.burodecredito.org.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.burodecredito.org.mx, DNS:burodecredito.org.mx",
+        "subjectKeyIdentifier": "keyid:98:73:ab:ab:a2:d8:ba:b3:ff:f7:f1:28:df:59:00:47:ae:90:fc:ec"
+      }
+    },
+    "cert_index": 677101869,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=677101869&end=677101869",
+    "seen": 1778001230.967,
+    "submission_timestamp": 1777834708.856,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

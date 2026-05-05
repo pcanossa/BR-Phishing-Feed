@@ -1,0 +1,53 @@
+{
+  "dominio": "pix.qzz.io",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 14:19:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.qzz.io",
+        "aggregated": "/CN=pix.qzz.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "985115B3CBD359630EF39672F5299237",
+      "not_before": 1777982088,
+      "not_after": 1785761610,
+      "fingerprint": "1C:13:51:0A:7A:4C:12:82:E7:AF:D0:12:3B:16:90:68:CD:FD:D0:65",
+      "sha1": "1C:13:51:0A:7A:4C:12:82:E7:AF:D0:12:3B:16:90:68:CD:FD:D0:65",
+      "sha256": "80:95:16:B4:C5:31:5F:44:CE:83:A0:DE:EB:A6:51:C3:B8:FE:41:7A:25:2C:C1:A2:F9:0C:0A:CF:AB:39:42:85",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix.qzz.io",
+        "*.pix.qzz.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/mFE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.qzz.io, DNS:*.pix.qzz.io",
+        "subjectKeyIdentifier": "keyid:f4:c0:99:cc:8c:44:17:ae:bc:cc:6e:02:6f:53:38:29:f1:3d:9c:84",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4074108594,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074108594&end=4074108594",
+    "seen": 1778001543.111,
+    "submission_timestamp": 1777985753.458,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

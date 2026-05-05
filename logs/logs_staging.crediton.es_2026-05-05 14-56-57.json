@@ -1,0 +1,52 @@
+{
+  "dominio": "staging.crediton.es",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 14:56:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.crediton.es",
+        "aggregated": "/CN=staging.crediton.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E95A4213E33E8222A3856BC815D7CCC",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "A4:79:64:A6:8B:FC:67:CA:CC:1A:55:8D:FD:66:5E:9B:A7:DA:5A:6F",
+      "sha1": "A4:79:64:A6:8B:FC:67:CA:CC:1A:55:8D:FD:66:5E:9B:A7:DA:5A:6F",
+      "sha256": "CE:65:38:E6:FA:EC:69:F1:FF:31:22:2F:32:CF:20:2E:EF:7B:22:6B:69:B2:35:A9:24:47:AF:EC:3D:BA:BD:1D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging.crediton.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging.crediton.es",
+        "subjectKeyIdentifier": "keyid:e7:5a:7a:52:16:7f:48:29:88:ee:cb:b2:25:f5:ea:6a:d1:0b:51:d6"
+      }
+    },
+    "cert_index": 4074623298,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074623298&end=4074623298",
+    "seen": 1778003817.378,
+    "submission_timestamp": 1777987887.516,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
