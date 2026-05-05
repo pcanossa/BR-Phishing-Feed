@@ -1,0 +1,51 @@
+{
+  "dominio": "test-onboard-3.next.fourthestate.app",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 21:38:25",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test-onboard-3.next.fourthestate.app",
+        "aggregated": "/CN=test-onboard-3.next.fourthestate.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060295984F4D2268D20CCEFB91DA9CC94EC9",
+      "not_before": 1777937789,
+      "not_after": 1785713788,
+      "fingerprint": "8C:72:67:67:B7:E2:27:9F:C4:A9:C0:A8:95:57:6E:C5:E9:48:C1:1D",
+      "sha1": "8C:72:67:67:B7:E2:27:9F:C4:A9:C0:A8:95:57:6E:C5:E9:48:C1:1D",
+      "sha256": "B0:11:D8:86:8B:71:01:0B:67:06:FF:BC:AF:4E:7A:BB:46:BF:B7:BA:30:B1:E1:11:D5:28:A7:B9:D8:C9:99:39",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "test-onboard-3.next.fourthestate.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:test-onboard-3.next.fourthestate.app",
+        "subjectKeyIdentifier": "keyid:0f:d1:0c:59:14:c5:db:19:2d:72:91:a1:2a:12:16:ad:0f:22:2e:67"
+      }
+    },
+    "cert_index": 522885496,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=522885496&end=522885496",
+    "seen": 1777941504.642,
+    "submission_timestamp": 1777941327.696,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

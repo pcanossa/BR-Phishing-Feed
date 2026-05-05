@@ -1,0 +1,53 @@
+{
+  "dominio": "bit-pix.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 21:47:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bit-pix.shop",
+        "aggregated": "/CN=bit-pix.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0599557758BBEEFFF0C31D9049DEE6F9A48E",
+      "not_before": 1777928489,
+      "not_after": 1785704488,
+      "fingerprint": "55:71:BD:AE:1F:3B:25:F5:09:1E:AA:8B:59:63:BC:D2:56:B0:E1:D9",
+      "sha1": "55:71:BD:AE:1F:3B:25:F5:09:1E:AA:8B:59:63:BC:D2:56:B0:E1:D9",
+      "sha256": "CE:EC:B7:2F:69:21:1E:5B:13:59:EF:14:13:83:EA:34:AF:33:FF:AF:2F:F5:D2:F3:38:BC:AD:77:B2:4A:EF:5C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bit-pix.shop",
+        "*.bit-pix.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.bit-pix.shop, DNS:bit-pix.shop",
+        "subjectKeyIdentifier": "keyid:11:20:d5:66:a7:78:bd:83:7c:a9:48:79:46:5e:44:13:a0:dd:2b:2e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4061096978,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061096978&end=4061096978",
+    "seen": 1777942027.765,
+    "submission_timestamp": 1777931999.766,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

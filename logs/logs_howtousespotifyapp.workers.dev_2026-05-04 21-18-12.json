@@ -1,0 +1,53 @@
+{
+  "dominio": "howtousespotifyapp.workers.dev",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/04/26 21:18:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "howtousespotifyapp.workers.dev",
+        "aggregated": "/CN=howtousespotifyapp.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1729F2AF477D5B7F13090ACB2C4C7846",
+      "not_before": 1777926807,
+      "not_after": 1785706398,
+      "fingerprint": "9A:E5:07:D7:34:8E:9B:61:22:1C:10:35:20:55:3E:4C:A3:28:41:39",
+      "sha1": "9A:E5:07:D7:34:8E:9B:61:22:1C:10:35:20:55:3E:4C:A3:28:41:39",
+      "sha256": "1D:03:DB:59:C2:E3:5E:37:36:46:96:A2:6D:97:D9:E6:AD:EF:E7:4F:71:46:CD:B5:D6:42:87:02:16:B0:CD:17",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "howtousespotifyapp.workers.dev",
+        "*.howtousespotifyapp.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Fyk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:howtousespotifyapp.workers.dev, DNS:*.howtousespotifyapp.workers.dev",
+        "subjectKeyIdentifier": "keyid:cd:d6:f0:48:36:a7:67:7d:e3:57:2d:47:c4:5d:ab:09:66:02:51:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4060766081,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4060766081&end=4060766081",
+    "seen": 1777940291.706,
+    "submission_timestamp": 1777930408.722,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

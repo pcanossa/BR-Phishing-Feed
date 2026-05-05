@@ -1,0 +1,51 @@
+{
+  "dominio": "www.creditodeconsumo.net",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 22:01:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditodeconsumo.net",
+        "aggregated": "/CN=www.creditodeconsumo.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "2462BCD6A2290E3A",
+      "not_before": 1777823512,
+      "not_after": 1794930712,
+      "fingerprint": "CA:7D:5D:BD:1F:D9:C1:94:96:37:F4:F9:23:28:58:BC:56:D0:EB:CF",
+      "sha1": "CA:7D:5D:BD:1F:D9:C1:94:96:37:F4:F9:23:28:58:BC:56:D0:EB:CF",
+      "sha256": "60:88:55:FF:45:FD:B1:1F:6F:7B:57:AF:C4:A1:7C:63:13:B7:C4:06:71:46:88:86:72:AA:47:AE:22:79:8D:EA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditodeconsumo.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.creditodeconsumo.net",
+        "subjectKeyIdentifier": "keyid:90:f6:b6:2f:42:0a:0b:c7:e6:32:70:63:3f:62:d7:31:78:4e:90:59"
+      }
+    },
+    "cert_index": 818303763,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=818303763&end=818303763",
+    "seen": 1777942917.336,
+    "submission_timestamp": 1777827270.604,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

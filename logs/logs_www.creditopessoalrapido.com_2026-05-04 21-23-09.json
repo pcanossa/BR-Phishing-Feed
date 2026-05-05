@@ -1,0 +1,52 @@
+{
+  "dominio": "www.creditopessoalrapido.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 21:23:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditopessoalrapido.com",
+        "aggregated": "/CN=www.creditopessoalrapido.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "102D2B836CD8708B",
+      "not_before": 1777930666,
+      "not_after": 1795037866,
+      "fingerprint": "2C:D5:5F:AE:A9:DF:04:B6:3C:FE:8F:F1:6D:B5:90:F1:89:EF:92:D3",
+      "sha1": "2C:D5:5F:AE:A9:DF:04:B6:3C:FE:8F:F1:6D:B5:90:F1:89:EF:92:D3",
+      "sha256": "EA:E7:D8:3E:F9:E3:92:86:E3:50:93:F7:2B:99:7E:9A:7B:8F:F5:0C:9E:77:A7:A6:BD:3B:0A:2B:F1:83:29:9A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditopessoalrapido.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.creditopessoalrapido.com",
+        "subjectKeyIdentifier": "keyid:76:ab:be:d6:d3:01:34:37:ef:94:07:6a:b9:a0:97:46:de:f2:cf:e3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4060822767,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4060822767&end=4060822767",
+    "seen": 1777940589.811,
+    "submission_timestamp": 1777930667.837,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
