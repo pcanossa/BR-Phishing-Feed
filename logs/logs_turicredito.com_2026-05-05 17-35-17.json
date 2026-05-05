@@ -1,0 +1,51 @@
+{
+  "dominio": "turicredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 17:35:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "turicredito.com",
+        "aggregated": "/CN=turicredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "064F42AFE169D0F00AE6253DFA4FE3CFE7AB",
+      "not_before": 1777993473,
+      "not_after": 1785769472,
+      "fingerprint": "92:CD:C4:EA:85:95:8E:BF:4B:56:6F:13:AD:95:41:E1:9A:A0:2E:E0",
+      "sha1": "92:CD:C4:EA:85:95:8E:BF:4B:56:6F:13:AD:95:41:E1:9A:A0:2E:E0",
+      "sha256": "F9:27:BD:56:30:21:C8:9A:8B:19:6E:70:92:F6:DD:F9:44:89:30:6D:C0:E8:44:77:D0:7A:15:97:97:59:BA:E8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "turicredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:turicredito.com",
+        "subjectKeyIdentifier": "keyid:0e:b2:d5:1a:99:2f:36:bf:f8:0e:92:f6:53:93:49:ca:d1:5b:0f:32"
+      }
+    },
+    "cert_index": 4076897879,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076897879&end=4076897879",
+    "seen": 1778013316.562,
+    "submission_timestamp": 1777997071.458,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "testing.elcreditoargentino.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 17:26:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.elcreditoargentino.com",
+        "aggregated": "/CN=testing.elcreditoargentino.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "86D63D3DF9D9F42347CA35F5E660B88B",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "59:AF:E1:8A:DB:72:8B:13:59:E3:A9:A7:55:05:9A:37:54:B4:53:05",
+      "sha1": "59:AF:E1:8A:DB:72:8B:13:59:E3:A9:A7:55:05:9A:37:54:B4:53:05",
+      "sha256": "9B:91:53:16:A2:26:55:AF:D0:B1:BF:EF:43:E0:C4:F7:9A:87:57:F4:93:F8:03:85:AF:6C:5F:89:92:52:DE:66",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "testing.elcreditoargentino.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:testing.elcreditoargentino.com",
+        "subjectKeyIdentifier": "keyid:93:8e:82:35:c3:fa:e9:cf:bc:ec:b8:59:6b:24:b1:c5:a8:77:af:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 584622505,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=584622505&end=584622505",
+    "seen": 1778012768.997,
+    "submission_timestamp": 1777910971.362,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

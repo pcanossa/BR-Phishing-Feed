@@ -1,0 +1,52 @@
+{
+  "dominio": "cdn.creditosonline.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 17:32:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cdn.creditosonline.com",
+        "aggregated": "/CN=cdn.creditosonline.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "082DFB958E32B9E43CE9D435BF75E0AB",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "50:9A:F9:D1:A6:75:83:1A:A8:9F:93:3D:DA:37:27:A5:47:00:34:3E",
+      "sha1": "50:9A:F9:D1:A6:75:83:1A:A8:9F:93:3D:DA:37:27:A5:47:00:34:3E",
+      "sha256": "63:87:25:BE:EB:00:77:8D:1D:5D:21:36:95:7E:36:EC:C1:3A:63:60:D0:F3:7F:B1:7C:16:09:26:68:0A:22:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cdn.creditosonline.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cdn.creditosonline.com",
+        "subjectKeyIdentifier": "keyid:4e:6b:0a:47:f2:ce:db:10:47:4c:ea:6d:62:aa:91:7f:c1:3d:4b:1a"
+      }
+    },
+    "cert_index": 4076855499,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076855499&end=4076855499",
+    "seen": 1778013149.29,
+    "submission_timestamp": 1777996892.907,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "creditos-felix.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 17:23:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditos-felix.com",
+        "aggregated": "/CN=creditos-felix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0557F924970B8A9316D3C267BD698116B13D",
+      "not_before": 1777992860,
+      "not_after": 1785768859,
+      "fingerprint": "E9:E1:85:A2:D3:6D:D5:BB:3B:88:82:71:AE:76:4C:C1:F2:0B:BE:E9",
+      "sha1": "E9:E1:85:A2:D3:6D:D5:BB:3B:88:82:71:AE:76:4C:C1:F2:0B:BE:E9",
+      "sha256": "D8:19:69:B5:80:F7:54:72:C2:53:EB:85:99:01:8E:32:50:9B:84:D5:9D:AA:4B:7E:7C:CA:19:4F:E1:08:92:B1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditos-felix.com",
+        "*.creditos-felix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditos-felix.com, DNS:creditos-felix.com",
+        "subjectKeyIdentifier": "keyid:cb:39:76:56:89:ae:40:e0:57:bd:41:8a:60:71:58:20:07:12:7e:8e"
+      }
+    },
+    "cert_index": 4076725411,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076725411&end=4076725411",
+    "seen": 1778012615.459,
+    "submission_timestamp": 1777996373.997,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

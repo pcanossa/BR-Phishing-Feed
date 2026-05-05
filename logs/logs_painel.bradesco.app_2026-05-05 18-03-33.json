@@ -1,0 +1,51 @@
+{
+  "dominio": "painel.bradesco.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/05/26 18:03:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "painel.bradesco.app",
+        "aggregated": "/CN=painel.bradesco.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05217484D11BBD41C626981D04501635DC8C",
+      "not_before": 1777995227,
+      "not_after": 1785771226,
+      "fingerprint": "50:8D:1F:48:BD:41:13:D3:4C:CB:04:C8:24:2B:1C:94:82:BB:DB:30",
+      "sha1": "50:8D:1F:48:BD:41:13:D3:4C:CB:04:C8:24:2B:1C:94:82:BB:DB:30",
+      "sha256": "EE:39:3F:9C:50:98:10:77:9B:9D:50:1D:F0:C8:54:8E:F1:C5:6E:84:DD:CF:A1:78:89:11:41:1F:62:6C:D6:94",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "painel.bradesco.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:painel.bradesco.app",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4077326667,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4077326667&end=4077326667",
+    "seen": 1778015013.435,
+    "submission_timestamp": 1777998740.156,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

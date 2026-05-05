@@ -1,0 +1,52 @@
+{
+  "dominio": "creditorsedge.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 17:36:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.creditorsedge.com",
+        "aggregated": "/CN=*.creditorsedge.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068881EE83FDC8CEB0021115FC65B0F1BA7C",
+      "not_before": 1777993588,
+      "not_after": 1785769587,
+      "fingerprint": "E1:C1:58:FF:A7:BF:34:ED:F3:6E:DB:41:5B:DB:94:1B:8C:DE:20:B1",
+      "sha1": "E1:C1:58:FF:A7:BF:34:ED:F3:6E:DB:41:5B:DB:94:1B:8C:DE:20:B1",
+      "sha256": "82:E6:3E:33:4E:F2:DC:95:DB:16:CB:16:46:4A:0B:FF:D0:6C:7E:05:C7:00:50:7C:76:D2:F7:87:DE:2A:78:56",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.creditorsedge.com",
+        "creditorsedge.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.creditorsedge.com, DNS:creditorsedge.com",
+        "subjectKeyIdentifier": "keyid:c1:b2:d3:c2:46:eb:3a:30:5b:f2:38:ad:d8:55:40:58:3a:d4:67:41"
+      }
+    },
+    "cert_index": 4076908087,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076908087&end=4076908087",
+    "seen": 1778013359.776,
+    "submission_timestamp": 1777997099.711,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

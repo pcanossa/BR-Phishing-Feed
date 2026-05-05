@@ -1,0 +1,53 @@
+{
+  "dominio": "davicredito.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 17:11:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "davicredito.co",
+        "aggregated": "/CN=davicredito.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B19F55C9932F2CC30ECCD94250FE858A",
+      "not_before": 1777991939,
+      "not_after": 1785771454,
+      "fingerprint": "43:C3:67:5E:D3:27:28:27:A9:6C:7E:58:6A:A4:B9:54:A8:B5:43:20",
+      "sha1": "43:C3:67:5E:D3:27:28:27:A9:6C:7E:58:6A:A4:B9:54:A8:B5:43:20",
+      "sha256": "D0:76:2F:E3:E3:0D:96:8A:44:71:0B:E4:AE:30:A2:F2:87:3B:FC:5C:80:B5:20:CB:E7:9A:64:D7:C5:FF:CA:EA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "davicredito.co",
+        "*.davicredito.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/sZ8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:davicredito.co, DNS:*.davicredito.co",
+        "subjectKeyIdentifier": "keyid:a9:fc:92:08:a4:d9:dc:b1:64:8a:23:6d:2e:76:d9:21:be:30:9f:19",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4076546572,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4076546572&end=4076546572",
+    "seen": 1778011873.802,
+    "submission_timestamp": 1777995616.413,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
