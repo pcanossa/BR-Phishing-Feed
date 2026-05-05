@@ -1,0 +1,53 @@
+{
+  "dominio": "1000-reais-pix.space",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 15:48:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "1000-reais-pix.space",
+        "aggregated": "/CN=1000-reais-pix.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "01356AA87CC34B49D7879B68548D8B65",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "D7:A6:C9:38:2F:F4:81:99:7E:89:48:29:91:58:49:F5:16:F8:D2:2B",
+      "sha1": "D7:A6:C9:38:2F:F4:81:99:7E:89:48:29:91:58:49:F5:16:F8:D2:2B",
+      "sha256": "F4:06:91:2B:AD:88:B7:1B:D0:A2:0F:97:8D:2A:AB:07:54:D1:4F:E5:6A:CA:1D:81:98:42:BE:1F:E0:76:3F:D6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "1000-reais-pix.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:1000-reais-pix.space",
+        "subjectKeyIdentifier": "keyid:ae:a3:d6:2b:ea:5c:57:52:16:56:b5:db:5e:a0:61:b2:0a:ad:b6:21",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4075368112,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075368112&end=4075368112",
+    "seen": 1778006921.807,
+    "submission_timestamp": 1777990875.162,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

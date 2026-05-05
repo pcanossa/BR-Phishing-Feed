@@ -1,0 +1,52 @@
+{
+  "dominio": "api.creditor-portal.dr.staging.advisa.se",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:08:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.creditor-portal.dr.staging.advisa.se",
+        "aggregated": "/CN=api.creditor-portal.dr.staging.advisa.se"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0DCE6475461EDFC9A263F79D28CE232E",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "2D:95:FA:C4:DB:08:29:F1:02:26:7E:F6:86:35:C6:95:2F:B5:25:5A",
+      "sha1": "2D:95:FA:C4:DB:08:29:F1:02:26:7E:F6:86:35:C6:95:2F:B5:25:5A",
+      "sha256": "E8:8A:40:D9:DB:BB:63:68:0D:8D:0D:43:1F:18:35:76:D4:1A:D4:E2:E1:96:FA:1A:A4:C5:BA:6D:57:82:A8:21",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.creditor-portal.dr.staging.advisa.se"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.creditor-portal.dr.staging.advisa.se",
+        "subjectKeyIdentifier": "keyid:7f:26:47:4e:6b:32:8b:45:f8:b0:ad:90:fc:96:51:9c:16:ea:9f:00",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 584122022,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=584122022&end=584122022",
+    "seen": 1778004512.472,
+    "submission_timestamp": 1777906747.949,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

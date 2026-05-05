@@ -1,0 +1,52 @@
+{
+  "dominio": "creditorwatch.pages.dev",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:20:25",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditorwatch.pages.dev",
+        "aggregated": "/CN=creditorwatch.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3EEE2C0F5EB0F07F13A718980212F53B",
+      "not_before": 1777985563,
+      "not_after": 1785765024,
+      "fingerprint": "A3:EA:E9:13:55:C3:C0:82:D8:ED:45:AD:AB:04:D3:71:93:DD:B9:38",
+      "sha1": "A3:EA:E9:13:55:C3:C0:82:D8:ED:45:AD:AB:04:D3:71:93:DD:B9:38",
+      "sha256": "0B:DB:D8:90:63:C5:6A:1B:7D:8B:23:15:D4:1B:78:7A:10:A5:F0:FC:4F:10:74:47:A5:DF:BA:56:86:74:AA:49",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditorwatch.pages.dev",
+        "*.creditorwatch.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Pu4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditorwatch.pages.dev, DNS:*.creditorwatch.pages.dev",
+        "subjectKeyIdentifier": "keyid:d5:f2:9a:4c:02:d0:1e:5e:4d:25:07:3f:1c:4a:76:aa:1a:6b:61:f6"
+      }
+    },
+    "cert_index": 4074961993,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074961993&end=4074961993",
+    "seen": 1778005226.296,
+    "submission_timestamp": 1777989309.071,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

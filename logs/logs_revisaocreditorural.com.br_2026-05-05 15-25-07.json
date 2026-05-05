@@ -1,0 +1,52 @@
+{
+  "dominio": "revisaocreditorural.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:25:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "revisaocreditorural.com.br",
+        "aggregated": "/CN=revisaocreditorural.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05719355648E4A2F9FDCAB136B16721F490E",
+      "not_before": 1777985925,
+      "not_after": 1785761924,
+      "fingerprint": "61:E0:42:19:8D:2F:83:78:4E:28:06:E4:F2:28:39:2F:1D:CC:07:59",
+      "sha1": "61:E0:42:19:8D:2F:83:78:4E:28:06:E4:F2:28:39:2F:1D:CC:07:59",
+      "sha256": "63:07:F1:31:9A:25:A1:D4:00:AD:43:E4:FF:2B:1B:CA:A2:A4:B8:DE:49:5B:DC:E8:2C:BE:48:DD:A1:D0:5D:A2",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "revisaocreditorural.com.br",
+        "*.revisaocreditorural.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.revisaocreditorural.com.br, DNS:revisaocreditorural.com.br",
+        "subjectKeyIdentifier": "keyid:97:b8:bb:2c:2e:fb:e0:9e:39:5b:37:d9:8c:d7:03:a1:41:19:54:53"
+      }
+    },
+    "cert_index": 4075029693,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075029693&end=4075029693",
+    "seen": 1778005508.214,
+    "submission_timestamp": 1777989575.942,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

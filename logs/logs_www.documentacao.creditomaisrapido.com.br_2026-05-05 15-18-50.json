@@ -1,0 +1,52 @@
+{
+  "dominio": "www.documentacao.creditomaisrapido.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:18:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.creditomaisrapido.com.br",
+        "aggregated": "/CN=*.creditomaisrapido.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E59EF5732A5FF1406184E6A92B8C0455EE",
+      "not_before": 1777985705,
+      "not_after": 1785761704,
+      "fingerprint": "30:EE:6F:C5:7A:9D:4E:58:C5:91:5F:A7:86:30:1A:2E:AE:16:91:4D",
+      "sha1": "30:EE:6F:C5:7A:9D:4E:58:C5:91:5F:A7:86:30:1A:2E:AE:16:91:4D",
+      "sha256": "4C:1B:5A:40:56:8A:C5:91:C1:5F:B0:B3:CE:6F:AA:3D:F0:11:62:29:92:6E:9C:E2:61:ED:E1:6E:4F:27:A6:EA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.creditomaisrapido.com.br",
+        "www.documentacao.creditomaisrapido.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditomaisrapido.com.br, DNS:www.documentacao.creditomaisrapido.com.br",
+        "subjectKeyIdentifier": "keyid:41:0b:9d:69:ee:06:2d:1f:1e:6c:58:26:de:4e:e2:cf:7e:96:eb:e3"
+      }
+    },
+    "cert_index": 4074939593,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074939593&end=4074939593",
+    "seen": 1778005130.294,
+    "submission_timestamp": 1777989218.107,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

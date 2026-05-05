@@ -1,0 +1,53 @@
+{
+  "dominio": "dev.1000-reais-pix.space",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 15:54:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.1000-reais-pix.space",
+        "aggregated": "/CN=dev.1000-reais-pix.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "03D5221CCEF62D4A2F5CF906212256CE",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "39:E4:66:CD:AF:0A:A9:1E:ED:F7:4F:47:D4:7F:7B:5F:C8:AD:B7:13",
+      "sha1": "39:E4:66:CD:AF:0A:A9:1E:ED:F7:4F:47:D4:7F:7B:5F:C8:AD:B7:13",
+      "sha256": "41:FA:D3:B3:A0:AF:19:AC:44:D0:BB:D5:BA:28:F3:B9:93:16:FC:80:B9:E6:0F:4F:0B:07:C8:2A:16:39:C8:B1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.1000-reais-pix.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.1000-reais-pix.space",
+        "subjectKeyIdentifier": "keyid:69:e4:cd:99:50:73:5d:4b:77:b7:fc:d3:bb:2b:f7:37:e4:30:62:ba",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4075449505,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075449505&end=4075449505",
+    "seen": 1778007277.904,
+    "submission_timestamp": 1777991221.739,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

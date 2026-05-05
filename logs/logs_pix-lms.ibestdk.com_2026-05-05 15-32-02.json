@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-lms.ibestdk.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 15:32:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "f842e127.sni.cloudflaressl.com",
+        "aggregated": "/CN=f842e127.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CA6C088BDB1EDEAE1357F073BABAEFF1",
+      "not_before": 1777986257,
+      "not_after": 1785765852,
+      "fingerprint": "C9:4C:F4:00:CF:7D:FA:E7:09:18:79:11:60:B5:A6:C7:88:AE:8F:12",
+      "sha1": "C9:4C:F4:00:CF:7D:FA:E7:09:18:79:11:60:B5:A6:C7:88:AE:8F:12",
+      "sha256": "F6:FA:D4:1D:2E:A4:A5:98:C2:17:E7:7D:63:67:78:1F:EB:E6:C8:B2:E3:4A:76:1F:CD:C7:AF:EE:72:76:F4:62",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "f842e127.sni.cloudflaressl.com",
+        "pix-lms.ibestdk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ymw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:f842e127.sni.cloudflaressl.com, DNS:pix-lms.ibestdk.com",
+        "subjectKeyIdentifier": "keyid:be:99:33:40:e0:80:32:c3:c7:a5:59:f4:4a:b9:4b:88:9a:8f:20:d9"
+      }
+    },
+    "cert_index": 4075126051,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075126051&end=4075126051",
+    "seen": 1778005921.377,
+    "submission_timestamp": 1777989922.887,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "testing.creditosafra.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:37:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.creditosafra.com",
+        "aggregated": "/CN=testing.creditosafra.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0434B4852EBD95AD14CDB68B2F92B5F7",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "23:1A:21:A7:2D:2D:2C:79:39:D0:BC:B1:D0:50:89:E6:73:6E:B8:A9",
+      "sha1": "23:1A:21:A7:2D:2D:2C:79:39:D0:BC:B1:D0:50:89:E6:73:6E:B8:A9",
+      "sha256": "49:AF:56:49:75:68:EB:34:0D:4C:52:67:C0:8C:27:4B:DE:B8:3B:53:7F:BF:CC:ED:A2:8D:71:60:EC:1C:C4:66",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "testing.creditosafra.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:testing.creditosafra.com",
+        "subjectKeyIdentifier": "keyid:3a:32:ad:86:c7:af:98:55:18:d2:a9:0c:b4:52:1c:71:7a:1c:f8:c0"
+      }
+    },
+    "cert_index": 4075204142,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075204142&end=4075204142",
+    "seen": 1778006243.619,
+    "submission_timestamp": 1777990215.853,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

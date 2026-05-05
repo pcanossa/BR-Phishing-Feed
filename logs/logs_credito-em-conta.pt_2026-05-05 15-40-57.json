@@ -1,0 +1,52 @@
+{
+  "dominio": "credito-em-conta.pt",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:40:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.credito-em-conta.pt",
+        "aggregated": "/CN=*.credito-em-conta.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05204F27642422071D6F1A13E32979BF0A84",
+      "not_before": 1777986905,
+      "not_after": 1785762904,
+      "fingerprint": "6E:BF:F8:32:A7:78:09:28:B7:AA:29:CA:B1:5A:2B:48:F1:2A:4F:42",
+      "sha1": "6E:BF:F8:32:A7:78:09:28:B7:AA:29:CA:B1:5A:2B:48:F1:2A:4F:42",
+      "sha256": "7B:D8:6A:70:6C:A7:29:CE:9F:14:EF:48:C3:48:8D:B2:50:E3:6F:7A:F7:F6:B7:25:40:FC:94:F4:60:4B:85:3E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.credito-em-conta.pt",
+        "credito-em-conta.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.credito-em-conta.pt, DNS:credito-em-conta.pt",
+        "subjectKeyIdentifier": "keyid:06:17:b3:84:73:45:ce:b8:c3:46:c1:f2:b7:b3:1a:1a:08:d5:20:72"
+      }
+    },
+    "cert_index": 4075256679,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4075256679&end=4075256679",
+    "seen": 1778006456.892,
+    "submission_timestamp": 1777990419.48,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

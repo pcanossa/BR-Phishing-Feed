@@ -1,0 +1,52 @@
+{
+  "dominio": "testing.creditonebabk.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 15:11:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.creditonebabk.com",
+        "aggregated": "/CN=testing.creditonebabk.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "D4FC33B600EAAD76CB863DB90B254A54",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "A6:EB:55:7F:33:8A:EE:88:7A:E8:11:F7:2E:CF:FB:2B:72:E7:82:DF",
+      "sha1": "A6:EB:55:7F:33:8A:EE:88:7A:E8:11:F7:2E:CF:FB:2B:72:E7:82:DF",
+      "sha256": "E4:A3:8A:3E:AB:67:94:AC:43:8A:90:85:F7:12:4F:AF:FD:10:D6:01:D7:A6:AB:87:BF:88:1B:AF:22:F0:FD:E0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "testing.creditonebabk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:testing.creditonebabk.com",
+        "subjectKeyIdentifier": "keyid:c6:ed:a9:79:18:67:2f:0c:af:38:cf:04:1c:2e:48:ad:62:84:f8:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4074828391,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4074828391&end=4074828391",
+    "seen": 1778004660.452,
+    "submission_timestamp": 1777988749.3,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

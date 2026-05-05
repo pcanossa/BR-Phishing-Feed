@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-lab.shop",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 15:46:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-lab.shop",
+        "aggregated": "/CN=pix-lab.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "051C3EB4E95192C07E69E9937ACE318D66F5",
+      "not_before": 1777904350,
+      "not_after": 1785680349,
+      "fingerprint": "B3:7C:94:21:CE:20:9C:6D:B2:E3:C8:22:2A:2F:58:E2:E1:E1:FA:6B",
+      "sha1": "B3:7C:94:21:CE:20:9C:6D:B2:E3:C8:22:2A:2F:58:E2:E1:E1:FA:6B",
+      "sha256": "F9:70:FA:70:EB:47:85:C5:A9:B9:C4:DC:DF:F0:35:74:44:5E:4F:09:E5:C3:0D:5E:4D:4D:CF:A9:E9:86:E8:38",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-lab.shop",
+        "*.pix-lab.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pix-lab.shop, DNS:pix-lab.shop",
+        "subjectKeyIdentifier": "keyid:69:f7:0d:8c:5e:f5:1c:4e:08:c7:a1:12:47:76:24:41:6d:f6:92:7c"
+      }
+    },
+    "cert_index": 584256247,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=584256247&end=584256247",
+    "seen": 1778006786.085,
+    "submission_timestamp": 1777907865.679,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
