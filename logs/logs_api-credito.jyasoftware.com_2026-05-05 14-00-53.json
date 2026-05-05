@@ -1,0 +1,51 @@
+{
+  "dominio": "api-credito.jyasoftware.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 14:00:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-credito.jyasoftware.com",
+        "aggregated": "/CN=api-credito.jyasoftware.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06BBEEB22E01B4F75BC3B004F39609A30DA2",
+      "not_before": 1777981028,
+      "not_after": 1785757027,
+      "fingerprint": "21:06:4D:87:9F:F3:10:18:B9:D7:97:7A:6C:80:74:8E:63:5C:7F:8E",
+      "sha1": "21:06:4D:87:9F:F3:10:18:B9:D7:97:7A:6C:80:74:8E:63:5C:7F:8E",
+      "sha256": "65:D4:19:DF:28:F0:7D:43:91:F4:50:BE:E6:AA:82:C9:97:21:93:8A:C6:32:38:3F:BE:1F:6B:95:34:B4:FE:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-credito.jyasoftware.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-credito.jyasoftware.com",
+        "subjectKeyIdentifier": "keyid:ad:be:2d:72:4c:01:5f:fb:dc:d4:c8:05:e5:53:f7:7d:9c:9c:80:d9"
+      }
+    },
+    "cert_index": 4073858407,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4073858407&end=4073858407",
+    "seen": 1778000453.451,
+    "submission_timestamp": 1777984635.425,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "backend.creditoconproposito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 13:59:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "backend.creditoconproposito.com",
+        "aggregated": "/CN=backend.creditoconproposito.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "34EC6A8F10B2920C1F84EFC0C4FFE031",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "F4:63:2B:1F:8B:39:C9:19:9E:4C:BB:05:37:A4:9D:1D:A2:43:98:83",
+      "sha1": "F4:63:2B:1F:8B:39:C9:19:9E:4C:BB:05:37:A4:9D:1D:A2:43:98:83",
+      "sha256": "4C:21:85:7F:21:6F:03:4B:EE:F8:95:B6:8A:D7:40:5B:D2:1B:AF:14:D7:41:7C:96:A0:B2:8B:00:6D:15:91:3C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "backend.creditoconproposito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:backend.creditoconproposito.com",
+        "subjectKeyIdentifier": "keyid:04:c3:63:e9:29:a4:9d:9b:e4:df:d2:ea:c0:cb:51:9e:62:75:e1:99"
+      }
+    },
+    "cert_index": 4073841712,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4073841712&end=4073841712",
+    "seen": 1778000379.258,
+    "submission_timestamp": 1777984561.058,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

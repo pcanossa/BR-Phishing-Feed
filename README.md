@@ -1,11 +1,11 @@
 # Br-Phishing-Feed: Feed de Detecções de Domínios Phishing no Brasil
 
 
-O **Br-Phishing-Feed** é uma infraestrutura de coleta rápida e resiliente projetada para operações de Cyber Threat Intelligence (CTI). Ele fornece um feed de domínios potencialmente malignos, obtidos diretamente pelo CertStream que consome o feed global de Transparência de Certificados (CT Logs) em tempo real, com filtro de falsos positivos relizados por IA Ollama.
+O **Br-Phishing-Feed** é uma infraestrutura de coleta rápida e resiliente projetada para operações de Cyber Threat Intelligence (CTI). Ele fornece um feed de domínios potencialmente malignos, obtidos diretamente pelo CertStream que consome o feed global de Transparência de Certificados (CT Logs) em tempo real, com filtro de falsos positivos realizados por IA Ollama.
 
 Este repositório disponibiliza **exclusivamente o Feed obtido e filtrado**. O objetivo é fornecer uma "mangueira de dados" limpa, sem latência e sem limites de taxa (rate limiting), servindo como base para pipelines de segurança, detecção de phishing e proteção de marcas.
 
-Os domínios filtrados, podem ser encontrados na pasta `phishing-domain-feed` e o log de base para filtro, obtido pelo CertStream na pasta `Logs`.
+Os domínios filtrados podem ser encontrados na pasta `phishing-domain-feed` e o log de base para filtro, obtido pelo CertStream na pasta `Logs`, sendo armazenados os log já analisados pelo filtro na pasta `logs_filtrados`.
 
 ---
 
@@ -16,14 +16,18 @@ Para lidar com a avalanche de dados globais (centenas de certificados por segund
 1. **Camada 1 - A Fonte (Este Repositório):** Servidor local conectando-se aos CT Logs globais e expondo um WebSocket.
 2. **Camada 2 - Filtro Heurístico Rápido:** Um consumidor (ex: script Python ou n8n) que aplica filtros Regex e Whitelists para cortar 99% do ruído mundial e isolar marcas de interesse.
 3. **Camada 3 - Triagem com IA e Auditoria:** Domínios que passam pelo filtro rápido são enviados a um LLM (ex: Ollama local com GPT oss) para análise de contexto, *typosquatting* e intenção maliciosa.
+4. **Camada 4 - Registro dos Dados:** Todos os domínios analisados, são registrados em um banco de dados, com a classificção de ter sido um falso positivo ou não, para auditoria e refino da camada 2.
+
+--
 
 ## 🧠 Triagem Inteligente e Auditoria de Falsos Positivos
 
-O grande desafio da detecção baseada em palavras-chave é o alto índice de **Falsos Positivos**. Para resolver isso, a integração de um LLM no final do pipeline não apenas valida a ameaça, mas **audita a decisão**.
+O grande desafio da detecção baseada em palavras-chave é o alto índice de **Falsos Positivos**. Para resolver isso, a integração de um LLM no final do pipeline e registro das análises dos logs obtidos pelo filtro heurístico, em banco de dados, não apenas valida a ameaça, mas **audita a decisão**.
 
 Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar um relatório em JSON documentando o raciocínio forense que a levou a classificar o domínio como um **Real Positivo**. 
 
-**------------------IMPORTANTE: O FLUXO DE TRIAGEM CRIADA, NÃO EXCLUI A POSSIBILIDADE 0% DE OCORRÊNCIA DE FALSOS POSITIVOS------------------**
+**IMPORTANTE: O FLUXO DE TRIAGEM CRIADA, NÃO TORNA À 0%, A POSSIBILIDADE DE OCORRÊNCIA DE FALSOS POSITIVOS**
+**FALSOS POSITIVOS AINDA PODEM OCORRER**
 
 
 **Exemplo de Saída Esperada do Pipeline de IA:**
@@ -48,7 +52,7 @@ Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar 
 Como todo feed recém-lançado operando em cima de logs brutos, esta versão inicial possui pontos de melhoria que já estão mapeados para as próximas atualizações:
 
 * **Falsos Positivos:** O filtro de Regex e a triagem atual com IA ainda podem deixar vazar domínios ambíguos. O tuning das regras heurísticas está em andamento.
-* **Gargalo de API:** O volume de domínios em lote estourou limites de cota em testes com LLMs. A implementação de um sistema de filas (Queue/Worker) para processamento assíncrono está no roadmap da V1.1.
+* **Gargalo de API:** O volume de domínios filtrados pela primeira camada, obtido pelo CertStream, ainda não consegue ser acompanhada pelo fluxo de filtragem pela LLM, devido restrições de limite computacional ou de API. A implementação de um sistema de filas (Queue/Worker) para processamento assíncrono está no roadmap da V1.1.
   
 ---
 ## Criadora do Projeto
@@ -58,7 +62,7 @@ Como todo feed recém-lançado operando em cima de logs brutos, esta versão ini
 ---
 ## Objetivo do Projeto
 
-Esse projeto foi criado, principalmente, para, fornecer de forma fácil e aberta, inteligência de detecção de domínios, com alto potencial de malignidade, para vítimas do Brasil, assim, permitindo a fácil detecção e atividade em CTI, por profissionais atuantes no mercado de trabalho e pesquisadores indepentes, fortalecendo a comunidade de Cibersegutana do Brasil e auxiliando no aumento segurança cibernética nacional e proteção das vítimas. 
+Esse projeto foi criado, principalmente, para, fornecer de forma fácil e aberta, inteligência de detecção de domínios, com alto potencial de malignidade, para vítimas do Brasil, assim, permitindo a fácil detecção e atividade em CTI, por profissionais atuantes no mercado de trabalho e pesquisadores e Cibersegurança, e assim, auxiliando no aumento segurança cibernética nacional e proteção das vítimas. 
 <br>
 <br>
 Sinta-se a vontade para **apoiar** o projeto com **sugestões**, **críticas** e **colaboração direta de melhorias**. **Toda ajuda é bem vinda**!!
