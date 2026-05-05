@@ -1,0 +1,53 @@
+{
+  "dominio": "my-next-app-1zf.pages.dev",
+  "marcas_encontradas": [
+    "next"
+  ],
+  "timestamp": "05/04/26 22:32:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-next-app-1zf.pages.dev",
+        "aggregated": "/CN=my-next-app-1zf.pages.dev"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "482E2CFFCF8CCCC8A4F46AA04BE78491",
+      "not_before": 1777939200,
+      "not_after": 1785720531,
+      "fingerprint": "DB:EF:39:1E:10:C1:7F:00:FC:FD:F4:59:58:10:45:32:D8:A4:F4:73",
+      "sha1": "DB:EF:39:1E:10:C1:7F:00:FC:FD:F4:59:58:10:45:32:D8:A4:F4:73",
+      "sha256": "56:25:65:B8:C6:50:DB:7C:68:9F:35:A4:2F:BA:7A:CA:B7:8F:39:71:6E:8A:DF:4A:6B:78:4C:A9:FE:E3:B3:DB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "my-next-app-1zf.pages.dev",
+        "*.my-next-app-1zf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:my-next-app-1zf.pages.dev, DNS:*.my-next-app-1zf.pages.dev",
+        "subjectKeyIdentifier": "keyid:f5:a8:42:22:76:29:7a:de:46:bf:b6:a6:86:1d:02:34:da:2e:39:40",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 605655494,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=605655494&end=605655494",
+    "seen": 1777944748.143,
+    "submission_timestamp": 1777944623.733,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

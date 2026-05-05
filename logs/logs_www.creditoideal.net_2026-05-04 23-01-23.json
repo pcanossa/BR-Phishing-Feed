@@ -1,0 +1,51 @@
+{
+  "dominio": "www.creditoideal.net",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 23:01:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditoideal.net",
+        "aggregated": "/CN=www.creditoideal.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "4D04CEC446F7EE4B",
+      "not_before": 1777930635,
+      "not_after": 1795037835,
+      "fingerprint": "DC:9A:47:87:1F:D0:3E:C4:18:BC:C2:93:A9:1E:2B:35:99:C1:89:71",
+      "sha1": "DC:9A:47:87:1F:D0:3E:C4:18:BC:C2:93:A9:1E:2B:35:99:C1:89:71",
+      "sha256": "55:7B:D1:F6:77:A1:45:43:AE:4E:99:3A:76:AE:35:43:CA:16:FA:E2:CD:EA:71:EE:A8:AD:27:BD:56:AC:F7:9C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditoideal.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.creditoideal.net",
+        "subjectKeyIdentifier": "keyid:9a:db:36:4e:6c:a3:cb:88:24:02:a5:2f:9a:57:32:47:73:5c:32:e8"
+      }
+    },
+    "cert_index": 4061962365,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061962365&end=4061962365",
+    "seen": 1777946483.588,
+    "submission_timestamp": 1777935718.376,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

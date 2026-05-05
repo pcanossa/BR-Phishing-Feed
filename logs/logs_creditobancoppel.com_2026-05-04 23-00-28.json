@@ -1,0 +1,51 @@
+{
+  "dominio": "creditobancoppel.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 23:00:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditobancoppel.com",
+        "aggregated": "/CN=creditobancoppel.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "047EFB9788C20FAD",
+      "not_before": 1777930606,
+      "not_after": 1795037806,
+      "fingerprint": "76:5F:05:C5:91:E1:DA:F4:91:EC:30:D2:B5:1F:8D:89:BB:1E:E4:67",
+      "sha1": "76:5F:05:C5:91:E1:DA:F4:91:EC:30:D2:B5:1F:8D:89:BB:1E:E4:67",
+      "sha256": "F9:FD:20:23:8D:1D:CF:41:E3:86:3C:58:D5:B2:59:D3:BD:30:29:A9:AD:10:89:25:1E:6C:34:4D:B2:60:F0:CE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditobancoppel.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditobancoppel.com",
+        "subjectKeyIdentifier": "keyid:00:c5:d7:42:b4:c1:ee:d5:56:31:65:99:8f:65:d9:01:8f:e4:17:8d"
+      }
+    },
+    "cert_index": 4061949238,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061949238&end=4061949238",
+    "seen": 1777946427.382,
+    "submission_timestamp": 1777935665.42,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

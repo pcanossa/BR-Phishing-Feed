@@ -1,0 +1,52 @@
+{
+  "dominio": "api.creditor-bnpp-iacc.sepasuite.iacc.as8677.net",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/04/26 22:49:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.creditor-bnpp-iacc.sepasuite.iacc.as8677.net",
+        "aggregated": "/CN=api.creditor-bnpp-iacc.sepasuite.iacc.as8677.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "560711A0F4950DBB0AB7CA5222CD60E0",
+      "not_before": 1777931508,
+      "not_after": 1785710862,
+      "fingerprint": "BE:22:9F:F7:C8:12:BA:0F:F9:C4:AB:30:82:C5:45:47:75:CD:32:2D",
+      "sha1": "BE:22:9F:F7:C8:12:BA:0F:F9:C4:AB:30:82:C5:45:47:75:CD:32:2D",
+      "sha256": "BF:A5:2F:C3:6E:77:BF:37:25:AE:5E:7B:CF:1F:E9:4E:C7:55:CC:A2:57:93:BD:5B:62:D7:47:B7:EA:A4:E1:D9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.creditor-bnpp-iacc.sepasuite.iacc.as8677.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/Vgc, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.creditor-bnpp-iacc.sepasuite.iacc.as8677.net",
+        "subjectKeyIdentifier": "keyid:e6:d3:43:1f:fe:80:4f:b2:8f:b3:3a:7b:b8:b4:b6:a6:ab:d8:ba:97",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4061818677,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061818677&end=4061818677",
+    "seen": 1777945771.978,
+    "submission_timestamp": 1777935108.674,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

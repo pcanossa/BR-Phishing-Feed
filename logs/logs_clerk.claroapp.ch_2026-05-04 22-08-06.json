@@ -1,0 +1,52 @@
+{
+  "dominio": "clerk.claroapp.ch",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/04/26 22:08:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "clerk.claroapp.ch",
+        "aggregated": "/CN=clerk.claroapp.ch"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5A142AAB8BC75C421360A91D135BEC20",
+      "not_before": 1777929427,
+      "not_after": 1785709019,
+      "fingerprint": "7D:53:07:9D:1A:41:A1:76:AD:3F:E7:70:2E:7F:A1:C3:AF:55:30:A1",
+      "sha1": "7D:53:07:9D:1A:41:A1:76:AD:3F:E7:70:2E:7F:A1:C3:AF:55:30:A1",
+      "sha256": "89:01:AE:E0:3C:69:C1:0D:4D:3C:B7:7A:FB:AB:BC:CB:FF:9A:E7:D4:2D:4D:72:D4:6C:F7:D0:10:F5:66:8E:61",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "clerk.claroapp.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/WhQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:clerk.claroapp.ch",
+        "subjectKeyIdentifier": "keyid:a0:4d:61:74:6e:bb:d4:f9:08:7f:30:0e:82:f9:7b:b3:d0:6a:76:85",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4061341222,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061341222&end=4061341222",
+    "seen": 1777943285.881,
+    "submission_timestamp": 1777933027.543,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

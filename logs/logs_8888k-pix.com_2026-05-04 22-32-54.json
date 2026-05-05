@@ -1,0 +1,53 @@
+{
+  "dominio": "8888k-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 22:32:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "8888k-pix.com",
+        "aggregated": "/CN=8888k-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "340B845BC4C6C92A0D9E933D0EBCBF3E",
+      "not_before": 1777824950,
+      "not_after": 1785604261,
+      "fingerprint": "A2:B3:17:F5:06:6B:BB:F8:7B:2D:1B:14:16:F4:2E:EC:E9:1A:FF:7D",
+      "sha1": "A2:B3:17:F5:06:6B:BB:F8:7B:2D:1B:14:16:F4:2E:EC:E9:1A:FF:7D",
+      "sha256": "66:F6:6F:D1:E8:A3:08:18:B5:99:C8:ED:5C:28:F3:73:75:F1:28:DF:05:0F:B6:54:5A:2E:3B:0E:D6:8F:E3:58",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "8888k-pix.com",
+        "*.8888k-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/NAs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:8888k-pix.com, DNS:*.8888k-pix.com",
+        "subjectKeyIdentifier": "keyid:00:31:25:f0:61:09:a3:63:39:af:a2:a8:cf:49:3e:36:04:e1:3d:51",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 676225804,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=676225804&end=676225804",
+    "seen": 1777944774.111,
+    "submission_timestamp": 1777828550.768,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

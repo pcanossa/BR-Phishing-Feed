@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-app.xyz",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/04/26 22:50:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-app.xyz",
+        "aggregated": "/CN=pix-app.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "066DF78C3C22183DEE0F4BD31DAB6874AAC1",
+      "not_before": 1777931624,
+      "not_after": 1785707623,
+      "fingerprint": "CD:7D:66:B0:22:ED:47:F0:7C:15:4E:75:8F:C3:63:B6:00:AF:2B:3B",
+      "sha1": "CD:7D:66:B0:22:ED:47:F0:7C:15:4E:75:8F:C3:63:B6:00:AF:2B:3B",
+      "sha256": "55:DD:F2:DF:77:FA:A0:8D:87:D1:52:1C:3F:CD:B0:A8:A4:B0:E7:BD:B0:F2:D4:BE:1B:93:6B:A8:BB:79:D8:94",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-app.xyz",
+        "*.pix-app.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pix-app.xyz, DNS:pix-app.xyz",
+        "subjectKeyIdentifier": "keyid:a3:6c:8c:13:a3:8b:c2:93:ad:93:b7:57:56:da:68:24:9e:58:dc:18"
+      }
+    },
+    "cert_index": 4061827616,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061827616&end=4061827616",
+    "seen": 1777945817.199,
+    "submission_timestamp": 1777935137.994,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

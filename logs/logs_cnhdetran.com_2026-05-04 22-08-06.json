@@ -1,0 +1,52 @@
+{
+  "dominio": "cnhdetran.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/04/26 22:08:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cnhdetran.com",
+        "aggregated": "/CN=cnhdetran.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "92AA7D72171324CD0E389E45E26DB6BD",
+      "not_before": 1777929357,
+      "not_after": 1785708790,
+      "fingerprint": "55:39:C7:2D:0D:6C:85:EB:84:68:54:04:9E:F9:83:20:8E:38:61:7C",
+      "sha1": "55:39:C7:2D:0D:6C:85:EB:84:68:54:04:9E:F9:83:20:8E:38:61:7C",
+      "sha256": "AC:C1:D5:59:0F:F8:85:E8:E8:33:1D:BD:7E:23:E2:A6:F5:D0:E3:0F:EE:71:55:E0:71:AB:DF:76:CB:B8:00:93",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cnhdetran.com",
+        "*.cnhdetran.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/kqo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cnhdetran.com, DNS:*.cnhdetran.com",
+        "subjectKeyIdentifier": "keyid:86:f8:64:95:a8:6d:a9:f6:cd:c0:65:2e:a4:25:0b:e6:1e:4e:e9:a6"
+      }
+    },
+    "cert_index": 4061341204,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4061341204&end=4061341204",
+    "seen": 1777943285.879,
+    "submission_timestamp": 1777933027.462,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
