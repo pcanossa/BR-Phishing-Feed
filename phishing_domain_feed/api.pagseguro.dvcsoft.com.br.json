@@ -1,0 +1,12 @@
+{
+    "dominio": "api.pagseguro.dvcsoft.com.br",
+    "data_registro": "05/05/26 09:48:54",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínio 'api' associado a uma marca financeira ('pagseguro') para conferir falsa legitimidade a um domínio de terceiro ('dvcsoft.com.br')",
+        "Domínio principal ('dvcsoft.com.br') não pertence à infraestrutura oficial do PagSeguro, configurando técnica de typosquatting ou uso abusivo de marca em subdomínio",
+        "Padrão de nomenclatura frequentemente utilizado para exfiltração de dados ou intermédio de transações fraudulentas (Man-in-the-Middle)",
+        "O domínio raiz não apresenta relação institucional com o serviço financeiro, sendo um forte indicador de engenharia social focada em usuários brasileiros"
+    ],
+    "analise_comportamental": "O domínio utiliza o nome de uma instituição de pagamento amplamente utilizada no Brasil (PagSeguro) em um subdomínio, hospedado em um domínio de terceiros sem vínculo com a empresa. Essa tática é típica de campanhas de phishing ou redirecionamento de API maliciosa, visando interceptar dados de pagamento ou induzir usuários a realizar transações em ambiente controlado pelo atacante."
+}
