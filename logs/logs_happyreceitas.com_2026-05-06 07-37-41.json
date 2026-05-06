@@ -1,0 +1,53 @@
+{
+  "dominio": "happyreceitas.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/06/26 07:37:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "happyreceitas.com",
+        "aggregated": "/CN=happyreceitas.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "3EEB4E84FF83EB018B09A873A6FEC98B",
+      "not_before": 1778025600,
+      "not_after": 1785839638,
+      "fingerprint": "C2:DF:65:7E:65:5A:2B:80:DB:69:02:10:82:09:88:75:FE:F8:5C:0E",
+      "sha1": "C2:DF:65:7E:65:5A:2B:80:DB:69:02:10:82:09:88:75:FE:F8:5C:0E",
+      "sha256": "47:01:E6:4C:E6:DC:1B:34:B7:5C:42:A3:93:BB:A6:32:12:DC:45:12:7D:78:84:15:8A:C1:C9:CB:17:EE:D8:2E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "happyreceitas.com",
+        "*.happyreceitas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:happyreceitas.com, DNS:*.happyreceitas.com",
+        "subjectKeyIdentifier": "keyid:da:5e:31:1a:8f:ea:b2:fa:2e:57:4d:0b:41:c7:65:be:be:c9:25:57",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 625263425,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=625263425&end=625263425",
+    "seen": 1778063859.489,
+    "submission_timestamp": 1778063790.06,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

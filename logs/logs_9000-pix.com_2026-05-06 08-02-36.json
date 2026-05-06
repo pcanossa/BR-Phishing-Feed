@@ -1,0 +1,53 @@
+{
+  "dominio": "9000-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 08:02:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "9000-pix.com",
+        "aggregated": "/CN=9000-pix.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "FFE793A7E845423012032DBAA29855FF",
+      "not_before": 1778025600,
+      "not_after": 1785841144,
+      "fingerprint": "38:3B:9F:B3:D2:B6:4A:A6:76:F5:5C:23:AE:44:CB:4E:20:97:CC:A7",
+      "sha1": "38:3B:9F:B3:D2:B6:4A:A6:76:F5:5C:23:AE:44:CB:4E:20:97:CC:A7",
+      "sha256": "02:C0:C2:C7:BB:B4:6C:42:A9:14:C8:36:E4:3D:E3:8A:A3:32:4B:B1:FE:9A:45:4F:F5:FA:AD:CF:9F:A7:E9:90",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "9000-pix.com",
+        "*.9000-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:9000-pix.com, DNS:*.9000-pix.com",
+        "subjectKeyIdentifier": "keyid:68:1a:88:c6:36:06:2d:fe:7a:a8:36:72:60:0a:af:07:06:83:d7:30",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 625489386,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=625489386&end=625489386",
+    "seen": 1778065353.713,
+    "submission_timestamp": 1778065235.102,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

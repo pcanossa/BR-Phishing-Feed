@@ -1,0 +1,52 @@
+{
+  "dominio": "consulta-debitos-ms.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 07:15:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "consulta-debitos-ms.sa.com",
+        "aggregated": "/CN=consulta-debitos-ms.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BA42918861C5B89C0DCF5BA37CA7B8FD",
+      "not_before": 1777835593,
+      "not_after": 1785615056,
+      "fingerprint": "3D:38:A4:40:81:8F:C0:43:52:7A:12:23:40:90:76:39:C1:3A:DA:54",
+      "sha1": "3D:38:A4:40:81:8F:C0:43:52:7A:12:23:40:90:76:39:C1:3A:DA:54",
+      "sha256": "1B:8D:38:97:A1:AF:14:91:AA:76:CB:8A:60:A9:BA:66:A0:EB:BE:E6:9E:FB:B6:21:6D:59:1E:E9:36:BE:93:38",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "consulta-debitos-ms.sa.com",
+        "*.consulta-debitos-ms.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ukI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:consulta-debitos-ms.sa.com, DNS:*.consulta-debitos-ms.sa.com",
+        "subjectKeyIdentifier": "keyid:4e:06:6a:a3:71:5b:b0:fa:ce:80:62:96:9d:21:0e:da:10:2a:4b:4c"
+      }
+    },
+    "cert_index": 820312162,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820312162&end=820312162",
+    "seen": 1778062498.837,
+    "submission_timestamp": 1777839258.761,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

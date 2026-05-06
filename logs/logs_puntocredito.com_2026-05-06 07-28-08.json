@@ -1,0 +1,52 @@
+{
+  "dominio": "puntocredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 07:28:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "puntocredito.com",
+        "aggregated": "/CN=puntocredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "CEC606193F55DEDB",
+      "not_before": 1778051381,
+      "not_after": 1795158581,
+      "fingerprint": "51:CE:B1:42:72:B5:3D:0E:1B:F3:D2:72:5E:ED:36:2A:76:97:6D:5F",
+      "sha1": "51:CE:B1:42:72:B5:3D:0E:1B:F3:D2:72:5E:ED:36:2A:76:97:6D:5F",
+      "sha256": "18:29:DA:FD:3A:F8:D8:A3:FD:05:58:08:F0:E8:BA:5A:A9:E9:6F:04:8D:6B:18:9A:06:3F:D3:81:08:4B:4B:A3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "puntocredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:puntocredito.com",
+        "subjectKeyIdentifier": "keyid:53:79:b5:c7:6c:4c:1b:98:c1:92:7d:d3:0d:34:fe:a1:4f:bc:5d:12",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4089212880,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4089212880&end=4089212880",
+    "seen": 1778063287.319,
+    "submission_timestamp": 1778051382.467,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "helm.appengine.sedexonline.com",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/06/26 07:09:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "helm.appengine.sedexonline.com",
+        "aggregated": "/CN=helm.appengine.sedexonline.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "CF599E9A0C53C30D10ABA8BF2F3FA17D",
+      "not_before": 1778046913,
+      "not_after": 1785825683,
+      "fingerprint": "10:E4:A0:C5:12:3E:98:77:46:80:03:EE:B4:82:13:78:B4:6D:06:94",
+      "sha1": "10:E4:A0:C5:12:3E:98:77:46:80:03:EE:B4:82:13:78:B4:6D:06:94",
+      "sha256": "3D:2A:2A:3F:69:F5:59:9A:9C:92:81:DF:78:5E:11:4A:E9:0F:34:AF:A6:77:60:5E:26:63:21:BC:F1:ED:D8:EC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "helm.appengine.sedexonline.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/z1k, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:helm.appengine.sedexonline.com",
+        "subjectKeyIdentifier": "keyid:bb:56:23:4a:0d:5d:c4:2b:11:ed:15:2b:29:19:c4:a9:da:f5:10:fd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4088966356,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088966356&end=4088966356",
+    "seen": 1778062187.242,
+    "submission_timestamp": 1778050514.036,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

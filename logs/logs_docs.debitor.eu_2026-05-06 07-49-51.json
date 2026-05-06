@@ -1,0 +1,51 @@
+{
+  "dominio": "docs.debitor.eu",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 07:49:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "docs.debitor.eu",
+        "aggregated": "/CN=docs.debitor.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05E6D5320BD67F799A23CCCAF435FC37947C",
+      "not_before": 1777836100,
+      "not_after": 1785612099,
+      "fingerprint": "B9:F2:91:D3:25:24:CD:04:5C:3B:56:25:F3:17:75:A2:C8:6A:BA:36",
+      "sha1": "B9:F2:91:D3:25:24:CD:04:5C:3B:56:25:F3:17:75:A2:C8:6A:BA:36",
+      "sha256": "6F:0D:66:6D:A5:BC:A4:C4:4D:92:75:08:ED:BD:CA:8E:1B:85:CB:6B:78:D8:78:A4:E1:46:01:50:81:4C:06:67",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "docs.debitor.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:docs.debitor.eu",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 820349097,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820349097&end=820349097",
+    "seen": 1778064589.267,
+    "submission_timestamp": 1777839610.912,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

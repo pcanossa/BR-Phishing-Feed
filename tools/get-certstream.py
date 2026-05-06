@@ -17,7 +17,7 @@ MARCAS_LONGAS = [
     'correios', 'caixa', 'nubank', 'itau', 'bancodobrasil', 'receita', 
     'bradesco', 'santander', 'mercadolivre', 'magalu', 'americanas', 
     'detran', 'serasa', 'sicoob', 'c6bank', 'pagseguro', 'picpay', 
-    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'credito', 'debito', 'sedex', 'fazenda'
+    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'debito', 'sedex', 'fazenda'
 ]
 
 # Iscas de Engenharia Social
@@ -25,7 +25,7 @@ ISCAS = [
     'rastreio', 'taxa', 'promocao', 'seguranca', 'atualizacao', 'pagamento', 
     'app', 'login', 'desbloqueio', 'rastreamento', 'verificacao', 'confirmacao', 
     'alerta', 'bloqueio', 'senha', 'acesso', 'seguro', 'atencao', 'urgente', 
-    'comprovante', 'boleto', 'fatura', 'cartao', 'credito', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'pix', 'irpf', 'auxilio', 'freeflow'
+    'comprovante', 'boleto', 'fatura', 'cartao', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'pix', 'irpf', 'auxilio', 'freeflow'
 ]
 
 # Domínios base permitidos (O .endswith já cobre subdomínios, ex: gov.br libera TUDO do governo)

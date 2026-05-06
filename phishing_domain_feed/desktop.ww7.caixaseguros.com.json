@@ -1,0 +1,12 @@
+{
+    "dominio": "desktop.ww7.caixaseguros.com",
+    "data_registro": "05/06/26 07:27:14",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínios aninhados (ww7) em um domínio que simula a marca 'Caixa Seguros', técnica comum para ocultar a estrutura real de sites de phishing",
+        "O padrão de subdomínio 'desktop.ww7' é um forte indicador de automação ou geração aleatória para hospedagem de páginas fraudulentas de login",
+        "Alvo claro de exploração da marca 'Caixa' (instituição financeira brasileira) para coleta de credenciais ou dados sensíveis",
+        "Utilização de estrutura de subdomínio para evadir detecção de reputação do domínio principal (caixaseguros.com) ou para compor uma URL que induz ao erro o usuário brasileiro"
+    ],
+    "analise_comportamental": "O domínio apresenta padrões de engenharia social voltados ao público brasileiro, utilizando o nome de uma seguradora estatal para atrair vítimas. A estrutura de subdomínios é altamente atípica para comunicações legítimas, sugerindo a criação de uma página de destino maliciosa (landing page) hospedada sob uma hierarquia que tenta conferir credibilidade à instituição financeira."
+}

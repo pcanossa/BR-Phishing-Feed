@@ -1,0 +1,52 @@
+{
+  "dominio": "admin.creditonrbank.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 07:31:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "admin.creditonrbank.com",
+        "aggregated": "/CN=admin.creditonrbank.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "20A23073C3DE372EB28A25F3B466F86C",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "38:FA:C8:D1:C5:92:5C:77:72:34:39:8A:87:2A:F9:34:B1:9A:E8:93",
+      "sha1": "38:FA:C8:D1:C5:92:5C:77:72:34:39:8A:87:2A:F9:34:B1:9A:E8:93",
+      "sha256": "B1:F2:7A:B1:35:05:4D:46:E7:59:12:54:01:CE:D9:26:36:06:21:91:3C:14:46:30:04:75:61:D2:70:01:9A:83",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "admin.creditonrbank.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:admin.creditonrbank.com",
+        "subjectKeyIdentifier": "keyid:96:07:c1:b9:8f:b1:3a:4e:8e:79:ed:06:d6:00:31:63:0f:e2:89:aa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4089268166,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4089268166&end=4089268166",
+    "seen": 1778063496.686,
+    "submission_timestamp": 1778051565.007,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "ex02.i-pix.uk.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 07:52:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ex02.i-pix.uk.com",
+        "aggregated": "/CN=ex02.i-pix.uk.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05B63C4FD26D9539955680520249858A8F3F",
+      "not_before": 1778061236,
+      "not_after": 1785837235,
+      "fingerprint": "ED:DE:86:2C:7B:CD:90:73:ED:18:25:B4:2C:76:9B:F6:36:01:36:51",
+      "sha1": "ED:DE:86:2C:7B:CD:90:73:ED:18:25:B4:2C:76:9B:F6:36:01:36:51",
+      "sha256": "1A:AE:3F:A5:DB:20:65:12:9F:BE:DC:C8:F4:30:A1:48:E9:1F:32:36:47:44:AA:2E:81:67:0B:3C:88:99:75:2A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "ex02.i-pix.uk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ex02.i-pix.uk.com",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 172038186,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x672/024",
+    "seen": 1778064750.394,
+    "submission_timestamp": 1778064747.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

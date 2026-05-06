@@ -1,0 +1,52 @@
+{
+  "dominio": "www.creditor.demo1.gr",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 07:06:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditor.demo1.gr",
+        "aggregated": "/CN=creditor.demo1.gr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05317FC350E3C9887554A5C03F017B02B85C",
+      "not_before": 1778046704,
+      "not_after": 1785822703,
+      "fingerprint": "53:29:4C:61:69:B2:CA:80:01:94:2F:BE:D9:9D:AD:44:89:CE:CA:AE",
+      "sha1": "53:29:4C:61:69:B2:CA:80:01:94:2F:BE:D9:9D:AD:44:89:CE:CA:AE",
+      "sha256": "88:25:C3:3D:53:06:6E:93:2C:31:D0:78:41:A7:D9:8B:1A:D0:52:4A:08:BD:49:8F:10:A7:28:E0:D6:97:20:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditor.demo1.gr",
+        "www.creditor.demo1.gr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditor.demo1.gr, DNS:www.creditor.demo1.gr",
+        "subjectKeyIdentifier": "keyid:a1:32:55:fa:23:95:75:6c:a7:30:49:5b:91:85:ed:45:66:59:b0:6f"
+      }
+    },
+    "cert_index": 4088910057,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088910057&end=4088910057",
+    "seen": 1778062010.176,
+    "submission_timestamp": 1778050217.21,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
