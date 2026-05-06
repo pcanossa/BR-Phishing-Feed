@@ -1,0 +1,51 @@
+{
+  "dominio": "dark-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 14:40:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dark-pix.com",
+        "aggregated": "/CN=dark-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05880E006ED7BE2F0F3F3F1B7932131CF3BF",
+      "not_before": 1778075901,
+      "not_after": 1785851900,
+      "fingerprint": "DB:F7:DC:CC:A3:31:3E:0F:2D:F0:2F:0A:30:7C:1F:2F:CF:AF:34:52",
+      "sha1": "DB:F7:DC:CC:A3:31:3E:0F:2D:F0:2F:0A:30:7C:1F:2F:CF:AF:34:52",
+      "sha256": "BB:66:C9:08:13:10:B1:A6:E5:20:61:0B:4D:A3:99:86:BD:B1:07:B4:F9:8F:19:42:BB:F8:B4:F6:B8:7A:54:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dark-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dark-pix.com",
+        "subjectKeyIdentifier": "keyid:5f:be:da:82:c2:2b:9c:a4:be:6e:92:cf:34:5c:d9:3c:3d:24:61:77"
+      }
+    },
+    "cert_index": 4095692788,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4095692788&end=4095692788",
+    "seen": 1778089218.985,
+    "submission_timestamp": 1778079415.421,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

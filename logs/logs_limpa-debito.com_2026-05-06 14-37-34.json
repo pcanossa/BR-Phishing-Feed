@@ -1,0 +1,53 @@
+{
+  "dominio": "limpa-debito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 14:37:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpa-debito.com",
+        "aggregated": "/CN=limpa-debito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068DAEBE28C151CF71FDC6F03E64DDCE831D",
+      "not_before": 1777948754,
+      "not_after": 1785724753,
+      "fingerprint": "F8:15:4F:EC:8F:E1:6E:B6:52:53:FA:9E:CF:C4:ED:08:D2:8F:7A:93",
+      "sha1": "F8:15:4F:EC:8F:E1:6E:B6:52:53:FA:9E:CF:C4:ED:08:D2:8F:7A:93",
+      "sha256": "5E:F6:2E:07:CB:E3:66:E1:15:55:BD:01:27:1D:E3:7D:EB:89:04:11:8A:10:C0:E7:55:DC:1F:9A:02:CB:C4:D8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "limpa-debito.com",
+        "*.limpa-debito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.limpa-debito.com, DNS:limpa-debito.com",
+        "subjectKeyIdentifier": "keyid:d1:84:f1:33:20:36:c7:55:8b:a2:0a:75:bb:53:03:c4:b1:f4:7b:1e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 589396352,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=589396352&end=589396352",
+    "seen": 1778089052.116,
+    "submission_timestamp": 1777952265.087,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

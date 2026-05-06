@@ -1,0 +1,51 @@
+{
+  "dominio": "pagseguro.debolso.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/06/26 15:03:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.debolso.com.br",
+        "aggregated": "/CN=pagseguro.debolso.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058FA8F6554B178426A787C3A1DF4DBEEC14",
+      "not_before": 1778077146,
+      "not_after": 1785853145,
+      "fingerprint": "70:F0:B7:65:3A:B9:A3:B0:89:BE:B2:67:E6:0B:33:B2:F4:0B:FA:BA",
+      "sha1": "70:F0:B7:65:3A:B9:A3:B0:89:BE:B2:67:E6:0B:33:B2:F4:0B:FA:BA",
+      "sha256": "56:CF:C1:82:65:17:BA:19:49:E5:1F:F3:DE:EC:E9:D1:AA:E0:65:42:0F:2E:65:F6:F5:8E:FE:CC:D1:3D:E2:26",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.debolso.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguro.debolso.com.br",
+        "subjectKeyIdentifier": "keyid:e4:ac:ef:06:cf:29:1c:dc:64:51:91:06:6a:dc:41:fb:cb:15:c7:bb"
+      }
+    },
+    "cert_index": 4096041909,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4096041909&end=4096041909",
+    "seen": 1778090635.321,
+    "submission_timestamp": 1778080797.901,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

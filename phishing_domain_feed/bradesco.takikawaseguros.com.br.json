@@ -1,0 +1,12 @@
+{
+    "dominio": "bradesco.takikawaseguros.com.br",
+    "data_registro": "05/06/26 14:32:11",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínio para simular legitimidade de marca bancária (Bradesco) dentro de um domínio de terceiros",
+        "Técnica conhecida como 'subdomain hijacking' ou uso abusivo de domínios comprometidos para hospedar páginas de phishing",
+        "O domínio principal 'takikawaseguros.com.br' é um alvo provável de comprometimento para servir como infraestrutura de C2 ou Phishing",
+        "A estrutura 'bradesco.[dominio_terceiro].com.br' é um padrão clássico para campanhas de engenharia social voltadas a clientes de instituições financeiras no Brasil"
+    ],
+    "analise_comportamental": "O domínio apresenta sinais claros de exploração de infraestrutura legítima comprometida para a criação de subdomínios maliciosos. A composição do nome visa induzir o usuário ao erro, acreditando estar em um ambiente oficial do banco Bradesco, caracterizando uma tentativa de fraude bancária (phishing)."
+}

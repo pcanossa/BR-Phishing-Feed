@@ -1,0 +1,51 @@
+{
+  "dominio": "www.caixasegurossaude.com.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/06/26 14:33:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.caixasegurossaude.com.br",
+        "aggregated": "/CN=www.caixasegurossaude.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "064BE7F53D0441ABF288B1A329D430F14B84",
+      "not_before": 1778075410,
+      "not_after": 1785851409,
+      "fingerprint": "33:78:AD:E8:82:4F:9A:A8:79:CF:C5:E5:54:13:54:87:CF:94:E1:88",
+      "sha1": "33:78:AD:E8:82:4F:9A:A8:79:CF:C5:E5:54:13:54:87:CF:94:E1:88",
+      "sha256": "37:00:8C:E9:6A:BB:0F:AE:F9:DF:99:CC:54:44:26:F7:34:F5:96:DA:C1:97:9C:90:2A:97:75:F5:32:F0:23:97",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.caixasegurossaude.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.caixasegurossaude.com.br",
+        "subjectKeyIdentifier": "keyid:c5:87:08:cb:f2:30:9b:ed:a1:45:58:19:14:3f:cb:f1:77:90:49:97"
+      }
+    },
+    "cert_index": 4095584576,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4095584576&end=4095584576",
+    "seen": 1778088781.977,
+    "submission_timestamp": 1778078923.862,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

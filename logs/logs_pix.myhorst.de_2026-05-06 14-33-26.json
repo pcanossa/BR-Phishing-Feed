@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.myhorst.de",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 14:33:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.myhorst.de",
+        "aggregated": "/CN=pix.myhorst.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0520E4F7F0AB692EA0CD8A32C70BE86BC5BA",
+      "not_before": 1778085291,
+      "not_after": 1785861290,
+      "fingerprint": "E7:CB:0C:EF:48:C7:49:E6:DB:52:45:4D:BD:03:51:6E:17:16:D3:70",
+      "sha1": "E7:CB:0C:EF:48:C7:49:E6:DB:52:45:4D:BD:03:51:6E:17:16:D3:70",
+      "sha256": "80:CE:D6:7A:2C:CF:7F:02:9A:B2:F7:97:55:80:06:0C:99:B5:AC:69:A0:C7:B5:5C:68:8B:88:14:26:5D:03:D1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix.myhorst.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.myhorst.de",
+        "subjectKeyIdentifier": "keyid:95:62:6f:56:5e:9c:75:61:93:7b:bb:67:94:3e:67:fc:3d:41:72:12"
+      }
+    },
+    "cert_index": 172704629,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x674/627",
+    "seen": 1778088804.13,
+    "submission_timestamp": 1778088802.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
