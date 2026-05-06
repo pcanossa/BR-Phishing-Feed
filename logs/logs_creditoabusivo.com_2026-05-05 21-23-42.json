@@ -1,0 +1,52 @@
+{
+  "dominio": "creditoabusivo.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 21:23:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoabusivo.com",
+        "aggregated": "/CN=creditoabusivo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06036F9F1762AE4EDDB5559267FD49DC8BBF",
+      "not_before": 1777914877,
+      "not_after": 1785690876,
+      "fingerprint": "1A:A9:26:CA:B0:42:D6:BB:60:A5:10:57:5B:74:95:6F:BD:70:C6:98",
+      "sha1": "1A:A9:26:CA:B0:42:D6:BB:60:A5:10:57:5B:74:95:6F:BD:70:C6:98",
+      "sha256": "3D:F8:FE:24:2D:D2:3A:5D:32:31:1E:07:AB:86:C3:78:20:32:04:1C:13:10:E6:1A:0E:97:1F:1C:1B:A2:2B:0D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditoabusivo.com",
+        "*.creditoabusivo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditoabusivo.com, DNS:creditoabusivo.com",
+        "subjectKeyIdentifier": "keyid:ff:de:63:13:62:f2:56:0e:cf:fb:56:c7:18:e7:5c:ec:b4:68:b5:d7"
+      }
+    },
+    "cert_index": 585508067,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=585508067&end=585508067",
+    "seen": 1778027021.919,
+    "submission_timestamp": 1777918391.888,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

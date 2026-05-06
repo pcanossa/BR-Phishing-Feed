@@ -1,0 +1,52 @@
+{
+  "dominio": "app.americanas.site",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/05/26 21:36:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.americanas.site",
+        "aggregated": "/CN=app.americanas.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0D97E2E116530D38E890BB0CB052BAE2",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "AE:02:65:EF:3E:EB:91:99:C5:4D:27:AF:45:61:19:36:F0:BE:BC:92",
+      "sha1": "AE:02:65:EF:3E:EB:91:99:C5:4D:27:AF:45:61:19:36:F0:BE:BC:92",
+      "sha256": "4A:E0:0F:27:24:5A:5E:F3:62:F0:89:E6:2B:EC:79:D8:1F:38:7C:AF:A7:0E:2D:A2:DA:C4:A0:DF:82:B3:61:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.americanas.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.americanas.site",
+        "subjectKeyIdentifier": "keyid:81:9f:0c:25:5e:04:fc:7a:df:27:bf:b0:65:90:c5:74:74:af:fe:4c"
+      }
+    },
+    "cert_index": 4080351825,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4080351825&end=4080351825",
+    "seen": 1778027766.926,
+    "submission_timestamp": 1778012311.887,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

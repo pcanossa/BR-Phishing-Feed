@@ -1,0 +1,54 @@
+{
+  "dominio": "pix.bloonsbrother.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 21:53:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.bloonsbrother.com",
+        "aggregated": "/CN=www.bloonsbrother.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06B78B7F0C3798CAB3B75039AD03213D1FA0",
+      "not_before": 1778010167,
+      "not_after": 1785786166,
+      "fingerprint": "22:FF:54:D6:C4:40:E7:0F:DA:5E:BA:A9:81:36:56:8E:63:9A:92:29",
+      "sha1": "22:FF:54:D6:C4:40:E7:0F:DA:5E:BA:A9:81:36:56:8E:63:9A:92:29",
+      "sha256": "53:FB:C2:14:6E:7E:64:CB:E9:50:E8:40:3E:FB:2F:D5:1D:B0:E4:D1:4C:2D:6C:AD:4C:97:F7:5D:C8:A2:FC:31",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.bloonsbrother.com",
+        "api.bloonsbrother.com",
+        "bloonsbrother.com",
+        "pix.bloonsbrother.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.bloonsbrother.com, DNS:bloonsbrother.com, DNS:pix.bloonsbrother.com, DNS:www.bloonsbrother.com",
+        "subjectKeyIdentifier": "keyid:83:a6:1d:03:9a:23:71:b1:55:94:ad:71:44:01:f4:16:5e:a1:40:80"
+      }
+    },
+    "cert_index": 4080623806,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4080623806&end=4080623806",
+    "seen": 1778028825.425,
+    "submission_timestamp": 1778013680.856,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

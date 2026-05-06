@@ -1,0 +1,60 @@
+{
+  "dominio": "apis-creditodigital.prod.bancosol.net.bo",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 22:05:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "BO",
+        "CN": "apis-solnet.prod.bancosol.net.bo",
+        "L": "La Paz",
+        "O": "Banco Solidario S.A.",
+        "aggregated": "/C=BO/CN=apis-solnet.prod.bancosol.net.bo/L=La Paz/O=Banco Solidario S.A."
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0F61F70147C8E8B03048C86800D15066",
+      "not_before": 1777939200,
+      "not_after": 1795132799,
+      "fingerprint": "C4:94:83:4B:76:1E:DE:E2:92:C0:62:CE:EB:4A:21:9E:D1:17:04:73",
+      "sha1": "C4:94:83:4B:76:1E:DE:E2:92:C0:62:CE:EB:4A:21:9E:D1:17:04:73",
+      "sha256": "8C:DA:51:D1:E8:14:76:B6:D4:CA:DD:7C:5C:5E:E1:11:BF:BE:6C:24:24:A3:46:C9:DC:09:3E:69:A4:C6:6C:0D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apis-solnet.prod.bancosol.net.bo",
+        "apis-creditodigital.prod.bancosol.net.bo",
+        "apis-integgre.prod.bancosol.net.bo",
+        "apis-saving.prod.bancosol.net.bo",
+        "apis-seguros.prod.bancosol.net.bo",
+        "apis-solnet-corp.prod.bancosol.net.bo"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apis-solnet.prod.bancosol.net.bo, DNS:apis-creditodigital.prod.bancosol.net.bo, DNS:apis-integgre.prod.bancosol.net.bo, DNS:apis-saving.prod.bancosol.net.bo, DNS:apis-seguros.prod.bancosol.net.bo, DNS:apis-solnet-corp.prod.bancosol.net.bo",
+        "subjectKeyIdentifier": "keyid:de:b5:cf:a2:4a:0d:6d:c1:d1:e9:0b:73:8a:fa:e4:91:74:2b:d8:36",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4080789488,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4080789488&end=4080789488",
+    "seen": 1778029521.407,
+    "submission_timestamp": 1778014536.943,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

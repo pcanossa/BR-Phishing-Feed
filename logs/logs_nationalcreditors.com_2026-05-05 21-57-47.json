@@ -1,0 +1,54 @@
+{
+  "dominio": "nationalcreditors.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 21:57:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q1",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q1/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01F8800CE26A21259BD1FEA089F49FCE",
+      "not_before": 1774400130,
+      "not_after": 1782176130,
+      "fingerprint": "2D:41:87:77:38:D9:04:1D:10:E1:DF:56:7D:AB:B7:B8:FB:63:E0:6F",
+      "sha1": "2D:41:87:77:38:D9:04:1D:10:E1:DF:56:7D:AB:B7:B8:FB:63:E0:6F",
+      "sha256": "C1:23:DF:56:AE:75:47:45:C4:CA:7E:90:8B:3F:21:BF:BD:C4:1C:94:FF:33:AD:4C:E1:55:8F:9A:46:B3:DC:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.nationalcreditors.com",
+        "pre-prod.nationalcreditors.com",
+        "*.fsvendor.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q1, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q1.crt",
+        "authorityKeyIdentifier": "keyid:87:82:f1:5a:b5:8d:bb:e5:a4:e4:c7:0f:87:e6:cc:96:66:58:83:c9",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.nationalcreditors.com, DNS:pre-prod.nationalcreditors.com, DNS:imperva.com, DNS:*.fsvendor.com",
+        "subjectKeyIdentifier": "keyid:66:a0:1c:05:26:68:53:0a:ec:40:13:65:ac:7d:e2:49:6f:26:c0:2c"
+      }
+    },
+    "cert_index": 170942382,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x667/743",
+    "seen": 1778029067.59,
+    "submission_timestamp": 1778029065.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

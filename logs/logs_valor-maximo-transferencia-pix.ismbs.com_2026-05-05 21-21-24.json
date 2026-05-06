@@ -1,0 +1,51 @@
+{
+  "dominio": "valor-maximo-transferencia-pix.ismbs.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 21:21:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "valor-maximo-transferencia-pix.ismbs.com",
+        "aggregated": "/CN=valor-maximo-transferencia-pix.ismbs.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "053CA3E473E7C08CD275CC79BF19B9DCEBAA",
+      "not_before": 1778007826,
+      "not_after": 1785783825,
+      "fingerprint": "37:01:3C:4C:41:F9:27:59:CA:34:FF:44:A7:02:1A:97:3D:DF:01:08",
+      "sha1": "37:01:3C:4C:41:F9:27:59:CA:34:FF:44:A7:02:1A:97:3D:DF:01:08",
+      "sha256": "AD:79:EA:24:86:7F:F4:4B:C0:2F:87:20:E8:66:B5:6C:46:C7:26:0E:D3:CD:F8:28:9F:F5:39:0F:60:95:60:EB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "valor-maximo-transferencia-pix.ismbs.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:valor-maximo-transferencia-pix.ismbs.com",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4080150034,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4080150034&end=4080150034",
+    "seen": 1778026884.107,
+    "submission_timestamp": 1778011339.008,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

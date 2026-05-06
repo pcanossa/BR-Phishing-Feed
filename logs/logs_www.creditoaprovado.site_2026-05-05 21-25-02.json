@@ -1,0 +1,53 @@
+{
+  "dominio": "www.creditoaprovado.site",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 21:25:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoaprovado.site",
+        "aggregated": "/CN=creditoaprovado.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0530BE5CF1C9964EB7024B4240B02335E3D4",
+      "not_before": 1778008071,
+      "not_after": 1785784070,
+      "fingerprint": "77:3E:EF:F2:F6:71:C6:F0:14:50:32:5C:6C:19:7F:3C:1C:AD:D2:EE",
+      "sha1": "77:3E:EF:F2:F6:71:C6:F0:14:50:32:5C:6C:19:7F:3C:1C:AD:D2:EE",
+      "sha256": "63:8C:C8:04:D6:D4:9A:14:07:62:70:4E:01:F7:55:85:1D:5F:68:67:DD:FC:04:86:65:3A:11:D7:09:4B:57:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditoaprovado.site",
+        "www.creditoaprovado.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditoaprovado.site, DNS:www.creditoaprovado.site",
+        "subjectKeyIdentifier": "keyid:ae:39:a8:cb:01:22:cd:08:57:ad:d1:ed:49:a5:ce:b8:ee:11:30:e2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4080200204,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4080200204&end=4080200204",
+    "seen": 1778027101.542,
+    "submission_timestamp": 1778011581.777,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

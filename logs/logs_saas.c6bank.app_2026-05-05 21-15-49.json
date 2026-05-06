@@ -1,0 +1,51 @@
+{
+  "dominio": "saas.c6bank.app",
+  "marcas_encontradas": [
+    "c6bank"
+  ],
+  "timestamp": "05/05/26 21:15:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "saas.c6bank.app",
+        "aggregated": "/CN=saas.c6bank.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E5ABDF88A21881E775980746976B479",
+      "not_before": 1778025600,
+      "not_after": 1795132799,
+      "fingerprint": "3B:B2:DF:E2:41:A9:38:56:AB:0B:DE:D2:41:C9:3D:ED:07:F4:97:10",
+      "sha1": "3B:B2:DF:E2:41:A9:38:56:AB:0B:DE:D2:41:C9:3D:ED:07:F4:97:10",
+      "sha256": "21:11:86:54:C2:D6:3A:69:80:C0:83:C9:20:26:41:38:70:AD:7D:AE:88:5A:60:C6:B6:E2:B2:BD:34:5A:85:36",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "saas.c6bank.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:saas.c6bank.app",
+        "subjectKeyIdentifier": "keyid:df:ed:9c:b4:e6:30:09:df:06:6f:d3:bd:fa:73:c8:2f:60:b0:e9:c1"
+      }
+    },
+    "cert_index": 162812321,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x635/985",
+    "seen": 1778026548.433,
+    "submission_timestamp": 1778026546.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

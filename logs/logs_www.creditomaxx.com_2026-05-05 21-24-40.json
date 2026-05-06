@@ -1,0 +1,52 @@
+{
+  "dominio": "www.creditomaxx.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 21:24:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditomaxx.com",
+        "aggregated": "/CN=creditomaxx.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "058C3F0A566969D92B9A9D1F3143CF3E7135",
+      "not_before": 1778007830,
+      "not_after": 1785783829,
+      "fingerprint": "8E:C0:10:D8:C9:0F:EC:18:99:E2:A1:93:84:14:12:A2:1C:3B:EF:3A",
+      "sha1": "8E:C0:10:D8:C9:0F:EC:18:99:E2:A1:93:84:14:12:A2:1C:3B:EF:3A",
+      "sha256": "C0:FF:1E:05:29:01:87:DC:2F:DE:08:92:12:BE:97:44:C4:34:F6:B6:D7:7F:3F:2A:16:3B:B5:57:65:B3:5F:71",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditomaxx.com",
+        "www.creditomaxx.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditomaxx.com, DNS:www.creditomaxx.com",
+        "subjectKeyIdentifier": "keyid:0d:e1:1b:cc:f1:78:28:69:a1:b5:99:ba:a4:d1:c1:17:ca:4d:3e:e8"
+      }
+    },
+    "cert_index": 4080194674,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4080194674&end=4080194674",
+    "seen": 1778027080.419,
+    "submission_timestamp": 1778011557.232,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
