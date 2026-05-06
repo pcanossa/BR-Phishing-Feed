@@ -1,0 +1,55 @@
+{
+  "dominio": "www.cepnms.prod01.cpf.ssnsgs.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 02:32:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cepnms.prod01.cpf.ssnsgs.net",
+        "O": "Itron Networked Solutions, Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=cepnms.prod01.cpf.ssnsgs.net/O=Itron Networked Solutions, Inc./ST=California"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "61A772F8A072999ABFB06411411C89F6",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "29:75:4D:0F:CF:A5:74:B9:D1:14:12:98:AA:54:CD:BF:4A:5C:F6:DA",
+      "sha1": "29:75:4D:0F:CF:A5:74:B9:D1:14:12:98:AA:54:CD:BF:4A:5C:F6:DA",
+      "sha256": "4F:05:DE:4F:CB:10:4E:0B:9D:62:DB:BF:43:15:B7:E9:3B:02:AA:F9:30:BC:44:D8:12:8F:47:E3:E7:C7:59:92",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cepnms.prod01.cpf.ssnsgs.net",
+        "www.cepnms.prod01.cpf.ssnsgs.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cepnms.prod01.cpf.ssnsgs.net, DNS:www.cepnms.prod01.cpf.ssnsgs.net",
+        "subjectKeyIdentifier": "keyid:54:ec:04:64:d1:2b:c7:5f:1e:6b:98:ea:2f:e0:f7:96:96:ae:0c:86"
+      }
+    },
+    "cert_index": 259534912,
+    "cert_link": "https://gouda2026h2.mon.ct.ipng.ch/tile/data/x001/x013/808",
+    "seen": 1778045532.838,
+    "submission_timestamp": 1778045524.7,
+    "source": {
+      "name": "IPng Networks 'Gouda2026h2'",
+      "url": "https://gouda2026h2.mon.ct.ipng.ch"
+    }
+  }
+}

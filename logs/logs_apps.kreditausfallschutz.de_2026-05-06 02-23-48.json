@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.kreditausfallschutz.de",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/06/26 02:23:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.kreditausfallschutz.de",
+        "aggregated": "/CN=apps.kreditausfallschutz.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C44361E97E7BDAB545136881993A314",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "B8:DB:2A:04:FB:24:8B:75:22:7E:25:60:B2:F5:CD:E5:21:BC:1E:42",
+      "sha1": "B8:DB:2A:04:FB:24:8B:75:22:7E:25:60:B2:F5:CD:E5:21:BC:1E:42",
+      "sha256": "CD:15:E9:5A:46:66:04:A9:B1:A0:B1:D6:D3:D6:E8:70:13:41:B7:1D:58:51:52:4A:23:B2:B0:D4:56:54:DB:96",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.kreditausfallschutz.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.kreditausfallschutz.de",
+        "subjectKeyIdentifier": "keyid:1d:c7:8e:92:29:9b:6c:b7:6b:34:0a:b7:a1:f6:a1:ee:2a:3c:71:b8"
+      }
+    },
+    "cert_index": 4084601169,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084601169&end=4084601169",
+    "seen": 1778045029.001,
+    "submission_timestamp": 1778031401.272,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

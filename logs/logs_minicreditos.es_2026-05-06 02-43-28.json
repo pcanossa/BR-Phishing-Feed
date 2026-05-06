@@ -1,0 +1,52 @@
+{
+  "dominio": "minicreditos.es",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 02:43:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.minicreditos.es",
+        "aggregated": "/CN=*.minicreditos.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E65A1786302369B7988500F7A7D314341A",
+      "not_before": 1777213718,
+      "not_after": 1784989717,
+      "fingerprint": "3B:59:95:CF:0E:4A:10:EC:FA:24:4F:82:F9:C0:A1:DF:D0:35:AD:A8",
+      "sha1": "3B:59:95:CF:0E:4A:10:EC:FA:24:4F:82:F9:C0:A1:DF:D0:35:AD:A8",
+      "sha256": "92:6D:CF:B8:C4:43:71:8D:B9:73:14:74:4E:C8:FE:52:27:25:05:4D:26:FF:D2:EE:79:91:01:B9:5A:19:0D:B5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.minicreditos.es",
+        "minicreditos.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.minicreditos.es, DNS:minicreditos.es",
+        "subjectKeyIdentifier": "keyid:9f:7f:6c:b9:28:d8:3f:ba:1e:bc:05:d1:8c:b3:8a:9b:a1:91:fe:04"
+      }
+    },
+    "cert_index": 4084892060,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084892060&end=4084892060",
+    "seen": 1778046206.219,
+    "submission_timestamp": 1778032839.628,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "m.creditotal.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 02:51:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "m.creditotal.com",
+        "aggregated": "/CN=m.creditotal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "02052DD2A7B3105374A80B79D05D03F4",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "AD:31:0B:A9:48:F1:A1:37:3E:74:08:DB:5B:DF:13:9A:D4:1B:56:54",
+      "sha1": "AD:31:0B:A9:48:F1:A1:37:3E:74:08:DB:5B:DF:13:9A:D4:1B:56:54",
+      "sha256": "E6:C7:4B:12:9D:F4:9E:19:42:45:61:08:B7:D5:0E:84:9A:F7:08:D2:13:22:BB:CE:2C:65:7C:D2:5F:00:66:10",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "m.creditotal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:m.creditotal.com",
+        "subjectKeyIdentifier": "keyid:10:2e:06:99:63:50:03:58:7e:46:c2:26:c6:d5:a6:b1:3d:ba:aa:02"
+      }
+    },
+    "cert_index": 4085017402,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4085017402&end=4085017402",
+    "seen": 1778046677.144,
+    "submission_timestamp": 1778033224.043,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

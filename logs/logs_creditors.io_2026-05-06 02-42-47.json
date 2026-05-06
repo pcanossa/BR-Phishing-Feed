@@ -1,0 +1,52 @@
+{
+  "dominio": "creditors.io",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 02:42:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditors.io",
+        "aggregated": "/CN=creditors.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "062AE5B1E3EB84B47DAD1CDA3B4A048F7BE8",
+      "not_before": 1777951854,
+      "not_after": 1785727853,
+      "fingerprint": "5F:EB:53:04:28:18:24:7A:A0:DA:47:50:BF:38:06:29:35:BF:50:72",
+      "sha1": "5F:EB:53:04:28:18:24:7A:A0:DA:47:50:BF:38:06:29:35:BF:50:72",
+      "sha256": "CD:2A:36:F9:A6:AB:46:9F:A4:9A:D0:35:43:DC:DB:04:A3:1E:C2:75:EF:D4:ED:38:E0:02:5C:84:AC:71:13:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditors.io",
+        "www.creditors.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditors.io, DNS:www.creditors.io",
+        "subjectKeyIdentifier": "keyid:44:2a:2f:de:87:89:9a:94:fa:3c:f3:79:82:89:d4:73:ca:ef:29:46"
+      }
+    },
+    "cert_index": 562739648,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=562739648&end=562739648",
+    "seen": 1778046167.083,
+    "submission_timestamp": 1777955366.395,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

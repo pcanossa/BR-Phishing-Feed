@@ -1,0 +1,60 @@
+{
+  "dominio": "wus-oi-ods-b.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/06/26 02:25:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "ODS-SeverSSL201901wus.opinsights.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=ODS-SeverSSL201901wus.opinsights.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 10",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 10/O=Microsoft Corporation"
+      },
+      "serial_number": "490023FBAB099E5BDD1E4D437F00000023FBAB",
+      "not_before": 1778044379,
+      "not_after": 1793596379,
+      "fingerprint": "65:B7:2C:1E:1C:F1:23:57:B8:3B:89:58:66:96:55:44:3E:FF:E4:08",
+      "sha1": "65:B7:2C:1E:1C:F1:23:57:B8:3B:89:58:66:96:55:44:3E:FF:E4:08",
+      "sha256": "5D:C2:66:CC:D9:CE:0B:EC:76:23:29:09:D8:40:BE:73:EB:FA:7F:30:73:AF:61:1E:3A:27:D5:B2:08:11:D9:88",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ODS-SeverSSL201901wus.opinsights.azure.com",
+        "wus-oi-ods-b.cloudapp.net",
+        "wus-oi-ods-a.cloudapp.net",
+        "wus-oi-ods.trafficmanager.net",
+        "*.ods.opinsights.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:d0:4c:83:d1:8e:71:2e:3d:34:b1:ff:9b:79:2c:8e:74:d4:e2:78:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ODS-SeverSSL201901wus.opinsights.azure.com, DNS:wus-oi-ods-b.cloudapp.net, DNS:wus-oi-ods-a.cloudapp.net, DNS:wus-oi-ods.trafficmanager.net, DNS:*.ods.opinsights.azure.com",
+        "subjectKeyIdentifier": "keyid:d0:5d:b4:cf:eb:ec:3c:1c:be:5b:30:75:8c:2f:18:3a:67:86:88:23",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 622161042,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=622161042&end=622161042",
+    "seen": 1778045110.937,
+    "submission_timestamp": 1778044983.411,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "creditonebanm.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 02:30:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditonebanm.com",
+        "aggregated": "/CN=creditonebanm.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "68BD2072A1D060E748065F0EA201106C",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "72:75:83:90:D0:74:6B:1D:D0:FD:B8:7C:D8:97:C2:85:06:B5:59:D0",
+      "sha1": "72:75:83:90:D0:74:6B:1D:D0:FD:B8:7C:D8:97:C2:85:06:B5:59:D0",
+      "sha256": "74:33:89:BD:76:E6:A6:7D:68:E4:A2:2D:84:FA:8E:9A:6D:A0:2E:C1:16:F2:39:AF:09:7A:16:38:0A:ED:4F:96",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditonebanm.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditonebanm.com",
+        "subjectKeyIdentifier": "keyid:0f:4f:30:6f:bb:7d:a1:da:45:4e:06:c5:0f:15:99:63:63:0e:0f:ad"
+      }
+    },
+    "cert_index": 4084698048,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084698048&end=4084698048",
+    "seen": 1778045418.904,
+    "submission_timestamp": 1778031837.033,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

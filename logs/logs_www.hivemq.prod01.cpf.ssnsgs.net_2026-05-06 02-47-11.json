@@ -1,0 +1,56 @@
+{
+  "dominio": "www.hivemq.prod01.cpf.ssnsgs.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 02:47:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "hivemq.prod01.cpf.ssnsgs.net",
+        "O": "Itron Networked Solutions, Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=hivemq.prod01.cpf.ssnsgs.net/O=Itron Networked Solutions, Inc./ST=California"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "36197EE7DC82DF87F8AF8BCE6C29E8C6",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "70:3C:F3:37:A9:15:66:57:95:3C:B1:8E:A5:10:E1:90:E3:A4:CB:F6",
+      "sha1": "70:3C:F3:37:A9:15:66:57:95:3C:B1:8E:A5:10:E1:90:E3:A4:CB:F6",
+      "sha256": "72:F3:3B:5E:5E:BD:12:E9:53:21:05:23:96:FE:2D:78:A7:2A:CD:14:57:09:C8:E6:FD:87:CC:72:41:10:DA:E0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hivemq.prod01.cpf.ssnsgs.net",
+        "www.hivemq.prod01.cpf.ssnsgs.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hivemq.prod01.cpf.ssnsgs.net, DNS:www.hivemq.prod01.cpf.ssnsgs.net",
+        "subjectKeyIdentifier": "keyid:aa:3a:18:85:a2:43:6d:c9:24:4f:79:aa:84:58:43:e5:70:8e:92:87",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4084951035,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084951035&end=4084951035",
+    "seen": 1778046429.679,
+    "submission_timestamp": 1778033014.503,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

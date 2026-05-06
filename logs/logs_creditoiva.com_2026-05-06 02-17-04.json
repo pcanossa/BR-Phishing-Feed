@@ -1,0 +1,52 @@
+{
+  "dominio": "creditoiva.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 02:17:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoiva.com",
+        "aggregated": "/CN=creditoiva.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06981EB496499595B22E554335B17FD77BEE",
+      "not_before": 1778027460,
+      "not_after": 1785803459,
+      "fingerprint": "C7:38:0D:61:02:3C:95:85:38:2F:88:BF:7C:A2:03:CA:84:1D:42:06",
+      "sha1": "C7:38:0D:61:02:3C:95:85:38:2F:88:BF:7C:A2:03:CA:84:1D:42:06",
+      "sha256": "EB:9E:87:C4:93:DA:B5:E9:03:F4:AB:31:5D:A8:11:B1:34:90:60:5B:78:1C:34:80:88:9F:FF:93:23:7E:54:4E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "creditoiva.com",
+        "*.creditoiva.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.creditoiva.com, DNS:creditoiva.com",
+        "subjectKeyIdentifier": "keyid:fe:9b:81:a1:8d:76:8e:fe:39:a2:1a:fa:ac:c6:c2:22:1e:20:e5:70"
+      }
+    },
+    "cert_index": 4084503147,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084503147&end=4084503147",
+    "seen": 1778044622.412,
+    "submission_timestamp": 1778030973.242,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
