@@ -1,0 +1,52 @@
+{
+  "dominio": "login.oi.nl",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/06/26 09:48:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.oi.nl",
+        "aggregated": "/CN=login.oi.nl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "056C47C812E8340E6D9DBFA34166D7DD",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "3B:40:38:81:35:8E:EC:1A:1B:EF:18:D2:D8:0D:B8:9F:52:0F:A2:02",
+      "sha1": "3B:40:38:81:35:8E:EC:1A:1B:EF:18:D2:D8:0D:B8:9F:52:0F:A2:02",
+      "sha256": "04:94:98:D9:48:BC:EF:A9:B5:A5:C5:42:2F:90:C3:79:EA:94:B8:A3:96:7F:EF:4B:E8:24:7B:BB:5D:A9:5B:A3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.oi.nl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.oi.nl",
+        "subjectKeyIdentifier": "keyid:7b:d0:fa:3a:77:73:f8:bb:d3:c0:96:6a:55:44:71:fa:ca:1a:de:7b"
+      }
+    },
+    "cert_index": 564524856,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=564524856&end=564524856",
+    "seen": 1778071684.021,
+    "submission_timestamp": 1777969591.45,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "www.maformation-cpf.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 09:43:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "maformation-cpf.fr",
+        "aggregated": "/CN=maformation-cpf.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B80D622E2CA7B21E",
+      "not_before": 1778060236,
+      "not_after": 1795167436,
+      "fingerprint": "D7:A9:63:DA:FE:82:05:70:9A:6A:E7:36:F2:B7:5A:B0:76:09:A7:41",
+      "sha1": "D7:A9:63:DA:FE:82:05:70:9A:6A:E7:36:F2:B7:5A:B0:76:09:A7:41",
+      "sha256": "63:76:5B:57:C1:58:BA:66:E3:11:D7:A8:D2:53:08:F1:E9:EE:40:37:4F:4F:C7:A4:0A:49:92:B6:BE:57:C1:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "maformation-cpf.fr",
+        "www.maformation-cpf.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.maformation-cpf.fr, DNS:maformation-cpf.fr",
+        "subjectKeyIdentifier": "keyid:ce:fb:b3:fe:58:a2:50:3b:9b:8f:39:1a:5e:52:93:fc:44:62:bd:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4091263979,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4091263979&end=4091263979",
+    "seen": 1778071383.833,
+    "submission_timestamp": 1778060237.622,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dominio": "pay.data-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 09:50:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pay.data-pix.com",
+        "aggregated": "/CN=pay.data-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "L": "Scottsdale",
+        "O": "GoDaddy.com, Inc.",
+        "OU": "http://certs.godaddy.com/repository/",
+        "ST": "Arizona",
+        "aggregated": "/C=US/CN=Go Daddy Secure Certificate Authority - G2/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//ST=Arizona"
+      },
+      "serial_number": "20A9770359A12BA8",
+      "not_before": 1778060830,
+      "not_after": 1795168030,
+      "fingerprint": "9C:80:EA:7B:AE:C6:DD:D7:55:28:99:EC:88:BF:C2:8F:71:A7:E0:54",
+      "sha1": "9C:80:EA:7B:AE:C6:DD:D7:55:28:99:EC:88:BF:C2:8F:71:A7:E0:54",
+      "sha256": "17:59:7F:C7:81:34:83:21:82:57:C5:EA:6A:BE:60:D5:1B:B4:A1:03:9D:0C:FB:16:15:9B:AD:8E:C6:9F:BE:87",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pay.data-pix.com",
+        "www.pay.data-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gdig2.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:40:c2:bd:27:8e:cc:34:83:30:a2:33:d7:fb:6c:b3:f0:b4:2c:80:ce",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pay.data-pix.com, DNS:www.pay.data-pix.com",
+        "subjectKeyIdentifier": "keyid:5b:ea:3b:85:de:00:49:45:4f:63:32:d2:46:cf:59:7c:47:23:e8:f2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4091384689,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4091384689&end=4091384689",
+    "seen": 1778071851.541,
+    "submission_timestamp": 1778060831.47,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

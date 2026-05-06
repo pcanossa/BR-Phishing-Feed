@@ -1,0 +1,52 @@
+{
+  "dominio": "app.vivo",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/06/26 09:20:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.vivo",
+        "aggregated": "/CN=app.vivo"
+      },
+      "issuer": {
+        "C": "BR",
+        "CN": "Valid Certificadora RSA DV SSL CA 2",
+        "O": "Valid Certificadora Digital LTDA",
+        "aggregated": "/C=BR/CN=Valid Certificadora RSA DV SSL CA 2/O=Valid Certificadora Digital LTDA"
+      },
+      "serial_number": "FB1C750B3549900D8E2B58F0B56B6719",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "CC:73:2F:9D:B4:38:C4:68:7D:44:A5:A7:3E:1F:FA:E0:81:BF:A0:1B",
+      "sha1": "CC:73:2F:9D:B4:38:C4:68:7D:44:A5:A7:3E:1F:FA:E0:81:BF:A0:1B",
+      "sha256": "15:3D:E8:73:71:5E:26:E8:14:CA:B4:C2:7D:DC:5C:F9:80:23:DF:93:88:EF:04:FA:5D:A1:4C:F8:5D:8E:98:A9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.vivo",
+        "www.app.vivo"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ValidCertificadoraRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:81:64:81:49:71:b3:f5:5a:ca:10:7f:98:85:33:d0:de:f2:f7:68:ab",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.vivo, DNS:www.app.vivo",
+        "subjectKeyIdentifier": "keyid:02:bf:72:2e:ee:4d:6e:bf:84:4a:49:d9:37:c1:da:c1:5b:a2:82:47"
+      }
+    },
+    "cert_index": 172190013,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x672/617",
+    "seen": 1778070015.115,
+    "submission_timestamp": 1778070012.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
