@@ -1,0 +1,52 @@
+{
+  "dominio": "federal-debito.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 13:22:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "federal-debito.org",
+        "aggregated": "/CN=federal-debito.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06F9A427378A895C3F6D0B1B2C610F69D46A",
+      "not_before": 1777946335,
+      "not_after": 1785722334,
+      "fingerprint": "70:30:CD:B8:70:3E:3F:3C:9E:32:7B:E8:51:40:67:5E:01:4C:CB:17",
+      "sha1": "70:30:CD:B8:70:3E:3F:3C:9E:32:7B:E8:51:40:67:5E:01:4C:CB:17",
+      "sha256": "C3:A2:72:66:0C:BE:6E:27:5E:B6:D7:7A:B3:49:B1:CA:D7:42:51:57:67:05:D3:C4:5A:EC:A3:58:14:D5:E4:DA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "federal-debito.org",
+        "*.federal-debito.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.federal-debito.org, DNS:federal-debito.org",
+        "subjectKeyIdentifier": "keyid:e5:cb:0e:8c:9a:8e:29:bb:ac:8d:2e:59:96:7d:44:19:7d:55:50:ae"
+      }
+    },
+    "cert_index": 589103604,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=589103604&end=589103604",
+    "seen": 1778084548.544,
+    "submission_timestamp": 1777949848.559,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

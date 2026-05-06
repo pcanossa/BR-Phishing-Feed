@@ -1,0 +1,52 @@
+{
+  "dominio": "maformation-cpf.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 13:58:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "maformation-cpf.fr",
+        "aggregated": "/CN=maformation-cpf.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B80D622E2CA7B21E",
+      "not_before": 1778060236,
+      "not_after": 1795167436,
+      "fingerprint": "17:43:BD:3F:24:E2:DE:E3:4B:80:B8:F2:67:2D:71:6C:FB:7F:99:C3",
+      "sha1": "17:43:BD:3F:24:E2:DE:E3:4B:80:B8:F2:67:2D:71:6C:FB:7F:99:C3",
+      "sha256": "FC:E7:2C:20:FA:06:AE:05:53:28:86:16:0B:20:98:01:21:0E:EA:99:54:69:65:54:BD:84:DC:A0:D3:F3:06:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "maformation-cpf.fr",
+        "www.maformation-cpf.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.maformation-cpf.fr, DNS:maformation-cpf.fr",
+        "subjectKeyIdentifier": "keyid:ce:fb:b3:fe:58:a2:50:3b:9b:8f:39:1a:5e:52:93:fc:44:62:bd:c3"
+      }
+    },
+    "cert_index": 4095082945,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4095082945&end=4095082945",
+    "seen": 1778086707.903,
+    "submission_timestamp": 1778076861.762,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

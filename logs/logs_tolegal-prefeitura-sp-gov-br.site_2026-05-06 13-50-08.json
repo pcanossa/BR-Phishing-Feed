@@ -1,0 +1,53 @@
+{
+  "dominio": "tolegal-prefeitura-sp-gov-br.site",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/06/26 13:50:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tolegal-prefeitura-sp-gov-br.site",
+        "aggregated": "/CN=tolegal-prefeitura-sp-gov-br.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0648B90C5F8DA483241A88A09A0F03F38E03",
+      "not_before": 1778072796,
+      "not_after": 1785848795,
+      "fingerprint": "65:AC:3D:22:0E:32:CF:62:EF:D4:5D:87:27:6C:81:D4:16:D2:01:3E",
+      "sha1": "65:AC:3D:22:0E:32:CF:62:EF:D4:5D:87:27:6C:81:D4:16:D2:01:3E",
+      "sha256": "CC:0C:D0:AF:A6:42:D4:6E:33:CB:EF:E1:EA:D5:3C:42:65:41:7B:31:A7:5A:BF:94:FF:27:5B:D7:0C:A5:BB:9A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "tolegal-prefeitura-sp-gov-br.site",
+        "*.tolegal-prefeitura-sp-gov-br.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.tolegal-prefeitura-sp-gov-br.site, DNS:tolegal-prefeitura-sp-gov-br.site",
+        "subjectKeyIdentifier": "keyid:6b:ae:fe:2f:51:dc:ce:8a:8c:b0:82:5c:bb:3f:3b:2e:7c:b5:e7:46",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4094953207,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4094953207&end=4094953207",
+    "seen": 1778086207.004,
+    "submission_timestamp": 1778076306.309,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
