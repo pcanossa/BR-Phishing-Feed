@@ -1,0 +1,53 @@
+{
+  "dominio": "www.app.correios.mktstudios.com.br",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/06/26 11:30:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.app.correios.mktstudios.com.br",
+        "aggregated": "/CN=www.app.correios.mktstudios.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059C4096DE0C4F6DC799FA6A7DE118058AB2",
+      "not_before": 1777969501,
+      "not_after": 1785745500,
+      "fingerprint": "C1:5B:B5:FE:8C:BB:9B:1B:93:A7:27:C4:03:8C:D5:F8:84:4A:F2:A5",
+      "sha1": "C1:5B:B5:FE:8C:BB:9B:1B:93:A7:27:C4:03:8C:D5:F8:84:4A:F2:A5",
+      "sha256": "1D:E8:3A:79:19:CC:E3:FA:2D:17:64:27:8C:4D:56:6A:EC:34:C0:C5:D9:62:21:45:F7:1F:7A:A2:84:A7:DB:FC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.app.correios.mktstudios.com.br",
+        "*.correios.mktstudios.com.br",
+        "www.backend.correios.mktstudios.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.correios.mktstudios.com.br, DNS:www.app.correios.mktstudios.com.br, DNS:www.backend.correios.mktstudios.com.br",
+        "subjectKeyIdentifier": "keyid:46:3a:cf:a0:8a:43:08:13:2f:01:99:c8:29:8b:6a:cb:1b:d6:2d:71"
+      }
+    },
+    "cert_index": 564962893,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=564962893&end=564962893",
+    "seen": 1778077833.049,
+    "submission_timestamp": 1777973014.469,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.fatura-netflix02.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/06/26 11:40:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.fatura-netflix02.com",
+        "aggregated": "/CN=www.fatura-netflix02.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "83F4A3FC6ACD3904",
+      "not_before": 1777946720,
+      "not_after": 1795053920,
+      "fingerprint": "CC:3B:E4:75:6B:7F:47:20:B5:40:9D:F4:F4:D0:F0:BF:37:2E:A9:7F",
+      "sha1": "CC:3B:E4:75:6B:7F:47:20:B5:40:9D:F4:F4:D0:F0:BF:37:2E:A9:7F",
+      "sha256": "E2:F5:DF:30:F1:45:A3:3E:C1:2D:A4:48:33:F4:A5:57:B2:42:D4:84:CA:23:EC:62:15:7D:7F:6A:48:55:2E:48",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.fatura-netflix02.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.fatura-netflix02.com",
+        "subjectKeyIdentifier": "keyid:e8:68:0c:9e:e0:1a:44:d2:1e:23:96:1e:05:55:8d:0e:50:9a:46:c7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 588722165,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=588722165&end=588722165",
+    "seen": 1778078404.19,
+    "submission_timestamp": 1777946720.608,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

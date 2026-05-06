@@ -1,0 +1,52 @@
+{
+  "dominio": "app.netflix-china.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/06/26 11:28:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.netflix-china.com",
+        "aggregated": "/CN=app.netflix-china.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1314375F91C7D70C503CCC959BFD3BA2",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "B5:B3:12:FC:78:78:36:11:E2:A5:B2:DF:CE:72:9D:B2:E0:25:0A:9D",
+      "sha1": "B5:B3:12:FC:78:78:36:11:E2:A5:B2:DF:CE:72:9D:B2:E0:25:0A:9D",
+      "sha256": "E6:10:9A:02:17:4E:25:2C:7A:A8:35:D4:E6:6F:E3:84:22:80:86:32:FF:BA:63:3A:D5:EB:E5:6C:D5:B7:85:F3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.netflix-china.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.netflix-china.com",
+        "subjectKeyIdentifier": "keyid:5b:cf:93:7d:2e:87:4c:38:e8:56:8b:d9:a6:46:19:d5:16:d8:d6:49",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 627539575,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=627539575&end=627539575",
+    "seen": 1778077688.635,
+    "submission_timestamp": 1778077534.397,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

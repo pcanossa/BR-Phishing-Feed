@@ -1,0 +1,51 @@
+{
+  "dominio": "www-dev.pix.lk",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 11:06:25",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www-dev.pix.lk",
+        "aggregated": "/CN=www-dev.pix.lk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05D868EA4C9945F256BB169D380C81095E1A",
+      "not_before": 1777837426,
+      "not_after": 1785613425,
+      "fingerprint": "A8:E2:EC:F5:41:55:BC:2A:BD:85:73:C6:AA:5E:0F:A0:50:44:BD:D9",
+      "sha1": "A8:E2:EC:F5:41:55:BC:2A:BD:85:73:C6:AA:5E:0F:A0:50:44:BD:D9",
+      "sha256": "4F:9B:C3:F8:B6:78:76:3E:D6:C6:0D:CB:4E:B0:E9:5B:D4:A2:BF:89:A4:45:F0:D3:50:54:79:6A:C9:F9:46:E3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www-dev.pix.lk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www-dev.pix.lk",
+        "subjectKeyIdentifier": "keyid:62:d5:d1:f1:05:4e:d0:21:d4:9f:3c:4a:ba:05:1e:a4:f3:1f:02:93"
+      }
+    },
+    "cert_index": 820560598,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820560598&end=820560598",
+    "seen": 1778076384.461,
+    "submission_timestamp": 1777840937.741,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.ursal.zone",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 11:43:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.ursal.zone",
+        "aggregated": "/CN=pix.ursal.zone"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3C09FDD7E13835F7C0C6B86ED666A7DC",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "D1:BC:73:27:95:EF:10:37:89:E7:06:F6:7B:8F:D0:87:AD:C3:A0:30",
+      "sha1": "D1:BC:73:27:95:EF:10:37:89:E7:06:F6:7B:8F:D0:87:AD:C3:A0:30",
+      "sha256": "A1:D5:A0:91:FF:C2:A6:F5:02:32:AE:0D:80:EE:9D:7A:43:2D:DC:66:C1:1F:4C:82:EF:67:8B:AB:62:0A:4B:F5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix.ursal.zone"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.ursal.zone",
+        "subjectKeyIdentifier": "keyid:f6:e7:fb:f1:d1:b5:c2:ea:d9:94:9f:b1:9a:c0:4c:57:fb:f7:6e:35"
+      }
+    },
+    "cert_index": 4093059468,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4093059468&end=4093059468",
+    "seen": 1778078601.184,
+    "submission_timestamp": 1778068113.938,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

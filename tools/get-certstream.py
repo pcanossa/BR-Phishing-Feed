@@ -17,7 +17,7 @@ MARCAS_LONGAS = [
     'correios', 'caixa', 'nubank', 'itau', 'bancodobrasil', 'receita', 
     'bradesco', 'santander', 'mercadolivre', 'magalu', 'americanas', 
     'detran', 'serasa', 'sicoob', 'c6bank', 'pagseguro', 'picpay', 
-    'claro', 'netflix', 'spotify', 'ifood', 'loterias', 'debito', 'sedex', 'fazenda'
+    'claro', 'netflix', 'spotify', 'loterias', 'debito', 'sedex', 'fazenda'
 ]
 
 # Iscas de Engenharia Social

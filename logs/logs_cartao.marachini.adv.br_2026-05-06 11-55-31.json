@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.marachini.adv.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/06/26 11:55:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.marachini.adv.br",
+        "aggregated": "/CN=cartao.marachini.adv.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "055466F09E923D770A04C2F014E2729580BA",
+      "not_before": 1778065401,
+      "not_after": 1785841400,
+      "fingerprint": "45:CC:34:3A:01:B0:0D:66:A1:34:5E:0A:5E:BB:F0:34:21:B6:E5:A4",
+      "sha1": "45:CC:34:3A:01:B0:0D:66:A1:34:5E:0A:5E:BB:F0:34:21:B6:E5:A4",
+      "sha256": "1D:6B:A4:D3:07:A8:42:71:E9:3B:AE:98:47:35:CC:64:EB:A4:68:1A:88:61:78:F0:7E:3C:D0:F0:1F:75:76:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.marachini.adv.br",
+        "www.cartao.marachini.adv.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.marachini.adv.br, DNS:www.cartao.marachini.adv.br",
+        "subjectKeyIdentifier": "keyid:13:1d:ce:0a:17:06:f0:a0:5f:05:e3:7c:19:be:3e:f5:cf:96:c7:22"
+      }
+    },
+    "cert_index": 4093245234,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4093245234&end=4093245234",
+    "seen": 1778079331.32,
+    "submission_timestamp": 1778068913.314,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

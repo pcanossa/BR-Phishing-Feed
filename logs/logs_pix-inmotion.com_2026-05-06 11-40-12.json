@@ -1,0 +1,51 @@
+{
+  "dominio": "pix-inmotion.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 11:40:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-inmotion.com",
+        "aggregated": "/CN=pix-inmotion.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "056704CAAD4930D585485AA19FFB5A2FDC2F",
+      "not_before": 1777840336,
+      "not_after": 1785616335,
+      "fingerprint": "BE:17:BD:2B:36:F5:E9:85:03:A6:CE:82:6F:BA:1A:A8:6F:6A:87:AF",
+      "sha1": "BE:17:BD:2B:36:F5:E9:85:03:A6:CE:82:6F:BA:1A:A8:6F:6A:87:AF",
+      "sha256": "8E:97:B0:49:7C:11:F2:49:08:C2:81:C3:26:78:2A:44:CB:B6:F2:5E:4B:C9:87:7E:06:A2:88:CA:D4:71:58:C1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-inmotion.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix-inmotion.com",
+        "subjectKeyIdentifier": "keyid:a0:8a:f0:5a:42:3a:22:17:ea:37:49:5c:36:0f:ed:e4:38:ef:60:ea"
+      }
+    },
+    "cert_index": 678398888,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=678398888&end=678398888",
+    "seen": 1778078410.114,
+    "submission_timestamp": 1777843846.734,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
