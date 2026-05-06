@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.aasnetwork.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 16:05:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.aasnetwork.com",
+        "aggregated": "/CN=pix.aasnetwork.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "058800461478724A306B0559122BF5C0AE87",
+      "not_before": 1777842340,
+      "not_after": 1785618339,
+      "fingerprint": "4E:64:12:36:36:D2:42:E4:86:4E:47:33:9F:8A:50:89:A4:6F:38:B2",
+      "sha1": "4E:64:12:36:36:D2:42:E4:86:4E:47:33:9F:8A:50:89:A4:6F:38:B2",
+      "sha256": "CE:B7:91:5C:C8:E5:4F:11:A0:79:A4:86:DE:08:2F:6F:63:0D:17:F3:F3:B8:11:67:30:71:5E:5B:34:0A:13:51",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix.aasnetwork.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.aasnetwork.com",
+        "subjectKeyIdentifier": "keyid:0d:07:ee:59:d2:e3:e8:f0:1d:11:d1:9b:83:8c:97:55:f8:7f:60:96"
+      }
+    },
+    "cert_index": 678666992,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=678666992&end=678666992",
+    "seen": 1778094300.824,
+    "submission_timestamp": 1777845851.326,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

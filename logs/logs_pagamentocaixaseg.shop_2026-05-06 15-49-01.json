@@ -1,0 +1,52 @@
+{
+  "dominio": "pagamentocaixaseg.shop",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/06/26 15:49:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamentocaixaseg.shop",
+        "aggregated": "/CN=pagamentocaixaseg.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06E36FA7D2202E1575ED91C5CC27506BAD47",
+      "not_before": 1777179718,
+      "not_after": 1784955717,
+      "fingerprint": "87:21:62:F0:A2:A9:91:D0:07:E6:70:EB:DF:06:80:B0:C5:03:DF:C1",
+      "sha1": "87:21:62:F0:A2:A9:91:D0:07:E6:70:EB:DF:06:80:B0:C5:03:DF:C1",
+      "sha256": "63:EF:74:5F:99:D0:A0:0D:BE:AA:43:5B:64:B4:BD:1D:39:20:4E:2E:00:0C:DD:B3:AB:83:C9:BE:A8:CE:A0:BC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagamentocaixaseg.shop",
+        "*.pagamentocaixaseg.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagamentocaixaseg.shop, DNS:pagamentocaixaseg.shop",
+        "subjectKeyIdentifier": "keyid:67:5c:82:a3:a2:af:9f:8d:c3:c6:7f:f7:71:f3:cc:2c:72:48:77:3b"
+      }
+    },
+    "cert_index": 4096712886,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4096712886&end=4096712886",
+    "seen": 1778093342.071,
+    "submission_timestamp": 1778083504.125,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
