@@ -1,0 +1,53 @@
+{
+  "dominio": "app-oi-suite.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/06/26 19:55:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-oi-suite.pages.dev",
+        "aggregated": "/CN=app-oi-suite.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A0360753DCCCE9A10EE737FFBB3B8B90",
+      "not_before": 1778095643,
+      "not_after": 1785875172,
+      "fingerprint": "39:90:AF:FE:34:D6:2B:F9:2C:9C:C2:23:F2:A2:73:63:F5:C6:D6:12",
+      "sha1": "39:90:AF:FE:34:D6:2B:F9:2C:9C:C2:23:F2:A2:73:63:F5:C6:D6:12",
+      "sha256": "DA:2E:00:DC:37:17:D8:5E:AC:3F:FA:F2:62:72:D6:24:BC:A9:A4:D2:12:DF:6A:45:C5:65:D7:43:85:3B:71:BE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-oi-suite.pages.dev",
+        "*.app-oi-suite.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/oDY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-oi-suite.pages.dev, DNS:*.app-oi-suite.pages.dev",
+        "subjectKeyIdentifier": "keyid:d5:2b:d3:56:de:ed:7a:a9:e5:62:83:56:bb:ee:21:98:26:93:94:b8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4100333417,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4100333417&end=4100333417",
+    "seen": 1778108102.484,
+    "submission_timestamp": 1778099243.636,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

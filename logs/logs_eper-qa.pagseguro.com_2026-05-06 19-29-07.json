@@ -1,0 +1,54 @@
+{
+  "dominio": "eper-qa.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/06/26 19:29:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eper-qa.pagseguro.com",
+        "aggregated": "/CN=eper-qa.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "RapidSSL TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=RapidSSL TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0EA9DB1E527601568CE20D4626F03B5F",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "3F:00:63:61:03:60:44:1B:96:C7:4C:61:63:B0:09:A5:0B:73:83:9D",
+      "sha1": "3F:00:63:61:03:60:44:1B:96:C7:4C:61:63:B0:09:A5:0B:73:83:9D",
+      "sha256": "87:A1:CE:40:5D:1C:2C:AC:2D:AD:59:00:A7:B1:FF:A3:2A:18:0C:FA:55:FB:A1:C4:2D:39:36:E6:D7:92:2B:CA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "eper-qa.pagseguro.com",
+        "www.eper-qa.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.rapidssl.com, URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:0c:db:6c:82:49:0f:4a:67:0a:b8:14:ee:7a:c4:48:52:88:eb:56:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:eper-qa.pagseguro.com, DNS:www.eper-qa.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:b2:9b:55:38:4c:76:61:c1:e6:f1:16:23:5e:3c:a1:1c:d1:e8:2c:8e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4099956989,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4099956989&end=4099956989",
+    "seen": 1778106545.205,
+    "submission_timestamp": 1778097415.504,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
