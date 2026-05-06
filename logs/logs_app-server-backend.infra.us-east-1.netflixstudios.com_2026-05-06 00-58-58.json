@@ -1,0 +1,56 @@
+{
+  "dominio": "app-server-backend.infra.us-east-1.netflixstudios.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/06/26 00:58:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "app-server-backend.infra.us-east-1.netflixstudios.com",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=app-server-backend.infra.us-east-1.netflixstudios.com/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0C3134979019B85662D9DB420ABA04A2",
+      "not_before": 1778025600,
+      "not_after": 1785802117,
+      "fingerprint": "20:F5:AB:BE:78:95:56:2D:67:61:78:9A:92:E5:20:29:3A:1B:0D:04",
+      "sha1": "20:F5:AB:BE:78:95:56:2D:67:61:78:9A:92:E5:20:29:3A:1B:0D:04",
+      "sha256": "24:44:9D:9F:0C:BE:8B:DE:92:0A:5D:60:05:FF:02:5C:99:91:C5:94:20:33:0D:FA:40:F7:47:B2:E7:B7:01:7D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app-server-backend.infra.us-east-1.netflixstudios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:app-server-backend.infra.us-east-1.netflixstudios.com",
+        "subjectKeyIdentifier": "keyid:06:77:39:0c:5c:23:ec:69:13:b8:33:9f:52:04:34:93:4d:a1:0b:b7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4083319201,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4083319201&end=4083319201",
+    "seen": 1778039937.067,
+    "submission_timestamp": 1778026118.632,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

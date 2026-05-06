@@ -1,0 +1,51 @@
+{
+  "dominio": "fatura-netflix25.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/06/26 00:08:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatura-netflix25.com",
+        "aggregated": "/CN=fatura-netflix25.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "3901BB12F5857BDC",
+      "not_before": 1778011317,
+      "not_after": 1795118517,
+      "fingerprint": "87:A3:23:47:E9:B6:E7:D2:43:A5:BD:3D:5B:A0:9E:00:0F:ED:37:EB",
+      "sha1": "87:A3:23:47:E9:B6:E7:D2:43:A5:BD:3D:5B:A0:9E:00:0F:ED:37:EB",
+      "sha256": "35:97:5D:EB:B2:00:69:D9:ED:26:BB:67:78:51:CF:29:46:21:76:51:A9:28:2B:60:8D:FB:4F:38:3B:F7:BF:27",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fatura-netflix25.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fatura-netflix25.com",
+        "subjectKeyIdentifier": "keyid:9a:91:4d:bd:35:13:eb:03:94:22:ef:ec:63:c5:3b:00:be:f0:db:f9"
+      }
+    },
+    "cert_index": 171211154,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x668/793",
+    "seen": 1778036917.064,
+    "submission_timestamp": 1778036916.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

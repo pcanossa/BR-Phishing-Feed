@@ -1,0 +1,53 @@
+{
+  "dominio": "mail.creditosbancarios.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 00:06:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mail.creditosbancarios.com",
+        "aggregated": "/CN=mail.creditosbancarios.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "05F62B0FB1A6610E7E04445510715642",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "E9:10:40:DD:A6:04:42:A8:BE:AC:D9:B7:42:27:39:E8:92:17:FC:25",
+      "sha1": "E9:10:40:DD:A6:04:42:A8:BE:AC:D9:B7:42:27:39:E8:92:17:FC:25",
+      "sha256": "F1:EE:71:31:49:22:50:14:12:9C:CB:62:C5:E9:6B:E0:05:16:59:53:0A:88:7B:EA:DB:06:C8:25:91:ED:12:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mail.creditosbancarios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mail.creditosbancarios.com",
+        "subjectKeyIdentifier": "keyid:ab:ae:84:cd:aa:80:70:43:f0:3b:ac:3c:4c:f9:22:35:51:d5:f0:dc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4082559263,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4082559263&end=4082559263",
+    "seen": 1778036812.593,
+    "submission_timestamp": 1778022759.458,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

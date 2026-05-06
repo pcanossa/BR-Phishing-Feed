@@ -1,0 +1,51 @@
+{
+  "dominio": "www.pix.today",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 00:20:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pix.today",
+        "aggregated": "/CN=www.pix.today"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "0446F5DF7DFD11D9",
+      "not_before": 1777920772,
+      "not_after": 1795027972,
+      "fingerprint": "E7:51:AD:55:F2:5C:F3:AD:8E:5A:57:51:BE:FE:95:82:9F:AB:10:A1",
+      "sha1": "E7:51:AD:55:F2:5C:F3:AD:8E:5A:57:51:BE:FE:95:82:9F:AB:10:A1",
+      "sha256": "7B:5C:DC:EB:FC:38:B0:73:6F:CE:EF:CF:81:3D:E9:60:8A:93:E2:05:9A:16:B8:48:DE:AD:A9:06:3C:4D:FC:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pix.today"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pix.today",
+        "subjectKeyIdentifier": "keyid:91:61:00:fb:86:d1:e6:87:0c:49:e7:dd:3c:aa:f3:b5:5e:40:6a:09"
+      }
+    },
+    "cert_index": 586182312,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=586182312&end=586182312",
+    "seen": 1778037606.105,
+    "submission_timestamp": 1777924145.371,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

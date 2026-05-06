@@ -1,0 +1,49 @@
+{
+  "dominio": "pix.eddyz.de",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 00:42:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "aggregated": ""
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "059F2760EBABEC524FDCAD2B2F5D3150CE84",
+      "not_before": 1778021598,
+      "not_after": 1778597597,
+      "fingerprint": "F5:2A:98:74:D4:FE:22:F6:F6:EE:E4:A2:BC:53:D3:63:C4:69:51:13",
+      "sha1": "F5:2A:98:74:D4:FE:22:F6:F6:EE:E4:A2:BC:53:D3:63:C4:69:51:13",
+      "sha256": "DE:09:A5:2B:D7:DA:88:A5:A0:B1:22:68:87:07:EA:99:C0:D8:26:AC:47:44:63:BC:29:D6:EF:5A:0B:06:7A:53",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix.eddyz.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.eddyz.de"
+      }
+    },
+    "cert_index": 4083079326,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4083079326&end=4083079326",
+    "seen": 1778038973.559,
+    "submission_timestamp": 1778025125.023,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

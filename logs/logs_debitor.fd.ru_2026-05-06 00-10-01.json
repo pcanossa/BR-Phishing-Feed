@@ -1,0 +1,52 @@
+{
+  "dominio": "debitor.fd.ru",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 00:10:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.fd.ru",
+        "aggregated": "/CN=debitor.fd.ru"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0591C7711AD54AD8F92C2B97E030EFAB06BC",
+      "not_before": 1777946275,
+      "not_after": 1785722274,
+      "fingerprint": "2D:38:CA:DC:54:AF:46:D1:1C:7B:AC:60:CF:56:EA:E3:86:BF:D5:66",
+      "sha1": "2D:38:CA:DC:54:AF:46:D1:1C:7B:AC:60:CF:56:EA:E3:86:BF:D5:66",
+      "sha256": "DD:CA:23:F5:CF:AB:9F:F2:83:9B:60:91:06:28:AB:B0:9C:F2:E1:B7:AF:43:1B:31:52:C4:7E:10:A8:26:EE:9D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.fd.ru",
+        "www.debitor.fd.ru"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitor.fd.ru, DNS:www.debitor.fd.ru",
+        "subjectKeyIdentifier": "keyid:83:ad:90:04:40:6f:55:c1:0e:92:01:d3:07:65:2c:4f:ba:ae:05:70"
+      }
+    },
+    "cert_index": 562078431,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=562078431&end=562078431",
+    "seen": 1778037000.463,
+    "submission_timestamp": 1777949788.658,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

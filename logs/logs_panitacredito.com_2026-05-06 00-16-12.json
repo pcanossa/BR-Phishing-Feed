@@ -1,0 +1,52 @@
+{
+  "dominio": "panitacredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 00:16:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "panitacredito.com",
+        "aggregated": "/CN=panitacredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "63DC860F171370E2",
+      "not_before": 1778023394,
+      "not_after": 1795130594,
+      "fingerprint": "73:85:A8:2C:FD:60:E4:AF:9C:FB:D7:B9:12:22:3C:25:BD:2F:FA:C9",
+      "sha1": "73:85:A8:2C:FD:60:E4:AF:9C:FB:D7:B9:12:22:3C:25:BD:2F:FA:C9",
+      "sha256": "BC:02:7E:29:84:0D:22:9B:AC:26:EE:44:A4:EE:08:D3:BA:66:EB:BA:76:B1:94:55:4A:7A:16:D6:06:2B:BC:51",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "panitacredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:panitacredito.com",
+        "subjectKeyIdentifier": "keyid:58:89:e7:fa:a2:a4:1a:78:a8:d4:2d:00:6f:a2:84:d1:9d:eb:44:f2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4082692833,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4082692833&end=4082692833",
+    "seen": 1778037370.567,
+    "submission_timestamp": 1778023395.842,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

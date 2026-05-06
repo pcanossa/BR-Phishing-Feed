@@ -1,0 +1,54 @@
+{
+  "dominio": "www.pagseguro.api.irenda.milcontas.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/06/26 00:42:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.milcontas.com.br",
+        "aggregated": "/CN=app.milcontas.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0548AF6EDB14949F7779F5880583FC5F57B2",
+      "not_before": 1778021538,
+      "not_after": 1785797537,
+      "fingerprint": "B0:56:4D:93:C4:B0:12:E3:D1:33:04:40:8F:77:44:24:81:92:31:3C",
+      "sha1": "B0:56:4D:93:C4:B0:12:E3:D1:33:04:40:8F:77:44:24:81:92:31:3C",
+      "sha256": "66:27:96:BC:A7:81:88:56:5A:A6:70:B7:93:99:B4:D4:F0:DE:30:BF:7C:AC:C3:3E:11:3D:3F:80:A0:F8:5E:A9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.milcontas.com.br",
+        "pagseguro.api.irenda.milcontas.com.br",
+        "www.app.milcontas.com.br",
+        "www.pagseguro.api.irenda.milcontas.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.milcontas.com.br, DNS:pagseguro.api.irenda.milcontas.com.br, DNS:www.app.milcontas.com.br, DNS:www.pagseguro.api.irenda.milcontas.com.br",
+        "subjectKeyIdentifier": "keyid:be:b4:a7:4c:0f:f0:16:a6:e2:79:8b:56:ed:dc:e4:4e:f5:3f:89:23"
+      }
+    },
+    "cert_index": 4083066939,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4083066939&end=4083066939",
+    "seen": 1778038923.881,
+    "submission_timestamp": 1778025052.622,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

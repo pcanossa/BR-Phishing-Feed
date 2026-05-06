@@ -1,0 +1,53 @@
+{
+  "dominio": "mob-api.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/06/26 01:05:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mob-api.intranet.pagseguro.uol",
+        "aggregated": "/CN=mob-api.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0C28BCD5976D65EF14501CD5CFA6E241",
+      "not_before": 1778025600,
+      "not_after": 1795132799,
+      "fingerprint": "E3:3E:95:42:FF:2D:6A:C0:4D:D3:4D:8C:AB:F5:D0:FD:26:CE:DC:9A",
+      "sha1": "E3:3E:95:42:FF:2D:6A:C0:4D:D3:4D:8C:AB:F5:D0:FD:26:CE:DC:9A",
+      "sha256": "8D:01:DD:EE:E8:51:20:95:50:EA:13:C8:8E:A9:95:98:B6:8F:E3:C3:F4:30:C1:8F:92:3F:30:3A:36:2C:23:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mob-api.intranet.pagseguro.uol",
+        "www.mob-api.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mob-api.intranet.pagseguro.uol, DNS:www.mob-api.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:24:c0:ba:6c:02:36:0e:86:41:63:88:02:96:49:ed:de:50:b8:96:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4083416388,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4083416388&end=4083416388",
+    "seen": 1778040338.545,
+    "submission_timestamp": 1778026481.577,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

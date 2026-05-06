@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.sagenetworks.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/06/26 00:26:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.sagenetworks.com.br",
+        "aggregated": "/CN=cartao.sagenetworks.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06EFA2F58CCBC4743B3AD75A15918E7AF8D3",
+      "not_before": 1778020510,
+      "not_after": 1785796509,
+      "fingerprint": "6B:C0:CC:7F:B7:87:7C:82:E8:2D:D7:D2:B5:56:BA:67:CC:7A:16:1D",
+      "sha1": "6B:C0:CC:7F:B7:87:7C:82:E8:2D:D7:D2:B5:56:BA:67:CC:7A:16:1D",
+      "sha256": "16:55:01:29:53:3A:09:81:14:AB:4B:08:2D:ED:22:F4:5A:9B:7C:D8:4D:CE:7B:5D:EC:12:67:AF:CA:FE:DD:7F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.sagenetworks.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.sagenetworks.com.br",
+        "subjectKeyIdentifier": "keyid:85:0a:37:a3:db:7d:ca:b3:53:22:25:bf:e0:f3:66:e3:9b:1d:50:cd"
+      }
+    },
+    "cert_index": 4082836651,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4082836651&end=4082836651",
+    "seen": 1778037975.756,
+    "submission_timestamp": 1778024024.345,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
