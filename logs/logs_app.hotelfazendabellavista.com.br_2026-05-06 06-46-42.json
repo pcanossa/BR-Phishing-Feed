@@ -1,0 +1,51 @@
+{
+  "dominio": "app.hotelfazendabellavista.com.br",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/06/26 06:46:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.hotelfazendabellavista.com.br",
+        "aggregated": "/CN=app.hotelfazendabellavista.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060E130532EDD093B094B0E7858925605E7B",
+      "not_before": 1778032742,
+      "not_after": 1785808741,
+      "fingerprint": "A8:8A:23:D0:98:09:E8:52:E3:D4:59:E3:FA:1A:03:67:32:C4:CA:BF",
+      "sha1": "A8:8A:23:D0:98:09:E8:52:E3:D4:59:E3:FA:1A:03:67:32:C4:CA:BF",
+      "sha256": "9A:90:70:6C:D9:43:8C:CA:3F:04:6C:20:E6:2C:25:7D:5F:BC:C7:89:A5:C2:A1:18:40:16:E1:72:00:AE:8E:FD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.hotelfazendabellavista.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.hotelfazendabellavista.com.br",
+        "subjectKeyIdentifier": "keyid:48:86:89:d1:7f:49:90:c9:e5:3d:e3:af:91:a7:94:36:e5:2e:7e:09"
+      }
+    },
+    "cert_index": 4088544275,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088544275&end=4088544275",
+    "seen": 1778060800.287,
+    "submission_timestamp": 1778048612.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

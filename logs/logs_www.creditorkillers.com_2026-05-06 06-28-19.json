@@ -1,0 +1,51 @@
+{
+  "dominio": "www.creditorkillers.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:28:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditorkillers.com",
+        "aggregated": "/CN=www.creditorkillers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "BAB2EA2857C6701A",
+      "not_before": 1777838966,
+      "not_after": 1794946166,
+      "fingerprint": "C2:33:5A:F3:7C:26:E7:FE:AC:08:5B:F8:2D:C6:CE:E0:0F:A0:A4:C5",
+      "sha1": "C2:33:5A:F3:7C:26:E7:FE:AC:08:5B:F8:2D:C6:CE:E0:0F:A0:A4:C5",
+      "sha256": "46:36:0F:3D:D6:79:12:3F:99:D0:79:A5:6C:90:A0:C5:73:A9:65:20:74:C6:9A:BC:64:0E:38:24:61:AB:2D:41",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditorkillers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.creditorkillers.com",
+        "subjectKeyIdentifier": "keyid:0e:7b:95:d2:7e:43:82:d6:12:b2:8f:74:c5:66:28:85:41:6d:2b:c2"
+      }
+    },
+    "cert_index": 820262283,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820262283&end=820262283",
+    "seen": 1778059699.355,
+    "submission_timestamp": 1777838982.885,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

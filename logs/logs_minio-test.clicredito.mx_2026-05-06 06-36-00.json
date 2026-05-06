@@ -1,0 +1,51 @@
+{
+  "dominio": "minio-test.clicredito.mx",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:36:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "minio-test.clicredito.mx",
+        "aggregated": "/CN=minio-test.clicredito.mx"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "064982E19A4D596CBDBF9E28508D59668025",
+      "not_before": 1778056645,
+      "not_after": 1785832644,
+      "fingerprint": "4D:72:55:B5:06:A5:D3:36:96:98:22:92:62:30:DC:40:BD:3E:09:80",
+      "sha1": "4D:72:55:B5:06:A5:D3:36:96:98:22:92:62:30:DC:40:BD:3E:09:80",
+      "sha256": "90:92:46:98:D8:C0:B7:A8:EB:36:D0:42:47:9D:87:8F:85:2C:5E:56:5F:CD:91:3D:DC:C0:2F:36:3E:D7:79:33",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "minio-test.clicredito.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:minio-test.clicredito.mx",
+        "subjectKeyIdentifier": "keyid:c1:ec:d8:e2:57:92:20:d6:ef:c3:0a:e8:49:74:c1:9b:b4:15:12:74"
+      }
+    },
+    "cert_index": 163758198,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x639/680",
+    "seen": 1778060160.06,
+    "submission_timestamp": 1778060156.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

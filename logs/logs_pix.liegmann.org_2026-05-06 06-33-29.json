@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.liegmann.org",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 06:33:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.liegmann.org",
+        "aggregated": "/CN=pix.liegmann.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0659D5A327DE11816F79F252CB7532F931CF",
+      "not_before": 1778031747,
+      "not_after": 1785807746,
+      "fingerprint": "35:BC:D0:28:96:09:D3:FE:13:28:90:EB:26:FC:05:DE:4D:5E:E6:9A",
+      "sha1": "35:BC:D0:28:96:09:D3:FE:13:28:90:EB:26:FC:05:DE:4D:5E:E6:9A",
+      "sha256": "60:37:2F:A0:48:08:4D:65:EC:74:32:C1:04:AB:B8:EC:68:00:04:F9:03:EB:D2:74:A1:6E:DA:C3:35:0A:E1:4F",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix.liegmann.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.liegmann.org",
+        "subjectKeyIdentifier": "keyid:ec:55:54:5c:e8:ce:fa:29:c8:53:34:81:4a:eb:00:e8:c0:05:65:36"
+      }
+    },
+    "cert_index": 4088332068,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088332068&end=4088332068",
+    "seen": 1778060006.909,
+    "submission_timestamp": 1778047762.433,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

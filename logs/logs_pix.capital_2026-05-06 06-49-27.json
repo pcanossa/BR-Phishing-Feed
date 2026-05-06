@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.capital",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 06:49:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.capital",
+        "aggregated": "/CN=pix.capital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06E3BFF3453E15F8EF9EA55712AA96E73414",
+      "not_before": 1777838162,
+      "not_after": 1785614161,
+      "fingerprint": "01:72:3E:37:8A:27:97:DD:7B:B5:FA:D8:95:37:23:C7:97:5D:74:5D",
+      "sha1": "01:72:3E:37:8A:27:97:DD:7B:B5:FA:D8:95:37:23:C7:97:5D:74:5D",
+      "sha256": "53:F0:CA:E6:6C:17:3E:56:A3:DF:27:68:88:E9:63:C6:B6:09:3B:06:ED:A1:FB:02:F2:51:9B:68:E5:0E:C3:7A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.capital",
+        "*.pix.capital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.pix.capital, DNS:pix.capital",
+        "subjectKeyIdentifier": "keyid:83:d3:6d:7e:ee:03:1f:fb:9d:26:92:4a:ff:13:c2:59:5b:51:93:bb"
+      }
+    },
+    "cert_index": 678102624,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=678102624&end=678102624",
+    "seen": 1778060965.82,
+    "submission_timestamp": 1777841672.847,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

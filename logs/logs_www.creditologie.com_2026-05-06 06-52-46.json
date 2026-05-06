@@ -1,0 +1,53 @@
+{
+  "dominio": "www.creditologie.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:52:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditologie.com",
+        "aggregated": "/CN=www.creditologie.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05B3C7FB7CE330D6853C358DB03C0CDDCE41",
+      "not_before": 1778045540,
+      "not_after": 1785821539,
+      "fingerprint": "57:BD:85:FE:A0:42:D4:4F:9F:17:A5:6D:DD:87:D1:68:EE:A2:73:F1",
+      "sha1": "57:BD:85:FE:A0:42:D4:4F:9F:17:A5:6D:DD:87:D1:68:EE:A2:73:F1",
+      "sha256": "3F:48:D4:C1:DB:01:F9:E2:D9:E4:FA:BB:DD:41:77:74:35:14:7C:54:6C:21:7B:8F:F9:4C:F6:05:81:99:FF:FB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditologie.com",
+        "creditologie.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditologie.com, DNS:www.creditologie.com",
+        "subjectKeyIdentifier": "keyid:db:0b:66:4e:8e:3c:37:a0:9d:8b:d2:12:59:bf:82:da:5b:d9:38:7e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4088651405,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088651405&end=4088651405",
+    "seen": 1778061165.054,
+    "submission_timestamp": 1778049051.04,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

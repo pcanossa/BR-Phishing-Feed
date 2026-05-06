@@ -1,0 +1,52 @@
+{
+  "dominio": "fullcreditos.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:43:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fullcreditos.com",
+        "aggregated": "/CN=fullcreditos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "060C488B727886612968DB20A244DCCD4F78",
+      "not_before": 1778044908,
+      "not_after": 1785820907,
+      "fingerprint": "73:52:79:6A:CA:E4:16:BF:E9:15:54:F1:74:78:FE:0E:BF:EA:75:11",
+      "sha1": "73:52:79:6A:CA:E4:16:BF:E9:15:54:F1:74:78:FE:0E:BF:EA:75:11",
+      "sha256": "9B:F6:5D:E1:F0:86:2D:C3:4D:84:A9:ED:D0:07:A6:D6:65:A1:39:C7:A5:87:97:54:91:F8:9A:14:EA:2F:C1:3A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fullcreditos.com",
+        "www.fullcreditos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fullcreditos.com, DNS:www.fullcreditos.com",
+        "subjectKeyIdentifier": "keyid:4f:a4:4a:64:29:51:70:ba:b3:4d:df:df:b6:72:3b:29:af:28:97:71"
+      }
+    },
+    "cert_index": 4088499210,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088499210&end=4088499210",
+    "seen": 1778060622.526,
+    "submission_timestamp": 1778048422.094,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

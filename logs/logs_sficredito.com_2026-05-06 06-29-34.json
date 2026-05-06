@@ -1,0 +1,52 @@
+{
+  "dominio": "sficredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:29:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sficredito.com",
+        "aggregated": "/CN=*.sficredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05D28D0073564250E68C5B20411208CAC6FE",
+      "not_before": 1778044027,
+      "not_after": 1785820026,
+      "fingerprint": "D8:0A:31:6F:D5:00:EC:27:49:42:35:2A:83:6E:FA:93:33:A0:57:49",
+      "sha1": "D8:0A:31:6F:D5:00:EC:27:49:42:35:2A:83:6E:FA:93:33:A0:57:49",
+      "sha256": "18:ED:AB:7C:62:F1:98:22:20:AB:09:67:28:D8:D4:BD:D4:6E:BF:0A:FD:9A:E1:BF:C0:11:C5:B6:6A:7C:6A:10",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sficredito.com",
+        "sficredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sficredito.com, DNS:sficredito.com",
+        "subjectKeyIdentifier": "keyid:85:a1:78:1e:61:6a:07:86:29:08:b5:17:e5:8a:a8:b8:cc:d4:b2:2a"
+      }
+    },
+    "cert_index": 4088267822,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088267822&end=4088267822",
+    "seen": 1778059773.559,
+    "submission_timestamp": 1778047540.014,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "login.loteriasalsa.com",
+  "marcas_encontradas": [
+    "loterias"
+  ],
+  "timestamp": "05/06/26 06:34:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.loteriasalsa.com",
+        "aggregated": "/CN=login.loteriasalsa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "499997A131A258EC1EBE9D7E036B526C",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "FB:C7:9B:C4:53:AD:5E:73:E9:04:DA:BE:28:6B:DD:78:D6:FF:D8:59",
+      "sha1": "FB:C7:9B:C4:53:AD:5E:73:E9:04:DA:BE:28:6B:DD:78:D6:FF:D8:59",
+      "sha256": "E0:80:2E:59:58:BD:5E:75:47:49:D8:6D:8D:DC:6F:32:93:64:BA:D2:DA:10:EC:43:33:52:04:06:53:0D:51:4B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.loteriasalsa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.loteriasalsa.com",
+        "subjectKeyIdentifier": "keyid:5c:de:d4:05:d3:9d:40:18:55:9f:8d:2a:36:48:d1:b4:bf:49:fc:ab"
+      }
+    },
+    "cert_index": 4088350167,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088350167&end=4088350167",
+    "seen": 1778060073.978,
+    "submission_timestamp": 1778047826.721,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

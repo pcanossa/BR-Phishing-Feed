@@ -1,0 +1,52 @@
+{
+  "dominio": "bradescoseguros.recife.br",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/06/26 06:32:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bradescoseguros.recife.br",
+        "aggregated": "/CN=*.bradescoseguros.recife.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05E5C94C4A7524530DC196AD4DB09D563FD4",
+      "not_before": 1777835499,
+      "not_after": 1785611498,
+      "fingerprint": "AC:65:8E:3B:90:30:D4:DF:12:39:BC:B8:6C:D9:B4:CB:22:47:59:FD",
+      "sha1": "AC:65:8E:3B:90:30:D4:DF:12:39:BC:B8:6C:D9:B4:CB:22:47:59:FD",
+      "sha256": "61:7D:8E:A3:E6:10:77:F6:F1:61:35:F8:11:CD:F9:AF:7D:93:18:A8:81:E5:40:B7:A7:B1:D0:C7:EB:59:AE:67",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bradescoseguros.recife.br",
+        "bradescoseguros.recife.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bradescoseguros.recife.br, DNS:bradescoseguros.recife.br",
+        "subjectKeyIdentifier": "keyid:94:27:e4:18:43:95:85:0f:aa:26:29:77:be:ad:a6:4b:99:1d:4b:8e"
+      }
+    },
+    "cert_index": 820266991,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820266991&end=820266991",
+    "seen": 1778059967.056,
+    "submission_timestamp": 1777839010.335,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

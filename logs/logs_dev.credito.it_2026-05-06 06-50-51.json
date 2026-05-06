@@ -1,0 +1,52 @@
+{
+  "dominio": "dev.credito.it",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:50:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.credito.it",
+        "aggregated": "/CN=dev.credito.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E1210BB0BE65FABE7BCBB356A88284F",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "4B:A3:EC:C5:66:1A:99:96:21:A4:8D:8B:0A:EE:0C:D2:35:D4:2B:78",
+      "sha1": "4B:A3:EC:C5:66:1A:99:96:21:A4:8D:8B:0A:EE:0C:D2:35:D4:2B:78",
+      "sha256": "23:A3:4B:98:8D:85:BD:1F:E2:65:63:E3:F2:14:F2:3D:45:04:B6:B7:47:D0:E7:70:58:55:51:56:19:69:49:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.credito.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.credito.it",
+        "subjectKeyIdentifier": "keyid:02:0c:c5:db:86:57:41:19:08:82:5c:a1:51:7b:18:04:a2:21:ae:81"
+      }
+    },
+    "cert_index": 171923695,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x671/576",
+    "seen": 1778061049.878,
+    "submission_timestamp": 1778061048.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

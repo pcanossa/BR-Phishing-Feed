@@ -1,0 +1,51 @@
+{
+  "dominio": "www.creditosi.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:22:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.creditosi.com",
+        "aggregated": "/CN=www.creditosi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06968AC377A91BDE630C8A95E0FBB2EBB012",
+      "not_before": 1778041560,
+      "not_after": 1785817559,
+      "fingerprint": "DA:A5:F3:04:EB:EE:77:88:38:9B:B0:E4:FC:03:A9:75:27:4F:F3:57",
+      "sha1": "DA:A5:F3:04:EB:EE:77:88:38:9B:B0:E4:FC:03:A9:75:27:4F:F3:57",
+      "sha256": "49:46:9F:A4:9F:05:C8:0F:DD:C9:ED:09:E1:81:15:1F:67:82:34:B6:1A:CF:E2:EE:F5:7D:AE:24:1B:03:A2:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.creditosi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.creditosi.com",
+        "subjectKeyIdentifier": "keyid:a5:87:01:23:a6:68:81:d2:b5:89:d7:78:dd:56:1c:ed:67:5d:98:fd"
+      }
+    },
+    "cert_index": 4088152617,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4088152617&end=4088152617",
+    "seen": 1778059336.277,
+    "submission_timestamp": 1778047084.639,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

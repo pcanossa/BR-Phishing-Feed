@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.green",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 06:28:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.green",
+        "aggregated": "/CN=pix.green"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "39C16441E0A5A6DD0DC436870A706EB7",
+      "not_before": 1777835351,
+      "not_after": 1785614948,
+      "fingerprint": "C5:34:11:FD:06:C4:85:3B:4A:35:52:86:31:34:9E:34:FB:FF:74:DA",
+      "sha1": "C5:34:11:FD:06:C4:85:3B:4A:35:52:86:31:34:9E:34:FB:FF:74:DA",
+      "sha256": "DE:E7:DB:5B:DC:BC:76:8D:75:73:CD:FC:5C:1F:61:74:53:5B:72:14:94:FB:CD:71:B2:DC:A8:2D:F3:4F:84:80",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix.green"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/OcE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.green",
+        "subjectKeyIdentifier": "keyid:02:f5:94:35:86:7e:00:f2:f6:72:a2:8c:5c:e0:2d:45:91:25:3b:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 820262954,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820262954&end=820262954",
+    "seen": 1778059735.393,
+    "submission_timestamp": 1777838951.598,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
