@@ -1,0 +1,52 @@
+{
+  "dominio": "regularizacpf-receita.biz",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/06/26 16:13:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "regularizacpf-receita.biz",
+        "aggregated": "/CN=regularizacpf-receita.biz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06804BE73A645EC192F7AE2C6079A1793D74",
+      "not_before": 1778081386,
+      "not_after": 1785857385,
+      "fingerprint": "40:B9:02:86:EF:F2:6B:A8:C0:83:05:34:42:BF:42:E8:C5:FE:C7:A1",
+      "sha1": "40:B9:02:86:EF:F2:6B:A8:C0:83:05:34:42:BF:42:E8:C5:FE:C7:A1",
+      "sha256": "25:7C:BC:0A:BD:49:54:FD:41:4E:15:F6:C2:4D:E8:3B:7D:0B:88:0A:93:B0:68:66:76:92:A2:18:8D:DF:9C:33",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "regularizacpf-receita.biz",
+        "*.regularizacpf-receita.biz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.regularizacpf-receita.biz, DNS:regularizacpf-receita.biz",
+        "subjectKeyIdentifier": "keyid:54:2e:0c:9b:8a:20:ba:cc:0a:e3:59:fc:dd:03:43:21:ed:00:82:ac"
+      }
+    },
+    "cert_index": 4097091636,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4097091636&end=4097091636",
+    "seen": 1778094824.531,
+    "submission_timestamp": 1778084898.936,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

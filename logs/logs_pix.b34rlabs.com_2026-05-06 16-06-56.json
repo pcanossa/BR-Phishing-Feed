@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.b34rlabs.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 16:06:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.b34rlabs.com",
+        "aggregated": "/CN=pix.b34rlabs.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "058B981C6B1799BBD3D4758AC3FE96D957F9",
+      "not_before": 1778080993,
+      "not_after": 1785856992,
+      "fingerprint": "E7:54:3B:06:B4:E3:01:86:31:6D:AF:52:24:FB:40:C9:48:14:D0:25",
+      "sha1": "E7:54:3B:06:B4:E3:01:86:31:6D:AF:52:24:FB:40:C9:48:14:D0:25",
+      "sha256": "4A:35:EC:35:B3:DA:B1:19:6B:A5:F6:71:A1:F6:8A:14:1B:3D:AF:CE:09:81:B1:11:5E:85:82:5A:2B:D0:26:E9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix.b34rlabs.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.b34rlabs.com",
+        "subjectKeyIdentifier": "keyid:b2:2f:9d:50:9b:00:21:f3:f9:6c:1a:f1:8b:9c:c8:74:2d:82:43:bd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4096988311,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4096988311&end=4096988311",
+    "seen": 1778094414.514,
+    "submission_timestamp": 1778084503.779,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
