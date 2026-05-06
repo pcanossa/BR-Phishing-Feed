@@ -1,0 +1,53 @@
+{
+  "dominio": "debitos-rs.digital",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 12:07:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-rs.digital",
+        "aggregated": "/CN=debitos-rs.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "051A8D193566530F1191B2DC00C952A8",
+      "not_before": 1777840455,
+      "not_after": 1785619986,
+      "fingerprint": "74:4A:25:0D:BE:49:47:0C:5A:25:E5:73:E9:53:C0:E4:15:3C:2F:B2",
+      "sha1": "74:4A:25:0D:BE:49:47:0C:5A:25:E5:73:E9:53:C0:E4:15:3C:2F:B2",
+      "sha256": "1A:E3:38:C6:DD:70:9C:13:1A:F1:0E:B0:52:25:B1:45:68:AE:CC:35:00:CF:0D:B9:6E:20:21:DB:DA:31:42:56",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-rs.digital",
+        "*.debitos-rs.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BRo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos-rs.digital, DNS:*.debitos-rs.digital",
+        "subjectKeyIdentifier": "keyid:f8:93:20:f9:ad:b5:d5:e8:90:a9:0c:86:b7:ea:1b:86:4f:79:b8:70",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 678426582,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=678426582&end=678426582",
+    "seen": 1778080064.824,
+    "submission_timestamp": 1777844055.702,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

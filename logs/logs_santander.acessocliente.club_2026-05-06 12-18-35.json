@@ -1,0 +1,51 @@
+{
+  "dominio": "santander.acessocliente.club",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/06/26 12:18:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.acessocliente.club",
+        "aggregated": "/CN=santander.acessocliente.club"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0654AB0885F5F65BCF9520EB7687BEE442A0",
+      "not_before": 1778066850,
+      "not_after": 1785842849,
+      "fingerprint": "9A:27:E7:0C:FA:06:BA:26:71:A0:84:94:FE:ED:DD:EA:6A:13:D7:8B",
+      "sha1": "9A:27:E7:0C:FA:06:BA:26:71:A0:84:94:FE:ED:DD:EA:6A:13:D7:8B",
+      "sha256": "97:DD:1A:9A:16:7D:27:65:CF:95:74:7A:4B:27:B6:49:9F:D9:72:C2:42:1E:0F:7B:E8:58:AF:9C:D9:D6:D3:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.acessocliente.club"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.acessocliente.club",
+        "subjectKeyIdentifier": "keyid:73:73:cf:88:45:47:e1:43:85:c9:c9:f5:fd:8a:e1:90:42:fb:6f:4b"
+      }
+    },
+    "cert_index": 4093585266,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4093585266&end=4093585266",
+    "seen": 1778080714.63,
+    "submission_timestamp": 1778070362.18,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

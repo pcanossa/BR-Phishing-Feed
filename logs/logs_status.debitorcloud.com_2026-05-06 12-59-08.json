@@ -1,0 +1,51 @@
+{
+  "dominio": "status.debitorcloud.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 12:59:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "status.debitorcloud.com",
+        "aggregated": "/CN=status.debitorcloud.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05F51562B4B74F7BC2119532885EB3B16993",
+      "not_before": 1778069556,
+      "not_after": 1785845555,
+      "fingerprint": "93:FB:67:F1:A9:7F:A3:CA:42:E2:0E:8C:33:A4:76:45:7A:8E:28:CF",
+      "sha1": "93:FB:67:F1:A9:7F:A3:CA:42:E2:0E:8C:33:A4:76:45:7A:8E:28:CF",
+      "sha256": "A2:35:32:85:3E:2C:A5:49:09:C9:EB:AA:8D:DB:2D:CD:CB:1E:7B:5D:61:45:54:15:E8:0B:22:F3:F3:2A:61:4D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "status.debitorcloud.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:status.debitorcloud.com",
+        "subjectKeyIdentifier": "keyid:9f:48:2b:bc:d5:86:8c:25:e3:61:43:b9:a7:fc:3b:93:42:79:ff:9f"
+      }
+    },
+    "cert_index": 4094206048,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4094206048&end=4094206048",
+    "seen": 1778083147.196,
+    "submission_timestamp": 1778073069.556,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

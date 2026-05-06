@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.world",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 12:51:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.world",
+        "aggregated": "/CN=cpf.world"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "D7025311B6696D7D",
+      "not_before": 1777948787,
+      "not_after": 1795055987,
+      "fingerprint": "A8:DE:E0:31:E1:D4:09:B9:A7:21:75:8D:38:FB:3C:20:B4:5C:4D:2C",
+      "sha1": "A8:DE:E0:31:E1:D4:09:B9:A7:21:75:8D:38:FB:3C:20:B4:5C:4D:2C",
+      "sha256": "F9:44:1C:49:E7:A4:5B:77:0F:35:46:2C:C1:19:9D:12:10:8D:8D:A4:B8:3F:36:86:A3:12:5A:5C:9E:6F:9B:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.world"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.world",
+        "subjectKeyIdentifier": "keyid:0d:f0:7e:9f:34:2c:a9:b8:c4:5c:d8:1c:70:ae:59:9e:79:9e:55:db",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 588984172,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=588984172&end=588984172",
+    "seen": 1778082688.309,
+    "submission_timestamp": 1777948788.405,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

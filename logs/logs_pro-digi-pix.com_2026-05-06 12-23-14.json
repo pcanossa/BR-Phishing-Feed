@@ -1,0 +1,52 @@
+{
+  "dominio": "pro-digi-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 12:23:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pro-digi-pix.com",
+        "aggregated": "/CN=pro-digi-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0577C3200F0C868B4DBAFBECE3588F084E57",
+      "not_before": 1778066424,
+      "not_after": 1785842423,
+      "fingerprint": "94:1E:77:CF:D5:F7:8C:6C:A6:ED:B0:AC:9D:06:49:90:2D:8C:70:06",
+      "sha1": "94:1E:77:CF:D5:F7:8C:6C:A6:ED:B0:AC:9D:06:49:90:2D:8C:70:06",
+      "sha256": "74:A4:C7:4C:A6:30:49:49:88:4D:91:48:C7:3B:FC:AC:7B:F1:FC:59:99:9D:35:D1:01:93:3A:DE:FB:22:A3:29",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pro-digi-pix.com",
+        "*.pro-digi-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pro-digi-pix.com, DNS:pro-digi-pix.com",
+        "subjectKeyIdentifier": "keyid:34:78:ba:9b:85:37:e0:7a:43:59:eb:57:bd:97:0a:93:66:66:aa:bd"
+      }
+    },
+    "cert_index": 4093654927,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4093654927&end=4093654927",
+    "seen": 1778080993.539,
+    "submission_timestamp": 1778070662.979,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
