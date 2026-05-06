@@ -1,0 +1,51 @@
+{
+  "dominio": "concredito.ferrymac.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 22:41:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "concredito.ferrymac.com",
+        "aggregated": "/CN=concredito.ferrymac.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "066A819D7DC2D47B6B28AE78BE50A1A61A6D",
+      "not_before": 1778013550,
+      "not_after": 1785789549,
+      "fingerprint": "06:70:2C:4D:F3:F5:46:76:C0:FE:8A:D4:E0:60:1D:EE:4D:23:AE:C4",
+      "sha1": "06:70:2C:4D:F3:F5:46:76:C0:FE:8A:D4:E0:60:1D:EE:4D:23:AE:C4",
+      "sha256": "1F:74:7D:4E:20:BC:62:C0:DF:6D:6D:70:F5:9A:AA:A4:13:0B:3A:1F:BE:9B:84:AA:11:2B:3C:13:06:1C:36:2E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "concredito.ferrymac.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:concredito.ferrymac.com",
+        "subjectKeyIdentifier": "keyid:b3:50:b4:04:28:71:8a:51:d8:27:84:e7:03:d0:54:5b:a7:3a:0f:19"
+      }
+    },
+    "cert_index": 4081315677,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4081315677&end=4081315677",
+    "seen": 1778031710.303,
+    "submission_timestamp": 1778017062.462,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

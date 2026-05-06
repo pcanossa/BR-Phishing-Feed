@@ -1,0 +1,55 @@
+{
+  "dominio": "www.tmb01.prod01.cpf.ssnsgs.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/05/26 22:58:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "tmb01.prod01.cpf.ssnsgs.net",
+        "O": "Itron Networked Solutions, Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=tmb01.prod01.cpf.ssnsgs.net/O=Itron Networked Solutions, Inc./ST=California"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "15A3881D767E9E9D612160F6FFDD67F2",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "6E:3A:F5:29:91:B2:6F:D6:C5:63:BE:B4:7A:5B:A9:5A:EE:9F:24:43",
+      "sha1": "6E:3A:F5:29:91:B2:6F:D6:C5:63:BE:B4:7A:5B:A9:5A:EE:9F:24:43",
+      "sha256": "0C:7F:99:4F:EC:71:58:0B:F1:87:3D:E1:AB:7C:89:D6:47:AA:51:C7:4C:28:62:B5:E4:85:49:DA:84:3D:61:25",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tmb01.prod01.cpf.ssnsgs.net",
+        "www.tmb01.prod01.cpf.ssnsgs.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tmb01.prod01.cpf.ssnsgs.net, DNS:www.tmb01.prod01.cpf.ssnsgs.net",
+        "subjectKeyIdentifier": "keyid:77:60:2c:1c:28:09:a8:38:66:de:98:ee:18:14:ca:d9:6d:8e:0e:40"
+      }
+    },
+    "cert_index": 171064807,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x668/221",
+    "seen": 1778032700.264,
+    "submission_timestamp": 1778032699.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

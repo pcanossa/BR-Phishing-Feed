@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.stone-heights.com",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/05/26 22:30:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.stone-heights.com",
+        "aggregated": "/CN=apps.stone-heights.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "8092F9088DEC6F1DD749466E9E6B22E6",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "03:6C:1B:36:4F:34:75:A2:70:82:9C:10:9D:F8:E2:B8:0E:27:2A:11",
+      "sha1": "03:6C:1B:36:4F:34:75:A2:70:82:9C:10:9D:F8:E2:B8:0E:27:2A:11",
+      "sha256": "85:9D:AA:47:2B:15:97:1D:E5:F3:65:28:2C:74:AB:46:46:5A:29:4A:DF:74:8D:CA:00:1C:12:1D:61:AE:35:85",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.stone-heights.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.stone-heights.com",
+        "subjectKeyIdentifier": "keyid:16:f1:d4:3f:8b:7b:1e:e3:ff:4e:eb:ec:b6:fe:04:16:41:71:e9:65"
+      }
+    },
+    "cert_index": 4081148463,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4081148463&end=4081148463",
+    "seen": 1778031012.069,
+    "submission_timestamp": 1778016199.502,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

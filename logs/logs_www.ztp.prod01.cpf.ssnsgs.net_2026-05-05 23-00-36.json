@@ -1,0 +1,55 @@
+{
+  "dominio": "www.ztp.prod01.cpf.ssnsgs.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/05/26 23:00:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "ztp.prod01.cpf.ssnsgs.net",
+        "O": "Itron Networked Solutions, Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=ztp.prod01.cpf.ssnsgs.net/O=Itron Networked Solutions, Inc./ST=California"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "14392F737BFF506C04C6A876E5C8E272",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "CE:DD:FC:31:21:4A:24:29:06:F6:7A:96:73:2D:18:53:B6:99:6A:AE",
+      "sha1": "CE:DD:FC:31:21:4A:24:29:06:F6:7A:96:73:2D:18:53:B6:99:6A:AE",
+      "sha256": "C7:DD:71:B2:B8:5A:22:7C:5D:9A:8B:7B:4B:EB:0E:00:0E:EC:B6:8E:69:6B:40:FA:3B:39:31:68:7A:25:94:1E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ztp.prod01.cpf.ssnsgs.net",
+        "www.ztp.prod01.cpf.ssnsgs.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ztp.prod01.cpf.ssnsgs.net, DNS:www.ztp.prod01.cpf.ssnsgs.net",
+        "subjectKeyIdentifier": "keyid:8e:bd:66:91:89:d0:ef:17:31:0c:af:9b:a2:92:af:8d:9e:f7:ce:95"
+      }
+    },
+    "cert_index": 620070221,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=620070221&end=620070221",
+    "seen": 1778032835.459,
+    "submission_timestamp": 1778032704.657,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

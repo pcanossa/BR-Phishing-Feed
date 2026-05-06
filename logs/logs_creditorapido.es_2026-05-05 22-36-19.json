@@ -1,0 +1,52 @@
+{
+  "dominio": "creditorapido.es",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 22:36:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditorapido.es",
+        "aggregated": "/CN=creditorapido.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "114D61C2F2F7498213B1F089A45DC2A4",
+      "not_before": 1777997383,
+      "not_after": 1785776841,
+      "fingerprint": "E0:45:21:32:C7:D3:86:54:66:F1:C5:07:ED:EC:E7:74:39:EB:28:13",
+      "sha1": "E0:45:21:32:C7:D3:86:54:66:F1:C5:07:ED:EC:E7:74:39:EB:28:13",
+      "sha256": "D4:0A:CA:DD:FE:3B:18:16:EE:E2:11:5B:34:45:A9:5F:50:E5:7F:FF:7E:AB:F3:BF:B9:10:04:4C:86:AF:68:61",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditorapido.es",
+        "*.creditorapido.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/EU0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditorapido.es, DNS:*.creditorapido.es",
+        "subjectKeyIdentifier": "keyid:4d:7d:9d:66:dd:01:08:af:f4:24:ad:a0:cc:cf:fc:d6:97:40:6d:bf"
+      }
+    },
+    "cert_index": 4081235137,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4081235137&end=4081235137",
+    "seen": 1778031378.753,
+    "submission_timestamp": 1778016641.027,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

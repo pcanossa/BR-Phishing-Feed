@@ -1,0 +1,52 @@
+{
+  "dominio": "login.standing-stone.com",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/05/26 22:43:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.standing-stone.com",
+        "aggregated": "/CN=login.standing-stone.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "ED54CCD5B2833D602C67A8E65E781F75",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "51:6A:0B:91:0A:D2:25:D9:A1:57:8E:2A:82:B8:29:31:01:84:A2:D1",
+      "sha1": "51:6A:0B:91:0A:D2:25:D9:A1:57:8E:2A:82:B8:29:31:01:84:A2:D1",
+      "sha256": "48:93:31:11:B7:8F:D4:6D:B4:84:7F:80:10:EE:96:FE:49:28:6B:8D:62:FF:E1:1A:E6:B5:19:2E:20:76:F7:A5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.standing-stone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.standing-stone.com",
+        "subjectKeyIdentifier": "keyid:4d:c2:d2:4c:09:47:a3:19:ba:6e:04:c9:96:0f:70:e9:ee:2e:2d:49",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4081334495,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4081334495&end=4081334495",
+    "seen": 1778031785.37,
+    "submission_timestamp": 1778017156.291,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

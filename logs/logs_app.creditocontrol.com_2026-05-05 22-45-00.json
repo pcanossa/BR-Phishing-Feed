@@ -1,0 +1,52 @@
+{
+  "dominio": "app.creditocontrol.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 22:45:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.creditocontrol.com",
+        "aggregated": "/CN=app.creditocontrol.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 256 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 256 M01/O=Amazon"
+      },
+      "serial_number": "05BB5C44D77E4424A03D36C5E43E6D84",
+      "not_before": 1777939200,
+      "not_after": 1795046399,
+      "fingerprint": "81:7C:9F:C7:05:6C:7D:86:46:F8:46:63:3F:1F:AB:7D:7C:AA:88:85",
+      "sha1": "81:7C:9F:C7:05:6C:7D:86:46:F8:46:63:3F:1F:AB:7D:7C:AA:88:85",
+      "sha256": "A8:42:51:9F:CA:88:3F:73:ED:A2:CC:0B:A5:2D:DB:32:3A:6E:E5:24:30:FE:7E:3C:8E:5B:8B:96:55:81:70:91",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.creditocontrol.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e2m01.amazontrust.com, URI:http://crt.e2m01.amazontrust.com/e2m01.cer",
+        "authorityKeyIdentifier": "keyid:4f:59:fc:bc:06:16:28:bf:a2:c8:db:08:fb:cf:13:24:ba:69:42:5c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:app.creditocontrol.com",
+        "subjectKeyIdentifier": "keyid:7e:41:fc:11:4a:a8:51:e7:4e:b0:22:93:77:50:17:cc:20:2b:73:33",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4081361244,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4081361244&end=4081361244",
+    "seen": 1778031900.802,
+    "submission_timestamp": 1778017321.559,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

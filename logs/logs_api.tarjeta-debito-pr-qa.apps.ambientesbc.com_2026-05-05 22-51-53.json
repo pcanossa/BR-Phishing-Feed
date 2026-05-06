@@ -1,0 +1,53 @@
+{
+  "dominio": "api.tarjeta-debito-pr-qa.apps.ambientesbc.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/05/26 22:51:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "018CB076CC77AF0BF7D522EAD95AFB4A",
+      "not_before": 1778017819,
+      "not_after": 1778104160,
+      "fingerprint": "F8:0A:EA:7B:9A:83:3B:37:87:40:EE:48:F0:B1:B7:C9:CF:23:25:62",
+      "sha1": "F8:0A:EA:7B:9A:83:3B:37:87:40:EE:48:F0:B1:B7:C9:CF:23:25:62",
+      "sha256": "46:3D:C1:1F:D9:07:DF:F7:D7:89:9E:C8:3D:0A:87:B3:9C:82:69:A2:A2:A9:E5:1E:42:5D:57:20:35:B0:FC:D3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "api.tarjeta-debito-pr-qa.apps.ambientesbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr-qa.apps.ambientesbc.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:9c:ec:14:bf:a5:f3:56:0f:38:21:de:dd:69:e5:9c:4f:14:af:ac:38",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4081465885,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4081465885&end=4081465885",
+    "seen": 1778032312.687,
+    "submission_timestamp": 1778017822.78,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
