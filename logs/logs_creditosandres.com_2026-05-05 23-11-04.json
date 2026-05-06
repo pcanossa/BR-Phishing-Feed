@@ -1,0 +1,53 @@
+{
+  "dominio": "creditosandres.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 23:11:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditosandres.com",
+        "aggregated": "/CN=creditosandres.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "E26E0A9E179F49B868844BE8088CF243",
+      "not_before": 1778025600,
+      "not_after": 1785809186,
+      "fingerprint": "E3:4B:CA:77:60:DC:DF:2C:63:1B:0A:35:9B:49:74:15:D9:B7:49:3B",
+      "sha1": "E3:4B:CA:77:60:DC:DF:2C:63:1B:0A:35:9B:49:74:15:D9:B7:49:3B",
+      "sha256": "15:4E:CE:49:71:D5:13:92:17:1F:D7:61:2C:BA:32:BF:6D:2C:BF:77:EA:94:2F:6E:40:64:F7:25:45:B7:BB:89",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "creditosandres.com",
+        "*.creditosandres.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:creditosandres.com, DNS:*.creditosandres.com",
+        "subjectKeyIdentifier": "keyid:14:7d:4f:23:94:24:e3:4d:33:57:bd:54:7d:44:58:df:5c:25:7b:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 620185020,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=620185020&end=620185020",
+    "seen": 1778033464.853,
+    "submission_timestamp": 1778033303.648,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

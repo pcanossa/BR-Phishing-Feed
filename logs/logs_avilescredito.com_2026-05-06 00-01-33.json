@@ -1,0 +1,52 @@
+{
+  "dominio": "avilescredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 00:01:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "avilescredito.com",
+        "aggregated": "/CN=avilescredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "545C1C7BC491FEC613A8D333D0421FEB",
+      "not_before": 1778018835,
+      "not_after": 1785798429,
+      "fingerprint": "94:70:87:C4:1F:F1:68:AC:DC:83:7D:9D:26:D3:72:00:8B:81:90:FB",
+      "sha1": "94:70:87:C4:1F:F1:68:AC:DC:83:7D:9D:26:D3:72:00:8B:81:90:FB",
+      "sha256": "CF:09:26:F6:22:9F:AF:63:68:8F:CC:7A:AB:41:63:C9:ED:50:AF:3D:CA:87:0F:DB:2D:71:B9:24:19:3C:45:D7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "avilescredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/VFw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:avilescredito.com",
+        "subjectKeyIdentifier": "keyid:1a:9d:48:10:f8:fd:95:e1:ee:88:37:d7:f2:57:89:d5:2e:6b:10:ce",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4082487182,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4082487182&end=4082487182",
+    "seen": 1778036492.058,
+    "submission_timestamp": 1778022435.748,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

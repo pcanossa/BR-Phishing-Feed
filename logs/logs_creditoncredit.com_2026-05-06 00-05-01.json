@@ -1,0 +1,53 @@
+{
+  "dominio": "creditoncredit.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 00:05:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.creditoncredit.com",
+        "aggregated": "/CN=*.creditoncredit.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05142ECA171D7E5D636D402E838195A58522",
+      "not_before": 1777946130,
+      "not_after": 1785722129,
+      "fingerprint": "53:BD:72:A4:92:8E:61:DF:ED:78:9D:D6:08:9D:28:F1:5C:2B:EE:D1",
+      "sha1": "53:BD:72:A4:92:8E:61:DF:ED:78:9D:D6:08:9D:28:F1:5C:2B:EE:D1",
+      "sha256": "2E:53:E2:B7:E6:89:8B:34:5D:80:0C:9C:53:04:DB:3B:23:D1:70:1C:7C:2E:B3:63:92:68:B2:62:AC:60:22:B3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.creditoncredit.com",
+        "creditoncredit.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditoncredit.com, DNS:creditoncredit.com",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 562061565,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=562061565&end=562061565",
+    "seen": 1778036700.241,
+    "submission_timestamp": 1777949640.68,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

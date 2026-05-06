@@ -1,0 +1,51 @@
+{
+  "dominio": "creditofcanada.ca",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 23:56:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditofcanada.ca",
+        "aggregated": "/CN=creditofcanada.ca"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "BB9B8E488BEC7DD6",
+      "not_before": 1778006980,
+      "not_after": 1795114180,
+      "fingerprint": "57:7E:A6:AA:AB:7E:C2:FC:17:BB:03:46:FC:B6:D9:AD:16:78:F0:7A",
+      "sha1": "57:7E:A6:AA:AB:7E:C2:FC:17:BB:03:46:FC:B6:D9:AD:16:78:F0:7A",
+      "sha256": "5F:D5:9D:79:1B:15:19:5F:86:34:65:76:CF:0C:C2:73:F3:0E:3F:5D:BA:7A:35:72:CB:C6:8F:E1:E6:C9:CB:EA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditofcanada.ca"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditofcanada.ca",
+        "subjectKeyIdentifier": "keyid:30:1d:48:64:8e:de:55:50:eb:f4:2a:51:95:7a:93:e1:e7:9b:a4:2f"
+      }
+    },
+    "cert_index": 4082407760,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4082407760&end=4082407760",
+    "seen": 1778036185.658,
+    "submission_timestamp": 1778022090.684,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

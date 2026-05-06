@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.world",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/05/26 23:50:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.world",
+        "aggregated": "/CN=cpf.world"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "D7025311B6696D7D",
+      "not_before": 1777948787,
+      "not_after": 1795055987,
+      "fingerprint": "88:F5:31:5B:3F:28:3F:37:B2:73:1C:42:B1:09:3A:55:D3:36:C0:49",
+      "sha1": "88:F5:31:5B:3F:28:3F:37:B2:73:1C:42:B1:09:3A:55:D3:36:C0:49",
+      "sha256": "49:C0:8D:A7:4D:9F:6A:BB:14:20:7D:59:9A:9E:E8:DE:0F:AA:C7:C7:41:81:3B:F8:C4:92:5E:BD:E4:6D:B3:CD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.world"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.world",
+        "subjectKeyIdentifier": "keyid:0d:f0:7e:9f:34:2c:a9:b8:c4:5c:d8:1c:70:ae:59:9e:79:9e:55:db"
+      }
+    },
+    "cert_index": 562001548,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=562001548&end=562001548",
+    "seen": 1778035852.572,
+    "submission_timestamp": 1777949101.453,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
