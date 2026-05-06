@@ -1,0 +1,52 @@
+{
+  "dominio": "credito1.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 03:43:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "credito1.com.br",
+        "aggregated": "/CN=credito1.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "061AF59EE3E70CFF9D0E1B06193A117BE1C9",
+      "not_before": 1778032902,
+      "not_after": 1785808901,
+      "fingerprint": "7E:80:75:CC:5D:78:E8:DA:9C:68:32:49:62:80:58:CA:92:88:91:BC",
+      "sha1": "7E:80:75:CC:5D:78:E8:DA:9C:68:32:49:62:80:58:CA:92:88:91:BC",
+      "sha256": "29:95:7C:81:33:E1:BA:21:5E:95:DF:AF:1C:43:20:81:C6:90:D7:53:51:E3:9E:33:DA:92:E3:47:12:A6:00:D9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "credito1.com.br",
+        "*.credito1.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.credito1.com.br, DNS:credito1.com.br",
+        "subjectKeyIdentifier": "keyid:b0:d7:80:44:78:44:1b:d5:0f:cd:d8:df:aa:27:0c:37:d2:2c:08:ec"
+      }
+    },
+    "cert_index": 4085770861,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4085770861&end=4085770861",
+    "seen": 1778049796.19,
+    "submission_timestamp": 1778036414.238,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

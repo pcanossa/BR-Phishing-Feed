@@ -1,0 +1,52 @@
+{
+  "dominio": "pensamentoclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/06/26 03:41:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pensamentoclaro.app",
+        "aggregated": "/CN=pensamentoclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "533AD5A0B4D4D1AA",
+      "not_before": 1778036228,
+      "not_after": 1795143428,
+      "fingerprint": "9F:D3:42:5C:55:86:65:42:44:F8:89:84:47:67:44:9B:46:61:85:E9",
+      "sha1": "9F:D3:42:5C:55:86:65:42:44:F8:89:84:47:67:44:9B:46:61:85:E9",
+      "sha256": "98:CF:56:37:AD:34:0F:76:0B:FF:4F:58:D2:92:4C:E4:4A:CB:DD:27:0E:52:CB:DC:15:E6:53:17:D9:DF:41:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pensamentoclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pensamentoclaro.app",
+        "subjectKeyIdentifier": "keyid:82:63:83:46:a8:21:60:43:7d:26:57:99:6b:1a:53:aa:cb:c4:1c:bc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4085736881,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4085736881&end=4085736881",
+    "seen": 1778049665.636,
+    "submission_timestamp": 1778036228.662,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

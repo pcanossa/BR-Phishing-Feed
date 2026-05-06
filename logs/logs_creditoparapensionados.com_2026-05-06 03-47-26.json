@@ -1,0 +1,52 @@
+{
+  "dominio": "creditoparapensionados.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 03:47:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditoparapensionados.com",
+        "aggregated": "/CN=creditoparapensionados.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059D36FE6DDEB7CE3553DC84C0AC627D0B34",
+      "not_before": 1778020436,
+      "not_after": 1785796435,
+      "fingerprint": "88:7A:3D:25:9F:48:70:F7:2A:CE:1F:37:CE:59:8C:3D:97:58:A9:6F",
+      "sha1": "88:7A:3D:25:9F:48:70:F7:2A:CE:1F:37:CE:59:8C:3D:97:58:A9:6F",
+      "sha256": "78:5F:72:C0:23:30:B2:2F:C9:75:E5:FF:98:11:B3:33:15:E6:E3:26:7F:4A:61:02:A6:A5:0E:1D:A3:A1:B4:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditoparapensionados.com",
+        "*.creditoparapensionados.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditoparapensionados.com, DNS:creditoparapensionados.com",
+        "subjectKeyIdentifier": "keyid:a8:df:e0:d3:14:85:5a:9b:28:fc:90:a8:9c:b6:8f:44:85:04:86:c3"
+      }
+    },
+    "cert_index": 4085830711,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4085830711&end=4085830711",
+    "seen": 1778050046.583,
+    "submission_timestamp": 1778036611.447,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

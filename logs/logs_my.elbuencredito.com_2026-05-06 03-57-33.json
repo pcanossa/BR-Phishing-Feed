@@ -1,0 +1,51 @@
+{
+  "dominio": "my.elbuencredito.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 03:57:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my.elbuencredito.com",
+        "aggregated": "/CN=my.elbuencredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "067930FFAC0DB0F82DEAC38DE324AD7523CE",
+      "not_before": 1778033510,
+      "not_after": 1785809509,
+      "fingerprint": "66:E3:5B:69:06:EA:90:C8:73:EF:1A:12:F9:70:2A:4A:A2:D1:C0:2A",
+      "sha1": "66:E3:5B:69:06:EA:90:C8:73:EF:1A:12:F9:70:2A:4A:A2:D1:C0:2A",
+      "sha256": "36:FB:E8:19:D5:FE:C9:37:65:BF:C1:03:44:5F:57:C1:40:3C:01:B0:77:D8:8B:EA:11:35:09:7E:73:E5:65:92",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "my.elbuencredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:my.elbuencredito.com",
+        "subjectKeyIdentifier": "keyid:71:b6:8c:56:ea:fa:1c:45:1e:61:39:83:4c:36:22:88:0b:40:77:dd"
+      }
+    },
+    "cert_index": 4085989328,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4085989328&end=4085989328",
+    "seen": 1778050651.468,
+    "submission_timestamp": 1778037222.67,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

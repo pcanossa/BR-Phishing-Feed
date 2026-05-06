@@ -1,0 +1,53 @@
+{
+  "dominio": "www.akicredito.es",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 03:42:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "akicredito.es",
+        "aggregated": "/CN=akicredito.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "066789CC431704AC26775C87BFAE4F9F0E53",
+      "not_before": 1778032865,
+      "not_after": 1785808864,
+      "fingerprint": "53:1B:D1:B6:2C:0C:B7:39:BE:F1:BF:2F:A7:86:30:A5:26:6A:76:B8",
+      "sha1": "53:1B:D1:B6:2C:0C:B7:39:BE:F1:BF:2F:A7:86:30:A5:26:6A:76:B8",
+      "sha256": "C3:04:AD:FB:60:C3:E1:30:AB:24:38:21:6D:5D:42:5B:D7:D0:39:DF:48:88:9C:5C:55:23:09:61:99:29:FC:4D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "akicredito.es",
+        "www.akicredito.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:akicredito.es, DNS:www.akicredito.es",
+        "subjectKeyIdentifier": "keyid:90:95:22:3e:a1:b1:c1:12:14:80:62:3c:6b:dd:37:e1:45:a7:d9:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4085764246,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4085764246&end=4085764246",
+    "seen": 1778049771.603,
+    "submission_timestamp": 1778036375.929,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
