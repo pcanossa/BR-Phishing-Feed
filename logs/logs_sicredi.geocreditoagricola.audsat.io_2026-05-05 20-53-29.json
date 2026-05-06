@@ -1,0 +1,53 @@
+{
+  "dominio": "sicredi.geocreditoagricola.audsat.io",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 20:53:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "audsat.io",
+        "aggregated": "/CN=audsat.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "43740631A1A0649E0ECFCBAE9B047C07",
+      "not_before": 1778005748,
+      "not_after": 1785785334,
+      "fingerprint": "DB:B1:E2:3B:44:75:94:99:82:E6:59:E6:C4:79:D7:6E:DC:99:5F:86",
+      "sha1": "DB:B1:E2:3B:44:75:94:99:82:E6:59:E6:C4:79:D7:6E:DC:99:5F:86",
+      "sha256": "AE:0F:24:4A:FB:75:9F:DA:0E:F4:86:A9:B1:1C:33:A3:62:DC:34:35:CC:B8:14:49:67:46:74:7C:F5:27:DD:AE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "audsat.io",
+        "*.audsat.io",
+        "sicredi.geocreditoagricola.audsat.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Q3Q, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:audsat.io, DNS:*.audsat.io, DNS:sicredi.geocreditoagricola.audsat.io",
+        "subjectKeyIdentifier": "keyid:6c:f3:fd:6f:e5:76:a9:db:0b:6e:73:8f:90:7b:de:43:72:f9:ac:6c"
+      }
+    },
+    "cert_index": 4079765152,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079765152&end=4079765152",
+    "seen": 1778025207.933,
+    "submission_timestamp": 1778009407.472,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

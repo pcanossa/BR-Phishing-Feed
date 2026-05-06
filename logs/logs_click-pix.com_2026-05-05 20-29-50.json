@@ -1,0 +1,53 @@
+{
+  "dominio": "click-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/05/26 20:29:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "click-pix.com",
+        "aggregated": "/CN=click-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "704D30091BCFCF350E6AFD5686E6CD47",
+      "not_before": 1778004328,
+      "not_after": 1785783838,
+      "fingerprint": "9E:6C:94:B9:A9:10:2A:5C:3E:6C:4D:5A:D9:25:8D:84:27:F6:6D:32",
+      "sha1": "9E:6C:94:B9:A9:10:2A:5C:3E:6C:4D:5A:D9:25:8D:84:27:F6:6D:32",
+      "sha256": "2A:F3:57:F1:06:09:2C:7D:BA:0B:07:26:22:E8:4B:5D:57:77:45:43:A8:81:88:F3:22:F2:60:56:15:13:E6:CA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "click-pix.com",
+        "*.click-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/cE0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:click-pix.com, DNS:*.click-pix.com",
+        "subjectKeyIdentifier": "keyid:c0:49:87:bd:17:49:f8:ea:b5:25:ce:b6:18:2c:16:65:95:6c:88:2d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4079436376,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079436376&end=4079436376",
+    "seen": 1778023789.143,
+    "submission_timestamp": 1778007929.372,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

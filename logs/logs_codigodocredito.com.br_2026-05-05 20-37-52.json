@@ -1,0 +1,52 @@
+{
+  "dominio": "codigodocredito.com.br",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 20:37:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.codigodocredito.com.br",
+        "aggregated": "/CN=*.codigodocredito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05569868274E26C135B1607ECFF40EE314E5",
+      "not_before": 1778004925,
+      "not_after": 1785780924,
+      "fingerprint": "B0:03:30:09:12:04:F9:AB:59:2C:B8:E6:AD:CB:BF:41:89:BF:64:2B",
+      "sha1": "B0:03:30:09:12:04:F9:AB:59:2C:B8:E6:AD:CB:BF:41:89:BF:64:2B",
+      "sha256": "F0:CB:1F:6C:6C:96:BF:9A:61:B9:21:64:F7:91:EE:2B:1A:D3:DB:61:E5:49:73:E9:B3:22:2E:03:E3:41:66:B8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.codigodocredito.com.br",
+        "codigodocredito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.codigodocredito.com.br, DNS:codigodocredito.com.br",
+        "subjectKeyIdentifier": "keyid:6e:c6:25:12:c6:7a:61:68:e4:3a:34:5a:b2:15:0e:50:ad:db:37:92"
+      }
+    },
+    "cert_index": 4079548202,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079548202&end=4079548202",
+    "seen": 1778024272.643,
+    "submission_timestamp": 1778008438.28,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

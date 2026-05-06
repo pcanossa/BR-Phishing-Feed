@@ -1,0 +1,52 @@
+{
+  "dominio": "www.detranpr-licenciamento.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/05/26 20:41:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detranpr-licenciamento.com",
+        "aggregated": "/CN=detranpr-licenciamento.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "056E47921560EFB583F0438A5B9CA9C83E8B",
+      "not_before": 1778005140,
+      "not_after": 1785781139,
+      "fingerprint": "9F:51:F1:C6:5D:1C:A6:81:1D:21:5F:7F:5B:FD:54:C8:FD:91:7E:2E",
+      "sha1": "9F:51:F1:C6:5D:1C:A6:81:1D:21:5F:7F:5B:FD:54:C8:FD:91:7E:2E",
+      "sha256": "9E:9C:E8:AC:F1:7B:84:FE:D6:2B:0B:AD:42:A6:8C:48:FC:22:BE:4F:47:17:AB:EB:41:D0:45:3E:FF:32:EB:7C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "detranpr-licenciamento.com",
+        "www.detranpr-licenciamento.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:detranpr-licenciamento.com, DNS:www.detranpr-licenciamento.com",
+        "subjectKeyIdentifier": "keyid:06:3d:c9:2b:6b:da:e1:17:d7:ad:78:7c:e7:cd:58:a2:0a:36:71:b2"
+      }
+    },
+    "cert_index": 4079599312,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079599312&end=4079599312",
+    "seen": 1778024483.812,
+    "submission_timestamp": 1778008654.511,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

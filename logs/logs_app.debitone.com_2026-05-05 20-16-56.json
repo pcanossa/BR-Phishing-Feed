@@ -1,0 +1,52 @@
+{
+  "dominio": "app.debitone.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/05/26 20:16:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.debitone.com",
+        "aggregated": "/CN=app.debitone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "081C6B54CA760C65056D54894CB74AA2",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "F2:73:06:33:5F:C3:EF:77:83:77:8D:E8:41:F7:2C:DD:3C:9E:99:3D",
+      "sha1": "F2:73:06:33:5F:C3:EF:77:83:77:8D:E8:41:F7:2C:DD:3C:9E:99:3D",
+      "sha256": "0D:95:BA:1E:0C:97:C9:20:DB:85:E5:6C:C6:B6:6B:28:F2:79:31:35:F4:BA:25:83:30:30:5B:55:F5:0A:C9:E3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.debitone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.debitone.com",
+        "subjectKeyIdentifier": "keyid:92:b2:bd:26:df:a0:78:a7:dd:e6:12:4f:76:7a:43:a1:06:5f:3e:1c"
+      }
+    },
+    "cert_index": 4079257197,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079257197&end=4079257197",
+    "seen": 1778023015.675,
+    "submission_timestamp": 1778007117.735,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

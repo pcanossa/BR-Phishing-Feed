@@ -1,0 +1,52 @@
+{
+  "dominio": "creditofcanada.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/05/26 20:14:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditofcanada.com",
+        "aggregated": "/CN=creditofcanada.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "1081BC2420D48AC4",
+      "not_before": 1778006951,
+      "not_after": 1795114151,
+      "fingerprint": "68:FA:29:9B:48:46:68:C7:D4:D8:69:5D:3E:AB:91:55:0F:42:57:27",
+      "sha1": "68:FA:29:9B:48:46:68:C7:D4:D8:69:5D:3E:AB:91:55:0F:42:57:27",
+      "sha256": "84:5D:64:CF:F7:F9:DE:3C:80:30:0A:8E:54:AC:AA:77:08:82:05:98:EF:3C:AE:FD:23:D2:92:5B:39:75:C5:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditofcanada.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditofcanada.com",
+        "subjectKeyIdentifier": "keyid:38:9e:12:5b:ae:cb:9e:ca:95:16:79:02:17:26:51:56:40:e9:97:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4079219798,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079219798&end=4079219798",
+    "seen": 1778022863.81,
+    "submission_timestamp": 1778006952.828,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

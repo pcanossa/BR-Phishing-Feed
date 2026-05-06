@@ -1,0 +1,51 @@
+{
+  "dominio": "app.uniaoloterias.org",
+  "marcas_encontradas": [
+    "loterias"
+  ],
+  "timestamp": "05/05/26 20:39:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.uniaoloterias.org",
+        "aggregated": "/CN=app.uniaoloterias.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CE26A80C9904F4F70ED7805092FC0353",
+      "not_before": 1778004858,
+      "not_after": 1785784452,
+      "fingerprint": "B8:09:DE:27:E4:EE:16:39:C7:3D:11:D0:FF:54:C7:B8:EC:FA:95:62",
+      "sha1": "B8:09:DE:27:E4:EE:16:39:C7:3D:11:D0:FF:54:C7:B8:EC:FA:95:62",
+      "sha256": "00:15:0F:D5:AA:3F:04:98:47:14:01:02:B5:15:93:87:8D:87:C8:7D:9B:60:9B:2D:7C:A7:66:6B:19:99:E2:41",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.uniaoloterias.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ziY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.uniaoloterias.org",
+        "subjectKeyIdentifier": "keyid:77:d3:51:55:84:02:c8:17:e8:d0:3a:6b:10:9e:f2:b5:b4:81:23:c3"
+      }
+    },
+    "cert_index": 4079565287,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4079565287&end=4079565287",
+    "seen": 1778024343.66,
+    "submission_timestamp": 1778008511.359,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

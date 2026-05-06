@@ -1,0 +1,52 @@
+{
+  "dominio": "useclaros.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/05/26 20:34:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "useclaros.app",
+        "aggregated": "/CN=useclaros.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "053FDB65EF2BFF1CCB91AA52B2C5E666FB76",
+      "not_before": 1777137099,
+      "not_after": 1784913098,
+      "fingerprint": "8C:85:41:47:D6:B8:9D:47:C4:67:06:37:0F:92:2A:56:B9:EC:88:CE",
+      "sha1": "8C:85:41:47:D6:B8:9D:47:C4:67:06:37:0F:92:2A:56:B9:EC:88:CE",
+      "sha256": "1E:74:C9:F7:64:BE:4A:0A:62:57:5F:3E:40:C4:81:18:B2:FD:85:A8:05:39:EA:1D:C4:55:5D:3C:BB:F6:36:74",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "useclaros.app",
+        "*.useclaros.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.useclaros.app, DNS:useclaros.app",
+        "subjectKeyIdentifier": "keyid:62:ac:4f:86:87:bf:56:27:5f:4b:91:bf:d7:00:17:27:56:d9:21:b2"
+      }
+    },
+    "cert_index": 585327031,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=585327031&end=585327031",
+    "seen": 1778024078.726,
+    "submission_timestamp": 1777916823.767,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
