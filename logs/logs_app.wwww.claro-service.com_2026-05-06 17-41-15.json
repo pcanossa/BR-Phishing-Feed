@@ -1,0 +1,51 @@
+{
+  "dominio": "app.wwww.claro-service.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/06/26 17:41:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.wwww.claro-service.com",
+        "aggregated": "/CN=app.wwww.claro-service.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "56816DA4A951C5CB68BE61078F7E5E0B",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "5B:3D:0D:8A:2D:FC:0B:6F:B3:62:92:54:4A:2F:ED:8C:E9:26:BC:4A",
+      "sha1": "5B:3D:0D:8A:2D:FC:0B:6F:B3:62:92:54:4A:2F:ED:8C:E9:26:BC:4A",
+      "sha256": "B5:16:30:A7:C8:9F:61:CF:AE:48:14:27:16:56:4E:6E:94:44:4A:00:5C:77:EA:83:13:B4:67:4D:78:3A:95:5E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.wwww.claro-service.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.wwww.claro-service.com",
+        "subjectKeyIdentifier": "keyid:cd:ff:98:30:c7:34:83:3a:44:2c:f9:83:2e:04:51:c6:cd:2c:c0:23"
+      }
+    },
+    "cert_index": 4098393382,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4098393382&end=4098393382",
+    "seen": 1778100072.406,
+    "submission_timestamp": 1778090355.211,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

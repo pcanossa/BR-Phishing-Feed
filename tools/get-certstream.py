@@ -9,7 +9,7 @@ from collections import deque
 from zmq import has
 
 MARCAS_CURTAS = [
-    'oi', 'tim', 'b3', 'pix', 'cpf', 'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
+    'oi', 'tim', 'b3', 'bet', 'cpf', 'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
 ]
 
 # Marcas longas e específicas (Busca rápida)
@@ -25,7 +25,7 @@ ISCAS = [
     'rastreio', 'taxa', 'promocao', 'seguranca', 'atualizacao', 'pagamento', 
     'app', 'login', 'desbloqueio', 'rastreamento', 'verificacao', 'confirmacao', 
     'alerta', 'bloqueio', 'senha', 'acesso', 'seguro', 'atencao', 'urgente', 
-    'comprovante', 'boleto', 'fatura', 'cartao', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'pix', 'irpf', 'auxilio', 'freeflow'
+    'comprovante', 'boleto', 'fatura', 'cartao', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'irpf', 'auxilio', 'freeflow', 'bet'
 ]
 
 # Domínios base permitidos (O .endswith já cobre subdomínios, ex: gov.br libera TUDO do governo)

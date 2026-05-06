@@ -1,0 +1,52 @@
+{
+  "dominio": "admin.netflixlogin-app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/06/26 17:58:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "admin.netflixlogin-app.com",
+        "aggregated": "/CN=admin.netflixlogin-app.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "516710F327B8A030DB14E4DA5AB39C44",
+      "not_before": 1777334400,
+      "not_after": 1785196799,
+      "fingerprint": "F3:43:94:FD:31:14:5A:18:4F:2A:81:6D:3C:49:A1:1C:06:8E:D7:87",
+      "sha1": "F3:43:94:FD:31:14:5A:18:4F:2A:81:6D:3C:49:A1:1C:06:8E:D7:87",
+      "sha256": "A0:9C:5F:D8:C5:F4:73:67:79:94:C4:30:2B:13:B6:1B:16:FC:C3:68:16:17:19:ED:70:9E:84:43:21:C4:3D:3D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "admin.netflixlogin-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:admin.netflixlogin-app.com",
+        "subjectKeyIdentifier": "keyid:cd:e8:6c:1d:e0:ed:48:0d:8e:56:cd:66:df:70:32:fa:2f:94:22:5d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4098609882,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4098609882&end=4098609882",
+    "seen": 1778101103.508,
+    "submission_timestamp": 1778091331.599,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

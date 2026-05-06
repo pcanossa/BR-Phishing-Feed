@@ -1,0 +1,54 @@
+{
+  "dominio": "feat-pix-psp.nubestaging.com.mx",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 17:29:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.feat-pix-psp.nubestaging.com",
+        "aggregated": "/CN=*.feat-pix-psp.nubestaging.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "07600BE311EBC66A7674F3EC57B9731C",
+      "not_before": 1778025600,
+      "not_after": 1795132799,
+      "fingerprint": "B0:CC:B9:82:3C:21:55:50:25:09:68:A0:05:4F:C4:87:4E:E4:FF:EA",
+      "sha1": "B0:CC:B9:82:3C:21:55:50:25:09:68:A0:05:4F:C4:87:4E:E4:FF:EA",
+      "sha256": "7D:B3:78:9E:0C:3F:52:B0:9A:18:5C:53:13:E2:5D:32:4D:0D:8E:A5:1B:1A:F0:89:CA:1F:69:63:0D:BA:AF:52",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.feat-pix-psp.nubestaging.com",
+        "*.feat-pix-psp.nubestaging.com.br",
+        "*.feat-pix-psp.nubestaging.com.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.feat-pix-psp.nubestaging.com, DNS:*.feat-pix-psp.nubestaging.com.br, DNS:*.feat-pix-psp.nubestaging.com.mx",
+        "subjectKeyIdentifier": "keyid:3d:13:29:95:02:e1:24:68:65:ca:96:9c:dc:45:33:27:37:98:7a:02",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4098218897,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4098218897&end=4098218897",
+    "seen": 1778099364.171,
+    "submission_timestamp": 1778089574.899,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

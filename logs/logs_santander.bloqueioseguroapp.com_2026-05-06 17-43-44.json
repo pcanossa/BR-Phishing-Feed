@@ -1,0 +1,51 @@
+{
+  "dominio": "santander.bloqueioseguroapp.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/06/26 17:43:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.bloqueioseguroapp.com",
+        "aggregated": "/CN=santander.bloqueioseguroapp.com"
+      },
+      "issuer": {
+        "C": "CN",
+        "CN": "TrustAsia DV TLS RSA CA 2025",
+        "O": "TrustAsia Technologies, Inc.",
+        "aggregated": "/C=CN/CN=TrustAsia DV TLS RSA CA 2025/O=TrustAsia Technologies, Inc."
+      },
+      "serial_number": "0135CDC678EEE65A0A1014B3E0979BC9",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "84:3F:52:B0:C2:0D:95:7F:C2:29:11:D4:05:08:B5:1D:79:D5:06:BA",
+      "sha1": "84:3F:52:B0:C2:0D:95:7F:C2:29:11:D4:05:08:B5:1D:79:D5:06:BA",
+      "sha256": "64:89:E4:2B:1E:10:4F:D3:3B:BB:3F:AB:DE:8E:F1:08:F6:E9:A6:81:94:76:32:ED:5D:88:94:3A:8F:CD:B7:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.bloqueioseguroapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/TrustAsiaDVTLSRSACA2025.crt",
+        "authorityKeyIdentifier": "keyid:b4:12:28:a5:b4:c0:1d:9f:29:71:69:3c:d9:11:96:4a:75:69:50:c0",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.bloqueioseguroapp.com",
+        "subjectKeyIdentifier": "keyid:6c:14:e6:e3:32:f7:1d:25:d4:46:43:2e:fb:2d:9c:ee:dc:52:3e:16"
+      }
+    },
+    "cert_index": 4098431074,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4098431074&end=4098431074",
+    "seen": 1778100221.915,
+    "submission_timestamp": 1778090527.838,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
