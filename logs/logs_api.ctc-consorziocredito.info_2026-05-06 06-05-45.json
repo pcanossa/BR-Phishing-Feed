@@ -1,0 +1,52 @@
+{
+  "dominio": "api.ctc-consorziocredito.info",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:05:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.ctc-consorziocredito.info",
+        "aggregated": "/CN=api.ctc-consorziocredito.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0514BF1F0872919C37D248B18A0A71846E07",
+      "not_before": 1777837799,
+      "not_after": 1785613798,
+      "fingerprint": "7B:AD:DC:D9:7E:F9:45:72:56:43:A2:B7:42:E0:1E:BE:56:05:BC:3E",
+      "sha1": "7B:AD:DC:D9:7E:F9:45:72:56:43:A2:B7:42:E0:1E:BE:56:05:BC:3E",
+      "sha256": "C6:A0:E4:6E:E7:52:12:BD:AC:82:47:27:33:E4:ED:B0:E1:49:48:C7:39:12:9B:8B:C2:49:68:7D:A9:8A:E9:B8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api.ctc-consorziocredito.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.ctc-consorziocredito.info",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 678057616,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=678057616&end=678057616",
+    "seen": 1778058343.222,
+    "submission_timestamp": 1777841310.074,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

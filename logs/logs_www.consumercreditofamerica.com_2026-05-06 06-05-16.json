@@ -1,0 +1,52 @@
+{
+  "dominio": "www.consumercreditofamerica.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 06:05:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.consumercreditofamerica.com",
+        "aggregated": "/CN=www.consumercreditofamerica.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "98F14A2F336685FD",
+      "not_before": 1777838807,
+      "not_after": 1794946007,
+      "fingerprint": "50:7E:1D:73:CD:E8:A3:B4:56:5E:31:A3:61:4E:D0:79:0B:B2:5D:59",
+      "sha1": "50:7E:1D:73:CD:E8:A3:B4:56:5E:31:A3:61:4E:D0:79:0B:B2:5D:59",
+      "sha256": "84:F5:83:19:44:BA:59:30:EE:7D:60:A2:B2:E7:A2:72:41:50:EC:47:1A:53:2D:9F:F2:69:6C:36:AA:8B:7F:31",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.consumercreditofamerica.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.consumercreditofamerica.com",
+        "subjectKeyIdentifier": "keyid:89:5b:b6:9c:bc:6d:6e:f9:7a:58:57:91:fc:0d:6b:ad:18:3f:40:70",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 820237757,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820237757&end=820237757",
+    "seen": 1778058313.802,
+    "submission_timestamp": 1777838808.369,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.br-pix.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 05:51:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "br-pix.com",
+        "aggregated": "/CN=br-pix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060ED71CD5DCDB301C97BB54394445CE01E1",
+      "not_before": 1778041005,
+      "not_after": 1785817004,
+      "fingerprint": "3B:3E:E1:0E:DD:DF:6A:69:79:A8:0F:A2:38:9C:DC:BC:D6:DD:D9:DA",
+      "sha1": "3B:3E:E1:0E:DD:DF:6A:69:79:A8:0F:A2:38:9C:DC:BC:D6:DD:D9:DA",
+      "sha256": "05:40:A9:3D:43:94:D8:17:8C:FA:CE:4F:A3:17:45:7C:B6:5C:1D:E0:6D:85:FA:E9:14:4F:FC:30:73:CB:E3:86",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "br-pix.com",
+        "www.br-pix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:br-pix.com, DNS:www.br-pix.com",
+        "subjectKeyIdentifier": "keyid:bf:35:32:3e:bc:8b:91:11:f7:94:b5:a5:e1:9a:6e:7e:15:d3:7f:d6"
+      }
+    },
+    "cert_index": 4087670333,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4087670333&end=4087670333",
+    "seen": 1778057468.508,
+    "submission_timestamp": 1778044694.74,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

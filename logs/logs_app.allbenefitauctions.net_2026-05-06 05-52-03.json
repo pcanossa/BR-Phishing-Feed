@@ -1,0 +1,52 @@
+{
+  "dominio": "app.allbenefitauctions.net",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/06/26 05:52:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.allbenefitauctions.net",
+        "aggregated": "/CN=app.allbenefitauctions.net"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "6126321F76882483D3962226A22D32C2",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "70:31:CE:34:6B:BA:14:D3:6C:54:72:A6:C2:A6:F5:63:5C:30:00:83",
+      "sha1": "70:31:CE:34:6B:BA:14:D3:6C:54:72:A6:C2:A6:F5:63:5C:30:00:83",
+      "sha256": "D3:6A:8C:EF:50:A2:A5:05:A2:E8:06:15:FF:51:6B:DE:AC:49:E0:00:52:05:69:BE:67:9A:4A:3D:80:B5:6F:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.allbenefitauctions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.allbenefitauctions.net",
+        "subjectKeyIdentifier": "keyid:7e:aa:a5:8d:27:2b:db:bf:11:dd:2a:df:ba:b9:79:cf:5d:61:3c:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4087686330,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4087686330&end=4087686330",
+    "seen": 1778057523.43,
+    "submission_timestamp": 1778044759.102,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

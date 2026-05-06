@@ -1,0 +1,52 @@
+{
+  "dominio": "pix.bolha.one",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 05:47:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.bolha.one",
+        "aggregated": "/CN=pix.bolha.one"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "BDB73F6979CB723D5306F5D221D176AC",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "3B:59:36:C5:2D:91:BB:BF:B9:42:C9:3C:28:9A:0B:B8:EB:2B:97:CA",
+      "sha1": "3B:59:36:C5:2D:91:BB:BF:B9:42:C9:3C:28:9A:0B:B8:EB:2B:97:CA",
+      "sha256": "C4:9E:54:DC:8D:53:75:15:35:4F:61:8C:29:5E:3E:0B:EC:C2:6E:A0:FB:B3:8E:41:00:CB:5E:CF:E4:8B:05:25",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix.bolha.one"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.bolha.one",
+        "subjectKeyIdentifier": "keyid:68:10:6d:88:a2:11:b4:4f:b0:9f:78:bc:9f:0b:e8:99:3e:4c:d3:9a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 624186510,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=624186510&end=624186510",
+    "seen": 1778057263.125,
+    "submission_timestamp": 1778057165.695,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

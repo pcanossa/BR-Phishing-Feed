@@ -1,0 +1,52 @@
+{
+  "dominio": "www-dev.pix.lk",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 05:16:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www-dev.pix.lk",
+        "aggregated": "/CN=www-dev.pix.lk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05D868EA4C9945F256BB169D380C81095E1A",
+      "not_before": 1777837426,
+      "not_after": 1785613425,
+      "fingerprint": "EC:33:17:B8:7C:47:03:0B:C7:99:78:D5:88:03:67:1D:66:DC:8A:1F",
+      "sha1": "EC:33:17:B8:7C:47:03:0B:C7:99:78:D5:88:03:67:1D:66:DC:8A:1F",
+      "sha256": "61:5A:03:FA:F7:1F:4C:A8:C1:8A:29:21:CC:02:D0:76:FA:72:33:5C:5A:24:11:3E:58:C1:95:0E:39:EA:A8:2B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www-dev.pix.lk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www-dev.pix.lk",
+        "subjectKeyIdentifier": "keyid:62:d5:d1:f1:05:4e:d0:21:d4:9f:3c:4a:ba:05:1e:a4:f3:1f:02:93",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 678007619,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=678007619&end=678007619",
+    "seen": 1778055402.021,
+    "submission_timestamp": 1777840936.188,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

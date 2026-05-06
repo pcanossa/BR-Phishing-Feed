@@ -1,0 +1,54 @@
+{
+  "dominio": "cpf-irregular.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 06:03:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.portalcnpj.com",
+        "aggregated": "/CN=*.portalcnpj.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060DAEC1D7A7CBA56406D9FC0EEFF2098964",
+      "not_before": 1778054617,
+      "not_after": 1785830616,
+      "fingerprint": "A9:20:02:A8:8B:9D:94:05:75:1F:0B:EA:EE:FC:F4:19:17:2A:24:1F",
+      "sha1": "A9:20:02:A8:8B:9D:94:05:75:1F:0B:EA:EE:FC:F4:19:17:2A:24:1F",
+      "sha256": "21:56:38:AE:B7:09:00:46:BE:75:DD:D8:4B:D1:34:7E:51:2B:A5:D8:CF:6F:40:40:A4:22:54:0A:06:B7:D3:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.portalcnpj.com",
+        "*.cpf-irregular.org",
+        "cpf-irregular.org",
+        "portalcnpj.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-irregular.org, DNS:*.portalcnpj.com, DNS:cpf-irregular.org, DNS:portalcnpj.com",
+        "subjectKeyIdentifier": "keyid:54:ba:f6:44:10:22:67:c2:ab:49:52:6c:82:d8:e8:b7:70:df:48:96"
+      }
+    },
+    "cert_index": 538649344,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=538649344&end=538649344",
+    "seen": 1778058233.485,
+    "submission_timestamp": 1778058130.251,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

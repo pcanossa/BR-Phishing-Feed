@@ -1,0 +1,52 @@
+{
+  "dominio": "www.crm.creditoscym.com.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 05:08:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.crm.creditoscym.com.co",
+        "aggregated": "/CN=www.crm.creditoscym.com.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "063A4A4101274D76908591DBED9F9C83FFE1",
+      "not_before": 1778038047,
+      "not_after": 1785814046,
+      "fingerprint": "7D:1B:D4:BD:B8:2A:8D:0C:0F:CA:87:7A:35:B0:7A:3B:0C:37:73:9F",
+      "sha1": "7D:1B:D4:BD:B8:2A:8D:0C:0F:CA:87:7A:35:B0:7A:3B:0C:37:73:9F",
+      "sha256": "05:D6:CB:A7:A5:95:A0:F8:BA:02:D3:68:9D:15:8D:CA:60:B2:01:BC:DA:28:4F:84:2C:E0:F6:86:DE:69:C0:FD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.crm.creditoscym.com.co",
+        "*.creditoscym.com.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditoscym.com.co, DNS:www.crm.creditoscym.com.co",
+        "subjectKeyIdentifier": "keyid:3d:90:67:58:bb:7d:0c:66:6b:0e:b6:7f:bb:eb:93:5d:4c:8e:cd:9d"
+      }
+    },
+    "cert_index": 4087004007,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4087004007&end=4087004007",
+    "seen": 1778054904.383,
+    "submission_timestamp": 1778041558.798,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

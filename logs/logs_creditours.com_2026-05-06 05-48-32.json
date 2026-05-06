@@ -1,0 +1,52 @@
+{
+  "dominio": "creditours.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 05:48:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditours.com",
+        "aggregated": "/CN=creditours.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060C70E4AA2D5067A96488D0C51D5B7CC7A1",
+      "not_before": 1778041003,
+      "not_after": 1785817002,
+      "fingerprint": "75:B3:D1:B3:39:6F:A2:17:8A:1E:E9:2F:B2:62:FB:D5:D4:73:00:69",
+      "sha1": "75:B3:D1:B3:39:6F:A2:17:8A:1E:E9:2F:B2:62:FB:D5:D4:73:00:69",
+      "sha256": "ED:0A:8D:33:20:79:86:46:40:B6:5A:52:FD:BD:5B:5A:71:E1:FF:23:7E:83:BE:E7:F9:3D:C9:C7:B5:12:76:DA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditours.com",
+        "*.creditours.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.creditours.com, DNS:creditours.com",
+        "subjectKeyIdentifier": "keyid:59:05:1e:36:64:d9:b2:e5:b2:30:10:36:1f:2f:49:99:0f:15:87:70"
+      }
+    },
+    "cert_index": 4087631782,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4087631782&end=4087631782",
+    "seen": 1778057311.137,
+    "submission_timestamp": 1778044516.359,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
