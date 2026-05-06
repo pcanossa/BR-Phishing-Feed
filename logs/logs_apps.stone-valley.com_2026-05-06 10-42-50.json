@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.stone-valley.com",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/06/26 10:42:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.stone-valley.com",
+        "aggregated": "/CN=apps.stone-valley.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "C25480A500E9005D2A50EBF856A87A81",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "24:16:38:63:FA:19:34:84:F3:8A:7B:E7:8C:6C:F7:C5:93:66:0A:7F",
+      "sha1": "24:16:38:63:FA:19:34:84:F3:8A:7B:E7:8C:6C:F7:C5:93:66:0A:7F",
+      "sha256": "F9:F9:7E:8D:FC:F8:76:B6:5C:C0:FA:AA:E0:B7:B3:CF:FE:6E:F3:03:FF:41:8B:5F:8D:2E:6C:D0:EC:81:5A:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.stone-valley.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.stone-valley.com",
+        "subjectKeyIdentifier": "keyid:c9:a2:46:05:4b:3e:67:92:9a:02:f0:37:a2:c6:96:69:05:e1:62:36"
+      }
+    },
+    "cert_index": 4092159975,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4092159975&end=4092159975",
+    "seen": 1778074969.965,
+    "submission_timestamp": 1778064057.081,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

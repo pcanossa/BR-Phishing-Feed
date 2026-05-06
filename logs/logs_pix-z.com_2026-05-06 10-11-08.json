@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-z.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 10:11:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-z.com",
+        "aggregated": "/CN=pix-z.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0666AFC219CFE02F79C75C3D4F5129108CA2",
+      "not_before": 1777966858,
+      "not_after": 1785742857,
+      "fingerprint": "94:43:22:63:09:6D:7E:38:84:98:54:8B:2D:73:AF:D3:4D:1E:A4:16",
+      "sha1": "94:43:22:63:09:6D:7E:38:84:98:54:8B:2D:73:AF:D3:4D:1E:A4:16",
+      "sha256": "75:C4:10:E6:5C:FB:4F:E2:A8:F3:91:3B:76:67:0B:0E:D8:93:CE:67:67:BA:BD:60:EC:3D:97:1F:EE:07:82:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix-z.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix-z.com",
+        "subjectKeyIdentifier": "keyid:e8:fa:d5:19:1d:f8:90:ce:d8:be:ca:bc:6e:7b:00:10:34:f3:79:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 564621240,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=564621240&end=564621240",
+    "seen": 1778073067.902,
+    "submission_timestamp": 1777970368.26,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

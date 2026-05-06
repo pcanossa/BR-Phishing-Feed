@@ -1,0 +1,52 @@
+{
+  "dominio": "receitasdochef.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/06/26 10:10:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitasdochef.app",
+        "aggregated": "/CN=receitasdochef.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8A418DF3CEC41BE10DF08BC66DDFF09D",
+      "not_before": 1777836852,
+      "not_after": 1785616439,
+      "fingerprint": "28:E3:C8:33:7F:EC:8F:62:0F:FE:51:96:B3:F4:47:7E:05:A9:B3:00",
+      "sha1": "28:E3:C8:33:7F:EC:8F:62:0F:FE:51:96:B3:F4:47:7E:05:A9:B3:00",
+      "sha256": "44:70:13:88:FC:61:EB:AB:97:7F:A8:75:E4:9C:CA:D9:8E:48:6A:C3:68:EB:B5:DC:D1:58:1E:E1:D7:DA:3E:E4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitasdochef.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ikE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitasdochef.app",
+        "subjectKeyIdentifier": "keyid:52:19:a8:61:97:d0:0a:bc:d1:af:50:80:03:93:42:35:5c:52:e1:a3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 820500836,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820500836&end=820500836",
+    "seen": 1778073054.53,
+    "submission_timestamp": 1777840453.265,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

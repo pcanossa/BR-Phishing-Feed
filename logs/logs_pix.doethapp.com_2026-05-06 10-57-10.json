@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.doethapp.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 10:57:10",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.doethapp.com",
+        "aggregated": "/CN=pix.doethapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05997A6FC8FC0DBCF2AD54A160F09AC643B3",
+      "not_before": 1778061545,
+      "not_after": 1785837544,
+      "fingerprint": "0A:FE:B0:E5:DE:6A:1A:47:EC:0C:35:B0:69:DA:87:92:4D:FD:18:F6",
+      "sha1": "0A:FE:B0:E5:DE:6A:1A:47:EC:0C:35:B0:69:DA:87:92:4D:FD:18:F6",
+      "sha256": "E2:95:D9:86:D6:BF:E0:46:35:6D:41:80:6C:26:71:E5:41:79:8C:5C:F1:0B:04:FB:4B:A9:2E:BE:2A:3A:2C:9D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.doethapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.doethapp.com",
+        "subjectKeyIdentifier": "keyid:75:56:72:9d:ba:ee:49:a5:f3:80:45:de:19:a4:3a:21:e0:8d:d9:ee"
+      }
+    },
+    "cert_index": 4092376881,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4092376881&end=4092376881",
+    "seen": 1778075829.342,
+    "submission_timestamp": 1778065058.499,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
