@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-rs.digital",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 18:54:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-rs.digital",
+        "aggregated": "/CN=debitos-rs.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "051A8D193566530F1191B2DC00C952A8",
+      "not_before": 1777840455,
+      "not_after": 1785619986,
+      "fingerprint": "D8:37:22:1C:CE:04:92:9D:96:AD:98:7C:1A:5D:85:F1:AD:66:88:8F",
+      "sha1": "D8:37:22:1C:CE:04:92:9D:96:AD:98:7C:1A:5D:85:F1:AD:66:88:8F",
+      "sha256": "15:ED:7A:1B:53:DE:D3:63:48:1C:DD:11:3C:90:68:68:F3:5E:B6:C6:40:BE:D5:7F:B8:68:AA:51:14:7F:89:07",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-rs.digital",
+        "*.debitos-rs.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BRo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos-rs.digital, DNS:*.debitos-rs.digital",
+        "subjectKeyIdentifier": "keyid:f8:93:20:f9:ad:b5:d5:e8:90:a9:0c:86:b7:ea:1b:86:4f:79:b8:70"
+      }
+    },
+    "cert_index": 821053512,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=821053512&end=821053512",
+    "seen": 1778104442.234,
+    "submission_timestamp": 1777844118.987,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

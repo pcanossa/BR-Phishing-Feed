@@ -1,0 +1,52 @@
+{
+  "dominio": "apps-santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/06/26 18:20:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps-santander.com",
+        "aggregated": "/CN=apps-santander.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "B10FAC14E1AF0D31C4BACECFF446117E",
+      "not_before": 1778025600,
+      "not_after": 1785878098,
+      "fingerprint": "2F:86:28:49:D8:3E:59:DB:21:50:97:69:F8:71:7B:71:75:8D:E4:53",
+      "sha1": "2F:86:28:49:D8:3E:59:DB:21:50:97:69:F8:71:7B:71:75:8D:E4:53",
+      "sha256": "36:CB:B9:F8:90:2F:AA:DE:14:3F:AD:E4:07:55:E7:45:69:3F:15:D0:64:CD:3C:A4:BF:01:79:D8:1E:5A:26:93",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps-santander.com",
+        "*.apps-santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps-santander.com, DNS:*.apps-santander.com",
+        "subjectKeyIdentifier": "keyid:af:c1:3e:b6:63:03:5d:a6:de:95:9b:51:9e:16:38:d6:8e:54:f2:4b"
+      }
+    },
+    "cert_index": 631733938,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=631733938&end=631733938",
+    "seen": 1778102414.349,
+    "submission_timestamp": 1778102267.06,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

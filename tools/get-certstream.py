@@ -9,7 +9,7 @@ from collections import deque
 from zmq import has
 
 MARCAS_CURTAS = [
-    'oi', 'tim', 'b3', 'bet', 'cpf', 'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
+    'oi', 'tim', 'b3', 'cpf', 'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
 ]
 
 # Marcas longas e específicas (Busca rápida)
@@ -25,8 +25,9 @@ ISCAS = [
     'rastreio', 'taxa', 'promocao', 'seguranca', 'atualizacao', 'pagamento', 
     'app', 'login', 'desbloqueio', 'rastreamento', 'verificacao', 'confirmacao', 
     'alerta', 'bloqueio', 'senha', 'acesso', 'seguro', 'atencao', 'urgente', 
-    'comprovante', 'boleto', 'fatura', 'cartao', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'irpf', 'auxilio', 'freeflow', 'bet'
-]
+    'comprovante', 'boleto', 'fatura', 'cartao', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'irpf', 'auxilio', 'freeflow', 'ganhar', 'premio', 'bonus', 'comprovante', 'trj', 'trt', 'federal', 'intimacao', 'processo',
+    'justica'
+    ]
 
 # Domínios base permitidos (O .endswith já cobre subdomínios, ex: gov.br libera TUDO do governo)
 WHITELIST = [
@@ -36,7 +37,7 @@ WHITELIST = [
     'c6bank.com.br', 'neon.com.br', 'next.com.br', 'pagseguro.uol.com.br', 
     'picpay.com', 'stone.com.br', 'vivo.com.br', 'claro.com.br', 'tim.com.br', 
     'oi.com.br', 'netflix.com', 'spotify.com', 'uber.com', 'ifood.com.br', 
-    'bancopaulista.com.br', 'b3.com.br', 'pix.com.br', 'amazon.com.br', 'detran.sp.gov.br', 'loterias.caixa.gov.br', 'receita.fazenda.gov.br', 'bancodobrasil.com.br', 'serasaexperian.com.br', 'clarodigital.com.br', 'clarodigital.net', 'pagseguro.uol.com.br'
+    'bancopaulista.com.br', 'b3.com.br', 'pix.com.br', 'amazon.com.br', 'detran.sp.gov.br', 'loterias.caixa.gov.br', 'receita.fazenda.gov.br', 'bancodobrasil.com.br', 'serasaexperian.com.br', 'clarodigital.com.br', 'clarodigital.net', 'pagseguro.uol.com.br', '.adv', 'jus.br', 'org.br'
 ]
 dominios_vistos = deque(maxlen=5000)
 
