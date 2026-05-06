@@ -1,0 +1,51 @@
+{
+  "dominio": "alianzacredito.co",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 02:01:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alianzacredito.co",
+        "aggregated": "/CN=alianzacredito.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "065702AA38C13962E48B4BB2505C1E3ABC0C",
+      "not_before": 1778026456,
+      "not_after": 1785802455,
+      "fingerprint": "67:5A:EF:74:D5:B0:2D:AA:DA:A8:B3:C1:CC:A9:C4:20:1A:D5:47:FC",
+      "sha1": "67:5A:EF:74:D5:B0:2D:AA:DA:A8:B3:C1:CC:A9:C4:20:1A:D5:47:FC",
+      "sha256": "B1:9C:79:C8:39:E8:62:8D:87:F1:17:3A:0E:2D:8C:FD:5B:25:9C:C7:05:5F:DB:20:21:1B:12:0B:3C:5F:DE:B2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alianzacredito.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alianzacredito.co",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4084267820,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084267820&end=4084267820",
+    "seen": 1778043680.999,
+    "submission_timestamp": 1778029969.175,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

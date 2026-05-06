@@ -1,0 +1,53 @@
+{
+  "dominio": "staging.creditos.de",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 01:45:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.creditos.de",
+        "aggregated": "/CN=staging.creditos.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0ADB886CF2B857E8625C5A47430459BF",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "AF:6C:56:BE:69:6B:6C:30:82:D8:72:42:4C:F5:0A:1E:F6:F7:05:11",
+      "sha1": "AF:6C:56:BE:69:6B:6C:30:82:D8:72:42:4C:F5:0A:1E:F6:F7:05:11",
+      "sha256": "E2:87:5A:1E:F6:ED:99:5A:55:A6:7C:D7:DF:4F:20:DC:A9:22:C7:A0:66:48:ED:BD:F8:BA:BB:38:28:4F:5C:79",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging.creditos.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging.creditos.de",
+        "subjectKeyIdentifier": "keyid:0c:e3:75:35:d1:39:04:2b:9f:3b:b4:a5:4a:d8:d8:d1:0a:81:05:36",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4084020884,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4084020884&end=4084020884",
+    "seen": 1778042725.288,
+    "submission_timestamp": 1778029043.849,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

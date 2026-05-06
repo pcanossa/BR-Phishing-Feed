@@ -1,0 +1,53 @@
+{
+  "dominio": "studio--fazenda-2-irmos-landing.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/06/26 01:21:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--fazenda-2-irmos-landing.us-central1.hosted.app",
+        "aggregated": "/CN=studio--fazenda-2-irmos-landing.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "16C4545EE37334F50AF1DD98B578B260",
+      "not_before": 1778023778,
+      "not_after": 1785803134,
+      "fingerprint": "0B:54:19:A7:84:38:9A:23:97:36:3F:0C:F8:FF:B6:38:5F:68:B0:48",
+      "sha1": "0B:54:19:A7:84:38:9A:23:97:36:3F:0C:F8:FF:B6:38:5F:68:B0:48",
+      "sha256": "3E:EA:6B:DD:99:B8:D5:6E:77:61:36:64:4A:24:94:F9:0C:1A:82:3C:02:75:4E:03:B7:86:C3:27:13:55:4B:A0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--fazenda-2-irmos-landing.us-central1.hosted.app",
+        "*.studio--fazenda-2-irmos-landing.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/FsQ, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--fazenda-2-irmos-landing.us-central1.hosted.app, DNS:*.studio--fazenda-2-irmos-landing.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:c9:2a:c6:ae:1b:f6:01:99:e7:0c:37:1f:e1:d8:c4:3b:18:46:1d:74",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4083651831,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4083651831&end=4083651831",
+    "seen": 1778041300.0,
+    "submission_timestamp": 1778027379.337,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

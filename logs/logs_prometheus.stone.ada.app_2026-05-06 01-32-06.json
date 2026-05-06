@@ -1,0 +1,53 @@
+{
+  "dominio": "prometheus.stone.ada.app",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/06/26 01:32:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prometheus.stone.ada.app",
+        "aggregated": "/CN=prometheus.stone.ada.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0285FC020544D767874263FAC2E6B9E8",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "A2:65:59:66:D6:93:7E:E2:6C:02:2F:6E:FC:74:E7:E3:EC:1F:C8:2C",
+      "sha1": "A2:65:59:66:D6:93:7E:E2:6C:02:2F:6E:FC:74:E7:E3:EC:1F:C8:2C",
+      "sha256": "76:01:BA:EC:1A:9C:EC:D2:69:87:5C:8A:40:4E:82:FF:2D:21:DC:DD:B3:16:17:D8:13:F6:FA:62:4C:5F:87:54",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "prometheus.stone.ada.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:prometheus.stone.ada.app",
+        "subjectKeyIdentifier": "keyid:9e:b9:25:92:af:e0:ef:47:b6:c4:e2:f5:76:4e:b8:54:19:b7:89:b3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 586450147,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=586450147&end=586450147",
+    "seen": 1778041924.291,
+    "submission_timestamp": 1777926437.905,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "apply.santanderconsumer.co.uk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/06/26 02:05:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01F114FC8E2DA3F62A1F947CE8D1F628",
+      "not_before": 1778043889,
+      "not_after": 1778130289,
+      "fingerprint": "82:A5:D3:75:C3:72:9E:6B:77:71:97:25:44:E7:52:7F:5C:6D:0F:E6",
+      "sha1": "82:A5:D3:75:C3:72:9E:6B:77:71:97:25:44:E7:52:7F:5C:6D:0F:E6",
+      "sha256": "E3:FA:B3:17:70:DA:09:6B:A5:3C:7C:02:BD:C7:EA:E1:B0:46:41:63:C8:33:38:78:8B:7E:59:A7:65:B5:E4:C3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.apply.santanderconsumer.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apply.santanderconsumer.co.uk, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:4e:4f:13:7e:52:f9:8f:93:74:3b:bb:69:b1:41:24:79:83:63:df:b2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1185449321,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1185449321&end=1185449321",
+    "seen": 1778043915.078,
+    "submission_timestamp": 1778043891.918,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h1'",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}

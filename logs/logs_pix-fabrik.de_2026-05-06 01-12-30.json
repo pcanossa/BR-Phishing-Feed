@@ -1,0 +1,51 @@
+{
+  "dominio": "pix-fabrik.de",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 01:12:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-fabrik.de",
+        "aggregated": "/CN=pix-fabrik.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "052E01E75FBB832A11B2B9CEC53BD937AF18",
+      "not_before": 1777835555,
+      "not_after": 1785611554,
+      "fingerprint": "F0:3A:11:23:07:F8:87:5C:D5:79:E0:2E:58:32:8F:8F:78:5C:1B:42",
+      "sha1": "F0:3A:11:23:07:F8:87:5C:D5:79:E0:2E:58:32:8F:8F:78:5C:1B:42",
+      "sha256": "26:D8:B3:28:AD:18:E1:A4:ED:57:4A:3A:B2:8C:2C:DE:67:EA:C8:C9:39:73:39:35:C3:8B:80:C4:59:5B:22:6D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix-fabrik.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix-fabrik.de",
+        "subjectKeyIdentifier": "keyid:48:05:9d:27:0e:64:32:34:2e:41:e9:ed:24:bd:36:f3:ca:c5:ff:c1"
+      }
+    },
+    "cert_index": 677758002,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=677758002&end=677758002",
+    "seen": 1778040748.787,
+    "submission_timestamp": 1777839065.738,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
