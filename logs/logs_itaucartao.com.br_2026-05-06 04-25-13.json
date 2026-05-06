@@ -1,0 +1,52 @@
+{
+  "dominio": "itaucartao.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/06/26 04:25:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itaucartao.com.br",
+        "aggregated": "/CN=itaucartao.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0589761AA9CEA29ED9DD8D91D9CF9E52518B",
+      "not_before": 1778035281,
+      "not_after": 1785811280,
+      "fingerprint": "BE:14:AB:BE:54:7A:7C:C9:63:C7:79:AE:50:68:E9:D8:19:04:C3:0F",
+      "sha1": "BE:14:AB:BE:54:7A:7C:C9:63:C7:79:AE:50:68:E9:D8:19:04:C3:0F",
+      "sha256": "33:B9:28:73:7C:01:EE:C2:18:31:1F:D0:E6:D1:73:EE:DB:69:3B:F9:01:89:BD:C4:7F:93:17:2F:0E:19:E9:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "itaucartao.com.br",
+        "*.itaucartao.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.itaucartao.com.br, DNS:itaucartao.com.br",
+        "subjectKeyIdentifier": "keyid:27:96:a8:fa:d7:5d:f8:a3:f0:5d:27:3b:ec:ff:e9:20:1a:ae:68:d0"
+      }
+    },
+    "cert_index": 4086373070,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086373070&end=4086373070",
+    "seen": 1778052313.473,
+    "submission_timestamp": 1778038794.221,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

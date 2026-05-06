@@ -1,0 +1,51 @@
+{
+  "dominio": "baixa-pix.veenom.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 04:35:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "baixa-pix.veenom.com",
+        "aggregated": "/CN=baixa-pix.veenom.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2B6975A043FAD46FF9181416CC2C6456",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "76:C3:29:6E:B2:FC:E8:56:62:0A:59:38:BA:2B:B0:B0:D4:96:8A:E7",
+      "sha1": "76:C3:29:6E:B2:FC:E8:56:62:0A:59:38:BA:2B:B0:B0:D4:96:8A:E7",
+      "sha256": "9C:5E:05:43:A1:4F:BE:0D:F9:65:CE:DD:DF:91:32:FE:78:3E:7A:24:67:DE:FA:8B:D2:44:07:8A:43:1D:42:6C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "baixa-pix.veenom.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:baixa-pix.veenom.com",
+        "subjectKeyIdentifier": "keyid:2f:45:f4:3c:97:33:3d:b7:22:f1:9a:35:ec:bf:13:b6:17:96:46:7d"
+      }
+    },
+    "cert_index": 4086513599,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086513599&end=4086513599",
+    "seen": 1778052906.18,
+    "submission_timestamp": 1778039405.1,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

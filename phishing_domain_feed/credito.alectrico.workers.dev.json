@@ -1,0 +1,12 @@
+{
+    "dominio": "credito.alectrico.workers.dev",
+    "data_registro": "05/06/26 04:27:30",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínio com a palavra 'credito' para induzir vítimas a fornecerem dados sensíveis financeiros",
+        "Utilização da plataforma 'workers.dev' (Cloudflare Workers), frequentemente utilizada por agentes de ameaças para hospedar páginas de phishing devido à rápida propagação e dificuldade de bloqueio por IP",
+        "Estrutura de URL voltada à engenharia social com o termo 'credito' em português, claramente visando o público brasileiro",
+        "O domínio não possui vínculo institucional com qualquer entidade financeira legítima"
+    ],
+    "analise_comportamental": "O domínio utiliza infraestrutura de computação serverless para mascarar a hospedagem de uma página de phishing. O uso de prefixos como 'credito' é uma tática comum para campanhas que visam o roubo de dados bancários ou credenciais de acesso em território brasileiro, configurando uma tentativa de fraude por engenharia social."
+}

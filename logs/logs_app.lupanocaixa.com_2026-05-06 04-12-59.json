@@ -1,0 +1,54 @@
+{
+  "dominio": "app.lupanocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/06/26 04:12:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatura.lupanocaixa.com",
+        "aggregated": "/CN=fatura.lupanocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06395449C1B45F3ECBF660A1893848206123",
+      "not_before": 1778034589,
+      "not_after": 1785810588,
+      "fingerprint": "B8:FA:74:39:48:81:3A:D7:C7:40:9A:0D:A5:2F:03:38:4B:00:65:58",
+      "sha1": "B8:FA:74:39:48:81:3A:D7:C7:40:9A:0D:A5:2F:03:38:4B:00:65:58",
+      "sha256": "D5:2D:8D:9B:23:CF:80:0E:10:ED:28:6D:CB:FD:FA:3F:A7:14:18:D2:6C:09:C1:4B:78:E9:B0:BA:D6:32:79:1A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "fatura.lupanocaixa.com",
+        "agenda.lupanocaixa.com",
+        "app.lupanocaixa.com",
+        "dashboard.lupanocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:agenda.lupanocaixa.com, DNS:app.lupanocaixa.com, DNS:dashboard.lupanocaixa.com, DNS:fatura.lupanocaixa.com",
+        "subjectKeyIdentifier": "keyid:cd:3b:4d:f9:a2:9d:09:2c:08:10:a6:44:fe:43:74:66:fd:18:10:d1"
+      }
+    },
+    "cert_index": 4086203512,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086203512&end=4086203512",
+    "seen": 1778051577.298,
+    "submission_timestamp": 1778038102.165,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

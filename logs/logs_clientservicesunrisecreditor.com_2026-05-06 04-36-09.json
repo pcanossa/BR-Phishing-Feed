@@ -1,0 +1,52 @@
+{
+  "dominio": "clientservicesunrisecreditor.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 04:36:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "clientservicesunrisecreditor.com",
+        "aggregated": "/CN=clientservicesunrisecreditor.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "938D6AF5F2D89B4A",
+      "not_before": 1778039474,
+      "not_after": 1795146674,
+      "fingerprint": "33:C8:16:FA:BB:6A:A9:A9:69:61:D4:4D:96:DA:3C:31:64:15:4B:3F",
+      "sha1": "33:C8:16:FA:BB:6A:A9:A9:69:61:D4:4D:96:DA:3C:31:64:15:4B:3F",
+      "sha256": "0C:E2:C8:66:D2:B0:D4:A4:DF:07:1D:01:0C:F8:0C:BD:88:B8:65:91:57:5A:78:78:6E:5A:4B:2F:7B:B7:B8:B5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "clientservicesunrisecreditor.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:clientservicesunrisecreditor.com",
+        "subjectKeyIdentifier": "keyid:d7:a0:7c:ea:41:8e:f3:bc:7d:ee:a0:cf:78:f0:8d:cb:62:37:a6:ed",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4086528853,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086528853&end=4086528853",
+    "seen": 1778052969.862,
+    "submission_timestamp": 1778039474.505,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

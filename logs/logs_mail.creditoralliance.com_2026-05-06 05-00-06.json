@@ -1,0 +1,51 @@
+{
+  "dominio": "mail.creditoralliance.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 05:00:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mail.creditoralliance.com",
+        "aggregated": "/CN=mail.creditoralliance.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "462D4828E716BCF0871569B9E93DC8DD",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "C6:0D:E6:EF:1E:9A:3B:1C:99:9A:B9:4C:41:A2:98:69:B8:7D:17:70",
+      "sha1": "C6:0D:E6:EF:1E:9A:3B:1C:99:9A:B9:4C:41:A2:98:69:B8:7D:17:70",
+      "sha256": "E2:57:1A:34:E5:C2:CE:1B:18:85:E4:FD:62:DE:E0:98:44:6A:F9:25:DF:F1:49:4C:0A:7A:59:78:68:E0:6E:EA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mail.creditoralliance.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mail.creditoralliance.com",
+        "subjectKeyIdentifier": "keyid:da:e1:5d:13:d5:da:46:77:5b:ab:4f:51:5a:fb:01:01:1c:9b:09:88"
+      }
+    },
+    "cert_index": 4086864713,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086864713&end=4086864713",
+    "seen": 1778054405.78,
+    "submission_timestamp": 1778040908.081,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

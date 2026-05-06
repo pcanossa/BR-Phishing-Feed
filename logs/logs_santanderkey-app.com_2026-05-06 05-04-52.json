@@ -1,0 +1,52 @@
+{
+  "dominio": "santanderkey-app.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/06/26 05:04:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderkey-app.com",
+        "aggregated": "/CN=santanderkey-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "068BEC68F954B2B0EAA54778F0EBA3F7C3E3",
+      "not_before": 1778051177,
+      "not_after": 1785827176,
+      "fingerprint": "1C:83:43:66:84:34:50:F4:45:2B:56:06:E9:E7:F9:2D:5F:9C:0A:EA",
+      "sha1": "1C:83:43:66:84:34:50:F4:45:2B:56:06:E9:E7:F9:2D:5F:9C:0A:EA",
+      "sha256": "0F:3B:E8:AA:28:1C:D1:BD:63:80:44:AF:DB:ED:AA:89:B2:17:F8:A9:03:0D:1C:80:62:4A:A9:1B:F7:8C:A2:37",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "santanderkey-app.com",
+        "*.santanderkey-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.santanderkey-app.com, DNS:santanderkey-app.com",
+        "subjectKeyIdentifier": "keyid:22:13:d2:b9:4a:88:1e:46:8b:6d:d4:43:e9:51:48:81:dc:f9:e3:23"
+      }
+    },
+    "cert_index": 171725258,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x670/801",
+    "seen": 1778054690.428,
+    "submission_timestamp": 1778054688.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

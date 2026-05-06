@@ -1,0 +1,52 @@
+{
+  "dominio": "creditodaradio.com",
+  "marcas_encontradas": [
+    "credito"
+  ],
+  "timestamp": "05/06/26 04:54:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditodaradio.com",
+        "aggregated": "/CN=creditodaradio.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "6E2C5CF33CEC116A",
+      "not_before": 1778040597,
+      "not_after": 1795147797,
+      "fingerprint": "37:1B:25:40:8B:CC:40:DD:DC:38:51:55:2F:2C:14:E1:C6:5A:F0:1C",
+      "sha1": "37:1B:25:40:8B:CC:40:DD:DC:38:51:55:2F:2C:14:E1:C6:5A:F0:1C",
+      "sha256": "8A:B5:93:A2:F9:F1:F4:3D:9A:32:05:CB:0D:17:76:F8:78:0A:5F:2C:D7:BA:71:E7:27:87:B4:3E:1A:95:6B:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditodaradio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditodaradio.com",
+        "subjectKeyIdentifier": "keyid:a7:73:cb:a0:0d:e2:72:da:06:3e:f7:d3:2b:7e:37:53:04:3f:51:5a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4086793369,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086793369&end=4086793369",
+    "seen": 1778054044.286,
+    "submission_timestamp": 1778040598.753,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

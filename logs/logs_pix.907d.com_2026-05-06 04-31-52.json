@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.907d.com",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 04:31:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.907d.com",
+        "aggregated": "/CN=pix.907d.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060F1AE2A2B344F952D43ED2FF5BDB597379",
+      "not_before": 1778035702,
+      "not_after": 1785811701,
+      "fingerprint": "AE:E4:31:C3:F3:D2:3F:CA:F5:85:EA:99:B4:D4:CF:F6:DF:3F:EB:F4",
+      "sha1": "AE:E4:31:C3:F3:D2:3F:CA:F5:85:EA:99:B4:D4:CF:F6:DF:3F:EB:F4",
+      "sha256": "4A:6E:2D:74:80:68:B3:AF:CA:13:2A:84:E0:A7:5D:EC:C6:D8:B1:05:78:CC:4C:8E:45:C7:19:16:12:76:F5:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pix.907d.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pix.907d.com",
+        "subjectKeyIdentifier": "keyid:42:ad:24:d6:d4:16:d0:48:5c:88:ae:89:c2:53:05:41:ad:86:f5:9f"
+      }
+    },
+    "cert_index": 4086467269,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4086467269&end=4086467269",
+    "seen": 1778052711.745,
+    "submission_timestamp": 1778039215.136,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
