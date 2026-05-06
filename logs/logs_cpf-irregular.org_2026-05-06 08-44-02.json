@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-irregular.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 08:44:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-irregular.org",
+        "aggregated": "/CN=cpf-irregular.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "062BD69A85952E7B4A28D0BCC131869C67A6",
+      "not_before": 1778052814,
+      "not_after": 1785828813,
+      "fingerprint": "84:F4:7B:C7:42:E3:DA:F1:BD:23:DB:5D:CA:8F:BA:36:69:DC:A3:30",
+      "sha1": "84:F4:7B:C7:42:E3:DA:F1:BD:23:DB:5D:CA:8F:BA:36:69:DC:A3:30",
+      "sha256": "B6:DE:5A:E2:B8:15:C6:4C:F3:D0:11:02:EA:9D:DA:BB:16:0F:32:72:00:4E:15:E8:46:DF:AE:1E:EB:5B:BA:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-irregular.org",
+        "*.cpf-irregular.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-irregular.org, DNS:cpf-irregular.org",
+        "subjectKeyIdentifier": "keyid:5d:bc:f0:f3:75:ed:ee:27:bf:15:e1:13:29:af:48:5a:a3:6b:5e:f5"
+      }
+    },
+    "cert_index": 4090374424,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4090374424&end=4090374424",
+    "seen": 1778067840.28,
+    "submission_timestamp": 1778056327.863,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "jogos.pix.green",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 08:33:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jogos.pix.green",
+        "aggregated": "/CN=jogos.pix.green"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EDF3C78471D721790DFE9EF6BB2714AD",
+      "not_before": 1777836143,
+      "not_after": 1785615734,
+      "fingerprint": "F9:DA:6B:51:36:EE:44:34:02:5A:41:BB:1A:7B:8E:86:F8:E7:BA:8E",
+      "sha1": "F9:DA:6B:51:36:EE:44:34:02:5A:41:BB:1A:7B:8E:86:F8:E7:BA:8E",
+      "sha256": "50:6B:AA:9A:06:FB:A2:10:A6:33:23:B2:B2:8E:0A:68:AD:AB:30:45:B4:21:10:10:3B:2B:C8:0C:DD:21:6E:56",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "jogos.pix.green"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/7fM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:jogos.pix.green",
+        "subjectKeyIdentifier": "keyid:9f:cd:f1:90:b0:4f:47:8d:17:b0:0e:81:48:4a:bd:b9:ce:57:56:fd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 820395338,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820395338&end=820395338",
+    "seen": 1778067191.109,
+    "submission_timestamp": 1777839743.796,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

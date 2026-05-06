@@ -1,0 +1,51 @@
+{
+  "dominio": "pix.bolha.one",
+  "marcas_encontradas": [
+    "pix"
+  ],
+  "timestamp": "05/06/26 08:58:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix.bolha.one",
+        "aggregated": "/CN=pix.bolha.one"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "BDB73F6979CB723D5306F5D221D176AC",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "9E:DB:82:F3:6D:CF:87:DE:1A:A5:CD:76:9F:FD:16:7D:E6:AA:04:81",
+      "sha1": "9E:DB:82:F3:6D:CF:87:DE:1A:A5:CD:76:9F:FD:16:7D:E6:AA:04:81",
+      "sha256": "AD:63:A5:23:07:B8:4A:51:40:2F:95:F4:59:F3:D3:E3:2F:C4:C2:81:53:75:FE:6F:72:98:DB:9C:E4:36:AC:3C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pix.bolha.one"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix.bolha.one",
+        "subjectKeyIdentifier": "keyid:68:10:6d:88:a2:11:b4:4f:b0:9f:78:bc:9f:0b:e8:99:3e:4c:d3:9a"
+      }
+    },
+    "cert_index": 4090584805,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4090584805&end=4090584805",
+    "seen": 1778068679.257,
+    "submission_timestamp": 1778057278.006,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

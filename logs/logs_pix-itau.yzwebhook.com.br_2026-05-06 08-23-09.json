@@ -1,0 +1,52 @@
+{
+  "dominio": "pix-itau.yzwebhook.com.br",
+  "marcas_encontradas": [
+    "pix",
+    "itau"
+  ],
+  "timestamp": "05/06/26 08:23:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pix-itau.yzwebhook.com.br",
+        "aggregated": "/CN=pix-itau.yzwebhook.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05F5D9F0954C25476F692FFB317476DB3306",
+      "not_before": 1777836217,
+      "not_after": 1785612216,
+      "fingerprint": "19:61:FC:35:70:0A:F6:5E:41:DA:9D:37:81:EF:59:D5:4D:E3:01:CC",
+      "sha1": "19:61:FC:35:70:0A:F6:5E:41:DA:9D:37:81:EF:59:D5:4D:E3:01:CC",
+      "sha256": "F2:47:54:60:DA:6D:1A:E2:2C:64:CC:F4:78:D5:9F:2F:D5:55:FB:61:8E:E1:09:A1:3C:44:18:86:DC:5A:9E:D5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pix-itau.yzwebhook.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pix-itau.yzwebhook.com.br",
+        "subjectKeyIdentifier": "keyid:a7:2c:32:e1:4c:0e:62:f3:2d:5f:64:24:bc:78:65:22:f0:18:71:cc"
+      }
+    },
+    "cert_index": 820384611,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=820384611&end=820384611",
+    "seen": 1778066587.581,
+    "submission_timestamp": 1777839728.457,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

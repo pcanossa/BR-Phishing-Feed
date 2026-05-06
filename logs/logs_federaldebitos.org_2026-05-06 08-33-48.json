@@ -1,0 +1,52 @@
+{
+  "dominio": "federaldebitos.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/06/26 08:33:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "federaldebitos.org",
+        "aggregated": "/CN=federaldebitos.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06320B37A91A70A27166307E5FE8A0F04291",
+      "not_before": 1777963684,
+      "not_after": 1785739683,
+      "fingerprint": "3A:34:E4:16:8F:9A:E2:54:C1:84:C9:CA:B9:C2:47:68:45:C2:B6:86",
+      "sha1": "3A:34:E4:16:8F:9A:E2:54:C1:84:C9:CA:B9:C2:47:68:45:C2:B6:86",
+      "sha256": "83:19:A2:CD:AF:58:0F:C8:31:29:13:93:4F:2F:56:5E:37:2A:1E:AA:D3:19:7D:4B:0B:E3:A9:4F:87:F2:C3:F4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "federaldebitos.org",
+        "*.federaldebitos.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.federaldebitos.org, DNS:federaldebitos.org",
+        "subjectKeyIdentifier": "keyid:2a:7a:31:87:08:de:c2:74:0d:2a:27:af:ca:20:c6:4b:fd:0b:9d:ab"
+      }
+    },
+    "cert_index": 564214678,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=564214678&end=564214678",
+    "seen": 1778067227.794,
+    "submission_timestamp": 1777967197.186,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

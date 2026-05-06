@@ -1,0 +1,54 @@
+{
+  "dominio": "itauditshub.sigmatrust.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/06/26 08:46:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sigmatrust.app",
+        "aggregated": "/CN=sigmatrust.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "9C8C1855EDFB44300EDBF4AD03F951A6",
+      "not_before": 1778064281,
+      "not_after": 1785843735,
+      "fingerprint": "C6:5B:B2:C7:71:AD:65:FA:A9:BA:C7:92:5F:30:89:E7:D8:98:C9:E2",
+      "sha1": "C6:5B:B2:C7:71:AD:65:FA:A9:BA:C7:92:5F:30:89:E7:D8:98:C9:E2",
+      "sha256": "E7:06:8B:6A:6B:C2:FE:64:66:D3:D7:E7:87:11:F3:47:CA:F1:EF:B3:5C:BD:48:46:DF:6E:85:45:AA:BA:2C:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sigmatrust.app",
+        "itauditshub.sigmatrust.app",
+        "*.itauditshub.sigmatrust.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/nIw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sigmatrust.app, DNS:itauditshub.sigmatrust.app, DNS:*.itauditshub.sigmatrust.app",
+        "subjectKeyIdentifier": "keyid:73:0b:f4:5a:87:65:80:25:b3:82:6c:7e:33:60:df:ed:2f:94:90:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 539917620,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=539917620&end=539917620",
+    "seen": 1778068017.397,
+    "submission_timestamp": 1778067883.202,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

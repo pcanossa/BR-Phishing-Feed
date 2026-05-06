@@ -1,0 +1,52 @@
+{
+  "dominio": "santanderkey-app.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/06/26 08:28:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderkey-app.com",
+        "aggregated": "/CN=santanderkey-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "068BEC68F954B2B0EAA54778F0EBA3F7C3E3",
+      "not_before": 1778051177,
+      "not_after": 1785827176,
+      "fingerprint": "06:2E:84:7B:33:BF:E5:6D:46:07:11:1D:2B:F8:A2:2D:48:CE:44:9A",
+      "sha1": "06:2E:84:7B:33:BF:E5:6D:46:07:11:1D:2B:F8:A2:2D:48:CE:44:9A",
+      "sha256": "A5:D2:78:1C:D9:1F:F2:50:47:66:D5:45:86:AF:26:EA:07:61:ED:0D:92:0C:24:C9:09:98:38:2F:FA:A6:43:BD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "santanderkey-app.com",
+        "*.santanderkey-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.santanderkey-app.com, DNS:santanderkey-app.com",
+        "subjectKeyIdentifier": "keyid:22:13:d2:b9:4a:88:1e:46:8b:6d:d4:43:e9:51:48:81:dc:f9:e3:23"
+      }
+    },
+    "cert_index": 4090136193,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4090136193&end=4090136193",
+    "seen": 1778066902.454,
+    "submission_timestamp": 1778055253.322,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
