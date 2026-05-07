@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.qvara.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/07/26 08:54:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.qvara.app",
+        "aggregated": "/CN=santander.qvara.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E23EA72BC5BC698D3A777830747D9C9",
+      "not_before": 1778112000,
+      "not_after": 1794095999,
+      "fingerprint": "16:C4:6D:A8:33:30:45:D0:5D:53:AF:3A:41:B6:DB:E7:6A:FE:79:2C",
+      "sha1": "16:C4:6D:A8:33:30:45:D0:5D:53:AF:3A:41:B6:DB:E7:6A:FE:79:2C",
+      "sha256": "81:42:BC:10:A9:E1:27:1E:0A:26:50:72:C8:CE:22:8B:33:0B:EA:92:4D:7F:CF:7B:0B:B8:1A:58:70:51:80:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.qvara.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.qvara.app",
+        "subjectKeyIdentifier": "keyid:7b:f3:8f:50:ff:99:53:b8:88:8c:61:e4:10:25:27:54:f4:37:71:44"
+      }
+    },
+    "cert_index": 166240501,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x649/376",
+    "seen": 1778154859.998,
+    "submission_timestamp": 1778154857.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
