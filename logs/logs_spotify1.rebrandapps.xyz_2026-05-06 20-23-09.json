@@ -1,0 +1,52 @@
+{
+  "dominio": "spotify1.rebrandapps.xyz",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/06/26 20:23:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotify1.rebrandapps.xyz",
+        "aggregated": "/CN=spotify1.rebrandapps.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "056F5CCFB0F09D386FAD694DC94DCD0090E4",
+      "not_before": 1778097595,
+      "not_after": 1785873594,
+      "fingerprint": "11:0F:A9:6A:B8:DB:6A:8A:2D:C3:F8:33:D8:57:40:47:99:BA:BA:32",
+      "sha1": "11:0F:A9:6A:B8:DB:6A:8A:2D:C3:F8:33:D8:57:40:47:99:BA:BA:32",
+      "sha256": "28:B9:F3:EA:EF:F0:E5:87:E4:1A:05:09:4F:7B:4C:26:C9:48:B9:7D:20:0B:33:83:75:5E:21:2C:9D:AD:70:C5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "spotify1.rebrandapps.xyz",
+        "www.spotify1.rebrandapps.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:spotify1.rebrandapps.xyz, DNS:www.spotify1.rebrandapps.xyz",
+        "subjectKeyIdentifier": "keyid:90:25:4e:7d:f9:9e:c5:6f:82:e8:ed:65:b9:ef:dc:e7:30:08:96:12"
+      }
+    },
+    "cert_index": 4100741071,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4100741071&end=4100741071",
+    "seen": 1778109785.982,
+    "submission_timestamp": 1778101107.456,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

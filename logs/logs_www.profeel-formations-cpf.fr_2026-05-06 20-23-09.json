@@ -1,0 +1,54 @@
+{
+  "dominio": "www.profeel-formations-cpf.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 20:23:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "profeel-formations-cpf.fr",
+        "aggregated": "/CN=profeel-formations-cpf.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "053D3153CB57D737F38B1E062B6EFDD9A15C",
+      "not_before": 1778097596,
+      "not_after": 1785873595,
+      "fingerprint": "31:F7:FA:97:43:D2:57:D4:1F:BA:99:AB:CF:E1:9C:C4:2F:88:25:1C",
+      "sha1": "31:F7:FA:97:43:D2:57:D4:1F:BA:99:AB:CF:E1:9C:C4:2F:88:25:1C",
+      "sha256": "97:33:5A:FB:03:A2:29:08:6D:0F:AE:41:66:54:23:94:7D:A2:56:F8:61:BC:68:1B:8C:B3:C8:6E:C1:6C:D2:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "profeel-formations-cpf.fr",
+        "mail.profeel-formations-cpf.fr",
+        "www.profeel-formations-cpf.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mail.profeel-formations-cpf.fr, DNS:profeel-formations-cpf.fr, DNS:www.profeel-formations-cpf.fr",
+        "subjectKeyIdentifier": "keyid:33:1a:eb:54:ca:b1:98:11:db:85:6c:cf:62:4d:83:51:70:e8:9a:3e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4100741001,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4100741001&end=4100741001",
+    "seen": 1778109785.974,
+    "submission_timestamp": 1778101106.922,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

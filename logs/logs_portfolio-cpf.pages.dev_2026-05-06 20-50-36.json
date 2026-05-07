@@ -1,0 +1,53 @@
+{
+  "dominio": "portfolio-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 20:50:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portfolio-cpf.pages.dev",
+        "aggregated": "/CN=portfolio-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059483107A1046C661B79A6CBBF5BE608C5D",
+      "not_before": 1778099401,
+      "not_after": 1785875400,
+      "fingerprint": "A8:EE:F6:58:E6:78:86:EE:9C:49:D0:8E:72:74:06:6A:3D:96:9E:CE",
+      "sha1": "A8:EE:F6:58:E6:78:86:EE:9C:49:D0:8E:72:74:06:6A:3D:96:9E:CE",
+      "sha256": "98:31:40:85:13:BD:EA:E6:18:A8:BE:15:7C:BF:1D:0A:CF:4A:BC:C9:5A:25:32:18:A1:7F:B7:FF:A4:49:21:E9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "portfolio-cpf.pages.dev",
+        "*.portfolio-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.portfolio-cpf.pages.dev, DNS:portfolio-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:2f:2d:09:15:49:20:8b:05:b8:d7:7c:0f:d6:ff:74:77:83:c5:ab:fd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4101148435,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4101148435&end=4101148435",
+    "seen": 1778111433.465,
+    "submission_timestamp": 1778102911.272,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
