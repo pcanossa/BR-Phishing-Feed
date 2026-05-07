@@ -1,0 +1,54 @@
+{
+  "dominio": "www.app.correios.mktstudios.com.br",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/07/26 02:08:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.app.correios.mktstudios.com.br",
+        "aggregated": "/CN=www.app.correios.mktstudios.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059C4096DE0C4F6DC799FA6A7DE118058AB2",
+      "not_before": 1777969501,
+      "not_after": 1785745500,
+      "fingerprint": "70:E8:51:62:E5:D4:98:54:2E:AE:67:73:2D:FA:1D:39:D8:3B:E0:DB",
+      "sha1": "70:E8:51:62:E5:D4:98:54:2E:AE:67:73:2D:FA:1D:39:D8:3B:E0:DB",
+      "sha256": "05:D1:1A:EF:B8:DC:7D:62:84:4D:34:3A:E7:44:33:FC:B9:07:7A:D3:DE:59:E0:F3:E8:92:17:37:49:14:B3:98",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.app.correios.mktstudios.com.br",
+        "*.correios.mktstudios.com.br",
+        "www.backend.correios.mktstudios.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.correios.mktstudios.com.br, DNS:www.app.correios.mktstudios.com.br, DNS:www.backend.correios.mktstudios.com.br",
+        "subjectKeyIdentifier": "keyid:46:3a:cf:a0:8a:43:08:13:2f:01:99:c8:29:8b:6a:cb:1b:d6:2d:71",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 592030967,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=592030967&end=592030967",
+    "seen": 1778130522.58,
+    "submission_timestamp": 1777973011.703,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

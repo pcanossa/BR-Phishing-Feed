@@ -1,0 +1,53 @@
+{
+  "dominio": "eliminadebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 02:06:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.eliminadebito.com",
+        "aggregated": "/CN=*.eliminadebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06700B7524ED3CC93B2F68A7691532CCF272",
+      "not_before": 1778119119,
+      "not_after": 1785895118,
+      "fingerprint": "EF:8A:4D:C4:0D:C1:BE:F6:61:E8:9F:A7:AD:84:4C:BE:7C:1F:07:05",
+      "sha1": "EF:8A:4D:C4:0D:C1:BE:F6:61:E8:9F:A7:AD:84:4C:BE:7C:1F:07:05",
+      "sha256": "73:BE:00:14:71:45:63:E7:11:7B:05:F0:11:D0:E8:36:9E:1D:6A:D0:D3:86:A2:17:BE:3F:D2:3E:2A:DA:F5:02",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.eliminadebito.com",
+        "eliminadebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.eliminadebito.com, DNS:eliminadebito.com",
+        "subjectKeyIdentifier": "keyid:c7:0c:ec:65:4c:20:8c:1f:1f:0c:1a:63:ea:99:54:5b:dd:22:7c:fb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4105713718,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4105713718&end=4105713718",
+    "seen": 1778130392.022,
+    "submission_timestamp": 1778122630.127,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

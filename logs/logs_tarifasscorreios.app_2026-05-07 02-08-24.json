@@ -1,0 +1,52 @@
+{
+  "dominio": "tarifasscorreios.app",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/07/26 02:08:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tarifasscorreios.app",
+        "aggregated": "/CN=tarifasscorreios.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "03D02D320B8001C00E8607CB0F11BE45",
+      "not_before": 1778118976,
+      "not_after": 1785898503,
+      "fingerprint": "DB:53:32:15:F4:29:47:1F:3E:FF:F7:3A:10:45:47:1D:A4:D1:01:5C",
+      "sha1": "DB:53:32:15:F4:29:47:1F:3E:FF:F7:3A:10:45:47:1D:A4:D1:01:5C",
+      "sha256": "F5:F2:F5:28:FE:6F:6B:D2:16:97:32:25:2F:66:6F:50:9B:39:24:DB:62:D3:2F:02:8F:75:51:36:9D:6C:7C:34",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "tarifasscorreios.app",
+        "*.tarifasscorreios.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/A9A, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:tarifasscorreios.app, DNS:*.tarifasscorreios.app",
+        "subjectKeyIdentifier": "keyid:eb:41:ee:18:74:ae:1f:f9:c5:f8:72:83:47:6a:b2:15:ac:7d:cb:a3"
+      }
+    },
+    "cert_index": 4105739627,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4105739627&end=4105739627",
+    "seen": 1778130501.651,
+    "submission_timestamp": 1778122747.841,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

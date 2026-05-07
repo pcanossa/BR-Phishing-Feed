@@ -1,0 +1,52 @@
+{
+  "dominio": "cfoo-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 02:34:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cfoo-cpf.pages.dev",
+        "aggregated": "/CN=cfoo-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06F4CFF2F98CC0BDFC0BA4B985728CBA0293",
+      "not_before": 1777970264,
+      "not_after": 1785746263,
+      "fingerprint": "FA:F8:AF:67:2D:E4:0D:5E:FB:B1:38:EE:E3:73:6A:76:44:91:81:1A",
+      "sha1": "FA:F8:AF:67:2D:E4:0D:5E:FB:B1:38:EE:E3:73:6A:76:44:91:81:1A",
+      "sha256": "2E:BE:80:04:13:09:47:CE:ED:2E:5B:9D:AE:B2:40:EB:A6:C2:25:0C:33:C8:8A:73:3F:5E:7A:A5:70:BE:8B:D5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cfoo-cpf.pages.dev",
+        "*.cfoo-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cfoo-cpf.pages.dev, DNS:cfoo-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:54:19:ee:d4:84:89:12:11:71:9a:eb:a5:94:af:1f:c8:ef:20:1c:62"
+      }
+    },
+    "cert_index": 592132352,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=592132352&end=592132352",
+    "seen": 1778132042.409,
+    "submission_timestamp": 1777973776.655,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "www.banco.semprepay.app.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/07/26 02:25:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.banco.semprepay.app.br",
+        "aggregated": "/CN=www.banco.semprepay.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05B24112A344FF35B2D812A4B6CF70CD93D3",
+      "not_before": 1778000092,
+      "not_after": 1785776091,
+      "fingerprint": "F2:4C:94:66:A0:3F:84:24:7D:A5:1D:FA:24:AA:C4:45:29:F9:C3:EA",
+      "sha1": "F2:4C:94:66:A0:3F:84:24:7D:A5:1D:FA:24:AA:C4:45:29:F9:C3:EA",
+      "sha256": "7C:5D:73:DA:0E:3B:2B:69:44:65:69:BE:02:58:5B:ED:46:70:0E:B6:94:5A:D3:6E:5B:BA:C4:03:53:3C:5C:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.banco.semprepay.app.br",
+        "banco.semprepay.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banco.semprepay.app.br, DNS:www.banco.semprepay.app.br",
+        "subjectKeyIdentifier": "keyid:10:7e:40:c8:48:6c:e2:29:ca:59:9f:ba:f5:3c:b6:09:0e:f7:ee:41",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 568790512,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=568790512&end=568790512",
+    "seen": 1778131530.33,
+    "submission_timestamp": 1778003602.509,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
