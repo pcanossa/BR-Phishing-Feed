@@ -1,0 +1,53 @@
+{
+  "dominio": "www.centraldetransferencias.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/07/26 17:26:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "centraldetransferencias.com",
+        "aggregated": "/CN=centraldetransferencias.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06E70F189C2F26C2BBE7A568408B4980DC18",
+      "not_before": 1777852015,
+      "not_after": 1785628014,
+      "fingerprint": "3B:A8:9C:B7:40:1C:67:72:0E:23:0F:A0:77:18:27:35:8B:24:93:20",
+      "sha1": "3B:A8:9C:B7:40:1C:67:72:0E:23:0F:A0:77:18:27:35:8B:24:93:20",
+      "sha256": "2C:81:F3:9C:43:FF:08:C0:4C:F7:94:87:3D:E9:D0:A8:5C:94:BB:37:B0:51:38:15:B0:E3:39:DE:CB:01:9E:99",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "centraldetransferencias.com",
+        "www.centraldetransferencias.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:centraldetransferencias.com, DNS:www.centraldetransferencias.com",
+        "subjectKeyIdentifier": "keyid:61:87:6d:58:8f:24:3e:a7:2e:e2:cf:b2:4d:21:02:96:7c:e9:1c:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 680039330,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=680039330&end=680039330",
+    "seen": 1778185594.571,
+    "submission_timestamp": 1777855525.893,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

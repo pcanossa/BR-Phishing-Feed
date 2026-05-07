@@ -1,0 +1,52 @@
+{
+  "dominio": "receitacerta.app.br",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/07/26 17:24:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.receitacerta.app.br",
+        "aggregated": "/CN=*.receitacerta.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05CBD8EA21D6FF77BD8E88F0FD2528233B3E",
+      "not_before": 1778181954,
+      "not_after": 1785957953,
+      "fingerprint": "F1:53:02:93:EB:20:CC:1D:A7:3B:88:72:5D:41:6A:D2:64:6A:14:A9",
+      "sha1": "F1:53:02:93:EB:20:CC:1D:A7:3B:88:72:5D:41:6A:D2:64:6A:14:A9",
+      "sha256": "E4:AA:E7:84:03:C1:0E:1F:A8:7D:0D:C9:12:A9:05:82:CD:A7:91:29:BA:22:C5:73:27:AF:6F:75:4D:02:20:BA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.receitacerta.app.br",
+        "receitacerta.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.receitacerta.app.br, DNS:receitacerta.app.br",
+        "subjectKeyIdentifier": "keyid:45:6a:9a:74:c4:50:e6:88:19:16:36:fd:32:8f:7c:88:7d:80:f9:45"
+      }
+    },
+    "cert_index": 167067932,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x652/609",
+    "seen": 1778185468.283,
+    "submission_timestamp": 1778185465.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

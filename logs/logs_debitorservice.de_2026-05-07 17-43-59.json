@@ -1,0 +1,51 @@
+{
+  "dominio": "debitorservice.de",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 17:43:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitorservice.de",
+        "aggregated": "/CN=debitorservice.de"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "5303BA28A41034215534A652089FAFEC",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "6F:BE:15:CA:99:65:42:38:A1:6E:EB:66:71:C3:36:84:6D:EB:BF:CA",
+      "sha1": "6F:BE:15:CA:99:65:42:38:A1:6E:EB:66:71:C3:36:84:6D:EB:BF:CA",
+      "sha256": "DE:1A:57:A6:8A:3C:C7:25:F7:35:37:F8:27:50:9A:02:66:56:CA:B3:93:76:33:6B:43:15:97:25:D9:93:B2:34",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitorservice.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitorservice.de",
+        "subjectKeyIdentifier": "keyid:39:ce:4e:44:25:9b:99:3c:67:ea:6e:13:78:4b:20:72:ca:29:75:29"
+      }
+    },
+    "cert_index": 4116034137,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4116034137&end=4116034137",
+    "seen": 1778186639.83,
+    "submission_timestamp": 1778172420.795,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

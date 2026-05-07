@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.squareone.digital",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 17:16:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.squareone.digital",
+        "aggregated": "/CN=cpf.squareone.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "069E96F58ABD898AE1C0A0EA10519CA3E75B",
+      "not_before": 1778167232,
+      "not_after": 1785943231,
+      "fingerprint": "38:80:A7:A9:BF:18:9A:1B:3A:92:BB:E7:DC:E4:F1:C9:B8:A3:28:4F",
+      "sha1": "38:80:A7:A9:BF:18:9A:1B:3A:92:BB:E7:DC:E4:F1:C9:B8:A3:28:4F",
+      "sha256": "2A:91:67:34:70:5F:BB:00:AD:51:2F:EE:33:DE:AA:4C:72:E8:66:5D:E6:E1:DF:A8:84:76:78:E8:E8:EB:9D:D9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.squareone.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.squareone.digital",
+        "subjectKeyIdentifier": "keyid:e1:ea:3e:c5:8f:e3:24:cf:80:eb:20:88:59:d8:c8:2f:a5:5f:4b:13",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4115661746,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4115661746&end=4115661746",
+    "seen": 1778185002.915,
+    "submission_timestamp": 1778170742.561,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
