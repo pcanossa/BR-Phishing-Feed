@@ -1,0 +1,51 @@
+{
+  "dominio": "hello-cpf.prodigioussg.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 04:36:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hello-cpf.prodigioussg.com",
+        "aggregated": "/CN=hello-cpf.prodigioussg.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05C874076B44468D8E7740FABCB314A99B05",
+      "not_before": 1777973824,
+      "not_after": 1785749823,
+      "fingerprint": "02:C5:0D:2F:5E:4B:1A:72:9B:03:51:C4:F5:DA:17:B4:2B:42:1D:40",
+      "sha1": "02:C5:0D:2F:5E:4B:1A:72:9B:03:51:C4:F5:DA:17:B4:2B:42:1D:40",
+      "sha256": "6A:14:AD:08:C2:6F:53:70:D5:EF:91:BE:44:73:70:4C:AA:BA:77:A6:BA:6B:AC:3E:40:AC:CB:4A:66:95:E8:C3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "hello-cpf.prodigioussg.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hello-cpf.prodigioussg.com",
+        "subjectKeyIdentifier": "keyid:b3:cf:81:44:00:4d:8b:af:b7:15:1a:3d:12:9a:9c:bd:00:8b:ab:7f"
+      }
+    },
+    "cert_index": 592619455,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=592619455&end=592619455",
+    "seen": 1778139360.876,
+    "submission_timestamp": 1777977336.249,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

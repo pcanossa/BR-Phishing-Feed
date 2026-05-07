@@ -1,0 +1,53 @@
+{
+  "dominio": "www.cpf-consulting.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 04:14:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-consulting.com",
+        "aggregated": "/CN=cpf-consulting.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "620756C6F4232A55117DEC56A4B5A121",
+      "not_before": 1778126302,
+      "not_after": 1785902301,
+      "fingerprint": "36:9E:A9:54:42:DE:39:2B:AB:9F:72:7C:BC:4D:B4:C4:B3:01:9D:7E",
+      "sha1": "36:9E:A9:54:42:DE:39:2B:AB:9F:72:7C:BC:4D:B4:C4:B3:01:9D:7E",
+      "sha256": "85:B3:02:B1:16:3E:F4:09:88:29:05:95:9D:32:AC:1D:EA:19:60:82:98:63:31:48:3A:3F:E2:46:B9:C5:7A:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-consulting.com",
+        "www.cpf-consulting.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Ygc, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-consulting.com, DNS:www.cpf-consulting.com",
+        "subjectKeyIdentifier": "keyid:0d:5f:1f:80:aa:29:a0:39:87:c5:b2:64:a1:7d:0d:fc:b5:a2:93:07",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4107435046,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4107435046&end=4107435046",
+    "seen": 1778138076.904,
+    "submission_timestamp": 1778129903.052,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
