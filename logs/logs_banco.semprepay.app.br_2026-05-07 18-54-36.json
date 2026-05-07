@@ -1,0 +1,52 @@
+{
+  "dominio": "banco.semprepay.app.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/07/26 18:54:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banco.semprepay.app.br",
+        "aggregated": "/CN=banco.semprepay.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4D73BA184F05FBF50EB7BBC5D8BE0FEF",
+      "not_before": 1778173431,
+      "not_after": 1785953017,
+      "fingerprint": "22:AB:43:82:DC:AE:25:DE:6B:38:D9:EC:A1:BC:4B:04:00:08:C2:F5",
+      "sha1": "22:AB:43:82:DC:AE:25:DE:6B:38:D9:EC:A1:BC:4B:04:00:08:C2:F5",
+      "sha256": "88:32:6F:14:FA:6B:91:7B:01:49:41:47:B0:E4:56:03:07:65:66:76:5A:FF:CA:FB:7A:1F:8E:53:57:1D:BA:DA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "banco.semprepay.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/TXM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:banco.semprepay.app.br",
+        "subjectKeyIdentifier": "keyid:e3:06:70:1d:63:5d:49:47:1b:ff:31:11:86:0c:62:e5:61:dc:6f:88",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4117040077,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4117040077&end=4117040077",
+    "seen": 1778190875.935,
+    "submission_timestamp": 1778177032.399,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

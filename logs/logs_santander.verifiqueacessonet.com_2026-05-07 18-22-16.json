@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.verifiqueacessonet.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/07/26 18:22:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.verifiqueacessonet.com",
+        "aggregated": "/CN=santander.verifiqueacessonet.com"
+      },
+      "issuer": {
+        "C": "CN",
+        "CN": "TrustAsia DV TLS RSA CA 2025",
+        "O": "TrustAsia Technologies, Inc.",
+        "aggregated": "/C=CN/CN=TrustAsia DV TLS RSA CA 2025/O=TrustAsia Technologies, Inc."
+      },
+      "serial_number": "0293ABAE9AA4EF28882F3FA177ACD01D",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "F6:52:69:F9:FB:07:7D:75:FC:C8:87:FF:43:2E:31:64:38:AD:36:0D",
+      "sha1": "F6:52:69:F9:FB:07:7D:75:FC:C8:87:FF:43:2E:31:64:38:AD:36:0D",
+      "sha256": "C5:8E:28:9C:B5:3D:AA:B3:81:3B:09:C5:B8:29:78:B8:FD:77:E1:94:8E:38:1D:92:64:CC:81:E6:45:B2:D1:99",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.verifiqueacessonet.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/TrustAsiaDVTLSRSACA2025.crt",
+        "authorityKeyIdentifier": "keyid:b4:12:28:a5:b4:c0:1d:9f:29:71:69:3c:d9:11:96:4a:75:69:50:c0",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.verifiqueacessonet.com",
+        "subjectKeyIdentifier": "keyid:3b:2d:05:03:06:ed:4f:b6:11:19:49:0c:c2:27:64:a4:b5:dc:60:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 595173353,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=595173353&end=595173353",
+    "seen": 1778188936.173,
+    "submission_timestamp": 1777997422.594,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

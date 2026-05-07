@@ -1,0 +1,56 @@
+{
+  "dominio": "tibco.prod01.cpf.ssnsgs.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 18:59:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "tibco.prod01.cpf.ssnsgs.net",
+        "O": "Itron Networked Solutions, Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=tibco.prod01.cpf.ssnsgs.net/O=Itron Networked Solutions, Inc./ST=California"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "010B0380C3C401481CB21C886FBC55C6",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "10:2F:ED:AD:D7:E3:2C:76:A8:1F:FB:43:78:CF:D0:14:5F:B7:7F:FC",
+      "sha1": "10:2F:ED:AD:D7:E3:2C:76:A8:1F:FB:43:78:CF:D0:14:5F:B7:7F:FC",
+      "sha256": "6A:4D:16:1E:36:62:05:27:88:0C:A7:C9:D7:E6:7B:96:E4:92:6E:90:70:63:0F:EE:BE:04:B8:16:17:0E:CA:69",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tibco.prod01.cpf.ssnsgs.net",
+        "www.tibco.prod01.cpf.ssnsgs.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tibco.prod01.cpf.ssnsgs.net, DNS:www.tibco.prod01.cpf.ssnsgs.net",
+        "subjectKeyIdentifier": "keyid:ff:02:5c:f6:6c:83:1b:9a:1d:af:b5:4e:c8:f4:34:d5:20:1b:41:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 572172255,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=572172255&end=572172255",
+    "seen": 1778191163.011,
+    "submission_timestamp": 1778033091.004,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

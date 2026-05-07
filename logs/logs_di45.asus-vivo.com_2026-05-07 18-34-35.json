@@ -1,0 +1,51 @@
+{
+  "dominio": "di45.asus-vivo.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/07/26 18:34:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "di45.asus-vivo.com",
+        "aggregated": "/CN=di45.asus-vivo.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "A9F33152B743B2BED6B2F5839236E147",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "83:DB:04:21:F2:25:4F:99:D3:BC:06:26:53:BB:F1:C4:15:2B:7C:03",
+      "sha1": "83:DB:04:21:F2:25:4F:99:D3:BC:06:26:53:BB:F1:C4:15:2B:7C:03",
+      "sha256": "C2:24:BD:39:70:49:81:51:A0:5D:6F:B0:22:22:06:2C:2C:64:5C:CE:B7:81:AF:F1:0E:B2:0B:FF:8B:26:BA:1B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "di45.asus-vivo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:di45.asus-vivo.com",
+        "subjectKeyIdentifier": "keyid:bf:03:f5:25:c4:c1:ff:a8:77:0e:a3:4e:fe:ef:98:16:77:0e:48:05"
+      }
+    },
+    "cert_index": 4116776983,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4116776983&end=4116776983",
+    "seen": 1778189674.915,
+    "submission_timestamp": 1778175934.563,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "api.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/07/26 19:00:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "050C76D4AFF740ABFD2B188F869D6DCC9D7D",
+      "not_before": 1777849610,
+      "not_after": 1785625609,
+      "fingerprint": "54:23:77:60:19:F7:43:73:0B:FC:33:60:93:B2:FA:74:2E:A1:3F:D9",
+      "sha1": "54:23:77:60:19:F7:43:73:0B:FC:33:60:93:B2:FA:74:2E:A1:3F:D9",
+      "sha256": "85:FB:19:B9:66:10:E2:E2:34:10:B8:FA:03:E1:6D:C1:5A:5D:8E:98:95:68:8A:5F:80:BE:69:25:35:41:FF:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:af:bc:c5:9d:35:36:5e:d3:a0:bc:a2:87:1e:ce:7d:56:2e:20:c7:16"
+      }
+    },
+    "cert_index": 822433385,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=822433385&end=822433385",
+    "seen": 1778191211.696,
+    "submission_timestamp": 1777853121.361,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
