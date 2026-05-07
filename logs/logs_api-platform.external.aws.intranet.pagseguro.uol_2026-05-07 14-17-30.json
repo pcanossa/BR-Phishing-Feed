@@ -1,0 +1,52 @@
+{
+  "dominio": "api-platform.external.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/07/26 14:17:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.api-platform.external.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.api-platform.external.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D43FE5008EC0569A2A6C53837BB625F",
+      "not_before": 1777852800,
+      "not_after": 1794959999,
+      "fingerprint": "22:69:B3:41:BA:28:D4:A0:D9:30:C2:AA:5A:3F:6A:20:1E:41:5C:F8",
+      "sha1": "22:69:B3:41:BA:28:D4:A0:D9:30:C2:AA:5A:3F:6A:20:1E:41:5C:F8",
+      "sha256": "45:19:21:F2:6D:18:80:AB:59:FB:4D:0C:35:58:D5:36:ED:DC:D7:06:71:46:90:D1:E9:A0:A4:D2:B8:58:90:EF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.api-platform.external.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.api-platform.external.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:2e:48:43:70:dd:11:9a:92:50:62:f6:07:35:f3:45:36:cb:89:19:ab",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1540768003,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1540768003&end=1540768003",
+    "seen": 1778174250.342,
+    "submission_timestamp": 1777853809.698,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "bradesco-app.info",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/07/26 14:41:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco-app.info",
+        "aggregated": "/CN=bradesco-app.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06DDAFBF4D6C3EE159156FC0B3570971B249",
+      "not_before": 1777987192,
+      "not_after": 1785763191,
+      "fingerprint": "79:33:5C:CA:13:FA:F6:53:A6:6E:F9:6A:56:5A:0F:46:15:57:41:F3",
+      "sha1": "79:33:5C:CA:13:FA:F6:53:A6:6E:F9:6A:56:5A:0F:46:15:57:41:F3",
+      "sha256": "ED:0A:13:6F:63:23:89:35:81:AA:3D:97:56:66:BC:EA:09:73:1B:0E:E8:1A:74:88:FF:C4:BB:8D:2F:F2:B3:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco-app.info",
+        "*.bradesco-app.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bradesco-app.info, DNS:bradesco-app.info",
+        "subjectKeyIdentifier": "keyid:2d:9f:2a:6b:14:a9:9a:08:63:7e:f2:54:0c:4c:b0:20:48:fd:27:0d"
+      }
+    },
+    "cert_index": 594322856,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=594322856&end=594322856",
+    "seen": 1778175686.774,
+    "submission_timestamp": 1777990704.602,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

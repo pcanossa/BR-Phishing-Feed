@@ -1,0 +1,55 @@
+{
+  "dominio": "pagseguro.api.irenda.milcontas.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/07/26 15:00:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.milcontas.com.br",
+        "aggregated": "/CN=app.milcontas.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0548AF6EDB14949F7779F5880583FC5F57B2",
+      "not_before": 1778021538,
+      "not_after": 1785797537,
+      "fingerprint": "EF:3E:38:D3:17:C7:F9:9F:67:C4:8B:EA:6C:FB:EE:94:A4:62:68:78",
+      "sha1": "EF:3E:38:D3:17:C7:F9:9F:67:C4:8B:EA:6C:FB:EE:94:A4:62:68:78",
+      "sha256": "2F:49:11:BC:B8:38:9D:99:64:AE:15:7F:3A:4C:66:C9:B0:C4:3D:B7:E8:F0:9A:39:0E:32:7A:2C:05:AD:B0:28",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.milcontas.com.br",
+        "pagseguro.api.irenda.milcontas.com.br",
+        "www.app.milcontas.com.br",
+        "www.pagseguro.api.irenda.milcontas.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.milcontas.com.br, DNS:pagseguro.api.irenda.milcontas.com.br, DNS:www.app.milcontas.com.br, DNS:www.pagseguro.api.irenda.milcontas.com.br",
+        "subjectKeyIdentifier": "keyid:be:b4:a7:4c:0f:f0:16:a6:e2:79:8b:56:ed:dc:e4:4e:f5:3f:89:23",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 571198796,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=571198796&end=571198796",
+    "seen": 1778176822.316,
+    "submission_timestamp": 1778025048.859,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

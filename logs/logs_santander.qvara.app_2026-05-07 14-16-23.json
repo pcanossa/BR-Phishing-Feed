@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.qvara.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/07/26 14:16:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.qvara.app",
+        "aggregated": "/CN=santander.qvara.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E23EA72BC5BC698D3A777830747D9C9",
+      "not_before": 1778112000,
+      "not_after": 1794095999,
+      "fingerprint": "20:7E:78:2B:75:1F:B8:EA:23:CC:A2:EC:CC:33:7A:B7:02:B7:E3:70",
+      "sha1": "20:7E:78:2B:75:1F:B8:EA:23:CC:A2:EC:CC:33:7A:B7:02:B7:E3:70",
+      "sha256": "8E:ED:16:3D:FC:81:F1:60:A6:04:6F:86:AE:01:C2:97:81:0D:55:25:57:08:7E:F6:52:07:8F:95:13:ED:2F:56",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.qvara.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.qvara.app",
+        "subjectKeyIdentifier": "keyid:7b:f3:8f:50:ff:99:53:b8:88:8c:61:e4:10:25:27:54:f4:37:71:44"
+      }
+    },
+    "cert_index": 4113360232,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4113360232&end=4113360232",
+    "seen": 1778174183.278,
+    "submission_timestamp": 1778158378.168,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

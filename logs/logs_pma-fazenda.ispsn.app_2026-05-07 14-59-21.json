@@ -1,0 +1,51 @@
+{
+  "dominio": "pma-fazenda.ispsn.app",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/07/26 14:59:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pma-fazenda.ispsn.app",
+        "aggregated": "/CN=pma-fazenda.ispsn.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0593CFBD28A411D6B47ED06AF3A305170955",
+      "not_before": 1778158164,
+      "not_after": 1785934163,
+      "fingerprint": "49:53:40:53:E0:52:02:BB:0E:B0:95:94:23:3D:6E:64:31:FC:AE:75",
+      "sha1": "49:53:40:53:E0:52:02:BB:0E:B0:95:94:23:3D:6E:64:31:FC:AE:75",
+      "sha256": "46:6E:60:26:41:1D:3E:3C:55:6B:2E:97:51:5E:95:A9:46:9D:03:92:B2:4C:0B:0C:20:F1:08:D7:8A:10:8D:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pma-fazenda.ispsn.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pma-fazenda.ispsn.app",
+        "subjectKeyIdentifier": "keyid:5b:f2:26:6d:1c:85:3e:43:7c:7b:8f:b4:0a:cc:9f:1f:ea:43:39:b3"
+      }
+    },
+    "cert_index": 4113876085,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4113876085&end=4113876085",
+    "seen": 1778176761.171,
+    "submission_timestamp": 1778161678.197,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
