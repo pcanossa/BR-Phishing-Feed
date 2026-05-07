@@ -1,0 +1,53 @@
+{
+  "dominio": "login.stone-henge.de",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/07/26 00:47:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.stone-henge.de",
+        "aggregated": "/CN=login.stone-henge.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C05C839C49F89CB91AE454444670549",
+      "not_before": 1778112000,
+      "not_after": 1785887999,
+      "fingerprint": "F9:8B:0C:F9:50:FF:B4:02:06:CC:AC:23:68:1D:8E:15:B6:31:68:12",
+      "sha1": "F9:8B:0C:F9:50:FF:B4:02:06:CC:AC:23:68:1D:8E:15:B6:31:68:12",
+      "sha256": "B4:6C:00:9A:BE:43:F1:9C:91:6E:36:5D:D2:6C:44:3E:EC:87:89:A8:C4:EB:C6:AA:97:7D:BD:B2:38:8C:53:35",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.stone-henge.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.stone-henge.de",
+        "subjectKeyIdentifier": "keyid:e1:ac:a4:9f:a2:a9:5f:70:77:af:8a:02:1c:97:47:69:e9:bf:22:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4104586641,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4104586641&end=4104586641",
+    "seen": 1778125629.49,
+    "submission_timestamp": 1778117709.679,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

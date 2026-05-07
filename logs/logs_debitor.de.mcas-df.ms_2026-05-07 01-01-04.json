@@ -1,0 +1,59 @@
+{
+  "dominio": "debitor.de.mcas-df.ms",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 01:01:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.debitor.de.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.debitor.de.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 10",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 10/O=Microsoft Corporation"
+      },
+      "serial_number": "490021BFE961C6EFB5B18EC26400000021BFE9",
+      "not_before": 1777970454,
+      "not_after": 1793522454,
+      "fingerprint": "48:F7:FC:A9:D6:33:1B:20:14:D8:0D:FA:9A:B0:E7:04:74:27:C1:C9",
+      "sha1": "48:F7:FC:A9:D6:33:1B:20:14:D8:0D:FA:9A:B0:E7:04:74:27:C1:C9",
+      "sha256": "9F:39:9E:A6:DA:12:16:72:DA:8A:5D:F5:A3:2E:6B:F2:20:EC:FA:E2:16:7E:2E:CA:01:49:12:AD:58:66:B2:BE",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitor.de.mcas.ms",
+        "*.debitor.de.admin-mcas.ms",
+        "*.debitor.de.mcas-df.ms",
+        "*.debitor.de.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:d0:4c:83:d1:8e:71:2e:3d:34:b1:ff:9b:79:2c:8e:74:d4:e2:78:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitor.de.mcas.ms, DNS:*.debitor.de.admin-mcas.ms, DNS:*.debitor.de.mcas-df.ms, DNS:*.debitor.de.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:16:9b:98:75:78:da:51:6a:58:9b:87:da:a6:95:d0:b6:c3:e3:20:bb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 591774603,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=591774603&end=591774603",
+    "seen": 1778126460.58,
+    "submission_timestamp": 1777971059.612,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

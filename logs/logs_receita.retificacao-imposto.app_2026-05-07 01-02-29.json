@@ -1,0 +1,52 @@
+{
+  "dominio": "receita.retificacao-imposto.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/07/26 01:02:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receita.retificacao-imposto.app",
+        "aggregated": "/CN=receita.retificacao-imposto.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0620876B0137B117FFDC08F5154E42DFA069",
+      "not_before": 1778115195,
+      "not_after": 1785891194,
+      "fingerprint": "39:0B:5F:8B:ED:BE:79:A8:EC:DA:17:49:F3:2B:DF:E1:73:4A:14:48",
+      "sha1": "39:0B:5F:8B:ED:BE:79:A8:EC:DA:17:49:F3:2B:DF:E1:73:4A:14:48",
+      "sha256": "2F:2D:8A:F4:D4:87:06:B2:9C:95:8C:B6:F2:1F:4A:94:F9:E6:0D:37:C4:9A:CA:4A:4A:F1:82:71:C7:C7:E5:1D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "receita.retificacao-imposto.app",
+        "www.receita.retificacao-imposto.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receita.retificacao-imposto.app, DNS:www.receita.retificacao-imposto.app",
+        "subjectKeyIdentifier": "keyid:40:26:ab:80:85:e5:49:a6:3f:df:a6:f1:04:0b:ce:14:c8:cf:c8:9e"
+      }
+    },
+    "cert_index": 4104796910,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4104796910&end=4104796910",
+    "seen": 1778126544.823,
+    "submission_timestamp": 1778118709.28,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

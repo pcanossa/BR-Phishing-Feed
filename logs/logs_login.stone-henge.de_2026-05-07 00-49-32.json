@@ -1,0 +1,52 @@
+{
+  "dominio": "login.stone-henge.de",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/07/26 00:49:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.stone-henge.de",
+        "aggregated": "/CN=login.stone-henge.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C05C839C49F89CB91AE454444670549",
+      "not_before": 1778112000,
+      "not_after": 1785887999,
+      "fingerprint": "19:16:B3:2B:2E:7C:1D:B9:D8:23:66:D4:9D:9B:8C:95:5F:5C:0D:4A",
+      "sha1": "19:16:B3:2B:2E:7C:1D:B9:D8:23:66:D4:9D:9B:8C:95:5F:5C:0D:4A",
+      "sha256": "A4:9E:11:B6:F2:81:CD:95:22:9F:A1:25:F4:EB:9E:27:71:70:8E:A6:8F:DC:90:EE:08:DC:E9:C2:A8:63:7B:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.stone-henge.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.stone-henge.de",
+        "subjectKeyIdentifier": "keyid:e1:ac:a4:9f:a2:a9:5f:70:77:af:8a:02:1c:97:47:69:e9:bf:22:ae"
+      }
+    },
+    "cert_index": 4104619632,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4104619632&end=4104619632",
+    "seen": 1778125767.891,
+    "submission_timestamp": 1778117873.832,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

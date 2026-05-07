@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.hopitaux.fr",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/07/26 00:10:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.hopitaux.fr",
+        "aggregated": "/CN=apps.hopitaux.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0FFCDBB3BCCED0819448EADABF6C2059",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "09:DE:9A:C3:62:AE:06:DC:C8:02:CE:D8:CF:06:24:1B:89:08:54:30",
+      "sha1": "09:DE:9A:C3:62:AE:06:DC:C8:02:CE:D8:CF:06:24:1B:89:08:54:30",
+      "sha256": "FD:F5:40:A5:17:1C:DA:82:BE:DA:2B:AA:C5:38:F8:B4:92:99:81:5A:97:8B:E6:81:4F:B0:C5:57:CC:2C:B1:DF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.hopitaux.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.hopitaux.fr",
+        "subjectKeyIdentifier": "keyid:33:c7:ee:e1:f9:37:44:a7:7b:bd:7d:29:79:37:12:fa:64:d7:34:b5"
+      }
+    },
+    "cert_index": 4104044573,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4104044573&end=4104044573",
+    "seen": 1778123405.679,
+    "submission_timestamp": 1778115334.17,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

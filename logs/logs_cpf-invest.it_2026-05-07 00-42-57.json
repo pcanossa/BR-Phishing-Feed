@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-invest.it",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 00:42:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-invest.it",
+        "aggregated": "/CN=cpf-invest.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0661E4360E1C5DFB63596183CC71B2350BD2",
+      "not_before": 1778113930,
+      "not_after": 1785889929,
+      "fingerprint": "56:AF:06:F2:C8:5A:3C:B7:D7:BA:76:09:48:C7:6D:CC:4F:5C:19:EC",
+      "sha1": "56:AF:06:F2:C8:5A:3C:B7:D7:BA:76:09:48:C7:6D:CC:4F:5C:19:EC",
+      "sha256": "22:D5:F6:AF:EC:2B:EB:58:40:6F:A7:D7:27:C9:64:27:BC:F7:98:E3:55:9F:6F:3A:47:7B:22:68:59:54:45:8E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-invest.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-invest.it",
+        "subjectKeyIdentifier": "keyid:a2:71:01:3e:44:32:57:8e:75:df:38:d7:79:c5:19:8a:0e:36:53:0b"
+      }
+    },
+    "cert_index": 4104526111,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4104526111&end=4104526111",
+    "seen": 1778125374.348,
+    "submission_timestamp": 1778117443.953,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
