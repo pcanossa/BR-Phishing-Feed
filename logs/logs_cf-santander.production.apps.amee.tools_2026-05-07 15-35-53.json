@@ -1,0 +1,52 @@
+{
+  "dominio": "cf-santander.production.apps.amee.tools",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/07/26 15:35:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cf-santander.production.apps.amee.tools",
+        "aggregated": "/CN=cf-santander.production.apps.amee.tools"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E795A2AE4CFE726686FD754171C07F32BE",
+      "not_before": 1778160683,
+      "not_after": 1785936682,
+      "fingerprint": "E0:F6:A3:EC:4F:E9:37:95:ED:BE:50:70:0A:25:FC:35:BC:A5:B0:6F",
+      "sha1": "E0:F6:A3:EC:4F:E9:37:95:ED:BE:50:70:0A:25:FC:35:BC:A5:B0:6F",
+      "sha256": "87:47:7F:7C:E0:F6:11:70:AB:33:63:97:45:4F:AE:01:0C:69:CB:36:5A:1E:EC:BE:DC:FA:CD:C8:C9:F4:3A:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cf-santander.production.apps.amee.tools"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cf-santander.production.apps.amee.tools",
+        "subjectKeyIdentifier": "keyid:7f:f7:ff:0d:f7:3e:a2:1f:06:12:90:b1:e4:c2:8b:2c:74:be:e8:3a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4114303578,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4114303578&end=4114303578",
+    "seen": 1778178953.282,
+    "submission_timestamp": 1778164193.542,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
