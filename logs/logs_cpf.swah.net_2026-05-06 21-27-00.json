@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.swah.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 21:27:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.swah.net",
+        "aggregated": "/CN=cpf.swah.net"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "BB43E3481521B8D5F3CC08FABF8110B2",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "1E:BA:BF:E8:D4:3D:37:10:79:BF:EE:FA:CF:6D:47:63:65:34:8A:CB",
+      "sha1": "1E:BA:BF:E8:D4:3D:37:10:79:BF:EE:FA:CF:6D:47:63:65:34:8A:CB",
+      "sha256": "56:94:28:25:C0:16:57:EE:5B:FA:10:C7:FE:5C:22:8F:A0:6B:8C:07:ED:50:C4:7F:FA:7C:B3:01:86:74:54:B8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.swah.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.swah.net",
+        "subjectKeyIdentifier": "keyid:43:43:7f:e8:5b:a8:ea:3d:23:c5:ac:67:b1:1a:6d:d1:eb:c1:f6:9a"
+      }
+    },
+    "cert_index": 4101658692,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4101658692&end=4101658692",
+    "seen": 1778113616.88,
+    "submission_timestamp": 1778105098.81,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

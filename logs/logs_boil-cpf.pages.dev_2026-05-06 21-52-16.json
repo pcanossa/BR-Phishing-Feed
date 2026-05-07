@@ -1,0 +1,53 @@
+{
+  "dominio": "boil-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/06/26 21:52:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boil-cpf.pages.dev",
+        "aggregated": "/CN=boil-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9CCE0A31883C8A0C0E2AA34AF491F8D3",
+      "not_before": 1778111417,
+      "not_after": 1785890884,
+      "fingerprint": "55:DE:43:7B:07:B6:5E:7A:4B:E5:10:60:0D:D3:57:C2:B6:49:38:75",
+      "sha1": "55:DE:43:7B:07:B6:5E:7A:4B:E5:10:60:0D:D3:57:C2:B6:49:38:75",
+      "sha256": "5A:CC:A5:51:1D:F7:34:56:F9:2B:03:55:93:80:3E:F0:A0:70:FB:D5:12:FA:7C:2E:C1:62:12:4D:B9:D1:EF:A0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "boil-cpf.pages.dev",
+        "*.boil-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/nM4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:boil-cpf.pages.dev, DNS:*.boil-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:21:34:34:b5:b1:a4:22:67:22:b2:b5:22:65:9d:53:22:8c:00:3b:34",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 633801470,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=633801470&end=633801470",
+    "seen": 1778115134.254,
+    "submission_timestamp": 1778115018.09,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

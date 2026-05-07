@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao.westbrindes.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/06/26 21:12:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.westbrindes.com.br",
+        "aggregated": "/CN=cartao.westbrindes.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06BA1116CE7B6937238DBA0BB6FEA197A7A4",
+      "not_before": 1777841601,
+      "not_after": 1785617600,
+      "fingerprint": "41:C6:5C:B9:AE:D0:2C:08:DD:C6:48:DA:11:1C:EF:1B:1E:32:20:06",
+      "sha1": "41:C6:5C:B9:AE:D0:2C:08:DD:C6:48:DA:11:1C:EF:1B:1E:32:20:06",
+      "sha256": "2D:B9:A1:36:97:1D:1F:C9:76:15:1D:DD:11:46:F6:29:86:8B:A6:DA:86:4C:87:9D:29:CD:65:0A:AC:84:1E:41",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.westbrindes.com.br",
+        "www.cartao.westbrindes.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.westbrindes.com.br, DNS:www.cartao.westbrindes.com.br",
+        "subjectKeyIdentifier": "keyid:dc:c2:05:03:4a:d8:d1:11:fd:4f:2c:58:9b:15:3e:f7:23:4d:e4:de"
+      }
+    },
+    "cert_index": 821198018,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=821198018&end=821198018",
+    "seen": 1778112720.433,
+    "submission_timestamp": 1777845113.472,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
