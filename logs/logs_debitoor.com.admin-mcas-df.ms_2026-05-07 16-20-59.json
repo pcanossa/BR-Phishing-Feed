@@ -1,0 +1,59 @@
+{
+  "dominio": "debitoor.com.admin-mcas-df.ms",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 16:20:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.debitoor.com.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.debitoor.com.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 10",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 10/O=Microsoft Corporation"
+      },
+      "serial_number": "4900223B2F59CA8AED4E8A6BEB000000223B2F",
+      "not_before": 1777993080,
+      "not_after": 1793545080,
+      "fingerprint": "79:53:43:77:AC:85:D3:5E:17:7C:44:00:A7:FE:94:62:B3:F3:5D:5E",
+      "sha1": "79:53:43:77:AC:85:D3:5E:17:7C:44:00:A7:FE:94:62:B3:F3:5D:5E",
+      "sha256": "90:82:25:54:80:AE:0F:27:DF:E2:01:EF:AA:1F:1A:E4:27:8A:3E:AF:20:30:C9:4E:53:13:24:59:36:0A:25:29",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitoor.com.mcas.ms",
+        "*.debitoor.com.admin-mcas.ms",
+        "*.debitoor.com.mcas-df.ms",
+        "*.debitoor.com.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:d0:4c:83:d1:8e:71:2e:3d:34:b1:ff:9b:79:2c:8e:74:d4:e2:78:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitoor.com.mcas.ms, DNS:*.debitoor.com.admin-mcas.ms, DNS:*.debitoor.com.mcas-df.ms, DNS:*.debitoor.com.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:fa:cf:51:8e:4d:91:04:e8:d5:af:42:4a:76:bf:87:d2:75:e4:df:7b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 594696180,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=594696180&end=594696180",
+    "seen": 1778181658.752,
+    "submission_timestamp": 1777993685.798,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

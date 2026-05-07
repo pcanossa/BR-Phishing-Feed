@@ -1,0 +1,52 @@
+{
+  "dominio": "regularize-receita-federal.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/07/26 16:16:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "regularize-receita-federal.app",
+        "aggregated": "/CN=regularize-receita-federal.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "065AC37DFA2E5766FC9D7F1776C0DE6EABA0",
+      "not_before": 1778163474,
+      "not_after": 1785939473,
+      "fingerprint": "E9:F5:83:8B:26:6D:38:B3:5D:DE:BF:2F:0F:6A:7A:7F:88:06:C4:94",
+      "sha1": "E9:F5:83:8B:26:6D:38:B3:5D:DE:BF:2F:0F:6A:7A:7F:88:06:C4:94",
+      "sha256": "5B:07:47:FB:8D:3C:3E:23:3B:E4:17:93:EC:AA:4C:6B:F0:9C:21:E4:D5:AA:FB:DE:7B:8A:26:A0:3A:7F:0E:86",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "regularize-receita-federal.app",
+        "*.regularize-receita-federal.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.regularize-receita-federal.app, DNS:regularize-receita-federal.app",
+        "subjectKeyIdentifier": "keyid:87:e2:06:b4:09:e2:06:1d:04:78:b1:03:0e:7f:40:13:8b:04:0c:b4"
+      }
+    },
+    "cert_index": 4114869914,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4114869914&end=4114869914",
+    "seen": 1778181404.724,
+    "submission_timestamp": 1778166986.684,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

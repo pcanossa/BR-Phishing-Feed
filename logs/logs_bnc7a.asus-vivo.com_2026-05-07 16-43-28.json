@@ -1,0 +1,52 @@
+{
+  "dominio": "bnc7a.asus-vivo.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/07/26 16:43:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bnc7a.asus-vivo.com",
+        "aggregated": "/CN=bnc7a.asus-vivo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "056EE95B44C930E1A7DA00C3F4005929D556",
+      "not_before": 1778165149,
+      "not_after": 1785941148,
+      "fingerprint": "F8:54:DD:75:90:91:85:6C:17:C0:31:FD:41:97:EE:23:65:C3:F7:A1",
+      "sha1": "F8:54:DD:75:90:91:85:6C:17:C0:31:FD:41:97:EE:23:65:C3:F7:A1",
+      "sha256": "E9:D6:DA:8C:1E:BE:46:D2:61:EF:27:71:1B:E3:46:4B:2B:D3:E5:AA:BD:B8:36:CF:91:FC:19:31:19:F2:92:10",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bnc7a.asus-vivo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:bnc7a.asus-vivo.com",
+        "subjectKeyIdentifier": "keyid:1b:46:4b:0f:99:61:ee:c9:cd:63:54:5f:61:ba:5c:1c:59:3a:17:01",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4115220283,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4115220283&end=4115220283",
+    "seen": 1778183008.591,
+    "submission_timestamp": 1778168659.399,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
