@@ -1,0 +1,52 @@
+{
+  "dominio": "caixasbonus.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/07/26 03:20:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixasbonus.com",
+        "aggregated": "/CN=caixasbonus.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "053F0D751D766B7814C4AEA2D132B5E65366",
+      "not_before": 1778123258,
+      "not_after": 1785899257,
+      "fingerprint": "44:E0:1F:7E:61:37:48:AF:E4:59:F8:EC:B0:C2:41:46:1A:8C:24:B3",
+      "sha1": "44:E0:1F:7E:61:37:48:AF:E4:59:F8:EC:B0:C2:41:46:1A:8C:24:B3",
+      "sha256": "1A:C4:95:84:7C:27:90:6A:9B:C8:06:47:25:A2:C9:4B:9F:29:AB:DF:85:68:22:2B:E0:75:B7:2C:E1:E6:7B:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "caixasbonus.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:caixasbonus.com",
+        "subjectKeyIdentifier": "keyid:ee:29:c9:cd:f6:97:d0:de:b8:9a:c3:9f:58:da:c0:de:60:30:dc:62",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4106701402,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4106701402&end=4106701402",
+    "seen": 1778134798.022,
+    "submission_timestamp": 1778126768.973,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

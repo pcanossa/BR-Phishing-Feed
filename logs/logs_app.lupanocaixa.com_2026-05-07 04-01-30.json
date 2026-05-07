@@ -1,0 +1,52 @@
+{
+  "dominio": "app.lupanocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/07/26 04:01:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.lupanocaixa.com",
+        "aggregated": "/CN=app.lupanocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05A9457AA5ABBA9EC4439E131BAC5EE5F6EB",
+      "not_before": 1778125663,
+      "not_after": 1785901662,
+      "fingerprint": "76:95:BE:FD:39:81:D3:08:31:69:02:D1:A0:B8:E7:FC:1E:1D:93:32",
+      "sha1": "76:95:BE:FD:39:81:D3:08:31:69:02:D1:A0:B8:E7:FC:1E:1D:93:32",
+      "sha256": "FB:E6:54:E7:6A:32:EA:1A:F2:B6:7B:1D:E4:2E:D6:A6:8B:E1:54:43:B3:DA:80:A7:76:B1:88:31:C7:5F:E1:A4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.lupanocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.lupanocaixa.com",
+        "subjectKeyIdentifier": "keyid:29:97:be:28:54:ed:b2:91:32:7f:f6:d3:5e:19:8a:97:6a:60:5d:6b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4107266076,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4107266076&end=4107266076",
+    "seen": 1778137287.629,
+    "submission_timestamp": 1778129173.299,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

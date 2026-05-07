@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-freiburg.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 03:55:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-freiburg.com",
+        "aggregated": "/CN=cpf-freiburg.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05BE61463FC383C756B78231BB9123135E73",
+      "not_before": 1777847665,
+      "not_after": 1785623664,
+      "fingerprint": "EF:B8:C8:2B:AC:D0:7B:5C:96:AB:37:EB:80:24:0A:83:73:4E:52:C2",
+      "sha1": "EF:B8:C8:2B:AC:D0:7B:5C:96:AB:37:EB:80:24:0A:83:73:4E:52:C2",
+      "sha256": "D7:28:21:63:27:A5:C3:78:AB:14:C2:DE:7C:5A:7B:54:F0:93:DD:38:2E:A6:2F:73:23:28:3B:18:66:03:3B:F6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-freiburg.com",
+        "*.cpf-freiburg.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-freiburg.com, DNS:cpf-freiburg.com",
+        "subjectKeyIdentifier": "keyid:35:52:15:08:00:59:4b:83:be:b0:8f:0a:c7:25:66:40:31:37:a2:dd"
+      }
+    },
+    "cert_index": 679386193,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=679386193&end=679386193",
+    "seen": 1778136929.836,
+    "submission_timestamp": 1777851177.922,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
