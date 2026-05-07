@@ -1,0 +1,52 @@
+{
+  "dominio": "www.b3-binaceapp.com",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/07/26 07:13:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "b3-binaceapp.com",
+        "aggregated": "/CN=b3-binaceapp.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "584016F6975F89BB98A2E34B13F582F5",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "B8:3C:74:8C:61:FA:92:14:EC:F6:A8:0F:F2:8B:5E:53:37:5A:DE:CF",
+      "sha1": "B8:3C:74:8C:61:FA:92:14:EC:F6:A8:0F:F2:8B:5E:53:37:5A:DE:CF",
+      "sha256": "41:AF:49:C2:6B:A0:C0:D9:05:FA:03:5A:DB:58:84:92:CA:CC:92:53:28:66:2F:17:55:A1:11:E6:75:F3:1B:65",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "b3-binaceapp.com",
+        "www.b3-binaceapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:b3-binaceapp.com, DNS:www.b3-binaceapp.com",
+        "subjectKeyIdentifier": "keyid:ee:02:f7:1a:0f:e3:0c:9b:3e:fc:e0:b4:29:bc:41:e3:0b:a1:dd:a2"
+      }
+    },
+    "cert_index": 4109800703,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4109800703&end=4109800703",
+    "seen": 1778148777.392,
+    "submission_timestamp": 1778139771.675,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

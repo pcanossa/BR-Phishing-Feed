@@ -1,0 +1,52 @@
+{
+  "dominio": "login.yellow-stone.com",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/07/26 07:29:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.yellow-stone.com",
+        "aggregated": "/CN=login.yellow-stone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E095C56938E0C9F5944F999A1BD3964",
+      "not_before": 1778112000,
+      "not_after": 1785887999,
+      "fingerprint": "F8:2A:DB:A0:0A:AD:98:4F:BA:D4:B9:A5:13:0F:85:4B:2A:59:E6:56",
+      "sha1": "F8:2A:DB:A0:0A:AD:98:4F:BA:D4:B9:A5:13:0F:85:4B:2A:59:E6:56",
+      "sha256": "C9:15:72:0F:0F:10:A4:E3:32:8A:B5:13:D5:A3:C0:38:8B:F8:FB:72:F4:47:92:56:59:B5:AB:53:09:74:0E:44",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.yellow-stone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.yellow-stone.com",
+        "subjectKeyIdentifier": "keyid:89:18:78:d2:d4:47:f2:ec:e7:78:6a:74:cc:39:2a:85:8d:a2:cd:d5"
+      }
+    },
+    "cert_index": 174455889,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x681/468",
+    "seen": 1778149761.013,
+    "submission_timestamp": 1778149757.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

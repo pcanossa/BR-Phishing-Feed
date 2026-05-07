@@ -1,0 +1,53 @@
+{
+  "dominio": "www.b3-binaceapps.com",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/07/26 07:15:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "b3-binaceapps.com",
+        "aggregated": "/CN=b3-binaceapps.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3E7AE57418D96C6E8F6BF24EB441A919",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "C3:19:A2:DD:D7:9F:2C:48:41:EE:2C:28:35:57:DA:86:43:73:7F:01",
+      "sha1": "C3:19:A2:DD:D7:9F:2C:48:41:EE:2C:28:35:57:DA:86:43:73:7F:01",
+      "sha256": "00:5E:A6:1D:BB:F2:27:0C:87:C8:4C:08:EE:B1:03:97:65:39:CD:21:37:43:0C:8F:E6:7B:DC:E4:CE:50:FA:23",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "b3-binaceapps.com",
+        "www.b3-binaceapps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:b3-binaceapps.com, DNS:www.b3-binaceapps.com",
+        "subjectKeyIdentifier": "keyid:92:a2:66:bb:32:4f:05:a0:bf:3f:04:43:73:b2:8c:96:3f:b1:46:43",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4109831202,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4109831202&end=4109831202",
+    "seen": 1778148921.962,
+    "submission_timestamp": 1778139930.211,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

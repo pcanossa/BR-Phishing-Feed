@@ -1,0 +1,12 @@
+{
+    "dominio": "scram.rmcanarycpf0143d290.tc0l17.c1.kafka.eu-central-2.amazonaws.com",
+    "data_registro": "05/07/26 08:00:49",
+    "categoria_ameaca": "c2",
+    "caracteristicas_suspeitas": [
+        "Subdomínio contém a sequência 'cpf', referência a documento de identificação brasileiro, indicando foco em vítimas do Brasil",
+        "Uso de serviços da AWS (amazonaws.com) com nomes de subdomínios não oficiais (eu-central-2, que não é uma região AWS válida), sugestivo de configuração maliciosa ou abuso de infraestrutura legítima",
+        "Presença da palavra 'scram' e 'kafka', indicando uso de protocolos de mensageria possivelmente empregados para comunicação C2",
+        "Domínio não aparece em listas de domínios legítimos conhecidos e não está associado a nenhum serviço público brasileiro"
+    ],
+    "analise_comportamental": "O domínio apresenta indícios de ser usado como infraestrutura de comando e controle direcionada a alvos brasileiros, combinando referência ao CPF com serviços de mensageria da AWS. A escolha de uma região inexistente e a ausência de registro em bases de dados confiáveis reforçam a suspeita de atividade maliciosa."
+}

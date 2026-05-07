@@ -1,0 +1,51 @@
+{
+  "dominio": "pagamento.petcaixas.com.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/07/26 07:22:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamento.petcaixas.com.br",
+        "aggregated": "/CN=pagamento.petcaixas.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "4D2C4803B065466813C2A9BA075793F8",
+      "not_before": 1778136303,
+      "not_after": 1785915824,
+      "fingerprint": "B0:BF:01:7C:D0:D8:85:37:23:F4:E1:1F:7E:94:47:58:23:32:C3:6F",
+      "sha1": "B0:BF:01:7C:D0:D8:85:37:23:F4:E1:1F:7E:94:47:58:23:32:C3:6F",
+      "sha256": "55:6D:62:DB:28:55:3D:5F:5E:DC:16:C1:3F:AD:21:68:E7:BD:C1:1A:B6:15:46:15:F2:A8:B9:2A:D9:2C:81:3F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagamento.petcaixas.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/TSw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento.petcaixas.com.br",
+        "subjectKeyIdentifier": "keyid:b9:c5:f6:e5:83:fd:d5:e1:24:a0:0f:ca:34:6e:51:b3:ea:84:58:06"
+      }
+    },
+    "cert_index": 4109921965,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4109921965&end=4109921965",
+    "seen": 1778149346.807,
+    "submission_timestamp": 1778140335.749,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

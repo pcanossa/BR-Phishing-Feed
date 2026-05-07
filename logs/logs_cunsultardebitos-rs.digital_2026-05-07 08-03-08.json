@@ -1,0 +1,53 @@
+{
+  "dominio": "cunsultardebitos-rs.digital",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 08:03:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cunsultardebitos-rs.digital",
+        "aggregated": "/CN=cunsultardebitos-rs.digital"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "66A664CA68A881F06BBA5E03859E9C52",
+      "not_before": 1778112000,
+      "not_after": 1785927511,
+      "fingerprint": "AB:E8:A1:E6:FC:04:9C:77:4C:7C:79:36:50:90:FF:C9:0B:B0:8D:A4",
+      "sha1": "AB:E8:A1:E6:FC:04:9C:77:4C:7C:79:36:50:90:FF:C9:0B:B0:8D:A4",
+      "sha256": "DF:7E:58:C5:8B:9B:3E:72:50:7F:A4:8D:DE:29:01:B0:E1:78:B9:04:CB:42:4B:D0:55:35:02:A1:D8:E2:72:D8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cunsultardebitos-rs.digital",
+        "*.cunsultardebitos-rs.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cunsultardebitos-rs.digital, DNS:*.cunsultardebitos-rs.digital",
+        "subjectKeyIdentifier": "keyid:ff:1b:f0:b3:34:8f:e9:aa:38:38:9f:98:b1:96:d4:ba:bc:48:d2:e9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 640553525,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=640553525&end=640553525",
+    "seen": 1778151789.558,
+    "submission_timestamp": 1778151655.639,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

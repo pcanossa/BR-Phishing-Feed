@@ -1,0 +1,52 @@
+{
+  "dominio": "studio--caixaflux.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/07/26 07:28:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--caixaflux.us-central1.hosted.app",
+        "aggregated": "/CN=studio--caixaflux.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "D52E4D23B4965F5C105BCDAF0751D27C",
+      "not_before": 1778136540,
+      "not_after": 1785915895,
+      "fingerprint": "FB:92:F7:C0:F0:40:6F:BD:5D:60:79:5C:97:2F:18:B4:F9:EC:97:D8",
+      "sha1": "FB:92:F7:C0:F0:40:6F:BD:5D:60:79:5C:97:2F:18:B4:F9:EC:97:D8",
+      "sha256": "07:2E:D1:21:1B:8B:27:F0:70:8B:D5:EF:1B:10:22:DE:C4:54:1A:32:03:6D:FB:27:89:F5:9E:52:F4:C5:FD:63",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--caixaflux.us-central1.hosted.app",
+        "*.studio--caixaflux.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/1S4, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--caixaflux.us-central1.hosted.app, DNS:*.studio--caixaflux.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:0d:54:09:40:84:12:60:05:e2:2d:2f:a7:24:00:f9:9e:b5:eb:9b:bd"
+      }
+    },
+    "cert_index": 4110000699,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4110000699&end=4110000699",
+    "seen": 1778149711.196,
+    "submission_timestamp": 1778140704.474,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

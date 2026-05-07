@@ -1,0 +1,13 @@
+{
+    "dominio": "scram.rmcanarycpf1.viw6h8.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+    "data_registro": "05/07/26 08:02:58",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Subdomínio inclui a sigla 'CPF', que é a identificação fiscal brasileira, indicando possível foco em vítimas do Brasil",
+        "Uso de infraestrutura da AWS GovCloud (us-gov-west-1), comum em campanhas que buscam anonimato e alta disponibilidade para C2",
+        "Estrutura do subdomínio contém termos como 'c2' e 'kafka-gamma', sugestivos de uso de serviços de mensageria (Kafka) como canal de comando e controle",
+        "Domínio não aparece em listas de domínios legítimos ou conhecidos de serviços oficiais da AWS",
+        "Formato incomum e gerado dinamicamente (scram, viw6h8), típico de domínios criados para fins maliciosos"
+    ],
+    "analise_comportamental": "O domínio 'scram.rmcanarycpf1.viw6h8.c2.kafka-gamma.us-gov-west-1.amazonaws.com' apresenta várias indicações de uso malicioso, como a presença de 'CPF' que aponta para alvos brasileiros, a menção explícita a 'c2' e a utilização de Kafka na infraestrutura AWS GovCloud, sugerindo um canal de comando e controle. O padrão de nomenclatura e a ausência em listas de domínios confiáveis reforçam a suspeita de atividade de C2 direcionada a vítimas do Brasil."
+}

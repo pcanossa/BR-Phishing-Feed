@@ -1,0 +1,13 @@
+{
+    "dominio": "santander-login-pl.pages.dev",
+    "data_registro": "05/07/26 07:30:23",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso da marca 'santander', instituição financeira brasileira, que é comumente utilizada em campanhas de phishing para enganar clientes",
+        "Inclusão do termo 'login' no subdomínio, indicando tentativa de induzir o usuário a inserir credenciais",
+        "Domínio hospedado em 'pages.dev', serviço gratuito da Cloudflare que facilita a criação de sites temporários e costuma ser abusado por atores maliciosos",
+        "Estrutura de subdomínio ('santander-login-pl') fora do padrão oficial de URLs da Santander, indicando tentativa de imitar páginas legítimas",
+        "Domínio não presente em listas de domínios legítimos ou whitelist de serviços oficiais da Santander"
+    ],
+    "analise_comportamental": "O subdomínio 'santander-login-pl.pages.dev' apresenta indicadores típicos de phishing voltado ao público brasileiro, combinando a marca de um banco nacional com termos de engenharia social ('login') e hospedagem em plataforma gratuita que permite rápido deploy de páginas fraudulentas. Esses elementos sugerem a intenção de capturar credenciais de usuários da Santander."
+}
