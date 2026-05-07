@@ -1,0 +1,13 @@
+{
+    "dominio": "hivemq.prod01.cpf.ssnsgs.net",
+    "data_registro": "05/06/26 23:06:32",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Subdomínio contém o termo 'cpf', que é fortemente associado a usuários do Brasil e pode ser usado para atrair vítimas brasileiras",
+        "Uso da palavra 'hivemq', indicando um broker MQTT, frequentemente utilizado por campanhas de comando e controle (C2) em malwares modernos",
+        "Domínio de nível superior '.net' e domínio de segundo nível 'ssnsgs.net' não são reconhecidos como infraestrutura legítima de organizações brasileiras",
+        "Estrutura de subdomínio (prod01) pode indicar ambiente de produção usado para hospedar serviço de C2",
+        "Domínio não encontrado em listas públicas de domínios legítimos ou de entidades oficiais brasileiras"
+    ],
+    "analise_comportamental": "O domínio 'hivemq.prod01.cpf.ssnsgs.net' apresenta características típicas de infraestrutura de comando e controle voltada ao Brasil, combinando um broker MQTT (HiveMQ) com a referência ao CPF, potencialmente usado para receber instruções de malware que visa vítimas brasileiras."
+}

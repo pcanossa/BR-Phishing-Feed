@@ -1,0 +1,53 @@
+{
+  "dominio": "receitafederal-verificacao.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/06/26 23:14:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederal-verificacao.com",
+        "aggregated": "/CN=receitafederal-verificacao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D7C80CDF083080C9135C747D54DF0B40",
+      "not_before": 1778108524,
+      "not_after": 1785888045,
+      "fingerprint": "5E:F4:39:FC:7E:F0:59:9C:26:20:02:02:60:3E:C7:A4:12:7A:55:2C",
+      "sha1": "5E:F4:39:FC:7E:F0:59:9C:26:20:02:02:60:3E:C7:A4:12:7A:55:2C",
+      "sha256": "7C:1C:CF:62:DA:DB:6C:B6:92:10:F9:A5:8D:31:50:16:8F:AC:33:F1:C0:9E:D9:47:23:A4:05:A7:4C:D0:60:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederal-verificacao.com",
+        "*.receitafederal-verificacao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/18g, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitafederal-verificacao.com, DNS:*.receitafederal-verificacao.com",
+        "subjectKeyIdentifier": "keyid:4a:6e:5c:59:b8:50:f8:ce:fe:91:fd:68:14:8b:a8:84:76:d7:4b:db",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4103210541,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4103210541&end=4103210541",
+    "seen": 1778120048.663,
+    "submission_timestamp": 1778112124.783,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

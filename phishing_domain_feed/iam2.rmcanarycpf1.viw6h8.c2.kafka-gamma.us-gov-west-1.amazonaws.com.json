@@ -1,0 +1,13 @@
+{
+    "dominio": "iam2.rmcanarycpf1.viw6h8.c2.kafka-gamma.us-gov-west-1.amazonaws.com",
+    "data_registro": "07/05/26 14:32:00",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Domínio utiliza a infraestrutura da AWS GovCloud (us-gov-west-1), frequentemente usada por atores maliciosos para C2 devido à reputação da rede",
+        "Subdomínio contém o termo 'c2', indicando possível uso como servidor de comando e controle",
+        "Presença da sigla 'cpf' no subdomínio sugere foco em vítimas brasileiras, já que CPF é documento nacional de identificação",
+        "Estrutura de subdomínios aleatórios (rmcanarycpf1, viw6h8) típica de técnicas de evasão e geração automática de nomes",
+        "Domínio não está presente em listas de domínios legítimos ou de serviços públicos brasileiros"
+    ],
+    "analise_comportamental": "O domínio apresenta múltiplas indicações de ser um ponto de comando e controle direcionado a alvos no Brasil, combinando a presença de 'c2' e 'cpf' com a utilização de infraestrutura de nuvem confiável, sugerindo campanha de phishing ou malware que coleta dados de CPF."
+}
