@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.detrannet.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/07/26 05:16:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.detrannet.com",
+        "aggregated": "/CN=apps.detrannet.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "7C3F417AA3C237FD643A65CB288824C1",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "94:E0:B7:87:93:12:54:58:1B:F8:4F:09:CC:2D:07:3A:2E:F2:B8:16",
+      "sha1": "94:E0:B7:87:93:12:54:58:1B:F8:4F:09:CC:2D:07:3A:2E:F2:B8:16",
+      "sha256": "4A:33:E4:3B:B5:77:42:3D:7E:16:9E:E3:42:C4:E5:AA:F0:6B:04:F7:9B:C8:96:92:22:2F:E4:12:E8:EB:EE:90",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.detrannet.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.detrannet.com",
+        "subjectKeyIdentifier": "keyid:d1:86:87:b0:59:91:48:e5:cf:06:17:80:aa:c3:2d:41:b8:63:4d:a5"
+      }
+    },
+    "cert_index": 4108286541,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4108286541&end=4108286541",
+    "seen": 1778141786.821,
+    "submission_timestamp": 1778133581.092,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

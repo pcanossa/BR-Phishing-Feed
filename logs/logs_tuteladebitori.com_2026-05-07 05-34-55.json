@@ -1,0 +1,52 @@
+{
+  "dominio": "tuteladebitori.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 05:34:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tuteladebitori.com",
+        "aggregated": "/CN=tuteladebitori.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "061B6EF00241C748AC9D4AD88601EA05B9AE",
+      "not_before": 1777240249,
+      "not_after": 1785016248,
+      "fingerprint": "5F:17:00:30:B0:B1:51:91:F0:E4:27:A1:05:5E:EA:5A:19:29:6F:9E",
+      "sha1": "5F:17:00:30:B0:B1:51:91:F0:E4:27:A1:05:5E:EA:5A:19:29:6F:9E",
+      "sha256": "A3:03:4B:CA:75:D1:E7:B5:12:88:90:16:02:72:ED:E1:1D:00:12:F3:BD:7D:F7:2D:4E:87:83:FC:E0:EA:B5:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tuteladebitori.com",
+        "www.tuteladebitori.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tuteladebitori.com, DNS:www.tuteladebitori.com",
+        "subjectKeyIdentifier": "keyid:ab:71:23:47:67:01:55:06:f7:04:3a:46:78:8e:b1:92:28:c5:95:ea"
+      }
+    },
+    "cert_index": 4108533041,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4108533041&end=4108533041",
+    "seen": 1778142891.351,
+    "submission_timestamp": 1778134459.065,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

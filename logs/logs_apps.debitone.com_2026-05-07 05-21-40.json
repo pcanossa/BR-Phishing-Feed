@@ -1,0 +1,53 @@
+{
+  "dominio": "apps.debitone.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 05:21:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.debitone.com",
+        "aggregated": "/CN=apps.debitone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0FEF9648331384DA731C8DE5B1F5874B",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "AB:6A:68:38:CB:81:96:2F:94:A4:6A:EC:DE:CE:18:F0:C0:5A:3B:68",
+      "sha1": "AB:6A:68:38:CB:81:96:2F:94:A4:6A:EC:DE:CE:18:F0:C0:5A:3B:68",
+      "sha256": "F3:07:0C:6A:D4:E1:FA:7A:51:3F:91:86:2A:79:A7:9B:45:B9:87:12:75:63:66:16:87:C6:1A:F9:B6:67:4B:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apps.debitone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.debitone.com",
+        "subjectKeyIdentifier": "keyid:1b:d3:5f:63:dc:a5:49:07:37:8c:48:e7:a9:99:a1:35:92:57:4e:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 569523013,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=569523013&end=569523013",
+    "seen": 1778142096.831,
+    "submission_timestamp": 1778009859.736,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
