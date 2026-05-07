@@ -1,0 +1,52 @@
+{
+  "dominio": "duthy.cartao-digital.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/07/26 13:33:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.duthy.cartao-digital.com",
+        "aggregated": "/CN=www.duthy.cartao-digital.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06E23A8B28C179FB4B01EC33E4BC56A7EEAF",
+      "not_before": 1778152365,
+      "not_after": 1785928364,
+      "fingerprint": "71:0B:AA:59:87:9D:5C:4E:9E:1E:47:0A:FA:4B:83:BF:C2:A2:91:EB",
+      "sha1": "71:0B:AA:59:87:9D:5C:4E:9E:1E:47:0A:FA:4B:83:BF:C2:A2:91:EB",
+      "sha256": "95:0E:D1:BD:12:39:37:49:DC:5D:EB:41:4A:CF:AF:33:AE:BE:1A:08:48:31:3D:B7:D4:D4:7F:13:E1:4D:47:CE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.duthy.cartao-digital.com",
+        "duthy.cartao-digital.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:duthy.cartao-digital.com, DNS:www.duthy.cartao-digital.com",
+        "subjectKeyIdentifier": "keyid:c2:4e:62:c5:a5:4d:20:eb:60:8d:cf:87:aa:89:6b:fe:c0:c7:5f:c9"
+      }
+    },
+    "cert_index": 4112945486,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4112945486&end=4112945486",
+    "seen": 1778171628.021,
+    "submission_timestamp": 1778155878.638,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

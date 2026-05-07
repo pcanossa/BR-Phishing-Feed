@@ -1,0 +1,53 @@
+{
+  "dominio": "tim.letaido.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/07/26 13:26:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.tim.letaido.app",
+        "aggregated": "/CN=*.tim.letaido.app"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "29D3350B3C26875438CE5705D1F07663",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "F4:4B:CD:63:28:FD:84:63:B7:FD:C7:25:80:F7:AF:4C:BA:5F:97:D7",
+      "sha1": "F4:4B:CD:63:28:FD:84:63:B7:FD:C7:25:80:F7:AF:4C:BA:5F:97:D7",
+      "sha256": "D1:3A:FB:8E:2A:0B:E1:E5:4A:DC:9A:ED:C9:CF:88:5C:A2:BF:50:64:50:8F:52:C3:29:08:4F:1F:6B:DD:DE:C6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.tim.letaido.app",
+        "tim.letaido.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.tim.letaido.app, DNS:tim.letaido.app",
+        "subjectKeyIdentifier": "keyid:db:ab:69:35:3d:7a:23:32:93:d5:82:4f:61:39:31:57:bf:5c:d6:d2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 643512916,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=643512916&end=643512916",
+    "seen": 1778171205.697,
+    "submission_timestamp": 1778167755.688,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

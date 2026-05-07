@@ -1,0 +1,12 @@
+{
+    "dominio": "tls2.rmcanarycpf694d33e1023.npo5kd.c1.kafka.eu-west-2.amazonaws.com",
+    "data_registro": "N/A",
+    "categoria_ameaca": "c2",
+    "caracteristicas_suspeitas": [
+        "Domínio é um subdomínio de serviço gerenciado da AWS (Kafka), com nome aleatório que inclui a palavra 'cpf', número de identificação brasileiro, indicando possível foco no Brasil",
+        "O endpoint está localizado na região eu-west-2 (Europa), prática comum de atores maliciosos que utilizam infraestrutura em nuvem fora da região alvo para dificultar a atribuição",
+        "Nome do cluster contém sequências aparentemente geradas automaticamente ('rmcanarycpf694d33e1023', 'npo5kd'), característica de infraestruturas criadas para atividades automatizadas ou de C2",
+        "Não há registros deste subdomínio em listas públicas de serviços legítimos ou em bases de dados de domínio conhecidos como benignos"
+    ],
+    "analise_comportamental": "O subdomínio aponta para um endpoint de Apache Kafka hospedado na AWS, que pode ser utilizado por agentes maliciosos para comunicação C2, especialmente dado o indício de foco brasileiro pelo uso de 'cpf' no nome. A combinação de estrutura de nome suspeita, uso de nuvem estrangeira e ausência de presença em listas de confiança sugere que o domínio pode estar sendo usado como um canal de comando e controle direcionado a vítimas no Brasil."
+}

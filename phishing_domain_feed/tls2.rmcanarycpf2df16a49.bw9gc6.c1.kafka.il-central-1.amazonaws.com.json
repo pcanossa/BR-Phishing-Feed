@@ -1,0 +1,12 @@
+{
+    "dominio": "tls2.rmcanarycpf2df16a49.bw9gc6.c1.kafka.il-central-1.amazonaws.com",
+    "data_registro": "07/05/26 12:00:00",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Subdomínio hospedado em amazonaws.com, plataforma frequentemente usada para infraestrutura de comando e controle em campanhas maliciosas",
+        "Inclui o termo 'cpf', que remete ao cadastro de pessoas físicas brasileiro, sugerindo foco em vítimas do Brasil",
+        "Nome complexo e gerado aleatoriamente (rmcanarycpf2df16a49), típico de domínios criados programaticamente para evitar detecção",
+        "Não consta em listas públicas de domínios legítimos ou de serviços conhecidos da AWS"
+    ],
+    "analise_comportamental": "O subdomínio apresenta indícios de ser utilizado como ponto de comando e controle para malware direcionado ao Brasil, usando infraestrutura de nuvem da AWS para esconder sua origem e aproveitando termos relacionados a CPF para atrair ou validar alvos brasileiros."
+}
