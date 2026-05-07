@@ -1,0 +1,53 @@
+{
+  "dominio": "app.receitafacil.med.br",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/07/26 10:12:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafacil.med.br",
+        "aggregated": "/CN=receitafacil.med.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06244C9880C3ACB175A4AF2C3EF5D6796724",
+      "not_before": 1778147324,
+      "not_after": 1785923323,
+      "fingerprint": "8C:79:FC:06:82:4B:93:C2:FF:BB:5C:F9:15:CB:B7:D0:92:ED:40:F6",
+      "sha1": "8C:79:FC:06:82:4B:93:C2:FF:BB:5C:F9:15:CB:B7:D0:92:ED:40:F6",
+      "sha256": "96:8F:40:A1:B4:FF:63:0A:EE:8D:25:B1:28:CA:F4:EE:45:4B:42:6B:16:24:6E:5A:19:AF:21:9F:9F:40:1B:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "receitafacil.med.br",
+        "app.receitafacil.med.br",
+        "www.receitafacil.med.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.receitafacil.med.br, DNS:receitafacil.med.br, DNS:www.receitafacil.med.br",
+        "subjectKeyIdentifier": "keyid:ea:a5:50:73:5d:f7:a5:b3:1b:a7:8f:f0:1f:fe:4a:aa:57:09:0d:66"
+      }
+    },
+    "cert_index": 4112110151,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4112110151&end=4112110151",
+    "seen": 1778159517.735,
+    "submission_timestamp": 1778150836.941,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

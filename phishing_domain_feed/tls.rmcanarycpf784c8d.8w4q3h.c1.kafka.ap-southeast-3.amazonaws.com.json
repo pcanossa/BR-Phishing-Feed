@@ -1,0 +1,13 @@
+{
+    "dominio": "tls.rmcanarycpf784c8d.8w4q3h.c1.kafka.ap-southeast-3.amazonaws.com",
+    "data_registro": "07/05/26 10:00:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém o termo 'cpf', que é um identificador brasileiro, indicando foco em vítimas do Brasil",
+        "Uso de subdomínios longos e aleatórios (rmcanarycpf784c8d, 8w4q3h) típicos de técnicas de ofuscação para C2 ou phishing",
+        "Hospedado em um serviço de nuvem (amazonaws.com) frequentemente utilizado por ameaças para mascarar infraestrutura",
+        "Domínio recém‑registrado e não aparece em listas de domínios legítimos ou de reputação conhecida",
+        "Estrutura de subdomínio inclui 'kafka', serviço de mensagens, que pode ser usado para comunicação de comando e controle"
+    ],
+    "analise_comportamental": "O domínio 'tls.rmcanarycpf784c8d.8w4q3h.c1.kafka.ap-southeast-3.amazonaws.com' apresenta indicadores típicos de infraestrutura maliciosa direcionada ao Brasil, como a presença do termo 'cpf' e subdomínios gerados de forma aleatória em um provedor de nuvem. Esses sinais sugerem uso para phishing ou como canal de comando e controle contra usuários brasileiros."
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app.banco-bb.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/07/26 10:57:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.banco-bb.com",
+        "aggregated": "/CN=app.banco-bb.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "82D27C0C2C51DD3BEE2E77CBA43549DD",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "90:4C:C7:6F:53:37:94:30:6D:CC:DF:26:0A:34:8D:5B:96:F5:B4:4E",
+      "sha1": "90:4C:C7:6F:53:37:94:30:6D:CC:DF:26:0A:34:8D:5B:96:F5:B4:4E",
+      "sha256": "97:52:C9:43:D0:1F:C6:F0:FD:4B:F8:4B:13:C5:0D:00:30:AD:56:F3:CB:2D:B9:5A:39:6B:C7:90:6E:7F:D2:B0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.banco-bb.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.banco-bb.com",
+        "subjectKeyIdentifier": "keyid:68:ec:18:cb:ab:ad:99:c2:06:37:9b:07:9e:b4:88:2c:8e:04:18:f9"
+      }
+    },
+    "cert_index": 4112684790,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4112684790&end=4112684790",
+    "seen": 1778162270.317,
+    "submission_timestamp": 1778154299.467,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

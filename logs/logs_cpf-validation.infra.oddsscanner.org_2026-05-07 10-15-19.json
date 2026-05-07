@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-validation.infra.oddsscanner.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 10:15:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "os-cpf-validation.os-services.xyz",
+        "aggregated": "/CN=os-cpf-validation.os-services.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05C1DCC4D6C76699C8E27E646E1DE5449F80",
+      "not_before": 1777835651,
+      "not_after": 1785611650,
+      "fingerprint": "0F:65:E4:CA:2D:3F:31:A1:FE:17:C7:2E:BD:20:38:BA:57:EC:EE:5F",
+      "sha1": "0F:65:E4:CA:2D:3F:31:A1:FE:17:C7:2E:BD:20:38:BA:57:EC:EE:5F",
+      "sha256": "4F:3B:F3:7F:12:07:38:3C:5A:32:D7:28:76:B6:D4:84:28:C2:EB:21:5A:E1:F9:A0:6F:F7:CC:A9:76:94:2C:2E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "os-cpf-validation.os-services.xyz",
+        "cpf-validation.infra.oddsscanner.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-validation.infra.oddsscanner.org, DNS:os-cpf-validation.os-services.xyz",
+        "subjectKeyIdentifier": "keyid:e0:53:19:9a:3c:48:6c:2a:0f:e1:96:79:6f:1c:c7:8a:b9:6b:5b:40"
+      }
+    },
+    "cert_index": 1518930929,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1518930929&end=1518930929",
+    "seen": 1778159720.218,
+    "submission_timestamp": 1777839164.75,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

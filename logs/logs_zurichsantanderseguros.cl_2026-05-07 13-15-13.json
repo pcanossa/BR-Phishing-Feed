@@ -1,0 +1,53 @@
+{
+  "dominio": "zurichsantanderseguros.cl",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/07/26 13:15:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R3 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01DB4FB743E3A8142ACF4EEE49A52A50",
+      "not_before": 1778165271,
+      "not_after": 1778251641,
+      "fingerprint": "CA:83:16:10:DA:77:A7:5E:32:1F:B8:F2:D3:04:0E:9F:F1:0C:62:37",
+      "sha1": "CA:83:16:10:DA:77:A7:5E:32:1F:B8:F2:D3:04:0E:9F:F1:0C:62:37",
+      "sha256": "88:D9:89:1F:EF:56:B6:41:AB:D9:90:5C:25:EC:B0:57:CF:EB:64:B5:52:84:44:52:0B:77:CB:53:88:61:51:A9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.zurichsantanderseguros.cl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:d4:66:0b:9f:02:70:4e:f7:44:08:27:fa:e9:f3:bd:c8:eb:57:71:70",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.zurichsantanderseguros.cl, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:df:ef:53:67:36:00:a6:dd:ea:68:36:72:c2:77:fb:92:c5:2b:c9:0e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2025270771,
+    "cert_link": "https://elephant2026h1.ct.sectigo.com/ct/v1/get-entries?start=2025270771&end=2025270771",
+    "seen": 1778170511.071,
+    "submission_timestamp": 1778165272.938,
+    "source": {
+      "name": "Sectigo 'Elephant2026h1'",
+      "url": "https://elephant2026h1.ct.sectigo.com"
+    }
+  }
+}

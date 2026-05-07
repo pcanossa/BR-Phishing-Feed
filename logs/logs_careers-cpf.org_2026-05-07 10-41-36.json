@@ -1,0 +1,53 @@
+{
+  "dominio": "careers-cpf.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 10:41:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.careers-cpf.org",
+        "aggregated": "/CN=*.careers-cpf.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "062826412A8D83B3D3D36229EC8DAC80A401",
+      "not_before": 1778149508,
+      "not_after": 1785925507,
+      "fingerprint": "13:BE:F4:67:B7:56:C0:70:89:3E:C8:38:5C:6C:E9:E6:CE:F2:86:1D",
+      "sha1": "13:BE:F4:67:B7:56:C0:70:89:3E:C8:38:5C:6C:E9:E6:CE:F2:86:1D",
+      "sha256": "EC:FA:F8:A4:98:54:C7:64:65:99:94:E7:83:C2:D4:90:E2:0C:68:B7:CA:82:D5:B0:96:27:1E:FA:42:68:38:6A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.careers-cpf.org",
+        "careers-cpf.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.careers-cpf.org, DNS:careers-cpf.org",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4112476874,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4112476874&end=4112476874",
+    "seen": 1778161296.64,
+    "submission_timestamp": 1778153018.162,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
