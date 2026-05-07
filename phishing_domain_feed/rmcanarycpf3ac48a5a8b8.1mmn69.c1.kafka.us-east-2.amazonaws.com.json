@@ -1,0 +1,12 @@
+{
+    "dominio": "rmcanarycpf3ac48a5a8b8.1mmn69.c1.kafka.us-east-2.amazonaws.com",
+    "data_registro": "05/07/26 07:00:35",
+    "categoria_ameaca": "c2",
+    "caracteristicas_suspeitas": [
+        "Domínio usa subdomínios longos e aparentemente aleatórios, prática comum em infraestrutura de comando e controle para evitar detecção",
+        "Inclui a sigla 'cpf', que é a abreviação do Cadastro de Pessoas Físicas no Brasil, indicando foco potencial em vítimas brasileiras",
+        "Hospedado em um serviço legítimo da AWS (Amazon MSK/Kafka), frequentemente abusado por atores maliciosos para C2 devido à confiabilidade da infraestrutura",
+        "Não consta em listas públicas de domínios legítimos conhecidos nem em bases de dados de empresas brasileiras, aumentando a suspeita"
+    ],
+    "analise_comportamental": "O domínio 'rmcanarycpf3ac48a5a8b8.1mmn69.c1.kafka.us-east-2.amazonaws.com' possui características típicas de um ponto de comando e controle que explora serviços de nuvem legítimos. O uso da sigla 'cpf' sugere um alvo focado no Brasil, enquanto a estrutura de subdomínios aleatórios indica tentativa de ocultação. Não há evidências de ser usado para phishing web, mas seu perfil se alinha a C2 baseado em infraestrutura de nuvem."
+}

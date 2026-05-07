@@ -1,0 +1,13 @@
+{
+    "dominio": "rmcanarycpf2555e6.q8vbys.c1.kafka.ap-southeast-5.amazonaws.com",
+    "data_registro": "07/05/26 10:12:00",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Subdomínio contém o termo 'cpf', que é a abreviação de Cadastro de Pessoas Físicas, indicando foco em vítimas brasileiras",
+        "Uso de infraestrutura da Amazon AWS (amazonaws.com), frequentemente utilizada por atores maliciosos para hospedagem de servidores C2 devido à confiança da rede",
+        "Padrão de nome aleatório e composto (rmcanarycpf2555e6.q8vbys.c1.kafka), típico de domínios gerados dinamicamente para evitar listas de bloqueio",
+        "Região da AWS especificada como 'ap-southeast-5' (Ásia-Pacífico), sugerindo tentativa de ofuscar a origem real do servidor",
+        "Inclusão da palavra 'canary' no subdomínio, possivelmente indicando uso de mecanismos de detecção ou tokens de vigilância empregados por adversários"
+    ],
+    "analise_comportamental": "O domínio apresenta várias bandeiras de alerta que apontam para sua possível utilização como infraestrutura de comando e controle (C2) voltada a alvos no Brasil. O uso de um termo sensível como 'cpf' no nome sugere que o atacante pretende coletar ou validar informações pessoais brasileiras. A combinação de um subdomínio altamente aleatório, hospedado em um serviço de nuvem confiável e em uma região distante, é típica de campanhas que buscam evitar detecção por filtros baseados em reputação. Assim, classifica‑se como uma ameaça de C2 direcionada a vítimas brasileiras."
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "debiton.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 06:45:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debiton.com",
+        "aggregated": "/CN=debiton.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "07D665775352FC37",
+      "not_before": 1777202475,
+      "not_after": 1794309675,
+      "fingerprint": "69:CB:E2:6E:3A:D5:C0:83:20:8A:43:E1:1A:77:26:84:FE:8A:E8:F1",
+      "sha1": "69:CB:E2:6E:3A:D5:C0:83:20:8A:43:E1:1A:77:26:84:FE:8A:E8:F1",
+      "sha256": "3C:C4:0E:DF:70:B7:DA:E0:D4:AB:D9:0C:E5:EF:B7:A3:6B:BD:63:5B:E3:BA:86:87:A8:84:72:6D:53:DD:F9:D4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debiton.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.godaddy.com/, URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debiton.com",
+        "subjectKeyIdentifier": "keyid:95:f1:be:4a:ee:25:ab:4d:99:5b:19:0b:69:10:40:8b:b7:04:e6:ad"
+      }
+    },
+    "cert_index": 593114299,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=593114299&end=593114299",
+    "seen": 1778147119.138,
+    "submission_timestamp": 1777981086.604,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
