@@ -1,0 +1,52 @@
+{
+  "dominio": "dgs-cartao-ecm.pages.dev",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/07/26 09:45:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dgs-cartao-ecm.pages.dev",
+        "aggregated": "/CN=dgs-cartao-ecm.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0525C079AF67D24758627B6ACCFD503A0797",
+      "not_before": 1777835276,
+      "not_after": 1785611275,
+      "fingerprint": "8B:24:A3:67:19:D6:1E:76:AD:DB:BD:A6:C7:3B:11:3B:12:45:26:FD",
+      "sha1": "8B:24:A3:67:19:D6:1E:76:AD:DB:BD:A6:C7:3B:11:3B:12:45:26:FD",
+      "sha256": "36:40:16:A9:9B:F7:44:AE:21:B7:2D:4C:66:B0:59:20:CD:BF:94:FD:2F:29:32:13:29:33:B6:F0:A4:A2:F2:C8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dgs-cartao-ecm.pages.dev",
+        "*.dgs-cartao-ecm.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.dgs-cartao-ecm.pages.dev, DNS:dgs-cartao-ecm.pages.dev",
+        "subjectKeyIdentifier": "keyid:e7:24:4f:c6:51:21:2b:ab:ac:b6:2c:53:6f:85:35:e3:0a:c3:09:f1"
+      }
+    },
+    "cert_index": 1518889325,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1518889325&end=1518889325",
+    "seen": 1778157900.312,
+    "submission_timestamp": 1777838790.55,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}
