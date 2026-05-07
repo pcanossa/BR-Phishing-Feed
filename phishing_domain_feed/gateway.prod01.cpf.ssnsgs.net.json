@@ -1,0 +1,12 @@
+{
+    "dominio": "gateway.prod01.cpf.ssnsgs.net",
+    "data_registro": "05/06/26 22:39:45",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Subdomínio contém o termo 'cpf', que é associado a dados sensíveis de cidadãos brasileiros e pode ser usado para enganar vítimas no Brasil",
+        "Uso de subdomínios como 'gateway' e 'prod01' que remetem a serviços internos, comum em campanhas que simulam infraestruturas legítimas para C2 ou coleta de credenciais",
+        "Domínio de nível superior '.net' não está associado a nenhum órgão oficial brasileiro, o que pode indicar tentativa de mascaramento de identidade legítima",
+        "Domínio primário 'ssnsgs.net' não aparece em listas de domínios conhecidos como benignos ou corporativos, aumentando a suspeita"
+    ],
+    "analise_comportamental": "O domínio 'gateway.prod01.cpf.ssnsgs.net' apresenta características típicas de um site de phishing direcionado a usuários brasileiros, explorando o termo 'cpf' para atrair vítimas e utilizando uma estrutura de subdomínios que simula serviços internos legítimos, o que pode facilitar a coleta de credenciais ou servir como ponto de comando e controle."
+}
