@@ -1,0 +1,52 @@
+{
+  "dominio": "app.rvhcnfsz.claro-service.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/07/26 19:07:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.rvhcnfsz.claro-service.com",
+        "aggregated": "/CN=app.rvhcnfsz.claro-service.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3E9571A7B89B3F2039EF4CD55D766DC6",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "7C:B0:C5:48:A0:BD:2E:49:FC:88:FA:53:06:44:7E:92:CF:92:13:6D",
+      "sha1": "7C:B0:C5:48:A0:BD:2E:49:FC:88:FA:53:06:44:7E:92:CF:92:13:6D",
+      "sha256": "FC:98:F4:5E:A4:CB:8C:D7:2B:D9:12:EB:2E:09:6A:59:1F:94:92:F5:A4:18:9E:DB:20:B0:05:92:60:16:66:11",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.rvhcnfsz.claro-service.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.rvhcnfsz.claro-service.com",
+        "subjectKeyIdentifier": "keyid:c1:8c:8c:2d:3d:4f:7f:e6:26:aa:05:7b:cc:bf:21:5d:40:a6:7b:06",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4117200177,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4117200177&end=4117200177",
+    "seen": 1778191632.358,
+    "submission_timestamp": 1778177540.154,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

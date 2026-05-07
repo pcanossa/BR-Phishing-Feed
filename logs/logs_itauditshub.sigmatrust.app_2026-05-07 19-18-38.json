@@ -1,0 +1,53 @@
+{
+  "dominio": "itauditshub.sigmatrust.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/07/26 19:18:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sigmatrust.app",
+        "aggregated": "/CN=sigmatrust.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A718FF1C327800A413544BF716AB49BB",
+      "not_before": 1778066833,
+      "not_after": 1785846429,
+      "fingerprint": "55:F6:A3:86:B3:9F:69:65:7D:9D:59:B6:79:C9:1F:3C:22:BB:04:21",
+      "sha1": "55:F6:A3:86:B3:9F:69:65:7D:9D:59:B6:79:C9:1F:3C:22:BB:04:21",
+      "sha256": "F5:E4:F6:B7:18:4F:E3:00:8E:EF:DE:66:64:82:61:99:F1:CC:0D:F0:86:1B:EE:66:A2:C5:28:1F:D6:63:5B:A4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "sigmatrust.app",
+        "itauditshub.sigmatrust.app",
+        "*.itauditshub.sigmatrust.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/pxg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:sigmatrust.app, DNS:itauditshub.sigmatrust.app, DNS:*.itauditshub.sigmatrust.app",
+        "subjectKeyIdentifier": "keyid:3d:43:52:78:12:d1:d2:80:fa:26:d2:9d:2f:49:5a:8f:e5:e3:2e:f8"
+      }
+    },
+    "cert_index": 253360131,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x989/688",
+    "seen": 1778192317.576,
+    "submission_timestamp": 1778192314.155,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

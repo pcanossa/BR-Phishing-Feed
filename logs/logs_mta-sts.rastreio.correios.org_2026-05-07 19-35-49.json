@@ -1,0 +1,52 @@
+{
+  "dominio": "mta-sts.rastreio.correios.org",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/07/26 19:35:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mta-sts.rastreio.correios.org",
+        "aggregated": "/CN=mta-sts.rastreio.correios.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "51B762FCB4018C610CCCF5D29A5169F0",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "62:1B:03:99:CA:C2:39:A9:20:7A:33:8A:D1:3B:63:72:CF:AB:FA:1F",
+      "sha1": "62:1B:03:99:CA:C2:39:A9:20:7A:33:8A:D1:3B:63:72:CF:AB:FA:1F",
+      "sha256": "31:37:52:8B:D6:D6:60:47:77:B6:0F:D3:6E:7E:C2:DA:EF:39:62:73:05:D6:35:11:4E:66:C7:33:85:8E:98:8D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mta-sts.rastreio.correios.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mta-sts.rastreio.correios.org",
+        "subjectKeyIdentifier": "keyid:f0:94:77:1a:06:b1:1f:71:9e:0a:95:a9:db:7c:b9:31:e4:e1:ba:02",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 647879286,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=647879286&end=647879286",
+    "seen": 1778193349.789,
+    "submission_timestamp": 1778193181.489,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
