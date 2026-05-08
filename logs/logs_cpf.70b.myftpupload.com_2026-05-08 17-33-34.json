@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.70b.myftpupload.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 17:33:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.70b.myftpupload.com",
+        "aggregated": "/CN=cpf.70b.myftpupload.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E06F776449A4BA211355DCF06C235E6A",
+      "not_before": 1778252653,
+      "not_after": 1786032252,
+      "fingerprint": "E4:D6:B9:42:63:A6:99:93:9D:72:9E:81:49:C6:DD:3D:E6:C4:E7:95",
+      "sha1": "E4:D6:B9:42:63:A6:99:93:9D:72:9E:81:49:C6:DD:3D:E6:C4:E7:95",
+      "sha256": "81:95:E4:19:ED:FB:E2:D3:7F:B6:C9:46:94:73:B1:F5:4E:E0:97:52:62:AF:2F:3D:E0:80:F2:14:DA:0B:5D:CE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.70b.myftpupload.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/4G8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.70b.myftpupload.com",
+        "subjectKeyIdentifier": "keyid:75:39:ca:1d:a3:eb:47:28:5c:b0:b4:71:ea:3f:b0:18:e8:37:1d:5e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4135522214,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4135522214&end=4135522214",
+    "seen": 1778272412.837,
+    "submission_timestamp": 1778256254.083,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

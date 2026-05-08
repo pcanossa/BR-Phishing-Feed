@@ -9,7 +9,7 @@ from collections import deque
 from zmq import has
 
 MARCAS_CURTAS = [
-    'oi', 'tim', 'b3', 'cpf', 'vivo', 'uber', 'stone', 'banco', 'cartao', 'gov-br'
+    'oi', 'tim', 'b3', 'cpf', 'vivo', 'uber', 'banco', 'cartao', 'gov-br'
 ]
 
 # Marcas longas e específicas (Busca rápida)
