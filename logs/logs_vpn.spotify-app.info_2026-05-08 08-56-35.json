@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn.spotify-app.info",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/08/26 08:56:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn.spotify-app.info",
+        "aggregated": "/CN=vpn.spotify-app.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05B81D637B410E80B29EC18B14A522E8D904",
+      "not_before": 1778237880,
+      "not_after": 1786013879,
+      "fingerprint": "70:CC:73:6C:CB:15:E3:1B:79:AB:86:60:95:D7:32:D4:B5:38:56:80",
+      "sha1": "70:CC:73:6C:CB:15:E3:1B:79:AB:86:60:95:D7:32:D4:B5:38:56:80",
+      "sha256": "66:73:DA:10:11:B2:73:7D:EA:CF:CB:2A:76:5E:85:23:7F:D2:54:A2:61:B1:1A:AB:E7:7C:39:56:6D:4D:7C:57",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn.spotify-app.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn.spotify-app.info",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 168612502,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x658/642",
+    "seen": 1778241394.176,
+    "submission_timestamp": 1778241390.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
