@@ -1,0 +1,51 @@
+{
+  "dominio": "gray-stone.qolaba.app",
+  "marcas_encontradas": [
+    "stone"
+  ],
+  "timestamp": "05/08/26 01:18:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gray-stone.qolaba.app",
+        "aggregated": "/CN=gray-stone.qolaba.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05D524D9F7A046B2ECFE0109EA38A8D62446",
+      "not_before": 1778196151,
+      "not_after": 1785972150,
+      "fingerprint": "10:55:07:29:AD:61:F7:E3:C9:8A:68:DA:17:A4:E8:71:4F:3D:E0:6C",
+      "sha1": "10:55:07:29:AD:61:F7:E3:C9:8A:68:DA:17:A4:E8:71:4F:3D:E0:6C",
+      "sha256": "96:E1:82:E9:CD:0A:89:62:BF:41:1A:5A:53:24:02:E8:34:F7:B0:2C:DE:7F:90:D9:32:26:C8:9C:23:23:FD:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gray-stone.qolaba.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gray-stone.qolaba.app",
+        "subjectKeyIdentifier": "keyid:e0:83:e6:e1:8c:59:4b:bb:6a:be:15:a4:a9:72:8b:bc:cd:4c:b5:72"
+      }
+    },
+    "cert_index": 4122134479,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4122134479&end=4122134479",
+    "seen": 1778213901.272,
+    "submission_timestamp": 1778199663.745,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

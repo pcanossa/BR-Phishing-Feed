@@ -1,0 +1,53 @@
+{
+  "dominio": "testing.debitone.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/08/26 01:19:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.debitone.com",
+        "aggregated": "/CN=testing.debitone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0D2B574F55D25856A5FB2A41CE5E9C32",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "20:DE:3C:74:BE:F1:66:F6:21:B4:6F:62:B7:9B:4C:2A:00:0D:9B:4C",
+      "sha1": "20:DE:3C:74:BE:F1:66:F6:21:B4:6F:62:B7:9B:4C:2A:00:0D:9B:4C",
+      "sha256": "B1:72:58:A0:0F:E2:55:BC:69:2F:D7:B1:D5:D2:16:C5:D6:DA:81:B4:26:B7:8F:E0:BE:AD:34:3B:0E:C1:E2:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "testing.debitone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:testing.debitone.com",
+        "subjectKeyIdentifier": "keyid:a0:a6:3d:a3:2f:52:0a:20:2d:7a:d7:06:c8:71:5f:ac:f7:3a:73:62",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 596563464,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=596563464&end=596563464",
+    "seen": 1778213973.167,
+    "submission_timestamp": 1778008973.743,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

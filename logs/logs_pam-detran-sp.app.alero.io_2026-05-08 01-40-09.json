@@ -1,0 +1,51 @@
+{
+  "dominio": "pam-detran-sp.app.alero.io",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/08/26 01:40:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.pam-detran-sp.app.alero.io",
+        "aggregated": "/CN=*.pam-detran-sp.app.alero.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "067A78465453630E887869F7A66BF086CC3C",
+      "not_before": 1778211695,
+      "not_after": 1785987694,
+      "fingerprint": "F9:08:93:3E:A0:2C:77:9C:EA:22:2D:F5:D8:77:8F:DA:49:A1:9F:24",
+      "sha1": "F9:08:93:3E:A0:2C:77:9C:EA:22:2D:F5:D8:77:8F:DA:49:A1:9F:24",
+      "sha256": "CF:4D:FE:E5:2A:A5:03:D2:2F:4F:83:7B:AD:19:38:E3:C7:5E:29:CC:48:4E:7B:6B:79:E7:F8:55:1B:B0:20:41",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.pam-detran-sp.app.alero.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.pam-detran-sp.app.alero.io",
+        "subjectKeyIdentifier": "keyid:4e:b7:95:85:6a:59:92:6a:30:75:14:de:72:12:a8:d7:12:cd:20:fd"
+      }
+    },
+    "cert_index": 167894615,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x655/838",
+    "seen": 1778215208.708,
+    "submission_timestamp": 1778215205.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

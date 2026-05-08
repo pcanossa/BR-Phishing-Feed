@@ -1,0 +1,51 @@
+{
+  "dominio": "prd-omni-cartao-beblue.omni.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/08/26 01:40:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prd-omni-cartao-beblue.omni.com.br",
+        "aggregated": "/CN=prd-omni-cartao-beblue.omni.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "03B2167E3FE97FE80EA2D74650A321F8",
+      "not_before": 1778197042,
+      "not_after": 1785976640,
+      "fingerprint": "0D:3C:37:72:EA:C4:7C:46:06:AC:3D:A2:51:B4:9C:AB:B4:DA:05:2E",
+      "sha1": "0D:3C:37:72:EA:C4:7C:46:06:AC:3D:A2:51:B4:9C:AB:B4:DA:05:2E",
+      "sha256": "B7:FB:74:84:28:03:7A:74:F2:75:EF:B7:E3:E3:C3:9C:F8:32:29:FE:7F:01:A2:8A:B3:FB:FD:99:77:B9:84:1C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "prd-omni-cartao-beblue.omni.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/A7I, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:prd-omni-cartao-beblue.omni.com.br",
+        "subjectKeyIdentifier": "keyid:55:8f:fd:d0:bb:f1:20:27:0e:50:39:ea:86:c7:91:b1:00:b6:59:2c"
+      }
+    },
+    "cert_index": 4122427588,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4122427588&end=4122427588",
+    "seen": 1778215204.975,
+    "submission_timestamp": 1778200806.646,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
