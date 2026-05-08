@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguro.app",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/08/26 00:39:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.app",
+        "aggregated": "/CN=pagseguro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0630E7157AD8CFF89D47223FACAFF583B4AF",
+      "not_before": 1778193987,
+      "not_after": 1785969986,
+      "fingerprint": "BD:8D:85:E3:E5:06:EE:21:F8:74:20:85:75:AA:4C:48:23:34:F3:1A",
+      "sha1": "BD:8D:85:E3:E5:06:EE:21:F8:74:20:85:75:AA:4C:48:23:34:F3:1A",
+      "sha256": "77:D3:3B:66:1E:8E:53:4B:58:87:25:F7:2F:E3:31:AB:03:8B:D3:4E:A5:5B:5B:10:E4:07:E2:15:1B:42:65:FF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.app",
+        "*.pagseguro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguro.app, DNS:pagseguro.app",
+        "subjectKeyIdentifier": "keyid:4c:fc:3a:d6:b0:89:9f:97:e0:17:d7:61:93:03:85:53:21:1e:e7:b6"
+      }
+    },
+    "cert_index": 4121605036,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4121605036&end=4121605036",
+    "seen": 1778211569.347,
+    "submission_timestamp": 1778197500.679,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

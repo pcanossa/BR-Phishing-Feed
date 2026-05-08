@@ -1,0 +1,52 @@
+{
+  "dominio": "atlantisdr.ci.cpf.iad.atieva.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 01:05:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "atlantisdr.ci.cpf.iad.atieva.com",
+        "aggregated": "/CN=atlantisdr.ci.cpf.iad.atieva.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "08337275048D41DD15D089FAB5275E8C",
+      "not_before": 1778112000,
+      "not_after": 1795219199,
+      "fingerprint": "63:36:49:82:42:58:12:C0:45:F4:AB:26:ED:03:9E:91:7E:20:14:9C",
+      "sha1": "63:36:49:82:42:58:12:C0:45:F4:AB:26:ED:03:9E:91:7E:20:14:9C",
+      "sha256": "93:77:1C:42:7F:6F:6F:97:36:BE:86:24:85:2C:88:38:65:77:7E:9E:55:54:8B:EC:91:30:8D:3D:59:88:94:CD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "atlantisdr.ci.cpf.iad.atieva.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:atlantisdr.ci.cpf.iad.atieva.com",
+        "subjectKeyIdentifier": "keyid:6c:95:03:e8:b0:f3:e1:c9:71:f6:21:a4:39:b8:d5:27:4b:33:3d:c7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4121962383,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4121962383&end=4121962383",
+    "seen": 1778213149.248,
+    "submission_timestamp": 1778199029.242,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
