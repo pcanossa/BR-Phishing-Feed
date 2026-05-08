@@ -1,0 +1,52 @@
+{
+  "dominio": "strt-trezr-oi.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/08/26 06:43:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "strt-trezr-oi.pages.dev",
+        "aggregated": "/CN=strt-trezr-oi.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06AD0884C97F4FFC91686A52EDA7BF4B7135",
+      "not_before": 1778214295,
+      "not_after": 1785990294,
+      "fingerprint": "11:61:D6:99:71:54:D6:93:BF:0D:CD:C1:F8:06:D7:D9:30:C8:50:00",
+      "sha1": "11:61:D6:99:71:54:D6:93:BF:0D:CD:C1:F8:06:D7:D9:30:C8:50:00",
+      "sha256": "2D:66:46:87:C9:D1:8D:AD:C9:8C:25:25:66:83:D0:E4:A3:D2:5B:83:67:33:A1:42:AE:4E:60:E2:4E:F2:19:23",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "strt-trezr-oi.pages.dev",
+        "*.strt-trezr-oi.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.strt-trezr-oi.pages.dev, DNS:strt-trezr-oi.pages.dev",
+        "subjectKeyIdentifier": "keyid:7f:b3:00:44:3d:aa:fe:e2:2c:71:92:59:73:ad:5c:f2:a5:3b:4c:7a"
+      }
+    },
+    "cert_index": 4126438787,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4126438787&end=4126438787",
+    "seen": 1778233419.151,
+    "submission_timestamp": 1778217809.428,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

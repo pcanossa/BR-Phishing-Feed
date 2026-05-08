@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-irregular.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 06:41:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-irregular.org",
+        "aggregated": "/CN=cpf-irregular.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05DFBF3E7344F5ACC28D7DCC434E25F8AF57",
+      "not_before": 1778052962,
+      "not_after": 1785828961,
+      "fingerprint": "F4:E1:9E:0F:48:A4:EA:8D:AE:55:81:9E:36:E9:F7:66:89:53:98:AE",
+      "sha1": "F4:E1:9E:0F:48:A4:EA:8D:AE:55:81:9E:36:E9:F7:66:89:53:98:AE",
+      "sha256": "1A:07:05:EE:7A:43:18:55:D7:48:F3:21:FF:B4:78:BA:11:69:40:6D:ED:7E:4D:03:9D:95:23:A6:73:71:F9:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-irregular.org",
+        "*.cpf-irregular.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-irregular.org, DNS:cpf-irregular.org",
+        "subjectKeyIdentifier": "keyid:a2:b0:0e:b5:0a:b6:b8:98:17:37:25:59:fc:50:f2:2a:73:0e:35:32",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 574949515,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=574949515&end=574949515",
+    "seen": 1778233290.039,
+    "submission_timestamp": 1778056472.451,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

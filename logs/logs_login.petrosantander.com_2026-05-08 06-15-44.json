@@ -1,0 +1,52 @@
+{
+  "dominio": "login.petrosantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/08/26 06:15:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.petrosantander.com",
+        "aggregated": "/CN=login.petrosantander.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "E41D5C41B90DA361EBAA9F8E31434C4A",
+      "not_before": 1778025600,
+      "not_after": 1785887999,
+      "fingerprint": "A8:79:F2:7D:77:A6:87:A9:3E:93:C0:35:FE:04:05:C5:10:69:C6:81",
+      "sha1": "A8:79:F2:7D:77:A6:87:A9:3E:93:C0:35:FE:04:05:C5:10:69:C6:81",
+      "sha256": "84:92:18:BC:28:D3:81:88:94:AF:74:FA:DD:07:41:4A:E8:F3:14:F1:2A:05:83:A4:2F:2F:BF:D4:22:22:D0:E8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.petrosantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.petrosantander.com",
+        "subjectKeyIdentifier": "keyid:53:64:a5:53:86:37:31:8b:e2:44:0d:11:be:b7:ed:94:b7:d0:dc:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 574852295,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=574852295&end=574852295",
+    "seen": 1778231744.016,
+    "submission_timestamp": 1778055657.776,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

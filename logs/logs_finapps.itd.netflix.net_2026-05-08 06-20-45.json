@@ -1,0 +1,60 @@
+{
+  "dominio": "finapps.itd.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/08/26 06:20:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "ext.mule.dev.hrfinapps.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=ext.mule.dev.hrfinapps.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0253DE254DC561D013FD3535BB4BF5C9",
+      "not_before": 1777939200,
+      "not_after": 1785794755,
+      "fingerprint": "F8:37:20:FE:12:95:7C:FC:8E:61:A0:61:9C:1B:F5:EA:D3:FE:C8:83",
+      "sha1": "F8:37:20:FE:12:95:7C:FC:8E:61:A0:61:9C:1B:F5:EA:D3:FE:C8:83",
+      "sha256": "FB:E6:77:CF:F5:5D:65:A5:F1:C1:1D:5B:D0:94:D3:54:27:42:F5:EC:D0:E9:33:EA:73:7D:98:06:45:50:6A:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ext.mule.dev.hrfinapps.netflix.net",
+        "*.finapps.itd.netflix.net",
+        "*.finapps.mule.itd.netflix.net",
+        "finapps.itd.netflix.net",
+        "wdintegrationsdev.netflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.finapps.itd.netflix.net, DNS:*.finapps.mule.itd.netflix.net, DNS:ext.mule.dev.hrfinapps.netflix.net, DNS:finapps.itd.netflix.net, DNS:wdintegrationsdev.netflix.com",
+        "subjectKeyIdentifier": "keyid:75:00:4b:a4:a1:b6:23:1d:2d:3d:22:c1:df:bd:80:5d:30:28:cb:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 597640845,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=597640845&end=597640845",
+    "seen": 1778232045.732,
+    "submission_timestamp": 1778018756.445,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

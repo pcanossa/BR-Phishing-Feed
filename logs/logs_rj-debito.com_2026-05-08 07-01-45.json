@@ -1,0 +1,53 @@
+{
+  "dominio": "rj-debito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/08/26 07:01:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rj-debito.com",
+        "aggregated": "/CN=rj-debito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "303FFA66E182E5CE13EF23218D6D0D3A",
+      "not_before": 1778215224,
+      "not_after": 1785994817,
+      "fingerprint": "6F:28:B1:34:43:F0:68:92:F5:E6:77:57:F8:BC:CF:06:16:00:9E:8F",
+      "sha1": "6F:28:B1:34:43:F0:68:92:F5:E6:77:57:F8:BC:CF:06:16:00:9E:8F",
+      "sha256": "59:14:59:DB:F9:82:DD:45:84:96:50:27:BD:78:A5:AC:A9:1A:74:FE:D0:55:E8:56:A7:6C:4B:F5:41:B1:81:CB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rj-debito.com",
+        "*.rj-debito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MD8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rj-debito.com, DNS:*.rj-debito.com",
+        "subjectKeyIdentifier": "keyid:c3:51:7a:c6:c9:62:c0:65:1d:fe:af:0b:68:a5:09:c5:50:2a:ce:9a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4126679597,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4126679597&end=4126679597",
+    "seen": 1778234506.325,
+    "submission_timestamp": 1778218825.342,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

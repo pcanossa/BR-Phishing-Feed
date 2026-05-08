@@ -1,0 +1,55 @@
+{
+  "dominio": "apply.santanderconsumer.co.uk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/08/26 06:49:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "ES",
+        "CN": "apply.santanderconsumer.co.uk",
+        "O": "GRUPO SANTANDER",
+        "ST": "Cantabria",
+        "aggregated": "/C=ES/CN=apply.santanderconsumer.co.uk/O=GRUPO SANTANDER/ST=Cantabria"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "705529753143C817EAE3088591D6D8ED",
+      "not_before": 1776816000,
+      "not_after": 1794009599,
+      "fingerprint": "9F:0F:1A:AA:14:0E:F5:8C:BE:02:F0:9C:40:EA:AA:CC:FD:D5:3B:88",
+      "sha1": "9F:0F:1A:AA:14:0E:F5:8C:BE:02:F0:9C:40:EA:AA:CC:FD:D5:3B:88",
+      "sha256": "83:18:F2:E9:61:53:E4:75:5D:8D:A8:21:EC:58:70:36:BE:FF:E4:70:59:5E:FC:03:B3:47:AD:DD:79:1C:AB:9A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apply.santanderconsumer.co.uk",
+        "www.apply.santanderconsumer.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apply.santanderconsumer.co.uk, DNS:www.apply.santanderconsumer.co.uk",
+        "subjectKeyIdentifier": "keyid:5b:d7:b6:4f:43:5e:1b:9c:20:6e:9b:1e:37:9d:18:b3:69:a1:89:8e"
+      }
+    },
+    "cert_index": 176901002,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x691/019",
+    "seen": 1778233781.641,
+    "submission_timestamp": 1778233779.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
