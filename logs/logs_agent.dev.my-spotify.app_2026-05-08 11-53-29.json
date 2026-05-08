@@ -1,0 +1,51 @@
+{
+  "dominio": "agent.dev.my-spotify.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/08/26 11:53:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "agent.dev.my-spotify.app",
+        "aggregated": "/CN=agent.dev.my-spotify.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "056DB7C68E68AD29555A53A5D1B725C2A584",
+      "not_before": 1778248388,
+      "not_after": 1786024387,
+      "fingerprint": "DC:03:2E:63:19:67:27:34:02:7E:AF:03:7F:ED:24:12:AA:77:42:AD",
+      "sha1": "DC:03:2E:63:19:67:27:34:02:7E:AF:03:7F:ED:24:12:AA:77:42:AD",
+      "sha256": "47:32:99:6A:DB:CA:0D:C2:B9:8B:53:CE:63:21:F7:17:7A:7A:5C:B2:54:05:3F:C1:ED:50:7E:79:54:77:AA:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "agent.dev.my-spotify.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:agent.dev.my-spotify.app",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 657553110,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=657553110&end=657553110",
+    "seen": 1778252008.019,
+    "submission_timestamp": 1778251900.608,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

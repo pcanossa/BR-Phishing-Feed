@@ -1,0 +1,53 @@
+{
+  "dominio": "rastreamentocorreios.info",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/08/26 11:15:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreamentocorreios.info",
+        "aggregated": "/CN=rastreamentocorreios.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "AE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=AE1/O=Google Trust Services"
+      },
+      "serial_number": "C5FE606C474C6FDB0E07B9095887A854",
+      "not_before": 1778229807,
+      "not_after": 1782121268,
+      "fingerprint": "3C:D1:2C:4F:DC:54:BA:9B:64:A2:21:99:29:44:9F:38:CA:4D:B3:A4",
+      "sha1": "3C:D1:2C:4F:DC:54:BA:9B:64:A2:21:99:29:44:9F:38:CA:4D:B3:A4",
+      "sha256": "6E:32:91:1E:A9:31:8E:C4:A9:EB:59:0D:80:4E:39:13:44:AC:31:0C:B5:C0:09:DE:FA:23:26:4C:0E:30:7B:76",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreamentocorreios.info",
+        "*.rastreamentocorreios.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/ae1/xf4, URI:http://i.pki.goog/ae1.crt",
+        "authorityKeyIdentifier": "keyid:48:89:60:f9:a3:7d:0c:ea:00:24:a2:dc:9f:07:ce:46:88:a8:32:3a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreamentocorreios.info, DNS:*.rastreamentocorreios.info",
+        "subjectKeyIdentifier": "keyid:9b:38:e6:3e:31:88:d6:30:a0:f6:b5:32:96:f2:7a:41:01:0a:3d:51",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4130039302,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4130039302&end=4130039302",
+    "seen": 1778249740.225,
+    "submission_timestamp": 1778233408.197,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
