@@ -1,0 +1,52 @@
+{
+  "dominio": "qa.netflixlogin-app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/08/26 13:45:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "qa.netflixlogin-app.com",
+        "aggregated": "/CN=qa.netflixlogin-app.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F514A88978A14E2B8CBE2CCC70F851DA",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "17:86:D0:29:37:60:4F:75:F0:DC:7F:7B:F8:CE:9C:3F:84:56:49:44",
+      "sha1": "17:86:D0:29:37:60:4F:75:F0:DC:7F:7B:F8:CE:9C:3F:84:56:49:44",
+      "sha256": "09:3C:D4:FA:DD:8D:40:3C:80:AA:EB:22:7E:CE:9E:AD:89:3E:82:60:63:A7:CB:D0:A4:30:55:C5:F1:8D:75:24",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "qa.netflixlogin-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:qa.netflixlogin-app.com",
+        "subjectKeyIdentifier": "keyid:ba:1f:69:06:94:76:21:38:bc:11:ee:30:e2:b7:ad:d9:d3:c1:cd:11",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 658754653,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=658754653&end=658754653",
+    "seen": 1778258747.395,
+    "submission_timestamp": 1778258559.088,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "servicos-sefaz-es-gov-br.site",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/08/26 13:30:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "servicos-sefaz-es-gov-br.site",
+        "aggregated": "/CN=servicos-sefaz-es-gov-br.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068BEA7BF8D10B50CF6E8FEAABCFBB68A9E6",
+      "not_before": 1778237747,
+      "not_after": 1786013746,
+      "fingerprint": "9A:D6:3D:33:A0:9E:70:AA:3B:94:B3:33:95:97:CD:72:E8:44:C8:97",
+      "sha1": "9A:D6:3D:33:A0:9E:70:AA:3B:94:B3:33:95:97:CD:72:E8:44:C8:97",
+      "sha256": "F7:65:A1:CA:7F:0B:AB:46:E0:55:E9:A0:26:6D:B9:3C:08:07:D4:50:91:76:19:DF:C0:6A:77:D3:B1:8B:3B:F9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "servicos-sefaz-es-gov-br.site",
+        "*.servicos-sefaz-es-gov-br.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.servicos-sefaz-es-gov-br.site, DNS:servicos-sefaz-es-gov-br.site",
+        "subjectKeyIdentifier": "keyid:d6:11:ad:2b:ee:45:1c:87:b3:cc:eb:d6:1d:b8:ae:b6:85:f0:97:f9"
+      }
+    },
+    "cert_index": 4131936968,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4131936968&end=4131936968",
+    "seen": 1778257829.269,
+    "submission_timestamp": 1778241259.846,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

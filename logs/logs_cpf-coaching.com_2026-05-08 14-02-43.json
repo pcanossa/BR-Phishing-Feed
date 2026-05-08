@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-coaching.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 14:02:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-coaching.com",
+        "aggregated": "/CN=cpf-coaching.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "AE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=AE1/O=Google Trust Services"
+      },
+      "serial_number": "DF4E54664D99A41813BA54F9577B1286",
+      "not_before": 1778256094,
+      "not_after": 1782147599,
+      "fingerprint": "54:B5:0E:0C:40:86:FA:42:98:70:C8:60:2C:79:8A:F0:3A:A7:1B:1E",
+      "sha1": "54:B5:0E:0C:40:86:FA:42:98:70:C8:60:2C:79:8A:F0:3A:A7:1B:1E",
+      "sha256": "7F:39:04:DF:8B:F9:17:03:6B:3D:0C:16:D6:C5:84:95:46:DE:57:82:8A:27:F9:31:AE:09:F3:BB:44:FF:45:17",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-coaching.com",
+        "*.cpf-coaching.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/ae1/304, URI:http://i.pki.goog/ae1.crt",
+        "authorityKeyIdentifier": "keyid:48:89:60:f9:a3:7d:0c:ea:00:24:a2:dc:9f:07:ce:46:88:a8:32:3a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-coaching.com, DNS:*.cpf-coaching.com",
+        "subjectKeyIdentifier": "keyid:81:cd:55:b2:69:2e:e5:0a:54:12:a4:f7:77:73:39:a0:54:e1:ed:dc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2776398678,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h1/ct/v1/get-entries?start=2776398678&end=2776398678",
+    "seen": 1778259763.007,
+    "submission_timestamp": 1778259695.062,
+    "source": {
+      "name": "Google 'Argon2026h1' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h1"
+    }
+  }
+}
