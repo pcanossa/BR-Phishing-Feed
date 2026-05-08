@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.linkilabs.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/08/26 07:15:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.linkilabs.com",
+        "aggregated": "/CN=cartao.linkilabs.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0518EA73E2AAFEB4785739CD251F7F115DED",
+      "not_before": 1778216143,
+      "not_after": 1785992142,
+      "fingerprint": "D5:73:99:07:84:8B:18:91:8D:8B:D0:21:2B:E4:8B:BC:9F:02:CA:72",
+      "sha1": "D5:73:99:07:84:8B:18:91:8D:8B:D0:21:2B:E4:8B:BC:9F:02:CA:72",
+      "sha256": "C6:F7:72:39:13:1F:99:4E:E5:69:74:56:95:A6:B2:76:BB:F0:BD:AE:2F:6F:F1:17:28:A0:EC:3D:4D:E1:92:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.linkilabs.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.linkilabs.com",
+        "subjectKeyIdentifier": "keyid:25:d5:02:3c:5c:78:1e:de:0f:82:2a:0d:23:41:f9:cd:c0:ce:3c:07"
+      }
+    },
+    "cert_index": 4126862526,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4126862526&end=4126862526",
+    "seen": 1778235339.471,
+    "submission_timestamp": 1778219656.42,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

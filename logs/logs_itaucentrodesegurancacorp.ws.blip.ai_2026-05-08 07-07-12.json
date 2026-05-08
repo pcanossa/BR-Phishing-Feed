@@ -1,0 +1,52 @@
+{
+  "dominio": "itaucentrodesegurancacorp.ws.blip.ai",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/08/26 07:07:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itaucentrodesegurancacorp.ws.blip.ai",
+        "aggregated": "/CN=itaucentrodesegurancacorp.ws.blip.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3E059B3784D96A27138E58330E679FD6",
+      "not_before": 1778215554,
+      "not_after": 1785995150,
+      "fingerprint": "00:62:58:8B:8D:95:74:3F:68:7D:9E:A6:0A:0F:99:E5:D1:49:7F:06",
+      "sha1": "00:62:58:8B:8D:95:74:3F:68:7D:9E:A6:0A:0F:99:E5:D1:49:7F:06",
+      "sha256": "C1:8E:74:10:E1:F8:38:1E:F0:22:96:AC:54:14:31:35:EB:2D:35:41:05:A2:2F:2F:D5:A3:EF:D6:3A:CF:79:F2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "itaucentrodesegurancacorp.ws.blip.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/PgU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:itaucentrodesegurancacorp.ws.blip.ai",
+        "subjectKeyIdentifier": "keyid:23:ac:c4:54:60:8a:b9:d7:ee:8a:29:d2:ff:96:0a:f7:c0:29:0a:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4126749952,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4126749952&end=4126749952",
+    "seen": 1778234832.512,
+    "submission_timestamp": 1778219154.667,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

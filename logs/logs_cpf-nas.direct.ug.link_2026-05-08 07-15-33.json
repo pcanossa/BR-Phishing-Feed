@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-nas.direct.ug.link",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 07:15:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-nas.direct.ug.link",
+        "aggregated": "/CN=cpf-nas.direct.ug.link"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "03D903B65359DBAFF4C37BD5EAD7BC33",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "6F:A4:7D:38:0A:71:76:5F:10:89:70:57:C5:01:EB:BB:6A:73:1D:4A",
+      "sha1": "6F:A4:7D:38:0A:71:76:5F:10:89:70:57:C5:01:EB:BB:6A:73:1D:4A",
+      "sha256": "E5:38:C9:F6:47:B7:8A:04:67:AE:32:F2:AA:62:48:C2:63:61:AA:8C:28:D1:A8:2D:99:1A:8A:9A:48:D2:54:D3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-nas.direct.ug.link",
+        "*.cpf-nas.direct.ug.link"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-nas.direct.ug.link, DNS:*.cpf-nas.direct.ug.link",
+        "subjectKeyIdentifier": "keyid:77:5d:7a:5d:c0:71:2c:ea:04:31:7f:6f:6c:b4:45:e4:b6:8b:f3:66",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4126860995,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4126860995&end=4126860995",
+    "seen": 1778235332.067,
+    "submission_timestamp": 1778219652.808,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
