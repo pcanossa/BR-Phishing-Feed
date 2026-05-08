@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.wasmer.app",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 22:29:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.wasmer.app",
+        "aggregated": "/CN=*.cpf.wasmer.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06CB14DCBCACDC8C0B995CC4D79D664A5F0C",
+      "not_before": 1778185907,
+      "not_after": 1785961906,
+      "fingerprint": "6E:A0:93:F5:ED:B8:CD:17:F5:18:DD:E4:2E:AF:C5:17:3F:C1:70:DC",
+      "sha1": "6E:A0:93:F5:ED:B8:CD:17:F5:18:DD:E4:2E:AF:C5:17:3F:C1:70:DC",
+      "sha256": "E8:4B:6B:F9:15:8C:5C:DD:52:F4:27:DC:C5:17:11:11:D1:0C:AF:15:19:0B:A0:2A:28:91:0C:5E:A4:BA:24:54",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.wasmer.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf.wasmer.app",
+        "subjectKeyIdentifier": "keyid:aa:d4:74:94:cf:fd:9b:0d:1a:94:4b:40:cc:bd:33:2c:fe:31:65:bf"
+      }
+    },
+    "cert_index": 4119832783,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4119832783&end=4119832783",
+    "seen": 1778203786.919,
+    "submission_timestamp": 1778189420.838,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

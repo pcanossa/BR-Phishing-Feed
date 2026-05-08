@@ -1,0 +1,51 @@
+{
+  "dominio": "bradesco.acessoaoclub.com",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/07/26 23:00:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco.acessoaoclub.com",
+        "aggregated": "/CN=bradesco.acessoaoclub.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05A566CC74AA9BCE1DFD01C72E4582AD1856",
+      "not_before": 1778187715,
+      "not_after": 1785963714,
+      "fingerprint": "0B:8C:4D:7C:0B:22:18:16:FA:52:6B:64:9A:05:E9:38:C6:5B:F3:B3",
+      "sha1": "0B:8C:4D:7C:0B:22:18:16:FA:52:6B:64:9A:05:E9:38:C6:5B:F3:B3",
+      "sha256": "F4:A0:5E:8F:30:33:09:21:97:FD:A7:60:69:74:36:C6:CA:FA:59:A6:06:0F:EB:A0:B0:55:2A:A1:E9:A0:DE:44",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco.acessoaoclub.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bradesco.acessoaoclub.com",
+        "subjectKeyIdentifier": "keyid:05:e8:c8:ed:0f:14:8c:1c:0e:4c:ff:e1:91:92:c8:7c:6a:40:2f:1f"
+      }
+    },
+    "cert_index": 4120236998,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4120236998&end=4120236998",
+    "seen": 1778205601.134,
+    "submission_timestamp": 1778191228.472,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

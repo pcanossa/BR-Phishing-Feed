@@ -1,0 +1,52 @@
+{
+  "dominio": "prd-omni-cartao-beblue.omni.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/07/26 22:18:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prd-omni-cartao-beblue.omni.com.br",
+        "aggregated": "/CN=prd-omni-cartao-beblue.omni.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "478555F71D5702940EB647B68DA75193",
+      "not_before": 1778185187,
+      "not_after": 1785964719,
+      "fingerprint": "0D:A3:C5:FC:05:04:6F:96:3A:94:9F:5F:32:4D:90:86:14:FE:41:2A",
+      "sha1": "0D:A3:C5:FC:05:04:6F:96:3A:94:9F:5F:32:4D:90:86:14:FE:41:2A",
+      "sha256": "75:49:C1:F4:5C:50:5D:09:6D:5A:38:9B:E9:6F:A0:70:41:D9:1E:3F:64:81:78:1F:EC:85:E7:18:7E:13:5B:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "prd-omni-cartao-beblue.omni.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/R4U, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:prd-omni-cartao-beblue.omni.com.br",
+        "subjectKeyIdentifier": "keyid:76:48:3a:2e:21:23:05:6f:5b:26:ee:8f:c2:cf:bb:b4:32:a6:ab:a3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4119691703,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4119691703&end=4119691703",
+    "seen": 1778203138.794,
+    "submission_timestamp": 1778188788.207,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
