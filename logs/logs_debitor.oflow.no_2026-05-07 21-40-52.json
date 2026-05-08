@@ -1,0 +1,51 @@
+{
+  "dominio": "debitor.oflow.no",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 21:40:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.oflow.no",
+        "aggregated": "/CN=debitor.oflow.no"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "053297DC55677089E15D85034C7FC9F6CC93",
+      "not_before": 1778183040,
+      "not_after": 1785959039,
+      "fingerprint": "13:AE:79:85:77:28:B0:B4:FF:FC:B6:6D:65:A0:88:D8:40:6D:A8:37",
+      "sha1": "13:AE:79:85:77:28:B0:B4:FF:FC:B6:6D:65:A0:88:D8:40:6D:A8:37",
+      "sha256": "B3:6B:A0:32:4B:19:CE:CB:83:A7:2F:94:DE:62:E7:83:3F:A6:BC:BA:9F:4A:F5:24:D8:D5:FB:6F:F7:A3:98:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.oflow.no"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitor.oflow.no",
+        "subjectKeyIdentifier": "keyid:0e:99:a8:65:36:da:e2:92:a1:91:08:44:fa:f5:27:85:66:92:23:a1"
+      }
+    },
+    "cert_index": 4119192609,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4119192609&end=4119192609",
+    "seen": 1778200851.968,
+    "submission_timestamp": 1778186552.188,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "receitafederaldobrasil.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/07/26 21:07:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederaldobrasil.com",
+        "aggregated": "/CN=receitafederaldobrasil.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0654641B5B9A4C0FE9DDDB13997BD84F95A8",
+      "not_before": 1778181120,
+      "not_after": 1785957119,
+      "fingerprint": "14:BF:07:81:87:F0:30:C0:BB:65:40:7C:71:45:F4:14:C2:54:69:FC",
+      "sha1": "14:BF:07:81:87:F0:30:C0:BB:65:40:7C:71:45:F4:14:C2:54:69:FC",
+      "sha256": "9F:FE:28:D4:BD:C8:26:DE:94:73:C2:D3:32:A7:27:3F:37:8F:B7:12:96:F6:0D:4A:C6:A7:41:45:19:A3:4B:4D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederaldobrasil.com",
+        "*.receitafederaldobrasil.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.receitafederaldobrasil.com, DNS:receitafederaldobrasil.com",
+        "subjectKeyIdentifier": "keyid:7e:89:cc:e4:73:1d:14:86:ba:50:9c:8c:01:5f:cd:96:80:c3:02:2a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4118758798,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4118758798&end=4118758798",
+    "seen": 1778198828.031,
+    "submission_timestamp": 1778184630.735,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
