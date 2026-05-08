@@ -1,0 +1,53 @@
+{
+  "dominio": "ninojesussantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/08/26 03:02:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ninojesussantander.com",
+        "aggregated": "/CN=ninojesussantander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0509B91596C27A55F5FB6B6D91C1A26AE518",
+      "not_before": 1778201864,
+      "not_after": 1785977863,
+      "fingerprint": "82:3B:C4:10:30:A2:62:2B:E0:D3:0D:C1:BA:0F:6C:21:35:0A:06:FE",
+      "sha1": "82:3B:C4:10:30:A2:62:2B:E0:D3:0D:C1:BA:0F:6C:21:35:0A:06:FE",
+      "sha256": "F9:C1:19:0D:23:39:30:54:4F:CA:AB:B0:1A:61:18:1E:55:A7:A8:58:FF:57:33:FB:05:3F:6E:D6:0C:D4:9B:C0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ninojesussantander.com",
+        "www.ninojesussantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ninojesussantander.com, DNS:www.ninojesussantander.com",
+        "subjectKeyIdentifier": "keyid:fc:3a:d5:cd:38:c9:0e:18:70:d1:23:25:22:e9:5e:33:b2:7f:72:6f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4123496899,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4123496899&end=4123496899",
+    "seen": 1778220126.538,
+    "submission_timestamp": 1778205374.938,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "login.fitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/08/26 02:47:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.fitau.com",
+        "aggregated": "/CN=login.fitau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0CD790D0CCD8E1BB14F0CCE61B502961",
+      "not_before": 1777939200,
+      "not_after": 1785715199,
+      "fingerprint": "2A:83:63:A4:4B:F0:5E:98:71:F7:44:C7:E8:00:E7:30:5A:32:50:7D",
+      "sha1": "2A:83:63:A4:4B:F0:5E:98:71:F7:44:C7:E8:00:E7:30:5A:32:50:7D",
+      "sha256": "B6:0C:17:7A:1A:55:DB:3F:B3:38:6B:B7:08:26:9F:24:AC:AA:63:8F:36:2A:CC:FF:91:0F:FD:74:E5:56:D2:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.fitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.fitau.com",
+        "subjectKeyIdentifier": "keyid:f5:58:7e:90:a7:73:f8:06:f5:55:b7:72:a6:dc:2a:53:e0:d7:23:00"
+      }
+    },
+    "cert_index": 596878243,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=596878243&end=596878243",
+    "seen": 1778219267.597,
+    "submission_timestamp": 1778011812.741,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

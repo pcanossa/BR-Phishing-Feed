@@ -1,0 +1,52 @@
+{
+  "dominio": "magazineluiza-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 02:15:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B1B929B01575A7EC0EB66842807F1E69",
+      "not_before": 1778191068,
+      "not_after": 1785970664,
+      "fingerprint": "86:EB:24:14:8B:7E:93:21:41:D8:B4:15:D6:03:34:8E:49:2F:3C:B7",
+      "sha1": "86:EB:24:14:8B:7E:93:21:41:D8:B4:15:D6:03:34:8E:49:2F:3C:B7",
+      "sha256": "48:17:62:81:71:73:AE:42:65:69:B1:22:B8:F2:43:E8:E5:F7:FB:CF:F6:3C:9B:39:03:64:30:BF:C1:C7:D7:BD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "magazineluiza-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/sbk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:magazineluiza-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:95:12:de:84:04:e7:5d:1f:64:17:6f:38:a4:82:1d:ce:05:0b:79:42"
+      }
+    },
+    "cert_index": 4122894031,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4122894031&end=4122894031",
+    "seen": 1778217333.833,
+    "submission_timestamp": 1778202753.671,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
