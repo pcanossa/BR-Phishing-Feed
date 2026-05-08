@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.eco",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/08/26 18:29:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.eco",
+        "aggregated": "/CN=cartao.eco"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "84B56E0ED43DBE03D03B94E07E9D74A1",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "1A:5C:54:57:E4:5B:53:DB:09:FE:CE:DA:B7:3E:7C:AE:78:98:E0:B1",
+      "sha1": "1A:5C:54:57:E4:5B:53:DB:09:FE:CE:DA:B7:3E:7C:AE:78:98:E0:B1",
+      "sha256": "36:5F:D7:52:13:1E:E8:D1:CE:6A:65:DE:72:52:54:1D:4A:D2:AC:2A:D0:D5:8A:81:11:30:E7:F8:B8:67:9C:A9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.eco",
+        "www.cartao.eco"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.eco, DNS:www.cartao.eco",
+        "subjectKeyIdentifier": "keyid:d4:99:c2:80:99:0a:bb:99:e3:82:b6:19:82:10:08:b8:fa:d7:6c:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 661228276,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=661228276&end=661228276",
+    "seen": 1778275738.016,
+    "submission_timestamp": 1778275576.631,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

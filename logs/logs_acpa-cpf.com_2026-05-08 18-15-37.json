@@ -1,0 +1,52 @@
+{
+  "dominio": "acpa-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 18:15:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "acpa-cpf.com",
+        "aggregated": "/CN=acpa-cpf.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "35E9FB7016B582B38BD1214602870AAB",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "D2:FF:61:77:57:22:53:5A:EC:CF:0C:3A:D5:DE:AA:70:86:AE:5F:D3",
+      "sha1": "D2:FF:61:77:57:22:53:5A:EC:CF:0C:3A:D5:DE:AA:70:86:AE:5F:D3",
+      "sha256": "17:51:46:69:00:98:76:1D:E3:ED:C3:26:7B:29:2F:D5:C3:F5:D8:86:56:41:3A:22:9D:50:1E:05:CF:9C:B6:71",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "acpa-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:acpa-cpf.com",
+        "subjectKeyIdentifier": "keyid:06:12:b9:90:9f:8f:51:75:58:f4:43:96:ac:b9:5a:de:75:f8:39:36",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4136161716,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4136161716&end=4136161716",
+    "seen": 1778274933.718,
+    "submission_timestamp": 1778258330.364,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

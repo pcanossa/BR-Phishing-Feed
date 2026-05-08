@@ -1,0 +1,52 @@
+{
+  "dominio": "app.claro-service.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/08/26 18:59:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.claro-service.com",
+        "aggregated": "/CN=app.claro-service.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "BE7CB88DA75CCCAC683B72BB5FF1B6D5",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "29:05:14:23:69:0D:B8:D0:3E:B4:FE:B3:3C:90:38:C4:BE:94:41:07",
+      "sha1": "29:05:14:23:69:0D:B8:D0:3E:B4:FE:B3:3C:90:38:C4:BE:94:41:07",
+      "sha256": "CA:20:78:0C:4F:33:F5:7D:87:30:F9:29:DA:D3:CB:86:B6:44:57:D6:21:87:02:25:6E:0E:00:5D:38:92:6D:1C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.claro-service.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.claro-service.com",
+        "subjectKeyIdentifier": "keyid:3d:b4:65:ab:64:f1:d0:be:78:1a:85:9c:e2:5d:2f:90:6e:4e:d0:df",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4136748681,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4136748681&end=4136748681",
+    "seen": 1778277583.81,
+    "submission_timestamp": 1778260473.047,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
