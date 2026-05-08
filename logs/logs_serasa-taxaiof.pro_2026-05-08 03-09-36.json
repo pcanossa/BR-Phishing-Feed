@@ -1,0 +1,53 @@
+{
+  "dominio": "serasa-taxaiof.pro",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/08/26 03:09:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "serasa-taxaiof.pro",
+        "aggregated": "/CN=serasa-taxaiof.pro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B5A239142C2A62FF0EFC291CFFE9D79F",
+      "not_before": 1778202124,
+      "not_after": 1785981572,
+      "fingerprint": "39:52:6E:22:B0:C8:03:9E:0E:7B:4D:2E:EB:0B:E4:F8:41:C6:50:9A",
+      "sha1": "39:52:6E:22:B0:C8:03:9E:0E:7B:4D:2E:EB:0B:E4:F8:41:C6:50:9A",
+      "sha256": "8F:91:88:2D:47:60:E0:AE:A3:5C:FF:5E:C7:52:B3:76:D7:71:24:02:D7:7A:C9:8B:8D:83:44:20:F2:B5:97:FA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "serasa-taxaiof.pro",
+        "*.serasa-taxaiof.pro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/taI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:serasa-taxaiof.pro, DNS:*.serasa-taxaiof.pro",
+        "subjectKeyIdentifier": "keyid:e7:e8:5e:31:7d:45:fe:87:c5:2e:18:42:a4:39:ce:e3:47:46:d1:85",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4123599780,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4123599780&end=4123599780",
+    "seen": 1778220575.997,
+    "submission_timestamp": 1778205824.127,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

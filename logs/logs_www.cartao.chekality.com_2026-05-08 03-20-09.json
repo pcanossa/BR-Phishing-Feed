@@ -1,0 +1,54 @@
+{
+  "dominio": "www.cartao.chekality.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/08/26 03:20:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao.chekality.com",
+        "aggregated": "/CN=www.cartao.chekality.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0600AF771196C1CF6AE8A38A2BBD0DBBF567",
+      "not_before": 1778202868,
+      "not_after": 1785978867,
+      "fingerprint": "B5:19:1A:B6:D2:EF:4F:EB:0C:3B:92:0E:CD:DB:64:D5:A2:3D:48:88",
+      "sha1": "B5:19:1A:B6:D2:EF:4F:EB:0C:3B:92:0E:CD:DB:64:D5:A2:3D:48:88",
+      "sha256": "25:FD:EE:64:AE:AF:8E:9F:5F:2A:C8:D5:8A:EF:3E:D0:1F:41:BB:73:C6:12:40:5B:4A:5B:4E:9D:23:D7:1A:E6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao.chekality.com",
+        "*.cartao.social",
+        "cartao.chekality.com",
+        "cartao.social"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cartao.social, DNS:cartao.chekality.com, DNS:cartao.social, DNS:www.cartao.chekality.com",
+        "subjectKeyIdentifier": "keyid:27:bc:e7:17:d9:5b:fa:77:d4:10:03:8b:74:a0:b7:34:43:91:e8:b6"
+      }
+    },
+    "cert_index": 4123737741,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4123737741&end=4123737741",
+    "seen": 1778221208.886,
+    "submission_timestamp": 1778206380.257,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

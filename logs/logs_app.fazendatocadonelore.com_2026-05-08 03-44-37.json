@@ -1,0 +1,52 @@
+{
+  "dominio": "app.fazendatocadonelore.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/08/26 03:44:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.fazendatocadonelore.com",
+        "aggregated": "/CN=app.fazendatocadonelore.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8CA64EC51DD3D99D0EE95D8CC1704FF0",
+      "not_before": 1778204088,
+      "not_after": 1785983680,
+      "fingerprint": "61:1D:72:5B:F9:74:0B:AE:0D:2B:6A:85:94:AD:95:47:E4:16:FA:3F",
+      "sha1": "61:1D:72:5B:F9:74:0B:AE:0D:2B:6A:85:94:AD:95:47:E4:16:FA:3F",
+      "sha256": "1B:8D:FA:0F:1A:90:40:D2:E5:D5:54:04:41:6F:F0:07:D4:88:F1:2B:D3:91:3A:E6:AB:8B:17:6A:C3:6B:54:A1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.fazendatocadonelore.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jKY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.fazendatocadonelore.com",
+        "subjectKeyIdentifier": "keyid:13:72:28:0c:e2:3f:8e:46:b1:01:fc:b0:bf:ff:db:a4:54:0c:c3:b1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4124057170,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4124057170&end=4124057170",
+    "seen": 1778222676.78,
+    "submission_timestamp": 1778207689.05,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

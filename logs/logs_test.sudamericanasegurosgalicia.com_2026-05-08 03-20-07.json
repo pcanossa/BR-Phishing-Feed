@@ -1,0 +1,53 @@
+{
+  "dominio": "test.sudamericanasegurosgalicia.com",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/08/26 03:20:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test.sudamericanasegurosgalicia.com",
+        "aggregated": "/CN=test.sudamericanasegurosgalicia.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "06EA54BF413CEE480D378138083A4FE7",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "6D:62:02:C0:66:61:3C:F4:E6:D3:FF:11:63:2F:1E:A4:11:9F:83:CB",
+      "sha1": "6D:62:02:C0:66:61:3C:F4:E6:D3:FF:11:63:2F:1E:A4:11:9F:83:CB",
+      "sha256": "BF:32:92:BD:B3:9A:26:3C:F2:24:14:4A:42:2C:A7:F9:EC:43:CF:3D:DD:5F:40:D8:ED:69:2C:EC:49:24:C5:AF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "test.sudamericanasegurosgalicia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:test.sudamericanasegurosgalicia.com",
+        "subjectKeyIdentifier": "keyid:52:bb:6f:cd:5f:05:e0:da:63:3d:89:36:6f:7c:58:6c:4d:47:ef:fe",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 574136198,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=574136198&end=574136198",
+    "seen": 1778221206.846,
+    "submission_timestamp": 1778049799.824,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
