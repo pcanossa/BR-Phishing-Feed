@@ -1,0 +1,52 @@
+{
+  "dominio": "app.benitaura.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/07/26 20:52:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.benitaura.com",
+        "aggregated": "/CN=app.benitaura.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "82CA999EE667EA6D15CD6F3AD4A6718D",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "D6:00:65:AD:41:40:72:1F:57:D8:44:1A:A8:06:CC:89:DC:D8:19:40",
+      "sha1": "D6:00:65:AD:41:40:72:1F:57:D8:44:1A:A8:06:CC:89:DC:D8:19:40",
+      "sha256": "CD:62:2D:6D:44:EB:56:40:A7:F7:81:F2:A0:74:45:3F:D1:95:C9:27:2C:85:7E:24:F5:2C:BE:C4:92:AE:6B:2D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.benitaura.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.benitaura.com",
+        "subjectKeyIdentifier": "keyid:51:26:84:d7:55:7a:60:8b:67:7c:85:90:6b:73:6e:f7:94:0f:f7:4b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 648602779,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=648602779&end=648602779",
+    "seen": 1778197964.33,
+    "submission_timestamp": 1778197816.184,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
