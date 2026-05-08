@@ -1,0 +1,53 @@
+{
+  "dominio": "ms-debito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/08/26 09:50:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ms-debito.com",
+        "aggregated": "/CN=ms-debito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5B9D619127B579F0136DFDBCE07FBBB9",
+      "not_before": 1778240896,
+      "not_after": 1786020339,
+      "fingerprint": "30:35:81:57:19:DE:A4:17:B6:95:AB:DE:13:E4:F7:A6:0C:24:A8:57",
+      "sha1": "30:35:81:57:19:DE:A4:17:B6:95:AB:DE:13:E4:F7:A6:0C:24:A8:57",
+      "sha256": "2A:79:24:51:A5:2E:82:FA:C1:60:A5:7F:A7:77:CE:25:A6:6C:C2:35:0D:2F:74:FE:4F:71:22:27:92:A4:C8:76",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "ms-debito.com",
+        "*.ms-debito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/W50, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ms-debito.com, DNS:*.ms-debito.com",
+        "subjectKeyIdentifier": "keyid:10:90:af:92:1f:65:99:96:90:76:74:af:4b:5e:6d:b5:4f:6c:8c:99",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 656354952,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=656354952&end=656354952",
+    "seen": 1778244643.295,
+    "submission_timestamp": 1778244497.378,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

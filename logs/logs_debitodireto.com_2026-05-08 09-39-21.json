@@ -1,0 +1,52 @@
+{
+  "dominio": "debitodireto.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/08/26 09:39:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitodireto.com",
+        "aggregated": "/CN=debitodireto.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B321EEF8D243D9CF0E8B71C7952B13BB",
+      "not_before": 1777268904,
+      "not_after": 1785048493,
+      "fingerprint": "3F:87:87:3D:00:84:60:B0:41:0C:2A:63:14:45:A8:23:B2:B9:0E:90",
+      "sha1": "3F:87:87:3D:00:84:60:B0:41:0C:2A:63:14:45:A8:23:B2:B9:0E:90",
+      "sha256": "3D:9F:FB:D0:EA:A3:B6:96:F8:EC:F0:36:28:AD:7B:1B:E9:45:C6:F7:AD:51:FF:00:A1:D9:C4:E8:F5:A5:14:1A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitodireto.com",
+        "*.debitodireto.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/syE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitodireto.com, DNS:*.debitodireto.com",
+        "subjectKeyIdentifier": "keyid:8b:9f:ee:25:7b:3c:5b:1a:c6:af:4a:08:9c:f5:6d:a3:02:a4:71:95"
+      }
+    },
+    "cert_index": 177224234,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x692/282",
+    "seen": 1778243960.632,
+    "submission_timestamp": 1778243955.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
