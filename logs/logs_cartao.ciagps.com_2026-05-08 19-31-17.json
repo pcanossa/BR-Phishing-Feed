@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.ciagps.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/08/26 19:31:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.ciagps.com",
+        "aggregated": "/CN=cartao.ciagps.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0515AC2BAC188CDEC8D7B99D87FBBF38E83F",
+      "not_before": 1777861960,
+      "not_after": 1785637959,
+      "fingerprint": "FD:6B:15:94:9C:4C:E9:90:5E:EE:1E:DB:8F:FB:15:33:F8:3B:A5:14",
+      "sha1": "FD:6B:15:94:9C:4C:E9:90:5E:EE:1E:DB:8F:FB:15:33:F8:3B:A5:14",
+      "sha256": "7B:96:D7:D4:B5:19:E7:BD:D0:AE:F5:C4:C2:FE:00:E7:5D:D3:17:6E:D9:0D:B9:CE:35:4A:F9:6A:75:56:71:9C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.ciagps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.ciagps.com",
+        "subjectKeyIdentifier": "keyid:49:90:ac:9d:4d:eb:ea:c3:b5:2e:59:e2:bf:64:20:e6:41:9d:1b:a5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 681582658,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=681582658&end=681582658",
+    "seen": 1778279474.883,
+    "submission_timestamp": 1777865470.577,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

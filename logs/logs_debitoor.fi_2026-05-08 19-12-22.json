@@ -1,0 +1,53 @@
+{
+  "dominio": "debitoor.fi",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/08/26 19:12:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor.fi",
+        "aggregated": "/CN=debitoor.fi"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "1E8A649CF58976765E54DC74404D3DA6",
+      "not_before": 1778198400,
+      "not_after": 1786054109,
+      "fingerprint": "34:17:3D:F3:48:FC:31:62:A4:69:B7:B3:97:4F:A7:FD:EC:43:A7:97",
+      "sha1": "34:17:3D:F3:48:FC:31:62:A4:69:B7:B3:97:4F:A7:FD:EC:43:A7:97",
+      "sha256": "59:8C:B9:40:48:B6:7F:53:EC:31:3B:7C:91:B9:B9:CC:DA:CD:35:D6:FD:81:BE:5B:08:3E:19:C4:02:D1:34:26",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor.fi",
+        "*.debitoor.fi"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitoor.fi, DNS:*.debitoor.fi",
+        "subjectKeyIdentifier": "keyid:8d:7e:11:b6:39:2f:89:7b:bd:c9:64:ed:a5:5e:f7:41:01:41:78:c7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 661705561,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=661705561&end=661705561",
+    "seen": 1778278341.155,
+    "submission_timestamp": 1778278204.404,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

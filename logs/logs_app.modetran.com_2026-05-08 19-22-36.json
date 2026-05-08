@@ -1,0 +1,51 @@
+{
+  "dominio": "app.modetran.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/08/26 19:22:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.modetran.com",
+        "aggregated": "/CN=app.modetran.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "31C7CE9DDFFC4D7C5CAB84471967E44D",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "E3:99:E6:E3:7D:FA:47:CB:86:C1:9C:B8:EE:09:44:26:65:54:EB:C7",
+      "sha1": "E3:99:E6:E3:7D:FA:47:CB:86:C1:9C:B8:EE:09:44:26:65:54:EB:C7",
+      "sha256": "6E:6F:55:FF:18:A5:FF:1B:45:05:17:0E:49:39:74:75:DF:E0:93:57:2B:C2:97:D1:59:15:49:50:49:2F:91:8B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.modetran.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.modetran.com",
+        "subjectKeyIdentifier": "keyid:a4:13:d2:c3:10:dc:7a:62:58:85:97:0e:d3:39:e4:03:6d:7a:a7:8a"
+      }
+    },
+    "cert_index": 4137005425,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4137005425&end=4137005425",
+    "seen": 1778278953.711,
+    "submission_timestamp": 1778261477.035,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
