@@ -1,0 +1,51 @@
+{
+  "dominio": "app.test.debitoris.ch",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 23:50:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.test.debitoris.ch",
+        "aggregated": "/CN=app.test.debitoris.ch"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "059BAD8D535172185245221C5558BD9269C0",
+      "not_before": 1778190827,
+      "not_after": 1785966826,
+      "fingerprint": "41:2F:84:AE:9A:C0:FA:E4:8B:45:F8:54:B8:8C:08:77:08:94:6B:5E",
+      "sha1": "41:2F:84:AE:9A:C0:FA:E4:8B:45:F8:54:B8:8C:08:77:08:94:6B:5E",
+      "sha256": "51:59:44:29:7A:50:C4:27:C9:DB:B8:EC:7D:EC:DF:71:5C:0F:CE:82:30:4D:3A:4A:4D:5A:30:62:99:6A:62:85",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.test.debitoris.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.test.debitoris.ch",
+        "subjectKeyIdentifier": "keyid:8f:44:59:54:13:8e:51:9c:ef:6f:3d:a5:f6:7c:b6:60:04:c7:92:58"
+      }
+    },
+    "cert_index": 4120932098,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4120932098&end=4120932098",
+    "seen": 1778208637.843,
+    "submission_timestamp": 1778194340.179,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

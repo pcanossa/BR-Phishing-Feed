@@ -1,0 +1,53 @@
+{
+  "dominio": "debitor.casa",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/07/26 23:27:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.casa",
+        "aggregated": "/CN=debitor.casa"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0E3C3FD4203F26D00E8763F9E0CB74B7",
+      "not_before": 1778038368,
+      "not_after": 1785817890,
+      "fingerprint": "EA:21:FD:E8:C5:AD:F5:35:27:D8:23:9E:81:74:6F:6E:F9:72:A1:52",
+      "sha1": "EA:21:FD:E8:C5:AD:F5:35:27:D8:23:9E:81:74:6F:6E:F9:72:A1:52",
+      "sha256": "F8:4E:A1:9B:80:53:BA:41:78:1A:BB:BD:7B:C7:7C:00:AC:9A:D8:96:A6:E7:AD:C4:48:0B:5A:36:D0:2C:9F:5F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.casa",
+        "*.debitor.casa"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Djw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitor.casa, DNS:*.debitor.casa",
+        "subjectKeyIdentifier": "keyid:b9:04:a7:5f:76:f0:cb:80:61:2f:ad:30:e6:bf:be:03:79:b4:51:9c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 573229303,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=573229303&end=573229303",
+    "seen": 1778207240.723,
+    "submission_timestamp": 1778041968.808,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

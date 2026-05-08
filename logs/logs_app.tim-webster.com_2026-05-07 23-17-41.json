@@ -1,0 +1,51 @@
+{
+  "dominio": "app.tim-webster.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/07/26 23:17:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.tim-webster.com",
+        "aggregated": "/CN=app.tim-webster.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "44A4DA9030DF677621226A28F05B06D6",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "78:6A:13:F9:89:F6:66:96:82:A3:62:17:C8:C5:B2:88:51:EB:2E:DD",
+      "sha1": "78:6A:13:F9:89:F6:66:96:82:A3:62:17:C8:C5:B2:88:51:EB:2E:DD",
+      "sha256": "B8:B6:57:4D:A7:6E:0B:33:31:82:A2:B9:10:EC:BB:58:C0:59:FD:FE:78:BC:64:5A:F5:56:FA:F5:43:43:2E:2B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.tim-webster.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.tim-webster.com",
+        "subjectKeyIdentifier": "keyid:18:91:37:fb:af:0b:08:08:80:ba:2e:fa:9c:4f:80:c7:1a:ec:e0:d3"
+      }
+    },
+    "cert_index": 4120478239,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4120478239&end=4120478239",
+    "seen": 1778206660.094,
+    "submission_timestamp": 1778192265.456,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

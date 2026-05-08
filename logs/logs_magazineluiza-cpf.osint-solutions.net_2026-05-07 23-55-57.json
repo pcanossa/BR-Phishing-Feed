@@ -1,0 +1,53 @@
+{
+  "dominio": "magazineluiza-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/07/26 23:55:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B1B929B01575A7EC0EB66842807F1E69",
+      "not_before": 1778191068,
+      "not_after": 1785970664,
+      "fingerprint": "A8:4E:30:11:2D:EA:F6:2D:A8:9F:0C:A6:93:8A:61:3B:BC:96:49:8D",
+      "sha1": "A8:4E:30:11:2D:EA:F6:2D:A8:9F:0C:A6:93:8A:61:3B:BC:96:49:8D",
+      "sha256": "26:A1:76:39:2A:A8:1B:BE:3A:B5:B4:97:51:0B:AD:EE:50:A6:17:94:BE:C8:56:4A:88:A3:28:77:88:A8:3E:85",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "magazineluiza-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/sbk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:magazineluiza-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:95:12:de:84:04:e7:5d:1f:64:17:6f:38:a4:82:1d:ce:05:0b:79:42",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4121005574,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4121005574&end=4121005574",
+    "seen": 1778208957.582,
+    "submission_timestamp": 1778194669.091,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
