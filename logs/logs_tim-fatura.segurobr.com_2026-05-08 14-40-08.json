@@ -1,0 +1,51 @@
+{
+  "dominio": "tim-fatura.segurobr.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/08/26 14:40:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tim-fatura.segurobr.com",
+        "aggregated": "/CN=tim-fatura.segurobr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05405DC28790214816000C7F0BA4D3E9F8F9",
+      "not_before": 1778241909,
+      "not_after": 1786017908,
+      "fingerprint": "09:24:D8:44:30:84:B1:AA:C0:7A:07:F7:89:B4:91:B7:F9:30:AA:E4",
+      "sha1": "09:24:D8:44:30:84:B1:AA:C0:7A:07:F7:89:B4:91:B7:F9:30:AA:E4",
+      "sha256": "E7:35:80:48:1B:28:80:36:35:F9:DB:30:2D:A4:F6:80:E3:0B:7E:B2:B0:E1:BE:D9:04:20:0E:21:87:ED:2D:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tim-fatura.segurobr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tim-fatura.segurobr.com",
+        "subjectKeyIdentifier": "keyid:a3:6f:45:bd:be:73:a7:cf:a3:8e:fe:1b:da:ca:93:d3:95:80:45:cb"
+      }
+    },
+    "cert_index": 4132939536,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4132939536&end=4132939536",
+    "seen": 1778262005.29,
+    "submission_timestamp": 1778245421.756,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

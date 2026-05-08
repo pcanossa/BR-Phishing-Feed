@@ -1,0 +1,54 @@
+{
+  "dominio": "acessoreceita-cpf.com",
+  "marcas_encontradas": [
+    "cpf",
+    "receita"
+  ],
+  "timestamp": "05/08/26 14:07:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "acessoreceita-cpf.com",
+        "aggregated": "/CN=acessoreceita-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "79850DA01A06558E13C0B6A759B51D88",
+      "not_before": 1778239871,
+      "not_after": 1786019454,
+      "fingerprint": "60:73:1A:77:55:26:CC:BD:C1:88:7D:ED:C1:98:F2:77:9C:D9:79:59",
+      "sha1": "60:73:1A:77:55:26:CC:BD:C1:88:7D:ED:C1:98:F2:77:9C:D9:79:59",
+      "sha256": "DF:42:70:2E:2F:81:08:40:FF:B6:5A:9F:0C:DF:71:4D:50:C4:59:D2:28:FF:2A:48:82:0F:B0:FB:30:94:91:54",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "acessoreceita-cpf.com",
+        "*.acessoreceita-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/eYU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:acessoreceita-cpf.com, DNS:*.acessoreceita-cpf.com",
+        "subjectKeyIdentifier": "keyid:b2:6c:57:42:bf:9f:53:40:a4:48:ff:07:c5:e5:ce:77:88:10:d2:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4132482934,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4132482934&end=4132482934",
+    "seen": 1778260039.176,
+    "submission_timestamp": 1778243472.454,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dominio": "mt.prod01.cpf.ssnsgs.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 14:42:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "mt.prod01.cpf.ssnsgs.net",
+        "O": "Itron Networked Solutions, Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=mt.prod01.cpf.ssnsgs.net/O=Itron Networked Solutions, Inc./ST=California"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "D0E58B64431ABD180DCCAF16DD711481",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "11:E7:85:20:D0:95:BA:44:32:3D:1A:54:82:B6:7E:65:C2:E5:4D:9D",
+      "sha1": "11:E7:85:20:D0:95:BA:44:32:3D:1A:54:82:B6:7E:65:C2:E5:4D:9D",
+      "sha256": "6F:6E:29:1B:58:8E:54:B7:97:B6:11:71:AA:13:9B:16:18:7A:92:9B:5B:A5:63:EC:21:46:8E:D5:5A:D0:DC:72",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mt.prod01.cpf.ssnsgs.net",
+        "ammwsroute.prod01.cpf.ssnsgs.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mt.prod01.cpf.ssnsgs.net, DNS:ammwsroute.prod01.cpf.ssnsgs.net",
+        "subjectKeyIdentifier": "keyid:a4:be:c9:d9:b7:8f:a1:4c:8a:07:0a:68:d4:fb:a9:6a:43:ef:36:b6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 599396695,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=599396695&end=599396695",
+    "seen": 1778262131.958,
+    "submission_timestamp": 1778033171.799,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
