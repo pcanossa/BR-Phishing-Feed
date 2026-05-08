@@ -1,0 +1,51 @@
+{
+  "dominio": "spotifyapp.accespayment.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/08/26 12:48:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifyapp.accespayment.com",
+        "aggregated": "/CN=spotifyapp.accespayment.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "051E64F5A52A83B46696E8835E8528F635BE",
+      "not_before": 1778235177,
+      "not_after": 1786011176,
+      "fingerprint": "71:66:3E:E2:25:A5:93:CE:DA:33:67:AE:A2:B0:B5:C5:DA:5B:74:C7",
+      "sha1": "71:66:3E:E2:25:A5:93:CE:DA:33:67:AE:A2:B0:B5:C5:DA:5B:74:C7",
+      "sha256": "52:A8:33:49:D1:A0:DE:05:3C:D8:8C:CB:8A:6F:85:DF:9B:1B:48:6C:E4:A7:0D:2D:C0:38:E7:12:73:10:0E:EC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "spotifyapp.accespayment.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:spotifyapp.accespayment.com",
+        "subjectKeyIdentifier": "keyid:e3:53:bd:2d:58:1a:0c:0a:54:41:33:91:1c:a1:4e:e7:4d:3c:e7:e6"
+      }
+    },
+    "cert_index": 4131346884,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4131346884&end=4131346884",
+    "seen": 1778255338.866,
+    "submission_timestamp": 1778238698.91,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
