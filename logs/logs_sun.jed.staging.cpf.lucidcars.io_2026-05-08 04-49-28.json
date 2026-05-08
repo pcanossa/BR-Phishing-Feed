@@ -1,0 +1,53 @@
+{
+  "dominio": "sun.jed.staging.cpf.lucidcars.io",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 04:49:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sun.jed.staging.cpf.lucidcars.io",
+        "aggregated": "/CN=*.sun.jed.staging.cpf.lucidcars.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05F60B98E1B349A1099B14BAD15F719D00ED",
+      "not_before": 1778207829,
+      "not_after": 1785983828,
+      "fingerprint": "F0:FC:C6:C9:9A:FF:7B:65:37:90:EE:4C:82:24:BF:F9:5A:C0:47:37",
+      "sha1": "F0:FC:C6:C9:9A:FF:7B:65:37:90:EE:4C:82:24:BF:F9:5A:C0:47:37",
+      "sha256": "0A:2A:0A:7C:CA:F3:89:D4:41:FD:81:91:78:4E:8A:7A:89:36:D6:EC:9E:34:76:77:92:41:53:46:B2:CC:59:D7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sun.jed.staging.cpf.lucidcars.io",
+        "sun.jed.staging.cpf.lucidcars.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sun.jed.staging.cpf.lucidcars.io, DNS:sun.jed.staging.cpf.lucidcars.io",
+        "subjectKeyIdentifier": "keyid:45:2b:1d:c6:25:a3:b5:0a:78:63:52:58:a6:83:a9:9f:97:84:ad:0e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4124923140,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4124923140&end=4124923140",
+    "seen": 1778226569.304,
+    "submission_timestamp": 1778211339.262,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
