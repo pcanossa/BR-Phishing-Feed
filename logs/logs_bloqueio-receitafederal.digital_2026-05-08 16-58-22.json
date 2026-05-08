@@ -1,0 +1,53 @@
+{
+  "dominio": "bloqueio-receitafederal.digital",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/08/26 16:58:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bloqueio-receitafederal.digital",
+        "aggregated": "/CN=bloqueio-receitafederal.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05FF01EB2E4C818F13448D7A42A1D038AAE1",
+      "not_before": 1778250793,
+      "not_after": 1786026792,
+      "fingerprint": "ED:6B:82:BD:ED:01:61:62:E5:67:0A:41:86:58:EA:B5:72:BF:54:6E",
+      "sha1": "ED:6B:82:BD:ED:01:61:62:E5:67:0A:41:86:58:EA:B5:72:BF:54:6E",
+      "sha256": "73:54:42:F3:2E:C4:DA:53:37:33:38:F5:34:5B:E4:31:4C:C6:E8:C7:1F:C2:39:07:FA:69:2C:DC:22:24:7E:28",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bloqueio-receitafederal.digital",
+        "*.bloqueio-receitafederal.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.bloqueio-receitafederal.digital, DNS:bloqueio-receitafederal.digital",
+        "subjectKeyIdentifier": "keyid:ef:34:ed:74:3c:3b:e7:0a:8b:48:2a:23:49:b2:c1:c5:5d:d0:19:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4134987478,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4134987478&end=4134987478",
+    "seen": 1778270299.204,
+    "submission_timestamp": 1778254303.428,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

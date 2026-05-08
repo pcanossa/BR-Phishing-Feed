@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi.run",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/08/26 17:00:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi.run",
+        "aggregated": "/CN=oi.run"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B500DCE5CE7DADA5113F5B883F702FD6",
+      "not_before": 1777860844,
+      "not_after": 1785640439,
+      "fingerprint": "FC:3A:52:E2:CD:97:1A:D3:AD:81:AD:8F:6F:AD:30:F3:55:BA:2B:5E",
+      "sha1": "FC:3A:52:E2:CD:97:1A:D3:AD:81:AD:8F:6F:AD:30:F3:55:BA:2B:5E",
+      "sha256": "D5:34:91:B8:7A:30:45:92:49:D2:B1:6F:B7:38:C9:04:F6:C0:07:59:32:41:4D:07:5D:3E:C6:DD:89:A2:A5:0C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi.run",
+        "app.oi.run"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/tQA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi.run, DNS:app.oi.run",
+        "subjectKeyIdentifier": "keyid:25:03:17:9b:66:36:09:cb:61:8d:2f:53:cf:43:76:62:7f:e3:9c:9f"
+      }
+    },
+    "cert_index": 681431066,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=681431066&end=681431066",
+    "seen": 1778270404.365,
+    "submission_timestamp": 1777864498.021,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

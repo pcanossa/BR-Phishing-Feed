@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.xwavetech.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/08/26 16:40:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.xwavetech.com",
+        "aggregated": "/CN=cpf.xwavetech.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "2E9C1116E43BFB990E4EE2BCED6C56A6",
+      "not_before": 1778249476,
+      "not_after": 1786029054,
+      "fingerprint": "DF:25:5B:C5:31:21:E2:A1:4A:A6:5F:F4:77:E6:FC:8A:AE:FB:94:A8",
+      "sha1": "DF:25:5B:C5:31:21:E2:A1:4A:A6:5F:F4:77:E6:FC:8A:AE:FB:94:A8",
+      "sha256": "5C:17:6C:AA:BD:E9:B1:2B:C3:AB:9A:9C:F6:F4:05:D1:C3:6B:3A:DA:1E:79:63:D1:87:11:BA:30:1F:E5:2E:67",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.xwavetech.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Lpw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.xwavetech.com",
+        "subjectKeyIdentifier": "keyid:b2:ff:5c:2f:73:d6:b3:5f:0e:fd:01:95:5e:62:df:a4:6f:5b:23:d1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4134712002,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4134712002&end=4134712002",
+    "seen": 1778269204.366,
+    "submission_timestamp": 1778253076.993,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
