@@ -1,0 +1,51 @@
+{
+  "dominio": "fatura-netflix24.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/08/26 22:35:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatura-netflix24.com",
+        "aggregated": "/CN=fatura-netflix24.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "A2F4C1745AEEC95E",
+      "not_before": 1778011720,
+      "not_after": 1795118920,
+      "fingerprint": "88:7B:B8:53:EA:83:88:BC:FB:C9:38:8B:CE:E9:05:61:B6:64:A7:BD",
+      "sha1": "88:7B:B8:53:EA:83:88:BC:FB:C9:38:8B:CE:E9:05:61:B6:64:A7:BD",
+      "sha256": "A8:6F:85:8C:66:09:D3:A4:5C:B5:2B:86:C6:72:0B:09:CB:D8:EF:BF:A2:12:C0:35:3B:CF:A5:88:62:F0:EB:3D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fatura-netflix24.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fatura-netflix24.com",
+        "subjectKeyIdentifier": "keyid:2b:31:27:8c:ab:67:c1:2e:0e:36:12:02:1c:74:db:42:bc:a7:cd:57"
+      }
+    },
+    "cert_index": 601095372,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=601095372&end=601095372",
+    "seen": 1778290500.908,
+    "submission_timestamp": 1778047337.713,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

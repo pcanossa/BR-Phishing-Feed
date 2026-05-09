@@ -1,0 +1,51 @@
+{
+  "dominio": "boleto.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/08/26 22:39:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto.api.dev.itau.com",
+        "aggregated": "/CN=boleto.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "01C410F1058FD0BF974EF831079AC89F",
+      "not_before": 1778284800,
+      "not_after": 1795391999,
+      "fingerprint": "B9:B5:42:32:29:5E:93:A2:43:50:91:3C:C3:90:0D:76:AB:F1:CF:4F",
+      "sha1": "B9:B5:42:32:29:5E:93:A2:43:50:91:3C:C3:90:0D:76:AB:F1:CF:4F",
+      "sha256": "CE:2A:3A:16:64:37:AB:14:84:52:33:F6:FD:19:16:70:45:C1:90:EC:99:14:7E:A6:50:1B:26:AF:B9:21:32:6A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boleto.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boleto.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:eb:f8:19:7a:b8:0b:be:c1:7b:e3:a6:8f:7c:b2:87:d0:4a:99:23:f4"
+      }
+    },
+    "cert_index": 663776170,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=663776170&end=663776170",
+    "seen": 1778290780.605,
+    "submission_timestamp": 1778289727.68,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

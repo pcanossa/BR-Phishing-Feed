@@ -1,0 +1,51 @@
+{
+  "dominio": "boleto.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/08/26 22:37:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto.api.dev.itau.com",
+        "aggregated": "/CN=boleto.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "01C410F1058FD0BF974EF831079AC89F",
+      "not_before": 1778284800,
+      "not_after": 1795391999,
+      "fingerprint": "3F:6F:1B:A1:83:4C:B5:B0:24:15:17:AA:E3:4C:2E:72:68:40:56:38",
+      "sha1": "3F:6F:1B:A1:83:4C:B5:B0:24:15:17:AA:E3:4C:2E:72:68:40:56:38",
+      "sha256": "4D:90:79:4C:79:48:92:74:DC:0D:5B:B5:70:27:D7:1F:37:0C:34:B4:08:CB:7B:2B:F4:E0:38:85:E4:ED:89:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boleto.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boleto.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:eb:f8:19:7a:b8:0b:be:c1:7b:e3:a6:8f:7c:b2:87:d0:4a:99:23:f4"
+      }
+    },
+    "cert_index": 259055499,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x011/935",
+    "seen": 1778290623.7,
+    "submission_timestamp": 1778290620.647,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}
