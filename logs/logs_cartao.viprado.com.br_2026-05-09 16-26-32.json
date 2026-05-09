@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.viprado.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 16:26:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.viprado.com.br",
+        "aggregated": "/CN=cartao.viprado.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05C46C535105CA6CC93DD4E5126EEF06AB0A",
+      "not_before": 1778337596,
+      "not_after": 1786113595,
+      "fingerprint": "43:06:D3:B0:8E:2F:55:81:05:FE:B6:6E:D4:04:B6:4D:8F:05:E5:09",
+      "sha1": "43:06:D3:B0:8E:2F:55:81:05:FE:B6:6E:D4:04:B6:4D:8F:05:E5:09",
+      "sha256": "20:74:63:7F:BA:76:9C:B4:C0:66:E0:D2:39:1D:0A:89:01:29:0C:29:4F:17:F8:2F:CE:00:40:1F:B8:34:66:52",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.viprado.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.viprado.com.br",
+        "subjectKeyIdentifier": "keyid:ba:82:2d:f8:af:e9:af:9a:f6:ae:82:ca:37:6b:49:16:51:b7:61:cf"
+      }
+    },
+    "cert_index": 4154128432,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4154128432&end=4154128432",
+    "seen": 1778354786.507,
+    "submission_timestamp": 1778341109.053,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

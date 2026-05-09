@@ -1,0 +1,53 @@
+{
+  "dominio": "netflixterapp.workers.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/09/26 16:18:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixterapp.workers.dev",
+        "aggregated": "/CN=netflixterapp.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EFC26FB774045B511304434FD02A5B7C",
+      "not_before": 1778350593,
+      "not_after": 1786130036,
+      "fingerprint": "99:E1:9C:CE:C0:BD:0A:A6:EC:AA:BB:41:BA:79:01:C4:D9:F4:B2:44",
+      "sha1": "99:E1:9C:CE:C0:BD:0A:A6:EC:AA:BB:41:BA:79:01:C4:D9:F4:B2:44",
+      "sha256": "3D:D9:75:F5:51:FF:93:26:32:48:12:E1:ED:EB:11:66:7D:EE:22:57:68:E5:59:10:5A:45:1A:AE:3C:92:9F:0B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "netflixterapp.workers.dev",
+        "*.netflixterapp.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/78I, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflixterapp.workers.dev, DNS:*.netflixterapp.workers.dev",
+        "subjectKeyIdentifier": "keyid:2a:c9:8e:f6:8f:e6:cc:b3:57:44:cf:cd:ac:c7:58:a4:a0:b8:0b:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 674360502,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=674360502&end=674360502",
+    "seen": 1778354309.129,
+    "submission_timestamp": 1778354194.236,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

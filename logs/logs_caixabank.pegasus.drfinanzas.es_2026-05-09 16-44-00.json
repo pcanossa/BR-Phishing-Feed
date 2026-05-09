@@ -1,0 +1,51 @@
+{
+  "dominio": "caixabank.pegasus.drfinanzas.es",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 16:44:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixabank.pegasus.drfinanzas.es",
+        "aggregated": "/CN=caixabank.pegasus.drfinanzas.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "067449F3BBBC6D7B90708F06AEF9F4855135",
+      "not_before": 1778338657,
+      "not_after": 1786114656,
+      "fingerprint": "8F:D5:08:F1:C6:2C:21:0A:B3:72:C6:93:26:ED:4C:ED:1C:D6:EC:53",
+      "sha1": "8F:D5:08:F1:C6:2C:21:0A:B3:72:C6:93:26:ED:4C:ED:1C:D6:EC:53",
+      "sha256": "D0:72:16:F0:19:EE:93:2F:2B:CB:7E:5C:76:56:D9:0D:16:B6:DF:5F:1D:B3:08:77:88:34:1C:22:D3:01:24:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "caixabank.pegasus.drfinanzas.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:caixabank.pegasus.drfinanzas.es",
+        "subjectKeyIdentifier": "keyid:72:41:12:8e:ff:72:42:ce:ab:cc:47:b0:fa:a6:0b:3c:a6:dc:ae:61"
+      }
+    },
+    "cert_index": 4154375719,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4154375719&end=4154375719",
+    "seen": 1778355834.683,
+    "submission_timestamp": 1778342170.039,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
