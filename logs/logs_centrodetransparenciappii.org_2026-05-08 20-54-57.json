@@ -1,0 +1,53 @@
+{
+  "dominio": "centrodetransparenciappii.org",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/08/26 20:54:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "centrodetransparenciappii.org",
+        "aggregated": "/CN=centrodetransparenciappii.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "DDC632AFF0195C4613104E813A7C5C09",
+      "not_before": 1778262119,
+      "not_after": 1786041638,
+      "fingerprint": "5A:46:E7:4A:7A:11:22:52:ED:91:75:A8:79:8E:7A:5B:1D:12:EF:A0",
+      "sha1": "5A:46:E7:4A:7A:11:22:52:ED:91:75:A8:79:8E:7A:5B:1D:12:EF:A0",
+      "sha256": "CE:9B:CF:95:33:70:2C:43:DE:DB:55:2C:06:9F:FB:5E:21:34:89:C2:4F:A8:7C:EE:F7:C1:AC:59:A5:5C:35:ED",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "centrodetransparenciappii.org",
+        "*.centrodetransparenciappii.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/3cY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:centrodetransparenciappii.org, DNS:*.centrodetransparenciappii.org",
+        "subjectKeyIdentifier": "keyid:40:6b:1c:54:61:c4:b1:95:ef:0c:a4:7e:a6:64:92:43:f5:fb:78:d6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4137979927,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4137979927&end=4137979927",
+    "seen": 1778284495.307,
+    "submission_timestamp": 1778265720.313,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

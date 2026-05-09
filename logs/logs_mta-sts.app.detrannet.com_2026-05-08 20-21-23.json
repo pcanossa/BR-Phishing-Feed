@@ -1,0 +1,52 @@
+{
+  "dominio": "mta-sts.app.detrannet.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/08/26 20:21:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mta-sts.app.detrannet.com",
+        "aggregated": "/CN=mta-sts.app.detrannet.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1DEC15523942DBE440FD8AE8C1BAF575",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "77:59:72:29:B7:FE:4C:D6:23:35:7F:26:21:CE:31:88:00:C5:E6:0E",
+      "sha1": "77:59:72:29:B7:FE:4C:D6:23:35:7F:26:21:CE:31:88:00:C5:E6:0E",
+      "sha256": "46:76:6F:20:DD:52:BD:0F:97:2F:D8:27:2C:54:C3:35:43:D7:BE:49:0B:DF:7E:20:C1:27:75:36:97:DC:CE:40",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mta-sts.app.detrannet.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mta-sts.app.detrannet.com",
+        "subjectKeyIdentifier": "keyid:cc:a6:62:c3:b6:f6:f2:5e:1b:37:6d:c5:b9:b6:8b:21:33:99:63:bc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 662448169,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=662448169&end=662448169",
+    "seen": 1778282481.554,
+    "submission_timestamp": 1778282131.609,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
