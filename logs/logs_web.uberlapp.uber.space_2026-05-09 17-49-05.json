@@ -1,0 +1,51 @@
+{
+  "dominio": "web.uberlapp.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/09/26 17:49:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "web.uberlapp.uber.space",
+        "aggregated": "/CN=web.uberlapp.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0562CCA2D8770AB17C37AF994BF8BC94F087",
+      "not_before": 1778342224,
+      "not_after": 1786118223,
+      "fingerprint": "EF:1E:21:59:7B:C3:85:F6:3B:E3:3E:12:BD:C5:F0:0D:4F:16:21:32",
+      "sha1": "EF:1E:21:59:7B:C3:85:F6:3B:E3:3E:12:BD:C5:F0:0D:4F:16:21:32",
+      "sha256": "5E:B8:76:EE:5C:1E:9F:A6:F1:9E:17:93:59:C3:6B:71:A0:AF:3F:B0:81:E5:BF:EE:3E:F5:4A:D6:1E:FE:FF:8A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "web.uberlapp.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:web.uberlapp.uber.space",
+        "subjectKeyIdentifier": "keyid:29:87:84:75:3b:6e:63:d4:fe:c0:61:04:79:08:e7:f7:6e:05:c9:7a"
+      }
+    },
+    "cert_index": 4155273988,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4155273988&end=4155273988",
+    "seen": 1778359739.184,
+    "submission_timestamp": 1778345738.975,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

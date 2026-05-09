@@ -1,0 +1,53 @@
+{
+  "dominio": "www.compte-formation-cpf.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 17:43:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "compte-formation-cpf.fr",
+        "aggregated": "/CN=compte-formation-cpf.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0527E6D1158F25E20284B98B50D3A9EB6432",
+      "not_before": 1778355918,
+      "not_after": 1786131917,
+      "fingerprint": "36:F4:77:31:7E:13:A0:FE:C5:26:0F:8D:50:B3:26:9D:48:9C:89:C4",
+      "sha1": "36:F4:77:31:7E:13:A0:FE:C5:26:0F:8D:50:B3:26:9D:48:9C:89:C4",
+      "sha256": "CC:A5:E2:E0:59:90:66:84:3A:09:67:BC:72:26:8F:48:D8:3F:30:EB:76:43:C9:7B:85:31:8A:D8:D9:FC:55:7A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "compte-formation-cpf.fr",
+        "*.compte-formation-cpf.fr",
+        "*.www.compte-formation-cpf.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.compte-formation-cpf.fr, DNS:*.www.compte-formation-cpf.fr, DNS:compte-formation-cpf.fr",
+        "subjectKeyIdentifier": "keyid:75:55:81:6b:6a:00:0e:a4:cc:1d:87:06:50:db:ba:7d:ad:ef:f7:e4"
+      }
+    },
+    "cert_index": 171585095,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x670/254",
+    "seen": 1778359432.323,
+    "submission_timestamp": 1778359429.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

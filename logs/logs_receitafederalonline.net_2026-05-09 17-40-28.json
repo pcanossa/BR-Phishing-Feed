@@ -1,0 +1,53 @@
+{
+  "dominio": "receitafederalonline.net",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/09/26 17:40:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederalonline.net",
+        "aggregated": "/CN=receitafederalonline.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6BBD6C925AC209510DDD730872D21457",
+      "not_before": 1777870291,
+      "not_after": 1785649793,
+      "fingerprint": "BE:94:3D:12:A9:2D:9D:E0:75:08:22:B1:B7:5B:CD:E6:68:00:29:C0",
+      "sha1": "BE:94:3D:12:A9:2D:9D:E0:75:08:22:B1:B7:5B:CD:E6:68:00:29:C0",
+      "sha256": "0E:3C:A7:3B:7C:D1:55:7E:1E:DA:0E:CA:D9:99:3C:57:21:A6:55:2C:7E:69:4C:F0:F4:B5:78:B2:4D:B4:62:61",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederalonline.net",
+        "*.receitafederalonline.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/a70, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitafederalonline.net, DNS:*.receitafederalonline.net",
+        "subjectKeyIdentifier": "keyid:84:56:3b:8a:7b:e0:b6:10:90:47:28:7d:cd:7a:b5:f2:5b:f7:fb:b2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 682918210,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=682918210&end=682918210",
+    "seen": 1778359222.923,
+    "submission_timestamp": 1777873892.474,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
