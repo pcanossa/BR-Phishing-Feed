@@ -1,0 +1,53 @@
+{
+  "dominio": "santanderkey-app.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/09/26 03:00:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderkey-app.com",
+        "aggregated": "/CN=santanderkey-app.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "FD973A3F41E8452CE4AFC919EDA0AC6F",
+      "not_before": 1778025600,
+      "not_after": 1785830542,
+      "fingerprint": "DA:2B:D7:32:83:1B:7E:CA:CB:20:53:FD:A2:99:2C:52:74:25:79:5C",
+      "sha1": "DA:2B:D7:32:83:1B:7E:CA:CB:20:53:FD:A2:99:2C:52:74:25:79:5C",
+      "sha256": "22:3B:EC:9B:3F:F1:46:FE:74:EB:CE:03:86:7C:53:22:A4:C5:5E:35:6A:83:3A:C0:74:76:46:F2:62:CB:50:51",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santanderkey-app.com",
+        "*.santanderkey-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santanderkey-app.com, DNS:*.santanderkey-app.com",
+        "subjectKeyIdentifier": "keyid:f7:c3:8b:98:68:f8:c9:97:5f:b0:3b:de:86:21:ed:98:81:92:6a:cb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 602040473,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=602040473&end=602040473",
+    "seen": 1778306421.254,
+    "submission_timestamp": 1778054730.125,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

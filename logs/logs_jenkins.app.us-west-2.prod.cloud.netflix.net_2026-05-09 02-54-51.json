@@ -1,0 +1,67 @@
+{
+  "dominio": "jenkins.app.us-west-2.prod.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/09/26 02:54:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jenkins.app.us-west-2.prod.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=jenkins.app.us-west-2.prod.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "028E7D3BA150260B2A08980547579D02",
+      "not_before": 1778284800,
+      "not_after": 1786076880,
+      "fingerprint": "53:93:95:D5:39:84:FB:A7:25:C0:E5:60:C4:1E:B4:8D:4F:68:26:0C",
+      "sha1": "53:93:95:D5:39:84:FB:A7:25:C0:E5:60:C4:1E:B4:8D:4F:68:26:0C",
+      "sha256": "FC:6F:0C:4D:C6:8C:74:2D:10:DA:D4:8D:6C:C5:AC:E0:72:53:8F:F9:63:26:92:45:B7:FD:03:70:A9:EA:D9:86",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins.app.us-west-2.prod.cloud.netflix.net",
+        "jenkins-jetpackblue-controller.cluster.us-west-2.prod.cloud.netflix.net",
+        "jenkins.dynprod.netflix.net",
+        "jenkins.netflix.net",
+        "jenkins.prod.netflix.net",
+        "jenkins.us-west-2.dynprod.netflix.net",
+        "jenkins.us-west-2.prod.netflix.net",
+        "jetpackblue.builds.test.netflix.net",
+        "jetpackblue.jenkins.dynprod.netflix.net",
+        "jetpackblue.jenkins.netflix.net",
+        "jetpackblue.jenkins.prod.netflix.net",
+        "jetpackblue.jenkins.us-west-2.dynprod.netflix.net",
+        "jetpackblue.jenkins.us-west-2.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:jenkins-jetpackblue-controller.cluster.us-west-2.prod.cloud.netflix.net, DNS:jenkins.app.us-west-2.prod.cloud.netflix.net, DNS:jenkins.dynprod.netflix.net, DNS:jenkins.netflix.net, DNS:jenkins.prod.netflix.net, DNS:jenkins.us-west-2.dynprod.netflix.net, DNS:jenkins.us-west-2.prod.netflix.net, DNS:jetpackblue.builds.test.netflix.net, DNS:jetpackblue.jenkins.dynprod.netflix.net, DNS:jetpackblue.jenkins.netflix.net, DNS:jetpackblue.jenkins.prod.netflix.net, DNS:jetpackblue.jenkins.us-west-2.dynprod.netflix.net, DNS:jetpackblue.jenkins.us-west-2.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:a5:20:ac:22:fa:29:d1:7f:5d:c5:73:49:fa:ec:5a:d0:86:89:ff:38"
+      }
+    },
+    "cert_index": 259952959,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x015/441",
+    "seen": 1778306088.164,
+    "submission_timestamp": 1778306085.225,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

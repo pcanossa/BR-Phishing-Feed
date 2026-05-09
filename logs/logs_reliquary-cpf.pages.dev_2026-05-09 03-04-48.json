@@ -1,0 +1,52 @@
+{
+  "dominio": "reliquary-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 03:04:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "reliquary-cpf.pages.dev",
+        "aggregated": "/CN=reliquary-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "69D94559DB5156E0DDC9B5EF5F4A91CE",
+      "not_before": 1778293172,
+      "not_after": 1786069695,
+      "fingerprint": "F3:DC:53:6D:35:2F:D7:11:3C:4E:EA:FC:92:14:A1:6D:1D:77:FC:2F",
+      "sha1": "F3:DC:53:6D:35:2F:D7:11:3C:4E:EA:FC:92:14:A1:6D:1D:77:FC:2F",
+      "sha256": "F4:FC:57:DC:2E:81:2B:EC:A0:A9:3F:88:EA:87:6B:E2:8C:59:07:68:47:E4:75:88:AF:71:BD:DB:58:FC:00:3C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "reliquary-cpf.pages.dev",
+        "*.reliquary-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:reliquary-cpf.pages.dev, DNS:*.reliquary-cpf.pages.dev",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4142888481,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4142888481&end=4142888481",
+    "seen": 1778306684.404,
+    "submission_timestamp": 1778293773.203,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
