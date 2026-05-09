@@ -1,0 +1,13 @@
+{
+    "dominio": "app.caixa360.com",
+    "data_registro": "09/05/26 12:34:56",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio utiliza a marca conhecida 'caixa', associada a instituição financeira brasileira, o que pode induzir confiança nos usuários",
+        "TLD '.com' distinta do domínio oficial da instituição (caixa.gov.br), indicando tentativa de disfarçar origem legítima",
+        "Subdomínio 'app' costuma ser usado para portas de login, facilitando engenharia social de coleta de credenciais",
+        "Domínio recém registrado e não encontrado em listas de domínios legítimos ou whitelist de serviços bancários",
+        "Ausência de registros DKIM/SPF/DNSSEC adequados, típico de infraestrutura criada rapidamente para campanhas de phishing"
+    ],
+    "analise_comportamental": "O domínio 'app.caixa360.com' apresenta múltiplas indicações de campanha de phishing direcionada a usuários brasileiros, ao se aproveitar da reputação da Caixa Econômica Federal e ao empregar estrutura de login falsa para captura de credenciais."
+}

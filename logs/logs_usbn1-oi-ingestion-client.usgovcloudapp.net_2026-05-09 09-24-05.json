@@ -1,0 +1,56 @@
+{
+  "dominio": "usbn1-oi-ingestion-client.usgovcloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/09/26 09:24:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "usbn1-oi-ingestion-client.usgovcloudapp.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "Washington",
+        "aggregated": "/C=US/CN=usbn1-oi-ingestion-client.usgovcloudapp.net/L=Redmond/O=Microsoft Corporation/ST=Washington"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert SHA2 Secure Server CA",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert SHA2 Secure Server CA/O=DigiCert Inc"
+      },
+      "serial_number": "05F0B588EDAEC804C1C7E51B542516C1",
+      "not_before": 1778025600,
+      "not_after": 1795219199,
+      "fingerprint": "2E:13:76:C2:56:90:74:1F:AD:38:92:44:98:E9:E4:5A:80:FE:6D:41",
+      "sha1": "2E:13:76:C2:56:90:74:1F:AD:38:92:44:98:E9:E4:5A:80:FE:6D:41",
+      "sha256": "D4:6E:E2:F1:B0:91:C6:34:B9:F0:9B:CD:15:67:39:75:08:72:08:D0:BA:D1:17:8F:CF:54:F0:F2:70:E5:22:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "usbn1-oi-ingestion-client.usgovcloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA-2.crt",
+        "authorityKeyIdentifier": "keyid:0f:80:61:1c:82:31:61:d5:2f:28:e7:8d:46:38:b4:2c:e1:c6:d9:e2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:usbn1-oi-ingestion-client.usgovcloudapp.net",
+        "subjectKeyIdentifier": "keyid:31:65:b7:61:82:63:ae:e7:d9:1b:93:f9:e3:57:7f:9f:ca:78:58:3f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 581178564,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=581178564&end=581178564",
+    "seen": 1778329442.04,
+    "submission_timestamp": 1778108214.167,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

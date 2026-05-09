@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-it.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 09:08:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-it.workers.dev",
+        "aggregated": "/CN=cpf-it.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059C17DAD7324E32D7E5AA665626C98E3138",
+      "not_before": 1778305181,
+      "not_after": 1786081180,
+      "fingerprint": "1D:5C:62:F1:7F:EF:17:A4:88:0D:DD:17:8A:E0:A8:00:2C:E6:24:F2",
+      "sha1": "1D:5C:62:F1:7F:EF:17:A4:88:0D:DD:17:8A:E0:A8:00:2C:E6:24:F2",
+      "sha256": "85:C3:0C:1D:C2:CE:71:47:6A:69:C6:70:94:EA:D7:93:29:53:8B:7E:E0:21:8A:2D:E5:B5:25:26:B7:91:FE:11",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-it.workers.dev",
+        "*.cpf-it.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-it.workers.dev, DNS:cpf-it.workers.dev",
+        "subjectKeyIdentifier": "keyid:72:0b:11:3e:6c:ee:1e:f5:8f:cf:8d:5a:b5:51:0e:3c:84:2b:49:40"
+      }
+    },
+    "cert_index": 4147961701,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4147961701&end=4147961701",
+    "seen": 1778328524.792,
+    "submission_timestamp": 1778315250.934,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
