@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.gob.ar",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 13:18:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.gob.ar",
+        "aggregated": "/CN=cpf.gob.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "068C998B3A46F849D10297EEB4EE2AE9F6EA",
+      "not_before": 1778326394,
+      "not_after": 1786102393,
+      "fingerprint": "7D:39:47:2A:D4:78:A8:FE:1F:79:CD:C2:DD:68:BF:07:7F:CE:4E:CA",
+      "sha1": "7D:39:47:2A:D4:78:A8:FE:1F:79:CD:C2:DD:68:BF:07:7F:CE:4E:CA",
+      "sha256": "16:5C:4E:75:25:88:DC:25:F7:A8:E5:44:BD:F2:2C:8F:25:D6:4F:93:4A:2B:76:E5:D1:E9:63:71:B5:69:29:22",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.gob.ar",
+        "oficina.cpf.gob.ar",
+        "www.cpf.gob.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.gob.ar, DNS:oficina.cpf.gob.ar, DNS:www.cpf.gob.ar",
+        "subjectKeyIdentifier": "keyid:9f:78:7b:b2:ed:3f:5d:2c:72:6f:ce:91:4d:9c:ef:ed:1c:6d:e3:4d"
+      }
+    },
+    "cert_index": 4151473604,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4151473604&end=4151473604",
+    "seen": 1778343520.654,
+    "submission_timestamp": 1778329906.6,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

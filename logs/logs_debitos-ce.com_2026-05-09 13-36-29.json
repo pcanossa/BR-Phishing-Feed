@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-ce.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/09/26 13:36:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-ce.com",
+        "aggregated": "/CN=debitos-ce.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06D370B5F1DA8F3821255BFABFD27963166B",
+      "not_before": 1778341071,
+      "not_after": 1786117070,
+      "fingerprint": "C0:1C:DA:76:C3:D0:37:C5:31:E2:A3:F2:12:3B:9C:8D:5C:E5:D1:31",
+      "sha1": "C0:1C:DA:76:C3:D0:37:C5:31:E2:A3:F2:12:3B:9C:8D:5C:E5:D1:31",
+      "sha256": "EE:7D:F0:7B:2C:9E:68:7B:B9:BC:05:36:21:DF:89:9B:ED:BF:EA:66:DF:EE:C3:0F:86:EC:0C:FC:D2:F8:B6:79",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-ce.com",
+        "*.debitos-ce.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitos-ce.com, DNS:debitos-ce.com",
+        "subjectKeyIdentifier": "keyid:0a:2b:a9:d3:f1:34:ac:0e:f7:4e:bc:a6:0e:1b:c8:e0:aa:fd:d9:ff"
+      }
+    },
+    "cert_index": 171269060,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x669/019",
+    "seen": 1778344584.295,
+    "submission_timestamp": 1778344582.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

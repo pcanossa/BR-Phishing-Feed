@@ -1,0 +1,53 @@
+{
+  "dominio": "app.caixa360.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 13:20:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa360.com",
+        "aggregated": "/CN=caixa360.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A14343AA388B069B0EB18401102040C5",
+      "not_before": 1778301523,
+      "not_after": 1786081120,
+      "fingerprint": "71:CB:46:1D:BE:61:D6:FE:ED:19:0D:2C:C7:39:66:CB:B1:92:48:19",
+      "sha1": "71:CB:46:1D:BE:61:D6:FE:ED:19:0D:2C:C7:39:66:CB:B1:92:48:19",
+      "sha256": "9B:A4:AC:08:67:A4:FF:75:23:2B:1A:E6:3C:44:96:3A:6E:71:49:19:61:FE:DB:1B:88:E1:24:FC:3D:DF:7E:6C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixa360.com",
+        "app.caixa360.com",
+        "*.app.caixa360.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/oUM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixa360.com, DNS:app.caixa360.com, DNS:*.app.caixa360.com",
+        "subjectKeyIdentifier": "keyid:d7:e9:b1:54:d0:2f:ea:ec:37:51:15:dd:42:84:67:c3:69:7f:28:a7"
+      }
+    },
+    "cert_index": 180005977,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x703/148",
+    "seen": 1778343638.901,
+    "submission_timestamp": 1778343634.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

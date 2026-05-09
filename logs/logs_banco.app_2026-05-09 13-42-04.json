@@ -1,0 +1,52 @@
+{
+  "dominio": "banco.app",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/09/26 13:42:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banco.app",
+        "aggregated": "/CN=banco.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0650CCF38AAB1899FF77FDB690CB62F5127E",
+      "not_before": 1778341305,
+      "not_after": 1786117304,
+      "fingerprint": "6B:D7:15:7D:40:99:16:F5:07:10:EE:94:5E:7A:CF:C6:BA:D7:4C:B1",
+      "sha1": "6B:D7:15:7D:40:99:16:F5:07:10:EE:94:5E:7A:CF:C6:BA:D7:4C:B1",
+      "sha256": "54:0D:07:CA:DC:3F:A3:E0:4A:D8:D5:71:3D:88:65:4A:96:BB:34:33:BB:14:00:5D:37:C4:37:4E:D6:D3:C6:BA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "banco.app",
+        "*.banco.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.banco.app, DNS:banco.app",
+        "subjectKeyIdentifier": "keyid:70:2f:ef:2e:4e:7b:b6:46:95:d5:c7:3f:0d:15:f5:ef:75:30:0b:f0"
+      }
+    },
+    "cert_index": 672854202,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=672854202&end=672854202",
+    "seen": 1778344919.724,
+    "submission_timestamp": 1778344817.71,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
