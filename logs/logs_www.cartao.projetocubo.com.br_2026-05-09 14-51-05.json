@@ -1,0 +1,55 @@
+{
+  "dominio": "www.cartao.projetocubo.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 14:51:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.projetocubo.com.br",
+        "aggregated": "/CN=*.projetocubo.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "055A92E6F4BF38154A7367C4EF2E67E5039C",
+      "not_before": 1778331929,
+      "not_after": 1786107928,
+      "fingerprint": "43:4F:7B:FE:25:2E:FD:0A:54:55:A9:F9:FF:8E:69:D5:C0:EB:BD:1E",
+      "sha1": "43:4F:7B:FE:25:2E:FD:0A:54:55:A9:F9:FF:8E:69:D5:C0:EB:BD:1E",
+      "sha256": "D1:13:DD:D7:12:1A:26:C7:7D:14:91:C8:B1:79:0A:6C:AD:D9:96:3C:5C:89:60:37:3A:70:D0:8B:E0:12:F3:67",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.projetocubo.com.br",
+        "projetocubo.com.br",
+        "www.cartao.projetocubo.com.br",
+        "www.fn.projetocubo.com.br",
+        "www.portfolio.projetocubo.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.projetocubo.com.br, DNS:projetocubo.com.br, DNS:www.cartao.projetocubo.com.br, DNS:www.fn.projetocubo.com.br, DNS:www.portfolio.projetocubo.com.br",
+        "subjectKeyIdentifier": "keyid:c5:09:c9:52:41:81:86:1f:04:69:6f:28:61:b2:26:60:34:a6:a9:af"
+      }
+    },
+    "cert_index": 4152770201,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4152770201&end=4152770201",
+    "seen": 1778349059.834,
+    "submission_timestamp": 1778335442.215,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

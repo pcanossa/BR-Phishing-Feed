@@ -1,0 +1,58 @@
+{
+  "dominio": "dev-webapp.claros.com.au",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/09/26 14:35:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev-api.claros.com.au",
+        "aggregated": "/CN=dev-api.claros.com.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0507E9A27C9A3E52C6D9B11E894150FF6C45",
+      "not_before": 1777882953,
+      "not_after": 1785658952,
+      "fingerprint": "D5:4B:92:4E:9A:C8:30:42:08:E5:6C:4C:B6:DC:07:F8:B6:1E:2C:D5",
+      "sha1": "D5:4B:92:4E:9A:C8:30:42:08:E5:6C:4C:B6:DC:07:F8:B6:1E:2C:D5",
+      "sha256": "04:6F:3D:EA:CB:74:5F:30:A8:02:AF:C4:8B:08:5B:F0:4D:4E:E8:97:96:3D:E4:5D:E3:58:B9:F6:B3:11:C5:26",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dev-api.claros.com.au",
+        "dev-cms-api.claros.com.au",
+        "dev-cms.claros.com.au",
+        "dev-webapp.claros.com.au",
+        "stage-api.claros.com.au",
+        "stage-cms-api.claros.com.au",
+        "stage-cms.claros.com.au",
+        "stage-webapp.claros.com.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:dev-api.claros.com.au, DNS:dev-cms-api.claros.com.au, DNS:dev-cms.claros.com.au, DNS:dev-webapp.claros.com.au, DNS:stage-api.claros.com.au, DNS:stage-cms-api.claros.com.au, DNS:stage-cms.claros.com.au, DNS:stage-webapp.claros.com.au",
+        "subjectKeyIdentifier": "keyid:ac:a1:ab:c6:c5:72:17:f1:38:c8:12:00:28:5f:c6:2b:94:b4:5e:26"
+      }
+    },
+    "cert_index": 1524332029,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1524332029&end=1524332029",
+    "seen": 1778348118.078,
+    "submission_timestamp": 1777886467.177,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "solvidebito.it",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/09/26 14:22:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "solvidebito.it",
+        "aggregated": "/CN=solvidebito.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0575401C9E3CC83B540ADB5BC699EDBF8B40",
+      "not_before": 1778330235,
+      "not_after": 1786106234,
+      "fingerprint": "12:96:F9:01:49:32:92:71:25:AB:90:97:07:78:23:D8:34:DA:08:9D",
+      "sha1": "12:96:F9:01:49:32:92:71:25:AB:90:97:07:78:23:D8:34:DA:08:9D",
+      "sha256": "97:3E:B0:60:48:D1:53:91:59:65:0C:0B:A2:ED:98:CF:A9:99:A5:17:E9:6C:4E:3E:25:40:0A:A8:30:4E:52:7A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "solvidebito.it",
+        "*.solvidebito.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.solvidebito.it, DNS:solvidebito.it",
+        "subjectKeyIdentifier": "keyid:0a:7e:d4:84:97:3b:15:62:9a:46:55:dc:02:39:b0:34:91:f9:a2:10",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4152368507,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4152368507&end=4152368507",
+    "seen": 1778347364.412,
+    "submission_timestamp": 1778333745.486,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

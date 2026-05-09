@@ -1,0 +1,52 @@
+{
+  "dominio": "meusdebitos.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/09/26 14:10:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meusdebitos.com.br",
+        "aggregated": "/CN=meusdebitos.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06C7C91812DDA0789B1D5B017C2A3C743541",
+      "not_before": 1777865346,
+      "not_after": 1785641345,
+      "fingerprint": "D5:1F:3C:E6:FF:C2:69:58:2D:44:D8:0E:E9:0B:F3:3D:8E:67:30:11",
+      "sha1": "D5:1F:3C:E6:FF:C2:69:58:2D:44:D8:0E:E9:0B:F3:3D:8E:67:30:11",
+      "sha256": "D5:92:15:68:B2:45:B4:B6:22:74:15:E2:43:61:1C:91:A2:DC:CA:8E:79:5F:6E:A1:D8:9E:23:19:5A:E6:3C:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "meusdebitos.com.br",
+        "*.meusdebitos.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.meusdebitos.com.br, DNS:meusdebitos.com.br",
+        "subjectKeyIdentifier": "keyid:e4:ab:4e:14:8e:0c:b7:9d:7a:cc:ac:9e:d0:ff:3e:2c:06:19:6e:65"
+      }
+    },
+    "cert_index": 825222818,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=825222818&end=825222818",
+    "seen": 1778346608.08,
+    "submission_timestamp": 1777868857.413,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

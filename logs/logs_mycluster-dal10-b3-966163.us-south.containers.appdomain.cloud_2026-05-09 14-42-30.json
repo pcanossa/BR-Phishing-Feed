@@ -1,0 +1,53 @@
+{
+  "dominio": "mycluster-dal10-b3-966163.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/09/26 14:42:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mycluster-dal10-b3-966163.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=mycluster-dal10-b3-966163.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "061A8C5B316C54154B17BC2D04545F893826",
+      "not_before": 1777883086,
+      "not_after": 1785659085,
+      "fingerprint": "37:48:6B:F0:C0:D2:D8:1C:40:1D:0A:08:F9:F1:F0:0A:FE:CF:76:20",
+      "sha1": "37:48:6B:F0:C0:D2:D8:1C:40:1D:0A:08:F9:F1:F0:0A:FE:CF:76:20",
+      "sha256": "FE:D4:97:FC:C6:B7:5B:51:3B:F9:26:B6:0F:94:E0:56:F7:17:F1:6A:27:FC:AC:41:F8:BC:A6:A3:8C:F7:77:0D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mycluster-dal10-b3-966163.us-south.containers.appdomain.cloud",
+        "*.mycluster-dal10-b3-966163-06f44d22618ae95582d3bd04c616b293-0000.us-south.containers.appdomain.cloud",
+        "mycluster-dal10-b3-966163-06f44d22618ae95582d3bd04c616b293-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.mycluster-dal10-b3-966163-06f44d22618ae95582d3bd04c616b293-0000.us-south.containers.appdomain.cloud, DNS:mycluster-dal10-b3-966163-06f44d22618ae95582d3bd04c616b293-0000.us-south.containers.appdomain.cloud, DNS:mycluster-dal10-b3-966163.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:bf:76:f5:92:94:20:b6:9e:55:f5:fa:af:d5:c0:cf:71:45:e6:8f:37"
+      }
+    },
+    "cert_index": 1524347899,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1524347899&end=1524347899",
+    "seen": 1778348545.772,
+    "submission_timestamp": 1777886599.333,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

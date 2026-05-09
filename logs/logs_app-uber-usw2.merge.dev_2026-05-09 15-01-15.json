@@ -1,0 +1,52 @@
+{
+  "dominio": "app-uber-usw2.merge.dev",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/09/26 15:01:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-uber-usw2.merge.dev",
+        "aggregated": "/CN=app-uber-usw2.merge.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9054890C674D536113B63B7B175AA09B",
+      "not_before": 1778345935,
+      "not_after": 1786125533,
+      "fingerprint": "F3:EE:47:4F:15:0B:2E:FC:CE:D8:C2:62:A3:C9:BF:87:57:BF:DE:B9",
+      "sha1": "F3:EE:47:4F:15:0B:2E:FC:CE:D8:C2:62:A3:C9:BF:87:57:BF:DE:B9",
+      "sha256": "32:BF:E7:01:F4:95:99:34:07:40:57:59:AC:4E:B9:AB:7A:9E:34:8F:07:08:B6:D9:5E:4F:D9:48:86:D2:71:2C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-uber-usw2.merge.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/kFQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-uber-usw2.merge.dev",
+        "subjectKeyIdentifier": "keyid:60:22:ea:0a:5d:03:91:3e:65:e9:93:22:f2:ad:55:dd:3b:7d:f9:35",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 673615040,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=673615040&end=673615040",
+    "seen": 1778349670.04,
+    "submission_timestamp": 1778349536.571,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
