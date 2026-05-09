@@ -1,0 +1,51 @@
+{
+  "dominio": "app.apknetflix.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/08/26 21:47:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.apknetflix.com",
+        "aggregated": "/CN=app.apknetflix.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "79DF4D00824B0DBD06A31D22DF0B343A",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "61:8F:A7:14:31:AA:59:A8:A6:64:87:94:B1:51:84:B5:F9:B5:E4:28",
+      "sha1": "61:8F:A7:14:31:AA:59:A8:A6:64:87:94:B1:51:84:B5:F9:B5:E4:28",
+      "sha256": "51:F8:05:57:0C:40:B2:07:6D:B5:0E:66:01:8F:7E:D4:D7:77:A5:50:25:19:97:3D:B0:50:F9:F4:E5:46:F1:57",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.apknetflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.apknetflix.com",
+        "subjectKeyIdentifier": "keyid:4a:bf:27:45:29:64:a3:cd:44:28:91:90:fd:54:33:1a:23:f3:6b:93"
+      }
+    },
+    "cert_index": 4138508301,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4138508301&end=4138508301",
+    "seen": 1778287659.89,
+    "submission_timestamp": 1778273052.425,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

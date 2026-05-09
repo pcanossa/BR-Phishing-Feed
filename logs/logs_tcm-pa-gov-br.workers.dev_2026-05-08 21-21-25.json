@@ -1,0 +1,53 @@
+{
+  "dominio": "tcm-pa-gov-br.workers.dev",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/08/26 21:21:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tcm-pa-gov-br.workers.dev",
+        "aggregated": "/CN=tcm-pa-gov-br.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "59A2E42091072EDA139E05D19E8CD48F",
+      "not_before": 1778265861,
+      "not_after": 1786045308,
+      "fingerprint": "4D:33:33:93:85:BF:55:C9:79:45:B6:19:98:DD:34:98:0F:23:5A:DE",
+      "sha1": "4D:33:33:93:85:BF:55:C9:79:45:B6:19:98:DD:34:98:0F:23:5A:DE",
+      "sha256": "98:9E:6E:34:15:35:56:AE:01:E0:19:52:8E:2A:30:42:8D:FF:72:A8:9A:08:E5:F0:7F:F3:5C:F5:F7:A9:0F:B8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "tcm-pa-gov-br.workers.dev",
+        "*.tcm-pa-gov-br.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/WaI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:tcm-pa-gov-br.workers.dev, DNS:*.tcm-pa-gov-br.workers.dev",
+        "subjectKeyIdentifier": "keyid:44:c1:67:64:be:eb:45:60:45:90:02:8f:13:6d:97:ac:c3:c7:9e:c4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4138255860,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4138255860&end=4138255860",
+    "seen": 1778286083.706,
+    "submission_timestamp": 1778269462.339,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

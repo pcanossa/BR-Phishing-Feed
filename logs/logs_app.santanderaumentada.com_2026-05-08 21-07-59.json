@@ -1,0 +1,52 @@
+{
+  "dominio": "app.santanderaumentada.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/08/26 21:07:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.santanderaumentada.com",
+        "aggregated": "/CN=app.santanderaumentada.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "5DD4F0F31D85F2537FB1A56D3E6BA087",
+      "not_before": 1777420800,
+      "not_after": 1785283199,
+      "fingerprint": "A1:C0:01:8F:61:4B:70:A5:20:67:83:03:E9:76:31:C2:C6:C5:6A:21",
+      "sha1": "A1:C0:01:8F:61:4B:70:A5:20:67:83:03:E9:76:31:C2:C6:C5:6A:21",
+      "sha256": "34:91:D3:6B:5B:B5:EA:88:D3:7A:47:97:A9:78:2D:0D:FB:D9:FD:D9:DA:D2:7F:BF:D5:04:BA:B6:8D:13:A2:C2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.santanderaumentada.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.santanderaumentada.com",
+        "subjectKeyIdentifier": "keyid:3f:ae:c2:b2:51:1f:3d:ef:a8:48:e5:25:a2:6c:62:63:36:d1:8a:21",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4138122329,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4138122329&end=4138122329",
+    "seen": 1778285276.674,
+    "submission_timestamp": 1778267563.434,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
