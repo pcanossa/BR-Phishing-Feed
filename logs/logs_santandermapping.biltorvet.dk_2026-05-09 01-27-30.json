@@ -1,0 +1,51 @@
+{
+  "dominio": "santandermapping.biltorvet.dk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/09/26 01:27:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santandermapping.biltorvet.dk",
+        "aggregated": "/CN=santandermapping.biltorvet.dk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0622D619063EB75DEE0DD7C9B59D2C68E626",
+      "not_before": 1778282989,
+      "not_after": 1786058988,
+      "fingerprint": "6B:F6:6D:7F:18:47:1A:1B:74:7A:1B:CD:FD:46:84:1D:63:DC:D1:84",
+      "sha1": "6B:F6:6D:7F:18:47:1A:1B:74:7A:1B:CD:FD:46:84:1D:63:DC:D1:84",
+      "sha256": "B1:79:61:16:28:AB:0A:98:47:50:74:4B:3B:28:CF:39:92:C7:24:E2:C3:86:17:0C:20:9C:0B:E3:3D:E2:FD:01",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santandermapping.biltorvet.dk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santandermapping.biltorvet.dk",
+        "subjectKeyIdentifier": "keyid:88:19:dc:6e:11:1a:1a:de:b0:4f:a1:42:88:8b:9b:bc:2a:37:2a:19"
+      }
+    },
+    "cert_index": 4141493599,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4141493599&end=4141493599",
+    "seen": 1778300846.262,
+    "submission_timestamp": 1778288280.9,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

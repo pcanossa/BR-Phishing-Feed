@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.duliconsulting.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 01:27:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.duliconsulting.com",
+        "aggregated": "/CN=cartao.duliconsulting.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A62B0396590CE22D13EB698914ECA801",
+      "not_before": 1778280035,
+      "not_after": 1786059623,
+      "fingerprint": "46:A7:34:84:4C:9E:F6:0B:D4:D8:0C:C4:28:64:AE:08:3E:12:10:E2",
+      "sha1": "46:A7:34:84:4C:9E:F6:0B:D4:D8:0C:C4:28:64:AE:08:3E:12:10:E2",
+      "sha256": "21:F4:D6:2C:0E:4A:B7:B4:09:6F:74:91:22:E4:C5:E7:B9:9C:8D:35:A6:BB:DE:77:6E:B7:E6:C9:62:6C:BC:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.duliconsulting.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/pis, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.duliconsulting.com",
+        "subjectKeyIdentifier": "keyid:c0:3a:7e:27:d4:3c:ee:a1:98:70:fe:e6:9e:18:18:ce:63:e5:ed:2f"
+      }
+    },
+    "cert_index": 4141492340,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4141492340&end=4141492340",
+    "seen": 1778300842.739,
+    "submission_timestamp": 1778288273.962,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
