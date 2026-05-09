@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-de-credito.pages.dev",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 18:22:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-de-credito.pages.dev",
+        "aggregated": "/CN=cartao-de-credito.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05153AC4C26BBA0880AB46791F4F08976ED7",
+      "not_before": 1778344283,
+      "not_after": 1786120282,
+      "fingerprint": "EE:B0:50:92:29:DF:DA:F6:BD:42:15:F4:44:94:15:7E:BC:C1:95:DE",
+      "sha1": "EE:B0:50:92:29:DF:DA:F6:BD:42:15:F4:44:94:15:7E:BC:C1:95:DE",
+      "sha256": "25:AE:CC:07:AD:F3:E5:FC:04:EE:12:BF:FA:68:90:49:A4:C7:D8:58:90:12:E5:8F:6F:2C:6F:C9:FE:EC:4E:F4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-de-credito.pages.dev",
+        "*.cartao-de-credito.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cartao-de-credito.pages.dev, DNS:cartao-de-credito.pages.dev",
+        "subjectKeyIdentifier": "keyid:7f:d5:e9:03:cd:f8:92:27:2e:a7:33:34:5a:6a:6b:48:2d:82:38:3f"
+      }
+    },
+    "cert_index": 4155732932,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4155732932&end=4155732932",
+    "seen": 1778361766.314,
+    "submission_timestamp": 1778347795.989,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

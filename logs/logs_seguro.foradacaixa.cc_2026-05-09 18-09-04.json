@@ -1,0 +1,52 @@
+{
+  "dominio": "seguro.foradacaixa.cc",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 18:09:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.foradacaixa.cc",
+        "aggregated": "/CN=www.foradacaixa.cc"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "060B4F8FE2B43EC3E54A5EBA25895BA54281",
+      "not_before": 1778343475,
+      "not_after": 1786119474,
+      "fingerprint": "97:64:BC:AD:B9:71:98:44:8F:7F:A3:11:AB:33:F4:84:13:FF:14:84",
+      "sha1": "97:64:BC:AD:B9:71:98:44:8F:7F:A3:11:AB:33:F4:84:13:FF:14:84",
+      "sha256": "C2:7A:38:49:E6:79:7C:DD:A2:41:F6:8D:DB:E9:C6:AF:26:69:6E:56:E6:A7:66:AF:44:89:FF:61:67:AA:C5:5D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.foradacaixa.cc",
+        "seguro.foradacaixa.cc"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:seguro.foradacaixa.cc, DNS:www.foradacaixa.cc",
+        "subjectKeyIdentifier": "keyid:4a:00:a0:da:4c:a1:e8:6c:e1:ed:0b:bb:b1:15:71:45:2f:35:19:1b"
+      }
+    },
+    "cert_index": 4155553329,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4155553329&end=4155553329",
+    "seen": 1778360938.544,
+    "submission_timestamp": 1778346988.456,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.entrar.api.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 18:19:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.entrar.api.br",
+        "aggregated": "/CN=cpf.entrar.api.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "064FC5EAD7CAC14C3BD46C68DA96DFB2B94F",
+      "not_before": 1778344015,
+      "not_after": 1786120014,
+      "fingerprint": "4F:BD:54:21:5B:73:50:16:D8:83:BE:55:05:F7:21:F6:02:5D:DF:9A",
+      "sha1": "4F:BD:54:21:5B:73:50:16:D8:83:BE:55:05:F7:21:F6:02:5D:DF:9A",
+      "sha256": "7F:7F:61:6C:12:B5:19:22:18:9B:70:56:D2:31:24:DC:87:46:D8:E4:B6:4E:A0:F6:E5:13:AB:71:24:97:72:C9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.entrar.api.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.entrar.api.br",
+        "subjectKeyIdentifier": "keyid:0e:88:59:a4:92:dc:8e:5f:34:25:3d:95:be:a7:99:f5:d7:c5:bd:5f"
+      }
+    },
+    "cert_index": 4155694251,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4155694251&end=4155694251",
+    "seen": 1778361586.45,
+    "submission_timestamp": 1778347624.867,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
