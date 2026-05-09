@@ -1,0 +1,68 @@
+{
+  "dominio": "jenkins.app.us-west-2.prod.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/09/26 05:13:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "hydrogen.builds.test.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=hydrogen.builds.test.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0680371F8A78B73FD110109C97D7C9DC",
+      "not_before": 1778284800,
+      "not_after": 1786077294,
+      "fingerprint": "29:2B:96:58:F2:12:AB:AD:2D:04:E7:B5:8A:0D:67:17:44:4A:8A:6F",
+      "sha1": "29:2B:96:58:F2:12:AB:AD:2D:04:E7:B5:8A:0D:67:17:44:4A:8A:6F",
+      "sha256": "9F:33:76:57:75:35:6A:90:97:C1:B7:84:F5:CB:B9:A8:AF:F9:C4:94:4A:B2:C7:CA:FF:8F:E0:C4:79:E2:7B:C5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "hydrogen.builds.test.netflix.net",
+        "hydrogen.jenkins.dynprod.netflix.net",
+        "hydrogen.jenkins.netflix.net",
+        "hydrogen.jenkins.prod.netflix.net",
+        "hydrogen.jenkins.us-west-2.dynprod.netflix.net",
+        "hydrogen.jenkins.us-west-2.prod.netflix.net",
+        "jenkins-hydrogen-controller.cluster.us-west-2.prod.cloud.netflix.net",
+        "jenkins.app.us-west-2.prod.cloud.netflix.net",
+        "jenkins.dynprod.netflix.net",
+        "jenkins.netflix.net",
+        "jenkins.prod.netflix.net",
+        "jenkins.us-west-2.dynprod.netflix.net",
+        "jenkins.us-west-2.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:hydrogen.builds.test.netflix.net, DNS:hydrogen.jenkins.dynprod.netflix.net, DNS:hydrogen.jenkins.netflix.net, DNS:hydrogen.jenkins.prod.netflix.net, DNS:hydrogen.jenkins.us-west-2.dynprod.netflix.net, DNS:hydrogen.jenkins.us-west-2.prod.netflix.net, DNS:jenkins-hydrogen-controller.cluster.us-west-2.prod.cloud.netflix.net, DNS:jenkins.app.us-west-2.prod.cloud.netflix.net, DNS:jenkins.dynprod.netflix.net, DNS:jenkins.netflix.net, DNS:jenkins.prod.netflix.net, DNS:jenkins.us-west-2.dynprod.netflix.net, DNS:jenkins.us-west-2.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:c6:e7:36:7a:51:61:0d:ce:08:12:5f:5d:03:d9:38:f3:ca:1e:b2:e4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4144660988,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4144660988&end=4144660988",
+    "seen": 1778314428.855,
+    "submission_timestamp": 1778301295.094,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
