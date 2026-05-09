@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-scpo-seq1-dv1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 08:07:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-seq1-dv1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-seq1-dv1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5DC6A73E4EBFF8A613F7122DA5FE2610",
+      "not_before": 1778307887,
+      "not_after": 1786087483,
+      "fingerprint": "F2:03:D2:3D:29:9A:0F:66:A7:96:BF:39:54:1F:FF:EF:51:D0:01:F5",
+      "sha1": "F2:03:D2:3D:29:9A:0F:66:A7:96:BF:39:54:1F:FF:EF:51:D0:01:F5",
+      "sha256": "23:C9:CA:AB:85:FD:83:EE:B4:D8:DC:4D:A3:2B:00:2C:7E:E4:71:F3:22:2A:E5:F5:65:D2:67:91:E4:B5:52:28",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-seq1-dv1.jdadelivers.com",
+        "*.cpf-scpo-seq1-dv1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/XcY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-scpo-seq1-dv1.jdadelivers.com, DNS:*.cpf-scpo-seq1-dv1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:e8:65:59:b6:80:03:5a:e4:54:52:69:35:b3:a7:5b:fe:cd:7f:b4:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4147086487,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4147086487&end=4147086487",
+    "seen": 1778324841.641,
+    "submission_timestamp": 1778311488.443,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
