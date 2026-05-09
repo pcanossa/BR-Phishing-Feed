@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-techfeed.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 07:49:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-techfeed.com",
+        "aggregated": "/CN=cpf-techfeed.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "065BCC11BC77692C8AAE70A36CA1CC0B9354",
+      "not_before": 1778306926,
+      "not_after": 1786082925,
+      "fingerprint": "E6:D9:1A:53:C8:6A:0C:96:F9:4A:C4:BC:C0:0F:E3:03:99:A4:97:DA",
+      "sha1": "E6:D9:1A:53:C8:6A:0C:96:F9:4A:C4:BC:C0:0F:E3:03:99:A4:97:DA",
+      "sha256": "1A:64:81:F1:DB:02:91:8C:0C:58:02:58:A3:41:16:EF:2A:D7:36:A1:38:23:F5:09:C5:A8:4C:73:69:59:77:03",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-techfeed.com",
+        "*.cpf-techfeed.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-techfeed.com, DNS:cpf-techfeed.com",
+        "subjectKeyIdentifier": "keyid:65:66:53:59:9d:da:9e:ae:c2:71:96:04:f3:58:d6:30:38:a3:dd:46"
+      }
+    },
+    "cert_index": 4146835017,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4146835017&end=4146835017",
+    "seen": 1778323766.18,
+    "submission_timestamp": 1778310439.685,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

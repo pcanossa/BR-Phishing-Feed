@@ -1,0 +1,13 @@
+{
+    "dominio": "scm.asev3-cpf-udp-uatizna-003.p.azurewebsites.net",
+    "data_registro": "09/05/26 12:00:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Subdomínio contém o termo 'cpf', que é a sigla do documento de identidade brasileiro e costuma ser usado em campanhas de phishing para capturar dados de vítimas no Brasil",
+        "Estrutura do subdomínio ('asev3-cpf-udp-uatizna-003') é semelhante a nomes gerados automaticamente, típico de serviços de hospedagem usados por atores maliciosos para C2 ou landing pages",
+        "Domínio base 'azurewebsites.net' é legítimo, porém o subdomínio não corresponde a nenhum site conhecido ou listado em fontes de confiança",
+        "Presença de 'uat' (User Acceptance Testing) pode indicar ambiente de teste interno de um atacante, comum em infraestruturas de phishing malware",
+        "Ausência em listas públicas de domínios benignos e em bases de dados de marcas registradas brasileiras"
+    ],
+    "analise_comportamental": "O subdomínio 'scm.asev3-cpf-udp-uatizna-003.p.azurewebsites.net' apresenta sinais típicos de um site de phishing direcionado ao público brasileiro, aproveitando a familiaridade do termo 'cpf' para induzir a entrega de informações sensíveis. A combinação de um nome gerado automaticamente e hospedagem em um serviço de nuvem público facilita a criação rápida de landing pages e evasão de bloqueios, indicando provável uso como ponto de coleta de credenciais ou distribuição de malware."
+}

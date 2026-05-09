@@ -1,0 +1,51 @@
+{
+  "dominio": "seguro.checkout-caixa.shop",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 07:17:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguro.checkout-caixa.shop",
+        "aggregated": "/CN=seguro.checkout-caixa.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing RSA CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing RSA CA 4/O=SSL Corporation"
+      },
+      "serial_number": "08D08F125DAF9A4394991536CD743996",
+      "not_before": 1778103405,
+      "not_after": 1785878736,
+      "fingerprint": "28:50:14:30:F9:27:3B:59:47:04:B4:64:40:DA:2E:74:C5:7F:B8:AB",
+      "sha1": "28:50:14:30:F9:27:3B:59:47:04:B4:64:40:DA:2E:74:C5:7F:B8:AB",
+      "sha256": "CB:E4:6E:7E:32:5B:7A:3D:2C:72:19:B8:AB:13:7B:C1:D9:CE:E1:EA:D1:E0:46:51:31:97:CA:8A:80:4E:6D:F3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "seguro.checkout-caixa.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-R4.cer",
+        "authorityKeyIdentifier": "keyid:e0:cb:53:55:38:db:7a:a5:de:93:08:d5:c1:18:55:5c:5a:ea:ac:a1",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:seguro.checkout-caixa.shop",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 580678955,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=580678955&end=580678955",
+    "seen": 1778321857.036,
+    "submission_timestamp": 1778104006.857,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
