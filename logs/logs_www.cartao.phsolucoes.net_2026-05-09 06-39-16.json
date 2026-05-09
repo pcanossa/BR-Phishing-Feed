@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao.phsolucoes.net",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 06:39:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao.phsolucoes.net",
+        "aggregated": "/CN=www.cartao.phsolucoes.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06CC00C68962971DBF3F7B4AC5D52FFABB53",
+      "not_before": 1778302787,
+      "not_after": 1786078786,
+      "fingerprint": "D0:CA:5C:97:4A:E1:23:65:C2:AC:CF:C3:60:CF:4E:B8:83:B1:00:52",
+      "sha1": "D0:CA:5C:97:4A:E1:23:65:C2:AC:CF:C3:60:CF:4E:B8:83:B1:00:52",
+      "sha256": "E9:89:C9:16:8E:9A:D2:60:CC:80:88:E8:D1:5F:E3:9B:8D:6A:1B:6E:E5:92:A9:F1:C7:BE:CF:7A:CB:D7:88:BF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao.phsolucoes.net",
+        "*.phsolucoes.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.phsolucoes.net, DNS:www.cartao.phsolucoes.net",
+        "subjectKeyIdentifier": "keyid:54:25:32:d7:ad:9c:a1:60:9f:bf:80:4a:ee:46:ba:24:5a:fe:3b:f1"
+      }
+    },
+    "cert_index": 4145858732,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4145858732&end=4145858732",
+    "seen": 1778319553.771,
+    "submission_timestamp": 1778306301.718,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

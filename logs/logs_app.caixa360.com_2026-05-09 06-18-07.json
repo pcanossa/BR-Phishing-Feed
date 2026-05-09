@@ -1,0 +1,54 @@
+{
+  "dominio": "app.caixa360.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 06:18:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa360.com",
+        "aggregated": "/CN=caixa360.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A14343AA388B069B0EB18401102040C5",
+      "not_before": 1778301523,
+      "not_after": 1786081120,
+      "fingerprint": "9D:08:CB:AF:81:38:43:1D:06:DE:A4:8C:D7:A8:EF:27:D7:8D:FD:BF",
+      "sha1": "9D:08:CB:AF:81:38:43:1D:06:DE:A4:8C:D7:A8:EF:27:D7:8D:FD:BF",
+      "sha256": "8B:8E:30:70:55:92:CB:EE:31:7F:93:B8:06:25:93:D2:C4:78:43:6A:BF:93:0D:F5:F2:BA:18:5C:BA:DF:82:41",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixa360.com",
+        "app.caixa360.com",
+        "*.app.caixa360.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/oUM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixa360.com, DNS:app.caixa360.com, DNS:*.app.caixa360.com",
+        "subjectKeyIdentifier": "keyid:d7:e9:b1:54:d0:2f:ea:ec:37:51:15:dd:42:84:67:c3:69:7f:28:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4145572280,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4145572280&end=4145572280",
+    "seen": 1778318283.726,
+    "submission_timestamp": 1778305124.43,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
