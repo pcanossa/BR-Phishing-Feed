@@ -1,0 +1,52 @@
+{
+  "dominio": "api.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 00:42:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "065ACF3C27DE7C6EE5B043037DD0DF73BC2C",
+      "not_before": 1778281573,
+      "not_after": 1786057572,
+      "fingerprint": "C8:E5:87:1C:64:48:04:79:1E:54:58:65:92:2A:D2:E4:5E:50:E9:C4",
+      "sha1": "C8:E5:87:1C:64:48:04:79:1E:54:58:65:92:2A:D2:E4:5E:50:E9:C4",
+      "sha256": "98:34:1C:CB:FE:25:B5:71:88:9B:D1:F2:7A:EE:EC:42:2F:5C:83:6D:48:E3:5F:46:EE:01:5E:E8:EE:C3:56:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:b6:d4:cf:59:f5:10:6a:43:bc:30:55:1a:42:dc:4d:a6:36:de:65:ab",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4140859341,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4140859341&end=4140859341",
+    "seen": 1778298133.883,
+    "submission_timestamp": 1778285083.972,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

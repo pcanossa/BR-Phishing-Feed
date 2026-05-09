@@ -1,0 +1,53 @@
+{
+  "dominio": "mtconsultasdebitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/09/26 00:26:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mtconsultasdebitos.com",
+        "aggregated": "/CN=mtconsultasdebitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A7F63D819A71944C1351604D8F3B1B97",
+      "not_before": 1778279543,
+      "not_after": 1786059131,
+      "fingerprint": "77:9E:72:16:92:C8:66:57:AD:33:EF:BD:D4:98:A6:8E:B0:79:F2:8F",
+      "sha1": "77:9E:72:16:92:C8:66:57:AD:33:EF:BD:D4:98:A6:8E:B0:79:F2:8F",
+      "sha256": "3F:71:75:52:97:B4:36:32:08:B0:A9:61:8A:8C:AD:E3:AB:1E:B2:2A:A3:EE:0D:D9:14:20:7C:A1:58:75:62:01",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mtconsultasdebitos.com",
+        "*.mtconsultasdebitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/p_Y, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mtconsultasdebitos.com, DNS:*.mtconsultasdebitos.com",
+        "subjectKeyIdentifier": "keyid:f2:87:be:24:ce:de:f2:fd:33:45:d4:f5:02:40:f5:ff:99:1a:b3:62",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4140610666,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4140610666&end=4140610666",
+    "seen": 1778297199.087,
+    "submission_timestamp": 1778283144.095,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

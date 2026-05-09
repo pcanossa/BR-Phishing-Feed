@@ -1,0 +1,52 @@
+{
+  "dominio": "api.magalubank.dev.hub.fsapps.io",
+  "marcas_encontradas": [
+    "magalu"
+  ],
+  "timestamp": "05/09/26 00:40:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.magalubank.dev.hub.fsapps.io",
+        "aggregated": "/CN=api.magalubank.dev.hub.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "061937B48B4BBB24D2AA1E24FF7D71D46F39",
+      "not_before": 1778281460,
+      "not_after": 1786057459,
+      "fingerprint": "10:31:E9:0C:BB:F7:45:E8:59:3E:A0:07:46:2B:57:9D:CD:86:D2:E1",
+      "sha1": "10:31:E9:0C:BB:F7:45:E8:59:3E:A0:07:46:2B:57:9D:CD:86:D2:E1",
+      "sha256": "44:BD:80:56:55:43:1F:AC:A0:CE:E4:F1:72:AA:FA:5E:8A:27:0B:80:5D:FB:AC:0A:02:49:A7:F3:E4:CF:D9:04",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.magalubank.dev.hub.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.magalubank.dev.hub.fsapps.io",
+        "subjectKeyIdentifier": "keyid:e2:2c:28:10:14:bc:b8:4a:d5:f8:1b:ce:cf:38:4e:d3:30:36:63:6a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4140836109,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4140836109&end=4140836109",
+    "seen": 1778298056.514,
+    "submission_timestamp": 1778284971.244,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

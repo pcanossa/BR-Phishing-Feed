@@ -1,0 +1,51 @@
+{
+  "dominio": "banco.igne.app.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/09/26 00:44:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banco.igne.app.br",
+        "aggregated": "/CN=banco.igne.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06AB5474C025228D11C450AEECB60B9F3534",
+      "not_before": 1778281706,
+      "not_after": 1786057705,
+      "fingerprint": "07:97:20:E7:5B:1B:8E:D0:72:2A:DE:24:15:FA:90:C3:F7:92:83:A7",
+      "sha1": "07:97:20:E7:5B:1B:8E:D0:72:2A:DE:24:15:FA:90:C3:F7:92:83:A7",
+      "sha256": "6D:C5:7D:CD:A6:77:8F:9F:18:F1:C0:CE:4B:8B:53:56:DE:EC:F7:27:31:1F:D2:38:CC:AF:03:88:F4:87:5A:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "banco.igne.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banco.igne.app.br",
+        "subjectKeyIdentifier": "keyid:ee:1f:4a:19:86:51:ac:45:68:0a:25:5a:c4:1a:47:99:87:18:48:38"
+      }
+    },
+    "cert_index": 4140887813,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4140887813&end=4140887813",
+    "seen": 1778298240.336,
+    "submission_timestamp": 1778285219.704,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
