@@ -1,0 +1,53 @@
+{
+  "dominio": "receitasonline.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/09/26 12:28:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitasonline.app",
+        "aggregated": "/CN=receitasonline.app"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A9B00F7ABFF8C26EEA7ACC71E4003D24",
+      "not_before": 1778284800,
+      "not_after": 1786116274,
+      "fingerprint": "2A:07:69:2D:D7:C6:16:74:08:73:CE:18:E3:4E:CF:FE:0B:29:34:A7",
+      "sha1": "2A:07:69:2D:D7:C6:16:74:08:73:CE:18:E3:4E:CF:FE:0B:29:34:A7",
+      "sha256": "5E:7D:C5:32:84:8F:56:BB:6E:BD:46:5D:F8:56:44:E5:BC:E6:4A:7F:AB:79:70:8C:30:99:C2:0C:40:86:3D:D2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitasonline.app",
+        "*.receitasonline.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitasonline.app, DNS:*.receitasonline.app",
+        "subjectKeyIdentifier": "keyid:cc:0f:f3:fe:53:ba:d8:ab:f0:f6:39:5c:66:c0:ea:ec:bb:ca:c7:bf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 672097316,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=672097316&end=672097316",
+    "seen": 1778340520.689,
+    "submission_timestamp": 1778340370.011,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

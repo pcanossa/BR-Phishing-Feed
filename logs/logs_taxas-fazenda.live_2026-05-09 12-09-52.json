@@ -1,0 +1,53 @@
+{
+  "dominio": "taxas-fazenda.live",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/09/26 12:09:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "taxas-fazenda.live",
+        "aggregated": "/CN=taxas-fazenda.live"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8C64540F29FD0A3E13489DB05B037CBA",
+      "not_before": 1778066721,
+      "not_after": 1785846021,
+      "fingerprint": "95:CE:8C:BD:B0:66:D9:D8:2F:FE:B1:D3:B3:86:03:9E:45:A4:8A:A7",
+      "sha1": "95:CE:8C:BD:B0:66:D9:D8:2F:FE:B1:D3:B3:86:03:9E:45:A4:8A:A7",
+      "sha256": "F7:BB:D2:43:D9:1A:CF:4B:B1:61:CA:A3:4B:5A:04:6B:4B:3D:8C:5F:CB:A7:F8:32:8B:5D:15:5E:C1:47:EF:43",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "taxas-fazenda.live",
+        "*.taxas-fazenda.live"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jGQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:taxas-fazenda.live, DNS:*.taxas-fazenda.live",
+        "subjectKeyIdentifier": "keyid:83:3b:10:5a:e0:27:25:c0:57:1a:54:1e:b3:d4:f0:8d:88:7b:d5:a1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 604006506,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=604006506&end=604006506",
+    "seen": 1778339387.604,
+    "submission_timestamp": 1778070322.422,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

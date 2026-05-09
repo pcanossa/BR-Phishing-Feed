@@ -1,0 +1,54 @@
+{
+  "dominio": "itauditshub.sigmatrust.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/09/26 12:14:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sigmatrust.app",
+        "aggregated": "/CN=sigmatrust.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A718FF1C327800A413544BF716AB49BB",
+      "not_before": 1778066833,
+      "not_after": 1785846429,
+      "fingerprint": "D8:9F:D6:4B:10:2D:48:57:89:A2:E6:6F:B2:38:48:69:A4:D1:E6:F9",
+      "sha1": "D8:9F:D6:4B:10:2D:48:57:89:A2:E6:6F:B2:38:48:69:A4:D1:E6:F9",
+      "sha256": "D1:12:51:AA:A2:7D:0D:D0:CA:DE:63:C0:8B:36:16:26:7C:5A:78:51:15:D9:C0:82:96:01:E5:3E:2C:B6:9C:54",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "sigmatrust.app",
+        "itauditshub.sigmatrust.app",
+        "*.itauditshub.sigmatrust.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/pxg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:sigmatrust.app, DNS:itauditshub.sigmatrust.app, DNS:*.itauditshub.sigmatrust.app",
+        "subjectKeyIdentifier": "keyid:3d:43:52:78:12:d1:d2:80:fa:26:d2:9d:2f:49:5a:8f:e5:e3:2e:f8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 604020648,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=604020648&end=604020648",
+    "seen": 1778339688.834,
+    "submission_timestamp": 1778070433.566,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

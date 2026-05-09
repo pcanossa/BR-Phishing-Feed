@@ -1,0 +1,52 @@
+{
+  "dominio": "chenkm-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 12:58:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "chenkm-cpf.workers.dev",
+        "aggregated": "/CN=chenkm-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06456BCA8A45B7572B6757F1870D95160BA6",
+      "not_before": 1778325314,
+      "not_after": 1786101313,
+      "fingerprint": "71:40:08:B7:CE:92:F5:4A:5B:6B:E9:71:66:C0:24:43:64:30:C6:24",
+      "sha1": "71:40:08:B7:CE:92:F5:4A:5B:6B:E9:71:66:C0:24:43:64:30:C6:24",
+      "sha256": "04:17:DC:B3:DD:D9:CF:0E:3E:55:49:2E:76:58:44:7C:5A:71:FC:ED:46:C5:29:6F:D8:21:9F:A5:B4:85:C4:9D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "chenkm-cpf.workers.dev",
+        "*.chenkm-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.chenkm-cpf.workers.dev, DNS:chenkm-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:52:57:98:a7:45:ca:af:8e:0e:96:03:16:d1:ea:52:cc:d5:cd:a2:41"
+      }
+    },
+    "cert_index": 4151200172,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4151200172&end=4151200172",
+    "seen": 1778342293.959,
+    "submission_timestamp": 1778328828.393,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
