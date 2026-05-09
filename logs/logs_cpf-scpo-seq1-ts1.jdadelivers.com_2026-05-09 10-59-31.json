@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-scpo-seq1-ts1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 10:59:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-seq1-ts1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-seq1-ts1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "1527F4EDE427F4BD135A76229C2CC35B",
+      "not_before": 1778318208,
+      "not_after": 1786097643,
+      "fingerprint": "BF:51:B3:89:1E:B2:D3:9C:7F:4A:95:35:01:DD:EE:8B:38:7C:11:1A",
+      "sha1": "BF:51:B3:89:1E:B2:D3:9C:7F:4A:95:35:01:DD:EE:8B:38:7C:11:1A",
+      "sha256": "51:6F:6A:3D:66:16:27:4A:72:FC:44:13:94:1B:AB:BB:6E:57:6B:E5:AF:14:90:F4:62:CF:BB:A1:6B:D6:86:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-seq1-ts1.jdadelivers.com",
+        "*.cpf-scpo-seq1-ts1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/FSc, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-scpo-seq1-ts1.jdadelivers.com, DNS:*.cpf-scpo-seq1-ts1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:7c:db:54:0e:4d:02:cd:7f:94:49:32:22:d3:20:07:8c:02:d0:d7:f0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4149530419,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4149530419&end=4149530419",
+    "seen": 1778335167.644,
+    "submission_timestamp": 1778321808.642,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

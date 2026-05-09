@@ -1,0 +1,51 @@
+{
+  "dominio": "app.santanderaumentada.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/09/26 10:56:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.santanderaumentada.com",
+        "aggregated": "/CN=app.santanderaumentada.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "A83F7988806E4BF23FE7FD66B8B32443",
+      "not_before": 1778284800,
+      "not_after": 1786147199,
+      "fingerprint": "C1:F4:C6:44:B3:30:4F:C2:B3:2C:49:E6:2C:86:E4:F3:D4:84:3F:AC",
+      "sha1": "C1:F4:C6:44:B3:30:4F:C2:B3:2C:49:E6:2C:86:E4:F3:D4:84:3F:AC",
+      "sha256": "47:41:35:07:03:68:55:36:41:A4:65:73:00:2A:22:13:19:85:D3:12:6D:E0:CA:91:2C:B4:3D:23:01:10:CB:28",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.santanderaumentada.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.santanderaumentada.com",
+        "subjectKeyIdentifier": "keyid:22:8b:66:d7:34:59:69:67:08:e9:11:23:b3:d0:45:8a:2c:ba:f1:86"
+      }
+    },
+    "cert_index": 4149483820,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4149483820&end=4149483820",
+    "seen": 1778334970.667,
+    "submission_timestamp": 1778321638.403,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

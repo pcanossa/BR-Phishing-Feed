@@ -1,0 +1,53 @@
+{
+  "dominio": "sao1-habitacao-prd-caixa-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 10:11:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sao1-habitacao-prd-caixa.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=sao1-habitacao-prd-caixa.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05D857A0EAB6CE0158C296A9D718A013A379",
+      "not_before": 1777863900,
+      "not_after": 1785639899,
+      "fingerprint": "AF:B9:D8:53:33:B7:CE:49:9D:69:F3:1F:DF:91:5B:31:02:E6:AB:CC",
+      "sha1": "AF:B9:D8:53:33:B7:CE:49:9D:69:F3:1F:DF:91:5B:31:02:E6:AB:CC",
+      "sha256": "85:5C:1F:F0:2A:B2:82:5C:3D:8A:02:76:9F:84:59:3A:29:A8:71:9B:B5:AF:8D:62:D2:6B:7D:02:CB:3C:8A:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sao1-habitacao-prd-caixa.us-south.containers.appdomain.cloud",
+        "*.sao1-habitacao-prd-caixa-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud",
+        "sao1-habitacao-prd-caixa-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sao1-habitacao-prd-caixa-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud, DNS:sao1-habitacao-prd-caixa-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud, DNS:sao1-habitacao-prd-caixa.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:71:a6:68:e1:ee:77:68:ac:56:bb:e5:b9:1d:33:5c:10:ba:e9:91:e1"
+      }
+    },
+    "cert_index": 824964093,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=824964093&end=824964093",
+    "seen": 1778332316.157,
+    "submission_timestamp": 1777867410.837,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
