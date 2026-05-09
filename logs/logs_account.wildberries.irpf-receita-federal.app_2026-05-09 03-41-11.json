@@ -1,0 +1,51 @@
+{
+  "dominio": "account.wildberries.irpf-receita-federal.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/09/26 03:41:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "account.wildberries.irpf-receita-federal.app",
+        "aggregated": "/CN=account.wildberries.irpf-receita-federal.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06DD5B6CCD2DFADA5989E09EF4C5AE1B3371",
+      "not_before": 1778292398,
+      "not_after": 1786068397,
+      "fingerprint": "95:E5:35:63:FA:5D:CF:F4:14:AE:98:E1:8E:DE:1D:FD:02:3B:EC:62",
+      "sha1": "95:E5:35:63:FA:5D:CF:F4:14:AE:98:E1:8E:DE:1D:FD:02:3B:EC:62",
+      "sha256": "06:8C:E5:FF:D3:00:63:44:11:DA:B6:2E:4E:35:1F:78:13:ED:BC:87:F1:D0:84:88:E5:70:FB:BD:93:A8:D6:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "account.wildberries.irpf-receita-federal.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:account.wildberries.irpf-receita-federal.app",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4143393730,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4143393730&end=4143393730",
+    "seen": 1778308867.307,
+    "submission_timestamp": 1778295911.431,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

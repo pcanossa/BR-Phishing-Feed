@@ -1,0 +1,52 @@
+{
+  "dominio": "www.loja-vivo.app",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/09/26 03:42:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.loja-vivo.app",
+        "aggregated": "/CN=www.loja-vivo.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "315CB8E28434730B",
+      "not_before": 1778296001,
+      "not_after": 1795403201,
+      "fingerprint": "E9:9A:30:E8:97:39:AE:30:04:4A:86:72:83:AF:83:25:27:D0:F1:D1",
+      "sha1": "E9:9A:30:E8:97:39:AE:30:04:4A:86:72:83:AF:83:25:27:D0:F1:D1",
+      "sha256": "2A:AC:D6:6F:E8:15:6A:E0:92:9B:2D:6D:3B:9B:B1:C6:12:AC:0C:08:F3:E8:65:82:E8:C5:5D:81:6C:07:7F:80",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.loja-vivo.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.loja-vivo.app",
+        "subjectKeyIdentifier": "keyid:ca:05:e8:c7:89:ae:b3:c9:41:3f:b1:5d:46:d5:c2:c6:b0:b9:37:c8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4143417458,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4143417458&end=4143417458",
+    "seen": 1778308971.984,
+    "submission_timestamp": 1778296002.458,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

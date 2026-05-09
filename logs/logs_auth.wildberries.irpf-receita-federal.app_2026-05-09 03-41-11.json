@@ -1,0 +1,51 @@
+{
+  "dominio": "auth.wildberries.irpf-receita-federal.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/09/26 03:41:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "auth.wildberries.irpf-receita-federal.app",
+        "aggregated": "/CN=auth.wildberries.irpf-receita-federal.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0665FE7BDCF6CF585D0A24E1965ABE363012",
+      "not_before": 1778292398,
+      "not_after": 1786068397,
+      "fingerprint": "10:45:DE:1F:F4:46:91:9F:96:D3:CF:B4:3C:B7:C8:1C:39:A0:78:CA",
+      "sha1": "10:45:DE:1F:F4:46:91:9F:96:D3:CF:B4:3C:B7:C8:1C:39:A0:78:CA",
+      "sha256": "93:17:AE:80:E7:D8:DA:D1:ED:18:71:D3:C7:4A:CD:19:92:85:00:AD:75:4C:95:32:4F:8A:EB:A6:1E:76:B5:E1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "auth.wildberries.irpf-receita-federal.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:auth.wildberries.irpf-receita-federal.app",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4143393805,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4143393805&end=4143393805",
+    "seen": 1778308867.313,
+    "submission_timestamp": 1778295911.787,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.super.cell.id",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 03:10:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.super.cell.id",
+        "aggregated": "/CN=cartao.super.cell.id"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0F9849665BC310C3E28772B7034E9F72",
+      "not_before": 1778284800,
+      "not_after": 1786060799,
+      "fingerprint": "60:9D:BD:F1:8E:15:90:77:7A:D5:21:97:7A:6F:D2:48:87:7E:C4:73",
+      "sha1": "60:9D:BD:F1:8E:15:90:77:7A:D5:21:97:7A:6F:D2:48:87:7E:C4:73",
+      "sha256": "D3:22:78:08:36:55:7B:46:96:98:63:05:49:E8:75:CE:85:5A:1B:CE:13:12:D7:76:90:34:DA:59:0D:74:F0:9E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.super.cell.id"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.super.cell.id",
+        "subjectKeyIdentifier": "keyid:ad:38:fd:e3:35:ef:d7:b1:87:2e:28:75:ad:d3:4c:de:97:e9:72:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4142976079,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4142976079&end=4142976079",
+    "seen": 1778307053.409,
+    "submission_timestamp": 1778294135.256,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
