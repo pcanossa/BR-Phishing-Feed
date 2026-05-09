@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.brainny.cc",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 04:07:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.brainny.cc",
+        "aggregated": "/CN=cartao.brainny.cc"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05E5EBEF29A0EAA56959FAC208C4947E5044",
+      "not_before": 1778293923,
+      "not_after": 1786069922,
+      "fingerprint": "B1:AB:44:14:C2:AF:D5:BD:60:D6:BC:27:EB:11:14:F0:9B:F4:86:E6",
+      "sha1": "B1:AB:44:14:C2:AF:D5:BD:60:D6:BC:27:EB:11:14:F0:9B:F4:86:E6",
+      "sha256": "8E:F6:93:23:89:F4:69:D5:65:4D:1F:A6:CA:C9:89:00:2C:51:5D:74:A5:3B:AA:D4:79:A0:6E:87:FA:48:07:9E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.brainny.cc"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.brainny.cc",
+        "subjectKeyIdentifier": "keyid:da:19:38:cf:94:0e:32:1b:b5:a5:ae:ad:34:40:56:ce:66:06:ea:a3"
+      }
+    },
+    "cert_index": 4143759890,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4143759890&end=4143759890",
+    "seen": 1778310454.82,
+    "submission_timestamp": 1778297437.013,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

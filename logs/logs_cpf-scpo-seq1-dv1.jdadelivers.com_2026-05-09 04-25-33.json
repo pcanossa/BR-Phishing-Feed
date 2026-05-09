@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-scpo-seq1-dv1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/09/26 04:25:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-seq1-dv1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-seq1-dv1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "913672015ABA7FF31346ACBBDE9EE844",
+      "not_before": 1778307877,
+      "not_after": 1786087395,
+      "fingerprint": "7F:B3:F1:5D:33:3B:30:47:70:5C:C4:16:1A:FC:A6:BF:32:E6:22:28",
+      "sha1": "7F:B3:F1:5D:33:3B:30:47:70:5C:C4:16:1A:FC:A6:BF:32:E6:22:28",
+      "sha256": "BC:8C:F6:8E:11:F7:98:FD:38:25:78:D8:FA:78:70:3A:54:F2:AF:0B:DD:23:88:A7:33:C9:5C:98:36:1B:24:8F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-seq1-dv1.jdadelivers.com",
+        "*.cpf-scpo-seq1-dv1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/kTY, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-scpo-seq1-dv1.jdadelivers.com, DNS:*.cpf-scpo-seq1-dv1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:ba:33:4d:06:b8:9d:85:74:9b:dd:62:55:05:91:a1:c4:4e:7c:6e:69",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 667409993,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=667409993&end=667409993",
+    "seen": 1778311531.094,
+    "submission_timestamp": 1778311477.978,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
