@@ -1,0 +1,52 @@
+{
+  "dominio": "qr.claroappstore.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/09/26 11:34:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "qr.claroappstore.com",
+        "aggregated": "/CN=qr.claroappstore.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "F01E264A030B404E114F14A341A73FFF",
+      "not_before": 1777868423,
+      "not_after": 1785648004,
+      "fingerprint": "24:9B:0A:07:E3:50:FE:33:AE:5E:BC:AD:01:37:DC:AB:00:9E:B8:15",
+      "sha1": "24:9B:0A:07:E3:50:FE:33:AE:5E:BC:AD:01:37:DC:AB:00:9E:B8:15",
+      "sha256": "13:BF:58:E9:98:16:FA:D7:43:0A:08:7B:F0:07:6C:96:0B:18:A8:C9:26:11:76:9D:35:9B:B4:6D:97:C6:FE:AF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "qr.claroappstore.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/8B4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:qr.claroappstore.com",
+        "subjectKeyIdentifier": "keyid:4b:43:81:60:68:8d:4f:a4:6a:04:fd:c2:13:73:83:23:6c:ad:c4:6b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 682553132,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=682553132&end=682553132",
+    "seen": 1778337259.483,
+    "submission_timestamp": 1777872023.785,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
