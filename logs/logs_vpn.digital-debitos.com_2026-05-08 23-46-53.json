@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn.digital-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/08/26 23:46:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn.digital-debitos.com",
+        "aggregated": "/CN=vpn.digital-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "060E2FD6A95894CFF9B5AA6BA0FA0E2F1F62",
+      "not_before": 1778276107,
+      "not_after": 1786052106,
+      "fingerprint": "1E:DF:86:24:3A:BE:72:60:5B:6C:2B:EF:B6:18:38:C3:EF:05:E5:E0",
+      "sha1": "1E:DF:86:24:3A:BE:72:60:5B:6C:2B:EF:B6:18:38:C3:EF:05:E5:E0",
+      "sha256": "02:DA:C4:6B:8A:9D:6F:98:04:9B:C0:55:13:4C:66:D3:45:77:0D:54:81:BB:C3:FC:95:3B:E7:FF:90:4C:43:06",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn.digital-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn.digital-debitos.com",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4139971168,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4139971168&end=4139971168",
+    "seen": 1778294810.966,
+    "submission_timestamp": 1778279621.211,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

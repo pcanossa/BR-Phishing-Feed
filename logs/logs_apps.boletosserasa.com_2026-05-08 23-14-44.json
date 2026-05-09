@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/08/26 23:14:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.boletosserasa.com",
+        "aggregated": "/CN=apps.boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2CB672C3630ADD5AF65B3E81F78F71D1",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "9A:FF:A1:6F:3B:6F:04:CF:51:A7:54:DC:53:F0:2C:AD:BE:ED:EF:CC",
+      "sha1": "9A:FF:A1:6F:3B:6F:04:CF:51:A7:54:DC:53:F0:2C:AD:BE:ED:EF:CC",
+      "sha256": "14:CD:73:B3:45:26:0B:01:89:2C:0E:E0:7F:7E:EA:68:1F:D7:2F:D9:4B:A6:6D:CA:CF:5B:0A:5D:47:9D:C4:2A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:87:59:8d:55:c2:4b:45:15:e2:95:36:0e:13:ca:5b:32:9e:3e:51:8d"
+      }
+    },
+    "cert_index": 824256959,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=824256959&end=824256959",
+    "seen": 1778292880.273,
+    "submission_timestamp": 1777863501.077,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
