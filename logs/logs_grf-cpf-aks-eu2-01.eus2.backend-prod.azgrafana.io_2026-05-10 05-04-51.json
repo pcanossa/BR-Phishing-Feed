@@ -1,0 +1,57 @@
+{
+  "dominio": "grf-cpf-aks-eu2-01.eus2.backend-prod.azgrafana.io",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 05:04:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "grf-cpf-aks-eu2-01-bcg2c0gsfvejbwcm.eus2.grafana.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=grf-cpf-aks-eu2-01-bcg2c0gsfvejbwcm.eus2.grafana.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft Azure RSA TLS Issuing CA 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft Azure RSA TLS Issuing CA 04/O=Microsoft Corporation"
+      },
+      "serial_number": "3303F97A2485E28CCC419F276A000003F97A24",
+      "not_before": 1778099555,
+      "not_after": 1785875555,
+      "fingerprint": "13:06:2A:ED:38:54:B2:D7:55:C9:EF:E6:2B:A6:D5:2E:85:68:B6:19",
+      "sha1": "13:06:2A:ED:38:54:B2:D7:55:C9:EF:E6:2B:A6:D5:2E:85:68:B6:19",
+      "sha256": "5B:AB:2A:D5:C1:52:8D:59:B2:93:44:29:9D:37:77:90:2C:2D:AF:55:E9:64:5C:C2:AA:7E:67:A4:29:48:54:1C",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "grf-cpf-aks-eu2-01-bcg2c0gsfvejbwcm.eus2.grafana.azure.com",
+        "grf-cpf-aks-eu2-01.eus2.backend-prod.azgrafana.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2004%20-%20xsign.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:3b:70:d1:53:e9:76:25:9d:60:a8:ca:66:0f:c6:9b:ae:6f:54:16:6a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.311.76.509.1.1\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:grf-cpf-aks-eu2-01-bcg2c0gsfvejbwcm.eus2.grafana.azure.com, DNS:grf-cpf-aks-eu2-01.eus2.backend-prod.azgrafana.io",
+        "subjectKeyIdentifier": "keyid:16:df:af:97:08:9b:17:0e:df:d7:3c:0a:9b:7b:eb:ba:5a:ea:6e:db",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 607683242,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=607683242&end=607683242",
+    "seen": 1778400284.618,
+    "submission_timestamp": 1778100161.436,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

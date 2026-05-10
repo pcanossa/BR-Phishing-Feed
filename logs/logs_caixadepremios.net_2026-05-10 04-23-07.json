@@ -1,0 +1,52 @@
+{
+  "dominio": "caixadepremios.net",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/10/26 04:23:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixadepremios.net",
+        "aggregated": "/CN=caixadepremios.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0578A3A6405AC40D228E5A77161AD4B2C3E3",
+      "not_before": 1778391528,
+      "not_after": 1786167527,
+      "fingerprint": "43:E4:53:B0:FB:B0:F3:B4:31:11:CF:A3:48:ED:12:D9:39:19:7A:F6",
+      "sha1": "43:E4:53:B0:FB:B0:F3:B4:31:11:CF:A3:48:ED:12:D9:39:19:7A:F6",
+      "sha256": "CD:78:C1:B3:BD:8B:DD:29:12:EA:DE:88:0D:64:D8:52:06:EF:0D:C1:00:56:CB:F0:62:05:06:86:11:D9:6C:A8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixadepremios.net",
+        "*.caixadepremios.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixadepremios.net, DNS:caixadepremios.net",
+        "subjectKeyIdentifier": "keyid:d2:ad:ba:d2:8b:98:64:83:b1:0c:e2:75:df:8e:2b:3f:88:e5:fc:fe"
+      }
+    },
+    "cert_index": 4163259955,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4163259955&end=4163259955",
+    "seen": 1778397780.458,
+    "submission_timestamp": 1778395144.56,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "login.clarosystem.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/10/26 04:58:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.clarosystem.com",
+        "aggregated": "/CN=login.clarosystem.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2E42A9F79E2B11A89D9D6118F4B01551",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "D2:13:41:81:C7:0B:0F:A1:09:64:92:50:EE:94:18:74:AB:8B:65:27",
+      "sha1": "D2:13:41:81:C7:0B:0F:A1:09:64:92:50:EE:94:18:74:AB:8B:65:27",
+      "sha256": "EE:EC:11:F8:FE:4D:8D:46:16:2B:31:56:ED:8B:F8:BF:E1:B3:E5:1D:EB:87:E5:10:2C:04:06:17:A0:C7:D1:DA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.clarosystem.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.clarosystem.com",
+        "subjectKeyIdentifier": "keyid:99:12:a9:7b:c9:05:2c:1e:79:5b:a3:d2:ff:6b:6d:3d:d3:e7:d3:e8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1547108607,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1547108607&end=1547108607",
+    "seen": 1778399893.392,
+    "submission_timestamp": 1777906748.733,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

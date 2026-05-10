@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.medina22.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 04:19:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "medina22.workers.dev",
+        "aggregated": "/CN=medina22.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "35AE77153F4FD8B31392D2689C6CD428",
+      "not_before": 1778393805,
+      "not_after": 1786173274,
+      "fingerprint": "75:6E:0C:08:30:F9:4F:1C:47:75:BF:40:8A:44:90:8C:EC:C9:9B:96",
+      "sha1": "75:6E:0C:08:30:F9:4F:1C:47:75:BF:40:8A:44:90:8C:EC:C9:9B:96",
+      "sha256": "D8:89:89:F7:BE:32:B8:2A:15:A0:8E:03:07:BF:D9:0E:3D:30:52:8B:B3:53:52:50:C5:1A:C8:AA:0F:0A:61:87",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "medina22.workers.dev",
+        "*.cpf.medina22.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Na4, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:medina22.workers.dev, DNS:*.cpf.medina22.workers.dev",
+        "subjectKeyIdentifier": "keyid:5b:07:bb:0b:b5:d0:bf:2f:5d:68:b7:ff:1c:66:07:3d:fa:db:e6:46",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 585983215,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=585983215&end=585983215",
+    "seen": 1778397541.717,
+    "submission_timestamp": 1778397406.354,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
