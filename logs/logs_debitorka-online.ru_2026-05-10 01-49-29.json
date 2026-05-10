@@ -1,0 +1,52 @@
+{
+  "dominio": "debitorka-online.ru",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 01:49:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitorka-online.ru",
+        "aggregated": "/CN=debitorka-online.ru"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "062F52921A72AB68B6CE0ED9C6BC4BC8CE1A",
+      "not_before": 1778374914,
+      "not_after": 1786150913,
+      "fingerprint": "48:DA:B5:F4:4E:F7:8F:B9:77:DC:AB:6D:48:11:D4:B5:BB:5B:88:5D",
+      "sha1": "48:DA:B5:F4:4E:F7:8F:B9:77:DC:AB:6D:48:11:D4:B5:BB:5B:88:5D",
+      "sha256": "72:62:44:85:E1:0E:4E:52:FC:E3:D9:7E:B8:F1:4A:25:66:F5:A7:8C:6D:7A:B9:0F:D2:CD:85:2F:CA:2B:19:B0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitorka-online.ru",
+        "www.debitorka-online.ru"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitorka-online.ru, DNS:www.debitorka-online.ru",
+        "subjectKeyIdentifier": "keyid:4b:36:e1:4e:0f:24:58:0c:1b:2d:11:fd:f6:15:bb:ab:2f:1f:a2:ef"
+      }
+    },
+    "cert_index": 4161418139,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4161418139&end=4161418139",
+    "seen": 1778388562.672,
+    "submission_timestamp": 1778378509.073,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

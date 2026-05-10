@@ -1,0 +1,52 @@
+{
+  "dominio": "nubankcartaofacil.online",
+  "marcas_encontradas": [
+    "nubank"
+  ],
+  "timestamp": "05/10/26 01:16:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nubankcartaofacil.online",
+        "aggregated": "/CN=nubankcartaofacil.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "6EBCDA280F15B47A",
+      "not_before": 1778374680,
+      "not_after": 1795481880,
+      "fingerprint": "2C:DA:FF:40:FE:D2:D1:4C:F0:F4:B4:4A:57:08:41:FF:92:DE:A5:7F",
+      "sha1": "2C:DA:FF:40:FE:D2:D1:4C:F0:F4:B4:4A:57:08:41:FF:92:DE:A5:7F",
+      "sha256": "E3:48:6B:DC:5C:0B:73:AB:7A:DF:51:6F:DD:07:2B:B1:D3:34:38:63:71:D9:05:0E:FA:B9:10:FE:59:AB:D6:B5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nubankcartaofacil.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nubankcartaofacil.online",
+        "subjectKeyIdentifier": "keyid:5c:10:77:35:ac:9c:5e:e2:bc:b7:c4:d2:9c:2f:01:9d:73:76:2e:46",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4160968447,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4160968447&end=4160968447",
+    "seen": 1778386589.912,
+    "submission_timestamp": 1778374680.957,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "correiosrastreamentobr.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/10/26 01:57:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correiosrastreamentobr.com",
+        "aggregated": "/CN=correiosrastreamentobr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06476293A6D93D17E81E55795DC74FDCEB22",
+      "not_before": 1778375754,
+      "not_after": 1786151753,
+      "fingerprint": "DD:1A:4D:5C:C8:E3:5E:C5:73:C5:78:5D:98:1A:BA:E5:A8:A6:23:BA",
+      "sha1": "DD:1A:4D:5C:C8:E3:5E:C5:73:C5:78:5D:98:1A:BA:E5:A8:A6:23:BA",
+      "sha256": "D6:91:CF:CE:3E:3B:CC:56:F9:C7:D8:89:52:A6:81:C5:B3:A7:88:FA:5F:BA:67:25:12:EB:66:E7:35:98:5D:F7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "correiosrastreamentobr.com",
+        "*.correiosrastreamentobr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.correiosrastreamentobr.com, DNS:correiosrastreamentobr.com",
+        "subjectKeyIdentifier": "keyid:ac:99:c2:f2:f6:2f:84:c1:cf:c5:cc:6c:5d:f3:81:c5:68:98:41:a1"
+      }
+    },
+    "cert_index": 4161530654,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4161530654&end=4161530654",
+    "seen": 1778389054.927,
+    "submission_timestamp": 1778379409.07,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

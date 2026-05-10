@@ -1,0 +1,53 @@
+{
+  "dominio": "caixaseguro.lol",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/10/26 01:16:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixaseguro.lol",
+        "aggregated": "/CN=caixaseguro.lol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E6210A2F349843190E0C45D33EA09BDE",
+      "not_before": 1778135374,
+      "not_after": 1785914816,
+      "fingerprint": "40:0C:D8:68:75:51:DA:85:41:65:9E:A1:61:7D:49:FE:00:A7:39:DC",
+      "sha1": "40:0C:D8:68:75:51:DA:85:41:65:9E:A1:61:7D:49:FE:00:A7:39:DC",
+      "sha256": "A3:FF:FE:FC:17:D5:D1:95:4F:5D:82:67:78:0B:50:6D:AC:39:01:B1:36:4D:78:57:5F:32:E2:0E:52:1F:25:99",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixaseguro.lol",
+        "*.caixaseguro.lol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/5iE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixaseguro.lol, DNS:*.caixaseguro.lol",
+        "subjectKeyIdentifier": "keyid:45:d2:9c:50:d8:21:31:1f:ce:04:f2:55:e9:af:17:5d:16:0c:b6:b3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 584914396,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=584914396&end=584914396",
+    "seen": 1778386566.246,
+    "submission_timestamp": 1778138974.637,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
