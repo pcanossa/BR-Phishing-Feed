@@ -1,0 +1,51 @@
+{
+  "dominio": "staging.app.tim-management.co",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/10/26 16:19:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.app.tim-management.co",
+        "aggregated": "/CN=staging.app.tim-management.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05F5CD8F0B8730A74B919A7523FA474B2860",
+      "not_before": 1778429929,
+      "not_after": 1786205928,
+      "fingerprint": "09:B7:02:19:BE:5B:FD:FB:71:56:1B:2B:8E:A5:74:6F:EE:54:34:A1",
+      "sha1": "09:B7:02:19:BE:5B:FD:FB:71:56:1B:2B:8E:A5:74:6F:EE:54:34:A1",
+      "sha256": "E9:20:17:1B:65:F9:E5:00:28:5C:F3:8D:61:70:0C:FE:0F:14:6B:F4:2D:CB:AD:A4:9A:F9:5D:89:5F:AA:BF:C7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "staging.app.tim-management.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.app.tim-management.co",
+        "subjectKeyIdentifier": "keyid:03:e5:39:c7:66:75:0e:85:5e:09:5b:ea:8c:46:81:94:f2:90:62:c9"
+      }
+    },
+    "cert_index": 4168344722,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4168344722&end=4168344722",
+    "seen": 1778440744.372,
+    "submission_timestamp": 1778433443.346,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

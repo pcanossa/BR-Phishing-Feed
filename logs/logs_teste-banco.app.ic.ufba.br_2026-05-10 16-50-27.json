@@ -1,0 +1,51 @@
+{
+  "dominio": "teste-banco.app.ic.ufba.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/10/26 16:50:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "teste-banco.app.ic.ufba.br",
+        "aggregated": "/CN=teste-banco.app.ic.ufba.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "057B247F78E11E0A5FBEBF467AA2B9143585",
+      "not_before": 1778439107,
+      "not_after": 1786215106,
+      "fingerprint": "9A:CB:2A:2D:35:7C:98:CE:70:F4:C1:6E:72:47:58:C4:10:7A:C1:CC",
+      "sha1": "9A:CB:2A:2D:35:7C:98:CE:70:F4:C1:6E:72:47:58:C4:10:7A:C1:CC",
+      "sha256": "56:DB:29:9F:AA:3A:97:1C:6E:3F:F3:FA:9B:70:DF:74:D9:18:A4:AF:01:46:52:3B:16:12:63:FB:D2:29:E6:8D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "teste-banco.app.ic.ufba.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:teste-banco.app.ic.ufba.br",
+        "subjectKeyIdentifier": "keyid:73:e6:54:50:80:45:ae:5f:02:de:46:f4:e0:96:55:c5:0b:50:d3:3f"
+      }
+    },
+    "cert_index": 182515141,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x712/949",
+    "seen": 1778442619.913,
+    "submission_timestamp": 1778442618.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
