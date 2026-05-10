@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-digital.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/10/26 13:17:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-digital.com",
+        "aggregated": "/CN=cartao-digital.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "FFE9C7759828846F",
+      "not_before": 1778425119,
+      "not_after": 1795532319,
+      "fingerprint": "3C:D6:45:61:8B:C3:B0:4E:BD:26:55:57:BD:62:58:67:DA:8A:61:80",
+      "sha1": "3C:D6:45:61:8B:C3:B0:4E:BD:26:55:57:BD:62:58:67:DA:8A:61:80",
+      "sha256": "06:39:5C:2E:E9:64:A1:9A:7C:57:7D:6D:29:08:BF:2F:6E:CC:B1:4A:F9:27:B0:49:BF:11:9C:6C:55:06:A9:2D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-digital.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-digital.com",
+        "subjectKeyIdentifier": "keyid:cc:d6:5c:14:7b:df:34:cc:7d:0a:0f:91:e8:25:48:40:cf:24:1f:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4166651767,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4166651767&end=4166651767",
+    "seen": 1778429828.032,
+    "submission_timestamp": 1778425120.657,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "auth.app.oi-portal.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/10/26 13:22:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "auth.app.oi-portal.com",
+        "aggregated": "/CN=auth.app.oi-portal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06C5163161ED40C665A4C22C24E14F264321",
+      "not_before": 1778157839,
+      "not_after": 1785933838,
+      "fingerprint": "9C:3E:0B:E2:10:E2:AF:B5:2A:0A:FE:10:06:8A:D3:74:CA:A6:B1:A6",
+      "sha1": "9C:3E:0B:E2:10:E2:AF:B5:2A:0A:FE:10:06:8A:D3:74:CA:A6:B1:A6",
+      "sha256": "B4:8D:73:DD:CB:95:07:0C:65:37:08:88:44:24:6E:AA:97:D3:ED:63:43:84:07:E2:16:0B:49:CB:DA:D6:C0:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "auth.app.oi-portal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:auth.app.oi-portal.com",
+        "subjectKeyIdentifier": "keyid:20:79:c8:94:94:35:f7:69:f4:9b:5a:a4:80:ad:6f:4d:a2:f3:44:bc"
+      }
+    },
+    "cert_index": 587795324,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=587795324&end=587795324",
+    "seen": 1778430139.417,
+    "submission_timestamp": 1778161353.274,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

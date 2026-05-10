@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-agproducts.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 13:16:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-agproducts.com",
+        "aggregated": "/CN=cpf-agproducts.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05661A07B32F5DAA4D833E21B4B03A09FF82",
+      "not_before": 1778421540,
+      "not_after": 1786197539,
+      "fingerprint": "1A:E8:7A:E1:2C:47:F8:79:E1:12:CA:5F:C0:B9:B4:8A:FD:3E:C4:A8",
+      "sha1": "1A:E8:7A:E1:2C:47:F8:79:E1:12:CA:5F:C0:B9:B4:8A:FD:3E:C4:A8",
+      "sha256": "8B:BA:D4:BE:4F:0F:EE:31:6F:70:92:67:53:44:FC:4D:16:56:4F:0B:C9:E4:65:56:F7:69:0C:60:1A:E8:08:1A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-agproducts.com",
+        "mail.cpf-agproducts.com",
+        "www.cpf-agproducts.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-agproducts.com, DNS:mail.cpf-agproducts.com, DNS:www.cpf-agproducts.com",
+        "subjectKeyIdentifier": "keyid:f3:35:cf:fd:3a:08:c9:f2:6e:82:e3:32:9f:bf:0a:da:c8:f3:79:e4"
+      }
+    },
+    "cert_index": 4166644665,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4166644665&end=4166644665",
+    "seen": 1778429784.284,
+    "submission_timestamp": 1778425052.102,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
