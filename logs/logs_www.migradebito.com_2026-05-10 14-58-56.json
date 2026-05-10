@@ -1,0 +1,52 @@
+{
+  "dominio": "www.migradebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 14:58:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.migradebito.com",
+        "aggregated": "/CN=www.migradebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "0EBAA0B69E0AE25E",
+      "not_before": 1778430231,
+      "not_after": 1795537431,
+      "fingerprint": "E4:0E:15:36:80:7D:C8:02:45:BB:4D:62:4B:EF:A7:7B:C6:6C:34:E2",
+      "sha1": "E4:0E:15:36:80:7D:C8:02:45:BB:4D:62:4B:EF:A7:7B:C6:6C:34:E2",
+      "sha256": "04:B9:76:54:33:1A:D7:5C:1C:78:C6:C2:13:AD:9A:51:CB:FB:4A:42:92:87:DC:AA:4F:1E:30:6B:EB:9E:90:69",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.migradebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.migradebito.com",
+        "subjectKeyIdentifier": "keyid:6b:2c:37:b7:d1:bc:12:bb:09:f2:6b:f8:78:82:0b:c8:6c:e4:ed:f6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4167479864,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4167479864&end=4167479864",
+    "seen": 1778435928.45,
+    "submission_timestamp": 1778430231.997,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
