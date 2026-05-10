@@ -1,0 +1,52 @@
+{
+  "dominio": "netflix-apply.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/09/26 21:23:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-apply.com",
+        "aggregated": "/CN=netflix-apply.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "DBFFE3F4B7B482830D8AE37C2533B7A1",
+      "not_before": 1777867922,
+      "not_after": 1785647375,
+      "fingerprint": "9F:13:29:4C:1A:B8:4A:83:27:DD:F4:33:D8:39:AC:9F:F0:CA:C1:89",
+      "sha1": "9F:13:29:4C:1A:B8:4A:83:27:DD:F4:33:D8:39:AC:9F:F0:CA:C1:89",
+      "sha256": "F8:AC:0D:28:FF:1C:C1:BD:5C:EE:88:35:FA:DC:F3:A6:31:E2:78:40:32:80:DC:3F:41:E0:87:71:8F:FC:83:86",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-apply.com",
+        "*.netflix-apply.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/2_8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflix-apply.com, DNS:*.netflix-apply.com",
+        "subjectKeyIdentifier": "keyid:de:b9:8e:ef:7b:ff:f2:9d:4a:44:78:b7:e8:ed:ed:1f:44:bf:10:61"
+      }
+    },
+    "cert_index": 825690174,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=825690174&end=825690174",
+    "seen": 1778372585.725,
+    "submission_timestamp": 1777871591.631,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

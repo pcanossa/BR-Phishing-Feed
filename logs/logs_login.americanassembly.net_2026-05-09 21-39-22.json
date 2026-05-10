@@ -1,0 +1,52 @@
+{
+  "dominio": "login.americanassembly.net",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/09/26 21:39:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.americanassembly.net",
+        "aggregated": "/CN=login.americanassembly.net"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "5A193EEA6CC610F8D8618406EB82D525",
+      "not_before": 1778284800,
+      "not_after": 1786147199,
+      "fingerprint": "8F:43:C7:C5:E3:A7:5C:10:2C:5F:B6:D2:98:AF:DC:7E:61:A4:B8:69",
+      "sha1": "8F:43:C7:C5:E3:A7:5C:10:2C:5F:B6:D2:98:AF:DC:7E:61:A4:B8:69",
+      "sha256": "B5:AC:D2:10:52:FC:F6:A8:D5:77:5B:D1:13:B0:37:16:A3:E3:11:B8:42:07:CD:31:15:25:BF:8D:2D:89:32:66",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.americanassembly.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.americanassembly.net",
+        "subjectKeyIdentifier": "keyid:37:06:d7:36:77:cf:8b:b2:fe:2d:69:b8:db:2c:ab:11:64:0a:23:41",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4158075213,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4158075213&end=4158075213",
+    "seen": 1778373556.251,
+    "submission_timestamp": 1778358065.262,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

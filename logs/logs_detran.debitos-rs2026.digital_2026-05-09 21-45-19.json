@@ -1,0 +1,52 @@
+{
+  "dominio": "detran.debitos-rs2026.digital",
+  "marcas_encontradas": [
+    "detran",
+    "debito"
+  ],
+  "timestamp": "05/09/26 21:45:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detran.debitos-rs2026.digital",
+        "aggregated": "/CN=detran.debitos-rs2026.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0557F36F657A49F9D9E45488F9AFFEB275C7",
+      "not_before": 1778354984,
+      "not_after": 1786130983,
+      "fingerprint": "74:F5:1A:7C:B3:AA:20:A9:EF:8D:DD:3B:C8:18:8E:39:E6:7B:F0:56",
+      "sha1": "74:F5:1A:7C:B3:AA:20:A9:EF:8D:DD:3B:C8:18:8E:39:E6:7B:F0:56",
+      "sha256": "89:19:17:2C:B5:C3:D4:AB:A3:F7:FD:26:65:76:85:EA:AA:BD:B6:B6:BE:FA:E5:4B:A1:9D:6B:15:6B:40:A4:23",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "detran.debitos-rs2026.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:detran.debitos-rs2026.digital",
+        "subjectKeyIdentifier": "keyid:90:cc:29:89:7b:a7:34:8d:37:94:db:75:1c:c6:c3:51:c5:53:96:dd"
+      }
+    },
+    "cert_index": 4158165483,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4158165483&end=4158165483",
+    "seen": 1778373913.288,
+    "submission_timestamp": 1778358498.205,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

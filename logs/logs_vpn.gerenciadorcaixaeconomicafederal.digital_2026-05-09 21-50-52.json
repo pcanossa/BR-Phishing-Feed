@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn.gerenciadorcaixaeconomicafederal.digital",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/09/26 21:50:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn.gerenciadorcaixaeconomicafederal.digital",
+        "aggregated": "/CN=vpn.gerenciadorcaixaeconomicafederal.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05C7D50C98B6828F6EA5622900BEAB7A3D66",
+      "not_before": 1778355357,
+      "not_after": 1786131356,
+      "fingerprint": "77:01:77:7A:77:B6:21:CE:D5:D6:70:DC:7F:CA:76:E3:C6:C6:30:CD",
+      "sha1": "77:01:77:7A:77:B6:21:CE:D5:D6:70:DC:7F:CA:76:E3:C6:C6:30:CD",
+      "sha256": "BD:2E:5B:17:FC:0C:68:AC:FA:3D:49:CA:53:17:37:F6:CC:16:2F:FA:5C:98:21:62:ED:B9:79:33:B7:9E:20:92",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn.gerenciadorcaixaeconomicafederal.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn.gerenciadorcaixaeconomicafederal.digital",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4158250641,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4158250641&end=4158250641",
+    "seen": 1778374246.728,
+    "submission_timestamp": 1778358869.783,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
