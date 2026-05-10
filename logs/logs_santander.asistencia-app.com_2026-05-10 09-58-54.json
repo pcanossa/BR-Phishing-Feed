@@ -1,0 +1,53 @@
+{
+  "dominio": "santander.asistencia-app.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/10/26 09:58:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "asistencia-app.com",
+        "aggregated": "/CN=asistencia-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "86FB228ECC9DAB61134A0F119484284C",
+      "not_before": 1778409898,
+      "not_after": 1786189295,
+      "fingerprint": "33:EB:EA:69:50:A4:39:92:02:72:ED:57:0A:BA:23:EA:C3:78:82:AC",
+      "sha1": "33:EB:EA:69:50:A4:39:92:02:72:ED:57:0A:BA:23:EA:C3:78:82:AC",
+      "sha256": "F0:31:0D:84:56:00:B0:EE:99:96:34:5C:79:1C:F5:57:F7:74:DD:3C:1B:3C:D7:9D:BE:E6:FA:85:10:A8:2A:3F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "asistencia-app.com",
+        "santander.asistencia-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/hvs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:asistencia-app.com, DNS:santander.asistencia-app.com",
+        "subjectKeyIdentifier": "keyid:7e:ae:e0:8b:54:4e:a8:45:49:d8:bc:ac:83:e3:d8:32:a1:e6:80:fe",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4165306108,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4165306108&end=4165306108",
+    "seen": 1778417926.499,
+    "submission_timestamp": 1778413498.671,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

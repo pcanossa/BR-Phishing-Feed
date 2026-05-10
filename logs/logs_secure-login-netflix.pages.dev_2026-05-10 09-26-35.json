@@ -1,0 +1,53 @@
+{
+  "dominio": "secure-login-netflix.pages.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/10/26 09:26:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "secure-login-netflix.pages.dev",
+        "aggregated": "/CN=secure-login-netflix.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EF5954B3518362D70E75641F57063B25",
+      "not_before": 1778150509,
+      "not_after": 1785929962,
+      "fingerprint": "7D:66:18:8E:68:AB:AB:5F:9F:C1:30:D1:99:80:C6:9F:B9:F0:17:86",
+      "sha1": "7D:66:18:8E:68:AB:AB:5F:9F:C1:30:D1:99:80:C6:9F:B9:F0:17:86",
+      "sha256": "23:91:DE:1E:8A:04:AA:E1:04:8B:CC:1A:04:22:D9:74:1B:DB:1C:EC:1C:9D:9C:6D:59:83:D2:5D:C1:C8:2D:0C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "secure-login-netflix.pages.dev",
+        "*.secure-login-netflix.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/71k, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:secure-login-netflix.pages.dev, DNS:*.secure-login-netflix.pages.dev",
+        "subjectKeyIdentifier": "keyid:ae:9c:be:26:7e:b2:b6:c3:77:34:0d:8e:88:ca:bd:92:b4:42:dd:5a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 586864091,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=586864091&end=586864091",
+    "seen": 1778415987.97,
+    "submission_timestamp": 1778154110.431,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
