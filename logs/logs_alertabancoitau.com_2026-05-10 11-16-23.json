@@ -1,0 +1,51 @@
+{
+  "dominio": "alertabancoitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/10/26 11:16:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alertabancoitau.com",
+        "aggregated": "/CN=alertabancoitau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05C98C5C11FE9934414CA6DA7D33BF951301",
+      "not_before": 1778415686,
+      "not_after": 1786191685,
+      "fingerprint": "D6:C9:DC:93:F0:72:0F:0F:13:83:3F:69:6D:7A:FB:77:4D:7C:F7:88",
+      "sha1": "D6:C9:DC:93:F0:72:0F:0F:13:83:3F:69:6D:7A:FB:77:4D:7C:F7:88",
+      "sha256": "78:DE:98:C3:5E:B0:10:3B:C7:F5:27:0B:71:9C:1E:7A:45:09:3D:33:0C:3B:8B:89:95:A0:B2:F0:EA:26:B8:F3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alertabancoitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alertabancoitau.com",
+        "subjectKeyIdentifier": "keyid:d6:49:bc:b3:0a:4e:d2:9a:81:80:1a:f7:7b:45:b5:94:c2:eb:84:da"
+      }
+    },
+    "cert_index": 4165949872,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4165949872&end=4165949872",
+    "seen": 1778422575.797,
+    "submission_timestamp": 1778419203.572,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

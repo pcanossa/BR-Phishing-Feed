@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.mx",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 11:46:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.mx",
+        "aggregated": "/CN=cpf.mx"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "4483E53908D6408B9863F100536EC192",
+      "not_before": 1778371200,
+      "not_after": 1786200119,
+      "fingerprint": "2B:A8:3C:6F:97:F8:64:C8:E1:C6:BC:AE:35:4F:B7:DA:76:F4:6B:7C",
+      "sha1": "2B:A8:3C:6F:97:F8:64:C8:E1:C6:BC:AE:35:4F:B7:DA:76:F4:6B:7C",
+      "sha256": "E4:D2:EE:70:B0:9F:B4:2B:B2:07:FD:41:90:B9:32:91:73:00:F5:06:26:F6:50:27:03:D6:79:8B:77:95:07:D1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.mx",
+        "*.cpf.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.mx, DNS:*.cpf.mx",
+        "subjectKeyIdentifier": "keyid:83:ea:c8:12:13:eb:9c:b7:08:1b:bc:f2:06:c8:46:f9:c2:72:1c:d5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 685727950,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=685727950&end=685727950",
+    "seen": 1778424383.735,
+    "submission_timestamp": 1778424225.703,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
