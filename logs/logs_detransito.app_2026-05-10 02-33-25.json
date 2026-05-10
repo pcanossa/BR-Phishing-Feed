@@ -1,0 +1,52 @@
+{
+  "dominio": "detransito.app",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/10/26 02:33:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.detransito.app",
+        "aggregated": "/CN=*.detransito.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "067C7AC5167B698C97310317B527DE22F526",
+      "not_before": 1778387686,
+      "not_after": 1786163685,
+      "fingerprint": "35:B2:E0:71:91:18:37:2A:39:0A:F7:40:B5:C2:29:F2:DB:33:C3:3B",
+      "sha1": "35:B2:E0:71:91:18:37:2A:39:0A:F7:40:B5:C2:29:F2:DB:33:C3:3B",
+      "sha256": "3C:7E:76:8E:74:7B:20:FD:59:F0:A9:6E:89:04:CC:FC:74:3D:1C:A6:B5:E0:23:2B:CC:D5:C3:0F:17:2E:2C:06",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.detransito.app",
+        "detransito.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.detransito.app, DNS:detransito.app",
+        "subjectKeyIdentifier": "keyid:a7:b3:f5:46:9d:70:f1:5d:8b:96:0f:9d:01:3e:39:7e:80:27:71:01"
+      }
+    },
+    "cert_index": 181241904,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x707/976",
+    "seen": 1778391198.849,
+    "submission_timestamp": 1778391197.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

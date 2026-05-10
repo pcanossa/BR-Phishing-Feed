@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.leega.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/10/26 02:40:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.leega.com.br",
+        "aggregated": "/CN=cartao.leega.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "051AE560CF28CC1876265A1DBDF9989FE8AF",
+      "not_before": 1778380940,
+      "not_after": 1786156939,
+      "fingerprint": "89:DE:D5:94:90:A9:AF:92:ED:75:65:6A:28:C8:C8:0B:53:67:84:FC",
+      "sha1": "89:DE:D5:94:90:A9:AF:92:ED:75:65:6A:28:C8:C8:0B:53:67:84:FC",
+      "sha256": "2B:08:43:A3:52:87:02:22:16:17:FD:26:A3:C5:C2:7C:18:A8:EB:C1:02:89:97:47:75:4D:E8:80:76:9C:51:E3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.leega.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.leega.com.br",
+        "subjectKeyIdentifier": "keyid:a1:4c:cc:40:06:e7:3b:09:98:01:b5:8e:e4:47:31:b3:d4:5f:2e:da"
+      }
+    },
+    "cert_index": 4162127100,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4162127100&end=4162127100",
+    "seen": 1778391643.705,
+    "submission_timestamp": 1778384454.942,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

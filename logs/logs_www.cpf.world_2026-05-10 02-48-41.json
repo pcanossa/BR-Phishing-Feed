@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cpf.world",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 02:48:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cpf.world",
+        "aggregated": "/CN=www.cpf.world"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "D52B9F2BEBE213C4",
+      "not_before": 1778095699,
+      "not_after": 1795202899,
+      "fingerprint": "E0:0A:F6:5A:76:10:F7:93:A6:6B:58:FF:E8:5F:BC:4E:1C:13:88:C6",
+      "sha1": "E0:0A:F6:5A:76:10:F7:93:A6:6B:58:FF:E8:5F:BC:4E:1C:13:88:C6",
+      "sha256": "2D:0C:8D:E5:DB:BC:BE:5C:8A:69:91:C7:76:A6:25:E6:EA:78:C2:70:E5:F3:3A:8C:D1:E7:EB:39:52:5C:C0:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cpf.world"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cpf.world",
+        "subjectKeyIdentifier": "keyid:73:43:7f:5e:2a:bd:ff:78:03:73:82:95:0c:29:92:9e:96:ff:69:2a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 607164024,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=607164024&end=607164024",
+    "seen": 1778392121.721,
+    "submission_timestamp": 1778095699.553,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

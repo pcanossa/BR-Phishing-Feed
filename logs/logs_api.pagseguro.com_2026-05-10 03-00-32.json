@@ -1,0 +1,53 @@
+{
+  "dominio": "api.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 03:00:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.pagseguro.com",
+        "aggregated": "/CN=api.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "6B263AA379B1D2FA136DA32487DFD134",
+      "not_before": 1778389094,
+      "not_after": 1786168547,
+      "fingerprint": "B6:80:6E:6F:9D:EE:D9:66:94:5E:19:3F:DF:7D:1B:1D:08:CE:1C:C6",
+      "sha1": "B6:80:6E:6F:9D:EE:D9:66:94:5E:19:3F:DF:7D:1B:1D:08:CE:1C:C6",
+      "sha256": "D0:A1:51:40:2C:A7:A5:30:7B:54:81:82:9B:48:FB:0C:D2:2B:C0:E7:95:51:7C:47:D1:7F:5F:8D:03:D4:2C:8E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.pagseguro.com",
+        "*.api.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/ayY, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.pagseguro.com, DNS:*.api.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:de:50:bd:19:4b:51:2d:62:9f:7c:5d:f1:9b:0a:fc:94:e4:10:5f:c1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 585331449,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=585331449&end=585331449",
+    "seen": 1778392826.402,
+    "submission_timestamp": 1778392695.426,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

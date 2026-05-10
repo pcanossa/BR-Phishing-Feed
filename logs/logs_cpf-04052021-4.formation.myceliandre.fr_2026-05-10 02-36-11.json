@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-04052021-4.formation.myceliandre.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 02:36:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "audreylutz.fr",
+        "aggregated": "/CN=audreylutz.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06F04406A48CBEBB81AD551B2AE273D03687",
+      "not_before": 1778380341,
+      "not_after": 1786156340,
+      "fingerprint": "8F:D9:6B:B4:AD:B6:E5:2C:FD:DA:DB:90:C2:0F:6C:9A:5A:55:03:10",
+      "sha1": "8F:D9:6B:B4:AD:B6:E5:2C:FD:DA:DB:90:C2:0F:6C:9A:5A:55:03:10",
+      "sha256": "A8:0B:EF:EF:89:49:51:9D:8F:70:A1:5A:52:1A:4E:CB:D1:0C:ED:30:42:75:93:7C:A0:E0:73:C5:2A:5F:43:24",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "audreylutz.fr",
+        "cpf-04052021-4.formation.myceliandre.fr",
+        "www.audreylutz.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:audreylutz.fr, DNS:cpf-04052021-4.formation.myceliandre.fr, DNS:www.audreylutz.fr",
+        "subjectKeyIdentifier": "keyid:7b:1f:d8:4f:76:2d:91:a3:6f:89:4f:7e:cf:e8:3a:7c:43:92:ad:74"
+      }
+    },
+    "cert_index": 4162062855,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4162062855&end=4162062855",
+    "seen": 1778391365.045,
+    "submission_timestamp": 1778383853.131,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
