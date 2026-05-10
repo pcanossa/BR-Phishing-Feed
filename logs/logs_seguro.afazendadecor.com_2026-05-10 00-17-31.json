@@ -1,0 +1,51 @@
+{
+  "dominio": "seguro.afazendadecor.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/10/26 00:17:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguro.afazendadecor.com",
+        "aggregated": "/CN=seguro.afazendadecor.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0690BD174B4C4A39C4F7A4349EEAA7611EEC",
+      "not_before": 1778364458,
+      "not_after": 1786140457,
+      "fingerprint": "CD:F5:F9:02:F4:39:1F:2C:F9:38:9E:6E:41:57:5E:CA:A1:3B:08:54",
+      "sha1": "CD:F5:F9:02:F4:39:1F:2C:F9:38:9E:6E:41:57:5E:CA:A1:3B:08:54",
+      "sha256": "EA:0A:E4:79:D2:23:DC:99:1D:30:77:B6:CF:7E:11:5D:A3:AF:11:79:57:08:EF:B1:A0:D4:E2:39:F2:61:C7:23",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "seguro.afazendadecor.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:seguro.afazendadecor.com",
+        "subjectKeyIdentifier": "keyid:5c:9c:7c:44:e3:21:a9:85:4c:58:27:52:46:3f:c1:1b:89:ca:f6:d5"
+      }
+    },
+    "cert_index": 4160159097,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4160159097&end=4160159097",
+    "seen": 1778383044.992,
+    "submission_timestamp": 1778368131.56,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

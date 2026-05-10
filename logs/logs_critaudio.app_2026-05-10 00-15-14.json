@@ -1,0 +1,52 @@
+{
+  "dominio": "critaudio.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/10/26 00:15:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "critaudio.app",
+        "aggregated": "/CN=critaudio.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "057C1E93BFDB013A9EE59D07D34ACC4E90AD",
+      "not_before": 1777899725,
+      "not_after": 1785675724,
+      "fingerprint": "8F:68:E9:03:86:47:BB:F3:12:B2:C6:63:17:53:68:84:2E:01:59:B4",
+      "sha1": "8F:68:E9:03:86:47:BB:F3:12:B2:C6:63:17:53:68:84:2E:01:59:B4",
+      "sha256": "F9:5F:AF:9A:4A:DF:6B:B4:62:4D:5B:5F:C5:A0:65:AF:6A:A9:A8:6E:62:2E:18:2C:4F:29:B9:E2:5C:01:82:93",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "critaudio.app",
+        "*.critaudio.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.critaudio.app, DNS:critaudio.app",
+        "subjectKeyIdentifier": "keyid:1c:92:96:ce:38:c7:a2:e4:59:f2:05:59:ac:6c:60:0a:4b:11:8d:94"
+      }
+    },
+    "cert_index": 1546687604,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1546687604&end=1546687604",
+    "seen": 1778382908.399,
+    "submission_timestamp": 1777903237.051,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

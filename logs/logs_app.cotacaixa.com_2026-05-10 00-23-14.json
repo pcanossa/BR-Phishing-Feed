@@ -1,0 +1,51 @@
+{
+  "dominio": "app.cotacaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/10/26 00:23:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.cotacaixa.com",
+        "aggregated": "/CN=app.cotacaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06D2760819AED3266D85BE2A3F92685D30EB",
+      "not_before": 1778365294,
+      "not_after": 1786141293,
+      "fingerprint": "47:29:57:34:3E:96:E6:B7:76:16:A5:E3:7A:0F:D1:63:07:D8:D9:DE",
+      "sha1": "47:29:57:34:3E:96:E6:B7:76:16:A5:E3:7A:0F:D1:63:07:D8:D9:DE",
+      "sha256": "28:6C:40:23:1F:7D:8E:8D:EA:D6:EC:29:29:51:32:4C:FC:E9:44:D3:90:27:B9:DE:7E:91:79:BC:04:87:1A:5F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.cotacaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.cotacaixa.com",
+        "subjectKeyIdentifier": "keyid:c8:30:b3:fe:c1:aa:b1:0d:de:b0:96:c7:6c:e3:3f:4d:bd:95:7d:e4"
+      }
+    },
+    "cert_index": 4160232572,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4160232572&end=4160232572",
+    "seen": 1778383388.134,
+    "submission_timestamp": 1778368808.272,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
