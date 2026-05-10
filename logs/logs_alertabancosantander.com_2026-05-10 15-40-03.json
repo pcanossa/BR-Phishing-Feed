@@ -1,0 +1,51 @@
+{
+  "dominio": "alertabancosantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/10/26 15:40:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alertabancosantander.com",
+        "aggregated": "/CN=alertabancosantander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06DDE438F8E48D149F6046E947C5663D5A13",
+      "not_before": 1778428136,
+      "not_after": 1786204135,
+      "fingerprint": "30:AC:F3:60:9F:0C:F8:C2:12:3B:B2:36:99:4B:34:E9:20:E1:5A:1B",
+      "sha1": "30:AC:F3:60:9F:0C:F8:C2:12:3B:B2:36:99:4B:34:E9:20:E1:5A:1B",
+      "sha256": "D0:F1:B8:DB:01:B0:40:5A:4A:31:A5:2F:70:FD:94:FC:F7:F9:58:3E:81:92:92:CB:3F:56:68:93:4D:25:D4:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alertabancosantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alertabancosantander.com",
+        "subjectKeyIdentifier": "keyid:8c:ab:50:9c:fa:5d:ce:b7:80:13:f4:b4:6b:ff:86:c7:cf:94:37:90"
+      }
+    },
+    "cert_index": 4167920893,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4167920893&end=4167920893",
+    "seen": 1778438395.182,
+    "submission_timestamp": 1778431811.369,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

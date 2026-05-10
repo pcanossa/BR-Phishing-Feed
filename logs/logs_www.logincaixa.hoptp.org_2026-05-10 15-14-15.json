@@ -1,0 +1,51 @@
+{
+  "dominio": "www.logincaixa.hoptp.org",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/10/26 15:14:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.logincaixa.hoptp.org",
+        "aggregated": "/CN=www.logincaixa.hoptp.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "CAEA990720FA964509366B8775DC1AE4",
+      "not_before": 1778371200,
+      "not_after": 1786233599,
+      "fingerprint": "5F:98:6F:5B:22:71:66:C3:C6:13:B5:47:36:98:FD:28:02:EC:D6:B7",
+      "sha1": "5F:98:6F:5B:22:71:66:C3:C6:13:B5:47:36:98:FD:28:02:EC:D6:B7",
+      "sha256": "1D:7B:5B:55:F9:DE:63:AF:30:B3:1E:E2:37:3D:2B:E3:6E:D9:D7:35:6E:DF:35:31:70:8F:7A:23:02:36:55:C1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.logincaixa.hoptp.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.logincaixa.hoptp.org",
+        "subjectKeyIdentifier": "keyid:28:ec:7b:e0:22:e2:99:9b:f9:d3:69:bd:59:44:70:f4:ad:47:86:00"
+      }
+    },
+    "cert_index": 4167649526,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4167649526&end=4167649526",
+    "seen": 1778436847.649,
+    "submission_timestamp": 1778430795.991,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
