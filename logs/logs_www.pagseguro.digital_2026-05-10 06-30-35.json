@@ -1,0 +1,51 @@
+{
+  "dominio": "www.pagseguro.digital",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 06:30:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pagseguro.digital",
+        "aggregated": "/CN=www.pagseguro.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "2704B253891B3C23",
+      "not_before": 1778399013,
+      "not_after": 1795506213,
+      "fingerprint": "2C:28:83:06:4D:51:B9:7A:67:63:CC:50:50:2C:BF:BC:C3:33:54:D3",
+      "sha1": "2C:28:83:06:4D:51:B9:7A:67:63:CC:50:50:2C:BF:BC:C3:33:54:D3",
+      "sha256": "AA:52:24:DC:67:05:3D:BB:2A:F3:47:64:30:75:6A:28:B8:D7:AE:B9:30:6A:6D:80:B1:38:5F:64:DF:86:26:E3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pagseguro.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pagseguro.digital",
+        "subjectKeyIdentifier": "keyid:1c:e6:14:de:f7:82:eb:b5:2f:70:6d:ae:7d:cc:f8:62:23:c8:38:5c"
+      }
+    },
+    "cert_index": 181627833,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x709/483",
+    "seen": 1778405428.096,
+    "submission_timestamp": 1778405426.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

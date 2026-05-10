@@ -1,0 +1,52 @@
+{
+  "dominio": "app-vivo.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/10/26 06:59:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-vivo.com",
+        "aggregated": "/CN=app-vivo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "25802BE9B991A200",
+      "not_before": 1778402708,
+      "not_after": 1795509908,
+      "fingerprint": "47:1E:6E:1D:EC:2C:AA:EC:8F:08:BE:F2:CB:73:F5:3B:4B:EB:08:9A",
+      "sha1": "47:1E:6E:1D:EC:2C:AA:EC:8F:08:BE:F2:CB:73:F5:3B:4B:EB:08:9A",
+      "sha256": "A3:CC:CF:9B:8A:23:46:B8:97:BA:82:68:6B:31:AA:97:0A:9E:9C:DB:63:6D:22:09:B9:45:F5:C0:23:F1:5C:45",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-vivo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-vivo.com",
+        "subjectKeyIdentifier": "keyid:b4:fd:a6:1e:37:00:cc:f1:49:d5:65:88:c6:cb:e3:f4:74:98:f5:35",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4164091463,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4164091463&end=4164091463",
+    "seen": 1778407136.969,
+    "submission_timestamp": 1778402709.05,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "login.uber-tubbs.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/10/26 06:11:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.uber-tubbs.com",
+        "aggregated": "/CN=login.uber-tubbs.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "DC067616679D5FB2A972E4B475A69AA4",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "BA:F2:C9:36:F5:11:E4:F0:80:65:48:BD:D7:22:82:85:5E:1D:2A:D3",
+      "sha1": "BA:F2:C9:36:F5:11:E4:F0:80:65:48:BD:D7:22:82:85:5E:1D:2A:D3",
+      "sha256": "15:8D:AD:AE:0A:D0:7D:DE:A4:F7:0D:5E:89:77:51:C1:50:E1:33:6A:67:11:B2:4F:B2:9E:31:97:F9:B1:45:AC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.uber-tubbs.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.uber-tubbs.com",
+        "subjectKeyIdentifier": "keyid:05:f2:d8:95:9f:c9:47:1e:0e:91:f7:39:6d:d3:3e:9d:d1:b2:c1:3d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 683684419,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=683684419&end=683684419",
+    "seen": 1778404296.373,
+    "submission_timestamp": 1777878148.009,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
