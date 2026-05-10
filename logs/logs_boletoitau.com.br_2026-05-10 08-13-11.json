@@ -1,0 +1,52 @@
+{
+  "dominio": "boletoitau.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/10/26 08:13:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boletoitau.com.br",
+        "aggregated": "/CN=boletoitau.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BDCD90E8001D312D13502D2FEAE53E92",
+      "not_before": 1778347509,
+      "not_after": 1786127028,
+      "fingerprint": "88:DD:2C:95:4D:08:0A:ED:31:16:54:D7:D2:EC:2A:CA:79:BB:F2:FE",
+      "sha1": "88:DD:2C:95:4D:08:0A:ED:31:16:54:D7:D2:EC:2A:CA:79:BB:F2:FE",
+      "sha256": "0E:4C:8F:57:F1:37:D1:81:75:54:37:26:5E:A3:40:9F:B1:E9:2E:F8:92:23:4D:EB:4F:43:41:B3:F0:D5:13:83",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "boletoitau.com.br",
+        "*.boletoitau.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vc0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:boletoitau.com.br, DNS:*.boletoitau.com.br",
+        "subjectKeyIdentifier": "keyid:a4:4b:b5:fd:b1:b8:e5:b5:03:01:d9:15:29:93:bf:24:53:cf:5b:8e"
+      }
+    },
+    "cert_index": 4164726969,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4164726969&end=4164726969",
+    "seen": 1778411584.044,
+    "submission_timestamp": 1778408274.401,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

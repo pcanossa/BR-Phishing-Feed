@@ -1,0 +1,52 @@
+{
+  "dominio": "oi.syrve.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/10/26 09:04:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.oi.syrve.app",
+        "aggregated": "/CN=*.oi.syrve.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "056753C08BF1D9E9A9CDE10D55AF20EE9823",
+      "not_before": 1778149920,
+      "not_after": 1785925919,
+      "fingerprint": "B1:9A:A6:E5:9A:82:5F:7E:2D:CF:3B:FC:EF:92:15:86:02:AC:B0:48",
+      "sha1": "B1:9A:A6:E5:9A:82:5F:7E:2D:CF:3B:FC:EF:92:15:86:02:AC:B0:48",
+      "sha256": "FD:22:7A:7F:6E:8F:56:BD:5F:62:C1:14:9B:1C:73:4D:F2:BC:D3:CE:3B:DA:FA:5C:7A:E1:0C:5C:53:A7:1E:3A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.oi.syrve.app",
+        "oi.syrve.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.oi.syrve.app, DNS:oi.syrve.app",
+        "subjectKeyIdentifier": "keyid:d1:d4:d7:cd:45:5b:52:2e:e9:47:17:1f:91:b1:e9:e4:29:9c:09:22"
+      }
+    },
+    "cert_index": 586778809,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=586778809&end=586778809",
+    "seen": 1778414688.437,
+    "submission_timestamp": 1778153432.023,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

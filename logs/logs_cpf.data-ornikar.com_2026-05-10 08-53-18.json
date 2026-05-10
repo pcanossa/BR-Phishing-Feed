@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.data-ornikar.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 08:53:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.data-ornikar.com",
+        "aggregated": "/CN=cpf.data-ornikar.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "051B287C0E9B483D4BA9E3B904636E2B6181",
+      "not_before": 1777871474,
+      "not_after": 1785647473,
+      "fingerprint": "3C:04:A7:D5:CA:06:07:26:61:E1:29:8E:39:21:57:92:E7:4D:55:74",
+      "sha1": "3C:04:A7:D5:CA:06:07:26:61:E1:29:8E:39:21:57:92:E7:4D:55:74",
+      "sha256": "F4:7D:E6:9B:A2:3B:7B:E1:9B:01:0B:26:64:66:ED:9D:AE:4F:8E:E3:C9:F9:BE:92:37:75:EA:66:94:58:5B:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.data-ornikar.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.data-ornikar.com",
+        "subjectKeyIdentifier": "keyid:d0:68:9e:19:f1:b4:3e:b5:c7:1b:1e:82:65:29:00:ea:2f:53:88:58"
+      }
+    },
+    "cert_index": 826429980,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=826429980&end=826429980",
+    "seen": 1778413991.033,
+    "submission_timestamp": 1777874985.996,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
