@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguro.net.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 19:48:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.net.br",
+        "aggregated": "/CN=pagseguro.net.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "4669462FC013C33013DBFBDDD34F5D0A",
+      "not_before": 1778439559,
+      "not_after": 1786219064,
+      "fingerprint": "1D:36:3D:8A:8E:BA:C3:13:7B:DB:6D:3D:E8:81:83:88:2A:61:10:39",
+      "sha1": "1D:36:3D:8A:8E:BA:C3:13:7B:DB:6D:3D:E8:81:83:88:2A:61:10:39",
+      "sha256": "B2:7C:6B:2E:EB:A3:70:64:F4:CE:30:15:78:F1:F5:91:BD:25:7F:77:0B:87:69:E6:03:EF:52:13:D0:91:1A:6A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.net.br",
+        "*.pagseguro.net.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Rmk, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguro.net.br, DNS:*.pagseguro.net.br",
+        "subjectKeyIdentifier": "keyid:f6:31:f0:55:8e:ad:29:a3:61:15:eb:fb:ad:2e:c0:46:52:71:3e:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4170477872,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4170477872&end=4170477872",
+    "seen": 1778453328.474,
+    "submission_timestamp": 1778443160.487,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

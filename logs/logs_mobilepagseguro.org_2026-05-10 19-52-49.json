@@ -1,0 +1,52 @@
+{
+  "dominio": "mobilepagseguro.org",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 19:52:49",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mobilepagseguro.org",
+        "aggregated": "/CN=mobilepagseguro.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2521AC02010F07710ECCC03BFE854E89",
+      "not_before": 1778439540,
+      "not_after": 1786219128,
+      "fingerprint": "87:5E:E3:BB:D6:37:56:10:59:BF:C6:EA:F9:EF:F5:E6:B0:65:68:E8",
+      "sha1": "87:5E:E3:BB:D6:37:56:10:59:BF:C6:EA:F9:EF:F5:E6:B0:65:68:E8",
+      "sha256": "6D:4F:99:D0:44:20:9F:25:83:16:17:72:3E:6D:68:ED:6E:70:F0:AF:9A:26:CC:07:5F:37:2A:3F:7F:AE:9A:B1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mobilepagseguro.org",
+        "*.mobilepagseguro.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/JSE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mobilepagseguro.org, DNS:*.mobilepagseguro.org",
+        "subjectKeyIdentifier": "keyid:b0:d3:28:98:07:a9:8d:8e:0e:c1:c8:8b:8c:2b:da:85:75:74:eb:af"
+      }
+    },
+    "cert_index": 4170514375,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4170514375&end=4170514375",
+    "seen": 1778453561.165,
+    "submission_timestamp": 1778443313.341,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "oi-shi-sushi.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/10/26 19:18:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi-shi-sushi.com",
+        "aggregated": "/CN=oi-shi-sushi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9CC3DB284335A6600E97D3B72E8A9365",
+      "not_before": 1778438487,
+      "not_after": 1786217879,
+      "fingerprint": "4D:C0:FF:00:28:6F:C9:06:91:55:33:76:89:ED:7D:F8:B6:C2:22:9D",
+      "sha1": "4D:C0:FF:00:28:6F:C9:06:91:55:33:76:89:ED:7D:F8:B6:C2:22:9D",
+      "sha256": "5B:57:AD:BC:F0:77:5E:3E:0F:8F:34:0D:2C:56:64:97:6A:73:B4:66:BA:6C:57:3A:B5:AB:9F:F3:EC:98:53:A4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi-shi-sushi.com",
+        "*.oi-shi-sushi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/nMM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi-shi-sushi.com, DNS:*.oi-shi-sushi.com",
+        "subjectKeyIdentifier": "keyid:cd:69:49:97:45:03:de:06:cd:b0:ce:ce:56:55:39:16:b4:0c:29:af",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4170182805,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4170182805&end=4170182805",
+    "seen": 1778451531.312,
+    "submission_timestamp": 1778442088.367,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguro.vc",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 19:50:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.vc",
+        "aggregated": "/CN=pagseguro.vc"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "47564C39FD8038060EFF40FBB482C07E",
+      "not_before": 1778439528,
+      "not_after": 1786219114,
+      "fingerprint": "A3:43:03:04:0E:2C:5B:89:8B:14:34:E1:ED:2D:FC:4B:A1:80:32:0E",
+      "sha1": "A3:43:03:04:0E:2C:5B:89:8B:14:34:E1:ED:2D:FC:4B:A1:80:32:0E",
+      "sha256": "DC:D0:6E:87:6A:9E:05:00:07:C6:97:99:7F:94:80:B5:F0:37:E1:A1:50:36:30:8C:AB:83:22:5C:34:49:6C:43",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.vc",
+        "*.pagseguro.vc"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/R1Y, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagseguro.vc, DNS:*.pagseguro.vc",
+        "subjectKeyIdentifier": "keyid:24:20:52:80:03:45:ec:13:d5:ca:84:38:6b:ab:77:50:b5:e7:0e:50"
+      }
+    },
+    "cert_index": 4170492444,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4170492444&end=4170492444",
+    "seen": 1778453423.146,
+    "submission_timestamp": 1778443227.012,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

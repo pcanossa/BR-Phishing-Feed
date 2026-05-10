@@ -1,0 +1,52 @@
+{
+  "dominio": "oi.syrve.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/10/26 19:50:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.oi.syrve.app",
+        "aggregated": "/CN=*.oi.syrve.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0635AD5C28369CB286F1C0DCCF82C3B21DB4",
+      "not_before": 1778449894,
+      "not_after": 1786225893,
+      "fingerprint": "2E:3B:09:AA:DD:C3:2B:AF:F4:D6:CC:2E:F2:1F:B4:00:6D:A8:84:C5",
+      "sha1": "2E:3B:09:AA:DD:C3:2B:AF:F4:D6:CC:2E:F2:1F:B4:00:6D:A8:84:C5",
+      "sha256": "C3:1F:C2:CF:5A:56:06:3D:7F:2D:33:13:12:02:A7:47:09:ED:E4:C2:F7:ED:08:63:63:B2:7F:6D:F1:89:4C:58",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.oi.syrve.app",
+        "oi.syrve.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.oi.syrve.app, DNS:oi.syrve.app",
+        "subjectKeyIdentifier": "keyid:d2:f6:a4:69:42:5f:0c:31:54:d2:79:5e:c2:f9:18:41:54:50:70:12"
+      }
+    },
+    "cert_index": 173794434,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x678/884",
+    "seen": 1778453407.641,
+    "submission_timestamp": 1778453405.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguro.vc",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 19:47:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.vc",
+        "aggregated": "/CN=pagseguro.vc"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "0CEBF05E10149C75131B67E0B4649141",
+      "not_before": 1778439508,
+      "not_after": 1786219008,
+      "fingerprint": "47:19:A2:79:FF:57:04:41:BA:9F:96:C1:DC:3F:54:65:F3:B7:60:BF",
+      "sha1": "47:19:A2:79:FF:57:04:41:BA:9F:96:C1:DC:3F:54:65:F3:B7:60:BF",
+      "sha256": "A7:F5:19:10:7E:8C:22:17:98:E7:DC:AA:ED:89:2E:86:FA:23:FB:9A:AF:FE:70:30:47:6C:A7:97:DF:A5:04:56",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.vc",
+        "*.pagseguro.vc"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/DOs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguro.vc, DNS:*.pagseguro.vc",
+        "subjectKeyIdentifier": "keyid:f4:ee:40:7f:6a:26:9f:99:02:44:1a:c2:38:bf:e7:c5:e9:fe:ba:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4170463266,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4170463266&end=4170463266",
+    "seen": 1778453235.488,
+    "submission_timestamp": 1778443108.915,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
