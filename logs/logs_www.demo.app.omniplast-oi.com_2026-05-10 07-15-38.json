@@ -1,0 +1,55 @@
+{
+  "dominio": "www.demo.app.omniplast-oi.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/10/26 07:15:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.demo.app.omniplast-oi.com",
+        "aggregated": "/CN=www.demo.app.omniplast-oi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05D35D0AEB0757299018920FDB257BAB72A4",
+      "not_before": 1778404618,
+      "not_after": 1786180617,
+      "fingerprint": "05:FC:30:30:C2:4C:51:E4:8C:16:48:49:92:19:2D:2D:A4:81:8C:34",
+      "sha1": "05:FC:30:30:C2:4C:51:E4:8C:16:48:49:92:19:2D:2D:A4:81:8C:34",
+      "sha256": "FF:1F:9D:A7:4A:DC:8B:80:97:B4:D0:02:6F:0F:25:52:20:B6:00:23:CA:75:9C:44:27:46:FF:31:65:1D:AD:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.demo.app.omniplast-oi.com",
+        "*.app.omniplast-oi.com",
+        "*.omniplast-oi.com",
+        "www.api.omniplast-oi.com",
+        "www.demo.omniplast-oi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.omniplast-oi.com, DNS:*.omniplast-oi.com, DNS:www.api.omniplast-oi.com, DNS:www.demo.app.omniplast-oi.com, DNS:www.demo.omniplast-oi.com",
+        "subjectKeyIdentifier": "keyid:d2:2a:b2:06:35:ab:ae:04:e0:6d:d2:a6:a6:b2:8e:b3:f5:d4:9c:21"
+      }
+    },
+    "cert_index": 172820451,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x675/079",
+    "seen": 1778408131.271,
+    "submission_timestamp": 1778408128.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

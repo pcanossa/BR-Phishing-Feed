@@ -1,0 +1,53 @@
+{
+  "dominio": "www.quitedebitos.shop",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 07:21:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "quitedebitos.shop",
+        "aggregated": "/CN=quitedebitos.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "055972966E100C4650ACCBE73BC897EEA330",
+      "not_before": 1778401838,
+      "not_after": 1786177837,
+      "fingerprint": "42:B8:02:27:A0:42:1A:15:74:30:F3:E0:D2:69:A1:9E:87:C5:90:00",
+      "sha1": "42:B8:02:27:A0:42:1A:15:74:30:F3:E0:D2:69:A1:9E:87:C5:90:00",
+      "sha256": "40:6D:1A:12:A0:B7:81:31:F8:4F:34:F8:FD:D5:99:12:FA:B2:D7:41:4B:65:3D:C1:19:64:91:B3:40:79:91:51",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "quitedebitos.shop",
+        "www.quitedebitos.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:quitedebitos.shop, DNS:www.quitedebitos.shop",
+        "subjectKeyIdentifier": "keyid:10:03:d7:86:c7:00:ff:39:7b:77:f8:38:d6:5c:de:a2:79:19:29:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4164402103,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4164402103&end=4164402103",
+    "seen": 1778408458.928,
+    "submission_timestamp": 1778405348.211,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.banco-bb.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/10/26 08:01:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.banco-bb.com",
+        "aggregated": "/CN=app.banco-bb.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "82D27C0C2C51DD3BEE2E77CBA43549DD",
+      "not_before": 1778112000,
+      "not_after": 1785974399,
+      "fingerprint": "49:CF:F9:CC:88:01:94:7E:FC:F6:32:6E:74:25:47:63:59:3B:DB:55",
+      "sha1": "49:CF:F9:CC:88:01:94:7E:FC:F6:32:6E:74:25:47:63:59:3B:DB:55",
+      "sha256": "F3:B2:1C:C9:C3:EB:9D:36:33:91:B0:23:B2:F7:02:5B:7B:F4:22:22:00:BE:9D:E8:46:9C:75:0B:E2:78:DC:79",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.banco-bb.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.banco-bb.com",
+        "subjectKeyIdentifier": "keyid:68:ec:18:cb:ab:ad:99:c2:06:37:9b:07:9e:b4:88:2c:8e:04:18:f9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 586549197,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=586549197&end=586549197",
+    "seen": 1778410890.716,
+    "submission_timestamp": 1778151724.736,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

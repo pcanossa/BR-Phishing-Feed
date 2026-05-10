@@ -1,0 +1,51 @@
+{
+  "dominio": "www.debiton.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 07:18:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debiton.com",
+        "aggregated": "/CN=www.debiton.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F53CCDA55F943FE7",
+      "not_before": 1778405061,
+      "not_after": 1795512261,
+      "fingerprint": "AD:EB:BB:2D:3F:CC:FF:39:2B:BE:EF:2E:47:54:C5:5C:F0:5B:B6:E3",
+      "sha1": "AD:EB:BB:2D:3F:CC:FF:39:2B:BE:EF:2E:47:54:C5:5C:F0:5B:B6:E3",
+      "sha256": "86:E0:F6:68:6C:6D:77:D4:50:96:56:7A:F7:C9:E7:41:89:01:7B:5D:D0:96:EF:EB:11:5F:B1:4A:60:64:5E:D1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debiton.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.debiton.com",
+        "subjectKeyIdentifier": "keyid:46:44:ac:af:2c:21:7d:04:12:81:d0:96:77:b1:b6:a3:cd:0c:4b:a9"
+      }
+    },
+    "cert_index": 4164366368,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4164366368&end=4164366368",
+    "seen": 1778408306.235,
+    "submission_timestamp": 1778405062.769,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

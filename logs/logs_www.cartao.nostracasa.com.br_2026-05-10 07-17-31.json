@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao.nostracasa.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/10/26 07:17:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao.nostracasa.com.br",
+        "aggregated": "/CN=www.cartao.nostracasa.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A7CC2F4656D098530EA76075EF06E1A6",
+      "not_before": 1778401328,
+      "not_after": 1786180920,
+      "fingerprint": "60:70:07:F9:DB:C9:C9:F0:34:10:4E:EF:94:B7:50:A0:30:E5:69:50",
+      "sha1": "60:70:07:F9:DB:C9:C9:F0:34:10:4E:EF:94:B7:50:A0:30:E5:69:50",
+      "sha256": "AA:68:B2:32:C9:2E:96:71:88:78:4C:4B:14:8C:A2:9D:10:AF:D3:B3:A1:C0:CB:E9:9D:63:C6:3B:91:F8:4C:B4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao.nostracasa.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/p8w, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.cartao.nostracasa.com.br",
+        "subjectKeyIdentifier": "keyid:98:ae:e8:c6:a0:f4:95:d9:67:79:2e:69:f6:8e:9a:98:b0:43:c6:53",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4164351405,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4164351405&end=4164351405",
+    "seen": 1778408244.491,
+    "submission_timestamp": 1778404928.69,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
