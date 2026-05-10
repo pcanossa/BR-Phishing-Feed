@@ -1,0 +1,52 @@
+{
+  "dominio": "crm.debitocancellato.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 13:00:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "crm.debitocancellato.com",
+        "aggregated": "/CN=crm.debitocancellato.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0825CFDE45C0B750134CF78DCAA5E8A5",
+      "not_before": 1778420733,
+      "not_after": 1786200323,
+      "fingerprint": "0B:11:47:B1:53:57:6D:D5:66:B4:50:F0:30:61:4E:E0:C3:38:EA:C7",
+      "sha1": "0B:11:47:B1:53:57:6D:D5:66:B4:50:F0:30:61:4E:E0:C3:38:EA:C7",
+      "sha256": "FE:D6:39:2F:74:76:C6:6D:65:7B:35:F1:0D:0E:80:1F:44:38:1D:B7:00:29:3C:F0:F8:D1:E3:A2:A3:DC:EA:78",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "crm.debitocancellato.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/CCU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:crm.debitocancellato.com",
+        "subjectKeyIdentifier": "keyid:98:cf:ed:f7:66:db:93:96:aa:45:91:af:49:ef:b2:b5:d5:1c:f1:59",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4166561425,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4166561425&end=4166561425",
+    "seen": 1778428809.563,
+    "submission_timestamp": 1778424333.916,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

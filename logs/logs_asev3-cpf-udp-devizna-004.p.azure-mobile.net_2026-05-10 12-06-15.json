@@ -1,0 +1,62 @@
+{
+  "dominio": "asev3-cpf-udp-devizna-004.p.azure-mobile.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 12:06:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.asev3-cpf-udp-devizna-004.appserviceenvironment.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.asev3-cpf-udp-devizna-004.appserviceenvironment.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft Azure RSA TLS Issuing CA 07",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft Azure RSA TLS Issuing CA 07/O=Microsoft Corporation"
+      },
+      "serial_number": "3303879AA60BAB5435DA0581C4000003879AA6",
+      "not_before": 1778371008,
+      "not_after": 1787702399,
+      "fingerprint": "67:1F:3A:63:4A:98:A5:D6:35:91:C9:F8:2A:43:25:29:5B:6F:B6:54",
+      "sha1": "67:1F:3A:63:4A:98:A5:D6:35:91:C9:F8:2A:43:25:29:5B:6F:B6:54",
+      "sha256": "7C:D7:B1:22:E4:51:43:33:1E:3E:D1:58:14:BE:84:B5:14:D7:F4:6E:20:2A:42:CF:CA:A7:AF:B5:4C:4B:A2:CD",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.asev3-cpf-udp-devizna-004.appserviceenvironment.net",
+        "*.scm.asev3-cpf-udp-devizna-004.appserviceenvironment.net",
+        "asev3-cpf-udp-devizna-004.appserviceenvironment.net",
+        "*.asev3-cpf-udp-devizna-004.p.azurewebsites.net",
+        "*.scm.asev3-cpf-udp-devizna-004.p.azurewebsites.net",
+        "*.asev3-cpf-udp-devizna-004.p.azure-mobile.net",
+        "*.scm.asev3-cpf-udp-devizna-004.p.azure-mobile.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2007%20-%20xsign.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:ce:15:16:3b:ea:02:a3:a6:6b:da:d9:2b:fd:e5:8c:52:be:7a:50:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.311.76.509.1.1\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.asev3-cpf-udp-devizna-004.appserviceenvironment.net, DNS:*.scm.asev3-cpf-udp-devizna-004.appserviceenvironment.net, DNS:asev3-cpf-udp-devizna-004.appserviceenvironment.net, DNS:*.asev3-cpf-udp-devizna-004.p.azurewebsites.net, DNS:*.scm.asev3-cpf-udp-devizna-004.p.azurewebsites.net, DNS:*.asev3-cpf-udp-devizna-004.p.azure-mobile.net, DNS:*.scm.asev3-cpf-udp-devizna-004.p.azure-mobile.net",
+        "subjectKeyIdentifier": "keyid:44:a4:b8:62:b3:e6:21:97:0b:2b:77:94:18:0b:5a:47:68:d9:6f:9a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4166252844,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4166252844&end=4166252844",
+    "seen": 1778425568.279,
+    "submission_timestamp": 1778421676.393,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

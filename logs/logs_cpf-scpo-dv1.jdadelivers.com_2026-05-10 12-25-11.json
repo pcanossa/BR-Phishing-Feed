@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-scpo-dv1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 12:25:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-dv1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-dv1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CB6C81F3B033B40D1385651586975347",
+      "not_before": 1778374048,
+      "not_after": 1786153627,
+      "fingerprint": "41:7A:26:26:DD:D9:49:29:DF:BE:00:63:74:E7:2D:10:DA:87:4B:4D",
+      "sha1": "41:7A:26:26:DD:D9:49:29:DF:BE:00:63:74:E7:2D:10:DA:87:4B:4D",
+      "sha256": "F9:14:D2:AF:6F:55:24:2E:9A:B2:DE:09:53:99:A7:AD:2F:22:74:8A:3E:63:B3:47:73:5D:D6:C7:CF:BF:CF:5B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-dv1.jdadelivers.com",
+        "*.cpf-scpo-dv1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/y2w, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-scpo-dv1.jdadelivers.com, DNS:*.cpf-scpo-dv1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:ab:0b:d9:32:85:02:77:de:3b:66:b3:1b:60:22:0f:43:cc:21:25:b1"
+      }
+    },
+    "cert_index": 182134696,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x711/463",
+    "seen": 1778426703.792,
+    "submission_timestamp": 1778426701.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

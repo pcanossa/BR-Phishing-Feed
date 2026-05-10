@@ -1,0 +1,51 @@
+{
+  "dominio": "staging-cpf.toreed.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 12:15:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging-cpf.toreed.com",
+        "aggregated": "/CN=staging-cpf.toreed.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "069DB35EEB0B8432DE7E78FC1BE0CF1BB0EC",
+      "not_before": 1778309384,
+      "not_after": 1786085383,
+      "fingerprint": "59:31:FB:F2:1E:B0:40:AB:F6:7A:B3:E1:55:5E:5F:16:0D:4B:57:17",
+      "sha1": "59:31:FB:F2:1E:B0:40:AB:F6:7A:B3:E1:55:5E:5F:16:0D:4B:57:17",
+      "sha256": "B2:68:42:C4:EC:6D:79:4A:2A:A4:BA:2C:58:41:A4:A6:0E:AF:EC:7C:83:71:D3:75:A3:50:17:1A:A7:4F:C7:2F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging-cpf.toreed.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging-cpf.toreed.com",
+        "subjectKeyIdentifier": "keyid:26:90:54:75:36:5b:25:16:b0:1a:89:c7:20:7f:e9:e7:c8:22:e4:14"
+      }
+    },
+    "cert_index": 4166384218,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4166384218&end=4166384218",
+    "seen": 1778426104.863,
+    "submission_timestamp": 1778422823.374,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
