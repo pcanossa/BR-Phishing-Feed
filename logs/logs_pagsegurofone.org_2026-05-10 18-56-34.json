@@ -1,0 +1,53 @@
+{
+  "dominio": "pagsegurofone.org",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:56:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagsegurofone.org",
+        "aggregated": "/CN=pagsegurofone.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1F5BC5A34D553C8313905AD2175F2E61",
+      "not_before": 1778437572,
+      "not_after": 1786217170,
+      "fingerprint": "CF:2D:2B:CD:88:BB:18:E3:9A:EC:C1:46:A4:7C:50:58:EA:CA:27:2F",
+      "sha1": "CF:2D:2B:CD:88:BB:18:E3:9A:EC:C1:46:A4:7C:50:58:EA:CA:27:2F",
+      "sha256": "CD:51:97:69:A5:42:DA:EF:B8:DB:91:EF:86:4A:40:33:FB:D3:E7:46:F2:D1:68:82:E1:B5:49:86:08:DB:9C:FD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagsegurofone.org",
+        "*.pagsegurofone.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/H1s, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagsegurofone.org, DNS:*.pagsegurofone.org",
+        "subjectKeyIdentifier": "keyid:9b:3c:0d:49:94:18:98:f1:fe:57:8e:ee:15:54:80:a2:b0:92:43:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169950941,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169950941&end=4169950941",
+    "seen": 1778450186.681,
+    "submission_timestamp": 1778441173.097,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

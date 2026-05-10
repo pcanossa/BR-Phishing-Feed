@@ -1,0 +1,53 @@
+{
+  "dominio": "phonepagseguro.org",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:56:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "phonepagseguro.org",
+        "aggregated": "/CN=phonepagseguro.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CD3B5F395893DADD0E1B52708344CEC3",
+      "not_before": 1778437562,
+      "not_after": 1786217156,
+      "fingerprint": "10:9E:EF:D4:74:D9:D9:1A:D0:C8:79:AB:A5:07:F3:AB:63:AF:57:82",
+      "sha1": "10:9E:EF:D4:74:D9:D9:1A:D0:C8:79:AB:A5:07:F3:AB:63:AF:57:82",
+      "sha256": "23:3C:F9:90:4D:C8:49:DA:B8:CA:DE:FA:06:E2:B7:F4:75:C3:25:7A:88:FD:72:26:A7:E1:B2:0B:25:40:59:9E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "phonepagseguro.org",
+        "*.phonepagseguro.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/zTs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:phonepagseguro.org, DNS:*.phonepagseguro.org",
+        "subjectKeyIdentifier": "keyid:78:29:3f:90:50:27:16:ed:87:a4:ac:bb:55:1c:e3:3e:44:63:0f:bc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169948781,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169948781&end=4169948781",
+    "seen": 1778450172.541,
+    "submission_timestamp": 1778441163.337,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

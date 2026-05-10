@@ -1,0 +1,53 @@
+{
+  "dominio": "maquininhapagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:56:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "maquininhapagseguro.com.br",
+        "aggregated": "/CN=maquininhapagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "FCAA8B1A1CF307D80ECDB1A95AE859AC",
+      "not_before": 1778437564,
+      "not_after": 1786217029,
+      "fingerprint": "0E:AC:E4:91:53:E1:2D:07:46:E3:41:4C:73:69:40:EF:98:F7:4B:C5",
+      "sha1": "0E:AC:E4:91:53:E1:2D:07:46:E3:41:4C:73:69:40:EF:98:F7:4B:C5",
+      "sha256": "AE:FB:87:82:4C:E7:6E:BC:36:BD:13:66:49:C3:BA:4F:2D:CD:94:C5:CF:5E:EE:1D:49:AB:2B:E6:E4:A2:08:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "maquininhapagseguro.com.br",
+        "*.maquininhapagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/_Ko, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:maquininhapagseguro.com.br, DNS:*.maquininhapagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:21:ad:62:16:f1:a8:18:8a:d9:ac:43:97:dc:ca:d8:48:ff:a5:21:e9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169949177,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169949177&end=4169949177",
+    "seen": 1778450173.339,
+    "submission_timestamp": 1778441165.162,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

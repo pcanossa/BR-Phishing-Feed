@@ -1,0 +1,53 @@
+{
+  "dominio": "pagsegurocdb.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:34:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagsegurocdb.com",
+        "aggregated": "/CN=pagsegurocdb.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1741E61A2EF28DBA130E38E6D2739E1C",
+      "not_before": 1778436716,
+      "not_after": 1786216306,
+      "fingerprint": "4F:5A:B1:C3:A1:D8:5E:C2:3C:44:BD:85:CC:23:F5:A9:12:FA:B5:CF",
+      "sha1": "4F:5A:B1:C3:A1:D8:5E:C2:3C:44:BD:85:CC:23:F5:A9:12:FA:B5:CF",
+      "sha256": "7D:CB:B3:DA:D3:A5:A7:67:52:91:B7:3D:26:B2:C4:A2:7B:34:A6:F0:6E:56:56:EC:23:0C:9B:C3:43:84:BE:E2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagsegurocdb.com",
+        "*.pagsegurocdb.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/F0E, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagsegurocdb.com, DNS:*.pagsegurocdb.com",
+        "subjectKeyIdentifier": "keyid:04:b7:92:6b:2f:be:00:cc:46:68:09:eb:82:36:7b:52:4b:14:17:63",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169727854,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169727854&end=4169727854",
+    "seen": 1778448832.075,
+    "submission_timestamp": 1778440316.71,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

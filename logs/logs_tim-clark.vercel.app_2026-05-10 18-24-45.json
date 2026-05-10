@@ -1,0 +1,52 @@
+{
+  "dominio": "tim-clark.vercel.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/10/26 18:24:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.tim-clark.vercel.app",
+        "aggregated": "/CN=*.tim-clark.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "A8DB8F28CB1E0B1F0E6F1078D44F1677",
+      "not_before": 1778436267,
+      "not_after": 1786212266,
+      "fingerprint": "81:3E:FB:07:41:0A:24:F6:AA:EC:54:99:B9:55:B9:C1:E3:F7:3B:DC",
+      "sha1": "81:3E:FB:07:41:0A:24:F6:AA:EC:54:99:B9:55:B9:C1:E3:F7:3B:DC",
+      "sha256": "7B:D6:E6:D1:D6:F5:57:EF:EC:34:80:59:5F:F3:3C:AE:C4:01:70:B3:F3:59:E6:E4:10:A6:63:19:46:47:0B:DA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.tim-clark.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/qNs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.tim-clark.vercel.app",
+        "subjectKeyIdentifier": "keyid:e6:d1:2d:66:38:c6:fb:97:6d:c1:64:75:59:9f:1f:dd:8f:c2:9a:09",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169637337,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169637337&end=4169637337",
+    "seen": 1778448276.935,
+    "submission_timestamp": 1778439868.161,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

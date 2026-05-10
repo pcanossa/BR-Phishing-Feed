@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguroinvest.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:31:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguroinvest.com",
+        "aggregated": "/CN=pagseguroinvest.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "AE8040826BB9C5A00E17A05216F7B4D1",
+      "not_before": 1778436617,
+      "not_after": 1786216076,
+      "fingerprint": "60:1D:64:FC:3D:CE:1D:BE:55:41:D4:07:D3:70:BC:75:0A:10:75:89",
+      "sha1": "60:1D:64:FC:3D:CE:1D:BE:55:41:D4:07:D3:70:BC:75:0A:10:75:89",
+      "sha256": "93:25:A3:1D:E5:24:68:F9:C5:3E:EC:6A:54:BF:EA:0D:E9:EC:1F:83:8E:74:8D:E4:C6:DA:F0:7B:4A:D5:CF:1A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguroinvest.com",
+        "*.pagseguroinvest.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/roA, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguroinvest.com, DNS:*.pagseguroinvest.com",
+        "subjectKeyIdentifier": "keyid:c2:85:9e:33:d2:31:64:bf:65:8c:e8:03:b4:4d:11:11:8d:fa:0e:71",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169699146,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169699146&end=4169699146",
+    "seen": 1778448654.041,
+    "submission_timestamp": 1778440218.263,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

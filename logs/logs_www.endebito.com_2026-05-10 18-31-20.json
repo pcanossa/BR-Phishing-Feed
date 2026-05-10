@@ -1,0 +1,52 @@
+{
+  "dominio": "www.endebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 18:31:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "endebito.com",
+        "aggregated": "/CN=endebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0593E9CF4ADE6461845A6E7356CFC2FAF355",
+      "not_before": 1777874439,
+      "not_after": 1785650438,
+      "fingerprint": "BA:22:49:5F:DB:89:20:C4:FC:A3:68:2B:E5:3B:D3:8B:F5:EC:9D:87",
+      "sha1": "BA:22:49:5F:DB:89:20:C4:FC:A3:68:2B:E5:3B:D3:8B:F5:EC:9D:87",
+      "sha256": "59:43:34:F0:6D:1B:BF:29:66:E4:F2:ED:71:B3:46:44:5B:86:2C:0D:7F:54:0E:F4:F1:DA:7E:55:48:46:3E:D4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "endebito.com",
+        "www.endebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:endebito.com, DNS:www.endebito.com",
+        "subjectKeyIdentifier": "keyid:03:c9:72:5e:0a:2e:67:a7:aa:15:d1:e6:5c:98:e6:ff:ed:06:5f:7c"
+      }
+    },
+    "cert_index": 827052179,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=827052179&end=827052179",
+    "seen": 1778448671.881,
+    "submission_timestamp": 1777877950.694,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

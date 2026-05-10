@@ -1,0 +1,51 @@
+{
+  "dominio": "login.uber-tubbs.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/10/26 18:39:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.uber-tubbs.com",
+        "aggregated": "/CN=login.uber-tubbs.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "DC067616679D5FB2A972E4B475A69AA4",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "06:1A:E2:4A:4A:94:DB:4E:80:DB:98:40:92:47:E2:EF:0E:D5:10:AD",
+      "sha1": "06:1A:E2:4A:4A:94:DB:4E:80:DB:98:40:92:47:E2:EF:0E:D5:10:AD",
+      "sha256": "CF:D2:FA:B2:B7:D2:73:30:99:FA:C1:20:DF:B6:A3:79:C6:A0:AE:23:53:91:C6:79:DA:90:57:79:21:7C:69:63",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.uber-tubbs.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.uber-tubbs.com",
+        "subjectKeyIdentifier": "keyid:05:f2:d8:95:9f:c9:47:1e:0e:91:f7:39:6d:d3:3e:9d:d1:b2:c1:3d"
+      }
+    },
+    "cert_index": 827061223,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=827061223&end=827061223",
+    "seen": 1778449179.702,
+    "submission_timestamp": 1777877998.559,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

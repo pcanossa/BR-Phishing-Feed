@@ -1,0 +1,53 @@
+{
+  "dominio": "fonepagseguro.net",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:38:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fonepagseguro.net",
+        "aggregated": "/CN=fonepagseguro.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C93A653AD7653D381310DA6B91CB0F4E",
+      "not_before": 1778436869,
+      "not_after": 1786216466,
+      "fingerprint": "6E:1C:6B:5D:D1:25:A2:B1:84:62:37:27:74:0B:29:F3:13:BD:89:D2",
+      "sha1": "6E:1C:6B:5D:D1:25:A2:B1:84:62:37:27:74:0B:29:F3:13:BD:89:D2",
+      "sha256": "27:3F:A3:85:81:AC:9A:E7:43:1F:7F:1C:77:C8:E7:15:F3:0D:80:72:AE:75:FE:8C:97:03:0B:40:62:19:75:4F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "fonepagseguro.net",
+        "*.fonepagseguro.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/yTo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:fonepagseguro.net, DNS:*.fonepagseguro.net",
+        "subjectKeyIdentifier": "keyid:01:ea:d6:98:78:14:b1:9c:a6:de:10:ea:d7:38:37:11:d6:cc:24:f5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169768503,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169768503&end=4169768503",
+    "seen": 1778449084.408,
+    "submission_timestamp": 1778440470.11,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

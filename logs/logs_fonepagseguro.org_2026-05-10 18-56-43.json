@@ -1,0 +1,53 @@
+{
+  "dominio": "fonepagseguro.org",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:56:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fonepagseguro.org",
+        "aggregated": "/CN=fonepagseguro.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "1270B5D5B88E85BA13E4FBF56D228EA7",
+      "not_before": 1778437580,
+      "not_after": 1786217041,
+      "fingerprint": "35:EC:84:7E:66:F9:AA:F7:7D:DE:78:CE:32:71:E4:04:6C:0B:41:5B",
+      "sha1": "35:EC:84:7E:66:F9:AA:F7:7D:DE:78:CE:32:71:E4:04:6C:0B:41:5B",
+      "sha256": "6B:79:F8:D5:1B:A5:D4:FA:7D:D2:9D:16:0C:5B:0A:0C:18:22:76:4D:F3:50:6F:BA:D5:46:EC:72:62:9A:81:89",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fonepagseguro.org",
+        "*.fonepagseguro.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/EnA, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fonepagseguro.org, DNS:*.fonepagseguro.org",
+        "subjectKeyIdentifier": "keyid:09:1f:f2:31:13:ec:6f:d8:da:2a:04:84:0f:cd:a3:b7:f2:61:e0:f6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4169952540,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169952540&end=4169952540",
+    "seen": 1778450195.432,
+    "submission_timestamp": 1778441180.874,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

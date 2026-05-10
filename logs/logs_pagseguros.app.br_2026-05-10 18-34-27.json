@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguros.app.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 18:34:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguros.app.br",
+        "aggregated": "/CN=pagseguros.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D306C21418BD9D08136A0975BB88A053",
+      "not_before": 1778436709,
+      "not_after": 1786216297,
+      "fingerprint": "3F:C5:F8:86:70:FD:E1:96:9E:F2:FF:F1:D1:00:E6:08:66:41:12:07",
+      "sha1": "3F:C5:F8:86:70:FD:E1:96:9E:F2:FF:F1:D1:00:E6:08:66:41:12:07",
+      "sha256": "96:83:34:A9:D9:48:F1:4A:31:A6:DF:8D:EC:16:6A:4E:84:F9:5A:8C:1C:B9:FE:04:C7:BF:F1:D1:2D:7E:E8:F8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguros.app.br",
+        "*.pagseguros.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/0wY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagseguros.app.br, DNS:*.pagseguros.app.br",
+        "subjectKeyIdentifier": "keyid:c0:86:f7:48:88:f6:41:fa:09:ae:29:08:73:2c:5c:d8:61:26:d7:2e"
+      }
+    },
+    "cert_index": 4169732283,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169732283&end=4169732283",
+    "seen": 1778448859.327,
+    "submission_timestamp": 1778440328.522,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
