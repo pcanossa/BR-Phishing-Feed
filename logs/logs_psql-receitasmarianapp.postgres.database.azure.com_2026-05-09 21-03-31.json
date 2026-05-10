@@ -1,0 +1,57 @@
+{
+  "dominio": "psql-receitasmarianapp.postgres.database.azure.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/09/26 21:03:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "abce0d8a6a53.database.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=abce0d8a6a53.database.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100268779FF6B6D8D147293E5000000268779",
+      "not_before": 1778370612,
+      "not_after": 1793922612,
+      "fingerprint": "6C:D0:50:55:DD:5A:CB:AF:9A:C0:B6:A2:93:2B:45:E5:1A:95:71:62",
+      "sha1": "6C:D0:50:55:DD:5A:CB:AF:9A:C0:B6:A2:93:2B:45:E5:1A:95:71:62",
+      "sha256": "07:15:17:6B:98:44:73:EE:4F:5E:29:0B:B8:02:CB:FC:11:98:13:A5:B8:37:B4:60:3A:27:50:91:21:5F:5B:03",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "abce0d8a6a53.database.azure.com",
+        "psql-receitasmarianapp.postgres.database.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:psql-receitasmarianapp.postgres.database.azure.com, DNS:abce0d8a6a53.database.azure.com",
+        "subjectKeyIdentifier": "keyid:f4:8d:c7:07:c8:ea:94:53:67:bc:f8:4e:17:ce:a6:c7:1d:79:86:a8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 677059943,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=677059943&end=677059943",
+    "seen": 1778371405.914,
+    "submission_timestamp": 1778371217.905,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
