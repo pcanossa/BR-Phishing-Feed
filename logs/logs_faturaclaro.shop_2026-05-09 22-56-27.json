@@ -1,0 +1,51 @@
+{
+  "dominio": "faturaclaro.shop",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/09/26 22:56:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "faturaclaro.shop",
+        "aggregated": "/CN=faturaclaro.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05618B5C98059CD5B3D904604C5D9536B650",
+      "not_before": 1778359175,
+      "not_after": 1786135174,
+      "fingerprint": "CE:03:2C:F6:E4:C5:1F:63:BB:AE:E3:9D:EF:75:FA:DB:86:CF:84:CF",
+      "sha1": "CE:03:2C:F6:E4:C5:1F:63:BB:AE:E3:9D:EF:75:FA:DB:86:CF:84:CF",
+      "sha256": "A1:8C:0F:C3:87:65:62:37:B7:1C:4F:6F:EE:2F:B6:EF:CE:9B:48:59:37:C6:D8:CD:5F:D2:F2:56:0B:A4:18:99",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "faturaclaro.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:faturaclaro.shop",
+        "subjectKeyIdentifier": "keyid:df:37:cd:2a:9d:9a:20:2c:fe:ab:e0:b3:93:7e:24:85:5d:5e:a2:f8"
+      }
+    },
+    "cert_index": 4159108754,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4159108754&end=4159108754",
+    "seen": 1778378181.487,
+    "submission_timestamp": 1778362688.19,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
