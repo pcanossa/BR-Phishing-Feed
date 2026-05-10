@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-scpo-seq1-ts1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 05:12:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-seq1-ts1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-seq1-ts1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "394FD15FAACDFE8E8CFB862866EF9648",
+      "not_before": 1778371200,
+      "not_after": 1786176536,
+      "fingerprint": "93:1B:D0:2E:33:2A:77:B7:AE:DB:56:E1:9F:F6:4D:1C:9D:70:EA:FF",
+      "sha1": "93:1B:D0:2E:33:2A:77:B7:AE:DB:56:E1:9F:F6:4D:1C:9D:70:EA:FF",
+      "sha256": "2E:6A:40:1F:06:50:10:F7:B9:31:EE:A5:62:60:40:17:98:87:62:D4:B8:77:A1:91:2C:52:C4:97:A1:BE:22:0B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-seq1-ts1.jdadelivers.com",
+        "*.cpf-scpo-seq1-ts1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-scpo-seq1-ts1.jdadelivers.com, DNS:*.cpf-scpo-seq1-ts1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:19:10:db:12:02:dd:e4:fb:22:d0:da:87:50:69:17:d9:12:cb:f9:36",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 681868809,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=681868809&end=681868809",
+    "seen": 1778400748.874,
+    "submission_timestamp": 1778400629.985,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

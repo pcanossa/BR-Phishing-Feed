@@ -1,0 +1,53 @@
+{
+  "dominio": "login.tim.in",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/10/26 05:44:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.tim.in",
+        "aggregated": "/CN=login.tim.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "051FB537883BEA41AB16B3F06E01A2F8",
+      "not_before": 1778025600,
+      "not_after": 1785801599,
+      "fingerprint": "9B:C8:2D:15:85:15:21:C2:72:59:01:CF:FE:D4:A8:EE:72:62:25:BB",
+      "sha1": "9B:C8:2D:15:85:15:21:C2:72:59:01:CF:FE:D4:A8:EE:72:62:25:BB",
+      "sha256": "89:68:DC:C8:D1:7A:42:44:95:C2:7F:26:96:13:2E:06:76:AD:4D:97:CA:9E:B9:CF:9C:00:E7:48:D9:30:F4:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.tim.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.tim.in",
+        "subjectKeyIdentifier": "keyid:b2:4f:57:b5:6c:fd:de:fa:49:98:38:fc:19:2c:a6:3d:f2:f9:12:09",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 607826023,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=607826023&end=607826023",
+    "seen": 1778402660.77,
+    "submission_timestamp": 1778101310.439,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

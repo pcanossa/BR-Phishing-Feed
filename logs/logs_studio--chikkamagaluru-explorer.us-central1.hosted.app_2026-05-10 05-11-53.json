@@ -1,0 +1,53 @@
+{
+  "dominio": "studio--chikkamagaluru-explorer.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "magalu"
+  ],
+  "timestamp": "05/10/26 05:11:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--chikkamagaluru-explorer.us-central1.hosted.app",
+        "aggregated": "/CN=studio--chikkamagaluru-explorer.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "C40D29AA4BD910931279A0E32852A05E",
+      "not_before": 1778393765,
+      "not_after": 1786173120,
+      "fingerprint": "D0:CD:B8:DB:71:C0:CD:0A:C7:68:89:F9:02:CF:72:96:EC:4B:9E:78",
+      "sha1": "D0:CD:B8:DB:71:C0:CD:0A:C7:68:89:F9:02:CF:72:96:EC:4B:9E:78",
+      "sha256": "66:5F:F5:12:A0:EE:50:23:C8:0B:B8:8D:3F:34:F1:8E:9C:19:8D:6C:3D:58:57:4A:82:45:E1:EA:43:8A:60:25",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--chikkamagaluru-explorer.us-central1.hosted.app",
+        "*.studio--chikkamagaluru-explorer.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/xA0, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--chikkamagaluru-explorer.us-central1.hosted.app, DNS:*.studio--chikkamagaluru-explorer.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:2b:ae:5f:a7:d5:1a:88:53:03:d2:b0:48:31:4a:ca:ab:c7:7b:15:86",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4163490433,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4163490433&end=4163490433",
+    "seen": 1778400706.93,
+    "submission_timestamp": 1778397365.683,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
