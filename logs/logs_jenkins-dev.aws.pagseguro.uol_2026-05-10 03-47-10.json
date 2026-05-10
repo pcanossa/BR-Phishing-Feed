@@ -1,0 +1,52 @@
+{
+  "dominio": "jenkins-dev.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 03:47:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jenkins-dev.aws.pagseguro.uol",
+        "aggregated": "/CN=jenkins-dev.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "37D7E3EF5621A5420E5FD2CA53C380B0",
+      "not_before": 1778138919,
+      "not_after": 1785918516,
+      "fingerprint": "DE:09:A3:4E:08:C4:54:3E:2A:40:C0:95:52:12:B4:2F:DA:E5:2B:43",
+      "sha1": "DE:09:A3:4E:08:C4:54:3E:2A:40:C0:95:52:12:B4:2F:DA:E5:2B:43",
+      "sha256": "30:76:81:BC:50:29:A3:73:0D:CE:C7:4F:2B:59:27:36:7E:4B:BA:7E:D5:DA:97:9D:5C:4E:9E:09:16:FC:46:53",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins-dev.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/N9c, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:jenkins-dev.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:8b:8a:9c:e8:bc:a3:05:03:60:8b:ee:68:d2:93:8c:f9:8d:c6:b0:a4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 585515393,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=585515393&end=585515393",
+    "seen": 1778395623.877,
+    "submission_timestamp": 1778143574.331,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

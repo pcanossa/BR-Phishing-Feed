@@ -1,0 +1,52 @@
+{
+  "dominio": "cfsc-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/10/26 03:33:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cfsc-cpf.pages.dev",
+        "aggregated": "/CN=cfsc-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05F480D363124BB298EBCEE82AF8E32A80A5",
+      "not_before": 1776768490,
+      "not_after": 1784544489,
+      "fingerprint": "97:1D:0C:C3:8F:8C:46:56:F5:13:70:D6:7F:92:C6:44:10:31:E7:15",
+      "sha1": "97:1D:0C:C3:8F:8C:46:56:F5:13:70:D6:7F:92:C6:44:10:31:E7:15",
+      "sha256": "92:E4:D1:6A:C8:25:09:B9:EF:2C:9B:62:E7:B7:32:C2:78:E6:5B:50:DC:98:09:46:32:0C:67:B7:98:D7:80:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cfsc-cpf.pages.dev",
+        "*.cfsc-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cfsc-cpf.pages.dev, DNS:cfsc-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:c5:1d:d0:e9:52:34:cf:59:72:48:1e:ab:4f:58:9c:4d:74:ff:d5:58"
+      }
+    },
+    "cert_index": 585455431,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=585455431&end=585455431",
+    "seen": 1778394804.443,
+    "submission_timestamp": 1778143122.899,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

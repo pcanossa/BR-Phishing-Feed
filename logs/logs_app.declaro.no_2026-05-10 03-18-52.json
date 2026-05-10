@@ -1,0 +1,51 @@
+{
+  "dominio": "app.declaro.no",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/10/26 03:18:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.declaro.no",
+        "aggregated": "/CN=app.declaro.no"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0589A04899A9C3D6734D2E8FF0A8C901CDA5",
+      "not_before": 1777902278,
+      "not_after": 1785678277,
+      "fingerprint": "E0:1F:A8:7C:D4:FF:0E:46:16:37:FD:BB:D3:45:15:2F:72:2D:32:91",
+      "sha1": "E0:1F:A8:7C:D4:FF:0E:46:16:37:FD:BB:D3:45:15:2F:72:2D:32:91",
+      "sha256": "D1:BB:F0:74:2D:9B:4B:AB:10:5B:3C:38:6E:28:D7:06:57:52:31:50:70:6B:94:4C:C8:88:EE:F4:DB:AD:2D:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.declaro.no"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.declaro.no",
+        "subjectKeyIdentifier": "keyid:df:1c:73:ed:1b:34:14:bd:bc:0e:2b:6f:3e:28:76:0e:fe:9f:05:fd"
+      }
+    },
+    "cert_index": 1546994822,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1546994822&end=1546994822",
+    "seen": 1778393925.366,
+    "submission_timestamp": 1777905790.669,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}
