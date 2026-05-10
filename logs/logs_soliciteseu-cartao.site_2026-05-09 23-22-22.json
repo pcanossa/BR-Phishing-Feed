@@ -1,0 +1,51 @@
+{
+  "dominio": "soliciteseu-cartao.site",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/09/26 23:22:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "soliciteseu-cartao.site",
+        "aggregated": "/CN=soliciteseu-cartao.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "2323BB312F36E109",
+      "not_before": 1778356296,
+      "not_after": 1795463496,
+      "fingerprint": "17:E4:46:F2:2B:5C:BB:11:18:76:11:49:24:F2:91:68:0F:5E:BB:70",
+      "sha1": "17:E4:46:F2:2B:5C:BB:11:18:76:11:49:24:F2:91:68:0F:5E:BB:70",
+      "sha256": "F6:25:74:84:91:7B:8C:44:0C:E7:9F:D6:6F:9C:74:65:F9:3F:F9:0B:E1:9D:68:09:5B:55:DF:4A:0C:98:72:E7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "soliciteseu-cartao.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:soliciteseu-cartao.site",
+        "subjectKeyIdentifier": "keyid:88:34:e2:ae:8a:5e:cb:db:4d:d2:2e:10:c7:c1:63:99:83:9f:7d:80"
+      }
+    },
+    "cert_index": 4159421862,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4159421862&end=4159421862",
+    "seen": 1778379735.536,
+    "submission_timestamp": 1778364123.901,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

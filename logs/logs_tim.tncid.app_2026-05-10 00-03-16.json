@@ -1,0 +1,51 @@
+{
+  "dominio": "tim.tncid.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/10/26 00:03:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tim.tncid.app",
+        "aggregated": "/CN=tim.tncid.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "8073A30FD021BE6E09827F1C4EC97968",
+      "not_before": 1778334793,
+      "not_after": 1786114047,
+      "fingerprint": "14:65:72:5A:30:A0:2C:4B:EF:F6:13:5A:15:43:AF:48:7F:B4:49:B9",
+      "sha1": "14:65:72:5A:30:A0:2C:4B:EF:F6:13:5A:15:43:AF:48:7F:B4:49:B9",
+      "sha256": "9D:C4:25:DF:97:21:0E:88:EE:67:15:82:63:3B:3E:E7:A0:8F:FA:52:E1:6A:BE:E9:1E:A0:79:5F:EC:B6:A3:83",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tim.tncid.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/gHM, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tim.tncid.app",
+        "subjectKeyIdentifier": "keyid:5d:58:2e:c4:14:df:ec:ff:56:fd:0c:1e:51:28:03:0d:c7:c1:0d:ff"
+      }
+    },
+    "cert_index": 4159975447,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4159975447&end=4159975447",
+    "seen": 1778382189.555,
+    "submission_timestamp": 1778366921.006,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
