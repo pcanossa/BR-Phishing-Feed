@@ -1,0 +1,59 @@
+{
+  "dominio": "usbn1-oi-nor-a.usgovcloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/10/26 17:35:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "Nor-ServerSSL201802usbn1.opinsights.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "Washington",
+        "aggregated": "/C=US/CN=Nor-ServerSSL201802usbn1.opinsights.azure.com/L=Redmond/O=Microsoft Corporation/ST=Washington"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert SHA2 Secure Server CA",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert SHA2 Secure Server CA/O=DigiCert Inc"
+      },
+      "serial_number": "025DCEFA701F39B79105F7CB46A73100",
+      "not_before": 1778112000,
+      "not_after": 1795305599,
+      "fingerprint": "06:BF:12:30:1C:D0:E4:CC:B0:43:02:11:5E:C5:D6:1E:F0:5B:14:B3",
+      "sha1": "06:BF:12:30:1C:D0:E4:CC:B0:43:02:11:5E:C5:D6:1E:F0:5B:14:B3",
+      "sha256": "D6:A7:E0:FA:01:0B:48:F4:8F:D6:04:31:53:D6:F4:D2:A9:6F:85:70:FD:D2:75:40:E2:BD:ED:DB:22:95:79:50",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "Nor-ServerSSL201802usbn1.opinsights.azure.com",
+        "usbn1-oi-nor.usgovtrafficmanager.net",
+        "usbn1-oi-nor-a.usgovcloudapp.net",
+        "usbn1-oi-nor-b.usgovcloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA-2.crt",
+        "authorityKeyIdentifier": "keyid:0f:80:61:1c:82:31:61:d5:2f:28:e7:8d:46:38:b4:2c:e1:c6:d9:e2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:Nor-ServerSSL201802usbn1.opinsights.azure.com, DNS:usbn1-oi-nor.usgovtrafficmanager.net, DNS:usbn1-oi-nor-a.usgovcloudapp.net, DNS:usbn1-oi-nor-b.usgovcloudapp.net",
+        "subjectKeyIdentifier": "keyid:d0:83:20:6c:03:84:90:9a:4f:d6:24:be:36:82:d0:fa:46:89:40:4b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 588798743,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=588798743&end=588798743",
+    "seen": 1778445319.457,
+    "submission_timestamp": 1778168399.453,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "receita-federal.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/10/26 17:25:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.receita-federal.com",
+        "aggregated": "/CN=*.receita-federal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05494F507B34A53D7CF4536822E51B5DAFD7",
+      "not_before": 1778387724,
+      "not_after": 1786163723,
+      "fingerprint": "40:57:E5:39:66:5F:C9:AE:08:37:AC:B2:21:81:BB:30:B1:CB:46:0F",
+      "sha1": "40:57:E5:39:66:5F:C9:AE:08:37:AC:B2:21:81:BB:30:B1:CB:46:0F",
+      "sha256": "38:08:4B:D2:96:CD:CA:0F:E2:41:94:D0:86:E1:28:68:5B:33:63:B0:B1:A7:34:47:EA:F9:00:CD:C8:C1:4E:C7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.receita-federal.com",
+        "receita-federal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.receita-federal.com, DNS:receita-federal.com",
+        "subjectKeyIdentifier": "keyid:83:20:2f:13:b4:12:aa:bf:3a:25:2c:3a:f1:3c:b5:06:ef:a9:e6:dd"
+      }
+    },
+    "cert_index": 4169044018,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4169044018&end=4169044018",
+    "seen": 1778444723.521,
+    "submission_timestamp": 1778436196.825,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
