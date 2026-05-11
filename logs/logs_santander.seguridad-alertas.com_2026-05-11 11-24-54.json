@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.seguridad-alertas.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/11/26 11:24:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguridad-alertas.com",
+        "aggregated": "/CN=seguridad-alertas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "697A056BB2997CE8133DF46DF5FA315C",
+      "not_before": 1778481720,
+      "not_after": 1786261316,
+      "fingerprint": "A0:E0:03:C4:BA:FD:91:6D:F3:5E:80:6D:0D:5B:8E:4D:D6:E7:15:6A",
+      "sha1": "A0:E0:03:C4:BA:FD:91:6D:F3:5E:80:6D:0D:5B:8E:4D:D6:E7:15:6A",
+      "sha256": "F1:B6:4F:6F:CE:08:2D:2C:96:7F:C0:CE:26:D2:9F:EA:3C:FF:41:97:7A:3A:FD:F1:EA:B8:78:BF:D5:AA:67:77",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "seguridad-alertas.com",
+        "santander.seguridad-alertas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/aXo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:seguridad-alertas.com, DNS:santander.seguridad-alertas.com",
+        "subjectKeyIdentifier": "keyid:4d:03:b4:da:f6:9f:08:52:89:cb:40:0b:6c:58:7b:55:33:89:43:fe"
+      }
+    },
+    "cert_index": 4180953223,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4180953223&end=4180953223",
+    "seen": 1778509484.607,
+    "submission_timestamp": 1778490060.409,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

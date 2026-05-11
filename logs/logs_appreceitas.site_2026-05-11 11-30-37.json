@@ -1,0 +1,52 @@
+{
+  "dominio": "appreceitas.site",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/11/26 11:30:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appreceitas.site",
+        "aggregated": "/CN=appreceitas.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "053B17A85C7901C90E2BF1E5D9B06B71",
+      "not_before": 1778458025,
+      "not_after": 1786237622,
+      "fingerprint": "C6:A2:37:43:67:4A:F8:B8:90:E5:FA:59:F9:B7:99:0E:8C:AC:5A:B2",
+      "sha1": "C6:A2:37:43:67:4A:F8:B8:90:E5:FA:59:F9:B7:99:0E:8C:AC:5A:B2",
+      "sha256": "8E:9F:DF:A3:B2:2D:05:03:77:AC:3F:A6:21:96:BC:E1:5D:01:C7:A0:B1:4D:DC:7C:B1:E9:09:C3:1C:2B:50:A3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "appreceitas.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BTs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:appreceitas.site",
+        "subjectKeyIdentifier": "keyid:c4:62:f6:cf:72:9d:f8:71:8f:bc:63:ac:9f:cb:40:41:46:34:75:52",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4181014549,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4181014549&end=4181014549",
+    "seen": 1778509837.975,
+    "submission_timestamp": 1778490282.452,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
