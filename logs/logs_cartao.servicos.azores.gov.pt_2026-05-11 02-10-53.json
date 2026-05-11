@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.servicos.azores.gov.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/11/26 02:10:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.servicos.azores.gov.pt",
+        "aggregated": "/CN=cartao.servicos.azores.gov.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7093D9CB942287A60E96DA3CFC75C915",
+      "not_before": 1778419842,
+      "not_after": 1786199440,
+      "fingerprint": "B6:4A:AA:42:F6:68:39:6C:5C:41:4A:A3:A0:5A:F8:B9:AD:27:56:F2",
+      "sha1": "B6:4A:AA:42:F6:68:39:6C:5C:41:4A:A3:A0:5A:F8:B9:AD:27:56:F2",
+      "sha256": "57:5B:9F:F7:49:86:8E:3E:0E:90:EE:EC:E7:3B:48:86:F0:E8:13:1F:B7:78:AC:8A:68:D1:4B:16:33:4D:45:6E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.servicos.azores.gov.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/cJM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.servicos.azores.gov.pt",
+        "subjectKeyIdentifier": "keyid:6d:5e:be:27:be:9e:5d:83:1d:8c:8d:9e:83:66:4f:fd:17:92:cb:58"
+      }
+    },
+    "cert_index": 4174464555,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4174464555&end=4174464555",
+    "seen": 1778476244.266,
+    "submission_timestamp": 1778458252.819,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

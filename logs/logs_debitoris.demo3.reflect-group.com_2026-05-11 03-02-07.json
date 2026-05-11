@@ -1,0 +1,51 @@
+{
+  "dominio": "debitoris.demo3.reflect-group.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 03:02:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoris.demo3.reflect-group.com",
+        "aggregated": "/CN=debitoris.demo3.reflect-group.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059BF2366C9352A19A1DE20AA5D9F38C184C",
+      "not_before": 1778456721,
+      "not_after": 1786232720,
+      "fingerprint": "73:40:14:A1:AD:A5:BC:34:02:57:0D:73:05:AD:7F:B9:0A:25:5B:93",
+      "sha1": "73:40:14:A1:AD:A5:BC:34:02:57:0D:73:05:AD:7F:B9:0A:25:5B:93",
+      "sha256": "D6:2C:84:B7:0E:7D:BA:2D:C4:4E:1E:2C:AD:54:A5:88:A0:48:F1:8B:23:7C:FE:D0:1C:31:86:26:9D:6B:A5:C7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitoris.demo3.reflect-group.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitoris.demo3.reflect-group.com",
+        "subjectKeyIdentifier": "keyid:fa:38:50:2f:1d:f0:e9:8e:8a:79:ab:fa:b1:52:c3:19:25:ae:09:0f"
+      }
+    },
+    "cert_index": 4175037810,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4175037810&end=4175037810",
+    "seen": 1778479318.327,
+    "submission_timestamp": 1778460367.403,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

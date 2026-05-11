@@ -1,0 +1,52 @@
+{
+  "dominio": "taxas-correios.site",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/11/26 03:04:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "taxas-correios.site",
+        "aggregated": "/CN=taxas-correios.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05A40598DFADE6B265BAE9AA8F3E0C84F7D5",
+      "not_before": 1778456994,
+      "not_after": 1786232993,
+      "fingerprint": "CC:70:09:B7:D7:9C:30:4D:5E:8E:73:BF:3B:E8:8C:47:13:54:8B:4A",
+      "sha1": "CC:70:09:B7:D7:9C:30:4D:5E:8E:73:BF:3B:E8:8C:47:13:54:8B:4A",
+      "sha256": "0C:F4:D5:64:A5:37:8B:96:4D:16:61:1B:6C:33:1F:09:56:A3:83:6D:C2:52:46:93:60:0A:0B:EF:EC:16:C7:70",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "taxas-correios.site",
+        "*.taxas-correios.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.taxas-correios.site, DNS:taxas-correios.site",
+        "subjectKeyIdentifier": "keyid:79:41:ea:2f:52:c1:2e:b8:ea:e8:39:80:9c:b1:38:91:78:c1:ab:75"
+      }
+    },
+    "cert_index": 4175071781,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4175071781&end=4175071781",
+    "seen": 1778479484.088,
+    "submission_timestamp": 1778460506.223,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
