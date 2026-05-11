@@ -1,0 +1,52 @@
+{
+  "dominio": "develop.endebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 13:04:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "develop.endebito.com",
+        "aggregated": "/CN=develop.endebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06EB33B1BD356372CA5D209BDCB43E38F9FB",
+      "not_before": 1777930130,
+      "not_after": 1785706129,
+      "fingerprint": "54:1B:28:72:9A:64:DA:1C:68:C5:2F:55:AD:64:02:4C:90:7A:D3:28",
+      "sha1": "54:1B:28:72:9A:64:DA:1C:68:C5:2F:55:AD:64:02:4C:90:7A:D3:28",
+      "sha256": "76:F4:EB:61:96:62:B1:D6:76:54:83:96:98:72:A2:9A:51:D4:A5:8D:5F:EA:43:95:D6:DA:51:4A:5E:72:AE:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "develop.endebito.com",
+        "devbox.endebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:devbox.endebito.com, DNS:develop.endebito.com",
+        "subjectKeyIdentifier": "keyid:d6:be:71:36:c1:33:7d:01:ba:d2:6c:c4:f1:28:8b:e1:4f:1b:77:e8"
+      }
+    },
+    "cert_index": 1550296731,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1550296731&end=1550296731",
+    "seen": 1778515484.631,
+    "submission_timestamp": 1777933644.445,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

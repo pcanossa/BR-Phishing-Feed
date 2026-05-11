@@ -1,0 +1,54 @@
+{
+  "dominio": "login.claroplus.net",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/11/26 12:13:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claroplus.net",
+        "aggregated": "/CN=claroplus.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0536E2AA1B300DB07AFF4F12117644B91311",
+      "not_before": 1778488486,
+      "not_after": 1786264485,
+      "fingerprint": "8D:BB:19:23:D8:62:8C:EF:5B:85:E4:3B:85:E5:4D:81:FA:24:F4:D8",
+      "sha1": "8D:BB:19:23:D8:62:8C:EF:5B:85:E4:3B:85:E5:4D:81:FA:24:F4:D8",
+      "sha256": "38:EC:80:3B:82:50:7E:64:4D:02:FA:30:BB:BD:24:85:18:75:04:7A:DE:9E:BC:4D:BE:73:E4:1C:8D:76:48:F0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "claroplus.net",
+        "login.claroplus.net",
+        "www.claroplus.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:claroplus.net, DNS:login.claroplus.net, DNS:www.claroplus.net",
+        "subjectKeyIdentifier": "keyid:67:c2:36:b5:10:f2:cf:10:12:6b:ac:71:ca:28:8d:4d:d6:50:f8:45",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4181453889,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4181453889&end=4181453889",
+    "seen": 1778512391.66,
+    "submission_timestamp": 1778491996.169,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

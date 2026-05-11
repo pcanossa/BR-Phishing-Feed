@@ -1,0 +1,51 @@
+{
+  "dominio": "clerk.claroapp.ch",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/11/26 12:25:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "clerk.claroapp.ch",
+        "aggregated": "/CN=clerk.claroapp.ch"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5A142AAB8BC75C421360A91D135BEC20",
+      "not_before": 1777929427,
+      "not_after": 1785709019,
+      "fingerprint": "0E:86:F4:5C:CF:51:EB:58:2F:21:7E:9D:B5:D3:53:58:6A:A4:0A:6A",
+      "sha1": "0E:86:F4:5C:CF:51:EB:58:2F:21:7E:9D:B5:D3:53:58:6A:A4:0A:6A",
+      "sha256": "20:E7:B1:23:D2:DC:65:A3:80:E2:82:75:48:6C:8F:26:4F:D6:74:7D:C1:70:62:CD:5D:C7:FD:7C:EE:76:77:BF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "clerk.claroapp.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/WhQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:clerk.claroapp.ch",
+        "subjectKeyIdentifier": "keyid:a0:4d:61:74:6e:bb:d4:f9:08:7f:30:0e:82:f9:7b:b3:d0:6a:76:85"
+      }
+    },
+    "cert_index": 1550228727,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1550228727&end=1550228727",
+    "seen": 1778513134.575,
+    "submission_timestamp": 1777933079.134,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "rastreiocorreios.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/11/26 12:48:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreiocorreios.com",
+        "aggregated": "/CN=rastreiocorreios.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "AE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=AE1/O=Google Trust Services"
+      },
+      "serial_number": "AF28ABBE7AD23E630EC29A76EDC3D456",
+      "not_before": 1778489830,
+      "not_after": 1782381290,
+      "fingerprint": "E1:F9:33:CF:31:C4:30:39:C3:97:0C:B1:46:AE:85:56:73:2E:E3:9A",
+      "sha1": "E1:F9:33:CF:31:C4:30:39:C3:97:0C:B1:46:AE:85:56:73:2E:E3:9A",
+      "sha256": "EA:A2:4E:C2:6F:99:6D:E8:C6:CF:4F:AA:42:9E:13:FD:7F:B7:1E:F3:B0:EC:90:3A:C0:84:A8:9D:1A:76:BE:34",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreiocorreios.com",
+        "*.rastreiocorreios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/ae1/ryg, URI:http://i.pki.goog/ae1.crt",
+        "authorityKeyIdentifier": "keyid:48:89:60:f9:a3:7d:0c:ea:00:24:a2:dc:9f:07:ce:46:88:a8:32:3a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreiocorreios.com, DNS:*.rastreiocorreios.com",
+        "subjectKeyIdentifier": "keyid:a7:40:14:79:12:45:e6:f5:01:59:19:5b:9d:5a:ad:4c:68:69:07:3d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4181834511,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4181834511&end=4181834511",
+    "seen": 1778514506.884,
+    "submission_timestamp": 1778493431.454,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
