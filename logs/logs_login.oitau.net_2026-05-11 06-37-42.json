@@ -1,0 +1,52 @@
+{
+  "dominio": "login.oitau.net",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/11/26 06:37:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.oitau.net",
+        "aggregated": "/CN=login.oitau.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0623A2FEBBC8F94319317C5E947D458D5012",
+      "not_before": 1778470221,
+      "not_after": 1786246220,
+      "fingerprint": "88:6F:B7:79:64:64:5F:AF:87:C8:3A:DC:16:E8:35:06:6F:CB:40:D5",
+      "sha1": "88:6F:B7:79:64:64:5F:AF:87:C8:3A:DC:16:E8:35:06:6F:CB:40:D5",
+      "sha256": "BF:E2:A0:22:E4:D7:98:0B:8F:C6:10:B5:B1:D9:32:07:68:EC:05:92:66:85:6F:A2:4E:35:53:B2:E2:AA:E7:15",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "login.oitau.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.oitau.net",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4177592765,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4177592765&end=4177592765",
+    "seen": 1778492252.639,
+    "submission_timestamp": 1778473731.175,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

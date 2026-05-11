@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.josueeduardo.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/11/26 06:49:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.josueeduardo.com.br",
+        "aggregated": "/CN=cartao.josueeduardo.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0502B5A923D05BB27D4D0FD2D2648DD7982D",
+      "not_before": 1778387923,
+      "not_after": 1786163922,
+      "fingerprint": "D0:E9:DA:95:CA:36:EF:7B:2A:84:DC:BF:F7:65:41:91:1A:F0:39:B9",
+      "sha1": "D0:E9:DA:95:CA:36:EF:7B:2A:84:DC:BF:F7:65:41:91:1A:F0:39:B9",
+      "sha256": "88:1F:E7:11:1C:7E:12:AF:99:D7:37:83:90:5D:13:27:5C:37:68:F9:E8:FF:DC:1E:33:EB:DD:EE:E2:75:2C:2A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.josueeduardo.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.josueeduardo.com.br",
+        "subjectKeyIdentifier": "keyid:cd:73:c5:3a:34:5c:2c:a0:06:ce:6b:07:be:b4:09:eb:c8:ee:1a:b1"
+      }
+    },
+    "cert_index": 4177740769,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4177740769&end=4177740769",
+    "seen": 1778492960.574,
+    "submission_timestamp": 1778475008.284,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.tradetranscorp.us",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/11/26 06:27:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.tradetranscorp.us",
+        "aggregated": "/CN=app.tradetranscorp.us"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9BDD7CB4C42D3AB5863D0066AF758C54",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "C0:66:D2:F0:43:1A:5E:39:B1:7F:17:30:91:4D:9E:F6:BC:A3:EF:EC",
+      "sha1": "C0:66:D2:F0:43:1A:5E:39:B1:7F:17:30:91:4D:9E:F6:BC:A3:EF:EC",
+      "sha256": "87:6B:14:78:0B:D6:B2:EB:E8:3E:AA:2F:92:5F:79:B1:FE:40:D4:C4:9D:B1:C0:63:04:22:19:FA:67:D6:61:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.tradetranscorp.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.tradetranscorp.us",
+        "subjectKeyIdentifier": "keyid:12:78:24:2f:ff:f3:f4:a4:ce:50:a6:98:e9:bf:28:32:ca:04:4d:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1549736214,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1549736214&end=1549736214",
+    "seen": 1778491618.297,
+    "submission_timestamp": 1777928923.164,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

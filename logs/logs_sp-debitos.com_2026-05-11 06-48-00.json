@@ -1,0 +1,53 @@
+{
+  "dominio": "sp-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 06:48:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sp-debitos.com",
+        "aggregated": "/CN=sp-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CA281F3002FC48D10E7A32FD27B1E8AF",
+      "not_before": 1778189541,
+      "not_after": 1785969054,
+      "fingerprint": "60:3B:CF:5F:65:75:40:3C:27:5A:FE:27:7B:41:DC:71:94:82:EA:02",
+      "sha1": "60:3B:CF:5F:65:75:40:3C:27:5A:FE:27:7B:41:DC:71:94:82:EA:02",
+      "sha256": "67:F1:57:FB:75:7E:9D:E0:26:50:00:DE:DC:43:AD:AE:32:ED:05:70:2E:5A:07:C8:33:0E:54:E8:CE:A0:5D:78",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "sp-debitos.com",
+        "*.sp-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/yig, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:sp-debitos.com, DNS:*.sp-debitos.com",
+        "subjectKeyIdentifier": "keyid:10:f4:14:4f:88:b8:b7:c8:bb:a1:c0:bd:fa:13:7d:5d:18:8d:d7:c5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 591809749,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=591809749&end=591809749",
+    "seen": 1778492870.216,
+    "submission_timestamp": 1778193220.127,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "notifyspotify.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/11/26 06:09:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.notifyspotify.app",
+        "aggregated": "/CN=*.notifyspotify.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "065D9124CA4E176957B43FC71EF4ED6B21DF",
+      "not_before": 1778468473,
+      "not_after": 1786244472,
+      "fingerprint": "9D:35:CB:6A:E9:45:7C:7A:9C:40:EC:5B:89:A2:62:45:C6:F9:60:78",
+      "sha1": "9D:35:CB:6A:E9:45:7C:7A:9C:40:EC:5B:89:A2:62:45:C6:F9:60:78",
+      "sha256": "75:38:46:A3:45:A9:78:1C:98:AD:EE:EB:2E:91:54:0F:50:B5:47:3E:BA:BE:F0:5F:B3:72:50:DC:5E:35:C2:8A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.notifyspotify.app",
+        "notifyspotify.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.notifyspotify.app, DNS:notifyspotify.app",
+        "subjectKeyIdentifier": "keyid:0f:23:96:47:e1:c1:25:e0:fc:3c:6f:7d:6d:8c:15:39:90:fb:76:eb"
+      }
+    },
+    "cert_index": 4177248864,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4177248864&end=4177248864",
+    "seen": 1778490575.983,
+    "submission_timestamp": 1778471986.648,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
