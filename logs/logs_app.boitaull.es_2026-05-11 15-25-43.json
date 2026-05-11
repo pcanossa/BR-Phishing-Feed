@@ -1,0 +1,52 @@
+{
+  "dominio": "app.boitaull.es",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/11/26 15:25:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.boitaull.es",
+        "aggregated": "/CN=app.boitaull.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E7B8E843090CAE3AC843304CFDEF7EB",
+      "not_before": 1777852800,
+      "not_after": 1785628799,
+      "fingerprint": "BA:E8:F0:5D:3B:61:7E:83:CD:97:B5:BB:98:EE:AF:5E:3F:F7:11:85",
+      "sha1": "BA:E8:F0:5D:3B:61:7E:83:CD:97:B5:BB:98:EE:AF:5E:3F:F7:11:85",
+      "sha256": "B7:08:05:3B:7F:3D:00:85:37:23:D1:41:54:24:89:D5:27:AD:98:56:71:89:AA:AE:ED:4C:CF:A2:2F:08:DB:C2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.boitaull.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.boitaull.es",
+        "subjectKeyIdentifier": "keyid:9a:91:a9:87:34:49:eb:29:ed:5e:77:6f:f7:ff:2e:c9:1b:c4:56:fb"
+      }
+    },
+    "cert_index": 1550523042,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1550523042&end=1550523042",
+    "seen": 1778523933.072,
+    "submission_timestamp": 1777935643.845,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

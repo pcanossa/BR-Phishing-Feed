@@ -1,0 +1,51 @@
+{
+  "dominio": "oi.blacksky.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/11/26 15:08:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi.blacksky.app",
+        "aggregated": "/CN=oi.blacksky.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06F96BF5B7967F94E282C6F4783123028642",
+      "not_before": 1778495852,
+      "not_after": 1786271851,
+      "fingerprint": "DF:0B:91:CB:AA:8B:14:20:2F:DF:F5:FC:2C:CB:54:E4:5F:ED:FD:3B",
+      "sha1": "DF:0B:91:CB:AA:8B:14:20:2F:DF:F5:FC:2C:CB:54:E4:5F:ED:FD:3B",
+      "sha256": "CE:74:84:11:C2:AB:FF:AD:B8:FB:15:D6:B4:E6:7F:CF:D5:9B:22:96:07:EC:F0:DA:C2:65:8F:65:47:57:39:51",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "oi.blacksky.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi.blacksky.app",
+        "subjectKeyIdentifier": "keyid:10:8d:3c:6f:d8:9b:b8:54:c3:1f:0d:08:86:19:2f:b3:f1:c2:b9:94"
+      }
+    },
+    "cert_index": 4183427608,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4183427608&end=4183427608",
+    "seen": 1778522933.255,
+    "submission_timestamp": 1778499365.512,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

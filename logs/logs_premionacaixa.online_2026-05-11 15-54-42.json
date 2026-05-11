@@ -1,0 +1,52 @@
+{
+  "dominio": "premionacaixa.online",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/11/26 15:54:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "premionacaixa.online",
+        "aggregated": "/CN=premionacaixa.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068BAE7F405947BF72481E6B7DFEFE1F449E",
+      "not_before": 1777882059,
+      "not_after": 1785658058,
+      "fingerprint": "C2:60:7F:66:1F:31:82:57:27:BE:4C:1B:B5:6A:23:94:5A:1C:10:5B",
+      "sha1": "C2:60:7F:66:1F:31:82:57:27:BE:4C:1B:B5:6A:23:94:5A:1C:10:5B",
+      "sha256": "3D:3E:0F:42:3A:46:5B:5C:BA:3F:AE:1A:9B:35:28:EF:24:17:03:9C:97:D8:64:2B:1C:94:1C:F9:03:7B:00:42",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "premionacaixa.online",
+        "*.premionacaixa.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.premionacaixa.online, DNS:premionacaixa.online",
+        "subjectKeyIdentifier": "keyid:f6:ae:7f:b4:e0:57:56:a6:23:81:57:cb:74:bc:3d:cc:f9:8e:dd:82"
+      }
+    },
+    "cert_index": 828448943,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=828448943&end=828448943",
+    "seen": 1778525672.366,
+    "submission_timestamp": 1777885570.785,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

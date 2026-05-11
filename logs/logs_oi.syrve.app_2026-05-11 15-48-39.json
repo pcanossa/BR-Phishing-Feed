@@ -1,0 +1,52 @@
+{
+  "dominio": "oi.syrve.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/11/26 15:48:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.oi.syrve.app",
+        "aggregated": "/CN=*.oi.syrve.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06D6BDF41C805AD58349BCC3FA033557EB60",
+      "not_before": 1778149440,
+      "not_after": 1785925439,
+      "fingerprint": "05:D4:75:DD:78:23:D7:9B:DA:7A:7E:F2:B6:2A:AC:F0:50:49:10:8D",
+      "sha1": "05:D4:75:DD:78:23:D7:9B:DA:7A:7E:F2:B6:2A:AC:F0:50:49:10:8D",
+      "sha256": "C9:F6:96:4B:69:C6:51:27:3C:A4:4D:AF:5F:5B:41:FF:26:F8:35:E0:28:49:3E:65:67:D3:7B:B2:A1:10:B4:35",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.oi.syrve.app",
+        "oi.syrve.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.oi.syrve.app, DNS:oi.syrve.app",
+        "subjectKeyIdentifier": "keyid:80:09:cc:c2:6f:ed:b0:25:97:28:9f:6e:4d:33:df:6d:71:6a:6c:85"
+      }
+    },
+    "cert_index": 614244461,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=614244461&end=614244461",
+    "seen": 1778525309.201,
+    "submission_timestamp": 1778152952.983,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
