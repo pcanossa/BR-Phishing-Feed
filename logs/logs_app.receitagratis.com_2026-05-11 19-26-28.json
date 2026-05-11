@@ -1,0 +1,54 @@
+{
+  "dominio": "app.receitagratis.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/11/26 19:26:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitagratis.com",
+        "aggregated": "/CN=receitagratis.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "40FE28F2A5FD5C14137EA5B3C8EDD02E",
+      "not_before": 1778507206,
+      "not_after": 1786286625,
+      "fingerprint": "43:F6:C1:6A:ED:86:A8:F8:AB:D7:19:E7:93:C8:72:6A:E1:AD:1C:FD",
+      "sha1": "43:F6:C1:6A:ED:86:A8:F8:AB:D7:19:E7:93:C8:72:6A:E1:AD:1C:FD",
+      "sha256": "C0:EB:D0:65:AE:A7:76:ED:DE:11:C1:B6:79:84:EA:64:89:7A:56:3F:E6:6A:9D:AE:1B:08:B4:6F:46:E9:76:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "receitagratis.com",
+        "app.receitagratis.com",
+        "*.app.receitagratis.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/QP4, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:receitagratis.com, DNS:app.receitagratis.com, DNS:*.app.receitagratis.com",
+        "subjectKeyIdentifier": "keyid:06:08:c7:17:53:2a:fb:84:6d:a0:36:7a:db:1a:81:70:ad:78:62:40",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4186434618,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4186434618&end=4186434618",
+    "seen": 1778538377.429,
+    "submission_timestamp": 1778510807.339,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

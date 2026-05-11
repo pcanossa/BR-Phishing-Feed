@@ -1,0 +1,53 @@
+{
+  "dominio": "www.cpf.jo",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 19:19:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.jo",
+        "aggregated": "/CN=cpf.jo"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06A912584B086BBF5E829B698E2FE7CF31AD",
+      "not_before": 1778506844,
+      "not_after": 1786282843,
+      "fingerprint": "69:12:89:CA:DA:B2:FB:C1:EC:F9:FE:E1:80:46:EB:A1:61:38:71:4E",
+      "sha1": "69:12:89:CA:DA:B2:FB:C1:EC:F9:FE:E1:80:46:EB:A1:61:38:71:4E",
+      "sha256": "9B:D4:B0:60:AA:DD:58:98:9B:CC:8D:1F:F9:20:3A:96:40:40:28:85:40:25:D7:20:B6:A4:B1:18:C2:F1:66:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.jo",
+        "naua.org",
+        "www.cpf.jo"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.jo, DNS:naua.org, DNS:www.cpf.jo",
+        "subjectKeyIdentifier": "keyid:82:a2:6f:3d:56:4c:73:96:35:d8:22:5b:ee:7f:eb:85:37:c6:a2:78"
+      }
+    },
+    "cert_index": 4186343092,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4186343092&end=4186343092",
+    "seen": 1778537940.736,
+    "submission_timestamp": 1778510357.773,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

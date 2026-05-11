@@ -1,0 +1,53 @@
+{
+  "dominio": "portal-fazenda-pr-gov-br.com",
+  "marcas_encontradas": [
+    "gov-br",
+    "fazenda"
+  ],
+  "timestamp": "05/11/26 19:42:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal-fazenda-pr-gov-br.com",
+        "aggregated": "/CN=portal-fazenda-pr-gov-br.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "121AD674A4018E7C13AB6EA9D9DE2A23",
+      "not_before": 1778498331,
+      "not_after": 1786277913,
+      "fingerprint": "85:41:C0:6C:98:E4:B0:72:B3:37:18:F6:E5:AE:F2:D5:9B:9E:80:35",
+      "sha1": "85:41:C0:6C:98:E4:B0:72:B3:37:18:F6:E5:AE:F2:D5:9B:9E:80:35",
+      "sha256": "A5:42:D1:E2:FA:CD:D2:20:18:4F:00:56:64:A0:62:F2:18:B7:60:39:0A:48:1E:81:B1:64:EF:9B:AA:0A:A8:82",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "portal-fazenda-pr-gov-br.com",
+        "*.portal-fazenda-pr-gov-br.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Eho, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:portal-fazenda-pr-gov-br.com, DNS:*.portal-fazenda-pr-gov-br.com",
+        "subjectKeyIdentifier": "keyid:f7:1f:e5:7c:b3:e6:72:07:2b:47:15:93:3e:7d:69:89:8e:29:9a:39"
+      }
+    },
+    "cert_index": 4186659124,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4186659124&end=4186659124",
+    "seen": 1778539336.549,
+    "submission_timestamp": 1778511864.831,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

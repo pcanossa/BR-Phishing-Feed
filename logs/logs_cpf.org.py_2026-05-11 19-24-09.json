@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.org.py",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 19:24:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.org.py",
+        "aggregated": "/CN=*.cpf.org.py"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "052616FB4D0C2B993C7E469BB74CD33823D3",
+      "not_before": 1777935990,
+      "not_after": 1785711989,
+      "fingerprint": "4B:5D:96:82:45:F1:53:D6:65:DB:2A:F6:18:29:EB:6F:E0:80:24:EE",
+      "sha1": "4B:5D:96:82:45:F1:53:D6:65:DB:2A:F6:18:29:EB:6F:E0:80:24:EE",
+      "sha256": "A2:FB:58:A6:17:33:73:7B:C7:98:CD:63:2B:40:D3:89:80:F8:0B:4C:FC:4B:8E:33:E4:6E:1C:DD:71:A4:0E:05",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.org.py",
+        "cpf.org.py"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.org.py, DNS:cpf.org.py",
+        "subjectKeyIdentifier": "keyid:8f:16:51:8d:71:96:41:31:4d:43:da:0a:52:fc:fc:87:2b:00:e5:71"
+      }
+    },
+    "cert_index": 1550928556,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1550928556&end=1550928556",
+    "seen": 1778538249.058,
+    "submission_timestamp": 1777939503.748,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn01.netflix-suscripcion.vip",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/11/26 19:39:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn01.netflix-suscripcion.vip",
+        "aggregated": "/CN=vpn01.netflix-suscripcion.vip"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05BB4CC1610E7A76F7429569AF8E9BD11F13",
+      "not_before": 1778508250,
+      "not_after": 1786284249,
+      "fingerprint": "3C:E1:4B:B2:7D:0B:1E:5D:6B:22:3C:B2:DF:49:12:27:FD:8A:41:36",
+      "sha1": "3C:E1:4B:B2:7D:0B:1E:5D:6B:22:3C:B2:DF:49:12:27:FD:8A:41:36",
+      "sha256": "74:2C:4C:E9:FD:1B:CF:A6:56:D7:10:AB:60:96:88:EE:98:14:A9:03:49:12:0A:30:28:7E:0E:31:F3:3C:D2:78",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn01.netflix-suscripcion.vip"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn01.netflix-suscripcion.vip",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4186622318,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4186622318&end=4186622318",
+    "seen": 1778539167.621,
+    "submission_timestamp": 1778511762.567,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

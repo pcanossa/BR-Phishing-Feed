@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.jo",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 19:09:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.jo",
+        "aggregated": "/CN=cpf.jo"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0506F837F900874A693048D65F58F315FD5A",
+      "not_before": 1778506344,
+      "not_after": 1786282343,
+      "fingerprint": "8A:9D:39:34:8A:86:E3:34:37:30:CA:17:8A:45:5E:6B:1E:94:0B:B6",
+      "sha1": "8A:9D:39:34:8A:86:E3:34:37:30:CA:17:8A:45:5E:6B:1E:94:0B:B6",
+      "sha256": "C7:3D:90:97:FB:31:3D:5C:DD:53:0C:41:98:07:8F:F3:46:B9:C0:D3:AE:FF:22:83:0E:10:E3:C9:84:FD:B9:76",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.jo"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.jo",
+        "subjectKeyIdentifier": "keyid:82:a2:6f:3d:56:4c:73:96:35:d8:22:5b:ee:7f:eb:85:37:c6:a2:78"
+      }
+    },
+    "cert_index": 4186223544,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4186223544&end=4186223544",
+    "seen": 1778537387.339,
+    "submission_timestamp": 1778509857.33,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

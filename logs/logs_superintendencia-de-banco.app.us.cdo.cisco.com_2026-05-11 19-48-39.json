@@ -1,0 +1,57 @@
+{
+  "dominio": "superintendencia-de-banco.app.us.cdo.cisco.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/11/26 19:48:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "superintendencia-de-banco.app.us.cdo.cisco.com",
+        "L": "San Jose",
+        "O": "Cisco Systems Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=superintendencia-de-banco.app.us.cdo.cisco.com/L=San Jose/O=Cisco Systems Inc./ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "HydrantID Server CA O1",
+        "O": "IdenTrust",
+        "OU": "HydrantID Trusted Certificate Service",
+        "aggregated": "/C=US/CN=HydrantID Server CA O1/O=IdenTrust/OU=HydrantID Trusted Certificate Service"
+      },
+      "serial_number": "40019E17959AE101005C5711236DFF63",
+      "not_before": 1778512141,
+      "not_after": 1795705681,
+      "fingerprint": "3A:2C:59:82:FF:59:11:B3:E9:38:F6:1E:C9:DB:46:8E:83:FE:0E:21",
+      "sha1": "3A:2C:59:82:FF:59:11:B3:E9:38:F6:1E:C9:DB:46:8E:83:FE:0E:21",
+      "sha256": "E1:0E:E4:3D:FA:E6:5F:09:F9:9B:35:8D:F2:90:6D:21:44:8D:49:81:3E:54:C0:98:1B:E7:D8:AC:B0:38:26:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "superintendencia-de-banco.app.us.cdo.cisco.com",
+        "superintendencia-de-bancos--tepcla.app.us.cdo.cisco.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://commercial.ocsp.identrust.com, URI:http://validation.identrust.com/certs/hydrantidcaO1.p7c",
+        "authorityKeyIdentifier": "keyid:89:b8:9b:b6:9e:ed:fb:b0:c6:bd:0d:ec:67:4e:3c:a3:92:9d:2d:f9",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 2.16.840.1.113839.0.6.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:superintendencia-de-banco.app.us.cdo.cisco.com, DNS:superintendencia-de-bancos--tepcla.app.us.cdo.cisco.com",
+        "subjectKeyIdentifier": "keyid:74:80:ee:ae:9a:22:e9:8a:52:3d:c1:63:e7:d0:43:2e:1f:aa:30:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4186747412,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4186747412&end=4186747412",
+    "seen": 1778539708.101,
+    "submission_timestamp": 1778512141.143,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
