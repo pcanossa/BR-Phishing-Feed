@@ -1,0 +1,52 @@
+{
+  "dominio": "staging.nodebitos.cfd",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/10/26 22:21:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.nodebitos.cfd",
+        "aggregated": "/CN=staging.nodebitos.cfd"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06C36345A0119F70F2BCC720E6AE6A923644",
+      "not_before": 1778445194,
+      "not_after": 1786221193,
+      "fingerprint": "E8:92:3B:C6:68:B7:7D:34:C6:E1:80:87:0D:32:FC:C8:7F:84:8F:60",
+      "sha1": "E8:92:3B:C6:68:B7:7D:34:C6:E1:80:87:0D:32:FC:C8:7F:84:8F:60",
+      "sha256": "B8:E3:72:A2:BC:84:95:D6:56:30:49:87:EB:7C:F9:3C:18:82:33:01:4D:D8:B6:CD:45:39:59:42:32:14:29:AF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "staging.nodebitos.cfd"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.nodebitos.cfd",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4171980721,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4171980721&end=4171980721",
+    "seen": 1778462468.28,
+    "submission_timestamp": 1778448705.165,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
