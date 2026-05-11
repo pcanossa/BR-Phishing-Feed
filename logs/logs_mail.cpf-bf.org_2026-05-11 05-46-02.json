@@ -1,0 +1,54 @@
+{
+  "dominio": "mail.cpf-bf.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 05:46:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mail.cpf-bf.org",
+        "aggregated": "/CN=mail.cpf-bf.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0510278C453A94525EC302F1F5487C36C2C3",
+      "not_before": 1778485639,
+      "not_after": 1786261638,
+      "fingerprint": "E7:ED:F7:BF:92:41:3D:5F:13:B5:46:9F:F1:6D:D0:9C:E2:A1:65:01",
+      "sha1": "E7:ED:F7:BF:92:41:3D:5F:13:B5:46:9F:F1:6D:D0:9C:E2:A1:65:01",
+      "sha256": "48:42:34:0D:81:9D:F7:77:E8:4D:0C:73:3E:58:11:DE:90:B6:26:77:D4:5E:83:95:D1:F4:A0:A8:49:CC:B7:07",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "mail.cpf-bf.org",
+        "imap.cpf-bf.org",
+        "pop.cpf-bf.org",
+        "smtp.cpf-bf.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:imap.cpf-bf.org, DNS:mail.cpf-bf.org, DNS:pop.cpf-bf.org, DNS:smtp.cpf-bf.org",
+        "subjectKeyIdentifier": "keyid:e4:55:3e:44:f1:e5:9c:7a:ba:24:5f:a9:05:4e:c5:4b:e4:07:33:40"
+      }
+    },
+    "cert_index": 174711321,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x682/466",
+    "seen": 1778489152.66,
+    "submission_timestamp": 1778489150.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

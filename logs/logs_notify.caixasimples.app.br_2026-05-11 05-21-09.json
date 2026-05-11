@@ -1,0 +1,52 @@
+{
+  "dominio": "notify.caixasimples.app.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/11/26 05:21:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "notify.caixasimples.app.br",
+        "aggregated": "/CN=notify.caixasimples.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06D90CADF3B0F71260AB9AE807B02F24BF8E",
+      "not_before": 1778457830,
+      "not_after": 1786233829,
+      "fingerprint": "A7:CF:71:BB:64:D5:62:4D:C8:EB:FB:FD:7C:81:43:E4:E3:61:3C:AC",
+      "sha1": "A7:CF:71:BB:64:D5:62:4D:C8:EB:FB:FD:7C:81:43:E4:E3:61:3C:AC",
+      "sha256": "FB:7A:A3:65:68:6E:4A:AD:08:77:ED:58:1A:89:78:10:52:8F:7B:01:F1:31:7A:FC:EF:B2:FB:76:B0:5E:CB:C6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "notify.caixasimples.app.br",
+        "*.notify.caixasimples.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.notify.caixasimples.app.br, DNS:notify.caixasimples.app.br",
+        "subjectKeyIdentifier": "keyid:81:0b:5d:42:f2:be:da:e0:7a:f0:07:f0:db:0a:f4:fb:3a:82:c0:a6"
+      }
+    },
+    "cert_index": 4176637034,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4176637034&end=4176637034",
+    "seen": 1778487660.394,
+    "submission_timestamp": 1778467486.856,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
