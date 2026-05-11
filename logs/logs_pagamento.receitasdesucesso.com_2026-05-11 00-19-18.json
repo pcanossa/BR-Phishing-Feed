@@ -1,0 +1,52 @@
+{
+  "dominio": "pagamento.receitasdesucesso.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/11/26 00:19:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamento.receitasdesucesso.com",
+        "aggregated": "/CN=pagamento.receitasdesucesso.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "BF59C1DE852EFEC20E805B45294A5730",
+      "not_before": 1778449744,
+      "not_after": 1786229271,
+      "fingerprint": "4B:E9:93:42:D1:D3:D0:AC:BD:0D:C8:95:70:80:A5:D2:5B:B2:1F:1B",
+      "sha1": "4B:E9:93:42:D1:D3:D0:AC:BD:0D:C8:95:70:80:A5:D2:5B:B2:1F:1B",
+      "sha256": "EE:A0:CC:8E:68:56:8A:51:5E:00:AA:35:58:CD:65:B6:F9:C8:00:05:FF:6C:C3:4F:51:79:22:5D:93:9A:73:D2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagamento.receitasdesucesso.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/v1k, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento.receitasdesucesso.com",
+        "subjectKeyIdentifier": "keyid:a2:d8:3a:3e:e6:a0:2f:4d:a5:5e:3f:57:54:89:09:ff:2c:39:b7:33",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4173219043,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4173219043&end=4173219043",
+    "seen": 1778469549.535,
+    "submission_timestamp": 1778453344.781,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

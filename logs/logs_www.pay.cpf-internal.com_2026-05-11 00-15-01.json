@@ -1,0 +1,56 @@
+{
+  "dominio": "www.pay.cpf-internal.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 00:15:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pay.cpf-internal.com",
+        "aggregated": "/CN=pay.cpf-internal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "L": "Scottsdale",
+        "O": "GoDaddy.com, Inc.",
+        "OU": "http://certs.godaddy.com/repository/",
+        "ST": "Arizona",
+        "aggregated": "/C=US/CN=Go Daddy Secure Certificate Authority - G2/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//ST=Arizona"
+      },
+      "serial_number": "DE8D35A1BFB3213C",
+      "not_before": 1778179532,
+      "not_after": 1785955532,
+      "fingerprint": "AE:98:67:79:F2:8C:3A:43:E0:42:41:29:97:89:B8:9E:D4:DA:91:2E",
+      "sha1": "AE:98:67:79:F2:8C:3A:43:E0:42:41:29:97:89:B8:9E:D4:DA:91:2E",
+      "sha256": "18:97:FD:8D:0C:A2:8E:65:28:82:90:B0:AA:42:D3:13:37:F1:60:5E:FF:19:C5:3F:21:F1:A8:E3:C4:04:B8:84",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pay.cpf-internal.com",
+        "www.pay.cpf-internal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gdig2.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:40:c2:bd:27:8e:cc:34:83:30:a2:33:d7:fb:6c:b3:f0:b4:2c:80:ce",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pay.cpf-internal.com, DNS:www.pay.cpf-internal.com",
+        "subjectKeyIdentifier": "keyid:ee:6f:bd:f6:94:55:49:59:b9:0a:75:31:f0:8d:2b:46:60:da:05:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 590279163,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=590279163&end=590279163",
+    "seen": 1778469302.622,
+    "submission_timestamp": 1778179533.383,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

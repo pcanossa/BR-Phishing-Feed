@@ -1,0 +1,52 @@
+{
+  "dominio": "oi.syrve.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/11/26 00:23:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.oi.syrve.app",
+        "aggregated": "/CN=*.oi.syrve.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0635AD5C28369CB286F1C0DCCF82C3B21DB4",
+      "not_before": 1778449894,
+      "not_after": 1786225893,
+      "fingerprint": "2F:7E:69:6F:E0:1D:2F:51:B2:7E:DA:79:C8:37:20:5E:93:BB:EA:BF",
+      "sha1": "2F:7E:69:6F:E0:1D:2F:51:B2:7E:DA:79:C8:37:20:5E:93:BB:EA:BF",
+      "sha256": "11:DD:CE:51:2B:10:1E:4D:EA:5B:79:E3:39:AB:8A:E2:8D:75:E8:EA:FA:65:93:2F:73:7D:9C:F5:3D:FB:C8:BF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.oi.syrve.app",
+        "oi.syrve.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.oi.syrve.app, DNS:oi.syrve.app",
+        "subjectKeyIdentifier": "keyid:d2:f6:a4:69:42:5f:0c:31:54:d2:79:5e:c2:f9:18:41:54:50:70:12"
+      }
+    },
+    "cert_index": 4173258867,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4173258867&end=4173258867",
+    "seen": 1778469773.431,
+    "submission_timestamp": 1778453497.5,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
