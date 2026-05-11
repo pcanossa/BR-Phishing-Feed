@@ -1,0 +1,52 @@
+{
+  "dominio": "app.receitas.foryoutoo.com.br",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/10/26 20:57:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.receitas.foryoutoo.com.br",
+        "aggregated": "/CN=app.receitas.foryoutoo.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06C9B450A5E417EDE59038B8CCFD1D868FC4",
+      "not_before": 1778442140,
+      "not_after": 1786218139,
+      "fingerprint": "E5:73:E7:F7:0C:EC:B2:BF:08:A6:65:D0:D1:AE:B2:C4:0C:27:C4:33",
+      "sha1": "E5:73:E7:F7:0C:EC:B2:BF:08:A6:65:D0:D1:AE:B2:C4:0C:27:C4:33",
+      "sha256": "9F:80:D5:E0:DF:EA:A1:95:F2:9A:96:B9:EF:EE:53:B8:D5:38:94:41:21:1C:65:1D:B8:16:BD:FA:09:20:F9:C4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.receitas.foryoutoo.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.receitas.foryoutoo.com.br",
+        "subjectKeyIdentifier": "keyid:21:35:db:a2:96:b1:d7:90:2c:40:8d:fe:fa:b0:77:fe:41:89:ae:30",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4171151388,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4171151388&end=4171151388",
+    "seen": 1778457420.838,
+    "submission_timestamp": 1778445650.361,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

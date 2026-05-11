@@ -1,0 +1,13 @@
+{
+    "dominio": "notificacoes.www.claro.com.br.acessonetbr.com",
+    "data_registro": "05/10/26 20:28:14",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Utiliza o nome da operadora de telecomunicações brasileira 'Claro', indicando tentativa de imitar serviço legítimo",
+        "Inclui termos em português como 'notificacoes' e 'acessonetbr', típicos de campanhas de engenharia social direcionadas ao público brasileiro",
+        "Estrutura de subdomínios extensa (notificacoes.www.claro.com.br...), comum em domínios de phishing para aumentar confiança aparente",
+        "Domínio de segundo nível 'acessonetbr.com' não está presente em whitelist de domínios conhecidos e parece criado recentemente",
+        "Ausência de HTTPS válido ou certificado emitido por autoridade reconhecida (certificado recém‑registrado sem histórico de confiança)"
+    ],
+    "analise_comportamental": "O domínio 'notificacoes.www.claro.com.br.acessonetbr.com' apresenta várias bandeiras típicas de phishing direcionado ao Brasil: uso de marca conhecida (Claro), termos em português que induzem a ação (notificações, acesso), e uma cadeia de subdomínios que tenta simular um site oficial. Não há evidência de que seja utilizado para outro tipo de ameaça (malware, C2), mas a combinação de fatores indica alta probabilidade de ser um site de captura de credenciais ou dados pessoais de usuários brasileiros."
+}

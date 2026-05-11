@@ -1,0 +1,53 @@
+{
+  "dominio": "spotifyapp.cloud",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/10/26 20:31:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifyapp.cloud",
+        "aggregated": "/CN=spotifyapp.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9E6CB8AA68DA595D13EB5A917335FA84",
+      "not_before": 1778451864,
+      "not_after": 1786231382,
+      "fingerprint": "61:E4:CD:B2:C8:B8:9E:C0:51:12:D0:D4:F5:8B:EE:D8:FD:02:00:E4",
+      "sha1": "61:E4:CD:B2:C8:B8:9E:C0:51:12:D0:D4:F5:8B:EE:D8:FD:02:00:E4",
+      "sha256": "13:DC:E0:E1:C6:56:5B:A9:AB:DA:3F:9A:CF:41:64:78:61:E1:66:AB:91:45:8B:0A:E5:30:22:A2:08:96:FA:A8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "spotifyapp.cloud",
+        "*.spotifyapp.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/nmw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:spotifyapp.cloud, DNS:*.spotifyapp.cloud",
+        "subjectKeyIdentifier": "keyid:bb:14:0f:95:18:b5:da:a2:2a:3a:0d:e7:64:72:fd:a8:cf:81:a9:1f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 690878151,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=690878151&end=690878151",
+    "seen": 1778455867.604,
+    "submission_timestamp": 1778455465.359,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
