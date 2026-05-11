@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.tim-consulting.net",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/11/26 14:47:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.tim-consulting.net",
+        "aggregated": "/CN=apps.tim-consulting.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0653D960821D780824ACB5DF9651EE0FD562",
+      "not_before": 1778494948,
+      "not_after": 1786270947,
+      "fingerprint": "9B:C2:E9:C9:10:EC:D4:41:B6:5B:DF:07:30:4F:21:2C:9A:04:5B:36",
+      "sha1": "9B:C2:E9:C9:10:EC:D4:41:B6:5B:DF:07:30:4F:21:2C:9A:04:5B:36",
+      "sha256": "9D:BB:62:84:ED:84:79:D4:D5:CC:83:78:B0:49:60:48:55:5A:89:D3:BB:9D:8A:A1:F2:7E:C9:3C:EA:33:DB:1A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "apps.tim-consulting.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.tim-consulting.net",
+        "subjectKeyIdentifier": "keyid:2c:6d:44:f0:16:f3:ed:95:11:75:2e:6b:0b:01:08:55:85:5d:05:b6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4183188162,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4183188162&end=4183188162",
+    "seen": 1778521647.917,
+    "submission_timestamp": 1778498459.43,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

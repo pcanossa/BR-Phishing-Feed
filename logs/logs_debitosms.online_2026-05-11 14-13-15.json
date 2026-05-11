@@ -1,0 +1,52 @@
+{
+  "dominio": "debitosms.online",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 14:13:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitosms.online",
+        "aggregated": "/CN=debitosms.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05BEFEC89E3CA01BEB25CA1A5DD04472EFF2",
+      "not_before": 1778493460,
+      "not_after": 1786269459,
+      "fingerprint": "AF:4C:B6:85:9D:30:71:B5:51:72:BF:1F:24:32:F9:5A:25:61:D6:76",
+      "sha1": "AF:4C:B6:85:9D:30:71:B5:51:72:BF:1F:24:32:F9:5A:25:61:D6:76",
+      "sha256": "AB:8E:38:9C:95:3D:88:4D:D7:FD:14:DC:94:4F:32:1F:5E:98:84:08:A6:F7:2A:6B:E4:F0:D0:9A:80:C0:3F:68",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitosms.online",
+        "www.debitosms.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitosms.online, DNS:www.debitosms.online",
+        "subjectKeyIdentifier": "keyid:4e:09:2b:f9:92:39:d2:c6:e5:4c:95:c4:42:36:19:ba:cc:f9:cb:e2"
+      }
+    },
+    "cert_index": 4182805152,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4182805152&end=4182805152",
+    "seen": 1778519584.574,
+    "submission_timestamp": 1778496974.219,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
