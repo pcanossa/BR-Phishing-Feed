@@ -1,0 +1,52 @@
+{
+  "dominio": "gemini-login-oi.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/11/26 18:32:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gemini-login-oi.pages.dev",
+        "aggregated": "/CN=gemini-login-oi.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B98F6999A36558450E20A076076BE1FF",
+      "not_before": 1778496487,
+      "not_after": 1786276075,
+      "fingerprint": "79:0E:0B:5C:14:78:A2:22:19:A7:5C:14:C6:52:49:E0:2A:D7:A0:FD",
+      "sha1": "79:0E:0B:5C:14:78:A2:22:19:A7:5C:14:C6:52:49:E0:2A:D7:A0:FD",
+      "sha256": "CB:6B:D9:26:63:C3:86:FE:B1:66:74:E8:64:F5:8A:09:7A:71:55:E6:6E:B8:B0:2A:C3:1E:16:DD:7D:39:53:29",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gemini-login-oi.pages.dev",
+        "*.gemini-login-oi.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/uY8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gemini-login-oi.pages.dev, DNS:*.gemini-login-oi.pages.dev",
+        "subjectKeyIdentifier": "keyid:39:a4:c1:9e:3f:fd:b8:94:10:fc:7b:b6:74:43:49:92:a1:6e:ac:2d"
+      }
+    },
+    "cert_index": 4185763433,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4185763433&end=4185763433",
+    "seen": 1778535127.136,
+    "submission_timestamp": 1778508298.76,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

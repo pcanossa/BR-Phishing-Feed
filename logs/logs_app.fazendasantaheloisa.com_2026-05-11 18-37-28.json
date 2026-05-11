@@ -1,0 +1,51 @@
+{
+  "dominio": "app.fazendasantaheloisa.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/11/26 18:37:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.fazendasantaheloisa.com",
+        "aggregated": "/CN=app.fazendasantaheloisa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "5DE550E9AE237717D01E676596088732",
+      "not_before": 1778457600,
+      "not_after": 1786319999,
+      "fingerprint": "2D:A0:48:B4:B7:5D:CF:54:21:BD:56:BD:D0:32:7A:A4:B1:A7:15:87",
+      "sha1": "2D:A0:48:B4:B7:5D:CF:54:21:BD:56:BD:D0:32:7A:A4:B1:A7:15:87",
+      "sha256": "CF:40:BB:3A:70:24:04:12:E7:EC:B3:70:81:00:B4:93:17:0C:83:7D:C5:48:D8:D6:88:13:48:34:2F:51:2E:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.fazendasantaheloisa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.fazendasantaheloisa.com",
+        "subjectKeyIdentifier": "keyid:86:08:36:ad:38:b7:19:29:0c:d4:d5:d6:fb:d3:c5:8d:42:f5:1c:cc"
+      }
+    },
+    "cert_index": 4185837978,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4185837978&end=4185837978",
+    "seen": 1778535437.929,
+    "submission_timestamp": 1778508516.962,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.sso.cmfyapp.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/11/26 18:42:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.sso.cmfyapp.com",
+        "aggregated": "/CN=santander.sso.cmfyapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "C7E3AA2DE9628CF7138CEB152119DE3A",
+      "not_before": 1778531916,
+      "not_after": 1786311447,
+      "fingerprint": "5B:95:9A:B9:67:76:EB:9D:37:06:C6:3C:AE:A7:2F:D1:95:C4:A6:77",
+      "sha1": "5B:95:9A:B9:67:76:EB:9D:37:06:C6:3C:AE:A7:2F:D1:95:C4:A6:77",
+      "sha256": "27:CB:2B:DC:5D:5E:56:18:8F:54:73:2F:12:B4:E4:FB:6E:C7:FE:70:9F:DB:06:8D:44:B2:B1:1D:EF:6A:10:C8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.sso.cmfyapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/x-M, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.sso.cmfyapp.com",
+        "subjectKeyIdentifier": "keyid:62:dd:f6:b8:85:6d:79:00:1e:55:30:65:0f:f3:35:40:ae:76:4b:a5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 704298982,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=704298982&end=704298982",
+    "seen": 1778535728.507,
+    "submission_timestamp": 1778535517.368,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app1.rclaro.pt",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/11/26 18:57:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app1.rclaro.pt",
+        "aggregated": "/CN=app1.rclaro.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05EA4D899360B1AC09BFA6D01B484FFBAA1F",
+      "not_before": 1778533149,
+      "not_after": 1786309148,
+      "fingerprint": "BA:09:4C:A2:D8:9D:D0:67:54:6A:30:16:EE:2F:B8:E9:49:E1:3B:2C",
+      "sha1": "BA:09:4C:A2:D8:9D:D0:67:54:6A:30:16:EE:2F:B8:E9:49:E1:3B:2C",
+      "sha256": "04:74:5E:3C:08:C4:08:56:D4:E1:ED:E4:74:3E:40:9F:A2:89:DC:1E:F6:84:96:56:62:8D:2E:75:F1:6F:9B:3B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app1.rclaro.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app1.rclaro.pt",
+        "subjectKeyIdentifier": "keyid:06:4e:a4:c9:dc:03:26:b3:5c:32:ca:bd:ec:94:0e:62:32:cf:be:74"
+      }
+    },
+    "cert_index": 176006193,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x687/524",
+    "seen": 1778536664.333,
+    "submission_timestamp": 1778536660.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

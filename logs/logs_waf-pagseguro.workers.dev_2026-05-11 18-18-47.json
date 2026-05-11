@@ -1,0 +1,52 @@
+{
+  "dominio": "waf-pagseguro.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/11/26 18:18:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "waf-pagseguro.workers.dev",
+        "aggregated": "/CN=waf-pagseguro.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "78DFB1B14EA140BA0E24F0AFE8160730",
+      "not_before": 1777934774,
+      "not_after": 1785714235,
+      "fingerprint": "DC:8D:CF:3F:22:CD:56:F4:D1:50:E2:02:48:5D:BF:DA:C5:71:7C:F0",
+      "sha1": "DC:8D:CF:3F:22:CD:56:F4:D1:50:E2:02:48:5D:BF:DA:C5:71:7C:F0",
+      "sha256": "3C:1B:7B:F0:30:4C:34:10:4D:D9:27:C7:05:9A:AD:5D:FE:FC:6B:5E:DE:E9:4B:DB:7D:E3:01:20:05:7B:D4:99",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "waf-pagseguro.workers.dev",
+        "*.waf-pagseguro.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/eN8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:waf-pagseguro.workers.dev, DNS:*.waf-pagseguro.workers.dev",
+        "subjectKeyIdentifier": "keyid:06:9b:b5:37:ce:9d:3c:b4:3f:5c:ba:02:36:39:b6:21:5f:3b:e4:00"
+      }
+    },
+    "cert_index": 1550815902,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1550815902&end=1550815902",
+    "seen": 1778534327.076,
+    "submission_timestamp": 1777938449.295,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}
