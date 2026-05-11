@@ -1,0 +1,51 @@
+{
+  "dominio": "new.udebito.ge",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 17:29:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "new.udebito.ge",
+        "aggregated": "/CN=new.udebito.ge"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058451FF86A29D29BABDADCB580760C377C5",
+      "not_before": 1778501839,
+      "not_after": 1786277838,
+      "fingerprint": "EB:68:FC:06:5C:66:D3:AE:57:74:9F:36:4D:D7:BC:70:4B:18:F0:2F",
+      "sha1": "EB:68:FC:06:5C:66:D3:AE:57:74:9F:36:4D:D7:BC:70:4B:18:F0:2F",
+      "sha256": "90:F4:9A:02:42:29:E5:70:5B:9C:66:64:DA:78:5B:7D:28:A9:1B:1F:8D:60:8E:49:F3:EA:E4:16:F1:3D:EF:96",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "new.udebito.ge"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:new.udebito.ge",
+        "subjectKeyIdentifier": "keyid:b6:38:17:66:29:a1:a7:c4:a9:78:4b:ba:c4:30:39:7c:13:4c:f0:60"
+      }
+    },
+    "cert_index": 4185033295,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4185033295&end=4185033295",
+    "seen": 1778531364.986,
+    "submission_timestamp": 1778505352.605,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

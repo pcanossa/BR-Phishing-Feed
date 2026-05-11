@@ -1,0 +1,52 @@
+{
+  "dominio": "debitor.irish",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 17:29:25",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.irish",
+        "aggregated": "/CN=debitor.irish"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2A638747E3EFE4B513AFDCB86AA03E01",
+      "not_before": 1778501619,
+      "not_after": 1786281214,
+      "fingerprint": "C5:9C:5A:21:2C:46:89:34:E4:A9:D3:81:E8:1B:33:54:AF:6C:3A:6D",
+      "sha1": "C5:9C:5A:21:2C:46:89:34:E4:A9:D3:81:E8:1B:33:54:AF:6C:3A:6D",
+      "sha256": "70:A4:DC:6B:05:4A:3E:7E:FC:8F:C1:DA:6A:5A:22:1D:BD:19:6B:76:1B:3D:D8:92:23:A4:C0:0C:35:98:B5:F1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.irish",
+        "*.debitor.irish"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/KmM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitor.irish, DNS:*.debitor.irish",
+        "subjectKeyIdentifier": "keyid:97:3a:2e:3e:24:11:21:01:70:c9:d5:2a:2f:d0:0f:da:00:6d:aa:c0"
+      }
+    },
+    "cert_index": 4185031212,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4185031212&end=4185031212",
+    "seen": 1778531354.521,
+    "submission_timestamp": 1778505346.065,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

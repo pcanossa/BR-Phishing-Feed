@@ -1,0 +1,53 @@
+{
+  "dominio": "asus-vivo.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/11/26 17:36:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "asus-vivo.com",
+        "aggregated": "/CN=asus-vivo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D13911B0B69CAABC1317C9D342AF7EED",
+      "not_before": 1778501980,
+      "not_after": 1786281492,
+      "fingerprint": "46:E6:BD:AC:D9:AB:09:C2:BD:A2:84:BF:56:09:A1:36:AF:33:BC:69",
+      "sha1": "46:E6:BD:AC:D9:AB:09:C2:BD:A2:84:BF:56:09:A1:36:AF:33:BC:69",
+      "sha256": "B0:78:23:44:3B:59:74:CD:90:0B:BE:1D:2C:E7:34:48:48:4B:53:BD:0A:71:3C:D3:5E:AF:6C:F3:4C:7D:7F:96",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "asus-vivo.com",
+        "*.asus-vivo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/0Tk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:asus-vivo.com, DNS:*.asus-vivo.com",
+        "subjectKeyIdentifier": "keyid:af:29:69:3d:4d:ae:29:77:93:09:17:51:c1:90:7d:82:da:94:59:52",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4185113895,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4185113895&end=4185113895",
+    "seen": 1778531770.392,
+    "submission_timestamp": 1778505684.397,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
