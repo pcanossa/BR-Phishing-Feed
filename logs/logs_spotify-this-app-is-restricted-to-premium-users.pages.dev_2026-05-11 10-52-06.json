@@ -1,0 +1,52 @@
+{
+  "dominio": "spotify-this-app-is-restricted-to-premium-users.pages.dev",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/11/26 10:52:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotify-this-app-is-restricted-to-premium-users.pages.dev",
+        "aggregated": "/CN=spotify-this-app-is-restricted-to-premium-users.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "32179875FBD5820E1387D2176A47CEF1",
+      "not_before": 1778329405,
+      "not_after": 1786109003,
+      "fingerprint": "A0:B5:66:4C:91:59:B2:04:AE:A8:00:C8:CD:25:A0:A4:C1:AE:D0:55",
+      "sha1": "A0:B5:66:4C:91:59:B2:04:AE:A8:00:C8:CD:25:A0:A4:C1:AE:D0:55",
+      "sha256": "5C:03:F0:11:A0:6F:D1:03:0A:C2:9E:08:6F:4F:53:00:F2:69:F8:3C:EE:78:59:BD:32:E5:A8:37:61:9E:4B:93",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "spotify-this-app-is-restricted-to-premium-users.pages.dev",
+        "*.spotify-this-app-is-restricted-to-premium-users.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Mhc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:spotify-this-app-is-restricted-to-premium-users.pages.dev, DNS:*.spotify-this-app-is-restricted-to-premium-users.pages.dev",
+        "subjectKeyIdentifier": "keyid:7b:1a:10:19:a9:da:02:53:cb:69:2a:85:96:98:ff:7d:91:fc:2c:fa"
+      }
+    },
+    "cert_index": 4180616116,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4180616116&end=4180616116",
+    "seen": 1778507516.481,
+    "submission_timestamp": 1778488758.598,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "debitor.irish",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 10:15:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.irish",
+        "aggregated": "/CN=debitor.irish"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2A638747E3EFE4B513AFDCB86AA03E01",
+      "not_before": 1778501619,
+      "not_after": 1786281214,
+      "fingerprint": "2C:1D:43:1A:AA:BE:F4:4F:54:DD:D6:3F:E0:20:CD:C3:F9:01:6C:3E",
+      "sha1": "2C:1D:43:1A:AA:BE:F4:4F:54:DD:D6:3F:E0:20:CD:C3:F9:01:6C:3E",
+      "sha256": "74:B5:63:8B:46:7B:2A:85:D7:5C:6E:4D:3F:DF:4E:9E:7E:9E:9B:99:22:CC:F7:F8:8F:81:7B:B2:76:C9:CE:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.irish",
+        "*.debitor.irish"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/KmM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitor.irish, DNS:*.debitor.irish",
+        "subjectKeyIdentifier": "keyid:97:3a:2e:3e:24:11:21:01:70:c9:d5:2a:2f:d0:0f:da:00:6d:aa:c0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 600660512,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=600660512&end=600660512",
+    "seen": 1778505336.636,
+    "submission_timestamp": 1778505220.234,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
