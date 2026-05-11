@@ -1,0 +1,52 @@
+{
+  "dominio": "spypagseguro.shop",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 23:38:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spypagseguro.shop",
+        "aggregated": "/CN=spypagseguro.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06BFF61EBBFCC5C07400F63882A051232352",
+      "not_before": 1778448047,
+      "not_after": 1786224046,
+      "fingerprint": "47:B3:41:AE:75:0C:56:DB:6C:B6:A9:E9:00:3F:E1:94:FF:91:39:FC",
+      "sha1": "47:B3:41:AE:75:0C:56:DB:6C:B6:A9:E9:00:3F:E1:94:FF:91:39:FC",
+      "sha256": "90:5D:70:A2:F4:B3:B6:C8:65:C5:02:4A:94:56:DD:CB:55:89:2B:29:49:D1:D2:A3:8A:2C:0F:B0:AF:46:57:A0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "spypagseguro.shop",
+        "*.spypagseguro.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.spypagseguro.shop, DNS:spypagseguro.shop",
+        "subjectKeyIdentifier": "keyid:7e:d4:09:31:8c:fb:6c:39:b5:f1:f8:fb:7d:27:9d:ec:98:f3:dc:7b"
+      }
+    },
+    "cert_index": 4172756038,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4172756038&end=4172756038",
+    "seen": 1778467107.779,
+    "submission_timestamp": 1778451561.382,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
