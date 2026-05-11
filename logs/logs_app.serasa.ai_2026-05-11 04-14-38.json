@@ -1,0 +1,52 @@
+{
+  "dominio": "app.serasa.ai",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/11/26 04:14:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.serasa.ai",
+        "aggregated": "/CN=app.serasa.ai"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2B27BA03614ED48DC9B8839DB5FC08C4",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "91:7B:CC:39:D4:13:6D:04:8B:22:ED:15:43:C9:A2:80:6A:F1:98:1B",
+      "sha1": "91:7B:CC:39:D4:13:6D:04:8B:22:ED:15:43:C9:A2:80:6A:F1:98:1B",
+      "sha256": "9C:8A:E3:D2:97:30:C0:63:F9:54:C3:4D:E5:8A:23:E0:50:C2:1A:31:B3:89:61:64:22:23:4B:70:3F:AD:8F:73",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.serasa.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.serasa.ai",
+        "subjectKeyIdentifier": "keyid:01:64:f0:9a:f3:1e:e0:5b:67:02:27:fe:87:ba:02:21:51:53:cd:2c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1528871943,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1528871943&end=1528871943",
+    "seen": 1778483669.51,
+    "submission_timestamp": 1777924788.366,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

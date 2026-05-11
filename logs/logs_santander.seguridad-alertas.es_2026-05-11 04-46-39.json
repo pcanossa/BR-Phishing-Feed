@@ -1,0 +1,53 @@
+{
+  "dominio": "santander.seguridad-alertas.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/11/26 04:46:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguridad-alertas.es",
+        "aggregated": "/CN=seguridad-alertas.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "F8926B72EA4BD749132E04945685FF5A",
+      "not_before": 1778481907,
+      "not_after": 1786261489,
+      "fingerprint": "AD:38:EF:6D:BA:67:4D:EE:F8:3B:EA:11:2E:F0:F2:22:09:04:41:B4",
+      "sha1": "AD:38:EF:6D:BA:67:4D:EE:F8:3B:EA:11:2E:F0:F2:22:09:04:41:B4",
+      "sha256": "18:74:90:E3:5D:10:50:F7:C6:ED:17:4B:06:4F:32:B2:98:AB:45:9F:50:25:4E:31:FA:24:E2:70:74:2E:CD:2C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "seguridad-alertas.es",
+        "santander.seguridad-alertas.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/-JI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:seguridad-alertas.es, DNS:santander.seguridad-alertas.es",
+        "subjectKeyIdentifier": "keyid:38:69:44:3a:45:cc:94:b4:69:af:17:86:05:5c:1e:06:21:58:d2:a5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695700030,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=695700030&end=695700030",
+    "seen": 1778485589.894,
+    "submission_timestamp": 1778485507.488,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

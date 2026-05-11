@@ -1,0 +1,53 @@
+{
+  "dominio": "detransc-ipva-guias-emitir.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/11/26 04:28:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detransc-ipva-guias-emitir.com",
+        "aggregated": "/CN=detransc-ipva-guias-emitir.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "F420DE804BE6C16B53E7A25E8F44E027",
+      "not_before": 1778457600,
+      "not_after": 1786240120,
+      "fingerprint": "77:3A:AC:2C:3F:AD:A7:5E:90:8C:57:A6:EF:F7:C5:09:63:2A:2B:D9",
+      "sha1": "77:3A:AC:2C:3F:AD:A7:5E:90:8C:57:A6:EF:F7:C5:09:63:2A:2B:D9",
+      "sha256": "7D:A2:16:E2:8C:BC:5A:7C:5B:4D:60:2B:80:9E:6E:58:A9:2F:31:B1:3C:A3:AC:17:0E:0F:CD:9D:7C:88:D3:17",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "detransc-ipva-guias-emitir.com",
+        "*.detransc-ipva-guias-emitir.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:detransc-ipva-guias-emitir.com, DNS:*.detransc-ipva-guias-emitir.com",
+        "subjectKeyIdentifier": "keyid:61:ff:5f:a0:1d:af:82:5d:b2:4a:6f:ce:25:77:b2:2b:91:18:30:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4176010099,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4176010099&end=4176010099",
+    "seen": 1778484474.869,
+    "submission_timestamp": 1778464345.497,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

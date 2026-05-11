@@ -1,0 +1,52 @@
+{
+  "dominio": "bancocaixa--stockpilot-4c0pz.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/11/26 05:06:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bancocaixa--stockpilot-4c0pz.us-central1.hosted.app",
+        "aggregated": "/CN=bancocaixa--stockpilot-4c0pz.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "57F19046493FC9BC1081879EB5235D8B",
+      "not_before": 1778462253,
+      "not_after": 1786241608,
+      "fingerprint": "D8:7D:B4:9F:11:5A:6A:69:4E:13:EA:84:7B:42:2E:E2:13:14:D2:1C",
+      "sha1": "D8:7D:B4:9F:11:5A:6A:69:4E:13:EA:84:7B:42:2E:E2:13:14:D2:1C",
+      "sha256": "E5:6E:8F:3F:D6:29:47:4F:40:EA:11:49:D9:43:D4:67:5C:FE:8F:7C:2F:7C:AF:37:9D:4E:17:0F:4F:FB:7C:7C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bancocaixa--stockpilot-4c0pz.us-central1.hosted.app",
+        "*.bancocaixa--stockpilot-4c0pz.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/V_E, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bancocaixa--stockpilot-4c0pz.us-central1.hosted.app, DNS:*.bancocaixa--stockpilot-4c0pz.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:21:eb:d7:d6:51:5b:fa:6d:c0:d3:8c:05:d1:f2:90:83:38:58:a3:76"
+      }
+    },
+    "cert_index": 4176458305,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4176458305&end=4176458305",
+    "seen": 1778486752.615,
+    "submission_timestamp": 1778466067.729,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
