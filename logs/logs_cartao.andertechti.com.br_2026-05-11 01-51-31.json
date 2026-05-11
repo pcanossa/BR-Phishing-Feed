@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.andertechti.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/11/26 01:51:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "andertechti.com.br",
+        "aggregated": "/CN=andertechti.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2F37126C7EFBB59A0E7B33A728F3DCE5",
+      "not_before": 1778453746,
+      "not_after": 1786233343,
+      "fingerprint": "DB:AA:12:93:90:71:2D:24:C9:5A:4B:0E:21:25:14:FD:75:4B:AF:B9",
+      "sha1": "DB:AA:12:93:90:71:2D:24:C9:5A:4B:0E:21:25:14:FD:75:4B:AF:B9",
+      "sha256": "6D:64:41:04:54:15:98:86:45:28:FB:90:15:06:5A:BF:98:B7:42:58:EE:4D:E3:6F:69:E1:00:B8:7B:9D:AD:B5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "andertechti.com.br",
+        "cartao.andertechti.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Lzc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:andertechti.com.br, DNS:cartao.andertechti.com.br",
+        "subjectKeyIdentifier": "keyid:a6:24:db:03:d6:e5:f6:4b:1c:8d:9d:51:22:37:34:3d:a9:e2:df:9f"
+      }
+    },
+    "cert_index": 4174246628,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4174246628&end=4174246628",
+    "seen": 1778475092.825,
+    "submission_timestamp": 1778457536.951,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

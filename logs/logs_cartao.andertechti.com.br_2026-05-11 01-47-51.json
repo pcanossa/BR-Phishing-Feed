@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.andertechti.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/11/26 01:47:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "andertechti.com.br",
+        "aggregated": "/CN=andertechti.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2F37126C7EFBB59A0E7B33A728F3DCE5",
+      "not_before": 1778453746,
+      "not_after": 1786233343,
+      "fingerprint": "A2:6C:AB:18:F8:68:57:00:F1:78:50:3F:27:BD:FC:92:CF:2C:DD:AC",
+      "sha1": "A2:6C:AB:18:F8:68:57:00:F1:78:50:3F:27:BD:FC:92:CF:2C:DD:AC",
+      "sha256": "F1:0B:CE:A6:95:70:2F:68:AA:CE:BD:D7:34:98:CD:69:C1:8E:F9:74:41:C7:A1:C1:37:2D:1E:FB:A9:B1:4D:2F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "andertechti.com.br",
+        "cartao.andertechti.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Lzc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:andertechti.com.br, DNS:cartao.andertechti.com.br",
+        "subjectKeyIdentifier": "keyid:a6:24:db:03:d6:e5:f6:4b:1c:8d:9d:51:22:37:34:3d:a9:e2:df:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4174204706,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4174204706&end=4174204706",
+    "seen": 1778474861.777,
+    "submission_timestamp": 1778457347.259,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

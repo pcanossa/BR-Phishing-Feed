@@ -1,0 +1,51 @@
+{
+  "dominio": "api.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/11/26 02:02:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058C43F38CDE69FDB325BC330583D5958B12",
+      "not_before": 1778454412,
+      "not_after": 1786230411,
+      "fingerprint": "43:C8:FA:42:C8:0B:DB:75:98:ED:9D:A4:F1:B3:0F:D3:FD:50:48:88",
+      "sha1": "43:C8:FA:42:C8:0B:DB:75:98:ED:9D:A4:F1:B3:0F:D3:FD:50:48:88",
+      "sha256": "8B:38:29:D3:5E:34:21:17:71:8D:C9:8C:BD:02:E2:53:F7:D5:7C:04:C3:DB:B1:4D:A7:A6:7F:E7:47:6E:41:D4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:6d:fa:04:d1:17:47:3c:e8:ee:ca:7a:c7:96:aa:a1:25:d8:ec:50:8f"
+      }
+    },
+    "cert_index": 4174362584,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4174362584&end=4174362584",
+    "seen": 1778475712.108,
+    "submission_timestamp": 1778457924.271,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

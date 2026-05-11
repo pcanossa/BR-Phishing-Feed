@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-03042021-4.formation.myceliandre.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 01:56:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-03042021-4.formation.myceliandre.fr",
+        "aggregated": "/CN=cpf-03042021-4.formation.myceliandre.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "050BEA79BD04F995C28562FCCEF7CAF2F605",
+      "not_before": 1778380321,
+      "not_after": 1786156320,
+      "fingerprint": "02:8C:71:48:EC:6C:EF:29:4E:A8:7F:8C:63:F4:39:CD:D0:A0:82:2E",
+      "sha1": "02:8C:71:48:EC:6C:EF:29:4E:A8:7F:8C:63:F4:39:CD:D0:A0:82:2E",
+      "sha256": "24:D8:7D:08:71:EA:97:3E:92:D7:7B:8C:5A:9F:5D:00:C7:81:76:12:48:54:22:CA:2E:C4:AD:73:75:41:A5:CC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-03042021-4.formation.myceliandre.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-03042021-4.formation.myceliandre.fr",
+        "subjectKeyIdentifier": "keyid:b5:48:e9:f1:37:b2:9a:99:cb:7d:c4:c8:22:f2:b3:a9:93:66:84:10"
+      }
+    },
+    "cert_index": 4174307516,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4174307516&end=4174307516",
+    "seen": 1778475406.213,
+    "submission_timestamp": 1778457742.485,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

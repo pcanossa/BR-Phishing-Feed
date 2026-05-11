@@ -1,0 +1,52 @@
+{
+  "dominio": "theclaroapp.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/11/26 01:09:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "theclaroapp.com",
+        "aggregated": "/CN=theclaroapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05BD0392CF294EBB2549E2A4846EC736A3DE",
+      "not_before": 1778126153,
+      "not_after": 1785902152,
+      "fingerprint": "7E:FA:8A:AB:50:57:9B:AD:6E:4C:5D:35:17:B8:C4:17:64:91:4A:49",
+      "sha1": "7E:FA:8A:AB:50:57:9B:AD:6E:4C:5D:35:17:B8:C4:17:64:91:4A:49",
+      "sha256": "15:34:4E:FA:B6:70:7E:81:5B:F8:C9:B9:32:B4:36:FC:FD:3D:07:40:6D:53:DC:C6:51:DF:EB:C9:AD:FC:3C:E0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "theclaroapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:theclaroapp.com",
+        "subjectKeyIdentifier": "keyid:ea:49:23:6b:53:39:36:b6:c3:e5:4f:bd:1e:6e:0f:64:0f:c7:46:23",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 611248099,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=611248099&end=611248099",
+    "seen": 1778472540.417,
+    "submission_timestamp": 1778129663.409,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
