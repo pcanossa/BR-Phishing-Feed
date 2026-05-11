@@ -1,0 +1,51 @@
+{
+  "dominio": "boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/11/26 03:32:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boletosserasa.com",
+        "aggregated": "/CN=boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "D502464BF36B9994DBE0B14F42F12BC9",
+      "not_before": 1778457600,
+      "not_after": 1786319999,
+      "fingerprint": "AC:7A:88:05:62:6F:76:A5:3F:9E:42:AB:5F:4E:37:4F:C5:AD:F6:F3",
+      "sha1": "AC:7A:88:05:62:6F:76:A5:3F:9E:42:AB:5F:4E:37:4F:C5:AD:F6:F3",
+      "sha256": "70:2D:95:F8:F0:13:C7:B8:3F:59:F6:F8:35:96:32:F8:D0:83:70:4D:30:DD:57:99:47:4B:DD:02:F4:5C:A0:D9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:47:e1:89:c6:86:07:cf:c7:db:77:d1:76:1e:b9:98:7e:56:7b:b7:52"
+      }
+    },
+    "cert_index": 4175389186,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4175389186&end=4175389186",
+    "seen": 1778481151.956,
+    "submission_timestamp": 1778461729.621,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguro-org.online",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/11/26 03:42:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro-org.online",
+        "aggregated": "/CN=pagseguro-org.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BC7B06E2B8D0BC990E4EBBEAF0193FB0",
+      "not_before": 1778458406,
+      "not_after": 1786237865,
+      "fingerprint": "AF:66:7B:ED:F6:4D:18:F4:5E:60:22:FB:50:F3:3D:64:09:F9:95:2F",
+      "sha1": "AF:66:7B:ED:F6:4D:18:F4:5E:60:22:FB:50:F3:3D:64:09:F9:95:2F",
+      "sha256": "F3:89:13:BD:5C:52:4B:A7:1C:21:29:EA:98:F7:32:DE:79:45:56:56:06:29:49:6C:53:84:C2:6D:FC:C0:6D:1D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro-org.online",
+        "*.pagseguro-org.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vHs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagseguro-org.online, DNS:*.pagseguro-org.online",
+        "subjectKeyIdentifier": "keyid:2b:21:e2:36:02:e4:e2:41:0d:81:84:00:c1:a0:a3:5f:45:01:e0:da",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4175500965,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4175500965&end=4175500965",
+    "seen": 1778481760.158,
+    "submission_timestamp": 1778462184.22,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
