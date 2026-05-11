@@ -1,0 +1,52 @@
+{
+  "dominio": "tim.federalcourtofappeal.ca",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/11/26 13:32:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tim.federalcourtofappeal.ca",
+        "aggregated": "/CN=tim.federalcourtofappeal.ca"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05707D9EC35B85815FECF82C4A5C02BFBAE2",
+      "not_before": 1778491672,
+      "not_after": 1786267671,
+      "fingerprint": "62:66:A9:00:58:1F:AD:B9:5C:E5:7C:BA:55:2F:30:22:77:30:16:78",
+      "sha1": "62:66:A9:00:58:1F:AD:B9:5C:E5:7C:BA:55:2F:30:22:77:30:16:78",
+      "sha256": "64:78:04:EA:40:B0:C2:A6:C5:94:07:1D:24:70:BB:B0:0D:3A:17:DF:BF:03:29:0A:B1:48:44:6D:1E:77:88:26",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tim.federalcourtofappeal.ca"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tim.federalcourtofappeal.ca",
+        "subjectKeyIdentifier": "keyid:5d:3e:b4:70:49:fe:b0:8c:f9:fb:03:13:ef:c0:23:45:f3:ae:d0:ee",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4182328985,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4182328985&end=4182328985",
+    "seen": 1778517112.603,
+    "submission_timestamp": 1778495182.782,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

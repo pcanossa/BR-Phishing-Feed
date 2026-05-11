@@ -1,0 +1,51 @@
+{
+  "dominio": "app1.rclaro.pt",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/11/26 13:48:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app1.rclaro.pt",
+        "aggregated": "/CN=app1.rclaro.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "056BAC47480A4E0610796069E4E3783428B7",
+      "not_before": 1778514567,
+      "not_after": 1786290566,
+      "fingerprint": "72:E4:59:42:B6:4A:B6:9F:81:43:D7:99:16:CB:CD:E6:53:9A:BF:42",
+      "sha1": "72:E4:59:42:B6:4A:B6:9F:81:43:D7:99:16:CB:CD:E6:53:9A:BF:42",
+      "sha256": "57:E1:47:05:61:80:A4:4B:BB:C1:BF:71:B2:11:CC:83:D0:B5:89:69:88:90:83:01:71:E8:D5:4F:08:B7:A8:C8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app1.rclaro.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app1.rclaro.pt",
+        "subjectKeyIdentifier": "keyid:b6:ad:cc:a1:a0:39:b2:cb:5e:33:73:a3:45:6e:a1:f7:44:f7:fb:6a"
+      }
+    },
+    "cert_index": 184672033,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x721/375",
+    "seen": 1778518079.379,
+    "submission_timestamp": 1778518077.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

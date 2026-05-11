@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cnpj-cpf.uptextil.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 13:22:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cnpj-cpf.uptextil.com",
+        "aggregated": "/CN=www.cnpj-cpf.uptextil.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "062E95C4B84217240D6335D6B0562CBCD237",
+      "not_before": 1778491253,
+      "not_after": 1786267252,
+      "fingerprint": "F0:78:CC:94:CF:19:01:A3:21:F3:2A:62:69:4A:DC:CA:A1:7B:3C:9B",
+      "sha1": "F0:78:CC:94:CF:19:01:A3:21:F3:2A:62:69:4A:DC:CA:A1:7B:3C:9B",
+      "sha256": "28:04:C8:12:C7:7B:C4:C3:9A:EE:BE:EB:98:9B:F8:44:BD:B6:FC:69:BE:96:5A:37:8A:DE:92:CB:DC:D2:CE:D4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cnpj-cpf.uptextil.com",
+        "*.uptextil.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.uptextil.com, DNS:www.cnpj-cpf.uptextil.com",
+        "subjectKeyIdentifier": "keyid:ad:74:c5:c9:b2:f6:9e:57:ae:58:d3:6a:c2:b7:46:a2:15:36:1b:93"
+      }
+    },
+    "cert_index": 4182219355,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4182219355&end=4182219355",
+    "seen": 1778516554.103,
+    "submission_timestamp": 1778494765.979,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
