@@ -1,0 +1,52 @@
+{
+  "dominio": "sistema-caixa-seguro.devsoftbr.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/11/26 07:14:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sistema-caixa-seguro.devsoftbr.com",
+        "aggregated": "/CN=sistema-caixa-seguro.devsoftbr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "050386F9C49F0FD2BC064D183281E7229F0A",
+      "not_before": 1777878759,
+      "not_after": 1785654758,
+      "fingerprint": "41:24:7A:27:D5:74:EB:09:0E:91:FD:27:5E:70:CA:36:E3:1E:DC:B7",
+      "sha1": "41:24:7A:27:D5:74:EB:09:0E:91:FD:27:5E:70:CA:36:E3:1E:DC:B7",
+      "sha256": "A0:1D:91:6B:BF:F5:8C:76:5D:DA:5C:9B:CC:DF:20:BF:E0:2F:72:3F:67:6E:71:C4:9E:51:0E:61:5A:8F:A4:36",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sistema-caixa-seguro.devsoftbr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sistema-caixa-seguro.devsoftbr.com",
+        "subjectKeyIdentifier": "keyid:0e:f4:37:ca:15:88:86:69:91:d0:90:06:19:39:e2:a4:52:0a:00:65",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 827881025,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=827881025&end=827881025",
+    "seen": 1778494437.266,
+    "submission_timestamp": 1777882269.366,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
