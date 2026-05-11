@@ -1,0 +1,53 @@
+{
+  "dominio": "meupagseguro.shop",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/11/26 09:51:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meupagseguro.shop",
+        "aggregated": "/CN=meupagseguro.shop"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "40FE86A5C9934A3238D30BC3BA0C1466",
+      "not_before": 1778457600,
+      "not_after": 1786279668,
+      "fingerprint": "D2:6F:C9:2D:8C:1D:14:F4:31:57:BA:B1:F7:98:A5:4C:7E:81:A1:4E",
+      "sha1": "D2:6F:C9:2D:8C:1D:14:F4:31:57:BA:B1:F7:98:A5:4C:7E:81:A1:4E",
+      "sha256": "27:CD:6E:90:47:F9:C8:5A:89:89:A3:BE:9E:3E:54:93:FB:44:2B:E8:3B:1D:46:C9:90:D9:1E:42:17:B7:41:8F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "meupagseguro.shop",
+        "*.meupagseguro.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:meupagseguro.shop, DNS:*.meupagseguro.shop",
+        "subjectKeyIdentifier": "keyid:43:50:a4:e4:6f:14:fa:3c:0e:67:84:87:90:6f:68:11:1f:5c:94:9b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 698830072,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=698830072&end=698830072",
+    "seen": 1778503897.57,
+    "submission_timestamp": 1778503764.986,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

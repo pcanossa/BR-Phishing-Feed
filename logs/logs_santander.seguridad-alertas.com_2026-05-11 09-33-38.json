@@ -1,0 +1,53 @@
+{
+  "dominio": "santander.seguridad-alertas.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/11/26 09:33:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguridad-alertas.com",
+        "aggregated": "/CN=seguridad-alertas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "AAA35F640677ED0F0EE243479A2630A9",
+      "not_before": 1778481710,
+      "not_after": 1786261175,
+      "fingerprint": "C4:69:0F:6E:F5:FD:6F:20:3E:FB:86:CE:A7:C1:85:C6:74:19:93:6A",
+      "sha1": "C4:69:0F:6E:F5:FD:6F:20:3E:FB:86:CE:A7:C1:85:C6:74:19:93:6A",
+      "sha256": "98:7A:23:DD:B6:79:BA:6A:CC:26:E9:EA:1C:D8:DA:96:1F:00:79:45:F6:11:07:11:47:50:12:33:32:CC:65:EB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "seguridad-alertas.com",
+        "santander.seguridad-alertas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/qqM, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:seguridad-alertas.com, DNS:santander.seguridad-alertas.com",
+        "subjectKeyIdentifier": "keyid:41:af:c0:a6:49:97:dc:b0:62:c7:d5:74:54:11:33:1e:3c:ed:a0:35",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4179731683,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4179731683&end=4179731683",
+    "seen": 1778502808.458,
+    "submission_timestamp": 1778485311.276,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "uber-branchapp1703712818.zendesk.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/11/26 09:49:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uber-branchapp1703712818.zendesk.com",
+        "aggregated": "/CN=uber-branchapp1703712818.zendesk.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06FE2D676539E5678D1169A8925749632C6C",
+      "not_before": 1778482391,
+      "not_after": 1786258390,
+      "fingerprint": "C0:8A:3B:82:BE:89:90:3C:BE:1B:8D:F4:9F:FE:50:73:2E:4A:C1:27",
+      "sha1": "C0:8A:3B:82:BE:89:90:3C:BE:1B:8D:F4:9F:FE:50:73:2E:4A:C1:27",
+      "sha256": "EC:08:DD:B7:F4:BB:BA:87:A5:A9:A9:6F:55:05:59:5A:EA:0E:C4:7D:2C:55:D7:3A:AD:57:0C:80:1D:1B:03:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uber-branchapp1703712818.zendesk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:uber-branchapp1703712818.zendesk.com",
+        "subjectKeyIdentifier": "keyid:77:9b:5f:49:6c:0f:84:66:24:e7:d6:d1:ba:7f:6d:49:41:4a:bc:e0"
+      }
+    },
+    "cert_index": 4179915253,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4179915253&end=4179915253",
+    "seen": 1778503734.135,
+    "submission_timestamp": 1778486059.777,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

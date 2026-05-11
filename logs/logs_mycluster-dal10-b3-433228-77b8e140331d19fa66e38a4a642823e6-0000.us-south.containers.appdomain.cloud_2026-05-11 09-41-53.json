@@ -1,0 +1,53 @@
+{
+  "dominio": "mycluster-dal10-b3-433228-77b8e140331d19fa66e38a4a642823e6-0000.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/11/26 09:41:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mycluster-dal10-b3-433228.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=mycluster-dal10-b3-433228.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "067D1C9B96B1092970794187BE7F4AEAE6DC",
+      "not_before": 1778482127,
+      "not_after": 1786258126,
+      "fingerprint": "3E:5D:F6:56:83:7F:0E:EB:85:5C:A1:D4:04:37:B2:AC:B7:1B:9D:48",
+      "sha1": "3E:5D:F6:56:83:7F:0E:EB:85:5C:A1:D4:04:37:B2:AC:B7:1B:9D:48",
+      "sha256": "A6:8C:1A:49:22:67:0E:44:F0:78:D5:03:CC:E4:13:07:A0:5B:B0:80:5A:EE:C3:58:35:7E:44:F9:18:20:E5:2D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mycluster-dal10-b3-433228.us-south.containers.appdomain.cloud",
+        "*.mycluster-dal10-b3-433228-77b8e140331d19fa66e38a4a642823e6-0000.us-south.containers.appdomain.cloud",
+        "mycluster-dal10-b3-433228-77b8e140331d19fa66e38a4a642823e6-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.mycluster-dal10-b3-433228-77b8e140331d19fa66e38a4a642823e6-0000.us-south.containers.appdomain.cloud, DNS:mycluster-dal10-b3-433228-77b8e140331d19fa66e38a4a642823e6-0000.us-south.containers.appdomain.cloud, DNS:mycluster-dal10-b3-433228.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:55:2e:24:cb:1e:f1:4c:e5:cf:1c:20:49:e4:12:bb:44:af:71:7c:fb"
+      }
+    },
+    "cert_index": 4179830684,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4179830684&end=4179830684",
+    "seen": 1778503303.765,
+    "submission_timestamp": 1778485704.289,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
