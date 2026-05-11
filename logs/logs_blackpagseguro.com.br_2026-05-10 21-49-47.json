@@ -1,0 +1,52 @@
+{
+  "dominio": "blackpagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/10/26 21:49:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "blackpagseguro.com.br",
+        "aggregated": "/CN=blackpagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "45028E49A95507AE13CE799D12FEABA4",
+      "not_before": 1778443865,
+      "not_after": 1786223451,
+      "fingerprint": "B6:E8:C9:70:79:0F:02:F1:64:CF:A4:32:56:AA:D8:10:ED:1D:CC:CF",
+      "sha1": "B6:E8:C9:70:79:0F:02:F1:64:CF:A4:32:56:AA:D8:10:ED:1D:CC:CF",
+      "sha256": "A2:9D:F5:4B:12:B6:52:9D:EA:A0:A9:93:45:20:17:E8:93:92:69:0A:8F:F1:16:DB:71:38:B3:DC:9D:39:AF:3A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "blackpagseguro.com.br",
+        "*.blackpagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/RQI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:blackpagseguro.com.br, DNS:*.blackpagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:9d:f1:b6:94:2c:f3:a3:cf:e9:86:97:27:81:81:f0:74:05:7a:87:5d"
+      }
+    },
+    "cert_index": 4171673432,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4171673432&end=4171673432",
+    "seen": 1778460578.567,
+    "submission_timestamp": 1778447565.904,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
