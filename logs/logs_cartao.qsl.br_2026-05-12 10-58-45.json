@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.qsl.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 10:58:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.qsl.br",
+        "aggregated": "/CN=cartao.qsl.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "18239E917760D9C2136E2609BC692D91",
+      "not_before": 1778537100,
+      "not_after": 1786316608,
+      "fingerprint": "DB:01:EB:03:55:E8:14:1C:0F:67:36:E3:A7:4B:87:CB:71:85:ED:8A",
+      "sha1": "DB:01:EB:03:55:E8:14:1C:0F:67:36:E3:A7:4B:87:CB:71:85:ED:8A",
+      "sha256": "B2:F9:D6:6D:AA:70:12:F7:F1:AF:85:87:94:16:9A:54:E8:02:40:9E:79:FF:36:30:E9:A1:C5:C0:7B:C5:74:47",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.qsl.br",
+        "*.cartao.qsl.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/GCM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.qsl.br, DNS:*.cartao.qsl.br",
+        "subjectKeyIdentifier": "keyid:48:d6:a3:25:56:be:c5:b2:ed:06:37:13:df:d3:a5:e5:e5:ad:50:25"
+      }
+    },
+    "cert_index": 4199490230,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4199490230&end=4199490230",
+    "seen": 1778594312.63,
+    "submission_timestamp": 1778580126.454,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

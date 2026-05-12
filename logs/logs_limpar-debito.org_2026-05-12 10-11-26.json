@@ -1,0 +1,52 @@
+{
+  "dominio": "limpar-debito.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 10:11:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpar-debito.org",
+        "aggregated": "/CN=limpar-debito.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05D63E1B15DEF018EDE9FCA4726693440FE5",
+      "not_before": 1777947709,
+      "not_after": 1785723708,
+      "fingerprint": "93:9A:A6:92:B6:09:9F:71:03:1F:FB:F5:20:52:79:74:02:49:57:07",
+      "sha1": "93:9A:A6:92:B6:09:9F:71:03:1F:FB:F5:20:52:79:74:02:49:57:07",
+      "sha256": "28:AE:F5:AC:4B:EA:A8:60:5C:C0:B3:4E:67:8A:99:FF:2F:2C:14:D1:16:D9:F7:60:58:53:29:98:41:AD:C4:27",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "limpar-debito.org",
+        "*.limpar-debito.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.limpar-debito.org, DNS:limpar-debito.org",
+        "subjectKeyIdentifier": "keyid:1e:f4:9b:3f:f7:dd:33:e7:40:bc:d3:41:01:29:1f:6a:d4:03:ed:cf"
+      }
+    },
+    "cert_index": 1552310403,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1552310403&end=1552310403",
+    "seen": 1778591473.534,
+    "submission_timestamp": 1777951324.664,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

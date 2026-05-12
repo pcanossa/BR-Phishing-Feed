@@ -1,0 +1,52 @@
+{
+  "dominio": "www.appmercadolivre.store",
+  "marcas_encontradas": [
+    "mercadolivre"
+  ],
+  "timestamp": "05/12/26 10:42:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.appmercadolivre.store",
+        "aggregated": "/CN=www.appmercadolivre.store"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "8A919586F9B31AF4",
+      "not_before": 1778578433,
+      "not_after": 1795685633,
+      "fingerprint": "FA:0E:AF:36:ED:39:26:6D:86:8B:A5:71:BE:E1:18:3C:1A:C6:7B:8B",
+      "sha1": "FA:0E:AF:36:ED:39:26:6D:86:8B:A5:71:BE:E1:18:3C:1A:C6:7B:8B",
+      "sha256": "CB:1F:EC:0F:23:C2:B7:8D:AF:CC:4C:24:3A:70:6E:6F:7B:CD:8D:2B:44:B5:4A:CD:B7:85:8B:8B:36:AB:50:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.appmercadolivre.store"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.appmercadolivre.store",
+        "subjectKeyIdentifier": "keyid:7f:d5:79:da:8b:45:85:f3:e3:c1:1b:fe:13:88:b5:c2:3e:ed:d3:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4199226721,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4199226721&end=4199226721",
+    "seen": 1778593320.674,
+    "submission_timestamp": 1778578434.698,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

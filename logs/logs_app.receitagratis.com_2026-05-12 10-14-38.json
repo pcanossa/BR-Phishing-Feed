@@ -1,0 +1,53 @@
+{
+  "dominio": "app.receitagratis.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/12/26 10:14:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitagratis.com",
+        "aggregated": "/CN=receitagratis.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "97A922785E92A3ED13A7386313314A47",
+      "not_before": 1778538363,
+      "not_after": 1786317956,
+      "fingerprint": "7D:83:B8:F7:C2:DE:CB:16:A7:A3:3E:48:07:6D:66:AA:9B:38:83:0B",
+      "sha1": "7D:83:B8:F7:C2:DE:CB:16:A7:A3:3E:48:07:6D:66:AA:9B:38:83:0B",
+      "sha256": "98:B9:F0:5C:8F:F9:34:21:0A:A1:A2:0F:36:F2:82:5E:92:7C:80:6E:BF:A1:83:C6:4A:88:AF:FE:EA:A8:2C:7E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitagratis.com",
+        "app.receitagratis.com",
+        "*.app.receitagratis.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/l6k, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitagratis.com, DNS:app.receitagratis.com, DNS:*.app.receitagratis.com",
+        "subjectKeyIdentifier": "keyid:91:9f:6e:d6:8d:2f:52:a4:22:6b:a7:e7:c3:11:f9:c1:47:ed:2f:38"
+      }
+    },
+    "cert_index": 187030901,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x730/589",
+    "seen": 1778591665.562,
+    "submission_timestamp": 1778591664.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "appsaudetransparente.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/12/26 10:42:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appsaudetransparente.com",
+        "aggregated": "/CN=appsaudetransparente.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "23DEFC23D51235270EEF280A914505D1",
+      "not_before": 1778574852,
+      "not_after": 1786354373,
+      "fingerprint": "6C:BA:0F:C2:EA:DC:B9:AF:48:42:9D:2B:75:44:3D:13:75:32:19:B6",
+      "sha1": "6C:BA:0F:C2:EA:DC:B9:AF:48:42:9D:2B:75:44:3D:13:75:32:19:B6",
+      "sha256": "EA:6F:DA:D7:86:BA:0D:FB:32:28:E5:FA:D8:ED:D3:8F:17:D6:FF:BB:31:DA:DE:38:AF:4B:0B:27:F6:A5:A0:8F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "appsaudetransparente.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/I94, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:appsaudetransparente.com",
+        "subjectKeyIdentifier": "keyid:8a:77:80:83:cb:bb:4d:0b:6c:a5:44:6f:17:35:8b:3c:77:bf:7b:77",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4199229319,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4199229319&end=4199229319",
+    "seen": 1778593331.129,
+    "submission_timestamp": 1778578452.668,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "app.vivo.greens.one",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/12/26 10:18:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.vivo.greens.one",
+        "aggregated": "/CN=app.vivo.greens.one"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0213CC8FAE7C54D8D6F91060DABF7E6D",
+      "not_before": 1778544000,
+      "not_after": 1794527999,
+      "fingerprint": "89:65:A2:1D:EC:78:7E:CE:E8:AF:30:EC:99:DD:9E:EC:63:A0:98:20",
+      "sha1": "89:65:A2:1D:EC:78:7E:CE:E8:AF:30:EC:99:DD:9E:EC:63:A0:98:20",
+      "sha256": "43:1E:F5:55:34:9A:EE:2C:2A:61:75:0A:08:9B:AB:AB:24:94:67:C5:E9:46:A0:57:59:0D:D5:88:32:FB:CB:E0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.vivo.greens.one"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.vivo.greens.one",
+        "subjectKeyIdentifier": "keyid:39:04:a9:03:e4:b8:51:0b:83:0b:7d:46:98:57:ae:71:56:5f:fd:7e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4198847380,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198847380&end=4198847380",
+    "seen": 1778591868.771,
+    "submission_timestamp": 1778576609.997,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
