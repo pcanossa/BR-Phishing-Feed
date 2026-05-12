@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguro.space",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/12/26 16:52:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.space",
+        "aggregated": "/CN=pagseguro.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05E4048C028B4440C19F0FD425D124112494",
+      "not_before": 1778605488,
+      "not_after": 1786381487,
+      "fingerprint": "B2:82:2F:ED:E3:D4:DF:AB:4B:34:AC:25:4C:5B:20:9B:72:31:4B:2A",
+      "sha1": "B2:82:2F:ED:E3:D4:DF:AB:4B:34:AC:25:4C:5B:20:9B:72:31:4B:2A",
+      "sha256": "A2:FE:E9:37:DB:C2:80:3F:AE:00:0A:33:31:28:E2:39:52:AF:95:48:EE:A4:7D:C2:C5:C6:E3:08:C8:D1:93:3E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.space",
+        "*.pagseguro.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguro.space, DNS:pagseguro.space",
+        "subjectKeyIdentifier": "keyid:ed:44:00:48:c2:a9:16:1d:83:4c:40:6d:04:60:b5:e6:a7:ba:a2:69"
+      }
+    },
+    "cert_index": 4205016158,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4205016158&end=4205016158",
+    "seen": 1778615514.01,
+    "submission_timestamp": 1778609001.075,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

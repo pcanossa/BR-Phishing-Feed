@@ -1,0 +1,52 @@
+{
+  "dominio": "fonepagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/12/26 16:45:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fonepagseguro.com",
+        "aggregated": "/CN=fonepagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "42D36BCC110125F71331FE43B88424FE",
+      "not_before": 1778436714,
+      "not_after": 1786216296,
+      "fingerprint": "1A:93:2E:94:E3:64:F9:4C:9B:26:C6:71:F1:28:01:27:55:D0:CE:13",
+      "sha1": "1A:93:2E:94:E3:64:F9:4C:9B:26:C6:71:F1:28:01:27:55:D0:CE:13",
+      "sha256": "09:1E:36:7B:6A:7F:60:02:AF:65:91:44:C2:1F:CE:FF:88:5F:45:16:72:7E:53:15:BC:FF:D1:07:97:96:66:65",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "fonepagseguro.com",
+        "*.fonepagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/QtM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:fonepagseguro.com, DNS:*.fonepagseguro.com",
+        "subjectKeyIdentifier": "keyid:5b:ab:57:68:34:6e:aa:50:d8:19:3e:cb:81:89:60:0c:cf:8a:4a:43"
+      }
+    },
+    "cert_index": 4204903411,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4204903411&end=4204903411",
+    "seen": 1778615089.485,
+    "submission_timestamp": 1778608245.75,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

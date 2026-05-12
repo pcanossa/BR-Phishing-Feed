@@ -1,0 +1,51 @@
+{
+  "dominio": "service.debitor.de",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 16:53:49",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "service.debitor.de",
+        "aggregated": "/CN=service.debitor.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "062482B7B7F3FAD40465FC3AA7CACC08699E",
+      "not_before": 1778605605,
+      "not_after": 1786381604,
+      "fingerprint": "92:6E:F2:9A:3B:34:3F:A3:33:43:9B:71:AE:1B:01:FB:15:44:89:DB",
+      "sha1": "92:6E:F2:9A:3B:34:3F:A3:33:43:9B:71:AE:1B:01:FB:15:44:89:DB",
+      "sha256": "6C:22:63:F8:9B:B4:4B:3E:A3:B9:F8:2F:83:E6:B5:4A:A9:BD:76:BC:51:D2:14:6A:25:00:15:57:85:CA:1F:67",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "service.debitor.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:service.debitor.de",
+        "subjectKeyIdentifier": "keyid:29:f1:94:f1:06:49:29:3f:27:f5:7a:98:68:2b:ca:c7:18:a6:93:ea"
+      }
+    },
+    "cert_index": 4205043102,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4205043102&end=4205043102",
+    "seen": 1778615615.617,
+    "submission_timestamp": 1778609117.698,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

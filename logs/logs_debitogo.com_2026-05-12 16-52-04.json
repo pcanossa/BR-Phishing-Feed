@@ -1,0 +1,52 @@
+{
+  "dominio": "debitogo.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 16:52:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitogo.com",
+        "aggregated": "/CN=debitogo.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05103C50595873CF98708C0A146DDF439786",
+      "not_before": 1778605483,
+      "not_after": 1786381482,
+      "fingerprint": "B9:98:89:CA:70:43:91:4B:12:F8:B9:DA:94:A8:9D:4D:6B:AD:0D:09",
+      "sha1": "B9:98:89:CA:70:43:91:4B:12:F8:B9:DA:94:A8:9D:4D:6B:AD:0D:09",
+      "sha256": "15:7D:57:84:EF:35:98:A0:74:8A:67:2E:EA:8D:D7:D8:E2:04:63:1A:E4:2D:AB:BE:38:95:43:7C:EE:0F:68:20",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitogo.com",
+        "*.debitogo.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitogo.com, DNS:debitogo.com",
+        "subjectKeyIdentifier": "keyid:61:be:a0:fd:79:98:d6:7e:9e:03:37:4f:41:0d:39:83:38:97:b1:71"
+      }
+    },
+    "cert_index": 4205015486,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4205015486&end=4205015486",
+    "seen": 1778615510.547,
+    "submission_timestamp": 1778608996.405,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

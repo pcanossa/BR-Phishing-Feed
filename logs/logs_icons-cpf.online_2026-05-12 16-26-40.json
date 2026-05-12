@@ -1,0 +1,53 @@
+{
+  "dominio": "icons-cpf.online",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 16:26:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.icons-cpf.online",
+        "aggregated": "/CN=*.icons-cpf.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06444D5FA9FC9326B0D144548B4D3AF9193D",
+      "not_before": 1778602860,
+      "not_after": 1786378859,
+      "fingerprint": "B4:43:E0:CB:64:5B:34:75:DE:C0:DF:BC:93:0A:4B:D2:DB:F4:69:9C",
+      "sha1": "B4:43:E0:CB:64:5B:34:75:DE:C0:DF:BC:93:0A:4B:D2:DB:F4:69:9C",
+      "sha256": "2D:BA:FE:8F:D4:1C:C4:40:A8:9D:25:6B:1C:B3:25:13:28:99:E5:85:F3:52:46:CA:C9:77:E5:F5:07:E8:32:AF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.icons-cpf.online",
+        "icons-cpf.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.icons-cpf.online, DNS:icons-cpf.online",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4204606477,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4204606477&end=4204606477",
+    "seen": 1778613986.88,
+    "submission_timestamp": 1778606370.265,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
