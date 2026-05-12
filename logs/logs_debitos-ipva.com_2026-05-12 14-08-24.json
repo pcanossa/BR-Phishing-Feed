@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-ipva.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 14:08:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-ipva.com",
+        "aggregated": "/CN=debitos-ipva.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "6B6FF1FE7928389E08B6531F07172747",
+      "not_before": 1778594187,
+      "not_after": 1786370618,
+      "fingerprint": "79:F9:A1:CF:8D:2A:9E:EF:9C:89:E9:DE:E5:D1:54:D6:92:FA:8D:DF",
+      "sha1": "79:F9:A1:CF:8D:2A:9E:EF:9C:89:E9:DE:E5:D1:54:D6:92:FA:8D:DF",
+      "sha256": "8D:FB:AD:66:84:2A:19:D1:79:80:2A:F9:29:5B:7C:FF:1B:51:3F:9C:82:65:33:FB:6D:20:2F:1D:45:8F:EC:8B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-ipva.com",
+        "*.debitos-ipva.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos-ipva.com, DNS:*.debitos-ipva.com",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4202402540,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4202402540&end=4202402540",
+    "seen": 1778605691.562,
+    "submission_timestamp": 1778594788.86,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

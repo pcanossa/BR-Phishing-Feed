@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cpf-internal.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 14:28:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-internal.com",
+        "aggregated": "/CN=cpf-internal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "EF25D480324963F3",
+      "not_before": 1778179552,
+      "not_after": 1795286752,
+      "fingerprint": "E5:20:86:F4:79:76:59:B4:4C:66:94:BD:A2:0F:02:10:8A:FE:20:7D",
+      "sha1": "E5:20:86:F4:79:76:59:B4:4C:66:94:BD:A2:0F:02:10:8A:FE:20:7D",
+      "sha256": "BF:AE:C8:06:50:91:3C:F5:34:19:DE:BB:C2:4D:D8:10:DE:40:55:52:ED:74:06:33:63:16:BE:17:EB:FC:7B:13",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-internal.com",
+        "www.cpf-internal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-internal.com, DNS:www.cpf-internal.com",
+        "subjectKeyIdentifier": "keyid:93:98:e7:f1:4a:26:33:16:21:82:0b:df:1e:4c:6a:a6:81:a1:fd:9f"
+      }
+    },
+    "cert_index": 618962653,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=618962653&end=618962653",
+    "seen": 1778606872.203,
+    "submission_timestamp": 1778189109.369,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

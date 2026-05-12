@@ -1,0 +1,52 @@
+{
+  "dominio": "www.serasaseguro.top",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/12/26 14:58:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.serasaseguro.top",
+        "aggregated": "/CN=www.serasaseguro.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "66BA22DD7AD3C817",
+      "not_before": 1778599009,
+      "not_after": 1795706209,
+      "fingerprint": "1F:DC:37:8E:EB:3A:9F:14:EF:A6:E4:F0:EE:F6:82:E7:77:16:B1:78",
+      "sha1": "1F:DC:37:8E:EB:3A:9F:14:EF:A6:E4:F0:EE:F6:82:E7:77:16:B1:78",
+      "sha256": "16:2D:8D:B9:AA:89:7C:62:5C:1C:FA:10:03:59:63:81:E7:9B:F3:B5:32:21:BE:09:0D:37:7E:7A:A5:DB:24:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.serasaseguro.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.serasaseguro.top",
+        "subjectKeyIdentifier": "keyid:c1:58:54:44:dc:07:59:89:b5:73:22:48:c5:c6:93:9f:7d:8d:0e:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4203198338,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4203198338&end=4203198338",
+    "seen": 1778608715.871,
+    "submission_timestamp": 1778599009.966,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

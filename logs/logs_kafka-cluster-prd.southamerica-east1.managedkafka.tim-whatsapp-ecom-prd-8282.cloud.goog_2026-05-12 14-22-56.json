@@ -1,0 +1,51 @@
+{
+  "dominio": "kafka-cluster-prd.southamerica-east1.managedkafka.tim-whatsapp-ecom-prd-8282.cloud.goog",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/12/26 14:22:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "aggregated": ""
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "9BB3A53025F62F2A0D436C2DD781A52D",
+      "not_before": 1778592318,
+      "not_after": 1786368317,
+      "fingerprint": "DD:DB:9B:A1:5D:50:7E:2A:E3:57:64:AC:C0:3A:B7:A2:7B:09:0C:9B",
+      "sha1": "DD:DB:9B:A1:5D:50:7E:2A:E3:57:64:AC:C0:3A:B7:A2:7B:09:0C:9B",
+      "sha256": "0C:39:90:4B:8F:20:1B:50:6D:7B:0C:68:8E:A9:B5:05:95:B0:1C:8F:F1:22:4C:F2:BB:7B:60:85:9D:4C:9D:B9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.kafka-cluster-prd.southamerica-east1.managedkafka.tim-whatsapp-ecom-prd-8282.cloud.goog"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/m7M, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.kafka-cluster-prd.southamerica-east1.managedkafka.tim-whatsapp-ecom-prd-8282.cloud.goog",
+        "subjectKeyIdentifier": "keyid:0d:75:eb:92:28:3c:1f:9b:ca:11:43:88:13:43:a1:e1:fc:10:04:9e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4202619221,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4202619221&end=4202619221",
+    "seen": 1778606563.407,
+    "submission_timestamp": 1778595919.539,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

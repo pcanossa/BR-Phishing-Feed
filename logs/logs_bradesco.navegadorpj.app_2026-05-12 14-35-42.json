@@ -1,0 +1,52 @@
+{
+  "dominio": "bradesco.navegadorpj.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/12/26 14:35:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "navegadorpj.app",
+        "aggregated": "/CN=navegadorpj.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06269C22BF0AF0D1DECF001F4530CB7637C5",
+      "not_before": 1778593526,
+      "not_after": 1786369525,
+      "fingerprint": "F4:93:63:5F:31:17:07:AE:79:9A:8C:6C:C0:24:23:45:1D:89:93:8B",
+      "sha1": "F4:93:63:5F:31:17:07:AE:79:9A:8C:6C:C0:24:23:45:1D:89:93:8B",
+      "sha256": "A8:BC:77:B8:76:36:DC:44:F0:B3:6E:9E:6B:74:A6:14:F6:10:EB:4F:A6:A4:17:E9:15:C9:F5:2D:8A:F2:84:65",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "navegadorpj.app",
+        "bradesco.navegadorpj.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:bradesco.navegadorpj.app, DNS:navegadorpj.app",
+        "subjectKeyIdentifier": "keyid:15:3b:56:9b:83:d2:f8:31:dc:ab:94:d6:fa:ba:b8:82:cc:69:9f:cf"
+      }
+    },
+    "cert_index": 4202822538,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4202822538&end=4202822538",
+    "seen": 1778607342.665,
+    "submission_timestamp": 1778597039.412,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

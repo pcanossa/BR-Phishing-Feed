@@ -1,0 +1,51 @@
+{
+  "dominio": "multasdetransito.com.ar",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/12/26 15:00:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "multasdetransito.com.ar",
+        "aggregated": "/CN=multasdetransito.com.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05C10A7403D524BF0A952124E6198895847C",
+      "not_before": 1778595636,
+      "not_after": 1786371635,
+      "fingerprint": "62:36:13:95:6C:97:9B:77:B8:5E:39:8E:D9:AE:0C:3F:42:9E:34:5D",
+      "sha1": "62:36:13:95:6C:97:9B:77:B8:5E:39:8E:D9:AE:0C:3F:42:9E:34:5D",
+      "sha256": "6D:68:FF:C1:8A:30:72:65:22:DC:18:C9:96:D5:15:0D:A1:EA:14:E0:B7:F7:9A:B6:00:7D:CF:25:28:C4:F4:F7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "multasdetransito.com.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:multasdetransito.com.ar",
+        "subjectKeyIdentifier": "keyid:74:18:06:55:2a:cb:f6:33:c5:aa:d3:8c:9a:84:a4:6a:cc:9b:71:1a"
+      }
+    },
+    "cert_index": 4203228871,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4203228871&end=4203228871",
+    "seen": 1778608824.776,
+    "submission_timestamp": 1778599149.297,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

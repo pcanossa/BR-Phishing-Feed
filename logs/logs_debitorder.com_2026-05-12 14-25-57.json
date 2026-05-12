@@ -1,0 +1,53 @@
+{
+  "dominio": "debitorder.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 14:25:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitorder.com",
+        "aggregated": "/CN=debitorder.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "983B63E27C555C9E1369C841B98C55F6",
+      "not_before": 1778245819,
+      "not_after": 1786025273,
+      "fingerprint": "2B:AF:72:20:65:9D:40:98:85:38:30:92:D1:FE:9C:54:68:6F:BB:D8",
+      "sha1": "2B:AF:72:20:65:9D:40:98:85:38:30:92:D1:FE:9C:54:68:6F:BB:D8",
+      "sha256": "A9:CB:14:92:4C:30:DB:FC:D3:CA:DE:E9:BC:2F:89:62:42:75:87:9E:76:06:51:43:88:77:9D:BF:45:2A:03:C0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitorder.com",
+        "*.debitorder.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/mDs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitorder.com, DNS:*.debitorder.com",
+        "subjectKeyIdentifier": "keyid:5d:aa:16:3d:b8:f3:5d:2b:0a:55:c3:29:88:15:b1:25:9e:8d:d1:4d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 598579501,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=598579501&end=598579501",
+    "seen": 1778606744.418,
+    "submission_timestamp": 1778249419.608,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

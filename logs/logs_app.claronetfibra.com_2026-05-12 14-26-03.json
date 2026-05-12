@@ -1,0 +1,51 @@
+{
+  "dominio": "app.claronetfibra.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/12/26 14:26:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.claronetfibra.com",
+        "aggregated": "/CN=app.claronetfibra.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2675A2FC082C6A9356B13E10762315F9",
+      "not_before": 1778544000,
+      "not_after": 1786406399,
+      "fingerprint": "9C:CC:1B:06:25:AF:C9:E6:B4:9C:74:FF:68:38:5F:E9:DD:B1:86:C2",
+      "sha1": "9C:CC:1B:06:25:AF:C9:E6:B4:9C:74:FF:68:38:5F:E9:DD:B1:86:C2",
+      "sha256": "A1:F9:DD:20:01:68:AA:94:5D:59:92:AC:71:F7:FA:FC:16:9E:FA:EB:DC:FF:A3:66:51:8D:CC:F6:32:FF:3F:47",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.claronetfibra.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.claronetfibra.com",
+        "subjectKeyIdentifier": "keyid:74:89:72:53:93:d2:11:bc:3d:ec:bf:31:f0:c5:4b:29:48:f9:71:3e"
+      }
+    },
+    "cert_index": 4202669337,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4202669337&end=4202669337",
+    "seen": 1778606749.713,
+    "submission_timestamp": 1778596192.895,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

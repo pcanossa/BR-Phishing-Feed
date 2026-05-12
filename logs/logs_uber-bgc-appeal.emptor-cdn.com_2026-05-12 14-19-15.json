@@ -1,0 +1,54 @@
+{
+  "dominio": "uber-bgc-appeal.emptor-cdn.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/12/26 14:19:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "emptor-cdn.com",
+        "aggregated": "/CN=emptor-cdn.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "EEE37AA313535EEF0E2D6FEF17E198A9",
+      "not_before": 1778592028,
+      "not_after": 1786371499,
+      "fingerprint": "BE:31:60:43:CB:FE:5C:D7:F2:B4:EB:81:10:BF:D2:10:35:39:CB:0E",
+      "sha1": "BE:31:60:43:CB:FE:5C:D7:F2:B4:EB:81:10:BF:D2:10:35:39:CB:0E",
+      "sha256": "BF:2C:F8:8F:8E:30:DE:43:E1:10:03:CC:80:5E:BD:16:FA:EF:E4:CD:53:6A:90:26:C7:44:DD:A2:73:5A:35:CC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "emptor-cdn.com",
+        "uber-bgc-appeal.emptor-cdn.com",
+        "*.uber-bgc-appeal.emptor-cdn.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/7uM, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:emptor-cdn.com, DNS:uber-bgc-appeal.emptor-cdn.com, DNS:*.uber-bgc-appeal.emptor-cdn.com",
+        "subjectKeyIdentifier": "keyid:36:29:3b:cb:62:81:2c:35:2d:45:39:48:89:5c:11:47:0e:e7:bd:7e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4202566639,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4202566639&end=4202566639",
+    "seen": 1778606341.932,
+    "submission_timestamp": 1778595628.956,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

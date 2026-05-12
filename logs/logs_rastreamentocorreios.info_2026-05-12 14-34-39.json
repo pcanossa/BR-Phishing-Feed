@@ -1,0 +1,53 @@
+{
+  "dominio": "rastreamentocorreios.info",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 14:34:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreamentocorreios.info",
+        "aggregated": "/CN=rastreamentocorreios.info"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "431DE1BE4F613F8445A05E485B13DBB3",
+      "not_before": 1778544000,
+      "not_after": 1786382607,
+      "fingerprint": "9F:A8:79:8D:49:E0:25:59:66:F5:19:81:A5:CE:A9:FF:87:C6:73:85",
+      "sha1": "9F:A8:79:8D:49:E0:25:59:66:F5:19:81:A5:CE:A9:FF:87:C6:73:85",
+      "sha256": "74:84:C3:E4:18:E5:67:89:B4:DA:BA:29:86:58:6A:47:3A:8F:4F:8E:1B:4F:5B:EA:C1:43:2A:49:89:3A:05:C2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreamentocorreios.info",
+        "*.rastreamentocorreios.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreamentocorreios.info, DNS:*.rastreamentocorreios.info",
+        "subjectKeyIdentifier": "keyid:ee:6a:a0:9e:41:50:d1:1e:b7:1c:0a:15:1c:b5:02:bb:43:07:60:82",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 717286146,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=717286146&end=717286146",
+    "seen": 1778607265.954,
+    "submission_timestamp": 1778607104.806,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
