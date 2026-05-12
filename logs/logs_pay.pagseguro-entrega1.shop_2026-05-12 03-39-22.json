@@ -1,0 +1,52 @@
+{
+  "dominio": "pay.pagseguro-entrega1.shop",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/12/26 03:39:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pay.pagseguro-entrega1.shop",
+        "aggregated": "/CN=pay.pagseguro-entrega1.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06CE6A98F2315712E5F8E3FA8CBF1087613D",
+      "not_before": 1777891509,
+      "not_after": 1785667508,
+      "fingerprint": "D3:1C:89:7B:42:90:08:84:8A:21:93:A4:B6:F6:4D:D1:22:7D:59:7A",
+      "sha1": "D3:1C:89:7B:42:90:08:84:8A:21:93:A4:B6:F6:4D:D1:22:7D:59:7A",
+      "sha256": "A8:6C:AE:BC:B6:82:8D:3D:9F:04:1E:11:8F:A3:7A:0D:81:0A:3A:F7:FF:9D:BE:4F:62:23:A3:58:35:61:DD:EC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pay.pagseguro-entrega1.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pay.pagseguro-entrega1.shop",
+        "subjectKeyIdentifier": "keyid:d9:c5:75:66:3a:79:70:b5:bd:c4:76:a5:98:07:79:a3:83:4b:61:69",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 686336072,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=686336072&end=686336072",
+    "seen": 1778567950.212,
+    "submission_timestamp": 1777895020.176,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

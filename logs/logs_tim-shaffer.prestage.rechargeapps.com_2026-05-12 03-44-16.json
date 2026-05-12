@@ -1,0 +1,52 @@
+{
+  "dominio": "tim-shaffer.prestage.rechargeapps.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/12/26 03:44:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.tim-shaffer.prestage.rechargeapps.com",
+        "aggregated": "/CN=*.tim-shaffer.prestage.rechargeapps.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "068FE003692EF01860FE31F966EFC29A641E",
+      "not_before": 1778541189,
+      "not_after": 1786317188,
+      "fingerprint": "88:92:33:1C:CC:F1:82:95:9D:DC:17:65:97:DC:1A:74:14:8B:9C:E7",
+      "sha1": "88:92:33:1C:CC:F1:82:95:9D:DC:17:65:97:DC:1A:74:14:8B:9C:E7",
+      "sha256": "A8:E0:C4:57:51:88:3D:2D:90:75:4A:A5:99:0F:96:11:89:3E:23:32:6A:AA:D7:41:5B:A6:C2:87:47:D3:99:DA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.tim-shaffer.prestage.rechargeapps.com",
+        "tim-shaffer.prestage.rechargeapps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.tim-shaffer.prestage.rechargeapps.com, DNS:tim-shaffer.prestage.rechargeapps.com",
+        "subjectKeyIdentifier": "keyid:30:da:b9:10:cf:43:eb:9e:1a:32:ff:fb:11:a4:d8:d1:df:2f:a1:63"
+      }
+    },
+    "cert_index": 4192952507,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4192952507&end=4192952507",
+    "seen": 1778568243.95,
+    "submission_timestamp": 1778544702.112,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

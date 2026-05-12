@@ -1,0 +1,51 @@
+{
+  "dominio": "api.cartao.neway.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 03:59:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.cartao.neway.pt",
+        "aggregated": "/CN=api.cartao.neway.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0537909A6DCB57C4758C42DD14E44E935446",
+      "not_before": 1778542178,
+      "not_after": 1786318177,
+      "fingerprint": "8D:A4:D7:F6:41:CD:FF:78:42:09:4B:97:87:AE:76:9D:E2:F8:6D:F9",
+      "sha1": "8D:A4:D7:F6:41:CD:FF:78:42:09:4B:97:87:AE:76:9D:E2:F8:6D:F9",
+      "sha256": "3E:C0:86:A3:04:01:28:F2:8E:8E:69:F3:40:4B:41:4F:CB:1F:02:F7:C2:0F:6E:D0:91:14:88:80:FA:03:BD:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.cartao.neway.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.cartao.neway.pt",
+        "subjectKeyIdentifier": "keyid:82:d9:10:c3:bf:59:75:ee:15:e0:01:c1:1d:a2:4d:83:27:6e:fa:ae"
+      }
+    },
+    "cert_index": 4193191395,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4193191395&end=4193191395",
+    "seen": 1778569164.363,
+    "submission_timestamp": 1778545690.67,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

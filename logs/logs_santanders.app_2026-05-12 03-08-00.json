@@ -1,0 +1,52 @@
+{
+  "dominio": "santanders.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 03:08:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanders.app",
+        "aggregated": "/CN=santanders.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "166D58B5CD9D4B760EC67C3046BDCB58",
+      "not_before": 1778559129,
+      "not_after": 1786338590,
+      "fingerprint": "EB:C9:2A:20:BB:A1:95:C5:BB:C0:7B:37:3A:28:91:7A:A2:E0:C7:E2",
+      "sha1": "EB:C9:2A:20:BB:A1:95:C5:BB:C0:7B:37:3A:28:91:7A:A2:E0:C7:E2",
+      "sha256": "0C:BA:DB:82:4D:53:9F:A6:87:1D:D4:A7:2D:29:F0:AA:09:F9:6D:56:77:D7:57:54:2C:CA:49:01:62:79:09:28",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santanders.app",
+        "*.santanders.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Fm0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santanders.app, DNS:*.santanders.app",
+        "subjectKeyIdentifier": "keyid:2c:3e:e8:81:24:c0:ff:5a:17:92:11:9c:dc:a1:0e:28:d5:bf:d3:70"
+      }
+    },
+    "cert_index": 273457129,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x068/191",
+    "seen": 1778566067.924,
+    "submission_timestamp": 1778566065.983,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "123-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 04:02:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "123-cpf.pages.dev",
+        "aggregated": "/CN=123-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06BB81B286B636A40A99493A157CC1921F90",
+      "not_before": 1778565813,
+      "not_after": 1786341812,
+      "fingerprint": "77:24:95:29:72:90:AB:AA:52:69:3E:7D:E4:C1:CD:58:2A:F4:DB:EA",
+      "sha1": "77:24:95:29:72:90:AB:AA:52:69:3E:7D:E4:C1:CD:58:2A:F4:DB:EA",
+      "sha256": "E3:57:8F:9C:E2:F5:A9:E1:DA:38:6A:21:50:0F:23:82:20:46:25:8C:FC:A3:04:BA:E2:28:D5:72:79:A9:05:09",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "123-cpf.pages.dev",
+        "*.123-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.123-cpf.pages.dev, DNS:123-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:ff:5b:e5:0a:37:86:27:d6:33:23:ae:bf:3f:a6:61:d3:c8:52:da:fc"
+      }
+    },
+    "cert_index": 186284229,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x727/672",
+    "seen": 1778569325.965,
+    "submission_timestamp": 1778569324.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

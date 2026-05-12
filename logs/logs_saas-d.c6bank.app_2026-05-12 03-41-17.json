@@ -1,0 +1,52 @@
+{
+  "dominio": "saas-d.c6bank.app",
+  "marcas_encontradas": [
+    "c6bank"
+  ],
+  "timestamp": "05/12/26 03:41:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "saas-d.c6bank.app",
+        "aggregated": "/CN=saas-d.c6bank.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "034A08914A7C6AAFDD5F7873E279AF15",
+      "not_before": 1778544000,
+      "not_after": 1795651199,
+      "fingerprint": "A2:1B:A9:41:79:D1:6C:11:AF:89:9B:C2:5F:66:BC:78:95:0F:9F:50",
+      "sha1": "A2:1B:A9:41:79:D1:6C:11:AF:89:9B:C2:5F:66:BC:78:95:0F:9F:50",
+      "sha256": "07:58:95:84:27:3A:D1:47:38:99:C6:18:13:38:84:CC:02:A7:EE:66:F1:85:6C:07:01:7E:AD:9D:0D:C4:64:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "saas-d.c6bank.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:saas-d.c6bank.app",
+        "subjectKeyIdentifier": "keyid:e8:d8:06:81:e7:0a:1c:d8:89:17:09:35:08:ee:cb:a8:c8:b5:f6:88",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4192906817,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4192906817&end=4192906817",
+    "seen": 1778568064.859,
+    "submission_timestamp": 1778544502.397,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

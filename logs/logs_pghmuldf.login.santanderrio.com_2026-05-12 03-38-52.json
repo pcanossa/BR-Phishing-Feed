@@ -1,0 +1,51 @@
+{
+  "dominio": "pghmuldf.login.santanderrio.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 03:38:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pghmuldf.login.santanderrio.com",
+        "aggregated": "/CN=pghmuldf.login.santanderrio.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "065C6B76C0581CB52FDBDD1E43F5421FF64E",
+      "not_before": 1778540851,
+      "not_after": 1786316850,
+      "fingerprint": "89:10:52:03:7E:97:FB:1A:CD:75:D4:0E:06:5F:96:42:D1:CE:C9:40",
+      "sha1": "89:10:52:03:7E:97:FB:1A:CD:75:D4:0E:06:5F:96:42:D1:CE:C9:40",
+      "sha256": "4A:42:C9:A4:5D:09:8B:70:44:49:07:71:43:80:75:C0:02:AF:68:88:F4:2C:1A:43:A6:BE:E7:31:70:73:FE:A3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pghmuldf.login.santanderrio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pghmuldf.login.santanderrio.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 4192871580,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4192871580&end=4192871580",
+    "seen": 1778567920.439,
+    "submission_timestamp": 1778544363.269,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

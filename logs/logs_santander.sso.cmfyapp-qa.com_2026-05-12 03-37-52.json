@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.sso.cmfyapp-qa.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 03:37:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.sso.cmfyapp-qa.com",
+        "aggregated": "/CN=santander.sso.cmfyapp-qa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "626B32373E1A963B0E9A981E81ED74A5",
+      "not_before": 1778564183,
+      "not_after": 1786343781,
+      "fingerprint": "58:4E:CB:A3:6E:AE:EA:D0:08:FC:E5:FD:A9:D3:F3:8D:E3:01:49:BE",
+      "sha1": "58:4E:CB:A3:6E:AE:EA:D0:08:FC:E5:FD:A9:D3:F3:8D:E3:01:49:BE",
+      "sha256": "77:70:11:B7:50:37:92:D7:61:0C:67:6B:11:86:C9:B6:BB:70:76:F3:5F:04:26:0D:18:3F:F0:01:B8:5A:28:89",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander.sso.cmfyapp-qa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Yms, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander.sso.cmfyapp-qa.com",
+        "subjectKeyIdentifier": "keyid:ff:1e:ea:56:78:8d:6b:90:1c:a3:a2:4b:f6:51:f9:92:c1:17:f5:e4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 709923389,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=709923389&end=709923389",
+    "seen": 1778567860.225,
+    "submission_timestamp": 1778567783.933,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

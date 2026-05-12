@@ -1,0 +1,52 @@
+{
+  "dominio": "boleto-sicoob-v2.licitanet.com.br",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "05/12/26 03:38:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto-sicoob-v2.licitanet.com.br",
+        "aggregated": "/CN=boleto-sicoob-v2.licitanet.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0C468980B2B31680ECF2D747F14096E1",
+      "not_before": 1778544000,
+      "not_after": 1795651199,
+      "fingerprint": "67:4C:F1:9F:E5:86:E8:AE:98:E3:B1:6A:44:C8:5D:36:72:52:15:23",
+      "sha1": "67:4C:F1:9F:E5:86:E8:AE:98:E3:B1:6A:44:C8:5D:36:72:52:15:23",
+      "sha256": "56:2E:1C:D2:2D:A6:09:3A:6B:E9:F9:D0:E1:97:4D:48:3A:DE:42:29:BA:8A:FE:92:E3:90:A1:CF:D8:A8:B5:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boleto-sicoob-v2.licitanet.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boleto-sicoob-v2.licitanet.com.br",
+        "subjectKeyIdentifier": "keyid:2c:e0:21:60:2f:37:67:0b:51:00:9d:88:20:3c:d6:b6:3a:85:82:6f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4192860618,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4192860618&end=4192860618",
+    "seen": 1778567881.932,
+    "submission_timestamp": 1778544327.003,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

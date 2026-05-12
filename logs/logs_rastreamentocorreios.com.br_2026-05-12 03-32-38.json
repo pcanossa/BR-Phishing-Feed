@@ -1,0 +1,52 @@
+{
+  "dominio": "rastreamentocorreios.com.br",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 03:32:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreamentocorreios.com.br",
+        "aggregated": "/CN=rastreamentocorreios.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "065BF63C6347FBE8A48E460275491D66771A",
+      "not_before": 1778540381,
+      "not_after": 1786316380,
+      "fingerprint": "BB:0F:7A:F3:C9:EC:55:EB:EC:81:42:7E:21:B0:5A:39:04:12:22:B2",
+      "sha1": "BB:0F:7A:F3:C9:EC:55:EB:EC:81:42:7E:21:B0:5A:39:04:12:22:B2",
+      "sha256": "4D:81:6F:30:10:5B:7A:CA:3B:EB:5A:13:F8:CA:DF:1D:AD:C1:75:AA:3A:C1:EA:91:FA:17:1D:05:76:53:3A:CA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "rastreamentocorreios.com.br",
+        "*.rastreamentocorreios.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.rastreamentocorreios.com.br, DNS:rastreamentocorreios.com.br",
+        "subjectKeyIdentifier": "keyid:9c:69:93:80:d1:79:04:a9:d5:16:f2:fc:e3:a5:d2:30:85:1a:55:0f"
+      }
+    },
+    "cert_index": 4192768364,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4192768364&end=4192768364",
+    "seen": 1778567546.042,
+    "submission_timestamp": 1778543894.862,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
