@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.impecavel.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 05:59:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.impecavel.com.br",
+        "aggregated": "/CN=cartao.impecavel.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "061A341907BD7ABF84F470269C464F58ACB7",
+      "not_before": 1778551600,
+      "not_after": 1786327599,
+      "fingerprint": "82:84:6F:84:5A:F2:08:A4:B4:54:DE:3D:A8:00:D9:54:7B:55:A2:2C",
+      "sha1": "82:84:6F:84:5A:F2:08:A4:B4:54:DE:3D:A8:00:D9:54:7B:55:A2:2C",
+      "sha256": "BD:35:B3:E8:0F:17:9B:51:34:A5:6D:BA:04:30:71:95:20:6D:E4:72:51:10:26:2E:F8:49:4F:CD:44:0E:AB:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.impecavel.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.impecavel.com.br",
+        "subjectKeyIdentifier": "keyid:2c:b9:4f:b1:78:59:74:04:e5:f0:49:81:ec:65:4a:09:91:9f:0f:5a"
+      }
+    },
+    "cert_index": 4194960067,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4194960067&end=4194960067",
+    "seen": 1778576356.355,
+    "submission_timestamp": 1778555112.109,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

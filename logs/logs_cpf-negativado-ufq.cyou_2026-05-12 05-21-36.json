@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-negativado-ufq.cyou",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 05:21:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-negativado-ufq.cyou",
+        "aggregated": "/CN=cpf-negativado-ufq.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0BD83491EFDDA1A3C5FAA87F00D1308A",
+      "not_before": 1778544000,
+      "not_after": 1786319999,
+      "fingerprint": "EA:77:F0:01:61:3D:E6:9F:EA:6A:AF:B4:9A:4A:13:82:46:E5:B5:A8",
+      "sha1": "EA:77:F0:01:61:3D:E6:9F:EA:6A:AF:B4:9A:4A:13:82:46:E5:B5:A8",
+      "sha256": "E1:19:64:2B:77:43:11:65:C4:E0:7E:2F:A4:D6:F6:2E:69:1D:7D:39:1F:60:96:18:CC:8F:1D:13:AC:23:52:95",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-negativado-ufq.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-negativado-ufq.cyou",
+        "subjectKeyIdentifier": "keyid:d8:94:aa:15:08:4b:14:04:d8:11:7f:9c:52:0b:83:ea:9d:8a:8e:25",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4194394144,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4194394144&end=4194394144",
+    "seen": 1778574084.593,
+    "submission_timestamp": 1778552019.987,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

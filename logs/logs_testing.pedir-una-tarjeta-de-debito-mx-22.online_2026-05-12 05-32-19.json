@@ -1,0 +1,52 @@
+{
+  "dominio": "testing.pedir-una-tarjeta-de-debito-mx-22.online",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 05:32:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.pedir-una-tarjeta-de-debito-mx-22.online",
+        "aggregated": "/CN=testing.pedir-una-tarjeta-de-debito-mx-22.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "095CAB149F314AED29E94F31D9F643D0",
+      "not_before": 1778457600,
+      "not_after": 1786233599,
+      "fingerprint": "E6:1D:5F:94:C1:FA:8E:42:00:38:66:F0:C4:5F:45:ED:E0:A3:2E:3F",
+      "sha1": "E6:1D:5F:94:C1:FA:8E:42:00:38:66:F0:C4:5F:45:ED:E0:A3:2E:3F",
+      "sha256": "60:7F:63:98:A0:8B:43:19:15:8A:E4:1A:02:36:1D:75:85:61:1A:B7:23:A6:9F:B3:F5:D0:B0:79:29:AC:82:B8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "testing.pedir-una-tarjeta-de-debito-mx-22.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:testing.pedir-una-tarjeta-de-debito-mx-22.online",
+        "subjectKeyIdentifier": "keyid:6c:bd:be:76:70:a9:93:8d:b7:b1:06:f9:88:8f:93:4e:63:06:b8:5b"
+      }
+    },
+    "cert_index": 4194552932,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4194552932&end=4194552932",
+    "seen": 1778574727.557,
+    "submission_timestamp": 1778552801.801,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
