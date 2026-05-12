@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn01.detran-cnh.lat",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/12/26 04:07:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn01.detran-cnh.lat",
+        "aggregated": "/CN=vpn01.detran-cnh.lat"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05CE368B4387E06978B7634FF2122D49FB57",
+      "not_before": 1778542673,
+      "not_after": 1786318672,
+      "fingerprint": "02:7D:D5:1E:8E:AC:B3:75:C4:43:64:AF:91:8F:E8:1B:DC:F8:85:1C",
+      "sha1": "02:7D:D5:1E:8E:AC:B3:75:C4:43:64:AF:91:8F:E8:1B:DC:F8:85:1C",
+      "sha256": "33:47:7A:3E:5D:BA:B6:83:D2:FE:5B:F7:40:AF:F2:C8:22:0D:0A:E2:30:79:28:6F:D7:D3:E8:08:F5:9D:98:54",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn01.detran-cnh.lat"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn01.detran-cnh.lat",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4193313903,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4193313903&end=4193313903",
+    "seen": 1778569649.796,
+    "submission_timestamp": 1778546339.19,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "crrecargasclaro.pages.dev",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/12/26 04:53:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "crrecargasclaro.pages.dev",
+        "aggregated": "/CN=crrecargasclaro.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06460B5BA01153616B47A1A36ACE18BC7003",
+      "not_before": 1778090608,
+      "not_after": 1785866607,
+      "fingerprint": "7C:D9:6B:32:EC:77:F6:86:77:4F:77:35:2E:C9:C5:2B:C9:4A:44:C9",
+      "sha1": "7C:D9:6B:32:EC:77:F6:86:77:4F:77:35:2E:C9:C5:2B:C9:4A:44:C9",
+      "sha256": "DA:6D:B0:48:96:6D:3B:FE:F2:95:3F:61:D8:0F:1C:F3:7F:09:50:F0:CE:E9:8D:E1:EE:C9:AA:EB:95:59:81:A1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "crrecargasclaro.pages.dev",
+        "*.crrecargasclaro.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.crrecargasclaro.pages.dev, DNS:crrecargasclaro.pages.dev",
+        "subjectKeyIdentifier": "keyid:22:98:80:a2:79:03:d5:59:60:f6:98:7f:97:ae:8a:77:cd:3f:84:5b"
+      }
+    },
+    "cert_index": 4193987215,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4193987215&end=4193987215",
+    "seen": 1778572392.35,
+    "submission_timestamp": 1778549828.357,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

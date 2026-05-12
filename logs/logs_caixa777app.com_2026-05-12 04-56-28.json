@@ -1,0 +1,52 @@
+{
+  "dominio": "caixa777app.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/12/26 04:56:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa777app.com",
+        "aggregated": "/CN=caixa777app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05D4197B81C851BFA1FA2BEC802E2CDA0A4B",
+      "not_before": 1778546601,
+      "not_after": 1786322600,
+      "fingerprint": "42:11:18:19:A8:16:61:8C:C7:67:68:96:D7:FA:79:4D:BD:3A:B4:83",
+      "sha1": "42:11:18:19:A8:16:61:8C:C7:67:68:96:D7:FA:79:4D:BD:3A:B4:83",
+      "sha256": "84:3E:52:C4:CD:4C:42:D6:78:A8:9A:A2:75:E5:A1:FE:25:36:0A:2A:A6:A1:7C:06:FF:FE:70:7D:4B:A9:2B:1E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixa777app.com",
+        "*.caixa777app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixa777app.com, DNS:caixa777app.com",
+        "subjectKeyIdentifier": "keyid:94:f0:77:cf:50:66:37:d2:79:c4:aa:8e:14:bf:f2:e8:8e:fb:f2:81"
+      }
+    },
+    "cert_index": 4194036607,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4194036607&end=4194036607",
+    "seen": 1778572576.125,
+    "submission_timestamp": 1778550113.474,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

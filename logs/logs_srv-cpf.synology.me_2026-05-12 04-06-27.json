@@ -1,0 +1,52 @@
+{
+  "dominio": "srv-cpf.synology.me",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 04:06:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "srv-cpf.synology.me",
+        "aggregated": "/CN=srv-cpf.synology.me"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "063FBDA933E725391E2061FAA791E6C00A0C",
+      "not_before": 1778542714,
+      "not_after": 1786318713,
+      "fingerprint": "AD:10:1C:A7:19:29:FB:2E:92:DB:18:19:66:25:7A:97:71:BC:8A:EA",
+      "sha1": "AD:10:1C:A7:19:29:FB:2E:92:DB:18:19:66:25:7A:97:71:BC:8A:EA",
+      "sha256": "9C:B8:1B:0C:D9:C1:83:1B:18:78:1E:FB:8E:12:14:42:95:92:8B:26:55:70:0B:5E:C2:D9:6E:75:B1:B3:B1:8C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "srv-cpf.synology.me",
+        "*.srv-cpf.synology.me"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.srv-cpf.synology.me, DNS:srv-cpf.synology.me",
+        "subjectKeyIdentifier": "keyid:26:aa:56:68:9d:c1:64:db:5e:d4:f7:0b:f3:c5:09:de:34:5f:83:a7"
+      }
+    },
+    "cert_index": 4193294617,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4193294617&end=4193294617",
+    "seen": 1778569575.604,
+    "submission_timestamp": 1778546225.572,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
