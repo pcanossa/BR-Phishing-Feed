@@ -1,0 +1,51 @@
+{
+  "dominio": "ww34.caixa.atendimentos.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/12/26 09:03:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ww34.caixa.atendimentos.app",
+        "aggregated": "/CN=ww34.caixa.atendimentos.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "064D8C35CCDFDEEE5A8FFD3923E95CE30D7F",
+      "not_before": 1778534482,
+      "not_after": 1786310481,
+      "fingerprint": "D6:6A:35:DD:52:47:04:EF:13:5F:C5:AA:A1:97:CC:88:AE:8C:CA:49",
+      "sha1": "D6:6A:35:DD:52:47:04:EF:13:5F:C5:AA:A1:97:CC:88:AE:8C:CA:49",
+      "sha256": "88:42:6E:A4:82:A6:C8:51:05:D6:FB:CB:95:DC:AE:7C:18:99:24:9A:6E:CE:D2:BE:0C:15:DD:E1:86:EB:33:76",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "ww34.caixa.atendimentos.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ww34.caixa.atendimentos.app",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 4197714273,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4197714273&end=4197714273",
+    "seen": 1778587427.017,
+    "submission_timestamp": 1778570243.574,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

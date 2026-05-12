@@ -1,0 +1,52 @@
+{
+  "dominio": "jesussantander.net",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 08:06:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jesussantander.net",
+        "aggregated": "/CN=jesussantander.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "4452F769D594194D",
+      "not_before": 1778565632,
+      "not_after": 1795672832,
+      "fingerprint": "73:E1:E7:6A:4D:B3:3B:E1:72:4E:74:3F:64:48:33:AC:58:E9:96:17",
+      "sha1": "73:E1:E7:6A:4D:B3:3B:E1:72:4E:74:3F:64:48:33:AC:58:E9:96:17",
+      "sha256": "46:C0:EB:3C:12:67:CE:3F:80:26:1E:53:F2:5D:92:4F:F2:ED:37:E7:58:62:96:59:8F:36:F9:D5:1E:E4:AC:76",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "jesussantander.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:jesussantander.net",
+        "subjectKeyIdentifier": "keyid:cc:82:86:5e:90:58:e4:31:12:19:92:df:ba:9f:b0:f8:60:d6:a2:cf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4196838434,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4196838434&end=4196838434",
+    "seen": 1778583988.895,
+    "submission_timestamp": 1778565633.246,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

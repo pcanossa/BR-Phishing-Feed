@@ -1,0 +1,51 @@
+{
+  "dominio": "www.finclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/12/26 08:40:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.finclaro.app",
+        "aggregated": "/CN=www.finclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0600115964FD28359082BD27C8B32AB5E0A7",
+      "not_before": 1778564842,
+      "not_after": 1786340841,
+      "fingerprint": "2E:7D:E0:51:83:B6:18:6B:B9:A6:2D:41:CC:31:76:12:C8:18:51:5C",
+      "sha1": "2E:7D:E0:51:83:B6:18:6B:B9:A6:2D:41:CC:31:76:12:C8:18:51:5C",
+      "sha256": "5B:41:47:78:85:A6:4C:CB:1F:F6:FE:AF:37:DA:38:12:4A:87:A0:EF:AB:9F:FF:F3:BD:F5:41:FA:66:9A:98:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.finclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.finclaro.app",
+        "subjectKeyIdentifier": "keyid:5a:f9:89:f2:04:46:97:4d:95:b5:26:1f:3b:bd:8c:0b:b5:af:37:f2"
+      }
+    },
+    "cert_index": 4197349227,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4197349227&end=4197349227",
+    "seen": 1778586031.743,
+    "submission_timestamp": 1778568355.207,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

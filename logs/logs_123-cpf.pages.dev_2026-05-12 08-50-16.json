@@ -1,0 +1,52 @@
+{
+  "dominio": "123-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 08:50:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "123-cpf.pages.dev",
+        "aggregated": "/CN=123-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "5127D9575E5F0ED9E01483FE0712092B",
+      "not_before": 1778568734,
+      "not_after": 1786345237,
+      "fingerprint": "CE:98:24:47:E7:B2:96:59:33:0B:89:EB:E6:BF:82:A8:B2:15:69:65",
+      "sha1": "CE:98:24:47:E7:B2:96:59:33:0B:89:EB:E6:BF:82:A8:B2:15:69:65",
+      "sha256": "AE:EA:53:11:2C:9B:88:76:0F:0C:A0:07:F6:10:E6:77:65:5E:30:8F:4F:E4:3D:39:C7:38:70:66:29:26:1B:BF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "123-cpf.pages.dev",
+        "*.123-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:123-cpf.pages.dev, DNS:*.123-cpf.pages.dev",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4197494433,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4197494433&end=4197494433",
+    "seen": 1778586604.005,
+    "submission_timestamp": 1778569336.024,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
