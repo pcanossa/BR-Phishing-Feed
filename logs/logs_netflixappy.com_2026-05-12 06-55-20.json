@@ -1,0 +1,52 @@
+{
+  "dominio": "netflixappy.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 06:55:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixappy.com",
+        "aggregated": "/CN=netflixappy.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0628652872AA636C8C80ACCE101345821733",
+      "not_before": 1778555974,
+      "not_after": 1786331973,
+      "fingerprint": "6C:78:A9:05:3F:80:5A:E0:0E:A3:5F:99:BF:ED:14:3B:AD:43:44:35",
+      "sha1": "6C:78:A9:05:3F:80:5A:E0:0E:A3:5F:99:BF:ED:14:3B:AD:43:44:35",
+      "sha256": "BE:9C:90:EC:A3:F9:98:28:C1:CD:5C:25:97:F4:C5:D8:A2:81:E1:3F:D8:35:13:E2:9F:D6:35:97:27:D5:4C:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "netflixappy.com",
+        "*.netflixappy.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.netflixappy.com, DNS:netflixappy.com",
+        "subjectKeyIdentifier": "keyid:07:65:aa:20:92:29:aa:92:b3:27:f4:72:ea:41:dc:af:34:e6:a7:2d"
+      }
+    },
+    "cert_index": 4195784402,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4195784402&end=4195784402",
+    "seen": 1778579708.028,
+    "submission_timestamp": 1778559486.871,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

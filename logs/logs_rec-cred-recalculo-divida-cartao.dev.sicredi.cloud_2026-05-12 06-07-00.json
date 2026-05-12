@@ -1,0 +1,51 @@
+{
+  "dominio": "rec-cred-recalculo-divida-cartao.dev.sicredi.cloud",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 06:07:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rec-cred-recalculo-divida-cartao.dev.sicredi.cloud",
+        "aggregated": "/CN=rec-cred-recalculo-divida-cartao.dev.sicredi.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "063F2AA277934910943E8CBDEF426C58D352",
+      "not_before": 1778551971,
+      "not_after": 1786327970,
+      "fingerprint": "2E:BA:AB:BA:21:9A:B7:A9:D2:17:B2:71:E2:3F:73:C4:79:8F:79:86",
+      "sha1": "2E:BA:AB:BA:21:9A:B7:A9:D2:17:B2:71:E2:3F:73:C4:79:8F:79:86",
+      "sha256": "94:D1:47:E2:EF:52:67:72:1D:11:EC:FA:D3:94:10:1B:1E:4F:57:82:72:C1:87:E5:8B:A1:E3:F8:FF:3B:AE:8B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "rec-cred-recalculo-divida-cartao.dev.sicredi.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:rec-cred-recalculo-divida-cartao.dev.sicredi.cloud",
+        "subjectKeyIdentifier": "keyid:20:2d:e0:10:1f:15:30:94:09:b9:47:2e:43:bc:b0:bb:6d:e8:f4:76"
+      }
+    },
+    "cert_index": 4195068255,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4195068255&end=4195068255",
+    "seen": 1778576807.607,
+    "submission_timestamp": 1778555604.993,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

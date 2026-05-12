@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.honda-office.info",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 06:42:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.honda-office.info",
+        "aggregated": "/CN=cpf.honda-office.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "F87DAEF99A4FE856090F832363CBC5A8",
+      "not_before": 1778552488,
+      "not_after": 1786331399,
+      "fingerprint": "47:91:09:07:27:97:1C:EA:31:CC:97:38:C4:6D:F5:C6:FE:DA:EE:B4",
+      "sha1": "47:91:09:07:27:97:1C:EA:31:CC:97:38:C4:6D:F5:C6:FE:DA:EE:B4",
+      "sha256": "13:6E:72:89:F4:F9:D7:B2:BE:A0:43:DB:7B:06:FA:F3:14:80:06:B8:99:40:32:4E:71:66:BC:88:CB:70:A7:38",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.honda-office.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/-H0, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.honda-office.info",
+        "subjectKeyIdentifier": "keyid:0b:83:02:cc:80:c1:14:ef:b8:10:67:a9:6b:8b:35:f3:93:53:dc:9c"
+      }
+    },
+    "cert_index": 4195590959,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4195590959&end=4195590959",
+    "seen": 1778578926.867,
+    "submission_timestamp": 1778558622.662,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

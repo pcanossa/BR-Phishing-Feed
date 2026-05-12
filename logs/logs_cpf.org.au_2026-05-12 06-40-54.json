@@ -1,0 +1,54 @@
+{
+  "dominio": "cpf.org.au",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 06:40:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.org.au",
+        "aggregated": "/CN=*.cpf.org.au"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0557A4FA88956F7D407A7061C7FE9B56993F",
+      "not_before": 1777427055,
+      "not_after": 1785203054,
+      "fingerprint": "D0:9C:93:63:24:14:1A:38:49:AD:A5:49:2C:57:AC:A0:2D:7C:BA:4B",
+      "sha1": "D0:9C:93:63:24:14:1A:38:49:AD:A5:49:2C:57:AC:A0:2D:7C:BA:4B",
+      "sha256": "C4:F8:9F:31:12:44:C2:4E:4A:44:CA:74:2E:75:1C:9B:31:B8:90:84:F8:DD:61:C0:63:3F:68:69:97:E2:2B:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.org.au",
+        "*.childprotectionfoundation.org.au",
+        "childprotectionfoundation.org.au",
+        "cpf.org.au"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.childprotectionfoundation.org.au, DNS:*.cpf.org.au, DNS:childprotectionfoundation.org.au, DNS:cpf.org.au",
+        "subjectKeyIdentifier": "keyid:74:11:eb:40:37:f7:4b:06:27:9c:e9:a1:ed:a6:39:8c:4d:66:af:f9"
+      }
+    },
+    "cert_index": 597020262,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=597020262&end=597020262",
+    "seen": 1778578842.362,
+    "submission_timestamp": 1778236599.744,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

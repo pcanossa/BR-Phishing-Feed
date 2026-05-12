@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.bankaitech.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 06:18:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.bankaitech.com.br",
+        "aggregated": "/CN=cartao.bankaitech.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05FA1CC8F66F2010B6C19ABFBBB588B85EEE",
+      "not_before": 1778552952,
+      "not_after": 1786328951,
+      "fingerprint": "EE:47:FB:D9:DB:2E:38:3A:3A:7C:B6:B9:19:02:9D:8B:A5:A5:A3:51",
+      "sha1": "EE:47:FB:D9:DB:2E:38:3A:3A:7C:B6:B9:19:02:9D:8B:A5:A5:A3:51",
+      "sha256": "C1:95:2E:C9:49:99:1F:ED:E8:31:B9:61:EC:6A:0F:C3:CD:B6:E8:FE:75:A8:CE:0D:94:AF:15:5E:8F:8C:C5:FB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.bankaitech.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.bankaitech.com.br",
+        "subjectKeyIdentifier": "keyid:4d:2e:b0:1c:1a:19:6b:d8:f3:ad:ee:0a:d2:c3:d0:db:de:5a:65:55"
+      }
+    },
+    "cert_index": 4195239937,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4195239937&end=4195239937",
+    "seen": 1778577514.881,
+    "submission_timestamp": 1778556465.958,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

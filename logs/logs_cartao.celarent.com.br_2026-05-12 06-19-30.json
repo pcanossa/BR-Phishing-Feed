@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.celarent.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 06:19:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.celarent.com.br",
+        "aggregated": "/CN=cartao.celarent.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0593061BB7DC5D6B6A41BC416018408BFC93",
+      "not_before": 1778553016,
+      "not_after": 1786329015,
+      "fingerprint": "C3:34:09:93:42:D1:9A:D4:0C:4C:F2:E2:3B:59:FE:39:36:36:82:F5",
+      "sha1": "C3:34:09:93:42:D1:9A:D4:0C:4C:F2:E2:3B:59:FE:39:36:36:82:F5",
+      "sha256": "5C:4C:6F:E0:B5:CE:89:7D:8C:B6:4C:21:31:50:12:94:40:62:BB:26:80:FB:20:29:06:C2:DA:87:91:1C:6C:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.celarent.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.celarent.com.br",
+        "subjectKeyIdentifier": "keyid:e1:1e:cd:7f:41:3d:4e:3e:61:b0:0f:3b:d8:98:e9:90:95:0f:f3:a5"
+      }
+    },
+    "cert_index": 4195252183,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4195252183&end=4195252183",
+    "seen": 1778577558.271,
+    "submission_timestamp": 1778556528.364,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

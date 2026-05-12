@@ -1,0 +1,51 @@
+{
+  "dominio": "amaruthappan-wb2.workbench.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 07:03:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "amaruthappan-wb2.workbench.prod.netflix.net",
+        "aggregated": "/CN=amaruthappan-wb2.workbench.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0624034101D9AD13FADBCCF25614163AA5A9",
+      "not_before": 1778556465,
+      "not_after": 1786332464,
+      "fingerprint": "5C:B1:2C:42:49:3E:D2:DC:27:C1:6D:85:EF:07:96:65:D9:42:A9:93",
+      "sha1": "5C:B1:2C:42:49:3E:D2:DC:27:C1:6D:85:EF:07:96:65:D9:42:A9:93",
+      "sha256": "DE:58:02:0B:F7:7F:69:D8:CD:69:D2:8E:A1:78:9F:22:16:4B:14:8F:0D:47:6F:F2:94:B5:42:8D:09:F2:18:98",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "amaruthappan-wb2.workbench.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:amaruthappan-wb2.workbench.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:bf:09:73:9e:bd:81:f1:81:d1:21:f5:d8:f7:f1:bd:b0:95:91:a4:45"
+      }
+    },
+    "cert_index": 4195903263,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4195903263&end=4195903263",
+    "seen": 1778580192.378,
+    "submission_timestamp": 1778560092.384,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
