@@ -1,0 +1,53 @@
+{
+  "dominio": "app.receitagratis.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/11/26 23:30:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitagratis.com",
+        "aggregated": "/CN=receitagratis.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B33D15E2DAD63A8B0E4E17C53B7DADFD",
+      "not_before": 1778507218,
+      "not_after": 1786286812,
+      "fingerprint": "30:33:7A:A1:69:BB:02:12:F1:67:83:E3:60:A1:88:53:A1:44:93:48",
+      "sha1": "30:33:7A:A1:69:BB:02:12:F1:67:83:E3:60:A1:88:53:A1:44:93:48",
+      "sha256": "82:2D:72:D0:1B:1C:7A:1C:74:B2:D8:77:09:AC:8E:47:13:36:CA:51:35:95:82:73:55:6F:12:1F:43:7F:2D:62",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitagratis.com",
+        "app.receitagratis.com",
+        "*.app.receitagratis.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/sz0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitagratis.com, DNS:app.receitagratis.com, DNS:*.app.receitagratis.com",
+        "subjectKeyIdentifier": "keyid:c1:22:93:49:61:ad:49:5c:11:17:a9:6f:03:df:24:18:32:32:e6:ad"
+      }
+    },
+    "cert_index": 4189211244,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4189211244&end=4189211244",
+    "seen": 1778553020.319,
+    "submission_timestamp": 1778524596.419,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

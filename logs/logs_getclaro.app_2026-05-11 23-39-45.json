@@ -1,0 +1,53 @@
+{
+  "dominio": "getclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/11/26 23:39:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "getclaro.app",
+        "aggregated": "/CN=getclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "77B4D34973060AE50EEAA11EC086E134",
+      "not_before": 1778521811,
+      "not_after": 1786301403,
+      "fingerprint": "40:48:66:FF:54:88:A1:31:E7:1A:FC:E4:65:9C:78:45:03:E5:8F:36",
+      "sha1": "40:48:66:FF:54:88:A1:31:E7:1A:FC:E4:65:9C:78:45:03:E5:8F:36",
+      "sha256": "22:52:66:D7:73:E2:E2:78:51:05:92:3B:1C:0D:86:F3:0C:E6:B8:80:B1:8D:7A:01:DF:2F:6E:61:12:4F:E1:FA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "getclaro.app",
+        "*.getclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/d7Q, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:getclaro.app, DNS:*.getclaro.app",
+        "subjectKeyIdentifier": "keyid:65:81:14:e9:8c:ed:db:1f:58:08:b1:4a:f7:95:65:3a:33:12:6b:2c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4189349200,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4189349200&end=4189349200",
+    "seen": 1778553573.276,
+    "submission_timestamp": 1778525412.036,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

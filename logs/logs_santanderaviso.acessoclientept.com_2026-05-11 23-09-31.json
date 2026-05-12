@@ -1,0 +1,51 @@
+{
+  "dominio": "santanderaviso.acessoclientept.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/11/26 23:09:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderaviso.acessoclientept.com",
+        "aggregated": "/CN=santanderaviso.acessoclientept.com"
+      },
+      "issuer": {
+        "C": "CN",
+        "CN": "TrustAsia DV TLS RSA CA 2025",
+        "O": "TrustAsia Technologies, Inc.",
+        "aggregated": "/C=CN/CN=TrustAsia DV TLS RSA CA 2025/O=TrustAsia Technologies, Inc."
+      },
+      "serial_number": "0A5765558111B6C38856DDB12C43F551",
+      "not_before": 1778457600,
+      "not_after": 1786233599,
+      "fingerprint": "24:BB:94:04:57:B5:F2:D6:B2:CD:34:F2:F3:CB:3E:2F:CF:62:33:B0",
+      "sha1": "24:BB:94:04:57:B5:F2:D6:B2:CD:34:F2:F3:CB:3E:2F:CF:62:33:B0",
+      "sha256": "63:39:F5:7E:5F:45:07:0A:9E:E8:09:4C:73:D4:B6:D3:97:31:FB:09:B4:79:BB:0D:72:10:2A:40:AD:1F:A6:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santanderaviso.acessoclientept.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/TrustAsiaDVTLSRSACA2025.crt",
+        "authorityKeyIdentifier": "keyid:b4:12:28:a5:b4:c0:1d:9f:29:71:69:3c:d9:11:96:4a:75:69:50:c0",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santanderaviso.acessoclientept.com",
+        "subjectKeyIdentifier": "keyid:72:51:cd:1f:94:7b:16:df:d7:3f:14:aa:5d:d7:a1:16:ba:ac:e3:51"
+      }
+    },
+    "cert_index": 4188944406,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4188944406&end=4188944406",
+    "seen": 1778551760.141,
+    "submission_timestamp": 1778523154.709,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

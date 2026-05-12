@@ -1,0 +1,51 @@
+{
+  "dominio": "netflix-suspendido.antimoney-laundering.org",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/11/26 23:19:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-suspendido.antimoney-laundering.org",
+        "aggregated": "/CN=netflix-suspendido.antimoney-laundering.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "391BFC5C733F02D6BC61B69370BD4D2F",
+      "not_before": 1778457600,
+      "not_after": 1786319999,
+      "fingerprint": "98:C0:3C:6F:D5:FD:45:E7:8D:F5:95:BA:0C:37:BF:14:F0:9A:27:F9",
+      "sha1": "98:C0:3C:6F:D5:FD:45:E7:8D:F5:95:BA:0C:37:BF:14:F0:9A:27:F9",
+      "sha256": "83:8D:F4:69:B1:99:BA:52:C8:5D:58:57:E0:2C:13:68:9F:95:24:E3:9B:70:E3:B2:76:DD:CA:01:ED:29:AF:40",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-suspendido.antimoney-laundering.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflix-suspendido.antimoney-laundering.org",
+        "subjectKeyIdentifier": "keyid:5d:fc:e2:c6:45:2f:71:42:5b:9c:90:15:76:1a:c3:3d:60:c4:b0:20"
+      }
+    },
+    "cert_index": 4189057600,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4189057600&end=4189057600",
+    "seen": 1778552330.29,
+    "submission_timestamp": 1778523745.605,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

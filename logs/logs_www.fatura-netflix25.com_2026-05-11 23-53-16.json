@@ -1,0 +1,52 @@
+{
+  "dominio": "www.fatura-netflix25.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/11/26 23:53:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.fatura-netflix25.com",
+        "aggregated": "/CN=www.fatura-netflix25.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "EE2721D03FF08231",
+      "not_before": 1778526476,
+      "not_after": 1795633676,
+      "fingerprint": "CC:A0:F1:A8:82:A1:87:34:E3:3F:41:1A:FC:BB:AE:60:F6:97:7A:D2",
+      "sha1": "CC:A0:F1:A8:82:A1:87:34:E3:3F:41:1A:FC:BB:AE:60:F6:97:7A:D2",
+      "sha256": "73:32:EF:BF:76:10:89:35:0D:AB:10:D1:19:2C:E3:85:DC:CA:2A:2D:D1:BB:81:DB:31:78:DD:80:EC:74:F4:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.fatura-netflix25.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.fatura-netflix25.com",
+        "subjectKeyIdentifier": "keyid:e8:bb:91:d6:31:32:92:c6:10:d7:b8:2c:cb:73:46:b9:d6:bc:96:5a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4189546900,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4189546900&end=4189546900",
+    "seen": 1778554384.315,
+    "submission_timestamp": 1778526477.053,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
