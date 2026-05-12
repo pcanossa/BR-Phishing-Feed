@@ -1,0 +1,52 @@
+{
+  "dominio": "santanderaviso.acessoclientept.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/11/26 22:45:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderaviso.acessoclientept.com",
+        "aggregated": "/CN=santanderaviso.acessoclientept.com"
+      },
+      "issuer": {
+        "C": "CN",
+        "CN": "TrustAsia DV TLS RSA CA 2025",
+        "O": "TrustAsia Technologies, Inc.",
+        "aggregated": "/C=CN/CN=TrustAsia DV TLS RSA CA 2025/O=TrustAsia Technologies, Inc."
+      },
+      "serial_number": "0A5765558111B6C38856DDB12C43F551",
+      "not_before": 1778457600,
+      "not_after": 1786233599,
+      "fingerprint": "9A:A6:48:67:A1:0A:F6:27:64:D4:CF:BB:60:D0:80:69:48:B4:DA:AA",
+      "sha1": "9A:A6:48:67:A1:0A:F6:27:64:D4:CF:BB:60:D0:80:69:48:B4:DA:AA",
+      "sha256": "28:07:D4:E0:F8:93:DD:39:89:3B:7F:9C:EA:36:22:15:0B:E2:2B:42:5B:A6:82:7E:1F:5C:56:4A:D1:B6:01:A9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santanderaviso.acessoclientept.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/TrustAsiaDVTLSRSACA2025.crt",
+        "authorityKeyIdentifier": "keyid:b4:12:28:a5:b4:c0:1d:9f:29:71:69:3c:d9:11:96:4a:75:69:50:c0",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santanderaviso.acessoclientept.com",
+        "subjectKeyIdentifier": "keyid:72:51:cd:1f:94:7b:16:df:d7:3f:14:aa:5d:d7:a1:16:ba:ac:e3:51",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4188633825,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4188633825&end=4188633825",
+    "seen": 1778550292.109,
+    "submission_timestamp": 1778521459.854,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

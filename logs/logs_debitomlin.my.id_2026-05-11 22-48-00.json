@@ -1,0 +1,53 @@
+{
+  "dominio": "debitomlin.my.id",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 22:48:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitomlin.my.id",
+        "aggregated": "/CN=debitomlin.my.id"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "23A346CA5A6C82950EECCD8EC26A7AB7",
+      "not_before": 1778485780,
+      "not_after": 1786265299,
+      "fingerprint": "5E:FF:94:B4:2B:E8:F2:29:BF:59:C3:18:FD:C2:C9:91:28:1E:3C:4B",
+      "sha1": "5E:FF:94:B4:2B:E8:F2:29:BF:59:C3:18:FD:C2:C9:91:28:1E:3C:4B",
+      "sha256": "BC:E9:44:1D:90:5B:9A:6F:08:70:D4:E2:03:B0:41:7F:98:52:C8:53:C0:6F:80:4C:5D:0F:E3:23:95:A7:40:FD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitomlin.my.id",
+        "*.debitomlin.my.id"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/I6M, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitomlin.my.id, DNS:*.debitomlin.my.id",
+        "subjectKeyIdentifier": "keyid:ea:d2:22:72:cd:ff:6e:88:f7:e1:aa:5c:2e:34:fe:42:92:aa:75:a9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4188670951,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4188670951&end=4188670951",
+    "seen": 1778550469.107,
+    "submission_timestamp": 1778521692.181,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
