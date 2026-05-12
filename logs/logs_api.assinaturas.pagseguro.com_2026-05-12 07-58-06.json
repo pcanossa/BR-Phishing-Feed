@@ -1,0 +1,52 @@
+{
+  "dominio": "api.assinaturas.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/12/26 07:58:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.assinaturas.pagseguro.com",
+        "aggregated": "/CN=api.assinaturas.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0EDFAEB8E78861B413108A3415C5D445",
+      "not_before": 1778540213,
+      "not_after": 1786319812,
+      "fingerprint": "A6:59:2A:90:7F:32:E1:27:C2:4E:F2:BC:4A:2F:FC:C1:E7:0D:2B:03",
+      "sha1": "A6:59:2A:90:7F:32:E1:27:C2:4E:F2:BC:4A:2F:FC:C1:E7:0D:2B:03",
+      "sha256": "A5:A1:87:49:86:14:DB:6D:25:4F:90:6B:12:BE:DD:AC:B8:85:D5:08:14:E9:B6:5F:F0:40:45:E7:42:3C:02:97",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "api.assinaturas.pagseguro.com",
+        "*.api.assinaturas.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Dt8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.assinaturas.pagseguro.com, DNS:*.api.assinaturas.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:c5:24:d0:81:23:6e:30:5d:9e:8e:6b:b2:03:9b:e0:a9:23:93:6a:96"
+      }
+    },
+    "cert_index": 274528191,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x072/375",
+    "seen": 1778583474.342,
+    "submission_timestamp": 1778583472.619,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

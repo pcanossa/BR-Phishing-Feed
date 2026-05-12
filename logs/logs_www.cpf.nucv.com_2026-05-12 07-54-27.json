@@ -1,0 +1,53 @@
+{
+  "dominio": "www.cpf.nucv.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 07:54:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cpf.nucv.com",
+        "aggregated": "/CN=www.cpf.nucv.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "07F700F5BE019D70059E8CBFC0A0A48D",
+      "not_before": 1778544000,
+      "not_after": 1786319999,
+      "fingerprint": "66:25:24:51:6C:47:E3:5A:52:04:F4:03:D4:18:A7:1F:5A:A4:3A:78",
+      "sha1": "66:25:24:51:6C:47:E3:5A:52:04:F4:03:D4:18:A7:1F:5A:A4:3A:78",
+      "sha256": "1A:35:F4:26:5A:18:78:0B:D8:15:52:3E:ED:96:85:D4:27:F1:6F:BB:34:77:90:91:05:90:5A:8D:FC:55:9E:AB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cpf.nucv.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cpf.nucv.com",
+        "subjectKeyIdentifier": "keyid:1b:81:36:b1:74:9c:ca:45:d3:61:5e:a4:8b:87:de:a4:10:4e:5d:96",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4196660967,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4196660967&end=4196660967",
+    "seen": 1778583254.543,
+    "submission_timestamp": 1778564436.878,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

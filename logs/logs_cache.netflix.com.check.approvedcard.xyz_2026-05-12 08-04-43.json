@@ -1,0 +1,53 @@
+{
+  "dominio": "cache.netflix.com.check.approvedcard.xyz",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 08:04:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "approvedcard.xyz",
+        "aggregated": "/CN=approvedcard.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "89242B197035F7FA0E7E723877DF37E0",
+      "not_before": 1778561857,
+      "not_after": 1786341318,
+      "fingerprint": "CA:E8:2E:73:A8:A9:3E:73:04:90:4A:B7:2F:21:73:57:09:7C:4F:C1",
+      "sha1": "CA:E8:2E:73:A8:A9:3E:73:04:90:4A:B7:2F:21:73:57:09:7C:4F:C1",
+      "sha256": "75:BA:0C:00:0D:07:7B:A9:40:9B:64:51:92:F8:9E:10:95:EF:C4:16:EC:68:EF:57:AA:C2:EE:0C:36:F9:DA:15",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "approvedcard.xyz",
+        "cache.netflix.com.check.approvedcard.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/iSQ, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:approvedcard.xyz, DNS:cache.netflix.com.check.approvedcard.xyz",
+        "subjectKeyIdentifier": "keyid:90:30:ca:ee:8b:2c:9a:4e:ae:9c:49:95:f0:8d:ab:83:67:29:22:a1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4196811808,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4196811808&end=4196811808",
+    "seen": 1778583871.025,
+    "submission_timestamp": 1778565457.933,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
