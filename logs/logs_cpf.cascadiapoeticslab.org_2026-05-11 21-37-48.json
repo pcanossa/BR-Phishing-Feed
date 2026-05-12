@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.cascadiapoeticslab.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 21:37:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.cascadiapoeticslab.org",
+        "aggregated": "/CN=cpf.cascadiapoeticslab.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05C106E2882DBF7C0A018036FF7B7623934D",
+      "not_before": 1778513678,
+      "not_after": 1786289677,
+      "fingerprint": "08:37:3D:26:CF:8B:A6:14:ED:F1:43:58:9B:EB:03:CB:B7:D3:29:87",
+      "sha1": "08:37:3D:26:CF:8B:A6:14:ED:F1:43:58:9B:EB:03:CB:B7:D3:29:87",
+      "sha256": "1B:88:7E:57:C9:4A:11:98:F8:C8:E9:2E:07:D9:9E:DE:62:33:5A:C8:AF:E0:91:A5:C8:61:D9:9B:A5:20:E6:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.cascadiapoeticslab.org",
+        "www.cpf.cascadiapoeticslab.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.cascadiapoeticslab.org, DNS:www.cpf.cascadiapoeticslab.org",
+        "subjectKeyIdentifier": "keyid:72:64:d9:a8:d0:c5:d1:7b:b2:1f:92:10:c9:80:47:9e:81:d9:07:d1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4187840951,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4187840951&end=4187840951",
+    "seen": 1778546256.809,
+    "submission_timestamp": 1778517188.911,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

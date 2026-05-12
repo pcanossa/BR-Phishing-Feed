@@ -1,0 +1,51 @@
+{
+  "dominio": "api-cartao.campeaopay.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/11/26 21:51:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-cartao.campeaopay.com",
+        "aggregated": "/CN=api-cartao.campeaopay.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0510EAB2DBC85EC300CDB670AD192E8941B5",
+      "not_before": 1778514584,
+      "not_after": 1786290583,
+      "fingerprint": "84:7E:77:A5:61:FF:56:9B:49:35:68:40:96:2F:66:D7:65:B4:EB:2D",
+      "sha1": "84:7E:77:A5:61:FF:56:9B:49:35:68:40:96:2F:66:D7:65:B4:EB:2D",
+      "sha256": "78:4A:78:78:9A:7E:31:97:8D:44:98:7A:EB:D3:07:7B:EB:82:7C:24:E7:73:78:12:5C:8C:3B:16:33:68:A9:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-cartao.campeaopay.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-cartao.campeaopay.com",
+        "subjectKeyIdentifier": "keyid:48:c7:52:9d:9a:5c:8e:f3:5d:c9:6b:51:e9:72:a9:06:b2:a3:3c:c3"
+      }
+    },
+    "cert_index": 4188002253,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4188002253&end=4188002253",
+    "seen": 1778547106.493,
+    "submission_timestamp": 1778518098.021,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

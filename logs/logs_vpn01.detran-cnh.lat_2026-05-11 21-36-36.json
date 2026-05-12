@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn01.detran-cnh.lat",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/11/26 21:36:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn01.detran-cnh.lat",
+        "aggregated": "/CN=vpn01.detran-cnh.lat"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05CE368B4387E06978B7634FF2122D49FB57",
+      "not_before": 1778542673,
+      "not_after": 1786318672,
+      "fingerprint": "4B:B5:9C:AE:9D:D0:3A:E0:FB:AF:73:C8:3F:B1:88:19:12:45:06:FB",
+      "sha1": "4B:B5:9C:AE:9D:D0:3A:E0:FB:AF:73:C8:3F:B1:88:19:12:45:06:FB",
+      "sha256": "33:F0:07:42:EE:F4:65:06:2C:98:93:89:DE:E4:6F:C6:12:93:50:3E:C1:52:2E:3B:83:6E:CF:BD:FA:A9:6A:52",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn01.detran-cnh.lat"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn01.detran-cnh.lat",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 185480568,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x724/533",
+    "seen": 1778546185.395,
+    "submission_timestamp": 1778546184.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

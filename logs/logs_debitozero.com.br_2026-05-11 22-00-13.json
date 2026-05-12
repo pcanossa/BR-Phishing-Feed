@@ -1,0 +1,52 @@
+{
+  "dominio": "debitozero.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 22:00:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitozero.com.br",
+        "aggregated": "/CN=debitozero.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0679957DB53D940B221E5378EB934FD808A3",
+      "not_before": 1778515190,
+      "not_after": 1786291189,
+      "fingerprint": "FD:B2:BB:AB:1B:06:09:9F:61:5F:53:00:50:F3:12:B9:F6:66:41:C1",
+      "sha1": "FD:B2:BB:AB:1B:06:09:9F:61:5F:53:00:50:F3:12:B9:F6:66:41:C1",
+      "sha256": "D7:EA:D6:C9:4C:D4:78:74:62:AF:99:5D:F6:4E:2A:2A:3F:32:27:15:57:57:DD:6D:D7:99:90:A6:8C:C3:85:D3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitozero.com.br",
+        "*.debitozero.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitozero.com.br, DNS:debitozero.com.br",
+        "subjectKeyIdentifier": "keyid:73:44:0f:2f:8c:e5:1d:d8:fd:f1:4b:34:30:e7:4c:c3:2a:03:84:9e"
+      }
+    },
+    "cert_index": 4188104049,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4188104049&end=4188104049",
+    "seen": 1778547613.057,
+    "submission_timestamp": 1778518703.321,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "srv-cpf.synology.me",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 21:39:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "srv-cpf.synology.me",
+        "aggregated": "/CN=srv-cpf.synology.me"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "063FBDA933E725391E2061FAA791E6C00A0C",
+      "not_before": 1778542714,
+      "not_after": 1786318713,
+      "fingerprint": "F2:87:24:8F:16:14:A0:9A:C1:5A:49:13:AA:B8:09:D8:AC:50:79:61",
+      "sha1": "F2:87:24:8F:16:14:A0:9A:C1:5A:49:13:AA:B8:09:D8:AC:50:79:61",
+      "sha256": "9D:ED:66:D0:3B:02:84:BB:52:35:06:9A:95:46:88:F4:98:4D:EB:96:04:04:95:CF:3A:48:7F:57:DF:0F:B1:B5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "srv-cpf.synology.me",
+        "*.srv-cpf.synology.me"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.srv-cpf.synology.me, DNS:srv-cpf.synology.me",
+        "subjectKeyIdentifier": "keyid:26:aa:56:68:9d:c1:64:db:5e:d4:f7:0b:f3:c5:09:de:34:5f:83:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 706168908,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=706168908&end=706168908",
+    "seen": 1778546353.386,
+    "submission_timestamp": 1778546224.354,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "srv-cpf.synology.me",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/11/26 21:37:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "srv-cpf.synology.me",
+        "aggregated": "/CN=srv-cpf.synology.me"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05B3ACCE41CAA9A216DB153886BB1BC220BB",
+      "not_before": 1778542709,
+      "not_after": 1786318708,
+      "fingerprint": "7F:5B:D5:AE:56:BB:FC:EB:32:13:89:00:A1:43:90:A8:6C:6F:BE:97",
+      "sha1": "7F:5B:D5:AE:56:BB:FC:EB:32:13:89:00:A1:43:90:A8:6C:6F:BE:97",
+      "sha256": "3D:3B:48:11:A9:4D:0D:F0:7F:9D:DC:6A:7C:46:CA:2B:C3:68:1C:FD:55:F6:FA:72:7E:AC:56:33:A1:F6:86:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "srv-cpf.synology.me",
+        "*.srv-cpf.synology.me"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.srv-cpf.synology.me, DNS:srv-cpf.synology.me",
+        "subjectKeyIdentifier": "keyid:f6:57:31:f4:b7:b2:20:8c:12:71:e8:dd:3d:90:fd:97:f8:73:4c:2e"
+      }
+    },
+    "cert_index": 176263074,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x688/527",
+    "seen": 1778546222.797,
+    "submission_timestamp": 1778546220.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
