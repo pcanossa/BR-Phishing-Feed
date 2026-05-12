@@ -1,0 +1,52 @@
+{
+  "dominio": "fazendapp.me",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/12/26 12:29:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fazendapp.me",
+        "aggregated": "/CN=fazendapp.me"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "5D239A41D2F8663E",
+      "not_before": 1778587018,
+      "not_after": 1795694218,
+      "fingerprint": "E3:37:05:E7:A8:82:7A:2B:80:17:23:48:13:CC:BB:78:7C:47:40:82",
+      "sha1": "E3:37:05:E7:A8:82:7A:2B:80:17:23:48:13:CC:BB:78:7C:47:40:82",
+      "sha256": "7F:09:CC:C5:03:A7:08:5A:3F:34:EB:5C:29:8C:4D:46:D6:24:56:37:71:AC:F0:7D:F9:CB:C6:DA:E9:F7:F3:1D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fazendapp.me"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fazendapp.me",
+        "subjectKeyIdentifier": "keyid:38:b6:69:ad:9e:5b:f7:33:2a:9d:e5:45:1b:09:c8:03:a9:4e:ca:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4200879136,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4200879136&end=4200879136",
+    "seen": 1778599733.274,
+    "submission_timestamp": 1778587018.806,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

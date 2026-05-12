@@ -1,0 +1,51 @@
+{
+  "dominio": "app.mail.americanasr.com",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/12/26 13:04:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.mail.americanasr.com",
+        "aggregated": "/CN=app.mail.americanasr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068EC2A13F5766DB2389E596BE3DAD9B276B",
+      "not_before": 1778586107,
+      "not_after": 1786362106,
+      "fingerprint": "1C:65:3D:DF:14:1E:80:9D:C9:1A:94:F8:0B:6C:33:7E:B5:47:86:1D",
+      "sha1": "1C:65:3D:DF:14:1E:80:9D:C9:1A:94:F8:0B:6C:33:7E:B5:47:86:1D",
+      "sha256": "27:FA:35:68:E4:B3:A5:C1:22:D7:B8:72:8E:5C:A9:68:C6:2E:CC:FC:6A:F8:4C:89:18:0A:43:B3:BE:D8:83:88",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.mail.americanasr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.mail.americanasr.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 4201428898,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4201428898&end=4201428898",
+    "seen": 1778601862.474,
+    "submission_timestamp": 1778589621.059,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

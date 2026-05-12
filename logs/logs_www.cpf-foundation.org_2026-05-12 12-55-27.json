@@ -1,0 +1,51 @@
+{
+  "dominio": "www.cpf-foundation.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 12:55:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cpf-foundation.org",
+        "aggregated": "/CN=www.cpf-foundation.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "BD77FD949344E4EF",
+      "not_before": 1778588915,
+      "not_after": 1795696115,
+      "fingerprint": "F1:4A:2A:FE:25:89:83:A0:56:28:81:55:B5:F4:F3:97:84:86:EB:3C",
+      "sha1": "F1:4A:2A:FE:25:89:83:A0:56:28:81:55:B5:F4:F3:97:84:86:EB:3C",
+      "sha256": "E6:AE:D6:88:2F:C2:40:2C:12:6A:C2:03:5C:FA:47:00:00:BC:4B:CC:6F:8C:50:5F:7D:FC:7F:69:58:F7:B9:DB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cpf-foundation.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cpf-foundation.org",
+        "subjectKeyIdentifier": "keyid:13:62:fa:bb:85:ca:28:bb:5c:c2:c8:b2:d1:53:87:e1:79:e8:56:6f"
+      }
+    },
+    "cert_index": 4201287927,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4201287927&end=4201287927",
+    "seen": 1778601314.702,
+    "submission_timestamp": 1778588916.221,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

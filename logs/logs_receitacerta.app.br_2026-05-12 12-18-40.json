@@ -1,0 +1,52 @@
+{
+  "dominio": "receitacerta.app.br",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/12/26 12:18:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.receitacerta.app.br",
+        "aggregated": "/CN=*.receitacerta.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05CBD8EA21D6FF77BD8E88F0FD2528233B3E",
+      "not_before": 1778181954,
+      "not_after": 1785957953,
+      "fingerprint": "12:40:77:63:25:1E:D1:2D:3B:01:40:3B:54:79:3C:91:73:B5:2D:6A",
+      "sha1": "12:40:77:63:25:1E:D1:2D:3B:01:40:3B:54:79:3C:91:73:B5:2D:6A",
+      "sha256": "C9:32:37:97:53:C8:F6:75:58:28:04:17:55:79:22:FD:75:2F:E8:4F:1A:D9:7B:7F:AD:ED:6B:FE:40:47:7C:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.receitacerta.app.br",
+        "receitacerta.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.receitacerta.app.br, DNS:receitacerta.app.br",
+        "subjectKeyIdentifier": "keyid:45:6a:9a:74:c4:50:e6:88:19:16:36:fd:32:8f:7c:88:7d:80:f9:45"
+      }
+    },
+    "cert_index": 618544057,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=618544057&end=618544057",
+    "seen": 1778599107.603,
+    "submission_timestamp": 1778185678.842,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "www.jesussantander.net",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 12:36:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.jesussantander.net",
+        "aggregated": "/CN=www.jesussantander.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "573BA9836A123CF0",
+      "not_before": 1778576653,
+      "not_after": 1795683853,
+      "fingerprint": "C5:3E:92:C9:CE:09:B3:FF:AC:25:E5:C8:0F:AB:8E:62:57:FB:F4:9B",
+      "sha1": "C5:3E:92:C9:CE:09:B3:FF:AC:25:E5:C8:0F:AB:8E:62:57:FB:F4:9B",
+      "sha256": "EC:31:50:17:DE:AC:F6:DF:C9:F8:59:6C:31:E8:23:F2:9A:4C:81:C0:7B:AB:69:10:31:5B:8A:01:36:AB:0E:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.jesussantander.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.jesussantander.net",
+        "subjectKeyIdentifier": "keyid:06:e2:95:bf:01:0c:72:d5:a9:b1:10:8a:42:25:10:eb:3c:d4:9a:33"
+      }
+    },
+    "cert_index": 4200984549,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4200984549&end=4200984549",
+    "seen": 1778600162.693,
+    "submission_timestamp": 1778587591.407,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
