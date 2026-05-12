@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.top",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 09:52:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.top",
+        "aggregated": "/CN=cartao.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06DA23890D0E982AFE33F85A3C1CD7BA70CA",
+      "not_before": 1778566392,
+      "not_after": 1786342391,
+      "fingerprint": "F9:A1:40:5C:6F:34:38:8F:40:2E:94:2D:7A:A3:20:37:E9:A9:75:12",
+      "sha1": "F9:A1:40:5C:6F:34:38:8F:40:2E:94:2D:7A:A3:20:37:E9:A9:75:12",
+      "sha256": "17:5F:44:31:BF:A1:52:18:1C:6C:EA:FA:12:9A:FA:EE:F8:A4:CA:C1:58:46:AE:11:6C:D6:F1:EC:35:3F:7A:40",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.top",
+        "*.cartao.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cartao.top, DNS:cartao.top",
+        "subjectKeyIdentifier": "keyid:93:4c:56:0b:5a:29:10:7b:41:c6:5a:ad:3f:4a:1f:80:fe:ae:e1:90"
+      }
+    },
+    "cert_index": 4198461865,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198461865&end=4198461865",
+    "seen": 1778590329.042,
+    "submission_timestamp": 1778574374.011,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

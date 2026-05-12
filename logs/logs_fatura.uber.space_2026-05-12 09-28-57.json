@@ -1,0 +1,51 @@
+{
+  "dominio": "fatura.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/12/26 09:28:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatura.uber.space",
+        "aggregated": "/CN=fatura.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05D933A382A8959E970FEBFB425F4115CCF3",
+      "not_before": 1777949740,
+      "not_after": 1785725739,
+      "fingerprint": "42:5D:6E:F6:94:A9:E6:76:0D:CB:D2:2B:C7:C4:C2:47:46:D9:25:14",
+      "sha1": "42:5D:6E:F6:94:A9:E6:76:0D:CB:D2:2B:C7:C4:C2:47:46:D9:25:14",
+      "sha256": "2E:48:69:A4:2B:C1:3B:EE:79:48:75:3F:3E:38:04:A4:1E:E0:00:AB:AB:00:F0:4E:A3:75:BB:6E:26:81:BD:EE",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "fatura.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:fatura.uber.space",
+        "subjectKeyIdentifier": "keyid:c8:f4:b3:88:e1:7c:42:4a:3e:9c:1e:5e:65:6b:8a:f0:f1:24:9c:74"
+      }
+    },
+    "cert_index": 1532175304,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1532175304&end=1532175304",
+    "seen": 1778588925.154,
+    "submission_timestamp": 1777953252.438,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

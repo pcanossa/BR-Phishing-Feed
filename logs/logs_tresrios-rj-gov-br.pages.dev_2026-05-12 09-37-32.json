@@ -1,0 +1,53 @@
+{
+  "dominio": "tresrios-rj-gov-br.pages.dev",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/12/26 09:37:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tresrios-rj-gov-br.pages.dev",
+        "aggregated": "/CN=tresrios-rj-gov-br.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "76D6EA66F8E4CD6F0E6F912B8BB1C7DC",
+      "not_before": 1778569628,
+      "not_after": 1786349065,
+      "fingerprint": "E5:55:CD:2E:C6:C2:F8:F5:AB:F9:5E:BE:E4:45:D8:26:F2:49:C4:D2",
+      "sha1": "E5:55:CD:2E:C6:C2:F8:F5:AB:F9:5E:BE:E4:45:D8:26:F2:49:C4:D2",
+      "sha256": "7E:58:8F:49:AF:9E:A7:C3:D6:CC:3D:AD:36:E6:4D:AA:B0:73:4E:EB:0F:92:EF:50:EB:C6:EE:53:61:C4:28:84",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "tresrios-rj-gov-br.pages.dev",
+        "*.tresrios-rj-gov-br.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/dtY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:tresrios-rj-gov-br.pages.dev, DNS:*.tresrios-rj-gov-br.pages.dev",
+        "subjectKeyIdentifier": "keyid:6c:62:e7:1c:0e:72:ac:0b:bf:cd:6f:3d:b5:0b:6c:1d:51:ce:ec:78",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4198223366,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198223366&end=4198223366",
+    "seen": 1778589439.674,
+    "submission_timestamp": 1778573229.445,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

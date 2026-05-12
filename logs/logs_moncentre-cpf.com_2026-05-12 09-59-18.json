@@ -1,0 +1,52 @@
+{
+  "dominio": "moncentre-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 09:59:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "moncentre-cpf.com",
+        "aggregated": "/CN=moncentre-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0551F1B2BD2D59C93BF6DE6865F6DD803C93",
+      "not_before": 1778427063,
+      "not_after": 1786203062,
+      "fingerprint": "0C:CC:FE:99:1F:CA:4E:BF:E8:64:0A:13:75:63:0F:FE:F4:1A:A1:55",
+      "sha1": "0C:CC:FE:99:1F:CA:4E:BF:E8:64:0A:13:75:63:0F:FE:F4:1A:A1:55",
+      "sha256": "DD:C9:30:A6:B6:1C:A9:47:59:61:D9:98:FF:45:03:BD:07:3B:EE:BD:E4:62:A5:65:2F:8D:2C:76:DF:F2:95:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "moncentre-cpf.com",
+        "*.moncentre-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.moncentre-cpf.com, DNS:moncentre-cpf.com",
+        "subjectKeyIdentifier": "keyid:c6:e7:0a:db:b7:52:bb:03:6d:29:b5:04:94:b5:a2:83:00:b0:a6:de"
+      }
+    },
+    "cert_index": 4198577519,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198577519&end=4198577519",
+    "seen": 1778590745.222,
+    "submission_timestamp": 1778575032.237,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

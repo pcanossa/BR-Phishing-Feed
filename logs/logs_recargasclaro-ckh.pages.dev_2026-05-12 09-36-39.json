@@ -1,0 +1,52 @@
+{
+  "dominio": "recargasclaro-ckh.pages.dev",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/12/26 09:36:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "recargasclaro-ckh.pages.dev",
+        "aggregated": "/CN=recargasclaro-ckh.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05B5B59257A86B9A3DAB348F9FD5D7095570",
+      "not_before": 1778110620,
+      "not_after": 1785886619,
+      "fingerprint": "5A:E6:26:40:60:7C:DA:82:CB:5C:78:D4:32:72:B8:82:85:0C:8C:9B",
+      "sha1": "5A:E6:26:40:60:7C:DA:82:CB:5C:78:D4:32:72:B8:82:85:0C:8C:9B",
+      "sha256": "24:3B:8B:1B:9F:F8:BA:D0:CF:D0:12:FF:C4:79:1B:04:8A:EF:7F:9F:81:8C:30:0C:25:9C:1E:44:BD:D0:22:D6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "recargasclaro-ckh.pages.dev",
+        "*.recargasclaro-ckh.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.recargasclaro-ckh.pages.dev, DNS:recargasclaro-ckh.pages.dev",
+        "subjectKeyIdentifier": "keyid:37:b7:4c:fa:12:8c:f9:bd:45:7c:8b:fa:66:ce:05:07:29:18:5a:e1"
+      }
+    },
+    "cert_index": 4198207418,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198207418&end=4198207418",
+    "seen": 1778589386.486,
+    "submission_timestamp": 1778573161.953,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

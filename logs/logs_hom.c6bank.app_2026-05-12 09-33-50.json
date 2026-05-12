@@ -1,0 +1,53 @@
+{
+  "dominio": "hom.c6bank.app",
+  "marcas_encontradas": [
+    "c6bank"
+  ],
+  "timestamp": "05/12/26 09:33:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hom.c6bank.app",
+        "aggregated": "/CN=hom.c6bank.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "19E95C94FBA246150E299FB0CC5B6218",
+      "not_before": 1778563694,
+      "not_after": 1786343154,
+      "fingerprint": "2C:BF:9B:86:9E:FC:5E:CC:66:4B:80:67:97:BF:A3:C1:4F:F5:A8:8F",
+      "sha1": "2C:BF:9B:86:9E:FC:5E:CC:66:4B:80:67:97:BF:A3:C1:4F:F5:A8:8F",
+      "sha256": "4B:66:E0:82:FE:B8:1C:22:65:1F:DB:B0:E3:EC:45:F8:D6:24:0E:8A:99:D9:D2:9D:12:00:59:5B:BE:07:5F:D5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hom.c6bank.app",
+        "*.hom.c6bank.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Gek, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hom.c6bank.app, DNS:*.hom.c6bank.app",
+        "subjectKeyIdentifier": "keyid:29:01:19:e9:2d:c9:67:04:34:d3:4c:d4:3d:63:8d:fe:ec:56:38:ab",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4198165200,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198165200&end=4198165200",
+    "seen": 1778589217.46,
+    "submission_timestamp": 1778573002.092,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.www.whatsnewnetflix.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 09:31:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.www.whatsnewnetflix.com",
+        "aggregated": "/CN=app.www.whatsnewnetflix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0654469A12C59C24EEA1075501F29DBE31F1",
+      "not_before": 1778569363,
+      "not_after": 1786345362,
+      "fingerprint": "63:D1:B8:30:EA:12:AA:BC:AC:05:2F:ED:B1:A5:00:3B:0D:3A:8A:5C",
+      "sha1": "63:D1:B8:30:EA:12:AA:BC:AC:05:2F:ED:B1:A5:00:3B:0D:3A:8A:5C",
+      "sha256": "7D:5B:98:C7:26:B2:F2:04:9F:46:30:8E:79:92:12:F5:52:A2:F8:6A:63:B8:FD:0D:BE:9A:8D:B0:DB:3B:F4:4D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.www.whatsnewnetflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.www.whatsnewnetflix.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4198134169,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198134169&end=4198134169",
+    "seen": 1778589107.898,
+    "submission_timestamp": 1778572873.973,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

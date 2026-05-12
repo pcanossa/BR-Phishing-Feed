@@ -1,0 +1,53 @@
+{
+  "dominio": "hablaclaroapp.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/12/26 09:10:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hablaclaroapp.com",
+        "aggregated": "/CN=hablaclaroapp.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "799ACFFF151805CDCCFFB77D6A3228B2",
+      "not_before": 1778544000,
+      "not_after": 1786363606,
+      "fingerprint": "85:2E:D6:E6:BD:39:82:A2:77:2E:D9:26:FF:8C:65:99:94:EA:CE:76",
+      "sha1": "85:2E:D6:E6:BD:39:82:A2:77:2E:D9:26:FF:8C:65:99:94:EA:CE:76",
+      "sha256": "0A:7E:93:84:74:DE:BC:24:8D:5D:5E:DF:41:69:62:63:C4:1F:DF:33:A0:7A:80:28:85:F3:69:DB:93:85:10:9E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "hablaclaroapp.com",
+        "*.hablaclaroapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hablaclaroapp.com, DNS:*.hablaclaroapp.com",
+        "subjectKeyIdentifier": "keyid:ec:27:8b:e6:83:a0:7c:16:87:d9:09:e2:b9:41:87:cd:b4:d7:d3:d8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 713688666,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=713688666&end=713688666",
+    "seen": 1778587847.177,
+    "submission_timestamp": 1778587707.011,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

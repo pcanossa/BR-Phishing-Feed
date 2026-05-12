@@ -1,0 +1,51 @@
+{
+  "dominio": "santander.sso.cmfyapp.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 09:38:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.sso.cmfyapp.com",
+        "aggregated": "/CN=santander.sso.cmfyapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8D45891B1825ADEA1396724F4C26BEEC",
+      "not_before": 1778535397,
+      "not_after": 1786314994,
+      "fingerprint": "C0:03:F8:2B:C0:BB:48:38:2F:FF:82:C0:13:55:17:B6:1D:4C:24:10",
+      "sha1": "C0:03:F8:2B:C0:BB:48:38:2F:FF:82:C0:13:55:17:B6:1D:4C:24:10",
+      "sha256": "C1:D7:34:CB:5E:14:C8:3C:4D:5B:CB:21:D4:F8:B3:77:86:A7:32:E4:6D:6B:95:82:15:EE:3D:61:BE:99:6B:EB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander.sso.cmfyapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jUU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander.sso.cmfyapp.com",
+        "subjectKeyIdentifier": "keyid:33:01:43:b5:54:81:01:96:81:15:5c:6e:4c:df:17:11:99:87:29:79"
+      }
+    },
+    "cert_index": 4198238715,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4198238715&end=4198238715",
+    "seen": 1778589491.932,
+    "submission_timestamp": 1778573299.318,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
