@@ -1,0 +1,52 @@
+{
+  "dominio": "premiosantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 01:42:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "premiosantander.com",
+        "aggregated": "/CN=premiosantander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "48A92E8B64B6C26B0E835AE8AD834493",
+      "not_before": 1778529579,
+      "not_after": 1786309106,
+      "fingerprint": "A3:72:2E:0C:92:B0:5A:72:4B:5F:7E:07:38:39:75:65:D6:54:55:67",
+      "sha1": "A3:72:2E:0C:92:B0:5A:72:4B:5F:7E:07:38:39:75:65:D6:54:55:67",
+      "sha256": "AE:A5:C3:5A:E4:D5:81:22:E8:0E:61:26:3D:20:47:A9:72:F3:39:1A:13:30:75:C6:E3:13:28:B4:6B:63:7A:85",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "premiosantander.com",
+        "*.premiosantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/SKk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:premiosantander.com, DNS:*.premiosantander.com",
+        "subjectKeyIdentifier": "keyid:d8:b7:31:48:48:29:29:df:5a:c0:fd:de:b5:4c:a5:9f:13:70:aa:74"
+      }
+    },
+    "cert_index": 4191135877,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4191135877&end=4191135877",
+    "seen": 1778560917.389,
+    "submission_timestamp": 1778534768.267,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

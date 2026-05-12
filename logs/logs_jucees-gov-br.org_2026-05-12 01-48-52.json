@@ -1,0 +1,52 @@
+{
+  "dominio": "jucees-gov-br.org",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/12/26 01:48:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jucees-gov-br.org",
+        "aggregated": "/CN=jucees-gov-br.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "1F87E61AB879C4DE593E78E9FD2350FB",
+      "not_before": 1778534747,
+      "not_after": 1786311271,
+      "fingerprint": "EA:3B:D7:7E:EF:5E:17:15:81:CA:61:FF:1C:10:ED:6D:54:7D:6D:3E",
+      "sha1": "EA:3B:D7:7E:EF:5E:17:15:81:CA:61:FF:1C:10:ED:6D:54:7D:6D:3E",
+      "sha256": "0B:B1:BC:B8:28:42:47:9B:42:F5:50:2A:45:55:6D:2D:F6:E5:C1:2E:A6:AA:AF:B1:19:2C:E0:2C:9F:61:6F:E8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "jucees-gov-br.org",
+        "*.jucees-gov-br.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:jucees-gov-br.org, DNS:*.jucees-gov-br.org",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4191238089,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4191238089&end=4191238089",
+    "seen": 1778561320.756,
+    "submission_timestamp": 1778535348.534,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

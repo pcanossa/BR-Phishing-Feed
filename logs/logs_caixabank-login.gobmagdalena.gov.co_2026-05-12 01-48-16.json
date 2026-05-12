@@ -1,0 +1,51 @@
+{
+  "dominio": "caixabank-login.gobmagdalena.gov.co",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/12/26 01:48:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixabank-login.gobmagdalena.gov.co",
+        "aggregated": "/CN=caixabank-login.gobmagdalena.gov.co"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1C39DF87D91C1E5273C03F544765FE09",
+      "not_before": 1778371200,
+      "not_after": 1786233599,
+      "fingerprint": "11:C6:26:30:02:C8:CB:57:49:D1:BD:0F:D3:26:C8:50:51:65:77:68",
+      "sha1": "11:C6:26:30:02:C8:CB:57:49:D1:BD:0F:D3:26:C8:50:51:65:77:68",
+      "sha256": "E4:22:46:40:45:D8:DA:B3:A2:3F:5F:35:71:CC:64:11:67:FA:4C:7E:24:1B:DC:9C:73:A7:4D:57:9B:B3:BF:14",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixabank-login.gobmagdalena.gov.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixabank-login.gobmagdalena.gov.co",
+        "subjectKeyIdentifier": "keyid:65:96:71:db:e5:0a:dc:4e:06:a8:9d:bb:3d:d4:7c:93:6a:d7:ac:e3"
+      }
+    },
+    "cert_index": 4191229354,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4191229354&end=4191229354",
+    "seen": 1778561284.552,
+    "submission_timestamp": 1778535291.093,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

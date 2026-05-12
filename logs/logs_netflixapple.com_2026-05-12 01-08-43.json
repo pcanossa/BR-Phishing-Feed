@@ -1,0 +1,52 @@
+{
+  "dominio": "netflixapple.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 01:08:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixapple.com",
+        "aggregated": "/CN=netflixapple.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06297E8408913935CE551B1CB994B6C43496",
+      "not_before": 1778555396,
+      "not_after": 1786331395,
+      "fingerprint": "DB:DF:A4:90:00:71:B6:CA:21:51:B3:E6:F8:83:31:EA:38:7E:A8:9D",
+      "sha1": "DB:DF:A4:90:00:71:B6:CA:21:51:B3:E6:F8:83:31:EA:38:7E:A8:9D",
+      "sha256": "1B:ED:E4:E2:FA:06:E2:A5:7B:50:9D:3E:B7:37:2E:F4:09:ED:A5:6D:F8:04:9F:30:29:4A:04:22:F0:62:67:2E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "netflixapple.com",
+        "*.netflixapple.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.netflixapple.com, DNS:netflixapple.com",
+        "subjectKeyIdentifier": "keyid:ec:d7:da:ba:6d:59:c7:d0:ad:66:fc:9b:34:ee:4a:ad:3c:df:96:c7"
+      }
+    },
+    "cert_index": 176642306,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x690/009",
+    "seen": 1778558911.537,
+    "submission_timestamp": 1778558907.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

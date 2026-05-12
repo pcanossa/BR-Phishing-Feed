@@ -1,0 +1,52 @@
+{
+  "dominio": "caixaapp.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/12/26 01:52:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixaapp.com",
+        "aggregated": "/CN=caixaapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06E3D81E9DF1FC40EEBC0DA37C5AF46F052D",
+      "not_before": 1778558018,
+      "not_after": 1786334017,
+      "fingerprint": "C5:07:A0:CE:20:99:4F:98:D1:15:7D:66:4E:57:5D:6A:B7:B1:CA:A2",
+      "sha1": "C5:07:A0:CE:20:99:4F:98:D1:15:7D:66:4E:57:5D:6A:B7:B1:CA:A2",
+      "sha256": "9D:6A:7A:59:7B:CD:1D:B0:7C:F3:D5:FF:B4:5C:82:56:BB:8E:AD:B1:79:63:E5:A8:5B:5E:EB:95:7B:65:B4:34",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixaapp.com",
+        "*.caixaapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixaapp.com, DNS:caixaapp.com",
+        "subjectKeyIdentifier": "keyid:5c:4e:b8:c3:47:61:c7:03:14:54:bb:e1:7e:78:bb:1a:a4:49:46:3c"
+      }
+    },
+    "cert_index": 186006303,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x726/587",
+    "seen": 1778561530.433,
+    "submission_timestamp": 1778561529.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
