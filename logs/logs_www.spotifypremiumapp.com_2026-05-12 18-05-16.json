@@ -1,0 +1,52 @@
+{
+  "dominio": "www.spotifypremiumapp.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/12/26 18:05:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.spotifypremiumapp.com",
+        "aggregated": "/CN=www.spotifypremiumapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9208F82DED302410",
+      "not_before": 1778615469,
+      "not_after": 1795722669,
+      "fingerprint": "AC:32:94:51:14:33:B7:4A:27:59:74:83:91:95:1C:88:08:BF:23:79",
+      "sha1": "AC:32:94:51:14:33:B7:4A:27:59:74:83:91:95:1C:88:08:BF:23:79",
+      "sha256": "FA:ED:42:29:89:C8:FD:5C:2F:C4:82:AB:7B:19:4D:C6:E5:16:37:E4:55:05:45:E4:3F:21:F2:1D:00:27:87:C5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.spotifypremiumapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.spotifypremiumapp.com",
+        "subjectKeyIdentifier": "keyid:fb:58:ec:7b:a6:76:0f:c6:30:47:0f:b5:da:c5:19:7b:1c:8b:f8:ac",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4206169755,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4206169755&end=4206169755",
+    "seen": 1778619903.026,
+    "submission_timestamp": 1778615470.261,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

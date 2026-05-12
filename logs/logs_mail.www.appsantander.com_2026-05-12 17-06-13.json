@@ -1,0 +1,52 @@
+{
+  "dominio": "mail.www.appsantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 17:06:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mail.www.appsantander.com",
+        "aggregated": "/CN=mail.www.appsantander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06442F5F641A9BE6B1F290A1C2D799EEE60F",
+      "not_before": 1778606565,
+      "not_after": 1786382564,
+      "fingerprint": "C1:F4:92:63:D2:40:49:95:1D:D0:25:A4:E1:47:7A:95:6E:39:E1:A0",
+      "sha1": "C1:F4:92:63:D2:40:49:95:1D:D0:25:A4:E1:47:7A:95:6E:39:E1:A0",
+      "sha256": "5C:77:CE:BA:33:93:37:7C:3A:D9:33:39:15:5D:42:2E:5C:59:9C:17:35:09:D0:BD:9E:E7:31:E0:64:91:E0:94",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "mail.www.appsantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mail.www.appsantander.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4205232948,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4205232948&end=4205232948",
+    "seen": 1778616372.974,
+    "submission_timestamp": 1778610075.352,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

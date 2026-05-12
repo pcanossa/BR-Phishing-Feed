@@ -1,0 +1,53 @@
+{
+  "dominio": "spotifyappmx.workers.dev",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/12/26 17:38:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifyappmx.workers.dev",
+        "aggregated": "/CN=spotifyappmx.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8D1B660CB3BD4BF40EA82191A34A6846",
+      "not_before": 1778190588,
+      "not_after": 1785970095,
+      "fingerprint": "66:5D:83:75:35:5A:44:3E:D5:CF:BF:24:45:42:9E:EF:9D:EE:10:3A",
+      "sha1": "66:5D:83:75:35:5A:44:3E:D5:CF:BF:24:45:42:9E:EF:9D:EE:10:3A",
+      "sha256": "B2:8C:03:97:86:E7:BE:C4:24:9A:4B:0D:71:63:96:4D:1A:6E:41:2D:21:85:61:BE:D1:00:E7:A4:BF:3D:66:25",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "spotifyappmx.workers.dev",
+        "*.spotifyappmx.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jRs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:spotifyappmx.workers.dev, DNS:*.spotifyappmx.workers.dev",
+        "subjectKeyIdentifier": "keyid:9b:81:6c:95:63:8c:50:58:ee:cf:3d:6d:c0:7c:a3:6c:0f:d7:ea:86",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 619582082,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=619582082&end=619582082",
+    "seen": 1778618298.574,
+    "submission_timestamp": 1778194188.923,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

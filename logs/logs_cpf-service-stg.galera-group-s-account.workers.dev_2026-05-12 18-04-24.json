@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-service-stg.galera-group-s-account.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 18:04:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "galera-group-s-account.workers.dev",
+        "aggregated": "/CN=galera-group-s-account.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "31767575BE28CAEC1377723AEA5EF2EA",
+      "not_before": 1778252450,
+      "not_after": 1786032040,
+      "fingerprint": "F5:77:46:7C:CF:37:70:92:27:6C:8E:10:81:BA:C2:96:39:FA:F0:BC",
+      "sha1": "F5:77:46:7C:CF:37:70:92:27:6C:8E:10:81:BA:C2:96:39:FA:F0:BC",
+      "sha256": "6A:1B:87:B0:50:9C:2C:2B:C9:65:A6:9F:57:24:BB:7A:7E:9E:AD:F2:5F:AC:FF:85:7D:3E:6B:99:83:EE:A6:CC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "galera-group-s-account.workers.dev",
+        "*.cpf-service-stg.galera-group-s-account.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MXY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:galera-group-s-account.workers.dev, DNS:*.cpf-service-stg.galera-group-s-account.workers.dev",
+        "subjectKeyIdentifier": "keyid:76:12:6d:be:88:e5:9b:73:e1:ce:bb:8a:78:21:9c:09:2b:6a:33:85",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 599401361,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=599401361&end=599401361",
+    "seen": 1778619864.006,
+    "submission_timestamp": 1778256051.443,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
