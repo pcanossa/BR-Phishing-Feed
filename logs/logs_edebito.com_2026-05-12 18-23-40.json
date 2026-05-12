@@ -1,0 +1,53 @@
+{
+  "dominio": "edebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 18:23:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "edebito.com",
+        "aggregated": "/CN=edebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B6E9FF70CB46D5A2",
+      "not_before": 1778195458,
+      "not_after": 1795302658,
+      "fingerprint": "0C:1A:D5:AA:E6:CF:C3:81:85:8A:AD:43:66:6D:A8:9C:AE:FA:54:F3",
+      "sha1": "0C:1A:D5:AA:E6:CF:C3:81:85:8A:AD:43:66:6D:A8:9C:AE:FA:54:F3",
+      "sha256": "46:C4:AD:5D:98:3A:64:CB:87:46:18:A5:D3:58:87:0E:10:DF:40:90:3D:8D:30:35:45:F6:FD:99:77:E3:83:1B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "edebito.com",
+        "www.edebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:edebito.com, DNS:www.edebito.com",
+        "subjectKeyIdentifier": "keyid:30:1e:fb:ee:72:02:a3:c9:33:7f:95:6a:8b:37:b8:d4:04:14:f7:76",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 619734511,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=619734511&end=619734511",
+    "seen": 1778621006.822,
+    "submission_timestamp": 1778195459.547,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

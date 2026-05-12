@@ -1,0 +1,53 @@
+{
+  "dominio": "debitor.pt",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 18:30:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.pt",
+        "aggregated": "/CN=debitor.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06ECDAE93F032A8DC9B431CCB81C27A3C17C",
+      "not_before": 1778617421,
+      "not_after": 1786393420,
+      "fingerprint": "49:E3:D5:79:B0:CF:87:F3:4D:17:FE:53:D0:00:FD:C3:8B:D9:8E:00",
+      "sha1": "49:E3:D5:79:B0:CF:87:F3:4D:17:FE:53:D0:00:FD:C3:8B:D9:8E:00",
+      "sha256": "17:3F:42:87:01:91:2A:75:AB:C1:4A:66:39:37:3D:A1:75:17:F9:36:88:F3:69:4E:54:E2:E1:49:A1:A6:B1:D8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.pt",
+        "*.debitor.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitor.pt, DNS:debitor.pt",
+        "subjectKeyIdentifier": "keyid:25:07:e1:67:8b:76:19:a8:67:e8:46:93:03:98:89:4e:58:d3:2b:7d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 617703842,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=617703842&end=617703842",
+    "seen": 1778621415.016,
+    "submission_timestamp": 1778620931.418,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
