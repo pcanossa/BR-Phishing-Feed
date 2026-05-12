@@ -1,0 +1,52 @@
+{
+  "dominio": "mt-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 02:48:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mt-debitos.com",
+        "aggregated": "/CN=mt-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06D28ED836A9B908D0AAE32F28AE0B88F6D2",
+      "not_before": 1778536481,
+      "not_after": 1786312480,
+      "fingerprint": "20:19:87:4E:42:AE:DD:C4:1D:B0:08:AF:55:81:92:B9:66:BE:62:35",
+      "sha1": "20:19:87:4E:42:AE:DD:C4:1D:B0:08:AF:55:81:92:B9:66:BE:62:35",
+      "sha256": "9F:68:A5:6E:DB:B1:9C:44:51:8A:16:55:97:27:18:04:1E:FF:B4:62:8B:26:58:E5:13:58:9F:11:88:27:51:E3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "mt-debitos.com",
+        "*.mt-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.mt-debitos.com, DNS:mt-debitos.com",
+        "subjectKeyIdentifier": "keyid:78:83:3f:e5:bb:01:92:10:3c:be:a1:2f:87:74:f0:74:ac:f3:9e:2a"
+      }
+    },
+    "cert_index": 4192095311,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4192095311&end=4192095311",
+    "seen": 1778564871.632,
+    "submission_timestamp": 1778539993.886,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
