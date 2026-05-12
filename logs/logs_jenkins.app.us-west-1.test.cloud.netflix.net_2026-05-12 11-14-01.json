@@ -1,0 +1,66 @@
+{
+  "dominio": "jenkins.app.us-west-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 11:14:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=jenkins.app.us-west-1.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0850EACBB6012A943DFF22CA481DB9C3",
+      "not_before": 1777939200,
+      "not_after": 1785730370,
+      "fingerprint": "1C:26:D7:05:0F:4B:DF:16:F2:37:7C:21:1A:2E:DC:E0:FF:6B:11:DD",
+      "sha1": "1C:26:D7:05:0F:4B:DF:16:F2:37:7C:21:1A:2E:DC:E0:FF:6B:11:DD",
+      "sha256": "54:94:BB:72:CF:7A:02:75:DA:74:31:FF:8B:10:1F:44:7C:F7:5F:FC:21:74:3C:43:B7:EE:E9:FD:B6:4F:F6:03",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "jenkins-mobile-controller.cluster.us-west-1.test.cloud.netflix.net",
+        "jenkins.dyntest.netflix.net",
+        "jenkins.test.netflix.net",
+        "jenkins.us-west-1.dyntest.netflix.net",
+        "jenkins.us-west-1.test.netflix.net",
+        "mobile.builds.test.netflix.net",
+        "mobile.jenkins.dyntest.netflix.net",
+        "mobile.jenkins.test.netflix.net",
+        "mobile.jenkins.us-west-1.dyntest.netflix.net",
+        "mobile.jenkins.us-west-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:jenkins-mobile-controller.cluster.us-west-1.test.cloud.netflix.net, DNS:jenkins.app.us-west-1.test.cloud.netflix.net, DNS:jenkins.dyntest.netflix.net, DNS:jenkins.test.netflix.net, DNS:jenkins.us-west-1.dyntest.netflix.net, DNS:jenkins.us-west-1.test.netflix.net, DNS:mobile.builds.test.netflix.net, DNS:mobile.jenkins.dyntest.netflix.net, DNS:mobile.jenkins.test.netflix.net, DNS:mobile.jenkins.us-west-1.dyntest.netflix.net, DNS:mobile.jenkins.us-west-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:4e:42:30:e2:ef:d7:8d:db:c2:bd:92:af:86:99:0d:ef:81:cc:7c:6d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1532368797,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1532368797&end=1532368797",
+    "seen": 1778595228.676,
+    "submission_timestamp": 1777954812.924,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}
