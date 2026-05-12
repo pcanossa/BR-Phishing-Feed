@@ -1,0 +1,52 @@
+{
+  "dominio": "debitocasa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 00:30:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitocasa.com",
+        "aggregated": "/CN=*.debitocasa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "055ABE7F57954D5E7C9F9F1660981E7BE52F",
+      "not_before": 1778525797,
+      "not_after": 1786301796,
+      "fingerprint": "80:3D:A7:B6:A6:68:9E:27:AC:8C:60:F9:F8:49:6D:D8:66:69:58:02",
+      "sha1": "80:3D:A7:B6:A6:68:9E:27:AC:8C:60:F9:F8:49:6D:D8:66:69:58:02",
+      "sha256": "1D:85:47:C0:0D:47:95:EF:11:6A:23:54:F5:1B:E4:90:78:DA:00:AB:B9:62:04:5D:65:91:96:A8:60:4B:12:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitocasa.com",
+        "debitocasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitocasa.com, DNS:debitocasa.com",
+        "subjectKeyIdentifier": "keyid:b7:b6:e6:55:66:38:2f:29:a8:58:d8:5c:bb:bf:22:8b:7f:e0:37:ad"
+      }
+    },
+    "cert_index": 4190075800,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4190075800&end=4190075800",
+    "seen": 1778556639.325,
+    "submission_timestamp": 1778529310.322,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

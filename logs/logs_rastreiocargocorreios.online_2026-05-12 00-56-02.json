@@ -1,0 +1,52 @@
+{
+  "dominio": "rastreiocargocorreios.online",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 00:56:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreiocargocorreios.online",
+        "aggregated": "/CN=rastreiocargocorreios.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "068628EB56D89AEEDE040719D78C72471DBB",
+      "not_before": 1778527578,
+      "not_after": 1786303577,
+      "fingerprint": "A2:BB:10:59:FC:21:84:B7:EE:0E:68:94:4F:F9:47:E4:15:BB:A5:F8",
+      "sha1": "A2:BB:10:59:FC:21:84:B7:EE:0E:68:94:4F:F9:47:E4:15:BB:A5:F8",
+      "sha256": "9E:20:EE:AA:DA:86:E1:31:53:EF:0E:15:AB:87:F2:18:81:AA:96:B7:9B:95:E5:D2:C0:43:E8:97:49:06:6E:74",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "rastreiocargocorreios.online",
+        "*.rastreiocargocorreios.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.rastreiocargocorreios.online, DNS:rastreiocargocorreios.online",
+        "subjectKeyIdentifier": "keyid:30:98:eb:14:f1:c3:81:70:eb:53:e9:b2:6e:54:94:32:1e:a1:e6:48"
+      }
+    },
+    "cert_index": 4190444889,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4190444889&end=4190444889",
+    "seen": 1778558150.979,
+    "submission_timestamp": 1778531092.298,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "login.uber.egy.net",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/12/26 01:03:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.uber.egy.net",
+        "aggregated": "/CN=login.uber.egy.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0513906925128B86DEC02DFCDCCC2F8B",
+      "not_before": 1778544000,
+      "not_after": 1786319999,
+      "fingerprint": "06:D3:06:15:A2:19:24:27:00:A5:F8:21:67:00:66:C4:66:05:F5:6F",
+      "sha1": "06:D3:06:15:A2:19:24:27:00:A5:F8:21:67:00:66:C4:66:05:F5:6F",
+      "sha256": "4B:C4:2E:41:59:5C:84:EC:E8:04:57:60:F6:A7:1C:20:0D:AD:D2:B5:B2:15:64:58:2F:D3:9B:7B:56:5D:D8:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.uber.egy.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.uber.egy.net",
+        "subjectKeyIdentifier": "keyid:b5:bb:cc:98:a7:02:44:cc:20:ad:43:84:3a:26:be:80:2f:52:81:5e"
+      }
+    },
+    "cert_index": 185904767,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x726/190",
+    "seen": 1778558586.098,
+    "submission_timestamp": 1778558585.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

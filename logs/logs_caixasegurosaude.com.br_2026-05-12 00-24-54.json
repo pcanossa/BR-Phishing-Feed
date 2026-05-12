@@ -1,0 +1,53 @@
+{
+  "dominio": "caixasegurosaude.com.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/12/26 00:24:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixasegurosaude.com.br",
+        "aggregated": "/CN=caixasegurosaude.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "37DEFC37722B1CC113B352BB3E650F12",
+      "not_before": 1778525209,
+      "not_after": 1786304647,
+      "fingerprint": "B9:1F:99:DD:EB:52:EA:5E:F3:60:12:46:75:00:7D:5A:2E:2F:37:F1",
+      "sha1": "B9:1F:99:DD:EB:52:EA:5E:F3:60:12:46:75:00:7D:5A:2E:2F:37:F1",
+      "sha256": "39:F5:74:32:D0:FF:1C:E8:E0:9B:2F:97:38:AC:3C:7E:4D:61:58:A5:DF:CF:AC:29:73:B3:FE:7E:16:6A:81:26",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixasegurosaude.com.br",
+        "*.caixasegurosaude.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/N94, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixasegurosaude.com.br, DNS:*.caixasegurosaude.com.br",
+        "subjectKeyIdentifier": "keyid:07:d3:e0:3e:c1:e3:5f:5b:50:fb:e1:db:22:7c:e3:d2:34:0d:e1:31",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4189997041,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4189997041&end=4189997041",
+    "seen": 1778556282.701,
+    "submission_timestamp": 1778528810.476,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

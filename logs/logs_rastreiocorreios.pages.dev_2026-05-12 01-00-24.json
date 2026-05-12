@@ -1,0 +1,53 @@
+{
+  "dominio": "rastreiocorreios.pages.dev",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 01:00:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreiocorreios.pages.dev",
+        "aggregated": "/CN=rastreiocorreios.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3FF54EDBC0485E4D0E2A5822CE8865DD",
+      "not_before": 1778527839,
+      "not_after": 1786307261,
+      "fingerprint": "1F:BC:DC:8A:64:C6:07:33:4C:48:9E:C7:F6:BC:0E:12:53:E2:36:AB",
+      "sha1": "1F:BC:DC:8A:64:C6:07:33:4C:48:9E:C7:F6:BC:0E:12:53:E2:36:AB",
+      "sha256": "C1:20:EA:26:6E:C1:82:7C:B7:D0:C9:99:4C:43:2D:9A:2C:AF:CB:DF:82:39:87:FA:BD:E9:CE:C8:10:93:24:6B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreiocorreios.pages.dev",
+        "*.rastreiocorreios.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/P_U, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreiocorreios.pages.dev, DNS:*.rastreiocorreios.pages.dev",
+        "subjectKeyIdentifier": "keyid:0b:43:88:4c:b2:64:d6:96:70:1a:2e:2e:4d:f2:e7:25:ca:fa:e9:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4190512521,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4190512521&end=4190512521",
+    "seen": 1778558412.205,
+    "submission_timestamp": 1778531440.61,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

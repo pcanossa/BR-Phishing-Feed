@@ -1,0 +1,52 @@
+{
+  "dominio": "www.rastreamentocorreios.solutions",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 00:59:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.rastreamentocorreios.solutions",
+        "aggregated": "/CN=www.rastreamentocorreios.solutions"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "113752E77480DA9D",
+      "not_before": 1778531347,
+      "not_after": 1795638547,
+      "fingerprint": "C1:A8:C7:A4:48:8E:CA:27:AB:50:CA:C9:C6:11:6C:E6:64:58:9D:E7",
+      "sha1": "C1:A8:C7:A4:48:8E:CA:27:AB:50:CA:C9:C6:11:6C:E6:64:58:9D:E7",
+      "sha256": "2F:89:B0:CB:65:97:22:E4:CA:62:E2:09:41:AA:E3:69:86:D1:67:F3:E9:DA:B2:C7:AB:45:70:A9:E7:91:FD:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.rastreamentocorreios.solutions"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.rastreamentocorreios.solutions",
+        "subjectKeyIdentifier": "keyid:44:d5:f0:8f:86:49:d9:ed:48:11:45:1d:a3:06:91:ee:3d:9b:6e:c6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4190493987,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4190493987&end=4190493987",
+    "seen": 1778558336.262,
+    "submission_timestamp": 1778531347.518,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

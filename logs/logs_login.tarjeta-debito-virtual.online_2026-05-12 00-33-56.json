@@ -1,0 +1,52 @@
+{
+  "dominio": "login.tarjeta-debito-virtual.online",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/12/26 00:33:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.tarjeta-debito-virtual.online",
+        "aggregated": "/CN=login.tarjeta-debito-virtual.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C2E440DEF3EB3D16955B086B22113D6",
+      "not_before": 1778457600,
+      "not_after": 1786233599,
+      "fingerprint": "B0:21:DD:88:D9:29:0A:1F:B5:33:72:BE:88:E2:4B:9C:92:0B:F2:1E",
+      "sha1": "B0:21:DD:88:D9:29:0A:1F:B5:33:72:BE:88:E2:4B:9C:92:0B:F2:1E",
+      "sha256": "FE:34:26:C2:A3:6A:73:C7:ED:9C:C6:E7:AC:14:2B:A5:BC:47:34:55:B8:65:96:02:EC:E8:EF:81:DC:70:41:21",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.tarjeta-debito-virtual.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.tarjeta-debito-virtual.online",
+        "subjectKeyIdentifier": "keyid:bb:8f:b9:a0:1f:10:06:a2:06:7f:09:85:ec:ce:48:3d:68:e8:73:b5"
+      }
+    },
+    "cert_index": 4190123900,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4190123900&end=4190123900",
+    "seen": 1778556824.619,
+    "submission_timestamp": 1778529612.371,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
