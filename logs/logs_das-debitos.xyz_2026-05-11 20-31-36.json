@@ -1,0 +1,52 @@
+{
+  "dominio": "das-debitos.xyz",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/11/26 20:31:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "das-debitos.xyz",
+        "aggregated": "/CN=das-debitos.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "97B99EDA4122C50D135F971EC38B31F9",
+      "not_before": 1778403846,
+      "not_after": 1786183357,
+      "fingerprint": "A7:C0:6D:FD:24:74:03:9E:F0:09:AE:05:24:C4:70:C7:6C:96:E6:D8",
+      "sha1": "A7:C0:6D:FD:24:74:03:9E:F0:09:AE:05:24:C4:70:C7:6C:96:E6:D8",
+      "sha256": "8A:5A:45:29:CC:82:22:6F:95:9B:28:AE:90:F9:7D:35:FD:C7:C1:A7:F7:C7:69:92:17:A8:5E:6C:F5:67:64:71",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "das-debitos.xyz",
+        "*.das-debitos.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/l7k, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:das-debitos.xyz, DNS:*.das-debitos.xyz",
+        "subjectKeyIdentifier": "keyid:73:0e:66:7a:9b:8c:9f:30:34:c6:14:aa:ba:10:02:28:a9:a7:25:17"
+      }
+    },
+    "cert_index": 4187238281,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4187238281&end=4187238281",
+    "seen": 1778542284.792,
+    "submission_timestamp": 1778514105.302,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
