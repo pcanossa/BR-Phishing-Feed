@@ -1,0 +1,52 @@
+{
+  "dominio": "rastreiocorreios.io",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 15:54:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreiocorreios.io",
+        "aggregated": "/CN=rastreiocorreios.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "30165DD250EBCB670E353D7A6C7F1041",
+      "not_before": 1778558487,
+      "not_after": 1786337947,
+      "fingerprint": "D0:11:68:A4:FC:DB:D5:8B:84:00:93:48:83:E1:9D:12:A4:69:71:07",
+      "sha1": "D0:11:68:A4:FC:DB:D5:8B:84:00:93:48:83:E1:9D:12:A4:69:71:07",
+      "sha256": "35:17:88:21:62:0B:8F:BD:6A:FE:DC:F4:B1:9A:12:EF:B0:CE:CF:4E:34:58:00:7C:A1:3D:EE:88:AB:2D:37:70",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreiocorreios.io",
+        "*.rastreiocorreios.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MBY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreiocorreios.io, DNS:*.rastreiocorreios.io",
+        "subjectKeyIdentifier": "keyid:0c:5c:33:f7:c8:2f:f4:94:92:f9:27:5e:93:37:d9:e3:6d:1f:f3:01"
+      }
+    },
+    "cert_index": 4204102597,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4204102597&end=4204102597",
+    "seen": 1778612085.619,
+    "submission_timestamp": 1778603793.243,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

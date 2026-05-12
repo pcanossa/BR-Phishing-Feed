@@ -1,0 +1,51 @@
+{
+  "dominio": "apps.summitautomotive.partners",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/12/26 15:34:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.summitautomotive.partners",
+        "aggregated": "/CN=apps.summitautomotive.partners"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0384520CAE2478EC1478BC25537A864B",
+      "not_before": 1778544000,
+      "not_after": 1786406399,
+      "fingerprint": "65:84:D7:3A:5A:E8:66:AB:E0:84:8E:C4:5A:B1:9A:CD:75:F2:AE:3A",
+      "sha1": "65:84:D7:3A:5A:E8:66:AB:E0:84:8E:C4:5A:B1:9A:CD:75:F2:AE:3A",
+      "sha256": "6B:00:6A:8F:F5:81:9C:CF:40:60:B4:14:5A:A5:49:58:C3:94:EB:CD:4F:C9:B0:71:5B:8F:94:A3:0D:88:39:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.summitautomotive.partners"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.summitautomotive.partners",
+        "subjectKeyIdentifier": "keyid:49:99:3d:f8:a4:da:50:5d:fe:57:5a:ef:9e:d4:37:1d:3c:4d:52:b0"
+      }
+    },
+    "cert_index": 4203783804,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4203783804&end=4203783804",
+    "seen": 1778610873.174,
+    "submission_timestamp": 1778602165.596,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

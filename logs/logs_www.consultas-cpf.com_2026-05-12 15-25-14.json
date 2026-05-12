@@ -1,0 +1,52 @@
+{
+  "dominio": "www.consultas-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 15:25:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.consultas-cpf.com",
+        "aggregated": "/CN=www.consultas-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "C4ADD222A340024B",
+      "not_before": 1778601403,
+      "not_after": 1795708603,
+      "fingerprint": "E2:87:96:DB:BC:0D:5F:B0:0A:F0:07:5F:6D:E0:93:19:88:04:3B:E8",
+      "sha1": "E2:87:96:DB:BC:0D:5F:B0:0A:F0:07:5F:6D:E0:93:19:88:04:3B:E8",
+      "sha256": "0A:3D:C7:90:E1:01:38:D7:94:E3:99:5B:7B:B1:51:71:DF:DF:75:EB:DA:A5:DA:03:73:C6:3A:F4:F9:35:4D:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.consultas-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.consultas-cpf.com",
+        "subjectKeyIdentifier": "keyid:a1:14:b0:fd:e5:0b:b5:66:57:99:e0:33:62:45:09:a3:30:1e:ee:cc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4203622976,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4203622976&end=4203622976",
+    "seen": 1778610300.785,
+    "submission_timestamp": 1778601404.084,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

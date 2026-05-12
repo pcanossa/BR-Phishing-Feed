@@ -1,0 +1,51 @@
+{
+  "dominio": "test.www.appsantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 15:21:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test.www.appsantander.com",
+        "aggregated": "/CN=test.www.appsantander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06684FCF8C7C0A48BB05128ED7ADEBFF0FDB",
+      "not_before": 1778606566,
+      "not_after": 1786382565,
+      "fingerprint": "10:81:1E:04:68:72:E5:52:29:91:4F:75:42:8F:E6:92:04:F0:09:69",
+      "sha1": "10:81:1E:04:68:72:E5:52:29:91:4F:75:42:8F:E6:92:04:F0:09:69",
+      "sha256": "F8:E4:8B:C8:B3:A2:93:02:B6:BE:56:FD:2E:F7:CF:68:9B:94:A1:00:26:0F:F4:AE:D9:E1:9E:F0:41:8C:B5:24",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "test.www.appsantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:test.www.appsantander.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 178130025,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x695/820",
+    "seen": 1778610079.338,
+    "submission_timestamp": 1778610077.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
