@@ -1,0 +1,51 @@
+{
+  "dominio": "guide-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/12/26 19:13:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.guide-cpf.com",
+        "aggregated": "/CN=*.guide-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "052BD6455672EBAD77FFFEEA9605140BE744",
+      "not_before": 1778620370,
+      "not_after": 1786396369,
+      "fingerprint": "8F:50:3C:49:82:A7:2C:D7:75:D3:B5:AB:A7:94:D4:BB:C9:3B:8E:D5",
+      "sha1": "8F:50:3C:49:82:A7:2C:D7:75:D3:B5:AB:A7:94:D4:BB:C9:3B:8E:D5",
+      "sha256": "46:86:20:FD:D5:78:D8:FD:4F:E3:48:E1:35:47:05:69:C8:46:F6:C7:F2:73:B9:0F:C1:53:2A:15:06:FA:88:5E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.guide-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.guide-cpf.com",
+        "subjectKeyIdentifier": "keyid:80:42:76:d6:47:80:27:2e:28:d7:ab:ac:84:56:ce:30:9e:97:f5:0b"
+      }
+    },
+    "cert_index": 720254831,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=720254831&end=720254831",
+    "seen": 1778623988.834,
+    "submission_timestamp": 1778623883.055,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

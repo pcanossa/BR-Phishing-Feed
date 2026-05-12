@@ -1,0 +1,51 @@
+{
+  "dominio": "correioscartao.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/12/26 19:22:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correioscartao.com",
+        "aggregated": "/CN=correioscartao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "407D25C92E17B228",
+      "not_before": 1778606282,
+      "not_after": 1795713482,
+      "fingerprint": "5D:39:1C:12:52:BD:B8:93:9A:EA:EF:1A:C1:B2:39:C2:2D:0B:42:60",
+      "sha1": "5D:39:1C:12:52:BD:B8:93:9A:EA:EF:1A:C1:B2:39:C2:2D:0B:42:60",
+      "sha256": "3C:73:91:1E:AB:7E:CF:02:21:FB:F4:F6:7F:62:CB:5E:C0:EA:93:13:DA:81:7F:97:A2:CC:F3:38:EE:1A:00:97",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "correioscartao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:correioscartao.com",
+        "subjectKeyIdentifier": "keyid:1a:63:12:d1:65:cb:af:fc:90:9c:67:fc:44:53:71:37:29:fb:d3:d4"
+      }
+    },
+    "cert_index": 4207010054,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4207010054&end=4207010054",
+    "seen": 1778624510.855,
+    "submission_timestamp": 1778620093.204,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
