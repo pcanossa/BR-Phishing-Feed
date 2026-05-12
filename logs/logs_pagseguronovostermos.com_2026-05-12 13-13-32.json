@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguronovostermos.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/12/26 13:13:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguronovostermos.com",
+        "aggregated": "/CN=pagseguronovostermos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "055DD4BEA96C38CCBA49387137B5ECE3D3F7",
+      "not_before": 1778586876,
+      "not_after": 1786362875,
+      "fingerprint": "43:9B:AF:16:27:26:85:10:94:71:38:15:E6:5E:E7:8F:C4:8C:1E:65",
+      "sha1": "43:9B:AF:16:27:26:85:10:94:71:38:15:E6:5E:E7:8F:C4:8C:1E:65",
+      "sha256": "70:01:06:D8:68:16:40:15:69:CB:37:7D:8F:9F:8F:15:95:03:75:2E:46:84:7D:BC:AC:A0:4B:12:BA:85:38:B2",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguronovostermos.com",
+        "*.pagseguronovostermos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguronovostermos.com, DNS:pagseguronovostermos.com",
+        "subjectKeyIdentifier": "keyid:c3:10:74:b7:2d:31:ce:85:4a:f2:a0:69:c7:0d:9e:67:b1:1f:32:f7"
+      }
+    },
+    "cert_index": 4201564822,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4201564822&end=4201564822",
+    "seen": 1778602399.04,
+    "submission_timestamp": 1778590388.045,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
