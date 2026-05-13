@@ -1,0 +1,51 @@
+{
+  "dominio": "app.sony-spotify.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/12/26 23:30:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.sony-spotify.com",
+        "aggregated": "/CN=app.sony-spotify.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "10FC779C5CFA1A4B7B528B0742810F8C",
+      "not_before": 1778544000,
+      "not_after": 1786406399,
+      "fingerprint": "2F:57:F1:BC:D3:0E:F0:2D:34:60:F6:54:2A:04:D4:7E:8A:99:1D:16",
+      "sha1": "2F:57:F1:BC:D3:0E:F0:2D:34:60:F6:54:2A:04:D4:7E:8A:99:1D:16",
+      "sha256": "34:7E:6B:7C:22:79:5C:0F:F7:32:33:2F:1C:AF:FA:D1:CB:BF:D6:6D:A0:87:AD:48:44:9D:BB:5F:23:66:CC:DC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.sony-spotify.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.sony-spotify.com",
+        "subjectKeyIdentifier": "keyid:a4:8a:5a:b7:56:95:5d:29:c0:b1:85:40:1b:9b:70:57:04:51:51:c7"
+      }
+    },
+    "cert_index": 4209958405,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4209958405&end=4209958405",
+    "seen": 1778639391.972,
+    "submission_timestamp": 1778635084.648,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

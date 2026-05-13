@@ -1,0 +1,52 @@
+{
+  "dominio": "www.claro.com.br.centralfaturas.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/12/26 23:49:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.claro.com.br.centralfaturas.com",
+        "aggregated": "/CN=www.claro.com.br.centralfaturas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06D636D8CB9ADE05FCB651DB7230C7DFB7AD",
+      "not_before": 1778633159,
+      "not_after": 1786409158,
+      "fingerprint": "65:1C:12:01:9B:0F:04:62:F5:C3:3C:2D:D6:A4:80:E4:6E:5F:CA:19",
+      "sha1": "65:1C:12:01:9B:0F:04:62:F5:C3:3C:2D:D6:A4:80:E4:6E:5F:CA:19",
+      "sha256": "29:43:83:90:89:93:3B:89:93:08:71:CC:1B:BB:AC:98:7D:A9:79:BA:4F:B5:58:72:51:DD:B9:B1:F8:90:87:FF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.claro.com.br.centralfaturas.com",
+        "www.www.claro.com.br.centralfaturas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.claro.com.br.centralfaturas.com, DNS:www.www.claro.com.br.centralfaturas.com",
+        "subjectKeyIdentifier": "keyid:ee:cc:e7:87:f4:4f:e6:2d:0c:69:8e:de:de:09:aa:9a:71:4e:0f:73"
+      }
+    },
+    "cert_index": 4210269715,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4210269715&end=4210269715",
+    "seen": 1778640569.773,
+    "submission_timestamp": 1778636672.644,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

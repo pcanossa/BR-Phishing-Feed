@@ -1,0 +1,52 @@
+{
+  "dominio": "www.vivo.com.br.centralfaturas.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/12/26 23:49:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.vivo.com.br.centralfaturas.com",
+        "aggregated": "/CN=www.vivo.com.br.centralfaturas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06ABA4B9A7450B7C692BACCCD689659D3D36",
+      "not_before": 1778633135,
+      "not_after": 1786409134,
+      "fingerprint": "3C:2D:BC:A0:3B:48:71:AC:2D:96:09:B2:9B:D1:DD:15:3F:0D:A4:57",
+      "sha1": "3C:2D:BC:A0:3B:48:71:AC:2D:96:09:B2:9B:D1:DD:15:3F:0D:A4:57",
+      "sha256": "58:5A:CE:66:27:D5:C3:DD:DE:D7:4C:46:3B:E7:3C:5F:4E:64:6F:82:CD:EA:A2:CB:E8:96:5F:E2:EE:39:27:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.vivo.com.br.centralfaturas.com",
+        "www.www.vivo.com.br.centralfaturas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.vivo.com.br.centralfaturas.com, DNS:www.www.vivo.com.br.centralfaturas.com",
+        "subjectKeyIdentifier": "keyid:72:d5:9d:c3:9f:b2:22:24:dd:7f:f3:2e:1f:48:93:b5:3e:02:72:fc"
+      }
+    },
+    "cert_index": 4210265482,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4210265482&end=4210265482",
+    "seen": 1778640554.814,
+    "submission_timestamp": 1778636648.449,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

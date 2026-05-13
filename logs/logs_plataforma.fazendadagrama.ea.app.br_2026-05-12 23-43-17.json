@@ -1,0 +1,53 @@
+{
+  "dominio": "plataforma.fazendadagrama.ea.app.br",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/12/26 23:43:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "plataforma.fazendadagrama.ea.app.br",
+        "aggregated": "/CN=plataforma.fazendadagrama.ea.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06F815A7735D67C2C20842D7D38CE0BBD492",
+      "not_before": 1778632620,
+      "not_after": 1786408619,
+      "fingerprint": "E0:10:5A:D6:5A:C7:E7:03:10:8E:39:C3:5D:FC:42:9C:26:07:50:94",
+      "sha1": "E0:10:5A:D6:5A:C7:E7:03:10:8E:39:C3:5D:FC:42:9C:26:07:50:94",
+      "sha256": "DD:B0:E2:F3:2B:09:2B:30:D8:8F:78:43:4A:35:9D:D9:2D:30:9E:3F:F3:14:2D:40:84:4D:F1:B9:23:7D:6F:17",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "plataforma.fazendadagrama.ea.app.br",
+        "www.plataforma.fazendadagrama.ea.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:plataforma.fazendadagrama.ea.app.br, DNS:www.plataforma.fazendadagrama.ea.app.br",
+        "subjectKeyIdentifier": "keyid:e3:7e:11:1b:15:e2:98:44:00:6d:e7:af:9e:89:c1:a6:ab:7a:2c:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4210168309,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4210168309&end=4210168309",
+    "seen": 1778640183.085,
+    "submission_timestamp": 1778636130.289,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

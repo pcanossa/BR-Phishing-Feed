@@ -1,0 +1,52 @@
+{
+  "dominio": "login.fazendabrazil.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/13/26 00:01:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.fazendabrazil.com",
+        "aggregated": "/CN=login.fazendabrazil.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "D31F04F986F836004C9ED8894612B343",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "B0:61:FE:40:9F:E8:82:27:19:6B:2D:12:D2:13:01:9D:22:03:AF:40",
+      "sha1": "B0:61:FE:40:9F:E8:82:27:19:6B:2D:12:D2:13:01:9D:22:03:AF:40",
+      "sha256": "C9:CB:07:37:01:C4:98:42:DF:C7:AD:EF:FE:D5:AD:6F:6F:66:C4:8D:CF:EF:2D:3B:6D:24:4D:57:C1:7F:97:0A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.fazendabrazil.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.fazendabrazil.com",
+        "subjectKeyIdentifier": "keyid:a7:0f:d5:0e:b1:b8:dd:45:af:d9:1b:b9:f1:00:db:97:9d:58:05:87",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 830347863,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=830347863&end=830347863",
+    "seen": 1778641299.825,
+    "submission_timestamp": 1777896017.227,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

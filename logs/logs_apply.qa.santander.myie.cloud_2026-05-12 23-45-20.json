@@ -1,0 +1,52 @@
+{
+  "dominio": "apply.qa.santander.myie.cloud",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/12/26 23:45:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.qa.santander.myie.cloud",
+        "aggregated": "/CN=santander.qa.santander.myie.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A70A27F245C41BD3C8838586E47B259",
+      "not_before": 1778630400,
+      "not_after": 1795737599,
+      "fingerprint": "2D:C1:BD:21:58:0A:13:58:4F:1D:13:AF:DA:49:7D:68:A9:C5:B5:F0",
+      "sha1": "2D:C1:BD:21:58:0A:13:58:4F:1D:13:AF:DA:49:7D:68:A9:C5:B5:F0",
+      "sha256": "86:EC:26:BB:43:35:DF:49:38:0C:2B:DD:3C:7E:A4:A7:A0:06:24:9B:8A:E8:10:65:C1:AE:B9:18:7A:76:9E:51",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.qa.santander.myie.cloud",
+        "apply.qa.santander.myie.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.qa.santander.myie.cloud, DNS:apply.qa.santander.myie.cloud",
+        "subjectKeyIdentifier": "keyid:9c:d0:95:79:68:02:a8:0d:23:4f:f0:d5:6f:55:cb:df:7d:e9:07:48"
+      }
+    },
+    "cert_index": 278372347,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x087/391",
+    "seen": 1778640306.593,
+    "submission_timestamp": 1778640303.63,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}
