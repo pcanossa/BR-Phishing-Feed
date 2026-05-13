@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-forte.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/13/26 01:27:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-forte.pages.dev",
+        "aggregated": "/CN=cpf-forte.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "1547A26D7E4E960D17364A122BB0394A",
+      "not_before": 1778641411,
+      "not_after": 1786417906,
+      "fingerprint": "6D:5B:86:01:D3:34:71:8B:A7:D5:78:1D:72:21:87:8E:43:80:A8:1A",
+      "sha1": "6D:5B:86:01:D3:34:71:8B:A7:D5:78:1D:72:21:87:8E:43:80:A8:1A",
+      "sha256": "E8:95:60:CD:CF:D6:E3:30:26:52:34:55:91:70:CE:EC:37:52:5E:38:C7:8D:DB:2E:B1:85:32:F1:90:40:A1:17",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-forte.pages.dev",
+        "*.cpf-forte.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-forte.pages.dev, DNS:*.cpf-forte.pages.dev",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4211356619,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4211356619&end=4211356619",
+    "seen": 1778646410.964,
+    "submission_timestamp": 1778642012.342,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
