@@ -1,0 +1,51 @@
+{
+  "dominio": "bradesco.digitalsegurancaonline.online",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/12/26 22:59:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco.digitalsegurancaonline.online",
+        "aggregated": "/CN=bradesco.digitalsegurancaonline.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0589E25170F17D82F25970CD27006E9C721E",
+      "not_before": 1777892176,
+      "not_after": 1785668175,
+      "fingerprint": "56:17:C6:5F:29:AA:7D:18:C6:C3:10:B1:E2:53:6B:3E:0E:09:FC:13",
+      "sha1": "56:17:C6:5F:29:AA:7D:18:C6:C3:10:B1:E2:53:6B:3E:0E:09:FC:13",
+      "sha256": "51:86:26:3B:88:25:8A:B1:6D:9C:45:F7:84:DD:A7:FC:3F:3F:AD:61:12:23:0F:F3:E4:DE:B1:C2:A5:C4:B6:0E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco.digitalsegurancaonline.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:bradesco.digitalsegurancaonline.online",
+        "subjectKeyIdentifier": "keyid:d9:3e:5a:98:18:4b:55:5b:c5:20:f8:6a:25:3f:f8:09:85:ba:d0:96"
+      }
+    },
+    "cert_index": 830287875,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=830287875&end=830287875",
+    "seen": 1778637551.829,
+    "submission_timestamp": 1777895686.675,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

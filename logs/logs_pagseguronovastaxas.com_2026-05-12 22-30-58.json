@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguronovastaxas.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/12/26 22:30:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguronovastaxas.com",
+        "aggregated": "/CN=pagseguronovastaxas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06C75E0DBFA9215B60AA77F72FF459F301FB",
+      "not_before": 1778627858,
+      "not_after": 1786403857,
+      "fingerprint": "F4:DA:1F:CE:D6:B6:A1:6D:6C:97:63:58:26:03:A4:00:A2:82:09:86",
+      "sha1": "F4:DA:1F:CE:D6:B6:A1:6D:6C:97:63:58:26:03:A4:00:A2:82:09:86",
+      "sha256": "8D:82:B4:F9:11:41:85:67:8C:1D:40:83:E4:CA:B2:BB:CE:84:4A:EA:33:43:66:D3:FB:71:0F:21:41:3F:A8:4D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguronovastaxas.com",
+        "*.pagseguronovastaxas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguronovastaxas.com, DNS:pagseguronovastaxas.com",
+        "subjectKeyIdentifier": "keyid:34:52:ac:e0:3a:81:70:26:38:35:76:b2:fc:ac:4d:8c:17:21:96:64",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4209199873,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4209199873&end=4209199873",
+    "seen": 1778635844.169,
+    "submission_timestamp": 1778631368.721,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

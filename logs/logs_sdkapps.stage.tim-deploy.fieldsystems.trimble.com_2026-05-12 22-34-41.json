@@ -1,0 +1,52 @@
+{
+  "dominio": "sdkapps.stage.tim-deploy.fieldsystems.trimble.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/12/26 22:34:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sdkapps.stage.tim-deploy.fieldsystems.trimble.com",
+        "aggregated": "/CN=sdkapps.stage.tim-deploy.fieldsystems.trimble.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "015EC425E72441F9DAD1749A7A353F84",
+      "not_before": 1778630400,
+      "not_after": 1795737599,
+      "fingerprint": "38:2D:39:92:CA:AE:02:81:E8:17:77:61:41:7F:1F:EF:80:C0:9F:2F",
+      "sha1": "38:2D:39:92:CA:AE:02:81:E8:17:77:61:41:7F:1F:EF:80:C0:9F:2F",
+      "sha256": "CF:2F:CA:95:9F:B6:F6:22:4C:ED:0F:47:F9:EB:74:44:D2:E7:E0:90:6D:F8:FA:24:77:A2:C8:3F:B3:FD:8E:26",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sdkapps.stage.tim-deploy.fieldsystems.trimble.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sdkapps.stage.tim-deploy.fieldsystems.trimble.com",
+        "subjectKeyIdentifier": "keyid:32:d0:09:8a:01:c9:a9:e3:44:26:6f:fa:3a:b6:6d:65:ff:92:89:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4209252418,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4209252418&end=4209252418",
+    "seen": 1778636066.995,
+    "submission_timestamp": 1778631591.868,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

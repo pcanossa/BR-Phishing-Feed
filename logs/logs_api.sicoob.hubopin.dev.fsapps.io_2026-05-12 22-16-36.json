@@ -1,0 +1,52 @@
+{
+  "dominio": "api.sicoob.hubopin.dev.fsapps.io",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "05/12/26 22:16:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.sicoob.hubopin.dev.fsapps.io",
+        "aggregated": "/CN=api.sicoob.hubopin.dev.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0577AFA3BE9E6482EB8FD058842903F0CB44",
+      "not_before": 1778626960,
+      "not_after": 1786402959,
+      "fingerprint": "FD:D9:C2:85:58:FF:12:53:69:C1:62:A4:8B:7B:F3:BF:7B:DB:C0:21",
+      "sha1": "FD:D9:C2:85:58:FF:12:53:69:C1:62:A4:8B:7B:F3:BF:7B:DB:C0:21",
+      "sha256": "10:83:5B:C2:81:3E:41:31:D5:D3:9C:F2:CF:39:87:2E:AB:ED:F9:AA:8D:F9:61:3F:5A:43:DC:E4:C9:75:59:48",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.sicoob.hubopin.dev.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.sicoob.hubopin.dev.fsapps.io",
+        "subjectKeyIdentifier": "keyid:be:8d:2f:52:03:fd:07:a3:2a:82:10:2f:05:36:f3:d4:63:56:a8:5c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4208985386,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4208985386&end=4208985386",
+    "seen": 1778634982.624,
+    "submission_timestamp": 1778630470.703,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
