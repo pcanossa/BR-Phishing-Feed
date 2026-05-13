@@ -1,0 +1,53 @@
+{
+  "dominio": "agent.bradesco.aposentado.qual.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/12/26 21:51:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "agent.bradesco.aposentado.qual.app",
+        "aggregated": "/CN=agent.bradesco.aposentado.qual.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0F62AECAEEEA1DC1279D9B58E8A35FB9",
+      "not_before": 1778198400,
+      "not_after": 1785974399,
+      "fingerprint": "44:87:22:23:8F:72:18:8B:4B:11:E9:43:0A:5E:3B:7D:9C:33:B8:ED",
+      "sha1": "44:87:22:23:8F:72:18:8B:4B:11:E9:43:0A:5E:3B:7D:9C:33:B8:ED",
+      "sha256": "F3:B8:DD:94:23:8E:27:00:A0:A8:FF:E5:8D:4D:C6:2D:2C:8B:33:D2:78:2E:0A:F6:14:A6:69:6E:5D:8A:BE:A1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "agent.bradesco.aposentado.qual.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:agent.bradesco.aposentado.qual.app",
+        "subjectKeyIdentifier": "keyid:38:f0:48:14:0f:c2:e0:b2:ba:32:eb:a1:e7:f6:ac:08:dd:c6:56:02",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 600165298,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=600165298&end=600165298",
+    "seen": 1778633497.52,
+    "submission_timestamp": 1778261420.248,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

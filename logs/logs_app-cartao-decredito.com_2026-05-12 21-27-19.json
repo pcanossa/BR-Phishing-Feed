@@ -1,0 +1,52 @@
+{
+  "dominio": "app-cartao-decredito.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/12/26 21:27:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-cartao-decredito.com",
+        "aggregated": "/CN=app-cartao-decredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "06F01EFA70045DD013F95C9A838AEBCC",
+      "not_before": 1778614368,
+      "not_after": 1786393827,
+      "fingerprint": "E4:FD:2F:67:A3:73:AE:A3:8E:8F:7B:E7:AF:23:6C:A9:31:37:C9:C8",
+      "sha1": "E4:FD:2F:67:A3:73:AE:A3:8E:8F:7B:E7:AF:23:6C:A9:31:37:C9:C8",
+      "sha256": "92:98:19:5D:BB:2B:D2:8B:2C:F7:3A:45:23:DF:A7:86:06:4E:7E:75:9E:98:BB:0A:18:1E:75:98:EC:AF:9F:63",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-cartao-decredito.com",
+        "*.app-cartao-decredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BvA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-cartao-decredito.com, DNS:*.app-cartao-decredito.com",
+        "subjectKeyIdentifier": "keyid:57:1b:f0:ff:b0:07:dc:35:70:fa:1c:42:1d:63:86:35:ab:07:75:aa"
+      }
+    },
+    "cert_index": 4208478523,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4208478523&end=4208478523",
+    "seen": 1778632025.04,
+    "submission_timestamp": 1778627599.54,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

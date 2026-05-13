@@ -1,0 +1,51 @@
+{
+  "dominio": "m.netflix-app.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 21:30:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "m.netflix-app.net",
+        "aggregated": "/CN=m.netflix-app.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05FE0989C8103C7A1E0170C0361A69DE8A2E",
+      "not_before": 1777148174,
+      "not_after": 1784924173,
+      "fingerprint": "D5:8B:AE:93:3D:BC:6F:9C:88:5C:2D:04:BE:9D:8B:6E:82:AB:58:D2",
+      "sha1": "D5:8B:AE:93:3D:BC:6F:9C:88:5C:2D:04:BE:9D:8B:6E:82:AB:58:D2",
+      "sha256": "10:12:B2:94:03:6F:B1:65:60:8C:8E:FA:5C:4A:3B:46:E8:0A:18:01:2E:76:41:B4:88:C8:53:20:3F:7E:39:32",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "m.netflix-app.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:m.netflix-app.net",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 1553233418,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1553233418&end=1553233418",
+    "seen": 1778632214.685,
+    "submission_timestamp": 1777958823.46,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

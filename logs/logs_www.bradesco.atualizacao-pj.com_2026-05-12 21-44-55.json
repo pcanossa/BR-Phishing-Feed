@@ -1,0 +1,57 @@
+{
+  "dominio": "www.bradesco.atualizacao-pj.com",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/12/26 21:44:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.atualizacao-pj.com",
+        "aggregated": "/CN=www.atualizacao-pj.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0588A00568DD20BEAFDD0AB59D31ED3E5013",
+      "not_before": 1777897891,
+      "not_after": 1785673890,
+      "fingerprint": "C8:99:01:6A:21:3F:4E:18:0A:98:45:89:9F:34:EA:48:2E:45:D3:9A",
+      "sha1": "C8:99:01:6A:21:3F:4E:18:0A:98:45:89:9F:34:EA:48:2E:45:D3:9A",
+      "sha256": "F8:EE:B0:BD:05:60:DA:69:DA:C3:D0:E6:E8:4C:00:86:76:8E:AB:08:B8:FF:70:BC:EB:12:E9:85:24:99:73:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.atualizacao-pj.com",
+        "atualizacao-pj.com",
+        "cpcalendars.atualizacao-pj.com",
+        "mail.atualizacao-pj.com",
+        "webmail.atualizacao-pj.com",
+        "www.bradesco.atualizacao-pj.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:atualizacao-pj.com, DNS:cpcalendars.atualizacao-pj.com, DNS:mail.atualizacao-pj.com, DNS:webmail.atualizacao-pj.com, DNS:www.atualizacao-pj.com, DNS:www.bradesco.atualizacao-pj.com",
+        "subjectKeyIdentifier": "keyid:21:cb:f1:dd:e4:bf:00:52:39:50:8b:69:6e:86:6c:35:d2:71:8b:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 687337820,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=687337820&end=687337820",
+    "seen": 1778633095.637,
+    "submission_timestamp": 1777901401.633,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
