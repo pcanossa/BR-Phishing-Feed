@@ -1,0 +1,51 @@
+{
+  "dominio": "uatrefresh.vendoronboardapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 20:37:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uatrefresh.vendoronboardapp.test.netflix.net",
+        "aggregated": "/CN=uatrefresh.vendoronboardapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06DCF021B50FCF84852A86B1A7D90538CD8B",
+      "not_before": 1778621290,
+      "not_after": 1786397289,
+      "fingerprint": "EB:06:B6:B8:87:D6:FE:97:F7:C8:C5:CD:7A:29:CA:21:2A:88:81:14",
+      "sha1": "EB:06:B6:B8:87:D6:FE:97:F7:C8:C5:CD:7A:29:CA:21:2A:88:81:14",
+      "sha256": "F6:6E:DB:8A:AA:37:CA:33:38:FA:EA:4C:AB:CC:BE:24:F2:87:C1:5B:FC:2D:B5:8F:DE:DB:A4:F3:35:CD:B4:CE",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "uatrefresh.vendoronboardapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:uatrefresh.vendoronboardapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:86:76:de:a7:ef:84:b8:b3:c3:ab:45:21:3d:97:7e:01:e1:0a:1f:39"
+      }
+    },
+    "cert_index": 4207970293,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4207970293&end=4207970293",
+    "seen": 1778629008.407,
+    "submission_timestamp": 1778624801.747,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

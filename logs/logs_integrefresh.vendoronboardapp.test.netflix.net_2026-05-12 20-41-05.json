@@ -1,0 +1,51 @@
+{
+  "dominio": "integrefresh.vendoronboardapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 20:41:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "integrefresh.vendoronboardapp.test.netflix.net",
+        "aggregated": "/CN=integrefresh.vendoronboardapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "063B82997B160EB0043F035DFDCEB45CC619",
+      "not_before": 1778621591,
+      "not_after": 1786397590,
+      "fingerprint": "66:40:29:7A:97:A5:35:40:C2:DC:57:8A:7E:86:82:29:35:E3:A5:A7",
+      "sha1": "66:40:29:7A:97:A5:35:40:C2:DC:57:8A:7E:86:82:29:35:E3:A5:A7",
+      "sha256": "DE:E2:BD:63:CD:4E:EC:98:C2:DC:1C:FE:99:41:6A:BB:99:C8:95:4A:1A:A2:8A:B7:9A:CB:E0:E4:5F:60:07:B7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "integrefresh.vendoronboardapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:integrefresh.vendoronboardapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:2c:01:17:a9:87:0e:0e:7b:9e:e4:7c:17:a0:f3:74:d6:88:57:c0:90"
+      }
+    },
+    "cert_index": 4208029422,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4208029422&end=4208029422",
+    "seen": 1778629251.067,
+    "submission_timestamp": 1778625104.627,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

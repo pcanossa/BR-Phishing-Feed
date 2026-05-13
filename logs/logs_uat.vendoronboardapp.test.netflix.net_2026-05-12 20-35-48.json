@@ -1,0 +1,51 @@
+{
+  "dominio": "uat.vendoronboardapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/12/26 20:35:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uat.vendoronboardapp.test.netflix.net",
+        "aggregated": "/CN=uat.vendoronboardapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0649FE0D4EB1C22A5E6AA66DCDA8273A6475",
+      "not_before": 1778621197,
+      "not_after": 1786397196,
+      "fingerprint": "D3:B9:37:6C:99:F1:BC:93:39:E7:29:82:FF:F8:00:33:E7:85:7A:38",
+      "sha1": "D3:B9:37:6C:99:F1:BC:93:39:E7:29:82:FF:F8:00:33:E7:85:7A:38",
+      "sha256": "70:8A:CB:AB:D3:B3:00:CC:8E:EE:A9:10:3F:3E:3E:9E:FC:D5:E9:C9:DF:67:58:B3:41:CA:A5:08:24:63:49:41",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "uat.vendoronboardapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:uat.vendoronboardapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:9d:62:75:9d:9d:68:fd:d3:52:59:c0:61:33:f5:74:61:22:20:71:5e"
+      }
+    },
+    "cert_index": 4207950892,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4207950892&end=4207950892",
+    "seen": 1778628934.35,
+    "submission_timestamp": 1778624709.269,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
