@@ -1,0 +1,53 @@
+{
+  "dominio": "test.cartao-de-credito-aprovacao-rapida-gci.cyou",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/13/26 00:52:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test.cartao-de-credito-aprovacao-rapida-gci.cyou",
+        "aggregated": "/CN=test.cartao-de-credito-aprovacao-rapida-gci.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0419276F001D972D2AF8C7D177A8DFDE",
+      "not_before": 1778198400,
+      "not_after": 1785974399,
+      "fingerprint": "5A:14:66:DA:9B:90:F9:4F:D6:22:F4:25:AA:98:95:20:34:C9:D4:3D",
+      "sha1": "5A:14:66:DA:9B:90:F9:4F:D6:22:F4:25:AA:98:95:20:34:C9:D4:3D",
+      "sha256": "89:63:B7:A3:CB:51:96:36:54:79:59:8C:26:EA:B4:A5:85:BF:96:36:96:7B:14:10:59:6B:CF:83:66:AF:8C:79",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "test.cartao-de-credito-aprovacao-rapida-gci.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:test.cartao-de-credito-aprovacao-rapida-gci.cyou",
+        "subjectKeyIdentifier": "keyid:ba:c4:0a:93:64:31:ff:5b:3d:86:c3:01:cb:8a:6e:d7:78:04:90:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 600779478,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=600779478&end=600779478",
+    "seen": 1778644318.601,
+    "submission_timestamp": 1778267595.566,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

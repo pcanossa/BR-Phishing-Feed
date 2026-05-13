@@ -1,0 +1,53 @@
+{
+  "dominio": "next-beta-cpf.aziro.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/13/26 00:48:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.next-beta-cpf.aziro.net",
+        "aggregated": "/CN=*.next-beta-cpf.aziro.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "052C9F00381CEE63C5D9B67247843D13",
+      "not_before": 1778198400,
+      "not_after": 1795305599,
+      "fingerprint": "AF:A7:5D:F5:0E:5B:C3:CB:3B:01:32:68:3C:68:31:57:6F:ED:34:4C",
+      "sha1": "AF:A7:5D:F5:0E:5B:C3:CB:3B:01:32:68:3C:68:31:57:6F:ED:34:4C",
+      "sha256": "5F:1A:F4:9D:63:9D:4D:4E:50:5F:A0:84:82:9B:BE:4F:43:85:71:AE:BA:43:A8:04:37:D5:41:B1:44:2C:E7:98",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.next-beta-cpf.aziro.net",
+        "next-beta-cpf.aziro.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.next-beta-cpf.aziro.net, DNS:next-beta-cpf.aziro.net",
+        "subjectKeyIdentifier": "keyid:d7:6c:5b:e0:8f:a9:24:e8:94:33:97:7b:07:84:50:40:5e:93:7d:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 600763589,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=600763589&end=600763589",
+    "seen": 1778644077.559,
+    "submission_timestamp": 1778267308.699,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

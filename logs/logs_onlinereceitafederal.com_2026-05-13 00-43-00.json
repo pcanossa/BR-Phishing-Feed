@@ -1,0 +1,53 @@
+{
+  "dominio": "onlinereceitafederal.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/13/26 00:43:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "onlinereceitafederal.com",
+        "aggregated": "/CN=onlinereceitafederal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3DF6D750E6786DDE119D50EFC585C70E",
+      "not_before": 1777892622,
+      "not_after": 1785672077,
+      "fingerprint": "2D:67:61:DC:B5:3C:A5:2A:42:D3:74:E0:24:96:A4:D8:D1:A6:5F:30",
+      "sha1": "2D:67:61:DC:B5:3C:A5:2A:42:D3:74:E0:24:96:A4:D8:D1:A6:5F:30",
+      "sha256": "BC:2C:DA:D8:2F:D7:F8:58:40:09:AC:39:2B:9F:6B:FB:39:54:AA:64:1A:12:53:AD:1A:D1:32:22:5E:28:D0:95",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "onlinereceitafederal.com",
+        "*.onlinereceitafederal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/PfY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:onlinereceitafederal.com, DNS:*.onlinereceitafederal.com",
+        "subjectKeyIdentifier": "keyid:e2:31:09:ec:42:4c:59:dd:6f:76:5e:c4:6f:e8:76:1d:ea:f4:e1:e1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 830387153,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=830387153&end=830387153",
+    "seen": 1778643765.606,
+    "submission_timestamp": 1777896223.381,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
