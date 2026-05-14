@@ -1,0 +1,54 @@
+{
+  "dominio": "apply.netflixhouse.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/14/26 11:46:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apply.eyelinestudios.com",
+        "aggregated": "/CN=apply.eyelinestudios.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "018127AB5116D6B2CA03AC6D3DF10832",
+      "not_before": 1778630400,
+      "not_after": 1795737599,
+      "fingerprint": "8A:92:9F:56:9A:87:BC:0D:3C:04:36:08:24:68:DE:80:A2:8D:04:90",
+      "sha1": "8A:92:9F:56:9A:87:BC:0D:3C:04:36:08:24:68:DE:80:A2:8D:04:90",
+      "sha256": "C0:8E:B1:AC:99:E7:C8:79:8D:F5:4C:73:FD:37:24:01:D9:75:40:E5:8C:53:95:BB:10:12:63:CC:7C:04:70:61",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apply.eyelinestudios.com",
+        "explore.jobs.netflix.net",
+        "apply.netflixhouse.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apply.eyelinestudios.com, DNS:explore.jobs.netflix.net, DNS:apply.netflixhouse.com",
+        "subjectKeyIdentifier": "keyid:3b:7a:f8:a6:52:0e:6c:58:ed:ba:63:41:6d:e1:ca:86:58:c8:72:17",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 726401720,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=726401720&end=726401720",
+    "seen": 1778770003.736,
+    "submission_timestamp": 1778657776.874,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.santander.57.no",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/14/26 11:07:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.santander.57.no",
+        "aggregated": "/CN=app.santander.57.no"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0942B24CE462CE7A83811960C2FA89DE",
+      "not_before": 1778630400,
+      "not_after": 1786406399,
+      "fingerprint": "C3:1B:8B:F7:C0:4A:F4:DE:61:4A:5A:98:32:13:2A:B1:D1:EC:CD:87",
+      "sha1": "C3:1B:8B:F7:C0:4A:F4:DE:61:4A:5A:98:32:13:2A:B1:D1:EC:CD:87",
+      "sha256": "1A:60:C2:2D:DF:1D:12:DD:E4:7F:1C:75:CB:50:FC:81:63:BD:E9:14:54:37:76:AB:68:1A:10:26:EC:A8:BA:FC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.santander.57.no"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.santander.57.no",
+        "subjectKeyIdentifier": "keyid:43:56:de:ea:15:3d:02:79:16:5c:e2:8c:86:63:6c:cc:89:42:9c:c4"
+      }
+    },
+    "cert_index": 180904989,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x706/660",
+    "seen": 1778767666.26,
+    "submission_timestamp": 1778712416.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

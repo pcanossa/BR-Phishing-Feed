@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-dashboard.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/14/26 12:01:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-dashboard.pages.dev",
+        "aggregated": "/CN=cpf-dashboard.pages.dev"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "34C1D4B048DFF0F8144B114FDFDE739F",
+      "not_before": 1778284800,
+      "not_after": 1786133745,
+      "fingerprint": "7B:46:C0:45:11:87:62:BD:FC:2E:5D:75:3E:26:CE:EE:44:50:E1:B9",
+      "sha1": "7B:46:C0:45:11:87:62:BD:FC:2E:5D:75:3E:26:CE:EE:44:50:E1:B9",
+      "sha256": "7E:4B:32:ED:22:54:0D:70:D7:4F:3E:01:64:2E:39:56:5E:4B:6A:70:C2:31:4C:CF:23:E5:C0:FB:2B:6F:93:85",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-dashboard.pages.dev",
+        "*.cpf-dashboard.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-dashboard.pages.dev, DNS:*.cpf-dashboard.pages.dev",
+        "subjectKeyIdentifier": "keyid:51:e3:0b:5e:a0:1a:6b:0b:02:7c:0f:4c:c0:d1:84:12:93:05:cd:63"
+      }
+    },
+    "cert_index": 283198953,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x106/245",
+    "seen": 1778770877.881,
+    "submission_timestamp": 1778701966.447,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

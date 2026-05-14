@@ -1,0 +1,53 @@
+{
+  "dominio": "designpagseguro.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/14/26 12:03:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "designpagseguro.workers.dev",
+        "aggregated": "/CN=designpagseguro.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2A094FA335CEAAB60E820E22BB06BAA6",
+      "not_before": 1778209417,
+      "not_after": 1785988855,
+      "fingerprint": "3C:A3:4F:88:29:3B:D1:62:DC:AE:66:27:87:AD:F2:78:58:9F:29:3B",
+      "sha1": "3C:A3:4F:88:29:3B:D1:62:DC:AE:66:27:87:AD:F2:78:58:9F:29:3B",
+      "sha256": "AC:C0:D7:FA:85:BB:36:9A:40:A7:41:F1:E4:3D:26:E0:70:BC:0A:A8:1D:EA:E7:23:1F:D0:89:2E:27:28:6D:4D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "designpagseguro.workers.dev",
+        "*.designpagseguro.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Kgk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:designpagseguro.workers.dev, DNS:*.designpagseguro.workers.dev",
+        "subjectKeyIdentifier": "keyid:3a:d9:b8:b8:a7:c8:58:72:75:39:dd:17:4f:28:7f:81:3c:a8:ba:ad",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 621915067,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=621915067&end=621915067",
+    "seen": 1778770991.115,
+    "submission_timestamp": 1778213017.777,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

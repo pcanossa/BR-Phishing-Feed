@@ -1,0 +1,52 @@
+{
+  "dominio": "app.rioclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/14/26 11:20:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.rioclaro.com",
+        "aggregated": "/CN=app.rioclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0633CAD65C1A700D5CEFF8C1C4354F61",
+      "not_before": 1778630400,
+      "not_after": 1786406399,
+      "fingerprint": "13:4D:EF:23:4F:68:66:74:21:DD:5D:4E:52:88:62:F9:54:7B:B6:C7",
+      "sha1": "13:4D:EF:23:4F:68:66:74:21:DD:5D:4E:52:88:62:F9:54:7B:B6:C7",
+      "sha256": "F3:86:99:11:E8:14:94:7A:29:39:20:28:84:38:1E:38:A4:C5:04:7D:E3:1B:4D:0A:FB:39:76:5F:58:EB:74:A1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.rioclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.rioclaro.com",
+        "subjectKeyIdentifier": "keyid:71:47:c3:73:26:cd:01:e8:99:6f:a0:52:d2:72:f5:f0:f3:04:41:16"
+      }
+    },
+    "cert_index": 190906215,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x745/727",
+    "seen": 1778768447.103,
+    "submission_timestamp": 1778716443.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
