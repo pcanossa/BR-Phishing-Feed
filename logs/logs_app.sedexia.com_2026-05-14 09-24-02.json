@@ -1,0 +1,52 @@
+{
+  "dominio": "app.sedexia.com",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/14/26 09:24:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.sedexia.com",
+        "aggregated": "/CN=app.sedexia.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "975AB4EFB10911B1B7AE553310D24587",
+      "not_before": 1778198400,
+      "not_after": 1786060799,
+      "fingerprint": "B4:AA:57:A4:A2:F2:D1:2F:89:DE:65:43:EB:66:DC:86:E9:2F:B6:34",
+      "sha1": "B4:AA:57:A4:A2:F2:D1:2F:89:DE:65:43:EB:66:DC:86:E9:2F:B6:34",
+      "sha256": "8A:30:B8:01:44:FE:C8:1B:84:55:93:81:70:AD:05:19:A6:84:EB:6C:54:41:0E:0E:0D:FF:8B:5B:B3:15:35:B6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.sedexia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.sedexia.com",
+        "subjectKeyIdentifier": "keyid:f3:20:52:ef:dd:61:17:ba:92:7f:89:02:7b:96:79:f7:da:a0:0a:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 621421816,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=621421816&end=621421816",
+    "seen": 1778761442.058,
+    "submission_timestamp": 1778209129.566,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

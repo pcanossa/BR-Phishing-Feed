@@ -1,0 +1,51 @@
+{
+  "dominio": "app.us-west-2.test.edge.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/14/26 09:44:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.us-west-2.test.edge.netflix.net",
+        "aggregated": "/CN=*.app.us-west-2.test.edge.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "063D29534F5B04FB7D9C7BC13514B8DC74C8",
+      "not_before": 1778680353,
+      "not_after": 1786456352,
+      "fingerprint": "F3:0F:8B:35:8E:4D:A8:08:E7:A3:88:ED:F1:66:DD:B4:FC:1D:0C:4C",
+      "sha1": "F3:0F:8B:35:8E:4D:A8:08:E7:A3:88:ED:F1:66:DD:B4:FC:1D:0C:4C",
+      "sha256": "67:5C:95:C7:89:DC:77:68:36:08:F9:B7:89:CD:E9:91:CC:91:D0:84:92:D3:03:3B:A7:20:73:AA:29:C7:4E:42",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.us-west-2.test.edge.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.app.us-west-2.test.edge.netflix.net",
+        "subjectKeyIdentifier": "keyid:81:71:76:a7:44:54:2c:a7:19:9c:0d:4c:1a:eb:90:f6:f4:47:69:89"
+      }
+    },
+    "cert_index": 180131440,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x703/638",
+    "seen": 1778762642.865,
+    "submission_timestamp": 1778683864.498,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

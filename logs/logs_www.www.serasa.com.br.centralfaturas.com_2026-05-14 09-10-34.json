@@ -1,0 +1,52 @@
+{
+  "dominio": "www.www.serasa.com.br.centralfaturas.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/14/26 09:10:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.serasa.com.br.centralfaturas.com",
+        "aggregated": "/CN=www.serasa.com.br.centralfaturas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "052DCB10100CD4B72A56AE74DDBD2E706C41",
+      "not_before": 1778633799,
+      "not_after": 1786409798,
+      "fingerprint": "D9:13:41:45:25:F3:B4:F2:68:B2:9B:CC:86:0E:2B:D9:E1:45:53:1A",
+      "sha1": "D9:13:41:45:25:F3:B4:F2:68:B2:9B:CC:86:0E:2B:D9:E1:45:53:1A",
+      "sha256": "4D:BB:25:37:25:B1:30:01:EC:F1:72:D3:81:AB:BD:39:A7:FF:82:60:79:E6:E8:18:25:5D:BF:BF:98:AC:72:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.serasa.com.br.centralfaturas.com",
+        "www.www.serasa.com.br.centralfaturas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.serasa.com.br.centralfaturas.com, DNS:www.www.serasa.com.br.centralfaturas.com",
+        "subjectKeyIdentifier": "keyid:0c:a1:19:90:30:99:f7:25:a2:ad:75:f0:61:a4:5c:b5:fd:43:0d:e1"
+      }
+    },
+    "cert_index": 4212058677,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4212058677&end=4212058677",
+    "seen": 1778760634.597,
+    "submission_timestamp": 1778645666.318,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

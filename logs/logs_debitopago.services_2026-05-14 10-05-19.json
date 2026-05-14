@@ -1,0 +1,52 @@
+{
+  "dominio": "debitopago.services",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/14/26 10:05:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitopago.services",
+        "aggregated": "/CN=debitopago.services"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A15E1E7E781C5A7FFDBD5333A5FA877",
+      "not_before": 1778630400,
+      "not_after": 1795737599,
+      "fingerprint": "0E:C2:1A:73:7C:58:AE:96:69:B3:6F:4A:D0:2E:C5:1E:29:BB:42:F1",
+      "sha1": "0E:C2:1A:73:7C:58:AE:96:69:B3:6F:4A:D0:2E:C5:1E:29:BB:42:F1",
+      "sha256": "27:C8:35:B1:C7:C4:A5:9B:92:97:72:09:66:04:02:FD:AF:C8:05:E3:69:34:64:24:D1:C0:80:FE:48:A5:24:E4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitopago.services",
+        "*.debitopago.services"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitopago.services, DNS:*.debitopago.services",
+        "subjectKeyIdentifier": "keyid:cc:b8:e5:fc:7e:90:3c:91:9f:00:ee:32:a4:ec:34:a7:9e:0a:3c:bc"
+      }
+    },
+    "cert_index": 281026142,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x097/758",
+    "seen": 1778763919.273,
+    "submission_timestamp": 1778673355.671,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

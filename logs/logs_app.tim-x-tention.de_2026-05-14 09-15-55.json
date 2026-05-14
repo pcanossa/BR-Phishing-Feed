@@ -1,0 +1,54 @@
+{
+  "dominio": "app.tim-x-tention.de",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/14/26 09:15:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "auth.tim-x-tention.de",
+        "aggregated": "/CN=auth.tim-x-tention.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "055175FB7BEB13C8D1ACDF8666438A7C2829",
+      "not_before": 1778670502,
+      "not_after": 1786446501,
+      "fingerprint": "DE:4C:D2:1F:6E:FA:2F:DC:64:9A:DA:3B:ED:E0:84:84:C6:D2:0D:12",
+      "sha1": "DE:4C:D2:1F:6E:FA:2F:DC:64:9A:DA:3B:ED:E0:84:84:C6:D2:0D:12",
+      "sha256": "42:BE:0B:6D:DD:84:79:8B:DE:53:64:5B:FD:DF:F3:1A:49:EF:39:2B:D8:07:B3:CC:0A:2A:87:26:80:08:0A:25",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "auth.tim-x-tention.de",
+        "*.auth.tim-x-tention.de",
+        "admin.tim-x-tention.de",
+        "app.tim-x-tention.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.auth.tim-x-tention.de, DNS:admin.tim-x-tention.de, DNS:app.tim-x-tention.de, DNS:auth.tim-x-tention.de",
+        "subjectKeyIdentifier": "keyid:8d:56:72:29:46:eb:37:06:00:71:94:e1:cd:af:aa:3a:fc:b5:02:9c"
+      }
+    },
+    "cert_index": 189538590,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x740/385",
+    "seen": 1778760955.855,
+    "submission_timestamp": 1778674013.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

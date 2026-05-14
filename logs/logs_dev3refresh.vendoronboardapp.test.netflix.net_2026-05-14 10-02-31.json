@@ -1,0 +1,51 @@
+{
+  "dominio": "dev3refresh.vendoronboardapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/14/26 10:02:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev3refresh.vendoronboardapp.test.netflix.net",
+        "aggregated": "/CN=dev3refresh.vendoronboardapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06413AFD45B22DEDB54B46A574CA134AE4D5",
+      "not_before": 1778644207,
+      "not_after": 1786420206,
+      "fingerprint": "B4:BB:3C:5D:C5:BF:C9:64:07:8F:0A:4E:17:6D:89:4E:4B:8B:C2:16",
+      "sha1": "B4:BB:3C:5D:C5:BF:C9:64:07:8F:0A:4E:17:6D:89:4E:4B:8B:C2:16",
+      "sha256": "AA:8C:01:A3:17:05:6F:49:FF:0F:2F:94:0D:7B:B4:74:05:39:A4:0F:A7:ED:6E:36:A8:5F:06:EB:C1:74:66:BB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dev3refresh.vendoronboardapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:dev3refresh.vendoronboardapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:08:39:b7:e0:1a:45:68:ea:c1:ef:03:af:09:30:c5:35:ce:50:0a:77"
+      }
+    },
+    "cert_index": 4212444413,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4212444413&end=4212444413",
+    "seen": 1778763751.956,
+    "submission_timestamp": 1778647719.505,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
