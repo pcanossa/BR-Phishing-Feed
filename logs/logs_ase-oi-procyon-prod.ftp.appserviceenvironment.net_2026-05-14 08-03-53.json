@@ -1,0 +1,58 @@
+{
+  "dominio": "ase-oi-procyon-prod.ftp.appserviceenvironment.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/14/26 08:03:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "waws-prod-sn1-482101b4.publish.p.azurewebsites.windows.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=waws-prod-sn1-482101b4.publish.p.azurewebsites.windows.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "41002A0F33BF2B2308BA7DC3F40000002A0F33",
+      "not_before": 1778646921,
+      "not_after": 1794198921,
+      "fingerprint": "0A:A8:D1:E2:C1:76:11:C2:F5:DC:13:5D:BD:50:76:68:0F:0F:D0:F6",
+      "sha1": "0A:A8:D1:E2:C1:76:11:C2:F5:DC:13:5D:BD:50:76:68:0F:0F:D0:F6",
+      "sha256": "BA:0A:5C:D5:45:07:9A:9B:1D:10:31:21:B4:1E:0D:B9:25:80:BD:C0:59:A3:D4:88:35:E0:A1:8F:55:23:2E:75",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "waws-prod-sn1-482101b4.publish.p.azurewebsites.windows.net",
+        "waws-prod-sn1-482101b4.ftp.p.azurewebsites.windows.net",
+        "ase-oi-procyon-prod.ftp.appserviceenvironment.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:waws-prod-sn1-482101b4.ftp.p.azurewebsites.windows.net, DNS:waws-prod-sn1-482101b4.publish.p.azurewebsites.windows.net, DNS:ase-oi-procyon-prod.ftp.appserviceenvironment.net",
+        "subjectKeyIdentifier": "keyid:0a:92:37:ac:8a:0a:59:77:01:8b:19:86:4b:38:f1:aa:95:d3:66:32",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 724503084,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=724503084&end=724503084",
+    "seen": 1778756633.531,
+    "submission_timestamp": 1778647526.054,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
