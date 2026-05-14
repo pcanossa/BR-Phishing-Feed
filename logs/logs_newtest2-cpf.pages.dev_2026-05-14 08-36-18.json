@@ -1,0 +1,52 @@
+{
+  "dominio": "newtest2-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/14/26 08:36:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "newtest2-cpf.pages.dev",
+        "aggregated": "/CN=newtest2-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06E52C644FF385A5FAB9FC443F319EADF9A4",
+      "not_before": 1778656909,
+      "not_after": 1786432908,
+      "fingerprint": "74:2B:B5:B8:3C:FD:1E:DB:42:4D:D7:E3:A0:94:D7:B3:C4:12:24:BD",
+      "sha1": "74:2B:B5:B8:3C:FD:1E:DB:42:4D:D7:E3:A0:94:D7:B3:C4:12:24:BD",
+      "sha256": "C8:E5:6E:6C:BA:C9:5A:6E:EF:1C:93:40:E7:56:F2:CA:D7:0E:41:87:B8:C8:EA:78:75:97:DE:3D:DA:D4:2A:31",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "newtest2-cpf.pages.dev",
+        "*.newtest2-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.newtest2-cpf.pages.dev, DNS:newtest2-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:17:fa:77:03:27:ca:77:77:df:42:87:4f:f1:d3:c2:08:08:b1:de:b1"
+      }
+    },
+    "cert_index": 179498388,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x701/165",
+    "seen": 1778758577.954,
+    "submission_timestamp": 1778660419.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "api.painel.debitodireto.co",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/14/26 08:58:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.painel.debitodireto.co",
+        "aggregated": "/CN=api.painel.debitodireto.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0F85795A38A0047A8D1DF7B9E6EE7310",
+      "not_before": 1778630400,
+      "not_after": 1795737599,
+      "fingerprint": "93:83:D1:56:19:49:F6:3D:37:34:28:6B:89:7F:71:B3:94:BE:46:21",
+      "sha1": "93:83:D1:56:19:49:F6:3D:37:34:28:6B:89:7F:71:B3:94:BE:46:21",
+      "sha256": "55:41:B0:35:EF:6A:52:73:34:CC:57:42:11:7A:8A:1B:C4:4D:1F:FB:36:03:4D:59:7B:D5:5B:8A:51:4F:5C:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.painel.debitodireto.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.painel.debitodireto.co",
+        "subjectKeyIdentifier": "keyid:73:43:f1:8b:d8:0d:bf:1f:1c:7f:6f:72:54:0a:f4:92:5b:85:db:ed"
+      }
+    },
+    "cert_index": 4211971650,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4211971650&end=4211971650",
+    "seen": 1778759936.717,
+    "submission_timestamp": 1778645264.252,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
