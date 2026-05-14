@@ -1,0 +1,52 @@
+{
+  "dominio": "www.rjnetflix.panelapps.top",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/14/26 11:03:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.panelapps.top",
+        "aggregated": "/CN=*.panelapps.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "059D5F0D46D186806BAB9D69983E02EADCD7",
+      "not_before": 1778646309,
+      "not_after": 1786422308,
+      "fingerprint": "D5:81:0C:5C:CF:C2:60:BA:D3:8D:0F:1A:42:53:B7:9B:C3:54:9F:79",
+      "sha1": "D5:81:0C:5C:CF:C2:60:BA:D3:8D:0F:1A:42:53:B7:9B:C3:54:9F:79",
+      "sha256": "C2:89:20:22:C3:4F:69:F3:E4:29:14:28:1F:78:C0:DB:89:DE:9C:2A:5E:BC:B9:5F:1B:09:68:04:9F:2B:BA:09",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.panelapps.top",
+        "www.rjnetflix.panelapps.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.panelapps.top, DNS:www.rjnetflix.panelapps.top",
+        "subjectKeyIdentifier": "keyid:8a:f5:8a:e2:75:f2:99:29:fd:5c:30:d5:df:d9:ed:a4:9b:53:c5:0b"
+      }
+    },
+    "cert_index": 4212890832,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4212890832&end=4212890832",
+    "seen": 1778767392.072,
+    "submission_timestamp": 1778649995.798,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

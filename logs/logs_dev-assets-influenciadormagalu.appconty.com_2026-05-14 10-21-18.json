@@ -1,0 +1,53 @@
+{
+  "dominio": "dev-assets-influenciadormagalu.appconty.com",
+  "marcas_encontradas": [
+    "magalu"
+  ],
+  "timestamp": "05/14/26 10:21:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bcf923c3.sni.cloudflaressl.com",
+        "aggregated": "/CN=bcf923c3.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "988C57AFE9CA28DC0D15BA6A68378EDD",
+      "not_before": 1777900059,
+      "not_after": 1785679651,
+      "fingerprint": "6F:0C:4C:57:74:2C:86:6A:B8:C9:0D:73:A4:C9:9A:B7:D2:C7:BC:2B",
+      "sha1": "6F:0C:4C:57:74:2C:86:6A:B8:C9:0D:73:A4:C9:9A:B7:D2:C7:BC:2B",
+      "sha256": "D7:54:AC:1B:24:69:B6:C6:05:22:23:F3:28:90:99:BF:B3:7D:0C:86:1C:28:E2:2D:BB:B8:97:11:46:85:AF:2C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "bcf923c3.sni.cloudflaressl.com",
+        "dev-assets-influenciadormagalu.appconty.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/mIw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:bcf923c3.sni.cloudflaressl.com, DNS:dev-assets-influenciadormagalu.appconty.com",
+        "subjectKeyIdentifier": "keyid:64:73:42:23:48:39:ea:ad:fa:9b:86:30:12:59:b7:8a:26:47:c7:b9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 687700920,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=687700920&end=687700920",
+    "seen": 1778764877.932,
+    "submission_timestamp": 1777903659.678,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

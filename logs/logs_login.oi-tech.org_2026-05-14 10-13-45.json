@@ -1,0 +1,51 @@
+{
+  "dominio": "login.oi-tech.org",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/14/26 10:13:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.oi-tech.org",
+        "aggregated": "/CN=login.oi-tech.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "48D9BCD8A75AB98D16DA943114D214EF",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "F9:5D:11:88:C3:EF:00:32:41:45:F0:EA:29:03:3C:0C:C5:94:D1:C8",
+      "sha1": "F9:5D:11:88:C3:EF:00:32:41:45:F0:EA:29:03:3C:0C:C5:94:D1:C8",
+      "sha256": "44:11:43:BB:C5:CA:57:89:61:5C:0C:56:C6:07:2C:A4:B3:17:47:0E:FF:B0:D1:2E:AA:F0:44:CE:AC:C8:F0:C7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.oi-tech.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.oi-tech.org",
+        "subjectKeyIdentifier": "keyid:d7:50:e5:6f:c3:fb:ca:fe:38:91:a1:b8:4f:8b:80:15:68:59:8c:57"
+      }
+    },
+    "cert_index": 1534115500,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1534115500&end=1534115500",
+    "seen": 1778764425.834,
+    "submission_timestamp": 1777968241.78,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.netflix.jct.fr",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/14/26 10:37:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.netflix.jct.fr",
+        "aggregated": "/CN=app.netflix.jct.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0A5BCAA1ECBA5BDACA68723DFF3E223F",
+      "not_before": 1778630400,
+      "not_after": 1786406399,
+      "fingerprint": "BE:B8:14:AD:50:39:E3:F5:BA:53:D9:32:05:CF:3D:A3:75:DD:39:1B",
+      "sha1": "BE:B8:14:AD:50:39:E3:F5:BA:53:D9:32:05:CF:3D:A3:75:DD:39:1B",
+      "sha256": "D2:60:99:12:95:2A:85:83:29:00:62:27:D0:A5:AF:FD:29:79:FC:E3:D7:43:A8:0B:78:AD:61:BB:8D:36:E3:96",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.netflix.jct.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.netflix.jct.fr",
+        "subjectKeyIdentifier": "keyid:29:e7:44:07:98:2b:b6:1a:fc:52:99:21:ed:b9:c8:69:82:e8:fb:e5"
+      }
+    },
+    "cert_index": 180622141,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x705/555",
+    "seen": 1778765838.064,
+    "submission_timestamp": 1778701520.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

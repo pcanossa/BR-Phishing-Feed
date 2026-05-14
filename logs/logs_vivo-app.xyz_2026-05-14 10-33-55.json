@@ -1,0 +1,53 @@
+{
+  "dominio": "vivo-app.xyz",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/14/26 10:33:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vivo-app.xyz",
+        "aggregated": "/CN=vivo-app.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6F41A0C593B9A6760EFBCF55D24CC76B",
+      "not_before": 1778650548,
+      "not_after": 1786430006,
+      "fingerprint": "33:1C:68:2B:E0:9E:A6:4B:0B:31:42:1D:60:F9:3C:11:C1:CE:13:BD",
+      "sha1": "33:1C:68:2B:E0:9E:A6:4B:0B:31:42:1D:60:F9:3C:11:C1:CE:13:BD",
+      "sha256": "C0:D9:A5:52:1C:89:BB:D4:5E:3F:8B:ED:F2:A1:F3:3B:30:F7:2F:10:CA:FB:3F:A3:2F:09:E9:5C:13:46:12:E0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "vivo-app.xyz",
+        "*.vivo-app.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/b0E, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vivo-app.xyz, DNS:*.vivo-app.xyz",
+        "subjectKeyIdentifier": "keyid:4b:91:1d:e8:f8:98:46:fb:2f:6e:bb:c6:7d:71:63:b4:3a:b8:d5:5e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 725700693,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=725700693&end=725700693",
+    "seen": 1778765635.263,
+    "submission_timestamp": 1778654148.853,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

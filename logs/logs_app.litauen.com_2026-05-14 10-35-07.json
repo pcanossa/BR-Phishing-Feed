@@ -1,0 +1,52 @@
+{
+  "dominio": "app.litauen.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/14/26 10:35:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.litauen.com",
+        "aggregated": "/CN=app.litauen.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C5B99579B42FAEC4D8D37739F080C09",
+      "not_before": 1778630400,
+      "not_after": 1786406399,
+      "fingerprint": "85:42:1E:26:A9:93:19:5A:07:16:C2:39:55:45:25:64:A1:67:D3:E7",
+      "sha1": "85:42:1E:26:A9:93:19:5A:07:16:C2:39:55:45:25:64:A1:67:D3:E7",
+      "sha256": "0E:DA:B6:FD:2E:48:24:8B:CD:5B:D4:5E:81:7F:2F:7C:25:41:AE:21:38:05:62:CA:23:31:4E:41:B0:CE:CA:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.litauen.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.litauen.com",
+        "subjectKeyIdentifier": "keyid:f5:d7:84:5f:ce:76:57:dc:e0:df:b5:58:20:fa:8f:31:e4:34:18:bf"
+      }
+    },
+    "cert_index": 180601777,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x705/475",
+    "seen": 1778765707.187,
+    "submission_timestamp": 1778700672.497,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
