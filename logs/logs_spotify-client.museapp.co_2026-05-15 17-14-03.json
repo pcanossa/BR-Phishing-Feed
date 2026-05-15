@@ -1,0 +1,53 @@
+{
+  "dominio": "spotify-client.museapp.co",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/15/26 17:14:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "museapp.co",
+        "aggregated": "/CN=museapp.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "1FE6991441075CDC13B0E45FE46FA6E6",
+      "not_before": 1778708620,
+      "not_after": 1786488090,
+      "fingerprint": "4F:FB:6B:0F:F3:4D:43:10:02:83:1A:A1:48:09:B8:0A:69:C6:82:5F",
+      "sha1": "4F:FB:6B:0F:F3:4D:43:10:02:83:1A:A1:48:09:B8:0A:69:C6:82:5F",
+      "sha256": "DA:40:BC:17:E6:95:27:01:46:8D:63:5D:72:45:B6:4C:24:DD:9C:68:88:E0:CB:55:9B:70:32:D2:74:9E:4E:12",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "museapp.co",
+        "spotify-client.museapp.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/H-Y, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:museapp.co, DNS:spotify-client.museapp.co",
+        "subjectKeyIdentifier": "keyid:10:2d:9c:80:38:b5:9a:ce:1b:78:8b:67:f9:8f:f5:8f:14:fc:5d:a6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4227269222,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4227269222&end=4227269222",
+    "seen": 1778876043.9,
+    "submission_timestamp": 1778712221.669,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
