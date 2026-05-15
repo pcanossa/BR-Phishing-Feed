@@ -1,0 +1,51 @@
+{
+  "dominio": "login.clarosystem.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/15/26 18:48:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.clarosystem.com",
+        "aggregated": "/CN=login.clarosystem.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2E42A9F79E2B11A89D9D6118F4B01551",
+      "not_before": 1777852800,
+      "not_after": 1785715199,
+      "fingerprint": "BE:94:93:99:D2:84:7B:C9:EC:9C:9A:89:E0:B5:CC:35:80:52:C6:C4",
+      "sha1": "BE:94:93:99:D2:84:7B:C9:EC:9C:9A:89:E0:B5:CC:35:80:52:C6:C4",
+      "sha256": "A2:17:4F:F1:7A:DB:E6:B5:EF:35:96:1B:AD:B4:A0:B2:10:C4:10:10:CB:04:33:71:5E:32:65:F1:69:4D:B1:6C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.clarosystem.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.clarosystem.com",
+        "subjectKeyIdentifier": "keyid:99:12:a9:7b:c9:05:2c:1e:79:5b:a3:d2:ff:6b:6d:3d:d3:e7:d3:e8"
+      }
+    },
+    "cert_index": 832328190,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=832328190&end=832328190",
+    "seen": 1778881704.104,
+    "submission_timestamp": 1777906605.662,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

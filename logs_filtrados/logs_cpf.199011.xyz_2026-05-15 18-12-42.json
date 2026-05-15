@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.199011.xyz",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 18:12:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "390f4754.sni.cloudflaressl.com",
+        "aggregated": "/CN=390f4754.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "DE672193ED6919890E62DFF001F55505",
+      "not_before": 1778243272,
+      "not_after": 1786022772,
+      "fingerprint": "12:D5:C6:CC:28:9F:39:9A:15:86:C0:7E:20:E7:F8:6F:95:0C:5F:D1",
+      "sha1": "12:D5:C6:CC:28:9F:39:9A:15:86:C0:7E:20:E7:F8:6F:95:0C:5F:D1",
+      "sha256": "50:62:52:0D:BA:2E:AD:8F:98:17:6D:62:20:96:52:DD:08:51:20:1A:79:A1:2C:1A:5B:32:10:15:42:B5:05:B8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "390f4754.sni.cloudflaressl.com",
+        "cpf.199011.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/3mc, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:390f4754.sni.cloudflaressl.com, DNS:cpf.199011.xyz",
+        "subjectKeyIdentifier": "keyid:76:7c:af:c4:98:91:aa:7a:4c:d2:e8:45:9b:b5:1d:66:ff:c2:c6:27",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 626203566,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=626203566&end=626203566",
+    "seen": 1778879561.98,
+    "submission_timestamp": 1778246873.061,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

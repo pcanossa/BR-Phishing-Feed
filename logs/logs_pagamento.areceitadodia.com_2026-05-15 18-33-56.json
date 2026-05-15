@@ -1,0 +1,51 @@
+{
+  "dominio": "pagamento.areceitadodia.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/15/26 18:33:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamento.areceitadodia.com",
+        "aggregated": "/CN=pagamento.areceitadodia.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "6198643D198A289D136C3AE4447FF01E",
+      "not_before": 1778709291,
+      "not_after": 1786488884,
+      "fingerprint": "33:EA:54:07:27:F9:4B:87:9D:62:E8:2E:12:16:83:1E:78:8F:93:FA",
+      "sha1": "33:EA:54:07:27:F9:4B:87:9D:62:E8:2E:12:16:83:1E:78:8F:93:FA",
+      "sha256": "CE:D9:C1:2E:FE:C5:A0:AD:A2:47:4C:A6:F3:87:85:00:B9:19:CB:80:A1:EC:C0:B1:64:04:E3:0B:A7:6F:50:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagamento.areceitadodia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/YZg, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento.areceitadodia.com",
+        "subjectKeyIdentifier": "keyid:42:a5:13:63:19:a8:fc:34:c3:96:bc:eb:69:6b:93:69:93:c8:bb:01"
+      }
+    },
+    "cert_index": 4228090577,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4228090577&end=4228090577",
+    "seen": 1778880836.94,
+    "submission_timestamp": 1778717025.688,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
