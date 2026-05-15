@@ -1,0 +1,61 @@
+{
+  "dominio": "cartao.ccb.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/15/26 11:20:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "PT",
+        "CN": "ccb.pt",
+        "L": "Lisboa",
+        "O": "Funda\u00e7\u00e3o Centro Cultural de Bel\u00e9m",
+        "ST": "Lisboa",
+        "aggregated": "/C=PT/CN=ccb.pt/L=Lisboa/O=Funda\u00e7\u00e3o Centro Cultural de Bel\u00e9m/ST=Lisboa"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Thawte TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Thawte TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0EBD225CACB170DD90650D98B4227AD5",
+      "not_before": 1778716800,
+      "not_after": 1791244799,
+      "fingerprint": "E4:E9:71:D2:6E:C9:F2:67:37:48:CE:1E:A3:61:8E:46:EC:EF:0B:33",
+      "sha1": "E4:E9:71:D2:6E:C9:F2:67:37:48:CE:1E:A3:61:8E:46:EC:EF:0B:33",
+      "sha256": "9A:31:C9:13:D3:2E:E1:CC:C1:7D:81:B8:85:14:9E:CE:C8:64:55:80:84:24:AA:87:38:EF:31:AB:D2:65:62:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ccb.pt",
+        "www.ccb.pt",
+        "garagemsul.ccb.pt",
+        "fabricadasartes.ccb.pt",
+        "*.ccb.pt",
+        "cartao.ccb.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.thawte.com, URI:http://cacerts.thawte.com/ThawteTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:a5:8c:fe:32:cc:eb:0f:2c:d4:19:c6:08:b8:00:24:88:5d:c3:c5:b7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ccb.pt, DNS:www.ccb.pt, DNS:garagemsul.ccb.pt, DNS:fabricadasartes.ccb.pt, DNS:*.ccb.pt, DNS:cartao.ccb.pt",
+        "subjectKeyIdentifier": "keyid:cd:3e:00:f6:e0:14:c8:77:74:36:b6:c8:32:7e:e1:fd:91:bf:eb:19"
+      }
+    },
+    "cert_index": 184294229,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x719/899",
+    "seen": 1778854831.363,
+    "submission_timestamp": 1778837469.982,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

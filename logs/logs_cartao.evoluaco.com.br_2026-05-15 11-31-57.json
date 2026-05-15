@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.evoluaco.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/15/26 11:31:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.evoluaco.com.br",
+        "aggregated": "/CN=cartao.evoluaco.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058482D783DD069B10CF23C8CAFB41F3DC4A",
+      "not_before": 1778692228,
+      "not_after": 1786468227,
+      "fingerprint": "20:04:1D:F1:74:51:A7:97:A1:0D:E9:7F:56:D7:17:2C:7D:77:09:3E",
+      "sha1": "20:04:1D:F1:74:51:A7:97:A1:0D:E9:7F:56:D7:17:2C:7D:77:09:3E",
+      "sha256": "16:9D:B7:E9:C5:E8:64:3D:AE:38:78:63:7E:D9:95:4A:A4:91:A6:47:24:CF:64:AF:83:FA:4E:E8:93:A9:46:C9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.evoluaco.com.br",
+        "www.cartao.evoluaco.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.evoluaco.com.br, DNS:www.cartao.evoluaco.com.br",
+        "subjectKeyIdentifier": "keyid:45:37:63:24:f7:77:19:f9:82:e7:99:cd:68:5c:83:a6:cb:21:b3:0e"
+      }
+    },
+    "cert_index": 4223882464,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4223882464&end=4223882464",
+    "seen": 1778855518.051,
+    "submission_timestamp": 1778695740.748,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
