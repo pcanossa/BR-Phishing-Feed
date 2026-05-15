@@ -1,0 +1,53 @@
+{
+  "dominio": "guide-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 12:45:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "guide-cpf.com",
+        "aggregated": "/CN=guide-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BCCB8B08F3EA58E3139524FE065216DE",
+      "not_before": 1778300610,
+      "not_after": 1786080130,
+      "fingerprint": "7D:A0:30:34:54:12:C8:22:B8:B5:F0:9D:CE:17:81:F2:5F:6B:BB:AF",
+      "sha1": "7D:A0:30:34:54:12:C8:22:B8:B5:F0:9D:CE:17:81:F2:5F:6B:BB:AF",
+      "sha256": "EC:EB:47:81:C7:D1:38:2B:F2:4E:FE:83:5E:4C:FF:1D:B0:FA:44:99:E4:26:1C:9A:69:E5:A0:53:8B:25:79:B7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "guide-cpf.com",
+        "*.guide-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vMs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:guide-cpf.com, DNS:*.guide-cpf.com",
+        "subjectKeyIdentifier": "keyid:e2:65:c3:71:aa:93:ba:74:e2:63:13:9e:79:9b:e4:38:83:dd:21:be",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 605684569,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=605684569&end=605684569",
+    "seen": 1778859938.558,
+    "submission_timestamp": 1778309237.263,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
