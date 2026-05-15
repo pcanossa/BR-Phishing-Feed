@@ -1,0 +1,52 @@
+{
+  "dominio": "staging-cpf.toreed.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 14:46:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging-cpf.toreed.com",
+        "aggregated": "/CN=staging-cpf.toreed.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "069DB35EEB0B8432DE7E78FC1BE0CF1BB0EC",
+      "not_before": 1778309384,
+      "not_after": 1786085383,
+      "fingerprint": "4A:A4:39:01:4F:4C:3A:97:03:ED:5B:D5:15:F8:0D:CF:DD:EB:82:F5",
+      "sha1": "4A:A4:39:01:4F:4C:3A:97:03:ED:5B:D5:15:F8:0D:CF:DD:EB:82:F5",
+      "sha256": "78:38:81:51:2D:26:42:43:D5:C5:30:43:48:02:CC:5D:83:48:15:CB:D9:BA:87:B8:6F:4C:0E:40:12:7C:87:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging-cpf.toreed.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging-cpf.toreed.com",
+        "subjectKeyIdentifier": "keyid:26:90:54:75:36:5b:25:16:b0:1a:89:c7:20:7f:e9:e7:c8:22:e4:14",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 606131350,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=606131350&end=606131350",
+    "seen": 1778867166.813,
+    "submission_timestamp": 1778312894.776,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "v1-cobranca-pagseguro.pixembarcado.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/15/26 14:29:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pixembarcado.workers.dev",
+        "aggregated": "/CN=pixembarcado.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7E532FDA6C905BFD1386399325F34B3F",
+      "not_before": 1778698720,
+      "not_after": 1786478317,
+      "fingerprint": "69:A5:50:08:1E:15:A8:B0:90:A7:DF:10:FF:65:D8:0B:BF:D8:13:80",
+      "sha1": "69:A5:50:08:1E:15:A8:B0:90:A7:DF:10:FF:65:D8:0B:BF:D8:13:80",
+      "sha256": "07:10:63:7F:67:C0:14:33:4F:F9:3E:DF:90:6A:A2:B6:0A:0A:5E:75:B8:3E:AA:53:DB:00:23:C4:4D:75:9D:6B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pixembarcado.workers.dev",
+        "*.v1-cobranca-pagseguro.pixembarcado.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/flM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pixembarcado.workers.dev, DNS:*.v1-cobranca-pagseguro.pixembarcado.workers.dev",
+        "subjectKeyIdentifier": "keyid:21:29:0a:5d:11:39:a2:06:9f:60:37:43:32:1f:29:1f:60:b9:bf:62",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4225465797,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4225465797&end=4225465797",
+    "seen": 1778866163.623,
+    "submission_timestamp": 1778702320.678,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

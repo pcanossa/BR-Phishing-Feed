@@ -1,0 +1,51 @@
+{
+  "dominio": "caixacartao.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/15/26 14:16:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixacartao.com",
+        "aggregated": "/CN=caixacartao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05C7663E78BA335532667A1C892CEA30604D",
+      "not_before": 1778698006,
+      "not_after": 1786474005,
+      "fingerprint": "56:2A:25:09:CE:2A:6D:47:C1:87:98:50:0D:FC:EE:B5:84:26:23:E3",
+      "sha1": "56:2A:25:09:CE:2A:6D:47:C1:87:98:50:0D:FC:EE:B5:84:26:23:E3",
+      "sha256": "11:61:EE:ED:75:6B:D7:61:06:34:29:B2:28:4E:E2:3B:44:E8:07:E6:65:E5:A0:EB:FE:35:24:15:4B:D5:0A:BB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "caixacartao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:caixacartao.com",
+        "subjectKeyIdentifier": "keyid:99:d9:56:94:f5:f9:02:88:b1:ce:40:39:31:8a:b7:cb:05:8e:69:c5"
+      }
+    },
+    "cert_index": 4225349767,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4225349767&end=4225349767",
+    "seen": 1778865403.76,
+    "submission_timestamp": 1778701519.393,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
