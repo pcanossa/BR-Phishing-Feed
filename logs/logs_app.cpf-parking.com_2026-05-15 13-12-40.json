@@ -1,0 +1,56 @@
+{
+  "dominio": "app.cpf-parking.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 13:12:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gateway.cpf-parking.com",
+        "aggregated": "/CN=gateway.cpf-parking.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "056D8F22C17DE2289BEAD6646578FE66DA8B",
+      "not_before": 1778306561,
+      "not_after": 1786082560,
+      "fingerprint": "28:13:61:A1:B1:AF:EC:64:28:5C:83:49:1D:9A:38:56:DF:28:81:F5",
+      "sha1": "28:13:61:A1:B1:AF:EC:64:28:5C:83:49:1D:9A:38:56:DF:28:81:F5",
+      "sha256": "F1:7D:17:AD:12:05:D4:27:0A:79:21:BC:93:9B:DC:EC:1F:A7:11:84:CA:70:13:42:4F:D6:08:6A:E9:5E:63:45",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gateway.cpf-parking.com",
+        "app.cpf-parking.com",
+        "carpark.systemcare.sg",
+        "kms.systemcare.sg",
+        "privacy.cpf-parking.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.cpf-parking.com, DNS:carpark.systemcare.sg, DNS:gateway.cpf-parking.com, DNS:kms.systemcare.sg, DNS:privacy.cpf-parking.com",
+        "subjectKeyIdentifier": "keyid:b5:2d:0b:83:86:1e:40:1e:ac:cf:e9:34:51:77:d6:18:a5:5b:23:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 605781951,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=605781951&end=605781951",
+    "seen": 1778861559.763,
+    "submission_timestamp": 1778310071.978,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

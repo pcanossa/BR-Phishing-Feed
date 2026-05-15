@@ -1,0 +1,52 @@
+{
+  "dominio": "app.netflix.pt.newsnapshot.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/15/26 13:59:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.netflix.pt.newsnapshot.com",
+        "aggregated": "/CN=app.netflix.pt.newsnapshot.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "03E1575ADAF8FBAEBA3483ECD393E698",
+      "not_before": 1778630400,
+      "not_after": 1786406399,
+      "fingerprint": "C0:34:AE:29:87:A6:C9:FA:C0:0F:06:92:9A:F1:02:70:8B:92:33:00",
+      "sha1": "C0:34:AE:29:87:A6:C9:FA:C0:0F:06:92:9A:F1:02:70:8B:92:33:00",
+      "sha256": "DC:31:0A:BA:EA:AF:E8:92:6C:65:73:18:F5:B0:7F:4D:BB:59:A4:95:EF:6C:C1:50:A3:11:6E:EC:47:F3:72:9E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.netflix.pt.newsnapshot.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.netflix.pt.newsnapshot.com",
+        "subjectKeyIdentifier": "keyid:ae:01:d2:48:11:82:42:40:b3:6f:65:dc:97:12:4f:43:9d:4e:38:ce"
+      }
+    },
+    "cert_index": 4225172564,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4225172564&end=4225172564",
+    "seen": 1778864342.705,
+    "submission_timestamp": 1778700568.156,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

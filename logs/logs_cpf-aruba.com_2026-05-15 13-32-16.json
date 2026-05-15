@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-aruba.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 13:32:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-aruba.com",
+        "aggregated": "/CN=cpf-aruba.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "051CD39D587FCB5940D0804BAD6668825CEE",
+      "not_before": 1778695387,
+      "not_after": 1786471386,
+      "fingerprint": "FB:98:06:9F:3C:8D:E7:C2:14:A7:A3:28:D9:7B:7D:3A:57:6C:FA:B4",
+      "sha1": "FB:98:06:9F:3C:8D:E7:C2:14:A7:A3:28:D9:7B:7D:3A:57:6C:FA:B4",
+      "sha256": "29:AE:38:55:4B:A3:C2:BA:FE:E2:F3:C6:88:48:F9:BA:54:72:D9:2F:4E:83:46:2C:DF:F5:00:6B:94:AB:56:92",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-aruba.com",
+        "www.cpf-aruba.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-aruba.com, DNS:www.cpf-aruba.com",
+        "subjectKeyIdentifier": "keyid:75:8d:ab:e6:5f:4b:23:ac:3f:45:dc:4f:d5:f1:06:b2:0a:5d:3a:cf"
+      }
+    },
+    "cert_index": 4224863088,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4224863088&end=4224863088",
+    "seen": 1778862736.646,
+    "submission_timestamp": 1778699447.326,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
