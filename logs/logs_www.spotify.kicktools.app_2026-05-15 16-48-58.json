@@ -1,0 +1,52 @@
+{
+  "dominio": "www.spotify.kicktools.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/15/26 16:48:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.spotify.kicktools.app",
+        "aggregated": "/CN=www.spotify.kicktools.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06876B24CA10F2F8D058BD169CD08F69A10C",
+      "not_before": 1778707199,
+      "not_after": 1786483198,
+      "fingerprint": "53:3B:1B:83:06:25:59:BE:77:9B:DF:7F:F2:10:FB:CD:8F:4E:B6:3E",
+      "sha1": "53:3B:1B:83:06:25:59:BE:77:9B:DF:7F:F2:10:FB:CD:8F:4E:B6:3E",
+      "sha256": "B0:09:55:17:D9:13:CE:25:47:AB:71:4D:C2:F6:E8:A8:33:F5:FF:7B:FA:B3:9C:65:C0:5C:23:29:FB:D5:B0:59",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.spotify.kicktools.app",
+        "spotify.kicktools.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:spotify.kicktools.app, DNS:www.spotify.kicktools.app",
+        "subjectKeyIdentifier": "keyid:69:2b:77:cb:b8:b7:e3:b1:51:d1:a0:8c:98:a8:9d:4a:13:10:2a:af"
+      }
+    },
+    "cert_index": 4227007357,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4227007357&end=4227007357",
+    "seen": 1778874538.556,
+    "submission_timestamp": 1778710711.301,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

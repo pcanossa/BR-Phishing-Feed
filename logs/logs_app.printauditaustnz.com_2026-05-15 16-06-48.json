@@ -1,0 +1,52 @@
+{
+  "dominio": "app.printauditaustnz.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/15/26 16:06:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.printauditaustnz.com",
+        "aggregated": "/CN=app.printauditaustnz.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "EE5436D928ADBA5F967F97680157C05E",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "58:F7:44:B9:01:8D:D5:E5:E0:A5:BB:5F:40:99:70:D1:B8:E1:D1:B3",
+      "sha1": "58:F7:44:B9:01:8D:D5:E5:E0:A5:BB:5F:40:99:70:D1:B8:E1:D1:B3",
+      "sha256": "EE:FE:A3:51:34:0B:75:CD:56:12:17:A8:F1:8D:D9:7F:D5:F1:96:4E:1F:57:4D:46:EA:E1:81:99:FB:CE:BB:0A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.printauditaustnz.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.printauditaustnz.com",
+        "subjectKeyIdentifier": "keyid:72:ce:cf:53:54:b1:d0:21:f5:5c:ef:4b:6f:97:0d:bd:01:ec:bc:0a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1536217904,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1536217904&end=1536217904",
+    "seen": 1778872008.349,
+    "submission_timestamp": 1777984073.644,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

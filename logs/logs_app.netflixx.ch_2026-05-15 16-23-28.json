@@ -1,0 +1,53 @@
+{
+  "dominio": "app.netflixx.ch",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/15/26 16:23:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.netflixx.ch",
+        "aggregated": "/CN=app.netflixx.ch"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0E87CB3EC33C9FFB707DF54E6E440E9E",
+      "not_before": 1778630400,
+      "not_after": 1786406399,
+      "fingerprint": "6D:24:B6:59:94:5C:DB:32:25:1D:7A:DE:99:89:F8:48:06:CB:64:09",
+      "sha1": "6D:24:B6:59:94:5C:DB:32:25:1D:7A:DE:99:89:F8:48:06:CB:64:09",
+      "sha256": "F6:63:AA:96:F3:39:31:6B:17:31:34:49:A4:66:6C:2C:86:89:9D:73:17:5D:B1:5C:65:9E:ED:46:23:94:F1:0F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.netflixx.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.netflixx.ch",
+        "subjectKeyIdentifier": "keyid:d5:1d:eb:6e:c0:47:11:08:34:d5:23:e5:19:d3:55:7d:66:c7:b2:d0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4226728523,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4226728523&end=4226728523",
+    "seen": 1778873010.329,
+    "submission_timestamp": 1778709348.963,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

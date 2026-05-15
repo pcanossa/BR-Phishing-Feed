@@ -1,0 +1,52 @@
+{
+  "dominio": "login.betcaixa.bet.br.v6.pt-edge.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/15/26 17:01:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.betcaixa.bet.br.v6.pt-edge.com",
+        "aggregated": "/CN=login.betcaixa.bet.br.v6.pt-edge.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "45AB338A26A3FE280EC39BB12C887BCF",
+      "not_before": 1778707831,
+      "not_after": 1786487295,
+      "fingerprint": "5E:0C:61:F7:E3:08:46:80:59:0C:E1:4E:8F:A6:57:9B:F2:1D:13:1A",
+      "sha1": "5E:0C:61:F7:E3:08:46:80:59:0C:E1:4E:8F:A6:57:9B:F2:1D:13:1A",
+      "sha256": "47:24:C0:5B:2F:46:FF:A0:A4:AD:CA:7D:88:50:CF:9A:32:06:C3:A5:04:02:96:E4:9E:E8:61:8F:5E:B8:39:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.betcaixa.bet.br.v6.pt-edge.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Ras, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.betcaixa.bet.br.v6.pt-edge.com",
+        "subjectKeyIdentifier": "keyid:02:03:87:60:7b:0d:6a:38:5c:d9:86:b9:5b:f2:37:bf:58:44:81:53",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4227140355,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4227140355&end=4227140355",
+    "seen": 1778875293.835,
+    "submission_timestamp": 1778711431.734,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
