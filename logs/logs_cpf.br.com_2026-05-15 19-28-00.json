@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.br.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 19:28:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.br.com",
+        "aggregated": "/CN=cpf.br.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5DE344D47A98791C0EF9449004FE2742",
+      "not_before": 1778701746,
+      "not_after": 1786481263,
+      "fingerprint": "EE:00:09:3F:A5:21:6F:29:28:9F:11:BF:9C:94:75:C8:A5:55:30:66",
+      "sha1": "EE:00:09:3F:A5:21:6F:29:28:9F:11:BF:9C:94:75:C8:A5:55:30:66",
+      "sha256": "37:95:F8:EF:B5:97:26:E8:A4:B8:F1:97:9D:AC:19:6E:4D:F5:E3:07:E4:97:C3:99:BD:AD:33:1D:D1:82:EA:8C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.br.com",
+        "*.cpf.br.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/XeM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.br.com, DNS:*.cpf.br.com",
+        "subjectKeyIdentifier": "keyid:23:12:ad:b2:0f:9c:87:10:cc:73:ab:c9:d5:59:00:6a:64:c0:e3:bf"
+      }
+    },
+    "cert_index": 737464853,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=737464853&end=737464853",
+    "seen": 1778884080.787,
+    "submission_timestamp": 1778718000.147,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

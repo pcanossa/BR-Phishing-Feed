@@ -1,0 +1,51 @@
+{
+  "dominio": "restaurante.debito.ai",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/15/26 19:46:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "restaurante.debito.ai",
+        "aggregated": "/CN=restaurante.debito.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C766BF6946B8B230130EFBD4AEEC4028",
+      "not_before": 1778711200,
+      "not_after": 1786490799,
+      "fingerprint": "CD:F5:F7:5B:52:FC:54:26:D5:39:82:BA:62:3B:29:1D:1D:CD:03:D8",
+      "sha1": "CD:F5:F7:5B:52:FC:54:26:D5:39:82:BA:62:3B:29:1D:1D:CD:03:D8",
+      "sha256": "CF:C2:1E:0D:C2:8E:CD:70:A1:AA:7E:BE:C8:C7:AA:31:CC:48:54:CE:E4:54:42:9F:41:55:87:BB:13:93:AE:83",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "restaurante.debito.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/x2Y, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:restaurante.debito.ai",
+        "subjectKeyIdentifier": "keyid:f0:b3:35:bf:84:b4:3d:9f:4f:7d:78:d0:be:68:09:99:41:29:30:0e"
+      }
+    },
+    "cert_index": 4228893944,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4228893944&end=4228893944",
+    "seen": 1778885195.91,
+    "submission_timestamp": 1778720998.345,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

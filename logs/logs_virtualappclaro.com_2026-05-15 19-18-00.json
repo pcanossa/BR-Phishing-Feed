@@ -1,0 +1,52 @@
+{
+  "dominio": "virtualappclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/15/26 19:18:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.virtualappclaro.com",
+        "aggregated": "/CN=*.virtualappclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "060F3CEDF9DAF1D63622852EDAD66B4548F8",
+      "not_before": 1778879969,
+      "not_after": 1786655968,
+      "fingerprint": "9C:31:78:21:38:54:01:E1:AA:2C:29:27:F9:5C:08:6A:11:49:96:16",
+      "sha1": "9C:31:78:21:38:54:01:E1:AA:2C:29:27:F9:5C:08:6A:11:49:96:16",
+      "sha256": "3E:18:F0:28:04:E8:B7:B9:10:AD:6F:E3:0E:4A:B9:DD:0A:3F:00:64:F6:98:FF:80:DA:03:CC:89:0A:9E:0B:41",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.virtualappclaro.com",
+        "virtualappclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.virtualappclaro.com, DNS:virtualappclaro.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 196155336,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x766/231",
+    "seen": 1778883480.092,
+    "submission_timestamp": 1778883480.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

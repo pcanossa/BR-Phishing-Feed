@@ -1,0 +1,53 @@
+{
+  "dominio": "claro.myappsoftware.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/15/26 19:58:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.claro.myappsoftware.com",
+        "aggregated": "/CN=*.claro.myappsoftware.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "055F8B26D6DA2997F49E9F4804B868E0",
+      "not_before": 1778716800,
+      "not_after": 1795823999,
+      "fingerprint": "C5:7E:8F:75:33:7F:AB:A3:DC:E0:E3:5A:45:1E:18:D2:AB:53:06:1B",
+      "sha1": "C5:7E:8F:75:33:7F:AB:A3:DC:E0:E3:5A:45:1E:18:D2:AB:53:06:1B",
+      "sha256": "DE:1E:E8:01:DC:72:5B:FA:44:0C:99:C3:E3:38:32:C9:34:2B:DB:E7:4E:92:70:95:BB:0B:7B:68:14:7C:B7:D7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.claro.myappsoftware.com",
+        "claro.myappsoftware.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.claro.myappsoftware.com, DNS:claro.myappsoftware.com",
+        "subjectKeyIdentifier": "keyid:16:bf:04:5b:87:c3:9f:2b:e5:4e:cf:b4:2a:5b:80:ca:d4:08:0f:62",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4229033907,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4229033907&end=4229033907",
+    "seen": 1778885923.695,
+    "submission_timestamp": 1778721740.48,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

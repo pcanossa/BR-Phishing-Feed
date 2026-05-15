@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.gk2.secubox.in",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 19:38:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.gk2.secubox.in",
+        "aggregated": "/CN=cpf.gk2.secubox.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05C578F92F342EFE4E35CB35AD3A4F22B5BD",
+      "not_before": 1778717070,
+      "not_after": 1786493069,
+      "fingerprint": "56:17:35:6A:AF:E2:D4:66:45:9C:13:0E:8B:F3:3F:7D:AC:C5:FA:AA",
+      "sha1": "56:17:35:6A:AF:E2:D4:66:45:9C:13:0E:8B:F3:3F:7D:AC:C5:FA:AA",
+      "sha256": "36:A5:DE:AC:ED:F1:CF:E4:9B:6C:3D:88:F2:8C:60:B9:A2:2C:C2:D9:6B:84:40:E3:7C:95:BD:4C:D7:AC:44:38",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.gk2.secubox.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.gk2.secubox.in",
+        "subjectKeyIdentifier": "keyid:20:1c:fa:79:e6:1a:5a:6b:c2:f2:05:49:f8:0a:2d:b0:b1:af:df:e5"
+      }
+    },
+    "cert_index": 4228802861,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4228802861&end=4228802861",
+    "seen": 1778884726.864,
+    "submission_timestamp": 1778720583.71,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

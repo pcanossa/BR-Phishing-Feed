@@ -1,0 +1,52 @@
+{
+  "dominio": "debitosconsulta-mt.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/15/26 19:08:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitosconsulta-mt.sa.com",
+        "aggregated": "/CN=debitosconsulta-mt.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6800BA75D31D21071366D62457C088C9",
+      "not_before": 1778702216,
+      "not_after": 1786481677,
+      "fingerprint": "31:D4:E2:7D:10:60:E8:45:AE:6D:7E:4F:45:60:71:87:9D:BE:F0:89",
+      "sha1": "31:D4:E2:7D:10:60:E8:45:AE:6D:7E:4F:45:60:71:87:9D:BE:F0:89",
+      "sha256": "0D:5C:37:5A:21:B9:15:7D:DF:AE:E2:41:23:B1:C3:C3:A8:C3:E1:6C:DF:A0:37:C3:60:0C:7B:CE:38:BE:95:E4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitosconsulta-mt.sa.com",
+        "*.debitosconsulta-mt.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/aAA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitosconsulta-mt.sa.com, DNS:*.debitosconsulta-mt.sa.com",
+        "subjectKeyIdentifier": "keyid:17:f3:6f:4d:08:b7:0f:d0:66:74:ea:7c:71:ce:2d:48:42:03:fe:a9"
+      }
+    },
+    "cert_index": 4228455939,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4228455939&end=4228455939",
+    "seen": 1778882886.75,
+    "submission_timestamp": 1778718408.271,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
