@@ -1,0 +1,53 @@
+{
+  "dominio": "app.fazenda.online",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/16/26 11:00:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.fazenda.online",
+        "aggregated": "/CN=app.fazenda.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0B7C219D3782E2CE73D2A9DA75450E6D",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "86:91:6A:E4:79:AA:98:02:64:E8:3A:63:8F:BE:1F:0B:A6:10:52:1C",
+      "sha1": "86:91:6A:E4:79:AA:98:02:64:E8:3A:63:8F:BE:1F:0B:A6:10:52:1C",
+      "sha256": "49:5F:09:FF:14:EB:F7:87:74:37:A7:C7:81:C7:CC:86:79:41:11:C9:77:92:42:5C:A0:4C:20:5D:39:05:93:53",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.fazenda.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.fazenda.online",
+        "subjectKeyIdentifier": "keyid:19:e5:40:eb:80:45:e9:f1:df:77:b4:ad:6e:75:e3:96:66:0c:ea:28",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4233073673,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233073673&end=4233073673",
+    "seen": 1778940012.799,
+    "submission_timestamp": 1778745942.098,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

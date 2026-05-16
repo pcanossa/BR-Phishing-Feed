@@ -1,0 +1,54 @@
+{
+  "dominio": "www.santanderseguros.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/16/26 11:01:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.bancosantander.es",
+        "aggregated": "/CN=www.bancosantander.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "016D2CF3F587EFC891642853556CDA90",
+      "not_before": 1778716800,
+      "not_after": 1795823999,
+      "fingerprint": "91:81:1D:BB:89:ED:B5:83:32:D3:D4:26:7E:B3:FE:EA:A5:60:69:AD",
+      "sha1": "91:81:1D:BB:89:ED:B5:83:32:D3:D4:26:7E:B3:FE:EA:A5:60:69:AD",
+      "sha256": "1A:04:BD:93:8B:88:DF:B5:FC:67:6D:B1:10:93:A4:8A:ED:7C:A2:BC:90:2B:BF:75:51:AD:AB:1F:84:47:F2:4D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.bancosantander.es",
+        "www.santandermediacionobsv.com",
+        "www.santanderdetitulizacion.com",
+        "www.santanderseguros.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.bancosantander.es, DNS:www.santandermediacionobsv.com, DNS:www.santanderdetitulizacion.com, DNS:www.santanderseguros.es",
+        "subjectKeyIdentifier": "keyid:5e:f6:d1:2c:47:df:57:76:01:c0:b8:22:a4:ad:53:0a:cc:bc:53:e2"
+      }
+    },
+    "cert_index": 740210261,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=740210261&end=740210261",
+    "seen": 1778940102.924,
+    "submission_timestamp": 1778735711.727,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

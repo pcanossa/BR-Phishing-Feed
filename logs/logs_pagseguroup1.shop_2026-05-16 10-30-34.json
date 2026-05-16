@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguroup1.shop",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/16/26 10:30:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguroup1.shop",
+        "aggregated": "/CN=pagseguroup1.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "061F345FE77A60A4E1543B0FCA6D2D8CD9D6",
+      "not_before": 1778739838,
+      "not_after": 1786515837,
+      "fingerprint": "95:8B:6C:2F:C5:41:15:E4:EF:7B:B7:2D:0A:2C:20:EE:C8:D1:DA:B2",
+      "sha1": "95:8B:6C:2F:C5:41:15:E4:EF:7B:B7:2D:0A:2C:20:EE:C8:D1:DA:B2",
+      "sha256": "F8:D1:E7:DC:EA:8B:F4:EB:0D:65:60:75:D7:F9:E9:F5:27:4D:AA:B1:78:21:33:FB:E6:E8:6F:39:7C:89:A4:DA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguroup1.shop",
+        "*.pagseguroup1.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguroup1.shop, DNS:pagseguroup1.shop",
+        "subjectKeyIdentifier": "keyid:ed:3d:a3:d0:a0:26:09:fe:c9:99:ff:38:ef:cb:b8:de:5f:05:ea:58"
+      }
+    },
+    "cert_index": 4232653263,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232653263&end=4232653263",
+    "seen": 1778938233.587,
+    "submission_timestamp": 1778743351.208,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

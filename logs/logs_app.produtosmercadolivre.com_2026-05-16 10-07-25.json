@@ -1,0 +1,53 @@
+{
+  "dominio": "app.produtosmercadolivre.com",
+  "marcas_encontradas": [
+    "mercadolivre"
+  ],
+  "timestamp": "05/16/26 10:07:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.produtosmercadolivre.com",
+        "aggregated": "/CN=app.produtosmercadolivre.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "06E1B00729506EB8D45B53AF6133EF29",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "70:F4:23:C5:6D:75:A6:0D:37:8A:FD:7D:DC:DD:EF:90:77:E8:95:5B",
+      "sha1": "70:F4:23:C5:6D:75:A6:0D:37:8A:FD:7D:DC:DD:EF:90:77:E8:95:5B",
+      "sha256": "13:83:65:31:D7:58:E4:0D:86:88:F9:F3:FF:C6:61:B0:13:60:5E:BA:10:F1:51:9C:78:F0:6C:87:F0:79:3D:09",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.produtosmercadolivre.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.produtosmercadolivre.com",
+        "subjectKeyIdentifier": "keyid:86:87:55:54:44:ec:e3:ba:4f:aa:4e:31:7e:b9:9d:27:cc:3d:be:dd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4232353350,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232353350&end=4232353350",
+    "seen": 1778936845.901,
+    "submission_timestamp": 1778741753.793,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

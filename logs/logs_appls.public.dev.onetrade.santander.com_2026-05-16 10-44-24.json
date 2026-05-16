@@ -1,0 +1,53 @@
+{
+  "dominio": "appls.public.dev.onetrade.santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/16/26 10:44:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01B8BCB6B5A98B8A704664DB1DEBE9DB",
+      "not_before": 1778938908,
+      "not_after": 1779025249,
+      "fingerprint": "1F:5D:E4:59:A7:D5:DB:61:3B:F4:90:CB:0A:87:C8:77:A6:28:AC:3A",
+      "sha1": "1F:5D:E4:59:A7:D5:DB:61:3B:F4:90:CB:0A:87:C8:77:A6:28:AC:3A",
+      "sha256": "4A:8C:E1:54:D7:CB:32:CF:D5:49:A7:4F:5E:D6:7E:05:3B:CB:C0:87:03:41:DB:F0:60:3D:3F:85:2E:2D:D9:63",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.appls.public.dev.onetrade.santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.appls.public.dev.onetrade.santander.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:21:25:9a:49:83:28:af:b9:41:37:a6:f4:5a:2f:75:e2:e2:30:73:57",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1975259738,
+    "cert_link": "https://tiger2026h1.ct.sectigo.com/ct/v1/get-entries?start=1975259738&end=1975259738",
+    "seen": 1778939063.661,
+    "submission_timestamp": 1778938913.716,
+    "source": {
+      "name": "Sectigo 'Tiger2026h1'",
+      "url": "https://tiger2026h1.ct.sectigo.com"
+    }
+  }
+}

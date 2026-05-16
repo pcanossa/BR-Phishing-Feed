@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-dev.smarthrworklife.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 10:22:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-dev.smarthrworklife.com",
+        "aggregated": "/CN=cpf-dev.smarthrworklife.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "8498B341CB422014131F5FFE2B3C4EC7",
+      "not_before": 1778739147,
+      "not_after": 1786518743,
+      "fingerprint": "2D:85:AC:0B:72:61:D4:36:DE:24:B5:4D:31:50:5B:26:C3:FD:45:E9",
+      "sha1": "2D:85:AC:0B:72:61:D4:36:DE:24:B5:4D:31:50:5B:26:C3:FD:45:E9",
+      "sha256": "75:B2:F9:67:22:6C:43:4F:01:E3:13:B2:5B:31:40:1F:D0:F4:E0:E0:6F:A1:35:D5:E5:37:67:6D:45:36:B3:F1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-dev.smarthrworklife.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/hJg, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-dev.smarthrworklife.com",
+        "subjectKeyIdentifier": "keyid:bc:dc:1d:64:f0:b5:01:28:d3:39:84:9b:89:5a:6c:bf:f6:f1:6c:5d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4232537167,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232537167&end=4232537167",
+    "seen": 1778937761.937,
+    "submission_timestamp": 1778742747.798,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

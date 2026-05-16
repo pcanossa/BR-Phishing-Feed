@@ -1,0 +1,52 @@
+{
+  "dominio": "rs-debito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 10:28:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rs-debito.com",
+        "aggregated": "/CN=rs-debito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "378E4C82A2D6254A0EFEF981D9F616AB",
+      "not_before": 1777906460,
+      "not_after": 1785686056,
+      "fingerprint": "6F:38:BF:19:93:AE:29:F5:25:14:4B:ED:2A:EA:FF:48:1B:65:36:1F",
+      "sha1": "6F:38:BF:19:93:AE:29:F5:25:14:4B:ED:2A:EA:FF:48:1B:65:36:1F",
+      "sha256": "92:DA:61:35:39:B2:E6:20:09:0C:BE:4B:E9:A8:17:2A:FE:27:E3:0B:A2:DB:68:3C:5B:5E:55:4A:BF:02:55:DD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rs-debito.com",
+        "*.rs-debito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/N44, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rs-debito.com, DNS:*.rs-debito.com",
+        "subjectKeyIdentifier": "keyid:96:4c:50:70:2c:9f:c1:fd:54:c3:a0:e0:7c:7f:89:76:65:b1:a9:30"
+      }
+    },
+    "cert_index": 832984113,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=832984113&end=832984113",
+    "seen": 1778938099.667,
+    "submission_timestamp": 1777910146.083,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

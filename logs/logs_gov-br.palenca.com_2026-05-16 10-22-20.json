@@ -1,0 +1,51 @@
+{
+  "dominio": "gov-br.palenca.com",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/16/26 10:22:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gov-br.palenca.com",
+        "aggregated": "/CN=gov-br.palenca.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0599BF79424F8B2E5A1AD5C7213C4DB5B0CF",
+      "not_before": 1778739211,
+      "not_after": 1786515210,
+      "fingerprint": "D3:45:01:EF:69:7B:BF:34:01:5B:51:52:C3:C6:17:DF:EF:54:61:B9",
+      "sha1": "D3:45:01:EF:69:7B:BF:34:01:5B:51:52:C3:C6:17:DF:EF:54:61:B9",
+      "sha256": "4B:F4:C9:6F:A3:6F:42:EB:25:7A:78:B4:3A:F9:97:39:C1:68:5D:C3:92:88:FE:50:65:CE:21:BA:73:93:2A:74",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gov-br.palenca.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gov-br.palenca.com",
+        "subjectKeyIdentifier": "keyid:94:16:c1:a7:ab:80:fc:c2:6e:d5:dc:b8:09:ab:b3:d0:a7:43:84:44"
+      }
+    },
+    "cert_index": 4232532442,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232532442&end=4232532442",
+    "seen": 1778937740.953,
+    "submission_timestamp": 1778742724.599,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

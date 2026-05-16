@@ -1,0 +1,53 @@
+{
+  "dominio": "leiloesreceitafederal.info",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/16/26 10:47:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "leiloesreceitafederal.info",
+        "aggregated": "/CN=leiloesreceitafederal.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0617F694CB3CC2EF1E6CF10156DDF54B8411",
+      "not_before": 1778741377,
+      "not_after": 1786517376,
+      "fingerprint": "D3:F9:74:CF:16:C1:40:59:B2:8E:6B:01:B3:94:27:1D:20:EB:16:BB",
+      "sha1": "D3:F9:74:CF:16:C1:40:59:B2:8E:6B:01:B3:94:27:1D:20:EB:16:BB",
+      "sha256": "4F:A1:78:B0:76:D0:3C:9A:A2:F6:76:1B:7A:4A:66:AA:45:9B:53:F5:E1:3E:1F:AD:18:B5:24:2F:8C:E1:A4:C5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "leiloesreceitafederal.info",
+        "*.leiloesreceitafederal.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.leiloesreceitafederal.info, DNS:leiloesreceitafederal.info",
+        "subjectKeyIdentifier": "keyid:51:cb:03:60:b0:ed:d5:16:8f:99:eb:37:87:10:46:2b:34:4b:24:0b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4232899755,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232899755&end=4232899755",
+    "seen": 1778939276.967,
+    "submission_timestamp": 1778744887.563,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
