@@ -1,0 +1,52 @@
+{
+  "dominio": "app.staging-acclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 12:18:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.staging-acclaro.com",
+        "aggregated": "/CN=app.staging-acclaro.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "05BACC1F07EF415471515F3AD813E07B",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "0D:BF:1C:77:53:79:9A:8A:44:2E:24:C4:AB:EB:0E:DE:C8:94:8A:C4",
+      "sha1": "0D:BF:1C:77:53:79:9A:8A:44:2E:24:C4:AB:EB:0E:DE:C8:94:8A:C4",
+      "sha256": "42:C3:19:32:7E:0A:B4:B0:C9:B9:A9:3D:17:C2:4C:EB:51:6F:E8:36:4C:1F:20:F8:24:8B:97:8C:A8:AF:66:7C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.staging-acclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.staging-acclaro.com",
+        "subjectKeyIdentifier": "keyid:a3:2c:ae:17:e2:19:bb:6f:d5:45:29:79:1c:df:d0:77:44:37:e4:ea",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 740992405,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=740992405&end=740992405",
+    "seen": 1778944726.576,
+    "submission_timestamp": 1778740441.073,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

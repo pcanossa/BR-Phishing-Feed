@@ -1,0 +1,52 @@
+{
+  "dominio": "activos.debito.ai",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 12:34:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "activos.debito.ai",
+        "aggregated": "/CN=activos.debito.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "D1E2B084DA7DEFCB13B2CD8AAF6D858C",
+      "not_before": 1778749975,
+      "not_after": 1786529499,
+      "fingerprint": "9B:D1:4D:E3:1C:16:A3:D2:05:38:C3:38:49:F2:A5:FB:44:DF:94:96",
+      "sha1": "9B:D1:4D:E3:1C:16:A3:D2:05:38:C3:38:49:F2:A5:FB:44:DF:94:96",
+      "sha256": "8F:E1:42:78:9F:16:DB:FC:7D:C7:9D:CA:FE:5B:F7:7C:74:59:C1:B4:FD:04:56:54:FF:A7:3F:3D:B0:33:4E:78",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "activos.debito.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/0eI, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:activos.debito.ai",
+        "subjectKeyIdentifier": "keyid:16:b2:f3:97:9d:c4:06:64:74:5c:e1:14:15:df:9c:81:c3:04:69:d5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234380926,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234380926&end=4234380926",
+    "seen": 1778945695.096,
+    "submission_timestamp": 1778753575.893,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

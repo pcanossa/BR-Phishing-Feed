@@ -1,0 +1,53 @@
+{
+  "dominio": "app.lovenetflix.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 12:51:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.lovenetflix.com",
+        "aggregated": "/CN=app.lovenetflix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0DB44F6F52C5C6EBB8EE8B507431064F",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "BC:32:DA:D8:9D:14:05:CC:F5:C3:8B:E1:76:1B:1D:7A:39:59:15:0E",
+      "sha1": "BC:32:DA:D8:9D:14:05:CC:F5:C3:8B:E1:76:1B:1D:7A:39:59:15:0E",
+      "sha256": "D4:5A:19:72:2D:90:F1:48:D8:E6:16:20:B9:E1:F9:24:E4:7F:F2:F5:D1:9B:D5:D2:60:CC:40:D6:E1:A7:82:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.lovenetflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.lovenetflix.com",
+        "subjectKeyIdentifier": "keyid:7a:f0:b4:36:26:60:a5:55:92:87:48:df:71:4c:cf:1f:96:25:55:db",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234612430,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234612430&end=4234612430",
+    "seen": 1778946692.771,
+    "submission_timestamp": 1778754808.968,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

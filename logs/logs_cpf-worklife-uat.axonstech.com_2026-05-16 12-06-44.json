@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-worklife-uat.axonstech.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 12:06:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf-worklife-uat.axonstech.com",
+        "aggregated": "/CN=*.cpf-worklife-uat.axonstech.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A771F804DFEC32050E2BBBB3F047BB94",
+      "not_before": 1778747785,
+      "not_after": 1786527378,
+      "fingerprint": "D9:48:3C:E7:CB:EA:58:0B:D3:F1:39:09:E0:E1:82:74:9D:F8:4D:8C",
+      "sha1": "D9:48:3C:E7:CB:EA:58:0B:D3:F1:39:09:E0:E1:82:74:9D:F8:4D:8C",
+      "sha256": "AB:72:FC:DB:01:5B:C2:99:79:1F:F5:75:1C:AA:D4:DA:78:0B:AE:61:CF:43:82:EC:FD:4B:3E:D5:AE:15:10:7B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-worklife-uat.axonstech.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/p3E, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-worklife-uat.axonstech.com",
+        "subjectKeyIdentifier": "keyid:10:15:03:74:65:5d:83:17:ed:8e:06:09:0d:ba:fa:c6:fb:38:7c:d3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4233994121,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233994121&end=4233994121",
+    "seen": 1778944003.435,
+    "submission_timestamp": 1778751386.432,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

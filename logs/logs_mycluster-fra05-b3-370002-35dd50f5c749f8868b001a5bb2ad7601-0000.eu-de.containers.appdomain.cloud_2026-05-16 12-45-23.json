@@ -1,0 +1,54 @@
+{
+  "dominio": "mycluster-fra05-b3-370002-35dd50f5c749f8868b001a5bb2ad7601-0000.eu-de.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/16/26 12:45:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mycluster-fra05-b3-370002.eu-de.containers.appdomain.cloud",
+        "aggregated": "/CN=mycluster-fra05-b3-370002.eu-de.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06F028C5CCD483EE052DABBB67701607E2EF",
+      "not_before": 1778750795,
+      "not_after": 1786526794,
+      "fingerprint": "18:42:8D:10:30:78:19:03:B4:7E:A1:BA:00:62:8F:40:E8:84:CB:99",
+      "sha1": "18:42:8D:10:30:78:19:03:B4:7E:A1:BA:00:62:8F:40:E8:84:CB:99",
+      "sha256": "68:FB:0D:95:AC:57:9C:A5:CA:2C:40:CD:8C:F5:4A:CB:19:47:29:73:11:51:D0:18:E5:66:50:A3:27:1A:53:F4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mycluster-fra05-b3-370002.eu-de.containers.appdomain.cloud",
+        "*.mycluster-fra05-b3-370002-35dd50f5c749f8868b001a5bb2ad7601-0000.eu-de.containers.appdomain.cloud",
+        "mycluster-fra05-b3-370002-35dd50f5c749f8868b001a5bb2ad7601-0000.eu-de.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.mycluster-fra05-b3-370002-35dd50f5c749f8868b001a5bb2ad7601-0000.eu-de.containers.appdomain.cloud, DNS:mycluster-fra05-b3-370002-35dd50f5c749f8868b001a5bb2ad7601-0000.eu-de.containers.appdomain.cloud, DNS:mycluster-fra05-b3-370002.eu-de.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:2a:36:c7:99:8f:e7:4f:ab:b3:cf:d5:09:26:c5:75:90:f0:93:b1:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234530225,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234530225&end=4234530225",
+    "seen": 1778946322.544,
+    "submission_timestamp": 1778754305.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

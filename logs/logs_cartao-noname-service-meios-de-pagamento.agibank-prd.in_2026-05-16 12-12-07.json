@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-noname-service-meios-de-pagamento.agibank-prd.in",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 12:12:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-noname-service-meios-de-pagamento.agibank-prd.in",
+        "aggregated": "/CN=cartao-noname-service-meios-de-pagamento.agibank-prd.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "051FB51B8818D0F8B40822132A5990195CB9",
+      "not_before": 1778748319,
+      "not_after": 1786524318,
+      "fingerprint": "CE:AA:33:E6:42:A1:39:8C:97:6D:13:08:CF:73:F8:9E:A6:68:85:1C",
+      "sha1": "CE:AA:33:E6:42:A1:39:8C:97:6D:13:08:CF:73:F8:9E:A6:68:85:1C",
+      "sha256": "43:15:E3:03:C3:FC:3E:72:E9:AE:BC:1C:E1:12:68:D8:D4:59:1A:51:FC:46:9D:CC:52:AD:98:09:B1:72:F5:CA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-noname-service-meios-de-pagamento.agibank-prd.in",
+        "cartao-noname-service-cartoes.agibank-prd.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-noname-service-cartoes.agibank-prd.in, DNS:cartao-noname-service-meios-de-pagamento.agibank-prd.in",
+        "subjectKeyIdentifier": "keyid:cc:ca:df:1d:c4:92:57:ed:3d:ef:83:ab:09:7b:7e:ed:6d:31:31:ab"
+      }
+    },
+    "cert_index": 4234064880,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234064880&end=4234064880",
+    "seen": 1778944327.411,
+    "submission_timestamp": 1778751831.705,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

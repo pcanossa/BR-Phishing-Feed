@@ -1,0 +1,51 @@
+{
+  "dominio": "app-perftracker.workbench.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 12:35:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-perftracker.workbench.prod.netflix.net",
+        "aggregated": "/CN=app-perftracker.workbench.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0529FD1FB853551C95BA38288AEA5799F597",
+      "not_before": 1778750089,
+      "not_after": 1786526088,
+      "fingerprint": "F0:BE:D4:D3:09:DF:EC:4B:FC:AC:91:97:E2:18:35:A4:CA:9F:DE:49",
+      "sha1": "F0:BE:D4:D3:09:DF:EC:4B:FC:AC:91:97:E2:18:35:A4:CA:9F:DE:49",
+      "sha256": "43:AD:77:EF:99:4F:FE:BB:54:FD:48:78:19:E7:97:8B:EE:FB:E0:DA:D8:39:52:9D:57:16:4B:39:CE:3D:4C:20",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app-perftracker.workbench.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-perftracker.workbench.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:da:01:55:c6:f8:b6:96:b7:3f:25:10:6e:0b:71:b6:34:82:5e:d8:9a"
+      }
+    },
+    "cert_index": 4234386856,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234386856&end=4234386856",
+    "seen": 1778945724.126,
+    "submission_timestamp": 1778753603.675,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

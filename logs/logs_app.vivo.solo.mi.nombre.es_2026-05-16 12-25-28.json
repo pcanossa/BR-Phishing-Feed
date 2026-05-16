@@ -1,0 +1,53 @@
+{
+  "dominio": "app.vivo.solo.mi.nombre.es",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/16/26 12:25:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.vivo.solo.mi.nombre.es",
+        "aggregated": "/CN=app.vivo.solo.mi.nombre.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "05F57EDBB5326AEDC53F62ED3F317976",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "33:37:73:F7:53:C4:7C:0B:E1:93:EE:78:4C:BF:90:EA:E0:00:34:36",
+      "sha1": "33:37:73:F7:53:C4:7C:0B:E1:93:EE:78:4C:BF:90:EA:E0:00:34:36",
+      "sha256": "EB:C7:96:92:A6:EB:08:2D:05:57:DA:79:18:ED:64:2B:57:BB:CF:B1:E4:54:72:80:FC:8F:3C:B6:AF:D0:7C:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.vivo.solo.mi.nombre.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.vivo.solo.mi.nombre.es",
+        "subjectKeyIdentifier": "keyid:c1:bd:97:2f:02:69:02:f8:d9:f4:ee:82:01:54:5d:a9:05:72:42:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234250570,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234250570&end=4234250570",
+    "seen": 1778945128.688,
+    "submission_timestamp": 1778753025.143,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
