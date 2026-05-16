@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.kodexpert.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 12:02:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.kodexpert.com.br",
+        "aggregated": "/CN=cpf.kodexpert.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "0C91EAAF2877A587133AA6CBE6A62C65",
+      "not_before": 1777908148,
+      "not_after": 1785687664,
+      "fingerprint": "D8:56:88:A3:5F:E7:AB:36:9E:66:A3:60:2D:F0:45:1B:F2:D4:BB:61",
+      "sha1": "D8:56:88:A3:5F:E7:AB:36:9E:66:A3:60:2D:F0:45:1B:F2:D4:BB:61",
+      "sha256": "4B:59:7D:42:B8:72:4D:FA:8D:8F:32:21:1D:1A:EE:DF:9A:67:90:EF:82:8A:F7:41:ED:8B:88:54:4C:19:93:DA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.kodexpert.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/DJE, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.kodexpert.com.br",
+        "subjectKeyIdentifier": "keyid:d0:c3:33:f5:a9:b3:dc:80:cf:6e:ad:8c:ba:32:a3:6a:f7:14:44:dd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 833299269,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=833299269&end=833299269",
+    "seen": 1778943752.024,
+    "submission_timestamp": 1777911748.973,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

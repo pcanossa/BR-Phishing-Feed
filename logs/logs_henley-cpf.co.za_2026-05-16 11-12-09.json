@@ -1,0 +1,54 @@
+{
+  "dominio": "henley-cpf.co.za",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 11:12:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.hcpf.co.za",
+        "aggregated": "/CN=*.hcpf.co.za"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05FAFF5C826B18CB0BAE65912ED21CA3E4B1",
+      "not_before": 1777907358,
+      "not_after": 1785683357,
+      "fingerprint": "E1:EE:F8:1C:54:46:20:83:68:40:1E:E7:C0:6E:96:8A:C2:79:50:E4",
+      "sha1": "E1:EE:F8:1C:54:46:20:83:68:40:1E:E7:C0:6E:96:8A:C2:79:50:E4",
+      "sha256": "A0:E6:69:AE:0C:DB:CE:B5:AC:1D:9D:3A:8A:0D:7C:7E:AA:78:FD:4C:69:F5:74:5D:43:08:3C:FA:C4:43:59:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.hcpf.co.za",
+        "*.henley-cpf.co.za",
+        "hcpf.co.za",
+        "henley-cpf.co.za"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.hcpf.co.za, DNS:*.henley-cpf.co.za, DNS:hcpf.co.za, DNS:henley-cpf.co.za",
+        "subjectKeyIdentifier": "keyid:56:cd:70:86:4a:e3:75:32:aa:b9:00:f4:c6:56:af:88:16:f6:4b:8a"
+      }
+    },
+    "cert_index": 833130675,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=833130675&end=833130675",
+    "seen": 1778940729.0,
+    "submission_timestamp": 1777910868.965,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

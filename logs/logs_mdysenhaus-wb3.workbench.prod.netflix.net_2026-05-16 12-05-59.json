@@ -1,0 +1,52 @@
+{
+  "dominio": "mdysenhaus-wb3.workbench.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 12:05:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mdysenhaus-wb3.workbench.prod.netflix.net",
+        "aggregated": "/CN=mdysenhaus-wb3.workbench.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06C2FF46A5D55C8B6DCA6A165652F01E9878",
+      "not_before": 1778747800,
+      "not_after": 1786523799,
+      "fingerprint": "C8:DC:4E:04:7E:ED:54:AF:EE:BF:56:89:07:D4:31:63:B9:82:8F:36",
+      "sha1": "C8:DC:4E:04:7E:ED:54:AF:EE:BF:56:89:07:D4:31:63:B9:82:8F:36",
+      "sha256": "08:28:01:C9:D3:47:B7:65:D1:83:E2:54:A5:F5:07:88:96:9D:49:9B:02:F4:AE:CC:DE:BD:02:0E:6D:69:F1:2F",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "mdysenhaus-wb3.workbench.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mdysenhaus-wb3.workbench.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:65:7d:92:4d:58:65:22:a1:b4:07:80:1a:de:75:b3:43:0a:a2:b6:5f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4233983483,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233983483&end=4233983483",
+    "seen": 1778943959.204,
+    "submission_timestamp": 1778751310.574,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

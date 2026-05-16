@@ -1,0 +1,51 @@
+{
+  "dominio": "app.us-west-2.prod.edge.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 11:24:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.us-west-2.prod.edge.netflix.net",
+        "aggregated": "/CN=*.app.us-west-2.prod.edge.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06D45FB0FFC80144162C43510A372FCF7CA1",
+      "not_before": 1778744325,
+      "not_after": 1786520324,
+      "fingerprint": "11:6B:30:BE:14:22:96:4A:73:D1:DF:A7:18:03:61:94:A7:EB:E1:12",
+      "sha1": "11:6B:30:BE:14:22:96:4A:73:D1:DF:A7:18:03:61:94:A7:EB:E1:12",
+      "sha256": "0B:57:82:DF:8B:B3:9A:19:91:18:B5:54:F8:A0:7A:ED:13:B3:43:C9:61:6F:2D:69:CD:65:F0:D8:48:EF:5D:2B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.us-west-2.prod.edge.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.app.us-west-2.prod.edge.netflix.net",
+        "subjectKeyIdentifier": "keyid:33:c3:b9:d6:c7:f5:22:0d:88:e3:5c:77:25:6d:3b:11:a6:d9:52:ab"
+      }
+    },
+    "cert_index": 4233397597,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233397597&end=4233397597",
+    "seen": 1778941444.734,
+    "submission_timestamp": 1778747838.546,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

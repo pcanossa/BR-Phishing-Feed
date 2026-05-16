@@ -1,0 +1,51 @@
+{
+  "dominio": "app.staging-acclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 11:57:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.staging-acclaro.com",
+        "aggregated": "/CN=app.staging-acclaro.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "05BACC1F07EF415471515F3AD813E07B",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "3A:73:8C:23:88:BA:65:74:A0:C5:B3:CC:D3:9E:1D:B3:77:85:51:56",
+      "sha1": "3A:73:8C:23:88:BA:65:74:A0:C5:B3:CC:D3:9E:1D:B3:77:85:51:56",
+      "sha256": "2D:2A:93:0D:DC:8D:9C:8C:95:B3:12:DB:80:9B:EF:2B:36:33:8D:4F:E8:79:E9:73:46:95:8B:DA:90:CE:60:75",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.staging-acclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.staging-acclaro.com",
+        "subjectKeyIdentifier": "keyid:a3:2c:ae:17:e2:19:bb:6f:d5:45:29:79:1c:df:d0:77:44:37:e4:ea"
+      }
+    },
+    "cert_index": 4233871071,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233871071&end=4233871071",
+    "seen": 1778943466.347,
+    "submission_timestamp": 1778750667.665,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

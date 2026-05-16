@@ -1,0 +1,53 @@
+{
+  "dominio": "app.theamericanassociation.com",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/16/26 11:18:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.theamericanassociation.com",
+        "aggregated": "/CN=app.theamericanassociation.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "02E04A4E0AF3E6FCA3F9029DB933ABB5",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "6E:DA:45:B1:3F:D0:26:1B:3F:9C:0B:28:9D:FF:6C:99:E0:71:D9:5A",
+      "sha1": "6E:DA:45:B1:3F:D0:26:1B:3F:9C:0B:28:9D:FF:6C:99:E0:71:D9:5A",
+      "sha256": "CE:2E:1D:52:5E:AA:B4:FF:BA:4C:3C:A0:71:8F:04:EA:13:03:BB:94:F1:00:84:FA:76:36:5F:40:2C:3D:4B:FF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.theamericanassociation.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.theamericanassociation.com",
+        "subjectKeyIdentifier": "keyid:18:b9:02:20:da:b7:95:f8:6d:d2:44:93:57:44:6f:90:76:cb:68:e3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4233321990,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233321990&end=4233321990",
+    "seen": 1778941123.19,
+    "submission_timestamp": 1778747308.298,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

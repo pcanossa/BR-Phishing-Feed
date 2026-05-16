@@ -1,0 +1,51 @@
+{
+  "dominio": "device.staging.claro.saia.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 11:39:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "device.staging.claro.saia.app",
+        "aggregated": "/CN=device.staging.claro.saia.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06465FD9E52AA6866205D4DC498CF518AA44",
+      "not_before": 1778745751,
+      "not_after": 1786521750,
+      "fingerprint": "21:7D:CF:74:87:EB:A3:BD:95:C2:2A:ED:FE:9C:39:73:E5:5B:7B:0B",
+      "sha1": "21:7D:CF:74:87:EB:A3:BD:95:C2:2A:ED:FE:9C:39:73:E5:5B:7B:0B",
+      "sha256": "47:E6:6A:57:C9:B4:C8:24:6B:E7:F1:9D:CA:D0:D6:9E:EE:68:3A:23:5A:32:D4:73:BB:07:C5:B8:89:5C:93:AC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "device.staging.claro.saia.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:device.staging.claro.saia.app",
+        "subjectKeyIdentifier": "keyid:80:59:96:97:7b:ec:4d:00:ca:91:43:dd:26:39:9f:a2:cd:4b:02:e6"
+      }
+    },
+    "cert_index": 4233610018,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233610018&end=4233610018",
+    "seen": 1778942363.421,
+    "submission_timestamp": 1778749263.907,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

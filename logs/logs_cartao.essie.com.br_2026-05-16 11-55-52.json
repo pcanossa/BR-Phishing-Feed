@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.essie.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 11:55:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.essie.com.br",
+        "aggregated": "/CN=cartao.essie.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "063ED01F8CC84AA676411EBEAE907460FC9E",
+      "not_before": 1778747010,
+      "not_after": 1786523009,
+      "fingerprint": "15:E0:F3:CD:58:19:89:70:BD:30:BD:D1:BB:76:72:77:59:4A:92:FA",
+      "sha1": "15:E0:F3:CD:58:19:89:70:BD:30:BD:D1:BB:76:72:77:59:4A:92:FA",
+      "sha256": "82:4A:69:73:8C:C7:13:11:64:87:44:3A:F9:E1:E4:C5:98:55:8F:AF:A6:D5:2A:49:8A:15:C0:A7:54:82:C1:B6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.essie.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.essie.com.br",
+        "subjectKeyIdentifier": "keyid:6b:fc:d4:f6:25:00:27:b4:f3:04:dc:4a:6f:44:81:02:6c:57:ac:38",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4233843967,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4233843967&end=4233843967",
+    "seen": 1778943352.371,
+    "submission_timestamp": 1778750520.457,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
