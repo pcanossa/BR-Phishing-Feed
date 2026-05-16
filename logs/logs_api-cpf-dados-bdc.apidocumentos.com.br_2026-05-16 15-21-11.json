@@ -1,0 +1,51 @@
+{
+  "dominio": "api-cpf-dados-bdc.apidocumentos.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 15:21:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-cpf-dados-bdc.apidocumentos.com.br",
+        "aggregated": "/CN=api-cpf-dados-bdc.apidocumentos.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "058D0AABC29D42C4414E300EA14935D36F07",
+      "not_before": 1778761947,
+      "not_after": 1786537946,
+      "fingerprint": "D5:7B:D3:A4:26:D2:F1:3F:24:46:74:CA:8B:6A:05:67:D9:87:12:8E",
+      "sha1": "D5:7B:D3:A4:26:D2:F1:3F:24:46:74:CA:8B:6A:05:67:D9:87:12:8E",
+      "sha256": "1A:67:F1:CA:7A:D3:AE:8A:58:FD:84:9A:31:62:F8:93:CA:FA:BF:BB:36:13:9E:E9:2B:B6:94:F3:22:FD:45:73",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api-cpf-dados-bdc.apidocumentos.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api-cpf-dados-bdc.apidocumentos.com.br",
+        "subjectKeyIdentifier": "keyid:f0:9e:2d:05:d0:fd:d5:44:90:e4:dc:f6:46:f6:b0:e6:cb:02:93:00"
+      }
+    },
+    "cert_index": 4236506850,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236506850&end=4236506850",
+    "seen": 1778955670.305,
+    "submission_timestamp": 1778765460.919,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

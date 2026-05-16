@@ -1,0 +1,52 @@
+{
+  "dominio": "tradebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 15:19:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tradebito.com",
+        "aggregated": "/CN=tradebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "068302B6ABCD1A9B680CA84904AE2291543C",
+      "not_before": 1778745500,
+      "not_after": 1786521499,
+      "fingerprint": "DF:C0:79:DA:F7:EF:97:68:71:67:04:B2:D0:2D:44:9C:0C:04:60:ED",
+      "sha1": "DF:C0:79:DA:F7:EF:97:68:71:67:04:B2:D0:2D:44:9C:0C:04:60:ED",
+      "sha256": "99:62:C5:14:50:29:25:4E:04:94:36:5F:F6:30:CA:40:02:FA:02:F8:0F:A4:AB:73:96:93:44:02:15:94:1C:A3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "tradebito.com",
+        "*.tradebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.tradebito.com, DNS:tradebito.com",
+        "subjectKeyIdentifier": "keyid:3d:34:fb:f1:e0:b1:58:bf:75:b8:aa:1b:aa:d3:51:6a:86:0c:30:c2"
+      }
+    },
+    "cert_index": 742372031,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=742372031&end=742372031",
+    "seen": 1778955543.395,
+    "submission_timestamp": 1778749104.29,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

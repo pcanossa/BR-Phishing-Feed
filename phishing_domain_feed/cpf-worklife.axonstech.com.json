@@ -1,0 +1,12 @@
+{
+    "dominio": "cpf-worklife.axonstech.com",
+    "data_registro": "05/16/26 16:05:35",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso do termo 'cpf' que é um identificador pessoal brasileiro, frequentemente utilizado em campanhas de phishing para criar senso de urgência ou necessidade de regularização",
+        "Estrutura de subdomínio que utiliza uma entidade legítima e genérica (axonstech.com) para mascarar um endpoint de coleta de dados",
+        "O padrão 'prefixo-palavra-chave.dominio-hospedeiro.com' é uma técnica comum de evasão para evitar filtros baseados em domínios de nível superior (TLD) suspeitos",
+        "Tentativa clara de engenharia social focada no público brasileiro ao utilizar a sigla CPF como gancho"
+    ],
+    "analise_comportamental": "O domínio apresenta padrões de um possível site de phishing desenhado para capturar dados sensíveis de brasileiros através de uma página falsa de consulta ou regularização de CPF, utilizando uma infraestrutura de subdomínio para conferir uma falsa aparência de legitimidade."
+}

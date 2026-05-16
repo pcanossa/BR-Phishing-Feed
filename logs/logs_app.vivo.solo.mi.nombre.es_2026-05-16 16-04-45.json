@@ -1,0 +1,52 @@
+{
+  "dominio": "app.vivo.solo.mi.nombre.es",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/16/26 16:04:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.vivo.solo.mi.nombre.es",
+        "aggregated": "/CN=app.vivo.solo.mi.nombre.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "05F57EDBB5326AEDC53F62ED3F317976",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "5D:1E:BC:63:AE:D6:A3:53:8A:B1:26:51:90:C1:4C:9B:BA:F3:05:2B",
+      "sha1": "5D:1E:BC:63:AE:D6:A3:53:8A:B1:26:51:90:C1:4C:9B:BA:F3:05:2B",
+      "sha256": "3F:80:EB:04:AA:28:1E:F8:80:5C:A5:5B:6E:80:56:11:D0:B9:51:2D:89:E0:BB:D4:D4:7C:7B:7D:0F:34:17:6A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.vivo.solo.mi.nombre.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.vivo.solo.mi.nombre.es",
+        "subjectKeyIdentifier": "keyid:c1:bd:97:2f:02:69:02:f8:d9:f4:ee:82:01:54:5d:a9:05:72:42:a7"
+      }
+    },
+    "cert_index": 4237070346,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237070346&end=4237070346",
+    "seen": 1778958286.043,
+    "submission_timestamp": 1778768674.035,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

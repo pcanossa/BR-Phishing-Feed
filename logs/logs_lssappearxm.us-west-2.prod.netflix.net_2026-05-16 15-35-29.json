@@ -1,0 +1,51 @@
+{
+  "dominio": "lssappearxm.us-west-2.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 15:35:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "lssappearxm.us-west-2.prod.netflix.net",
+        "aggregated": "/CN=lssappearxm.us-west-2.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05D529CF5BF0CA5684CB8D557F5AB452A830",
+      "not_before": 1778763155,
+      "not_after": 1786539154,
+      "fingerprint": "C3:03:DB:0D:F1:7B:0C:17:AB:97:74:C2:18:3D:B6:60:EA:85:8D:DE",
+      "sha1": "C3:03:DB:0D:F1:7B:0C:17:AB:97:74:C2:18:3D:B6:60:EA:85:8D:DE",
+      "sha256": "D3:1C:34:75:8E:3C:AF:FE:0F:CE:B9:57:F6:55:D4:27:BA:A6:79:6C:93:99:3E:C9:C8:2F:E9:BC:3A:EE:0D:FA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "lssappearxm.us-west-2.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:lssappearxm.us-west-2.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:77:58:ab:e6:4a:38:e2:58:9e:d2:7c:21:b5:63:33:71:2a:36:c2:20"
+      }
+    },
+    "cert_index": 4236688760,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236688760&end=4236688760",
+    "seen": 1778956529.932,
+    "submission_timestamp": 1778766667.399,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

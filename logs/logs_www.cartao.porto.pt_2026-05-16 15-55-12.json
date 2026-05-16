@@ -1,0 +1,55 @@
+{
+  "dominio": "www.cartao.porto.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 15:55:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dadosabertos.porto.digital",
+        "aggregated": "/CN=dadosabertos.porto.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06EA47FEA04D0182351FA7C404AD8AD30A16",
+      "not_before": 1778764507,
+      "not_after": 1786540506,
+      "fingerprint": "1A:A8:EC:67:CC:70:A5:B7:DC:FA:11:F8:89:87:97:CE:27:7B:1A:CC",
+      "sha1": "1A:A8:EC:67:CC:70:A5:B7:DC:FA:11:F8:89:87:97:CE:27:7B:1A:CC",
+      "sha256": "7A:41:F0:43:C6:24:5F:DA:16:59:10:6A:7B:E5:48:BA:E4:4C:7C:8B:D5:DC:08:75:A6:95:E4:E5:69:CD:CA:06",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dadosabertos.porto.digital",
+        "cartao.porto.pt",
+        "dadosabertos.cm-porto.pt",
+        "e.porto.pt",
+        "www.cartao.porto.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.porto.pt, DNS:dadosabertos.cm-porto.pt, DNS:dadosabertos.porto.digital, DNS:e.porto.pt, DNS:www.cartao.porto.pt",
+        "subjectKeyIdentifier": "keyid:f5:3a:57:e4:30:c7:25:01:5d:00:aa:71:98:be:ab:aa:ad:09:60:d8"
+      }
+    },
+    "cert_index": 4236946268,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236946268&end=4236946268",
+    "seen": 1778957712.214,
+    "submission_timestamp": 1778768020.457,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

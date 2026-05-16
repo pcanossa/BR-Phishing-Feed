@@ -1,0 +1,51 @@
+{
+  "dominio": "www.netflix-faturas4.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 16:01:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.netflix-faturas4.com",
+        "aggregated": "/CN=www.netflix-faturas4.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B8236704AD6B8500",
+      "not_before": 1778768467,
+      "not_after": 1795875667,
+      "fingerprint": "9A:1F:F1:C3:27:F8:16:15:BC:01:BA:AD:E6:D5:1A:99:FB:17:E3:3E",
+      "sha1": "9A:1F:F1:C3:27:F8:16:15:BC:01:BA:AD:E6:D5:1A:99:FB:17:E3:3E",
+      "sha256": "49:77:A2:DA:81:DC:E5:38:27:C9:88:EF:8B:8D:02:AA:4F:99:F4:68:D7:84:BF:CA:6D:7C:AD:14:C8:CA:04:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.netflix-faturas4.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.netflix-faturas4.com",
+        "subjectKeyIdentifier": "keyid:c6:51:89:24:70:68:80:5a:dd:8c:63:91:0e:9e:f7:1e:7b:48:d5:ca"
+      }
+    },
+    "cert_index": 4237036800,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237036800&end=4237036800",
+    "seen": 1778958117.573,
+    "submission_timestamp": 1778768468.628,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

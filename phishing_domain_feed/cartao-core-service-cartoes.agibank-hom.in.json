@@ -1,0 +1,12 @@
+{
+    "dominio": "cartao-core-service-cartoes.agibank-hom.in",
+    "data_registro": "05/16/26 15:26:43",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de termos técnicos ('core-service', 'cartoes') para simular uma estrutura interna legítima de instituição financeira brasileira (Agibank).",
+        "Utilização de subdomínios complexos para conferir uma falsa sensação de autenticidade (typosquatting ou estruturação enganosa).",
+        "Uso da extensão de domínio '.in' (Índia), que é geograficamente inconsistente com a operação de uma instituição financeira sediada no Brasil, prática comum para ocultar infraestruturas maliciosas.",
+        "O domínio não pertence à infraestrutura oficial do banco, que utiliza domínios registrados sob a extensão '.com.br'."
+    ],
+    "analise_comportamental": "O domínio foi construído utilizando técnicas de engenharia social para mimetizar uma interface de serviços internos do Agibank. A combinação de termos bancários com um TLD (Top Level Domain) estrangeiro (.in) é um forte indicador de tentativa de fraude contra clientes brasileiros, visando a coleta de credenciais ou dados de cartões através de páginas de login falsas."
+}
