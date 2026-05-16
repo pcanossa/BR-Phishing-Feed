@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.kpdd.dpdns.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 19:44:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.kpdd.dpdns.org",
+        "aggregated": "/CN=cpf.kpdd.dpdns.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "1D7D5B86A31B5E7313F17348865FC97E",
+      "not_before": 1778782669,
+      "not_after": 1786562192,
+      "fingerprint": "60:4C:84:48:2F:68:A1:FA:7B:6B:10:D5:8E:E2:F2:07:7A:BB:78:80",
+      "sha1": "60:4C:84:48:2F:68:A1:FA:7B:6B:10:D5:8E:E2:F2:07:7A:BB:78:80",
+      "sha256": "E8:83:64:C9:A7:0D:05:1A:55:92:AB:EF:25:B1:E4:AF:42:94:17:48:2C:4E:0D:7D:DF:87:80:A9:9B:3A:3E:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.kpdd.dpdns.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/HX0, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.kpdd.dpdns.org",
+        "subjectKeyIdentifier": "keyid:c8:68:5d:7b:15:d1:cc:42:18:c0:2d:aa:d5:6f:14:1a:47:20:d0:04",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4240091567,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4240091567&end=4240091567",
+    "seen": 1778971444.808,
+    "submission_timestamp": 1778786270.145,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
