@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.canisport.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 16:41:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.canisport.pt",
+        "aggregated": "/CN=cartao.canisport.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06AEDFA2295C1A53D87879FA7DFF0F734882",
+      "not_before": 1778767995,
+      "not_after": 1786543994,
+      "fingerprint": "9D:65:9E:40:22:AC:54:EB:8F:91:17:14:0E:33:04:A0:F8:B1:67:03",
+      "sha1": "9D:65:9E:40:22:AC:54:EB:8F:91:17:14:0E:33:04:A0:F8:B1:67:03",
+      "sha256": "BE:C3:43:C7:9A:98:8A:8A:29:73:4E:DA:A2:8A:D8:1F:1B:33:D7:DD:15:48:56:12:B4:C0:49:88:70:87:BD:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.canisport.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.canisport.pt",
+        "subjectKeyIdentifier": "keyid:37:7e:cf:a8:9c:cd:f8:0e:30:d7:6f:67:07:c9:78:69:60:83:ac:b0"
+      }
+    },
+    "cert_index": 4237563636,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237563636&end=4237563636",
+    "seen": 1778960478.814,
+    "submission_timestamp": 1778771508.812,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

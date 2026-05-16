@@ -1,0 +1,51 @@
+{
+  "dominio": "spotify.djep.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/16/26 16:53:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotify.djep.app",
+        "aggregated": "/CN=spotify.djep.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05A8222F80D4C4B0F93ED5A30952FE655E5A",
+      "not_before": 1778768974,
+      "not_after": 1786544973,
+      "fingerprint": "36:5B:A9:AD:D8:EB:B3:B2:D0:A7:8B:8F:C4:13:97:43:2B:DA:72:D1",
+      "sha1": "36:5B:A9:AD:D8:EB:B3:B2:D0:A7:8B:8F:C4:13:97:43:2B:DA:72:D1",
+      "sha256": "1C:12:FC:CE:FA:0A:D1:16:9F:49:DC:A5:9F:45:71:1D:0D:E4:61:B5:B3:DC:09:7D:FB:97:74:7A:63:3F:4E:C2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "spotify.djep.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:spotify.djep.app",
+        "subjectKeyIdentifier": "keyid:8f:92:ed:fb:fb:be:da:13:7a:32:a6:d7:d0:72:a0:22:7b:8e:c4:f8"
+      }
+    },
+    "cert_index": 4237727280,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237727280&end=4237727280",
+    "seen": 1778961219.447,
+    "submission_timestamp": 1778772486.287,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

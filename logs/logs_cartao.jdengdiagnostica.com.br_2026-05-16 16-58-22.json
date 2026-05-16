@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.jdengdiagnostica.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 16:58:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.jdengdiagnostica.com.br",
+        "aggregated": "/CN=cartao.jdengdiagnostica.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0560814A81E254D20727524CC8198749E866",
+      "not_before": 1778769483,
+      "not_after": 1786545482,
+      "fingerprint": "54:2B:42:5E:BC:72:4B:18:65:23:71:8D:49:AF:5D:C5:77:C1:74:FC",
+      "sha1": "54:2B:42:5E:BC:72:4B:18:65:23:71:8D:49:AF:5D:C5:77:C1:74:FC",
+      "sha256": "5F:5E:42:92:0A:1A:1A:72:66:BE:3B:31:4D:14:69:BD:88:BE:56:E9:4C:44:B1:FF:FC:CE:E6:63:AE:36:65:6B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.jdengdiagnostica.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.jdengdiagnostica.com.br",
+        "subjectKeyIdentifier": "keyid:89:28:0e:6e:34:5c:e9:90:54:ba:7b:46:33:dc:0d:34:24:18:2e:41"
+      }
+    },
+    "cert_index": 4237791016,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237791016&end=4237791016",
+    "seen": 1778961502.744,
+    "submission_timestamp": 1778772996.743,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

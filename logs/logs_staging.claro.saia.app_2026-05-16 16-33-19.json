@@ -1,0 +1,52 @@
+{
+  "dominio": "staging.claro.saia.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 16:33:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.claro.saia.app",
+        "aggregated": "/CN=staging.claro.saia.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "065F2B56953F25C91E24A1C6CA359E2FD42D",
+      "not_before": 1778745759,
+      "not_after": 1786521758,
+      "fingerprint": "FC:C3:4C:ED:98:22:1E:26:E5:5C:97:D3:30:44:DC:2E:9A:2B:04:56",
+      "sha1": "FC:C3:4C:ED:98:22:1E:26:E5:5C:97:D3:30:44:DC:2E:9A:2B:04:56",
+      "sha256": "BF:E4:9A:68:90:A6:57:AA:27:36:DC:4E:E6:EA:2F:83:5A:92:D7:83:5A:81:FA:54:29:6F:F1:B3:40:47:AA:BD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "staging.claro.saia.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.claro.saia.app",
+        "subjectKeyIdentifier": "keyid:0d:c6:6f:3b:e3:e3:7b:1e:fa:b5:81:6b:db:a8:70:7a:a0:8d:03:fb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 636736346,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=636736346&end=636736346",
+    "seen": 1778959999.102,
+    "submission_timestamp": 1778749270.331,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

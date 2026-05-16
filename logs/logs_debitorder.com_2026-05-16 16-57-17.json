@@ -1,0 +1,53 @@
+{
+  "dominio": "debitorder.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 16:57:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitorder.com",
+        "aggregated": "/CN=debitorder.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "342BAB51380B6C4E13B7C563E699EE30",
+      "not_before": 1778262128,
+      "not_after": 1786041723,
+      "fingerprint": "93:45:34:EC:2D:CE:83:00:A1:44:42:0B:BE:B5:3E:6A:71:61:06:FF",
+      "sha1": "93:45:34:EC:2D:CE:83:00:A1:44:42:0B:BE:B5:3E:6A:71:61:06:FF",
+      "sha256": "2D:31:2D:2D:A4:56:E5:70:9E:E6:F3:BF:26:FF:1F:29:F1:F8:25:F1:6E:02:E5:AC:44:0D:A0:89:2D:70:5B:39",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitorder.com",
+        "*.debitorder.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/NCs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitorder.com, DNS:*.debitorder.com",
+        "subjectKeyIdentifier": "keyid:e9:36:c8:1f:7c:d7:0a:59:0b:f4:a1:cb:9b:b8:64:1c:04:83:24:7e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 628687108,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=628687108&end=628687108",
+    "seen": 1778961437.101,
+    "submission_timestamp": 1778265729.009,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

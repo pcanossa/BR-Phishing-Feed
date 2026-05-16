@@ -1,0 +1,52 @@
+{
+  "dominio": "spotifypremiumappmx.workers.dev",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/16/26 16:59:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifypremiumappmx.workers.dev",
+        "aggregated": "/CN=spotifypremiumappmx.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06493F3521B76A0DF4F44924AB3D0717BD7E",
+      "not_before": 1778769583,
+      "not_after": 1786545582,
+      "fingerprint": "49:69:8A:E7:29:12:AA:2C:7D:63:86:5E:AA:6F:FA:76:B1:83:09:0F",
+      "sha1": "49:69:8A:E7:29:12:AA:2C:7D:63:86:5E:AA:6F:FA:76:B1:83:09:0F",
+      "sha256": "84:F6:A3:4B:D3:47:4C:95:0B:84:20:E6:E8:1A:A9:5E:9E:16:33:47:41:A0:C3:6E:83:95:95:44:10:5A:79:47",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "spotifypremiumappmx.workers.dev",
+        "*.spotifypremiumappmx.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.spotifypremiumappmx.workers.dev, DNS:spotifypremiumappmx.workers.dev",
+        "subjectKeyIdentifier": "keyid:4c:97:d1:73:61:20:fc:6d:80:91:5e:d6:b7:62:0a:cc:50:04:59:50"
+      }
+    },
+    "cert_index": 4237804429,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237804429&end=4237804429",
+    "seen": 1778961561.975,
+    "submission_timestamp": 1778773095.943,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

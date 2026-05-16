@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.spirit-formation.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 16:53:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.spirit-formation.fr",
+        "aggregated": "/CN=cpf.spirit-formation.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05C9B0F5D8B26328AC861E8148D822ECD95F",
+      "not_before": 1778724557,
+      "not_after": 1786500556,
+      "fingerprint": "CB:53:A6:E8:6E:F5:50:B4:C8:18:D9:6B:DD:33:14:7A:E8:D2:55:18",
+      "sha1": "CB:53:A6:E8:6E:F5:50:B4:C8:18:D9:6B:DD:33:14:7A:E8:D2:55:18",
+      "sha256": "97:49:40:67:37:3B:A3:9E:65:E1:55:F9:81:60:22:58:DC:E9:F2:34:72:92:88:15:F7:F3:50:05:EE:DC:85:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.spirit-formation.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.spirit-formation.fr",
+        "subjectKeyIdentifier": "keyid:70:fb:07:e0:54:70:c3:b8:83:39:32:59:0b:8f:98:31:db:1e:ae:7e"
+      }
+    },
+    "cert_index": 4237721815,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237721815&end=4237721815",
+    "seen": 1778961197.426,
+    "submission_timestamp": 1778772443.217,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

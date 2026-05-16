@@ -1,0 +1,53 @@
+{
+  "dominio": "login.claro.com.es",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 16:32:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.claro.com.es",
+        "aggregated": "/CN=login.claro.com.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "090579168096B0800CDEFC5B9DFAD4A0",
+      "not_before": 1778716800,
+      "not_after": 1794700799,
+      "fingerprint": "2E:4A:D7:9C:38:6B:FF:81:90:99:CC:B7:36:FE:C3:6D:1B:E0:BA:C3",
+      "sha1": "2E:4A:D7:9C:38:6B:FF:81:90:99:CC:B7:36:FE:C3:6D:1B:E0:BA:C3",
+      "sha256": "9E:E7:4D:AD:32:B4:78:78:E5:90:FF:6D:E3:C2:43:C9:FC:BA:E9:7F:3C:A3:B2:E2:08:F6:68:02:F8:C9:53:1C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.claro.com.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.claro.com.es",
+        "subjectKeyIdentifier": "keyid:e0:4f:2c:bd:2a:9e:8f:3d:fa:66:ed:a9:71:f0:8c:2b:9a:21:69:e5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4237442156,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237442156&end=4237442156",
+    "seen": 1778959927.985,
+    "submission_timestamp": 1778770986.411,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.lovenetflix.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 16:34:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.lovenetflix.com",
+        "aggregated": "/CN=app.lovenetflix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0DB44F6F52C5C6EBB8EE8B507431064F",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "31:AB:A9:AD:0F:2A:9E:A0:38:AE:54:CE:7A:C0:7D:42:35:64:D6:30",
+      "sha1": "31:AB:A9:AD:0F:2A:9E:A0:38:AE:54:CE:7A:C0:7D:42:35:64:D6:30",
+      "sha256": "6A:5E:38:3D:96:9D:D2:46:5D:F7:3B:FC:71:1A:21:EC:D8:1D:96:4E:E0:06:CF:F0:05:00:7C:2A:0F:8C:D2:A4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.lovenetflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.lovenetflix.com",
+        "subjectKeyIdentifier": "keyid:7a:f0:b4:36:26:60:a5:55:92:87:48:df:71:4c:cf:1f:96:25:55:db"
+      }
+    },
+    "cert_index": 4237473335,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4237473335&end=4237473335",
+    "seen": 1778960070.2,
+    "submission_timestamp": 1778771112.507,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

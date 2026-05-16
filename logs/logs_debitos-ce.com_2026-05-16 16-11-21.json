@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-ce.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 16:11:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-ce.com",
+        "aggregated": "/CN=debitos-ce.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06712BF1B4D3DDE96D9BF57C1D580E749D8A",
+      "not_before": 1778339470,
+      "not_after": 1786115469,
+      "fingerprint": "FD:BC:53:2F:D1:59:2D:3A:84:DF:B5:28:7E:86:0B:30:DB:C3:2F:36",
+      "sha1": "FD:BC:53:2F:D1:59:2D:3A:84:DF:B5:28:7E:86:0B:30:DB:C3:2F:36",
+      "sha256": "16:97:94:CD:C6:A2:B1:39:B4:E2:60:41:F7:80:0D:8B:4F:E8:A8:B4:C2:8D:A4:ED:BA:DF:E7:51:69:C7:88:EC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-ce.com",
+        "*.debitos-ce.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitos-ce.com, DNS:debitos-ce.com",
+        "subjectKeyIdentifier": "keyid:52:69:bb:85:8c:e4:62:25:8b:d7:d2:b4:39:5f:7a:7e:0d:b0:2d:bd"
+      }
+    },
+    "cert_index": 609798755,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=609798755&end=609798755",
+    "seen": 1778958680.386,
+    "submission_timestamp": 1778342982.207,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
