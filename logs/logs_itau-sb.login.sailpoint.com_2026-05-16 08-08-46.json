@@ -1,0 +1,51 @@
+{
+  "dominio": "itau-sb.login.sailpoint.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 08:08:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itau-sb.login.sailpoint.com",
+        "aggregated": "/CN=itau-sb.login.sailpoint.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2040AE58EE293FED0ECF719EFC342169",
+      "not_before": 1778774891,
+      "not_after": 1786554489,
+      "fingerprint": "59:F0:75:79:18:81:1D:3D:FA:32:68:0C:81:83:AA:79:AF:8D:FE:DD",
+      "sha1": "59:F0:75:79:18:81:1D:3D:FA:32:68:0C:81:83:AA:79:AF:8D:FE:DD",
+      "sha256": "B6:CB:D3:2D:20:13:25:58:46:09:CC:C6:BB:7F:E6:B6:83:53:75:A9:50:62:0B:A3:4D:B4:76:0B:F5:21:19:E1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "itau-sb.login.sailpoint.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/IEA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:itau-sb.login.sailpoint.com",
+        "subjectKeyIdentifier": "keyid:93:1b:97:78:0a:07:ea:bf:f5:ab:2b:68:1d:25:4b:33:c9:35:d4:5f"
+      }
+    },
+    "cert_index": 185829956,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x725/898",
+    "seen": 1778929724.663,
+    "submission_timestamp": 1778896143.982,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

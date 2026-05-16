@@ -1,0 +1,53 @@
+{
+  "dominio": "cdnitausuperapp.cl",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 08:07:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01C1830158364BD66430386A3FDA98C2",
+      "not_before": 1778895187,
+      "not_after": 1778981587,
+      "fingerprint": "6B:BA:3B:62:10:69:F9:15:13:32:AD:44:15:16:3D:DD:91:AB:47:36",
+      "sha1": "6B:BA:3B:62:10:69:F9:15:13:32:AD:44:15:16:3D:DD:91:AB:47:36",
+      "sha256": "B0:A8:DD:03:76:D7:5F:0C:C3:BC:EE:51:FB:72:D8:60:B5:FB:DE:9A:87:6E:30:CC:48:99:06:34:50:10:D8:21",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.cdnitausuperapp.cl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cdnitausuperapp.cl, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:89:15:95:e2:f4:21:ed:b9:21:3c:2a:83:96:ce:df:63:7d:14:fe:b8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2028582981,
+    "cert_link": "https://elephant2026h1.ct.sectigo.com/ct/v1/get-entries?start=2028582981&end=2028582981",
+    "seen": 1778929626.808,
+    "submission_timestamp": 1778895189.262,
+    "source": {
+      "name": "Sectigo 'Elephant2026h1'",
+      "url": "https://elephant2026h1.ct.sectigo.com"
+    }
+  }
+}

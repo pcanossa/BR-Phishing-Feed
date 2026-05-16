@@ -1,0 +1,53 @@
+{
+  "dominio": "livrocaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/16/26 08:34:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "livrocaixa.app",
+        "aggregated": "/CN=livrocaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C9ED913A67A19C00132F1FD601973FD7",
+      "not_before": 1778325217,
+      "not_after": 1786104680,
+      "fingerprint": "7E:AD:B6:FC:8A:B7:73:50:47:C3:45:05:92:48:B2:63:72:F9:4E:32",
+      "sha1": "7E:AD:B6:FC:8A:B7:73:50:47:C3:45:05:92:48:B2:63:72:F9:4E:32",
+      "sha256": "5A:E2:75:1F:7A:75:C7:C0:FB:23:64:A4:34:24:D9:B8:27:C2:E7:B2:4F:62:21:CE:5E:48:63:3E:18:5E:94:FA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "livrocaixa.app",
+        "*.livrocaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ye0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:livrocaixa.app, DNS:*.livrocaixa.app",
+        "subjectKeyIdentifier": "keyid:22:db:76:ea:8e:12:b0:2c:f1:c1:1e:86:33:0c:f4:75:2c:88:6e:8a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 608062181,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=608062181&end=608062181",
+    "seen": 1778931287.307,
+    "submission_timestamp": 1778328818.803,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

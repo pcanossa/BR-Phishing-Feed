@@ -1,0 +1,12 @@
+{
+    "dominio": "itau-sb.login.sailpoint.com",
+    "data_registro": "05/16/26 08:38:18",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínio para simular legitimidade de uma instituição financeira brasileira (Itaú) em um serviço de terceiros (SailPoint)",
+        "Uso de termo 'login' acoplado à marca, prática comum em ataques de phishing para colheita de credenciais",
+        "Técnica de homógrafos ou subdomínios enganosos visando induzir a vítima a acreditar que está em um ambiente de autenticação oficial do banco",
+        "O padrão 'itau-sb' sugere tentativa de personificação de serviços bancários (sb provavelmente significando 'serviço bancário' ou similar)"
+    ],
+    "analise_comportamental": "O domínio utiliza o serviço legítimo 'sailpoint.com' para hospedar um subdomínio que personifica o banco Itaú. Esta é uma técnica de abuso de confiança em plataformas de terceiros (subdomain takeover ou uso indevido de SaaS) para contornar filtros de reputação e realizar phishing de credenciais bancárias contra usuários brasileiros."
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "navyfederal.netflix-updatemethod.immo",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 08:57:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "navyfederal.netflix-updatemethod.immo",
+        "aggregated": "/CN=navyfederal.netflix-updatemethod.immo"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05D8560CD95CD8988EF636B46B8ED943A178",
+      "not_before": 1778732654,
+      "not_after": 1786508653,
+      "fingerprint": "9A:20:36:BA:FB:91:2A:C3:D1:65:FB:5A:BC:BB:57:2D:A6:10:ED:0D",
+      "sha1": "9A:20:36:BA:FB:91:2A:C3:D1:65:FB:5A:BC:BB:57:2D:A6:10:ED:0D",
+      "sha256": "DC:31:6B:D6:A1:BE:F1:9A:F4:26:B0:D1:C1:8A:D7:83:E6:D2:BC:56:DD:97:38:93:58:6C:01:5A:13:79:6A:6C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "navyfederal.netflix-updatemethod.immo"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:navyfederal.netflix-updatemethod.immo",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4231371225,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4231371225&end=4231371225",
+    "seen": 1778932623.877,
+    "submission_timestamp": 1778736167.867,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

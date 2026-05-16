@@ -1,0 +1,53 @@
+{
+  "dominio": "roks-claro-laraigo-prd.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 08:37:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "roks-claro-laraigo-prd.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=roks-claro-laraigo-prd.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0514940F65E47C6B55BDE36C1D9E4394CFD9",
+      "not_before": 1778923734,
+      "not_after": 1786699733,
+      "fingerprint": "4C:64:B0:9D:2D:AE:87:78:09:11:17:00:AF:F9:56:C7:C8:C1:13:11",
+      "sha1": "4C:64:B0:9D:2D:AE:87:78:09:11:17:00:AF:F9:56:C7:C8:C1:13:11",
+      "sha256": "05:BB:82:7D:0C:DF:D5:69:49:8D:6B:68:2A:A3:0E:FA:5D:D7:D1:2E:88:78:3D:E1:FA:6D:22:12:AD:27:79:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "roks-claro-laraigo-prd.us-south.containers.appdomain.cloud",
+        "*.roks-claro-laraigo-prd-3eff6d1aea91990473df51d55933d33b-0000.us-south.containers.appdomain.cloud",
+        "roks-claro-laraigo-prd-3eff6d1aea91990473df51d55933d33b-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.roks-claro-laraigo-prd-3eff6d1aea91990473df51d55933d33b-0000.us-south.containers.appdomain.cloud, DNS:roks-claro-laraigo-prd-3eff6d1aea91990473df51d55933d33b-0000.us-south.containers.appdomain.cloud, DNS:roks-claro-laraigo-prd.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:f6:e7:cb:ed:fa:e5:f5:0e:8b:16:25:38:6a:bf:6c:d3:17:9a:b0:2f"
+      }
+    },
+    "cert_index": 186647823,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x729/093",
+    "seen": 1778931458.249,
+    "submission_timestamp": 1778927244.982,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

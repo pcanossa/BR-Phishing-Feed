@@ -1,0 +1,52 @@
+{
+  "dominio": "gov-br-com.sbs",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/16/26 08:12:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gov-br-com.sbs",
+        "aggregated": "/CN=gov-br-com.sbs"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0636E72C488A28836D1F48E5068F8FA19B73",
+      "not_before": 1778895081,
+      "not_after": 1786671080,
+      "fingerprint": "68:FB:87:D5:8E:4E:0D:03:C0:8F:DE:82:03:B0:AA:C4:AB:98:18:AB",
+      "sha1": "68:FB:87:D5:8E:4E:0D:03:C0:8F:DE:82:03:B0:AA:C4:AB:98:18:AB",
+      "sha256": "C2:A2:FD:28:BE:AB:CE:95:DB:C3:28:9C:06:7D:F2:4C:B2:5C:73:56:59:E0:60:72:E7:70:03:8D:DA:45:3C:CC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "gov-br-com.sbs",
+        "*.gov-br-com.sbs"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.gov-br-com.sbs, DNS:gov-br-com.sbs",
+        "subjectKeyIdentifier": "keyid:c4:41:d5:6f:a6:7e:c6:ac:46:44:d2:3a:8a:62:50:d4:4e:e7:92:ca"
+      }
+    },
+    "cert_index": 185896450,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x726/158",
+    "seen": 1778929955.526,
+    "submission_timestamp": 1778898591.981,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

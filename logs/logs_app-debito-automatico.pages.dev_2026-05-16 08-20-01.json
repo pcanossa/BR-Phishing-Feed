@@ -1,0 +1,53 @@
+{
+  "dominio": "app-debito-automatico.pages.dev",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 08:20:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-debito-automatico.pages.dev",
+        "aggregated": "/CN=app-debito-automatico.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1CF7F06179A7CDA20E4F986D65719DE2",
+      "not_before": 1777904233,
+      "not_after": 1785683706,
+      "fingerprint": "97:C1:7D:8E:34:E5:6F:FD:AC:0E:E4:53:12:18:EB:EA:6D:92:73:42",
+      "sha1": "97:C1:7D:8E:34:E5:6F:FD:AC:0E:E4:53:12:18:EB:EA:6D:92:73:42",
+      "sha256": "32:BB:13:ED:FA:6A:46:3A:DA:4E:BB:5F:7A:92:FA:6A:10:FC:FE:DE:F1:7C:0F:2E:BA:46:CC:F8:F6:93:3C:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-debito-automatico.pages.dev",
+        "*.app-debito-automatico.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/HPc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-debito-automatico.pages.dev, DNS:*.app-debito-automatico.pages.dev",
+        "subjectKeyIdentifier": "keyid:93:5d:58:53:c9:2b:25:37:b1:d5:6c:e4:9d:c8:af:41:9d:15:77:f8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 832564529,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=832564529&end=832564529",
+    "seen": 1778930399.078,
+    "submission_timestamp": 1777907833.937,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

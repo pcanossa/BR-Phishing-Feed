@@ -1,0 +1,53 @@
+{
+  "dominio": "hsqltestapp.us-east-1.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 08:42:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hsqltestapp.test.netflix.net",
+        "aggregated": "/CN=hsqltestapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05F3FAB691469AC095F6F0D209D83A1D3BAF",
+      "not_before": 1778720590,
+      "not_after": 1786496589,
+      "fingerprint": "E3:12:B2:E0:8B:48:F8:35:DE:A5:52:56:47:50:13:1B:B6:5A:FF:BD",
+      "sha1": "E3:12:B2:E0:8B:48:F8:35:DE:A5:52:56:47:50:13:1B:B6:5A:FF:BD",
+      "sha256": "0E:38:D3:C4:9B:43:4B:18:E0:68:C5:74:30:4F:A2:4F:99:31:BA:D2:D0:B9:47:BE:14:30:77:EC:2A:BA:D9:73",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "hsqltestapp.test.netflix.net",
+        "hsqltestapp.us-east-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hsqltestapp.test.netflix.net, DNS:hsqltestapp.us-east-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:c1:2d:02:dd:bc:c9:2c:a6:27:0a:53:4a:0c:2a:40:39:51:ea:8a:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 633542441,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=633542441&end=633542441",
+    "seen": 1778931746.144,
+    "submission_timestamp": 1778724100.545,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
