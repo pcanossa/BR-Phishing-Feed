@@ -1,0 +1,52 @@
+{
+  "dominio": "registro-boletos-nuclea.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 13:31:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "registro-boletos-nuclea.api.itau.com",
+        "aggregated": "/CN=registro-boletos-nuclea.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "064F726D472F45F6A5D3E67E30A53BFC",
+      "not_before": 1778716800,
+      "not_after": 1795823999,
+      "fingerprint": "CE:C1:9A:0B:94:04:59:83:3F:AC:97:40:DF:92:A6:8E:C1:52:EB:94",
+      "sha1": "CE:C1:9A:0B:94:04:59:83:3F:AC:97:40:DF:92:A6:8E:C1:52:EB:94",
+      "sha256": "D1:55:9F:EE:24:10:AB:57:4D:93:94:17:A0:9A:69:89:98:65:98:B9:BF:FD:A0:8A:40:7C:1A:D4:AA:1E:A2:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "registro-boletos-nuclea.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:registro-boletos-nuclea.api.itau.com",
+        "subjectKeyIdentifier": "keyid:4b:94:37:30:c7:29:81:40:a5:60:c3:d9:22:b4:ac:a4:35:04:97:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4235042322,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4235042322&end=4235042322",
+    "seen": 1778949108.821,
+    "submission_timestamp": 1778757291.199,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

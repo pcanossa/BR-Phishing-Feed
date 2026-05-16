@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.santarem.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 13:12:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.santarem.pt",
+        "aggregated": "/CN=cartao.santarem.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "057C08D1FC348FF8F2AE9825E5D301A9416B",
+      "not_before": 1778752689,
+      "not_after": 1786528688,
+      "fingerprint": "2C:E5:F2:2F:D1:70:A8:BE:98:01:14:35:5D:CA:59:6C:CB:40:1D:C1",
+      "sha1": "2C:E5:F2:2F:D1:70:A8:BE:98:01:14:35:5D:CA:59:6C:CB:40:1D:C1",
+      "sha256": "9D:23:CF:C1:EE:E6:CD:75:3C:E3:E6:7E:3C:EF:8F:3A:94:C8:78:E5:2A:15:CE:90:64:6F:B3:FB:07:87:D9:B0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.santarem.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.santarem.pt",
+        "subjectKeyIdentifier": "keyid:d4:3f:db:a9:91:da:2c:fa:22:9f:74:72:8f:7c:1b:0a:09:da:30:22"
+      }
+    },
+    "cert_index": 4234822370,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234822370&end=4234822370",
+    "seen": 1778947954.258,
+    "submission_timestamp": 1778756204.917,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

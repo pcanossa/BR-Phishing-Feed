@@ -1,0 +1,53 @@
+{
+  "dominio": "portal-bradescoseguro.info",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/16/26 13:49:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal-bradescoseguro.info",
+        "aggregated": "/CN=portal-bradescoseguro.info"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A0578C85535F019B99F2A102F433D7B7",
+      "not_before": 1778716800,
+      "not_after": 1786521071,
+      "fingerprint": "F8:57:23:81:27:62:B3:71:C9:42:76:4C:A8:1F:8E:EE:5D:C9:BD:3F",
+      "sha1": "F8:57:23:81:27:62:B3:71:C9:42:76:4C:A8:1F:8E:EE:5D:C9:BD:3F",
+      "sha256": "FA:38:7A:E9:DB:12:AF:C4:8F:BD:58:8E:03:BC:A2:93:40:47:78:13:BA:02:6A:BB:B9:AC:99:73:F4:F5:50:0C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "portal-bradescoseguro.info",
+        "*.portal-bradescoseguro.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:portal-bradescoseguro.info, DNS:*.portal-bradescoseguro.info",
+        "subjectKeyIdentifier": "keyid:f5:b7:71:7c:93:10:d7:01:ca:61:88:6f:47:67:a2:c1:94:5c:ae:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 741748588,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=741748588&end=741748588",
+    "seen": 1778950169.908,
+    "submission_timestamp": 1778745227.076,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

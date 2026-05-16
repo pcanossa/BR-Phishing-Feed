@@ -1,0 +1,52 @@
+{
+  "dominio": "formation-cpf-en-ligne.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 13:23:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "formation-cpf-en-ligne.fr",
+        "aggregated": "/CN=formation-cpf-en-ligne.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "555FAE082B0E4DD00E1FA634096EEEF7",
+      "not_before": 1778717685,
+      "not_after": 1786497139,
+      "fingerprint": "D8:2B:34:4D:F5:BA:FD:77:43:61:B4:23:95:64:AB:ED:03:00:AE:66",
+      "sha1": "D8:2B:34:4D:F5:BA:FD:77:43:61:B4:23:95:64:AB:ED:03:00:AE:66",
+      "sha256": "24:C6:3C:71:07:08:3A:9A:54:03:9E:B2:D3:E3:55:F1:13:EA:42:67:EC:D9:82:30:CD:89:4C:28:52:A1:03:31",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "formation-cpf-en-ligne.fr",
+        "*.formation-cpf-en-ligne.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/VV8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:formation-cpf-en-ligne.fr, DNS:*.formation-cpf-en-ligne.fr",
+        "subjectKeyIdentifier": "keyid:23:94:01:fa:de:79:b3:db:44:e9:27:81:43:30:3f:74:30:97:3d:62"
+      }
+    },
+    "cert_index": 4234925152,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234925152&end=4234925152",
+    "seen": 1778948579.207,
+    "submission_timestamp": 1778756743.385,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

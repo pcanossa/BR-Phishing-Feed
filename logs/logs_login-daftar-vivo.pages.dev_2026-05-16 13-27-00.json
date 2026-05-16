@@ -1,0 +1,53 @@
+{
+  "dominio": "login-daftar-vivo.pages.dev",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/16/26 13:27:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login-daftar-vivo.pages.dev",
+        "aggregated": "/CN=login-daftar-vivo.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7508DC80759F10DF1301D782D495B60C",
+      "not_before": 1777914355,
+      "not_after": 1785693867,
+      "fingerprint": "ED:2A:C5:75:4C:C9:5D:72:C6:6E:E7:BC:CB:5F:78:3C:93:48:FC:55",
+      "sha1": "ED:2A:C5:75:4C:C9:5D:72:C6:6E:E7:BC:CB:5F:78:3C:93:48:FC:55",
+      "sha256": "63:52:F8:D7:9B:CF:49:40:A7:0A:74:E2:5F:BE:FF:13:8F:71:2E:18:02:5D:02:9D:ED:F2:7B:9E:4A:EF:CA:4B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login-daftar-vivo.pages.dev",
+        "*.login-daftar-vivo.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/dQg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login-daftar-vivo.pages.dev, DNS:*.login-daftar-vivo.pages.dev",
+        "subjectKeyIdentifier": "keyid:45:04:ac:ff:04:1f:88:c7:5d:91:51:49:31:00:a5:68:f0:52:50:26",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 689965179,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=689965179&end=689965179",
+    "seen": 1778948820.147,
+    "submission_timestamp": 1777917955.531,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

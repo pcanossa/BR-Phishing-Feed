@@ -1,0 +1,53 @@
+{
+  "dominio": "debito-espiritosanto.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 13:07:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debito-espiritosanto.sa.com",
+        "aggregated": "/CN=debito-espiritosanto.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CD3E0B4FB6C971610E6DC48512677B49",
+      "not_before": 1778752315,
+      "not_after": 1786531828,
+      "fingerprint": "37:90:7B:6E:FB:23:1A:8A:D6:63:4F:7A:0C:87:F8:3F:37:09:32:5E",
+      "sha1": "37:90:7B:6E:FB:23:1A:8A:D6:63:4F:7A:0C:87:F8:3F:37:09:32:5E",
+      "sha256": "B9:21:21:08:79:BB:B5:0B:A3:31:9E:4B:31:35:8F:6D:DF:D4:AD:7D:2A:3A:1F:B8:4C:7F:68:AC:84:F9:C9:B0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debito-espiritosanto.sa.com",
+        "*.debito-espiritosanto.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/zT4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debito-espiritosanto.sa.com, DNS:*.debito-espiritosanto.sa.com",
+        "subjectKeyIdentifier": "keyid:bf:08:b0:c1:41:51:02:3d:99:15:50:b9:e8:02:73:42:48:c7:1f:f6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234782787,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234782787&end=4234782787",
+    "seen": 1778947622.973,
+    "submission_timestamp": 1778755915.873,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

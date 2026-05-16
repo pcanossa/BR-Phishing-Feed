@@ -1,0 +1,52 @@
+{
+  "dominio": "www.webapp.sblicke.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/16/26 13:23:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.webapp.sblicke.uber.space",
+        "aggregated": "/CN=www.webapp.sblicke.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0503A527E32FDD7BCA10F5F4A630890935F8",
+      "not_before": 1778753273,
+      "not_after": 1786529272,
+      "fingerprint": "E3:DF:92:23:C9:D6:82:00:19:F5:1B:22:48:8C:0F:4F:D8:42:D0:27",
+      "sha1": "E3:DF:92:23:C9:D6:82:00:19:F5:1B:22:48:8C:0F:4F:D8:42:D0:27",
+      "sha256": "DD:85:B7:9D:AF:6A:6F:A3:E7:F5:18:27:8D:3D:9A:A4:0B:0E:E1:9E:27:E9:53:78:09:0A:91:08:C1:84:71:54",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.webapp.sblicke.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.webapp.sblicke.uber.space",
+        "subjectKeyIdentifier": "keyid:03:83:1b:dd:8c:c5:31:14:5d:54:88:02:28:6e:99:da:c5:3a:02:4d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234934983,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234934983&end=4234934983",
+    "seen": 1778948628.385,
+    "submission_timestamp": 1778756783.55,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

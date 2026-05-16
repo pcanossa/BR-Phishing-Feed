@@ -1,0 +1,52 @@
+{
+  "dominio": "itausoap.zenitseguros.cl",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 13:22:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itausoap.zenitseguros.cl",
+        "aggregated": "/CN=itausoap.zenitseguros.cl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BDDC187D25996CC50EB2B59A939A6D9C",
+      "not_before": 1778741577,
+      "not_after": 1786521176,
+      "fingerprint": "58:BD:D3:95:99:EF:1F:6F:A3:15:29:3D:C9:11:01:70:5F:DA:33:05",
+      "sha1": "58:BD:D3:95:99:EF:1F:6F:A3:15:29:3D:C9:11:01:70:5F:DA:33:05",
+      "sha256": "E8:C3:DF:2A:43:CC:89:4F:81:43:F5:0F:1B:C9:A7:C4:48:85:14:91:21:40:4E:33:4C:B6:97:93:7A:FB:04:F3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "itausoap.zenitseguros.cl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vdw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:itausoap.zenitseguros.cl",
+        "subjectKeyIdentifier": "keyid:d4:ad:c3:69:28:6a:11:53:f2:9a:36:df:2d:6a:2d:0e:0d:14:9b:d7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4234923076,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234923076&end=4234923076",
+    "seen": 1778948571.583,
+    "submission_timestamp": 1778756734.356,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

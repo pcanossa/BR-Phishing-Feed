@@ -1,0 +1,52 @@
+{
+  "dominio": "receitafederal-contribuinte.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/16/26 13:10:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederal-contribuinte.com",
+        "aggregated": "/CN=receitafederal-contribuinte.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C3F141787D8E78EF0E655928F3FD0BF7",
+      "not_before": 1778751625,
+      "not_after": 1786531224,
+      "fingerprint": "3D:D8:D4:59:8C:56:2E:91:0B:36:92:38:6C:28:08:F3:21:DF:E8:5B",
+      "sha1": "3D:D8:D4:59:8C:56:2E:91:0B:36:92:38:6C:28:08:F3:21:DF:E8:5B",
+      "sha256": "69:7B:D3:A7:F0:82:12:02:B0:74:80:09:14:6D:54:42:02:B5:33:05:50:8E:0A:2E:F5:73:4F:02:62:DF:B6:3E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederal-contribuinte.com",
+        "*.receitafederal-contribuinte.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/w_E, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitafederal-contribuinte.com, DNS:*.receitafederal-contribuinte.com",
+        "subjectKeyIdentifier": "keyid:ee:51:92:0d:38:46:7e:c9:34:3b:9b:08:bc:b4:6a:b7:2e:8a:2d:01"
+      }
+    },
+    "cert_index": 4234805011,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4234805011&end=4234805011",
+    "seen": 1778947809.919,
+    "submission_timestamp": 1778756082.266,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
