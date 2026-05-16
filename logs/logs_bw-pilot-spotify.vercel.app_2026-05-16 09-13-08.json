@@ -1,0 +1,53 @@
+{
+  "dominio": "bw-pilot-spotify.vercel.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/16/26 09:13:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bw-pilot-spotify.vercel.app",
+        "aggregated": "/CN=*.bw-pilot-spotify.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "464C31C25F5321B1134F0D6B3CDDB619",
+      "not_before": 1778733787,
+      "not_after": 1786509786,
+      "fingerprint": "9D:9F:0B:B9:AE:67:0A:1F:30:FF:61:60:CA:12:B9:7C:98:38:DA:AF",
+      "sha1": "9D:9F:0B:B9:AE:67:0A:1F:30:FF:61:60:CA:12:B9:7C:98:38:DA:AF",
+      "sha256": "EE:59:7F:07:9A:D4:6C:53:E3:87:A4:EF:D4:D1:78:78:80:4E:78:F7:28:10:74:A4:CD:9C:8A:9D:32:56:F6:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bw-pilot-spotify.vercel.app",
+        "bw-pilot-spotify.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Rkw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bw-pilot-spotify.vercel.app, DNS:bw-pilot-spotify.vercel.app",
+        "subjectKeyIdentifier": "keyid:4f:00:af:ec:e9:17:39:23:20:91:bc:18:a5:53:75:ae:f3:84:30:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4231579171,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4231579171&end=4231579171",
+    "seen": 1778933588.568,
+    "submission_timestamp": 1778737388.114,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

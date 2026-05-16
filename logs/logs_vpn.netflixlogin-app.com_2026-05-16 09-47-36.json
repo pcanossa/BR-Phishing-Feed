@@ -1,0 +1,52 @@
+{
+  "dominio": "vpn.netflixlogin-app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 09:47:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn.netflixlogin-app.com",
+        "aggregated": "/CN=vpn.netflixlogin-app.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3B6E588A9DF601A7A1D5B57E567B6125",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "8C:C1:3C:A6:D5:DA:19:87:88:7A:C0:A2:3B:AF:95:D4:EE:1B:61:70",
+      "sha1": "8C:C1:3C:A6:D5:DA:19:87:88:7A:C0:A2:3B:AF:95:D4:EE:1B:61:70",
+      "sha256": "B5:C2:87:92:AB:03:06:E3:87:0A:9F:BE:F2:12:C3:77:08:E0:98:1E:44:B1:ED:12:91:A6:D1:0B:12:4C:85:52",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "vpn.netflixlogin-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn.netflixlogin-app.com",
+        "subjectKeyIdentifier": "keyid:4e:f6:6a:e6:76:25:b8:c8:13:be:be:0e:67:42:a4:a1:1c:80:de:27",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1556645511,
+    "cert_link": "https://ct2026-b.trustasia.com/log2026b/ct/v1/get-entries?start=1556645511&end=1556645511",
+    "seen": 1778935657.023,
+    "submission_timestamp": 1777984538.997,
+    "source": {
+      "name": "TrustAsia 'log2026b'",
+      "url": "https://ct2026-b.trustasia.com/log2026b"
+    }
+  }
+}

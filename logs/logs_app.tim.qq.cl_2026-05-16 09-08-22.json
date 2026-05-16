@@ -1,0 +1,52 @@
+{
+  "dominio": "app.tim.qq.cl",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/16/26 09:08:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.tim.qq.cl",
+        "aggregated": "/CN=app.tim.qq.cl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "01A7DC36509CCAD015E1B9452AED4F52",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "6B:F1:E1:95:8A:E3:27:E8:1F:01:56:31:6E:AC:55:53:72:EF:C3:4E",
+      "sha1": "6B:F1:E1:95:8A:E3:27:E8:1F:01:56:31:6E:AC:55:53:72:EF:C3:4E",
+      "sha256": "95:91:8F:B5:7C:58:C8:94:AC:AF:C3:1B:D9:C0:2B:B2:45:13:E7:13:E9:77:B1:37:91:4B:D6:94:C0:C8:A9:7D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.tim.qq.cl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.tim.qq.cl",
+        "subjectKeyIdentifier": "keyid:62:f7:d2:0d:f5:f1:c4:cc:c5:dd:e1:8b:c7:05:f5:96:48:8f:65:cb"
+      }
+    },
+    "cert_index": 4231518925,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4231518925&end=4231518925",
+    "seen": 1778933301.918,
+    "submission_timestamp": 1778737056.56,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

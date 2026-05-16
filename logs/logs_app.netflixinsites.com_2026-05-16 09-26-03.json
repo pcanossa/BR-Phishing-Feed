@@ -1,0 +1,52 @@
+{
+  "dominio": "app.netflixinsites.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 09:26:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.netflixinsites.com",
+        "aggregated": "/CN=app.netflixinsites.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2A3BB07F5CAA7FBFACD2B79B5778EAEC",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "A7:BF:DE:D3:54:58:60:54:BA:75:3E:B2:E8:74:2A:1E:D8:0A:D9:D0",
+      "sha1": "A7:BF:DE:D3:54:58:60:54:BA:75:3E:B2:E8:74:2A:1E:D8:0A:D9:D0",
+      "sha256": "0C:AC:04:EB:84:A3:53:79:0C:54:42:DA:EF:2F:CB:9E:6B:3B:DE:15:73:6B:42:F0:78:98:C1:4D:2A:F4:53:7D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.netflixinsites.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.netflixinsites.com",
+        "subjectKeyIdentifier": "keyid:fe:22:96:23:83:cd:3f:e1:08:37:7a:68:8e:47:fd:cb:bc:11:39:66",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4231765154,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4231765154&end=4231765154",
+    "seen": 1778934362.503,
+    "submission_timestamp": 1778738496.912,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "receitafederal-contribuinte.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/16/26 09:56:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederal-contribuinte.com",
+        "aggregated": "/CN=receitafederal-contribuinte.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0684B7FD738825041365F39E62F845E5",
+      "not_before": 1778737144,
+      "not_after": 1786516599,
+      "fingerprint": "91:BC:2B:B4:7F:0A:22:B1:38:C0:55:FA:05:2E:57:85:14:0A:FB:61",
+      "sha1": "91:BC:2B:B4:7F:0A:22:B1:38:C0:55:FA:05:2E:57:85:14:0A:FB:61",
+      "sha256": "62:53:E9:91:00:7A:21:A1:38:29:44:46:53:EC:68:DF:72:9E:20:A9:F6:D4:C2:1E:4F:D2:6B:39:6D:D3:12:BD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederal-contribuinte.com",
+        "*.receitafederal-contribuinte.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BoQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitafederal-contribuinte.com, DNS:*.receitafederal-contribuinte.com",
+        "subjectKeyIdentifier": "keyid:ce:c4:ca:37:c0:b8:97:bd:38:ad:22:d0:26:25:d4:fb:e3:51:64:54",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4232205010,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232205010&end=4232205010",
+    "seen": 1778936216.572,
+    "submission_timestamp": 1778740745.115,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

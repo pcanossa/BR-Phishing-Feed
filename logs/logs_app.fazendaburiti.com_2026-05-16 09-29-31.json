@@ -1,0 +1,52 @@
+{
+  "dominio": "app.fazendaburiti.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/16/26 09:29:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.fazendaburiti.com",
+        "aggregated": "/CN=app.fazendaburiti.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1E9BEF2AC45F787CFC0141B7923EF310",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "B9:F9:C7:26:17:2A:2D:E1:01:A9:2D:3B:14:00:5B:8E:31:85:34:11",
+      "sha1": "B9:F9:C7:26:17:2A:2D:E1:01:A9:2D:3B:14:00:5B:8E:31:85:34:11",
+      "sha256": "C7:FE:CB:EE:1C:C3:DA:DA:7D:BD:D7:79:09:37:F4:C9:FF:34:7D:3C:16:15:C8:2F:C2:27:74:34:60:5B:51:8B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.fazendaburiti.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.fazendaburiti.com",
+        "subjectKeyIdentifier": "keyid:dd:2d:4b:9a:ff:08:be:0f:aa:13:36:48:81:8c:7a:e9:e2:82:94:c5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4231814247,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4231814247&end=4231814247",
+    "seen": 1778934570.737,
+    "submission_timestamp": 1778738703.72,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "newtapprovalbot.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 09:15:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "newtapprovalbot.test.netflix.net",
+        "aggregated": "/CN=newtapprovalbot.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0597BEDBFB6D11A36AB42037EB31FB1D1D2A",
+      "not_before": 1778721004,
+      "not_after": 1786497003,
+      "fingerprint": "BD:CB:44:4C:A7:47:F3:0F:C7:4A:F6:B5:DC:2F:FD:12:46:F5:1F:69",
+      "sha1": "BD:CB:44:4C:A7:47:F3:0F:C7:4A:F6:B5:DC:2F:FD:12:46:F5:1F:69",
+      "sha256": "0B:5E:4C:F4:B6:6E:09:37:03:2E:5F:45:AC:9D:9F:95:37:89:21:00:BD:42:69:4E:26:90:03:38:10:69:D4:93",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "newtapprovalbot.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:newtapprovalbot.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:0f:f5:e1:99:c8:85:80:3b:e8:c3:da:e6:94:74:ba:8e:fa:2c:08:4f"
+      }
+    },
+    "cert_index": 739127821,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=739127821&end=739127821",
+    "seen": 1778933712.797,
+    "submission_timestamp": 1778728790.457,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

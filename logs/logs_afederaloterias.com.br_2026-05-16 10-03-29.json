@@ -1,0 +1,52 @@
+{
+  "dominio": "afederaloterias.com.br",
+  "marcas_encontradas": [
+    "loterias"
+  ],
+  "timestamp": "05/16/26 10:03:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.afederaloterias.com.br",
+        "aggregated": "/CN=*.afederaloterias.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06489EE2C38A349B961323D3731D86F28C8C",
+      "not_before": 1778737847,
+      "not_after": 1786513846,
+      "fingerprint": "1B:39:13:54:70:89:40:46:74:E8:A6:56:0B:F3:58:24:44:A1:F8:FF",
+      "sha1": "1B:39:13:54:70:89:40:46:74:E8:A6:56:0B:F3:58:24:44:A1:F8:FF",
+      "sha256": "9D:12:49:7B:38:D7:A2:FC:A2:A7:25:85:1F:54:CB:E2:C9:E5:5D:A7:5E:F2:9E:AF:4E:5D:17:E2:4A:97:BB:E0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.afederaloterias.com.br",
+        "afederaloterias.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.afederaloterias.com.br, DNS:afederaloterias.com.br",
+        "subjectKeyIdentifier": "keyid:fe:9a:49:a9:69:1a:77:5c:05:a7:76:7a:24:c2:55:db:e6:3d:01:df"
+      }
+    },
+    "cert_index": 4232297230,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4232297230&end=4232297230",
+    "seen": 1778936610.048,
+    "submission_timestamp": 1778741360.333,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "db.cpf.dimki.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 09:57:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "files.cpf.dimki.net",
+        "aggregated": "/CN=files.cpf.dimki.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0572EEA381A9AB5F3EF4DF79D9A88D6267A2",
+      "not_before": 1778932745,
+      "not_after": 1786708744,
+      "fingerprint": "88:D4:50:25:0D:78:AB:2E:35:12:01:C2:80:74:E1:53:7F:51:1B:2B",
+      "sha1": "88:D4:50:25:0D:78:AB:2E:35:12:01:C2:80:74:E1:53:7F:51:1B:2B",
+      "sha256": "D1:82:C7:7B:91:F1:9E:B4:78:CB:CB:FF:AC:C2:9C:64:A4:2A:A6:CE:6C:40:21:2A:4E:A9:BE:54:80:7D:2C:C3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "files.cpf.dimki.net",
+        "db.cpf.dimki.net",
+        "hulk-cpf.dimki.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:db.cpf.dimki.net, DNS:files.cpf.dimki.net, DNS:hulk-cpf.dimki.net",
+        "subjectKeyIdentifier": "keyid:7b:bd:dd:88:a8:e9:44:66:58:b0:df:da:c8:28:85:e1:8a:68:98:b2"
+      }
+    },
+    "cert_index": 197734352,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x772/399",
+    "seen": 1778936257.329,
+    "submission_timestamp": 1778936256.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

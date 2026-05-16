@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-service-stg.galera-group-s-account.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 09:53:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "galera-group-s-account.workers.dev",
+        "aggregated": "/CN=galera-group-s-account.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "40A0D238F33970B00E826B41E7CE5200",
+      "not_before": 1778252431,
+      "not_after": 1786031890,
+      "fingerprint": "CE:A5:60:97:75:B5:A4:51:FF:13:77:DD:13:36:6F:FB:D3:98:FD:FE",
+      "sha1": "CE:A5:60:97:75:B5:A4:51:FF:13:77:DD:13:36:6F:FB:D3:98:FD:FE",
+      "sha256": "C8:B3:77:0D:31:11:60:1B:BC:C8:87:EA:A1:B5:01:F7:50:82:CE:4F:D1:FE:83:BF:45:90:48:42:F0:36:5C:F1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "galera-group-s-account.workers.dev",
+        "*.cpf-service-stg.galera-group-s-account.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/QKA, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:galera-group-s-account.workers.dev, DNS:*.cpf-service-stg.galera-group-s-account.workers.dev",
+        "subjectKeyIdentifier": "keyid:85:bc:7a:66:a5:03:ca:26:87:96:02:e9:41:89:05:d4:ba:1c:73:a5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 627362853,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=627362853&end=627362853",
+    "seen": 1778936021.335,
+    "submission_timestamp": 1778256032.117,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

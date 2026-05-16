@@ -1,0 +1,52 @@
+{
+  "dominio": "app-bradesco.info",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/16/26 09:57:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-bradesco.info",
+        "aggregated": "/CN=app-bradesco.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05E432630940D3C6874911FA6DE0C001A47F",
+      "not_before": 1777987186,
+      "not_after": 1785763185,
+      "fingerprint": "AA:93:A4:28:17:AD:CD:07:AC:C0:BC:1A:3B:BA:E9:7C:95:70:BC:94",
+      "sha1": "AA:93:A4:28:17:AD:CD:07:AC:C0:BC:1A:3B:BA:E9:7C:95:70:BC:94",
+      "sha256": "07:A9:C1:E0:32:4A:B4:8C:7C:7E:7E:11:A7:8A:9E:51:F2:37:F3:52:FB:E8:64:95:9F:19:E9:5A:8A:B3:A5:C2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-bradesco.info",
+        "*.app-bradesco.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app-bradesco.info, DNS:app-bradesco.info",
+        "subjectKeyIdentifier": "keyid:fe:69:f4:34:3b:9d:a8:6d:24:4e:2a:69:50:1b:95:48:41:12:31:19"
+      }
+    },
+    "cert_index": 1537017021,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1537017021&end=1537017021",
+    "seen": 1778936247.815,
+    "submission_timestamp": 1777990700.03,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}
