@@ -1,0 +1,52 @@
+{
+  "dominio": "concluadebitos.pages.dev",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/16/26 18:13:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "concluadebitos.pages.dev",
+        "aggregated": "/CN=concluadebitos.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0539215C7C0E851F512D07B00BD316A8429C",
+      "not_before": 1778774985,
+      "not_after": 1786550984,
+      "fingerprint": "EB:E4:23:0F:94:97:13:CC:9A:02:D3:FE:31:60:8C:AB:E3:AD:06:69",
+      "sha1": "EB:E4:23:0F:94:97:13:CC:9A:02:D3:FE:31:60:8C:AB:E3:AD:06:69",
+      "sha256": "02:21:B6:CF:65:D8:4F:E4:7D:E3:E1:8E:AD:76:9E:BB:D2:72:DD:14:17:B7:0D:4F:61:35:AA:C4:A1:B4:B7:49",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "concluadebitos.pages.dev",
+        "*.concluadebitos.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.concluadebitos.pages.dev, DNS:concluadebitos.pages.dev",
+        "subjectKeyIdentifier": "keyid:2b:57:f6:08:e7:1c:4a:db:33:70:e7:7c:f0:4d:80:f0:f7:52:c7:e7"
+      }
+    },
+    "cert_index": 4238817856,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4238817856&end=4238817856",
+    "seen": 1778966001.479,
+    "submission_timestamp": 1778778915.825,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
