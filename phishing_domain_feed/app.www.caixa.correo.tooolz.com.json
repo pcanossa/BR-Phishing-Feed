@@ -1,0 +1,13 @@
+{
+    "dominio": "app.www.caixa.correo.tooolz.com",
+    "data_registro": "05/15/26 20:46:15",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Utiliza a marca 'caixa', associada ao banco público brasileiro, para enganar usuários",
+        "Subdomínio complexo 'app.www.caixa.correo' imita hierarquia de sites legítimos, aumentando a confiança aparente",
+        "Termo 'correo' (espanhol) pode confundir usuários de português, mas ainda sugere serviço de correio eletrônico",
+        "Domínio de nível superior 'tooolz.com' não possui reputação conhecida e não está listado em bases de domínios legítimos",
+        "Ausência de registro de DKIM/SPF/DNSSEC públicos para o domínio, indicando configuração possivelmente improvisada"
+    ],
+    "analise_comportamental": "O subdomínio 'app.www.caixa.correo.tooolz.com' apresenta várias técnicas típicas de phishing, como a exploração de marcas reconhecidas (Caixa) e a construção de um caminho de URL que parece legítimo ('app.www'), além de usar termos de engenharia social. Não há evidências de uso legítimo, e a falta de medidas de autenticação de e‑mail aponta para provável campanha de captura de credenciais de clientes brasileiros."
+}

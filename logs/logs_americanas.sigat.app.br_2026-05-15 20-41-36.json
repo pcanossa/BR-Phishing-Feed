@@ -1,0 +1,52 @@
+{
+  "dominio": "americanas.sigat.app.br",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/15/26 20:41:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "americanas.sigat.app.br",
+        "aggregated": "/CN=americanas.sigat.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "04DA4DA25262EC009338DDA2E6C541BE",
+      "not_before": 1778716800,
+      "not_after": 1795823999,
+      "fingerprint": "CC:78:D6:B1:11:41:CC:B1:99:35:9B:F0:3F:1C:24:97:64:1B:C6:A9",
+      "sha1": "CC:78:D6:B1:11:41:CC:B1:99:35:9B:F0:3F:1C:24:97:64:1B:C6:A9",
+      "sha256": "70:DC:3C:EC:FA:8C:EA:B4:E3:90:1E:AB:B3:23:30:28:96:A9:34:AA:F5:19:7D:7B:C3:09:8E:30:28:1C:CD:21",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "americanas.sigat.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:americanas.sigat.app.br",
+        "subjectKeyIdentifier": "keyid:eb:07:29:fe:22:ae:12:e7:02:0f:88:22:45:4f:c7:55:6f:a6:0e:be",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4229529410,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4229529410&end=4229529410",
+    "seen": 1778888497.338,
+    "submission_timestamp": 1778724955.729,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

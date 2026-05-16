@@ -1,0 +1,51 @@
+{
+  "dominio": "www.cpf.ai",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/15/26 20:44:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cpf.ai",
+        "aggregated": "/CN=www.cpf.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "BDCBA0A599640946",
+      "not_before": 1778370563,
+      "not_after": 1795477763,
+      "fingerprint": "6A:CD:36:36:44:47:C0:6E:B2:2E:AE:12:FF:1F:AB:33:7B:D9:83:F0",
+      "sha1": "6A:CD:36:36:44:47:C0:6E:B2:2E:AE:12:FF:1F:AB:33:7B:D9:83:F0",
+      "sha256": "41:9A:70:CE:56:0E:2C:11:24:C7:90:1F:D1:58:95:5B:85:DE:77:FD:43:75:60:FD:E4:1E:4A:63:1D:A3:C2:FB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cpf.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cpf.ai",
+        "subjectKeyIdentifier": "keyid:c2:68:32:4d:e6:53:e5:3e:1b:77:2a:26:8d:33:7b:06:09:f0:b8:4f"
+      }
+    },
+    "cert_index": 4229565349,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4229565349&end=4229565349",
+    "seen": 1778888679.709,
+    "submission_timestamp": 1778725153.435,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

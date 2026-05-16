@@ -1,0 +1,52 @@
+{
+  "dominio": "dev5refresh.vendoronboardapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/15/26 20:22:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev5refresh.vendoronboardapp.test.netflix.net",
+        "aggregated": "/CN=dev5refresh.vendoronboardapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0561227CBD1D71BADF97AE5EB8371C71B7F9",
+      "not_before": 1778720163,
+      "not_after": 1786496162,
+      "fingerprint": "9C:29:E7:EB:3A:DA:2A:EF:AA:21:27:C4:05:33:7D:01:52:4C:20:D2",
+      "sha1": "9C:29:E7:EB:3A:DA:2A:EF:AA:21:27:C4:05:33:7D:01:52:4C:20:D2",
+      "sha256": "98:CB:E2:3B:41:5D:DF:4E:25:2F:F4:0D:6A:CB:EB:8D:F8:74:85:F4:8E:E2:4C:3B:27:58:96:3F:EB:9B:98:3F",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dev5refresh.vendoronboardapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:dev5refresh.vendoronboardapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:d2:03:78:cd:0c:68:9f:f8:7a:82:04:13:45:42:e1:e1:ea:17:08:32",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4229312451,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4229312451&end=4229312451",
+    "seen": 1778887361.988,
+    "submission_timestamp": 1778723673.804,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
