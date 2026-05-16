@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.awees.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/15/26 21:45:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.awees.com",
+        "aggregated": "/CN=cartao.awees.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05F1D04D5C3FB49311D05ECEC285401CA60A",
+      "not_before": 1778725774,
+      "not_after": 1786501773,
+      "fingerprint": "3B:67:35:81:85:33:8A:86:0A:12:66:64:2A:DF:BD:4E:56:DB:38:DE",
+      "sha1": "3B:67:35:81:85:33:8A:86:0A:12:66:64:2A:DF:BD:4E:56:DB:38:DE",
+      "sha256": "54:F3:95:BD:3C:BE:CA:2B:A3:1D:08:68:01:08:7E:45:EA:E8:BF:86:5E:9A:09:65:8D:91:E3:D7:37:D5:37:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.awees.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.awees.com",
+        "subjectKeyIdentifier": "keyid:89:90:fa:09:d5:6f:76:5b:a3:ba:1c:2b:8e:d3:2a:09:80:b5:2e:5a"
+      }
+    },
+    "cert_index": 4230247104,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4230247104&end=4230247104",
+    "seen": 1778892326.423,
+    "submission_timestamp": 1778729286.166,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

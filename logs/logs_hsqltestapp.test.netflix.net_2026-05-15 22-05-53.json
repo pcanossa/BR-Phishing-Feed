@@ -1,0 +1,52 @@
+{
+  "dominio": "hsqltestapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/15/26 22:05:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hsqltestapp.test.netflix.net",
+        "aggregated": "/CN=hsqltestapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05F3FAB691469AC095F6F0D209D83A1D3BAF",
+      "not_before": 1778720590,
+      "not_after": 1786496589,
+      "fingerprint": "00:B4:7D:31:51:4F:5E:90:32:9D:22:2C:81:DB:15:94:A6:4B:A3:98",
+      "sha1": "00:B4:7D:31:51:4F:5E:90:32:9D:22:2C:81:DB:15:94:A6:4B:A3:98",
+      "sha256": "FA:9E:CD:37:64:C3:E4:76:56:DD:95:CC:D6:79:90:B2:50:D8:BB:36:42:9F:71:5C:72:49:DF:C9:60:23:EF:E5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "hsqltestapp.test.netflix.net",
+        "hsqltestapp.us-east-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hsqltestapp.test.netflix.net, DNS:hsqltestapp.us-east-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:c1:2d:02:dd:bc:c9:2c:a6:27:0a:53:4a:0c:2a:40:39:51:ea:8a:c3"
+      }
+    },
+    "cert_index": 738394537,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=738394537&end=738394537",
+    "seen": 1778893552.733,
+    "submission_timestamp": 1778724101.898,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

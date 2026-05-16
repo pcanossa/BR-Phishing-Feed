@@ -1,0 +1,52 @@
+{
+  "dominio": "app.www.caixa.correo.tooolz.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/15/26 21:32:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.www.caixa.correo.tooolz.com",
+        "aggregated": "/CN=app.www.caixa.correo.tooolz.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "23B48001D8ECB689F33CE82745C02B16",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "FA:9B:A3:8D:26:63:66:F6:5B:A2:93:50:75:E7:0E:AF:45:5D:A8:B1",
+      "sha1": "FA:9B:A3:8D:26:63:66:F6:5B:A2:93:50:75:E7:0E:AF:45:5D:A8:B1",
+      "sha256": "AF:9F:C9:9D:28:AC:22:37:A6:59:3C:35:A2:C2:D5:D6:55:2B:B2:54:A8:57:39:3B:34:7F:1A:BF:42:BD:AF:CD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.www.caixa.correo.tooolz.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.www.caixa.correo.tooolz.com",
+        "subjectKeyIdentifier": "keyid:d6:19:f9:83:dc:d9:ab:08:7d:63:52:68:30:63:58:36:56:ae:10:b0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4230103327,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4230103327&end=4230103327",
+    "seen": 1778891543.092,
+    "submission_timestamp": 1778728466.248,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

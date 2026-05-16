@@ -1,0 +1,51 @@
+{
+  "dominio": "www.spotify-happyhour.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/15/26 21:47:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.spotify-happyhour.com",
+        "aggregated": "/CN=www.spotify-happyhour.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0613D1E7E3E3E08E9A585A9A85157B8C66BF",
+      "not_before": 1778725899,
+      "not_after": 1786501898,
+      "fingerprint": "34:57:5D:7F:38:72:9A:15:CA:AF:6C:6D:C1:0A:B2:E2:35:2C:96:A0",
+      "sha1": "34:57:5D:7F:38:72:9A:15:CA:AF:6C:6D:C1:0A:B2:E2:35:2C:96:A0",
+      "sha256": "86:EA:84:C9:4F:3F:CF:2B:82:A4:7E:95:E8:7D:EA:59:B9:35:A8:D2:CD:00:12:2E:12:54:C8:BA:C1:2A:7A:8C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.spotify-happyhour.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.spotify-happyhour.com",
+        "subjectKeyIdentifier": "keyid:ea:a2:93:3a:3e:d6:25:10:3f:4c:d4:90:65:c6:87:ca:39:55:f9:3c"
+      }
+    },
+    "cert_index": 4230265609,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4230265609&end=4230265609",
+    "seen": 1778892428.262,
+    "submission_timestamp": 1778729411.752,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

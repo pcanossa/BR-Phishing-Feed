@@ -1,0 +1,51 @@
+{
+  "dominio": "vpn.correios-seguros.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/15/26 21:22:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn.correios-seguros.com",
+        "aggregated": "/CN=vpn.correios-seguros.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0685A6C3417429767E994526A3B82379E152",
+      "not_before": 1778248572,
+      "not_after": 1786024571,
+      "fingerprint": "7C:25:99:43:EE:EE:11:0A:AD:C3:5E:83:1B:C3:D1:47:66:99:BF:0F",
+      "sha1": "7C:25:99:43:EE:EE:11:0A:AD:C3:5E:83:1B:C3:D1:47:66:99:BF:0F",
+      "sha256": "E4:1A:60:6F:5E:26:5D:9C:C2:7E:7F:00:3C:03:54:6F:05:97:5D:B3:A4:1C:EE:53:DD:9F:AF:F5:9E:15:FE:06",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn.correios-seguros.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn.correios-seguros.com",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 626841567,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=626841567&end=626841567",
+    "seen": 1778890928.516,
+    "submission_timestamp": 1778252084.3,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
