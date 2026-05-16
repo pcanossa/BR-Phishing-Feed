@@ -1,0 +1,51 @@
+{
+  "dominio": "app.caminhaodaserasa.online",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/16/26 15:04:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.caminhaodaserasa.online",
+        "aggregated": "/CN=app.caminhaodaserasa.online"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "E45FB7EFC6580A53C3829FC7FE9F07FC",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "B3:7C:79:3A:0D:48:17:50:C3:9D:8D:03:F3:66:2C:46:A2:34:5C:96",
+      "sha1": "B3:7C:79:3A:0D:48:17:50:C3:9D:8D:03:F3:66:2C:46:A2:34:5C:96",
+      "sha256": "56:CE:29:19:F7:E3:42:87:DC:E8:F7:71:B0:09:A2:C3:73:28:73:DF:9C:AB:1E:84:DE:85:D9:82:FD:CC:56:92",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.caminhaodaserasa.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.caminhaodaserasa.online",
+        "subjectKeyIdentifier": "keyid:95:2e:de:7f:86:39:e8:47:4b:5d:4e:e8:aa:ae:74:af:c9:6d:5a:47"
+      }
+    },
+    "cert_index": 4236278149,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236278149&end=4236278149",
+    "seen": 1778954663.169,
+    "submission_timestamp": 1778764218.817,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

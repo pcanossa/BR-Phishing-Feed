@@ -1,0 +1,52 @@
+{
+  "dominio": "app.freizeitausflug.eu",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 14:34:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.freizeitausflug.eu",
+        "aggregated": "/CN=app.freizeitausflug.eu"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "DC9F8BACDC7CFE55750F65D67B79A3E7",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "5B:42:C2:B2:D4:F6:23:D4:6D:08:C3:AC:D8:64:BE:0F:E2:97:53:7C",
+      "sha1": "5B:42:C2:B2:D4:F6:23:D4:6D:08:C3:AC:D8:64:BE:0F:E2:97:53:7C",
+      "sha256": "DE:88:61:E8:A5:26:C6:AF:16:7C:7F:BB:FE:82:EC:F9:B5:36:7D:85:ED:33:12:83:99:96:10:CE:6D:77:13:8D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.freizeitausflug.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.freizeitausflug.eu",
+        "subjectKeyIdentifier": "keyid:f6:ca:b4:96:c7:cf:ce:38:fb:60:dd:66:45:e7:c5:f4:63:ac:bc:02",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4235861758,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4235861758&end=4235861758",
+    "seen": 1778952853.87,
+    "submission_timestamp": 1778761692.614,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

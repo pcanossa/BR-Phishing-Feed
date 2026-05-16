@@ -1,0 +1,52 @@
+{
+  "dominio": "studio--flujoclaro.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/16/26 15:02:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--flujoclaro.us-central1.hosted.app",
+        "aggregated": "/CN=studio--flujoclaro.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "8111A7A73DEB504209EDC36C4CA0F92B",
+      "not_before": 1778748437,
+      "not_after": 1786527792,
+      "fingerprint": "EE:DE:CF:59:22:A9:A3:BC:9F:7E:DB:55:74:D8:60:7F:8B:2A:10:61",
+      "sha1": "EE:DE:CF:59:22:A9:A3:BC:9F:7E:DB:55:74:D8:60:7F:8B:2A:10:61",
+      "sha256": "81:31:A8:DD:8F:9D:B1:AE:2C:07:CA:DE:E4:35:33:3E:68:F1:B6:E6:F2:EC:07:5F:9E:ED:C2:CF:0C:0D:76:AF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--flujoclaro.us-central1.hosted.app",
+        "*.studio--flujoclaro.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/gRE, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--flujoclaro.us-central1.hosted.app, DNS:*.studio--flujoclaro.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:80:00:f9:b4:33:de:04:e1:a0:a4:96:00:19:92:d9:ee:62:ad:6a:33"
+      }
+    },
+    "cert_index": 4236249716,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236249716&end=4236249716",
+    "seen": 1778954536.531,
+    "submission_timestamp": 1778764088.124,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app.freizeitausflug.eu",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 14:46:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.freizeitausflug.eu",
+        "aggregated": "/CN=app.freizeitausflug.eu"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "DC9F8BACDC7CFE55750F65D67B79A3E7",
+      "not_before": 1778716800,
+      "not_after": 1786579199,
+      "fingerprint": "AD:89:56:AA:CD:A8:5F:EE:4F:D1:BE:0F:25:69:95:66:2B:C0:8E:F4",
+      "sha1": "AD:89:56:AA:CD:A8:5F:EE:4F:D1:BE:0F:25:69:95:66:2B:C0:8E:F4",
+      "sha256": "94:68:E7:29:D5:41:1F:B1:3B:8A:04:A4:CB:03:2E:AF:20:8E:33:08:FE:5C:58:99:1D:FC:45:77:28:28:43:46",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.freizeitausflug.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.freizeitausflug.eu",
+        "subjectKeyIdentifier": "keyid:f6:ca:b4:96:c7:cf:ce:38:fb:60:dd:66:45:e7:c5:f4:63:ac:bc:02"
+      }
+    },
+    "cert_index": 4236031466,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236031466&end=4236031466",
+    "seen": 1778953607.149,
+    "submission_timestamp": 1778762797.621,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

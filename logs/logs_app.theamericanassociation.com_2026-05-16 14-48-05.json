@@ -1,0 +1,52 @@
+{
+  "dominio": "app.theamericanassociation.com",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "05/16/26 14:48:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.theamericanassociation.com",
+        "aggregated": "/CN=app.theamericanassociation.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "02E04A4E0AF3E6FCA3F9029DB933ABB5",
+      "not_before": 1778716800,
+      "not_after": 1786492799,
+      "fingerprint": "41:83:63:B6:6D:78:1B:D8:49:34:0B:41:C2:FC:AF:E0:8C:DE:B3:4B",
+      "sha1": "41:83:63:B6:6D:78:1B:D8:49:34:0B:41:C2:FC:AF:E0:8C:DE:B3:4B",
+      "sha256": "9D:5A:1C:80:FB:A1:FF:23:3E:7E:2F:60:0F:6D:4D:D8:98:57:48:D3:EF:0C:A7:03:C5:CD:B6:53:01:8E:5A:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.theamericanassociation.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.theamericanassociation.com",
+        "subjectKeyIdentifier": "keyid:18:b9:02:20:da:b7:95:f8:6d:d2:44:93:57:44:6f:90:76:cb:68:e3"
+      }
+    },
+    "cert_index": 4236050368,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4236050368&end=4236050368",
+    "seen": 1778953685.802,
+    "submission_timestamp": 1778762915.913,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app.us-east-2.prod.edge.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 14:46:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.us-east-2.prod.edge.netflix.net",
+        "aggregated": "/CN=*.app.us-east-2.prod.edge.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0610CBF791485A724CC5EA32B30EEDAC5D70",
+      "not_before": 1778744419,
+      "not_after": 1786520418,
+      "fingerprint": "C9:A2:66:80:1E:16:9C:7F:63:13:56:87:A3:B1:6B:6B:0A:4B:53:B7",
+      "sha1": "C9:A2:66:80:1E:16:9C:7F:63:13:56:87:A3:B1:6B:6B:0A:4B:53:B7",
+      "sha256": "89:22:96:75:56:42:FF:F2:E1:BE:CE:42:0E:64:4B:9C:E8:F5:E0:38:1B:E6:36:65:D2:B5:A3:D7:BF:0A:8B:DF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.us-east-2.prod.edge.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.app.us-east-2.prod.edge.netflix.net",
+        "subjectKeyIdentifier": "keyid:81:ae:d0:a9:f3:53:da:db:93:1a:3a:4d:a2:30:c6:5c:1e:05:1e:c7"
+      }
+    },
+    "cert_index": 742194317,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=742194317&end=742194317",
+    "seen": 1778953601.196,
+    "submission_timestamp": 1778747932.692,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

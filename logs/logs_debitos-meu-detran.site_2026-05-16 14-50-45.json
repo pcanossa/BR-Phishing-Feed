@@ -1,0 +1,54 @@
+{
+  "dominio": "debitos-meu-detran.site",
+  "marcas_encontradas": [
+    "detran",
+    "debito"
+  ],
+  "timestamp": "05/16/26 14:50:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-meu-detran.site",
+        "aggregated": "/CN=debitos-meu-detran.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05AA06025CC0BAD8A6F4AE40DB2AB7A26449",
+      "not_before": 1778258793,
+      "not_after": 1786034792,
+      "fingerprint": "5C:6E:88:A4:0E:C6:61:A2:DC:53:85:45:AD:B9:17:1B:69:B6:0D:19",
+      "sha1": "5C:6E:88:A4:0E:C6:61:A2:DC:53:85:45:AD:B9:17:1B:69:B6:0D:19",
+      "sha256": "CD:5C:3E:C3:26:57:EC:5C:67:1B:8B:2A:C6:12:38:DC:F9:25:46:0E:1B:DF:17:DA:6A:28:75:89:B8:06:42:9E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-meu-detran.site",
+        "*.debitos-meu-detran.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitos-meu-detran.site, DNS:debitos-meu-detran.site",
+        "subjectKeyIdentifier": "keyid:98:dc:e9:e7:34:b6:b6:4e:16:c2:7d:b4:9f:a5:6e:36:51:49:30:d0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 628268635,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=628268635&end=628268635",
+    "seen": 1778953845.368,
+    "submission_timestamp": 1778262303.485,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
