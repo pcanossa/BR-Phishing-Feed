@@ -1,0 +1,52 @@
+{
+  "dominio": "api-spotify.thuus.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/15/26 22:10:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-spotify.thuus.app",
+        "aggregated": "/CN=api-spotify.thuus.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05FACC8F2A32AFDCF81788491D5FCD755BBC",
+      "not_before": 1778727925,
+      "not_after": 1786503924,
+      "fingerprint": "C6:03:1B:E0:13:DE:DC:AD:38:67:52:36:3A:D7:D0:57:3C:52:2C:98",
+      "sha1": "C6:03:1B:E0:13:DE:DC:AD:38:67:52:36:3A:D7:D0:57:3C:52:2C:98",
+      "sha256": "18:47:C9:6F:41:F5:FA:F9:5A:E6:DF:71:B2:6F:AD:A1:C3:93:E4:E5:BE:3D:4F:8C:17:9B:50:CB:F9:E0:E0:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-spotify.thuus.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-spotify.thuus.app",
+        "subjectKeyIdentifier": "keyid:28:54:80:82:6d:da:b8:2d:f7:4b:78:b0:75:71:8c:f0:d9:f3:c5:3e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4230540992,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4230540992&end=4230540992",
+    "seen": 1778893833.729,
+    "submission_timestamp": 1778731435.3,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
