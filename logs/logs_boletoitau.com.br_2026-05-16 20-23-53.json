@@ -1,0 +1,53 @@
+{
+  "dominio": "boletoitau.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/16/26 20:23:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boletoitau.com.br",
+        "aggregated": "/CN=boletoitau.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BDCD90E8001D312D13502D2FEAE53E92",
+      "not_before": 1778347509,
+      "not_after": 1786127028,
+      "fingerprint": "ED:69:0A:13:DE:57:14:D7:89:96:AB:21:05:CC:20:38:3C:A4:10:5D",
+      "sha1": "ED:69:0A:13:DE:57:14:D7:89:96:AB:21:05:CC:20:38:3C:A4:10:5D",
+      "sha256": "BE:97:AC:A8:29:E9:A3:5C:8C:13:FF:1E:AA:B1:DC:D2:2A:6F:F4:46:5C:42:9F:77:A3:14:C8:FC:BE:AA:D8:B9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "boletoitau.com.br",
+        "*.boletoitau.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vc0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:boletoitau.com.br, DNS:*.boletoitau.com.br",
+        "subjectKeyIdentifier": "keyid:a4:4b:b5:fd:b1:b8:e5:b5:03:01:d9:15:29:93:bf:24:53:cf:5b:8e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 610761405,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=610761405&end=610761405",
+    "seen": 1778973831.543,
+    "submission_timestamp": 1778351110.283,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

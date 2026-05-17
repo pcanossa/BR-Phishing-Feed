@@ -1,0 +1,52 @@
+{
+  "dominio": "api.rastreiocorreios.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/16/26 20:58:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.rastreiocorreios.com",
+        "aggregated": "/CN=api.rastreiocorreios.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "7F7666A14893FE740E2D073DD6276D78",
+      "not_before": 1778789347,
+      "not_after": 1786568938,
+      "fingerprint": "9C:3A:44:6A:E7:A4:4A:B1:37:CC:D6:8E:72:41:A2:2A:D0:9D:7B:5A",
+      "sha1": "9C:3A:44:6A:E7:A4:4A:B1:37:CC:D6:8E:72:41:A2:2A:D0:9D:7B:5A",
+      "sha256": "4B:27:2F:42:97:9E:61:E8:C1:C3:CC:67:FF:98:E6:09:35:9E:0B:42:0E:97:7B:32:00:49:AD:50:3F:A6:9D:35",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.rastreiocorreios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/f3Y, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.rastreiocorreios.com",
+        "subjectKeyIdentifier": "keyid:96:e4:41:22:23:13:40:90:eb:54:fe:25:9d:57:8d:7e:17:0b:f7:11",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4241110623,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4241110623&end=4241110623",
+    "seen": 1778975909.812,
+    "submission_timestamp": 1778792948.381,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app-perftracker.workbench.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/16/26 20:06:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-perftracker.workbench.prod.netflix.net",
+        "aggregated": "/CN=app-perftracker.workbench.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0529FD1FB853551C95BA38288AEA5799F597",
+      "not_before": 1778750089,
+      "not_after": 1786526088,
+      "fingerprint": "AA:29:23:4C:94:61:A7:33:AC:5B:A6:AA:F4:09:F4:D9:F7:55:3E:C0",
+      "sha1": "AA:29:23:4C:94:61:A7:33:AC:5B:A6:AA:F4:09:F4:D9:F7:55:3E:C0",
+      "sha256": "60:6B:64:E9:50:5D:80:6D:71:46:EA:6B:02:6B:37:88:FC:B4:4E:94:44:AD:C7:33:80:0B:81:74:40:43:CE:1D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app-perftracker.workbench.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-perftracker.workbench.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:da:01:55:c6:f8:b6:96:b7:3f:25:10:6e:0b:71:b6:34:82:5e:d8:9a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 637315534,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=637315534&end=637315534",
+    "seen": 1778972803.315,
+    "submission_timestamp": 1778753600.194,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

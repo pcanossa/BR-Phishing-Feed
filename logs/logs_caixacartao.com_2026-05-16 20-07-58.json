@@ -1,0 +1,53 @@
+{
+  "dominio": "caixacartao.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/16/26 20:07:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.caixacartao.com",
+        "aggregated": "/CN=*.caixacartao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0527F090A7EF640778E725F89DF714DC1C1E",
+      "not_before": 1778755179,
+      "not_after": 1786531178,
+      "fingerprint": "C2:C9:D6:4E:63:A1:E1:B9:1B:C6:60:C1:87:19:F5:77:50:D4:84:F6",
+      "sha1": "C2:C9:D6:4E:63:A1:E1:B9:1B:C6:60:C1:87:19:F5:77:50:D4:84:F6",
+      "sha256": "24:45:C4:93:48:A1:A3:E6:B9:68:B3:8F:94:93:EA:E3:15:A0:49:1C:1A:D0:C5:F9:73:9A:E3:F0:A3:27:A7:C8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.caixacartao.com",
+        "caixacartao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.caixacartao.com, DNS:caixacartao.com",
+        "subjectKeyIdentifier": "keyid:63:2c:92:ae:85:16:f9:3d:eb:b5:10:ef:70:76:cd:a1:14:76:cd:40",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 744034121,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=744034121&end=744034121",
+    "seen": 1778972876.822,
+    "submission_timestamp": 1778758689.602,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

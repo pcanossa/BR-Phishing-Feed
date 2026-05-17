@@ -1,0 +1,52 @@
+{
+  "dominio": "api.unite-testpartner-tim.ngrok.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/16/26 20:31:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.unite-testpartner-tim.ngrok.app",
+        "aggregated": "/CN=api.unite-testpartner-tim.ngrok.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "059C90A7DB0BD9D9963614AE2A8E7CAB33ED",
+      "not_before": 1778787076,
+      "not_after": 1786563075,
+      "fingerprint": "6E:B2:AA:86:3A:9A:56:AB:F0:AC:1F:46:11:E0:F2:D7:A9:02:2F:3E",
+      "sha1": "6E:B2:AA:86:3A:9A:56:AB:F0:AC:1F:46:11:E0:F2:D7:A9:02:2F:3E",
+      "sha256": "97:05:D4:06:9E:FF:61:34:3E:CC:68:CE:FF:8B:C4:0A:18:F3:68:13:9A:54:5C:AC:AA:E1:B5:B8:3E:C6:5F:EB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api.unite-testpartner-tim.ngrok.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.unite-testpartner-tim.ngrok.app",
+        "subjectKeyIdentifier": "keyid:01:32:88:30:c8:d0:a1:0a:41:4d:21:01:de:df:fc:10:70:28:3d:67",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4240766814,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4240766814&end=4240766814",
+    "seen": 1778974295.298,
+    "submission_timestamp": 1778790586.434,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
