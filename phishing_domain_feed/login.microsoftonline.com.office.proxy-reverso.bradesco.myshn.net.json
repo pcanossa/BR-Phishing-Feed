@@ -1,0 +1,12 @@
+{
+    "dominio": "login.microsoftonline.com.office.proxy-reverso.bradesco.myshn.net",
+    "data_registro": "05/16/26 22:27:36",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de técnicas de typosquatting e subdomain stacking para esconder o domínio real sob nomes de marcas confiáveis (Microsoft e Bradesco)",
+        "O domínio utiliza uma estrutura de subdomínios para simular uma página de autenticação da Microsoft associada ao banco Bradesco, tática clássica de engenharia social",
+        "Presença de termos como 'proxy-reverso' e 'login' que visam ludibriar o usuário sobre a legitimidade da conexão e o destino do site",
+        "Uso de um domínio de nível superior (myshn.net) que não possui qualquer vínculo oficial com as instituições financeiras ou tecnológicas citadas no subdomínio"
+    ],
+    "analise_comportamental": "O domínio apresenta um padrão claro de ataque de phishing direcionado a vítimas no Brasil. A composição da string utiliza nomes de instituições de alta confiança (Bradesco e Microsoft) para forjar um portal de autenticação falso, comum em campanhas que visam o roubo de credenciais bancárias e corporativas via proxy reverso."
+}

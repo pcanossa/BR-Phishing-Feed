@@ -1,0 +1,12 @@
+{
+    "dominio": "sit-claro-login.alliancewebs.net",
+    "data_registro": "05/22/24 14:15:22",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínio para simular a página de login da operadora 'Claro', visando credenciais de clientes brasileiros",
+        "Utilização de domínio de terceiro ('alliancewebs.net') para hospedagem de página de login, prática comum para evitar detecção de domínios principais",
+        "Presença de termos como 'sit' (possível abreviação de 'site' ou 'sistema') e 'login' que indicam intenção de captura de dados de autenticação",
+        "Estrutura do domínio não condiz com a infraestrutura oficial de login da Claro (claro.com.br)"
+    ],
+    "analise_comportamental": "O domínio apresenta claros indícios de uma campanha de phishing direcionada a usuários brasileiros da operadora Claro. A estrutura composta por 'sit-claro-login' em um domínio de terceiros é uma técnica clássica de engenharia social para criar uma falsa sensação de legitimidade e realizar o roubo de credenciais (credential harvesting)."
+}

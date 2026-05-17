@@ -1,0 +1,12 @@
+{
+    "dominio": "login.live.com.office.proxy-reverso.bradesco.myshn.net",
+    "data_registro": "05/16/26 22:26:46",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínios aninhados para simular serviços legítimos ('login.live.com', 'office', 'bradesco') com o objetivo de confundir o usuário",
+        "O domínio principal 'myshn.net' não possui relação com o Bradesco ou Microsoft, indicando a técnica de typosquatting ou uso de subdomínio para conferir falsa autoridade",
+        "Presença de termos como 'proxy-reverso' e 'bradesco' em um domínio de terceiros é uma tática comum de engenharia social para captura de credenciais bancárias",
+        "Estrutura de URL complexa projetada para contornar filtros de segurança e induzir o usuário a acreditar estar em um ambiente corporativo ou bancário real"
+    ],
+    "analise_comportamental": "O domínio utiliza o nome de uma instituição financeira brasileira (Bradesco) em uma estrutura de subdomínios ilegítima. A técnica de concatenar nomes de serviços conhecidos (Microsoft/Live/Office) com o nome de um banco brasileiro é um indicativo claro de campanha de phishing direcionada a vítimas no Brasil, visando o roubo de credenciais através de uma página de login falsa."
+}

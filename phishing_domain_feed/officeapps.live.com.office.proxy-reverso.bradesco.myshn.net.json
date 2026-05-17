@@ -1,0 +1,12 @@
+{
+    "dominio": "officeapps.live.com.office.proxy-reverso.bradesco.myshn.net",
+    "data_registro": "Não disponível",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínios aninhados para simular uma estrutura legítima ('officeapps.live.com') dentro de um domínio de terceiro não relacionado.",
+        "Presença do termo 'bradesco' em um subdomínio para induzir confiança e realizar fraude contra clientes da instituição financeira brasileira.",
+        "Uso do termo 'proxy-reverso' como tentativa de técnica de ofuscação ou para dar aparência de um serviço técnico/seguro ao usuário final.",
+        "Domínio de nível superior (myshn.net) não pertence à infraestrutura oficial do Bradesco, configurando técnica de typosquatting ou sequestro de marca."
+    ],
+    "analise_comportamental": "O domínio utiliza uma estratégia de 'domain shadowing' e empilhamento de subdomínios para mimetizar serviços legítimos da Microsoft e do Bradesco simultaneamente. A estrutura é desenhada para contornar filtros básicos de segurança, visando a coleta de credenciais bancárias (phishing) de vítimas no Brasil através de engenharia social focada em serviços de escritório e acesso remoto."
+}

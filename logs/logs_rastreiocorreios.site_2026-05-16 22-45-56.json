@@ -1,0 +1,52 @@
+{
+  "dominio": "rastreiocorreios.site",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/16/26 22:45:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreiocorreios.site",
+        "aggregated": "/CN=rastreiocorreios.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06F94840DF8C6570A595BA421888BB85616E",
+      "not_before": 1778799256,
+      "not_after": 1786575255,
+      "fingerprint": "49:FE:BA:0F:2E:64:A2:7E:D1:0E:C6:95:0D:66:A4:C7:5E:38:FA:A3",
+      "sha1": "49:FE:BA:0F:2E:64:A2:7E:D1:0E:C6:95:0D:66:A4:C7:5E:38:FA:A3",
+      "sha256": "F8:44:AD:03:A6:34:43:FB:78:5A:A4:27:18:B8:7E:05:BF:1F:EA:9F:33:33:62:F9:84:3F:F4:28:6D:B8:8F:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "rastreiocorreios.site",
+        "*.rastreiocorreios.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.rastreiocorreios.site, DNS:rastreiocorreios.site",
+        "subjectKeyIdentifier": "keyid:e0:37:75:5f:64:6f:6e:5c:24:01:f9:2d:ba:68:8a:b7:f7:8b:bd:82"
+      }
+    },
+    "cert_index": 4242659194,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4242659194&end=4242659194",
+    "seen": 1778982356.805,
+    "submission_timestamp": 1778802768.562,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

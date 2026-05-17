@@ -1,0 +1,56 @@
+{
+  "dominio": "cpf-wired-hbbqkpctmh.dynamic-m.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/16/26 22:59:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-wired-hbbqkpctmh.dynamic-m.com",
+        "L": "San Jose",
+        "O": "Cisco Systems Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=cpf-wired-hbbqkpctmh.dynamic-m.com/L=San Jose/O=Cisco Systems Inc./ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "HydrantID Server CA O1",
+        "O": "IdenTrust",
+        "OU": "HydrantID Trusted Certificate Service",
+        "aggregated": "/C=US/CN=HydrantID Server CA O1/O=IdenTrust/OU=HydrantID Trusted Certificate Service"
+      },
+      "serial_number": "40019E28F89112FBC7D133B835336738",
+      "not_before": 1778803839,
+      "not_after": 1787443779,
+      "fingerprint": "CB:9C:F8:8D:BF:4C:2C:35:95:25:52:B8:4C:AB:E0:82:99:1F:36:FF",
+      "sha1": "CB:9C:F8:8D:BF:4C:2C:35:95:25:52:B8:4C:AB:E0:82:99:1F:36:FF",
+      "sha256": "E0:9C:C9:42:71:25:28:5D:B9:5D:BD:9A:16:7A:E9:C2:E0:88:C4:4D:E2:1B:79:D3:A2:2F:E2:B2:18:9F:9F:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-wired-hbbqkpctmh.dynamic-m.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://commercial.ocsp.identrust.com, URI:http://validation.identrust.com/certs/hydrantidcaO1.p7c",
+        "authorityKeyIdentifier": "keyid:89:b8:9b:b6:9e:ed:fb:b0:c6:bd:0d:ec:67:4e:3c:a3:92:9d:2d:f9",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 2.16.840.1.113839.0.6.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-wired-hbbqkpctmh.dynamic-m.com",
+        "subjectKeyIdentifier": "keyid:b1:ae:53:bd:87:c7:95:80:da:64:7e:25:cc:71:88:7d:b8:61:33:91",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4242854084,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4242854084&end=4242854084",
+    "seen": 1778983178.346,
+    "submission_timestamp": 1778803839.638,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
