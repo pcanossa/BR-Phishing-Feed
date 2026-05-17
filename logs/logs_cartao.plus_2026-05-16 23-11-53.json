@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.plus",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/16/26 23:11:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.plus",
+        "aggregated": "/CN=cartao.plus"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5C0C1A96F313CB6B132C4496422D4634",
+      "not_before": 1778761120,
+      "not_after": 1786540650,
+      "fingerprint": "61:59:58:E0:CC:01:19:3A:8E:ED:84:54:F5:12:F1:9F:98:76:F7:32",
+      "sha1": "61:59:58:E0:CC:01:19:3A:8E:ED:84:54:F5:12:F1:9F:98:76:F7:32",
+      "sha256": "9F:B0:AD:E5:FC:6C:0B:B4:59:0C:37:D3:22:66:D1:83:BE:7C:72:57:A3:EE:43:0E:DD:93:88:9C:9C:E6:B4:4F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.plus",
+        "*.cartao.plus"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/XAw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.plus, DNS:*.cartao.plus",
+        "subjectKeyIdentifier": "keyid:85:c2:19:5b:c6:eb:da:0d:44:b2:a7:b3:d2:46:9f:c5:e9:1e:26:37",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 745014399,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=745014399&end=745014399",
+    "seen": 1778983913.257,
+    "submission_timestamp": 1778764721.388,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
