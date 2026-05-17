@@ -1,0 +1,52 @@
+{
+  "dominio": "fatura-clarobr.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/17/26 03:22:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatura-clarobr.com",
+        "aggregated": "/CN=fatura-clarobr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06CD0AED28546A017C0B7383D347F2F89A95",
+      "not_before": 1778821658,
+      "not_after": 1786597657,
+      "fingerprint": "29:64:CF:D7:49:56:D3:B6:C7:13:99:BD:B8:9E:C4:6F:F5:1E:04:B2",
+      "sha1": "29:64:CF:D7:49:56:D3:B6:C7:13:99:BD:B8:9E:C4:6F:F5:1E:04:B2",
+      "sha256": "47:EE:CB:58:2D:0E:67:71:D7:D1:91:E7:FD:17:62:D4:75:C8:15:29:98:8F:91:53:5A:8C:87:FB:49:E5:34:58",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "fatura-clarobr.com",
+        "*.fatura-clarobr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.fatura-clarobr.com, DNS:fatura-clarobr.com",
+        "subjectKeyIdentifier": "keyid:94:88:45:9b:94:fc:ac:43:2c:a6:de:cf:ac:35:b6:96:26:cb:0d:46"
+      }
+    },
+    "cert_index": 4246539657,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4246539657&end=4246539657",
+    "seen": 1778998972.956,
+    "submission_timestamp": 1778825172.084,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

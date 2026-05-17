@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.ie",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/17/26 03:26:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.ie",
+        "aggregated": "/CN=cpf.ie"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0661A78DA9D14D68EB15F560A234596F9504",
+      "not_before": 1778520945,
+      "not_after": 1786296944,
+      "fingerprint": "70:35:58:8C:9D:D2:12:4A:52:70:FE:85:96:23:79:A2:91:F3:C8:A2",
+      "sha1": "70:35:58:8C:9D:D2:12:4A:52:70:FE:85:96:23:79:A2:91:F3:C8:A2",
+      "sha256": "25:6C:07:0B:BF:6C:3A:D7:39:88:59:32:48:CD:4B:B8:0F:05:82:49:F3:61:51:77:03:D2:E3:B6:D7:CC:B4:08",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.ie",
+        "www.cpf.ie"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.ie, DNS:www.cpf.ie",
+        "subjectKeyIdentifier": "keyid:32:6b:ff:44:07:24:dd:49:4b:bf:4d:4b:07:3a:8c:5a:75:e6:76:44"
+      }
+    },
+    "cert_index": 4246589382,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4246589382&end=4246589382",
+    "seen": 1778999181.996,
+    "submission_timestamp": 1778825407.489,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

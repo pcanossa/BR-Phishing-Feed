@@ -1,0 +1,52 @@
+{
+  "dominio": "caixapp.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/17/26 04:01:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixapp.com",
+        "aggregated": "/CN=caixapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "065424CB7A519120DCEB6E4BC254EDD5E925",
+      "not_before": 1778824675,
+      "not_after": 1786600674,
+      "fingerprint": "38:5B:61:06:B0:5B:DE:66:99:94:C4:78:92:E8:9D:1D:DD:B0:0B:0B",
+      "sha1": "38:5B:61:06:B0:5B:DE:66:99:94:C4:78:92:E8:9D:1D:DD:B0:0B:0B",
+      "sha256": "53:51:00:4A:49:62:4A:BB:B2:EE:D7:A5:6E:71:12:33:96:F1:7B:00:7C:05:D5:10:54:8F:28:7A:5E:1E:02:F3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "caixapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:caixapp.com",
+        "subjectKeyIdentifier": "keyid:98:26:fc:a8:d9:59:bf:14:22:69:2e:13:6c:9d:89:37:3a:9b:2c:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4247085289,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4247085289&end=4247085289",
+    "seen": 1779001307.313,
+    "submission_timestamp": 1778828185.898,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
