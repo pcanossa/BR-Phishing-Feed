@@ -1,0 +1,52 @@
+{
+  "dominio": "tim-corley.vercel.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/17/26 02:36:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.tim-corley.vercel.app",
+        "aggregated": "/CN=*.tim-corley.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "4BFA7FFADAD4F06D134BF08AE3B14D5C",
+      "not_before": 1778817811,
+      "not_after": 1786593810,
+      "fingerprint": "8A:1E:CD:90:B4:A6:45:60:73:D1:2F:E9:F2:B7:05:F9:7E:58:67:DB",
+      "sha1": "8A:1E:CD:90:B4:A6:45:60:73:D1:2F:E9:F2:B7:05:F9:7E:58:67:DB",
+      "sha256": "7E:5E:EF:6C:1E:97:12:62:50:7D:70:A0:A2:D9:C7:4F:4E:BF:B9:6B:DD:20:33:B0:31:96:D9:89:7F:D0:47:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.tim-corley.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/S_o, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.tim-corley.vercel.app",
+        "subjectKeyIdentifier": "keyid:20:f8:13:60:71:bf:7c:b6:0e:8f:60:a9:0c:d5:14:54:23:0b:8f:47",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4245897259,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4245897259&end=4245897259",
+    "seen": 1778996202.153,
+    "submission_timestamp": 1778821411.622,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
