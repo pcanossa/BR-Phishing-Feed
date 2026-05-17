@@ -1,0 +1,51 @@
+{
+  "dominio": "app.clarosystem.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/17/26 04:14:49",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.clarosystem.com",
+        "aggregated": "/CN=app.clarosystem.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "33AAFC22C65228C41FB96E98FB2B256B",
+      "not_before": 1778803200,
+      "not_after": 1786665599,
+      "fingerprint": "F4:A3:DB:EE:CD:AE:71:41:76:40:BD:93:19:44:A7:5C:A4:D3:3C:A2",
+      "sha1": "F4:A3:DB:EE:CD:AE:71:41:76:40:BD:93:19:44:A7:5C:A4:D3:3C:A2",
+      "sha256": "9A:EA:BB:4D:7E:AA:58:0A:C9:43:BD:D2:EE:C5:93:01:59:99:B6:CD:99:2A:61:DA:23:3C:11:0C:D2:88:79:D9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.clarosystem.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.clarosystem.com",
+        "subjectKeyIdentifier": "keyid:dd:49:63:20:46:06:8a:d1:37:07:07:7b:d2:ad:7a:97:30:5f:b4:c6"
+      }
+    },
+    "cert_index": 4247254534,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4247254534&end=4247254534",
+    "seen": 1779002086.772,
+    "submission_timestamp": 1778829027.674,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "dominio": "bradescoseguranca.org.20080926.rcom-dns.org",
+    "data_registro": "09/26/08 00:00:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínios para simular a marca 'bradesco' e o termo 'seguranca', técnica comum para induzir credibilidade ao usuário brasileiro",
+        "Estrutura de domínio composta (domínio de terceiro nível sobre um domínio público de DNS dinâmico), característica clássica de infraestrutura temporária usada em campanhas de phishing",
+        "Ausência de relação com os domínios oficiais e legítimos do Banco Bradesco (bradesco.com.br)",
+        "O padrão 'nome-seguranca.org' é um vetor clássico de engenharia social voltado para o roubo de credenciais bancárias"
+    ],
+    "analise_comportamental": "O domínio apresenta uma estrutura de tentativa de falsificação de identidade institucional (typosquatting/subdomain spoofing) voltada ao público brasileiro. A utilização de domínios dinâmicos sugere a criação de uma página falsa de 'segurança bancária' para coleta de dados sensíveis."
+}
