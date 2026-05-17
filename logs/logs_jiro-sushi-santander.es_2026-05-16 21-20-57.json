@@ -1,0 +1,53 @@
+{
+  "dominio": "jiro-sushi-santander.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/16/26 21:20:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jiro-sushi-santander.es",
+        "aggregated": "/CN=jiro-sushi-santander.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BFFF87B8B79A76B90E935C0467C4EDDC",
+      "not_before": 1778791229,
+      "not_after": 1786570754,
+      "fingerprint": "FA:45:65:9E:9B:AD:10:58:E0:E5:93:24:3D:D5:21:72:75:DB:F9:15",
+      "sha1": "FA:45:65:9E:9B:AD:10:58:E0:E5:93:24:3D:D5:21:72:75:DB:F9:15",
+      "sha256": "2B:DB:D5:8A:BB:A8:3B:87:54:C5:D5:59:97:8F:C1:CE:24:60:D0:EF:39:FA:C6:15:C9:A1:17:7F:13:77:BD:27",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "jiro-sushi-santander.es",
+        "*.jiro-sushi-santander.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/v_8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:jiro-sushi-santander.es, DNS:*.jiro-sushi-santander.es",
+        "subjectKeyIdentifier": "keyid:af:38:73:97:bc:15:ba:95:61:a6:8e:e1:17:f5:e2:fb:09:bb:95:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4241429189,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4241429189&end=4241429189",
+    "seen": 1778977256.385,
+    "submission_timestamp": 1778794830.173,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

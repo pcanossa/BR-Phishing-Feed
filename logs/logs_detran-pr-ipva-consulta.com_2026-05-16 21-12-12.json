@@ -1,0 +1,53 @@
+{
+  "dominio": "detran-pr-ipva-consulta.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/16/26 21:12:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detran-pr-ipva-consulta.com",
+        "aggregated": "/CN=detran-pr-ipva-consulta.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0506C13121985B5B96E8F5B8433CD8DDC0DF",
+      "not_before": 1778790501,
+      "not_after": 1786566500,
+      "fingerprint": "25:F7:AD:DD:2B:A9:94:BB:B1:54:F7:18:39:65:0C:F6:16:AE:BA:D2",
+      "sha1": "25:F7:AD:DD:2B:A9:94:BB:B1:54:F7:18:39:65:0C:F6:16:AE:BA:D2",
+      "sha256": "69:05:FB:C9:CF:93:E5:70:78:E4:BD:D5:9C:31:0B:73:D9:D6:A0:FF:CB:13:F0:07:DE:AC:56:7B:6D:5B:F9:5A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "detran-pr-ipva-consulta.com",
+        "*.detran-pr-ipva-consulta.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.detran-pr-ipva-consulta.com, DNS:detran-pr-ipva-consulta.com",
+        "subjectKeyIdentifier": "keyid:49:5e:34:12:31:3a:6f:6e:af:7e:42:e1:b3:78:06:d4:04:54:db:12",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4241305850,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4241305850&end=4241305850",
+    "seen": 1778976733.186,
+    "submission_timestamp": 1778794011.556,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
