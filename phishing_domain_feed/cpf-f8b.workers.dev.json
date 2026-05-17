@@ -1,0 +1,12 @@
+{
+    "dominio": "cpf-f8b.workers.dev",
+    "data_registro": "05/17/26 00:58:29",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de termos relacionados ao 'CPF' (Cadastro de Pessoas Físicas), alvo frequente de campanhas de engenharia social no Brasil",
+        "Utilização da plataforma Cloudflare Workers (.workers.dev), comumente abusada por agentes maliciosos para hospedar páginas de phishing devido à gratuidade e infraestrutura resiliente",
+        "Estrutura do domínio ('cpf-f8b') sugere geração aleatória ou uso de subdomínio efêmero, prática comum em ataques para evitar detecção e bloqueio persistente",
+        "Ausência de associação com domínios governamentais legítimos (gov.br), indicando tentativa de personificação ou fraude"
+    ],
+    "analise_comportamental": "O domínio utiliza um serviço de computação em nuvem (Workers) para mascarar um endpoint de phishing. A combinação do termo 'CPF' com uma estrutura de subdomínio de plataforma de terceiros é um indicador clássico de campanhas que visam obter dados sensíveis de cidadãos brasileiros através de falsas consultas de situação cadastral ou regularização."
+}

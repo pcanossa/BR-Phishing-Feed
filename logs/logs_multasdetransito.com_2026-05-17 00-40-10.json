@@ -1,0 +1,52 @@
+{
+  "dominio": "multasdetransito.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/17/26 00:40:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "multasdetransito.com",
+        "aggregated": "/CN=multasdetransito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9A50A0EFAA2C5CD2",
+      "not_before": 1778812169,
+      "not_after": 1795919369,
+      "fingerprint": "9A:C8:1E:23:9C:8A:26:20:1A:12:EC:A6:74:17:C8:C8:FA:95:C8:69",
+      "sha1": "9A:C8:1E:23:9C:8A:26:20:1A:12:EC:A6:74:17:C8:C8:FA:95:C8:69",
+      "sha256": "CD:77:FD:A6:23:9F:47:EF:C3:76:E6:88:80:D9:00:9F:73:BB:E4:25:93:06:C8:17:E2:5C:C8:23:7F:93:38:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "multasdetransito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:multasdetransito.com",
+        "subjectKeyIdentifier": "keyid:66:09:2a:f3:4c:c2:c4:d3:5b:24:4d:ca:9f:d4:e6:37:f4:cf:54:05",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4244277853,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4244277853&end=4244277853",
+    "seen": 1778989208.548,
+    "submission_timestamp": 1778812170.013,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

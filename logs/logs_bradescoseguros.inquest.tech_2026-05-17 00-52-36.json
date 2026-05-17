@@ -1,0 +1,52 @@
+{
+  "dominio": "bradescoseguros.inquest.tech",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/17/26 00:52:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradescoseguros.inquest.tech",
+        "aggregated": "/CN=bradescoseguros.inquest.tech"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "061CDCB2BE1E33E1091CC12CB82E6E5ABBD6",
+      "not_before": 1778809783,
+      "not_after": 1786585782,
+      "fingerprint": "D2:98:30:77:83:69:C8:99:56:B8:7B:E5:CA:AF:00:DB:90:63:F6:CC",
+      "sha1": "D2:98:30:77:83:69:C8:99:56:B8:7B:E5:CA:AF:00:DB:90:63:F6:CC",
+      "sha256": "54:BA:11:16:57:E2:7F:28:33:4C:E2:43:02:C5:9A:04:71:18:7F:36:5A:DB:79:2F:BB:4F:C7:98:36:99:3D:95",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradescoseguros.inquest.tech"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bradescoseguros.inquest.tech",
+        "subjectKeyIdentifier": "keyid:a8:9c:06:f0:72:18:b4:52:20:c3:c4:35:83:00:0f:03:fc:78:69:8d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4244456689,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4244456689&end=4244456689",
+    "seen": 1778989954.477,
+    "submission_timestamp": 1778813293.258,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

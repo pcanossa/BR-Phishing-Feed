@@ -1,0 +1,53 @@
+{
+  "dominio": "debitoile.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/17/26 00:32:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoile.com",
+        "aggregated": "/CN=debitoile.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3D5DA043D049C3E31362592FB4BE0785",
+      "not_before": 1778807983,
+      "not_after": 1786587569,
+      "fingerprint": "25:93:15:E6:61:3F:CE:73:E5:C9:D8:02:EE:73:80:ED:C9:9E:25:4C",
+      "sha1": "25:93:15:E6:61:3F:CE:73:E5:C9:D8:02:EE:73:80:ED:C9:9E:25:4C",
+      "sha256": "1E:60:E2:34:74:BF:A9:DF:C1:E2:F0:B2:90:88:1E:20:46:1F:42:53:C9:2C:0C:28:30:F6:69:3F:6B:D5:D3:D7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitoile.com",
+        "*.debitoile.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/PV0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitoile.com, DNS:*.debitoile.com",
+        "subjectKeyIdentifier": "keyid:70:8f:ae:4f:1a:c0:b0:19:f2:79:1d:d9:a0:bc:a2:a9:b2:8f:c4:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4244170719,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4244170719&end=4244170719",
+    "seen": 1778988762.92,
+    "submission_timestamp": 1778811584.263,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
