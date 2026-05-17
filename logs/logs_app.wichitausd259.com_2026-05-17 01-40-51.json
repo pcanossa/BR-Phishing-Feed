@@ -1,0 +1,52 @@
+{
+  "dominio": "app.wichitausd259.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/17/26 01:40:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.wichitausd259.com",
+        "aggregated": "/CN=app.wichitausd259.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3C36C5F73A9BEF4BE3B54D6DBA9A35C5",
+      "not_before": 1778803200,
+      "not_after": 1786665599,
+      "fingerprint": "41:54:99:14:AF:0D:2F:B3:9A:C7:76:47:A8:23:92:CE:AC:CF:E7:AC",
+      "sha1": "41:54:99:14:AF:0D:2F:B3:9A:C7:76:47:A8:23:92:CE:AC:CF:E7:AC",
+      "sha256": "B2:06:BD:43:D3:9A:40:1C:4A:D8:98:53:54:7D:8B:58:87:A5:15:85:1B:8D:2B:D6:04:E2:DD:5C:F2:66:47:C1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.wichitausd259.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.wichitausd259.com",
+        "subjectKeyIdentifier": "keyid:5f:dd:d8:f4:df:94:23:fb:6b:9b:b9:47:e3:28:dc:5a:61:26:1b:c2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4245131717,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4245131717&end=4245131717",
+    "seen": 1778992850.805,
+    "submission_timestamp": 1778816944.14,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.uk.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/17/26 01:09:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.uk.com",
+        "aggregated": "/CN=cpf.uk.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7D8351A9AC9970210E76A22CB2774D6F",
+      "not_before": 1778511792,
+      "not_after": 1786291301,
+      "fingerprint": "43:1A:C7:F8:D1:33:E1:2D:D8:66:14:71:F2:52:74:F3:75:F4:8E:FE",
+      "sha1": "43:1A:C7:F8:D1:33:E1:2D:D8:66:14:71:F2:52:74:F3:75:F4:8E:FE",
+      "sha256": "E3:C6:78:4E:59:22:90:6C:DF:EF:DE:E0:EE:E5:3F:22:0F:8C:F9:7A:13:F4:8A:BC:73:FD:C0:03:A1:B2:63:4C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.uk.com",
+        "*.cpf.uk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fYM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.uk.com, DNS:*.cpf.uk.com",
+        "subjectKeyIdentifier": "keyid:e0:f2:56:2b:74:a8:b1:9b:5b:92:65:a7:41:05:22:c8:61:8c:fe:07"
+      }
+    },
+    "cert_index": 4244698467,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4244698467&end=4244698467",
+    "seen": 1778990992.956,
+    "submission_timestamp": 1778814614.661,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
