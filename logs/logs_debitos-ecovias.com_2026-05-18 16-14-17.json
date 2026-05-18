@@ -1,0 +1,53 @@
+{
+  "dominio": "debitos-ecovias.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/18/26 16:14:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-ecovias.com",
+        "aggregated": "/CN=debitos-ecovias.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "B4461F8889A8101DBF5973CE1A095C42",
+      "not_before": 1778716800,
+      "not_after": 1786574915,
+      "fingerprint": "CA:82:02:F0:3D:5F:F6:E2:82:BB:5F:37:43:A7:BA:7A:42:B9:CA:22",
+      "sha1": "CA:82:02:F0:3D:5F:F6:E2:82:BB:5F:37:43:A7:BA:7A:42:B9:CA:22",
+      "sha256": "0F:5D:64:46:44:6A:4D:C2:4A:E7:C1:AD:83:56:EF:67:68:FB:12:0A:EA:F1:59:90:5E:C9:C1:79:C9:30:E3:FF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-ecovias.com",
+        "*.debitos-ecovias.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos-ecovias.com, DNS:*.debitos-ecovias.com",
+        "subjectKeyIdentifier": "keyid:e3:9b:aa:37:23:a2:b9:1a:e6:31:8a:ed:f7:93:38:14:73:32:9c:54",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 750688791,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=750688791&end=750688791",
+    "seen": 1779131659.259,
+    "submission_timestamp": 1778799067.657,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
