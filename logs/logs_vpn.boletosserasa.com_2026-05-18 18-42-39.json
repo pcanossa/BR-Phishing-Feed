@@ -1,0 +1,52 @@
+{
+  "dominio": "vpn.boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/18/26 18:42:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn.boletosserasa.com",
+        "aggregated": "/CN=vpn.boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "28CAB245232660D2F2B874AC66CC56FB",
+      "not_before": 1778803200,
+      "not_after": 1786665599,
+      "fingerprint": "D3:75:43:1F:2F:21:5C:1A:96:EA:4D:A7:7A:F4:10:0F:BD:F6:43:4C",
+      "sha1": "D3:75:43:1F:2F:21:5C:1A:96:EA:4D:A7:7A:F4:10:0F:BD:F6:43:4C",
+      "sha256": "BE:68:AB:71:E4:F1:F4:05:93:A5:89:7A:AF:B5:2B:16:50:4C:F8:B2:6D:23:CD:16:0E:3F:97:E8:8D:E4:D4:5D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "vpn.boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn.boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:a7:6d:85:4a:c5:80:4f:78:96:67:8b:3c:e9:53:d9:fc:99:04:1b:2b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 753082272,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=753082272&end=753082272",
+    "seen": 1779140559.8,
+    "submission_timestamp": 1778813333.215,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
