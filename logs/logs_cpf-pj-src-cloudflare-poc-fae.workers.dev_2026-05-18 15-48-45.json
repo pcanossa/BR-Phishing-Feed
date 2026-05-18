@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-pj-src-cloudflare-poc-fae.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/18/26 15:48:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-pj-src-cloudflare-poc-fae.workers.dev",
+        "aggregated": "/CN=cpf-pj-src-cloudflare-poc-fae.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "74901D96CC3F6A4813CD75DFFE2C9662",
+      "not_before": 1779030221,
+      "not_after": 1786809713,
+      "fingerprint": "0C:2D:C9:39:63:B0:E3:62:D5:BD:86:82:40:46:ED:C2:E6:33:9E:4B",
+      "sha1": "0C:2D:C9:39:63:B0:E3:62:D5:BD:86:82:40:46:ED:C2:E6:33:9E:4B",
+      "sha256": "1B:12:74:8D:69:76:58:EB:8A:D8:A8:22:27:7C:61:A3:C6:94:B5:B7:37:9F:E5:24:55:33:E4:CD:42:46:D7:3E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-pj-src-cloudflare-poc-fae.workers.dev",
+        "*.cpf-pj-src-cloudflare-poc-fae.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/dJA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-pj-src-cloudflare-poc-fae.workers.dev, DNS:*.cpf-pj-src-cloudflare-poc-fae.workers.dev",
+        "subjectKeyIdentifier": "keyid:f8:5b:77:f6:2f:5e:e8:f8:ef:72:66:42:a6:99:81:b2:28:e0:7e:8c"
+      }
+    },
+    "cert_index": 302517052,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x181/707",
+    "seen": 1779130126.595,
+    "submission_timestamp": 1779038435.301,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}
