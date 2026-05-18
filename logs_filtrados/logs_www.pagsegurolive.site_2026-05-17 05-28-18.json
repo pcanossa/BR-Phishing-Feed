@@ -1,0 +1,52 @@
+{
+  "dominio": "www.pagsegurolive.site",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/17/26 05:28:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pagsegurolive.site",
+        "aggregated": "/CN=www.pagsegurolive.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "3C62DDA64E801851",
+      "not_before": 1778834300,
+      "not_after": 1795941500,
+      "fingerprint": "59:CA:04:35:35:D5:40:F7:DF:AB:00:A1:FB:0D:00:D6:45:88:A3:05",
+      "sha1": "59:CA:04:35:35:D5:40:F7:DF:AB:00:A1:FB:0D:00:D6:45:88:A3:05",
+      "sha256": "00:8B:C3:61:DB:54:D6:D5:BD:56:25:9A:00:9E:21:4F:07:F1:1A:EA:08:9F:BA:BE:50:F1:40:56:FA:3D:CF:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pagsegurolive.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pagsegurolive.site",
+        "subjectKeyIdentifier": "keyid:a3:8c:79:63:b7:f8:34:bc:92:ae:96:dc:2d:ec:97:63:75:be:34:2b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4248210723,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4248210723&end=4248210723",
+    "seen": 1779006497.87,
+    "submission_timestamp": 1778834301.864,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
