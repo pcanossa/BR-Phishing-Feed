@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.mx",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/18/26 19:43:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.mx",
+        "aggregated": "/CN=cpf.mx"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4167496733FB152D0EEAC3CD32D2BC10",
+      "not_before": 1778817049,
+      "not_after": 1786596636,
+      "fingerprint": "76:90:EF:8D:FF:10:3B:2C:7A:CC:69:E4:A6:E4:54:94:EF:40:D4:58",
+      "sha1": "76:90:EF:8D:FF:10:3B:2C:7A:CC:69:E4:A6:E4:54:94:EF:40:D4:58",
+      "sha256": "CE:BB:5C:8D:E4:B8:09:37:BA:6C:AB:FA:C3:AA:C5:7F:67:FF:ED:6F:11:20:CC:F4:AA:4F:91:31:B2:CC:57:10",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.mx",
+        "*.cpf.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/QWc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.mx, DNS:*.cpf.mx",
+        "subjectKeyIdentifier": "keyid:e1:5c:e7:ad:db:ea:79:87:e8:98:5b:a1:f4:2e:fd:b5:26:8a:2c:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 754283438,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=754283438&end=754283438",
+    "seen": 1779144185.783,
+    "submission_timestamp": 1778820649.749,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

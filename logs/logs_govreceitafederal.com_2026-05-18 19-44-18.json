@@ -1,0 +1,52 @@
+{
+  "dominio": "govreceitafederal.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/18/26 19:44:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.govreceitafederal.com",
+        "aggregated": "/CN=*.govreceitafederal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0676B654B1861D6CC9A6BA07E60DDB48FDC7",
+      "not_before": 1779117078,
+      "not_after": 1786893077,
+      "fingerprint": "FD:3F:5F:7A:A4:6F:69:B6:4F:E2:92:4D:CE:81:AD:0C:6B:FC:84:71",
+      "sha1": "FD:3F:5F:7A:A4:6F:69:B6:4F:E2:92:4D:CE:81:AD:0C:6B:FC:84:71",
+      "sha256": "91:21:AC:F7:BD:72:0B:78:D1:DA:3B:36:12:EB:F0:52:65:7B:33:BA:24:9A:17:C3:D5:32:F5:5E:16:23:8A:80",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.govreceitafederal.com",
+        "govreceitafederal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.govreceitafederal.com, DNS:govreceitafederal.com",
+        "subjectKeyIdentifier": "keyid:81:12:c1:7a:b2:00:c1:2b:79:5e:4e:27:79:88:36:a3:49:57:b3:ad"
+      }
+    },
+    "cert_index": 192076302,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x750/298",
+    "seen": 1779144258.075,
+    "submission_timestamp": 1779120588.982,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.clarosystem.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/18/26 19:43:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.clarosystem.com",
+        "aggregated": "/CN=app.clarosystem.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "33AAFC22C65228C41FB96E98FB2B256B",
+      "not_before": 1778803200,
+      "not_after": 1786665599,
+      "fingerprint": "B8:6A:9F:4A:3D:F0:1E:7A:3F:FB:C6:3D:C2:EC:09:48:AA:32:E6:41",
+      "sha1": "B8:6A:9F:4A:3D:F0:1E:7A:3F:FB:C6:3D:C2:EC:09:48:AA:32:E6:41",
+      "sha256": "04:96:66:AC:0E:9E:7D:29:FE:63:A1:E4:21:E8:5A:B3:CD:7B:6D:D3:6F:D7:59:04:06:4B:FF:9B:E9:14:5E:83",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.clarosystem.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.clarosystem.com",
+        "subjectKeyIdentifier": "keyid:dd:49:63:20:46:06:8a:d1:37:07:07:7b:d2:ad:7a:97:30:5f:b4:c6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 754318433,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=754318433&end=754318433",
+    "seen": 1779144230.974,
+    "submission_timestamp": 1778820882.14,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
