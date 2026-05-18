@@ -1,0 +1,53 @@
+{
+  "dominio": "claro-fatura.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/18/26 17:45:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro-fatura.com",
+        "aggregated": "/CN=claro-fatura.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "76DEFE90A8CC7BAC361E1EEB3CE34301",
+      "not_before": 1778803200,
+      "not_after": 1786586663,
+      "fingerprint": "8F:E1:17:3C:75:88:76:00:E1:7F:B8:91:BD:18:BF:DD:44:63:B8:80",
+      "sha1": "8F:E1:17:3C:75:88:76:00:E1:7F:B8:91:BD:18:BF:DD:44:63:B8:80",
+      "sha256": "FA:3D:99:11:F2:92:0C:F8:8D:5F:DA:69:58:4B:18:14:E6:E4:41:6D:F9:92:19:FA:A7:39:E9:EE:C9:D1:66:06",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "claro-fatura.com",
+        "*.claro-fatura.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:claro-fatura.com, DNS:*.claro-fatura.com",
+        "subjectKeyIdentifier": "keyid:ee:81:13:69:3a:8a:9b:27:2a:38:95:49:0d:84:0f:e7:0f:2c:83:67",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 752620001,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=752620001&end=752620001",
+    "seen": 1779137110.213,
+    "submission_timestamp": 1778810754.671,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

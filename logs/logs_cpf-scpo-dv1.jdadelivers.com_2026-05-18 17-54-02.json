@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-scpo-dv1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/18/26 17:54:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-dv1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-dv1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "CB6C81F3B033B40D1385651586975347",
+      "not_before": 1778374048,
+      "not_after": 1786153627,
+      "fingerprint": "56:36:FF:6A:59:53:0B:4A:E0:1F:60:2F:C2:45:88:D0:A2:71:89:DF",
+      "sha1": "56:36:FF:6A:59:53:0B:4A:E0:1F:60:2F:C2:45:88:D0:A2:71:89:DF",
+      "sha256": "87:AC:73:96:AA:46:C3:00:01:89:C9:81:E6:8D:AA:D9:5C:E6:96:33:03:74:88:A7:A2:8F:D0:ED:9F:00:84:EC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-dv1.jdadelivers.com",
+        "*.cpf-scpo-dv1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/y2w, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-scpo-dv1.jdadelivers.com, DNS:*.cpf-scpo-dv1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:ab:0b:d9:32:85:02:77:de:3b:66:b3:1b:60:22:0f:43:cc:21:25:b1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 613899909,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=613899909&end=613899909",
+    "seen": 1779137643.983,
+    "submission_timestamp": 1778377648.982,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

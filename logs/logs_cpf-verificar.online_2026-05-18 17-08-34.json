@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-verificar.online",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/18/26 17:08:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-verificar.online",
+        "aggregated": "/CN=cpf-verificar.online"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "1B87EEFB1408126755E17EA76B03E407",
+      "not_before": 1778803200,
+      "not_after": 1786582033,
+      "fingerprint": "48:53:F0:AE:83:58:5B:F2:10:68:D4:95:C6:6C:CC:7C:99:33:87:80",
+      "sha1": "48:53:F0:AE:83:58:5B:F2:10:68:D4:95:C6:6C:CC:7C:99:33:87:80",
+      "sha256": "1D:4C:B8:11:38:00:81:6E:2F:B0:D3:CE:D5:E9:D5:EF:93:22:7E:83:C9:CA:55:49:33:68:0C:CE:71:2D:6B:BB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-verificar.online",
+        "*.cpf-verificar.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-verificar.online, DNS:*.cpf-verificar.online",
+        "subjectKeyIdentifier": "keyid:7f:cc:ad:41:14:44:bf:75:91:45:a9:08:d2:30:33:02:b9:63:51:3f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 751826287,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=751826287&end=751826287",
+    "seen": 1779134916.746,
+    "submission_timestamp": 1778806183.619,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
