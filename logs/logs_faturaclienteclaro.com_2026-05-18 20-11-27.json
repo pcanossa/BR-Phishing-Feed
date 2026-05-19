@@ -1,0 +1,53 @@
+{
+  "dominio": "faturaclienteclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/18/26 20:11:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "faturaclienteclaro.com",
+        "aggregated": "/CN=faturaclienteclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05D904F29C0DD893DD4AB06D78994C4B004A",
+      "not_before": 1778824508,
+      "not_after": 1786600507,
+      "fingerprint": "6A:7C:F1:D0:38:25:D8:9C:B1:A5:14:3C:BF:7D:15:AA:3D:C8:12:B9",
+      "sha1": "6A:7C:F1:D0:38:25:D8:9C:B1:A5:14:3C:BF:7D:15:AA:3D:C8:12:B9",
+      "sha256": "FF:8F:87:E0:09:D0:DF:95:44:D0:F0:42:E7:67:7A:FD:F2:7A:04:6B:2B:17:B9:92:A1:3E:13:16:77:32:C0:09",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "faturaclienteclaro.com",
+        "*.faturaclienteclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.faturaclienteclaro.com, DNS:faturaclienteclaro.com",
+        "subjectKeyIdentifier": "keyid:f4:6c:ff:8f:4e:8a:84:47:63:c8:44:10:9e:f4:c3:12:2b:a5:49:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 755511790,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=755511790&end=755511790",
+    "seen": 1779145886.908,
+    "submission_timestamp": 1778828018.231,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

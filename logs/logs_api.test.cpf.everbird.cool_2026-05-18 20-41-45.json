@@ -1,0 +1,52 @@
+{
+  "dominio": "api.test.cpf.everbird.cool",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/18/26 20:41:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.test.cpf.everbird.cool",
+        "aggregated": "/CN=api.test.cpf.everbird.cool"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "051FD2D120F1154B6CCF4F575CC6C618C498",
+      "not_before": 1778828143,
+      "not_after": 1786604142,
+      "fingerprint": "8C:48:07:7F:C7:54:11:A4:B8:22:81:68:59:62:20:97:55:0A:E7:AE",
+      "sha1": "8C:48:07:7F:C7:54:11:A4:B8:22:81:68:59:62:20:97:55:0A:E7:AE",
+      "sha256": "16:8E:3E:A0:5F:71:3D:3A:B6:C0:E0:93:A7:93:65:A9:15:AA:DC:5D:17:99:6C:03:96:5A:1A:C5:9B:BA:CD:47",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.test.cpf.everbird.cool"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.test.cpf.everbird.cool",
+        "subjectKeyIdentifier": "keyid:45:3d:f6:00:49:43:f8:ee:8b:b2:58:87:d8:a2:c3:40:b1:0f:16:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 756151326,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=756151326&end=756151326",
+    "seen": 1779147704.61,
+    "submission_timestamp": 1778831653.698,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
