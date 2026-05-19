@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.rest",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/18/26 22:12:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.rest",
+        "aggregated": "/CN=cpf.rest"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7DDCB9B45CA18D780EBF8A14A8C7DB13",
+      "not_before": 1778299061,
+      "not_after": 1786078656,
+      "fingerprint": "DA:07:6B:C1:C3:52:23:5D:3A:F1:47:AB:90:B3:66:86:3B:0F:54:17",
+      "sha1": "DA:07:6B:C1:C3:52:23:5D:3A:F1:47:AB:90:B3:66:86:3B:0F:54:17",
+      "sha256": "5A:9B:64:92:E7:23:A8:31:2A:5E:A9:50:37:40:83:57:4F:DB:B4:F7:66:90:CF:70:FD:9B:DC:F7:8C:F4:74:92",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.rest"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fdw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.rest",
+        "subjectKeyIdentifier": "keyid:6c:bb:5b:7a:62:9a:fe:13:77:98:3d:9c:8d:43:c6:52:1d:3f:b4:87",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 633005041,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=633005041&end=633005041",
+    "seen": 1779153150.877,
+    "submission_timestamp": 1778302662.48,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
