@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-uat.smarthrworklife.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/19/26 18:02:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-uat.smarthrworklife.com",
+        "aggregated": "/CN=cpf-uat.smarthrworklife.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0979289D5F04C2CDD9F1E7783A37608F",
+      "not_before": 1778889600,
+      "not_after": 1795996799,
+      "fingerprint": "DF:27:04:39:26:4F:CE:DD:26:4B:89:01:22:77:EC:AD:C7:41:10:09",
+      "sha1": "DF:27:04:39:26:4F:CE:DD:26:4B:89:01:22:77:EC:AD:C7:41:10:09",
+      "sha256": "C1:06:AB:D3:72:95:DA:79:B5:DB:9B:33:CD:57:5F:AB:A4:BD:0C:35:F0:17:A3:B8:04:AC:E3:AF:E3:83:2A:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-uat.smarthrworklife.com",
+        "*.cpf-uat.smarthrworklife.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-uat.smarthrworklife.com, DNS:*.cpf-uat.smarthrworklife.com",
+        "subjectKeyIdentifier": "keyid:6c:c6:44:aa:18:ec:8d:ab:c8:34:8b:5a:bd:9c:03:a8:24:ea:44:58",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4260892419,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4260892419&end=4260892419",
+    "seen": 1779224570.607,
+    "submission_timestamp": 1778890841.113,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

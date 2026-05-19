@@ -1,0 +1,53 @@
+{
+  "dominio": "api.tarjeta-debito-pr-qa.apps.ambientesbc.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/19/26 18:50:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "0147EDF66C055943721545A8BC7C4101",
+      "not_before": 1779227370,
+      "not_after": 1779313741,
+      "fingerprint": "12:4D:2E:E4:6D:93:88:5D:CB:39:16:32:90:4A:06:A1:C7:2D:CC:FF",
+      "sha1": "12:4D:2E:E4:6D:93:88:5D:CB:39:16:32:90:4A:06:A1:C7:2D:CC:FF",
+      "sha256": "9B:99:09:6A:3E:3C:DF:1C:39:CB:49:2C:17:10:D3:EF:5B:DA:89:4E:B3:AE:8A:7A:31:6C:CF:17:88:47:9F:87",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "api.tarjeta-debito-pr-qa.apps.ambientesbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr-qa.apps.ambientesbc.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:c3:45:9d:77:1d:92:a3:f4:b9:e7:79:65:23:1c:4b:01:10:f3:83:13",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1074185218,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h1/ct/v1/get-entries?start=1074185218&end=1074185218",
+    "seen": 1779227401.068,
+    "submission_timestamp": 1779227373.907,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h1'",
+      "url": "https://sphinx.ct.digicert.com/2026h1"
+    }
+  }
+}

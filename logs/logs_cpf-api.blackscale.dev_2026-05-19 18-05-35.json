@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-api.blackscale.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/19/26 18:05:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-api.blackscale.dev",
+        "aggregated": "/CN=cpf-api.blackscale.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "053B5085A4F18BB6198E30BCDBC2BD665DFE",
+      "not_before": 1779199289,
+      "not_after": 1786975288,
+      "fingerprint": "E5:A8:71:A4:B7:C4:C0:7C:8B:93:9B:C9:D0:41:C1:76:3F:AE:3C:0A",
+      "sha1": "E5:A8:71:A4:B7:C4:C0:7C:8B:93:9B:C9:D0:41:C1:76:3F:AE:3C:0A",
+      "sha256": "92:02:E4:AB:9A:00:89:F7:3E:1E:11:FF:62:18:7F:79:2D:D7:00:01:F0:F5:DD:3F:11:F5:C6:22:BE:CF:E7:12",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-api.blackscale.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-api.blackscale.dev",
+        "subjectKeyIdentifier": "keyid:21:82:72:33:9f:5c:1c:ff:9e:52:e4:58:f0:5f:6b:33:da:8a:4e:42"
+      }
+    },
+    "cert_index": 206110730,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x805/120",
+    "seen": 1779224734.712,
+    "submission_timestamp": 1779202800.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

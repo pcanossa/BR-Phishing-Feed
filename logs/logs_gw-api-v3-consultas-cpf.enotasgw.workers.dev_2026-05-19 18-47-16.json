@@ -1,0 +1,53 @@
+{
+  "dominio": "gw-api-v3-consultas-cpf.enotasgw.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/19/26 18:47:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "enotasgw.workers.dev",
+        "aggregated": "/CN=enotasgw.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "893A9E353DA9FB4813759ED6AE88FACC",
+      "not_before": 1778866131,
+      "not_after": 1786645597,
+      "fingerprint": "80:87:61:EF:7B:49:3F:DC:DE:18:AA:F1:76:80:72:3E:56:0B:4D:41",
+      "sha1": "80:87:61:EF:7B:49:3F:DC:DE:18:AA:F1:76:80:72:3E:56:0B:4D:41",
+      "sha256": "36:29:C7:BC:58:62:30:D6:20:3F:75:65:BB:5B:0B:1E:2B:C9:4C:17:ED:BF:FB:D8:32:4F:43:09:1C:5C:39:AB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "enotasgw.workers.dev",
+        "*.gw-api-v3-consultas-cpf.enotasgw.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/iTo, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:enotasgw.workers.dev, DNS:*.gw-api-v3-consultas-cpf.enotasgw.workers.dev",
+        "subjectKeyIdentifier": "keyid:76:7a:c8:aa:02:81:e8:e2:24:eb:67:19:a3:59:76:d8:91:e3:bf:b1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 653287433,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=653287433&end=653287433",
+    "seen": 1779227236.63,
+    "submission_timestamp": 1778869731.805,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-scpo-seq1-ts1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/19/26 18:12:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-seq1-ts1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-seq1-ts1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "43E925782449810F13037302A7F93753",
+      "not_before": 1778318217,
+      "not_after": 1786097814,
+      "fingerprint": "13:8D:EB:98:9E:29:6E:04:16:40:54:BE:96:C0:7C:DF:16:1D:C1:A3",
+      "sha1": "13:8D:EB:98:9E:29:6E:04:16:40:54:BE:96:C0:7C:DF:16:1D:C1:A3",
+      "sha256": "DF:D1:0D:AA:34:94:01:6A:0B:CE:BE:7B:52:80:21:CC:91:55:BB:D4:51:8C:1E:85:19:17:EA:93:10:A6:49:70",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-seq1-ts1.jdadelivers.com",
+        "*.cpf-scpo-seq1-ts1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Q-k, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-scpo-seq1-ts1.jdadelivers.com, DNS:*.cpf-scpo-seq1-ts1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:6b:a8:aa:73:15:2a:8c:60:8b:7c:84:27:f4:1f:13:ee:60:ae:06:45",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 635349604,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=635349604&end=635349604",
+    "seen": 1779225135.161,
+    "submission_timestamp": 1778321818.105,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

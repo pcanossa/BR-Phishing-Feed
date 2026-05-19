@@ -1,0 +1,51 @@
+{
+  "dominio": "santander.certificarapp.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/19/26 18:07:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.certificarapp.com",
+        "aggregated": "/CN=santander.certificarapp.com"
+      },
+      "issuer": {
+        "C": "CN",
+        "CN": "TrustAsia DV TLS RSA CA 2025",
+        "O": "TrustAsia Technologies, Inc.",
+        "aggregated": "/C=CN/CN=TrustAsia DV TLS RSA CA 2025/O=TrustAsia Technologies, Inc."
+      },
+      "serial_number": "0407F6932D709CF6018114072BC87E72",
+      "not_before": 1779148800,
+      "not_after": 1786924799,
+      "fingerprint": "A6:B3:50:7E:56:27:F0:D9:58:72:07:CC:87:C1:92:9F:17:33:FF:31",
+      "sha1": "A6:B3:50:7E:56:27:F0:D9:58:72:07:CC:87:C1:92:9F:17:33:FF:31",
+      "sha256": "B2:65:9A:49:62:45:19:25:A9:93:F2:54:8E:CD:5A:00:CA:0C:57:20:E5:C3:79:7D:2B:4A:05:F5:2F:CA:33:25",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.certificarapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/TrustAsiaDVTLSRSACA2025.crt",
+        "authorityKeyIdentifier": "keyid:b4:12:28:a5:b4:c0:1d:9f:29:71:69:3c:d9:11:96:4a:75:69:50:c0",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.certificarapp.com",
+        "subjectKeyIdentifier": "keyid:5e:0f:9d:06:e7:27:ea:c7:92:44:d8:fb:5f:d4:38:76:3d:30:84:62"
+      }
+    },
+    "cert_index": 206147146,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x805/262",
+    "seen": 1779224818.555,
+    "submission_timestamp": 1779204151.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
