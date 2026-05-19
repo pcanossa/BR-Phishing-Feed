@@ -1,0 +1,53 @@
+{
+  "dominio": "consultas-debitos-mg.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/19/26 08:45:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "consultas-debitos-mg.sa.com",
+        "aggregated": "/CN=consultas-debitos-mg.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "542CE0C78BB6CF740E10B1F5880FBED8",
+      "not_before": 1778883966,
+      "not_after": 1786663358,
+      "fingerprint": "BA:0F:6B:28:28:00:97:80:54:28:3B:A1:79:2A:DC:35:73:6E:CD:38",
+      "sha1": "BA:0F:6B:28:28:00:97:80:54:28:3B:A1:79:2A:DC:35:73:6E:CD:38",
+      "sha256": "1E:8E:13:60:0B:B0:CC:5F:5F:A3:AC:E7:2B:7E:1C:47:6F:A0:12:16:E0:31:B0:15:0C:AC:F1:1D:8D:AA:FC:61",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "consultas-debitos-mg.sa.com",
+        "*.consultas-debitos-mg.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/VCw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:consultas-debitos-mg.sa.com, DNS:*.consultas-debitos-mg.sa.com",
+        "subjectKeyIdentifier": "keyid:ab:df:6f:5d:a2:98:4b:7f:a9:dd:3a:c1:f4:d5:da:06:81:cf:28:f9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4260150750,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4260150750&end=4260150750",
+    "seen": 1779191105.945,
+    "submission_timestamp": 1778887567.296,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

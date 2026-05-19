@@ -1,0 +1,52 @@
+{
+  "dominio": "www.netflixapp.panelapps.top",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/19/26 08:27:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.panelapps.top",
+        "aggregated": "/CN=*.panelapps.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05BB62762F8F99E366A2AE51D5A4EA5F115C",
+      "not_before": 1778883082,
+      "not_after": 1786659081,
+      "fingerprint": "B6:6E:5B:DF:78:1D:FF:0B:01:A8:04:91:D4:E7:8D:6C:AF:17:D6:83",
+      "sha1": "B6:6E:5B:DF:78:1D:FF:0B:01:A8:04:91:D4:E7:8D:6C:AF:17:D6:83",
+      "sha256": "73:25:72:15:76:17:2B:94:97:09:01:EE:3C:FC:99:56:EB:F4:7E:81:2A:05:F5:6D:0D:5B:2F:53:B8:C5:87:BF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.panelapps.top",
+        "www.netflixapp.panelapps.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.panelapps.top, DNS:www.netflixapp.panelapps.top",
+        "subjectKeyIdentifier": "keyid:12:3b:56:6f:44:0f:c9:84:79:83:96:e0:7d:a1:9f:51:fd:c0:cb:12"
+      }
+    },
+    "cert_index": 4259941608,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4259941608&end=4259941608",
+    "seen": 1779190041.918,
+    "submission_timestamp": 1778886595.196,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
