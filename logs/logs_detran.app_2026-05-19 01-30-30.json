@@ -1,0 +1,52 @@
+{
+  "dominio": "detran.app",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/19/26 01:30:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detran.app",
+        "aggregated": "/CN=detran.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05B9EE9362A43952580D187250FFA56A425E",
+      "not_before": 1779161519,
+      "not_after": 1786937518,
+      "fingerprint": "27:1B:45:41:18:3B:43:F9:2E:E1:71:8B:1C:5B:84:F0:0D:60:FE:89",
+      "sha1": "27:1B:45:41:18:3B:43:F9:2E:E1:71:8B:1C:5B:84:F0:0D:60:FE:89",
+      "sha256": "71:D5:6A:AD:58:5D:B3:D0:74:78:03:78:DE:6B:93:86:F1:15:2F:6E:20:61:62:FF:B0:C5:0B:4D:FE:A2:C8:0C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "detran.app",
+        "*.detran.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.detran.app, DNS:detran.app",
+        "subjectKeyIdentifier": "keyid:a5:30:2b:47:8c:84:e2:22:f5:03:71:72:2d:58:2a:31:b7:0e:6f:85"
+      }
+    },
+    "cert_index": 204924234,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x800/485",
+    "seen": 1779165029.766,
+    "submission_timestamp": 1779165030.15,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
