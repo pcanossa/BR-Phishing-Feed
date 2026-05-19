@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-presente.kiabi.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/19/26 09:08:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-presente.kiabi.pt",
+        "aggregated": "/CN=cartao-presente.kiabi.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Certainly Intermediate R1",
+        "O": "Certainly",
+        "aggregated": "/C=US/CN=Certainly Intermediate R1/O=Certainly"
+      },
+      "serial_number": "79800551E999B8DE3288AE0BB997E77AEB8A",
+      "not_before": 1779183568,
+      "not_after": 1781775567,
+      "fingerprint": "5E:7D:65:3E:1D:5D:90:BB:2C:99:BC:48:50:B8:72:44:70:D0:2B:A4",
+      "sha1": "5E:7D:65:3E:1D:5D:90:BB:2C:99:BC:48:50:B8:72:44:70:D0:2B:A4",
+      "sha256": "F1:CA:31:88:0E:32:AC:83:49:A0:C2:3F:B1:65:95:F5:48:F6:FD:61:C8:33:49:B7:87:00:0C:3D:A5:7A:E9:2B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-presente.kiabi.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://int-r1.certainly.com",
+        "authorityKeyIdentifier": "keyid:bd:97:9d:df:a1:d8:1b:25:99:e3:0c:04:06:89:64:12:d7:65:24:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-presente.kiabi.pt",
+        "subjectKeyIdentifier": "keyid:a9:7c:bf:da:d0:c4:cb:12:d4:64:d0:77:d5:78:55:5a:80:65:53:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2780962452,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h1/ct/v1/get-entries?start=2780962452&end=2780962452",
+    "seen": 1779192517.265,
+    "submission_timestamp": 1779187079.016,
+    "source": {
+      "name": "Google 'Argon2026h1' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h1"
+    }
+  }
+}

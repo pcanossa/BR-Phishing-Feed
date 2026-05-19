@@ -1,0 +1,52 @@
+{
+  "dominio": "b3.tabletop.appengtls.com",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/19/26 09:36:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "b3.tabletop.appengtls.com",
+        "aggregated": "/CN=b3.tabletop.appengtls.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Certainly Intermediate R1",
+        "O": "Certainly",
+        "aggregated": "/C=US/CN=Certainly Intermediate R1/O=Certainly"
+      },
+      "serial_number": "7919364302682172C5B6467330F0BA1096FB",
+      "not_before": 1779186743,
+      "not_after": 1781778742,
+      "fingerprint": "24:EA:AA:8A:D7:45:40:82:86:A5:28:1B:F2:66:9D:B8:26:17:90:E6",
+      "sha1": "24:EA:AA:8A:D7:45:40:82:86:A5:28:1B:F2:66:9D:B8:26:17:90:E6",
+      "sha256": "BF:81:15:93:A0:EB:39:7A:04:0B:B9:A8:7F:2C:7E:02:ED:AE:55:2E:09:32:3F:63:8F:4C:44:04:68:3A:D3:D9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "b3.tabletop.appengtls.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://int-r1.certainly.com",
+        "authorityKeyIdentifier": "keyid:bd:97:9d:df:a1:d8:1b:25:99:e3:0c:04:06:89:64:12:d7:65:24:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:b3.tabletop.appengtls.com",
+        "subjectKeyIdentifier": "keyid:9a:56:cd:a1:b0:81:2f:c2:49:d0:15:1f:52:3e:18:08:41:9f:c7:49",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2516109477,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h1/ct/v1/get-entries?start=2516109477&end=2516109477",
+    "seen": 1779194165.11,
+    "submission_timestamp": 1779190322.768,
+    "source": {
+      "name": "Google 'Xenon2026h1' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h1"
+    }
+  }
+}
