@@ -1,0 +1,52 @@
+{
+  "dominio": "debitors.eu",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/19/26 04:14:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitors.eu",
+        "aggregated": "/CN=*.debitors.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05CBAC66C5A4C50609B78781D5AFC7DA5A70",
+      "not_before": 1779171379,
+      "not_after": 1786947378,
+      "fingerprint": "C1:B4:04:84:7B:28:94:F0:FD:57:56:B8:DA:C3:CB:4F:36:CE:8B:71",
+      "sha1": "C1:B4:04:84:7B:28:94:F0:FD:57:56:B8:DA:C3:CB:4F:36:CE:8B:71",
+      "sha256": "EE:BF:E2:48:D5:19:68:DA:E2:C1:CF:62:E2:C1:A3:1E:9C:5A:EE:AA:70:66:85:9A:8A:75:68:6D:0A:03:54:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitors.eu",
+        "debitors.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitors.eu, DNS:debitors.eu",
+        "subjectKeyIdentifier": "keyid:83:73:3a:a9:88:e9:ba:43:25:b2:62:82:f0:55:fb:aa:00:62:1c:56"
+      }
+    },
+    "cert_index": 205230165,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x801/680",
+    "seen": 1779174892.088,
+    "submission_timestamp": 1779174889.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
