@@ -1,0 +1,52 @@
+{
+  "dominio": "resgate.bancobradesco.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/19/26 00:59:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "resgate.bancobradesco.app",
+        "aggregated": "/CN=resgate.bancobradesco.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05C4568827A914258B507901F8C47BE49884",
+      "not_before": 1778859397,
+      "not_after": 1786635396,
+      "fingerprint": "CA:A8:AE:CA:D4:D0:63:D0:22:E4:D2:A6:5A:71:32:62:E9:7C:BB:92",
+      "sha1": "CA:A8:AE:CA:D4:D0:63:D0:22:E4:D2:A6:5A:71:32:62:E9:7C:BB:92",
+      "sha256": "93:B3:8D:00:03:EE:12:E0:7D:EE:B9:56:B4:D2:B6:4C:59:92:94:5B:6B:F3:3F:8A:F7:0B:8C:BE:79:77:FA:0B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "resgate.bancobradesco.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:resgate.bancobradesco.app",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4254442730,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4254442730&end=4254442730",
+    "seen": 1779163191.913,
+    "submission_timestamp": 1778862907.235,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

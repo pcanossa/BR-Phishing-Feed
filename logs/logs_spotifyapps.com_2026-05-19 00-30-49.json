@@ -1,0 +1,53 @@
+{
+  "dominio": "spotifyapps.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/19/26 00:30:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifyapps.com",
+        "aggregated": "/CN=spotifyapps.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A172BF9E919E84A3BE581002B23807F4",
+      "not_before": 1778803200,
+      "not_after": 1786625945,
+      "fingerprint": "79:23:55:2C:14:8C:12:6D:03:F5:46:A1:02:91:72:CA:CF:DC:FB:BB",
+      "sha1": "79:23:55:2C:14:8C:12:6D:03:F5:46:A1:02:91:72:CA:CF:DC:FB:BB",
+      "sha256": "A8:01:54:49:8F:5B:5E:09:DC:43:23:02:A9:A8:E2:66:7D:7C:96:44:E1:97:72:10:18:C6:34:85:0D:62:29:2B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "spotifyapps.com",
+        "*.spotifyapps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:spotifyapps.com, DNS:*.spotifyapps.com",
+        "subjectKeyIdentifier": "keyid:3d:89:11:d3:cb:ab:3c:60:64:48:b7:41:21:a2:d6:72:ea:ce:56:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 759446733,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=759446733&end=759446733",
+    "seen": 1779161449.426,
+    "submission_timestamp": 1778850044.613,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
