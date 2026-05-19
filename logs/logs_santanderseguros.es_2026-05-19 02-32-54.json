@@ -1,0 +1,53 @@
+{
+  "dominio": "santanderseguros.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/19/26 02:32:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01100D7F83BC38C4C9133AAA5157CA01",
+      "not_before": 1779127238,
+      "not_after": 1779213579,
+      "fingerprint": "E7:0D:64:84:4F:E0:AB:86:9D:2E:04:52:ED:6A:E5:2C:6B:05:50:BD",
+      "sha1": "E7:0D:64:84:4F:E0:AB:86:9D:2E:04:52:ED:6A:E5:2C:6B:05:50:BD",
+      "sha256": "9F:2A:8B:F2:18:E6:FB:3E:70:8F:AA:1E:BD:53:67:32:72:1B:75:5B:20:5C:20:66:68:17:A0:64:13:5F:DF:D5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.santanderseguros.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.santanderseguros.es, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:30:55:26:99:a6:2b:25:09:db:65:e4:8d:98:3e:03:e1:70:7c:93:c8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2515736624,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h1/ct/v1/get-entries?start=2515736624&end=2515736624",
+    "seen": 1779168774.222,
+    "submission_timestamp": 1779127240.647,
+    "source": {
+      "name": "Google 'Xenon2026h1' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h1"
+    }
+  }
+}

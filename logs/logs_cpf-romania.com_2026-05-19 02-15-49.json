@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-romania.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/19/26 02:15:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-romania.com",
+        "aggregated": "/CN=cpf-romania.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "D7C9B9CD86E0C8DA9473206A853B6761",
+      "not_before": 1778803200,
+      "not_after": 1786633842,
+      "fingerprint": "78:3E:53:43:13:D9:2F:B2:B1:B3:EB:6C:66:41:AC:DF:77:59:6C:59",
+      "sha1": "78:3E:53:43:13:D9:2F:B2:B1:B3:EB:6C:66:41:AC:DF:77:59:6C:59",
+      "sha256": "DD:D3:63:9C:57:FC:11:2F:C1:6A:1B:43:B2:4D:1B:BE:E1:D8:71:D7:47:2D:39:AF:97:BE:56:0A:A4:96:3F:5A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-romania.com",
+        "*.cpf-romania.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-romania.com, DNS:*.cpf-romania.com",
+        "subjectKeyIdentifier": "keyid:d9:07:51:81:6a:6b:62:d2:7d:58:b9:ee:c1:46:b5:95:c7:fe:d2:e1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 760738168,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=760738168&end=760738168",
+    "seen": 1779167749.584,
+    "submission_timestamp": 1778857941.053,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-pj-src-cloudflare-ci.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/19/26 02:32:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-pj-src-cloudflare-ci.workers.dev",
+        "aggregated": "/CN=cpf-pj-src-cloudflare-ci.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7C60D4F400BFCD68139FBBF40169C161",
+      "not_before": 1778854944,
+      "not_after": 1786634452,
+      "fingerprint": "6C:EA:09:F7:23:0E:AA:DF:B2:0A:C9:4B:C5:F4:BC:F4:4B:94:02:80",
+      "sha1": "6C:EA:09:F7:23:0E:AA:DF:B2:0A:C9:4B:C5:F4:BC:F4:4B:94:02:80",
+      "sha256": "47:95:B7:2C:3A:8C:22:B3:5C:14:D9:77:72:B7:7A:BD:B6:05:F1:37:51:90:E8:A0:4D:91:69:AE:68:3F:DB:B7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-pj-src-cloudflare-ci.workers.dev",
+        "*.cpf-pj-src-cloudflare-ci.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fGA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-pj-src-cloudflare-ci.workers.dev, DNS:*.cpf-pj-src-cloudflare-ci.workers.dev",
+        "subjectKeyIdentifier": "keyid:13:7c:72:19:cf:24:69:8a:b4:53:c3:e6:9b:fd:ce:52:12:67:59:00",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 760832823,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=760832823&end=760832823",
+    "seen": 1779168775.896,
+    "submission_timestamp": 1778858545.293,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
