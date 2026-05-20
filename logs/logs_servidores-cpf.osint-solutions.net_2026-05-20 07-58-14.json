@@ -1,0 +1,52 @@
+{
+  "dominio": "servidores-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/20/26 07:58:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "61FA97F5F035904D0EFF96DBE658F3BB",
+      "not_before": 1779234249,
+      "not_after": 1787013846,
+      "fingerprint": "AC:FC:28:B9:B4:D4:72:FA:17:6D:39:2F:CD:E5:63:A5:00:F6:C1:5B",
+      "sha1": "AC:FC:28:B9:B4:D4:72:FA:17:6D:39:2F:CD:E5:63:A5:00:F6:C1:5B",
+      "sha256": "2F:AE:7A:65:2E:88:96:A4:D1:14:63:EA:D3:2E:1F:9A:D9:09:5B:67:EC:62:AC:DA:DC:6B:9A:84:74:77:F7:D5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "servidores-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Yfo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:servidores-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:66:8f:d0:25:b9:d5:16:28:7d:8d:cf:b6:96:a1:67:36:0e:c4:77:be"
+      }
+    },
+    "cert_index": 313281507,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x223/755",
+    "seen": 1779274694.701,
+    "submission_timestamp": 1779237977.206,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}
