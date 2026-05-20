@@ -1,0 +1,54 @@
+{
+  "dominio": "wt.netflix-nonprod.auth0app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/20/26 12:42:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-nonprod.auth0app.com",
+        "aggregated": "/CN=netflix-nonprod.auth0app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "054F6457BEB09E17A8924582FAF17DEFE6E1",
+      "not_before": 1779288245,
+      "not_after": 1787064244,
+      "fingerprint": "7E:0D:30:8F:09:1C:59:26:70:24:7F:7D:04:CB:83:8A:1D:DD:91:3B",
+      "sha1": "7E:0D:30:8F:09:1C:59:26:70:24:7F:7D:04:CB:83:8A:1D:DD:91:3B",
+      "sha256": "A9:7B:9F:D2:03:F0:15:E2:ED:02:C3:9D:19:FA:39:C4:FF:9C:1F:3D:42:C2:33:5D:6F:C7:7A:9F:E9:40:8C:59",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-nonprod.auth0app.com",
+        "*.edge.tenants.netflix-nonprod.auth0app.com",
+        "*.netflix-nonprod.auth0app.com",
+        "*.wt.netflix-nonprod.auth0app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.edge.tenants.netflix-nonprod.auth0app.com, DNS:*.netflix-nonprod.auth0app.com, DNS:*.wt.netflix-nonprod.auth0app.com, DNS:netflix-nonprod.auth0app.com",
+        "subjectKeyIdentifier": "keyid:63:43:66:c8:12:27:bd:6d:85:08:20:82:fe:0b:26:4e:db:aa:0e:a3"
+      }
+    },
+    "cert_index": 208866795,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x815/885",
+    "seen": 1779291757.351,
+    "submission_timestamp": 1779291756.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
