@@ -1,0 +1,53 @@
+{
+  "dominio": "api.tarjeta-debito-pr.apps.bancolombia.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/20/26 08:53:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01FBEAE0C89871742E554718B96563A7",
+      "not_before": 1779227972,
+      "not_after": 1779314372,
+      "fingerprint": "9A:1E:EC:43:37:B7:4F:99:95:2B:A3:0C:51:F5:D3:A0:39:91:FF:07",
+      "sha1": "9A:1E:EC:43:37:B7:4F:99:95:2B:A3:0C:51:F5:D3:A0:39:91:FF:07",
+      "sha256": "3E:47:28:F7:9B:EB:68:5E:38:BB:35:FE:69:8F:46:63:B8:B2:84:D6:CD:64:93:80:6A:1F:6A:5B:B7:B5:AE:05",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "api.tarjeta-debito-pr.apps.bancolombia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr.apps.bancolombia.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:03:ae:e5:3b:03:2c:59:39:29:c2:55:ba:f1:1f:fb:41:64:b3:04:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2516335016,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h1/ct/v1/get-entries?start=2516335016&end=2516335016",
+    "seen": 1779278009.553,
+    "submission_timestamp": 1779227976.047,
+    "source": {
+      "name": "Google 'Xenon2026h1' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h1"
+    }
+  }
+}

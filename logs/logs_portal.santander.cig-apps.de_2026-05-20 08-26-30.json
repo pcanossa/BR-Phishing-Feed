@@ -1,0 +1,52 @@
+{
+  "dominio": "portal.santander.cig-apps.de",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/20/26 08:26:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal.santander.cig-apps.de",
+        "aggregated": "/CN=portal.santander.cig-apps.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "037289AAFA9E02274E0FF92300C3CF38",
+      "not_before": 1779235200,
+      "not_after": 1795219199,
+      "fingerprint": "03:7F:2A:D2:55:91:32:95:BB:B2:56:6E:64:39:25:0F:FA:92:6F:77",
+      "sha1": "03:7F:2A:D2:55:91:32:95:BB:B2:56:6E:64:39:25:0F:FA:92:6F:77",
+      "sha256": "C6:76:E8:71:AF:A3:45:3F:94:60:CC:53:13:5F:0B:83:FF:93:C5:EB:0D:08:D0:17:7F:34:DB:A9:BD:E6:2A:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "portal.santander.cig-apps.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portal.santander.cig-apps.de",
+        "subjectKeyIdentifier": "keyid:98:ca:41:b3:17:b2:ae:88:89:03:ee:71:9f:6f:2e:aa:9c:ea:03:77"
+      }
+    },
+    "cert_index": 195977932,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x765/538",
+    "seen": 1779276389.866,
+    "submission_timestamp": 1779264193.981,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

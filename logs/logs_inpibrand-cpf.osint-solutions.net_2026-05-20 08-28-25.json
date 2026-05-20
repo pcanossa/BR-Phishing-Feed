@@ -1,0 +1,53 @@
+{
+  "dominio": "inpibrand-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/20/26 08:28:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D2A156A980730BCC13DCBCC4D6542341",
+      "not_before": 1778879432,
+      "not_after": 1786659029,
+      "fingerprint": "56:2F:25:4E:3B:25:D9:8C:49:CE:67:2A:70:26:6F:FD:09:18:12:6D",
+      "sha1": "56:2F:25:4E:3B:25:D9:8C:49:CE:67:2A:70:26:6F:FD:09:18:12:6D",
+      "sha256": "9B:95:5B:71:6E:F4:CA:84:A3:24:E9:75:7E:F0:06:3B:BF:BB:87:21:E5:C0:EA:A9:4A:11:1A:43:71:94:7A:59",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "inpibrand-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/0qE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:inpibrand-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:e3:6f:84:15:1f:88:61:69:d9:8e:24:0a:06:18:32:8e:9d:c7:89:ac",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 764760844,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=764760844&end=764760844",
+    "seen": 1779276504.701,
+    "submission_timestamp": 1778883032.713,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "dominio": "gw-api-v3-consultas-cpf.enotasgw.workers.dev",
+    "data_registro": "05/20/26 08:39:23",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Subdomínio utiliza o domínio genérico 'workers.dev' da Cloudflare, frequentemente usado por infraestruturas temporárias ou maliciosas para evitar bloqueios de IP",
+        "Nome do subdomínio contém 'consultas-cpf', indicando tentativa de atrair vítimas brasileiras que buscam informações sobre CPF, um alvo comum de phishing",
+        "Domínio não está presente em listas de domínios legítimos ou de marcas reconhecidas no Brasil",
+        "Ausência de certificado TLS válido ou uso de certificado auto‑assinado, sugerindo falta de legitimidade",
+        "Uso de termo técnico 'gw-api-v3' que sugere um serviço de API, possivelmente utilizado para coleta ou exfiltração de dados"
+    ],
+    "analise_comportamental": "O domínio 'gw-api-v3-consultas-cpf.enotasgw.workers.dev' apresenta múltiplas bandeiras vermelhas típicas de campanhas de phishing direcionadas ao Brasil, como o aproveitamento de termos sensíveis (CPF) e a hospedagem em infraestrutura de nuvem genérica que permite rápida criação e anonimato. É provável que seja usado para enganar usuários a inserir dados pessoais ou credenciais, funcionando como página de coleta ou gateway de malware."
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "portal.santander.staging.cig-apps.de",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/20/26 08:18:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal.santander.staging.cig-apps.de",
+        "aggregated": "/CN=portal.santander.staging.cig-apps.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "02E006063A5C5FB3FFBF31CCCE6A4916",
+      "not_before": 1769472000,
+      "not_after": 1785196799,
+      "fingerprint": "5F:00:84:66:A1:DA:A3:E1:33:ED:C1:6E:E5:A3:88:24:34:FA:94:35",
+      "sha1": "5F:00:84:66:A1:DA:A3:E1:33:ED:C1:6E:E5:A3:88:24:34:FA:94:35",
+      "sha256": "3B:DB:84:8F:62:CB:8B:CD:26:D3:13:92:C1:91:71:63:27:A4:FF:BF:F3:A2:BB:08:23:54:57:31:A7:C2:88:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "portal.santander.staging.cig-apps.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portal.santander.staging.cig-apps.de",
+        "subjectKeyIdentifier": "keyid:80:79:c6:d1:76:6a:a3:3f:06:46:69:0b:49:f1:59:4c:b6:41:60:9d"
+      }
+    },
+    "cert_index": 314739889,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x229/452",
+    "seen": 1779275925.768,
+    "submission_timestamp": 1779264245.547,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}
