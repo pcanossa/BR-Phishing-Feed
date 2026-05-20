@@ -1,0 +1,52 @@
+{
+  "dominio": "app.into-itaudio.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/20/26 18:39:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.into-itaudio.com",
+        "aggregated": "/CN=app.into-itaudio.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "CB64538AA48DB78FA29325F2A702EBDF",
+      "not_before": 1778889600,
+      "not_after": 1786751999,
+      "fingerprint": "3D:32:FB:0C:27:57:53:C1:B3:93:92:86:C4:77:29:91:A2:30:10:5A",
+      "sha1": "3D:32:FB:0C:27:57:53:C1:B3:93:92:86:C4:77:29:91:A2:30:10:5A",
+      "sha256": "BC:45:21:DE:31:67:70:BD:B7:6F:5A:A4:6F:66:5D:82:33:61:74:62:FC:29:EB:7A:DA:81:D7:1B:24:6B:52:B0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.into-itaudio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.into-itaudio.com",
+        "subjectKeyIdentifier": "keyid:62:1f:07:66:96:3b:98:bf:d4:80:08:8f:1f:69:1b:6a:cc:09:8d:bb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 768323068,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=768323068&end=768323068",
+    "seen": 1779313161.328,
+    "submission_timestamp": 1778905979.362,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
