@@ -1,0 +1,52 @@
+{
+  "dominio": "debitoor.at",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/20/26 17:45:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor.at",
+        "aggregated": "/CN=debitoor.at"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "065B21CA16DBE824FE8BCB1CC16A711802E6",
+      "not_before": 1778927633,
+      "not_after": 1786703632,
+      "fingerprint": "EA:C4:7F:30:3F:F5:55:C6:04:9B:69:88:0F:79:47:17:5B:85:2F:1F",
+      "sha1": "EA:C4:7F:30:3F:F5:55:C6:04:9B:69:88:0F:79:47:17:5B:85:2F:1F",
+      "sha256": "5B:D9:C5:91:70:A0:24:9E:ED:20:D7:CB:A6:62:92:D6:1A:49:CB:43:F6:ED:37:D6:9B:A4:30:52:E6:01:7B:1E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor.at",
+        "*.debitoor.at"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitoor.at, DNS:debitoor.at",
+        "subjectKeyIdentifier": "keyid:81:f2:79:b9:1f:dd:50:6e:85:10:65:5f:9f:5c:34:d0:1f:f3:d4:e7"
+      }
+    },
+    "cert_index": 4270114929,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4270114929&end=4270114929",
+    "seen": 1779309955.348,
+    "submission_timestamp": 1778931145.181,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
