@@ -1,0 +1,52 @@
+{
+  "dominio": "directdebitone.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/20/26 10:39:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "directdebitone.org",
+        "aggregated": "/CN=directdebitone.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9CDB509AF3E390AD",
+      "not_before": 1778903153,
+      "not_after": 1796010353,
+      "fingerprint": "2D:4D:7B:74:E6:C6:EB:25:B8:4A:DF:AB:67:C5:A2:4D:BD:E8:82:EB",
+      "sha1": "2D:4D:7B:74:E6:C6:EB:25:B8:4A:DF:AB:67:C5:A2:4D:BD:E8:82:EB",
+      "sha256": "26:76:BF:E1:2A:29:42:5F:40:C9:74:D3:C4:FD:2E:8F:25:30:A3:C4:2B:F9:16:D4:CD:A7:BB:8D:02:53:F7:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "directdebitone.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:directdebitone.org",
+        "subjectKeyIdentifier": "keyid:18:e4:9e:0e:60:ec:31:a8:0b:fd:91:b7:f5:4c:02:eb:76:48:22:6f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4263730615,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4263730615&end=4263730615",
+    "seen": 1779284341.022,
+    "submission_timestamp": 1778903153.681,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
