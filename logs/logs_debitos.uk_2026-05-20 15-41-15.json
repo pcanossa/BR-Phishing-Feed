@@ -1,0 +1,53 @@
+{
+  "dominio": "debitos.uk",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/20/26 15:41:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos.uk",
+        "aggregated": "/CN=debitos.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5320AD08F8F48A2A138018BCF7827D2E",
+      "not_before": 1778895720,
+      "not_after": 1786675182,
+      "fingerprint": "73:13:86:6D:58:9C:4E:D4:5B:04:7D:4E:24:E2:44:77:DC:22:E1:3F",
+      "sha1": "73:13:86:6D:58:9C:4E:D4:5B:04:7D:4E:24:E2:44:77:DC:22:E1:3F",
+      "sha256": "A7:82:43:1C:9F:95:C6:A6:9A:81:87:77:2D:31:FE:A6:F2:BF:A5:55:06:C1:E2:5A:B8:C0:0A:86:21:68:F7:08",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos.uk",
+        "*.debitos.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/UyA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos.uk, DNS:*.debitos.uk",
+        "subjectKeyIdentifier": "keyid:43:60:10:76:05:3e:ea:2b:3e:35:84:79:79:df:1c:50:b3:ce:bd:a9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 767301078,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=767301078&end=767301078",
+    "seen": 1779302475.242,
+    "submission_timestamp": 1778899321.343,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

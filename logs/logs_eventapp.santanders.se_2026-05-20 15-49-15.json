@@ -1,0 +1,52 @@
+{
+  "dominio": "eventapp.santanders.se",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/20/26 15:49:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eventapp.santanders.se",
+        "aggregated": "/CN=eventapp.santanders.se"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "063B10B18A3ED724E98BC40965D4325B0A63",
+      "not_before": 1778895999,
+      "not_after": 1786671998,
+      "fingerprint": "BD:6D:C3:50:DE:45:AF:A5:93:C9:0C:2D:68:A0:0F:18:09:F2:19:6F",
+      "sha1": "BD:6D:C3:50:DE:45:AF:A5:93:C9:0C:2D:68:A0:0F:18:09:F2:19:6F",
+      "sha256": "6E:80:9C:24:08:84:A1:84:90:41:C6:76:DB:72:12:67:BC:B3:C4:8A:81:36:97:0B:CA:AA:71:7B:C8:FE:02:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "eventapp.santanders.se"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:eventapp.santanders.se",
+        "subjectKeyIdentifier": "keyid:76:a4:d6:62:e3:b7:59:ed:7b:8b:1f:3f:07:3e:24:dd:5f:83:c2:a0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 767330859,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=767330859&end=767330859",
+    "seen": 1779302955.495,
+    "submission_timestamp": 1778899509.609,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
