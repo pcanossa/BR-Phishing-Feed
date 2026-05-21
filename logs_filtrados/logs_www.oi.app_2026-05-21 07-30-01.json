@@ -1,0 +1,51 @@
+{
+  "dominio": "www.oi.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/21/26 07:30:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.oi.app",
+        "aggregated": "/CN=www.oi.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "069A918C71804884BE33E9EBDA00E99C9D6F",
+      "not_before": 1778991338,
+      "not_after": 1786767337,
+      "fingerprint": "8F:80:EE:EA:38:23:42:6A:0A:06:1E:4B:75:F3:C5:26:4B:F1:68:29",
+      "sha1": "8F:80:EE:EA:38:23:42:6A:0A:06:1E:4B:75:F3:C5:26:4B:F1:68:29",
+      "sha256": "23:C1:B3:38:9C:48:C2:A2:A6:AB:4D:CC:A6:68:CE:40:48:93:EC:C8:7F:93:36:5D:CF:53:A2:48:CD:38:CE:67",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.oi.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.oi.app",
+        "subjectKeyIdentifier": "keyid:70:3c:a3:27:7b:be:8e:b9:06:b2:ef:7f:1d:41:ef:8d:d5:dc:43:5b"
+      }
+    },
+    "cert_index": 4284131807,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4284131807&end=4284131807",
+    "seen": 1779359400.144,
+    "submission_timestamp": 1778994852.818,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
