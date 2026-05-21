@@ -1,0 +1,52 @@
+{
+  "dominio": "recupera-il-tuo-debito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/20/26 23:42:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.recupera-il-tuo-debito.com",
+        "aggregated": "/CN=*.recupera-il-tuo-debito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05625AAD08146CC97F508FFCB558E1660B8D",
+      "not_before": 1778948190,
+      "not_after": 1786724189,
+      "fingerprint": "55:0E:DE:14:94:1C:77:CE:AD:E9:65:53:BE:DC:4D:B6:69:D1:88:01",
+      "sha1": "55:0E:DE:14:94:1C:77:CE:AD:E9:65:53:BE:DC:4D:B6:69:D1:88:01",
+      "sha256": "17:61:5D:C2:7C:68:F8:56:CF:49:4A:5E:D5:9C:0A:4B:17:11:31:4D:66:F9:9F:09:E1:83:68:26:3F:F7:3C:60",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.recupera-il-tuo-debito.com",
+        "recupera-il-tuo-debito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.recupera-il-tuo-debito.com, DNS:recupera-il-tuo-debito.com",
+        "subjectKeyIdentifier": "keyid:c7:3c:ff:40:97:67:26:e0:f6:47:44:b1:de:76:82:16:d6:c8:bf:15"
+      }
+    },
+    "cert_index": 4275982136,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4275982136&end=4275982136",
+    "seen": 1779331369.487,
+    "submission_timestamp": 1778956295.094,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
