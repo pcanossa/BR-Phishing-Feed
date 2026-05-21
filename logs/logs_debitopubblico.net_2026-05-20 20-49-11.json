@@ -1,0 +1,52 @@
+{
+  "dominio": "debitopubblico.net",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/20/26 20:49:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitopubblico.net",
+        "aggregated": "/CN=debitopubblico.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0645CBA9DDA39156E0845CAF50FC546FAC5D",
+      "not_before": 1778940670,
+      "not_after": 1786716669,
+      "fingerprint": "4C:F2:74:27:A9:B9:8D:B8:82:28:9C:C3:2B:81:C5:1D:78:66:87:D0",
+      "sha1": "4C:F2:74:27:A9:B9:8D:B8:82:28:9C:C3:2B:81:C5:1D:78:66:87:D0",
+      "sha256": "D4:50:4B:92:0D:4B:EF:09:BF:E9:4F:63:30:D5:FD:7B:C1:90:3E:3F:6E:45:4E:8F:24:6E:F7:61:3D:A9:80:34",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitopubblico.net",
+        "www.debitopubblico.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitopubblico.net, DNS:www.debitopubblico.net",
+        "subjectKeyIdentifier": "keyid:af:93:d9:ed:a5:7c:0c:8c:3f:a6:79:6b:c5:cc:22:bb:b9:10:17:17"
+      }
+    },
+    "cert_index": 4273093792,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4273093792&end=4273093792",
+    "seen": 1779320951.741,
+    "submission_timestamp": 1778944181.891,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
