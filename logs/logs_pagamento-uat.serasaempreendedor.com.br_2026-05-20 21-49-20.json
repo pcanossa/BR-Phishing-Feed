@@ -1,0 +1,53 @@
+{
+  "dominio": "pagamento-uat.serasaempreendedor.com.br",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/20/26 21:49:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "012657E59B0589D201642BA73BE52BF9",
+      "not_before": 1779324532,
+      "not_after": 1779410932,
+      "fingerprint": "FE:94:18:AB:48:44:C7:C1:73:34:8B:3B:A0:44:A8:1E:0E:28:AD:08",
+      "sha1": "FE:94:18:AB:48:44:C7:C1:73:34:8B:3B:A0:44:A8:1E:0E:28:AD:08",
+      "sha256": "04:0C:BD:A8:AE:D8:04:33:7F:5E:FC:8B:8E:6A:D4:79:6F:C7:35:00:85:F1:BC:4B:EE:C3:00:4D:30:A7:D4:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "pagamento-uat.serasaempreendedor.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento-uat.serasaempreendedor.com.br, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:fc:fb:4b:38:d9:9f:8a:b7:4f:d2:62:80:cc:34:0e:cf:48:f5:11:d8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1192248101,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1192248101&end=1192248101",
+    "seen": 1779324560.053,
+    "submission_timestamp": 1779324534.891,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h1'",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}
