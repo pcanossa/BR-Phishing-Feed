@@ -1,0 +1,51 @@
+{
+  "dominio": "acesso-receita.federal-notificacao.org",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/21/26 08:07:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "acesso-receita.federal-notificacao.org",
+        "aggregated": "/CN=acesso-receita.federal-notificacao.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06E41BE4FE4D5142F130238116C9AFB97835",
+      "not_before": 1778994489,
+      "not_after": 1786770488,
+      "fingerprint": "D1:74:D6:A4:41:07:B2:A0:6F:E6:9D:67:86:DC:E3:50:39:6A:99:2B",
+      "sha1": "D1:74:D6:A4:41:07:B2:A0:6F:E6:9D:67:86:DC:E3:50:39:6A:99:2B",
+      "sha256": "F9:E6:4A:F7:F8:9A:82:0D:21:8B:15:E3:97:46:1D:FC:C3:78:3D:64:22:10:71:85:8D:CD:D2:1D:3B:C0:89:5A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "acesso-receita.federal-notificacao.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:acesso-receita.federal-notificacao.org",
+        "subjectKeyIdentifier": "keyid:0d:ad:57:e4:c6:29:d0:46:0c:d8:f9:09:e8:d0:42:66:2e:c5:a2:66"
+      }
+    },
+    "cert_index": 4284799445,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4284799445&end=4284799445",
+    "seen": 1779361653.584,
+    "submission_timestamp": 1778998002.053,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

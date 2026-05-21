@@ -1,0 +1,53 @@
+{
+  "dominio": "nubank-app-nao-abre-jlc.cyou",
+  "marcas_encontradas": [
+    "nubank"
+  ],
+  "timestamp": "05/21/26 08:37:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nubank-app-nao-abre-jlc.cyou",
+        "aggregated": "/CN=nubank-app-nao-abre-jlc.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C27C0907914168FB649AF8C2E9CED5B",
+      "not_before": 1778976000,
+      "not_after": 1786751999,
+      "fingerprint": "62:34:28:25:A6:9A:CF:99:32:B0:83:91:51:35:8B:38:89:5C:42:F5",
+      "sha1": "62:34:28:25:A6:9A:CF:99:32:B0:83:91:51:35:8B:38:89:5C:42:F5",
+      "sha256": "3A:F9:4D:86:5E:B8:D2:5B:B0:A0:D5:CB:CC:D1:D4:33:CE:47:5B:C3:AA:E4:6E:A0:F7:6A:07:57:CA:C6:0A:44",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nubank-app-nao-abre-jlc.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nubank-app-nao-abre-jlc.cyou",
+        "subjectKeyIdentifier": "keyid:57:f7:2b:68:09:bc:cf:83:1b:98:b6:cf:8f:f8:2a:79:4c:75:62:e9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4285303045,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4285303045&end=4285303045",
+    "seen": 1779363439.855,
+    "submission_timestamp": 1779000293.995,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
