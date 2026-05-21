@@ -1,0 +1,52 @@
+{
+  "dominio": "rastreiocorreios.com.br",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/21/26 17:15:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreiocorreios.com.br",
+        "aggregated": "/CN=rastreiocorreios.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2BFCFF05E93C94861348EF551D9131C0",
+      "not_before": 1779034972,
+      "not_after": 1786814554,
+      "fingerprint": "C8:E3:D7:33:90:B6:F7:94:DA:50:AE:9D:EE:A5:CA:CB:BA:93:AA:4B",
+      "sha1": "C8:E3:D7:33:90:B6:F7:94:DA:50:AE:9D:EE:A5:CA:CB:BA:93:AA:4B",
+      "sha256": "86:CF:15:B0:0B:41:31:99:35:08:A8:14:6F:D6:35:D4:BB:DB:97:E9:C4:93:9F:52:1E:86:32:F1:FD:23:D2:3C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreiocorreios.com.br",
+        "*.rastreiocorreios.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/K_w, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreiocorreios.com.br, DNS:*.rastreiocorreios.com.br",
+        "subjectKeyIdentifier": "keyid:f3:54:61:ab:1a:9f:c6:cd:cb:ad:83:ea:48:52:eb:74:c7:e8:4d:54"
+      }
+    },
+    "cert_index": 4294360812,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4294360812&end=4294360812",
+    "seen": 1779394535.992,
+    "submission_timestamp": 1779042688.275,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

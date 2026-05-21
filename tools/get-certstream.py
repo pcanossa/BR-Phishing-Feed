@@ -26,7 +26,7 @@ ISCAS = [
     'app', 'login', 'desbloqueio', 'rastreamento', 'verificacao', 'confirmacao', 
     'alerta', 'bloqueio', 'senha', 'acesso', 'seguro', 'atencao', 'urgente', 
     'comprovante', 'boleto', 'fatura', 'cartao', 'debito', 'cpf', 'sus', 'gov-br', 'cnh', 'ipva', 'licenciamento', 'multas', 'infracao', 'recarga', 'transferencia', 'irpf', 'auxilio', 'freeflow', 'ganhar', 'premio', 'bonus', 'comprovante', 'trj', 'trt', 'federal', 'intimacao', 'processo',
-    'justica', 'upa'
+    'justica', 'upa', 'bet'
     ]
 
 # Domínios base permitidos
