@@ -1,0 +1,52 @@
+{
+  "dominio": "app.autocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/20/26 22:14:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.autocaixa.com",
+        "aggregated": "/CN=app.autocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059EC36733D47C12EAEFEE61FF91A1E892BE",
+      "not_before": 1778946353,
+      "not_after": 1786722352,
+      "fingerprint": "57:27:C9:0D:6B:58:45:2D:34:08:2E:C7:36:69:8F:35:E4:8C:68:92",
+      "sha1": "57:27:C9:0D:6B:58:45:2D:34:08:2E:C7:36:69:8F:35:E4:8C:68:92",
+      "sha256": "5A:B9:FA:CC:8E:2B:F8:C2:0E:B6:CD:A7:96:AE:45:55:83:7C:DC:88:43:77:51:2E:F1:F5:66:4C:E1:23:C7:73",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.autocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.autocaixa.com",
+        "subjectKeyIdentifier": "keyid:7f:b5:1a:54:40:ae:27:85:99:e6:8b:fa:5d:6a:67:08:67:74:a4:99",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4274480483,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4274480483&end=4274480483",
+    "seen": 1779326069.091,
+    "submission_timestamp": 1778949863.319,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
