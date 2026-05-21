@@ -1,0 +1,52 @@
+{
+  "dominio": "comunicadobradescoaapp.site",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/21/26 19:36:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "comunicadobradescoaapp.site",
+        "aggregated": "/CN=comunicadobradescoaapp.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "17651DB4E750DB2C",
+      "not_before": 1779053680,
+      "not_after": 1796160880,
+      "fingerprint": "C7:0D:2C:31:25:22:53:D0:F4:A9:B5:E7:3E:A2:04:3B:76:60:69:74",
+      "sha1": "C7:0D:2C:31:25:22:53:D0:F4:A9:B5:E7:3E:A2:04:3B:76:60:69:74",
+      "sha256": "E4:23:F8:58:78:26:0A:6A:F5:4D:65:1A:DD:4B:08:FC:4C:CD:F7:F5:59:6C:B4:DC:C5:EB:5D:AF:2D:6C:4F:74",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "comunicadobradescoaapp.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:comunicadobradescoaapp.site",
+        "subjectKeyIdentifier": "keyid:13:32:bc:a5:88:e9:d2:28:bc:48:37:f0:96:72:9e:ba:b1:17:08:c5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4296724957,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4296724957&end=4296724957",
+    "seen": 1779402967.116,
+    "submission_timestamp": 1779053681.457,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
