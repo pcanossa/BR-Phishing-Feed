@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.do",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/21/26 12:12:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.do",
+        "aggregated": "/CN=cartao.do"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C5FE2BDE1343657D134F373A0D1F7231",
+      "not_before": 1779012887,
+      "not_after": 1786792277,
+      "fingerprint": "98:06:5C:4C:A5:D7:76:AC:99:55:E5:D2:A6:09:A8:83:FB:7F:4E:20",
+      "sha1": "98:06:5C:4C:A5:D7:76:AC:99:55:E5:D2:A6:09:A8:83:FB:7F:4E:20",
+      "sha256": "F3:DF:C6:CB:A4:E6:47:22:B1:09:5E:C3:73:92:DC:13:5F:B4:1C:82:E0:E2:70:A7:66:F5:2F:0B:F6:B1:40:BF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.do",
+        "*.cartao.do"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/xf4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.do, DNS:*.cartao.do",
+        "subjectKeyIdentifier": "keyid:ec:76:82:c2:94:af:85:90:39:55:89:b7:c2:1c:6a:ee:bb:00:6e:37"
+      }
+    },
+    "cert_index": 4288991913,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4288991913&end=4288991913",
+    "seen": 1779376364.556,
+    "submission_timestamp": 1779016698.975,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
