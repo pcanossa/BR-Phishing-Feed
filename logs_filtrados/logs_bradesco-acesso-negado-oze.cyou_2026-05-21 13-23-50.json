@@ -1,0 +1,53 @@
+{
+  "dominio": "bradesco-acesso-negado-oze.cyou",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/21/26 13:23:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco-acesso-negado-oze.cyou",
+        "aggregated": "/CN=bradesco-acesso-negado-oze.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0829305BF987C2CF780CAB6A51E572BD",
+      "not_before": 1778976000,
+      "not_after": 1786751999,
+      "fingerprint": "2C:65:7A:21:5F:21:11:59:1A:53:57:CD:CD:38:F7:97:DC:27:5D:B5",
+      "sha1": "2C:65:7A:21:5F:21:11:59:1A:53:57:CD:CD:38:F7:97:DC:27:5D:B5",
+      "sha256": "82:E5:5E:85:73:41:B0:80:26:17:C8:E0:A7:AB:5E:96:A7:5A:53:30:48:BA:36:A2:95:1F:9A:69:75:EA:23:C0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco-acesso-negado-oze.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bradesco-acesso-negado-oze.cyou",
+        "subjectKeyIdentifier": "keyid:34:77:0c:6f:9d:d8:32:64:ca:f4:b9:15:e1:f4:a0:fa:6f:8b:ac:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4290224518,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4290224518&end=4290224518",
+    "seen": 1779380628.04,
+    "submission_timestamp": 1779022465.737,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "netflixxappresolve.workers.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/21/26 13:13:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixxappresolve.workers.dev",
+        "aggregated": "/CN=netflixxappresolve.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05105EC0E941EFB012943C1493AB83988EE9",
+      "not_before": 1779376492,
+      "not_after": 1787152491,
+      "fingerprint": "54:6A:A1:ED:B6:31:E9:1B:C7:8C:55:AB:68:1B:0F:99:BD:D6:15:26",
+      "sha1": "54:6A:A1:ED:B6:31:E9:1B:C7:8C:55:AB:68:1B:0F:99:BD:D6:15:26",
+      "sha256": "09:01:78:C7:41:8E:5E:9E:7B:48:62:90:56:0A:EA:BC:B8:BA:BA:0D:E8:21:A4:02:E9:12:70:C9:69:C0:50:D9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflixxappresolve.workers.dev",
+        "*.netflixxappresolve.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.netflixxappresolve.workers.dev, DNS:netflixxappresolve.workers.dev",
+        "subjectKeyIdentifier": "keyid:0d:e9:e1:a3:64:14:55:3b:6d:e1:d7:99:15:44:e9:a6:cc:5c:42:7b"
+      }
+    },
+    "cert_index": 199518385,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x779/368",
+    "seen": 1779380005.203,
+    "submission_timestamp": 1779380002.981,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.uber-tow.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/21/26 14:00:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.uber-tow.com",
+        "aggregated": "/CN=app.uber-tow.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "5FFDF41BBFC95161B822808CBAB77EEC",
+      "not_before": 1778889600,
+      "not_after": 1786751999,
+      "fingerprint": "A1:3D:DA:FB:2D:A6:82:2D:71:5E:08:CA:D4:C7:F3:13:C4:3C:70:96",
+      "sha1": "A1:3D:DA:FB:2D:A6:82:2D:71:5E:08:CA:D4:C7:F3:13:C4:3C:70:96",
+      "sha256": "6E:AF:CE:0F:B4:46:28:FC:4C:E7:C4:FF:2F:AF:1F:61:66:72:20:A0:E9:43:C1:3F:14:85:37:27:2E:BB:F1:24",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.uber-tow.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.uber-tow.com",
+        "subjectKeyIdentifier": "keyid:3d:0c:9f:9d:e9:0c:cc:29:71:5c:b6:73:51:df:c5:28:a9:3f:90:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 775569839,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=775569839&end=775569839",
+    "seen": 1779382807.144,
+    "submission_timestamp": 1778952359.492,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

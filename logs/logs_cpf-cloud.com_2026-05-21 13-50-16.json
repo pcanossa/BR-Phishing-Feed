@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-cloud.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 13:50:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf-cloud.com",
+        "aggregated": "/CN=*.cpf-cloud.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068C80DC4E80201635201BA04A9ECCC8D255",
+      "not_before": 1779378701,
+      "not_after": 1787154700,
+      "fingerprint": "A0:BC:BB:2F:CA:EF:64:E9:34:5E:C1:A1:22:0D:E9:7E:C7:C6:7E:E2",
+      "sha1": "A0:BC:BB:2F:CA:EF:64:E9:34:5E:C1:A1:22:0D:E9:7E:C7:C6:7E:E2",
+      "sha256": "59:BF:8A:EE:5C:FF:1A:A0:FA:79:94:14:3A:D6:F9:A8:C4:58:35:B3:35:A8:00:B2:7F:45:46:20:72:1B:61:7A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-cloud.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-cloud.com",
+        "subjectKeyIdentifier": "keyid:d0:2e:12:ba:e1:6c:b3:fb:7b:6d:f5:f9:96:46:81:f3:eb:a2:00:e9"
+      }
+    },
+    "cert_index": 199577020,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x779/597",
+    "seen": 1779382214.004,
+    "submission_timestamp": 1779382211.982,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
