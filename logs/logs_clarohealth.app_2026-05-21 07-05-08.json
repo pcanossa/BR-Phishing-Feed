@@ -1,0 +1,52 @@
+{
+  "dominio": "clarohealth.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/21/26 07:05:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "clarohealth.app",
+        "aggregated": "/CN=clarohealth.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05DCBD582D36804076C3C8B9B3B3136BBF47",
+      "not_before": 1778930260,
+      "not_after": 1786706259,
+      "fingerprint": "58:FB:F1:8B:C8:67:2F:4A:B0:26:39:62:91:47:DE:8D:40:36:1A:4B",
+      "sha1": "58:FB:F1:8B:C8:67:2F:4A:B0:26:39:62:91:47:DE:8D:40:36:1A:4B",
+      "sha256": "09:20:2A:4F:93:78:A5:4B:DA:64:CD:E4:E7:9D:30:65:D9:1F:CB:E3:F0:91:EC:91:9B:6C:BE:C3:51:F1:C0:65",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "clarohealth.app",
+        "*.clarohealth.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.clarohealth.app, DNS:clarohealth.app",
+        "subjectKeyIdentifier": "keyid:6b:47:b0:73:a0:9f:4a:d2:8a:5d:3c:e7:8f:38:05:44:d2:60:78:da"
+      }
+    },
+    "cert_index": 772620470,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=772620470&end=772620470",
+    "seen": 1779357907.87,
+    "submission_timestamp": 1778933772.759,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

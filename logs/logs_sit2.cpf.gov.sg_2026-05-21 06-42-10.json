@@ -1,0 +1,56 @@
+{
+  "dominio": "sit2.cpf.gov.sg",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 06:42:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uat-eservices.apps.cpfb.gov.sg",
+        "aggregated": "/CN=uat-eservices.apps.cpfb.gov.sg"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "065A66EBDBD787DC61676D0025E209F3B3BE",
+      "not_before": 1779353016,
+      "not_after": 1787129015,
+      "fingerprint": "DC:02:AF:68:FA:8B:A0:85:92:22:9F:70:F9:02:40:6E:78:54:FD:85",
+      "sha1": "DC:02:AF:68:FA:8B:A0:85:92:22:9F:70:F9:02:40:6E:78:54:FD:85",
+      "sha256": "7E:53:7D:25:2F:D0:88:75:5F:44:30:77:0F:BB:F5:AC:29:9C:38:FD:1E:49:16:EF:C9:0A:69:1F:E8:31:D4:E1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uat-eservices.apps.cpfb.gov.sg",
+        "dev-eservices.apps.cpfb.gov.sg",
+        "sit-eservices.apps.cpfb.gov.sg",
+        "sit2.cpf.gov.sg",
+        "test-eservices.apps.cpfb.gov.sg",
+        "uat2.cpf.gov.sg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev-eservices.apps.cpfb.gov.sg, DNS:sit-eservices.apps.cpfb.gov.sg, DNS:sit2.cpf.gov.sg, DNS:test-eservices.apps.cpfb.gov.sg, DNS:uat-eservices.apps.cpfb.gov.sg, DNS:uat2.cpf.gov.sg",
+        "subjectKeyIdentifier": "keyid:54:1e:75:50:86:0a:28:a1:98:4e:e5:3d:35:8d:bc:f6:96:e2:e5:9e"
+      }
+    },
+    "cert_index": 198791930,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x776/530",
+    "seen": 1779356528.787,
+    "submission_timestamp": 1779356526.981,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
