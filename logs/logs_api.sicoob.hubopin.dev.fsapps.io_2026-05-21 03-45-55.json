@@ -1,0 +1,51 @@
+{
+  "dominio": "api.sicoob.hubopin.dev.fsapps.io",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "05/21/26 03:45:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.sicoob.hubopin.dev.fsapps.io",
+        "aggregated": "/CN=api.sicoob.hubopin.dev.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05E716B46AC3F0044A1164A3E5DEAA1E0D80",
+      "not_before": 1778972520,
+      "not_after": 1786748519,
+      "fingerprint": "7C:60:1A:54:99:76:EC:EA:F5:CD:FF:07:D4:FA:74:DA:E6:88:A4:7C",
+      "sha1": "7C:60:1A:54:99:76:EC:EA:F5:CD:FF:07:D4:FA:74:DA:E6:88:A4:7C",
+      "sha256": "00:93:33:62:05:08:11:A4:96:2E:4F:04:43:80:71:8E:25:F9:CD:94:E8:11:63:BD:17:C1:2D:2A:91:4B:D3:3A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.sicoob.hubopin.dev.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.sicoob.hubopin.dev.fsapps.io",
+        "subjectKeyIdentifier": "keyid:48:d3:d8:c9:ea:6a:34:ac:7f:f6:f0:98:50:17:c7:47:da:9a:39:a3"
+      }
+    },
+    "cert_index": 4280199509,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4280199509&end=4280199509",
+    "seen": 1779345954.257,
+    "submission_timestamp": 1778976131.424,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

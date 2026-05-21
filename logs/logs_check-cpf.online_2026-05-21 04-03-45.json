@@ -1,0 +1,52 @@
+{
+  "dominio": "check-cpf.online",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 04:03:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.check-cpf.online",
+        "aggregated": "/CN=*.check-cpf.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05844E42351708F69B486D73B8C055DAFF4B",
+      "not_before": 1779343511,
+      "not_after": 1787119510,
+      "fingerprint": "2A:3A:49:99:94:A6:CD:DF:5F:CB:BE:DF:C0:5F:3C:B2:11:C8:7D:AB",
+      "sha1": "2A:3A:49:99:94:A6:CD:DF:5F:CB:BE:DF:C0:5F:3C:B2:11:C8:7D:AB",
+      "sha256": "B6:7F:66:7D:47:9E:57:8E:D7:B9:96:9C:09:EE:4C:0E:9F:1E:88:31:CC:42:33:36:E3:97:11:D8:B8:85:71:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.check-cpf.online",
+        "check-cpf.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.check-cpf.online, DNS:check-cpf.online",
+        "subjectKeyIdentifier": "keyid:95:63:56:dd:8c:16:64:11:8f:1c:81:a2:2b:83:20:a8:fe:ef:a9:d9"
+      }
+    },
+    "cert_index": 210678434,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x822/962",
+    "seen": 1779347025.66,
+    "submission_timestamp": 1779347022.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
