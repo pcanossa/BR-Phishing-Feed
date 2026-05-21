@@ -1,0 +1,52 @@
+{
+  "dominio": "notify.contaclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/21/26 00:26:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "notify.contaclaro.app",
+        "aggregated": "/CN=notify.contaclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "055B33D36527DB434D84F5CC3165B4260A09",
+      "not_before": 1775742395,
+      "not_after": 1783518394,
+      "fingerprint": "50:CE:B3:DF:94:4F:71:33:BC:A0:37:8E:65:3D:B3:61:A8:89:A7:72",
+      "sha1": "50:CE:B3:DF:94:4F:71:33:BC:A0:37:8E:65:3D:B3:61:A8:89:A7:72",
+      "sha256": "07:59:DA:7E:BB:E6:39:9D:67:D3:AF:DE:D0:99:ED:17:8A:CB:2C:8F:3C:35:A5:B5:98:6B:1F:3E:1F:1F:16:65",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "notify.contaclaro.app",
+        "*.notify.contaclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.notify.contaclaro.app, DNS:notify.contaclaro.app",
+        "subjectKeyIdentifier": "keyid:49:f1:99:2c:51:66:3e:70:a2:68:65:4d:89:c1:d7:cc:5d:6f:6e:59"
+      }
+    },
+    "cert_index": 4276711845,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4276711845&end=4276711845",
+    "seen": 1779334011.051,
+    "submission_timestamp": 1778959655.846,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
