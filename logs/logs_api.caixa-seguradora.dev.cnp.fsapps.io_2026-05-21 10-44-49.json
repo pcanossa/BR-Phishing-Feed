@@ -1,0 +1,52 @@
+{
+  "dominio": "api.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/21/26 10:44:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "058C43F38CDE69FDB325BC330583D5958B12",
+      "not_before": 1778454412,
+      "not_after": 1786230411,
+      "fingerprint": "B0:1E:2E:06:95:AE:E1:95:60:E7:74:6B:BC:ED:E4:71:05:2A:29:F4",
+      "sha1": "B0:1E:2E:06:95:AE:E1:95:60:E7:74:6B:BC:ED:E4:71:05:2A:29:F4",
+      "sha256": "1F:D3:39:26:B1:EF:14:EF:8B:96:EA:8A:2E:70:11:69:78:02:0B:17:DF:7A:06:70:98:65:6E:5F:70:EC:8C:B8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:6d:fa:04:d1:17:47:3c:e8:ee:ca:7a:c7:96:aa:a1:25:d8:ec:50:8f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 623224022,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=623224022&end=623224022",
+    "seen": 1779371089.196,
+    "submission_timestamp": 1778457922.531,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

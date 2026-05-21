@@ -1,0 +1,53 @@
+{
+  "dominio": "irpf-cpf.br.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 10:57:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "irpf-cpf.br.com",
+        "aggregated": "/CN=irpf-cpf.br.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B6031E85D8C0744113AC106555F99F4A",
+      "not_before": 1779007465,
+      "not_after": 1786786772,
+      "fingerprint": "97:19:7A:15:E9:5F:E9:66:64:6C:84:11:85:BA:38:24:87:27:C9:EE",
+      "sha1": "97:19:7A:15:E9:5F:E9:66:64:6C:84:11:85:BA:38:24:87:27:C9:EE",
+      "sha256": "04:7F:0E:89:6F:14:5D:0D:52:C4:19:18:49:0C:4B:2F:21:03:C6:A5:F1:39:21:B0:89:79:5B:FC:E9:5A:D0:A7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "irpf-cpf.br.com",
+        "*.irpf-cpf.br.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/tgM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:irpf-cpf.br.com, DNS:*.irpf-cpf.br.com",
+        "subjectKeyIdentifier": "keyid:7d:24:b5:1c:79:45:dd:43:6a:f4:5a:30:ef:04:e5:37:b1:5d:48:e1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4287724505,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4287724505&end=4287724505",
+    "seen": 1779371856.886,
+    "submission_timestamp": 1779011065.662,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
