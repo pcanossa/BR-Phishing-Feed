@@ -1,0 +1,51 @@
+{
+  "dominio": "pagamento.areceitaria.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/21/26 05:25:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamento.areceitaria.com",
+        "aggregated": "/CN=pagamento.areceitaria.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "33EA56C6BF952C5D139FBA9420883B30",
+      "not_before": 1778980517,
+      "not_after": 1786760035,
+      "fingerprint": "63:A0:7B:3A:C7:E2:FC:4E:32:F3:F2:D9:87:9F:6C:8B:EF:A5:F8:2B",
+      "sha1": "63:A0:7B:3A:C7:E2:FC:4E:32:F3:F2:D9:87:9F:6C:8B:EF:A5:F8:2B",
+      "sha256": "FB:83:ED:BA:CF:7D:BE:9D:83:73:03:4B:19:5F:D6:5B:9F:19:72:38:5B:6F:23:2C:D8:F0:18:97:B9:F3:3B:C2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagamento.areceitaria.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/M-o, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento.areceitaria.com",
+        "subjectKeyIdentifier": "keyid:c6:b7:0d:bc:73:e4:46:0e:95:e8:ef:a9:e9:a5:eb:2d:66:b4:cc:cf"
+      }
+    },
+    "cert_index": 4281959489,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4281959489&end=4281959489",
+    "seen": 1779351932.312,
+    "submission_timestamp": 1778984337.737,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

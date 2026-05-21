@@ -1,0 +1,53 @@
+{
+  "dominio": "ledger-oi-strt.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/21/26 06:04:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ledger-oi-strt.pages.dev",
+        "aggregated": "/CN=ledger-oi-strt.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "99AAE4799DDBCE2413CE183DA3C49243",
+      "not_before": 1778445917,
+      "not_after": 1786225434,
+      "fingerprint": "F8:80:C7:84:CC:A0:2D:A8:1B:59:E1:9F:C4:3D:42:41:70:6D:DA:08",
+      "sha1": "F8:80:C7:84:CC:A0:2D:A8:1B:59:E1:9F:C4:3D:42:41:70:6D:DA:08",
+      "sha256": "05:DD:EB:2F:21:B7:A0:FB:3D:C4:49:7E:AD:90:A5:EA:87:83:F6:12:94:28:A8:9D:81:36:A0:BF:81:83:3A:BC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "ledger-oi-strt.pages.dev",
+        "*.ledger-oi-strt.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/mao, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ledger-oi-strt.pages.dev, DNS:*.ledger-oi-strt.pages.dev",
+        "subjectKeyIdentifier": "keyid:f5:46:e0:9a:60:13:c0:dd:6c:ca:50:66:79:0f:9e:44:57:92:68:92",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 622242929,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=622242929&end=622242929",
+    "seen": 1779354298.443,
+    "submission_timestamp": 1778449517.657,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-shein.site",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/21/26 05:51:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-shein.site",
+        "aggregated": "/CN=cartao-shein.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "A5469873051F8C25",
+      "not_before": 1778986615,
+      "not_after": 1796093815,
+      "fingerprint": "C0:0B:E2:4A:1E:D5:16:7F:B3:F5:19:A2:68:BF:F9:DA:04:43:7A:61",
+      "sha1": "C0:0B:E2:4A:1E:D5:16:7F:B3:F5:19:A2:68:BF:F9:DA:04:43:7A:61",
+      "sha256": "DF:49:D8:97:54:48:38:9C:B9:A2:B1:2F:6B:BD:63:AD:BE:BE:B6:15:4A:93:5D:6F:B9:C2:76:0E:A4:FC:BD:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-shein.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-shein.site",
+        "subjectKeyIdentifier": "keyid:ff:3f:b3:45:3a:81:61:ab:c0:c5:7e:03:67:d8:66:0f:f5:4e:68:09",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4282443393,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4282443393&end=4282443393",
+    "seen": 1779353512.035,
+    "submission_timestamp": 1778986615.928,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

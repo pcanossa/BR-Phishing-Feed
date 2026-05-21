@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi-s.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/21/26 05:13:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi-s.com",
+        "aggregated": "/CN=app.oi-s.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "3393C84A635BB7140CF901C6E174446E",
+      "not_before": 1778889600,
+      "not_after": 1786751999,
+      "fingerprint": "D3:EE:E6:BD:BA:12:41:85:C9:0F:89:33:04:F9:D3:7C:B0:AC:EE:26",
+      "sha1": "D3:EE:E6:BD:BA:12:41:85:C9:0F:89:33:04:F9:D3:7C:B0:AC:EE:26",
+      "sha256": "4B:41:72:CA:2F:02:7E:35:AA:AD:DF:CD:E4:17:88:5A:9A:B4:B3:AB:64:B8:D6:D7:7F:65:A9:B8:A7:22:5E:B3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi-s.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.oi-s.com",
+        "subjectKeyIdentifier": "keyid:c6:c0:6e:57:d9:85:b8:fb:a0:7d:4c:ec:fa:7d:46:71:bd:ce:d7:b2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 771770896,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=771770896&end=771770896",
+    "seen": 1779351229.498,
+    "submission_timestamp": 1778928098.805,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
