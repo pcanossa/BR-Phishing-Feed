@@ -1,0 +1,51 @@
+{
+  "dominio": "app.sedexion.net",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/21/26 16:41:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.sedexion.net",
+        "aggregated": "/CN=app.sedexion.net"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "B2D0B14B0C52E1F7934DE3A2E322D607",
+      "not_before": 1778976000,
+      "not_after": 1786838399,
+      "fingerprint": "4C:13:AA:45:66:2B:43:A3:06:39:07:56:05:D7:0C:60:10:B2:A6:F7",
+      "sha1": "4C:13:AA:45:66:2B:43:A3:06:39:07:56:05:D7:0C:60:10:B2:A6:F7",
+      "sha256": "3A:3F:FF:17:95:D8:7B:9B:86:79:B3:C3:24:BA:B9:73:B0:16:F9:30:C2:98:4A:6E:36:A5:46:7A:8F:44:0D:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.sedexion.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.sedexion.net",
+        "subjectKeyIdentifier": "keyid:62:6b:bc:ab:05:59:f7:9a:02:e9:b4:a9:5a:67:c9:2f:53:59:fb:d4"
+      }
+    },
+    "cert_index": 4293746154,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4293746154&end=4293746154",
+    "seen": 1779392515.464,
+    "submission_timestamp": 1779039704.701,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
