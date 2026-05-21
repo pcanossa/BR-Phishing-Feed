@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.dindomvendas.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 18:20:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.dindomvendas.com",
+        "aggregated": "/CN=cpf.dindomvendas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C892A1B59C0090B00EA41C8D55BAFC59",
+      "not_before": 1779043741,
+      "not_after": 1786823331,
+      "fingerprint": "EE:E7:CF:74:FF:FB:9E:2D:D2:5C:35:3E:90:BD:AA:69:75:D4:1F:89",
+      "sha1": "EE:E7:CF:74:FF:FB:9E:2D:D2:5C:35:3E:90:BD:AA:69:75:D4:1F:89",
+      "sha256": "F5:65:FE:0D:53:14:C5:05:65:92:7D:96:6C:3A:16:99:7D:54:9C:C4:23:47:A7:3C:73:DF:DB:9F:4E:BE:41:BD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.dindomvendas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/yJI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.dindomvendas.com",
+        "subjectKeyIdentifier": "keyid:52:a5:7e:9a:0f:4b:c3:4d:1b:0d:f8:cd:57:a4:ff:9c:71:72:e1:e0"
+      }
+    },
+    "cert_index": 4295394877,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4295394877&end=4295394877",
+    "seen": 1779398452.408,
+    "submission_timestamp": 1779047418.851,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

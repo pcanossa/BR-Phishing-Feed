@@ -1,0 +1,53 @@
+{
+  "dominio": "premiom-oi.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/21/26 18:17:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "premiom-oi.com",
+        "aggregated": "/CN=premiom-oi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "533CAE5234EC0D5C0EC4A04B0CF7B535",
+      "not_before": 1779043535,
+      "not_after": 1786822960,
+      "fingerprint": "1F:90:07:C3:E3:45:A5:E3:0F:CE:E6:B4:D5:C9:CB:3E:5B:DC:56:03",
+      "sha1": "1F:90:07:C3:E3:45:A5:E3:0F:CE:E6:B4:D5:C9:CB:3E:5B:DC:56:03",
+      "sha256": "84:D0:11:69:69:52:F8:53:DB:8A:FB:4C:27:26:21:D4:78:1A:09:BF:5E:88:5A:BD:CE:2E:7A:E6:80:99:D0:28",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "premiom-oi.com",
+        "*.premiom-oi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Uzw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:premiom-oi.com, DNS:*.premiom-oi.com",
+        "subjectKeyIdentifier": "keyid:36:a8:12:2f:e4:d1:1c:c8:27:ca:27:ab:3c:1f:ea:51:d6:a5:fd:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4295338004,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4295338004&end=4295338004",
+    "seen": 1779398246.236,
+    "submission_timestamp": 1779047136.604,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
