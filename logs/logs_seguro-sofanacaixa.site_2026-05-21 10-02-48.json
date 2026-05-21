@@ -1,0 +1,53 @@
+{
+  "dominio": "seguro-sofanacaixa.site",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/21/26 10:02:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguro-sofanacaixa.site",
+        "aggregated": "/CN=seguro-sofanacaixa.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "80584F3EDD5695040ECCED36F7532AD8",
+      "not_before": 1779003007,
+      "not_after": 1786782520,
+      "fingerprint": "98:B9:4D:22:10:C9:FD:1F:88:8C:5D:5C:02:B1:14:A4:45:A1:27:78",
+      "sha1": "98:B9:4D:22:10:C9:FD:1F:88:8C:5D:5C:02:B1:14:A4:45:A1:27:78",
+      "sha256": "FE:B3:57:8E:A3:CF:07:2B:E5:73:9A:6E:13:47:FC:B0:C0:20:DF:31:EC:DD:FC:0E:AE:C6:BF:C9:1A:85:B5:52",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "seguro-sofanacaixa.site",
+        "*.seguro-sofanacaixa.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/gFg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:seguro-sofanacaixa.site, DNS:*.seguro-sofanacaixa.site",
+        "subjectKeyIdentifier": "keyid:bf:12:c8:3c:7a:bb:6b:fc:df:7c:fc:64:17:df:7e:b0:ba:aa:3d:0b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4286790660,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4286790660&end=4286790660",
+    "seen": 1779368566.581,
+    "submission_timestamp": 1779006788.347,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
