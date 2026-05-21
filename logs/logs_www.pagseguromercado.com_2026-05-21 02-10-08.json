@@ -1,0 +1,51 @@
+{
+  "dominio": "www.pagseguromercado.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/21/26 02:10:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pagseguromercado.com",
+        "aggregated": "/CN=www.pagseguromercado.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "6E9791AF4AEA7C41",
+      "not_before": 1778964185,
+      "not_after": 1796071385,
+      "fingerprint": "D8:C0:EB:66:97:33:5B:4A:1D:D8:E8:B5:F4:31:61:8D:70:3D:FF:03",
+      "sha1": "D8:C0:EB:66:97:33:5B:4A:1D:D8:E8:B5:F4:31:61:8D:70:3D:FF:03",
+      "sha256": "60:B0:BF:14:F1:DA:C3:13:F6:E5:F9:B5:58:83:34:9E:59:37:11:86:22:6C:72:83:0C:DA:8D:F3:90:DD:66:84",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pagseguromercado.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pagseguromercado.com",
+        "subjectKeyIdentifier": "keyid:b3:62:f2:36:ab:97:c0:30:13:4f:1a:49:11:30:2f:a4:92:28:53:13"
+      }
+    },
+    "cert_index": 4278493190,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4278493190&end=4278493190",
+    "seen": 1779340208.012,
+    "submission_timestamp": 1778968103.798,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

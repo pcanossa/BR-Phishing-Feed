@@ -1,0 +1,53 @@
+{
+  "dominio": "premiosnacaixa.fun",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/21/26 02:14:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "premiosnacaixa.fun",
+        "aggregated": "/CN=premiosnacaixa.fun"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D2442983220B1D270E364A86FCC721E4",
+      "not_before": 1777938524,
+      "not_after": 1785718038,
+      "fingerprint": "7E:27:62:95:A6:8A:FE:FA:13:5D:D7:C6:C5:BD:1D:A4:60:E4:AC:1F",
+      "sha1": "7E:27:62:95:A6:8A:FE:FA:13:5D:D7:C6:C5:BD:1D:A4:60:E4:AC:1F",
+      "sha256": "58:D0:66:E3:12:6C:2B:62:17:8A:6E:8B:BB:D9:01:F3:66:89:25:F9:C8:60:C9:31:9F:1E:B7:1B:41:22:CD:22",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "premiosnacaixa.fun",
+        "*.premiosnacaixa.fun"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/0kQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:premiosnacaixa.fun, DNS:*.premiosnacaixa.fun",
+        "subjectKeyIdentifier": "keyid:84:be:cd:35:e1:2f:4b:aa:66:2c:20:7c:3b:e8:e6:e3:30:32:eb:cb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 693628304,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=693628304&end=693628304",
+    "seen": 1779340472.801,
+    "submission_timestamp": 1777942125.096,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
