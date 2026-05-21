@@ -1,0 +1,51 @@
+{
+  "dominio": "app.akyloterias.com",
+  "marcas_encontradas": [
+    "loterias"
+  ],
+  "timestamp": "05/21/26 14:11:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.akyloterias.com",
+        "aggregated": "/CN=app.akyloterias.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "45D414DF2CE84E8B0E532C0B7D30BD4E",
+      "not_before": 1779021724,
+      "not_after": 1786801309,
+      "fingerprint": "B7:94:CA:ED:08:58:86:F6:60:D2:F5:6D:0B:0F:CD:F8:79:48:E7:F1",
+      "sha1": "B7:94:CA:ED:08:58:86:F6:60:D2:F5:6D:0B:0F:CD:F8:79:48:E7:F1",
+      "sha256": "58:6D:80:6F:C7:05:E8:FF:BA:42:C3:52:D3:95:8A:02:BB:A8:E0:BE:FD:35:5F:56:6C:2B:3E:1F:B9:7C:D1:F8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.akyloterias.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/RdQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.akyloterias.com",
+        "subjectKeyIdentifier": "keyid:50:44:84:5d:43:a7:50:4d:88:bd:a1:9f:80:f3:0d:56:3d:b8:67:a0"
+      }
+    },
+    "cert_index": 4291075658,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4291075658&end=4291075658",
+    "seen": 1779383477.078,
+    "submission_timestamp": 1779026852.536,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
