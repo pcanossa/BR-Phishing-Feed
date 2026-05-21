@@ -1,0 +1,53 @@
+{
+  "dominio": "bancopagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/21/26 01:43:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bancopagseguro.com.br",
+        "aggregated": "/CN=bancopagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "3E8BEC470349E0210E65FD54151161EC",
+      "not_before": 1778437574,
+      "not_after": 1786217034,
+      "fingerprint": "C9:5A:A3:F4:19:C3:6E:18:C4:8E:27:10:1D:F9:2C:78:A0:C4:F3:D5",
+      "sha1": "C9:5A:A3:F4:19:C3:6E:18:C4:8E:27:10:1D:F9:2C:78:A0:C4:F3:D5",
+      "sha256": "0F:D1:E0:6C:26:F9:6E:A5:43:5D:57:4A:E4:46:29:30:35:FF:F3:A7:45:0C:05:95:12:28:9E:35:62:0D:49:78",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bancopagseguro.com.br",
+        "*.bancopagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Pos, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bancopagseguro.com.br, DNS:*.bancopagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:8d:6d:2b:de:40:64:1e:f8:da:8d:bf:0e:8c:26:51:cf:00:0c:99:37",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 621271015,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=621271015&end=621271015",
+    "seen": 1779338634.733,
+    "submission_timestamp": 1778441174.96,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cpfreceita.xyz",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/21/26 01:16:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpfreceita.xyz",
+        "aggregated": "/CN=cpfreceita.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9EDFED1D8F37926C0E4BEF68DC3F9C21",
+      "not_before": 1777572749,
+      "not_after": 1785352201,
+      "fingerprint": "F7:30:A5:3C:6F:9C:13:A7:61:42:90:1D:81:99:35:92:78:C7:CA:0E",
+      "sha1": "F7:30:A5:3C:6F:9C:13:A7:61:42:90:1D:81:99:35:92:78:C7:CA:0E",
+      "sha256": "0D:E2:6E:10:31:BA:3E:40:35:A7:1E:BF:F7:53:18:A2:B5:06:63:B7:22:4B:3F:91:ED:DA:25:8D:AC:1E:74:A5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpfreceita.xyz",
+        "*.cpfreceita.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/nt8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpfreceita.xyz, DNS:*.cpfreceita.xyz",
+        "subjectKeyIdentifier": "keyid:23:18:2e:fd:2d:64:d8:76:eb:4e:fe:b3:34:8d:ae:ba:1c:ef:12:42"
+      }
+    },
+    "cert_index": 4277563343,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4277563343&end=4277563343",
+    "seen": 1779336965.51,
+    "submission_timestamp": 1778963632.307,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

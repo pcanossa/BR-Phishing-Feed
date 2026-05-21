@@ -1,0 +1,52 @@
+{
+  "dominio": "www.pagseguromercado.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/21/26 01:23:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pagseguromercado.com",
+        "aggregated": "/CN=www.pagseguromercado.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "6E9791AF4AEA7C41",
+      "not_before": 1778964185,
+      "not_after": 1796071385,
+      "fingerprint": "EF:9F:FC:64:B6:C5:6F:15:74:76:7B:8D:77:E9:A1:7B:78:F0:11:38",
+      "sha1": "EF:9F:FC:64:B6:C5:6F:15:74:76:7B:8D:77:E9:A1:7B:78:F0:11:38",
+      "sha256": "A0:69:61:FD:9B:6E:04:3F:50:4D:A9:8D:7D:A2:21:C3:22:A5:20:8D:D2:42:D0:74:52:99:2A:00:EA:F9:AC:82",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pagseguromercado.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pagseguromercado.com",
+        "subjectKeyIdentifier": "keyid:b3:62:f2:36:ab:97:c0:30:13:4f:1a:49:11:30:2f:a4:92:28:53:13",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4277674515,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4277674515&end=4277674515",
+    "seen": 1779337378.578,
+    "submission_timestamp": 1778964186.539,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
