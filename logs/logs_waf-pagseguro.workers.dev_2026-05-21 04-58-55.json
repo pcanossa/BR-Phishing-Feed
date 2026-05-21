@@ -1,0 +1,53 @@
+{
+  "dominio": "waf-pagseguro.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/21/26 04:58:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "waf-pagseguro.workers.dev",
+        "aggregated": "/CN=waf-pagseguro.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "78DFB1B14EA140BA0E24F0AFE8160730",
+      "not_before": 1777934774,
+      "not_after": 1785714235,
+      "fingerprint": "7B:6C:3B:F9:69:CE:1B:70:E0:6C:6A:7C:98:B2:BF:2F:8B:3D:BC:C9",
+      "sha1": "7B:6C:3B:F9:69:CE:1B:70:E0:6C:6A:7C:98:B2:BF:2F:8B:3D:BC:C9",
+      "sha256": "6D:72:18:6D:FE:6F:0E:27:3C:71:C6:BC:97:C6:78:AC:F7:52:04:2B:92:8B:80:05:9E:45:17:F8:6C:6D:79:5F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "waf-pagseguro.workers.dev",
+        "*.waf-pagseguro.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/eN8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:waf-pagseguro.workers.dev, DNS:*.waf-pagseguro.workers.dev",
+        "subjectKeyIdentifier": "keyid:06:9b:b5:37:ce:9d:3c:b4:3f:5c:ba:02:36:39:b6:21:5f:3b:e4:00",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 838089841,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=838089841&end=838089841",
+    "seen": 1779350332.955,
+    "submission_timestamp": 1777938375.391,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
