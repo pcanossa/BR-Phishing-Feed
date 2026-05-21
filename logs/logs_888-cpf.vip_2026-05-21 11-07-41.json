@@ -1,0 +1,53 @@
+{
+  "dominio": "888-cpf.vip",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 11:07:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "888-cpf.vip",
+        "aggregated": "/CN=888-cpf.vip"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7EDB65F0ABC440880E0B751CEBDF0198",
+      "not_before": 1778454893,
+      "not_after": 1786234340,
+      "fingerprint": "8D:19:49:18:E2:EA:B7:8B:31:AE:2B:B4:49:C9:39:77:2F:4A:10:5D",
+      "sha1": "8D:19:49:18:E2:EA:B7:8B:31:AE:2B:B4:49:C9:39:77:2F:4A:10:5D",
+      "sha256": "C1:33:3C:99:0D:1B:1D:35:2B:4E:C4:9E:D1:DC:95:56:66:57:D9:92:27:40:32:95:17:58:D8:1B:4C:2F:3A:78",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "888-cpf.vip",
+        "*.888-cpf.vip"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fts, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:888-cpf.vip, DNS:*.888-cpf.vip",
+        "subjectKeyIdentifier": "keyid:93:7d:a4:07:d7:e0:99:91:de:97:fc:0e:57:d6:6d:f4:ba:e1:ca:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 623301505,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=623301505&end=623301505",
+    "seen": 1779372458.974,
+    "submission_timestamp": 1778458493.978,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

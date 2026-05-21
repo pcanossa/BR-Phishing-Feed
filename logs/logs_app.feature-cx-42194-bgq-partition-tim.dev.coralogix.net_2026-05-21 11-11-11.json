@@ -1,0 +1,52 @@
+{
+  "dominio": "app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/21/26 11:11:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+        "aggregated": "/CN=*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0C849B8DF978B189BD6B94D6BAD248E7",
+      "not_before": 1778976000,
+      "not_after": 1796083199,
+      "fingerprint": "8F:11:0F:68:65:23:FE:34:30:73:20:D9:98:FD:F6:DA:A0:E8:B4:CA",
+      "sha1": "8F:11:0F:68:65:23:FE:34:30:73:20:D9:98:FD:F6:DA:A0:E8:B4:CA",
+      "sha256": "87:37:6B:E4:BA:22:64:42:24:C3:C7:B2:D4:DA:0F:A7:B5:1B:54:1A:FA:E3:91:F2:7D:1D:9E:C7:18:B6:C9:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+        "dashboard.feature-cx-42194-bgq-partition-tim.dev.coralogix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net, DNS:dashboard.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+        "subjectKeyIdentifier": "keyid:72:71:0c:01:a6:56:18:a6:de:36:d0:81:74:03:a8:5d:ec:12:9f:3d"
+      }
+    },
+    "cert_index": 4287940503,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4287940503&end=4287940503",
+    "seen": 1779372671.051,
+    "submission_timestamp": 1779012339.243,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

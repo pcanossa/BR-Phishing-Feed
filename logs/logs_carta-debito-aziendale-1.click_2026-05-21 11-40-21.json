@@ -1,0 +1,53 @@
+{
+  "dominio": "carta-debito-aziendale-1.click",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/21/26 11:40:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "carta-debito-aziendale-1.click",
+        "aggregated": "/CN=carta-debito-aziendale-1.click"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "02A327724DA7940A3F834B81F4AA379D",
+      "not_before": 1778976000,
+      "not_after": 1786751999,
+      "fingerprint": "B0:AC:7A:FE:D3:E3:48:35:B0:F4:A4:CC:36:EA:9F:DF:FB:0F:D2:29",
+      "sha1": "B0:AC:7A:FE:D3:E3:48:35:B0:F4:A4:CC:36:EA:9F:DF:FB:0F:D2:29",
+      "sha256": "32:78:42:46:6E:4A:BE:B0:DE:C8:3A:6F:79:38:14:2A:95:B0:D9:88:8B:73:9E:01:80:B7:12:7E:87:7B:80:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "carta-debito-aziendale-1.click"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:carta-debito-aziendale-1.click",
+        "subjectKeyIdentifier": "keyid:94:52:45:e5:65:2b:3e:b1:1f:a4:5d:85:58:13:83:6c:8c:f7:f0:8f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4288431922,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4288431922&end=4288431922",
+    "seen": 1779374418.666,
+    "submission_timestamp": 1779014178.674,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
