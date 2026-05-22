@@ -1,0 +1,52 @@
+{
+  "dominio": "segurosdetransportes.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/22/26 04:05:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.segurosdetransportes.com",
+        "aggregated": "/CN=*.segurosdetransportes.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0571FC212B5CB72EF44B84F6388C57A72601",
+      "not_before": 1778434370,
+      "not_after": 1786210369,
+      "fingerprint": "E4:1D:A9:FC:24:61:BE:5C:7F:E9:E6:40:09:21:FC:C9:A1:3C:21:9C",
+      "sha1": "E4:1D:A9:FC:24:61:BE:5C:7F:E9:E6:40:09:21:FC:C9:A1:3C:21:9C",
+      "sha256": "03:66:AE:01:35:AC:26:A0:6D:FF:95:B3:D5:B5:19:98:B1:24:0C:37:53:D7:27:A0:BF:31:C3:A3:05:75:5A:28",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.segurosdetransportes.com",
+        "segurosdetransportes.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.segurosdetransportes.com, DNS:segurosdetransportes.com",
+        "subjectKeyIdentifier": "keyid:c9:c5:ae:ab:ca:a2:03:da:94:ee:12:ca:08:3f:45:bc:ce:2e:b8:68"
+      }
+    },
+    "cert_index": 4305238022,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4305238022&end=4305238022",
+    "seen": 1779433520.57,
+    "submission_timestamp": 1779093055.357,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

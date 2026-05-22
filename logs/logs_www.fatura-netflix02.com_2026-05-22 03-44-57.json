@@ -1,0 +1,51 @@
+{
+  "dominio": "www.fatura-netflix02.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/22/26 03:44:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.fatura-netflix02.com",
+        "aggregated": "/CN=www.fatura-netflix02.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "83F4A3FC6ACD3904",
+      "not_before": 1777946720,
+      "not_after": 1795053920,
+      "fingerprint": "4E:AE:6D:DF:7A:D2:F9:2C:C9:DB:01:6F:EC:90:8D:C2:76:32:46:EC",
+      "sha1": "4E:AE:6D:DF:7A:D2:F9:2C:C9:DB:01:6F:EC:90:8D:C2:76:32:46:EC",
+      "sha256": "1B:41:FF:45:E4:EF:C5:07:C2:51:EF:6B:7A:86:C3:E3:47:E0:DA:31:B8:4E:65:73:32:7F:66:0E:3C:B0:18:D3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.fatura-netflix02.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.fatura-netflix02.com",
+        "subjectKeyIdentifier": "keyid:e8:68:0c:9e:e0:1a:44:d2:1e:23:96:1e:05:55:8d:0e:50:9a:46:c7"
+      }
+    },
+    "cert_index": 839534834,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=839534834&end=839534834",
+    "seen": 1779432294.223,
+    "submission_timestamp": 1777946721.391,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
