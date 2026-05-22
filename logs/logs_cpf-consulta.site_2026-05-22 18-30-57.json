@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-consulta.site",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/22/26 18:30:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-consulta.site",
+        "aggregated": "/CN=cpf-consulta.site"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A858EC00ED0BD70CF250862BBBEDF72D",
+      "not_before": 1778976000,
+      "not_after": 1786826346,
+      "fingerprint": "2D:FB:86:23:FF:2F:80:88:BD:B0:55:9D:2F:65:A4:E0:45:E2:DC:B5",
+      "sha1": "2D:FB:86:23:FF:2F:80:88:BD:B0:55:9D:2F:65:A4:E0:45:E2:DC:B5",
+      "sha256": "24:C1:74:B4:B2:D5:D7:0C:D7:C1:F6:60:6D:F7:96:51:0B:2D:4D:5A:3D:8E:38:54:CF:BC:B0:28:81:16:73:6D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-consulta.site",
+        "*.cpf-consulta.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-consulta.site, DNS:*.cpf-consulta.site",
+        "subjectKeyIdentifier": "keyid:e5:0b:bc:32:ab:89:e5:4c:8f:0a:36:cf:fa:5c:4f:40:a8:f0:89:ac",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 790647375,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=790647375&end=790647375",
+    "seen": 1779485451.081,
+    "submission_timestamp": 1779050462.081,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
