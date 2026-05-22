@@ -1,0 +1,51 @@
+{
+  "dominio": "app.autocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/22/26 01:22:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.autocaixa.com",
+        "aggregated": "/CN=app.autocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059EC36733D47C12EAEFEE61FF91A1E892BE",
+      "not_before": 1778946353,
+      "not_after": 1786722352,
+      "fingerprint": "6C:B6:28:4D:37:30:4B:F1:FB:83:C5:12:32:C5:62:C2:4E:A7:35:54",
+      "sha1": "6C:B6:28:4D:37:30:4B:F1:FB:83:C5:12:32:C5:62:C2:4E:A7:35:54",
+      "sha256": "54:19:5F:13:3E:58:16:99:F3:75:98:BF:DC:96:D9:DE:DF:EB:83:FD:E1:6C:17:DC:60:29:F0:DA:52:1E:F8:B2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.autocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.autocaixa.com",
+        "subjectKeyIdentifier": "keyid:7f:b5:1a:54:40:ae:27:85:99:e6:8b:fa:5d:6a:67:08:67:74:a4:99"
+      }
+    },
+    "cert_index": 663469205,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=663469205&end=663469205",
+    "seen": 1779423761.958,
+    "submission_timestamp": 1778949865.041,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
