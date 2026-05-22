@@ -1,0 +1,52 @@
+{
+  "dominio": "bff-extconsent-router-apps.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/22/26 12:54:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bff-extconsent-router-apps.api.dev.itau.com",
+        "aggregated": "/CN=bff-extconsent-router-apps.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "067F34A738EEC12C65D455E5BFCD44A7",
+      "not_before": 1779062400,
+      "not_after": 1796169599,
+      "fingerprint": "52:7D:AB:1A:B9:79:8D:9D:F7:BD:8F:E4:DE:59:50:84:E1:12:F3:88",
+      "sha1": "52:7D:AB:1A:B9:79:8D:9D:F7:BD:8F:E4:DE:59:50:84:E1:12:F3:88",
+      "sha256": "BF:E8:62:E5:AD:A3:A3:75:C2:6F:91:76:94:B6:9C:7E:73:F8:0F:AC:29:E3:A2:C9:08:F7:AA:8D:52:F3:5D:F0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bff-extconsent-router-apps.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bff-extconsent-router-apps.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:4e:52:ef:10:dc:c9:99:76:39:cd:47:a8:97:a8:35:7c:35:af:91:8c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4313740532,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4313740532&end=4313740532",
+    "seen": 1779465274.013,
+    "submission_timestamp": 1779128202.279,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

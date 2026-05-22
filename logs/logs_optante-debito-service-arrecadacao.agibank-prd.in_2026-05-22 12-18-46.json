@@ -1,0 +1,52 @@
+{
+  "dominio": "optante-debito-service-arrecadacao.agibank-prd.in",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 12:18:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "optante-debito-service-cobranca.agibank-prd.in",
+        "aggregated": "/CN=optante-debito-service-cobranca.agibank-prd.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "053D731AEBBC621A1E8D16A3433E9ABAA37B",
+      "not_before": 1779459607,
+      "not_after": 1787235606,
+      "fingerprint": "E1:89:09:61:2E:26:68:4C:E6:FD:4E:52:96:6E:8F:C1:74:B2:3F:BA",
+      "sha1": "E1:89:09:61:2E:26:68:4C:E6:FD:4E:52:96:6E:8F:C1:74:B2:3F:BA",
+      "sha256": "87:15:27:2C:A0:74:0C:D0:64:4C:86:0D:27:FE:AC:D3:8C:B8:FE:8A:FE:20:CD:9C:2F:83:CB:3F:D2:B6:BB:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "optante-debito-service-cobranca.agibank-prd.in",
+        "optante-debito-service-arrecadacao.agibank-prd.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:optante-debito-service-arrecadacao.agibank-prd.in, DNS:optante-debito-service-cobranca.agibank-prd.in",
+        "subjectKeyIdentifier": "keyid:90:25:c8:27:23:d4:e6:d8:32:11:cc:61:cd:07:cc:08:a5:dd:c0:79"
+      }
+    },
+    "cert_index": 201899915,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x788/671",
+    "seen": 1779463121.248,
+    "submission_timestamp": 1779463117.982,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
