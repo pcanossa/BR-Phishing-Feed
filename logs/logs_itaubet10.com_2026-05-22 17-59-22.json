@@ -1,0 +1,53 @@
+{
+  "dominio": "itaubet10.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/22/26 17:59:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itaubet10.com",
+        "aggregated": "/CN=itaubet10.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "01011C4CFF9AE7CB9DC04C75E4663BA4",
+      "not_before": 1778976000,
+      "not_after": 1786825278,
+      "fingerprint": "6A:7A:92:A9:97:F2:90:7D:B6:E2:8A:D5:A0:7C:89:D4:0A:85:37:EE",
+      "sha1": "6A:7A:92:A9:97:F2:90:7D:B6:E2:8A:D5:A0:7C:89:D4:0A:85:37:EE",
+      "sha256": "DB:2F:26:5A:E1:DB:2F:0A:9F:7C:A6:12:F0:5B:1F:32:94:44:1F:5B:6B:17:B8:95:CB:5A:92:47:D0:58:3A:B1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "itaubet10.com",
+        "*.itaubet10.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:itaubet10.com, DNS:*.itaubet10.com",
+        "subjectKeyIdentifier": "keyid:c0:e0:7e:d5:83:b0:58:88:8d:e2:e7:c5:8f:5d:75:52:a8:7f:78:6e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 790500339,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=790500339&end=790500339",
+    "seen": 1779483556.443,
+    "submission_timestamp": 1779049438.122,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

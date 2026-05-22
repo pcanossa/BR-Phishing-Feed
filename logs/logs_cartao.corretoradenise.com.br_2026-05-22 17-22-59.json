@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.corretoradenise.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/22/26 17:22:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.corretoradenise.com.br",
+        "aggregated": "/CN=cartao.corretoradenise.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0671B013F7F53C529189C891553B673B45E4",
+      "not_before": 1779141493,
+      "not_after": 1786917492,
+      "fingerprint": "69:04:92:9B:01:1F:D5:DD:F5:2B:21:A4:2A:D0:B7:24:2D:1D:84:74",
+      "sha1": "69:04:92:9B:01:1F:D5:DD:F5:2B:21:A4:2A:D0:B7:24:2D:1D:84:74",
+      "sha256": "E0:BC:B3:84:BC:A9:56:C3:00:E0:51:24:8F:5A:66:0B:3E:E4:CD:F8:EE:5E:9B:8C:54:65:46:F1:A7:75:85:3D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.corretoradenise.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.corretoradenise.com.br",
+        "subjectKeyIdentifier": "keyid:f5:03:3d:74:7b:58:c7:cb:80:6e:d4:19:de:6a:34:e6:ab:37:9c:93"
+      }
+    },
+    "cert_index": 4317379915,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4317379915&end=4317379915",
+    "seen": 1779481373.737,
+    "submission_timestamp": 1779145161.619,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

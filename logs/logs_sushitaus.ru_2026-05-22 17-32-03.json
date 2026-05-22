@@ -1,0 +1,54 @@
+{
+  "dominio": "sushitaus.ru",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/22/26 17:32:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "6622-01.s3.uralcms.com",
+        "aggregated": "/CN=6622-01.s3.uralcms.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06F7DD10A5D6417D0C22008A2535B95021F4",
+      "not_before": 1779142205,
+      "not_after": 1786918204,
+      "fingerprint": "01:50:E5:4C:4B:87:2E:03:D4:CF:06:20:5D:E7:77:18:64:A7:1F:B8",
+      "sha1": "01:50:E5:4C:4B:87:2E:03:D4:CF:06:20:5D:E7:77:18:64:A7:1F:B8",
+      "sha256": "5F:43:2A:D7:3D:0D:EA:C3:1B:51:66:81:5D:B9:18:6E:96:39:E0:9A:EF:17:6F:C5:59:7E:C2:0B:4D:5D:A2:12",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "6622-01.s3.uralcms.com",
+        "sushitaus.ru",
+        "www.6622-01.s3.uralcms.com",
+        "www.sushitaus.ru"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:6622-01.s3.uralcms.com, DNS:sushitaus.ru, DNS:www.6622-01.s3.uralcms.com, DNS:www.sushitaus.ru",
+        "subjectKeyIdentifier": "keyid:36:da:22:30:f3:8a:5c:a8:fe:49:c0:ab:ee:36:10:2f:5d:ef:54:2c"
+      }
+    },
+    "cert_index": 4317486983,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4317486983&end=4317486983",
+    "seen": 1779481916.635,
+    "submission_timestamp": 1779145717.711,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
