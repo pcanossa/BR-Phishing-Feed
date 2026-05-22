@@ -1,0 +1,51 @@
+{
+  "dominio": "app.visitaurora.net",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/22/26 15:38:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.visitaurora.net",
+        "aggregated": "/CN=app.visitaurora.net"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "31150ED412E86D8AE0064E26B17AE2B2",
+      "not_before": 1779062400,
+      "not_after": 1786924799,
+      "fingerprint": "6C:63:16:6F:26:1E:5E:0A:96:CB:AC:5D:38:4E:7E:11:DB:DE:7C:3A",
+      "sha1": "6C:63:16:6F:26:1E:5E:0A:96:CB:AC:5D:38:4E:7E:11:DB:DE:7C:3A",
+      "sha256": "77:01:81:05:8A:0A:37:03:E5:D9:EC:53:B6:58:42:DD:0E:D7:B5:02:7F:15:0D:6F:E0:4D:74:43:C4:D7:C9:E0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.visitaurora.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.visitaurora.net",
+        "subjectKeyIdentifier": "keyid:fb:f6:36:fa:d6:02:b4:9c:bc:d8:e4:12:00:7e:eb:08:c8:36:ee:42"
+      }
+    },
+    "cert_index": 4315958470,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4315958470&end=4315958470",
+    "seen": 1779475121.727,
+    "submission_timestamp": 1779138343.858,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

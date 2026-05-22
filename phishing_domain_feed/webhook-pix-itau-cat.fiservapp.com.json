@@ -1,0 +1,13 @@
+{
+    "dominio": "webhook-pix-itau-cat.fiservapp.com",
+    "data_registro": "05/22/26 15:34:57",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio contém marcas brasileiras altamente reconhecidas ('itau', 'pix'), o que pode ser usado para enganar usuários brasileiros",
+        "Uso de subdomínio 'webhook' que costuma ser associado a endpoints de API e pode ser utilizado para receber dados de credenciais ou como canal de C2",
+        "Domínio de nível superior genérico '.com' sem registro no .br, estratégia frequente de campanhas de phishing direcionadas ao Brasil",
+        "Domínio não aparece em listas de domínios legítimos reconhecidos para a marca Itau ou Fiserv, aumentando a suspeita",
+        "Certificado recém‑emitido, característica comum em campanhas de phishing que criam domínios temporários"
+    ],
+    "analise_comportamental": "O domínio 'webhook-pix-itau-cat.fiservapp.com' apresenta sinais típicos de um site de phishing voltado ao público brasileiro, ao combinar nomes de marcas de grande relevância (Itau, Pix) com um sub‑domínio que sugere coleta de dados (webhook). A ausência de registro no .br e o certificado recém‑emitido reforçam a possibilidade de uso malicioso, possivelmente para capturar credenciais de pagamento ou como canal de comando e controle."
+}
