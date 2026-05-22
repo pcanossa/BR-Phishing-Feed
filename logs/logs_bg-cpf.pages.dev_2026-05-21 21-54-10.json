@@ -1,0 +1,53 @@
+{
+  "dominio": "bg-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 21:54:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bg-cpf.pages.dev",
+        "aggregated": "/CN=bg-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "062E2F61AD0A1BC7D726CBDCD47C764880CD",
+      "not_before": 1779061059,
+      "not_after": 1786837058,
+      "fingerprint": "27:B9:A0:34:DD:6E:D5:40:3E:B7:C5:EE:3D:CA:5C:06:B0:52:57:83",
+      "sha1": "27:B9:A0:34:DD:6E:D5:40:3E:B7:C5:EE:3D:CA:5C:06:B0:52:57:83",
+      "sha256": "2B:1B:10:89:D8:2E:05:A5:7C:93:DD:B9:75:6B:DB:CD:98:29:A0:35:16:41:9B:C5:76:5B:76:13:F9:BA:1D:FD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bg-cpf.pages.dev",
+        "*.bg-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.bg-cpf.pages.dev, DNS:bg-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:32:57:da:36:9f:6c:cf:06:12:4d:c5:5c:b1:f5:39:3b:79:d6:11:98",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4299073419,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4299073419&end=4299073419",
+    "seen": 1779411246.923,
+    "submission_timestamp": 1779064571.693,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

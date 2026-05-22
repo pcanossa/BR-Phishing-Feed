@@ -1,0 +1,52 @@
+{
+  "dominio": "claroapp.org",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/21/26 21:55:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claroapp.org",
+        "aggregated": "/CN=claroapp.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05CC1765FDA11852579FFD8903D20A9F2E6E",
+      "not_before": 1779407797,
+      "not_after": 1787183796,
+      "fingerprint": "E5:93:B1:A4:2A:64:31:64:2D:53:F7:1E:E6:54:EF:76:CD:14:E2:13",
+      "sha1": "E5:93:B1:A4:2A:64:31:64:2D:53:F7:1E:E6:54:EF:76:CD:14:E2:13",
+      "sha256": "47:29:5C:3C:2E:73:5F:2C:B0:F1:71:6F:3E:C8:E0:D6:43:EA:85:88:3C:0E:13:03:71:AB:20:8E:02:93:7B:14",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "claroapp.org",
+        "*.claroapp.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.claroapp.org, DNS:claroapp.org",
+        "subjectKeyIdentifier": "keyid:ad:e3:59:b0:d0:3b:1f:ed:02:20:b3:d7:92:dd:ee:84:4f:b4:d3:9f"
+      }
+    },
+    "cert_index": 212704490,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x830/876",
+    "seen": 1779411312.476,
+    "submission_timestamp": 1779411308.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

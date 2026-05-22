@@ -1,0 +1,51 @@
+{
+  "dominio": "wellbeing.spc-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/21/26 21:40:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "wellbeing.spc-cpf.com",
+        "aggregated": "/CN=wellbeing.spc-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "060AB8ABFD44140073D46B5229B3FBE43880",
+      "not_before": 1779059933,
+      "not_after": 1786835932,
+      "fingerprint": "BA:DD:DA:93:77:C5:40:E3:3A:CC:8F:7B:F0:61:C5:31:71:95:58:D4",
+      "sha1": "BA:DD:DA:93:77:C5:40:E3:3A:CC:8F:7B:F0:61:C5:31:71:95:58:D4",
+      "sha256": "A9:8F:60:F4:CC:E4:F4:55:D7:0A:A8:3F:0B:1A:35:71:D5:75:85:AD:B3:9C:BD:C9:B6:29:86:BE:AC:D6:46:D9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "wellbeing.spc-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:wellbeing.spc-cpf.com",
+        "subjectKeyIdentifier": "keyid:d7:a1:ad:15:f6:14:b2:07:2f:fe:34:d0:ea:b9:04:a5:f6:fa:15:0d"
+      }
+    },
+    "cert_index": 4298821529,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4298821529&end=4298821529",
+    "seen": 1779410455.086,
+    "submission_timestamp": 1779063597.825,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

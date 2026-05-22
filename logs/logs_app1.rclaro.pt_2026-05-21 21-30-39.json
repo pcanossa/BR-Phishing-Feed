@@ -1,0 +1,52 @@
+{
+  "dominio": "app1.rclaro.pt",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/21/26 21:30:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app1.rclaro.pt",
+        "aggregated": "/CN=app1.rclaro.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "069FDC3D6A277596103174F5069FF50DF9CF",
+      "not_before": 1779059403,
+      "not_after": 1786835402,
+      "fingerprint": "0B:4D:35:BF:70:31:52:D6:56:19:5E:CD:D7:24:C0:20:6D:E3:FB:B3",
+      "sha1": "0B:4D:35:BF:70:31:52:D6:56:19:5E:CD:D7:24:C0:20:6D:E3:FB:B3",
+      "sha256": "B2:18:DB:5F:38:80:F0:FD:D5:19:AB:D4:74:D2:3B:8C:46:EC:09:2A:8B:7C:AA:98:AC:E9:B7:89:62:BD:E3:35",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app1.rclaro.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app1.rclaro.pt",
+        "subjectKeyIdentifier": "keyid:31:e7:ef:b2:47:bc:8b:43:b4:67:36:d7:1e:44:12:12:8b:1d:cc:b9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4298638213,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4298638213&end=4298638213",
+    "seen": 1779409837.254,
+    "submission_timestamp": 1779062913.69,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
