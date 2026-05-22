@@ -1,0 +1,51 @@
+{
+  "dominio": "login.tim-scm.de",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/21/26 20:32:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.tim-scm.de",
+        "aggregated": "/CN=login.tim-scm.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "062B8D39E95D173081E72ECF6C237AEBDE64",
+      "not_before": 1779054596,
+      "not_after": 1786830595,
+      "fingerprint": "4D:5B:83:E9:DA:51:0E:8B:4E:60:F4:65:A9:22:BC:BF:2A:B4:EC:36",
+      "sha1": "4D:5B:83:E9:DA:51:0E:8B:4E:60:F4:65:A9:22:BC:BF:2A:B4:EC:36",
+      "sha256": "8A:C9:0F:22:D9:03:3E:FA:47:60:7F:1D:DD:8C:06:79:01:13:B6:96:12:D5:E2:80:79:D1:F7:9D:95:8E:44:9D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "login.tim-scm.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.tim-scm.de",
+        "subjectKeyIdentifier": "keyid:c0:62:e5:0e:1c:05:5c:d5:29:63:f6:17:3c:e3:f3:05:ce:d5:1f:dd"
+      }
+    },
+    "cert_index": 4297633821,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4297633821&end=4297633821",
+    "seen": 1779406357.006,
+    "submission_timestamp": 1779058109.626,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

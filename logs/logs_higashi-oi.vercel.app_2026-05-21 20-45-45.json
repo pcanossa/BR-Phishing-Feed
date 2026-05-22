@@ -1,0 +1,52 @@
+{
+  "dominio": "higashi-oi.vercel.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/21/26 20:45:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.higashi-oi.vercel.app",
+        "aggregated": "/CN=*.higashi-oi.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "96918B22AECDF1AC110CFF2E935D721A",
+      "not_before": 1779055607,
+      "not_after": 1786831606,
+      "fingerprint": "76:87:9B:00:7E:06:F6:FE:E3:F8:C8:0B:C1:55:AE:C3:F6:00:28:8D",
+      "sha1": "76:87:9B:00:7E:06:F6:FE:E3:F8:C8:0B:C1:55:AE:C3:F6:00:28:8D",
+      "sha256": "8F:28:DF:3E:4A:93:87:A9:6E:72:BB:29:A4:59:05:A4:FD:87:B2:FB:C2:86:0B:99:A6:58:33:71:A0:55:80:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.higashi-oi.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/lpE, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.higashi-oi.vercel.app",
+        "subjectKeyIdentifier": "keyid:67:02:21:38:55:dd:c0:d5:11:4d:34:c8:cd:cd:5e:86:0d:4d:55:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4297863303,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4297863303&end=4297863303",
+    "seen": 1779407143.468,
+    "submission_timestamp": 1779059209.29,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
