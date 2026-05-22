@@ -1,0 +1,52 @@
+{
+  "dominio": "service.uber.tucar.app",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/22/26 02:59:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "service.uber.tucar.app",
+        "aggregated": "/CN=service.uber.tucar.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "7B186F3DA91BAE22101C27DB06CF01BA",
+      "not_before": 1779084389,
+      "not_after": 1786863260,
+      "fingerprint": "AC:7D:2C:71:3B:A0:5C:82:8C:72:44:9F:5D:99:05:42:2E:37:09:E8",
+      "sha1": "AC:7D:2C:71:3B:A0:5C:82:8C:72:44:9F:5D:99:05:42:2E:37:09:E8",
+      "sha256": "46:0D:F9:99:37:43:63:E8:A4:04:B0:F6:07:49:C7:B4:03:73:7E:0E:B3:AD:87:43:28:22:63:37:70:00:06:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "service.uber.tucar.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/exg, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:service.uber.tucar.app",
+        "subjectKeyIdentifier": "keyid:91:07:cc:ab:93:f7:a2:40:a6:26:25:2e:01:d1:23:bd:cd:db:1d:0f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4304081980,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4304081980&end=4304081980",
+    "seen": 1779429543.834,
+    "submission_timestamp": 1779087989.812,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "caixageral-alerta.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/22/26 03:00:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixageral-alerta.com",
+        "aggregated": "/CN=caixageral-alerta.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D25FA9D88C0E7D10131D00B8A3239A5D",
+      "not_before": 1778977025,
+      "not_after": 1786756532,
+      "fingerprint": "7F:F4:1E:17:5C:69:82:E0:FB:BE:37:10:EB:AB:27:4D:5E:92:97:81",
+      "sha1": "7F:F4:1E:17:5C:69:82:E0:FB:BE:37:10:EB:AB:27:4D:5E:92:97:81",
+      "sha256": "7E:48:32:D6:03:87:52:BF:E7:62:C1:B3:EE:1E:00:34:35:AD:EC:78:1E:59:E9:3C:CA:CB:4C:D3:0C:C4:70:8C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixageral-alerta.com",
+        "*.caixageral-alerta.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/0l8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixageral-alerta.com, DNS:*.caixageral-alerta.com",
+        "subjectKeyIdentifier": "keyid:d1:54:49:c7:b9:8a:57:94:b7:1e:6e:78:4d:7e:17:70:78:de:5b:f8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 779666877,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=779666877&end=779666877",
+    "seen": 1779429602.404,
+    "submission_timestamp": 1778980626.419,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

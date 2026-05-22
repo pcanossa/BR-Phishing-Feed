@@ -1,0 +1,53 @@
+{
+  "dominio": "gringodebitos.lat",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 02:21:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gringodebitos.lat",
+        "aggregated": "/CN=gringodebitos.lat"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "DADBEC18A346F42C118E4F558D162E35",
+      "not_before": 1777948285,
+      "not_after": 1785724284,
+      "fingerprint": "AA:1A:E5:B4:09:2D:A1:C7:A3:4D:17:B7:22:1A:AB:AB:3A:B3:49:A1",
+      "sha1": "AA:1A:E5:B4:09:2D:A1:C7:A3:4D:17:B7:22:1A:AB:AB:3A:B3:49:A1",
+      "sha256": "CC:B0:FA:CA:AA:9A:84:4D:26:17:01:6D:46:44:8E:91:B3:12:36:8C:C6:F0:AC:E7:D9:13:3A:55:55:0D:D8:C0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gringodebitos.lat",
+        "www.gringodebitos.lat"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/2ts, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gringodebitos.lat, DNS:www.gringodebitos.lat",
+        "subjectKeyIdentifier": "keyid:a6:70:c9:03:df:2b:84:70:2e:03:84:fc:e3:a6:3e:a5:c7:7b:77:7e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695106001,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=695106001&end=695106001",
+    "seen": 1779427281.934,
+    "submission_timestamp": 1777951886.164,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

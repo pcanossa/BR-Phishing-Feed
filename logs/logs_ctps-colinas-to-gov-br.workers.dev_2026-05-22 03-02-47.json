@@ -1,0 +1,52 @@
+{
+  "dominio": "ctps-colinas-to-gov-br.workers.dev",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/22/26 03:02:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ctps-colinas-to-gov-br.workers.dev",
+        "aggregated": "/CN=ctps-colinas-to-gov-br.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EEC48AA9BD7DF2970E163B17D43EE500",
+      "not_before": 1779084465,
+      "not_after": 1786863920,
+      "fingerprint": "39:40:BC:80:59:36:5E:CE:46:68:00:5E:D1:82:E6:4E:C1:FB:B0:01",
+      "sha1": "39:40:BC:80:59:36:5E:CE:46:68:00:5E:D1:82:E6:4E:C1:FB:B0:01",
+      "sha256": "0E:68:56:A0:23:C1:60:D4:32:D5:DB:B7:85:27:AA:2A:6D:FD:91:F7:F5:D4:BB:9B:CD:4D:54:32:A8:0F:0C:49",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "ctps-colinas-to-gov-br.workers.dev",
+        "*.ctps-colinas-to-gov-br.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/7sQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ctps-colinas-to-gov-br.workers.dev, DNS:*.ctps-colinas-to-gov-br.workers.dev",
+        "subjectKeyIdentifier": "keyid:6a:ab:12:f0:43:01:16:3a:4d:08:91:cb:32:f5:db:29:e0:0b:05:07"
+      }
+    },
+    "cert_index": 4304140569,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4304140569&end=4304140569",
+    "seen": 1779429762.145,
+    "submission_timestamp": 1779088270.179,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
