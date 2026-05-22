@@ -1,0 +1,53 @@
+{
+  "dominio": "www.boletos.fazendadagrama.com.br",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/22/26 04:17:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.engenharia.fazendadagrama.com.br",
+        "aggregated": "/CN=www.engenharia.fazendadagrama.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05A1A24053AD056BFD23BFEE3018B591422C",
+      "not_before": 1779430726,
+      "not_after": 1787206725,
+      "fingerprint": "7F:90:42:C7:0C:D2:F1:3B:FE:C9:21:AB:8F:D2:4A:13:27:2F:D0:3F",
+      "sha1": "7F:90:42:C7:0C:D2:F1:3B:FE:C9:21:AB:8F:D2:4A:13:27:2F:D0:3F",
+      "sha256": "1E:3A:80:B5:82:9F:BF:BE:4A:2F:58:13:D6:FF:14:78:59:09:02:65:B2:8C:3F:5F:9C:3E:71:15:96:78:27:44",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.engenharia.fazendadagrama.com.br",
+        "*.fazendadagrama.com.br",
+        "www.boletos.fazendadagrama.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.fazendadagrama.com.br, DNS:www.boletos.fazendadagrama.com.br, DNS:www.engenharia.fazendadagrama.com.br",
+        "subjectKeyIdentifier": "keyid:53:d9:ee:88:13:f5:7e:4c:d4:d1:08:ba:77:e5:32:92:0d:de:ba:86"
+      }
+    },
+    "cert_index": 201065739,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x785/413",
+    "seen": 1779434240.067,
+    "submission_timestamp": 1779434236.981,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

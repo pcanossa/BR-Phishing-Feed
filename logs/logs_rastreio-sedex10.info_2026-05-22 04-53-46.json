@@ -1,0 +1,53 @@
+{
+  "dominio": "rastreio-sedex10.info",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/22/26 04:53:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreio-sedex10.info",
+        "aggregated": "/CN=rastreio-sedex10.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C2B5148AB603F4900ED4E65D4BCF0BE0",
+      "not_before": 1778389370,
+      "not_after": 1786168831,
+      "fingerprint": "BE:42:4B:82:19:C0:93:5D:5D:09:B3:F1:B3:74:6A:84:D5:EA:C2:82",
+      "sha1": "BE:42:4B:82:19:C0:93:5D:5D:09:B3:F1:B3:74:6A:84:D5:EA:C2:82",
+      "sha256": "EB:35:8B:F5:73:15:CA:B8:03:4D:C5:EB:16:7B:2F:88:42:4B:82:6A:0B:23:34:05:73:B3:22:4E:94:EB:8D:26",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rastreio-sedex10.info",
+        "*.rastreio-sedex10.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/wrU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rastreio-sedex10.info, DNS:*.rastreio-sedex10.info",
+        "subjectKeyIdentifier": "keyid:65:cd:d2:37:cd:6c:23:27:9b:7b:3f:68:0e:ea:73:f6:e1:6e:6f:8d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 643917308,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=643917308&end=643917308",
+    "seen": 1779436422.017,
+    "submission_timestamp": 1778392971.336,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

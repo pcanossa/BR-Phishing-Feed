@@ -1,0 +1,52 @@
+{
+  "dominio": "nubank.bet",
+  "marcas_encontradas": [
+    "nubank"
+  ],
+  "timestamp": "05/22/26 05:01:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.nubank.bet",
+        "aggregated": "/CN=*.nubank.bet"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05B42C4D1CE38D64B86A26479C0D40B69DDC",
+      "not_before": 1779093964,
+      "not_after": 1786869963,
+      "fingerprint": "1F:68:46:93:D1:C4:27:D2:58:A0:0F:2F:35:99:28:8A:8F:75:0E:00",
+      "sha1": "1F:68:46:93:D1:C4:27:D2:58:A0:0F:2F:35:99:28:8A:8F:75:0E:00",
+      "sha256": "55:53:53:9B:EF:23:8F:D6:41:2B:35:36:96:C5:F4:33:A3:AE:52:63:51:37:A9:0E:CA:C4:9E:C2:6E:96:E9:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.nubank.bet",
+        "nubank.bet"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.nubank.bet, DNS:nubank.bet",
+        "subjectKeyIdentifier": "keyid:9f:bf:d9:8f:4d:fb:07:d0:b1:31:23:52:9c:b5:fa:7d:79:46:76:b7"
+      }
+    },
+    "cert_index": 4306277806,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4306277806&end=4306277806",
+    "seen": 1779436882.073,
+    "submission_timestamp": 1779097476.936,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
