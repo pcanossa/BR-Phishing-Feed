@@ -1,0 +1,51 @@
+{
+  "dominio": "tim.checklab.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/22/26 06:12:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tim.checklab.app",
+        "aggregated": "/CN=tim.checklab.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06A6F1DBD0F8E534F1BECDA236B91F042808",
+      "not_before": 1779099086,
+      "not_after": 1786875085,
+      "fingerprint": "62:1B:A7:55:FF:30:CE:4E:DF:42:EF:BD:11:BB:1A:39:A8:A3:D5:4A",
+      "sha1": "62:1B:A7:55:FF:30:CE:4E:DF:42:EF:BD:11:BB:1A:39:A8:A3:D5:4A",
+      "sha256": "27:D7:D9:D9:3C:DC:66:6B:3F:96:D9:1F:A6:72:6A:C1:AE:16:74:0B:8C:92:4C:BF:0B:F8:B3:37:58:F4:84:C8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tim.checklab.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tim.checklab.app",
+        "subjectKeyIdentifier": "keyid:88:95:55:00:bf:ae:6c:0a:4f:3e:fa:d0:32:c1:03:b9:54:df:1f:96"
+      }
+    },
+    "cert_index": 4307530911,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4307530911&end=4307530911",
+    "seen": 1779441129.493,
+    "submission_timestamp": 1779102598.556,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

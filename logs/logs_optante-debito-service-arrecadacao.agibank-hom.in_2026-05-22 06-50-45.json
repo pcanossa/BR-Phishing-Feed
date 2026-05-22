@@ -1,0 +1,52 @@
+{
+  "dominio": "optante-debito-service-arrecadacao.agibank-hom.in",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 06:50:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "optante-debito-service-cobranca.agibank-hom.in",
+        "aggregated": "/CN=optante-debito-service-cobranca.agibank-hom.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "064AAFF02E0B903713F1865366CEF30B8C29",
+      "not_before": 1779102177,
+      "not_after": 1786878176,
+      "fingerprint": "DE:23:48:BF:D5:C0:EE:6F:C7:4F:E8:83:58:F5:5D:E1:63:95:EF:A0",
+      "sha1": "DE:23:48:BF:D5:C0:EE:6F:C7:4F:E8:83:58:F5:5D:E1:63:95:EF:A0",
+      "sha256": "AB:51:5D:80:5C:B4:FA:1E:92:DF:29:92:38:E0:4C:8F:AB:C5:C4:9A:46:EE:01:48:9B:A6:CA:D5:9D:20:17:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "optante-debito-service-cobranca.agibank-hom.in",
+        "optante-debito-service-arrecadacao.agibank-hom.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:optante-debito-service-arrecadacao.agibank-hom.in, DNS:optante-debito-service-cobranca.agibank-hom.in",
+        "subjectKeyIdentifier": "keyid:2b:2d:81:08:45:e0:20:53:17:e6:88:8c:83:9e:1f:93:30:b6:0a:1a"
+      }
+    },
+    "cert_index": 4308251797,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4308251797&end=4308251797",
+    "seen": 1779443441.382,
+    "submission_timestamp": 1779105689.277,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "netflix555-login.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/22/26 06:31:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix555-login.com",
+        "aggregated": "/CN=netflix555-login.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06506C0A09CBAB9D2CCAD9598FA60E6BE044",
+      "not_before": 1779100501,
+      "not_after": 1786876500,
+      "fingerprint": "8E:86:46:96:1A:E9:10:F7:98:60:37:CA:B5:8D:B5:A0:DD:9D:94:B9",
+      "sha1": "8E:86:46:96:1A:E9:10:F7:98:60:37:CA:B5:8D:B5:A0:DD:9D:94:B9",
+      "sha256": "5F:4F:4F:FC:F0:1A:42:D8:67:F6:10:1A:A0:DF:B6:4B:81:EF:B9:F7:AF:22:79:B7:18:71:97:CA:F0:B1:ED:8C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "netflix555-login.com",
+        "www.netflix555-login.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:netflix555-login.com, DNS:www.netflix555-login.com",
+        "subjectKeyIdentifier": "keyid:a8:fa:5f:fd:e6:56:12:bf:52:e6:eb:da:62:e4:fb:a7:26:e3:f7:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4307867795,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4307867795&end=4307867795",
+    "seen": 1779442264.544,
+    "submission_timestamp": 1779104011.955,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

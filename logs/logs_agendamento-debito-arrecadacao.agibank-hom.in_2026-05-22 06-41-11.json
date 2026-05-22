@@ -1,0 +1,52 @@
+{
+  "dominio": "agendamento-debito-arrecadacao.agibank-hom.in",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 06:41:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "agendamento-debito-cobranca.agibank-hom.in",
+        "aggregated": "/CN=agendamento-debito-cobranca.agibank-hom.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "059A98F4EC11130D5EBA8AEFA7FE0A13383F",
+      "not_before": 1779101326,
+      "not_after": 1786877325,
+      "fingerprint": "5A:FD:88:CE:6D:A9:6C:10:D7:B8:9D:BF:D9:F4:DF:42:7C:16:5F:73",
+      "sha1": "5A:FD:88:CE:6D:A9:6C:10:D7:B8:9D:BF:D9:F4:DF:42:7C:16:5F:73",
+      "sha256": "67:D3:DF:DB:9A:78:34:CE:48:03:7C:5B:AE:02:77:81:8B:F9:68:09:A6:D2:5E:AC:69:B1:E9:CF:34:D0:95:75",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "agendamento-debito-cobranca.agibank-hom.in",
+        "agendamento-debito-arrecadacao.agibank-hom.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:agendamento-debito-arrecadacao.agibank-hom.in, DNS:agendamento-debito-cobranca.agibank-hom.in",
+        "subjectKeyIdentifier": "keyid:0d:78:2c:a3:92:cf:2a:d2:fc:b4:7c:7f:af:9c:bb:59:71:06:b2:a7"
+      }
+    },
+    "cert_index": 4308060126,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4308060126&end=4308060126",
+    "seen": 1779442866.925,
+    "submission_timestamp": 1779104839.147,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

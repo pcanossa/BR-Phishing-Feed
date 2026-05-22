@@ -1,0 +1,52 @@
+{
+  "dominio": "app.spotify-premium.org",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/22/26 06:34:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.spotify-premium.org",
+        "aggregated": "/CN=app.spotify-premium.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F456D876524F9ADF43737D47F1E788CA",
+      "not_before": 1778976000,
+      "not_after": 1786838399,
+      "fingerprint": "51:8D:6F:22:1F:F3:65:82:DC:50:A9:DF:79:C4:DA:C5:21:2C:4C:0D",
+      "sha1": "51:8D:6F:22:1F:F3:65:82:DC:50:A9:DF:79:C4:DA:C5:21:2C:4C:0D",
+      "sha256": "8E:75:D5:B6:2A:BC:FF:48:AD:B0:9B:10:38:89:B9:A7:E2:AD:75:34:67:E4:B8:B1:00:83:C1:0F:AA:18:73:9B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.spotify-premium.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.spotify-premium.org",
+        "subjectKeyIdentifier": "keyid:e7:58:0c:8d:26:26:f5:d8:77:06:1e:f0:60:64:ab:b2:03:fa:f2:f2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 781099057,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=781099057&end=781099057",
+    "seen": 1779442457.131,
+    "submission_timestamp": 1778990011.832,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

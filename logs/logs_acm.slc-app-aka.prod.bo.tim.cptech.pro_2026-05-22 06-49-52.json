@@ -1,0 +1,52 @@
+{
+  "dominio": "acm.slc-app-aka.prod.bo.tim.cptech.pro",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/22/26 06:49:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "acm.slc-app-aka.prod.bo.tim.cptech.pro",
+        "aggregated": "/CN=acm.slc-app-aka.prod.bo.tim.cptech.pro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059BDC480FB71E71FBA3CFBE879D1FCBEA71",
+      "not_before": 1779102108,
+      "not_after": 1786878107,
+      "fingerprint": "64:0A:6D:2C:00:7F:79:D6:A8:4A:83:EB:FE:8F:B9:57:39:82:0A:85",
+      "sha1": "64:0A:6D:2C:00:7F:79:D6:A8:4A:83:EB:FE:8F:B9:57:39:82:0A:85",
+      "sha256": "8A:09:79:E4:D0:64:24:2A:0C:DD:E7:2E:98:76:87:B5:28:81:74:40:B8:5D:B1:74:49:61:F7:AD:AD:81:FD:F5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "acm.slc-app-aka.prod.bo.tim.cptech.pro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:acm.slc-app-aka.prod.bo.tim.cptech.pro",
+        "subjectKeyIdentifier": "keyid:68:6a:a1:37:ec:42:43:ed:5c:03:d9:18:92:1f:f1:e7:34:44:9e:ba",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4308234691,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4308234691&end=4308234691",
+    "seen": 1779443388.799,
+    "submission_timestamp": 1779105618.408,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
