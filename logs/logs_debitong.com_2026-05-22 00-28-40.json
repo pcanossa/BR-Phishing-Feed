@@ -1,0 +1,52 @@
+{
+  "dominio": "debitong.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 00:28:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitong.com",
+        "aggregated": "/CN=debitong.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06087D0044A013BBD5BCBB79C4AE8C336A4A",
+      "not_before": 1778609721,
+      "not_after": 1786385720,
+      "fingerprint": "ED:5F:60:72:F3:70:C8:5E:F5:40:9B:79:56:99:91:38:C8:EE:AD:D1",
+      "sha1": "ED:5F:60:72:F3:70:C8:5E:F5:40:9B:79:56:99:91:38:C8:EE:AD:D1",
+      "sha256": "8B:CF:30:C7:B7:34:34:01:74:3A:73:80:2D:6F:D2:A1:EB:5D:5F:9F:A7:65:5E:9E:8E:3B:93:F8:17:B3:82:D9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitong.com",
+        "*.debitong.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitong.com, DNS:debitong.com",
+        "subjectKeyIdentifier": "keyid:d9:b2:96:0e:81:4e:d2:c0:3f:51:c4:1f:18:db:09:b2:a4:8e:00:60"
+      }
+    },
+    "cert_index": 4301485893,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4301485893&end=4301485893",
+    "seen": 1779420518.209,
+    "submission_timestamp": 1779075803.056,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
