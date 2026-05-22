@@ -1,0 +1,52 @@
+{
+  "dominio": "www.caixaamiga.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/22/26 14:36:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.caixaamiga.app",
+        "aggregated": "/CN=www.caixaamiga.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "050E659F67C777BA8F95EACD5FC72071B54B",
+      "not_before": 1777953110,
+      "not_after": 1785729109,
+      "fingerprint": "5C:74:BC:4A:13:FF:D5:69:0B:D2:55:0B:2E:8F:EC:0D:89:8A:E3:DA",
+      "sha1": "5C:74:BC:4A:13:FF:D5:69:0B:D2:55:0B:2E:8F:EC:0D:89:8A:E3:DA",
+      "sha256": "C0:4F:A8:24:B2:06:10:BF:FC:09:18:4C:37:B2:E4:52:10:9D:3E:CA:A5:1D:B2:4D:82:12:33:20:C6:66:02:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.caixaamiga.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.caixaamiga.app",
+        "subjectKeyIdentifier": "keyid:b5:5e:8c:e8:89:c5:96:19:91:ab:05:c8:50:b8:d4:d8:fc:da:bd:ec",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695859382,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=695859382&end=695859382",
+    "seen": 1779471388.313,
+    "submission_timestamp": 1777956620.755,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

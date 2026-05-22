@@ -1,0 +1,52 @@
+{
+  "dominio": "www.hack-do-cartao.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/22/26 15:04:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hack-do-cartao.com",
+        "aggregated": "/CN=hack-do-cartao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05305EB7AEA10F2476697BB216E4C741C316",
+      "not_before": 1779132656,
+      "not_after": 1786908655,
+      "fingerprint": "AC:49:6F:6E:CE:0A:69:86:6B:64:72:37:A1:97:20:6A:48:04:95:5B",
+      "sha1": "AC:49:6F:6E:CE:0A:69:86:6B:64:72:37:A1:97:20:6A:48:04:95:5B",
+      "sha256": "58:40:BE:5D:1F:BF:FF:86:E7:8F:17:CA:C1:C5:60:D9:CB:1A:5C:74:53:1F:EB:B0:F3:FB:A9:FE:7E:DA:CA:A5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hack-do-cartao.com",
+        "www.hack-do-cartao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hack-do-cartao.com, DNS:www.hack-do-cartao.com",
+        "subjectKeyIdentifier": "keyid:58:c9:b2:aa:68:e6:a5:48:cc:d8:2b:e8:42:b2:bf:7f:be:45:66:68"
+      }
+    },
+    "cert_index": 4315526025,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4315526025&end=4315526025",
+    "seen": 1779473058.478,
+    "submission_timestamp": 1779136253.085,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

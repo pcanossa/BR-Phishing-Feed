@@ -1,0 +1,54 @@
+{
+  "dominio": "caixaclaro.app.br",
+  "marcas_encontradas": [
+    "caixa",
+    "claro"
+  ],
+  "timestamp": "05/22/26 15:04:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixaclaro.app.br",
+        "aggregated": "/CN=caixaclaro.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0652DD9BAEF2D2BB7EDE842106095D339A4C",
+      "not_before": 1779132714,
+      "not_after": 1786908713,
+      "fingerprint": "12:CB:C6:20:B8:C3:2D:7D:0E:9E:D8:24:E5:DD:D9:65:2B:3E:97:5A",
+      "sha1": "12:CB:C6:20:B8:C3:2D:7D:0E:9E:D8:24:E5:DD:D9:65:2B:3E:97:5A",
+      "sha256": "1C:24:14:66:B7:0E:A7:7E:30:2E:A7:03:D2:61:87:83:7A:FA:77:25:52:52:56:BB:FB:A3:9B:C3:6A:09:05:6C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixaclaro.app.br",
+        "*.caixaclaro.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixaclaro.app.br, DNS:caixaclaro.app.br",
+        "subjectKeyIdentifier": "keyid:09:94:62:f7:e1:f8:a4:fe:6f:0a:f3:8f:2c:e4:77:da:0e:42:9f:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4315519603,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4315519603&end=4315519603",
+    "seen": 1779473034.104,
+    "submission_timestamp": 1779136224.9,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

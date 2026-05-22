@@ -1,0 +1,61 @@
+{
+  "dominio": "www.cpf.nu",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/22/26 14:52:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ppconsult.nl",
+        "aggregated": "/CN=ppconsult.nl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "BDA6311C660A7EE9117D4D4E119CB993",
+      "not_before": 1779131876,
+      "not_after": 1786907875,
+      "fingerprint": "09:6B:C9:00:5E:7F:79:60:E6:26:DF:11:7D:31:EA:AE:49:67:90:05",
+      "sha1": "09:6B:C9:00:5E:7F:79:60:E6:26:DF:11:7D:31:EA:AE:49:67:90:05",
+      "sha256": "81:6F:26:E1:C5:63:5E:00:2D:85:53:94:1B:BF:6B:1D:BA:56:7D:38:71:91:9E:C9:00:28:58:3D:10:B1:EC:DE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ppconsult.nl",
+        "www.cpf.nu",
+        "sdin.fr",
+        "soccerlive.uk",
+        "bijouxmagnetiques.fr",
+        "bedrijfsbegeleiding.be",
+        "velg.eu",
+        "kautz.at",
+        "www.wtl.eu",
+        "plantenstekken.nl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/vaY, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ppconsult.nl, DNS:www.cpf.nu, DNS:sdin.fr, DNS:soccerlive.uk, DNS:bijouxmagnetiques.fr, DNS:bedrijfsbegeleiding.be, DNS:velg.eu, DNS:kautz.at, DNS:www.wtl.eu, DNS:plantenstekken.nl",
+        "subjectKeyIdentifier": "keyid:51:c1:f5:e5:bc:65:55:76:66:ba:53:a2:b5:e5:ce:9d:99:02:e4:ea",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4315363433,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4315363433&end=4315363433",
+    "seen": 1779472337.576,
+    "submission_timestamp": 1779135477.093,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
