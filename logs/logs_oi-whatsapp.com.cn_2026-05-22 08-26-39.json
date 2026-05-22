@@ -1,0 +1,53 @@
+{
+  "dominio": "oi-whatsapp.com.cn",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/22/26 08:26:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi-whatsapp.com.cn",
+        "aggregated": "/CN=oi-whatsapp.com.cn"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A61F79CBC4780B899C44090629B57587",
+      "not_before": 1778976000,
+      "not_after": 1786771858,
+      "fingerprint": "E4:7E:9C:BF:3B:43:EE:49:E9:CE:29:4E:F7:16:3B:DC:18:3E:5D:06",
+      "sha1": "E4:7E:9C:BF:3B:43:EE:49:E9:CE:29:4E:F7:16:3B:DC:18:3E:5D:06",
+      "sha256": "E4:40:1E:EE:68:A4:87:A8:DF:D4:5C:CE:63:B6:3D:9E:2A:C5:00:80:FB:6C:98:A0:6F:BA:AB:B2:BA:B2:E9:A7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi-whatsapp.com.cn",
+        "*.oi-whatsapp.com.cn"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi-whatsapp.com.cn, DNS:*.oi-whatsapp.com.cn",
+        "subjectKeyIdentifier": "keyid:a7:48:b9:bf:39:45:86:cf:48:85:43:38:20:92:63:20:d3:13:5a:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 781953533,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=781953533&end=781953533",
+    "seen": 1779449194.007,
+    "submission_timestamp": 1778995960.839,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

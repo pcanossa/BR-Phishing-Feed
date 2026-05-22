@@ -1,0 +1,52 @@
+{
+  "dominio": "www.minhafazenda.app",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/22/26 09:05:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.minhafazenda.app",
+        "aggregated": "/CN=www.minhafazenda.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "D47D12F1A2C90AAB",
+      "not_before": 1779115043,
+      "not_after": 1796222243,
+      "fingerprint": "CC:76:2B:7D:48:8B:E3:82:BE:10:44:DA:47:1C:64:DF:2C:E4:02:3D",
+      "sha1": "CC:76:2B:7D:48:8B:E3:82:BE:10:44:DA:47:1C:64:DF:2C:E4:02:3D",
+      "sha256": "F1:CE:F5:97:FA:93:29:F5:74:6A:71:C2:4E:63:BB:D5:03:25:03:AD:BA:F1:2E:5B:D5:7E:2A:19:51:2C:F4:21",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.minhafazenda.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.minhafazenda.app",
+        "subjectKeyIdentifier": "keyid:8f:fc:3c:29:b0:13:85:c1:21:a6:6d:a9:2c:04:3a:62:ad:27:3d:42",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4310510051,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4310510051&end=4310510051",
+    "seen": 1779451522.737,
+    "submission_timestamp": 1779115044.25,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

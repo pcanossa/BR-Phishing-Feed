@@ -1,0 +1,53 @@
+{
+  "dominio": "catalogue-cpf.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/22/26 08:40:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "catalogue-cpf.fr",
+        "aggregated": "/CN=catalogue-cpf.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0559DA2707AADE1980388A2C6EC2BE3DCA38",
+      "not_before": 1778960659,
+      "not_after": 1786736658,
+      "fingerprint": "62:2A:17:94:B3:D3:4A:56:0E:17:68:D3:5D:5E:45:F0:26:18:49:AB",
+      "sha1": "62:2A:17:94:B3:D3:4A:56:0E:17:68:D3:5D:5E:45:F0:26:18:49:AB",
+      "sha256": "91:F6:32:FE:D1:F6:D5:E9:2C:0B:1C:B5:11:C1:5A:8E:90:54:0B:64:2F:FE:B8:FE:33:19:75:76:7F:8D:4B:CF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "catalogue-cpf.fr",
+        "*.catalogue-cpf.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.catalogue-cpf.fr, DNS:catalogue-cpf.fr",
+        "subjectKeyIdentifier": "keyid:48:26:4b:5a:aa:cc:a4:88:d5:25:e3:63:ec:b5:3a:6f:d9:d1:d4:f6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 665246162,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=665246162&end=665246162",
+    "seen": 1779450008.187,
+    "submission_timestamp": 1778964169.939,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
