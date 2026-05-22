@@ -1,0 +1,52 @@
+{
+  "dominio": "spotify-copy.vercel.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/22/26 13:14:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.spotify-copy.vercel.app",
+        "aggregated": "/CN=*.spotify-copy.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "25911F36ACBB9D940E02DB62E44C1B31",
+      "not_before": 1779125815,
+      "not_after": 1786901814,
+      "fingerprint": "90:65:65:BC:48:B1:6E:EA:08:1F:4D:D9:57:AC:27:86:EC:49:07:3B",
+      "sha1": "90:65:65:BC:48:B1:6E:EA:08:1F:4D:D9:57:AC:27:86:EC:49:07:3B",
+      "sha256": "4E:8A:D0:69:7E:9C:29:4E:84:06:6F:D8:CA:27:B6:B4:77:71:2D:AA:14:1E:B4:0A:75:CA:1F:16:CE:29:7B:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.spotify-copy.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/JZE, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.spotify-copy.vercel.app",
+        "subjectKeyIdentifier": "keyid:99:e1:de:8f:83:e1:7d:48:c9:41:7e:0f:62:c7:a4:f5:90:c2:33:07",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4314020662,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4314020662&end=4314020662",
+    "seen": 1779466462.061,
+    "submission_timestamp": 1779129416.153,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

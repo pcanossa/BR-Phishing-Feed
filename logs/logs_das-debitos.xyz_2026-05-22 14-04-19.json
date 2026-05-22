@@ -1,0 +1,53 @@
+{
+  "dominio": "das-debitos.xyz",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 14:04:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "das-debitos.xyz",
+        "aggregated": "/CN=das-debitos.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "97B99EDA4122C50D135F971EC38B31F9",
+      "not_before": 1778403846,
+      "not_after": 1786183357,
+      "fingerprint": "38:0C:64:62:2D:C1:C6:CB:34:B1:A5:E9:3E:C1:DC:DD:E7:45:73:07",
+      "sha1": "38:0C:64:62:2D:C1:C6:CB:34:B1:A5:E9:3E:C1:DC:DD:E7:45:73:07",
+      "sha256": "78:B3:D1:1A:6E:87:9C:E3:2D:0B:36:4F:77:04:E9:4B:BE:87:87:53:D8:72:E2:7F:19:71:92:77:53:5D:EC:27",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "das-debitos.xyz",
+        "*.das-debitos.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/l7k, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:das-debitos.xyz, DNS:*.das-debitos.xyz",
+        "subjectKeyIdentifier": "keyid:73:0e:66:7a:9b:8c:9f:30:34:c6:14:aa:ba:10:02:28:a9:a7:25:17",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 645619867,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=645619867&end=645619867",
+    "seen": 1779469453.935,
+    "submission_timestamp": 1778407447.423,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

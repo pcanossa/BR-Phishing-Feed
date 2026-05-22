@@ -1,0 +1,52 @@
+{
+  "dominio": "bradesco.seyph.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/22/26 13:23:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco.seyph.app",
+        "aggregated": "/CN=bradesco.seyph.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "37B67EFEDA79B77A139E4855696EAADB",
+      "not_before": 1779126470,
+      "not_after": 1786905935,
+      "fingerprint": "4B:D9:1D:A4:B8:B5:64:63:68:D3:E5:FE:45:1A:80:FC:9B:1F:6C:8B",
+      "sha1": "4B:D9:1D:A4:B8:B5:64:63:68:D3:E5:FE:45:1A:80:FC:9B:1F:6C:8B",
+      "sha256": "E6:BD:57:47:E3:31:CE:C6:51:C1:78:3B:25:2F:70:70:36:EA:7A:2B:9D:B5:DE:EA:EC:38:B6:FC:3E:EE:74:F3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco.seyph.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/N7Y, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bradesco.seyph.app",
+        "subjectKeyIdentifier": "keyid:89:dc:44:5c:f5:ce:ed:dc:33:6f:71:fa:c9:dd:67:1e:05:5c:a3:0f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4314161336,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4314161336&end=4314161336",
+    "seen": 1779467015.176,
+    "submission_timestamp": 1779130070.607,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
