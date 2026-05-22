@@ -1,0 +1,53 @@
+{
+  "dominio": "santanderbet.pages.dev",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/22/26 10:50:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderbet.pages.dev",
+        "aggregated": "/CN=santanderbet.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3325FDE60F6DCB280E81E9DB6FFDC5AE",
+      "not_before": 1779118760,
+      "not_after": 1786898192,
+      "fingerprint": "95:80:3E:DC:55:6A:24:6D:D1:17:BB:C6:65:1A:A6:5B:10:3A:02:03",
+      "sha1": "95:80:3E:DC:55:6A:24:6D:D1:17:BB:C6:65:1A:A6:5B:10:3A:02:03",
+      "sha256": "DC:D8:21:84:E6:FA:39:0C:C0:37:3E:A1:F0:C4:64:DB:08:90:FF:FA:FC:4F:05:49:51:94:85:B4:82:3A:1D:C3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santanderbet.pages.dev",
+        "*.santanderbet.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MyU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santanderbet.pages.dev, DNS:*.santanderbet.pages.dev",
+        "subjectKeyIdentifier": "keyid:31:16:18:c1:b9:35:f0:b7:3d:cb:b8:49:2c:bb:23:12:ec:ad:70:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4312333451,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4312333451&end=4312333451",
+    "seen": 1779457824.318,
+    "submission_timestamp": 1779122361.192,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dominio": "banco-apps-web.postgres.database.azure.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/22/26 10:07:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "f50cca268faf.database.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=f50cca268faf.database.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 10",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 10/O=Microsoft Corporation"
+      },
+      "serial_number": "49002FCD28F6FA2E63AD562B0C0000002FCD28",
+      "not_before": 1779026910,
+      "not_after": 1794578910,
+      "fingerprint": "B8:2A:A9:D8:BF:BC:CF:E9:90:BD:23:43:75:19:12:A1:4A:DD:FF:DD",
+      "sha1": "B8:2A:A9:D8:BF:BC:CF:E9:90:BD:23:43:75:19:12:A1:4A:DD:FF:DD",
+      "sha256": "C6:E2:B7:4E:5B:10:E9:AA:26:CE:53:48:97:6C:5B:10:9E:7E:9D:57:AD:EA:B9:20:3A:9F:70:75:FE:9D:BD:D7",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "f50cca268faf.database.azure.com",
+        "banco-apps-web.postgres.database.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:d0:4c:83:d1:8e:71:2e:3d:34:b1:ff:9b:79:2c:8e:74:d4:e2:78:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banco-apps-web.postgres.database.azure.com, DNS:f50cca268faf.database.azure.com",
+        "subjectKeyIdentifier": "keyid:d2:8a:60:b1:d3:17:6e:bd:ee:8b:32:cf:96:e9:31:e1:38:7b:3b:3e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 787187111,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=787187111&end=787187111",
+    "seen": 1779455269.383,
+    "submission_timestamp": 1779027515.205,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

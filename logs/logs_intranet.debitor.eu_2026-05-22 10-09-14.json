@@ -1,0 +1,51 @@
+{
+  "dominio": "intranet.debitor.eu",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 10:09:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "intranet.debitor.eu",
+        "aggregated": "/CN=intranet.debitor.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05EE1C4BFACEAE1A80F92AE1E4399CC02341",
+      "not_before": 1778964113,
+      "not_after": 1786740112,
+      "fingerprint": "8E:6E:AA:F7:8E:FC:66:F6:ED:F7:9C:5E:55:61:AF:5A:D8:25:31:10",
+      "sha1": "8E:6E:AA:F7:8E:FC:66:F6:ED:F7:9C:5E:55:61:AF:5A:D8:25:31:10",
+      "sha256": "E4:40:F3:0E:F1:B0:B9:21:4A:3E:20:9A:30:70:BC:79:3C:28:EA:46:D7:0E:4F:E5:02:05:AB:59:43:16:03:DD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "intranet.debitor.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:intranet.debitor.eu",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 665655984,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=665655984&end=665655984",
+    "seen": 1779455349.061,
+    "submission_timestamp": 1778967625.072,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

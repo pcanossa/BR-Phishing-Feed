@@ -1,0 +1,52 @@
+{
+  "dominio": "debitotributario.it",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 10:43:39",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitotributario.it",
+        "aggregated": "/CN=*.debitotributario.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05D69C5645E4CE0AD1100347C1DB904453CE",
+      "not_before": 1779118348,
+      "not_after": 1786894347,
+      "fingerprint": "67:D5:86:31:06:E1:5F:15:5F:C1:03:8E:D9:F6:B7:1E:B1:66:D5:D0",
+      "sha1": "67:D5:86:31:06:E1:5F:15:5F:C1:03:8E:D9:F6:B7:1E:B1:66:D5:D0",
+      "sha256": "10:A2:DD:32:9D:D6:D5:4E:0B:A0:69:AE:FE:9F:8E:0D:79:39:F0:EC:54:9E:C8:C8:8E:4D:BD:5E:C4:13:30:6B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitotributario.it",
+        "debitotributario.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitotributario.it, DNS:debitotributario.it",
+        "subjectKeyIdentifier": "keyid:fd:00:1b:59:c3:eb:7a:a7:71:94:3e:a2:b4:a3:d7:09:f6:d4:90:57"
+      }
+    },
+    "cert_index": 4312203577,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4312203577&end=4312203577",
+    "seen": 1779457414.103,
+    "submission_timestamp": 1779121860.652,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

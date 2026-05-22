@@ -1,0 +1,51 @@
+{
+  "dominio": "meuappcaixa.store",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/22/26 10:28:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meuappcaixa.store",
+        "aggregated": "/CN=meuappcaixa.store"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "2D8A1A5FC869E20F1395C38F0E1F314C",
+      "not_before": 1779117033,
+      "not_after": 1786896451,
+      "fingerprint": "3A:0B:7D:73:ED:66:39:1C:52:6A:73:38:12:EF:26:32:B0:32:61:13",
+      "sha1": "3A:0B:7D:73:ED:66:39:1C:52:6A:73:38:12:EF:26:32:B0:32:61:13",
+      "sha256": "E0:7C:23:50:28:38:EA:9C:61:8F:A4:57:A2:14:88:7B:D6:27:74:47:BC:E1:83:86:8E:79:69:22:F5:FE:4B:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "meuappcaixa.store"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/LYo, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:meuappcaixa.store",
+        "subjectKeyIdentifier": "keyid:7d:c3:c2:1d:dc:57:a7:18:30:80:94:1f:3b:b3:67:99:57:39:12:19"
+      }
+    },
+    "cert_index": 4311921406,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4311921406&end=4311921406",
+    "seen": 1779456517.092,
+    "submission_timestamp": 1779120753.856,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

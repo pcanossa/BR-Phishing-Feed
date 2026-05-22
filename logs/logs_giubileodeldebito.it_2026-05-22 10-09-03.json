@@ -1,0 +1,52 @@
+{
+  "dominio": "giubileodeldebito.it",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 10:09:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.giubileodeldebito.it",
+        "aggregated": "/CN=*.giubileodeldebito.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0633E3B6B21487F45A892E62E7C2B814F7AA",
+      "not_before": 1779115933,
+      "not_after": 1786891932,
+      "fingerprint": "1A:1A:20:8B:D5:F2:08:3C:8C:E6:05:E4:57:D5:BD:F6:06:06:A8:6A",
+      "sha1": "1A:1A:20:8B:D5:F2:08:3C:8C:E6:05:E4:57:D5:BD:F6:06:06:A8:6A",
+      "sha256": "EF:54:C4:37:D1:97:CE:6B:82:6C:08:32:04:B0:96:0A:6D:D9:1C:1A:E1:BB:50:17:32:DA:96:F5:60:47:80:37",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.giubileodeldebito.it",
+        "giubileodeldebito.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.giubileodeldebito.it, DNS:giubileodeldebito.it",
+        "subjectKeyIdentifier": "keyid:95:cc:ff:05:f6:b9:c2:86:b7:6d:d5:89:df:18:b6:1a:6a:65:12:aa"
+      }
+    },
+    "cert_index": 4311576819,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4311576819&end=4311576819",
+    "seen": 1779455338.571,
+    "submission_timestamp": 1779119445.581,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
