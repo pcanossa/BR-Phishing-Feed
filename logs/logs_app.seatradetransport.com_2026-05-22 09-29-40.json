@@ -1,0 +1,51 @@
+{
+  "dominio": "app.seatradetransport.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/22/26 09:29:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.seatradetransport.com",
+        "aggregated": "/CN=app.seatradetransport.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9BB747746A6C19B06B73C3DA2AD2CBD4",
+      "not_before": 1779062400,
+      "not_after": 1786924799,
+      "fingerprint": "F2:F3:A9:51:93:74:DC:D4:04:17:B0:71:64:31:7E:0C:87:72:70:49",
+      "sha1": "F2:F3:A9:51:93:74:DC:D4:04:17:B0:71:64:31:7E:0C:87:72:70:49",
+      "sha256": "CF:F6:DE:33:D5:65:E3:7D:87:FA:E6:08:FD:B8:AF:4C:75:0E:3F:1D:32:2E:92:66:09:6A:C5:37:1B:B4:1E:BC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.seatradetransport.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.seatradetransport.com",
+        "subjectKeyIdentifier": "keyid:9c:a9:3e:ff:db:a4:9d:86:b8:bb:c3:4f:1c:03:16:e6:fa:45:e5:92"
+      }
+    },
+    "cert_index": 4310889206,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4310889206&end=4310889206",
+    "seen": 1779452974.862,
+    "submission_timestamp": 1779116598.818,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

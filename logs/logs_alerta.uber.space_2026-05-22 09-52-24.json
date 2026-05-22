@@ -1,0 +1,51 @@
+{
+  "dominio": "alerta.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/22/26 09:52:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alerta.uber.space",
+        "aggregated": "/CN=alerta.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05BF7CA81CB105EAD69A6EE40E6495CA543C",
+      "not_before": 1779016940,
+      "not_after": 1786792939,
+      "fingerprint": "5F:3B:BB:75:2C:41:61:D9:21:AE:7C:DA:CA:C8:87:58:D3:88:B0:2F",
+      "sha1": "5F:3B:BB:75:2C:41:61:D9:21:AE:7C:DA:CA:C8:87:58:D3:88:B0:2F",
+      "sha256": "3E:D9:8C:67:0D:33:D6:78:82:70:B3:91:A4:9A:EA:1D:30:03:0A:3D:69:90:56:A1:16:BB:00:28:B9:18:F0:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alerta.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alerta.uber.space",
+        "subjectKeyIdentifier": "keyid:27:ea:03:cb:be:ed:55:d2:46:fe:8e:c7:bc:2b:f3:06:71:a2:8c:24"
+      }
+    },
+    "cert_index": 786019938,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=786019938&end=786019938",
+    "seen": 1779454339.225,
+    "submission_timestamp": 1779020453.827,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

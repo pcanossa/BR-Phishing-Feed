@@ -1,0 +1,53 @@
+{
+  "dominio": "uphld-oi-login.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/22/26 09:43:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uphld-oi-login.pages.dev",
+        "aggregated": "/CN=uphld-oi-login.pages.dev"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "738E4B3F09C943FF870F2E39A20CE581",
+      "not_before": 1778976000,
+      "not_after": 1786792591,
+      "fingerprint": "05:8C:06:48:30:AC:9E:79:23:7E:D3:61:00:EC:D6:DF:FD:30:DC:0A",
+      "sha1": "05:8C:06:48:30:AC:9E:79:23:7E:D3:61:00:EC:D6:DF:FD:30:DC:0A",
+      "sha256": "96:E9:08:3D:58:1F:EC:C0:77:BF:12:A5:86:0A:AE:36:51:BE:61:A2:F4:60:47:D0:13:D1:F6:C4:B6:A3:98:06",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "uphld-oi-login.pages.dev",
+        "*.uphld-oi-login.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:uphld-oi-login.pages.dev, DNS:*.uphld-oi-login.pages.dev",
+        "subjectKeyIdentifier": "keyid:ac:2d:6a:42:64:cf:cb:81:1f:91:e6:1e:95:2a:58:c8:63:4a:c0:85",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 785373688,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=785373688&end=785373688",
+    "seen": 1779453825.75,
+    "submission_timestamp": 1779016680.69,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "test.cpf-negativado-ufq.cyou",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/22/26 09:34:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test.cpf-negativado-ufq.cyou",
+        "aggregated": "/CN=test.cpf-negativado-ufq.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "078C604BEA7440826FDBD65F351C1918",
+      "not_before": 1778976000,
+      "not_after": 1786751999,
+      "fingerprint": "78:19:1F:84:47:9E:AB:97:72:E2:21:45:10:25:DF:0C:85:23:E1:4C",
+      "sha1": "78:19:1F:84:47:9E:AB:97:72:E2:21:45:10:25:DF:0C:85:23:E1:4C",
+      "sha256": "D5:27:B7:BB:5D:8D:0B:01:46:50:54:47:F3:74:13:1B:64:88:AC:4F:6A:FC:C9:3E:D7:2E:7D:A4:FC:97:39:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "test.cpf-negativado-ufq.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:test.cpf-negativado-ufq.cyou",
+        "subjectKeyIdentifier": "keyid:cc:64:db:96:b0:ad:71:3b:8d:7e:40:74:cc:11:3d:37:97:dd:29:77",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 784712656,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=784712656&end=784712656",
+    "seen": 1779453236.609,
+    "submission_timestamp": 1779012729.797,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
