@@ -1,0 +1,57 @@
+{
+  "dominio": "api-partner-qa.insurance.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/22/26 07:06:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "BR",
+        "CN": "api-partner-qa.insurance.pagseguro.com",
+        "L": "Sao Paulo",
+        "O": "PAGSEGURO INTERNET INSTITUICAO DE PAGAMENTO S.A.",
+        "ST": "Sao Paulo",
+        "aggregated": "/C=BR/CN=api-partner-qa.insurance.pagseguro.com/L=Sao Paulo/O=PAGSEGURO INTERNET INSTITUICAO DE PAGAMENTO S.A./ST=Sao Paulo"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert EV RSA CA G2/O=DigiCert Inc"
+      },
+      "serial_number": "03E41A1B6876E701413239DC83F9B35A",
+      "not_before": 1779062400,
+      "not_after": 1796255999,
+      "fingerprint": "E4:43:C4:12:24:9C:CE:67:EC:54:C2:B1:F7:28:E6:BF:00:ED:66:10",
+      "sha1": "E4:43:C4:12:24:9C:CE:67:EC:54:C2:B1:F7:28:E6:BF:00:ED:66:10",
+      "sha256": "CD:90:DF:27:24:5D:00:13:86:24:CF:23:2C:18:81:69:BE:18:D1:93:39:0A:6E:3E:D0:C2:9B:3B:D4:69:AE:64",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-partner-qa.insurance.pagseguro.com",
+        "www.api-partner-qa.insurance.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertEVRSACAG2.crt",
+        "authorityKeyIdentifier": "keyid:6a:4e:50:bf:98:68:9d:5b:7b:20:75:d4:59:01:79:48:66:92:32:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.16.840.1.114412.2.1\nPolicy: 2.23.140.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-partner-qa.insurance.pagseguro.com, DNS:www.api-partner-qa.insurance.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:c3:aa:43:45:fb:e0:ea:14:2d:4c:44:ec:51:93:60:fe:20:93:8f:a0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4308518596,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4308518596&end=4308518596",
+    "seen": 1779444404.169,
+    "submission_timestamp": 1779106716.271,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

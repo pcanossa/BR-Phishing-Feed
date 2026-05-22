@@ -1,0 +1,52 @@
+{
+  "dominio": "sicoobscrs.app",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "05/22/26 07:25:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sicoobscrs.app",
+        "aggregated": "/CN=sicoobscrs.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "063F6387ABE772398C1CBEE68E3F3659F66E",
+      "not_before": 1779442004,
+      "not_after": 1787218003,
+      "fingerprint": "00:07:D2:B8:C0:F3:6E:C9:10:73:15:67:BF:67:C0:13:91:28:05:0F",
+      "sha1": "00:07:D2:B8:C0:F3:6E:C9:10:73:15:67:BF:67:C0:13:91:28:05:0F",
+      "sha256": "C3:9B:62:48:AC:11:F8:47:40:68:EA:30:45:D9:20:16:81:C7:A3:DC:BF:AC:20:C1:2B:94:B5:C7:AB:2E:79:A7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sicoobscrs.app",
+        "*.sicoobscrs.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sicoobscrs.app, DNS:sicoobscrs.app",
+        "subjectKeyIdentifier": "keyid:40:ac:8d:6f:54:da:3a:6c:74:00:b5:2f:7a:a8:8f:18:c4:e6:55:13"
+      }
+    },
+    "cert_index": 213815990,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x835/218",
+    "seen": 1779445520.307,
+    "submission_timestamp": 1779445516.151,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
