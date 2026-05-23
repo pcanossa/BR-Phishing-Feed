@@ -1,0 +1,53 @@
+{
+  "dominio": "correiostaxas.site",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/23/26 14:25:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correiostaxas.site",
+        "aggregated": "/CN=correiostaxas.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "995A544C361927690EF7829B2DDED1D7",
+      "not_before": 1778654704,
+      "not_after": 1786434163,
+      "fingerprint": "E6:71:F9:C9:78:D4:88:00:B6:43:0D:EC:6B:F4:DA:53:92:E2:49:7C",
+      "sha1": "E6:71:F9:C9:78:D4:88:00:B6:43:0D:EC:6B:F4:DA:53:92:E2:49:7C",
+      "sha256": "F7:34:0E:93:2A:99:CD:1F:21:6F:29:F5:41:D6:93:11:64:BF:C4:5F:F6:2C:D4:69:89:C2:68:A8:37:E0:21:35",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "correiostaxas.site",
+        "*.correiostaxas.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/mVo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:correiostaxas.site, DNS:*.correiostaxas.site",
+        "subjectKeyIdentifier": "keyid:4f:62:86:27:5c:3c:b0:77:0c:7b:ec:c2:7e:c6:38:be:5e:99:2d:99",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4336306820,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4336306820&end=4336306820",
+    "seen": 1779557148.435,
+    "submission_timestamp": 1779223420.149,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

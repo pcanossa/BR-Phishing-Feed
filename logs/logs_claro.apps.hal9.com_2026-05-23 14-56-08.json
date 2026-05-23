@@ -1,0 +1,52 @@
+{
+  "dominio": "claro.apps.hal9.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 14:56:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro.apps.hal9.com",
+        "aggregated": "/CN=claro.apps.hal9.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "ED0127E2304359EE0E7BCFC49D40C5BA",
+      "not_before": 1778859192,
+      "not_after": 1786638789,
+      "fingerprint": "6D:B2:44:4A:94:D0:54:6D:0B:CB:F7:FA:1B:88:1B:E9:25:BD:58:6A",
+      "sha1": "6D:B2:44:4A:94:D0:54:6D:0B:CB:F7:FA:1B:88:1B:E9:25:BD:58:6A",
+      "sha256": "8E:6A:29:E9:0E:6A:D3:5E:AE:99:EA:FD:CA:A6:6B:1A:92:21:21:AB:68:88:D0:55:D0:C7:8F:09:90:E5:F0:C2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "claro.apps.hal9.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/7QE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:claro.apps.hal9.com",
+        "subjectKeyIdentifier": "keyid:67:db:53:a9:7b:9f:e1:ea:1b:80:46:91:21:88:c2:93:1b:81:d0:c0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4336779612,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4336779612&end=4336779612",
+    "seen": 1779558959.956,
+    "submission_timestamp": 1779225326.647,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

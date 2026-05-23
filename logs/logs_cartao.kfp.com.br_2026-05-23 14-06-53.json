@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.kfp.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 14:06:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.kfp.com.br",
+        "aggregated": "/CN=cartao.kfp.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05F836B3DC239C1A064CE7E21011E1A936D3",
+      "not_before": 1779218631,
+      "not_after": 1786994630,
+      "fingerprint": "C2:E9:AE:E7:4E:DA:E9:76:85:B0:CC:E0:2D:9D:F0:B8:CD:3B:B3:D4",
+      "sha1": "C2:E9:AE:E7:4E:DA:E9:76:85:B0:CC:E0:2D:9D:F0:B8:CD:3B:B3:D4",
+      "sha256": "28:25:97:C0:8F:8E:B0:6C:65:0B:70:90:D4:71:F1:70:06:D7:F1:F1:B5:E4:66:0D:CD:06:66:A8:70:93:D5:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.kfp.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.kfp.com.br",
+        "subjectKeyIdentifier": "keyid:21:b5:67:24:ca:5e:75:f3:ef:ba:c7:df:b8:71:80:29:36:2d:55:e8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4336019531,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4336019531&end=4336019531",
+    "seen": 1779556005.486,
+    "submission_timestamp": 1779222145.827,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
