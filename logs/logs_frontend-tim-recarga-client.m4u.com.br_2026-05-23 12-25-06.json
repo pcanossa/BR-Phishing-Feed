@@ -1,0 +1,52 @@
+{
+  "dominio": "frontend-tim-recarga-client.m4u.com.br",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/23/26 12:25:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "frontend-tim-recarga-client.m4u.com.br",
+        "aggregated": "/CN=frontend-tim-recarga-client.m4u.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0787301201BB9E51E91067F49435B4A0",
+      "not_before": 1779148800,
+      "not_after": 1796255999,
+      "fingerprint": "63:6A:92:06:47:CB:7C:CB:9A:D2:9B:86:F0:54:A4:AF:9E:9C:FF:F1",
+      "sha1": "63:6A:92:06:47:CB:7C:CB:9A:D2:9B:86:F0:54:A4:AF:9E:9C:FF:F1",
+      "sha256": "BC:91:B8:83:FD:1E:8A:F7:C7:D6:DC:79:E4:C1:99:10:B9:3F:E6:5F:0A:20:1D:09:DE:BF:E7:7C:6D:D8:93:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "frontend-tim-recarga-client.m4u.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:frontend-tim-recarga-client.m4u.com.br",
+        "subjectKeyIdentifier": "keyid:d5:88:50:d0:e1:98:06:bf:b1:19:38:4c:6b:17:d6:21:bf:2e:a1:d7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4334473808,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4334473808&end=4334473808",
+    "seen": 1779549898.432,
+    "submission_timestamp": 1779215353.328,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao.virtual.rio.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 12:29:41",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.virtual.rio.br",
+        "aggregated": "/CN=cartao.virtual.rio.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0509897801FBFAE918138243A1A49792D5A1",
+      "not_before": 1779212126,
+      "not_after": 1786988125,
+      "fingerprint": "C3:7F:7A:AB:9B:60:AF:95:C0:AB:98:28:05:51:66:0D:6D:DF:99:17",
+      "sha1": "C3:7F:7A:AB:9B:60:AF:95:C0:AB:98:28:05:51:66:0D:6D:DF:99:17",
+      "sha256": "89:AC:55:91:29:96:49:3E:0A:9A:78:DB:05:4A:01:66:F3:8B:CE:3B:EF:01:86:F5:ED:00:67:06:67:87:87:C8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.virtual.rio.br",
+        "www.cartao.virtual.rio.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.virtual.rio.br, DNS:www.cartao.virtual.rio.br",
+        "subjectKeyIdentifier": "keyid:e5:a1:e0:f0:5d:5f:7c:73:6f:42:7c:5d:36:38:9d:a3:e0:a5:1c:29"
+      }
+    },
+    "cert_index": 4334545364,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4334545364&end=4334545364",
+    "seen": 1779550172.904,
+    "submission_timestamp": 1779215639.308,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
