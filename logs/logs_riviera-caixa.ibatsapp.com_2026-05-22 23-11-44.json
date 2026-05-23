@@ -1,0 +1,53 @@
+{
+  "dominio": "riviera-caixa.ibatsapp.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/22/26 23:11:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "riviera-admin.ibatsapp.com",
+        "aggregated": "/CN=riviera-admin.ibatsapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06003858BA926D9778F0217F520820B047AA",
+      "not_before": 1779162819,
+      "not_after": 1786938818,
+      "fingerprint": "99:DB:F9:83:20:6F:BB:C5:31:F1:5A:92:DB:66:50:50:65:8F:D0:BC",
+      "sha1": "99:DB:F9:83:20:6F:BB:C5:31:F1:5A:92:DB:66:50:50:65:8F:D0:BC",
+      "sha256": "64:34:63:FA:E3:38:25:51:D0:63:52:65:3A:59:B5:8D:80:21:B4:AE:86:37:E9:D1:A2:AC:6C:D4:78:03:37:2B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "riviera-admin.ibatsapp.com",
+        "riviera-caixa.ibatsapp.com",
+        "riviera-comerciante.ibatsapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:riviera-admin.ibatsapp.com, DNS:riviera-caixa.ibatsapp.com, DNS:riviera-comerciante.ibatsapp.com",
+        "subjectKeyIdentifier": "keyid:24:51:8d:b0:14:8f:7e:c5:ae:8c:94:9e:cf:6d:c5:c9:08:a2:4e:9f"
+      }
+    },
+    "cert_index": 4322204205,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4322204205&end=4322204205",
+    "seen": 1779502297.497,
+    "submission_timestamp": 1779166331.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

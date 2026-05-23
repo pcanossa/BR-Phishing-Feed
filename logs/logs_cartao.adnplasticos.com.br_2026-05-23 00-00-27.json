@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.adnplasticos.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 00:00:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.adnplasticos.com.br",
+        "aggregated": "/CN=cartao.adnplasticos.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E78A0AF204E8D795A6357C37461555D16B",
+      "not_before": 1779165999,
+      "not_after": 1786941998,
+      "fingerprint": "48:30:A7:AD:5B:21:DA:41:F4:06:88:C1:B0:47:85:93:2B:82:5B:E3",
+      "sha1": "48:30:A7:AD:5B:21:DA:41:F4:06:88:C1:B0:47:85:93:2B:82:5B:E3",
+      "sha256": "9F:99:90:5C:BD:B8:78:34:B7:73:74:2B:76:C9:6D:5D:50:6A:F2:1F:9D:0A:25:0C:EA:D0:49:DC:44:1F:41:3F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.adnplasticos.com.br",
+        "www.cartao.adnplasticos.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.adnplasticos.com.br, DNS:www.cartao.adnplasticos.com.br",
+        "subjectKeyIdentifier": "keyid:04:ee:b1:f5:a3:c7:95:d6:d6:a6:75:1e:cc:84:bd:3f:6c:ae:76:cf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4322944075,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4322944075&end=4322944075",
+    "seen": 1779505220.357,
+    "submission_timestamp": 1779169510.251,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "receitapg.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/22/26 23:49:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitapg.app",
+        "aggregated": "/CN=receitapg.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "12C89F0BD558784B0EB78D59628E4A11",
+      "not_before": 1778419630,
+      "not_after": 1786199097,
+      "fingerprint": "49:7D:58:A6:95:3F:85:63:D5:BC:D9:17:96:75:6B:C9:5F:09:C1:01",
+      "sha1": "49:7D:58:A6:95:3F:85:63:D5:BC:D9:17:96:75:6B:C9:5F:09:C1:01",
+      "sha256": "D3:FC:69:81:D4:41:6D:3D:79:23:E8:A1:3B:5F:17:A0:D8:BC:98:DB:6F:6F:F2:77:5F:EC:FA:0D:9D:60:37:04",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitapg.app",
+        "*.receitapg.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Esg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitapg.app, DNS:*.receitapg.app",
+        "subjectKeyIdentifier": "keyid:9f:8c:b2:be:e0:a8:a5:2f:15:6e:e3:c0:a9:84:51:32:3a:b9:b0:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 647472204,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=647472204&end=647472204",
+    "seen": 1779504592.035,
+    "submission_timestamp": 1778423231.035,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
