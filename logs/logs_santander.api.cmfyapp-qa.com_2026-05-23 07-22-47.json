@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.api.cmfyapp-qa.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/23/26 07:22:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.api.cmfyapp-qa.com",
+        "aggregated": "/CN=santander.api.cmfyapp-qa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "3708D789D62C1C6213B4B69525F330C3",
+      "not_before": 1778529426,
+      "not_after": 1786308957,
+      "fingerprint": "9D:D5:59:A0:BE:B3:DC:3D:23:88:92:F7:CA:60:4F:61:11:13:E0:77",
+      "sha1": "9D:D5:59:A0:BE:B3:DC:3D:23:88:92:F7:CA:60:4F:61:11:13:E0:77",
+      "sha256": "7C:77:C6:EF:BB:06:AA:58:ED:B9:5B:2C:0F:7F:5A:AE:A1:3A:3C:47:4D:85:DC:E7:80:C3:EA:8E:C8:17:C2:58",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander.api.cmfyapp-qa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Nwg, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander.api.cmfyapp-qa.com",
+        "subjectKeyIdentifier": "keyid:d1:bb:c5:68:77:72:f0:e1:99:bb:3e:90:42:5c:fe:f5:da:33:a8:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 632486504,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=632486504&end=632486504",
+    "seen": 1779531759.178,
+    "submission_timestamp": 1778533026.92,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
