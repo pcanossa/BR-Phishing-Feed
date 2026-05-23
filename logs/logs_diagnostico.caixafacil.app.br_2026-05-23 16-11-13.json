@@ -1,0 +1,51 @@
+{
+  "dominio": "diagnostico.caixafacil.app.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/23/26 16:11:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "diagnostico.caixafacil.app.br",
+        "aggregated": "/CN=diagnostico.caixafacil.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05CF1D6027BCCE358903898ADC1B604F597C",
+      "not_before": 1779226873,
+      "not_after": 1787002872,
+      "fingerprint": "6B:C7:42:4D:2E:FA:03:47:5C:91:D3:05:75:48:33:DC:4F:36:97:A1",
+      "sha1": "6B:C7:42:4D:2E:FA:03:47:5C:91:D3:05:75:48:33:DC:4F:36:97:A1",
+      "sha256": "6F:08:DE:84:2A:41:EF:E8:DF:2C:D0:F3:0D:79:7E:60:E6:9F:9F:32:80:55:9E:0C:C2:6D:3D:B1:AA:C4:43:55",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "diagnostico.caixafacil.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:diagnostico.caixafacil.app.br",
+        "subjectKeyIdentifier": "keyid:0e:87:d8:fe:37:41:d7:c5:5a:40:bc:92:8f:d0:fc:2c:12:12:48:2b"
+      }
+    },
+    "cert_index": 4337941718,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4337941718&end=4337941718",
+    "seen": 1779563464.136,
+    "submission_timestamp": 1779230385.449,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
