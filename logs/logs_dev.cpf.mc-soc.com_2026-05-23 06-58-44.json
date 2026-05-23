@@ -1,0 +1,52 @@
+{
+  "dominio": "dev.cpf.mc-soc.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 06:58:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.cpf.mc-soc.com",
+        "aggregated": "/CN=dev.cpf.mc-soc.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0F687B6453CF9400F9E2262B3D9D1855",
+      "not_before": 1779062400,
+      "not_after": 1796169599,
+      "fingerprint": "2D:7B:5E:B8:79:17:53:A3:C6:B4:5C:D3:21:5E:D0:2A:C1:1E:0F:1E",
+      "sha1": "2D:7B:5E:B8:79:17:53:A3:C6:B4:5C:D3:21:5E:D0:2A:C1:1E:0F:1E",
+      "sha256": "8E:83:5A:82:9E:13:E9:B0:65:4A:8B:14:9F:63:00:FE:C8:E2:BD:CE:E6:58:43:D2:FD:22:0F:5B:6C:A4:84:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.cpf.mc-soc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.cpf.mc-soc.com",
+        "subjectKeyIdentifier": "keyid:eb:9c:a7:3b:c3:11:95:68:b4:0c:3d:87:a8:a9:6e:68:04:9c:09:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 795323333,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=795323333&end=795323333",
+    "seen": 1779530316.396,
+    "submission_timestamp": 1779080908.152,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

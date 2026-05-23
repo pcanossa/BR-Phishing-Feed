@@ -1,0 +1,53 @@
+{
+  "dominio": "test.cpf.everbird.cool",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 06:10:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.everbird.cool",
+        "aggregated": "/CN=cpf.everbird.cool"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05FB454AA2554B39A97C0C4E369138776051",
+      "not_before": 1779188962,
+      "not_after": 1786964961,
+      "fingerprint": "59:DC:F7:5F:38:CE:C5:A7:47:78:F4:CA:D5:95:70:9B:BE:FB:17:EB",
+      "sha1": "59:DC:F7:5F:38:CE:C5:A7:47:78:F4:CA:D5:95:70:9B:BE:FB:17:EB",
+      "sha256": "B8:96:D3:B7:77:FC:79:C0:8E:9A:C7:78:74:4F:A6:00:0D:8F:86:9D:4D:27:35:90:98:EB:46:A8:40:76:AD:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.everbird.cool",
+        "*.cpf.everbird.cool",
+        "*.test.cpf.everbird.cool"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.everbird.cool, DNS:*.test.cpf.everbird.cool, DNS:cpf.everbird.cool",
+        "subjectKeyIdentifier": "keyid:bd:66:93:9b:3a:64:72:2d:f3:e7:19:ff:49:4c:5f:a7:6b:3b:75:40"
+      }
+    },
+    "cert_index": 4328638127,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4328638127&end=4328638127",
+    "seen": 1779527400.096,
+    "submission_timestamp": 1779192475.599,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

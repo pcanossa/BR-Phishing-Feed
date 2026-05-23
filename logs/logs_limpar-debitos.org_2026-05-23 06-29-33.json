@@ -1,0 +1,53 @@
+{
+  "dominio": "limpar-debitos.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/23/26 06:29:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpar-debitos.org",
+        "aggregated": "/CN=limpar-debitos.org"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "12317DCB6A751233FA9312FCE076E8F1",
+      "not_before": 1779148800,
+      "not_after": 1786969428,
+      "fingerprint": "2C:6A:03:37:3F:E6:78:AF:ED:08:AD:1E:EE:1B:9F:E6:71:2F:F9:C6",
+      "sha1": "2C:6A:03:37:3F:E6:78:AF:ED:08:AD:1E:EE:1B:9F:E6:71:2F:F9:C6",
+      "sha256": "B7:8C:14:B9:72:0C:C6:33:76:F8:73:CF:54:5B:98:E3:2A:4C:AA:DD:88:BC:19:68:C7:A0:A3:A8:A5:4A:A2:6C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "limpar-debitos.org",
+        "*.limpar-debitos.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:limpar-debitos.org, DNS:*.limpar-debitos.org",
+        "subjectKeyIdentifier": "keyid:59:de:55:10:a0:32:b1:09:3e:0c:06:c6:9f:a5:b0:66:dc:aa:32:a3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4328950810,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4328950810&end=4328950810",
+    "seen": 1779528565.953,
+    "submission_timestamp": 1779193669.967,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
