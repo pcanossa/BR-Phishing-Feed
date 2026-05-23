@@ -1,0 +1,52 @@
+{
+  "dominio": "www.uber-driver-app.cfd",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/23/26 08:36:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.uber-driver-app.cfd",
+        "aggregated": "/CN=www.uber-driver-app.cfd"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "069EB9F54F16E54EFDEE2313C6682E366AD2",
+      "not_before": 1779197997,
+      "not_after": 1786973996,
+      "fingerprint": "78:58:5A:DF:05:D4:F8:85:E7:F9:ED:F8:A0:A2:52:06:CD:11:99:98",
+      "sha1": "78:58:5A:DF:05:D4:F8:85:E7:F9:ED:F8:A0:A2:52:06:CD:11:99:98",
+      "sha256": "A1:54:43:A3:1B:57:74:55:2B:3E:E0:88:D6:5F:DC:ED:44:63:29:7C:A4:5B:D6:7D:CC:90:52:E9:82:9A:B1:1B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.uber-driver-app.cfd"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.uber-driver-app.cfd",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4330948676,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4330948676&end=4330948676",
+    "seen": 1779536194.625,
+    "submission_timestamp": 1779201507.641,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

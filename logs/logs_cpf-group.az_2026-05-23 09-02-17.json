@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-group.az",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 09:02:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf-group.az",
+        "aggregated": "/CN=*.cpf-group.az"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "061EF6CA306676D6997E6B6E56E74C23FA30",
+      "not_before": 1779199374,
+      "not_after": 1786975373,
+      "fingerprint": "34:B7:BB:3D:D1:81:FC:78:45:A9:5E:F4:AF:5E:2D:D6:4C:1E:AE:B3",
+      "sha1": "34:B7:BB:3D:D1:81:FC:78:45:A9:5E:F4:AF:5E:2D:D6:4C:1E:AE:B3",
+      "sha256": "33:70:9B:1D:6C:29:42:01:78:41:E0:64:EA:43:38:CA:00:BF:17:C0:23:19:DC:8A:BE:02:C7:8A:23:45:AE:04",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-group.az",
+        "cpf-group.az"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-group.az, DNS:cpf-group.az",
+        "subjectKeyIdentifier": "keyid:cc:d1:78:00:ae:96:4a:09:fb:c7:e9:9b:0c:c1:f7:78:14:9c:7d:57"
+      }
+    },
+    "cert_index": 4331355339,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4331355339&end=4331355339",
+    "seen": 1779537728.758,
+    "submission_timestamp": 1779203058.252,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

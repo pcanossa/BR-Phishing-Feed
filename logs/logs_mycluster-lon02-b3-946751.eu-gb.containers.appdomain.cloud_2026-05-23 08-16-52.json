@@ -1,0 +1,53 @@
+{
+  "dominio": "mycluster-lon02-b3-946751.eu-gb.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "05/23/26 08:16:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mycluster-lon02-b3-946751.eu-gb.containers.appdomain.cloud",
+        "aggregated": "/CN=mycluster-lon02-b3-946751.eu-gb.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0522E04D584F26597E5A5AF593400CF19006",
+      "not_before": 1779531492,
+      "not_after": 1787307491,
+      "fingerprint": "CD:3E:60:CB:2D:33:91:04:37:7E:3C:6D:6F:2A:6C:EE:38:65:40:E8",
+      "sha1": "CD:3E:60:CB:2D:33:91:04:37:7E:3C:6D:6F:2A:6C:EE:38:65:40:E8",
+      "sha256": "A0:77:10:C2:C8:6C:5C:8A:4B:D2:0C:C9:BF:0D:5F:C4:47:B3:81:0C:5B:50:59:67:CB:D2:6A:76:15:27:66:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mycluster-lon02-b3-946751.eu-gb.containers.appdomain.cloud",
+        "*.mycluster-lon02-b3-946751-090f816d359cb153562489c14d428f95-0000.eu-gb.containers.appdomain.cloud",
+        "mycluster-lon02-b3-946751-090f816d359cb153562489c14d428f95-0000.eu-gb.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.mycluster-lon02-b3-946751-090f816d359cb153562489c14d428f95-0000.eu-gb.containers.appdomain.cloud, DNS:mycluster-lon02-b3-946751-090f816d359cb153562489c14d428f95-0000.eu-gb.containers.appdomain.cloud, DNS:mycluster-lon02-b3-946751.eu-gb.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:7a:a3:48:9b:3b:90:49:c9:5e:cc:5b:ac:64:22:d6:8f:c5:04:f3:c3"
+      }
+    },
+    "cert_index": 204040006,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x797/031",
+    "seen": 1779535004.775,
+    "submission_timestamp": 1779535002.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

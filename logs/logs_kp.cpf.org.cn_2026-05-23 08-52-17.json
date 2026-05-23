@@ -1,0 +1,51 @@
+{
+  "dominio": "kp.cpf.org.cn",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 08:52:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "kp.cpf.org.cn",
+        "aggregated": "/CN=kp.cpf.org.cn"
+      },
+      "issuer": {
+        "C": "CN",
+        "CN": "\u5b9d\u5854 DV TLS RSA CA 2025",
+        "O": "\u5e7f\u4e1c\u5821\u5854\u5b89\u5168\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "aggregated": "/C=CN/CN=\u5b9d\u5854 DV TLS RSA CA 2025/O=\u5e7f\u4e1c\u5821\u5854\u5b89\u5168\u6280\u672f\u6709\u9650\u516c\u53f8"
+      },
+      "serial_number": "42746C556351F5A8464A2E5A83A127F545CC58C1",
+      "not_before": 1777442400,
+      "not_after": 1794635999,
+      "fingerprint": "F8:13:6C:CA:60:D9:B3:D6:9C:95:39:C8:F8:95:28:A0:77:A7:25:7A",
+      "sha1": "F8:13:6C:CA:60:D9:B3:D6:9C:95:39:C8:F8:95:28:A0:77:A7:25:7A",
+      "sha256": "25:58:F5:69:7B:17:59:60:55:9B:DC:5B:91:D4:0F:6A:8E:D8:CB:01:D3:4E:A3:BF:E7:64:46:06:53:C1:D6:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "kp.cpf.org.cn"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ica.oem.trustca.net/BaoTaDVTLSRSACA2025.crt, URI:http://ocsp.oem.trustca.net/BaoTaDVTLSRSACA2025",
+        "authorityKeyIdentifier": "keyid:30:de:87:d0:6f:4c:87:9d:ea:0f:95:2f:9a:e4:e9:3d:de:c0:8f:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:kp.cpf.org.cn",
+        "subjectKeyIdentifier": "keyid:0a:fe:ab:25:fd:ba:f7:1d:3b:44:9a:e2:96:30:50:d6:4f:fb:e9:1d"
+      }
+    },
+    "cert_index": 1547367693,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1547367693&end=1547367693",
+    "seen": 1779537129.731,
+    "submission_timestamp": 1778077594.537,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}
