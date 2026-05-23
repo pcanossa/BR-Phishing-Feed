@@ -1,0 +1,53 @@
+{
+  "dominio": "nfx.debitos.uk",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/23/26 00:26:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "194fc36e.sni.cloudflaressl.com",
+        "aggregated": "/CN=194fc36e.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "C744800B6D7E9193131E593FF54AAE62",
+      "not_before": 1779167563,
+      "not_after": 1786947076,
+      "fingerprint": "50:F4:68:14:02:1A:48:29:0B:ED:A2:60:1E:E2:B2:D6:3E:81:9F:0A",
+      "sha1": "50:F4:68:14:02:1A:48:29:0B:ED:A2:60:1E:E2:B2:D6:3E:81:9F:0A",
+      "sha256": "85:3D:76:01:85:07:B8:67:C3:48:ED:19:DA:02:13:55:68:67:72:32:13:69:D1:7B:FA:EB:72:C6:C4:F4:24:0D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "194fc36e.sni.cloudflaressl.com",
+        "nfx.debitos.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/x0Q, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:194fc36e.sni.cloudflaressl.com, DNS:nfx.debitos.uk",
+        "subjectKeyIdentifier": "keyid:9e:0f:84:d0:ea:af:ea:bb:c9:e7:5c:73:a3:e6:80:76:f1:e1:78:b7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4323327475,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4323327475&end=4323327475",
+    "seen": 1779506807.27,
+    "submission_timestamp": 1779171164.432,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

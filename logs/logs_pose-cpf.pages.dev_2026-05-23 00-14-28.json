@@ -1,0 +1,52 @@
+{
+  "dominio": "pose-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 00:14:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pose-cpf.pages.dev",
+        "aggregated": "/CN=pose-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05B90AFDCFE5D7E3AAF3FB84D1AF72C6FA58",
+      "not_before": 1779166884,
+      "not_after": 1786942883,
+      "fingerprint": "82:4E:B7:60:B3:72:CF:C9:1C:6A:92:6D:ED:52:E0:8F:A1:19:19:EE",
+      "sha1": "82:4E:B7:60:B3:72:CF:C9:1C:6A:92:6D:ED:52:E0:8F:A1:19:19:EE",
+      "sha256": "9D:62:41:33:E3:BE:00:CF:E4:56:CE:B5:C3:F1:BD:8C:56:20:88:39:33:59:B4:19:71:29:FA:76:25:F6:F2:1E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pose-cpf.pages.dev",
+        "*.pose-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pose-cpf.pages.dev, DNS:pose-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:e7:94:2a:ca:df:b4:32:c9:d0:f6:5e:7d:97:64:24:6e:ec:a5:96:ab"
+      }
+    },
+    "cert_index": 4323146685,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4323146685&end=4323146685",
+    "seen": 1779506061.818,
+    "submission_timestamp": 1779170397.146,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
