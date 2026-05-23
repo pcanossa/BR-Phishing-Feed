@@ -1,0 +1,53 @@
+{
+  "dominio": "caixabetcaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/23/26 15:06:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixabetcaixa.com",
+        "aggregated": "/CN=caixabetcaixa.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "A53F2FB09B77170D37BBD264C134A16A",
+      "not_before": 1779062400,
+      "not_after": 1786878394,
+      "fingerprint": "DD:D6:8C:6D:42:C7:5A:EB:EC:6C:1B:FD:DE:CD:42:E0:38:82:8E:3B",
+      "sha1": "DD:D6:8C:6D:42:C7:5A:EB:EC:6C:1B:FD:DE:CD:42:E0:38:82:8E:3B",
+      "sha256": "5A:CD:F1:4B:45:7D:F7:60:E5:DA:E1:C0:25:EC:A5:1C:E2:66:10:A0:73:83:85:10:B7:91:8B:C4:21:FA:23:2A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixabetcaixa.com",
+        "*.caixabetcaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixabetcaixa.com, DNS:*.caixabetcaixa.com",
+        "subjectKeyIdentifier": "keyid:f6:93:5a:fd:98:9a:65:23:0a:a6:8c:97:e7:09:07:a4:34:ac:ee:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 798875511,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=798875511&end=798875511",
+    "seen": 1779559582.836,
+    "submission_timestamp": 1779102555.608,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
