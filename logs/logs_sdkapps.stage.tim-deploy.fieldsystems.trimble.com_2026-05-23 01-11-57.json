@@ -1,0 +1,51 @@
+{
+  "dominio": "sdkapps.stage.tim-deploy.fieldsystems.trimble.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/23/26 01:11:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sdkapps.stage.tim-deploy.fieldsystems.trimble.com",
+        "aggregated": "/CN=sdkapps.stage.tim-deploy.fieldsystems.trimble.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "015EC425E72441F9DAD1749A7A353F84",
+      "not_before": 1778630400,
+      "not_after": 1795737599,
+      "fingerprint": "E6:29:3A:48:D5:F6:E6:30:0C:1C:91:95:84:AD:16:D6:A4:0D:CC:DA",
+      "sha1": "E6:29:3A:48:D5:F6:E6:30:0C:1C:91:95:84:AD:16:D6:A4:0D:CC:DA",
+      "sha256": "DC:5B:27:85:72:EF:1E:5A:0E:1B:10:41:1A:42:D4:35:96:E7:57:E6:FB:A3:92:6A:58:CD:9E:FB:E9:5C:AB:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sdkapps.stage.tim-deploy.fieldsystems.trimble.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sdkapps.stage.tim-deploy.fieldsystems.trimble.com",
+        "subjectKeyIdentifier": "keyid:32:d0:09:8a:01:c9:a9:e3:44:26:6f:fa:3a:b6:6d:65:ff:92:89:08"
+      }
+    },
+    "cert_index": 4323977129,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4323977129&end=4323977129",
+    "seen": 1779509510.263,
+    "submission_timestamp": 1779173952.31,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
