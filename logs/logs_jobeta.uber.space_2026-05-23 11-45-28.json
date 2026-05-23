@@ -1,0 +1,51 @@
+{
+  "dominio": "jobeta.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/23/26 11:45:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jobeta.uber.space",
+        "aggregated": "/CN=jobeta.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05949348AD7067D17563534E08302B9391E7",
+      "not_before": 1779209223,
+      "not_after": 1786985222,
+      "fingerprint": "41:05:C8:35:B0:C2:B1:2A:FE:D5:5C:EC:BA:03:B0:90:03:A1:EE:33",
+      "sha1": "41:05:C8:35:B0:C2:B1:2A:FE:D5:5C:EC:BA:03:B0:90:03:A1:EE:33",
+      "sha256": "47:E6:44:0C:99:90:2B:52:28:6B:77:0B:66:58:1E:D5:A8:88:51:B6:DF:C7:50:C5:1C:AA:35:38:D4:BF:AE:6F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "jobeta.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:jobeta.uber.space",
+        "subjectKeyIdentifier": "keyid:d7:96:92:5a:d4:9b:0e:f1:90:6a:14:8b:6a:3b:f8:df:33:f4:fb:9a"
+      }
+    },
+    "cert_index": 4333862151,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4333862151&end=4333862151",
+    "seen": 1779547520.504,
+    "submission_timestamp": 1779212736.466,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
