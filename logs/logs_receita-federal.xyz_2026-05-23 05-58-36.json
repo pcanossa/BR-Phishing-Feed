@@ -1,0 +1,53 @@
+{
+  "dominio": "receita-federal.xyz",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/23/26 05:58:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receita-federal.xyz",
+        "aggregated": "/CN=receita-federal.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1612488B9E3D587613472BFC5A00BF79",
+      "not_before": 1778994846,
+      "not_after": 1786774305,
+      "fingerprint": "75:85:71:65:3C:12:89:9D:F4:41:43:E3:19:5E:6F:6E:A1:31:AC:38",
+      "sha1": "75:85:71:65:3C:12:89:9D:F4:41:43:E3:19:5E:6F:6E:A1:31:AC:38",
+      "sha256": "0A:60:90:FB:48:99:F2:88:E1:C3:1C:0E:5C:39:54:DC:A8:93:DF:60:CE:7C:F3:15:02:B8:49:41:EF:C2:E6:1B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receita-federal.xyz",
+        "*.receita-federal.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/FhI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receita-federal.xyz, DNS:*.receita-federal.xyz",
+        "subjectKeyIdentifier": "keyid:98:14:3f:75:69:b3:2e:01:71:c6:c8:d5:77:10:c2:5d:0d:54:1b:1b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 669794492,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=669794492&end=669794492",
+    "seen": 1779526709.294,
+    "submission_timestamp": 1779002730.814,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

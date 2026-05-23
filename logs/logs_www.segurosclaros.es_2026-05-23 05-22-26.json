@@ -1,0 +1,51 @@
+{
+  "dominio": "www.segurosclaros.es",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 05:22:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.segurosclaros.es",
+        "aggregated": "/CN=www.segurosclaros.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05DBD54A873F9BCCE38148F5493F66737810",
+      "not_before": 1779185811,
+      "not_after": 1786961810,
+      "fingerprint": "CF:D2:7E:6E:30:70:F0:7C:F8:E7:CA:7E:38:F4:E8:86:A5:86:95:19",
+      "sha1": "CF:D2:7E:6E:30:70:F0:7C:F8:E7:CA:7E:38:F4:E8:86:A5:86:95:19",
+      "sha256": "CE:8A:80:EF:55:21:94:B8:72:61:6E:5A:39:43:6A:C5:39:5A:2B:14:C2:60:4A:D5:D1:A6:C6:F1:0B:E3:1A:6C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.segurosclaros.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.segurosclaros.es",
+        "subjectKeyIdentifier": "keyid:ae:ac:32:67:2e:68:90:bc:16:f2:fe:03:64:49:86:1c:97:61:d8:4f"
+      }
+    },
+    "cert_index": 4327872405,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4327872405&end=4327872405",
+    "seen": 1779524538.17,
+    "submission_timestamp": 1779189487.868,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
