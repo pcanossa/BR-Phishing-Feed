@@ -1,0 +1,51 @@
+{
+  "dominio": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/23/26 17:27:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06FD5C8BCBB8FB673B0596FAFB56308FB176",
+      "not_before": 1779232210,
+      "not_after": 1787008209,
+      "fingerprint": "19:79:F1:04:68:E1:AB:EF:AC:60:3B:C2:13:44:CD:E5:AF:C5:34:AE",
+      "sha1": "19:79:F1:04:68:E1:AB:EF:AC:60:3B:C2:13:44:CD:E5:AF:C5:34:AE",
+      "sha256": "4F:37:DE:92:A9:E0:19:48:E3:42:B6:2D:40:23:8B:84:22:65:F2:B3:C9:04:53:91:3D:4F:1A:23:44:0D:CE:2D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:a9:8e:73:ad:56:db:9a:cd:08:d4:0b:2b:ea:1d:84:8d:23:db:72:de"
+      }
+    },
+    "cert_index": 4339114150,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339114150&end=4339114150",
+    "seen": 1779568029.611,
+    "submission_timestamp": 1779235723.588,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

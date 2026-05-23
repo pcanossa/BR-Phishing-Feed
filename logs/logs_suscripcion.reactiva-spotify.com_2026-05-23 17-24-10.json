@@ -1,0 +1,52 @@
+{
+  "dominio": "suscripcion.reactiva-spotify.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/23/26 17:24:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "suscripcion.reactiva-spotify.com",
+        "aggregated": "/CN=suscripcion.reactiva-spotify.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0511EFDB78557B0238B197D1728213203E2D",
+      "not_before": 1779232033,
+      "not_after": 1787008032,
+      "fingerprint": "6B:B1:40:9F:4B:23:CC:5E:D8:5A:96:F5:D9:EB:B2:66:DE:4B:50:11",
+      "sha1": "6B:B1:40:9F:4B:23:CC:5E:D8:5A:96:F5:D9:EB:B2:66:DE:4B:50:11",
+      "sha256": "32:89:EC:EE:62:4F:5B:E0:81:5B:9F:97:CE:B4:3E:43:A8:B2:2D:FF:6A:BB:B2:7C:A4:7C:40:7C:96:B8:57:EC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "suscripcion.reactiva-spotify.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:suscripcion.reactiva-spotify.com",
+        "subjectKeyIdentifier": "keyid:ff:bc:bc:49:1b:bd:85:02:05:3e:55:f7:b3:dc:ac:ec:68:50:80:03",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4339065653,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339065653&end=4339065653",
+    "seen": 1779567841.835,
+    "submission_timestamp": 1779235543.177,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

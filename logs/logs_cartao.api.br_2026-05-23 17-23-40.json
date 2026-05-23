@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.api.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 17:23:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.api.br",
+        "aggregated": "/CN=cartao.api.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "060F45B95B19BB57C8A4E7DBA8548A96F8A4",
+      "not_before": 1779564297,
+      "not_after": 1787340296,
+      "fingerprint": "57:8B:48:D3:64:AC:45:20:19:27:D2:25:2F:CA:9E:5E:66:09:5B:A6",
+      "sha1": "57:8B:48:D3:64:AC:45:20:19:27:D2:25:2F:CA:9E:5E:66:09:5B:A6",
+      "sha256": "8E:CA:7D:C8:8C:6E:4C:FF:46:4B:D0:BD:56:D3:31:DD:9A:A1:23:3B:EA:2D:31:C7:0B:29:54:3B:3C:7B:32:CC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.api.br",
+        "*.cartao.api.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cartao.api.br, DNS:cartao.api.br",
+        "subjectKeyIdentifier": "keyid:10:6c:2a:29:d5:86:a1:1e:cf:80:8b:ee:1f:a6:a5:10:ae:7b:f3:74"
+      }
+    },
+    "cert_index": 217738012,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x850/539",
+    "seen": 1779567811.299,
+    "submission_timestamp": 1779567808.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

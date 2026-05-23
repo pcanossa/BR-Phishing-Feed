@@ -1,0 +1,51 @@
+{
+  "dominio": "app.test.comersantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/23/26 17:30:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.test.comersantander.com",
+        "aggregated": "/CN=app.test.comersantander.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9C071B58F13D0E7F604197C5DB65AEEB",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "53:AD:DA:2B:41:86:82:95:28:AE:82:BC:61:DD:D0:48:26:33:9C:CF",
+      "sha1": "53:AD:DA:2B:41:86:82:95:28:AE:82:BC:61:DD:D0:48:26:33:9C:CF",
+      "sha256": "95:CE:AD:5A:48:A4:95:61:2B:D4:79:0B:4A:66:B8:44:CD:37:0F:7B:D1:A9:0B:EF:63:DD:2C:39:A2:7F:E0:59",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.test.comersantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.test.comersantander.com",
+        "subjectKeyIdentifier": "keyid:c4:2a:95:99:d6:5c:5b:36:e3:e5:ae:2e:c7:2a:f4:1b:b7:64:41:84"
+      }
+    },
+    "cert_index": 332345350,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x298/224",
+    "seen": 1779568194.322,
+    "submission_timestamp": 1779568191.429,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

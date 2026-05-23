@@ -1,0 +1,53 @@
+{
+  "dominio": "5adc-netflixpromocao.pages.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/23/26 17:25:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "5adc-netflixpromocao.pages.dev",
+        "aggregated": "/CN=5adc-netflixpromocao.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "574BA7A54469FE530E00A2247E8C0B73",
+      "not_before": 1779232005,
+      "not_after": 1787011527,
+      "fingerprint": "55:0C:F8:87:68:3E:E5:4E:78:10:56:91:2B:B6:BF:75:41:86:6A:75",
+      "sha1": "55:0C:F8:87:68:3E:E5:4E:78:10:56:91:2B:B6:BF:75:41:86:6A:75",
+      "sha256": "56:B2:60:DF:33:4C:9C:4C:86:36:B4:9C:5A:85:80:2F:A3:1C:CF:12:5B:0B:21:BD:48:A4:88:16:F0:78:7C:24",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "5adc-netflixpromocao.pages.dev",
+        "*.5adc-netflixpromocao.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/V0s, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:5adc-netflixpromocao.pages.dev, DNS:*.5adc-netflixpromocao.pages.dev",
+        "subjectKeyIdentifier": "keyid:08:42:83:e2:18:f5:4f:98:9a:0c:ca:97:84:54:63:54:fc:aa:01:ed",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4339082636,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339082636&end=4339082636",
+    "seen": 1779567904.917,
+    "submission_timestamp": 1779235605.645,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

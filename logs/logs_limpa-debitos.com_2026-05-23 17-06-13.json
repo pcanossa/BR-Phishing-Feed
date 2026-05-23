@@ -1,0 +1,52 @@
+{
+  "dominio": "limpa-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/23/26 17:06:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpa-debitos.com",
+        "aggregated": "/CN=limpa-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0569531D56E3ABCA3C6AD198764B9CC043C2",
+      "not_before": 1777955404,
+      "not_after": 1785731403,
+      "fingerprint": "3C:94:DB:FA:6F:00:C8:07:99:66:CC:5F:AB:EE:D1:5B:0D:5F:B7:31",
+      "sha1": "3C:94:DB:FA:6F:00:C8:07:99:66:CC:5F:AB:EE:D1:5B:0D:5F:B7:31",
+      "sha256": "A1:27:66:D5:CD:7F:96:6E:BF:7D:EC:82:64:8F:A8:67:A0:43:0C:25:C8:A6:01:FA:69:E5:D0:6F:A4:34:66:9D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "limpa-debitos.com",
+        "*.limpa-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.limpa-debitos.com, DNS:limpa-debitos.com",
+        "subjectKeyIdentifier": "keyid:86:e7:b6:fb:25:3a:6e:64:d0:f6:9b:81:74:4a:bd:1d:66:57:39:ed"
+      }
+    },
+    "cert_index": 841890443,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=841890443&end=841890443",
+    "seen": 1779566773.922,
+    "submission_timestamp": 1777958914.722,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

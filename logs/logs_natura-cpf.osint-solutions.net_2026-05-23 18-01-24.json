@@ -1,0 +1,52 @@
+{
+  "dominio": "natura-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 18:01:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "209BEE6134529BC50ECF9A40F835E1B7",
+      "not_before": 1779234177,
+      "not_after": 1787013775,
+      "fingerprint": "1F:A8:E9:12:2F:22:94:5B:AF:E2:B3:9F:37:B5:7C:23:B7:6B:E7:85",
+      "sha1": "1F:A8:E9:12:2F:22:94:5B:AF:E2:B3:9F:37:B5:7C:23:B7:6B:E7:85",
+      "sha256": "28:CF:7E:0B:9C:6C:23:0D:3B:D4:4A:AC:1D:5E:8E:00:85:83:BA:9B:DC:49:0E:B0:CF:8C:09:65:82:6D:8E:95",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "natura-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/IJs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:natura-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:42:c1:5a:4e:ec:e9:ef:24:7c:0b:5f:33:b5:14:c1:f7:5e:42:05:48"
+      }
+    },
+    "cert_index": 4339639701,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339639701&end=4339639701",
+    "seen": 1779570075.295,
+    "submission_timestamp": 1779237837.285,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

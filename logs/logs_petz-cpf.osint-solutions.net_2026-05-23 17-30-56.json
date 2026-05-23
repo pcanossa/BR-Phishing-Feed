@@ -1,0 +1,53 @@
+{
+  "dominio": "petz-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 17:30:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "72C8F3F1CC178F09132C94B16DF55954",
+      "not_before": 1779232346,
+      "not_after": 1787011816,
+      "fingerprint": "87:72:07:EF:4C:0F:21:04:0C:05:C8:AB:D8:D0:0A:68:B1:DB:97:09",
+      "sha1": "87:72:07:EF:4C:0F:21:04:0C:05:C8:AB:D8:D0:0A:68:B1:DB:97:09",
+      "sha256": "72:F7:ED:1B:BE:03:2F:24:71:6D:D7:16:1C:76:9A:AB:13:4E:C3:6D:A1:01:A1:5A:3C:E2:EA:A2:BE:F0:D9:6D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "petz-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/csg, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:petz-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:30:a9:e6:e5:91:d1:b7:45:6c:5b:36:18:a5:9a:15:e6:76:14:35:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4339168306,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339168306&end=4339168306",
+    "seen": 1779568246.976,
+    "submission_timestamp": 1779235946.997,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
