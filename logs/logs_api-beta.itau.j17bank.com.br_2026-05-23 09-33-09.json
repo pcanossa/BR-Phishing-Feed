@@ -1,0 +1,52 @@
+{
+  "dominio": "api-beta.itau.j17bank.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/23/26 09:33:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-beta.itau.j17bank.com.br",
+        "aggregated": "/CN=api-beta.itau.j17bank.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06D3C6026E34C46FCA8F2E988CDAB776862E",
+      "not_before": 1778533182,
+      "not_after": 1786309181,
+      "fingerprint": "75:5A:F7:95:B3:2D:67:D4:18:09:43:6A:6D:79:28:EB:0E:47:7C:A8",
+      "sha1": "75:5A:F7:95:B3:2D:67:D4:18:09:43:6A:6D:79:28:EB:0E:47:7C:A8",
+      "sha256": "E1:74:B6:F4:83:58:57:E8:52:62:A2:80:89:6E:13:AA:70:2B:40:DC:49:50:D3:20:64:DD:87:CB:6D:01:14:97",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api-beta.itau.j17bank.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api-beta.itau.j17bank.com.br",
+        "subjectKeyIdentifier": "keyid:bb:f3:de:0a:10:87:ad:93:91:24:71:1c:4c:ed:c2:26:02:bf:0e:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 632948851,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=632948851&end=632948851",
+    "seen": 1779539581.268,
+    "submission_timestamp": 1778536693.028,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
