@@ -1,0 +1,52 @@
+{
+  "dominio": "saldoclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 13:59:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "saldoclaro.app",
+        "aggregated": "/CN=saldoclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1F00154EA2C830C50EE46217F2D75560",
+      "not_before": 1779218080,
+      "not_after": 1786997675,
+      "fingerprint": "97:79:A1:0B:FA:A6:A1:82:EA:23:6F:DD:FA:BA:45:CC:45:C7:20:91",
+      "sha1": "97:79:A1:0B:FA:A6:A1:82:EA:23:6F:DD:FA:BA:45:CC:45:C7:20:91",
+      "sha256": "98:82:78:5A:90:D8:C3:15:49:8B:9A:23:B1:43:0E:9B:F1:00:E5:CD:FA:DB:B1:C4:02:78:A1:5B:C8:54:29:39",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "saldoclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/HwA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:saldoclaro.app",
+        "subjectKeyIdentifier": "keyid:81:2c:bb:96:b6:73:3e:d5:c1:1c:12:c4:ec:2c:e9:fd:b8:fe:ba:57",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4335914888,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4335914888&end=4335914888",
+    "seen": 1779555580.407,
+    "submission_timestamp": 1779221681.429,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

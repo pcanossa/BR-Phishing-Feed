@@ -1,0 +1,53 @@
+{
+  "dominio": "api.assinaturas.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/23/26 13:46:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.assinaturas.pagseguro.com",
+        "aggregated": "/CN=api.assinaturas.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "637236135D1B609413DF4DBF81BB397A",
+      "not_before": 1778540204,
+      "not_after": 1786319670,
+      "fingerprint": "C4:A9:8E:90:D1:2E:77:7D:25:6A:A4:74:DB:66:28:E0:ED:4E:AC:84",
+      "sha1": "C4:A9:8E:90:D1:2E:77:7D:25:6A:A4:74:DB:66:28:E0:ED:4E:AC:84",
+      "sha256": "0F:75:51:48:EC:53:D1:CE:06:B4:28:3C:76:04:45:64:85:5C:FC:71:0A:B9:2D:0F:35:32:F4:3E:10:FB:65:54",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.assinaturas.pagseguro.com",
+        "*.api.assinaturas.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Y3I, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.assinaturas.pagseguro.com, DNS:*.api.assinaturas.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:c5:6d:78:83:a6:de:25:e0:1d:08:ec:63:f3:af:a6:92:aa:17:e3:1e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 633840310,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=633840310&end=633840310",
+    "seen": 1779554805.439,
+    "submission_timestamp": 1778543805.064,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

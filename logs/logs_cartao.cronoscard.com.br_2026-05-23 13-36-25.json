@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.cronoscard.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 13:36:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.cronoscard.com.br",
+        "aggregated": "/CN=cartao.cronoscard.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "2C0BF4AB06CB645C1390B446A9959C8F",
+      "not_before": 1779216444,
+      "not_after": 1786996035,
+      "fingerprint": "D6:FE:71:46:62:96:7E:BF:60:3A:4E:F8:A3:04:2A:9C:4B:44:E9:D9",
+      "sha1": "D6:FE:71:46:62:96:7E:BF:60:3A:4E:F8:A3:04:2A:9C:4B:44:E9:D9",
+      "sha256": "3B:25:73:06:1B:11:EB:7A:96:C0:AE:C1:AF:12:5D:90:11:A8:FD:76:8D:4E:76:DD:CC:A2:A0:F8:A5:25:06:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.cronoscard.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/LAs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.cronoscard.com.br",
+        "subjectKeyIdentifier": "keyid:e8:6e:72:8a:df:14:93:45:ce:c0:db:ce:3b:c6:c3:f0:ea:0e:29:b6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4335549329,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4335549329&end=4335549329",
+    "seen": 1779554177.165,
+    "submission_timestamp": 1779220045.147,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

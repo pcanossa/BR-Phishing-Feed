@@ -1,0 +1,51 @@
+{
+  "dominio": "staging.boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/23/26 13:07:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.boletosserasa.com",
+        "aggregated": "/CN=staging.boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "31A3B77E35E4C6F47ECEB79B83C5D453",
+      "not_before": 1779148800,
+      "not_after": 1787011199,
+      "fingerprint": "CA:D8:28:DF:DA:AA:D2:51:13:1D:AD:07:7A:2E:14:60:8B:B8:CE:A9",
+      "sha1": "CA:D8:28:DF:DA:AA:D2:51:13:1D:AD:07:7A:2E:14:60:8B:B8:CE:A9",
+      "sha256": "84:EE:E8:3C:30:7C:8E:35:F1:16:83:9F:14:4D:8A:D3:C4:57:D6:F5:6B:6A:92:50:7D:81:D4:98:CD:30:36:3B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "staging.boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:f2:36:2d:14:30:a7:c5:b7:a0:40:4d:3f:f7:03:0d:7c:2e:e7:e1:fb"
+      }
+    },
+    "cert_index": 4335115755,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4335115755&end=4335115755",
+    "seen": 1779552429.522,
+    "submission_timestamp": 1779218138.266,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
