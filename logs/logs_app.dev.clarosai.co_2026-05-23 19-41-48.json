@@ -1,0 +1,52 @@
+{
+  "dominio": "app.dev.clarosai.co",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 19:41:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.dev.clarosai.co",
+        "aggregated": "/CN=app.dev.clarosai.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "025F35B643F00995CC600396DBDE73A4",
+      "not_before": 1779494400,
+      "not_after": 1795478399,
+      "fingerprint": "4A:9E:49:4C:63:1E:EC:F8:F5:A7:4C:76:F6:E3:06:5D:D0:CD:15:95",
+      "sha1": "4A:9E:49:4C:63:1E:EC:F8:F5:A7:4C:76:F6:E3:06:5D:D0:CD:15:95",
+      "sha256": "A6:8F:54:60:09:14:5E:12:75:68:04:7C:DE:48:8B:17:9B:1F:D9:1F:F4:18:92:7A:7D:E2:41:2F:BD:63:37:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.dev.clarosai.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.dev.clarosai.co",
+        "subjectKeyIdentifier": "keyid:f4:c0:47:78:c0:9f:c2:b2:6f:90:e6:ae:c2:16:69:07:2d:d0:e4:22"
+      }
+    },
+    "cert_index": 205276595,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x801/861",
+    "seen": 1779576099.743,
+    "submission_timestamp": 1779576097.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

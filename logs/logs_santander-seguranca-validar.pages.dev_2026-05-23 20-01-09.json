@@ -1,0 +1,53 @@
+{
+  "dominio": "santander-seguranca-validar.pages.dev",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/23/26 20:01:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-seguranca-validar.pages.dev",
+        "aggregated": "/CN=santander-seguranca-validar.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "08065EC43A20B48B131F42B67E03D334",
+      "not_before": 1779242803,
+      "not_after": 1787022263,
+      "fingerprint": "C7:F7:76:51:B0:7D:39:1F:E7:67:D9:8E:9F:31:C4:41:CC:5D:29:2D",
+      "sha1": "C7:F7:76:51:B0:7D:39:1F:E7:67:D9:8E:9F:31:C4:41:CC:5D:29:2D",
+      "sha256": "A1:FC:FA:22:F4:8B:53:0F:49:20:73:58:8F:74:F8:CF:8B:FC:0F:18:11:41:FF:FC:FF:AD:DD:A8:C8:7F:DF:43",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander-seguranca-validar.pages.dev",
+        "*.santander-seguranca-validar.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/CAY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander-seguranca-validar.pages.dev, DNS:*.santander-seguranca-validar.pages.dev",
+        "subjectKeyIdentifier": "keyid:bd:5b:10:2d:86:d6:0a:c8:2d:93:66:d8:9b:6f:22:33:83:b5:28:47",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4341505492,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341505492&end=4341505492",
+    "seen": 1779577260.535,
+    "submission_timestamp": 1779246403.841,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

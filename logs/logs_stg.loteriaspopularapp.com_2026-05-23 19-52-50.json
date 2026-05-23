@@ -1,0 +1,52 @@
+{
+  "dominio": "stg.loteriaspopularapp.com",
+  "marcas_encontradas": [
+    "loterias"
+  ],
+  "timestamp": "05/23/26 19:52:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg.loteriaspopularapp.com",
+        "aggregated": "/CN=stg.loteriaspopularapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "017419C3716F79ED0E1DD8919F578641",
+      "not_before": 1779242199,
+      "not_after": 1787021792,
+      "fingerprint": "2C:03:AA:6E:F6:D7:C1:D0:88:62:5A:C9:A6:CE:54:FD:9A:E4:AE:45",
+      "sha1": "2C:03:AA:6E:F6:D7:C1:D0:88:62:5A:C9:A6:CE:54:FD:9A:E4:AE:45",
+      "sha256": "83:00:B9:E2:6B:A7:7F:B5:4F:FE:AA:3E:DA:24:62:ED:06:C4:4A:67:A0:D8:47:AA:7E:08:FC:A3:B5:7B:8B:90",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "stg.loteriaspopularapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/AXQ, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:stg.loteriaspopularapp.com",
+        "subjectKeyIdentifier": "keyid:04:71:f2:93:bc:f1:67:03:41:35:7b:0e:49:95:6a:a5:22:42:95:ed",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4341372812,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341372812&end=4341372812",
+    "seen": 1779576761.61,
+    "submission_timestamp": 1779245799.77,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

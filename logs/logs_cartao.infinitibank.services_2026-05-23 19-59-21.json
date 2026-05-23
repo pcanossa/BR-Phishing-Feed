@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.infinitibank.services",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 19:59:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.infinitibank.services",
+        "aggregated": "/CN=cartao.infinitibank.services"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0572BC8E2F9FAE37298DC9BD530205E267DC",
+      "not_before": 1779110631,
+      "not_after": 1786886630,
+      "fingerprint": "F7:15:96:8D:A5:DE:5D:76:CB:43:DE:7E:9A:49:29:C9:B5:49:87:7D",
+      "sha1": "F7:15:96:8D:A5:DE:5D:76:CB:43:DE:7E:9A:49:29:C9:B5:49:87:7D",
+      "sha256": "1E:F3:BB:68:24:28:5F:04:1B:91:27:64:E5:F2:40:F2:D5:B5:F8:5E:B2:E0:CD:00:7D:63:95:1C:2D:B9:D2:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.infinitibank.services"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.infinitibank.services",
+        "subjectKeyIdentifier": "keyid:d7:da:8d:60:9b:c7:30:ac:69:0d:e2:1f:93:71:32:f8:39:df:14:6f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 800827839,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=800827839&end=800827839",
+    "seen": 1779577151.819,
+    "submission_timestamp": 1779114141.644,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

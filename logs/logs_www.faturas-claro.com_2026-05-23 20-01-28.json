@@ -1,0 +1,51 @@
+{
+  "dominio": "www.faturas-claro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 20:01:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.faturas-claro.com",
+        "aggregated": "/CN=www.faturas-claro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "677CD6804B43850213843A4A066310E1",
+      "not_before": 1779242649,
+      "not_after": 1787022241,
+      "fingerprint": "E8:3F:4D:5A:C3:E0:7B:E2:CC:EB:99:7D:1D:7C:F0:04:5A:58:B1:64",
+      "sha1": "E8:3F:4D:5A:C3:E0:7B:E2:CC:EB:99:7D:1D:7C:F0:04:5A:58:B1:64",
+      "sha256": "DE:84:49:6C:38:51:FB:70:5D:2E:CD:0D:C1:48:96:44:FB:93:75:0E:78:82:F8:86:A3:25:D6:09:79:8B:13:47",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.faturas-claro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Z3w, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.faturas-claro.com",
+        "subjectKeyIdentifier": "keyid:7d:c3:9e:5e:29:c6:16:89:c1:28:89:e1:41:67:4c:40:c5:04:9f:e4"
+      }
+    },
+    "cert_index": 4341509726,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341509726&end=4341509726",
+    "seen": 1779577279.045,
+    "submission_timestamp": 1779246425.222,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
