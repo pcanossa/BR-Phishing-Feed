@@ -1,0 +1,53 @@
+{
+  "dominio": "appls.public.onetrade.santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/23/26 10:43:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "015A606896D3484137A803C75E6FB026",
+      "not_before": 1779543763,
+      "not_after": 1779630114,
+      "fingerprint": "0D:82:8C:DA:5C:6A:DB:CE:34:0B:FE:26:31:4A:E7:AA:21:E7:9E:8C",
+      "sha1": "0D:82:8C:DA:5C:6A:DB:CE:34:0B:FE:26:31:4A:E7:AA:21:E7:9E:8C",
+      "sha256": "EE:74:D3:93:3D:63:4D:EF:72:9E:80:C2:56:DD:E6:FC:86:3C:CE:A7:8E:7A:89:61:27:2C:DA:4C:8D:47:7C:AA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.appls.public.onetrade.santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:imperva.com, DNS:*.appls.public.onetrade.santander.com",
+        "subjectKeyIdentifier": "keyid:ff:1a:25:2e:9d:e9:c5:f2:e9:39:13:e8:34:01:37:c4:15:b3:92:63",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1076056625,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h1/ct/v1/get-entries?start=1076056625&end=1076056625",
+    "seen": 1779543793.813,
+    "submission_timestamp": 1779543766.769,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h1'",
+      "url": "https://sphinx.ct.digicert.com/2026h1"
+    }
+  }
+}

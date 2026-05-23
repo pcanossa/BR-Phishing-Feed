@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguro-magic-transit.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/23/26 10:18:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro-magic-transit.workers.dev",
+        "aggregated": "/CN=pagseguro-magic-transit.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7D587F3C07E6A3A813554B900E452343",
+      "not_before": 1779087218,
+      "not_after": 1786866805,
+      "fingerprint": "7C:40:09:C2:B6:3C:EE:DF:00:8C:1E:28:22:40:2E:B8:CF:F4:A1:82",
+      "sha1": "7C:40:09:C2:B6:3C:EE:DF:00:8C:1E:28:22:40:2E:B8:CF:F4:A1:82",
+      "sha256": "8F:B6:31:FE:3D:58:07:C8:62:68:95:AF:59:F0:F5:89:3C:7B:60:00:5F:2B:CE:9D:B1:E4:D9:49:BB:20:83:B9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro-magic-transit.workers.dev",
+        "*.pagseguro-magic-transit.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fVg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagseguro-magic-transit.workers.dev, DNS:*.pagseguro-magic-transit.workers.dev",
+        "subjectKeyIdentifier": "keyid:f5:d6:d8:35:71:3f:7e:de:ae:a2:7e:b3:50:73:9a:d8:f5:1e:8d:67",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 796907622,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=796907622&end=796907622",
+    "seen": 1779542311.977,
+    "submission_timestamp": 1779090819.484,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.sso.cmfyapp.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/23/26 10:59:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.sso.cmfyapp.com",
+        "aggregated": "/CN=santander.sso.cmfyapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8D45891B1825ADEA1396724F4C26BEEC",
+      "not_before": 1778535397,
+      "not_after": 1786314994,
+      "fingerprint": "FF:05:E4:D4:28:7B:3F:8F:E0:D4:95:73:A8:F0:DD:42:03:AF:19:22",
+      "sha1": "FF:05:E4:D4:28:7B:3F:8F:E0:D4:95:73:A8:F0:DD:42:03:AF:19:22",
+      "sha256": "00:0D:03:B6:1D:2B:A4:72:76:20:9E:C2:A2:69:1D:F4:30:7A:A5:F2:E9:9A:8F:73:2D:E7:3F:C8:5B:27:F2:ED",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander.sso.cmfyapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jUU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander.sso.cmfyapp.com",
+        "subjectKeyIdentifier": "keyid:33:01:43:b5:54:81:01:96:81:15:5c:6e:4c:df:17:11:99:87:29:79",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 633256049,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=633256049&end=633256049",
+    "seen": 1779544757.048,
+    "submission_timestamp": 1778538997.586,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
