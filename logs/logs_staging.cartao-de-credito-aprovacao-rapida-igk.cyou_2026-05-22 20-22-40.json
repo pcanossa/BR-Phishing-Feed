@@ -1,0 +1,53 @@
+{
+  "dominio": "staging.cartao-de-credito-aprovacao-rapida-igk.cyou",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/22/26 20:22:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.cartao-de-credito-aprovacao-rapida-igk.cyou",
+        "aggregated": "/CN=staging.cartao-de-credito-aprovacao-rapida-igk.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "03333FD9270205EDA3CAEF2849F42974",
+      "not_before": 1779148800,
+      "not_after": 1786924799,
+      "fingerprint": "C4:51:05:04:1C:61:F7:F2:23:2A:80:6F:0A:5B:E8:65:20:AF:4A:A8",
+      "sha1": "C4:51:05:04:1C:61:F7:F2:23:2A:80:6F:0A:5B:E8:65:20:AF:4A:A8",
+      "sha256": "6A:C3:51:70:7D:C2:0E:C5:1F:48:9B:D4:1D:5E:BA:53:30:54:79:7A:5A:43:DB:2E:0A:19:E8:1B:74:A4:9F:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "staging.cartao-de-credito-aprovacao-rapida-igk.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:staging.cartao-de-credito-aprovacao-rapida-igk.cyou",
+        "subjectKeyIdentifier": "keyid:f5:ff:8c:dd:c3:0f:13:cd:00:68:e3:fe:34:8e:92:7c:b3:62:de:78",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4319684914,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4319684914&end=4319684914",
+    "seen": 1779492153.318,
+    "submission_timestamp": 1779155318.037,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

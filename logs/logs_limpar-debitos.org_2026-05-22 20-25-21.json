@@ -1,0 +1,53 @@
+{
+  "dominio": "limpar-debitos.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/22/26 20:25:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpar-debitos.org",
+        "aggregated": "/CN=limpar-debitos.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0683CB1B7625AC5DB0787F19F16795E343C6",
+      "not_before": 1777955372,
+      "not_after": 1785731371,
+      "fingerprint": "F2:6D:4A:A4:1C:A0:4F:23:60:9A:78:8C:EC:E4:51:8F:40:96:05:4A",
+      "sha1": "F2:6D:4A:A4:1C:A0:4F:23:60:9A:78:8C:EC:E4:51:8F:40:96:05:4A",
+      "sha256": "E6:BB:FA:01:5D:18:07:A2:E0:DE:97:46:74:DB:4F:E7:D6:5E:8C:17:91:84:0F:3F:CA:E2:DD:BD:51:4F:35:85",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "limpar-debitos.org",
+        "*.limpar-debitos.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.limpar-debitos.org, DNS:limpar-debitos.org",
+        "subjectKeyIdentifier": "keyid:6e:77:87:e5:ce:98:3c:70:ee:16:b2:55:55:ff:90:bd:db:22:b7:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 696221346,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=696221346&end=696221346",
+    "seen": 1779492315.324,
+    "submission_timestamp": 1777958882.755,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}
