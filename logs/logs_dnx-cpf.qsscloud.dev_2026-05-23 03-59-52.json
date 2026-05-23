@@ -1,0 +1,51 @@
+{
+  "dominio": "dnx-cpf.qsscloud.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 03:59:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dnx-cpf.qsscloud.dev",
+        "aggregated": "/CN=dnx-cpf.qsscloud.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "055B2F061194E956C165F35F6CF5646D5781",
+      "not_before": 1779176426,
+      "not_after": 1786952425,
+      "fingerprint": "73:4A:F5:EF:89:92:3F:B4:DF:14:95:4B:23:CC:13:13:2E:C9:6F:F8",
+      "sha1": "73:4A:F5:EF:89:92:3F:B4:DF:14:95:4B:23:CC:13:13:2E:C9:6F:F8",
+      "sha256": "27:7E:43:B4:4B:99:33:9A:80:96:47:F4:FE:E4:2A:4F:2D:5B:3C:78:A1:A3:21:32:E4:99:28:75:0D:08:6E:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dnx-cpf.qsscloud.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dnx-cpf.qsscloud.dev",
+        "subjectKeyIdentifier": "keyid:2f:77:ac:36:e8:6b:4d:01:c7:bd:4a:98:29:b4:b0:62:36:12:36:07"
+      }
+    },
+    "cert_index": 4326575710,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4326575710&end=4326575710",
+    "seen": 1779519585.213,
+    "submission_timestamp": 1779184464.979,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

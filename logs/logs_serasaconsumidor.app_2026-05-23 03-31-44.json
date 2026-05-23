@@ -1,0 +1,51 @@
+{
+  "dominio": "serasaconsumidor.app",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "05/23/26 03:31:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "serasaconsumidor.app",
+        "aggregated": "/CN=serasaconsumidor.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06FF34171DFF691398DA4C56E4D1D90F7243",
+      "not_before": 1779514382,
+      "not_after": 1787290381,
+      "fingerprint": "52:61:F8:4A:20:09:56:34:0F:F7:74:05:18:BD:91:B7:07:C2:B3:04",
+      "sha1": "52:61:F8:4A:20:09:56:34:0F:F7:74:05:18:BD:91:B7:07:C2:B3:04",
+      "sha256": "2E:60:19:54:1F:F9:CF:99:EE:31:46:BF:BD:BA:90:87:B0:DB:D8:78:A5:D6:79:93:93:54:A2:74:2A:0A:5A:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "serasaconsumidor.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:serasaconsumidor.app",
+        "subjectKeyIdentifier": "keyid:24:55:79:cc:f0:d0:54:12:cf:eb:aa:22:f5:6b:60:89:21:77:05:4d"
+      }
+    },
+    "cert_index": 203512355,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x794/970",
+    "seen": 1779517897.039,
+    "submission_timestamp": 1779517893.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

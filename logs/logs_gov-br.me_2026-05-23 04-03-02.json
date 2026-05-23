@@ -1,0 +1,52 @@
+{
+  "dominio": "gov-br.me",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "05/23/26 04:03:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gov-br.me",
+        "aggregated": "/CN=gov-br.me"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "EDEEEED5E17777FD",
+      "not_before": 1778430231,
+      "not_after": 1795537431,
+      "fingerprint": "99:33:66:26:99:93:33:AB:24:78:95:FC:AC:1B:FC:2B:91:3E:7B:5B",
+      "sha1": "99:33:66:26:99:93:33:AB:24:78:95:FC:AC:1B:FC:2B:91:3E:7B:5B",
+      "sha256": "B1:08:8B:84:E1:03:7D:1D:7F:B1:4D:36:6F:BE:AB:FA:CE:3B:75:D9:DE:03:E3:5A:39:64:4B:B9:6C:6C:27:53",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gov-br.me"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gov-br.me",
+        "subjectKeyIdentifier": "keyid:14:44:93:c8:c7:ee:0a:09:13:a9:5e:23:e2:f5:b0:50:be:65:09:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 648296010,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=648296010&end=648296010",
+    "seen": 1779519774.846,
+    "submission_timestamp": 1778430232.312,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
