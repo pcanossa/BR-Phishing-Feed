@@ -1,0 +1,51 @@
+{
+  "dominio": "www.app.wwenetflix.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/23/26 02:42:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.app.wwenetflix.com",
+        "aggregated": "/CN=www.app.wwenetflix.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "55813BBF3608B71CC3D948BB3C643CF9",
+      "not_before": 1779148800,
+      "not_after": 1787011199,
+      "fingerprint": "69:70:E6:DF:CE:EA:3F:84:A6:90:35:55:EE:43:F9:BD:E3:AC:FB:81",
+      "sha1": "69:70:E6:DF:CE:EA:3F:84:A6:90:35:55:EE:43:F9:BD:E3:AC:FB:81",
+      "sha256": "52:01:3A:61:C3:1B:6E:82:1B:89:13:87:0A:5F:AD:6D:1C:EA:DE:E7:86:50:96:7E:D7:AD:8C:85:E8:40:96:FA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.app.wwenetflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.app.wwenetflix.com",
+        "subjectKeyIdentifier": "keyid:6e:41:f5:70:24:15:f4:f9:ed:04:0d:d0:e6:73:cb:59:fa:0b:fc:02"
+      }
+    },
+    "cert_index": 4325369888,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4325369888&end=4325369888",
+    "seen": 1779514956.077,
+    "submission_timestamp": 1779179569.952,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

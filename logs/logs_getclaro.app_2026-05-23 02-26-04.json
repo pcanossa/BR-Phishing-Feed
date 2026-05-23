@@ -1,0 +1,53 @@
+{
+  "dominio": "getclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 02:26:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "getclaro.app",
+        "aggregated": "/CN=getclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "87CF632CDD06054E130BC94CD64BFE10",
+      "not_before": 1778520970,
+      "not_after": 1786300480,
+      "fingerprint": "68:40:8E:56:F8:66:38:65:23:D2:3F:3E:24:56:A8:B9:BD:33:F5:4D",
+      "sha1": "68:40:8E:56:F8:66:38:65:23:D2:3F:3E:24:56:A8:B9:BD:33:F5:4D",
+      "sha256": "67:89:E8:3C:FC:CC:DC:D9:45:62:A7:62:83:52:9F:10:50:4F:CB:EB:B8:9E:F7:AC:E5:2C:98:0C:1D:0E:74:4D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "getclaro.app",
+        "*.getclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/h88, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:getclaro.app, DNS:*.getclaro.app",
+        "subjectKeyIdentifier": "keyid:42:02:e1:52:ab:90:7f:83:22:a6:9f:e3:90:b2:5b:b3:2c:1f:cd:88",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 631434150,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=631434150&end=631434150",
+    "seen": 1779513956.64,
+    "submission_timestamp": 1778524571.345,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

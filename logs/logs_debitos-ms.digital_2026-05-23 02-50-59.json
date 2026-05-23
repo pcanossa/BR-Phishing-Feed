@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-ms.digital",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/23/26 02:50:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-ms.digital",
+        "aggregated": "/CN=debitos-ms.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1BAE7EB130237A300EAFFD4DA1E5084D",
+      "not_before": 1779091584,
+      "not_after": 1786871106,
+      "fingerprint": "26:E3:14:0F:A8:52:7E:5C:D1:DD:84:9B:D5:4C:81:5C:A4:18:56:92",
+      "sha1": "26:E3:14:0F:A8:52:7E:5C:D1:DD:84:9B:D5:4C:81:5C:A4:18:56:92",
+      "sha256": "DF:84:C1:73:C1:B3:4E:D1:11:2F:37:65:52:88:69:8A:92:14:37:CD:7C:5B:15:21:F3:25:EE:B7:42:6F:4B:B7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-ms.digital",
+        "*.debitos-ms.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/G64, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos-ms.digital, DNS:*.debitos-ms.digital",
+        "subjectKeyIdentifier": "keyid:d4:aa:02:fd:b7:fa:43:50:e7:ad:50:8f:39:1d:84:82:d3:77:3d:59"
+      }
+    },
+    "cert_index": 216012936,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x843/800",
+    "seen": 1779515451.905,
+    "submission_timestamp": 1779515450.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
