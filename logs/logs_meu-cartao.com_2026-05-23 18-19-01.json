@@ -1,0 +1,53 @@
+{
+  "dominio": "meu-cartao.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 18:19:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meu-cartao.com",
+        "aggregated": "/CN=meu-cartao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A3617902C612538B0EED44DB0072EF25",
+      "not_before": 1779235273,
+      "not_after": 1787014789,
+      "fingerprint": "D4:F8:A0:1D:3E:13:83:BC:B9:77:22:CB:83:9B:B5:73:74:F7:AB:98",
+      "sha1": "D4:F8:A0:1D:3E:13:83:BC:B9:77:22:CB:83:9B:B5:73:74:F7:AB:98",
+      "sha256": "78:DB:2F:6A:8B:46:1C:2A:42:7E:1C:39:E3:88:B5:85:AE:E1:61:CC:B7:3B:C9:2F:62:08:15:8A:97:8A:51:39",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "meu-cartao.com",
+        "*.meu-cartao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/o2E, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:meu-cartao.com, DNS:*.meu-cartao.com",
+        "subjectKeyIdentifier": "keyid:bb:31:8f:36:7c:93:94:94:52:e4:94:47:65:25:63:c5:61:1c:8f:f7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4339911618,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339911618&end=4339911618",
+    "seen": 1779571132.53,
+    "submission_timestamp": 1779239084.187,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

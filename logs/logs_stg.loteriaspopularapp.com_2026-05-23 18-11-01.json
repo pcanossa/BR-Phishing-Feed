@@ -1,0 +1,52 @@
+{
+  "dominio": "stg.loteriaspopularapp.com",
+  "marcas_encontradas": [
+    "loterias"
+  ],
+  "timestamp": "05/23/26 18:11:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg.loteriaspopularapp.com",
+        "aggregated": "/CN=stg.loteriaspopularapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0CE3215B3A9A0E420EBF6407476ED26D",
+      "not_before": 1779234912,
+      "not_after": 1787014500,
+      "fingerprint": "76:AD:EB:37:EE:AC:65:73:0C:8B:58:9C:9A:BC:37:A8:E1:8D:C0:16",
+      "sha1": "76:AD:EB:37:EE:AC:65:73:0C:8B:58:9C:9A:BC:37:A8:E1:8D:C0:16",
+      "sha256": "32:48:72:75:39:A7:29:57:5B:63:90:C5:67:FB:F1:59:58:D5:E9:4E:17:75:67:7F:18:1D:45:B7:27:B1:94:97",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "stg.loteriaspopularapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/DOM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:stg.loteriaspopularapp.com",
+        "subjectKeyIdentifier": "keyid:e1:be:d3:68:e5:4c:a7:67:6b:ef:c2:69:51:ce:58:3d:34:5f:a2:f4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4339787643,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4339787643&end=4339787643",
+    "seen": 1779570652.729,
+    "submission_timestamp": 1779238513.398,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

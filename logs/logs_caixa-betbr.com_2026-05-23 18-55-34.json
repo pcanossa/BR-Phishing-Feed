@@ -1,0 +1,52 @@
+{
+  "dominio": "caixa-betbr.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/23/26 18:55:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa-betbr.com",
+        "aggregated": "/CN=caixa-betbr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "050CD92E0E30DA19149F7D7B129A45D5AAE3",
+      "not_before": 1779238224,
+      "not_after": 1787014223,
+      "fingerprint": "17:43:A5:E6:FE:47:A2:A9:18:41:C0:4A:E0:2D:F0:38:B0:A2:C0:5F",
+      "sha1": "17:43:A5:E6:FE:47:A2:A9:18:41:C0:4A:E0:2D:F0:38:B0:A2:C0:5F",
+      "sha256": "A3:96:C9:2F:FD:1C:D5:79:2F:FB:37:63:12:0F:67:62:1F:DE:ED:E8:8E:1B:46:7F:FB:FF:F8:DE:63:FD:6F:E9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixa-betbr.com",
+        "*.caixa-betbr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixa-betbr.com, DNS:caixa-betbr.com",
+        "subjectKeyIdentifier": "keyid:99:bf:df:5f:d3:88:01:72:d1:1d:78:8a:d4:48:40:9d:84:c3:19:8e"
+      }
+    },
+    "cert_index": 4340490776,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4340490776&end=4340490776",
+    "seen": 1779573325.415,
+    "submission_timestamp": 1779241737.181,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

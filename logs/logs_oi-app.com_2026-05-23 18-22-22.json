@@ -1,0 +1,53 @@
+{
+  "dominio": "oi-app.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/23/26 18:22:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi-app.com",
+        "aggregated": "/CN=oi-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "538E522CB786FAB50E1583E91FC7F67E",
+      "not_before": 1779107144,
+      "not_after": 1786886740,
+      "fingerprint": "4C:19:78:68:35:D1:2E:16:2E:64:F6:5E:42:49:6E:93:B8:C8:49:CF",
+      "sha1": "4C:19:78:68:35:D1:2E:16:2E:64:F6:5E:42:49:6E:93:B8:C8:49:CF",
+      "sha256": "58:31:DB:2D:90:55:CD:FC:1F:28:D9:15:9F:68:9E:23:99:2A:72:A1:13:ED:07:9A:D0:32:89:8E:85:DE:E6:86",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi-app.com",
+        "*.oi-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/U44, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi-app.com, DNS:*.oi-app.com",
+        "subjectKeyIdentifier": "keyid:6b:74:7a:09:85:59:ca:5a:85:11:ed:15:31:59:f1:81:8e:f1:51:b9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 800239823,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=800239823&end=800239823",
+    "seen": 1779571333.807,
+    "submission_timestamp": 1779110744.982,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
