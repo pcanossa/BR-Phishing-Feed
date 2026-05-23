@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguro-online.shop",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/23/26 04:34:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro-online.shop",
+        "aggregated": "/CN=pagseguro-online.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "065105F38F580B29E5296015716FF8EA810A",
+      "not_before": 1779182988,
+      "not_after": 1786958987,
+      "fingerprint": "7F:3B:A1:6B:74:77:51:3F:8E:2B:47:D4:EE:A3:CD:63:FA:43:B9:41",
+      "sha1": "7F:3B:A1:6B:74:77:51:3F:8E:2B:47:D4:EE:A3:CD:63:FA:43:B9:41",
+      "sha256": "4A:F8:E2:3A:D7:A6:E0:5C:58:E6:57:55:A0:80:19:21:CA:B8:BF:07:7A:21:B1:7E:89:90:86:1E:AC:F8:B6:E6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro-online.shop",
+        "*.pagseguro-online.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguro-online.shop, DNS:pagseguro-online.shop",
+        "subjectKeyIdentifier": "keyid:73:ec:4c:e3:37:73:2b:a0:a1:60:c6:f1:a1:21:0d:15:7a:ee:c5:be"
+      }
+    },
+    "cert_index": 4327112350,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4327112350&end=4327112350",
+    "seen": 1779521658.551,
+    "submission_timestamp": 1779186501.087,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

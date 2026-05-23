@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao-presente.kiabi.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 04:45:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-presente.kiabi.pt",
+        "aggregated": "/CN=cartao-presente.kiabi.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Certainly Intermediate R1",
+        "O": "Certainly",
+        "aggregated": "/C=US/CN=Certainly Intermediate R1/O=Certainly"
+      },
+      "serial_number": "79800551E999B8DE3288AE0BB997E77AEB8A",
+      "not_before": 1779183568,
+      "not_after": 1781775567,
+      "fingerprint": "A8:03:12:F2:45:15:6C:36:EA:4B:09:61:3F:48:43:C4:F8:32:60:17",
+      "sha1": "A8:03:12:F2:45:15:6C:36:EA:4B:09:61:3F:48:43:C4:F8:32:60:17",
+      "sha256": "F9:68:20:84:87:4F:FB:EE:E1:28:61:54:BC:88:F6:82:AD:38:B2:BE:58:20:0A:06:C0:D5:49:E6:E8:CF:D3:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-presente.kiabi.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://int-r1.certainly.com",
+        "authorityKeyIdentifier": "keyid:bd:97:9d:df:a1:d8:1b:25:99:e3:0c:04:06:89:64:12:d7:65:24:c7",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-presente.kiabi.pt",
+        "subjectKeyIdentifier": "keyid:a9:7c:bf:da:d0:c4:cb:12:d4:64:d0:77:d5:78:55:5a:80:65:53:29"
+      }
+    },
+    "cert_index": 4327280332,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4327280332&end=4327280332",
+    "seen": 1779522301.384,
+    "submission_timestamp": 1779187145.983,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

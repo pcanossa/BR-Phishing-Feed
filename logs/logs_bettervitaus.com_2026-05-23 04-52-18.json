@@ -1,0 +1,51 @@
+{
+  "dominio": "bettervitaus.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/23/26 04:52:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bettervitaus.com",
+        "aggregated": "/CN=bettervitaus.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0503B774D24527484BA6CEFAE4F02B2370EE",
+      "not_before": 1778071120,
+      "not_after": 1785847119,
+      "fingerprint": "9F:48:6C:2B:F2:FC:9E:AA:22:B2:F1:96:62:EC:F8:62:A4:66:80:C7",
+      "sha1": "9F:48:6C:2B:F2:FC:9E:AA:22:B2:F1:96:62:EC:F8:62:A4:66:80:C7",
+      "sha256": "6D:99:9E:51:E0:90:1D:E3:39:E2:1E:55:DB:BC:37:5D:81:76:2B:9A:3C:6D:B0:08:55:03:E2:95:3B:0F:F7:86",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bettervitaus.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bettervitaus.com",
+        "subjectKeyIdentifier": "keyid:12:4e:40:99:fe:85:ce:93:37:b7:16:c3:1c:24:89:1f:b1:37:ba:7f"
+      }
+    },
+    "cert_index": 1546989728,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1546989728&end=1546989728",
+    "seen": 1779522730.95,
+    "submission_timestamp": 1778074633.844,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}
