@@ -1,0 +1,52 @@
+{
+  "dominio": "api-banco.codehaus.app",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/23/26 21:55:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "codehaus.app",
+        "aggregated": "/CN=codehaus.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0691DD2BFE689ED70E6E9F83129B2A41",
+      "not_before": 1779244108,
+      "not_after": 1787023697,
+      "fingerprint": "2D:3D:F7:18:54:F4:94:EB:D5:CE:A8:51:33:5F:8C:4F:D2:FC:44:21",
+      "sha1": "2D:3D:F7:18:54:F4:94:EB:D5:CE:A8:51:33:5F:8C:4F:D2:FC:44:21",
+      "sha256": "AE:98:D2:B1:28:E3:A2:95:2B:54:8F:8C:E6:0E:EE:25:6B:5F:D9:3C:03:25:DB:1D:14:82:5E:94:47:94:51:2B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "codehaus.app",
+        "api-banco.codehaus.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BpE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:codehaus.app, DNS:api-banco.codehaus.app",
+        "subjectKeyIdentifier": "keyid:b0:d8:e6:b8:0b:63:e8:3f:44:ef:43:4f:1a:9f:00:8f:6f:e3:be:c3"
+      }
+    },
+    "cert_index": 4343082195,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4343082195&end=4343082195",
+    "seen": 1779584105.701,
+    "submission_timestamp": 1779253652.897,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

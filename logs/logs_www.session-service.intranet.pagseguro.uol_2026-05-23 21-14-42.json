@@ -1,0 +1,52 @@
+{
+  "dominio": "www.session-service.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "05/23/26 21:14:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "session-service.intranet.pagseguro.uol",
+        "aggregated": "/CN=session-service.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "01A62C884E1E3B13EE8B7B4C9468D2E0",
+      "not_before": 1779580800,
+      "not_after": 1796687999,
+      "fingerprint": "61:77:04:90:70:51:AE:F2:EE:64:AB:26:1B:7B:C3:12:CD:D8:56:78",
+      "sha1": "61:77:04:90:70:51:AE:F2:EE:64:AB:26:1B:7B:C3:12:CD:D8:56:78",
+      "sha256": "F1:94:D2:9E:91:35:AD:94:99:17:4A:AE:3D:23:FC:13:A0:18:84:C2:98:3D:B9:87:71:F4:68:24:A7:31:F7:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "session-service.intranet.pagseguro.uol",
+        "www.session-service.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:session-service.intranet.pagseguro.uol, DNS:www.session-service.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:04:1e:82:d4:e9:27:87:8f:73:43:a0:c9:ab:2b:ea:26:34:7a:bf:61"
+      }
+    },
+    "cert_index": 218159356,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x852/184",
+    "seen": 1779581672.777,
+    "submission_timestamp": 1779581671.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

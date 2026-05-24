@@ -1,0 +1,51 @@
+{
+  "dominio": "us-west-2.beta.santander-two.webhook.plutus.payments.aws.dev",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/23/26 21:09:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "us-west-2.beta.santander-two.webhook.plutus.payments.aws.dev",
+        "aggregated": "/CN=us-west-2.beta.santander-two.webhook.plutus.payments.aws.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "076FDE8B78D2FB4AAA46DF0421090D5F",
+      "not_before": 1778544000,
+      "not_after": 1795651199,
+      "fingerprint": "F5:A0:A1:E4:21:05:1C:DC:69:41:80:87:24:28:94:45:83:CB:9B:11",
+      "sha1": "F5:A0:A1:E4:21:05:1C:DC:69:41:80:87:24:28:94:45:83:CB:9B:11",
+      "sha256": "8B:A9:6A:37:39:EC:8F:5E:91:93:A6:55:D4:2C:16:E3:6D:59:63:97:15:55:3E:FB:10:58:74:0B:C0:3B:FE:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "us-west-2.beta.santander-two.webhook.plutus.payments.aws.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:us-west-2.beta.santander-two.webhook.plutus.payments.aws.dev",
+        "subjectKeyIdentifier": "keyid:6f:a9:17:56:63:cd:08:b0:54:ae:0f:50:b5:5f:cb:9a:f4:85:bc:95"
+      }
+    },
+    "cert_index": 635382737,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=635382737&end=635382737",
+    "seen": 1779581352.208,
+    "submission_timestamp": 1778555519.442,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
