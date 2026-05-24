@@ -1,0 +1,51 @@
+{
+  "dominio": "demobradescoseguros.zendesk.com",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "05/24/26 12:59:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "demobradescoseguros.zendesk.com",
+        "aggregated": "/CN=demobradescoseguros.zendesk.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0571434A4B2B30946DE639C37309D852E7E1",
+      "not_before": 1779292393,
+      "not_after": 1787068392,
+      "fingerprint": "26:A1:8C:FE:97:CE:83:D8:8F:C3:7A:6D:75:03:C2:19:3D:20:EF:0D",
+      "sha1": "26:A1:8C:FE:97:CE:83:D8:8F:C3:7A:6D:75:03:C2:19:3D:20:EF:0D",
+      "sha256": "00:AA:36:1C:84:1A:0B:0F:C9:ED:D4:8F:54:CF:F0:4B:AA:35:B9:CE:86:65:B5:46:93:D2:DE:0F:68:E1:42:3E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "demobradescoseguros.zendesk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:demobradescoseguros.zendesk.com",
+        "subjectKeyIdentifier": "keyid:4d:31:04:6a:e3:19:aa:b4:c0:2a:9b:8b:f5:f3:42:6a:b4:95:e4:2d"
+      }
+    },
+    "cert_index": 4356379448,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4356379448&end=4356379448",
+    "seen": 1779638355.847,
+    "submission_timestamp": 1779306951.154,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

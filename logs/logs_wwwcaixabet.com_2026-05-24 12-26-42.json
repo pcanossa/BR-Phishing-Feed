@@ -1,0 +1,52 @@
+{
+  "dominio": "wwwcaixabet.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/24/26 12:26:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "wwwcaixabet.com",
+        "aggregated": "/CN=wwwcaixabet.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05D1DC6B18B88F9001E7A964796A8B67166D",
+      "not_before": 1779301407,
+      "not_after": 1787077406,
+      "fingerprint": "95:F7:8A:E4:B1:ED:17:D6:26:80:71:9E:9B:92:A6:54:69:B9:A8:F2",
+      "sha1": "95:F7:8A:E4:B1:ED:17:D6:26:80:71:9E:9B:92:A6:54:69:B9:A8:F2",
+      "sha256": "54:D2:3A:60:55:F9:11:AA:43:7E:0E:32:AE:CF:6F:BC:3A:40:DE:6B:8F:E6:D3:33:4E:39:6D:31:06:26:AD:C4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "wwwcaixabet.com",
+        "*.wwwcaixabet.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.wwwcaixabet.com, DNS:wwwcaixabet.com",
+        "subjectKeyIdentifier": "keyid:cb:c3:c5:16:35:30:90:97:d1:26:6e:cf:b9:bc:c8:81:3c:49:cb:d6"
+      }
+    },
+    "cert_index": 4355902352,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4355902352&end=4355902352",
+    "seen": 1779636391.685,
+    "submission_timestamp": 1779304918.878,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

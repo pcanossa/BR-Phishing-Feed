@@ -1,0 +1,53 @@
+{
+  "dominio": "oi-app.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/24/26 12:28:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi-app.com",
+        "aggregated": "/CN=oi-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "31860DA086BBC5BA0EDD970D143E1753",
+      "not_before": 1779083536,
+      "not_after": 1786863065,
+      "fingerprint": "AA:57:F7:9B:C1:DA:9E:18:4E:37:4F:84:BE:9E:94:3D:27:15:AB:D8",
+      "sha1": "AA:57:F7:9B:C1:DA:9E:18:4E:37:4F:84:BE:9E:94:3D:27:15:AB:D8",
+      "sha256": "7E:A3:3A:29:BC:CA:84:20:11:C1:65:BD:2B:DC:4D:EC:0A:E5:AA:FE:4C:BA:72:5F:ED:5B:9E:86:9F:B9:4F:80",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi-app.com",
+        "*.oi-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MYY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi-app.com, DNS:*.oi-app.com",
+        "subjectKeyIdentifier": "keyid:6d:84:56:6a:66:71:cb:87:30:10:07:e0:7d:65:b3:7c:66:04:23:52",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 680269517,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=680269517&end=680269517",
+    "seen": 1779636470.478,
+    "submission_timestamp": 1779087137.412,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

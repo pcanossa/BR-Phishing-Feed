@@ -1,0 +1,53 @@
+{
+  "dominio": "betechwithsantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 12:10:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01C950865EEF843ED310CEACEF4C521C",
+      "not_before": 1779303996,
+      "not_after": 1779390338,
+      "fingerprint": "E3:C3:47:CB:05:F0:A7:10:C7:82:F2:31:7B:80:6D:1B:36:99:FF:3F",
+      "sha1": "E3:C3:47:CB:05:F0:A7:10:C7:82:F2:31:7B:80:6D:1B:36:99:FF:3F",
+      "sha256": "B1:06:5E:86:28:CA:9B:A9:A4:5C:2B:18:53:66:F6:CF:53:50:5E:0D:0E:95:43:61:4E:EE:F4:C8:9D:94:2C:7E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "betechwithsantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:betechwithsantander.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:a6:fe:d2:d4:ac:c1:ad:0c:1d:1c:3d:2e:f5:5a:f2:1c:73:dc:cf:5d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4355671978,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4355671978&end=4355671978",
+    "seen": 1779635418.164,
+    "submission_timestamp": 1779303997.803,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
