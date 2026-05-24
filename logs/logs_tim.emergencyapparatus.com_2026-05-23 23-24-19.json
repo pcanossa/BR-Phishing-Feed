@@ -1,0 +1,51 @@
+{
+  "dominio": "tim.emergencyapparatus.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/23/26 23:24:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tim.emergencyapparatus.com",
+        "aggregated": "/CN=tim.emergencyapparatus.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1C667E046BEDBA60C565AEA912EEFA7A",
+      "not_before": 1779235200,
+      "not_after": 1787097599,
+      "fingerprint": "7A:5A:32:6D:F6:49:09:BC:62:29:53:6A:51:55:68:E9:C2:CA:00:23",
+      "sha1": "7A:5A:32:6D:F6:49:09:BC:62:29:53:6A:51:55:68:E9:C2:CA:00:23",
+      "sha256": "9B:8E:29:6C:30:43:62:15:6F:36:AD:23:61:8C:B9:21:8D:FE:6A:38:14:A0:73:4A:B9:02:16:7D:88:FA:50:F5",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "tim.emergencyapparatus.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:tim.emergencyapparatus.com",
+        "subjectKeyIdentifier": "keyid:c3:22:dc:c1:05:31:00:43:87:bf:9b:ce:69:0a:46:4e:64:8a:3e:af"
+      }
+    },
+    "cert_index": 4344382184,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4344382184&end=4344382184",
+    "seen": 1779589449.234,
+    "submission_timestamp": 1779259342.401,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
