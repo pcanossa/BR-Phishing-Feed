@@ -1,0 +1,51 @@
+{
+  "dominio": "lupanocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/24/26 13:38:47",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "lupanocaixa.com",
+        "aggregated": "/CN=lupanocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05DBEEAB5254A9211A5C63126BA8B994BA64",
+      "not_before": 1778099705,
+      "not_after": 1785875704,
+      "fingerprint": "12:CE:BE:9F:B6:25:68:BE:24:79:ED:CE:A8:D0:F3:96:32:5A:99:3C",
+      "sha1": "12:CE:BE:9F:B6:25:68:BE:24:79:ED:CE:A8:D0:F3:96:32:5A:99:3C",
+      "sha256": "C9:4B:50:AD:B0:EF:01:6A:99:3A:14:B9:7A:71:E2:81:38:8D:11:A1:0E:01:70:D4:D7:39:74:96:1A:8F:A9:89",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "lupanocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:lupanocaixa.com",
+        "subjectKeyIdentifier": "keyid:b0:83:4e:42:2d:82:9d:9b:a1:ad:f3:d8:91:43:1e:d6:1f:48:65:8d"
+      }
+    },
+    "cert_index": 1550524980,
+    "cert_link": "https://ct2026-a.trustasia.com/log2026a/ct/v1/get-entries?start=1550524980&end=1550524980",
+    "seen": 1779640715.931,
+    "submission_timestamp": 1778103217.962,
+    "source": {
+      "name": "TrustAsia 'log2026a'",
+      "url": "https://ct2026-a.trustasia.com/log2026a"
+    }
+  }
+}

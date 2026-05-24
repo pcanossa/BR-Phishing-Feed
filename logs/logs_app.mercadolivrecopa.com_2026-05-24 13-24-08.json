@@ -1,0 +1,52 @@
+{
+  "dominio": "app.mercadolivrecopa.com",
+  "marcas_encontradas": [
+    "mercadolivre"
+  ],
+  "timestamp": "05/24/26 13:24:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.mercadolivrecopa.com",
+        "aggregated": "/CN=app.mercadolivrecopa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "9C7D73FE32CC89050E3662D890D60247",
+      "not_before": 1778703995,
+      "not_after": 1786483494,
+      "fingerprint": "02:61:0C:63:6D:7C:B9:6B:8C:45:ED:63:08:58:4B:D7:CB:AD:2F:05",
+      "sha1": "02:61:0C:63:6D:7C:B9:6B:8C:45:ED:63:08:58:4B:D7:CB:AD:2F:05",
+      "sha256": "4B:DE:48:6E:A4:7D:B0:E6:C0:AE:7D:9B:AF:C8:8A:56:FC:03:BD:23:20:F1:56:B7:A0:5B:DB:B6:E2:CE:65:77",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.mercadolivrecopa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/nH0, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.mercadolivrecopa.com",
+        "subjectKeyIdentifier": "keyid:2d:c3:ff:91:5b:92:4a:80:ad:8e:11:c4:1c:08:93:fa:8f:f7:b6:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4356729401,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4356729401&end=4356729401",
+    "seen": 1779639836.636,
+    "submission_timestamp": 1779308477.961,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

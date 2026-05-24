@@ -1,0 +1,53 @@
+{
+  "dominio": "correios-pagamentobr.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "05/24/26 13:40:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correios-pagamentobr.com",
+        "aggregated": "/CN=correios-pagamentobr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A0F8B77E82C731E10E53CFE915F97D8A",
+      "not_before": 1779305884,
+      "not_after": 1787085392,
+      "fingerprint": "5D:F2:80:43:0A:B2:48:DE:E5:BA:ED:CD:1C:15:7A:70:7D:DD:40:51",
+      "sha1": "5D:F2:80:43:0A:B2:48:DE:E5:BA:ED:CD:1C:15:7A:70:7D:DD:40:51",
+      "sha256": "26:F4:DF:EE:DA:C4:CC:AC:66:75:96:DF:93:BA:E6:0A:EB:DC:15:A0:D4:0A:7B:25:E5:B8:EA:21:3A:08:37:34",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "correios-pagamentobr.com",
+        "*.correios-pagamentobr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/oPg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:correios-pagamentobr.com, DNS:*.correios-pagamentobr.com",
+        "subjectKeyIdentifier": "keyid:70:09:50:36:fc:f1:dc:c5:eb:ca:fd:20:19:5f:3d:d4:98:da:1c:47",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4356965505,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4356965505&end=4356965505",
+    "seen": 1779640792.127,
+    "submission_timestamp": 1779309605.138,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
