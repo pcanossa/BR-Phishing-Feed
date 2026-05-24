@@ -1,0 +1,51 @@
+{
+  "dominio": "app-test-us-west-2.ericgitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/24/26 01:15:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-test-us-west-2.ericgitau.com",
+        "aggregated": "/CN=app-test-us-west-2.ericgitau.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F054B5091A1CB4167A1BED46E87AD099",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "61:51:1D:4E:7F:4A:64:1D:63:89:C8:1E:EC:40:CF:BF:AB:9F:40:EA",
+      "sha1": "61:51:1D:4E:7F:4A:64:1D:63:89:C8:1E:EC:40:CF:BF:AB:9F:40:EA",
+      "sha256": "FE:CB:A9:DD:23:BA:77:D2:86:85:51:59:9F:D1:5E:3A:78:73:EE:42:27:D3:56:74:F0:EB:77:97:C0:72:41:4D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-test-us-west-2.ericgitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-test-us-west-2.ericgitau.com",
+        "subjectKeyIdentifier": "keyid:c4:98:51:fc:eb:31:cd:bf:19:0a:43:ff:b0:63:11:f3:9b:26:18:55"
+      }
+    },
+    "cert_index": 334015734,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x304/748",
+    "seen": 1779596096.342,
+    "submission_timestamp": 1779596093.769,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

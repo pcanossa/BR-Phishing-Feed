@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-auth.run.n8s.jp",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/24/26 01:45:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-auth.run.n8s.jp",
+        "aggregated": "/CN=cpf-auth.run.n8s.jp"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "69895F6BCDF965E91055A98BDE035B2B",
+      "not_before": 1778877581,
+      "not_after": 1786656351,
+      "fingerprint": "CB:A2:DB:A9:68:2B:45:64:B2:D6:AD:A6:4E:67:4B:F5:0F:39:FC:36",
+      "sha1": "CB:A2:DB:A9:68:2B:45:64:B2:D6:AD:A6:4E:67:4B:F5:0F:39:FC:36",
+      "sha256": "22:A6:47:E0:C9:DC:05:E3:A1:87:92:29:A0:31:80:2F:CF:C8:04:B4:31:FB:B5:FA:D2:7D:AF:1C:38:D0:FA:99",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-auth.run.n8s.jp"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/aYk, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-auth.run.n8s.jp",
+        "subjectKeyIdentifier": "keyid:57:35:5e:ae:60:af:4c:67:13:4f:be:b5:3a:cb:15:ff:ef:f2:24:ff"
+      }
+    },
+    "cert_index": 4346546335,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4346546335&end=4346546335",
+    "seen": 1779597913.646,
+    "submission_timestamp": 1779267848.763,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
