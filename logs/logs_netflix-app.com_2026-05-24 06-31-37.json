@@ -1,0 +1,52 @@
+{
+  "dominio": "netflix-app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/24/26 06:31:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-app.com",
+        "aggregated": "/CN=netflix-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0576DD6E5CE5700AC4A9D19F10AB26E8B240",
+      "not_before": 1779611572,
+      "not_after": 1787387571,
+      "fingerprint": "A1:C5:D2:02:8C:16:51:27:8C:E1:77:4A:1E:48:C5:A0:8E:9A:4C:42",
+      "sha1": "A1:C5:D2:02:8C:16:51:27:8C:E1:77:4A:1E:48:C5:A0:8E:9A:4C:42",
+      "sha256": "AC:CE:FB:C6:84:FE:69:C8:01:97:53:37:91:F3:E2:AC:0F:97:01:41:FE:91:72:5A:B5:9B:7D:3A:1F:29:85:7A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-app.com",
+        "*.netflix-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.netflix-app.com, DNS:netflix-app.com",
+        "subjectKeyIdentifier": "keyid:04:08:60:ce:d1:26:49:c7:be:f4:1e:f6:e1:b1:9b:c1:71:52:eb:e0"
+      }
+    },
+    "cert_index": 219202315,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x856/259",
+    "seen": 1779615087.109,
+    "submission_timestamp": 1779615083.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
