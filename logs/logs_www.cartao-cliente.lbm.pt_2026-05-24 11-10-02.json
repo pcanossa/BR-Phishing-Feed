@@ -1,0 +1,56 @@
+{
+  "dominio": "www.cartao-cliente.lbm.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/24/26 11:10:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.lbm.pt",
+        "aggregated": "/CN=*.lbm.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06A423DD65BE59B1DB93A8AC1B7D3CA7262D",
+      "not_before": 1779081117,
+      "not_after": 1786857116,
+      "fingerprint": "9C:5E:64:B6:2A:2A:32:0E:5D:90:FA:37:1A:29:94:97:E5:48:D7:42",
+      "sha1": "9C:5E:64:B6:2A:2A:32:0E:5D:90:FA:37:1A:29:94:97:E5:48:D7:42",
+      "sha256": "6E:19:55:E4:A6:12:D0:FE:47:B1:32:C7:BC:38:51:A9:C6:C7:F9:19:F7:BE:08:EC:0F:91:7C:D4:46:A4:09:78",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.lbm.pt",
+        "*.cartao-cliente.pt",
+        "cartao-cliente.pt",
+        "lbm.pt",
+        "www.cartao-cliente.lbm.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cartao-cliente.pt, DNS:*.lbm.pt, DNS:cartao-cliente.pt, DNS:lbm.pt, DNS:www.cartao-cliente.lbm.pt",
+        "subjectKeyIdentifier": "keyid:1b:87:45:d6:bc:72:af:55:ab:03:e1:30:b5:b0:a4:b6:24:4f:5f:59",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 679959316,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=679959316&end=679959316",
+    "seen": 1779631791.38,
+    "submission_timestamp": 1779084627.854,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
