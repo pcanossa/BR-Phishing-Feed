@@ -1,0 +1,53 @@
+{
+  "dominio": "hrfivestar-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/24/26 00:16:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hrfivestar-cpf.workers.dev",
+        "aggregated": "/CN=hrfivestar-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0ABD3E181CF8014C0E987848C90C96CA",
+      "not_before": 1779259124,
+      "not_after": 1787038647,
+      "fingerprint": "F3:A2:CE:7B:66:99:6C:8B:E0:E0:8E:0C:E9:87:12:A1:8D:5B:1A:6D",
+      "sha1": "F3:A2:CE:7B:66:99:6C:8B:E0:E0:8E:0C:E9:87:12:A1:8D:5B:1A:6D",
+      "sha256": "F0:58:0D:FB:A6:05:48:9F:D4:58:FE:53:89:EC:01:95:39:E5:CD:4A:CA:51:3F:81:0B:ED:A8:39:5B:A7:BF:0D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "hrfivestar-cpf.workers.dev",
+        "*.hrfivestar-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Cr0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hrfivestar-cpf.workers.dev, DNS:*.hrfivestar-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:f1:24:47:e2:eb:79:eb:6e:4b:a7:c7:db:30:34:5a:a1:d3:bd:df:70",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4345193038,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4345193038&end=4345193038",
+    "seen": 1779592599.597,
+    "submission_timestamp": 1779262724.703,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

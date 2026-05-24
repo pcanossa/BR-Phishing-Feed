@@ -1,0 +1,52 @@
+{
+  "dominio": "portal.santander.test.cig-apps.de",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 00:42:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal.santander.test.cig-apps.de",
+        "aggregated": "/CN=portal.santander.test.cig-apps.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "08F4B8AA1A1632D2866DAA52ED20BCA3",
+      "not_before": 1769472000,
+      "not_after": 1785196799,
+      "fingerprint": "EA:A1:26:F1:8B:F6:D3:B9:25:99:27:88:59:13:C0:22:60:F6:B4:3F",
+      "sha1": "EA:A1:26:F1:8B:F6:D3:B9:25:99:27:88:59:13:C0:22:60:F6:B4:3F",
+      "sha256": "96:4C:53:26:AA:F4:9D:88:31:5A:B0:4C:1A:44:75:85:FD:09:35:EF:1F:95:10:C4:0D:A3:45:8C:F7:C2:42:9B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "portal.santander.test.cig-apps.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portal.santander.test.cig-apps.de",
+        "subjectKeyIdentifier": "keyid:d3:ab:2d:ea:31:c8:38:53:19:67:ed:92:35:c4:e8:e8:8c:9c:d3:16"
+      }
+    },
+    "cert_index": 4345603976,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4345603976&end=4345603976",
+    "seen": 1779594164.865,
+    "submission_timestamp": 1779264244.423,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
