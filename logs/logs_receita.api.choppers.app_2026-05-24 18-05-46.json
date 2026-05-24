@@ -1,0 +1,51 @@
+{
+  "dominio": "receita.api.choppers.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "05/24/26 18:05:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receita.api.choppers.app",
+        "aggregated": "/CN=receita.api.choppers.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06989B658F003EB72133A1779FF1458E",
+      "not_before": 1779580800,
+      "not_after": 1796687999,
+      "fingerprint": "E9:EA:CF:5B:B7:6E:9E:C0:15:1E:5A:03:10:B7:DF:D9:C9:2E:D0:4C",
+      "sha1": "E9:EA:CF:5B:B7:6E:9E:C0:15:1E:5A:03:10:B7:DF:D9:C9:2E:D0:4C",
+      "sha256": "78:28:E1:DB:3A:34:B1:2B:0D:17:54:75:B5:BF:FE:4F:C4:2A:C4:E9:F4:81:0F:CF:37:C1:E9:53:84:C2:A0:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "receita.api.choppers.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:receita.api.choppers.app",
+        "subjectKeyIdentifier": "keyid:b1:67:33:2d:21:03:38:a8:77:08:de:1a:b3:a9:f4:41:a1:ff:1b:c5"
+      }
+    },
+    "cert_index": 220399017,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x860/933",
+    "seen": 1779656735.27,
+    "submission_timestamp": 1779656733.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

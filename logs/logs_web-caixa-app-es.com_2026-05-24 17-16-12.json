@@ -1,0 +1,52 @@
+{
+  "dominio": "web-caixa-app-es.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "05/24/26 17:16:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "web-caixa-app-es.com",
+        "aggregated": "/CN=web-caixa-app-es.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06899181616EA661A4F2CEACB66AFB040BB2",
+      "not_before": 1778864177,
+      "not_after": 1786640176,
+      "fingerprint": "29:FB:59:40:89:BD:77:B8:8A:6F:9B:7D:8F:E0:E8:C0:0E:CF:31:FC",
+      "sha1": "29:FB:59:40:89:BD:77:B8:8A:6F:9B:7D:8F:E0:E8:C0:0E:CF:31:FC",
+      "sha256": "03:35:E9:9B:6F:D5:20:CC:A0:1C:9E:85:04:A6:D6:84:CB:54:09:C5:76:13:2E:D6:1E:AF:62:21:28:22:B0:12",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "web-caixa-app-es.com",
+        "*.web-caixa-app-es.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.web-caixa-app-es.com, DNS:web-caixa-app-es.com",
+        "subjectKeyIdentifier": "keyid:30:4c:67:b2:f1:86:08:9e:43:56:09:7e:b2:6d:e9:a9:fc:af:54:a1"
+      }
+    },
+    "cert_index": 4360096254,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4360096254&end=4360096254",
+    "seen": 1779653761.43,
+    "submission_timestamp": 1779323806.341,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

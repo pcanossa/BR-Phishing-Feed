@@ -1,0 +1,54 @@
+{
+  "dominio": "veiculospr-fazenda-pr-gov-br.com",
+  "marcas_encontradas": [
+    "gov-br",
+    "fazenda"
+  ],
+  "timestamp": "05/24/26 18:05:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "veiculospr-fazenda-pr-gov-br.com",
+        "aggregated": "/CN=veiculospr-fazenda-pr-gov-br.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3609D014F9EA1C5E139C8C663B158C41",
+      "not_before": 1779323329,
+      "not_after": 1787102845,
+      "fingerprint": "49:F5:55:CF:D8:A5:28:9E:92:CD:0E:05:49:2D:9D:EB:EB:A4:8B:1A",
+      "sha1": "49:F5:55:CF:D8:A5:28:9E:92:CD:0E:05:49:2D:9D:EB:EB:A4:8B:1A",
+      "sha256": "B7:08:F2:E1:24:BB:73:87:1A:DA:DC:D3:68:D4:6B:AB:BD:2E:6C:88:7E:AC:CF:B2:64:DA:09:3C:8C:14:C1:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "veiculospr-fazenda-pr-gov-br.com",
+        "*.veiculospr-fazenda-pr-gov-br.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Ngk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:veiculospr-fazenda-pr-gov-br.com, DNS:*.veiculospr-fazenda-pr-gov-br.com",
+        "subjectKeyIdentifier": "keyid:13:d5:a7:72:88:cc:5d:04:ab:d9:5a:0a:cc:aa:9f:3e:61:38:e9:de",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4360811620,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4360811620&end=4360811620",
+    "seen": 1779656741.92,
+    "submission_timestamp": 1779326930.451,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
