@@ -1,0 +1,52 @@
+{
+  "dominio": "hrfivestar-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/24/26 02:27:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hrfivestar-cpf.workers.dev",
+        "aggregated": "/CN=hrfivestar-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0ABD3E181CF8014C0E987848C90C96CA",
+      "not_before": 1779259124,
+      "not_after": 1787038647,
+      "fingerprint": "75:40:C6:5F:DA:B0:9C:70:9A:42:84:5A:C3:9B:FE:40:C4:6C:C2:06",
+      "sha1": "75:40:C6:5F:DA:B0:9C:70:9A:42:84:5A:C3:9B:FE:40:C4:6C:C2:06",
+      "sha256": "80:1C:0A:A8:F9:56:A8:DE:85:3D:CC:CE:D0:D8:F6:BB:58:00:D3:7B:21:BA:C4:F1:AC:85:F1:6F:DF:26:6E:73",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "hrfivestar-cpf.workers.dev",
+        "*.hrfivestar-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Cr0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hrfivestar-cpf.workers.dev, DNS:*.hrfivestar-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:f1:24:47:e2:eb:79:eb:6e:4b:a7:c7:db:30:34:5a:a1:d3:bd:df:70"
+      }
+    },
+    "cert_index": 4347182578,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4347182578&end=4347182578",
+    "seen": 1779600423.62,
+    "submission_timestamp": 1779270357.579,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app.tim.dev.epims.co.uk",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "05/24/26 02:32:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.tim.dev.epims.co.uk",
+        "aggregated": "/CN=app.tim.dev.epims.co.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "06CB73337594DF2E32A7EF0ADF8B5B71",
+      "not_before": 1779580800,
+      "not_after": 1796687999,
+      "fingerprint": "75:23:25:0B:5C:B6:0E:8A:6F:BA:E3:46:F7:BE:FA:8D:A3:A1:0A:B4",
+      "sha1": "75:23:25:0B:5C:B6:0E:8A:6F:BA:E3:46:F7:BE:FA:8D:A3:A1:0A:B4",
+      "sha256": "6B:20:8C:B9:4B:94:37:BB:B0:ED:01:DB:6A:A5:3C:8B:9D:86:C4:68:ED:41:40:F6:A9:AC:82:70:A2:6E:E2:49",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.tim.dev.epims.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.tim.dev.epims.co.uk",
+        "subjectKeyIdentifier": "keyid:65:c5:72:02:a9:46:63:1c:ff:98:86:62:a1:f7:98:f0:f0:f3:f5:61"
+      }
+    },
+    "cert_index": 206028306,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x804/798",
+    "seen": 1779600728.745,
+    "submission_timestamp": 1779600725.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

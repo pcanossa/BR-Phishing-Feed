@@ -1,0 +1,53 @@
+{
+  "dominio": "githubspotify.vercel.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/24/26 02:40:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.githubspotify.vercel.app",
+        "aggregated": "/CN=*.githubspotify.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "167654DFFB54153B0ED2EF6EE7C8B983",
+      "not_before": 1779267551,
+      "not_after": 1787043550,
+      "fingerprint": "B9:67:0A:CD:74:D0:85:8A:C5:D9:00:9B:51:86:41:5E:17:58:E6:C2",
+      "sha1": "B9:67:0A:CD:74:D0:85:8A:C5:D9:00:9B:51:86:41:5E:17:58:E6:C2",
+      "sha256": "11:DC:B1:7D:45:B9:D3:A1:70:B3:35:A6:12:36:1C:AE:B5:5C:B4:03:7C:5D:B4:9E:2B:EF:65:01:3E:6D:8A:54",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.githubspotify.vercel.app",
+        "githubspotify.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/FnY, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.githubspotify.vercel.app, DNS:githubspotify.vercel.app",
+        "subjectKeyIdentifier": "keyid:a4:a0:76:99:85:f8:57:95:32:7b:bc:80:73:ac:18:5a:99:5e:8b:16",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4347386379,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4347386379&end=4347386379",
+    "seen": 1779601224.008,
+    "submission_timestamp": 1779271152.329,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

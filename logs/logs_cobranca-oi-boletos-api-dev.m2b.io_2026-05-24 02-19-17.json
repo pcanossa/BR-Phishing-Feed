@@ -1,0 +1,52 @@
+{
+  "dominio": "cobranca-oi-boletos-api-dev.m2b.io",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/24/26 02:19:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cobranca-oi-boletos-api-dev.m2b.io",
+        "aggregated": "/CN=cobranca-oi-boletos-api-dev.m2b.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05057DF902AB99AEFBB04FA234168BDEF260",
+      "not_before": 1779266342,
+      "not_after": 1787042341,
+      "fingerprint": "8C:59:E0:35:0E:E4:2E:AD:B3:F9:22:81:A7:A2:17:EB:3B:4A:73:97",
+      "sha1": "8C:59:E0:35:0E:E4:2E:AD:B3:F9:22:81:A7:A2:17:EB:3B:4A:73:97",
+      "sha256": "74:AA:F6:E8:72:A5:8E:42:59:C3:81:F1:02:4F:8B:4A:34:30:1F:30:9F:F5:95:75:AD:B3:16:68:63:3C:41:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cobranca-oi-boletos-api-dev.m2b.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cobranca-oi-boletos-api-dev.m2b.io",
+        "subjectKeyIdentifier": "keyid:9f:b5:75:b9:d5:07:33:23:4c:44:01:31:b0:9d:c4:bb:44:de:69:4e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4347062500,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4347062500&end=4347062500",
+    "seen": 1779599948.108,
+    "submission_timestamp": 1779269853.044,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
