@@ -1,0 +1,52 @@
+{
+  "dominio": "rapporten.itauditcenter.nl",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "05/24/26 14:55:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rapporten.itauditcenter.nl",
+        "aggregated": "/CN=rapporten.itauditcenter.nl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "062DBDE6C45DD28EACD1BCA6A25CD31C24E6",
+      "not_before": 1779311041,
+      "not_after": 1787087040,
+      "fingerprint": "35:44:4D:5E:39:AC:BC:6F:82:8C:7E:A5:26:4F:BC:00:05:D7:81:E1",
+      "sha1": "35:44:4D:5E:39:AC:BC:6F:82:8C:7E:A5:26:4F:BC:00:05:D7:81:E1",
+      "sha256": "9D:A0:18:86:9A:C9:40:76:38:B8:20:FE:B1:42:4A:F0:6D:72:AA:DF:4A:12:A2:41:9E:E9:7A:2F:27:4D:91:02",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "rapporten.itauditcenter.nl",
+        "*.rapporten.itauditcenter.nl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.rapporten.itauditcenter.nl, DNS:rapporten.itauditcenter.nl",
+        "subjectKeyIdentifier": "keyid:92:39:b5:d1:b7:de:04:da:1f:8e:f3:13:7f:a5:d6:ae:49:87:69:9a"
+      }
+    },
+    "cert_index": 4358062955,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4358062955&end=4358062955",
+    "seen": 1779645322.972,
+    "submission_timestamp": 1779314699.24,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

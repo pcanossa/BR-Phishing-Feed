@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.sedexion.net",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "05/24/26 14:57:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.sedexion.net",
+        "aggregated": "/CN=apps.sedexion.net"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "DD145BCC307C5D52BABCD82AE295AAB9",
+      "not_before": 1777939200,
+      "not_after": 1785801599,
+      "fingerprint": "A7:19:55:5C:A2:8C:6D:CC:DC:D6:25:0F:92:35:18:32:87:6C:8E:2A",
+      "sha1": "A7:19:55:5C:A2:8C:6D:CC:DC:D6:25:0F:92:35:18:32:87:6C:8E:2A",
+      "sha256": "80:22:5E:A7:7B:46:CA:A4:C3:0A:8A:6F:A4:D9:B8:FB:A9:30:09:31:DA:9A:CB:2C:A4:38:4B:8A:85:E2:FE:31",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.sedexion.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.sedexion.net",
+        "subjectKeyIdentifier": "keyid:fb:fc:72:2a:bd:31:05:d4:d3:21:1c:3b:a9:f8:96:0e:02:de:05:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 843276398,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=843276398&end=843276398",
+    "seen": 1779645424.814,
+    "submission_timestamp": 1777965575.671,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}
