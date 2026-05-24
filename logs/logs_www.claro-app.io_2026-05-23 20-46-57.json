@@ -1,0 +1,52 @@
+{
+  "dominio": "www.claro-app.io",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/23/26 20:46:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.claro-app.io",
+        "aggregated": "/CN=www.claro-app.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "722AC8487DF31B8C",
+      "not_before": 1779249695,
+      "not_after": 1796356895,
+      "fingerprint": "7A:22:B2:6F:4E:48:57:6C:C0:AA:10:85:C0:16:F2:EA:3A:06:5D:A3",
+      "sha1": "7A:22:B2:6F:4E:48:57:6C:C0:AA:10:85:C0:16:F2:EA:3A:06:5D:A3",
+      "sha256": "C0:78:52:00:C8:90:5F:62:FD:D8:62:70:4D:1D:1E:AC:BB:EC:95:29:FA:96:E6:A2:A6:EE:C4:D8:DE:30:7B:28",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.claro-app.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.claro-app.io",
+        "subjectKeyIdentifier": "keyid:88:72:ff:5e:20:18:7d:67:24:53:b2:95:38:e2:bc:4e:fe:9b:56:f0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4342213154,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4342213154&end=4342213154",
+    "seen": 1779580008.224,
+    "submission_timestamp": 1779249696.802,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

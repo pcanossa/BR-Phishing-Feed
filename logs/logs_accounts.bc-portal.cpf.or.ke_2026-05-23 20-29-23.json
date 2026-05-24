@@ -1,0 +1,52 @@
+{
+  "dominio": "accounts.bc-portal.cpf.or.ke",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/23/26 20:29:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "accounts.bc-portal.cpf.or.ke",
+        "aggregated": "/CN=accounts.bc-portal.cpf.or.ke"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "B52DE308BA9F92420E6A50B16B732F96",
+      "not_before": 1777963831,
+      "not_after": 1785743418,
+      "fingerprint": "16:93:25:5B:20:1E:2B:F8:51:90:E7:77:A0:F7:EC:08:D8:C4:61:CB",
+      "sha1": "16:93:25:5B:20:1E:2B:F8:51:90:E7:77:A0:F7:EC:08:D8:C4:61:CB",
+      "sha256": "A7:32:AF:7B:56:8C:A5:3E:5E:99:B8:7A:65:34:50:69:04:42:27:30:AC:17:E4:76:F0:01:72:CB:91:7A:C4:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "accounts.bc-portal.cpf.or.ke"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/tS0, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:accounts.bc-portal.cpf.or.ke",
+        "subjectKeyIdentifier": "keyid:0f:75:f7:ae:4b:78:58:4c:3d:e1:5a:e7:4d:8a:e4:fb:9e:99:8b:3a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 697718186,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=697718186&end=697718186",
+    "seen": 1779578954.178,
+    "submission_timestamp": 1777967431.699,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

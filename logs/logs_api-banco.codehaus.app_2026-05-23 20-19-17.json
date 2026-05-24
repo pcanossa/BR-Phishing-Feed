@@ -1,0 +1,53 @@
+{
+  "dominio": "api-banco.codehaus.app",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/23/26 20:19:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "codehaus.app",
+        "aggregated": "/CN=codehaus.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "F230DC88AEA95ED4132F1B03E02694BD",
+      "not_before": 1779244091,
+      "not_after": 1787023554,
+      "fingerprint": "F8:A2:EE:3B:40:45:F6:C1:8D:75:95:CF:40:93:03:A9:12:41:AE:45",
+      "sha1": "F8:A2:EE:3B:40:45:F6:C1:8D:75:95:CF:40:93:03:A9:12:41:AE:45",
+      "sha256": "03:DE:D3:62:75:B1:44:94:CB:65:D8:50:96:5C:16:F4:14:7C:93:B6:73:F0:69:7B:C7:E8:A1:34:54:EB:E6:83",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "codehaus.app",
+        "api-banco.codehaus.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/8jA, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:codehaus.app, DNS:api-banco.codehaus.app",
+        "subjectKeyIdentifier": "keyid:3e:0d:d5:7c:54:c4:93:a3:e8:cb:1a:b9:48:e8:0a:f4:b0:44:41:4d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4341784330,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341784330&end=4341784330",
+    "seen": 1779578348.43,
+    "submission_timestamp": 1779247692.493,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

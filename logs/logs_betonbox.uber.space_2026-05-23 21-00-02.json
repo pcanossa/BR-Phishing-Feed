@@ -1,0 +1,51 @@
+{
+  "dominio": "betonbox.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "05/23/26 21:00:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "betonbox.uber.space",
+        "aggregated": "/CN=betonbox.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0500D16DC9C2061D88D917D5C6DF274478E8",
+      "not_before": 1779247045,
+      "not_after": 1787023044,
+      "fingerprint": "A6:7F:EB:01:DF:18:34:60:4F:84:F2:57:4E:A9:67:A0:31:B0:6B:96",
+      "sha1": "A6:7F:EB:01:DF:18:34:60:4F:84:F2:57:4E:A9:67:A0:31:B0:6B:96",
+      "sha256": "DF:8A:DA:41:C5:34:42:7E:69:32:E7:95:96:DB:4D:D2:B9:96:E9:70:3E:04:DE:F4:C8:84:09:7E:B6:C7:7B:A0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "betonbox.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:betonbox.uber.space",
+        "subjectKeyIdentifier": "keyid:a0:8c:60:e0:f3:e9:6d:37:2d:a9:d4:4a:4c:e1:90:57:ef:7b:55:b8"
+      }
+    },
+    "cert_index": 4342414230,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4342414230&end=4342414230",
+    "seen": 1779580792.865,
+    "submission_timestamp": 1779250558.858,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

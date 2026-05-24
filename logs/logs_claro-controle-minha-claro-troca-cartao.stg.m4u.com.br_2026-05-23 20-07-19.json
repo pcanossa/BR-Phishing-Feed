@@ -1,0 +1,54 @@
+{
+  "dominio": "claro-controle-minha-claro-troca-cartao.stg.m4u.com.br",
+  "marcas_encontradas": [
+    "cartao",
+    "claro"
+  ],
+  "timestamp": "05/23/26 20:07:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro-controle-minha-claro-troca-cartao.stg.m4u.com.br",
+        "aggregated": "/CN=claro-controle-minha-claro-troca-cartao.stg.m4u.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A21203236376AD23770C6704743A41E",
+      "not_before": 1779235200,
+      "not_after": 1796342399,
+      "fingerprint": "F5:1D:25:29:3D:3A:83:F9:3F:28:32:94:5F:1B:90:20:87:CF:2A:AF",
+      "sha1": "F5:1D:25:29:3D:3A:83:F9:3F:28:32:94:5F:1B:90:20:87:CF:2A:AF",
+      "sha256": "CF:D6:0A:D1:37:D9:C2:9C:01:B2:A6:DA:54:09:F6:3F:6C:9A:D6:E7:57:10:A0:BC:C0:42:22:7C:73:9B:67:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "claro-controle-minha-claro-troca-cartao.stg.m4u.com.br",
+        "*.systemlake.m4u-lab.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:claro-controle-minha-claro-troca-cartao.stg.m4u.com.br, DNS:*.systemlake.m4u-lab.io",
+        "subjectKeyIdentifier": "keyid:9a:c3:aa:da:4c:96:24:5d:58:40:fa:07:3f:62:40:dc:b5:bc:ed:76",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4341600776,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341600776&end=4341600776",
+    "seen": 1779577629.821,
+    "submission_timestamp": 1779246833.672,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

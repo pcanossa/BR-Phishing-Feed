@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-visita-caio.pages.dev",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/23/26 20:13:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-visita-caio.pages.dev",
+        "aggregated": "/CN=cartao-visita-caio.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05175E93F68D786766E2DD1DDB80B97851B5",
+      "not_before": 1779234921,
+      "not_after": 1787010920,
+      "fingerprint": "52:8E:3E:53:CE:64:2D:DA:C6:FC:D6:A7:A8:5F:28:BD:A0:88:3D:44",
+      "sha1": "52:8E:3E:53:CE:64:2D:DA:C6:FC:D6:A7:A8:5F:28:BD:A0:88:3D:44",
+      "sha256": "4C:31:EF:6F:D1:85:98:AD:BB:98:33:9A:94:FF:9F:6A:E7:74:92:68:F3:3B:EA:05:9A:F2:E1:C5:9F:D2:E6:58",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-visita-caio.pages.dev",
+        "*.cartao-visita-caio.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cartao-visita-caio.pages.dev, DNS:cartao-visita-caio.pages.dev",
+        "subjectKeyIdentifier": "keyid:f3:c2:44:60:b1:6e:9b:4c:5b:a8:f5:34:29:3e:86:78:d6:06:00:b4"
+      }
+    },
+    "cert_index": 4341692045,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341692045&end=4341692045",
+    "seen": 1779577984.465,
+    "submission_timestamp": 1779247246.914,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

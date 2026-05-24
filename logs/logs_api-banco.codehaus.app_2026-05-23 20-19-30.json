@@ -1,0 +1,53 @@
+{
+  "dominio": "api-banco.codehaus.app",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/23/26 20:19:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "codehaus.app",
+        "aggregated": "/CN=codehaus.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0691DD2BFE689ED70E6E9F83129B2A41",
+      "not_before": 1779244108,
+      "not_after": 1787023697,
+      "fingerprint": "90:37:60:CF:24:37:82:E2:9D:4E:BB:18:91:87:5A:72:7E:11:04:1E",
+      "sha1": "90:37:60:CF:24:37:82:E2:9D:4E:BB:18:91:87:5A:72:7E:11:04:1E",
+      "sha256": "B3:08:0E:13:31:69:AA:E9:3A:46:67:CD:C5:28:9B:E9:DD:20:22:41:EF:02:D9:7E:30:F9:5E:5F:7B:50:5B:10",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "codehaus.app",
+        "api-banco.codehaus.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BpE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:codehaus.app, DNS:api-banco.codehaus.app",
+        "subjectKeyIdentifier": "keyid:b0:d8:e6:b8:0b:63:e8:3f:44:ef:43:4f:1a:9f:00:8f:6f:e3:be:c3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4341787310,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4341787310&end=4341787310",
+    "seen": 1779578361.286,
+    "submission_timestamp": 1779247708.649,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
