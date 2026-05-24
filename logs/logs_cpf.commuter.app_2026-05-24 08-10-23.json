@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.commuter.app",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/24/26 08:10:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.commuter.app",
+        "aggregated": "/CN=cpf.commuter.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "062EE90DD26C677C25680D3E95A4C9997EDA",
+      "not_before": 1779286655,
+      "not_after": 1787062654,
+      "fingerprint": "2B:EF:B5:52:86:A4:25:17:73:DB:B4:C4:42:0B:E8:C7:81:AD:63:CB",
+      "sha1": "2B:EF:B5:52:86:A4:25:17:73:DB:B4:C4:42:0B:E8:C7:81:AD:63:CB",
+      "sha256": "01:D4:A9:91:CC:1A:32:08:20:8C:DE:3D:3F:FB:A0:2C:E7:AA:0F:2A:A8:A2:5E:44:7C:BF:6D:D6:C9:72:2E:97",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.commuter.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.commuter.app",
+        "subjectKeyIdentifier": "keyid:cb:e3:a1:f3:3d:36:1e:99:69:33:13:2b:9d:7e:08:ed:16:b8:e1:55"
+      }
+    },
+    "cert_index": 4352261137,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4352261137&end=4352261137",
+    "seen": 1779621012.663,
+    "submission_timestamp": 1779290168.167,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

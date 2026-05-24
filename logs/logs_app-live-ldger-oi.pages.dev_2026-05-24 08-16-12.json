@@ -1,0 +1,53 @@
+{
+  "dominio": "app-live-ldger-oi.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/24/26 08:16:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-live-ldger-oi.pages.dev",
+        "aggregated": "/CN=app-live-ldger-oi.pages.dev"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "3948FCEBC5E5837ECB32B135D337B820",
+      "not_before": 1779062400,
+      "not_after": 1786917140,
+      "fingerprint": "8A:4E:6A:A8:4B:36:ED:1B:48:80:04:C6:9D:6C:10:90:BE:8A:98:6B",
+      "sha1": "8A:4E:6A:A8:4B:36:ED:1B:48:80:04:C6:9D:6C:10:90:BE:8A:98:6B",
+      "sha256": "23:D8:41:8D:56:51:7F:2C:26:B8:A0:AF:EC:50:80:18:8C:64:8C:20:CB:59:CD:67:28:DC:3A:F0:BB:D8:E6:77",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-live-ldger-oi.pages.dev",
+        "*.app-live-ldger-oi.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-live-ldger-oi.pages.dev, DNS:*.app-live-ldger-oi.pages.dev",
+        "subjectKeyIdentifier": "keyid:3c:82:d8:c3:ec:ea:35:86:e9:e3:de:7f:f3:cc:8f:28:e8:a4:44:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 805394574,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=805394574&end=805394574",
+    "seen": 1779621361.829,
+    "submission_timestamp": 1779141226.391,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

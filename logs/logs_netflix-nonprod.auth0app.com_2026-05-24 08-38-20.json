@@ -1,0 +1,54 @@
+{
+  "dominio": "netflix-nonprod.auth0app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/24/26 08:38:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-nonprod.auth0app.com",
+        "aggregated": "/CN=netflix-nonprod.auth0app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "055ECC619D4D0375D78AEFB3749DB87DD0F8",
+      "not_before": 1779288230,
+      "not_after": 1787064229,
+      "fingerprint": "DD:29:4A:E9:CD:54:C3:7F:74:57:B4:24:E5:2C:56:ED:3F:9F:DB:96",
+      "sha1": "DD:29:4A:E9:CD:54:C3:7F:74:57:B4:24:E5:2C:56:ED:3F:9F:DB:96",
+      "sha256": "66:04:A8:7E:AE:01:0D:71:75:D1:3C:CF:8F:0D:23:79:F3:B1:EE:14:85:FE:B8:C5:22:8E:B9:17:36:9F:E3:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-nonprod.auth0app.com",
+        "*.edge.tenants.netflix-nonprod.auth0app.com",
+        "*.netflix-nonprod.auth0app.com",
+        "*.wt.netflix-nonprod.auth0app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.edge.tenants.netflix-nonprod.auth0app.com, DNS:*.netflix-nonprod.auth0app.com, DNS:*.wt.netflix-nonprod.auth0app.com, DNS:netflix-nonprod.auth0app.com",
+        "subjectKeyIdentifier": "keyid:af:b6:a0:91:6b:0d:d2:14:ba:69:8e:fb:45:aa:c8:46:05:68:ce:b9"
+      }
+    },
+    "cert_index": 4352670731,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4352670731&end=4352670731",
+    "seen": 1779622689.631,
+    "submission_timestamp": 1779291977.544,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
