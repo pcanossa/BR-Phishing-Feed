@@ -1,0 +1,53 @@
+{
+  "dominio": "claro-controle-minha-claro-troca-cartao.stg.m4u.com.br",
+  "marcas_encontradas": [
+    "cartao",
+    "claro"
+  ],
+  "timestamp": "05/23/26 22:13:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro-controle-minha-claro-troca-cartao.stg.m4u.com.br",
+        "aggregated": "/CN=claro-controle-minha-claro-troca-cartao.stg.m4u.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A21203236376AD23770C6704743A41E",
+      "not_before": 1779235200,
+      "not_after": 1796342399,
+      "fingerprint": "98:A7:C3:DF:6E:4C:EC:3B:EF:62:BD:4F:64:79:DF:6A:43:C7:86:DB",
+      "sha1": "98:A7:C3:DF:6E:4C:EC:3B:EF:62:BD:4F:64:79:DF:6A:43:C7:86:DB",
+      "sha256": "80:39:F9:76:CC:2A:AF:6C:16:2D:4B:58:A2:F7:7D:EE:F7:63:63:93:BE:65:83:C8:7D:3D:CD:02:3B:2E:B0:A8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "claro-controle-minha-claro-troca-cartao.stg.m4u.com.br",
+        "*.systemlake.m4u-lab.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:claro-controle-minha-claro-troca-cartao.stg.m4u.com.br, DNS:*.systemlake.m4u-lab.io",
+        "subjectKeyIdentifier": "keyid:9a:c3:aa:da:4c:96:24:5d:58:40:fa:07:3f:62:40:dc:b5:bc:ed:76"
+      }
+    },
+    "cert_index": 4343340926,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4343340926&end=4343340926",
+    "seen": 1779585227.701,
+    "submission_timestamp": 1779254782.513,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

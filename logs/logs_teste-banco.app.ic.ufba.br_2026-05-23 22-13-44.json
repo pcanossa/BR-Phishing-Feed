@@ -1,0 +1,51 @@
+{
+  "dominio": "teste-banco.app.ic.ufba.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "05/23/26 22:13:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "teste-banco.app.ic.ufba.br",
+        "aggregated": "/CN=teste-banco.app.ic.ufba.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "057B247F78E11E0A5FBEBF467AA2B9143585",
+      "not_before": 1778439107,
+      "not_after": 1786215106,
+      "fingerprint": "63:09:E8:2C:B3:75:57:1B:5F:5F:1C:1B:06:9F:58:36:8B:39:F3:C3",
+      "sha1": "63:09:E8:2C:B3:75:57:1B:5F:5F:1C:1B:06:9F:58:36:8B:39:F3:C3",
+      "sha256": "A0:00:DD:23:93:68:B6:88:19:69:B9:2C:D0:FF:46:4E:2C:02:2D:2B:53:81:7E:37:32:4E:57:37:22:9A:93:EB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "teste-banco.app.ic.ufba.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:teste-banco.app.ic.ufba.br",
+        "subjectKeyIdentifier": "keyid:73:e6:54:50:80:45:ae:5f:02:de:46:f4:e0:96:55:c5:0b:50:d3:3f"
+      }
+    },
+    "cert_index": 801543668,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=801543668&end=801543668",
+    "seen": 1779585215.53,
+    "submission_timestamp": 1779118078.486,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

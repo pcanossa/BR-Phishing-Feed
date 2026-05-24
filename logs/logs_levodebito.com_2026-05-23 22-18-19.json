@@ -1,0 +1,53 @@
+{
+  "dominio": "levodebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/23/26 22:18:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "levodebito.com",
+        "aggregated": "/CN=levodebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F0A3FEC4B5462410",
+      "not_before": 1779255052,
+      "not_after": 1787031052,
+      "fingerprint": "8F:4C:43:3A:BE:F0:4A:37:D0:97:0D:4D:BB:C1:40:E6:AF:F7:A3:EA",
+      "sha1": "8F:4C:43:3A:BE:F0:4A:37:D0:97:0D:4D:BB:C1:40:E6:AF:F7:A3:EA",
+      "sha256": "61:F3:D4:A5:8E:56:FF:A4:40:00:16:07:A9:B3:E6:EF:EE:3E:ED:87:48:79:98:7E:CE:C4:4C:25:E4:24:87:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "levodebito.com",
+        "www.levodebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:levodebito.com, DNS:www.levodebito.com",
+        "subjectKeyIdentifier": "keyid:19:9e:b9:b8:b8:2e:73:90:99:72:92:5e:fd:f5:b9:84:34:6c:cc:30",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4343399205,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4343399205&end=4343399205",
+    "seen": 1779585489.9,
+    "submission_timestamp": 1779255053.758,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
