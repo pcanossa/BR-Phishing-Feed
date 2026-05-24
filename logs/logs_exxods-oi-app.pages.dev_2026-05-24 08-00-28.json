@@ -1,0 +1,52 @@
+{
+  "dominio": "exxods-oi-app.pages.dev",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/24/26 08:00:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "exxods-oi-app.pages.dev",
+        "aggregated": "/CN=exxods-oi-app.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9DCFE2F2260B42B30D642497DD41F739",
+      "not_before": 1777800042,
+      "not_after": 1785579504,
+      "fingerprint": "C3:B2:D9:3C:91:B4:45:2A:6D:7F:18:AE:13:E6:78:73:56:11:3B:29",
+      "sha1": "C3:B2:D9:3C:91:B4:45:2A:6D:7F:18:AE:13:E6:78:73:56:11:3B:29",
+      "sha256": "09:53:58:E3:44:DF:76:3B:D3:01:3E:33:DF:6D:03:13:47:E7:FB:0E:07:03:68:86:98:2C:4A:8B:7C:55:64:8A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "exxods-oi-app.pages.dev",
+        "*.exxods-oi-app.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/nc8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:exxods-oi-app.pages.dev, DNS:*.exxods-oi-app.pages.dev",
+        "subjectKeyIdentifier": "keyid:4b:18:c5:c5:32:d7:0b:b8:c0:42:87:cb:c7:f3:53:54:6b:1f:80:42"
+      }
+    },
+    "cert_index": 4352120819,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4352120819&end=4352120819",
+    "seen": 1779620418.328,
+    "submission_timestamp": 1779289580.575,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

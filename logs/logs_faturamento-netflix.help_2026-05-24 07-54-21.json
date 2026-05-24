@@ -1,0 +1,52 @@
+{
+  "dominio": "faturamento-netflix.help",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/24/26 07:54:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "faturamento-netflix.help",
+        "aggregated": "/CN=faturamento-netflix.help"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "781DA2E60709CE8D7978149C8D9A4CCE",
+      "not_before": 1779062400,
+      "not_after": 1786915859,
+      "fingerprint": "29:26:BB:B5:F1:1A:44:22:2F:EA:EC:EC:D6:54:31:0C:20:5D:AB:2E",
+      "sha1": "29:26:BB:B5:F1:1A:44:22:2F:EA:EC:EC:D6:54:31:0C:20:5D:AB:2E",
+      "sha256": "35:A1:EA:77:A9:A9:62:AA:E3:DD:63:6D:87:11:0B:B0:A9:F8:90:72:4D:3E:28:E5:EB:71:9F:67:C8:E6:18:EE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "faturamento-netflix.help",
+        "*.faturamento-netflix.help"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:faturamento-netflix.help, DNS:*.faturamento-netflix.help",
+        "subjectKeyIdentifier": "keyid:0f:62:c9:b7:5d:6d:6a:97:c2:a0:74:fe:b3:c2:4b:9a:15:f7:e1:6a"
+      }
+    },
+    "cert_index": 805203754,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=805203754&end=805203754",
+    "seen": 1779620050.92,
+    "submission_timestamp": 1779139952.862,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
