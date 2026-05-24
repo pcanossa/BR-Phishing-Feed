@@ -1,0 +1,52 @@
+{
+  "dominio": "app.gestaodefazendas.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/24/26 18:31:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.gestaodefazendas.com",
+        "aggregated": "/CN=app.gestaodefazendas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "405432962EB66F001306B474FE4DA431",
+      "not_before": 1779325050,
+      "not_after": 1787104649,
+      "fingerprint": "7A:B1:E1:82:D2:92:E5:15:45:5A:EC:BA:5F:1F:4B:11:3E:90:34:9C",
+      "sha1": "7A:B1:E1:82:D2:92:E5:15:45:5A:EC:BA:5F:1F:4B:11:3E:90:34:9C",
+      "sha256": "4D:CA:5C:77:18:6E:15:E7:B1:7E:32:AE:1A:D1:D9:B2:02:7C:FD:C2:57:0F:E1:66:11:D2:34:CC:A5:66:26:26",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.gestaodefazendas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/QFQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.gestaodefazendas.com",
+        "subjectKeyIdentifier": "keyid:6b:6f:35:a1:21:e8:4f:2c:67:0c:f9:3d:4d:f0:66:46:aa:de:ff:5c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4361184409,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4361184409&end=4361184409",
+    "seen": 1779658290.379,
+    "submission_timestamp": 1779328651.361,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
