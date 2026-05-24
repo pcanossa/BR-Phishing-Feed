@@ -1,0 +1,53 @@
+{
+  "dominio": "santander.seguridad-alertas.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 19:43:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "seguridad-alertas.com",
+        "aggregated": "/CN=seguridad-alertas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "697A056BB2997CE8133DF46DF5FA315C",
+      "not_before": 1778481720,
+      "not_after": 1786261316,
+      "fingerprint": "FE:C2:CD:98:1D:F3:4B:5E:92:E0:F2:82:4F:BF:17:F4:8F:65:CB:4C",
+      "sha1": "FE:C2:CD:98:1D:F3:4B:5E:92:E0:F2:82:4F:BF:17:F4:8F:65:CB:4C",
+      "sha256": "98:52:A9:4E:B3:66:B0:47:0F:9C:87:4D:5D:8C:0B:2C:31:58:A5:1E:59:42:01:C9:14:1E:2D:1C:49:62:D9:23",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "seguridad-alertas.com",
+        "santander.seguridad-alertas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/aXo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:seguridad-alertas.com, DNS:santander.seguridad-alertas.com",
+        "subjectKeyIdentifier": "keyid:4d:03:b4:da:f6:9f:08:52:89:cb:40:0b:6c:58:7b:55:33:89:43:fe",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 654710921,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=654710921&end=654710921",
+    "seen": 1779662591.212,
+    "submission_timestamp": 1778485320.776,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

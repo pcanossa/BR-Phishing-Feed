@@ -1,0 +1,53 @@
+{
+  "dominio": "santander.asistencia-app.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 19:36:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "asistencia-app.es",
+        "aggregated": "/CN=asistencia-app.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6B4B6CED81546035139D969B9405EFEB",
+      "not_before": 1778481492,
+      "not_after": 1786261090,
+      "fingerprint": "76:13:5A:5C:71:B9:52:66:25:2B:C0:19:DB:1A:8A:B2:C8:A1:AA:D1",
+      "sha1": "76:13:5A:5C:71:B9:52:66:25:2B:C0:19:DB:1A:8A:B2:C8:A1:AA:D1",
+      "sha256": "38:E3:E8:39:0B:01:9D:54:A5:61:83:6F:C6:59:80:70:0F:BE:8C:C7:B9:4E:90:A8:01:AA:9F:84:DE:03:0F:EF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "asistencia-app.es",
+        "santander.asistencia-app.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/a0s, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:asistencia-app.es, DNS:santander.asistencia-app.es",
+        "subjectKeyIdentifier": "keyid:d6:d5:b9:b9:6e:49:9c:56:24:c9:85:fc:73:44:b5:3d:52:d6:97:c9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 654685687,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=654685687&end=654685687",
+    "seen": 1779662167.021,
+    "submission_timestamp": 1778485093.23,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

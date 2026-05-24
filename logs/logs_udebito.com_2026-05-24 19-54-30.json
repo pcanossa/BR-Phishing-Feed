@@ -1,0 +1,52 @@
+{
+  "dominio": "udebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/24/26 19:54:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "udebito.com",
+        "aggregated": "/CN=udebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059CECCD5F9EF69BD58F1FEAD92692FBD15A",
+      "not_before": 1779330603,
+      "not_after": 1787106602,
+      "fingerprint": "D1:13:D8:45:0E:EB:10:33:B6:9A:0E:E3:14:DE:10:B2:1B:8E:31:F7",
+      "sha1": "D1:13:D8:45:0E:EB:10:33:B6:9A:0E:E3:14:DE:10:B2:1B:8E:31:F7",
+      "sha256": "59:45:A3:CF:D8:DB:18:2C:B9:E9:F4:FA:8B:E1:3E:67:1C:BD:2C:86:FC:EE:A5:FB:9F:B1:D7:D9:EE:92:8C:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "udebito.com",
+        "*.udebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.udebito.com, DNS:udebito.com",
+        "subjectKeyIdentifier": "keyid:76:6b:0b:55:28:8e:61:81:29:01:44:f4:04:55:03:48:8a:b5:7e:20"
+      }
+    },
+    "cert_index": 4362362052,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4362362052&end=4362362052",
+    "seen": 1779663257.87,
+    "submission_timestamp": 1779334116.512,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

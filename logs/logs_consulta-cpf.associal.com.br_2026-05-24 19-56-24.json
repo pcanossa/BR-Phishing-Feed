@@ -1,0 +1,52 @@
+{
+  "dominio": "consulta-cpf.associal.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/24/26 19:56:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "associal.com.br",
+        "aggregated": "/CN=associal.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8D92DCD978D670FA0ED51937688D3DEF",
+      "not_before": 1779320678,
+      "not_after": 1787100274,
+      "fingerprint": "37:15:3A:1E:F4:72:57:B3:25:5C:AE:85:EB:95:2D:E1:8E:B9:BA:D3",
+      "sha1": "37:15:3A:1E:F4:72:57:B3:25:5C:AE:85:EB:95:2D:E1:8E:B9:BA:D3",
+      "sha256": "30:16:68:D5:BE:01:54:C7:71:8B:AA:56:EA:91:BA:AC:2E:F7:A0:EF:FE:33:DB:53:27:AE:4B:34:F4:E9:D1:4E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "associal.com.br",
+        "consulta-cpf.associal.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jZI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:associal.com.br, DNS:consulta-cpf.associal.com.br",
+        "subjectKeyIdentifier": "keyid:77:14:84:20:76:bc:cf:c0:77:39:ea:79:b1:f4:80:d9:d5:68:d5:80"
+      }
+    },
+    "cert_index": 4362386895,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4362386895&end=4362386895",
+    "seen": 1779663372.455,
+    "submission_timestamp": 1779334233.531,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

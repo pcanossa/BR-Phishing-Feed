@@ -1,0 +1,53 @@
+{
+  "dominio": "santander.asistencia-app.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 19:35:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "asistencia-app.es",
+        "aggregated": "/CN=asistencia-app.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "838B86624DF7E5C40E9BF6680318D61B",
+      "not_before": 1778481483,
+      "not_after": 1786261081,
+      "fingerprint": "AE:D5:B3:51:1E:2F:B1:E4:36:F0:82:ED:09:F3:6C:C1:FF:61:25:BB",
+      "sha1": "AE:D5:B3:51:1E:2F:B1:E4:36:F0:82:ED:09:F3:6C:C1:FF:61:25:BB",
+      "sha256": "6D:F8:FA:51:D6:06:9F:0F:C7:8B:14:68:BE:88:BD:C1:AC:66:E8:19:0B:FA:10:3F:6A:5C:A8:2F:AA:1A:2C:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "asistencia-app.es",
+        "santander.asistencia-app.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/g4s, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:asistencia-app.es, DNS:santander.asistencia-app.es",
+        "subjectKeyIdentifier": "keyid:26:49:f6:43:ee:7f:5d:c4:43:f1:3b:fe:2e:9b:ad:f2:9d:97:22:30",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 654684316,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=654684316&end=654684316",
+    "seen": 1779662125.452,
+    "submission_timestamp": 1778485084.832,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
