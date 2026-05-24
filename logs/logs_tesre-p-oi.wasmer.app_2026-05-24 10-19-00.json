@@ -1,0 +1,51 @@
+{
+  "dominio": "tesre-p-oi.wasmer.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "05/24/26 10:19:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.tesre-p-oi.wasmer.app",
+        "aggregated": "/CN=*.tesre-p-oi.wasmer.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05070EB3539B92063C6D111A7FDE834D5525",
+      "not_before": 1779293946,
+      "not_after": 1787069945,
+      "fingerprint": "B9:DC:68:A1:DE:F4:D4:A0:12:DC:9A:4E:0B:C7:FE:CF:9C:10:71:CA",
+      "sha1": "B9:DC:68:A1:DE:F4:D4:A0:12:DC:9A:4E:0B:C7:FE:CF:9C:10:71:CA",
+      "sha256": "13:27:A2:12:45:DC:B6:CD:9F:81:4E:C8:7F:50:34:2B:7A:6F:05:E6:2F:FA:CE:B6:60:EC:2E:50:F4:5B:09:93",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.tesre-p-oi.wasmer.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.tesre-p-oi.wasmer.app",
+        "subjectKeyIdentifier": "keyid:a8:e8:41:37:ad:e0:c4:43:f3:0f:ac:02:54:51:29:6e:0f:32:2f:fa"
+      }
+    },
+    "cert_index": 4354095176,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4354095176&end=4354095176",
+    "seen": 1779628729.468,
+    "submission_timestamp": 1779297458.285,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

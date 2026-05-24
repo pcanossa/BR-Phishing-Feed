@@ -1,0 +1,53 @@
+{
+  "dominio": "ecodeldebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/24/26 10:56:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ecodeldebito.com",
+        "aggregated": "/CN=ecodeldebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "858C4CDF1568A1F60EC4C9FED440C887",
+      "not_before": 1779296018,
+      "not_after": 1787075536,
+      "fingerprint": "0A:0E:2C:17:53:CE:14:9A:3D:F9:E4:F6:76:1B:FE:0D:41:88:6F:57",
+      "sha1": "0A:0E:2C:17:53:CE:14:9A:3D:F9:E4:F6:76:1B:FE:0D:41:88:6F:57",
+      "sha256": "1E:2D:F1:17:28:2B:29:8C:48:0F:31:15:4C:67:BA:27:EA:60:5D:E7:66:59:B9:87:DF:DE:26:3B:B8:32:1C:E7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "ecodeldebito.com",
+        "*.ecodeldebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/hYw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ecodeldebito.com, DNS:*.ecodeldebito.com",
+        "subjectKeyIdentifier": "keyid:6d:30:2a:9e:69:54:5f:a3:e8:15:68:f7:e2:6e:64:68:f4:59:64:de",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4354613856,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4354613856&end=4354613856",
+    "seen": 1779630981.672,
+    "submission_timestamp": 1779299619.02,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

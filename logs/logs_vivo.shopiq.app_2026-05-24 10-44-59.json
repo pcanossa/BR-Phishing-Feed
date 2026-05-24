@@ -1,0 +1,52 @@
+{
+  "dominio": "vivo.shopiq.app",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "05/24/26 10:44:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vivo.shopiq.app",
+        "aggregated": "/CN=vivo.shopiq.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "050E2788A2E1E97600F7808A8931F225A19A",
+      "not_before": 1779295432,
+      "not_after": 1787071431,
+      "fingerprint": "9C:56:32:FC:71:8F:42:B4:60:DE:E8:2F:A5:05:0F:A2:E4:8C:0A:AF",
+      "sha1": "9C:56:32:FC:71:8F:42:B4:60:DE:E8:2F:A5:05:0F:A2:E4:8C:0A:AF",
+      "sha256": "61:81:AB:01:BB:D6:A8:53:18:08:5B:91:15:9D:2A:49:54:48:E8:EC:0F:34:71:C3:FE:81:CC:CC:3B:9A:13:F9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vivo.shopiq.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vivo.shopiq.app",
+        "subjectKeyIdentifier": "keyid:42:8d:c5:cc:8f:77:d4:29:ef:5c:a0:16:1e:d8:af:bc:01:38:82:49",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4354457957,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4354457957&end=4354457957",
+    "seen": 1779630288.572,
+    "submission_timestamp": 1779298942.17,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
