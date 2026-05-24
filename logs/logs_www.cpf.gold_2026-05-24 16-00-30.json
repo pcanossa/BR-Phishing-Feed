@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cpf.gold",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "05/24/26 16:00:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.gold",
+        "aggregated": "/CN=cpf.gold"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0548D62E8655947214B0350C95926963B6DC",
+      "not_before": 1779315564,
+      "not_after": 1787091563,
+      "fingerprint": "EE:B6:37:44:74:42:66:A6:A7:A0:70:AF:8C:27:27:4A:92:C2:E6:3B",
+      "sha1": "EE:B6:37:44:74:42:66:A6:A7:A0:70:AF:8C:27:27:4A:92:C2:E6:3B",
+      "sha256": "F6:E6:F5:7D:48:2B:2D:BB:4A:0C:EA:B0:7D:7A:88:50:62:28:8F:52:98:8A:95:06:10:8C:E8:4E:44:C7:55:F1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.gold",
+        "www.cpf.gold"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.gold, DNS:www.cpf.gold",
+        "subjectKeyIdentifier": "keyid:66:c7:80:bf:ac:e6:ac:33:f7:37:29:e4:48:93:fe:71:d4:a6:eb:c6"
+      }
+    },
+    "cert_index": 4359007369,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4359007369&end=4359007369",
+    "seen": 1779649219.369,
+    "submission_timestamp": 1779319076.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

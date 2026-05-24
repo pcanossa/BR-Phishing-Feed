@@ -1,0 +1,53 @@
+{
+  "dominio": "www.debitok.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/24/26 15:17:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debitok.com",
+        "aggregated": "/CN=www.debitok.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0542A619156EED59E9C9367ACD2F29B51895",
+      "not_before": 1779312592,
+      "not_after": 1787088591,
+      "fingerprint": "D4:FC:60:31:8B:2F:5C:06:45:49:B5:CC:AD:2E:A8:70:8C:29:AC:CF",
+      "sha1": "D4:FC:60:31:8B:2F:5C:06:45:49:B5:CC:AD:2E:A8:70:8C:29:AC:CF",
+      "sha256": "F5:2F:2B:70:C8:E3:A7:FB:35:2B:CB:0F:EF:8F:61:65:AD:BA:06:62:BA:C2:2E:25:FF:4D:B7:AB:E7:E8:92:A2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debitok.com",
+        "debitok.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitok.com, DNS:www.debitok.com",
+        "subjectKeyIdentifier": "keyid:c0:05:29:70:77:61:48:92:38:1b:7e:09:91:37:5b:b5:c7:60:85:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4358373658,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4358373658&end=4358373658",
+    "seen": 1779646650.42,
+    "submission_timestamp": 1779316102.64,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "netflix-bet.top",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/24/26 15:35:58",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-bet.top",
+        "aggregated": "/CN=netflix-bet.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06050FD1F00C1934F87AB9B4E1157C8673E9",
+      "not_before": 1779301991,
+      "not_after": 1787077990,
+      "fingerprint": "12:47:5E:61:98:31:EE:D7:89:38:66:32:C7:32:8A:91:4A:0C:84:DF",
+      "sha1": "12:47:5E:61:98:31:EE:D7:89:38:66:32:C7:32:8A:91:4A:0C:84:DF",
+      "sha256": "47:D3:91:C4:D4:BD:D5:39:CF:11:2B:26:ED:78:AE:E8:98:71:A0:9A:BF:D7:56:4D:7E:61:61:7F:6B:18:0F:76",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-bet.top",
+        "*.netflix-bet.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.netflix-bet.top, DNS:netflix-bet.top",
+        "subjectKeyIdentifier": "keyid:4b:c0:91:02:d1:cd:a0:74:ea:25:70:82:23:1b:64:37:de:0e:35:89"
+      }
+    },
+    "cert_index": 4358643884,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4358643884&end=4358643884",
+    "seen": 1779647747.512,
+    "submission_timestamp": 1779317387.753,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

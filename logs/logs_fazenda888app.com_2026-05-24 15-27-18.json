@@ -1,0 +1,52 @@
+{
+  "dominio": "fazenda888app.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "05/24/26 15:27:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fazenda888app.com",
+        "aggregated": "/CN=fazenda888app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05DDAF32D2CDD6D3128EB853F1F3C33BDB95",
+      "not_before": 1779313149,
+      "not_after": 1787089148,
+      "fingerprint": "AD:43:FA:FE:85:3C:2B:E3:00:D0:21:73:C7:62:F8:AD:66:8D:BC:40",
+      "sha1": "AD:43:FA:FE:85:3C:2B:E3:00:D0:21:73:C7:62:F8:AD:66:8D:BC:40",
+      "sha256": "DD:16:B3:5C:93:FB:18:57:24:1D:BE:D5:06:D6:75:13:FD:06:4F:29:C5:85:7C:4E:15:88:BD:AD:98:85:1F:EB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "fazenda888app.com",
+        "*.fazenda888app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.fazenda888app.com, DNS:fazenda888app.com",
+        "subjectKeyIdentifier": "keyid:af:30:63:9e:4a:16:54:61:ad:7d:d3:c6:6e:c1:c9:cb:e6:44:16:b9"
+      }
+    },
+    "cert_index": 4358519184,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4358519184&end=4358519184",
+    "seen": 1779647227.083,
+    "submission_timestamp": 1779316809.71,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
