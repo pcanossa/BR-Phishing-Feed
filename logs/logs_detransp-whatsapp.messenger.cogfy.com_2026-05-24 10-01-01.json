@@ -1,0 +1,52 @@
+{
+  "dominio": "detransp-whatsapp.messenger.cogfy.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/24/26 10:01:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detransp-whatsapp.messenger.cogfy.com",
+        "aggregated": "/CN=detransp-whatsapp.messenger.cogfy.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06ED159A43F175892A709F8DD3B9722C",
+      "not_before": 1779235200,
+      "not_after": 1796342399,
+      "fingerprint": "7B:77:1E:C3:1D:D3:D2:59:73:DD:39:73:61:CA:00:A9:F9:BA:04:50",
+      "sha1": "7B:77:1E:C3:1D:D3:D2:59:73:DD:39:73:61:CA:00:A9:F9:BA:04:50",
+      "sha256": "BA:00:9F:67:4C:76:07:AD:CB:73:B3:A9:BB:C1:A7:47:20:A5:E5:3D:B2:74:DF:A2:C9:51:A4:D3:A8:10:FA:B6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "detransp-whatsapp.messenger.cogfy.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:detransp-whatsapp.messenger.cogfy.com",
+        "subjectKeyIdentifier": "keyid:71:75:02:77:d6:3f:3a:29:b2:de:1f:1a:e1:66:4e:1b:59:ce:0e:43",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4353843261,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4353843261&end=4353843261",
+    "seen": 1779627651.093,
+    "submission_timestamp": 1779296616.86,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dominio": "claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "05/24/26 09:21:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=claro-ivr-dev-k8.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0569CB83F278D5E201502DFD704C17BC00B7",
+      "not_before": 1779290892,
+      "not_after": 1787066891,
+      "fingerprint": "0A:1A:C5:5B:87:B1:B0:0A:D8:E5:63:C1:49:0E:3F:2A:FC:69:FD:16",
+      "sha1": "0A:1A:C5:5B:87:B1:B0:0A:D8:E5:63:C1:49:0E:3F:2A:FC:69:FD:16",
+      "sha256": "CE:2A:66:FD:46:95:23:5F:09:B0:AE:BE:CA:D4:23:47:F5:DB:02:66:6D:4A:2D:DD:DE:EC:00:2D:45:03:A3:84",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+        "*.claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud",
+        "claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud, DNS:claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud, DNS:claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:22:e0:70:25:44:e9:cf:65:35:84:f0:16:ea:55:e4:55:e7:fe:ce:c1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4353277507,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4353277507&end=4353277507",
+    "seen": 1779625272.456,
+    "submission_timestamp": 1779294402.797,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
