@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.maismedodonto.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "05/24/26 20:45:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.maismedodonto.com",
+        "aggregated": "/CN=cartao.maismedodonto.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05944C69E9E1ED1B9FB8EF811C54EEC664C4",
+      "not_before": 1779333996,
+      "not_after": 1787109995,
+      "fingerprint": "53:E6:C1:FC:5B:D8:D0:1F:06:A2:01:E2:6E:F9:63:5C:0E:8A:B7:6A",
+      "sha1": "53:E6:C1:FC:5B:D8:D0:1F:06:A2:01:E2:6E:F9:63:5C:0E:8A:B7:6A",
+      "sha256": "87:2B:25:CC:00:B2:9B:C2:3A:57:20:EC:38:4C:CE:94:4F:32:43:F9:E4:06:19:7E:DB:14:08:4C:3D:A4:02:5F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.maismedodonto.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.maismedodonto.com",
+        "subjectKeyIdentifier": "keyid:b7:a4:a5:ce:a7:7d:57:94:95:4a:41:4b:a5:bb:95:0e:73:ca:13:8a"
+      }
+    },
+    "cert_index": 4363093353,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4363093353&end=4363093353",
+    "seen": 1779666339.202,
+    "submission_timestamp": 1779337509.956,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

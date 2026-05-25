@@ -1,0 +1,53 @@
+{
+  "dominio": "stg-application.santanderconsumer.co.uk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 20:52:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg-application.santanderconsumer.co.uk",
+        "aggregated": "/CN=stg-application.santanderconsumer.co.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0F97F7388A2CF35E3AF52D4C361CB16D",
+      "not_before": 1779321600,
+      "not_after": 1795305599,
+      "fingerprint": "72:96:E7:8C:AA:DB:C5:A8:84:D1:3F:26:7F:BF:83:F5:11:22:72:9F",
+      "sha1": "72:96:E7:8C:AA:DB:C5:A8:84:D1:3F:26:7F:BF:83:F5:11:22:72:9F",
+      "sha256": "06:D1:38:CA:4A:62:23:24:A7:37:3D:67:85:1A:FF:5C:5A:7A:8D:6A:92:2C:06:CB:61:2C:48:1A:0C:4F:DC:15",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "stg-application.santanderconsumer.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:stg-application.santanderconsumer.co.uk",
+        "subjectKeyIdentifier": "keyid:a3:11:d6:3d:cb:9f:f2:f9:5f:5f:83:2c:0f:87:e1:f8:79:21:67:36",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4363196362,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4363196362&end=4363196362",
+    "seen": 1779666764.531,
+    "submission_timestamp": 1779337975.441,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

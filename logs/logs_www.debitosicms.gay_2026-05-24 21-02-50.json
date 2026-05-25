@@ -1,0 +1,52 @@
+{
+  "dominio": "www.debitosicms.gay",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "05/24/26 21:02:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debitosicms.gay",
+        "aggregated": "/CN=www.debitosicms.gay"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "79E2A2516E2CEE70",
+      "not_before": 1779338636,
+      "not_after": 1796445836,
+      "fingerprint": "68:F9:05:7A:F0:9F:7D:FE:C3:E9:95:D5:5C:0B:2F:62:F3:A2:6B:82",
+      "sha1": "68:F9:05:7A:F0:9F:7D:FE:C3:E9:95:D5:5C:0B:2F:62:F3:A2:6B:82",
+      "sha256": "E2:04:57:D2:AF:C6:56:59:0D:1D:46:BB:43:BA:6D:7C:17:F6:8E:7E:69:C5:DB:35:0B:2C:B5:B9:C8:7B:18:0B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debitosicms.gay"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.debitosicms.gay",
+        "subjectKeyIdentifier": "keyid:de:20:b4:76:73:0b:82:4a:8b:45:7d:d7:61:5b:5f:27:88:eb:67:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4363335498,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4363335498&end=4363335498",
+    "seen": 1779667370.203,
+    "submission_timestamp": 1779338637.671,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
