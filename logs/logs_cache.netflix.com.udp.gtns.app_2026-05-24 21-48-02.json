@@ -1,0 +1,53 @@
+{
+  "dominio": "cache.netflix.com.udp.gtns.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/24/26 21:48:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gtns.app",
+        "aggregated": "/CN=gtns.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6C912FD9361DD4650E9119DBEDE36E5E",
+      "not_before": 1779337862,
+      "not_after": 1787117459,
+      "fingerprint": "9C:DB:5A:A9:C5:1D:C9:7D:65:4B:45:01:2D:6D:7B:50:3D:72:07:87",
+      "sha1": "9C:DB:5A:A9:C5:1D:C9:7D:65:4B:45:01:2D:6D:7B:50:3D:72:07:87",
+      "sha256": "43:F8:C3:75:07:17:04:4B:3D:99:2D:92:81:CC:08:BB:06:A0:12:50:AB:BC:50:ED:6C:6C:2A:CD:CB:6A:E4:EF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gtns.app",
+        "cache.netflix.com.udp.gtns.app",
+        "*.cache.netflix.com.udp.gtns.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/bJE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gtns.app, DNS:cache.netflix.com.udp.gtns.app, DNS:*.cache.netflix.com.udp.gtns.app",
+        "subjectKeyIdentifier": "keyid:9f:e5:91:a1:a0:54:58:f9:b8:25:eb:10:f2:56:20:02:66:8b:d0:ae"
+      }
+    },
+    "cert_index": 4363979766,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4363979766&end=4363979766",
+    "seen": 1779670069.719,
+    "submission_timestamp": 1779341687.033,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

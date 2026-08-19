@@ -1,0 +1,52 @@
+{
+  "dominio": "santander-alertas.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "05/24/26 21:56:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-alertas.com",
+        "aggregated": "/CN=santander-alertas.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "8328D07A050A99B35170D83FADCB668E",
+      "not_before": 1777939200,
+      "not_after": 1785743453,
+      "fingerprint": "D4:70:54:85:F0:B2:9D:1F:AB:3C:94:AA:D8:A2:0E:61:FA:23:EF:F2",
+      "sha1": "D4:70:54:85:F0:B2:9D:1F:AB:3C:94:AA:D8:A2:0E:61:FA:23:EF:F2",
+      "sha256": "53:0A:8F:7C:D2:20:9F:74:B0:C7:25:26:90:47:E7:62:F7:DC:87:F8:8E:86:3B:70:90:65:B3:FD:4A:66:5E:DF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander-alertas.com",
+        "*.santander-alertas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander-alertas.com, DNS:*.santander-alertas.com",
+        "subjectKeyIdentifier": "keyid:8a:1f:86:21:c3:b4:36:46:22:ab:16:ec:44:8c:af:d6:28:06:ca:44"
+      }
+    },
+    "cert_index": 843695113,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=843695113&end=843695113",
+    "seen": 1779670553.328,
+    "submission_timestamp": 1777967550.653,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

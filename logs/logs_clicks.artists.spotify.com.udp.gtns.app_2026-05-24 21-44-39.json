@@ -1,0 +1,54 @@
+{
+  "dominio": "clicks.artists.spotify.com.udp.gtns.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "05/24/26 21:44:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gtns.app",
+        "aggregated": "/CN=gtns.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "81745EE5995AAB560E0C331EBCAA7C4F",
+      "not_before": 1779337842,
+      "not_after": 1787117440,
+      "fingerprint": "E0:A3:3B:B0:5C:82:79:55:7B:25:36:3D:C0:9E:D9:E3:ED:9A:0D:5F",
+      "sha1": "E0:A3:3B:B0:5C:82:79:55:7B:25:36:3D:C0:9E:D9:E3:ED:9A:0D:5F",
+      "sha256": "15:A0:45:B6:56:F2:61:99:7C:4D:3B:0A:FD:F9:A2:96:C6:95:A5:32:44:77:9D:08:89:77:DE:6E:F3:D1:B0:BA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gtns.app",
+        "clicks.artists.spotify.com.udp.gtns.app",
+        "*.clicks.artists.spotify.com.udp.gtns.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/gXQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gtns.app, DNS:clicks.artists.spotify.com.udp.gtns.app, DNS:*.clicks.artists.spotify.com.udp.gtns.app",
+        "subjectKeyIdentifier": "keyid:a6:c3:1a:39:00:d0:70:4c:f1:e7:97:86:55:c1:f7:92:46:49:7e:51",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4363931323,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4363931323&end=4363931323",
+    "seen": 1779669867.483,
+    "submission_timestamp": 1779341443.503,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

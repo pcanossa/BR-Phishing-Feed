@@ -1,0 +1,54 @@
+{
+  "dominio": "multasdetransito.com.ar",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "05/24/26 22:44:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "multasdetransito.com.ar.iezzivarone.com",
+        "aggregated": "/CN=multasdetransito.com.ar.iezzivarone.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06AC8C711F54961C52CB1A3B19F0AB69509A",
+      "not_before": 1779342090,
+      "not_after": 1787118089,
+      "fingerprint": "5D:32:C9:30:55:27:5B:71:71:2D:40:C2:47:E2:D7:8D:47:E8:E5:C6",
+      "sha1": "5D:32:C9:30:55:27:5B:71:71:2D:40:C2:47:E2:D7:8D:47:E8:E5:C6",
+      "sha256": "81:EE:2C:CF:44:83:EF:5C:5D:32:56:38:1A:CA:BD:CB:B9:94:0E:FB:20:87:F1:19:BA:A5:E5:C8:32:09:F5:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "multasdetransito.com.ar.iezzivarone.com",
+        "*.multasdetransito.com.ar",
+        "multasdetransito.com.ar",
+        "www.multasdetransito.com.ar.iezzivarone.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.multasdetransito.com.ar, DNS:multasdetransito.com.ar, DNS:multasdetransito.com.ar.iezzivarone.com, DNS:www.multasdetransito.com.ar.iezzivarone.com",
+        "subjectKeyIdentifier": "keyid:89:66:0d:19:fa:51:d4:c0:39:51:61:6d:7a:23:b1:6a:c0:99:37:32"
+      }
+    },
+    "cert_index": 4364792090,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4364792090&end=4364792090",
+    "seen": 1779673437.446,
+    "submission_timestamp": 1779345603.185,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

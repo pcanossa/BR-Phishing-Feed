@@ -1,0 +1,54 @@
+{
+  "dominio": "creativeservices.netflix.com.udp.gtns.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "05/24/26 21:44:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gtns.app",
+        "aggregated": "/CN=gtns.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E9AB999D9BBBC33F0EB2B4FFA3BD059D",
+      "not_before": 1779337862,
+      "not_after": 1787117460,
+      "fingerprint": "EA:73:E3:DF:1D:5E:C2:3D:A9:D0:4A:3B:43:31:04:5A:95:BB:97:28",
+      "sha1": "EA:73:E3:DF:1D:5E:C2:3D:A9:D0:4A:3B:43:31:04:5A:95:BB:97:28",
+      "sha256": "76:CF:90:2D:6D:B3:3E:82:3C:88:AD:CF:60:B7:66:B4:7A:32:A2:F8:F6:3F:57:5E:08:A3:D6:DA:24:52:E2:1E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gtns.app",
+        "creativeservices.netflix.com.udp.gtns.app",
+        "*.creativeservices.netflix.com.udp.gtns.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/6as, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gtns.app, DNS:creativeservices.netflix.com.udp.gtns.app, DNS:*.creativeservices.netflix.com.udp.gtns.app",
+        "subjectKeyIdentifier": "keyid:66:8f:c9:6f:84:d0:27:c0:fa:d5:7e:ef:0d:09:6b:d2:d2:ae:a0:61",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4363934999,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4363934999&end=4363934999",
+    "seen": 1779669879.664,
+    "submission_timestamp": 1779341463.089,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
