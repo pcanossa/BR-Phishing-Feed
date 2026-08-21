@@ -1,0 +1,53 @@
+{
+  "dominio": "stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/21/26 17:23:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=stg-openshift-dallas-b3.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06563BBDBBBCC2867D815D5D77D9F93B7E77",
+      "not_before": 1779349140,
+      "not_after": 1787125139,
+      "fingerprint": "DD:47:35:C3:E5:4E:5A:3A:DF:3A:AA:82:11:87:16:22:2E:F2:67:A0",
+      "sha1": "DD:47:35:C3:E5:4E:5A:3A:DF:3A:AA:82:11:87:16:22:2E:F2:67:A0",
+      "sha256": "65:05:6B:FF:3C:20:B5:A8:FF:37:7F:CE:55:8A:55:34:DD:53:2A:71:68:75:E3:23:77:8A:68:FB:FD:87:01:85",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+        "*.stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud",
+        "stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud, DNS:stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud, DNS:stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:d8:dd:ab:ce:33:b5:23:2d:f6:c2:eb:01:4f:55:8a:dc:27:7d:26:79"
+      }
+    },
+    "cert_index": 4366215841,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4366215841&end=4366215841",
+    "seen": 1787343797.737,
+    "submission_timestamp": 1779352653.756,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "ggibeta.tim-lab.it",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/21/26 17:43:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ggibeta.tim-lab.it",
+        "aggregated": "/CN=ggibeta.tim-lab.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0586C099868DA68D5DEBFA2A78369274084B",
+      "not_before": 1779349531,
+      "not_after": 1787125530,
+      "fingerprint": "4D:B2:02:26:C4:4F:6A:D1:21:F2:EE:CC:29:50:B1:1A:CF:63:FD:67",
+      "sha1": "4D:B2:02:26:C4:4F:6A:D1:21:F2:EE:CC:29:50:B1:1A:CF:63:FD:67",
+      "sha256": "8F:F6:34:24:1F:22:CA:04:3F:C0:1A:3D:ED:42:29:39:D5:9A:EE:61:50:77:6F:D2:D4:6D:6B:A3:26:7E:A8:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ggibeta.tim-lab.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ggibeta.tim-lab.it",
+        "subjectKeyIdentifier": "keyid:a2:7b:2f:c0:29:ff:f9:da:66:5b:60:24:9c:ba:34:27:fa:08:fc:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4366296443,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4366296443&end=4366296443",
+    "seen": 1787345014.397,
+    "submission_timestamp": 1779353043.395,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
