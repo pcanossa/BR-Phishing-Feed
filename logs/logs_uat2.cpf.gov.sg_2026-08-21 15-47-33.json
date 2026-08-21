@@ -1,0 +1,56 @@
+{
+  "dominio": "uat2.cpf.gov.sg",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/21/26 15:47:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uat-eservices.apps.cpfb.gov.sg",
+        "aggregated": "/CN=uat-eservices.apps.cpfb.gov.sg"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05F07FF9662D2876520FF05D555921B3BD16",
+      "not_before": 1779675812,
+      "not_after": 1787451811,
+      "fingerprint": "8F:AA:B5:D0:AF:37:61:26:7F:C7:7E:37:6F:E4:5F:FD:37:D7:5E:83",
+      "sha1": "8F:AA:B5:D0:AF:37:61:26:7F:C7:7E:37:6F:E4:5F:FD:37:D7:5E:83",
+      "sha256": "CD:76:5E:AF:D8:91:9A:8A:D4:2B:88:EA:AE:A5:38:C1:6F:13:DA:32:CD:19:27:57:DA:36:A3:E6:33:8C:28:19",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uat-eservices.apps.cpfb.gov.sg",
+        "dev-eservices.apps.cpfb.gov.sg",
+        "sit-eservices.apps.cpfb.gov.sg",
+        "sit2.cpf.gov.sg",
+        "test-eservices.apps.cpfb.gov.sg",
+        "uat2.cpf.gov.sg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev-eservices.apps.cpfb.gov.sg, DNS:sit-eservices.apps.cpfb.gov.sg, DNS:sit2.cpf.gov.sg, DNS:test-eservices.apps.cpfb.gov.sg, DNS:uat-eservices.apps.cpfb.gov.sg, DNS:uat2.cpf.gov.sg",
+        "subjectKeyIdentifier": "keyid:f8:14:c6:af:08:bc:5d:e4:f2:dd:e5:67:e7:c6:ad:84:d7:a6:0f:b4"
+      }
+    },
+    "cert_index": 221164650,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x863/924",
+    "seen": 1787338053.265,
+    "submission_timestamp": 1779679323.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

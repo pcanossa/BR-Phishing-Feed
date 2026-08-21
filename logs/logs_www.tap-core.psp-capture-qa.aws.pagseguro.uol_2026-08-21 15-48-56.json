@@ -1,0 +1,53 @@
+{
+  "dominio": "www.tap-core.psp-capture-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/21/26 15:48:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tap-core.psp-capture-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=tap-core.psp-capture-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "RapidSSL TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=RapidSSL TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "018DC5412E39538A089CAAAE3EAAF33D",
+      "not_before": 1780358400,
+      "not_after": 1797551999,
+      "fingerprint": "4D:CF:E2:3F:56:23:5A:20:E9:9F:73:F2:7A:07:49:82:61:B4:8E:CA",
+      "sha1": "4D:CF:E2:3F:56:23:5A:20:E9:9F:73:F2:7A:07:49:82:61:B4:8E:CA",
+      "sha256": "37:30:F7:D5:FC:F5:65:F3:E1:4E:73:ED:7B:AA:3E:A8:F7:E2:FE:B2:2D:E8:A0:DA:74:5E:4A:38:BE:40:87:91",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tap-core.psp-capture-qa.aws.pagseguro.uol",
+        "www.tap-core.psp-capture-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.rapidssl.com, URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:0c:db:6c:82:49:0f:4a:67:0a:b8:14:ee:7a:c4:48:52:88:eb:56:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tap-core.psp-capture-qa.aws.pagseguro.uol, DNS:www.tap-core.psp-capture-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:97:60:5d:a1:07:90:d9:e4:1a:91:70:db:f6:e9:d7:5c:6b:ad:be:6c"
+      }
+    },
+    "cert_index": 52265573,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x204/162",
+    "seen": 1787338136.394,
+    "submission_timestamp": 1780375453.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "claro-finlore-app.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/21/26 15:55:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro-finlore-app.com",
+        "aggregated": "/CN=claro-finlore-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C85DD2F918C266F3139F380E06F7BE13",
+      "not_before": 1779346757,
+      "not_after": 1787126060,
+      "fingerprint": "56:90:CD:BA:FD:16:1C:62:B3:35:D4:88:7B:F9:58:05:2A:2A:53:75",
+      "sha1": "56:90:CD:BA:FD:16:1C:62:B3:35:D4:88:7B:F9:58:05:2A:2A:53:75",
+      "sha256": "5C:58:99:29:17:7A:FD:E7:E6:8B:56:F6:93:0C:42:26:85:0C:06:8F:EC:7B:F5:20:BC:A4:88:D0:DA:15:74:65",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "claro-finlore-app.com",
+        "*.claro-finlore-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/yF0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:claro-finlore-app.com, DNS:*.claro-finlore-app.com",
+        "subjectKeyIdentifier": "keyid:26:4e:a8:7d:b8:0d:1e:2d:c1:9c:0c:e0:dd:05:82:f8:55:4d:7b:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4365786598,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4365786598&end=4365786598",
+    "seen": 1787338537.34,
+    "submission_timestamp": 1779350357.794,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
