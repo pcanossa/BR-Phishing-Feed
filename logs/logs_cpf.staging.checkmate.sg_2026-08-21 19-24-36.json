@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.staging.checkmate.sg",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/21/26 19:24:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "checkmate.sg",
+        "aggregated": "/CN=checkmate.sg"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C74D5211F914CDFA137CC56D2740D5B7",
+      "not_before": 1779705632,
+      "not_after": 1787485229,
+      "fingerprint": "5B:30:D0:93:E5:9A:FE:AF:5D:00:94:A1:64:3B:0E:CA:63:5F:21:B3",
+      "sha1": "5B:30:D0:93:E5:9A:FE:AF:5D:00:94:A1:64:3B:0E:CA:63:5F:21:B3",
+      "sha256": "B3:8F:E0:85:49:9B:CE:5A:7B:C0:59:3F:F8:3D:4D:AC:7E:AD:08:10:FF:C2:CF:F9:3D:D0:B5:E5:71:21:35:E0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "checkmate.sg",
+        "cpf.staging.checkmate.sg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/x00, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:checkmate.sg, DNS:cpf.staging.checkmate.sg",
+        "subjectKeyIdentifier": "keyid:9b:a8:74:3f:5d:5a:e2:4a:05:01:c7:39:9b:12:27:88:45:67:36:5f"
+      }
+    },
+    "cert_index": 340070860,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x328/401",
+    "seen": 1787351075.993,
+    "submission_timestamp": 1779709321.196,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

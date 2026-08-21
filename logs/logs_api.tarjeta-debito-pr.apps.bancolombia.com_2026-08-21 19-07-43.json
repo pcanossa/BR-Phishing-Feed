@@ -1,0 +1,53 @@
+{
+  "dominio": "api.tarjeta-debito-pr.apps.bancolombia.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/21/26 19:07:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "012AEB6137AC6A7F14527EECDFF7FC40",
+      "not_before": 1779832774,
+      "not_after": 1779919174,
+      "fingerprint": "0A:54:A7:D8:36:57:13:77:83:3F:22:65:1F:A3:7E:6E:34:50:A6:22",
+      "sha1": "0A:54:A7:D8:36:57:13:77:83:3F:22:65:1F:A3:7E:6E:34:50:A6:22",
+      "sha256": "27:54:07:5C:64:A9:EF:AC:7D:83:94:D1:8C:5B:F2:27:DD:37:62:61:C1:6D:71:7F:DF:62:F1:14:4A:4B:15:CA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "api.tarjeta-debito-pr.apps.bancolombia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr.apps.bancolombia.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:1a:fe:5b:cf:16:d4:a8:a3:d7:c5:3d:b9:dd:52:02:a4:6e:c6:69:0c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1195240427,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1195240427&end=1195240427",
+    "seen": 1787350063.569,
+    "submission_timestamp": 1779832777.891,
+    "source": {
+      "name": "DigiCert 'Wyvern 2026h1' Log",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}
