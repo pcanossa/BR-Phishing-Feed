@@ -1,0 +1,52 @@
+{
+  "dominio": "limite-cartao-testing.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/21/26 16:28:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limite-cartao-testing.com",
+        "aggregated": "/CN=limite-cartao-testing.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06EDA6C27EEC7BFBF94FA0D7B2D566A77746",
+      "not_before": 1787334412,
+      "not_after": 1795110411,
+      "fingerprint": "48:A8:6F:7A:22:19:FC:1A:26:1C:81:32:AC:52:1B:D8:8A:3D:D4:CF",
+      "sha1": "48:A8:6F:7A:22:19:FC:1A:26:1C:81:32:AC:52:1B:D8:8A:3D:D4:CF",
+      "sha256": "0D:A2:AA:06:51:2E:25:EA:57:27:32:E7:0E:F0:CB:62:F2:C2:C5:E3:5D:58:0F:5A:B1:22:D2:03:2C:2F:3E:99",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "limite-cartao-testing.com",
+        "*.limite-cartao-testing.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.limite-cartao-testing.com, DNS:limite-cartao-testing.com",
+        "subjectKeyIdentifier": "keyid:73:72:12:15:55:3b:ba:01:da:ed:98:67:cc:5a:90:cd:98:b0:1b:05"
+      }
+    },
+    "cert_index": 969951381,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x788/872",
+    "seen": 1787340497.005,
+    "submission_timestamp": 1787337925.927,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

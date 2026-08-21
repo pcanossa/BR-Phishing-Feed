@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao.sige.dev.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/21/26 16:43:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sige.dev.br",
+        "aggregated": "/CN=*.sige.dev.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "062CA45A0D11F614985B93F89BA64DBEB140",
+      "not_before": 1779684830,
+      "not_after": 1787460829,
+      "fingerprint": "32:DB:04:62:A3:4F:D7:CC:4D:4C:9A:0F:E8:6B:EF:87:47:D4:9C:6D",
+      "sha1": "32:DB:04:62:A3:4F:D7:CC:4D:4C:9A:0F:E8:6B:EF:87:47:D4:9C:6D",
+      "sha256": "81:5F:21:36:DE:4F:0A:13:48:30:5F:45:EA:30:63:3B:8F:DA:0F:0E:9B:F6:18:74:CB:5F:8E:02:DC:43:A2:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sige.dev.br",
+        "www.cartao.sige.dev.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sige.dev.br, DNS:www.cartao.sige.dev.br",
+        "subjectKeyIdentifier": "keyid:fc:36:ac:d2:b6:ae:1d:4d:00:87:06:86:d4:60:f9:d8:49:a5:ca:b9"
+      }
+    },
+    "cert_index": 208532734,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x814/580",
+    "seen": 1787341423.153,
+    "submission_timestamp": 1779688340.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
