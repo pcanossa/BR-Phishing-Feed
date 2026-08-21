@@ -1,0 +1,53 @@
+{
+  "dominio": "b3-ent-beta.app",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/21/26 18:13:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "b3-ent-beta.app",
+        "aggregated": "/CN=b3-ent-beta.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "91DD2096410E9D7510D08E0595209354",
+      "not_before": 1778827846,
+      "not_after": 1786607202,
+      "fingerprint": "B4:84:6F:AB:B9:74:B6:1B:3B:44:25:02:48:8D:47:5A:63:CD:B1:F3",
+      "sha1": "B4:84:6F:AB:B9:74:B6:1B:3B:44:25:02:48:8D:47:5A:63:CD:B1:F3",
+      "sha256": "55:A6:46:1D:FD:59:B5:21:5B:4A:FF:1E:7A:1D:BA:1C:3E:7A:36:0F:A3:9C:FB:52:97:9C:2C:1C:AF:84:13:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "b3-ent-beta.app",
+        "*.b3-ent-beta.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/kd0, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:b3-ent-beta.app, DNS:*.b3-ent-beta.app",
+        "subjectKeyIdentifier": "keyid:27:54:8b:23:5b:9a:0e:3d:f9:47:d8:33:97:d1:33:44:6d:d1:8b:da",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 682778198,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=682778198&end=682778198",
+    "seen": 1787346803.418,
+    "submission_timestamp": 1779106004.261,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
