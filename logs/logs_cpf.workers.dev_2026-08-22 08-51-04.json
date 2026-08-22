@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 08:51:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.workers.dev",
+        "aggregated": "/CN=cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4A1386FBB631EF440E64084E96EB7D33",
+      "not_before": 1779813329,
+      "not_after": 1787592800,
+      "fingerprint": "49:0D:5D:CF:53:78:0F:B5:1A:76:AB:49:2A:16:FC:CF:4F:EE:86:4C",
+      "sha1": "49:0D:5D:CF:53:78:0F:B5:1A:76:AB:49:2A:16:FC:CF:4F:EE:86:4C",
+      "sha256": "60:35:F7:A2:C7:59:E8:9E:7D:C0:E6:21:E3:C9:02:7C:B7:CA:DD:A1:93:46:43:00:89:29:94:C8:D7:75:BD:3E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.workers.dev",
+        "*.cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ShM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.workers.dev, DNS:*.cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:7c:a5:38:0a:c2:16:c4:9c:4e:3a:12:b1:bb:a8:b6:59:1b:9c:a2:3d"
+      }
+    },
+    "cert_index": 345783882,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x350/718",
+    "seen": 1787399462.929,
+    "submission_timestamp": 1779817056.822,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

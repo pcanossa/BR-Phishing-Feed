@@ -1,0 +1,51 @@
+{
+  "dominio": "login.advertisingonspotify.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/22/26 08:55:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.advertisingonspotify.com",
+        "aggregated": "/CN=login.advertisingonspotify.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "C5C64F8D1CD76DD7C0FA352FFBEBED10",
+      "not_before": 1779321600,
+      "not_after": 1787183999,
+      "fingerprint": "B5:F8:40:28:42:86:C2:24:B0:AE:45:73:EF:68:9D:8A:3F:DB:0E:7B",
+      "sha1": "B5:F8:40:28:42:86:C2:24:B0:AE:45:73:EF:68:9D:8A:3F:DB:0E:7B",
+      "sha256": "34:0F:D6:8C:AF:1E:FA:C4:CE:C5:09:41:A4:8C:18:B5:D1:96:E2:45:BA:CD:DE:2E:93:C6:C4:84:A2:4F:C7:C1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login.advertisingonspotify.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.advertisingonspotify.com",
+        "subjectKeyIdentifier": "keyid:ae:b9:ef:8d:28:e0:6c:57:05:46:a9:48:08:bc:60:08:1f:a8:e4:a0"
+      }
+    },
+    "cert_index": 4371357653,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4371357653&end=4371357653",
+    "seen": 1787399732.685,
+    "submission_timestamp": 1779374878.262,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

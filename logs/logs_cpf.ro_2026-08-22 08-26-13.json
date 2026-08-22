@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.ro",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 08:26:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.ro",
+        "aggregated": "/CN=cpf.ro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05C6E33C47444F3DA47B0F827D1DEDB65CE1",
+      "not_before": 1779848389,
+      "not_after": 1787624388,
+      "fingerprint": "79:61:1B:42:A6:14:89:1E:D6:61:9D:D6:0C:99:C8:21:ED:22:1C:DE",
+      "sha1": "79:61:1B:42:A6:14:89:1E:D6:61:9D:D6:0C:99:C8:21:ED:22:1C:DE",
+      "sha256": "DA:F6:C4:85:ED:2E:A0:49:D0:BD:4D:8E:4F:67:56:CB:ED:80:11:0F:48:B9:E2:B8:96:A6:B0:27:39:8A:2E:D4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.ro",
+        "*.cpf.ro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf.ro, DNS:cpf.ro",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 213507346,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x834/013",
+    "seen": 1787397973.459,
+    "submission_timestamp": 1779851899.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

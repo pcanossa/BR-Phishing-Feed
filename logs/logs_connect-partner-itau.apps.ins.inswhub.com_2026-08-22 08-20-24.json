@@ -1,0 +1,53 @@
+{
+  "dominio": "connect-partner-itau.apps.ins.inswhub.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 08:20:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01AD909B7E33F994C93EA8C83DCA7E27",
+      "not_before": 1780501124,
+      "not_after": 1780587524,
+      "fingerprint": "49:EE:FE:32:C9:07:DE:56:3E:22:6C:F7:30:DF:18:4B:50:59:3A:6F",
+      "sha1": "49:EE:FE:32:C9:07:DE:56:3E:22:6C:F7:30:DF:18:4B:50:59:3A:6F",
+      "sha256": "98:91:22:A9:09:6E:1F:7E:33:25:2B:34:18:1D:6D:52:F2:F3:FD:49:3A:AD:C9:7F:43:69:08:07:0A:E5:F4:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "connect-partner-itau.apps.ins.inswhub.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:connect-partner-itau.apps.ins.inswhub.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:3e:79:c7:ea:1a:d0:d0:a5:f7:30:69:38:00:5a:db:9a:99:3c:a0:f4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2038279507,
+    "cert_link": "https://elephant2026h1.ct.sectigo.com/ct/v1/get-entries?start=2038279507&end=2038279507",
+    "seen": 1787397622.349,
+    "submission_timestamp": 1780501126.0,
+    "source": {
+      "name": "Elephant 2026h1",
+      "url": "https://elephant2026h1.ct.sectigo.com"
+    }
+  }
+}
