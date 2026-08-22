@@ -1,0 +1,54 @@
+{
+  "dominio": "emailseguro.itau.com.uy",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 08:05:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "UY",
+        "CN": "emailseguro.itau.com.uy",
+        "L": "Montevideo",
+        "O": "Banco Itau Uruguay S.A.",
+        "aggregated": "/C=UY/CN=emailseguro.itau.com.uy/L=Montevideo/O=Banco Itau Uruguay S.A."
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert EV RSA CA G2/O=DigiCert Inc"
+      },
+      "serial_number": "0E3E590B8CB007CC0CD9711C44C19BCA",
+      "not_before": 1780444800,
+      "not_after": 1797638399,
+      "fingerprint": "A0:25:57:3F:7B:01:AD:35:6D:A9:34:70:FA:59:2E:80:14:B4:B4:9B",
+      "sha1": "A0:25:57:3F:7B:01:AD:35:6D:A9:34:70:FA:59:2E:80:14:B4:B4:9B",
+      "sha256": "F5:77:9A:31:56:EF:0E:89:28:10:35:37:70:E3:AC:14:11:25:1A:46:04:D2:16:AA:09:BA:F1:CD:7C:A5:50:47",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "emailseguro.itau.com.uy"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertEVRSACAG2.crt",
+        "authorityKeyIdentifier": "keyid:6a:4e:50:bf:98:68:9d:5b:7b:20:75:d4:59:01:79:48:66:92:32:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.16.840.1.114412.2.1\nPolicy: 2.23.140.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:emailseguro.itau.com.uy",
+        "subjectKeyIdentifier": "keyid:2c:92:4f:af:52:6c:c3:2f:0a:7a:29:21:9d:fe:28:e0:74:97:5e:30"
+      }
+    },
+    "cert_index": 57640508,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x225/158",
+    "seen": 1787396756.613,
+    "submission_timestamp": 1780905849.139,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

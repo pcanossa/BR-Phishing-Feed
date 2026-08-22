@@ -1,0 +1,52 @@
+{
+  "dominio": "product-commerce.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 07:31:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.product-commerce.aws.pagseguro.uol",
+        "aggregated": "/CN=*.product-commerce.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "097DD27570719BC6DA388DCDCC33BD20",
+      "not_before": 1780876800,
+      "not_after": 1797983999,
+      "fingerprint": "14:E3:1D:14:7F:9C:CD:AC:00:38:71:C0:A4:03:82:07:36:29:6B:96",
+      "sha1": "14:E3:1D:14:7F:9C:CD:AC:00:38:71:C0:A4:03:82:07:36:29:6B:96",
+      "sha256": "4B:D8:FB:61:C7:DB:E4:1B:C5:01:48:6C:14:FF:88:65:F0:EE:A1:D8:8D:22:66:E3:D1:99:F7:77:01:33:11:6D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.product-commerce.aws.pagseguro.uol",
+        "*.external.product-commerce.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.product-commerce.aws.pagseguro.uol, DNS:*.external.product-commerce.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:f5:f3:23:a3:fa:02:a6:94:b3:b4:e5:eb:ba:01:b9:bb:a2:7f:67:53"
+      }
+    },
+    "cert_index": 51369690,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x200/662",
+    "seen": 1787394719.838,
+    "submission_timestamp": 1780877697.626,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

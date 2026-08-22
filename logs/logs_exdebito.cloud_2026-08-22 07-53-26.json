@@ -1,0 +1,54 @@
+{
+  "dominio": "exdebito.cloud",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 07:53:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.exdebito.cloud",
+        "aggregated": "/CN=*.exdebito.cloud"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "Actalis Domain Validation Server CA G3",
+        "L": "Ponte San Pietro",
+        "O": "Actalis S.p.A.",
+        "ST": "Bergamo",
+        "aggregated": "/C=IT/CN=Actalis Domain Validation Server CA G3/L=Ponte San Pietro/O=Actalis S.p.A./ST=Bergamo"
+      },
+      "serial_number": "0B20197B5C51E16177E0C6BDDEEAF74E",
+      "not_before": 1780888149,
+      "not_after": 1798081748,
+      "fingerprint": "05:0A:BC:E9:A8:11:52:B9:C3:B9:56:AF:58:EE:16:42:0D:F9:17:69",
+      "sha1": "05:0A:BC:E9:A8:11:52:B9:C3:B9:56:AF:58:EE:16:42:0D:F9:17:69",
+      "sha256": "8A:DA:19:32:3C:AF:86:B2:72:E9:3F:63:F7:16:5A:F3:1F:95:5A:28:B1:AC:EE:47:6E:A5:14:53:65:8F:7F:CA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.exdebito.cloud",
+        "exdebito.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://cacert.actalis.it/certs/actalis-autdvg3, URI:http://ocsp06.actalis.it/VA/AUTHDV-G3",
+        "authorityKeyIdentifier": "keyid:42:83:6d:80:7c:09:84:67:fd:80:57:ab:f1:26:f5:77:c8:22:82:71",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.159.1.23.1\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.exdebito.cloud, DNS:exdebito.cloud",
+        "subjectKeyIdentifier": "keyid:49:08:db:93:1f:22:84:66:6a:75:cc:a6:d3:b2:7f:37:49:6b:ab:ed"
+      }
+    },
+    "cert_index": 51482129,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x201/102",
+    "seen": 1787396005.706,
+    "submission_timestamp": 1780888750.626,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
