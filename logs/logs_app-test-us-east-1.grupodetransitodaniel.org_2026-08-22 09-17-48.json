@@ -1,0 +1,52 @@
+{
+  "dominio": "app-test-us-east-1.grupodetransitodaniel.org",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/22/26 09:17:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-test-us-east-1.grupodetransitodaniel.org",
+        "aggregated": "/CN=app-test-us-east-1.grupodetransitodaniel.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0CCFB8DF5C4B4F369E8D191D41858A8B",
+      "not_before": 1779840000,
+      "not_after": 1787615999,
+      "fingerprint": "08:F7:9A:AD:DC:C1:23:5C:19:1D:5F:6D:57:26:3C:5C:62:96:FD:13",
+      "sha1": "08:F7:9A:AD:DC:C1:23:5C:19:1D:5F:6D:57:26:3C:5C:62:96:FD:13",
+      "sha256": "D6:60:AC:25:31:C0:A8:B2:A6:52:89:68:F4:BD:FD:A7:44:BA:ED:E7:B7:E5:A0:62:27:DF:EC:1C:EB:9D:17:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-test-us-east-1.grupodetransitodaniel.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-test-us-east-1.grupodetransitodaniel.org",
+        "subjectKeyIdentifier": "keyid:80:8c:39:3f:a2:32:bc:d0:c3:90:43:5f:a4:cb:72:99:7f:7d:20:a7"
+      }
+    },
+    "cert_index": 226949839,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x886/522",
+    "seen": 1787401068.625,
+    "submission_timestamp": 1779855209.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

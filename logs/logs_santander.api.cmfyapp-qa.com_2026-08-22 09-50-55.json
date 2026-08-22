@@ -1,0 +1,52 @@
+{
+  "dominio": "santander.api.cmfyapp-qa.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/22/26 09:50:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander.api.cmfyapp-qa.com",
+        "aggregated": "/CN=santander.api.cmfyapp-qa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D00BA8247E4D237E1357AA1D2BF350D9",
+      "not_before": 1778529434,
+      "not_after": 1786309032,
+      "fingerprint": "17:0F:C8:7E:08:14:E6:96:E0:FF:EA:FD:24:5B:1D:0C:8C:B8:DB:C6",
+      "sha1": "17:0F:C8:7E:08:14:E6:96:E0:FF:EA:FD:24:5B:1D:0C:8C:B8:DB:C6",
+      "sha256": "52:5D:C6:75:E0:8B:00:23:6F:68:A6:9B:DB:10:01:11:CD:71:59:AA:1D:7B:EC:69:26:7A:62:51:7A:26:34:5D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santander.api.cmfyapp-qa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/0As, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santander.api.cmfyapp-qa.com",
+        "subjectKeyIdentifier": "keyid:3d:e2:08:db:31:8f:40:e0:6a:c5:51:7a:58:cf:1f:97:18:33:8d:e6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 660858233,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=660858233&end=660858233",
+    "seen": 1787403054.583,
+    "submission_timestamp": 1778533034.579,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
