@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao-aprovado.rest",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/22/26 18:34:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao-aprovado.rest",
+        "aggregated": "/CN=www.cartao-aprovado.rest"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "EB19A815722217A1",
+      "not_before": 1781935032,
+      "not_after": 1799042232,
+      "fingerprint": "0C:C7:47:98:64:A1:74:1D:A3:25:3F:68:2E:77:1E:0F:CE:D3:7E:40",
+      "sha1": "0C:C7:47:98:64:A1:74:1D:A3:25:3F:68:2E:77:1E:0F:CE:D3:7E:40",
+      "sha256": "5A:84:92:4E:1C:9E:2A:A4:73:43:9E:56:2F:B1:C4:D2:B4:44:B5:8A:36:46:FE:05:D7:BA:B1:51:D8:CE:63:45",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao-aprovado.rest"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cartao-aprovado.rest",
+        "subjectKeyIdentifier": "keyid:ca:a1:fb:d7:ed:c4:b6:6e:20:53:13:f8:0b:8a:06:ad:56:cc:23:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 87708945,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=87708945&end=87708945",
+    "seen": 1787434497.174,
+    "submission_timestamp": 1781935033.654,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

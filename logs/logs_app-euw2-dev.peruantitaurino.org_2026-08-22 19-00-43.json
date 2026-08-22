@@ -1,0 +1,51 @@
+{
+  "dominio": "app-euw2-dev.peruantitaurino.org",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 19:00:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-euw2-dev.peruantitaurino.org",
+        "aggregated": "/CN=app-euw2-dev.peruantitaurino.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F2103EB4C1B5338BC7890AFF643B2037",
+      "not_before": 1779840000,
+      "not_after": 1787702399,
+      "fingerprint": "D5:DE:FA:A2:D9:CF:1B:E9:A5:11:2C:45:6B:F3:08:58:DB:8D:48:DB",
+      "sha1": "D5:DE:FA:A2:D9:CF:1B:E9:A5:11:2C:45:6B:F3:08:58:DB:8D:48:DB",
+      "sha256": "56:5A:C5:F6:BC:19:7D:A7:B0:C2:49:B8:93:E8:4B:FC:24:7A:B9:F7:75:75:27:13:05:C0:69:D7:66:B2:03:C6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-euw2-dev.peruantitaurino.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-euw2-dev.peruantitaurino.org",
+        "subjectKeyIdentifier": "keyid:79:72:23:cf:1a:8c:df:3a:a3:cc:43:ed:e0:4b:bf:21:67:76:25:0b"
+      }
+    },
+    "cert_index": 350174261,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x367/868",
+    "seen": 1787436042.746,
+    "submission_timestamp": 1779900429.228,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

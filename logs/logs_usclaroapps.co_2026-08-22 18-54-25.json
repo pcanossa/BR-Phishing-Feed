@@ -1,0 +1,51 @@
+{
+  "dominio": "usclaroapps.co",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/22/26 18:54:25",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "usclaroapps.co",
+        "aggregated": "/CN=usclaroapps.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F1B62B8FA9B4CE28",
+      "not_before": 1781938313,
+      "not_after": 1799045513,
+      "fingerprint": "7C:C1:48:F3:0C:F7:35:72:1A:E8:FD:5F:7D:24:3F:75:5D:80:15:5F",
+      "sha1": "7C:C1:48:F3:0C:F7:35:72:1A:E8:FD:5F:7D:24:3F:75:5D:80:15:5F",
+      "sha256": "82:44:39:29:DF:0F:82:7E:1C:AA:94:13:95:F0:12:E6:72:A1:44:E2:AA:17:E3:BA:B2:06:23:04:4D:A6:38:41",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "usclaroapps.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:usclaroapps.co",
+        "subjectKeyIdentifier": "keyid:eb:e9:5b:a6:45:7a:fc:e3:c7:96:d3:3e:7b:61:af:00:a2:21:4e:57"
+      }
+    },
+    "cert_index": 87826074,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=87826074&end=87826074",
+    "seen": 1787435664.947,
+    "submission_timestamp": 1781938336.163,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

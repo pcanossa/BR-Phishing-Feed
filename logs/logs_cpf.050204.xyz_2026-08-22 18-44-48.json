@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.050204.xyz",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 18:44:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "6e12672a.sni.cloudflaressl.com",
+        "aggregated": "/CN=6e12672a.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D7394BB9490C490D136E5A8468F19943",
+      "not_before": 1778987268,
+      "not_after": 1786766861,
+      "fingerprint": "4B:78:55:64:49:53:06:C5:A4:9E:25:87:B6:2F:86:70:6D:A9:EF:26",
+      "sha1": "4B:78:55:64:49:53:06:C5:A4:9E:25:87:B6:2F:86:70:6D:A9:EF:26",
+      "sha256": "17:41:12:5C:DF:5A:90:6D:7D:5A:33:2F:45:46:13:5C:69:B3:24:F6:60:C6:EA:8D:92:57:2F:73:7E:19:D3:A4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "6e12672a.sni.cloudflaressl.com",
+        "cpf.050204.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/1zk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:6e12672a.sni.cloudflaressl.com, DNS:cpf.050204.xyz",
+        "subjectKeyIdentifier": "keyid:dd:a0:ff:6b:ff:0e:56:8d:55:ac:26:c2:3d:ef:35:a5:c4:0d:d8:f6"
+      }
+    },
+    "cert_index": 216932465,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x847/392",
+    "seen": 1787435087.191,
+    "submission_timestamp": 1779957434.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
