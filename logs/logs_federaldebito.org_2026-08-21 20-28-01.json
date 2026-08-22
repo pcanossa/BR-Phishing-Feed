@@ -1,0 +1,52 @@
+{
+  "dominio": "federaldebito.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/21/26 20:28:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "federaldebito.org",
+        "aggregated": "/CN=federaldebito.org"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "B159B323970C86623FD15DF86493A149",
+      "not_before": 1779148800,
+      "not_after": 1786962828,
+      "fingerprint": "BD:E7:79:6E:EE:46:85:D6:2F:6A:AE:2B:FB:FA:5E:9D:41:CC:2E:CF",
+      "sha1": "BD:E7:79:6E:EE:46:85:D6:2F:6A:AE:2B:FB:FA:5E:9D:41:CC:2E:CF",
+      "sha256": "03:16:74:1F:EE:DA:69:80:8D:43:77:F6:AD:C1:47:AB:F0:34:F9:5B:29:61:02:37:87:A3:02:92:02:08:C1:F2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "federaldebito.org",
+        "*.federaldebito.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:federaldebito.org, DNS:*.federaldebito.org",
+        "subjectKeyIdentifier": "keyid:92:08:5f:5e:d1:be:5d:e2:a6:69:c9:cd:03:2a:f7:7f:cb:35:d8:b3"
+      }
+    },
+    "cert_index": 812840183,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=812840183&end=812840183",
+    "seen": 1787354881.543,
+    "submission_timestamp": 1779186983.667,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

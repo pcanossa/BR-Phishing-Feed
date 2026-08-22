@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-scpo-pr1.jdadelivers.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/21/26 20:59:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-scpo-pr1.jdadelivers.com",
+        "aggregated": "/CN=cpf-scpo-pr1.jdadelivers.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06D8A385F9E7070A67109BEF4FD6785532AE",
+      "not_before": 1779728903,
+      "not_after": 1787504902,
+      "fingerprint": "F7:C4:57:70:44:F9:07:77:98:96:ED:E6:84:BC:33:83:C6:80:F9:7B",
+      "sha1": "F7:C4:57:70:44:F9:07:77:98:96:ED:E6:84:BC:33:83:C6:80:F9:7B",
+      "sha256": "50:A2:69:FD:15:6E:05:35:68:72:B5:C5:31:93:6B:7E:EB:FB:96:27:43:3C:DB:58:1E:B9:1A:1C:EA:B0:0C:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-scpo-pr1.jdadelivers.com",
+        "*.cpf-scpo-pr1.jdadelivers.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-scpo-pr1.jdadelivers.com, DNS:cpf-scpo-pr1.jdadelivers.com",
+        "subjectKeyIdentifier": "keyid:a8:93:5c:86:9f:de:3f:df:f6:12:f8:f5:3c:fc:a6:9a:a1:e7:26:f4"
+      }
+    },
+    "cert_index": 209833050,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x819/660",
+    "seen": 1787356781.917,
+    "submission_timestamp": 1779732413.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
