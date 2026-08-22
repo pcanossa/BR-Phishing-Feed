@@ -1,0 +1,56 @@
+{
+  "dominio": "dovetail-ws-cert-santander.fiservapps.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/22/26 17:02:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "dovetail-ws-cert-santander.fiservapps.com",
+        "L": "Milwaukee",
+        "O": "Fiserv, Inc.",
+        "ST": "Wisconsin",
+        "aggregated": "/C=US/CN=dovetail-ws-cert-santander.fiservapps.com/L=Milwaukee/O=Fiserv, Inc./ST=Wisconsin"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "021B90870FE8E3815A29FF164E66BD21",
+      "not_before": 1782864000,
+      "not_after": 1800057599,
+      "fingerprint": "21:55:52:53:A2:30:32:0F:35:F4:92:92:3B:3F:BF:E7:11:C9:55:58",
+      "sha1": "21:55:52:53:A2:30:32:0F:35:F4:92:92:3B:3F:BF:E7:11:C9:55:58",
+      "sha256": "04:CB:81:3E:89:EA:FC:90:2E:EF:20:E5:07:E0:1C:94:80:51:C0:91:DB:10:37:0C:EF:8D:BA:A1:F1:04:FB:62",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dovetail-ws-cert-santander.fiservapps.com",
+        "dovetail-ws-cert.fiservapps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dovetail-ws-cert-santander.fiservapps.com, DNS:dovetail-ws-cert.fiservapps.com",
+        "subjectKeyIdentifier": "keyid:f7:0f:ad:5c:fc:40:f0:d2:94:7b:4d:1d:37:17:ed:98:de:03:f3:28"
+      }
+    },
+    "cert_index": 37027733,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x144/639",
+    "seen": 1787428953.844,
+    "submission_timestamp": 1782946511.271,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

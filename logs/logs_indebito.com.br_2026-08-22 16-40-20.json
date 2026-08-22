@@ -1,0 +1,52 @@
+{
+  "dominio": "indebito.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 16:40:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.indebito.com.br",
+        "aggregated": "/CN=*.indebito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "02AFB30F0E522F6793D99BCFB50AC019",
+      "not_before": 1781049600,
+      "not_after": 1798156799,
+      "fingerprint": "CC:74:72:79:18:AD:1F:BC:2F:0F:CD:29:9F:B7:BC:9B:BC:6A:30:DC",
+      "sha1": "CC:74:72:79:18:AD:1F:BC:2F:0F:CD:29:9F:B7:BC:9B:BC:6A:30:DC",
+      "sha256": "B7:A8:1E:75:CD:B4:1F:EE:70:4A:61:3C:25:1D:ED:F5:71:70:BC:5D:D8:8F:B0:08:0B:F8:60:DE:A8:44:96:E2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.indebito.com.br",
+        "indebito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.indebito.com.br, DNS:indebito.com.br",
+        "subjectKeyIdentifier": "keyid:e4:e2:0f:ac:9f:92:38:b2:2f:4a:88:c6:51:74:d4:eb:2e:4c:00:79"
+      }
+    },
+    "cert_index": 974795337,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x807/794",
+    "seen": 1787427619.8,
+    "submission_timestamp": 1787360347.947,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}
