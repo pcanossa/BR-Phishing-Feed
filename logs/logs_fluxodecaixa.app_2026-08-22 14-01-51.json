@@ -1,0 +1,52 @@
+{
+  "dominio": "fluxodecaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/22/26 14:01:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fluxodecaixa.app",
+        "aggregated": "/CN=fluxodecaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "237CF4CA8F362FAC",
+      "not_before": 1778543195,
+      "not_after": 1795650395,
+      "fingerprint": "99:AF:DC:87:43:D4:91:A3:6C:77:0E:F9:8D:62:B7:99:10:10:A4:3B",
+      "sha1": "99:AF:DC:87:43:D4:91:A3:6C:77:0E:F9:8D:62:B7:99:10:10:A4:3B",
+      "sha256": "60:B7:16:9F:4B:38:9E:C5:1B:CB:AB:92:B5:C4:90:3F:92:36:FD:3B:40:1F:2F:F6:2D:A9:E1:8C:06:99:52:FB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fluxodecaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fluxodecaixa.app",
+        "subjectKeyIdentifier": "keyid:79:c4:69:bd:1d:6c:af:76:b2:8b:32:35:f2:72:ea:67:d2:96:8a:37",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 662162508,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=662162508&end=662162508",
+    "seen": 1787418110.023,
+    "submission_timestamp": 1778543196.188,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

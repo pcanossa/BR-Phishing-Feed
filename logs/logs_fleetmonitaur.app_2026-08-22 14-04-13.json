@@ -1,0 +1,51 @@
+{
+  "dominio": "fleetmonitaur.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 14:04:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fleetmonitaur.app",
+        "aggregated": "/CN=fleetmonitaur.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06B1E711AFC5FCF16640FA8875904CCA087E",
+      "not_before": 1779908575,
+      "not_after": 1787684574,
+      "fingerprint": "C7:D5:DA:5F:1A:38:5A:EF:57:FD:73:52:86:E3:A6:06:CD:30:61:F8",
+      "sha1": "C7:D5:DA:5F:1A:38:5A:EF:57:FD:73:52:86:E3:A6:06:CD:30:61:F8",
+      "sha256": "0F:CB:51:CD:42:AA:67:B8:98:42:15:75:3D:9E:56:EC:DF:DA:78:01:99:75:53:76:C7:20:2C:2B:74:64:3D:93",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fleetmonitaur.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fleetmonitaur.app",
+        "subjectKeyIdentifier": "keyid:1e:39:6c:de:e1:d1:94:8e:d9:57:56:f4:95:fe:85:f6:05:9b:3e:c5"
+      }
+    },
+    "cert_index": 215374989,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x841/308",
+    "seen": 1787418252.564,
+    "submission_timestamp": 1779912085.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
