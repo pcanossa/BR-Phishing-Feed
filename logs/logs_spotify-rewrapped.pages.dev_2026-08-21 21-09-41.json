@@ -1,0 +1,53 @@
+{
+  "dominio": "spotify-rewrapped.pages.dev",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/21/26 21:09:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotify-rewrapped.pages.dev",
+        "aggregated": "/CN=spotify-rewrapped.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BCF219A4DA4847070E3AD3809CF09177",
+      "not_before": 1779354303,
+      "not_after": 1787133740,
+      "fingerprint": "7F:FC:1E:CF:A4:75:74:2B:C0:BE:E1:D7:A4:0D:67:FB:A6:58:97:4B",
+      "sha1": "7F:FC:1E:CF:A4:75:74:2B:C0:BE:E1:D7:A4:0D:67:FB:A6:58:97:4B",
+      "sha256": "B1:E7:A8:09:AD:B0:68:D6:98:0E:DF:AE:F1:71:49:D1:29:55:AE:32:0D:B1:20:A2:F8:40:CD:AF:86:17:3A:9D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "spotify-rewrapped.pages.dev",
+        "*.spotify-rewrapped.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vPI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:spotify-rewrapped.pages.dev, DNS:*.spotify-rewrapped.pages.dev",
+        "subjectKeyIdentifier": "keyid:9a:db:b3:c6:47:fc:fc:53:78:ef:69:5a:b5:8b:19:5a:40:53:ec:fd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4367392002,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4367392002&end=4367392002",
+    "seen": 1787357380.904,
+    "submission_timestamp": 1779357904.783,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

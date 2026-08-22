@@ -1,0 +1,53 @@
+{
+  "dominio": "debitocancellato.it",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/21/26 21:55:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitocancellato.it",
+        "aggregated": "/CN=debitocancellato.it"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "BCED9DB599B772F4B74790772DDAEDB2",
+      "not_before": 1779148800,
+      "not_after": 1786965322,
+      "fingerprint": "3A:E7:45:40:71:06:11:84:3E:B1:8A:8B:BE:35:A9:E9:11:6B:4F:4D",
+      "sha1": "3A:E7:45:40:71:06:11:84:3E:B1:8A:8B:BE:35:A9:E9:11:6B:4F:4D",
+      "sha256": "38:3D:FF:19:62:9E:1A:28:4B:0C:5D:FB:5C:C0:08:64:3E:AE:B0:32:40:95:62:DB:DA:F4:53:43:F4:5D:64:6F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitocancellato.it",
+        "*.debitocancellato.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitocancellato.it, DNS:*.debitocancellato.it",
+        "subjectKeyIdentifier": "keyid:27:19:fc:2f:2a:43:2b:bb:2d:ae:a3:22:40:fa:d1:4c:3a:1e:b0:f1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 813276114,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=813276114&end=813276114",
+    "seen": 1787360143.632,
+    "submission_timestamp": 1779189482.691,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dominio": "api-partner-qa.insurance.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/21/26 21:23:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "BR",
+        "CN": "api-partner-qa.insurance.pagseguro.com",
+        "L": "Sao Paulo",
+        "O": "PAGSEGURO INTERNET INSTITUICAO DE PAGAMENTO S.A.",
+        "ST": "Sao Paulo",
+        "aggregated": "/C=BR/CN=api-partner-qa.insurance.pagseguro.com/L=Sao Paulo/O=PAGSEGURO INTERNET INSTITUICAO DE PAGAMENTO S.A./ST=Sao Paulo"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert EV RSA CA G2/O=DigiCert Inc"
+      },
+      "serial_number": "05792B310EB65F4557C1AA21DFF008D1",
+      "not_before": 1779667200,
+      "not_after": 1796860799,
+      "fingerprint": "4D:23:AA:7D:1D:6D:73:52:22:A9:5D:5D:41:CD:CC:07:61:D8:E7:9F",
+      "sha1": "4D:23:AA:7D:1D:6D:73:52:22:A9:5D:5D:41:CD:CC:07:61:D8:E7:9F",
+      "sha256": "AC:3E:3B:19:D6:B4:AB:01:27:F5:EB:9C:6D:CC:CB:C5:46:D3:4A:22:30:C8:17:7A:99:38:2D:F2:BA:C7:A2:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-partner-qa.insurance.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertEVRSACAG2.crt",
+        "authorityKeyIdentifier": "keyid:6a:4e:50:bf:98:68:9d:5b:7b:20:75:d4:59:01:79:48:66:92:32:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.16.840.1.114412.2.1\nPolicy: 2.23.140.1.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-partner-qa.insurance.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:96:e5:22:c9:1f:1b:f6:01:08:a2:80:48:92:f7:51:20:0f:bc:08:e8"
+      }
+    },
+    "cert_index": 209953789,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x820/131",
+    "seen": 1787358184.151,
+    "submission_timestamp": 1779737268.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.openshift-clientes.claro.com.co",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/21/26 21:42:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.apps.openshift-clientes.claro.com.co",
+        "aggregated": "/CN=*.apps.openshift-clientes.claro.com.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "234CE4D5DCA14E12",
+      "not_before": 1781863558,
+      "not_after": 1798970758,
+      "fingerprint": "49:82:B3:DB:3B:DD:A9:8F:CF:B2:FE:15:D0:B6:75:4E:6E:67:15:8D",
+      "sha1": "49:82:B3:DB:3B:DD:A9:8F:CF:B2:FE:15:D0:B6:75:4E:6E:67:15:8D",
+      "sha256": "0E:4D:2F:8F:FE:5B:4A:5A:5A:2F:E3:CA:1F:6A:50:EE:2C:E0:13:A7:51:BA:ED:7C:84:5E:50:18:44:28:52:79",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.apps.openshift-clientes.claro.com.co",
+        "apps.openshift-clientes.claro.com.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.openshift-clientes.claro.com.co, DNS:apps.openshift-clientes.claro.com.co",
+        "subjectKeyIdentifier": "keyid:f7:e0:9c:51:60:c4:55:32:7e:45:dc:6b:50:69:aa:98:0c:57:c6:ab"
+      }
+    },
+    "cert_index": 28711845,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x112/155",
+    "seen": 1787359373.293,
+    "submission_timestamp": 1781863636.175,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}
