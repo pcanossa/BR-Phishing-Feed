@@ -1,0 +1,58 @@
+{
+  "dominio": "vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/22/26 02:46:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud",
+        "L": "Milwaukee",
+        "O": "Fiserv, Inc.",
+        "ST": "Wisconsin",
+        "aggregated": "/C=US/CN=vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud/L=Milwaukee/O=Fiserv, Inc./ST=Wisconsin"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0B5374826EE340C9AA8F67DF9B9EA360",
+      "not_before": 1781740800,
+      "not_after": 1798934399,
+      "fingerprint": "08:8F:82:47:9D:A5:12:B0:6F:97:5A:29:72:F4:97:E5:6C:81:68:ED",
+      "sha1": "08:8F:82:47:9D:A5:12:B0:6F:97:5A:29:72:F4:97:E5:6C:81:68:ED",
+      "sha256": "82:E5:46:8B:24:0F:5D:BE:91:3C:87:1E:3B:CA:E4:0A:04:72:2E:32:BA:1C:22:A8:86:D5:5C:80:34:88:1C:32",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud",
+        "*.vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud",
+        "vn-api-vnb.app.las-pre.vnb-latam-pre.aws.fisv.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud, DNS:*.vn-core-lat-ppd-banco.app.las-pre.vnb-latam-pre.aws.fisv.cloud, DNS:vn-api-vnb.app.las-pre.vnb-latam-pre.aws.fisv.cloud",
+        "subjectKeyIdentifier": "keyid:e9:17:25:08:ba:81:f2:6d:2e:74:f9:48:d5:80:18:ce:72:78:39:fd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 82233602,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=82233602&end=82233602",
+    "seen": 1787377585.282,
+    "submission_timestamp": 1781790816.693,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

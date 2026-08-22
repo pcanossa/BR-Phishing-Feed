@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.uk.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 02:29:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.uk.com",
+        "aggregated": "/CN=cpf.uk.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7D8351A9AC9970210E76A22CB2774D6F",
+      "not_before": 1778511792,
+      "not_after": 1786291301,
+      "fingerprint": "1F:BE:37:2F:26:81:81:EB:DB:FD:BF:4F:87:3D:D0:99:CD:16:9F:DE",
+      "sha1": "1F:BE:37:2F:26:81:81:EB:DB:FD:BF:4F:87:3D:D0:99:CD:16:9F:DE",
+      "sha256": "B3:B2:26:22:19:C2:53:A6:D8:19:03:FE:97:76:6F:F6:AE:66:9B:2F:BE:35:A2:48:89:99:2B:22:D2:0F:F1:9E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.uk.com",
+        "*.cpf.uk.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fYM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.uk.com, DNS:*.cpf.uk.com",
+        "subjectKeyIdentifier": "keyid:e0:f2:56:2b:74:a8:b1:9b:5b:92:65:a7:41:05:22:c8:61:8c:fe:07",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 658600474,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=658600474&end=658600474",
+    "seen": 1787376597.689,
+    "submission_timestamp": 1778515393.06,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
