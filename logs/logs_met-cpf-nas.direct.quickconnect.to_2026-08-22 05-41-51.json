@@ -1,0 +1,52 @@
+{
+  "dominio": "met-cpf-nas.direct.quickconnect.to",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 05:41:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "met-cpf-nas.direct.quickconnect.to",
+        "aggregated": "/CN=met-cpf-nas.direct.quickconnect.to"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "058A67537AEDF905DDA04DFDB9FAE418C002",
+      "not_before": 1779816290,
+      "not_after": 1787592289,
+      "fingerprint": "96:37:B6:98:1B:CF:48:6F:C9:E4:53:34:AF:0E:19:1A:87:6F:6F:80",
+      "sha1": "96:37:B6:98:1B:CF:48:6F:C9:E4:53:34:AF:0E:19:1A:87:6F:6F:80",
+      "sha256": "2A:B4:62:C8:F2:70:B8:42:4C:AF:66:95:92:03:FB:DF:4B:00:06:D8:90:F2:92:B9:A2:BA:13:BC:AF:FD:6A:D3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "met-cpf-nas.direct.quickconnect.to",
+        "*.met-cpf-nas.direct.quickconnect.to"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.met-cpf-nas.direct.quickconnect.to, DNS:met-cpf-nas.direct.quickconnect.to",
+        "subjectKeyIdentifier": "keyid:36:7a:5e:01:b3:1b:4d:d5:d3:24:4e:cb:80:76:d2:87:fe:cd:99:71"
+      }
+    },
+    "cert_index": 225723408,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x881/732",
+    "seen": 1787388111.533,
+    "submission_timestamp": 1779819801.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

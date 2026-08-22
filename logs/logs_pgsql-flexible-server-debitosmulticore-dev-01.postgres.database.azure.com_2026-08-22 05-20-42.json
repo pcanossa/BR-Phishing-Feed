@@ -1,0 +1,58 @@
+{
+  "dominio": "pgsql-flexible-server-debitosmulticore-dev-01.postgres.database.azure.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 05:20:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "fd8751c3fe87.database.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=fd8751c3fe87.database.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "410033006102ADE7EAC24D6C8D000000330061",
+      "not_before": 1779201311,
+      "not_after": 1794753311,
+      "fingerprint": "B5:AF:FB:6C:33:3C:82:55:5C:92:D5:B0:51:F0:59:FD:37:40:65:D6",
+      "sha1": "B5:AF:FB:6C:33:3C:82:55:5C:92:D5:B0:51:F0:59:FD:37:40:65:D6",
+      "sha256": "AA:F2:B2:4B:E5:8B:7A:21:A5:0A:12:D6:6C:EE:76:49:BE:3E:CB:FF:82:45:C3:8C:3C:44:D6:56:C7:AC:9B:F2",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fd8751c3fe87.database.azure.com",
+        "pgsql-flexible-server-debitosmulticore-dev-01.postgres.database.azure.com",
+        "e07f9bbff47e.privatelink.postgres.database.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pgsql-flexible-server-debitosmulticore-dev-01.postgres.database.azure.com, DNS:e07f9bbff47e.privatelink.postgres.database.azure.com, DNS:fd8751c3fe87.database.azure.com",
+        "subjectKeyIdentifier": "keyid:b0:09:38:f3:8c:07:47:c2:b2:6c:e1:1e:29:0e:3a:96:9e:63:78:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 815413419,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=815413419&end=815413419",
+    "seen": 1787386841.97,
+    "submission_timestamp": 1779201916.434,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

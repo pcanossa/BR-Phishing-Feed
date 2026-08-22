@@ -1,0 +1,51 @@
+{
+  "dominio": "app.detran-ms.iaudit.app.br",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/22/26 05:28:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.detran-ms.iaudit.app.br",
+        "aggregated": "/CN=app.detran-ms.iaudit.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0634A8B307833B49D63A41F81BB43B594676",
+      "not_before": 1779818389,
+      "not_after": 1787594388,
+      "fingerprint": "85:7A:33:EB:92:CA:DD:0A:2A:DC:36:3D:96:D8:AF:6A:0F:45:0B:FE",
+      "sha1": "85:7A:33:EB:92:CA:DD:0A:2A:DC:36:3D:96:D8:AF:6A:0F:45:0B:FE",
+      "sha256": "88:A0:79:21:C5:AD:75:FC:A5:21:2F:A6:21:E7:C9:21:F4:75:C8:1E:41:D8:29:D9:2A:7B:B3:95:43:9E:A6:82",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.detran-ms.iaudit.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.detran-ms.iaudit.app.br",
+        "subjectKeyIdentifier": "keyid:b0:ae:d4:b5:9a:ec:d2:db:85:0e:1e:4b:1b:2d:3d:fa:35:ce:ac:e6"
+      }
+    },
+    "cert_index": 212530347,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x830/196",
+    "seen": 1787387281.178,
+    "submission_timestamp": 1779821899.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

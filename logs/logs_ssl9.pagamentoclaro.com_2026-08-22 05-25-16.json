@@ -1,0 +1,52 @@
+{
+  "dominio": "ssl9.pagamentoclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/22/26 05:25:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ssl9.pagamentoclaro.com",
+        "aggregated": "/CN=ssl9.pagamentoclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "057D3BC88E135BD48E42C67192AC3E66C6C6",
+      "not_before": 1779366109,
+      "not_after": 1787142108,
+      "fingerprint": "87:A2:18:36:0E:CA:48:67:52:DD:8A:78:24:3D:55:C1:88:8E:A1:3D",
+      "sha1": "87:A2:18:36:0E:CA:48:67:52:DD:8A:78:24:3D:55:C1:88:8E:A1:3D",
+      "sha256": "77:EA:27:94:58:54:43:5F:4E:89:8C:FD:6D:32:EB:54:F7:D1:2B:11:01:DE:27:86:32:4F:FD:0B:03:85:26:E9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "ssl9.pagamentoclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ssl9.pagamentoclaro.com",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4370136174,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4370136174&end=4370136174",
+    "seen": 1787387116.104,
+    "submission_timestamp": 1779369619.62,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

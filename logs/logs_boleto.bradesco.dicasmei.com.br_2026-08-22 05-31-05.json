@@ -1,0 +1,54 @@
+{
+  "dominio": "boleto.bradesco.dicasmei.com.br",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/22/26 05:31:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boletodas.dicasmei.com.br",
+        "aggregated": "/CN=boletodas.dicasmei.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0C37E2DC3FEB8B4CD90A026E21A77CB1",
+      "not_before": 1780444800,
+      "not_after": 1797551999,
+      "fingerprint": "18:98:99:53:31:7A:CD:BA:7A:6F:56:BA:A4:E2:3B:CA:8F:B2:78:F5",
+      "sha1": "18:98:99:53:31:7A:CD:BA:7A:6F:56:BA:A4:E2:3B:CA:8F:B2:78:F5",
+      "sha256": "FA:0F:EE:24:C1:FC:4E:21:7C:29:C0:2D:B5:43:B0:B7:7C:D4:6A:59:F6:6F:F2:85:F4:F1:DB:09:ED:D9:E9:3F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boletodas.dicasmei.com.br",
+        "*.dicasmei.com.br",
+        "*.boletodas.dicasmei.com.br",
+        "boleto.bradesco.dicasmei.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boletodas.dicasmei.com.br, DNS:*.dicasmei.com.br, DNS:*.boletodas.dicasmei.com.br, DNS:boleto.bradesco.dicasmei.com.br",
+        "subjectKeyIdentifier": "keyid:19:5d:47:90:ba:9a:43:da:b0:91:7b:ce:25:fe:01:1a:c6:4a:10:92"
+      }
+    },
+    "cert_index": 56758051,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x221/711",
+    "seen": 1787387463.436,
+    "submission_timestamp": 1780828214.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
