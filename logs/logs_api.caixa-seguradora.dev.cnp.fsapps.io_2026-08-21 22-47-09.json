@@ -1,0 +1,51 @@
+{
+  "dominio": "api.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/21/26 22:47:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "063D9EC09251D7FE3F402C1CAEAA3B551D35",
+      "not_before": 1779750324,
+      "not_after": 1787526323,
+      "fingerprint": "46:D0:66:7D:0D:B7:F5:10:7A:0B:86:DF:F9:5D:16:25:D5:B2:98:2F",
+      "sha1": "46:D0:66:7D:0D:B7:F5:10:7A:0B:86:DF:F9:5D:16:25:D5:B2:98:2F",
+      "sha256": "B6:30:5C:9D:F4:FB:62:75:B8:E5:DB:CD:F6:FC:52:84:AE:2E:1D:FF:A4:7F:62:64:9E:63:F1:FF:46:7C:81:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:84:50:ed:9f:ef:0f:a0:2e:e3:f7:28:b7:0a:dc:dd:5e:cb:33:f3:66"
+      }
+    },
+    "cert_index": 210396457,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x821/861",
+    "seen": 1787363226.998,
+    "submission_timestamp": 1779753834.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

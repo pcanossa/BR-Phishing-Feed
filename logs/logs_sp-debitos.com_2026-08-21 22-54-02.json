@@ -1,0 +1,52 @@
+{
+  "dominio": "sp-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/21/26 22:54:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sp-debitos.com",
+        "aggregated": "/CN=sp-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "053637073BB60142644919BEE3D37AB322B9",
+      "not_before": 1779751295,
+      "not_after": 1787527294,
+      "fingerprint": "BC:85:BE:E9:FF:9A:BA:B0:2D:43:0C:42:E8:95:57:BF:92:31:3D:BA",
+      "sha1": "BC:85:BE:E9:FF:9A:BA:B0:2D:43:0C:42:E8:95:57:BF:92:31:3D:BA",
+      "sha256": "30:C5:92:94:0A:AE:FC:13:DC:1E:F8:6C:67:D1:08:E4:25:0F:07:CC:93:6A:C2:68:98:8B:98:09:F0:9A:62:33",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "sp-debitos.com",
+        "*.sp-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.sp-debitos.com, DNS:sp-debitos.com",
+        "subjectKeyIdentifier": "keyid:81:e3:03:7a:b9:7c:26:c5:27:28:18:aa:33:60:7e:9c:f9:18:df:9e"
+      }
+    },
+    "cert_index": 210433014,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x822/003",
+    "seen": 1787363642.371,
+    "submission_timestamp": 1779754805.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

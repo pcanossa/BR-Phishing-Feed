@@ -1,0 +1,52 @@
+{
+  "dominio": "api.recarga-automatica-debito.prod.claropservices.com.br",
+  "marcas_encontradas": [
+    "claro",
+    "debito"
+  ],
+  "timestamp": "08/21/26 23:04:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.recarga-automatica-debito.prod.claropservices.com.br",
+        "aggregated": "/CN=api.recarga-automatica-debito.prod.claropservices.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0EDAA9B3C35C81C3AFD7B7BCA8F0A5BF",
+      "not_before": 1779753600,
+      "not_after": 1796860799,
+      "fingerprint": "16:D8:A5:9D:F7:BB:0F:30:D6:B8:2C:BE:E4:7C:58:67:F0:51:B2:7D",
+      "sha1": "16:D8:A5:9D:F7:BB:0F:30:D6:B8:2C:BE:E4:7C:58:67:F0:51:B2:7D",
+      "sha256": "87:E7:72:EC:70:86:C9:6A:DF:EE:10:E1:33:F7:A9:ED:C9:B8:85:64:65:82:69:9A:40:F5:93:07:44:46:E7:51",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.recarga-automatica-debito.prod.claropservices.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.recarga-automatica-debito.prod.claropservices.com.br",
+        "subjectKeyIdentifier": "keyid:e3:b3:b3:0f:0e:69:aa:e4:33:1d:10:bb:ba:f0:f9:7e:0e:1b:a8:23"
+      }
+    },
+    "cert_index": 223494947,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x873/027",
+    "seen": 1787364286.5,
+    "submission_timestamp": 1779754428.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
