@@ -1,0 +1,52 @@
+{
+  "dominio": "usedexter.app",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "08/22/26 06:06:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "usedexter.app",
+        "aggregated": "/CN=usedexter.app"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "41DEC64B797C6027CA11F764D6C0A00F",
+      "not_before": 1779753600,
+      "not_after": 1787566996,
+      "fingerprint": "1A:45:9D:B2:7E:1F:A7:9C:F6:6E:6E:96:6B:4F:73:71:79:BF:58:6B",
+      "sha1": "1A:45:9D:B2:7E:1F:A7:9C:F6:6E:6E:96:6B:4F:73:71:79:BF:58:6B",
+      "sha256": "1A:DD:B3:FA:47:6F:63:97:85:39:42:17:96:4E:CF:64:51:A1:75:42:C3:2A:F8:90:B6:17:97:92:88:9E:71:F4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "usedexter.app",
+        "*.usedexter.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:usedexter.app, DNS:*.usedexter.app",
+        "subjectKeyIdentifier": "keyid:1e:c3:c8:37:57:3c:be:66:5a:e7:ac:8c:86:a1:a4:40:55:cc:0a:b2"
+      }
+    },
+    "cert_index": 344594098,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x346/070",
+    "seen": 1787389575.572,
+    "submission_timestamp": 1779791187.348,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

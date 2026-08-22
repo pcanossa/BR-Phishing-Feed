@@ -1,0 +1,53 @@
+{
+  "dominio": "usedexter.app",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "08/22/26 06:08:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "usedexter.app",
+        "aggregated": "/CN=usedexter.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EDB4FD102F3F73020E9B35C45127F72E",
+      "not_before": 1779787702,
+      "not_after": 1787567285,
+      "fingerprint": "61:BA:00:21:E8:77:D1:3A:D5:0F:61:05:2D:F7:01:45:23:99:F9:B6",
+      "sha1": "61:BA:00:21:E8:77:D1:3A:D5:0F:61:05:2D:F7:01:45:23:99:F9:B6",
+      "sha256": "1F:67:DF:8C:91:DB:AF:20:57:94:DD:F7:76:96:61:D8:A0:FA:3B:98:AA:18:CB:BA:18:C5:1E:23:CA:34:C6:5B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "usedexter.app",
+        "api-staging.usedexter.app",
+        "*.api-staging.usedexter.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/7bQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:usedexter.app, DNS:api-staging.usedexter.app, DNS:*.api-staging.usedexter.app",
+        "subjectKeyIdentifier": "keyid:46:32:b6:94:60:fb:54:24:0b:ef:74:9e:ab:3b:43:f3:c8:55:63:39"
+      }
+    },
+    "cert_index": 344608999,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x346/128",
+    "seen": 1787389698.99,
+    "submission_timestamp": 1779791535.911,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

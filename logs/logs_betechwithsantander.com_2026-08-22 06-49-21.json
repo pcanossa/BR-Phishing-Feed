@@ -1,0 +1,53 @@
+{
+  "dominio": "betechwithsantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/22/26 06:49:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01639F477E54E6567A82000DCD697751",
+      "not_before": 1780513463,
+      "not_after": 1780599863,
+      "fingerprint": "6E:39:64:7B:9E:01:76:5E:63:44:B5:CA:A7:78:4D:D3:DE:72:97:00",
+      "sha1": "6E:39:64:7B:9E:01:76:5E:63:44:B5:CA:A7:78:4D:D3:DE:72:97:00",
+      "sha256": "A3:61:AB:FA:2A:57:FD:AD:5E:EA:28:C5:F1:9E:0D:0E:1A:E4:A3:05:9A:82:63:32:B0:A1:BD:E8:38:09:C3:3F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "betechwithsantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:betechwithsantander.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:35:72:e7:0f:09:4a:38:ca:56:71:76:9a:90:27:c8:1c:85:f5:c5:98",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1082141235,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h1/ct/v1/get-entries?start=1082141235&end=1082141235",
+    "seen": 1787392160.492,
+    "submission_timestamp": 1780513465.879,
+    "source": {
+      "name": "DigiCert 'Sphinx 2026h1' Log",
+      "url": "https://sphinx.ct.digicert.com/2026h1"
+    }
+  }
+}

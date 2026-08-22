@@ -1,0 +1,52 @@
+{
+  "dominio": "assinatura-netflixfatura.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/22/26 06:28:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "assinatura-netflixfatura.com",
+        "aggregated": "/CN=assinatura-netflixfatura.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "465A4ECFD7EBF33A",
+      "not_before": 1781880256,
+      "not_after": 1798987456,
+      "fingerprint": "39:51:36:6E:82:E4:9C:B1:16:2A:7B:47:01:43:24:5D:BF:04:9E:28",
+      "sha1": "39:51:36:6E:82:E4:9C:B1:16:2A:7B:47:01:43:24:5D:BF:04:9E:28",
+      "sha256": "FA:95:01:2A:D2:B0:4A:4A:5F:84:3E:FF:BD:F0:CB:AB:61:81:4B:6C:AB:58:E3:B0:5C:81:E1:52:3C:7B:7D:E4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "assinatura-netflixfatura.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:assinatura-netflixfatura.com",
+        "subjectKeyIdentifier": "keyid:04:66:e7:5c:9b:e6:cd:3c:3d:13:11:4b:fa:53:78:4f:a1:fc:a2:d5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 57823306,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=57823306&end=57823306",
+    "seen": 1787390901.894,
+    "submission_timestamp": 1781880257.914,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}
