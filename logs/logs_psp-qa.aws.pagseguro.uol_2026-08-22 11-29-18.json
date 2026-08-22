@@ -1,0 +1,54 @@
+{
+  "dominio": "psp-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 11:29:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "psp-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=psp-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "C5F3657EF8FAAA5013004ECE32526941",
+      "not_before": 1781043845,
+      "not_after": 1788823431,
+      "fingerprint": "A4:FE:FE:AC:0D:62:24:17:C8:26:6C:78:53:F2:96:F2:1C:37:34:F8",
+      "sha1": "A4:FE:FE:AC:0D:62:24:17:C8:26:6C:78:53:F2:96:F2:1C:37:34:F8",
+      "sha256": "48:CE:25:8A:40:F5:01:E9:BC:57:9F:CC:30:92:B0:FA:A6:16:03:03:22:F4:45:11:BB:19:CD:01:D6:4D:2E:39",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "psp-qa.aws.pagseguro.uol",
+        "*.psp-capture-qa.aws.pagseguro.uol",
+        "psp-capture-qa.aws.pagseguro.uol",
+        "*.psp-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/xfM, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:psp-qa.aws.pagseguro.uol, DNS:*.psp-capture-qa.aws.pagseguro.uol, DNS:psp-capture-qa.aws.pagseguro.uol, DNS:*.psp-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:2d:c1:c3:d6:45:2a:bc:4a:3b:2e:3b:5b:07:99:07:f2:f3:b6:d6:db"
+      }
+    },
+    "cert_index": 973974452,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x804/587",
+    "seen": 1787408957.37,
+    "submission_timestamp": 1787355150.469,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

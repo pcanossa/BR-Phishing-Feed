@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.one",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 11:37:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.one",
+        "aggregated": "/CN=cpf.one"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "36F085A7F5905F84",
+      "not_before": 1781950037,
+      "not_after": 1799057237,
+      "fingerprint": "4A:46:BC:4B:30:BE:65:A7:60:23:43:9C:CA:00:BA:56:90:F6:D4:0E",
+      "sha1": "4A:46:BC:4B:30:BE:65:A7:60:23:43:9C:CA:00:BA:56:90:F6:D4:0E",
+      "sha256": "32:B9:A8:74:51:BF:31:A4:98:1D:55:53:46:25:54:26:AE:2F:8A:60:0D:3C:09:D9:43:CA:4C:81:11:02:68:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.one"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.one",
+        "subjectKeyIdentifier": "keyid:1f:ae:7d:7d:35:28:23:53:5d:82:86:4a:d6:d4:42:f4:f5:cc:71:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 59513241,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=59513241&end=59513241",
+    "seen": 1787409479.655,
+    "submission_timestamp": 1781950038.788,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}
