@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.virtual.rio.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/22/26 12:31:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.virtual.rio.br",
+        "aggregated": "/CN=cartao.virtual.rio.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0509897801FBFAE918138243A1A49792D5A1",
+      "not_before": 1779212126,
+      "not_after": 1786988125,
+      "fingerprint": "20:D2:B1:1C:7C:AE:E7:63:4A:E9:8D:F8:07:0C:7C:A7:B9:AB:78:AC",
+      "sha1": "20:D2:B1:1C:7C:AE:E7:63:4A:E9:8D:F8:07:0C:7C:A7:B9:AB:78:AC",
+      "sha256": "95:27:1E:39:4A:65:82:09:72:05:37:18:16:DC:94:A4:78:31:F5:47:80:36:14:90:82:98:0F:AD:2F:EF:A8:7D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.virtual.rio.br",
+        "www.cartao.virtual.rio.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.virtual.rio.br, DNS:www.cartao.virtual.rio.br",
+        "subjectKeyIdentifier": "keyid:e5:a1:e0:f0:5d:5f:7c:73:6f:42:7c:5d:36:38:9d:a3:e0:a5:1c:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 817892259,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=817892259&end=817892259",
+    "seen": 1787412683.667,
+    "submission_timestamp": 1779215636.792,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dominio": "debitorisos.it.admin-mcas.ms",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 12:10:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.debitorisos.it.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.debitorisos.it.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "4300507A1DA6DC17B2C5C2E533000000507A1D",
+      "not_before": 1780890868,
+      "not_after": 1796442868,
+      "fingerprint": "F4:6B:CF:D2:C9:5E:23:24:3F:B5:88:9E:79:34:51:8D:10:B7:77:78",
+      "sha1": "F4:6B:CF:D2:C9:5E:23:24:3F:B5:88:9E:79:34:51:8D:10:B7:77:78",
+      "sha256": "03:D7:CE:16:1B:D5:9F:2C:72:FB:36:A1:1F:AD:89:6D:AC:1A:72:BD:C7:FF:DD:7A:BE:E8:42:37:90:C6:1A:D8",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitorisos.it.mcas.ms",
+        "*.debitorisos.it.admin-mcas.ms",
+        "*.debitorisos.it.mcas-df.ms",
+        "*.debitorisos.it.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitorisos.it.mcas.ms, DNS:*.debitorisos.it.admin-mcas.ms, DNS:*.debitorisos.it.mcas-df.ms, DNS:*.debitorisos.it.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:f3:63:22:a4:13:d8:28:7d:45:aa:b0:9f:79:43:ef:82:ed:b1:ad:39"
+      }
+    },
+    "cert_index": 974121722,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x805/162",
+    "seen": 1787411399.781,
+    "submission_timestamp": 1787355765.7,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

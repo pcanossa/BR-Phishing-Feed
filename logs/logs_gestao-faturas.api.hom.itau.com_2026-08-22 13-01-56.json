@@ -1,0 +1,51 @@
+{
+  "dominio": "gestao-faturas.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 13:01:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gestao-faturas.api.hom.itau.com",
+        "aggregated": "/CN=gestao-faturas.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "07C304510B525AE946CA860315454701",
+      "not_before": 1781049600,
+      "not_after": 1798156799,
+      "fingerprint": "4B:97:12:F1:29:3A:73:F4:41:21:B2:06:A5:5A:53:24:28:30:2C:43",
+      "sha1": "4B:97:12:F1:29:3A:73:F4:41:21:B2:06:A5:5A:53:24:28:30:2C:43",
+      "sha256": "CA:7A:35:75:F3:88:D9:92:9A:22:8D:D0:B9:4E:89:30:B0:48:FF:4A:E9:92:E5:C3:FE:B1:6C:76:07:18:68:33",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gestao-faturas.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gestao-faturas.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:d0:6d:ea:f7:74:64:e5:a5:db:45:6e:0f:da:97:b3:45:c8:5c:b1:13"
+      }
+    },
+    "cert_index": 59329720,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x231/756",
+    "seen": 1787414514.805,
+    "submission_timestamp": 1781050476.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

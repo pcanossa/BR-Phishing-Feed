@@ -1,0 +1,53 @@
+{
+  "dominio": "meu-imposto-receitafederal.digital",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/22/26 12:58:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meu-imposto-receitafederal.digital",
+        "aggregated": "/CN=meu-imposto-receitafederal.digital"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "5C753FA41636D2FC492112D17F5B2F5C",
+      "not_before": 1779062400,
+      "not_after": 1786920833,
+      "fingerprint": "63:62:2A:A0:EB:7B:CF:1A:2A:FD:28:69:C1:EF:5E:85:A1:4D:0E:6A",
+      "sha1": "63:62:2A:A0:EB:7B:CF:1A:2A:FD:28:69:C1:EF:5E:85:A1:4D:0E:6A",
+      "sha256": "F6:5C:2D:ED:AC:B6:1F:D6:6A:26:BE:BB:CC:C6:FC:F1:F2:3F:60:34:40:8D:D7:8E:27:FE:13:45:60:6C:20:C6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "meu-imposto-receitafederal.digital",
+        "*.meu-imposto-receitafederal.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:meu-imposto-receitafederal.digital, DNS:*.meu-imposto-receitafederal.digital",
+        "subjectKeyIdentifier": "keyid:a2:20:fd:9c:72:61:5f:f4:af:27:09:b2:1f:84:ba:ac:63:38:57:30",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 687950080,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=687950080&end=687950080",
+    "seen": 1787414314.958,
+    "submission_timestamp": 1779145289.78,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

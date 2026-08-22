@@ -1,0 +1,52 @@
+{
+  "dominio": "dev-app-asia.santander-bank.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/22/26 12:42:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev-app-asia.santander-bank.com",
+        "aggregated": "/CN=dev-app-asia.santander-bank.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0F1301FA156513E1D7BC1DCB6E48EBAC",
+      "not_before": 1779840000,
+      "not_after": 1787615999,
+      "fingerprint": "77:D6:EA:89:B0:B2:B1:E2:50:78:43:8B:93:31:C2:EE:E9:8F:13:DD",
+      "sha1": "77:D6:EA:89:B0:B2:B1:E2:50:78:43:8B:93:31:C2:EE:E9:8F:13:DD",
+      "sha256": "9F:0E:C5:27:95:66:1F:34:E3:C5:BF:73:84:65:FE:AA:28:61:3B:25:ED:24:8D:44:B0:55:6D:ED:FF:7A:D6:FB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev-app-asia.santander-bank.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev-app-asia.santander-bank.com",
+        "subjectKeyIdentifier": "keyid:36:59:64:ab:c0:a6:ec:63:66:e0:5f:8f:97:39:75:04:78:fa:b1:cf"
+      }
+    },
+    "cert_index": 214921587,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x839/537",
+    "seen": 1787413351.058,
+    "submission_timestamp": 1779897373.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "itau-boleto-webhook-development.swile.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 12:17:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itau-boleto-webhook-development.swile.com.br",
+        "aggregated": "/CN=itau-boleto-webhook-development.swile.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "04657F3687D76E6FE123324F1FA33D95",
+      "not_before": 1781049600,
+      "not_after": 1798156799,
+      "fingerprint": "28:DC:5B:83:5C:93:9A:65:B8:1C:02:61:15:36:FA:B8:80:DE:21:91",
+      "sha1": "28:DC:5B:83:5C:93:9A:65:B8:1C:02:61:15:36:FA:B8:80:DE:21:91",
+      "sha256": "C6:00:29:B0:20:59:DE:E7:45:5A:BA:4B:1D:23:98:2E:67:05:C4:C0:5F:D6:8B:88:AF:35:18:78:30:82:B6:8B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "itau-boleto-webhook-development.swile.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:itau-boleto-webhook-development.swile.com.br",
+        "subjectKeyIdentifier": "keyid:b7:4e:49:8f:e5:c5:32:80:28:34:47:31:1a:fa:df:db:d1:02:a6:42"
+      }
+    },
+    "cert_index": 52942337,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x206/806",
+    "seen": 1787411862.994,
+    "submission_timestamp": 1781050726.627,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
