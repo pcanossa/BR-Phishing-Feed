@@ -1,0 +1,54 @@
+{
+  "dominio": "secureapply.santander.co.uk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/22/26 15:52:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "GB",
+        "CN": "secureapply.santander.co.uk",
+        "O": "Santander UK plc",
+        "ST": "London",
+        "aggregated": "/C=GB/CN=secureapply.santander.co.uk/O=Santander UK plc/ST=London"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA EV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA EV R36/O=Sectigo Limited"
+      },
+      "serial_number": "720564B50B776E097DB5B005320195A7",
+      "not_before": 1779840000,
+      "not_after": 1797033599,
+      "fingerprint": "21:CA:B5:63:B8:09:73:DF:E4:A5:DF:02:97:7A:C4:B2:DC:D5:B7:BA",
+      "sha1": "21:CA:B5:63:B8:09:73:DF:E4:A5:DF:02:97:7A:C4:B2:DC:D5:B7:BA",
+      "sha256": "FE:4E:C6:28:E3:49:98:FE:D4:D9:2A:02:AC:4E:0B:5E:02:DE:BA:65:04:C9:73:B3:F2:AD:9B:CD:06:0D:65:D7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "secureapply.santander.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAEVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:98:2d:5e:1e:8f:eb:54:f4:b9:ff:55:95:ad:4c:c7:7e:a4:98:ae:7b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.5.1\nPolicy: 2.23.140.1.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:secureapply.santander.co.uk",
+        "subjectKeyIdentifier": "keyid:86:6c:23:18:f2:cc:22:30:aa:13:cf:79:26:b7:e9:54:74:fa:7c:6c"
+      }
+    },
+    "cert_index": 229202801,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x895/323",
+    "seen": 1787424720.348,
+    "submission_timestamp": 1779922802.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

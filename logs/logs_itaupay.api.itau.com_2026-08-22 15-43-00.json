@@ -1,0 +1,51 @@
+{
+  "dominio": "itaupay.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 15:43:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itaupay.api.itau.com",
+        "aggregated": "/CN=itaupay.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0BB7CA2AF9DF6DE34BB4C08ABF02C156",
+      "not_before": 1781049600,
+      "not_after": 1798156799,
+      "fingerprint": "D1:FD:51:C5:5E:61:79:FE:D6:43:88:E4:EF:8A:10:2D:7C:5B:1F:9D",
+      "sha1": "D1:FD:51:C5:5E:61:79:FE:D6:43:88:E4:EF:8A:10:2D:7C:5B:1F:9D",
+      "sha256": "05:96:9A:D6:42:6C:4D:63:F7:1A:26:95:DC:6A:8D:A2:1F:5F:BF:74:ED:97:ED:87:E5:73:29:F8:18:ED:DE:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "itaupay.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:itaupay.api.itau.com",
+        "subjectKeyIdentifier": "keyid:cf:d4:71:e0:78:1a:0e:b6:1c:d0:84:cc:2a:12:e6:a6:17:8b:e2:8f"
+      }
+    },
+    "cert_index": 60252149,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x235/359",
+    "seen": 1787424179.461,
+    "submission_timestamp": 1781127072.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

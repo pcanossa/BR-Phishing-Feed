@@ -1,0 +1,51 @@
+{
+  "dominio": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/22/26 15:37:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05DE1B478FD6BE456CF35F1B1F274835D510",
+      "not_before": 1779145786,
+      "not_after": 1786921785,
+      "fingerprint": "EB:CF:F5:A8:5C:BA:4F:13:EB:AD:21:01:7A:11:89:74:49:33:39:2B",
+      "sha1": "EB:CF:F5:A8:5C:BA:4F:13:EB:AD:21:01:7A:11:89:74:49:33:39:2B",
+      "sha256": "10:D5:3A:45:D6:F3:8C:4C:25:B5:9D:10:00:89:4D:7C:5F:DB:68:12:C5:0D:7D:B1:73:6A:7D:CF:AD:5C:B6:A8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:50:fe:32:ac:a1:08:01:7c:2a:02:ba:81:52:c7:95:68:f4:d4:8a:52"
+      }
+    },
+    "cert_index": 688420570,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=688420570&end=688420570",
+    "seen": 1787423820.228,
+    "submission_timestamp": 1779149300.113,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "psp.pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 15:50:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.psp.pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.psp.pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E6D6150C5793FAE91B78F7E5440F8AC",
+      "not_before": 1779148800,
+      "not_after": 1796255999,
+      "fingerprint": "8D:9A:59:2D:FB:64:27:23:42:C9:19:15:BA:CE:5A:C3:7B:0F:A3:93",
+      "sha1": "8D:9A:59:2D:FB:64:27:23:42:C9:19:15:BA:CE:5A:C3:7B:0F:A3:93",
+      "sha256": "D6:CA:8D:22:F4:5A:79:FF:F5:53:65:5A:96:E3:89:3D:F5:CE:34:DA:E1:C6:A7:46:76:A2:99:AC:BD:FC:DB:5E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.psp.pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.psp.pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:f0:f6:6e:9d:35:5b:12:e8:cf:37:25:bf:06:71:a3:fd:be:3e:cf:3e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 688479251,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=688479251&end=688479251",
+    "seen": 1787424635.079,
+    "submission_timestamp": 1779149715.461,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
