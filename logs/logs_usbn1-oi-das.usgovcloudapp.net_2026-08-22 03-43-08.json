@@ -1,0 +1,56 @@
+{
+  "dominio": "usbn1-oi-das.usgovcloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/22/26 03:43:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "usbn1-oi-das.usgovtrafficmanager.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "Washington",
+        "aggregated": "/C=US/CN=usbn1-oi-das.usgovtrafficmanager.net/L=Redmond/O=Microsoft Corporation/ST=Washington"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert SHA2 Secure Server CA",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert SHA2 Secure Server CA/O=DigiCert Inc"
+      },
+      "serial_number": "07B34891030F74455810281BC41AA0BC",
+      "not_before": 1780704000,
+      "not_after": 1797897599,
+      "fingerprint": "5F:97:0D:CF:4B:2E:30:25:3C:01:BF:4E:42:E8:A8:88:E7:A1:5E:5D",
+      "sha1": "5F:97:0D:CF:4B:2E:30:25:3C:01:BF:4E:42:E8:A8:88:E7:A1:5E:5D",
+      "sha256": "8D:9A:7E:86:F1:E2:95:5F:50:FC:34:94:B5:68:CA:90:34:6B:AF:3B:10:FF:6B:E3:4F:D0:10:88:84:21:D8:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "usbn1-oi-das.usgovtrafficmanager.net",
+        "usbn1-oi-das.usgovcloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA-2.crt",
+        "authorityKeyIdentifier": "keyid:0f:80:61:1c:82:31:61:d5:2f:28:e7:8d:46:38:b4:2c:e1:c6:d9:e2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:usbn1-oi-das.usgovtrafficmanager.net, DNS:usbn1-oi-das.usgovcloudapp.net",
+        "subjectKeyIdentifier": "keyid:37:e5:74:75:12:16:eb:c1:da:3b:50:b2:1e:ac:8c:2f:49:71:b8:45"
+      }
+    },
+    "cert_index": 56152470,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x219/345",
+    "seen": 1787380987.587,
+    "submission_timestamp": 1780776245.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

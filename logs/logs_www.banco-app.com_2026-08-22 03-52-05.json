@@ -1,0 +1,52 @@
+{
+  "dominio": "www.banco-app.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/22/26 03:52:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banco-app.com",
+        "aggregated": "/CN=banco-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06BF4DDF1B708DA8C01AD169013BBFD412E8",
+      "not_before": 1779800413,
+      "not_after": 1787576412,
+      "fingerprint": "D3:04:CD:43:54:C7:2A:5A:96:B0:F4:56:86:C6:6A:C2:FC:A1:48:99",
+      "sha1": "D3:04:CD:43:54:C7:2A:5A:96:B0:F4:56:86:C6:6A:C2:FC:A1:48:99",
+      "sha256": "1A:C3:D1:15:13:96:7F:05:6C:FD:6B:0D:7F:D2:B7:AB:68:1D:D5:7F:AF:4C:67:39:39:6B:BC:6D:66:9D:1E:25",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "banco-app.com",
+        "www.banco-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banco-app.com, DNS:www.banco-app.com",
+        "subjectKeyIdentifier": "keyid:91:ff:e2:bb:aa:2e:66:a3:f4:bf:3f:fa:0a:6d:c5:dc:09:70:67:37"
+      }
+    },
+    "cert_index": 212011576,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x828/170",
+    "seen": 1787381524.829,
+    "submission_timestamp": 1779803924.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

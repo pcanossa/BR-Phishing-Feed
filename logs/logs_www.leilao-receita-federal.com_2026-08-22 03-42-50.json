@@ -1,0 +1,51 @@
+{
+  "dominio": "www.leilao-receita-federal.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/22/26 03:42:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.leilao-receita-federal.com",
+        "aggregated": "/CN=www.leilao-receita-federal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "3276DFFDD3675DC8",
+      "not_before": 1779359523,
+      "not_after": 1796466723,
+      "fingerprint": "76:2D:65:D0:C5:6C:91:B6:9C:4C:9F:32:61:D6:8E:15:B6:2D:1A:7C",
+      "sha1": "76:2D:65:D0:C5:6C:91:B6:9C:4C:9F:32:61:D6:8E:15:B6:2D:1A:7C",
+      "sha256": "18:74:84:A6:3A:E6:83:FF:0C:CE:00:D7:D0:D9:DC:4B:51:61:83:D0:26:48:A2:0E:2E:81:DD:E8:7D:59:E5:A0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.leilao-receita-federal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.leilao-receita-federal.com",
+        "subjectKeyIdentifier": "keyid:f1:01:86:c9:9e:ce:e8:0e:9d:9c:4d:88:fd:bc:14:5d:ef:80:f8:8f"
+      }
+    },
+    "cert_index": 4369562681,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4369562681&end=4369562681",
+    "seen": 1787380969.411,
+    "submission_timestamp": 1779367116.251,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
