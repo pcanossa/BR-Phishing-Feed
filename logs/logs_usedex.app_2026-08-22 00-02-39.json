@@ -1,0 +1,52 @@
+{
+  "dominio": "usedex.app",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "08/22/26 00:02:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.usedex.app",
+        "aggregated": "/CN=*.usedex.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05556C00B54C0FF5FCA6CEE6BDFA31F51D91",
+      "not_before": 1779762047,
+      "not_after": 1787538046,
+      "fingerprint": "6F:BC:07:F5:D1:5B:15:99:61:27:AF:EE:F9:D2:AC:64:41:B8:27:1D",
+      "sha1": "6F:BC:07:F5:D1:5B:15:99:61:27:AF:EE:F9:D2:AC:64:41:B8:27:1D",
+      "sha256": "F2:79:27:D5:D3:6B:67:72:01:65:41:E1:08:F6:7E:0B:9F:69:2E:19:AA:FA:21:09:61:D8:6B:7D:6F:4F:B8:44",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.usedex.app",
+        "usedex.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.usedex.app, DNS:usedex.app",
+        "subjectKeyIdentifier": "keyid:80:af:f9:b8:d2:f4:d9:4a:dc:a2:81:aa:e0:80:7a:d9:d5:69:0e:51"
+      }
+    },
+    "cert_index": 210784154,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x823/375",
+    "seen": 1787367756.845,
+    "submission_timestamp": 1779765557.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

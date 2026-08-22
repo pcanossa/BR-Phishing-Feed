@@ -1,0 +1,52 @@
+{
+  "dominio": "debitone.co",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/21/26 23:49:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitone.co",
+        "aggregated": "/CN=debitone.co"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "F054EB31209C7C22EC49F39BEBA3F857",
+      "not_before": 1780617600,
+      "not_after": 1797811199,
+      "fingerprint": "BB:EB:E0:C2:C1:63:A2:7D:95:7A:97:E2:80:CF:FF:37:68:FC:3F:5C",
+      "sha1": "BB:EB:E0:C2:C1:63:A2:7D:95:7A:97:E2:80:CF:FF:37:68:FC:3F:5C",
+      "sha256": "22:E1:96:25:BF:4B:96:B6:F7:B3:5A:8B:FD:00:19:B2:D1:4A:3F:06:A9:BF:17:E2:6F:19:84:D4:2B:57:40:13",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitone.co",
+        "www.debitone.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitone.co, DNS:www.debitone.co",
+        "subjectKeyIdentifier": "keyid:36:d1:51:47:6d:86:c5:d8:d4:0f:19:7b:1b:f2:43:75:67:08:f6:d3"
+      }
+    },
+    "cert_index": 54848279,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x214/251",
+    "seen": 1787366979.694,
+    "submission_timestamp": 1780659120.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

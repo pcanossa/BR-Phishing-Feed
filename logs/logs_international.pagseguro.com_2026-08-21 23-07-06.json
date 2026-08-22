@@ -1,0 +1,58 @@
+{
+  "dominio": "international.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/21/26 23:07:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "charge-engine.pagseguro.com",
+        "aggregated": "/CN=charge-engine.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7934FD0272D477261333FBEA424C8B33",
+      "not_before": 1779230711,
+      "not_after": 1787010306,
+      "fingerprint": "60:21:91:01:BD:74:2E:8C:60:96:BF:A5:BC:44:89:AE:A4:ED:66:5B",
+      "sha1": "60:21:91:01:BD:74:2E:8C:60:96:BF:A5:BC:44:89:AE:A4:ED:66:5B",
+      "sha256": "F6:BD:76:8F:A3:96:02:FE:D9:4F:68:EF:CB:F5:C3:F2:5C:B4:B9:81:82:D7:9E:EA:D2:C3:A0:04:D3:1B:6A:68",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "charge-engine.pagseguro.com",
+        "*.emprestimos.pagseguro.com",
+        "emprestimos.pagseguro.com",
+        "*.charge-engine.pagseguro.com",
+        "insurance.pagseguro.com",
+        "*.insurance.pagseguro.com",
+        "international.pagseguro.com",
+        "*.international.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/eTQ, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:charge-engine.pagseguro.com, DNS:*.emprestimos.pagseguro.com, DNS:emprestimos.pagseguro.com, DNS:*.charge-engine.pagseguro.com, DNS:insurance.pagseguro.com, DNS:*.insurance.pagseguro.com, DNS:international.pagseguro.com, DNS:*.international.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:02:a8:e9:6e:19:b4:3e:d3:f9:ad:0f:b3:d1:92:e2:00:f8:99:83:aa"
+      }
+    },
+    "cert_index": 210501051,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x822/269",
+    "seen": 1787364425.265,
+    "submission_timestamp": 1779756422.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

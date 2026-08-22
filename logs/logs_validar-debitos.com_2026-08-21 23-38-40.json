@@ -1,0 +1,52 @@
+{
+  "dominio": "validar-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/21/26 23:38:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "validar-debitos.com",
+        "aggregated": "/CN=validar-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "062741F58C9140679A1C21F97EF1717AEACE",
+      "not_before": 1779724638,
+      "not_after": 1787500637,
+      "fingerprint": "08:38:3A:CD:01:0F:9C:85:13:3A:56:52:6B:45:07:27:69:37:84:BA",
+      "sha1": "08:38:3A:CD:01:0F:9C:85:13:3A:56:52:6B:45:07:27:69:37:84:BA",
+      "sha256": "8D:FD:A2:15:2F:3D:8E:0F:93:92:76:49:70:15:EF:B1:B7:4E:AA:92:3B:4C:8B:99:88:83:76:7A:0E:9D:91:88",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "validar-debitos.com",
+        "*.validar-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.validar-debitos.com, DNS:validar-debitos.com",
+        "subjectKeyIdentifier": "keyid:8e:84:1c:55:46:dd:1d:ca:b2:c8:1a:a6:66:13:92:ab:85:83:6c:d3"
+      }
+    },
+    "cert_index": 210662639,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x822/900",
+    "seen": 1787366318.625,
+    "submission_timestamp": 1779761742.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

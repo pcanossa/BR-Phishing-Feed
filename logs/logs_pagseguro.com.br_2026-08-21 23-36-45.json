@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/21/26 23:36:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.com.br",
+        "aggregated": "/CN=pagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "01AD7DCCC54F0018037D8F8855204597",
+      "not_before": 1780617600,
+      "not_after": 1797724799,
+      "fingerprint": "47:84:1A:AB:5D:0F:81:E0:DF:82:A8:DB:7D:CF:6F:29:41:C3:94:C9",
+      "sha1": "47:84:1A:AB:5D:0F:81:E0:DF:82:A8:DB:7D:CF:6F:29:41:C3:94:C9",
+      "sha256": "49:AB:1E:FB:D2:4D:44:41:54:F7:0F:90:7E:42:C2:F2:96:B8:46:44:DD:E4:97:F5:93:73:D7:93:3C:71:E1:A3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.com.br",
+        "www.pagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguro.com.br, DNS:www.pagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:7e:36:15:e1:2e:7a:cd:34:cf:0e:ff:77:f8:84:a5:bf:bd:29:46:d6"
+      }
+    },
+    "cert_index": 54779590,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x213/982",
+    "seen": 1787366205.385,
+    "submission_timestamp": 1780653141.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

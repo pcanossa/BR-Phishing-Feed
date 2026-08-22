@@ -1,0 +1,52 @@
+{
+  "dominio": "caixaelo-staging.appgas.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/21/26 23:52:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.caixaelo-staging.appgas.com",
+        "aggregated": "/CN=*.caixaelo-staging.appgas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "081E80594ED04466954C2F873B3C4E6B",
+      "not_before": 1781740800,
+      "not_after": 1798847999,
+      "fingerprint": "7A:80:1B:18:EA:9B:41:04:F8:22:D7:41:9B:E7:32:10:65:A5:CE:CC",
+      "sha1": "7A:80:1B:18:EA:9B:41:04:F8:22:D7:41:9B:E7:32:10:65:A5:CE:CC",
+      "sha256": "5D:47:4C:3B:05:79:85:E5:A9:17:69:F8:1D:84:5F:54:71:4E:B0:5D:A3:9C:25:09:A8:6F:B6:FA:E7:DA:23:8B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.caixaelo-staging.appgas.com",
+        "caixaelo-staging.appgas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.caixaelo-staging.appgas.com, DNS:caixaelo-staging.appgas.com",
+        "subjectKeyIdentifier": "keyid:ba:13:5c:56:3b:99:98:a9:f6:c1:7d:44:7f:79:bf:97:eb:cc:ec:51"
+      }
+    },
+    "cert_index": 55590233,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=55590233&end=55590233",
+    "seen": 1787367175.881,
+    "submission_timestamp": 1781789786.715,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}
