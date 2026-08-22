@@ -1,0 +1,51 @@
+{
+  "dominio": "itau.corretor.jnsseguros.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 04:33:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.itau.corretor.jnsseguros.com.br",
+        "aggregated": "/CN=*.itau.corretor.jnsseguros.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "05D2CD00FDA2FB51DB239E2ACE051F6A",
+      "not_before": 1780790400,
+      "not_after": 1797897599,
+      "fingerprint": "A6:05:15:CF:D5:83:3E:5F:7F:F7:6A:A7:1E:E0:FB:C8:06:9C:53:A2",
+      "sha1": "A6:05:15:CF:D5:83:3E:5F:7F:F7:6A:A7:1E:E0:FB:C8:06:9C:53:A2",
+      "sha256": "84:50:FF:1D:DD:C8:B2:BD:4C:64:DB:D0:97:CD:0D:84:42:F6:70:FD:E8:E7:4D:AF:69:C0:BE:34:5E:10:5E:82",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.itau.corretor.jnsseguros.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.itau.corretor.jnsseguros.com.br",
+        "subjectKeyIdentifier": "keyid:c4:7e:76:6d:22:bc:60:74:49:a2:21:73:1d:5a:ab:42:62:2a:66:8b"
+      }
+    },
+    "cert_index": 56432654,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x220/440",
+    "seen": 1787384007.241,
+    "submission_timestamp": 1780800960.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

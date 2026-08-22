@@ -1,0 +1,51 @@
+{
+  "dominio": "webhooks.debitopago.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 04:55:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "webhooks.debitopago.com.br",
+        "aggregated": "/CN=webhooks.debitopago.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0F241F493C6E13A65B6A4CC9CEE1559C",
+      "not_before": 1779753600,
+      "not_after": 1796860799,
+      "fingerprint": "F9:88:9C:AF:D5:17:93:F8:D3:84:CA:0A:59:19:52:FC:F4:86:54:83",
+      "sha1": "F9:88:9C:AF:D5:17:93:F8:D3:84:CA:0A:59:19:52:FC:F4:86:54:83",
+      "sha256": "D2:67:BE:3F:F6:8B:8B:FC:34:79:DB:B2:F5:A2:4D:59:A1:F1:CD:32:42:D0:9B:46:61:F9:55:DC:84:5B:EC:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "webhooks.debitopago.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:webhooks.debitopago.com.br",
+        "subjectKeyIdentifier": "keyid:14:df:ae:e0:b3:30:0b:35:81:5b:87:c9:ab:c1:18:94:3d:92:37:ab"
+      }
+    },
+    "cert_index": 212355058,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x829/511",
+    "seen": 1787385323.737,
+    "submission_timestamp": 1779815653.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

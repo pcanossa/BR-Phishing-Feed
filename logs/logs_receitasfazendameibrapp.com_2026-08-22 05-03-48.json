@@ -1,0 +1,53 @@
+{
+  "dominio": "receitasfazendameibrapp.com",
+  "marcas_encontradas": [
+    "receita",
+    "fazenda"
+  ],
+  "timestamp": "08/22/26 05:03:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitasfazendameibrapp.com",
+        "aggregated": "/CN=receitasfazendameibrapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "1FC0EB9A1209AA6BDE09C456D00C9750",
+      "not_before": 1779368514,
+      "not_after": 1787144875,
+      "fingerprint": "A3:C2:9F:B2:5D:01:42:C2:96:09:1F:DD:B4:66:C6:95:48:65:1C:C9",
+      "sha1": "A3:C2:9F:B2:5D:01:42:C2:96:09:1F:DD:B4:66:C6:95:48:65:1C:C9",
+      "sha256": "8B:2E:78:FA:6F:62:D5:73:03:BC:10:31:E3:FD:35:C2:0A:7B:E1:98:06:D1:2E:57:52:A4:5A:38:C0:31:B7:03",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitasfazendameibrapp.com",
+        "*.receitasfazendameibrapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitasfazendameibrapp.com, DNS:*.receitasfazendameibrapp.com",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4370026016,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4370026016&end=4370026016",
+    "seen": 1787385829.729,
+    "submission_timestamp": 1779369115.621,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

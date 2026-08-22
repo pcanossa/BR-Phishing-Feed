@@ -1,0 +1,53 @@
+{
+  "dominio": "receitasfazendameibrapp.com",
+  "marcas_encontradas": [
+    "receita",
+    "fazenda"
+  ],
+  "timestamp": "08/22/26 04:57:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitasfazendameibrapp.com",
+        "aggregated": "/CN=receitasfazendameibrapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0672C5261B80B319509309ED10F4CDE8C73B",
+      "not_before": 1779365441,
+      "not_after": 1787141440,
+      "fingerprint": "CA:1E:0E:E1:1D:A1:D6:BD:5D:E3:54:6C:C6:2C:B1:E1:7A:82:DC:08",
+      "sha1": "CA:1E:0E:E1:1D:A1:D6:BD:5D:E3:54:6C:C6:2C:B1:E1:7A:82:DC:08",
+      "sha256": "4B:AC:3D:4C:6E:61:59:08:96:97:00:CF:27:BA:17:80:64:23:79:D9:31:58:27:0E:C0:03:AD:58:8B:38:5F:B8",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "receitasfazendameibrapp.com",
+        "*.receitasfazendameibrapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.receitasfazendameibrapp.com, DNS:receitasfazendameibrapp.com",
+        "subjectKeyIdentifier": "keyid:32:b8:b7:87:0e:6d:20:8d:bc:e8:bf:ba:b3:9b:6d:da:b9:3e:1a:21"
+      }
+    },
+    "cert_index": 4369988514,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4369988514&end=4369988514",
+    "seen": 1787385431.44,
+    "submission_timestamp": 1779368953.912,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

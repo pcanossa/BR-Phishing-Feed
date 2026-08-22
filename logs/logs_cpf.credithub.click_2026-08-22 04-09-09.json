@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.credithub.click",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 04:09:09",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.credithub.click",
+        "aggregated": "/CN=cpf.credithub.click"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06B6BF9A12B654A4D08D8EC32936C0FA4008",
+      "not_before": 1779364271,
+      "not_after": 1787140270,
+      "fingerprint": "05:1C:41:78:61:D2:DB:30:FA:A4:1E:32:33:81:D3:FC:59:EE:7A:93",
+      "sha1": "05:1C:41:78:61:D2:DB:30:FA:A4:1E:32:33:81:D3:FC:59:EE:7A:93",
+      "sha256": "EB:2E:79:1B:A2:41:61:B6:D5:42:70:50:8F:80:43:74:73:8C:0D:7D:34:7C:D0:0D:F7:B6:E0:30:01:4D:90:C5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.credithub.click"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.credithub.click",
+        "subjectKeyIdentifier": "keyid:ed:a9:0f:74:3c:67:6b:33:38:bc:10:68:c7:40:0c:9c:8d:81:34:fd"
+      }
+    },
+    "cert_index": 4369711123,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4369711123&end=4369711123",
+    "seen": 1787382547.756,
+    "submission_timestamp": 1779367785.3,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
