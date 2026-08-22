@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.multiplo.j17bank.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/22/26 10:14:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.multiplo.j17bank.com.br",
+        "aggregated": "/CN=cartao.multiplo.j17bank.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A4AE2D16D500BA2D74051F4FC1ECBA7",
+      "not_before": 1780531200,
+      "not_after": 1797638399,
+      "fingerprint": "1E:E5:B6:6F:0B:E6:37:0C:68:30:F1:3C:F4:78:58:12:F0:94:AA:8D",
+      "sha1": "1E:E5:B6:6F:0B:E6:37:0C:68:30:F1:3C:F4:78:58:12:F0:94:AA:8D",
+      "sha256": "5A:00:97:0B:6D:36:8D:C6:6C:EB:65:72:B2:A5:4E:77:5C:1F:B5:23:92:89:EF:55:E4:EC:A2:62:0E:A6:9B:3A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.multiplo.j17bank.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.multiplo.j17bank.com.br",
+        "subjectKeyIdentifier": "keyid:88:52:90:96:15:ac:7b:ec:2c:b4:b2:b6:0f:77:0c:07:3e:83:4c:fc"
+      }
+    },
+    "cert_index": 58373372,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x228/020",
+    "seen": 1787404459.469,
+    "submission_timestamp": 1780971148.139,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

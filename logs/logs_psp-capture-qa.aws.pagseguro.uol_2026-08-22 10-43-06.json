@@ -1,0 +1,54 @@
+{
+  "dominio": "psp-capture-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 10:43:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "psp-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=psp-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "59AE0421B97267A41328C2F1ECBC775E",
+      "not_before": 1781043067,
+      "not_after": 1788822571,
+      "fingerprint": "1B:32:D0:87:56:40:F4:45:4A:0B:F3:93:D4:5B:96:5A:B4:18:43:BA",
+      "sha1": "1B:32:D0:87:56:40:F4:45:4A:0B:F3:93:D4:5B:96:5A:B4:18:43:BA",
+      "sha256": "12:DD:97:6E:82:7D:2B:59:E2:CA:0B:1D:29:90:DF:13:E1:7F:04:23:D8:55:E5:B5:68:1D:5E:51:0C:5A:2F:A7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "psp-qa.aws.pagseguro.uol",
+        "*.psp-capture-qa.aws.pagseguro.uol",
+        "psp-capture-qa.aws.pagseguro.uol",
+        "*.psp-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Wa4, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:psp-qa.aws.pagseguro.uol, DNS:*.psp-capture-qa.aws.pagseguro.uol, DNS:psp-capture-qa.aws.pagseguro.uol, DNS:*.psp-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:5c:e1:f8:fd:ca:0b:69:ad:2c:ec:45:24:a7:0d:bb:f2:f2:55:4b:b7"
+      }
+    },
+    "cert_index": 973482143,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x802/664",
+    "seen": 1787406185.607,
+    "submission_timestamp": 1787354803.323,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "netflix.openplayapp.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/22/26 10:31:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.netflix.openplayapp.com",
+        "aggregated": "/CN=*.netflix.openplayapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E386AB9442D94007E1EB1784E5399AE",
+      "not_before": 1780963200,
+      "not_after": 1798070399,
+      "fingerprint": "57:A1:15:50:48:42:DD:32:15:E0:5B:04:21:CD:6C:F0:9A:D7:02:AB",
+      "sha1": "57:A1:15:50:48:42:DD:32:15:E0:5B:04:21:CD:6C:F0:9A:D7:02:AB",
+      "sha256": "BE:FA:8A:A2:D8:F7:90:0A:ED:AC:9C:D6:E1:42:39:F0:CD:BF:42:2A:1D:D3:F8:E8:DD:1E:C1:87:5C:8A:8B:B2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.netflix.openplayapp.com",
+        "netflix.openplayapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.netflix.openplayapp.com, DNS:netflix.openplayapp.com",
+        "subjectKeyIdentifier": "keyid:ec:c3:a1:4e:63:7c:75:60:7d:06:68:a3:97:e3:30:e3:fd:61:24:c2"
+      }
+    },
+    "cert_index": 52359128,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x204/527",
+    "seen": 1787405519.149,
+    "submission_timestamp": 1780982990.627,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

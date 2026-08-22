@@ -1,0 +1,52 @@
+{
+  "dominio": "external.corp-platform-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 10:36:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.corp-platform-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=*.corp-platform-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "05B10952992FC3EED68EC9C72B9455C1",
+      "not_before": 1780963200,
+      "not_after": 1798070399,
+      "fingerprint": "82:87:82:32:32:23:90:87:53:59:26:0D:4A:F9:7E:63:C8:16:18:2B",
+      "sha1": "82:87:82:32:32:23:90:87:53:59:26:0D:4A:F9:7E:63:C8:16:18:2B",
+      "sha256": "4E:47:A1:E1:6C:C8:B5:1A:53:2F:CA:A7:93:95:CF:A3:DF:B5:F2:DA:9B:B7:2E:8E:FA:FD:B5:F6:3C:9D:53:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.corp-platform-qa.aws.pagseguro.uol",
+        "*.external.corp-platform-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.corp-platform-qa.aws.pagseguro.uol, DNS:*.external.corp-platform-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:da:f7:51:86:4a:4b:d4:4c:2b:ff:a1:7e:b1:0c:3f:fc:c0:e9:5e:7b"
+      }
+    },
+    "cert_index": 58496279,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x228/501",
+    "seen": 1787405760.61,
+    "submission_timestamp": 1780981760.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
