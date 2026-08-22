@@ -1,0 +1,51 @@
+{
+  "dominio": "aws-account-issuer-pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 18:03:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.aws-account-issuer-pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.aws-account-issuer-pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "013D16457C95069467BE01FF466B1DCF",
+      "not_before": 1779926400,
+      "not_after": 1797033599,
+      "fingerprint": "1B:4A:9B:BA:DF:33:0E:0E:39:B6:88:E0:C1:A1:91:76:DB:34:F9:C1",
+      "sha1": "1B:4A:9B:BA:DF:33:0E:0E:39:B6:88:E0:C1:A1:91:76:DB:34:F9:C1",
+      "sha256": "2E:79:93:71:E7:60:B0:97:A5:78:17:B2:88:2B:40:65:BC:57:C5:6D:F1:BB:4D:6D:C1:49:EB:63:5A:9B:16:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.aws-account-issuer-pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.aws-account-issuer-pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:5c:a6:15:e3:65:59:b7:50:03:50:9c:c7:32:92:84:4f:80:dc:cf:55"
+      }
+    },
+    "cert_index": 229952019,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x898/250",
+    "seen": 1787432588.179,
+    "submission_timestamp": 1779940836.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

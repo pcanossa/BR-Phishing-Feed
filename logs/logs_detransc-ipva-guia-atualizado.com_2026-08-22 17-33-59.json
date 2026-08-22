@@ -1,0 +1,53 @@
+{
+  "dominio": "detransc-ipva-guia-atualizado.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/22/26 17:33:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "detransc-ipva-guia-atualizado.com",
+        "aggregated": "/CN=detransc-ipva-guia-atualizado.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "061AF3778D6A7AF57CA5B62D2C897B3F8548",
+      "not_before": 1777976570,
+      "not_after": 1785752569,
+      "fingerprint": "C0:22:0B:C2:09:CE:D3:DD:30:4A:F5:75:33:97:0E:40:AE:4A:F0:78",
+      "sha1": "C0:22:0B:C2:09:CE:D3:DD:30:4A:F5:75:33:97:0E:40:AE:4A:F0:78",
+      "sha256": "3E:3D:2F:02:92:E2:9F:14:D7:E1:67:BA:88:2A:1E:3F:C5:A1:92:F5:C9:32:3F:C6:80:73:91:D8:04:35:41:B1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "detransc-ipva-guia-atualizado.com",
+        "*.detransc-ipva-guia-atualizado.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.detransc-ipva-guia-atualizado.com, DNS:detransc-ipva-guia-atualizado.com",
+        "subjectKeyIdentifier": "keyid:ec:0a:42:1f:7a:25:80:ba:14:a2:02:f7:ec:f7:5d:dd:0f:77:91:50",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 700001969,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=700001969&end=700001969",
+    "seen": 1787430839.347,
+    "submission_timestamp": 1777980080.513,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

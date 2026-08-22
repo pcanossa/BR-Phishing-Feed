@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-redis-valky-dev-an1.5sflls.apne1.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 17:10:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf-redis-valky-dev-an1.5sflls.apne1.cache.amazonaws.com",
+        "aggregated": "/CN=*.cpf-redis-valky-dev-an1.5sflls.apne1.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A8AFA5616EC3643952329B8ACAB79A0",
+      "not_before": 1782086400,
+      "not_after": 1799193599,
+      "fingerprint": "CC:B4:66:F7:EA:A8:10:07:80:6D:25:57:F7:AF:9D:BA:3F:E8:73:11",
+      "sha1": "CC:B4:66:F7:EA:A8:10:07:80:6D:25:57:F7:AF:9D:BA:3F:E8:73:11",
+      "sha256": "9E:F9:EE:33:5D:7F:BD:91:17:96:43:97:FE:12:66:30:B4:88:D6:3B:0D:3F:2A:F1:A9:60:E0:F9:22:EA:24:91",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-redis-valky-dev-an1.5sflls.apne1.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-redis-valky-dev-an1.5sflls.apne1.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:63:a5:09:39:a9:ef:6a:90:0b:65:53:30:ee:31:73:e0:dd:df:c3:14",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 62912558,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=62912558&end=62912558",
+    "seen": 1787429421.151,
+    "submission_timestamp": 1782086514.312,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.picpayvoices.com",
+  "marcas_encontradas": [
+    "picpay"
+  ],
+  "timestamp": "08/22/26 18:03:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.picpayvoices.com",
+        "aggregated": "/CN=*.app.picpayvoices.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A901CE3614ACB41276D600B5F00FBD2",
+      "not_before": 1779926400,
+      "not_after": 1797033599,
+      "fingerprint": "EA:7D:A5:E5:44:35:50:86:89:6A:05:C1:FF:5E:95:14:15:FC:DE:CF",
+      "sha1": "EA:7D:A5:E5:44:35:50:86:89:6A:05:C1:FF:5E:95:14:15:FC:DE:CF",
+      "sha256": "6E:28:71:F3:51:18:96:0D:AC:E0:30:06:0F:12:65:A2:DB:4E:6C:52:B0:70:CB:A9:16:AF:FC:BC:A1:B6:F9:9A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.picpayvoices.com",
+        "app.picpayvoices.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.picpayvoices.com, DNS:app.picpayvoices.com",
+        "subjectKeyIdentifier": "keyid:5e:7e:69:40:2a:5e:8b:fa:25:da:ea:64:fe:d4:12:26:49:8c:77:ac"
+      }
+    },
+    "cert_index": 229952522,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x898/252",
+    "seen": 1787432594.209,
+    "submission_timestamp": 1779940850.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
