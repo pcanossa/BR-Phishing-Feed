@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.ihrd.shop",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 19:15:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.ihrd.shop",
+        "aggregated": "/CN=cpf.ihrd.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06877E92CDF83C2772431B7B15A65BFA4AC1",
+      "not_before": 1779387142,
+      "not_after": 1787163141,
+      "fingerprint": "4A:A0:45:AE:10:4A:8F:34:88:9C:BC:8B:AE:98:20:83:15:4B:35:32",
+      "sha1": "4A:A0:45:AE:10:4A:8F:34:88:9C:BC:8B:AE:98:20:83:15:4B:35:32",
+      "sha256": "77:CE:EE:17:6A:B9:9E:64:18:2D:5B:93:B6:E8:55:CC:1D:44:69:29:F8:EC:B7:77:72:54:55:C0:C2:6D:EC:97",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.ihrd.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.ihrd.shop",
+        "subjectKeyIdentifier": "keyid:f3:ee:0e:fc:74:df:81:dd:01:8e:ee:b4:c1:0d:22:86:fa:01:f1:0f"
+      }
+    },
+    "cert_index": 4375084115,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4375084115&end=4375084115",
+    "seen": 1787436917.422,
+    "submission_timestamp": 1779390653.603,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
