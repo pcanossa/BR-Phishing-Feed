@@ -1,0 +1,52 @@
+{
+  "dominio": "www.debitoor.xyz",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 15:00:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debitoor.xyz",
+        "aggregated": "/CN=www.debitoor.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "BC439C0F7B79A7B2",
+      "not_before": 1781900763,
+      "not_after": 1799007963,
+      "fingerprint": "3E:B1:9A:18:08:E4:7D:36:D9:98:CE:A7:A9:89:9A:9C:06:9D:CC:1A",
+      "sha1": "3E:B1:9A:18:08:E4:7D:36:D9:98:CE:A7:A9:89:9A:9C:06:9D:CC:1A",
+      "sha256": "5A:18:10:EB:FA:DA:51:A9:5C:9C:A6:E0:C2:02:98:33:56:64:10:23:17:12:2D:AC:06:32:4E:FA:43:DB:8A:69",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debitoor.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.debitoor.xyz",
+        "subjectKeyIdentifier": "keyid:5c:8a:44:69:19:73:ec:c1:da:4d:3b:19:8e:38:b7:9d:ee:dd:b7:c9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 86451123,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=86451123&end=86451123",
+    "seen": 1787421655.983,
+    "submission_timestamp": 1781900765.272,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

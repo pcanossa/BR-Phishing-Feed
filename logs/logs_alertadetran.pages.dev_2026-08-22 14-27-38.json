@@ -1,0 +1,52 @@
+{
+  "dominio": "alertadetran.pages.dev",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/22/26 14:27:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alertadetran.pages.dev",
+        "aggregated": "/CN=alertadetran.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "062AA7F28F3FB13B268212A15735C7F29C4E",
+      "not_before": 1778932059,
+      "not_after": 1786708058,
+      "fingerprint": "67:FA:B1:17:B1:5D:B3:B3:6C:69:A3:1B:82:AF:28:28:3E:D7:E4:58",
+      "sha1": "67:FA:B1:17:B1:5D:B3:B3:6C:69:A3:1B:82:AF:28:28:3E:D7:E4:58",
+      "sha256": "03:51:35:82:54:8B:CA:49:78:83:7C:85:03:93:58:2F:C6:2A:54:BC:C1:03:DE:45:E9:5F:11:87:52:89:76:27",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "alertadetran.pages.dev",
+        "*.alertadetran.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.alertadetran.pages.dev, DNS:alertadetran.pages.dev",
+        "subjectKeyIdentifier": "keyid:d1:12:aa:44:d6:6b:0d:db:fe:9b:ef:f6:69:28:21:ba:1c:39:f6:f8"
+      }
+    },
+    "cert_index": 4373356923,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4373356923&end=4373356923",
+    "seen": 1787419658.979,
+    "submission_timestamp": 1779383261.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
