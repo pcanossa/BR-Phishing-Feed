@@ -1,0 +1,51 @@
+{
+  "dominio": "www.vitauapp.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 01:23:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.vitauapp.com",
+        "aggregated": "/CN=www.vitauapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E31EE2B91EAC52D7",
+      "not_before": 1781778175,
+      "not_after": 1798885375,
+      "fingerprint": "0F:65:E4:F0:17:5E:DF:80:E6:2E:0E:02:9D:2E:5D:0D:7B:A3:AA:31",
+      "sha1": "0F:65:E4:F0:17:5E:DF:80:E6:2E:0E:02:9D:2E:5D:0D:7B:A3:AA:31",
+      "sha256": "BF:20:1E:EA:D6:6B:FD:9D:4B:BD:34:7E:1C:70:41:26:36:50:E6:7E:2B:7E:92:6A:D2:6B:FF:D3:3A:40:FD:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.vitauapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.vitauapp.com",
+        "subjectKeyIdentifier": "keyid:00:2e:79:55:86:dd:8f:56:5f:27:03:31:75:f3:63:1b:82:99:1f:89"
+      }
+    },
+    "cert_index": 81772098,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=81772098&end=81772098",
+    "seen": 1787372580.298,
+    "submission_timestamp": 1781778245.78,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
