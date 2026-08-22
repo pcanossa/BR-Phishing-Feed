@@ -1,0 +1,52 @@
+{
+  "dominio": "www.gurudeldebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 00:28:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.gurudeldebito.com",
+        "aggregated": "/CN=www.gurudeldebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B1BD4C7320ED66AF0E2ADE51E01CC4E4",
+      "not_before": 1779358782,
+      "not_after": 1787138375,
+      "fingerprint": "8D:A7:2C:70:76:44:44:1F:E8:AE:E5:40:1D:93:D3:27:80:F7:DF:2F",
+      "sha1": "8D:A7:2C:70:76:44:44:1F:E8:AE:E5:40:1D:93:D3:27:80:F7:DF:2F",
+      "sha256": "A9:7B:5F:75:EB:61:16:50:C8:E6:07:A6:37:3E:18:3D:A4:99:7D:DB:D6:E3:3D:1D:2A:D6:BD:20:13:3C:68:E6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "www.gurudeldebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/sb0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.gurudeldebito.com",
+        "subjectKeyIdentifier": "keyid:33:ed:f1:cf:0e:d7:b7:c1:1c:a0:c8:63:c8:a0:6b:75:29:ae:5f:0b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4368461300,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4368461300&end=4368461300",
+    "seen": 1787369324.752,
+    "submission_timestamp": 1779362383.23,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

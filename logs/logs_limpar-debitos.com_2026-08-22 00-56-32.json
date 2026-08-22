@@ -1,0 +1,53 @@
+{
+  "dominio": "limpar-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 00:56:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpar-debitos.com",
+        "aggregated": "/CN=limpar-debitos.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "3918C37B9FDA63C77ED74332DFE79B4D",
+      "not_before": 1779148800,
+      "not_after": 1786970635,
+      "fingerprint": "C8:77:CE:C6:71:88:D2:D1:8D:9A:49:F8:3A:E4:67:E2:54:C9:7A:5B",
+      "sha1": "C8:77:CE:C6:71:88:D2:D1:8D:9A:49:F8:3A:E4:67:E2:54:C9:7A:5B",
+      "sha256": "DF:0A:00:94:D0:16:70:BE:70:1B:9E:38:66:88:8C:B4:9B:7E:41:AB:44:1F:F3:41:8D:43:52:B3:90:EE:ED:3B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "limpar-debitos.com",
+        "*.limpar-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:limpar-debitos.com, DNS:*.limpar-debitos.com",
+        "subjectKeyIdentifier": "keyid:f4:fa:41:bc:f1:e7:9a:06:06:fb:99:16:12:33:0a:f6:8e:36:69:c9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 814191171,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=814191171&end=814191171",
+    "seen": 1787370992.143,
+    "submission_timestamp": 1779194799.164,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
