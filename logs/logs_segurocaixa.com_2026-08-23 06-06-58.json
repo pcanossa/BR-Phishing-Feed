@@ -1,0 +1,52 @@
+{
+  "dominio": "segurocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 06:06:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "segurocaixa.com",
+        "aggregated": "/CN=segurocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "285CA03BEB73C1D90E1A7654130F6969",
+      "not_before": 1780043312,
+      "not_after": 1787767628,
+      "fingerprint": "3D:5A:B3:B1:CD:A5:DC:B9:0C:05:D1:50:7F:EF:D8:83:C3:5B:C9:62",
+      "sha1": "3D:5A:B3:B1:CD:A5:DC:B9:0C:05:D1:50:7F:EF:D8:83:C3:5B:C9:62",
+      "sha256": "DC:A1:F7:43:2F:15:4C:E5:1B:60:34:5A:3F:25:89:99:C2:CB:23:77:52:FA:44:A3:F2:18:DA:F5:30:03:B9:12",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "segurocaixa.com",
+        "*.segurocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/KFw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:segurocaixa.com, DNS:*.segurocaixa.com",
+        "subjectKeyIdentifier": "keyid:c7:29:bd:73:a4:5e:94:cc:dc:07:0f:81:a3:4c:89:30:65:58:16:99"
+      }
+    },
+    "cert_index": 356541110,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x392/738",
+    "seen": 1787476016.041,
+    "submission_timestamp": 1780047091.929,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

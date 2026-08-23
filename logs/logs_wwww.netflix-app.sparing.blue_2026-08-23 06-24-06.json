@@ -1,0 +1,52 @@
+{
+  "dominio": "wwww.netflix-app.sparing.blue",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 06:24:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-app.sparing.blue",
+        "aggregated": "/CN=netflix-app.sparing.blue"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05EBBA336BBD8BEF79428C36BA993EF0F920",
+      "not_before": 1780120632,
+      "not_after": 1787896631,
+      "fingerprint": "09:2B:8A:58:EA:42:6F:2B:4E:F6:BA:F8:E7:8D:A0:8F:2E:94:73:F3",
+      "sha1": "09:2B:8A:58:EA:42:6F:2B:4E:F6:BA:F8:E7:8D:A0:8F:2E:94:73:F3",
+      "sha256": "94:CA:91:15:DA:76:80:B4:43:E7:00:EC:FD:05:A1:33:3A:A9:D4:CC:0F:FE:3A:5C:F5:C0:5D:47:57:0A:3A:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-app.sparing.blue",
+        "wwww.netflix-app.sparing.blue"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:netflix-app.sparing.blue, DNS:wwww.netflix-app.sparing.blue",
+        "subjectKeyIdentifier": "keyid:da:5f:d1:51:7b:5c:00:a4:39:92:bb:e3:88:5a:51:b8:7a:ee:bb:5d"
+      }
+    },
+    "cert_index": 236034344,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x922/009",
+    "seen": 1787477043.296,
+    "submission_timestamp": 1780124143.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

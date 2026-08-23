@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.shinytap.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/23/26 06:23:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.shinytap.com",
+        "aggregated": "/CN=cartao.shinytap.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06D350E3D2283E4E6C53BE0BBC1CBB846171",
+      "not_before": 1779406062,
+      "not_after": 1787182061,
+      "fingerprint": "D0:4D:DA:CD:BA:0A:B4:6F:67:90:DE:46:35:66:43:82:19:F2:09:C6",
+      "sha1": "D0:4D:DA:CD:BA:0A:B4:6F:67:90:DE:46:35:66:43:82:19:F2:09:C6",
+      "sha256": "15:70:A9:08:BF:B0:FB:93:E5:88:86:86:8B:16:06:A2:95:A9:DF:66:F7:C2:25:97:A3:04:06:92:5D:DD:7C:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.shinytap.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.shinytap.com",
+        "subjectKeyIdentifier": "keyid:fc:ae:bf:49:b0:c1:22:6c:45:69:56:05:58:7b:1a:88:4c:87:bb:b3"
+      }
+    },
+    "cert_index": 4379458526,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4379458526&end=4379458526",
+    "seen": 1787477000.548,
+    "submission_timestamp": 1779409575.535,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
