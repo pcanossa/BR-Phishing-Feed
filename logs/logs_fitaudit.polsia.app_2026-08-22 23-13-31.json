@@ -1,0 +1,51 @@
+{
+  "dominio": "fitaudit.polsia.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 23:13:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fitaudit.polsia.app",
+        "aggregated": "/CN=fitaudit.polsia.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "91008EC731DDB1C60E02B5246D08F003",
+      "not_before": 1778861160,
+      "not_after": 1786640758,
+      "fingerprint": "00:26:C0:38:7C:A3:04:01:8D:2F:1F:00:B5:DB:28:23:1C:DD:94:42",
+      "sha1": "00:26:C0:38:7C:A3:04:01:8D:2F:1F:00:B5:DB:28:23:1C:DD:94:42",
+      "sha256": "E8:AB:9B:16:F5:7C:52:A9:01:41:DB:D9:83:28:4C:D5:DF:9A:59:99:06:F0:2C:92:A7:EA:EF:03:BA:55:5C:DD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "fitaudit.polsia.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/kQA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:fitaudit.polsia.app",
+        "subjectKeyIdentifier": "keyid:89:92:3d:c6:11:cd:c6:76:94:c2:4d:f5:00:ae:1c:2a:1d:9c:1f:ee"
+      }
+    },
+    "cert_index": 820158443,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=820158443&end=820158443",
+    "seen": 1787451209.072,
+    "submission_timestamp": 1779230381.433,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

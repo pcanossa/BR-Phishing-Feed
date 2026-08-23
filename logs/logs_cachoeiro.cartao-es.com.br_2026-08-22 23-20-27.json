@@ -1,0 +1,51 @@
+{
+  "dominio": "cachoeiro.cartao-es.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/22/26 23:20:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cachoeiro.cartao-es.com.br",
+        "aggregated": "/CN=cachoeiro.cartao-es.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "053711E409491F9704ACE07B08E098007764",
+      "not_before": 1779393808,
+      "not_after": 1787169807,
+      "fingerprint": "BD:ED:D1:5B:73:C2:B5:1C:70:CF:23:01:96:91:CA:B9:35:43:F4:AE",
+      "sha1": "BD:ED:D1:5B:73:C2:B5:1C:70:CF:23:01:96:91:CA:B9:35:43:F4:AE",
+      "sha256": "66:CC:82:81:73:7F:66:D2:A8:2D:8B:9F:86:AF:32:23:68:5D:FB:42:BD:D4:F8:C9:F7:8D:5E:B7:EA:73:43:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cachoeiro.cartao-es.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cachoeiro.cartao-es.com.br",
+        "subjectKeyIdentifier": "keyid:34:7f:7e:a9:d3:61:15:20:ed:90:38:c0:e9:2d:73:cb:4e:3b:75:12"
+      }
+    },
+    "cert_index": 4376588278,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4376588278&end=4376588278",
+    "seen": 1787451626.176,
+    "submission_timestamp": 1779397323.986,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

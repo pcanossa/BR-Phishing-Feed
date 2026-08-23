@@ -1,0 +1,52 @@
+{
+  "dominio": "studio--oi-buni-ym085.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/22/26 23:37:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--oi-buni-ym085.us-central1.hosted.app",
+        "aggregated": "/CN=studio--oi-buni-ym085.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "9B6A75EEE2FADEA1097FED48F50055BC",
+      "not_before": 1778761548,
+      "not_after": 1786540904,
+      "fingerprint": "33:60:88:C1:1E:64:FC:94:46:9C:7A:0E:6E:32:E4:CC:AF:06:10:0C",
+      "sha1": "33:60:88:C1:1E:64:FC:94:46:9C:7A:0E:6E:32:E4:CC:AF:06:10:0C",
+      "sha256": "F4:97:51:9B:C3:FE:AC:3D:25:D3:F0:44:0D:B2:6B:AE:5C:F2:E9:B3:08:98:5C:33:26:25:A8:CA:75:AB:F6:B0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--oi-buni-ym085.us-central1.hosted.app",
+        "*.studio--oi-buni-ym085.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/m2o, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--oi-buni-ym085.us-central1.hosted.app, DNS:*.studio--oi-buni-ym085.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:a9:f3:8a:34:b0:0f:74:03:5f:6c:1e:61:76:64:a0:7b:19:7b:ae:3c"
+      }
+    },
+    "cert_index": 4376715435,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4376715435&end=4376715435",
+    "seen": 1787452617.142,
+    "submission_timestamp": 1779397880.147,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

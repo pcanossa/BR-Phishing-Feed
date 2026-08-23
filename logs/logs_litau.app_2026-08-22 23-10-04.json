@@ -1,0 +1,52 @@
+{
+  "dominio": "litau.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 23:10:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "litau.app",
+        "aggregated": "/CN=litau.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "057FE3FA694B1FCB75DD5BFD83F1C84890B6",
+      "not_before": 1778678433,
+      "not_after": 1786454432,
+      "fingerprint": "31:04:A5:11:1A:80:DD:04:C4:1B:04:27:38:89:ED:28:A6:F2:91:C3",
+      "sha1": "31:04:A5:11:1A:80:DD:04:C4:1B:04:27:38:89:ED:28:A6:F2:91:C3",
+      "sha256": "EE:81:4B:A8:33:AE:57:47:32:30:C3:B3:73:50:8C:EF:C1:84:48:A6:19:44:16:07:A3:E0:8C:FF:1A:F9:1C:73",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "litau.app",
+        "*.litau.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.litau.app, DNS:litau.app",
+        "subjectKeyIdentifier": "keyid:e1:4f:08:59:a6:a4:65:de:9e:9a:1e:94:27:2b:50:60:99:a0:bf:ee"
+      }
+    },
+    "cert_index": 652566684,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=652566684&end=652566684",
+    "seen": 1787451003.147,
+    "submission_timestamp": 1778681952.515,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

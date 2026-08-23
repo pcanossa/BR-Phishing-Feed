@@ -1,0 +1,51 @@
+{
+  "dominio": "app.summitautomates.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/22/26 23:56:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.summitautomates.com",
+        "aggregated": "/CN=app.summitautomates.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "061FFD920AD5A8B91B4A8A90A6230A57A851",
+      "not_before": 1779395004,
+      "not_after": 1787171003,
+      "fingerprint": "5F:B3:21:23:F6:13:74:7F:B2:E3:78:89:1A:19:BF:0D:C3:6C:6A:FD",
+      "sha1": "5F:B3:21:23:F6:13:74:7F:B2:E3:78:89:1A:19:BF:0D:C3:6C:6A:FD",
+      "sha256": "75:9E:CA:0D:76:E6:11:07:01:AF:B3:6C:D8:19:C3:72:31:17:E9:6E:44:F7:27:CC:4F:26:7B:CC:4F:89:E7:BB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.summitautomates.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.summitautomates.com",
+        "subjectKeyIdentifier": "keyid:e5:f5:96:a5:66:e1:23:90:66:f1:dc:f4:91:3c:bc:02:f4:1d:0c:28"
+      }
+    },
+    "cert_index": 4376864317,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4376864317&end=4376864317",
+    "seen": 1787453778.259,
+    "submission_timestamp": 1779398538.81,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
