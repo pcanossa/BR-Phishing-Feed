@@ -1,0 +1,53 @@
+{
+  "dominio": "www.cartao.enoiscard.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/23/26 11:15:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao.enoiscard.com.br",
+        "aggregated": "/CN=www.cartao.enoiscard.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0547FABC160B101F754486BDA59318A45C14",
+      "not_before": 1779414731,
+      "not_after": 1787190730,
+      "fingerprint": "E0:C9:32:5C:1E:43:14:2F:21:84:6B:13:6F:94:15:86:57:23:57:8A",
+      "sha1": "E0:C9:32:5C:1E:43:14:2F:21:84:6B:13:6F:94:15:86:57:23:57:8A",
+      "sha256": "21:8F:C4:66:63:D2:8E:CB:2F:CD:39:B3:B4:B5:91:90:06:5F:74:BA:2B:D4:FA:A4:16:E0:DB:3D:0D:D1:A2:78",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao.enoiscard.com.br",
+        "cartao.enoiscard.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.enoiscard.com.br, DNS:www.cartao.enoiscard.com.br",
+        "subjectKeyIdentifier": "keyid:33:cb:af:9c:54:da:13:0b:12:87:a4:14:5a:01:d7:ac:a8:9b:b0:6d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4381512128,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4381512128&end=4381512128",
+    "seen": 1787494511.08,
+    "submission_timestamp": 1779418241.176,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

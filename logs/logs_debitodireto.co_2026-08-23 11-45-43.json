@@ -1,0 +1,53 @@
+{
+  "dominio": "debitodireto.co",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 11:45:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitodireto.co",
+        "aggregated": "/CN=*.debitodireto.co"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "02CBBDD1AD36A5F39A220E54BA80AE98",
+      "not_before": 1785801600,
+      "not_after": 1802908799,
+      "fingerprint": "65:CC:44:A9:30:B0:2B:0F:17:CA:D7:E5:C8:1E:37:36:C8:F4:9C:F3",
+      "sha1": "65:CC:44:A9:30:B0:2B:0F:17:CA:D7:E5:C8:1E:37:36:C8:F4:9C:F3",
+      "sha256": "D1:EF:61:EB:E4:F2:79:A4:22:7B:FA:06:62:E9:F8:F4:87:66:3B:66:AD:9E:FF:07:C1:6D:CB:D4:12:E0:C8:10",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitodireto.co",
+        "debitodireto.co"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitodireto.co, DNS:debitodireto.co",
+        "subjectKeyIdentifier": "keyid:5c:b9:7c:a7:3a:e1:fd:9b:07:a6:c5:82:89:bf:ee:3d:3b:98:cc:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 41759979,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=41759979&end=41759979",
+    "seen": 1787496340.384,
+    "submission_timestamp": 1785847913.802,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

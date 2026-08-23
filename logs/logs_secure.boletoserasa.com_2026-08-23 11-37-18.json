@@ -1,0 +1,52 @@
+{
+  "dominio": "secure.boletoserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/23/26 11:37:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "secure.boletoserasa.com",
+        "aggregated": "/CN=secure.boletoserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "E149C2B18CEA6C573123FE483A2F61B9",
+      "not_before": 1779235200,
+      "not_after": 1787097599,
+      "fingerprint": "86:95:C0:4D:38:0C:52:50:8F:A9:5C:70:D6:96:AA:99:8B:9A:8F:73",
+      "sha1": "86:95:C0:4D:38:0C:52:50:8F:A9:5C:70:D6:96:AA:99:8B:9A:8F:73",
+      "sha256": "A5:7F:91:20:B1:DA:71:AC:E3:4E:56:68:47:2B:B3:72:EC:7B:70:10:9D:31:9F:2D:3B:61:1B:31:88:37:95:C8",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "secure.boletoserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:secure.boletoserasa.com",
+        "subjectKeyIdentifier": "keyid:dd:f3:ee:10:4e:ba:20:23:12:eb:dd:c7:a4:00:ef:aa:b0:ea:b6:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 825713371,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=825713371&end=825713371",
+    "seen": 1787495834.71,
+    "submission_timestamp": 1779265772.174,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

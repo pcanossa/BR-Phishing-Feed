@@ -1,0 +1,56 @@
+{
+  "dominio": "cne3-oi-ods-a.chinacloudapp.cn",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 11:39:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "CN",
+        "CN": "cne3-oi-ods.trafficmanager.cn",
+        "O": "Shanghai Blue Cloud Technology Co., Ltd.",
+        "ST": "Shanghai",
+        "aggregated": "/C=CN/CN=cne3-oi-ods.trafficmanager.cn/O=Shanghai Blue Cloud Technology Co., Ltd./ST=Shanghai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Basic OV G2 TLS CN RSA4096 SHA256 2022 CA1",
+        "O": "DigiCert, Inc.",
+        "aggregated": "/C=US/CN=DigiCert Basic OV G2 TLS CN RSA4096 SHA256 2022 CA1/O=DigiCert, Inc."
+      },
+      "serial_number": "08DD9972C5435DEAE81846E22EC400F1",
+      "not_before": 1780185600,
+      "not_after": 1795823999,
+      "fingerprint": "50:4F:F2:74:37:54:D2:B2:D2:C8:4C:6D:30:59:86:AF:50:25:AD:02",
+      "sha1": "50:4F:F2:74:37:54:D2:B2:D2:C8:4C:6D:30:59:86:AF:50:25:AD:02",
+      "sha256": "81:ED:37:A3:B4:FF:7C:10:34:0C:43:B1:4E:17:BC:69:B2:C0:39:88:19:D2:87:1C:7A:AB:E3:CE:40:76:0A:5E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cne3-oi-ods.trafficmanager.cn",
+        "cne3-oi-ods-a.chinacloudapp.cn",
+        "*.ods.opinsights.azure.cn"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.cn, URI:http://cacerts.digicert.cn/DigiCertBasicOVG2TLSCNRSA4096SHA2562022CA1.crt",
+        "authorityKeyIdentifier": "keyid:a9:48:cb:a8:d8:c2:27:8c:33:2f:da:66:ee:1b:dd:c0:c3:cb:07:43",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cne3-oi-ods.trafficmanager.cn, DNS:cne3-oi-ods-a.chinacloudapp.cn, DNS:*.ods.opinsights.azure.cn",
+        "subjectKeyIdentifier": "keyid:8f:04:c5:0d:eb:8c:d5:65:78:f6:72:b7:ac:d6:ab:b5:aa:b7:89:a1"
+      }
+    },
+    "cert_index": 224892902,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x878/487",
+    "seen": 1787495952.987,
+    "submission_timestamp": 1780225135.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
