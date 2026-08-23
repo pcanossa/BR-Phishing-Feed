@@ -1,0 +1,51 @@
+{
+  "dominio": "api.international.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 01:33:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.international.pagseguro.com",
+        "aggregated": "/CN=api.international.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0EEC813B243178ACE14773DA29636BF4",
+      "not_before": 1781568000,
+      "not_after": 1798675199,
+      "fingerprint": "05:64:70:70:87:0A:08:60:4F:C0:4B:0A:6D:36:EC:C8:CE:42:7E:EA",
+      "sha1": "05:64:70:70:87:0A:08:60:4F:C0:4B:0A:6D:36:EC:C8:CE:42:7E:EA",
+      "sha256": "7E:CA:A6:18:7C:00:76:90:99:FD:A2:FD:46:A8:7A:05:5F:E4:C9:4F:A7:C3:09:CE:10:EB:18:AA:31:DC:36:6C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.international.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.international.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:1c:71:6c:c7:ea:87:cf:a0:0b:8d:28:d4:a9:c5:ae:d1:4e:43:bc:5d"
+      }
+    },
+    "cert_index": 57903710,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x226/186",
+    "seen": 1787459612.31,
+    "submission_timestamp": 1781568886.626,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

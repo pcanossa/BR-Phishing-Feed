@@ -1,0 +1,13 @@
+{
+    "dominio": "89b1bikiduteweexahsi.c413shiareidohgaigoi.yfcowbetasantander.bimp-bot.duckdns.org",
+    "data_registro": "08/23/26 01:25:21",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Uso de provider de DNS dinâmico (duckdns.org), comumente utilizado por malware para comunicação C2",
+        "Subdomínios contendo strings aleatórias e longas, típico de algoritmos de geração de domínios (DGAs)",
+        "Presença da marca 'santander', instituição financeira brasileira, sugerindo tentativa de phishing ou direcionamento a vítimas do Brasil",
+        "Termo 'bimp-bot' no caminho, indicando possível relação com botnet",
+        "Domínio não encontrado em listas de domínios legítimos ou de reputação positiva"
+    ],
+    "analise_comportamental": "O domínio apresenta diversas indicações de uso malicioso, como dependência de serviço de DNS dinâmico, geração de subdomínios aleatórios e inclusão de marca brasileira (Santander) para enganar usuários. Esses fatores apontam para um provável canal de comando e controle (C2) voltado a vítimas no Brasil."
+}

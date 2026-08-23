@@ -1,0 +1,51 @@
+{
+  "dominio": "app-euw1-test.saiadaserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/23/26 01:43:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-euw1-test.saiadaserasa.com",
+        "aggregated": "/CN=app-euw1-test.saiadaserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "BB92FB9F606E1AB0C0179FBE8CCD632C",
+      "not_before": 1779840000,
+      "not_after": 1787702399,
+      "fingerprint": "55:45:ED:16:99:04:D5:DC:AA:02:E2:E6:3D:BB:A1:4A:80:19:D9:FB",
+      "sha1": "55:45:ED:16:99:04:D5:DC:AA:02:E2:E6:3D:BB:A1:4A:80:19:D9:FB",
+      "sha256": "BB:45:B5:91:DC:46:0E:94:EE:9E:FC:5A:25:D8:3D:3B:90:BA:DB:BE:EC:5C:0A:38:9B:29:D6:BF:C7:C4:6F:07",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-euw1-test.saiadaserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-euw1-test.saiadaserasa.com",
+        "subjectKeyIdentifier": "keyid:2d:85:ab:5c:f9:62:bd:32:c9:95:6c:54:98:ce:5a:42:b8:cd:b1:d0"
+      }
+    },
+    "cert_index": 233314182,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x911/383",
+    "seen": 1787460221.106,
+    "submission_timestamp": 1780039157.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

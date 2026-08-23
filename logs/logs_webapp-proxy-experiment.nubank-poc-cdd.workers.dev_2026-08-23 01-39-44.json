@@ -1,0 +1,53 @@
+{
+  "dominio": "webapp-proxy-experiment.nubank-poc-cdd.workers.dev",
+  "marcas_encontradas": [
+    "nubank"
+  ],
+  "timestamp": "08/23/26 01:39:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nubank-poc-cdd.workers.dev",
+        "aggregated": "/CN=nubank-poc-cdd.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8F807CFFE5F122DA0EE26803EFFD3A37",
+      "not_before": 1779397268,
+      "not_after": 1787176861,
+      "fingerprint": "74:B4:B2:CD:F4:C2:9D:98:AB:45:C9:29:3B:99:C0:49:B1:E0:20:7A",
+      "sha1": "74:B4:B2:CD:F4:C2:9D:98:AB:45:C9:29:3B:99:C0:49:B1:E0:20:7A",
+      "sha256": "E3:4D:90:0D:1A:43:10:5E:5E:37:0B:07:33:FC:70:4D:B6:48:A2:AB:CF:BD:06:7D:1E:42:62:FF:EE:FE:23:18",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "nubank-poc-cdd.workers.dev",
+        "*.webapp-proxy-experiment.nubank-poc-cdd.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/j4A, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:nubank-poc-cdd.workers.dev, DNS:*.webapp-proxy-experiment.nubank-poc-cdd.workers.dev",
+        "subjectKeyIdentifier": "keyid:44:3c:6e:7d:16:ea:16:31:58:c6:a1:65:26:62:dd:22:5f:f3:32:38",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4377378382,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4377378382&end=4377378382",
+    "seen": 1787459980.998,
+    "submission_timestamp": 1779400869.189,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "disponibilizar-pagamentos.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 01:34:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "disponibilizar-pagamentos.api.hom.itau.com",
+        "aggregated": "/CN=disponibilizar-pagamentos.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "07B9AFC3DA2154AC7FCA3B3C179AC483",
+      "not_before": 1781481600,
+      "not_after": 1798588799,
+      "fingerprint": "ED:F2:93:47:CF:6D:14:6E:66:3B:B5:E7:74:14:F7:FE:CA:EF:9B:3E",
+      "sha1": "ED:F2:93:47:CF:6D:14:6E:66:3B:B5:E7:74:14:F7:FE:CA:EF:9B:3E",
+      "sha256": "F5:03:48:1D:70:87:F0:47:8C:64:8F:FA:AF:F9:A9:A2:EC:73:0F:2F:8E:DB:CF:96:60:71:69:2B:5E:F7:04:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "disponibilizar-pagamentos.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:disponibilizar-pagamentos.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:d4:b0:84:1c:cd:20:86:9a:82:7f:e8:50:b1:f5:62:8e:bc:e2:f3:df"
+      }
+    },
+    "cert_index": 64284214,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x251/110",
+    "seen": 1787459664.321,
+    "submission_timestamp": 1781482560.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "dominio": "a995bikiduteweexahsi.wccheck-67c44786-b.santandertelephony-yfcowbeta.bimp-bot.duckdns.org",
+    "data_registro": "08/23/26 00:00:00",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Uso de domínio de serviço de DNS dinâmico (duckdns.org), frequentemente empregado por atores maliciosos para C2 devido à facilidade de atualização de IPs",
+        "Presença de marca conhecida no Brasil ('santander'), indicando tentativa de direcionamento a vítimas brasileiras",
+        "Subdomínio inclui termos como 'bimp-bot' e 'bot', sugerindo relação com botnet ou malware",
+        "Estrutura de subdomínio altamente aleatória (a995bikiduteweexahsi), típica de gerações automatizadas para evitar listas de bloqueio",
+        "Nome 'wccheck-67c44786-b' e 'santandertelephony-yfcowbeta' sugerem look‑alike de serviços legítimos de telecomunicação, possivelmente usado para enganar usuários"
+    ],
+    "analise_comportamental": "O domínio apresenta características típicas de infraestrutura de comando e controle (C2) utilizada por campanhas de malware direcionadas ao Brasil, combinando um serviço de DNS dinâmico com marca de instituição financeira local e indicadores de botnet, aumentando a probabilidade de ser usado para controle remoto de agentes maliciosos."
+}
