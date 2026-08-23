@@ -1,0 +1,53 @@
+{
+  "dominio": "debitosconsulta-pr.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 14:21:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitosconsulta-pr.sa.com",
+        "aggregated": "/CN=debitosconsulta-pr.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "AF6C7D363D775DB30ECA5818C18FCB16",
+      "not_before": 1778717940,
+      "not_after": 1786497446,
+      "fingerprint": "92:38:AE:99:5F:C7:54:E1:3A:B4:06:EF:7B:42:E0:CD:01:66:6C:F5",
+      "sha1": "92:38:AE:99:5F:C7:54:E1:3A:B4:06:EF:7B:42:E0:CD:01:66:6C:F5",
+      "sha256": "ED:D2:14:4C:4F:33:C7:47:50:16:18:3C:F3:05:B2:1B:1C:C0:93:92:A4:08:A9:08:B4:27:1F:B7:04:8B:82:3B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitosconsulta-pr.sa.com",
+        "*.debitosconsulta-pr.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/r2w, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitosconsulta-pr.sa.com, DNS:*.debitosconsulta-pr.sa.com",
+        "subjectKeyIdentifier": "keyid:8e:1b:b8:02:bc:5a:38:94:24:60:8d:62:23:4d:13:f3:84:f7:1e:f1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 657777069,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=657777069&end=657777069",
+    "seen": 1787505709.525,
+    "submission_timestamp": 1778721541.239,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

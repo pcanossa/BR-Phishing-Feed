@@ -1,0 +1,52 @@
+{
+  "dominio": "newtapprovalbot-amyzhao.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 15:01:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "newtapprovalbot-amyzhao.test.netflix.net",
+        "aggregated": "/CN=newtapprovalbot-amyzhao.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05713B6EE4EFDA1E4360070B4FDE2711B703",
+      "not_before": 1778720106,
+      "not_after": 1786496105,
+      "fingerprint": "EB:C2:95:F9:72:49:E9:D7:47:D4:2C:51:F0:A3:E2:BA:9F:EA:81:01",
+      "sha1": "EB:C2:95:F9:72:49:E9:D7:47:D4:2C:51:F0:A3:E2:BA:9F:EA:81:01",
+      "sha256": "90:A1:13:67:5D:91:1B:2C:F5:34:94:C0:89:11:49:79:F3:37:7E:37:4F:D9:08:CA:45:EF:8D:B1:9C:37:46:17",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "newtapprovalbot-amyzhao.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:newtapprovalbot-amyzhao.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:97:5d:20:4e:14:0c:65:06:ce:1e:f2:4a:0d:d8:09:20:1b:64:6e:00",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 658018065,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=658018065&end=658018065",
+    "seen": 1787508074.301,
+    "submission_timestamp": 1778723617.049,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

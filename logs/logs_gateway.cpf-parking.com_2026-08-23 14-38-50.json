@@ -1,0 +1,55 @@
+{
+  "dominio": "gateway.cpf-parking.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 14:38:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gateway.cpf-parking.com",
+        "aggregated": "/CN=gateway.cpf-parking.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "056BBC53485819442F118F53E5E273328801",
+      "not_before": 1787378563,
+      "not_after": 1795154562,
+      "fingerprint": "43:F4:6C:BC:88:CF:C3:C0:C6:70:20:A8:53:1F:7A:B4:3F:27:6F:34",
+      "sha1": "43:F4:6C:BC:88:CF:C3:C0:C6:70:20:A8:53:1F:7A:B4:3F:27:6F:34",
+      "sha256": "D5:FC:43:23:9D:B4:82:59:12:97:13:E8:B9:3C:F5:C2:72:9D:97:D5:B2:E4:63:0C:F6:9B:ED:AD:29:33:65:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gateway.cpf-parking.com",
+        "app.cpf-parking.com",
+        "carpark.systemcare.sg",
+        "kms.systemcare.sg",
+        "privacy.cpf-parking.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.cpf-parking.com, DNS:carpark.systemcare.sg, DNS:gateway.cpf-parking.com, DNS:kms.systemcare.sg, DNS:privacy.cpf-parking.com",
+        "subjectKeyIdentifier": "keyid:53:c4:51:99:bf:dc:2d:4e:b2:f8:22:71:94:cd:d3:21:68:c1:3f:a7"
+      }
+    },
+    "cert_index": 979749931,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x827/148",
+    "seen": 1787506726.596,
+    "submission_timestamp": 1787382075.101,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

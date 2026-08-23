@@ -1,0 +1,51 @@
+{
+  "dominio": "cockpit-seguranca.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 14:13:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cockpit-seguranca.api.itau.com",
+        "aggregated": "/CN=cockpit-seguranca.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "01433EF5CD83D15A3111BA92A2A757E4",
+      "not_before": 1787011200,
+      "not_after": 1804118399,
+      "fingerprint": "53:CB:0F:0F:7F:0B:E9:F8:45:E4:0A:AF:1C:7C:C3:2C:3E:AE:71:8B",
+      "sha1": "53:CB:0F:0F:7F:0B:E9:F8:45:E4:0A:AF:1C:7C:C3:2C:3E:AE:71:8B",
+      "sha256": "B6:13:81:68:08:39:01:15:7B:8E:36:6D:01:CE:31:C9:61:1A:10:78:E0:FD:E7:34:82:D5:06:DC:FE:69:CB:0A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cockpit-seguranca.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cockpit-seguranca.api.itau.com",
+        "subjectKeyIdentifier": "keyid:6a:b5:01:3c:50:16:02:d0:bf:25:6d:7f:03:03:5e:4d:6d:ad:06:b1"
+      }
+    },
+    "cert_index": 49945216,
+    "cert_link": "https://gouda2027h1.mon.ct.ipng.ch/tile/data/x195/098",
+    "seen": 1787505227.331,
+    "submission_timestamp": 1787081782.824,
+    "source": {
+      "name": "IPng Networks 'Gouda2027h1'",
+      "url": "https://gouda2027h1.mon.ct.ipng.ch"
+    }
+  }
+}

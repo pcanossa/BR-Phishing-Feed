@@ -1,0 +1,53 @@
+{
+  "dominio": "ftp.assodebitori.altervista.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 14:25:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "assodebitori.altervista.org",
+        "aggregated": "/CN=assodebitori.altervista.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0580E81E69693147F949BBC78E3E5969C069",
+      "not_before": 1778981751,
+      "not_after": 1786757750,
+      "fingerprint": "CB:1C:1D:EC:63:A5:59:94:42:DB:8D:85:25:D6:C4:41:C0:BB:AE:64",
+      "sha1": "CB:1C:1D:EC:63:A5:59:94:42:DB:8D:85:25:D6:C4:41:C0:BB:AE:64",
+      "sha256": "CB:45:EE:20:B3:C2:25:C6:D1:3E:E2:4D:B2:FE:04:2D:CD:B7:4F:60:31:16:67:28:6A:7E:37:FE:58:82:7D:FC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "assodebitori.altervista.org",
+        "ftp.assodebitori.altervista.org",
+        "www.assodebitori.altervista.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:assodebitori.altervista.org, DNS:ftp.assodebitori.altervista.org, DNS:www.assodebitori.altervista.org",
+        "subjectKeyIdentifier": "keyid:22:da:95:4e:f2:6e:d8:80:2a:83:ee:f3:0b:9c:ea:f6:fe:30:75:55"
+      }
+    },
+    "cert_index": 4382835168,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4382835168&end=4382835168",
+    "seen": 1787505952.737,
+    "submission_timestamp": 1779423853.725,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

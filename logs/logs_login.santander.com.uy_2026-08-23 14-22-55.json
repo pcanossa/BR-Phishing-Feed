@@ -1,0 +1,52 @@
+{
+  "dominio": "login.santander.com.uy",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/23/26 14:22:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.santander.com.uy",
+        "aggregated": "/CN=login.santander.com.uy"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "07FC2C172A87B4251258F0948ABA083D",
+      "not_before": 1780185600,
+      "not_after": 1796083199,
+      "fingerprint": "32:C1:B2:39:FF:88:DD:BC:62:02:0D:A0:24:87:D6:F0:5C:C1:5C:BE",
+      "sha1": "32:C1:B2:39:FF:88:DD:BC:62:02:0D:A0:24:87:D6:F0:5C:C1:5C:BE",
+      "sha256": "B5:2A:B6:D2:13:11:51:91:2C:B7:92:89:31:D8:67:53:DC:23:41:11:FA:7D:FD:A2:1A:DB:A3:AB:C9:00:54:7E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.santander.com.uy"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.santander.com.uy",
+        "subjectKeyIdentifier": "keyid:63:90:8d:75:97:0d:04:ad:fb:09:05:8c:cd:a6:fd:34:0b:3d:6c:cb"
+      }
+    },
+    "cert_index": 240163322,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x938/137",
+    "seen": 1787505772.122,
+    "submission_timestamp": 1780266757.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
