@@ -1,0 +1,51 @@
+{
+  "dominio": "sandbox.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 09:29:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sandbox.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.sandbox.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0189E6CC64C584A5E9A26DA275C90F73",
+      "not_before": 1785110400,
+      "not_after": 1802217599,
+      "fingerprint": "B9:AF:07:96:D6:FE:71:3E:CC:A5:BA:CF:FE:1C:65:31:73:57:C8:EB",
+      "sha1": "B9:AF:07:96:D6:FE:71:3E:CC:A5:BA:CF:FE:1C:65:31:73:57:C8:EB",
+      "sha256": "60:1A:94:16:87:5A:D1:ED:9F:BE:68:FB:B1:63:7B:40:97:E2:18:81:66:97:56:85:E4:E0:30:77:95:B5:FC:19",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sandbox.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sandbox.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:7f:6c:5d:2e:c6:5c:42:47:25:a0:4e:fc:f3:66:c5:0a:43:b6:99:ee"
+      }
+    },
+    "cert_index": 45577879,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x178/038",
+    "seen": 1787488147.178,
+    "submission_timestamp": 1785153727.106,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

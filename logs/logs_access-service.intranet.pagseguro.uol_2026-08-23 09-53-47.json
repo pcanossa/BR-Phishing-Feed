@@ -1,0 +1,52 @@
+{
+  "dominio": "access-service.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 09:53:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "access-service.intranet.pagseguro.uol",
+        "aggregated": "/CN=access-service.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "075911622F14B18965FB0B9757B2913B",
+      "not_before": 1780185600,
+      "not_after": 1797292799,
+      "fingerprint": "C9:14:45:16:87:1D:85:DD:56:73:5B:08:8E:EC:BA:89:9A:7E:02:98",
+      "sha1": "C9:14:45:16:87:1D:85:DD:56:73:5B:08:8E:EC:BA:89:9A:7E:02:98",
+      "sha256": "0A:FD:99:F9:AE:95:89:60:96:46:15:30:96:8A:56:02:2D:00:E9:2C:01:B3:A0:CB:51:C9:47:C4:17:47:1C:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "access-service.intranet.pagseguro.uol",
+        "www.access-service.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:access-service.intranet.pagseguro.uol, DNS:www.access-service.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:5c:d4:0d:f4:04:ca:78:a9:a0:8c:d5:a5:a4:48:3e:c8:fe:e5:a9:7e"
+      }
+    },
+    "cert_index": 237846800,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x929/089",
+    "seen": 1787489624.588,
+    "submission_timestamp": 1780186480.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app-vivo-zero-trust-staging.ju12bq.use1.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "08/23/26 09:58:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app-vivo-zero-trust-staging.ju12bq.use1.cache.amazonaws.com",
+        "aggregated": "/CN=*.app-vivo-zero-trust-staging.ju12bq.use1.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0974002AB90B38EC1AFA2EE270E8823A",
+      "not_before": 1785196800,
+      "not_after": 1802303999,
+      "fingerprint": "4B:88:EA:83:B2:38:A1:02:31:EF:E9:B5:60:CF:87:2C:0B:3A:9D:21",
+      "sha1": "4B:88:EA:83:B2:38:A1:02:31:EF:E9:B5:60:CF:87:2C:0B:3A:9D:21",
+      "sha256": "42:4D:02:28:6A:81:75:CD:58:A7:55:7A:78:AA:51:76:42:D3:85:3F:AD:A5:E9:ED:BE:09:CF:6F:3B:2A:F7:8C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app-vivo-zero-trust-staging.ju12bq.use1.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app-vivo-zero-trust-staging.ju12bq.use1.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:1b:4c:19:9f:d0:22:37:14:2b:6c:53:b8:a7:7c:2c:d8:ca:dd:55:97"
+      }
+    },
+    "cert_index": 45871334,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x179/184",
+    "seen": 1787489910.562,
+    "submission_timestamp": 1785261445.299,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

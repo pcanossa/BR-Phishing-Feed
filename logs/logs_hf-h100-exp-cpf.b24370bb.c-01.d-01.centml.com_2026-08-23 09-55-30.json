@@ -1,0 +1,52 @@
+{
+  "dominio": "hf-h100-exp-cpf.b24370bb.c-01.d-01.centml.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 09:55:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hf-h100-exp-cpf.b24370bb.c-01.d-01.centml.com",
+        "aggregated": "/CN=hf-h100-exp-cpf.b24370bb.c-01.d-01.centml.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "9B97BF2D96B29E2D0E01A4EAAAF59275",
+      "not_before": 1778963262,
+      "not_after": 1786739261,
+      "fingerprint": "D4:07:CE:EB:DC:1B:A1:E2:4A:3E:67:47:5A:8D:97:97:D0:2E:A9:2E",
+      "sha1": "D4:07:CE:EB:DC:1B:A1:E2:4A:3E:67:47:5A:8D:97:97:D0:2E:A9:2E",
+      "sha256": "81:E9:13:7D:25:E3:A4:75:46:05:74:01:6E:C6:BE:51:CD:01:CF:0C:02:E5:B4:1F:EF:7C:60:FE:CE:12:DF:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hf-h100-exp-cpf.b24370bb.c-01.d-01.centml.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/m5c, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hf-h100-exp-cpf.b24370bb.c-01.d-01.centml.com",
+        "subjectKeyIdentifier": "keyid:72:a2:69:e1:cd:dd:c4:7d:15:85:65:64:bf:d7:f9:fa:9f:ab:e5:0b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4380952972,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4380952972&end=4380952972",
+    "seen": 1787489727.213,
+    "submission_timestamp": 1779415877.534,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
