@@ -1,0 +1,51 @@
+{
+  "dominio": "myapps.santandercostumerusa.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/22/26 22:56:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "myapps.santandercostumerusa.com",
+        "aggregated": "/CN=myapps.santandercostumerusa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2EDF5533A6502A5B7ADDFCF41E49DDE1",
+      "not_before": 1779321600,
+      "not_after": 1787183999,
+      "fingerprint": "97:5E:23:74:6D:3C:90:CA:2B:87:5C:CF:C0:6C:6E:1F:A0:3F:A4:B3",
+      "sha1": "97:5E:23:74:6D:3C:90:CA:2B:87:5C:CF:C0:6C:6E:1F:A0:3F:A4:B3",
+      "sha256": "B3:9F:BC:A0:C9:33:EB:25:8A:A5:0C:0C:BF:62:2F:5E:18:F2:6D:21:9D:DB:E5:6F:B4:97:2D:82:20:F9:17:05",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "myapps.santandercostumerusa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:myapps.santandercostumerusa.com",
+        "subjectKeyIdentifier": "keyid:ff:9b:8f:38:b1:0b:6a:12:3e:ca:93:71:29:eb:f8:0c:0f:25:f9:cf"
+      }
+    },
+    "cert_index": 4376417834,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4376417834&end=4376417834",
+    "seen": 1787450190.261,
+    "submission_timestamp": 1779396516.69,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

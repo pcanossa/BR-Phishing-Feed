@@ -1,0 +1,52 @@
+{
+  "dominio": "emissao-sc-debitos.cfd",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/22/26 23:01:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "emissao-sc-debitos.cfd",
+        "aggregated": "/CN=emissao-sc-debitos.cfd"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0643FC862E60E24B18C99E27A60B0D999E95",
+      "not_before": 1780012869,
+      "not_after": 1787788868,
+      "fingerprint": "4F:99:D7:CE:D5:8F:AB:3C:47:5D:5F:EC:A0:E0:C0:29:00:2C:3C:C3",
+      "sha1": "4F:99:D7:CE:D5:8F:AB:3C:47:5D:5F:EC:A0:E0:C0:29:00:2C:3C:C3",
+      "sha256": "2E:4A:1D:F6:AF:96:F5:66:C0:BD:3E:D1:97:D7:18:3E:A8:FC:BA:3C:D3:64:47:88:A1:8F:07:81:CC:67:B5:36",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "emissao-sc-debitos.cfd",
+        "*.emissao-sc-debitos.cfd"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.emissao-sc-debitos.cfd, DNS:emissao-sc-debitos.cfd",
+        "subjectKeyIdentifier": "keyid:b4:d6:45:94:87:b8:68:da:b7:e3:f2:f0:43:10:f9:29:15:2f:70:da"
+      }
+    },
+    "cert_index": 218789428,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x854/646",
+    "seen": 1787450470.83,
+    "submission_timestamp": 1780016379.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

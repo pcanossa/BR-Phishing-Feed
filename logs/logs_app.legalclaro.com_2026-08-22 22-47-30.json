@@ -1,0 +1,52 @@
+{
+  "dominio": "app.legalclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/22/26 22:47:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.legalclaro.com",
+        "aggregated": "/CN=app.legalclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0AD6900C5CEF6005AB6783B0A2909770",
+      "not_before": 1779321600,
+      "not_after": 1787097599,
+      "fingerprint": "0F:5D:AE:61:DF:D4:9E:1F:5C:37:44:58:85:31:0D:98:AC:E4:C6:84",
+      "sha1": "0F:5D:AE:61:DF:D4:9E:1F:5C:37:44:58:85:31:0D:98:AC:E4:C6:84",
+      "sha256": "D3:A8:08:7A:2B:49:28:F6:08:2E:E5:C8:4B:0C:16:11:9A:0B:44:2C:26:C0:15:3E:9C:2C:1C:3F:26:A0:16:0F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.legalclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.legalclaro.com",
+        "subjectKeyIdentifier": "keyid:f7:9d:e0:d7:ff:0c:af:0d:12:1f:7b:d8:b7:6a:ee:52:d6:68:68:03"
+      }
+    },
+    "cert_index": 4376363595,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4376363595&end=4376363595",
+    "seen": 1787449647.839,
+    "submission_timestamp": 1779396255.078,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

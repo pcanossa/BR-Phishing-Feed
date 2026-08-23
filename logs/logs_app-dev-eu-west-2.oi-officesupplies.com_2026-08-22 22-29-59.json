@@ -1,0 +1,51 @@
+{
+  "dominio": "app-dev-eu-west-2.oi-officesupplies.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/22/26 22:29:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-dev-eu-west-2.oi-officesupplies.com",
+        "aggregated": "/CN=app-dev-eu-west-2.oi-officesupplies.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0DD068B6F1CB1588B3A30735046C0332",
+      "not_before": 1779840000,
+      "not_after": 1787702399,
+      "fingerprint": "11:86:B6:F7:F2:CD:32:9F:F0:0C:A1:37:91:57:CE:43:9F:C0:D6:5F",
+      "sha1": "11:86:B6:F7:F2:CD:32:9F:F0:0C:A1:37:91:57:CE:43:9F:C0:D6:5F",
+      "sha256": "81:77:3F:94:E6:41:09:1E:6D:63:DC:8F:94:48:15:AB:0A:EB:33:0D:2E:EC:7E:FE:A5:BA:6E:AF:39:5A:87:6B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-dev-eu-west-2.oi-officesupplies.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-dev-eu-west-2.oi-officesupplies.com",
+        "subjectKeyIdentifier": "keyid:f3:3e:59:01:a0:4a:fc:5e:4c:bd:51:b7:be:66:27:f9:a9:82:1b:22"
+      }
+    },
+    "cert_index": 231853732,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x905/678",
+    "seen": 1787448597.702,
+    "submission_timestamp": 1779996317.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
