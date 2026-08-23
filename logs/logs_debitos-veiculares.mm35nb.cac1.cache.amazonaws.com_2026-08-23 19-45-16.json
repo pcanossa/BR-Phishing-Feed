@@ -1,0 +1,51 @@
+{
+  "dominio": "debitos-veiculares.mm35nb.cac1.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 19:45:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitos-veiculares.mm35nb.cac1.cache.amazonaws.com",
+        "aggregated": "/CN=*.debitos-veiculares.mm35nb.cac1.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B2F79E112249B6CC9BE1DBBDDDA8BA7",
+      "not_before": 1780358400,
+      "not_after": 1797465599,
+      "fingerprint": "E5:83:0C:60:53:11:2C:68:2D:37:5C:10:6F:91:55:7C:2E:E6:BD:B4",
+      "sha1": "E5:83:0C:60:53:11:2C:68:2D:37:5C:10:6F:91:55:7C:2E:E6:BD:B4",
+      "sha256": "E1:A1:98:32:55:57:EA:68:A6:80:87:D6:04:A0:4A:70:BF:80:7C:BF:0F:2B:DB:BC:39:A5:D9:E9:86:8D:73:4F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitos-veiculares.mm35nb.cac1.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitos-veiculares.mm35nb.cac1.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:ee:30:e0:ea:71:95:ac:f8:6c:56:68:74:7d:9f:ad:98:8b:dd:8c:fa"
+      }
+    },
+    "cert_index": 242949186,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x949/020",
+    "seen": 1787525112.67,
+    "submission_timestamp": 1780358863.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

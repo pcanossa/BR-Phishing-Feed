@@ -1,0 +1,12 @@
+{
+    "dominio": "fd08bikiduteweexahsi.wccheck-e0584f94-ext.yfcowbetasantander.bimp-bot.duckdns.org",
+    "data_registro": "08/23/26 19:39:24",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio utiliza o serviço de DNS dinâmico DuckDNS, frequentemente empregado por atores maliciosos para C2 devido à facilidade de atualização de IPs",
+        "Subdomínio contém a marca 'santander', instituição financeira brasileira, indicando tentativa de engenharia social dirigida a usuários do Brasil",
+        "Presença de termos genéricos e aleatórios (fd08bikiduteweexahsi, wccheck-e0584f94-ext, bimp-bot) que são típicos de domínios gerados automaticamente para evitar listagens de reputação",
+        "Domínio não encontrado em listas de domínios legítimos ou whitelist de serviços confiáveis"
+    ],
+    "analise_comportamental": "O domínio apresenta múltiplos indicadores de uso malicioso direcionado ao Brasil: combina um serviço de DNS dinâmico (duckdns.org) com a marca de um banco brasileiro (Santander), sugerindo tentativa de phishing. A estrutura altamente aleatória e a ausência de presença em listas de confiança reforçam a suspeita de que o domínio seja usado para enganar usuários brasileiros e possivelmente para comunicação de comando e controle."
+}

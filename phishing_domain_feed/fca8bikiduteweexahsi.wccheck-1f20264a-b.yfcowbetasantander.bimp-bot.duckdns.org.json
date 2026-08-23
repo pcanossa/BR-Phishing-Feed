@@ -1,0 +1,12 @@
+{
+    "dominio": "fca8bikiduteweexahsi.wccheck-1f20264a-b.yfcowbetasantander.bimp-bot.duckdns.org",
+    "data_registro": "08/23/26 19:35:37",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Uso de serviço de DNS dinâmico gratuito (duckdns.org), comum em infraestrutura de C2 devido à facilidade de atualização de IPs",
+        "Subdomínios profundos e aleatórios (fca8bikiduteweexahsi, wccheck-1f20264a-b, yfcowbetasantander, bimp-bot) indicam tentativa de evitar listas de bloqueio e dificultar a correlação",
+        "Presença da marca 'santander' em um subdomínio, sugerindo tentativa de engenharia social direcionada a usuários brasileiros de banco Santander",
+        "Estrutura de subdomínio semelhante a padrões observados em campanhas de malware que utilizam domínios temporários para comunicação de C2"
+    ],
+    "analise_comportamental": "O domínio apresenta características típicas de um ponto de comando e controle (C2) usado por atores maliciosos que visam vítimas no Brasil. O uso de DuckDNS permite atualização rápida de endereços IP, e a inclusão de termos relacionados a marcas brasileiras (ex.: 'santander') pode ser empregada em campanhas de phishing ou para legitimar o tráfego. A combinação de DNS dinâmico, nomes aleatórios e referência a marca bancária indica alto risco de ser parte de infraestrutura maliciosa direcionada ao público brasileiro."
+}

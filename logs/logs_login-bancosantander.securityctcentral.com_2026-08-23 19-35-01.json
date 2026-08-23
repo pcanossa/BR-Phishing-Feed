@@ -1,0 +1,51 @@
+{
+  "dominio": "login-bancosantander.securityctcentral.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/23/26 19:35:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login-bancosantander.securityctcentral.com",
+        "aggregated": "/CN=login-bancosantander.securityctcentral.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1928FBD4856283784EBC08EE81B148AA",
+      "not_before": 1780185600,
+      "not_after": 1788047999,
+      "fingerprint": "6F:9F:8B:1C:F6:23:01:E9:94:89:64:C7:07:EE:9A:7E:A3:1D:B2:07",
+      "sha1": "6F:9F:8B:1C:F6:23:01:E9:94:89:64:C7:07:EE:9A:7E:A3:1D:B2:07",
+      "sha256": "E5:77:D7:5F:BC:0C:E2:47:65:F1:51:AA:CF:04:21:1E:6A:AD:FD:24:D9:87:D4:6A:79:FE:1D:31:5C:A7:63:C9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login-bancosantander.securityctcentral.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login-bancosantander.securityctcentral.com",
+        "subjectKeyIdentifier": "keyid:1e:52:10:ac:86:fa:fb:69:f2:30:66:ce:f2:6a:33:bb:88:94:09:93"
+      }
+    },
+    "cert_index": 364636599,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x424/361",
+    "seen": 1787524496.15,
+    "submission_timestamp": 1780229056.789,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

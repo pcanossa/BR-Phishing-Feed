@@ -1,0 +1,53 @@
+{
+  "dominio": "valida-cpf.mek-douglas.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 19:47:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mek-douglas.workers.dev",
+        "aggregated": "/CN=mek-douglas.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "3255E649B10A98AB0E05B47760A99C1B",
+      "not_before": 1779430333,
+      "not_after": 1787209777,
+      "fingerprint": "64:5D:F4:6D:7A:88:7E:4F:A0:12:03:D3:E7:4D:35:0F:D1:0C:1B:D3",
+      "sha1": "64:5D:F4:6D:7A:88:7E:4F:A0:12:03:D3:E7:4D:35:0F:D1:0C:1B:D3",
+      "sha256": "2B:A1:12:ED:CE:D0:2C:94:10:A7:B6:2A:DC:7D:B1:BC:91:1B:8B:5C:FA:77:B1:23:60:D3:2F:13:F3:E1:DD:84",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mek-douglas.workers.dev",
+        "*.valida-cpf.mek-douglas.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/MlU, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mek-douglas.workers.dev, DNS:*.valida-cpf.mek-douglas.workers.dev",
+        "subjectKeyIdentifier": "keyid:4c:83:61:85:aa:47:dd:b2:a2:0f:f6:38:fd:35:12:79:3c:88:a2:5d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4385087529,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4385087529&end=4385087529",
+    "seen": 1787525263.387,
+    "submission_timestamp": 1779433933.638,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

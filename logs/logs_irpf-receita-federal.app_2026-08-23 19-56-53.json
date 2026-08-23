@@ -1,0 +1,52 @@
+{
+  "dominio": "irpf-receita-federal.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/23/26 19:56:53",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.irpf-receita-federal.app",
+        "aggregated": "/CN=*.irpf-receita-federal.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06074D3308F7610C1F32D53771439B5A40FF",
+      "not_before": 1780357713,
+      "not_after": 1788133712,
+      "fingerprint": "ED:30:6D:76:3D:A0:C8:E4:5E:E7:D5:E1:6E:57:0A:C9:EF:76:30:F4",
+      "sha1": "ED:30:6D:76:3D:A0:C8:E4:5E:E7:D5:E1:6E:57:0A:C9:EF:76:30:F4",
+      "sha256": "52:E5:18:4B:E0:81:EC:E4:FF:90:78:6E:AF:56:5B:0A:95:D3:7C:73:ED:4B:4F:F0:EC:3B:6A:8E:EB:37:9D:2C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.irpf-receita-federal.app",
+        "irpf-receita-federal.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.irpf-receita-federal.app, DNS:irpf-receita-federal.app",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 243049247,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x949/411",
+    "seen": 1787525808.639,
+    "submission_timestamp": 1780361249.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dominio": "usbn1-oi-nor-b.usgovcloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 19:14:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "Nor-ServerSSL201802usbn1.opinsights.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "Washington",
+        "aggregated": "/C=US/CN=Nor-ServerSSL201802usbn1.opinsights.azure.com/L=Redmond/O=Microsoft Corporation/ST=Washington"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert SHA2 Secure Server CA",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert SHA2 Secure Server CA/O=DigiCert Inc"
+      },
+      "serial_number": "04734B93DC8213FAA05833EC7B96A3FE",
+      "not_before": 1782172800,
+      "not_after": 1799366399,
+      "fingerprint": "76:8E:34:46:97:47:86:0B:B3:61:12:69:C1:56:22:46:AF:DC:18:B8",
+      "sha1": "76:8E:34:46:97:47:86:0B:B3:61:12:69:C1:56:22:46:AF:DC:18:B8",
+      "sha256": "E5:93:A1:79:A9:13:C2:C9:5D:3D:FB:85:C4:65:7C:C7:AC:9C:3E:35:CB:87:2F:0D:5D:74:44:80:C9:3D:5F:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "Nor-ServerSSL201802usbn1.opinsights.azure.com",
+        "usbn1-oi-nor.usgovtrafficmanager.net",
+        "usbn1-oi-nor-a.usgovcloudapp.net",
+        "usbn1-oi-nor-b.usgovcloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA-2.crt",
+        "authorityKeyIdentifier": "keyid:0f:80:61:1c:82:31:61:d5:2f:28:e7:8d:46:38:b4:2c:e1:c6:d9:e2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:Nor-ServerSSL201802usbn1.opinsights.azure.com, DNS:usbn1-oi-nor.usgovtrafficmanager.net, DNS:usbn1-oi-nor-a.usgovcloudapp.net, DNS:usbn1-oi-nor-b.usgovcloudapp.net",
+        "subjectKeyIdentifier": "keyid:72:00:1e:56:28:62:22:1a:75:b2:8f:2d:74:5c:c2:bb:8b:4d:dd:b8"
+      }
+    },
+    "cert_index": 73839721,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x288/436",
+    "seen": 1787523249.974,
+    "submission_timestamp": 1782245201.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

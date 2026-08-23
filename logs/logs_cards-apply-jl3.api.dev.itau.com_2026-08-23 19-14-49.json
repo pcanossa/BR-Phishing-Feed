@@ -1,0 +1,52 @@
+{
+  "dominio": "cards-apply-jl3.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 19:14:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cards-apply-jl3.api.dev.itau.com",
+        "aggregated": "/CN=cards-apply-jl3.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0158E12EA2FCFC38C6136BDDA99B27E1",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "73:67:76:B7:FA:86:A3:6F:F3:47:A0:20:40:92:6F:79:FC:91:EF:83",
+      "sha1": "73:67:76:B7:FA:86:A3:6F:F3:47:A0:20:40:92:6F:79:FC:91:EF:83",
+      "sha256": "C8:AE:B8:D9:1C:00:87:81:28:46:0C:D9:C9:B9:E5:61:A0:24:49:50:80:4F:2A:10:D8:BB:57:9E:F1:B4:26:97",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cards-apply-jl3.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cards-apply-jl3.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:22:6b:c4:7d:d6:91:d5:ae:57:92:28:f7:a7:58:85:fe:3e:94:df:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 73620082,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=73620082&end=73620082",
+    "seen": 1787523285.667,
+    "submission_timestamp": 1782692226.804,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

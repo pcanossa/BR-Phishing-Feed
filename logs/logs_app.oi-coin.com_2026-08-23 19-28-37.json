@@ -1,0 +1,51 @@
+{
+  "dominio": "app.oi-coin.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 19:28:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi-coin.com",
+        "aggregated": "/CN=app.oi-coin.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "025725BDC61FBCA0B651E9834DD30A2F",
+      "not_before": 1782345600,
+      "not_after": 1799452799,
+      "fingerprint": "2B:A7:C4:1F:CC:84:87:E8:77:21:6A:28:43:EE:88:97:BD:A7:F1:83",
+      "sha1": "2B:A7:C4:1F:CC:84:87:E8:77:21:6A:28:43:EE:88:97:BD:A7:F1:83",
+      "sha256": "C2:D5:D5:15:54:8F:DF:0B:AE:6C:3E:EC:1C:BB:BB:3A:68:C2:AD:1E:DA:4B:FA:D6:AD:E3:6F:0B:50:49:EF:D3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi-coin.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.oi-coin.com",
+        "subjectKeyIdentifier": "keyid:2f:82:f4:b9:b8:b6:8b:c6:14:03:85:8b:eb:ef:f2:e0:5e:fc:b2:99"
+      }
+    },
+    "cert_index": 66980892,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x261/644",
+    "seen": 1787524114.581,
+    "submission_timestamp": 1782354590.965,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

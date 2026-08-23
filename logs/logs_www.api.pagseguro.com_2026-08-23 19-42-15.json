@@ -1,0 +1,54 @@
+{
+  "dominio": "www.api.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 19:42:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.pagseguro.com",
+        "aggregated": "/CN=api.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "RapidSSL TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=RapidSSL TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0F2E578AC06ED7CEE17C167E7803D978",
+      "not_before": 1785974400,
+      "not_after": 1803167999,
+      "fingerprint": "92:9A:B3:8A:F1:1B:93:39:3D:53:3F:4B:F4:05:97:59:8D:B8:E6:E9",
+      "sha1": "92:9A:B3:8A:F1:1B:93:39:3D:53:3F:4B:F4:05:97:59:8D:B8:E6:E9",
+      "sha256": "AE:28:AC:29:3F:66:CC:DE:B7:B3:9F:6A:36:A7:2B:20:8E:C2:F5:82:56:D3:3C:D6:97:43:30:52:13:04:7C:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.pagseguro.com",
+        "www.api.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.rapidssl.com, URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:0c:db:6c:82:49:0f:4a:67:0a:b8:14:ee:7a:c4:48:52:88:eb:56:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.pagseguro.com, DNS:www.api.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:fc:17:19:df:fd:b6:b1:a7:e6:f9:c2:da:1f:78:ee:46:ca:6a:1e:a8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 44585364,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=44585364&end=44585364",
+    "seen": 1787524932.306,
+    "submission_timestamp": 1786003981.583,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}
