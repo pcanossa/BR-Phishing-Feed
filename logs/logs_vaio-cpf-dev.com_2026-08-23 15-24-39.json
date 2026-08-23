@@ -1,0 +1,51 @@
+{
+  "dominio": "vaio-cpf-dev.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 15:24:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.vaio-cpf-dev.com",
+        "aggregated": "/CN=*.vaio-cpf-dev.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "014E47A8B2C406FFE577E2798ECC8755",
+      "not_before": 1787443200,
+      "not_after": 1804550399,
+      "fingerprint": "14:E8:EC:D6:E0:4D:A0:37:C2:C9:4F:3F:7D:7F:CA:C0:08:1B:2D:E3",
+      "sha1": "14:E8:EC:D6:E0:4D:A0:37:C2:C9:4F:3F:7D:7F:CA:C0:08:1B:2D:E3",
+      "sha256": "1A:00:80:63:05:5A:B2:D9:75:24:78:4E:DC:03:2B:FB:BB:F7:DE:FE:09:1B:6F:24:6E:10:FF:7E:2E:73:F6:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.vaio-cpf-dev.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.vaio-cpf-dev.com",
+        "subjectKeyIdentifier": "keyid:70:47:25:64:98:bc:4d:72:e0:d8:04:f8:8f:36:56:3c:30:4e:ed:45"
+      }
+    },
+    "cert_index": 25022667,
+    "cert_link": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/tile/data/x097/744",
+    "seen": 1787509475.758,
+    "submission_timestamp": 1787509468.157,
+    "source": {
+      "name": "Google 'ParcelYard2027h1' log",
+      "url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

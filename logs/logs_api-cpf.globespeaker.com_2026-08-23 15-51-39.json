@@ -1,0 +1,53 @@
+{
+  "dominio": "api-cpf.globespeaker.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 15:51:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.globespeaker.com",
+        "aggregated": "/CN=api.globespeaker.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "061B9E583AFE163C7BD4D7A50B1B4BE9193E",
+      "not_before": 1780296458,
+      "not_after": 1788072457,
+      "fingerprint": "A2:60:A7:F4:A6:66:A5:29:E2:5C:6F:BC:BD:5F:74:50:36:05:E8:E7",
+      "sha1": "A2:60:A7:F4:A6:66:A5:29:E2:5C:6F:BC:BD:5F:74:50:36:05:E8:E7",
+      "sha256": "68:30:7E:8D:3D:B5:E2:75:50:4C:C0:A4:A3:B8:EC:EE:75:69:01:B8:1A:3E:87:CA:11:24:31:9E:73:9D:AA:E3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.globespeaker.com",
+        "api-cpf.globespeaker.com",
+        "langues-cpf.globespeaker.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-cpf.globespeaker.com, DNS:api.globespeaker.com, DNS:langues-cpf.globespeaker.com",
+        "subjectKeyIdentifier": "keyid:4b:a3:07:df:63:2d:59:68:ad:c2:0c:37:88:a4:d0:9d:7d:31:93:17"
+      }
+    },
+    "cert_index": 226958635,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x886/557",
+    "seen": 1787511096.019,
+    "submission_timestamp": 1780299968.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

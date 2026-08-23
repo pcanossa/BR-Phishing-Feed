@@ -1,0 +1,52 @@
+{
+  "dominio": "caixaseguranca.lol",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 15:07:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixaseguranca.lol",
+        "aggregated": "/CN=caixaseguranca.lol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "7C97B30AE6CD6F73B02D067A66CEA324",
+      "not_before": 1778723392,
+      "not_after": 1786499903,
+      "fingerprint": "87:27:01:F8:76:2F:A8:7B:7D:DA:D0:06:28:5B:22:69:D2:93:30:56",
+      "sha1": "87:27:01:F8:76:2F:A8:7B:7D:DA:D0:06:28:5B:22:69:D2:93:30:56",
+      "sha256": "CD:D2:8B:1D:FF:5C:CC:62:77:00:72:1F:C2:A7:11:14:52:68:6B:F4:0C:27:3A:F0:22:EB:36:E5:06:4B:7A:B6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "caixaseguranca.lol",
+        "*.caixaseguranca.lol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:caixaseguranca.lol, DNS:*.caixaseguranca.lol",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 658058757,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=658058757&end=658058757",
+    "seen": 1787508466.109,
+    "submission_timestamp": 1778723994.099,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "prod.cpf-portal.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 15:33:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prod.cpf-portal.consumables.amazon.dev",
+        "aggregated": "/CN=prod.cpf-portal.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0801B9AC833E347FE2FB070B0C5ABC49",
+      "not_before": 1780272000,
+      "not_after": 1797379199,
+      "fingerprint": "34:E4:21:C5:47:21:8A:1F:DA:8C:AE:C7:3C:21:D9:6A:41:FF:74:A1",
+      "sha1": "34:E4:21:C5:47:21:8A:1F:DA:8C:AE:C7:3C:21:D9:6A:41:FF:74:A1",
+      "sha256": "45:A3:60:2B:50:53:97:DC:C0:F1:9F:16:F9:28:B7:E7:13:4E:3A:12:30:33:17:00:FD:61:05:81:31:32:A0:2F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "prod.cpf-portal.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:prod.cpf-portal.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:2f:1b:2d:67:5a:62:e5:86:9b:1e:93:52:47:f6:7a:bd:96:ea:11:46"
+      }
+    },
+    "cert_index": 240776504,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x940/533",
+    "seen": 1787510018.181,
+    "submission_timestamp": 1780285245.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

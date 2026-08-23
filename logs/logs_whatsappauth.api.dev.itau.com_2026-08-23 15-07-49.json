@@ -1,0 +1,52 @@
+{
+  "dominio": "whatsappauth.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 15:07:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "whatsappauth.api.dev.itau.com",
+        "aggregated": "/CN=whatsappauth.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B202D854EA2840A4F0CE36F7A10870A",
+      "not_before": 1781308800,
+      "not_after": 1798415999,
+      "fingerprint": "1B:E2:C5:0F:4A:2F:11:4D:0E:3E:AF:72:A2:01:F7:8A:E5:80:F9:2E",
+      "sha1": "1B:E2:C5:0F:4A:2F:11:4D:0E:3E:AF:72:A2:01:F7:8A:E5:80:F9:2E",
+      "sha256": "86:4F:49:DC:E3:BD:50:83:03:73:4A:A0:C1:00:B7:37:03:E0:5B:C9:42:F1:9D:0F:AD:F1:C6:C4:06:8D:01:4F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "whatsappauth.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:whatsappauth.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:fc:89:5d:08:58:d9:d2:7d:5a:84:3d:81:7f:75:a5:9c:77:38:26:7b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 29420576,
+    "cert_link": "https://hetu2027.trustasia.com/hetu2027/ct/v1/get-entries?start=29420576&end=29420576",
+    "seen": 1787508464.701,
+    "submission_timestamp": 1781309758.988,
+    "source": {
+      "name": "TrustAsia 'HETU2027'",
+      "url": "https://hetu2027.trustasia.com/hetu2027"
+    }
+  }
+}

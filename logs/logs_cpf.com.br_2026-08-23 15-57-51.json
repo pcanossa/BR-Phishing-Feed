@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 15:57:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.com.br",
+        "aggregated": "/CN=cpf.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "AE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=AE1/O=Google Trust Services"
+      },
+      "serial_number": "84590D9AD43A95630E89416F5060E69B",
+      "not_before": 1779422887,
+      "not_after": 1783314396,
+      "fingerprint": "A9:31:65:02:AF:02:A6:54:05:E7:06:FA:21:03:10:9B:F9:9D:E1:11",
+      "sha1": "A9:31:65:02:AF:02:A6:54:05:E7:06:FA:21:03:10:9B:F9:9D:E1:11",
+      "sha256": "69:17:16:3B:9F:B4:E8:85:23:0A:33:90:A1:B1:43:35:FA:C5:F0:C6:5E:CA:0A:BD:8F:BF:32:45:E1:40:F3:61",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.com.br",
+        "*.cpf.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/ae1/hFk, URI:http://i.pki.goog/ae1.crt",
+        "authorityKeyIdentifier": "keyid:48:89:60:f9:a3:7d:0c:ea:00:24:a2:dc:9f:07:ce:46:88:a8:32:3a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.com.br, DNS:*.cpf.com.br",
+        "subjectKeyIdentifier": "keyid:f7:59:4f:b1:4d:69:01:6b:c0:3c:bb:0c:68:cd:4b:c9:8f:d5:e4:ed",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4383477627,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4383477627&end=4383477627",
+    "seen": 1787511466.951,
+    "submission_timestamp": 1779426488.442,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

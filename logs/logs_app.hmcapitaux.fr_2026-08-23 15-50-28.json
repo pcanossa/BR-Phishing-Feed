@@ -1,0 +1,52 @@
+{
+  "dominio": "app.hmcapitaux.fr",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 15:50:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hmcapitaux.fr",
+        "aggregated": "/CN=hmcapitaux.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "C89B8D71BD96C436129C1B838C31ACA7",
+      "not_before": 1780102551,
+      "not_after": 1787882112,
+      "fingerprint": "CF:C6:2F:4B:AD:02:49:92:75:39:6E:04:46:64:DE:76:67:45:1A:8D",
+      "sha1": "CF:C6:2F:4B:AD:02:49:92:75:39:6E:04:46:64:DE:76:67:45:1A:8D",
+      "sha256": "7A:1E:17:8E:74:4E:06:9D:BA:88:8A:C6:13:BE:FD:9C:63:23:68:D2:CF:07:05:69:DC:1A:86:36:F6:61:CE:69",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hmcapitaux.fr",
+        "app.hmcapitaux.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/yJs, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hmcapitaux.fr, DNS:app.hmcapitaux.fr",
+        "subjectKeyIdentifier": "keyid:6c:70:24:41:c4:19:fd:4a:6f:1a:9b:d5:8f:a2:14:4e:26:21:10:c8"
+      }
+    },
+    "cert_index": 226949203,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x886/520",
+    "seen": 1787511023.955,
+    "submission_timestamp": 1780299644.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
