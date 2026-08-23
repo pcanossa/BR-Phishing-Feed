@@ -1,0 +1,52 @@
+{
+  "dominio": "www.caixapremios.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/22/26 20:13:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.caixapremios.com",
+        "aggregated": "/CN=www.caixapremios.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "23AF085DEB31142A",
+      "not_before": 1781951313,
+      "not_after": 1799058513,
+      "fingerprint": "8D:0C:57:7C:C2:7B:BF:2E:8F:E9:3B:E0:20:4D:7C:B1:6D:8A:DD:89",
+      "sha1": "8D:0C:57:7C:C2:7B:BF:2E:8F:E9:3B:E0:20:4D:7C:B1:6D:8A:DD:89",
+      "sha256": "F1:33:D4:CF:9C:B7:74:16:5E:74:A5:55:3A:7E:19:26:2A:EE:B4:AB:97:2E:45:17:97:9F:F3:98:DD:10:29:71",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.caixapremios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.caixapremios.com",
+        "subjectKeyIdentifier": "keyid:69:48:84:b0:95:6a:ae:1a:c3:4c:b9:c3:e8:e6:62:63:64:81:ae:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 88299097,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=88299097&end=88299097",
+    "seen": 1787440396.837,
+    "submission_timestamp": 1781951314.039,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

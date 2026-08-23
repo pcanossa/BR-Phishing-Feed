@@ -1,0 +1,52 @@
+{
+  "dominio": "bia-stg.betcaixa.bet.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/22/26 21:01:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "betcaixa.bet.br",
+        "aggregated": "/CN=betcaixa.bet.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "84F94DE9364F388813926A5899624DE2",
+      "not_before": 1777976925,
+      "not_after": 1785756522,
+      "fingerprint": "DE:E2:88:A0:42:64:F9:9A:3F:CA:1E:D8:09:24:7B:BE:5B:8D:ED:F3",
+      "sha1": "DE:E2:88:A0:42:64:F9:9A:3F:CA:1E:D8:09:24:7B:BE:5B:8D:ED:F3",
+      "sha256": "68:6F:A3:69:C0:92:0B:B6:39:A9:5C:D4:63:89:8D:09:ED:9A:E9:CC:08:FB:0E:C9:41:C7:6F:08:D7:8F:4C:DB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "betcaixa.bet.br",
+        "bia-stg.betcaixa.bet.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/hPk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:betcaixa.bet.br, DNS:bia-stg.betcaixa.bet.br",
+        "subjectKeyIdentifier": "keyid:e3:80:2e:4b:a8:04:79:97:1d:14:5c:60:5b:54:33:23:5c:5f:25:cf"
+      }
+    },
+    "cert_index": 700088098,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=700088098&end=700088098",
+    "seen": 1787443280.343,
+    "submission_timestamp": 1777980602.17,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

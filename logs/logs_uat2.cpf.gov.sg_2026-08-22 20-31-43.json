@@ -1,0 +1,52 @@
+{
+  "dominio": "uat2.cpf.gov.sg",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/22/26 20:31:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uat2.cpf.gov.sg",
+        "aggregated": "/CN=uat2.cpf.gov.sg"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "1DBE9268C86E206DEEB018EFD355BB25",
+      "not_before": 1781222400,
+      "not_after": 1798415999,
+      "fingerprint": "B8:53:67:89:37:6A:7C:32:77:42:D1:D7:F8:32:66:41:10:1A:33:2B",
+      "sha1": "B8:53:67:89:37:6A:7C:32:77:42:D1:D7:F8:32:66:41:10:1A:33:2B",
+      "sha256": "AF:41:4B:05:17:9C:70:01:8A:5D:B8:01:B3:53:9A:35:25:67:1B:A0:71:74:BB:50:53:08:05:11:30:9D:EB:9A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uat2.cpf.gov.sg",
+        "www.uat2.cpf.gov.sg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:uat2.cpf.gov.sg, DNS:www.uat2.cpf.gov.sg",
+        "subjectKeyIdentifier": "keyid:1e:3e:29:fa:55:da:f5:dd:d3:8b:cb:f3:0e:5e:0d:e7:fe:f6:91:a8"
+      }
+    },
+    "cert_index": 62016851,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x242/253",
+    "seen": 1787441502.338,
+    "submission_timestamp": 1781276735.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
