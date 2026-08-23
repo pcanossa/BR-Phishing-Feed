@@ -1,0 +1,50 @@
+{
+  "dominio": "fn23621-genesys-a3s-bradesco-seguros.sa-east-1.aws.privatelink.snowflake.com",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/22/26 21:17:51",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "aggregated": ""
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "0672FBA426346208AC1BCF40B53FFE980919",
+      "not_before": 1787362161,
+      "not_after": 1791250160,
+      "fingerprint": "16:4C:96:3D:C0:D0:67:03:89:BA:41:94:0A:2D:AB:A6:22:6A:BC:72",
+      "sha1": "16:4C:96:3D:C0:D0:67:03:89:BA:41:94:0A:2D:AB:A6:22:6A:BC:72",
+      "sha256": "7B:BF:43:EE:86:61:EF:FF:A7:DF:E9:F8:88:53:F3:E5:4B:D6:44:29:47:86:8E:9B:C0:00:CC:A1:17:CB:0C:4E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.fn23621-genesys-a3s-bradesco-seguros.sa-east-1.aws.privatelink.snowflake.com",
+        "*.fn23621-genesys-a3s-bradesco-seguros.sa-east-1.aws.snowflake.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.fn23621-genesys-a3s-bradesco-seguros.sa-east-1.aws.privatelink.snowflake.com, DNS:*.fn23621-genesys-a3s-bradesco-seguros.sa-east-1.aws.snowflake.com"
+      }
+    },
+    "cert_index": 975821785,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x811/803",
+    "seen": 1787444268.623,
+    "submission_timestamp": 1787365671.927,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

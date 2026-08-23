@@ -1,0 +1,52 @@
+{
+  "dominio": "digital-payments.dev.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/22/26 21:59:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.digital-payments.dev.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.digital-payments.dev.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0CF08879512B2E1B55D26EEED861566B",
+      "not_before": 1782259200,
+      "not_after": 1799366399,
+      "fingerprint": "35:3E:4C:7B:45:9C:E5:0C:8E:32:26:63:04:7F:3F:36:B8:A5:FE:F7",
+      "sha1": "35:3E:4C:7B:45:9C:E5:0C:8E:32:26:63:04:7F:3F:36:B8:A5:FE:F7",
+      "sha256": "74:2D:1C:A1:19:23:70:3A:CC:69:55:19:1E:3B:68:73:6D:59:82:4D:EA:98:96:FD:62:51:9E:BD:16:81:61:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.digital-payments.dev.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.digital-payments.dev.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:3b:21:5e:fa:2b:a6:f4:aa:3d:a1:a4:1b:e4:49:69:a2:c7:f4:d5:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 35566244,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=35566244&end=35566244",
+    "seen": 1787446748.176,
+    "submission_timestamp": 1782261260.339,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

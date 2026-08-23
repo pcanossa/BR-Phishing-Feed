@@ -1,0 +1,52 @@
+{
+  "dominio": "segurocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/22/26 21:25:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "segurocaixa.com",
+        "aggregated": "/CN=segurocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "0687CEC1967C1C9EE4F007784B5A47283D61",
+      "not_before": 1779988223,
+      "not_after": 1787764222,
+      "fingerprint": "5A:AB:7F:1A:FD:EC:B0:16:84:5F:A8:80:19:59:8D:B5:71:7C:D2:CA",
+      "sha1": "5A:AB:7F:1A:FD:EC:B0:16:84:5F:A8:80:19:59:8D:B5:71:7C:D2:CA",
+      "sha256": "1E:C3:2F:B6:36:7D:03:57:64:D6:EC:FD:FD:BF:7F:65:EA:51:17:F9:FC:BA:07:98:11:A6:13:92:16:5A:01:23",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "segurocaixa.com",
+        "*.segurocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.segurocaixa.com, DNS:segurocaixa.com",
+        "subjectKeyIdentifier": "keyid:6e:03:4b:fd:ed:4b:96:5b:3a:c0:63:02:4b:a5:9e:ac:a1:d2:03:03"
+      }
+    },
+    "cert_index": 218000962,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x851/566",
+    "seen": 1787444731.952,
+    "submission_timestamp": 1779991734.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

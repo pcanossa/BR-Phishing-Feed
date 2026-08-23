@@ -1,0 +1,52 @@
+{
+  "dominio": "app.tim.apu.edu",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/22/26 21:38:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.tim.apu.edu",
+        "aggregated": "/CN=*.app.tim.apu.edu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "C96BBAC1C5AF987A0E1CC6CDD0FC0D5E",
+      "not_before": 1779390681,
+      "not_after": 1787170135,
+      "fingerprint": "6F:FA:37:DE:C1:22:4F:D4:8A:8F:A1:A0:6A:CB:70:59:46:B6:B4:A9",
+      "sha1": "6F:FA:37:DE:C1:22:4F:D4:8A:8F:A1:A0:6A:CB:70:59:46:B6:B4:A9",
+      "sha256": "77:BD:20:35:84:FC:3B:A8:6C:D4:09:ED:47:2C:A4:1A:2D:44:EB:CF:A7:E0:03:F6:22:DC:31:22:DC:AB:C0:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.tim.apu.edu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/yWs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.tim.apu.edu",
+        "subjectKeyIdentifier": "keyid:ef:23:9d:58:18:66:34:fb:a0:a2:19:32:fb:52:58:85:75:ec:b8:d3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4375944313,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4375944313&end=4375944313",
+    "seen": 1787445489.839,
+    "submission_timestamp": 1779394425.532,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
