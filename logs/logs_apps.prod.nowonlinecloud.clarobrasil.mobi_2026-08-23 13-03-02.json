@@ -1,0 +1,53 @@
+{
+  "dominio": "apps.prod.nowonlinecloud.clarobrasil.mobi",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/23/26 13:03:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.prod.nowonlinecloud.clarobrasil.mobi",
+        "aggregated": "/CN=*.prod.nowonlinecloud.clarobrasil.mobi"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "098C3A6C60A09D3CAE53B3532BF10B8D",
+      "not_before": 1782259200,
+      "not_after": 1799366399,
+      "fingerprint": "B3:29:6C:10:AB:F8:F2:FD:7F:FA:75:C4:36:BA:62:DB:57:C4:A8:D4",
+      "sha1": "B3:29:6C:10:AB:F8:F2:FD:7F:FA:75:C4:36:BA:62:DB:57:C4:A8:D4",
+      "sha256": "39:41:07:FC:7E:DE:E1:9F:28:29:7F:6F:E1:D8:62:D7:75:05:C8:AA:EC:F8:06:9D:42:50:33:1B:9C:66:DD:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.prod.nowonlinecloud.clarobrasil.mobi",
+        "*.apps.prod.nowonlinecloud.clarobrasil.mobi"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.prod.nowonlinecloud.clarobrasil.mobi, DNS:*.apps.prod.nowonlinecloud.clarobrasil.mobi",
+        "subjectKeyIdentifier": "keyid:04:15:37:ca:07:48:c9:2c:42:1d:1f:8f:74:be:5a:2e:4f:73:14:04",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 67082531,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=67082531&end=67082531",
+    "seen": 1787500980.369,
+    "submission_timestamp": 1782260114.307,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

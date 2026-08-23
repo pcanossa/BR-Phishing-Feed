@@ -1,0 +1,51 @@
+{
+  "dominio": "appmail.agence-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 12:20:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appmail.agence-cpf.com",
+        "aggregated": "/CN=appmail.agence-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05100729EB8EDD8F99BE5D68C17D4A111E58",
+      "not_before": 1779409309,
+      "not_after": 1787185308,
+      "fingerprint": "38:DA:76:38:FD:8D:0F:86:C8:CF:24:CE:2B:2A:CC:3E:BA:8D:4B:46",
+      "sha1": "38:DA:76:38:FD:8D:0F:86:C8:CF:24:CE:2B:2A:CC:3E:BA:8D:4B:46",
+      "sha256": "37:4D:84:66:20:09:36:C1:62:BA:22:11:E1:AC:15:3D:8A:42:B9:DD:5A:EC:0B:71:4E:34:A7:6E:B6:B3:B3:62",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "appmail.agence-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:appmail.agence-cpf.com",
+        "subjectKeyIdentifier": "keyid:3e:0c:4c:02:a6:69:be:c3:84:5d:c5:4f:eb:93:2f:06:36:65:77:32"
+      }
+    },
+    "cert_index": 4381964282,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4381964282&end=4381964282",
+    "seen": 1787498427.039,
+    "submission_timestamp": 1779420180.794,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

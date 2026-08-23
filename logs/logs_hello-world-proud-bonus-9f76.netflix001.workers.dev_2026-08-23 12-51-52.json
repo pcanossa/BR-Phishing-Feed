@@ -1,0 +1,52 @@
+{
+  "dominio": "hello-world-proud-bonus-9f76.netflix001.workers.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 12:51:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix001.workers.dev",
+        "aggregated": "/CN=netflix001.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7B39A8875E6F1D750ED24E6CC6FA6564",
+      "not_before": 1780934700,
+      "not_after": 1788714266,
+      "fingerprint": "EA:1C:04:47:0D:A9:BA:3D:E9:64:B1:3C:42:C9:E8:7B:09:1C:29:25",
+      "sha1": "EA:1C:04:47:0D:A9:BA:3D:E9:64:B1:3C:42:C9:E8:7B:09:1C:29:25",
+      "sha256": "EA:BA:A9:D1:5F:40:3B:0E:79:E8:8A:90:AE:36:E9:D1:F5:32:52:59:18:D5:7C:B6:83:DA:E3:45:FE:7C:43:5E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "netflix001.workers.dev",
+        "*.hello-world-proud-bonus-9f76.netflix001.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ezk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflix001.workers.dev, DNS:*.hello-world-proud-bonus-9f76.netflix001.workers.dev",
+        "subjectKeyIdentifier": "keyid:6d:1b:e5:3b:f0:e5:f9:68:a9:49:d3:04:74:d7:69:39:5a:c8:ad:de"
+      }
+    },
+    "cert_index": 979372537,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x825/673",
+    "seen": 1787500308.284,
+    "submission_timestamp": 1787380480.576,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

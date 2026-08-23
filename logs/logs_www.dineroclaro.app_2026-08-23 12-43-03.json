@@ -1,0 +1,52 @@
+{
+  "dominio": "www.dineroclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/23/26 12:43:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.dineroclaro.app",
+        "aggregated": "/CN=www.dineroclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "061FBE7A1FAECAFF8F48B0562162FE5AE165",
+      "not_before": 1779417362,
+      "not_after": 1787193361,
+      "fingerprint": "FB:06:05:B4:D7:D9:7C:E8:40:D5:65:46:B9:BB:6B:AC:9B:B9:D3:D7",
+      "sha1": "FB:06:05:B4:D7:D9:7C:E8:40:D5:65:46:B9:BB:6B:AC:9B:B9:D3:D7",
+      "sha256": "4D:CF:5F:6F:6A:50:82:6C:A3:EA:51:0B:CA:F6:E9:64:15:D6:5D:BA:4E:32:68:30:61:36:6F:F4:AA:E1:78:45",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.dineroclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.dineroclaro.app",
+        "subjectKeyIdentifier": "keyid:54:08:81:d9:47:a8:72:94:f1:d8:6f:44:ab:61:cb:d1:77:56:2e:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4382120865,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4382120865&end=4382120865",
+    "seen": 1787499780.8,
+    "submission_timestamp": 1779420872.937,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
