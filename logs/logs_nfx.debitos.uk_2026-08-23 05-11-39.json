@@ -1,0 +1,53 @@
+{
+  "dominio": "nfx.debitos.uk",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 05:11:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "194fc36e.sni.cloudflaressl.com",
+        "aggregated": "/CN=194fc36e.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7EEE0E7F69191024134ADB0D5850B1D1",
+      "not_before": 1779167571,
+      "not_after": 1786947170,
+      "fingerprint": "66:A1:6B:A3:75:AD:AE:E9:1C:E8:E9:04:66:C5:35:33:43:9D:08:70",
+      "sha1": "66:A1:6B:A3:75:AD:AE:E9:1C:E8:E9:04:66:C5:35:33:43:9D:08:70",
+      "sha256": "AA:67:1F:C8:3B:CE:25:B9:55:B9:6D:95:9C:24:24:1E:22:EC:EE:AA:47:6E:C4:9A:0E:D8:01:FE:63:66:29:26",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "194fc36e.sni.cloudflaressl.com",
+        "nfx.debitos.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/fu4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:194fc36e.sni.cloudflaressl.com, DNS:nfx.debitos.uk",
+        "subjectKeyIdentifier": "keyid:1b:9d:9e:20:a1:b9:19:09:ec:c0:d7:0e:1e:ad:29:1e:d1:34:10:d7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 691278741,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=691278741&end=691278741",
+    "seen": 1787472696.633,
+    "submission_timestamp": 1779171318.639,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

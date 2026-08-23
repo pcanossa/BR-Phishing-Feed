@@ -1,0 +1,52 @@
+{
+  "dominio": "meuscorreios.app",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/23/26 05:22:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meuscorreios.app",
+        "aggregated": "/CN=meuscorreios.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "031F91900B9B7319E42905BC42095CE9",
+      "not_before": 1770336000,
+      "not_after": 1786060799,
+      "fingerprint": "1A:1B:B3:C0:0D:6D:62:F8:8E:E7:7E:84:FC:0A:C4:61:1C:BB:68:E1",
+      "sha1": "1A:1B:B3:C0:0D:6D:62:F8:8E:E7:7E:84:FC:0A:C4:61:1C:BB:68:E1",
+      "sha256": "A3:B6:80:86:07:1E:6E:74:85:31:98:4F:62:FA:EE:D5:8C:CE:70:02:EA:66:77:B4:E1:74:53:A9:F5:61:EC:F5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "meuscorreios.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:meuscorreios.app",
+        "subjectKeyIdentifier": "keyid:14:2d:45:bf:cf:46:bb:5e:c7:c1:8e:28:fa:d7:58:88:0c:12:5f:34"
+      }
+    },
+    "cert_index": 4379018708,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4379018708&end=4379018708",
+    "seen": 1787473339.709,
+    "submission_timestamp": 1779408008.974,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

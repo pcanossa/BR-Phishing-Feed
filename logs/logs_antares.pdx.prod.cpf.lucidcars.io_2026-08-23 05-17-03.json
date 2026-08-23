@@ -1,0 +1,53 @@
+{
+  "dominio": "antares.pdx.prod.cpf.lucidcars.io",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 05:17:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "antares.pdx.prod.cpf.lucidcars.io",
+        "aggregated": "/CN=antares.pdx.prod.cpf.lucidcars.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A9DD2AD3B5D33E380EF64D935E259D0",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "86:34:8C:6D:EE:1F:DF:3D:22:9E:3B:3D:F2:E7:61:72:5F:32:10:09",
+      "sha1": "86:34:8C:6D:EE:1F:DF:3D:22:9E:3B:3D:F2:E7:61:72:5F:32:10:09",
+      "sha256": "8D:E1:1B:AA:60:16:33:95:CC:5C:68:42:85:58:D2:51:B0:9C:9E:B8:FD:B9:52:04:38:3C:FC:65:46:48:A2:3E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "antares.pdx.prod.cpf.lucidcars.io",
+        "*.platform.lucidcars.io",
+        "*.antares.pdx.prod.cpf.lucidcars.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:antares.pdx.prod.cpf.lucidcars.io, DNS:*.platform.lucidcars.io, DNS:*.antares.pdx.prod.cpf.lucidcars.io",
+        "subjectKeyIdentifier": "keyid:77:70:17:a4:ed:41:54:1e:12:31:e7:5a:34:b2:84:bf:bc:04:b2:dc"
+      }
+    },
+    "cert_index": 43096268,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x168/344",
+    "seen": 1787473021.271,
+    "submission_timestamp": 1784422003.786,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}
