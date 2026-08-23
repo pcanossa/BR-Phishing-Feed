@@ -1,0 +1,52 @@
+{
+  "dominio": "portal.santander.staging.cig-apps.de",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/23/26 13:50:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portal.santander.staging.cig-apps.de",
+        "aggregated": "/CN=portal.santander.staging.cig-apps.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "046C8EF0FC7D684EF89727C0902982A4",
+      "not_before": 1779235200,
+      "not_after": 1795219199,
+      "fingerprint": "B1:0B:9E:1E:D4:D1:BA:D5:0B:3C:5D:C9:2D:DB:CF:9D:FA:20:6C:C8",
+      "sha1": "B1:0B:9E:1E:D4:D1:BA:D5:0B:3C:5D:C9:2D:DB:CF:9D:FA:20:6C:C8",
+      "sha256": "02:71:10:5D:E0:DB:85:4E:36:55:70:7F:B2:C8:77:6A:AB:D0:48:E2:4D:42:58:F3:86:F2:50:DC:14:15:7D:39",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "portal.santander.staging.cig-apps.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portal.santander.staging.cig-apps.de",
+        "subjectKeyIdentifier": "keyid:ca:01:54:ed:bd:be:92:f5:f7:ab:4e:d6:8f:1d:9d:39:e6:2b:eb:74"
+      }
+    },
+    "cert_index": 826841585,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=826841585&end=826841585",
+    "seen": 1787503805.185,
+    "submission_timestamp": 1779272100.361,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

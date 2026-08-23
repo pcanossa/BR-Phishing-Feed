@@ -1,0 +1,52 @@
+{
+  "dominio": "app.declaro.org",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/23/26 13:42:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.declaro.org",
+        "aggregated": "/CN=app.declaro.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "01A0FC327EDFC3830E49616C74D96C98",
+      "not_before": 1777979627,
+      "not_after": 1785759216,
+      "fingerprint": "38:5E:D6:B1:81:CF:67:55:FA:71:45:7C:A9:7A:76:FF:58:49:82:63",
+      "sha1": "38:5E:D6:B1:81:CF:67:55:FA:71:45:7C:A9:7A:76:FF:58:49:82:63",
+      "sha256": "76:FF:51:B9:26:3E:39:39:0A:D0:BE:DF:AE:9C:4A:C7:4A:99:F7:6D:F2:4E:16:F6:35:DD:5E:34:A2:B0:B1:8E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.declaro.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/AaA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.declaro.org",
+        "subjectKeyIdentifier": "keyid:ac:28:29:fd:82:01:fe:6f:02:06:b7:29:6e:47:cf:19:ff:49:ba:96",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 700505298,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-entries?start=700505298&end=700505298",
+    "seen": 1787503323.547,
+    "submission_timestamp": 1777983228.37,
+    "source": {
+      "name": "Google 'Xenon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "alpha.beta.fazenda.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/23/26 13:21:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alpha.beta.fazenda.com",
+        "aggregated": "/CN=alpha.beta.fazenda.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "069BCF11A1C3FE2EB58293DF54C04FB79750",
+      "not_before": 1779190443,
+      "not_after": 1786966442,
+      "fingerprint": "0B:63:AC:60:00:4B:80:83:C9:04:F3:5D:27:F1:82:93:14:0D:EF:8A",
+      "sha1": "0B:63:AC:60:00:4B:80:83:C9:04:F3:5D:27:F1:82:93:14:0D:EF:8A",
+      "sha256": "F8:80:95:C4:D7:44:42:E8:7A:DD:3A:CC:CF:4E:2B:55:04:03:4B:28:98:30:6F:B4:99:82:21:DA:C6:B6:B9:34",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "alpha.beta.fazenda.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:alpha.beta.fazenda.com",
+        "subjectKeyIdentifier": "keyid:66:98:41:ae:87:fc:a3:be:8d:8a:4b:49:3d:ae:20:19:fb:ea:43:53",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 694425104,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=694425104&end=694425104",
+    "seen": 1787502058.767,
+    "submission_timestamp": 1779193953.743,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

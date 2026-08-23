@@ -1,0 +1,52 @@
+{
+  "dominio": "beta.fazenda.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/23/26 13:13:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beta.fazenda.com",
+        "aggregated": "/CN=beta.fazenda.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "054E35B72F34724D11A3BC837969EC42A6D2",
+      "not_before": 1779267012,
+      "not_after": 1787043011,
+      "fingerprint": "5C:96:AD:3B:A9:BC:07:33:7A:C6:A9:22:23:B5:5B:E2:C3:2D:5A:A4",
+      "sha1": "5C:96:AD:3B:A9:BC:07:33:7A:C6:A9:22:23:B5:5B:E2:C3:2D:5A:A4",
+      "sha256": "EA:71:B7:24:01:4A:9F:E9:2B:B3:70:C8:69:D0:84:75:61:02:FA:68:77:7E:7F:35:C0:0A:08:76:F0:00:87:90",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "beta.fazenda.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:beta.fazenda.com",
+        "subjectKeyIdentifier": "keyid:fa:f9:55:c8:4c:09:ff:f4:58:ed:f4:d3:1c:e1:cc:12:b2:7b:98:8f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 826547558,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=826547558&end=826547558",
+    "seen": 1787501614.934,
+    "submission_timestamp": 1779270522.295,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

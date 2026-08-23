@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.dimki.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 13:42:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hulk-cpf.dimki.net",
+        "aggregated": "/CN=hulk-cpf.dimki.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E5F00612A5949DED52D9235AD1AA71F513",
+      "not_before": 1779268264,
+      "not_after": 1787044263,
+      "fingerprint": "04:60:B1:9B:A5:8F:F7:D9:D1:40:FA:57:72:8E:FA:00:CF:39:CA:AB",
+      "sha1": "04:60:B1:9B:A5:8F:F7:D9:D1:40:FA:57:72:8E:FA:00:CF:39:CA:AB",
+      "sha256": "E7:68:A8:F3:D8:07:01:EE:58:3B:1A:1A:71:75:01:4E:B6:5F:D7:BD:F6:96:77:9D:94:B4:62:87:D5:38:41:C2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hulk-cpf.dimki.net",
+        "*.cpf.dimki.net",
+        "cpf.dimki.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.dimki.net, DNS:cpf.dimki.net, DNS:hulk-cpf.dimki.net",
+        "subjectKeyIdentifier": "keyid:67:fa:21:4c:49:a3:48:2d:6a:d4:3f:ea:70:18:78:50:a8:09:17:7f"
+      }
+    },
+    "cert_index": 826779107,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=826779107&end=826779107",
+    "seen": 1787503337.466,
+    "submission_timestamp": 1779271777.246,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

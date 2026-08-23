@@ -1,0 +1,52 @@
+{
+  "dominio": "vpn01.rastreio-sedex10.online",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "08/23/26 13:55:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vpn01.rastreio-sedex10.online",
+        "aggregated": "/CN=vpn01.rastreio-sedex10.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "065F870474B09AEAA35ED8A50E05DB6ADBD0",
+      "not_before": 1778601161,
+      "not_after": 1786377160,
+      "fingerprint": "EF:ED:3E:69:23:DF:32:89:CB:0A:B4:1B:3F:AB:ED:DB:13:CD:C0:66",
+      "sha1": "EF:ED:3E:69:23:DF:32:89:CB:0A:B4:1B:3F:AB:ED:DB:13:CD:C0:66",
+      "sha256": "CD:BB:D9:DC:DE:B4:FB:D1:B2:19:F4:1C:C1:38:10:35:F0:99:66:59:8B:9C:9B:66:C3:83:84:82:DB:D5:58:EB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vpn01.rastreio-sedex10.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vpn01.rastreio-sedex10.online",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 670507861,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=670507861&end=670507861",
+    "seen": 1787504153.792,
+    "submission_timestamp": 1778604671.722,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
