@@ -1,0 +1,51 @@
+{
+  "dominio": "epp-exposicao-cartao-proxy.uat.sicredi.cloud",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/23/26 17:45:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "epp-exposicao-cartao-proxy.uat.sicredi.cloud",
+        "aggregated": "/CN=epp-exposicao-cartao-proxy.uat.sicredi.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "06A67EE0B27929CF69988639E3E5E337E18A",
+      "not_before": 1780329464,
+      "not_after": 1788105463,
+      "fingerprint": "28:49:BE:2E:9F:FD:2F:90:B7:5B:A3:F4:B3:11:D7:D0:A7:95:BF:B7",
+      "sha1": "28:49:BE:2E:9F:FD:2F:90:B7:5B:A3:F4:B3:11:D7:D0:A7:95:BF:B7",
+      "sha256": "C6:93:15:C4:77:05:E1:3E:F1:55:2B:4E:93:22:C7:38:74:85:B2:AC:5B:D6:5B:74:63:14:86:F0:8F:6E:8E:9A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "epp-exposicao-cartao-proxy.uat.sicredi.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:epp-exposicao-cartao-proxy.uat.sicredi.cloud",
+        "subjectKeyIdentifier": "keyid:3c:a1:e4:47:6f:19:33:4a:44:63:81:0a:52:99:ff:28:18:58:e7:3d"
+      }
+    },
+    "cert_index": 227895486,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x890/216",
+    "seen": 1787517932.194,
+    "submission_timestamp": 1780332974.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

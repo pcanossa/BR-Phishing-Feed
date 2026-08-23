@@ -1,0 +1,52 @@
+{
+  "dominio": "oi-app.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 17:25:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi-app.com",
+        "aggregated": "/CN=oi-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "538E522CB786FAB50E1583E91FC7F67E",
+      "not_before": 1779107144,
+      "not_after": 1786886740,
+      "fingerprint": "51:1D:D1:3B:5E:F0:0D:2D:F0:09:8A:34:99:D7:CE:ED:96:E9:39:13",
+      "sha1": "51:1D:D1:3B:5E:F0:0D:2D:F0:09:8A:34:99:D7:CE:ED:96:E9:39:13",
+      "sha256": "08:F1:AB:FB:23:CF:1C:4F:B8:7D:83:90:F8:A5:E7:ED:5B:6C:4C:17:D5:5A:75:88:48:E1:F6:63:E3:7E:17:2E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi-app.com",
+        "*.oi-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/U44, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi-app.com, DNS:*.oi-app.com",
+        "subjectKeyIdentifier": "keyid:6b:74:7a:09:85:59:ca:5a:85:11:ed:15:31:59:f1:81:8e:f1:51:b9"
+      }
+    },
+    "cert_index": 241742725,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x944/307",
+    "seen": 1787516732.317,
+    "submission_timestamp": 1780316599.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "aut-abonos-debito-qa-lb.apps.ambientesbc.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 17:59:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "aut-abonos-debito-qa-lb.apps.ambientesbc.com",
+        "aggregated": "/CN=aut-abonos-debito-qa-lb.apps.ambientesbc.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "078B3A27BD65828B1B116A0448D977FF",
+      "not_before": 1782172800,
+      "not_after": 1799279999,
+      "fingerprint": "EC:20:60:D0:0C:63:75:82:AF:93:E6:F1:60:BB:6B:1C:97:48:46:83",
+      "sha1": "EC:20:60:D0:0C:63:75:82:AF:93:E6:F1:60:BB:6B:1C:97:48:46:83",
+      "sha256": "7E:F6:F5:6D:F3:DD:F0:73:73:44:03:89:C4:EE:20:F3:B0:56:34:90:1E:CD:2D:E8:5D:2E:E3:92:4F:02:9A:34",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "aut-abonos-debito-qa-lb.apps.ambientesbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:aut-abonos-debito-qa-lb.apps.ambientesbc.com",
+        "subjectKeyIdentifier": "keyid:77:52:e9:dc:31:a3:e3:65:4a:90:03:38:0f:2d:f6:46:07:ba:f4:1a"
+      }
+    },
+    "cert_index": 73190575,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x285/900",
+    "seen": 1787518758.824,
+    "submission_timestamp": 1782196457.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

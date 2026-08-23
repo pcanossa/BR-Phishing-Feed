@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-versailles.direct.quickconnect.to",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 17:23:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-versailles.direct.quickconnect.to",
+        "aggregated": "/CN=cpf-versailles.direct.quickconnect.to"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05B465EC000F7889EC05A1F84674716F46CE",
+      "not_before": 1779424913,
+      "not_after": 1787200912,
+      "fingerprint": "E8:1D:18:E1:D6:74:77:1F:3A:87:0C:62:4E:43:15:10:78:69:4E:FF",
+      "sha1": "E8:1D:18:E1:D6:74:77:1F:3A:87:0C:62:4E:43:15:10:78:69:4E:FF",
+      "sha256": "03:12:08:A9:00:F5:B2:77:AF:DC:19:21:4D:0F:1F:4E:02:C3:94:84:98:A3:71:7D:81:BC:41:1D:F4:CB:5B:E7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-versailles.direct.quickconnect.to",
+        "*.cpf-versailles.direct.quickconnect.to"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-versailles.direct.quickconnect.to, DNS:cpf-versailles.direct.quickconnect.to",
+        "subjectKeyIdentifier": "keyid:27:16:58:8d:68:be:8d:a3:6a:ba:ee:06:a0:1a:b7:b1:84:cb:cb:c1"
+      }
+    },
+    "cert_index": 4384069688,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4384069688&end=4384069688",
+    "seen": 1787516611.218,
+    "submission_timestamp": 1779429310.676,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
