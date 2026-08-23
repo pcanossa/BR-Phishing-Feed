@@ -1,0 +1,52 @@
+{
+  "dominio": "tjdf-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 16:19:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "05E0AB4BCF25D0AA138DDE81E9334729",
+      "not_before": 1780186440,
+      "not_after": 1787966021,
+      "fingerprint": "8B:82:3E:39:21:B4:50:D5:87:0D:FD:72:8A:F4:2F:4F:2A:3B:96:F4",
+      "sha1": "8B:82:3E:39:21:B4:50:D5:87:0D:FD:72:8A:F4:2F:4F:2A:3B:96:F4",
+      "sha256": "50:99:EB:18:5C:A7:CA:E9:6D:A4:39:4B:D6:DF:79:E9:5D:CC:D4:7F:73:9F:C6:CA:41:8D:64:1C:47:3F:B8:1C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "tjdf-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BeA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:tjdf-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:10:27:e3:d9:1c:52:c1:2b:53:67:3f:a5:2a:ce:8f:e7:6b:8b:91:82"
+      }
+    },
+    "cert_index": 362678682,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x416/713",
+    "seen": 1787512755.581,
+    "submission_timestamp": 1780190181.596,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

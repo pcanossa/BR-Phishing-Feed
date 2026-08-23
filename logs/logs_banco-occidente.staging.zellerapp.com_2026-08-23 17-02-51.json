@@ -1,0 +1,51 @@
+{
+  "dominio": "banco-occidente.staging.zellerapp.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/23/26 17:02:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banco-occidente.staging.zellerapp.com",
+        "aggregated": "/CN=banco-occidente.staging.zellerapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "0655CD6E738FFFC18226910A27B5C6FF1540",
+      "not_before": 1780317241,
+      "not_after": 1788093240,
+      "fingerprint": "90:F0:DB:D1:8E:D5:97:E5:10:0C:44:B1:F5:54:CF:84:7F:62:DA:D3",
+      "sha1": "90:F0:DB:D1:8E:D5:97:E5:10:0C:44:B1:F5:54:CF:84:7F:62:DA:D3",
+      "sha256": "80:6C:EA:39:57:D6:60:AF:DB:52:67:27:25:2C:EC:7D:EE:57:A9:CB:FA:18:C3:2F:3A:F2:C3:1D:3E:C6:F9:59",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "banco-occidente.staging.zellerapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banco-occidente.staging.zellerapp.com",
+        "subjectKeyIdentifier": "keyid:1c:15:9d:be:03:87:36:eb:65:27:1f:9c:95:bd:55:e8:9f:34:20:23"
+      }
+    },
+    "cert_index": 227544385,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x888/845",
+    "seen": 1787515367.171,
+    "submission_timestamp": 1780320751.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
