@@ -1,0 +1,51 @@
+{
+  "dominio": "beta.cpf-portal.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 10:17:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beta.cpf-portal.consumables.amazon.dev",
+        "aggregated": "/CN=beta.cpf-portal.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0AF38FEDD41D75879707BD27E796E15E",
+      "not_before": 1780185600,
+      "not_after": 1797292799,
+      "fingerprint": "A9:ED:62:DB:9F:FC:0E:BE:B9:FF:45:99:F6:E8:8A:25:EC:AD:CE:A0",
+      "sha1": "A9:ED:62:DB:9F:FC:0E:BE:B9:FF:45:99:F6:E8:8A:25:EC:AD:CE:A0",
+      "sha256": "B0:0A:CC:92:60:01:FA:FF:14:53:D2:C5:3C:67:B1:A1:E1:D6:EA:71:4E:7F:7B:D0:D1:70:28:C3:C2:26:AF:AA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "beta.cpf-portal.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:beta.cpf-portal.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:af:10:cc:3d:3d:c8:5c:1f:4b:85:e0:6b:57:b4:92:76:20:47:e1:e8"
+      }
+    },
+    "cert_index": 224216469,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x875/845",
+    "seen": 1787491042.407,
+    "submission_timestamp": 1780200044.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

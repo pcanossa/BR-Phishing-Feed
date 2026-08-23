@@ -1,0 +1,52 @@
+{
+  "dominio": "mail.cpf.su",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 10:11:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.su",
+        "aggregated": "/CN=cpf.su"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0566F3075293C1F153213A523E9361B253CF",
+      "not_before": 1779405468,
+      "not_after": 1787181467,
+      "fingerprint": "BE:BD:0E:A0:74:81:83:F6:F3:2E:73:0B:93:FF:58:22:39:D0:BB:47",
+      "sha1": "BE:BD:0E:A0:74:81:83:F6:F3:2E:73:0B:93:FF:58:22:39:D0:BB:47",
+      "sha256": "16:28:08:B3:78:41:4D:CD:1C:71:67:42:2B:6C:13:AB:7A:5F:6B:C2:E9:A4:DA:86:E2:FF:AA:33:68:42:8D:4C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.su",
+        "mail.cpf.su"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.su, DNS:mail.cpf.su",
+        "subjectKeyIdentifier": "keyid:1a:0c:f1:84:cd:fc:c5:70:c0:f5:e2:dc:5e:66:97:be:84:33:3a:e8"
+      }
+    },
+    "cert_index": 4381058352,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4381058352&end=4381058352",
+    "seen": 1787490661.005,
+    "submission_timestamp": 1779416307.434,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

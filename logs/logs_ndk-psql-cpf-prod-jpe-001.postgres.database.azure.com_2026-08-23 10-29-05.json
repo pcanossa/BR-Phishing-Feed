@@ -1,0 +1,57 @@
+{
+  "dominio": "ndk-psql-cpf-prod-jpe-001.postgres.database.azure.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 10:29:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "e2f42a12b0ec.database.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=e2f42a12b0ec.database.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "55007694CA2B1D08031D48F48A0000007694CA",
+      "not_before": 1783737012,
+      "not_after": 1799289012,
+      "fingerprint": "26:6D:20:A6:EE:B2:D3:C3:D2:62:C4:14:8B:78:72:1F:81:69:96:47",
+      "sha1": "26:6D:20:A6:EE:B2:D3:C3:D2:62:C4:14:8B:78:72:1F:81:69:96:47",
+      "sha256": "74:97:D6:00:D5:16:E3:87:BB:A9:0B:F1:3D:53:5E:94:94:87:7C:4F:06:0F:D1:07:6A:54:BA:82:94:48:CE:25",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "e2f42a12b0ec.database.azure.com",
+        "ndk-psql-cpf-prod-jpe-001.postgres.database.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ndk-psql-cpf-prod-jpe-001.postgres.database.azure.com, DNS:e2f42a12b0ec.database.azure.com",
+        "subjectKeyIdentifier": "keyid:3d:1f:d8:4a:03:a0:3e:76:4d:7e:85:f3:0d:cc:22:94:e4:15:e7:33",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 39516807,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=39516807&end=39516807",
+    "seen": 1787491740.886,
+    "submission_timestamp": 1783737617.164,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

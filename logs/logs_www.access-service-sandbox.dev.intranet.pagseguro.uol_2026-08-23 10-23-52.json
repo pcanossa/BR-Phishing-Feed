@@ -1,0 +1,52 @@
+{
+  "dominio": "www.access-service-sandbox.dev.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 10:23:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "access-service-sandbox.dev.intranet.pagseguro.uol",
+        "aggregated": "/CN=access-service-sandbox.dev.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "05AD4F913486F4F08BBB5DA91C15CA62",
+      "not_before": 1780185600,
+      "not_after": 1797292799,
+      "fingerprint": "DE:5B:79:A8:69:FE:1B:C4:CB:AB:E9:34:6B:E0:BE:EE:90:91:8A:26",
+      "sha1": "DE:5B:79:A8:69:FE:1B:C4:CB:AB:E9:34:6B:E0:BE:EE:90:91:8A:26",
+      "sha256": "56:66:5F:78:50:B9:2C:68:B1:AB:86:F0:60:E7:56:BC:2E:E0:F1:CC:C0:F5:4C:7C:7C:16:03:E4:16:9D:88:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "access-service-sandbox.dev.intranet.pagseguro.uol",
+        "www.access-service-sandbox.dev.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:access-service-sandbox.dev.intranet.pagseguro.uol, DNS:www.access-service-sandbox.dev.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:bf:c5:2f:6a:ed:37:19:5f:d2:b8:82:b0:05:46:38:c6:d2:09:96:2a"
+      }
+    },
+    "cert_index": 224270491,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x876/056",
+    "seen": 1787491429.724,
+    "submission_timestamp": 1780202241.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
