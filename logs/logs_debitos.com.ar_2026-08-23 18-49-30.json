@@ -1,0 +1,51 @@
+{
+  "dominio": "debitos.com.ar",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 18:49:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos.com.ar",
+        "aggregated": "/CN=debitos.com.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "393FD4F6274A808475E051D621C67E79",
+      "not_before": 1781108086,
+      "not_after": 1788751748,
+      "fingerprint": "B9:B7:6D:EF:12:C9:0A:ED:24:E7:AA:76:99:05:BA:19:0D:AF:F9:0E",
+      "sha1": "B9:B7:6D:EF:12:C9:0A:ED:24:E7:AA:76:99:05:BA:19:0D:AF:F9:0E",
+      "sha256": "F9:B2:B0:36:B6:A7:8B:CD:1B:B8:E5:1B:5D:29:C0:28:7D:3D:19:D7:9D:C4:C7:23:AC:32:A1:6E:35:82:11:92",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos.com.ar",
+        "*.debitos.com.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos.com.ar, DNS:*.debitos.com.ar"
+      }
+    },
+    "cert_index": 980549888,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x830/273",
+    "seen": 1787521766.549,
+    "submission_timestamp": 1787387233.93,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

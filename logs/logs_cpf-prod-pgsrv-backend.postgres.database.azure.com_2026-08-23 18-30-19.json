@@ -1,0 +1,57 @@
+{
+  "dominio": "cpf-prod-pgsrv-backend.postgres.database.azure.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 18:30:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cc2b5a48a2f7.database.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=cc2b5a48a2f7.database.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "55007FE74425EA04F5AC5BB2430000007FE744",
+      "not_before": 1784379230,
+      "not_after": 1799931230,
+      "fingerprint": "02:A3:8E:D2:47:7B:B7:CF:EA:1D:42:4F:65:39:AD:CD:BA:EC:10:9A",
+      "sha1": "02:A3:8E:D2:47:7B:B7:CF:EA:1D:42:4F:65:39:AD:CD:BA:EC:10:9A",
+      "sha256": "5C:B8:5E:B1:D2:84:14:DA:28:93:D7:35:8F:84:AF:24:95:83:FA:FA:76:2D:D5:70:0E:B2:49:29:9A:B7:C7:38",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cc2b5a48a2f7.database.azure.com",
+        "cpf-prod-pgsrv-backend.postgres.database.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-prod-pgsrv-backend.postgres.database.azure.com, DNS:cc2b5a48a2f7.database.azure.com",
+        "subjectKeyIdentifier": "keyid:16:49:05:2b:7d:6b:00:0c:00:46:38:b2:63:c6:4e:5f:ab:ac:71:19",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 41948424,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=41948424&end=41948424",
+    "seen": 1787520615.716,
+    "submission_timestamp": 1784379834.398,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

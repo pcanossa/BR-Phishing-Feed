@@ -1,0 +1,52 @@
+{
+  "dominio": "0o1-cpf.garden",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 18:12:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.0o1-cpf.garden",
+        "aggregated": "/CN=*.0o1-cpf.garden"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL RSA DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL RSA DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "47C0FBBD9189F938FFFA7266C18F58CC",
+      "not_before": 1779408000,
+      "not_after": 1787270399,
+      "fingerprint": "F6:43:1A:5F:68:DA:67:1A:A2:41:08:27:CE:8E:69:31:37:4C:E8:82",
+      "sha1": "F6:43:1A:5F:68:DA:67:1A:A2:41:08:27:CE:8E:69:31:37:4C:E8:82",
+      "sha256": "58:5B:93:EA:40:63:1F:1E:9C:65:D5:3B:59:C6:8A:F2:C2:98:26:BB:00:68:D2:51:F8:95:CD:78:D3:6F:64:92",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.0o1-cpf.garden"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLRSADVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:4b:be:fa:76:84:23:44:04:b9:ce:be:31:6f:e9:f5:32:06:ff:0c:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.0o1-cpf.garden",
+        "subjectKeyIdentifier": "keyid:e0:7f:3d:6d:fa:2d:0c:45:3e:5e:81:ff:fb:8b:79:8c:58:69:b4:aa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4384420999,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4384420999&end=4384420999",
+    "seen": 1787519556.762,
+    "submission_timestamp": 1779430701.735,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

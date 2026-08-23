@@ -1,0 +1,53 @@
+{
+  "dominio": "api.tarjeta-debito-pr.apps.bancolombia.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 19:00:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "013D81FD9501687CA66D3A38A11165C4",
+      "not_before": 1781659967,
+      "not_after": 1781746367,
+      "fingerprint": "1B:9C:7B:77:90:95:D3:4F:AB:0F:2A:4A:7E:07:8C:91:42:9B:4F:0F",
+      "sha1": "1B:9C:7B:77:90:95:D3:4F:AB:0F:2A:4A:7E:07:8C:91:42:9B:4F:0F",
+      "sha256": "6A:5C:E0:1E:46:DF:7E:73:9F:1F:FE:8C:70:4D:24:C4:94:76:54:A9:36:C6:55:B0:25:5F:30:01:56:A1:08:88",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "api.tarjeta-debito-pr.apps.bancolombia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr.apps.bancolombia.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:5b:a6:e2:a8:83:72:be:8c:00:04:1f:d2:9f:23:9d:25:46:24:00:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2048199389,
+    "cert_link": "https://elephant2026h1.ct.sectigo.com/ct/v1/get-entries?start=2048199389&end=2048199389",
+    "seen": 1787522399.267,
+    "submission_timestamp": 1781659970.704,
+    "source": {
+      "name": "Elephant 2026h1",
+      "url": "https://elephant2026h1.ct.sectigo.com"
+    }
+  }
+}

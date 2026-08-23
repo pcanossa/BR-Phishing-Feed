@@ -1,0 +1,52 @@
+{
+  "dominio": "fuckspotify.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/23/26 18:47:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.fuckspotify.app",
+        "aggregated": "/CN=*.fuckspotify.app"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "E306657029B8FB794904B9FDB6547710",
+      "not_before": 1780272000,
+      "not_after": 1795910399,
+      "fingerprint": "2A:F9:D9:4A:A0:0F:20:EA:C5:06:64:8D:C8:F3:81:A1:1E:2D:4A:03",
+      "sha1": "2A:F9:D9:4A:A0:0F:20:EA:C5:06:64:8D:C8:F3:81:A1:1E:2D:4A:03",
+      "sha256": "05:33:C0:88:3E:F7:4F:29:C5:8C:EE:77:73:88:A1:5A:06:C1:7D:AA:DE:0C:D6:D9:2F:06:6B:AC:AD:D9:F0:83",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.fuckspotify.app",
+        "fuckspotify.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.fuckspotify.app, DNS:fuckspotify.app",
+        "subjectKeyIdentifier": "keyid:8d:24:59:29:a9:54:db:a4:ca:43:3a:11:e6:dc:47:9c:79:e7:05:7d"
+      }
+    },
+    "cert_index": 242448349,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x947/063",
+    "seen": 1787521646.084,
+    "submission_timestamp": 1780340214.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

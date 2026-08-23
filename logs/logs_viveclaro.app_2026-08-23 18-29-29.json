@@ -1,0 +1,52 @@
+{
+  "dominio": "viveclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/23/26 18:29:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "viveclaro.app",
+        "aggregated": "/CN=viveclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0CB9D5B08C15C5CE499A02B5EA9A2BE2",
+      "not_before": 1780272000,
+      "not_after": 1797379199,
+      "fingerprint": "5D:5C:3F:3E:80:9B:2F:2C:44:AC:F2:55:BD:9A:8F:9C:E8:B1:41:8D",
+      "sha1": "5D:5C:3F:3E:80:9B:2F:2C:44:AC:F2:55:BD:9A:8F:9C:E8:B1:41:8D",
+      "sha256": "35:C9:0B:DE:25:3C:CE:88:73:07:8F:52:A7:50:FB:3D:65:C6:38:E7:56:D3:81:34:D8:71:E4:4F:57:68:FB:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "viveclaro.app",
+        "*.viveclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:viveclaro.app, DNS:*.viveclaro.app",
+        "subjectKeyIdentifier": "keyid:77:37:7d:b8:52:74:0a:3f:cc:b2:42:ad:a1:06:18:43:35:3f:c7:7a"
+      }
+    },
+    "cert_index": 242293196,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x946/457",
+    "seen": 1787520566.786,
+    "submission_timestamp": 1780334466.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

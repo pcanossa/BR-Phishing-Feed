@@ -1,0 +1,52 @@
+{
+  "dominio": "bradesco.app.qipu.com.br",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/23/26 18:31:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco.app.qipu.com.br",
+        "aggregated": "/CN=bradesco.app.qipu.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A5ACE7D8CF65126BC3E644FE8BB6E4F",
+      "not_before": 1782172800,
+      "not_after": 1799279999,
+      "fingerprint": "77:BF:65:F3:D4:56:6D:A5:7F:D9:B4:1D:98:E0:03:D8:5A:DF:5C:FB",
+      "sha1": "77:BF:65:F3:D4:56:6D:A5:7F:D9:B4:1D:98:E0:03:D8:5A:DF:5C:FB",
+      "sha256": "98:DF:F3:B6:56:B5:7E:90:1B:5A:FF:0B:76:E0:A7:7A:0E:5C:A6:AC:4E:A4:A8:43:FC:68:67:04:05:6A:0B:D1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco.app.qipu.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bradesco.app.qipu.com.br",
+        "subjectKeyIdentifier": "keyid:db:ab:ff:0b:ed:f3:90:d1:c9:ff:f8:f6:05:bf:8f:57:85:fb:23:b0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 97185694,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=97185694&end=97185694",
+    "seen": 1787520680.387,
+    "submission_timestamp": 1782194892.752,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

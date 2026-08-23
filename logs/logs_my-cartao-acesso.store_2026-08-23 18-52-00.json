@@ -1,0 +1,52 @@
+{
+  "dominio": "my-cartao-acesso.store",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/23/26 18:52:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-cartao-acesso.store",
+        "aggregated": "/CN=my-cartao-acesso.store"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06A981D6E5245B15CC8A42D77568E21F442C",
+      "not_before": 1780338182,
+      "not_after": 1788114181,
+      "fingerprint": "E5:91:0C:99:B3:2F:37:00:2C:23:A9:FC:9C:26:06:B5:CA:00:7A:0A",
+      "sha1": "E5:91:0C:99:B3:2F:37:00:2C:23:A9:FC:9C:26:06:B5:CA:00:7A:0A",
+      "sha256": "35:A5:57:B4:1D:5B:A9:2D:90:C7:A7:EB:C5:D8:F7:0F:A5:53:2B:8B:A4:A8:C3:58:C9:CF:6D:88:69:4D:E0:8D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "my-cartao-acesso.store",
+        "*.my-cartao-acesso.store"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.my-cartao-acesso.store, DNS:my-cartao-acesso.store",
+        "subjectKeyIdentifier": "keyid:07:63:f6:98:f5:52:02:f0:2c:8b:f7:0f:02:3d:5b:40:f6:55:bf:9b"
+      }
+    },
+    "cert_index": 242488102,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x947/219",
+    "seen": 1787521916.262,
+    "submission_timestamp": 1780341695.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

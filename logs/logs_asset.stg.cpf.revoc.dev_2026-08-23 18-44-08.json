@@ -1,0 +1,52 @@
+{
+  "dominio": "asset.stg.cpf.revoc.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 18:44:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "asset.stg.cpf.revoc.dev",
+        "aggregated": "/CN=asset.stg.cpf.revoc.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E11DEBFD554B438F6F5CA281E33493F",
+      "not_before": 1787356800,
+      "not_after": 1804463999,
+      "fingerprint": "8C:D8:46:74:FC:C1:21:9F:B6:84:D1:50:E9:98:A1:73:DA:05:5E:13",
+      "sha1": "8C:D8:46:74:FC:C1:21:9F:B6:84:D1:50:E9:98:A1:73:DA:05:5E:13",
+      "sha256": "89:79:7E:69:AB:82:4B:04:6D:88:51:E9:15:CD:4D:CD:16:D6:04:94:6B:86:8E:59:86:58:71:D4:EC:5B:EE:84",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "asset.stg.cpf.revoc.dev",
+        "*.asset.stg.cpf.revoc.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:asset.stg.cpf.revoc.dev, DNS:*.asset.stg.cpf.revoc.dev",
+        "subjectKeyIdentifier": "keyid:29:88:0a:b7:47:b2:1d:f4:b6:48:b7:68:c1:83:e1:14:16:5a:de:5b"
+      }
+    },
+    "cert_index": 52278223,
+    "cert_link": "https://halloumi2027h1.mon.ct.ipng.ch/tile/data/x204/211",
+    "seen": 1787521443.656,
+    "submission_timestamp": 1787377840.092,
+    "source": {
+      "name": "IPng Networks 'Halloumi2027h1'",
+      "url": "https://halloumi2027h1.mon.ct.ipng.ch"
+    }
+  }
+}
