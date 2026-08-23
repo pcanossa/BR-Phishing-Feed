@@ -1,0 +1,52 @@
+{
+  "dominio": "santanders.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/23/26 02:18:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanders.app",
+        "aggregated": "/CN=santanders.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06C216E4A30FF04F2EBF788CADE3687168C7",
+      "not_before": 1780058620,
+      "not_after": 1787834619,
+      "fingerprint": "A1:EA:03:66:04:80:87:AF:FB:FB:0B:B0:09:92:C6:65:D1:D8:A7:07",
+      "sha1": "A1:EA:03:66:04:80:87:AF:FB:FB:0B:B0:09:92:C6:65:D1:D8:A7:07",
+      "sha256": "CA:B6:BD:96:77:CD:0B:C6:23:9E:F6:F9:53:8D:DB:16:98:9B:A5:59:C1:94:B7:3B:3B:85:F3:44:16:0A:A7:F7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "santanders.app",
+        "*.santanders.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.santanders.app, DNS:santanders.app",
+        "subjectKeyIdentifier": "keyid:4f:3b:34:f7:f6:a3:66:07:ad:21:25:b3:29:3b:da:cc:f8:2a:88:cb"
+      }
+    },
+    "cert_index": 220255819,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x860/374",
+    "seen": 1787462322.205,
+    "submission_timestamp": 1780062130.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

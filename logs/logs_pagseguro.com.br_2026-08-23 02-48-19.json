@@ -1,0 +1,51 @@
+{
+  "dominio": "pagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 02:48:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.pagseguro.com.br",
+        "aggregated": "/CN=*.pagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0425724793F4F2C7541CD512AA039C18",
+      "not_before": 1781654400,
+      "not_after": 1798761599,
+      "fingerprint": "45:1E:BB:FA:38:3B:00:2C:B5:0A:16:9D:64:E2:73:DE:89:32:D5:37",
+      "sha1": "45:1E:BB:FA:38:3B:00:2C:B5:0A:16:9D:64:E2:73:DE:89:32:D5:37",
+      "sha256": "1F:36:2F:E6:11:18:03:67:C5:F6:C6:65:79:39:E5:73:C6:3B:31:C8:28:BC:C6:F4:3C:D6:FF:DE:4F:AE:BE:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.pagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.pagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:9b:69:8a:3c:38:4f:2b:7c:23:3c:74:d2:46:2b:a8:3a:f9:97:b9:d9"
+      }
+    },
+    "cert_index": 58724256,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x229/391",
+    "seen": 1787464097.692,
+    "submission_timestamp": 1781655231.627,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

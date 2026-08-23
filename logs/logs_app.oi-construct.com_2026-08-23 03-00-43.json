@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi-construct.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 03:00:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi-construct.com",
+        "aggregated": "/CN=app.oi-construct.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "016A2D2F1808DBA8D252BFFE6B1C4EC7",
+      "not_before": 1780012800,
+      "not_after": 1795996799,
+      "fingerprint": "1B:34:8E:9F:83:80:96:90:D2:7D:01:06:D1:CB:BE:61:BD:04:BD:06",
+      "sha1": "1B:34:8E:9F:83:80:96:90:D2:7D:01:06:D1:CB:BE:61:BD:04:BD:06",
+      "sha256": "41:FF:06:6B:0C:81:E2:FA:E0:B0:F9:4A:A4:07:E9:1C:BB:BC:F5:89:BC:A8:0C:1C:7C:B3:B1:BF:0F:7E:72:BB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi-construct.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.oi-construct.com",
+        "subjectKeyIdentifier": "keyid:c5:a1:b4:31:54:dc:18:d3:97:5d:0f:dc:63:18:22:6e:56:1e:99:b4"
+      }
+    },
+    "cert_index": 234280455,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x915/158",
+    "seen": 1787464842.129,
+    "submission_timestamp": 1780068664.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

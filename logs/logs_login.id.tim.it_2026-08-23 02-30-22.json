@@ -1,0 +1,56 @@
+{
+  "dominio": "login.id.tim.it",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/23/26 02:30:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "IT",
+        "CN": "login.id.tim.it",
+        "O": "Telecom Italia Trust Technologies SRL",
+        "ST": "Roma",
+        "aggregated": "/C=IT/CN=login.id.tim.it/O=Telecom Italia Trust Technologies SRL/ST=Roma"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "TI Trust Technologies OV CA",
+        "L": "Pomezia",
+        "O": "TI Trust Technologies S.R.L.",
+        "ST": "Roma",
+        "aggregated": "/C=IT/CN=TI Trust Technologies OV CA/L=Pomezia/O=TI Trust Technologies S.R.L./ST=Roma"
+      },
+      "serial_number": "AF7BB460EDB7077AAFA1CB613C58F53B",
+      "not_before": 1780012800,
+      "not_after": 1797206399,
+      "fingerprint": "C7:BB:E5:7D:BB:6C:72:4B:F6:C2:6D:4B:CB:0D:5E:84:E4:58:EC:75",
+      "sha1": "C7:BB:E5:7D:BB:6C:72:4B:F6:C2:6D:4B:CB:0D:5E:84:E4:58:EC:75",
+      "sha256": "EC:D3:2F:7C:38:AB:3B:D9:F2:7F:6E:C4:87:84:B7:61:79:50:3B:5F:D9:4A:60:0C:AF:CD:C3:50:6A:7E:78:0F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.id.tim.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://tiTrust.crt.sectigo.com/TITrustTechnologiesOVCA.crt, URI:http://tiTrust.ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:63:e5:3f:f8:cf:27:b1:31:19:2a:2b:5c:cd:ff:2e:71:fb:29:38:df",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.73\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.id.tim.it",
+        "subjectKeyIdentifier": "keyid:97:c2:b6:2d:34:00:2d:eb:df:45:9b:29:9b:05:7a:2a:d4:31:80:df"
+      }
+    },
+    "cert_index": 234017637,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x914/131",
+    "seen": 1787463018.92,
+    "submission_timestamp": 1780059921.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

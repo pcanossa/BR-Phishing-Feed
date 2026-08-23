@@ -1,0 +1,52 @@
+{
+  "dominio": "meucaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 03:05:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meucaixa.app",
+        "aggregated": "/CN=meucaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B846980E606DBEFC",
+      "not_before": 1782085450,
+      "not_after": 1799192650,
+      "fingerprint": "9C:8B:EA:FE:D2:2C:22:A4:AC:BF:DC:D6:8C:CE:25:82:1A:89:89:31",
+      "sha1": "9C:8B:EA:FE:D2:2C:22:A4:AC:BF:DC:D6:8C:CE:25:82:1A:89:89:31",
+      "sha256": "34:73:F2:3C:92:02:47:61:10:0B:D9:54:C8:8A:4C:49:15:F7:26:96:E0:EC:FF:BC:08:C8:F1:C4:8F:AD:13:90",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "meucaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:meucaixa.app",
+        "subjectKeyIdentifier": "keyid:42:29:29:c2:5b:24:02:6f:30:f8:9a:36:9c:96:f7:cc:92:19:77:d5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 62653088,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=62653088&end=62653088",
+    "seen": 1787465099.547,
+    "submission_timestamp": 1782085451.907,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

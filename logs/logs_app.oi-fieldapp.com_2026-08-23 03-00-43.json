@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi-fieldapp.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 03:00:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi-fieldapp.com",
+        "aggregated": "/CN=app.oi-fieldapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "076AB57894E8FBC8466D91383C6518A4",
+      "not_before": 1780012800,
+      "not_after": 1795996799,
+      "fingerprint": "F3:EC:48:78:F1:15:BA:13:A1:80:B0:CD:1C:33:69:73:79:0A:69:89",
+      "sha1": "F3:EC:48:78:F1:15:BA:13:A1:80:B0:CD:1C:33:69:73:79:0A:69:89",
+      "sha256": "A7:31:D6:02:B6:D3:0C:BB:D1:3E:76:44:CE:E3:D3:C4:B8:3E:9E:8A:05:94:F9:10:B4:9B:88:6A:E9:43:F9:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi-fieldapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.oi-fieldapp.com",
+        "subjectKeyIdentifier": "keyid:4d:b7:47:7b:4f:72:f5:6f:f2:05:38:48:c6:e1:3e:d2:e3:98:23:e1"
+      }
+    },
+    "cert_index": 234280652,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x915/158",
+    "seen": 1787464842.185,
+    "submission_timestamp": 1780068670.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

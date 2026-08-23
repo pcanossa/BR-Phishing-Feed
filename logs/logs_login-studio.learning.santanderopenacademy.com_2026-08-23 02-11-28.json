@@ -1,0 +1,57 @@
+{
+  "dominio": "login-studio.learning.santanderopenacademy.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/23/26 02:11:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "ES",
+        "CN": "learning.santanderopenacademy.com",
+        "O": "GRUPO SANTANDER",
+        "ST": "Cantabria",
+        "aggregated": "/C=ES/CN=learning.santanderopenacademy.com/O=GRUPO SANTANDER/ST=Cantabria"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "6E2B7487321CEDB6379C7F52694984E9",
+      "not_before": 1781481600,
+      "not_after": 1798675199,
+      "fingerprint": "2B:DD:4C:AD:9C:E1:ED:C2:6A:C8:54:A5:D7:C3:AA:D7:35:2D:CF:F4",
+      "sha1": "2B:DD:4C:AD:9C:E1:ED:C2:6A:C8:54:A5:D7:C3:AA:D7:35:2D:CF:F4",
+      "sha256": "DF:FB:85:08:7B:BD:EF:8F:92:1E:EB:F9:52:7D:C0:FA:74:52:3F:E3:0F:77:0A:DE:A5:9F:4E:98:F0:43:61:C9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "learning.santanderopenacademy.com",
+        "lms.learning.santanderopenacademy.com",
+        "login-studio.learning.santanderopenacademy.com",
+        "studio.learning.santanderopenacademy.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:learning.santanderopenacademy.com, DNS:lms.learning.santanderopenacademy.com, DNS:login-studio.learning.santanderopenacademy.com, DNS:studio.learning.santanderopenacademy.com",
+        "subjectKeyIdentifier": "keyid:19:c7:87:eb:e5:2e:18:6c:a1:1a:47:77:34:c8:32:da:d9:d3:a9:69"
+      }
+    },
+    "cert_index": 64890019,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x253/476",
+    "seen": 1787461884.338,
+    "submission_timestamp": 1781531286.139,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
