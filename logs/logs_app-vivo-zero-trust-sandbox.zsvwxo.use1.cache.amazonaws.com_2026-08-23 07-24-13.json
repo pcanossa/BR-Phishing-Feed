@@ -1,0 +1,52 @@
+{
+  "dominio": "app-vivo-zero-trust-sandbox.zsvwxo.use1.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "08/23/26 07:24:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app-vivo-zero-trust-sandbox.zsvwxo.use1.cache.amazonaws.com",
+        "aggregated": "/CN=*.app-vivo-zero-trust-sandbox.zsvwxo.use1.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0EC40E3BE0DC851A0557A1E0603137DB",
+      "not_before": 1785715200,
+      "not_after": 1802822399,
+      "fingerprint": "57:C5:11:AB:67:7D:20:0A:70:F0:48:65:B4:E0:76:45:6A:BD:8A:6F",
+      "sha1": "57:C5:11:AB:67:7D:20:0A:70:F0:48:65:B4:E0:76:45:6A:BD:8A:6F",
+      "sha256": "61:0E:5B:CC:24:FA:6B:DA:28:AE:4D:7B:D4:7D:70:08:FD:77:FF:35:8A:E7:A9:75:05:0C:01:02:28:3A:75:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app-vivo-zero-trust-sandbox.zsvwxo.use1.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app-vivo-zero-trust-sandbox.zsvwxo.use1.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:45:f2:d8:73:d2:e3:72:42:94:49:a7:ab:23:fd:e2:ae:05:d9:15:1c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 40222606,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=40222606&end=40222606",
+    "seen": 1787480651.038,
+    "submission_timestamp": 1785771581.306,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

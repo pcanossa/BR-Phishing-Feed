@@ -1,0 +1,52 @@
+{
+  "dominio": "whatsappauth.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 08:04:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "whatsappauth.api.itau.com",
+        "aggregated": "/CN=whatsappauth.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "08E0F3932664484EEB49D9FF7EFC14F4",
+      "not_before": 1782172800,
+      "not_after": 1799279999,
+      "fingerprint": "A5:94:3F:10:63:0B:D5:DA:D0:B6:2C:4B:50:37:B2:11:95:A7:02:F8",
+      "sha1": "A5:94:3F:10:63:0B:D5:DA:D0:B6:2C:4B:50:37:B2:11:95:A7:02:F8",
+      "sha256": "8E:86:B2:6E:CC:48:84:6C:99:52:A0:69:C9:A5:A0:30:E0:59:7B:97:6F:13:A7:B3:00:E2:7D:BF:B3:C2:63:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "whatsappauth.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:whatsappauth.api.itau.com",
+        "subjectKeyIdentifier": "keyid:33:30:59:07:28:43:77:b1:87:49:94:39:35:5b:1d:84:03:91:f3:68",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 64881449,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=64881449&end=64881449",
+    "seen": 1787483047.651,
+    "submission_timestamp": 1782173804.112,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

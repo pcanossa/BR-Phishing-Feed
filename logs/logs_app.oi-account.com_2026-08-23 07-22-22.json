@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi-account.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 07:22:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi-account.com",
+        "aggregated": "/CN=app.oi-account.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0D752500A3A7E15264451C5EA8D242F0",
+      "not_before": 1780012800,
+      "not_after": 1795996799,
+      "fingerprint": "E6:86:81:08:B7:B8:2F:3F:35:70:64:15:87:D6:6C:C9:BC:33:94:BB",
+      "sha1": "E6:86:81:08:B7:B8:2F:3F:35:70:64:15:87:D6:6C:C9:BC:33:94:BB",
+      "sha256": "67:EE:2C:D1:27:E6:3A:90:99:A4:C9:B2:90:18:1F:E5:AC:C2:AD:BD:0F:B7:34:2B:84:EC:8C:A5:9A:5B:8F:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi-account.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.oi-account.com",
+        "subjectKeyIdentifier": "keyid:e1:d2:d1:14:c6:7f:57:dd:ca:b9:b9:0b:cb:d0:48:80:f9:cf:ac:55"
+      }
+    },
+    "cert_index": 357284664,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x395/643",
+    "seen": 1787480537.552,
+    "submission_timestamp": 1780066903.444,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

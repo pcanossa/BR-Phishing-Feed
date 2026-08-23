@@ -1,0 +1,53 @@
+{
+  "dominio": "limpa-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 07:58:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "limpa-debitos.com",
+        "aggregated": "/CN=limpa-debitos.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "E0F5240448CE263F8DA40C14E251CFB5",
+      "not_before": 1779148800,
+      "not_after": 1786954896,
+      "fingerprint": "39:4B:36:36:40:D6:D0:4D:9B:6D:01:94:7C:AF:5C:C8:21:22:5E:5C",
+      "sha1": "39:4B:36:36:40:D6:D0:4D:9B:6D:01:94:7C:AF:5C:C8:21:22:5E:5C",
+      "sha256": "27:5A:D9:89:B0:67:FB:02:95:DA:A7:94:5F:CB:73:2B:2A:21:5F:E0:98:50:7E:B3:5A:97:1C:B4:7D:FB:24:94",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "limpa-debitos.com",
+        "*.limpa-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:limpa-debitos.com, DNS:*.limpa-debitos.com",
+        "subjectKeyIdentifier": "keyid:16:43:14:2c:7a:1a:af:90:65:73:98:04:7b:24:76:46:34:ae:21:87",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 692330419,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=692330419&end=692330419",
+    "seen": 1787482720.33,
+    "submission_timestamp": 1779179183.657,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

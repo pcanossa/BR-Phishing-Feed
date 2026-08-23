@@ -1,0 +1,52 @@
+{
+  "dominio": "www.meucaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 07:49:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.meucaixa.app",
+        "aggregated": "/CN=www.meucaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "FB84503B95683864",
+      "not_before": 1782080190,
+      "not_after": 1799187390,
+      "fingerprint": "44:18:17:21:63:9F:87:70:70:A2:52:31:2F:4B:8C:E1:51:8C:9F:97",
+      "sha1": "44:18:17:21:63:9F:87:70:70:A2:52:31:2F:4B:8C:E1:51:8C:9F:97",
+      "sha256": "23:44:53:C9:66:4A:51:F9:D3:7F:39:5B:D6:68:85:FA:35:27:29:56:2C:4C:EE:88:41:B3:69:DD:AC:D4:7C:4E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.meucaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.meucaixa.app",
+        "subjectKeyIdentifier": "keyid:b3:7f:86:fe:65:70:69:76:c6:97:19:52:51:2c:6c:c2:af:e6:d9:0d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 92801455,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=92801455&end=92801455",
+    "seen": 1787482173.394,
+    "submission_timestamp": 1782080191.386,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
