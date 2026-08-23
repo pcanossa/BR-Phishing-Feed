@@ -1,0 +1,60 @@
+{
+  "dominio": "usphx-oi-oms-a.usgovcloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 04:28:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "oms-ssl202002usphx.oms.opinsights.azure.us",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=oms-ssl202002usphx.oms.opinsights.azure.us/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 10",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 10/O=Microsoft Corporation"
+      },
+      "serial_number": "49006E362C47E0A3D6128678800000006E362C",
+      "not_before": 1783236130,
+      "not_after": 1798788130,
+      "fingerprint": "AF:E0:BA:52:0A:AC:D5:B7:F7:5F:AE:C0:B9:67:25:2D:AD:21:A7:75",
+      "sha1": "AF:E0:BA:52:0A:AC:D5:B7:F7:5F:AE:C0:B9:67:25:2D:AD:21:A7:75",
+      "sha256": "65:7B:0D:AE:1A:B6:C6:CF:94:27:D6:B1:2F:38:ED:D7:0D:6D:91:18:EE:CB:17:B6:68:5B:CB:77:72:4A:DC:75",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "oms-ssl202002usphx.oms.opinsights.azure.us",
+        "*.oms.opinsights.azure.us",
+        "usphx-oi-oms-a.usgovcloudapp.net",
+        "usphx-oi-oms.usgovtrafficmanager.net",
+        "usphx-oi-oms-b.usgovcloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2010.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:d0:4c:83:d1:8e:71:2e:3d:34:b1:ff:9b:79:2c:8e:74:d4:e2:78:06",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.oms.opinsights.azure.us, DNS:usphx-oi-oms-a.usgovcloudapp.net, DNS:usphx-oi-oms.usgovtrafficmanager.net, DNS:usphx-oi-oms-b.usgovcloudapp.net, DNS:oms-ssl202002usphx.oms.opinsights.azure.us",
+        "subjectKeyIdentifier": "keyid:2a:2a:8f:4b:bd:2e:ba:57:10:3c:a6:27:f7:71:2b:c3:b6:43:df:b0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 37684978,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=37684978&end=37684978",
+    "seen": 1787470086.459,
+    "submission_timestamp": 1783236734.947,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

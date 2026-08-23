@@ -1,0 +1,65 @@
+{
+  "dominio": "jenkins.app.us-west-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 04:52:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=jenkins.app.us-west-1.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0BD1A2C1A59963F0C9E831AAA0064B8E",
+      "not_before": 1780099200,
+      "not_after": 1787876794,
+      "fingerprint": "62:F8:31:89:F6:F0:12:8E:55:48:6A:34:F5:9C:DE:AE:13:F5:AC:A2",
+      "sha1": "62:F8:31:89:F6:F0:12:8E:55:48:6A:34:F5:9C:DE:AE:13:F5:AC:A2",
+      "sha256": "A9:8C:DD:24:48:98:97:BD:38:77:AE:A0:A0:9A:AA:E9:55:50:35:7B:A7:E4:EA:CA:3D:18:7C:2D:5D:23:D7:C7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "jenkins-mimir-controller.cluster.us-west-1.test.cloud.netflix.net",
+        "jenkins.dyntest.netflix.net",
+        "jenkins.test.netflix.net",
+        "jenkins.us-west-1.dyntest.netflix.net",
+        "jenkins.us-west-1.test.netflix.net",
+        "mimir.builds.test.netflix.net",
+        "mimir.jenkins.dyntest.netflix.net",
+        "mimir.jenkins.test.netflix.net",
+        "mimir.jenkins.us-west-1.dyntest.netflix.net",
+        "mimir.jenkins.us-west-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:jenkins-mimir-controller.cluster.us-west-1.test.cloud.netflix.net, DNS:jenkins.app.us-west-1.test.cloud.netflix.net, DNS:jenkins.dyntest.netflix.net, DNS:jenkins.test.netflix.net, DNS:jenkins.us-west-1.dyntest.netflix.net, DNS:jenkins.us-west-1.test.netflix.net, DNS:mimir.builds.test.netflix.net, DNS:mimir.jenkins.dyntest.netflix.net, DNS:mimir.jenkins.test.netflix.net, DNS:mimir.jenkins.us-west-1.dyntest.netflix.net, DNS:mimir.jenkins.us-west-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:46:c4:0f:68:96:ff:0f:b8:f9:5f:93:8c:66:87:38:5a:3e:57:27:a2"
+      }
+    },
+    "cert_index": 235247325,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x918/934",
+    "seen": 1787471556.265,
+    "submission_timestamp": 1780100796.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

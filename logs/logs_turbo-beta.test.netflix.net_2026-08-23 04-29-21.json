@@ -1,0 +1,51 @@
+{
+  "dominio": "turbo-beta.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 04:29:21",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "turbo-beta.test.netflix.net",
+        "aggregated": "/CN=turbo-beta.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "0884701D313D1F90112BBA621A998C20",
+      "not_before": 1780067190,
+      "not_after": 1787843189,
+      "fingerprint": "79:DF:2C:C1:30:FC:DA:E8:7E:6E:7D:BF:FB:81:A4:D9:12:A5:F5:73",
+      "sha1": "79:DF:2C:C1:30:FC:DA:E8:7E:6E:7D:BF:FB:81:A4:D9:12:A5:F5:73",
+      "sha256": "AB:E0:A3:88:CF:DC:9B:AA:10:36:3F:45:C5:99:77:90:A8:DE:EB:43:7C:B2:81:FA:9F:C8:01:B1:D1:F9:CB:44",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "turbo-beta.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/CIQ, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:turbo-beta.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:7a:e7:c8:8c:84:67:28:bf:b1:a5:5f:f6:b1:ca:42:44:37:38:6c:29"
+      }
+    },
+    "cert_index": 235044153,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x918/141",
+    "seen": 1787470160.556,
+    "submission_timestamp": 1780094802.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

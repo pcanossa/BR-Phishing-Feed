@@ -1,0 +1,51 @@
+{
+  "dominio": "boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 04:30:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com",
+        "aggregated": "/CN=boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0F93B7B6A46746DEC64160CF3211BB34",
+      "not_before": 1751155200,
+      "not_after": 1785283199,
+      "fingerprint": "47:1A:67:D9:23:4D:CA:A5:EC:EB:BA:6C:D7:E8:1C:4B:19:CC:3C:0D",
+      "sha1": "47:1A:67:D9:23:4D:CA:A5:EC:EB:BA:6C:D7:E8:1C:4B:19:CC:3C:0D",
+      "sha256": "A0:76:EB:77:92:E4:B0:77:4B:3E:00:58:F5:CC:EB:A6:DF:B0:55:9A:40:1E:0C:E3:90:EA:37:F7:66:5D:EF:0E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:c8:54:4a:66:c7:5d:4f:a1:d8:83:4f:06:b7:a8:24:23:e6:b6:65:23"
+      }
+    },
+    "cert_index": 221362654,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x864/697",
+    "seen": 1787470232.539,
+    "submission_timestamp": 1780101356.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

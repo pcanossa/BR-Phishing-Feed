@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-redis-valkey-dev-ue1.0iicv8.use1.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 05:04:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf-redis-valkey-dev-ue1.0iicv8.use1.cache.amazonaws.com",
+        "aggregated": "/CN=*.cpf-redis-valkey-dev-ue1.0iicv8.use1.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0C37EF6ED94E71EF4A0D22B22E0C8261",
+      "not_before": 1781654400,
+      "not_after": 1798761599,
+      "fingerprint": "74:BC:58:F0:2C:AB:1B:4A:13:DF:25:D5:D3:F0:9D:27:0C:D8:4E:81",
+      "sha1": "74:BC:58:F0:2C:AB:1B:4A:13:DF:25:D5:D3:F0:9D:27:0C:D8:4E:81",
+      "sha256": "B6:65:85:15:F9:E3:55:2F:49:91:AF:EF:65:77:C6:52:FD:7B:90:3A:64:7D:F3:84:A1:93:98:93:5F:69:42:53",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-redis-valkey-dev-ue1.0iicv8.use1.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-redis-valkey-dev-ue1.0iicv8.use1.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:56:cc:fe:0e:e3:3a:21:9f:b2:13:f0:3e:e7:08:21:3d:ce:b8:5a:34"
+      }
+    },
+    "cert_index": 66477986,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x259/679",
+    "seen": 1787472260.197,
+    "submission_timestamp": 1781665073.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

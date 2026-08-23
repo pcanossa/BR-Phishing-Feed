@@ -1,0 +1,51 @@
+{
+  "dominio": "manav.audit.us-west-2.beta.cpf-enrollment.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 04:30:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "manav.audit.us-west-2.beta.cpf-enrollment.consumables.amazon.dev",
+        "aggregated": "/CN=manav.audit.us-west-2.beta.cpf-enrollment.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "022EDFC742C549AAAFAA0168612F5DDB",
+      "not_before": 1780099200,
+      "not_after": 1797206399,
+      "fingerprint": "09:88:48:13:C5:18:CD:C2:4D:29:24:10:9B:C7:54:13:F7:0E:C3:53",
+      "sha1": "09:88:48:13:C5:18:CD:C2:4D:29:24:10:9B:C7:54:13:F7:0E:C3:53",
+      "sha256": "FA:51:0D:D7:BE:C5:31:02:7B:C6:36:35:21:BD:20:1A:62:F9:CC:DF:72:5C:FB:F9:03:1E:FA:2D:3D:41:1F:3E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "manav.audit.us-west-2.beta.cpf-enrollment.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:manav.audit.us-west-2.beta.cpf-enrollment.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:46:98:77:c4:db:e7:46:86:68:80:02:89:d5:c6:45:f1:20:e9:66:35"
+      }
+    },
+    "cert_index": 221359483,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x864/685",
+    "seen": 1787470209.57,
+    "submission_timestamp": 1780101277.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

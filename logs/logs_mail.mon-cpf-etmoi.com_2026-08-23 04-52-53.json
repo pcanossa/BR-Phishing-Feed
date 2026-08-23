@@ -1,0 +1,55 @@
+{
+  "dominio": "mail.mon-cpf-etmoi.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 04:52:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mail.mon-cpf-etmoi.com",
+        "aggregated": "/CN=mail.mon-cpf-etmoi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068E9B90E477C37855F20D786D70D4CC264D",
+      "not_before": 1779239528,
+      "not_after": 1787015527,
+      "fingerprint": "83:4A:0C:61:28:53:87:43:73:92:79:17:77:A3:FA:47:7B:91:55:A6",
+      "sha1": "83:4A:0C:61:28:53:87:43:73:92:79:17:77:A3:FA:47:7B:91:55:A6",
+      "sha256": "8B:9F:C4:1B:AD:6A:83:98:56:4A:55:C1:5E:E3:07:E1:2D:FF:05:39:22:82:95:43:2B:5D:F1:3F:3A:F2:A6:FC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "mail.mon-cpf-etmoi.com",
+        "imap.mon-cpf-etmoi.com",
+        "pop.mon-cpf-etmoi.com",
+        "smtp.mon-cpf-etmoi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:imap.mon-cpf-etmoi.com, DNS:mail.mon-cpf-etmoi.com, DNS:pop.mon-cpf-etmoi.com, DNS:smtp.mon-cpf-etmoi.com",
+        "subjectKeyIdentifier": "keyid:eb:1b:f6:3d:a9:e8:92:78:6a:71:bb:e3:87:86:d4:60:a9:bd:b0:f0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 822081665,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=822081665&end=822081665",
+    "seen": 1787471571.495,
+    "submission_timestamp": 1779243038.468,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

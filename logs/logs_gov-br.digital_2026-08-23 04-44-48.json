@@ -1,0 +1,52 @@
+{
+  "dominio": "gov-br.digital",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "08/23/26 04:44:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gov-br.digital",
+        "aggregated": "/CN=gov-br.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "060BFDBE1049B2230F0CF7E40FA490568808",
+      "not_before": 1780095852,
+      "not_after": 1787871851,
+      "fingerprint": "92:13:E7:9D:E7:55:10:DE:3E:95:79:C4:E2:6A:F2:4B:65:BF:C5:4E",
+      "sha1": "92:13:E7:9D:E7:55:10:DE:3E:95:79:C4:E2:6A:F2:4B:65:BF:C5:4E",
+      "sha256": "50:70:BD:33:53:42:F4:32:C4:36:15:76:08:F7:EB:62:4B:D0:D4:B6:4E:87:12:1D:42:B2:BA:4C:E2:3E:52:A0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "gov-br.digital",
+        "*.gov-br.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.gov-br.digital, DNS:gov-br.digital",
+        "subjectKeyIdentifier": "keyid:54:61:ec:05:30:f7:6d:4f:a2:0d:9f:6f:21:7d:5e:05:f8:62:f8:07"
+      }
+    },
+    "cert_index": 235179054,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x918/668",
+    "seen": 1787471086.847,
+    "submission_timestamp": 1780099363.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 04:48:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com",
+        "aggregated": "/CN=boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A67CB97CA83F0FB16E364A805BC46E3",
+      "not_before": 1780099200,
+      "not_after": 1797206399,
+      "fingerprint": "48:99:FB:F2:43:29:33:4B:3C:14:59:5A:0B:AD:B6:60:6E:87:6D:22",
+      "sha1": "48:99:FB:F2:43:29:33:4B:3C:14:59:5A:0B:AD:B6:60:6E:87:6D:22",
+      "sha256": "E5:8A:C1:1C:2A:17:F4:63:78:F1:F0:50:EB:F2:76:83:C5:EA:E4:7A:DF:AA:EA:85:1A:8A:BA:03:1C:3C:7A:B2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boletos-cartoes-v1-pagamentos-cartoes-ext.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:54:03:54:e5:10:54:44:b8:1e:24:14:2a:3f:14:1c:46:e1:30:f8:d9"
+      }
+    },
+    "cert_index": 235213315,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x918/802",
+    "seen": 1787471324.4,
+    "submission_timestamp": 1780100130.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

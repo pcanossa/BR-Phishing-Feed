@@ -1,0 +1,65 @@
+{
+  "dominio": "jenkins.app.us-west-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 04:27:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=jenkins.app.us-west-1.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0658E23D4118C98CAC621BFFA565CAC5",
+      "not_before": 1780099200,
+      "not_after": 1787876832,
+      "fingerprint": "E4:61:6B:93:6E:75:90:50:A1:F7:3F:BC:F6:1F:5B:D7:09:C9:5A:4B",
+      "sha1": "E4:61:6B:93:6E:75:90:50:A1:F7:3F:BC:F6:1F:5B:D7:09:C9:5A:4B",
+      "sha256": "35:C4:1F:57:D3:97:52:7A:05:80:0A:9B:A0:7E:27:82:EA:63:EE:1A:DB:09:62:95:8D:12:99:B4:05:76:92:3A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "jenkins-uiplatform-controller.cluster.us-west-1.test.cloud.netflix.net",
+        "jenkins.dyntest.netflix.net",
+        "jenkins.test.netflix.net",
+        "jenkins.us-west-1.dyntest.netflix.net",
+        "jenkins.us-west-1.test.netflix.net",
+        "uiplatform.builds.test.netflix.net",
+        "uiplatform.jenkins.dyntest.netflix.net",
+        "uiplatform.jenkins.test.netflix.net",
+        "uiplatform.jenkins.us-west-1.dyntest.netflix.net",
+        "uiplatform.jenkins.us-west-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:jenkins-uiplatform-controller.cluster.us-west-1.test.cloud.netflix.net, DNS:jenkins.app.us-west-1.test.cloud.netflix.net, DNS:jenkins.dyntest.netflix.net, DNS:jenkins.test.netflix.net, DNS:jenkins.us-west-1.dyntest.netflix.net, DNS:jenkins.us-west-1.test.netflix.net, DNS:uiplatform.builds.test.netflix.net, DNS:uiplatform.jenkins.dyntest.netflix.net, DNS:uiplatform.jenkins.test.netflix.net, DNS:uiplatform.jenkins.us-west-1.dyntest.netflix.net, DNS:uiplatform.jenkins.us-west-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:c9:18:36:1b:35:03:af:0c:a6:39:3a:76:cb:70:7e:a7:52:84:80:d6"
+      }
+    },
+    "cert_index": 221341292,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x864/614",
+    "seen": 1787470073.983,
+    "submission_timestamp": 1780100833.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

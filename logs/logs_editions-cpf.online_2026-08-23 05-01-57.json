@@ -1,0 +1,53 @@
+{
+  "dominio": "editions-cpf.online",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 05:01:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.editions-cpf.online",
+        "aggregated": "/CN=*.editions-cpf.online"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "2F1B73F7EF1FCF365A172DC8CA5C620F",
+      "not_before": 1779235200,
+      "not_after": 1796083199,
+      "fingerprint": "0D:96:83:32:8F:33:C1:27:1A:D0:F1:4C:D7:72:1A:5F:1F:E2:1C:52",
+      "sha1": "0D:96:83:32:8F:33:C1:27:1A:D0:F1:4C:D7:72:1A:5F:1F:E2:1C:52",
+      "sha256": "24:3B:C7:A7:08:74:0E:74:A9:5C:FD:46:AC:E6:90:B6:11:A6:9A:04:E5:B9:53:55:60:72:F3:B2:95:19:4E:24",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.editions-cpf.online",
+        "editions-cpf.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.editions-cpf.online, DNS:editions-cpf.online",
+        "subjectKeyIdentifier": "keyid:f3:a4:c5:91:e1:ea:b4:10:28:bd:60:ba:e1:23:8e:75:97:36:48:c9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 822162607,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=822162607&end=822162607",
+    "seen": 1787472115.506,
+    "submission_timestamp": 1779243548.834,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

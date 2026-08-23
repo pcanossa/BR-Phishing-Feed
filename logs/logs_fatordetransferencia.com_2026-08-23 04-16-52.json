@@ -1,0 +1,51 @@
+{
+  "dominio": "fatordetransferencia.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/23/26 04:16:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatordetransferencia.com",
+        "aggregated": "/CN=fatordetransferencia.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "FEB89C3B2DD8FAE7",
+      "not_before": 1782036836,
+      "not_after": 1799144036,
+      "fingerprint": "6E:DC:06:03:49:F8:D1:BA:DA:3A:3A:A0:A4:D7:EE:EF:8D:C1:3B:C0",
+      "sha1": "6E:DC:06:03:49:F8:D1:BA:DA:3A:3A:A0:A4:D7:EE:EF:8D:C1:3B:C0",
+      "sha256": "B1:1C:BD:17:4F:35:E2:79:29:95:80:B5:1F:9B:9C:DE:86:51:6F:68:DB:2A:83:CA:51:0C:13:D7:D4:28:E0:2E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "fatordetransferencia.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:fatordetransferencia.com",
+        "subjectKeyIdentifier": "keyid:17:d4:ba:07:91:5f:9c:ed:72:a6:09:06:01:1f:f8:64:a9:6f:0e:61"
+      }
+    },
+    "cert_index": 91326791,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=91326791&end=91326791",
+    "seen": 1787469410.244,
+    "submission_timestamp": 1782036906.92,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
