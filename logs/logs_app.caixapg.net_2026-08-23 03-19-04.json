@@ -1,0 +1,51 @@
+{
+  "dominio": "app.caixapg.net",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 03:19:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.caixapg.net",
+        "aggregated": "/CN=app.caixapg.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "08057179ECA216B8308CAC123402A7CE",
+      "not_before": 1781568000,
+      "not_after": 1798675199,
+      "fingerprint": "60:80:F8:9B:5F:5D:4C:78:BD:9D:28:EE:75:08:AB:78:4D:2B:F2:9A",
+      "sha1": "60:80:F8:9B:5F:5D:4C:78:BD:9D:28:EE:75:08:AB:78:4D:2B:F2:9A",
+      "sha256": "B1:A3:4E:1D:01:38:49:C5:5F:EA:D2:00:BA:5B:C3:A0:B5:C7:0E:07:87:84:F5:7C:14:8A:0B:A0:02:C2:88:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.caixapg.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.caixapg.net",
+        "subjectKeyIdentifier": "keyid:b9:6b:70:4a:96:e6:bf:1e:8f:13:4a:7e:a4:cd:ad:43:e3:d7:08:92"
+      }
+    },
+    "cert_index": 65565511,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x256/115",
+    "seen": 1787465941.276,
+    "submission_timestamp": 1781587378.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "sancionados-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 03:21:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "84F80FFB22FE15A20E3BED274ACE01E0",
+      "not_before": 1779234156,
+      "not_after": 1787013752,
+      "fingerprint": "D4:66:91:C2:0F:9A:E3:0E:93:E0:B8:67:C2:3A:AC:B8:AC:CF:34:CD",
+      "sha1": "D4:66:91:C2:0F:9A:E3:0E:93:E0:B8:67:C2:3A:AC:B8:AC:CF:34:CD",
+      "sha256": "73:A2:F3:E0:D3:56:EB:09:A3:8A:63:3B:3E:71:EE:61:B3:7A:BD:08:CC:4F:D3:A0:21:24:6B:C6:FD:DE:9D:A4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "sancionados-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/hPg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:sancionados-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:f3:71:15:8e:93:b0:91:bc:7d:35:d9:3a:31:3f:c6:0d:4b:1c:52:07",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 821281391,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=821281391&end=821281391",
+    "seen": 1787466101.069,
+    "submission_timestamp": 1779237757.395,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

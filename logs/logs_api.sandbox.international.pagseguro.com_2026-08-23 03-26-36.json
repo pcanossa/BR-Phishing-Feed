@@ -1,0 +1,51 @@
+{
+  "dominio": "api.sandbox.international.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 03:26:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.sandbox.international.pagseguro.com",
+        "aggregated": "/CN=api.sandbox.international.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "03B6832152E4850A5785C2049A4F3DC0",
+      "not_before": 1781568000,
+      "not_after": 1798675199,
+      "fingerprint": "A6:A4:37:1E:A9:95:3D:83:53:11:F7:F5:6E:77:F8:4A:E2:72:0F:01",
+      "sha1": "A6:A4:37:1E:A9:95:3D:83:53:11:F7:F5:6E:77:F8:4A:E2:72:0F:01",
+      "sha256": "60:81:49:CC:D9:B4:F8:62:CB:1B:D4:58:68:11:A7:BF:B2:9D:57:D3:1D:B1:EE:5B:59:7F:2B:78:5D:1D:48:2E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.sandbox.international.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.sandbox.international.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:f9:3c:6c:11:e3:99:f7:9c:e0:48:25:6b:ae:95:1a:15:b8:22:a9:ce"
+      }
+    },
+    "cert_index": 65630344,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x256/368",
+    "seen": 1787466395.322,
+    "submission_timestamp": 1781592487.14,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

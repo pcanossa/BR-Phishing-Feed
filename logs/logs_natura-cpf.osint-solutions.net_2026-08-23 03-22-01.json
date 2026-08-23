@@ -1,0 +1,53 @@
+{
+  "dominio": "natura-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 03:22:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "209BEE6134529BC50ECF9A40F835E1B7",
+      "not_before": 1779234177,
+      "not_after": 1787013775,
+      "fingerprint": "56:BE:62:DB:F5:D9:92:53:F6:EA:73:EE:61:C4:6F:B1:F5:EE:D5:DC",
+      "sha1": "56:BE:62:DB:F5:D9:92:53:F6:EA:73:EE:61:C4:6F:B1:F5:EE:D5:DC",
+      "sha256": "B1:7E:F9:ED:9B:A9:F5:25:88:D5:8F:35:E0:EA:54:9D:B6:FB:24:22:C4:4C:CB:5D:9E:BD:4C:16:EB:DC:41:84",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "natura-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/IJs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:natura-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:42:c1:5a:4e:ec:e9:ef:24:7c:0b:5f:33:b5:14:c1:f7:5e:42:05:48",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 821283971,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=821283971&end=821283971",
+    "seen": 1787466119.357,
+    "submission_timestamp": 1779237778.254,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.debitos.sesytel.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 03:14:29",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debitos.sesytel.com",
+        "aggregated": "/CN=www.debitos.sesytel.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0553516B9DF6CEAA1BD6EE2D9EAB5EA82B5E",
+      "not_before": 1779400367,
+      "not_after": 1787176366,
+      "fingerprint": "86:F2:97:E8:3F:A2:D5:74:93:D3:8D:A7:0D:83:27:74:C7:1F:C8:6B",
+      "sha1": "86:F2:97:E8:3F:A2:D5:74:93:D3:8D:A7:0D:83:27:74:C7:1F:C8:6B",
+      "sha256": "0C:0A:60:38:E5:D8:05:ED:C8:0C:44:51:AB:21:29:57:7D:BB:BF:13:CD:1A:EB:35:61:C0:30:1D:79:D8:D1:C0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debitos.sesytel.com",
+        "debitos.sesytel.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitos.sesytel.com, DNS:www.debitos.sesytel.com",
+        "subjectKeyIdentifier": "keyid:82:e6:86:53:75:ec:52:c4:dd:dd:51:50:c7:6f:75:5a:e3:8c:91:1b"
+      }
+    },
+    "cert_index": 4378104597,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4378104597&end=4378104597",
+    "seen": 1787465665.498,
+    "submission_timestamp": 1779404033.453,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

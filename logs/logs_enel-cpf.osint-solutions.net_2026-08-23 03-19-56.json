@@ -1,0 +1,53 @@
+{
+  "dominio": "enel-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 03:19:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "07E5FFE913EFCA1F0E3CE550CBAC4DBB",
+      "not_before": 1779234046,
+      "not_after": 1787013643,
+      "fingerprint": "6B:6F:FD:AA:4D:C8:2E:30:1B:5D:EE:C2:D1:19:52:5E:7A:57:CB:85",
+      "sha1": "6B:6F:FD:AA:4D:C8:2E:30:1B:5D:EE:C2:D1:19:52:5E:7A:57:CB:85",
+      "sha256": "BA:2B:CE:DC:B0:69:EA:8B:4C:26:94:5F:5A:D6:32:54:05:D3:2A:32:0A:12:CD:27:7D:9D:59:A6:8B:F1:2E:2C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "enel-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/B-U, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:enel-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:b1:d1:4b:78:ba:98:ec:e3:66:42:0e:da:77:6e:94:88:3c:1a:26:90",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 821264759,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=821264759&end=821264759",
+    "seen": 1787465992.691,
+    "submission_timestamp": 1779237647.113,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

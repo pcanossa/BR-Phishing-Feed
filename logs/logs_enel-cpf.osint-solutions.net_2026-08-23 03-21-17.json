@@ -1,0 +1,52 @@
+{
+  "dominio": "enel-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 03:21:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "07E5FFE913EFCA1F0E3CE550CBAC4DBB",
+      "not_before": 1779234046,
+      "not_after": 1787013643,
+      "fingerprint": "33:D0:C0:6B:27:0E:7C:C1:CF:BE:61:6A:74:FC:F5:D1:6F:B7:AC:55",
+      "sha1": "33:D0:C0:6B:27:0E:7C:C1:CF:BE:61:6A:74:FC:F5:D1:6F:B7:AC:55",
+      "sha256": "F9:79:64:A4:72:91:70:AE:64:D4:E6:4A:1D:04:BD:CC:AE:2F:74:CF:1A:C0:10:77:91:69:54:63:BA:CD:39:C3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "enel-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/B-U, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:enel-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:b1:d1:4b:78:ba:98:ec:e3:66:42:0e:da:77:6e:94:88:3c:1a:26:90"
+      }
+    },
+    "cert_index": 821277207,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=821277207&end=821277207",
+    "seen": 1787466073.915,
+    "submission_timestamp": 1779237728.491,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dominio": "claro-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf",
+    "claro"
+  ],
+  "timestamp": "08/23/26 03:20:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "5D6253D04FF77E5313B9A12360928A69",
+      "not_before": 1779234056,
+      "not_after": 1787013519,
+      "fingerprint": "A1:7D:83:5D:7F:A5:B7:6C:67:61:CF:14:71:50:32:D3:B2:23:0A:3A",
+      "sha1": "A1:7D:83:5D:7F:A5:B7:6C:67:61:CF:14:71:50:32:D3:B2:23:0A:3A",
+      "sha256": "24:60:C6:5D:40:58:7A:54:36:F4:98:B0:87:2B:98:08:D6:16:9C:A3:41:96:22:31:18:CB:AF:30:51:57:ED:A4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "claro-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/XWI, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:claro-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:af:55:17:a3:08:a5:d2:38:fb:84:e9:74:d1:a7:61:cf:75:0d:b4:fd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 821266226,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=821266226&end=821266226",
+    "seen": 1787466002.338,
+    "submission_timestamp": 1779237657.227,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
