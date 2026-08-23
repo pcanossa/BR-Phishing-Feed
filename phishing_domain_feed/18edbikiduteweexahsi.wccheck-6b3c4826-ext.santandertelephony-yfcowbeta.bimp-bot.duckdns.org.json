@@ -1,0 +1,13 @@
+{
+    "dominio": "18edbikiduteweexahsi.wccheck-6b3c4826-ext.santandertelephony-yfcowbeta.bimp-bot.duckdns.org",
+    "data_registro": "08/23/26 12:00:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de subdomínio em serviço de DNS dinâmico (duckdns.org), frequentemente utilizado por atores maliciosos para hospedagem temporária ou C2",
+        "Inclui a marca \"santander\", instituição financeira brasileira, potencialmente visando enganar usuários brasileiros",
+        "Nome extenso e aleatório (ex.: 18edbikiduteweexahsi, wccheck-6b3c4826-ext) típico de geração automática de domínios para evasão e rastreamento",
+        "Combinação de termos como \"telephony\" e \"bot\" sugere tentativa de simular serviço de atendimento telefônico legítimo",
+        "Domínio não consta em listas públicas de domínios legítimos ou whitelist de serviços da Santander"
+    ],
+    "analise_comportamental": "O domínio apresenta múltiplas características associadas a campanhas de phishing direcionadas ao Brasil, como uso da marca de banco brasileiro em conjunto com um serviço de DNS dinâmico que facilita a criação rápida de subdomínios maliciosos. A estrutura altamente aleatória e a presença de termos relacionados a telefonia e bots reforçam a suspeita de que o domínio seja usado para enganar usuários e possivelmente coletar credenciais ou instalar payloads."
+}
