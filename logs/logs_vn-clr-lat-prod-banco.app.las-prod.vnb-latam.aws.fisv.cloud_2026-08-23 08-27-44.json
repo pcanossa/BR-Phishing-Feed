@@ -1,0 +1,57 @@
+{
+  "dominio": "vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/23/26 08:27:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud",
+        "L": "Milwaukee",
+        "O": "Fiserv, Inc.",
+        "ST": "Wisconsin",
+        "aggregated": "/C=US/CN=vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud/L=Milwaukee/O=Fiserv, Inc./ST=Wisconsin"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0A71DDF2186A313955CB86BAC8C91F2C",
+      "not_before": 1781654400,
+      "not_after": 1798847999,
+      "fingerprint": "4A:AA:AB:92:78:1A:B4:DD:A6:B3:03:6C:F9:74:81:64:1E:E1:56:6A",
+      "sha1": "4A:AA:AB:92:78:1A:B4:DD:A6:B3:03:6C:F9:74:81:64:1E:E1:56:6A",
+      "sha256": "E3:16:B6:B0:79:6C:92:FC:36:60:A6:34:AF:8D:70:9E:ED:D8:33:EF:50:91:7C:6C:7D:BF:FC:98:8C:B1:58:62",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud",
+        "*.vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud, DNS:*.vn-clr-lat-prod-banco.app.las-prod.vnb-latam.aws.fisv.cloud",
+        "subjectKeyIdentifier": "keyid:6c:d0:28:38:98:50:9e:0f:fc:87:55:9a:cc:04:f1:6f:a3:68:e3:cf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 31296235,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2027h1/ct/v1/get-entries?start=31296235&end=31296235",
+    "seen": 1787484460.653,
+    "submission_timestamp": 1781712860.189,
+    "source": {
+      "name": "Google 'Argon2027h1'",
+      "url": "https://ct.googleapis.com/logs/us1/argon2027h1"
+    }
+  }
+}

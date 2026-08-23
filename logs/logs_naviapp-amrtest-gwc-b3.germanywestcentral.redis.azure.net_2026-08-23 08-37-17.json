@@ -1,0 +1,57 @@
+{
+  "dominio": "naviapp-amrtest-gwc-b3.germanywestcentral.redis.azure.net",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/23/26 08:37:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "germanywestcentral.redis.azure.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=germanywestcentral.redis.azure.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 ECC CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 ECC CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "570003BCF49191C3352C3B8DE900000003BCF4",
+      "not_before": 1783585280,
+      "not_after": 1799137280,
+      "fingerprint": "61:49:13:D7:73:AD:A8:0A:30:FD:50:E7:FA:31:D6:81:CE:7D:E0:81",
+      "sha1": "61:49:13:D7:73:AD:A8:0A:30:FD:50:E7:FA:31:D6:81:CE:7D:E0:81",
+      "sha256": "2D:1A:98:E1:E6:9D:D6:49:E4:CC:1E:FA:A4:67:4F:0F:F5:BC:58:25:81:F7:AD:6B:01:DA:4A:D4:78:60:EE:F5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "germanywestcentral.redis.azure.net",
+        "naviapp-amrtest-gwc-b3.germanywestcentral.redis.azure.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20ECC%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20ECC%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:e5:1f:c4:6a:09:36:e2:af:e1:64:6e:bd:fc:6b:e9:ed:c5:d0:2a:74",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:naviapp-amrtest-gwc-b3.germanywestcentral.redis.azure.net, DNS:germanywestcentral.redis.azure.net",
+        "subjectKeyIdentifier": "keyid:3b:f9:bb:b3:ec:f1:dd:3c:b7:58:a4:eb:8a:56:76:f3:ea:e9:82:66",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 38942696,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=38942696&end=38942696",
+    "seen": 1787485033.188,
+    "submission_timestamp": 1783585885.141,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

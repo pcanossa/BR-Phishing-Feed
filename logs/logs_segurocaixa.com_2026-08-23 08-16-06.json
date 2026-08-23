@@ -1,0 +1,52 @@
+{
+  "dominio": "segurocaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 08:16:06",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "segurocaixa.com",
+        "aggregated": "/CN=segurocaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "0687CEC1967C1C9EE4F007784B5A47283D61",
+      "not_before": 1779988223,
+      "not_after": 1787764222,
+      "fingerprint": "8D:3B:99:0C:AD:CD:76:0D:6F:C1:38:68:63:28:0B:56:BB:36:EE:4D",
+      "sha1": "8D:3B:99:0C:AD:CD:76:0D:6F:C1:38:68:63:28:0B:56:BB:36:EE:4D",
+      "sha256": "EF:D2:F3:27:E9:9E:EC:41:E4:89:74:FC:91:C4:71:A2:11:72:63:08:61:5C:D0:38:C1:60:A7:09:7A:45:EF:12",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "segurocaixa.com",
+        "*.segurocaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.segurocaixa.com, DNS:segurocaixa.com",
+        "subjectKeyIdentifier": "keyid:6e:03:4b:fd:ed:4b:96:5b:3a:c0:63:02:4b:a5:9e:ac:a1:d2:03:03"
+      }
+    },
+    "cert_index": 357831932,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x397/780",
+    "seen": 1787483764.054,
+    "submission_timestamp": 1780080882.018,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

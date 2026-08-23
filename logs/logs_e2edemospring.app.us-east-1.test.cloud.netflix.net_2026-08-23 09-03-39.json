@@ -1,0 +1,56 @@
+{
+  "dominio": "e2edemospring.app.us-east-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 09:03:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "e2edemospring.app.us-east-1.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=e2edemospring.app.us-east-1.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "09A8EE1D2BE9D9E209E3447C79B82294",
+      "not_before": 1780012800,
+      "not_after": 1787868616,
+      "fingerprint": "9A:A9:5A:44:97:DB:5B:A9:14:5B:E6:06:87:13:A0:B0:82:E2:34:9D",
+      "sha1": "9A:A9:5A:44:97:DB:5B:A9:14:5B:E6:06:87:13:A0:B0:82:E2:34:9D",
+      "sha256": "21:09:96:2F:49:27:0C:C8:68:DE:69:73:A8:2B:3C:E7:03:A5:64:26:22:68:FA:CC:34:5D:10:0D:85:90:5F:84",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "e2edemospring.app.us-east-1.test.cloud.netflix.net",
+        "e2edemospring.cluster.us-east-1.test.cloud.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:e2edemospring.app.us-east-1.test.cloud.netflix.net, DNS:e2edemospring.cluster.us-east-1.test.cloud.netflix.net",
+        "subjectKeyIdentifier": "keyid:f3:09:83:2e:23:5b:be:eb:40:7d:8a:c2:9c:d5:00:6a:70:67:4c:4c"
+      }
+    },
+    "cert_index": 358305667,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x399/631",
+    "seen": 1787486615.978,
+    "submission_timestamp": 1780092948.451,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

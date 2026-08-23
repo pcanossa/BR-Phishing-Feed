@@ -1,0 +1,52 @@
+{
+  "dominio": "objeto-cartao.api.dev.itau.com",
+  "marcas_encontradas": [
+    "cartao",
+    "itau"
+  ],
+  "timestamp": "08/23/26 08:08:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "objeto-cartao.api.dev.itau.com",
+        "aggregated": "/CN=objeto-cartao.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "013DA7851869969C60FA032FCF4D0758",
+      "not_before": 1780012800,
+      "not_after": 1797119999,
+      "fingerprint": "0C:A6:F1:98:02:A7:86:C7:79:FB:BD:35:28:B4:C8:74:C2:95:63:A4",
+      "sha1": "0C:A6:F1:98:02:A7:86:C7:79:FB:BD:35:28:B4:C8:74:C2:95:63:A4",
+      "sha256": "51:E8:CE:F5:EF:DC:29:B4:50:5B:A6:89:47:53:11:24:11:B1:04:AF:2C:2B:67:84:3F:CB:A4:56:86:F6:7C:EF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "objeto-cartao.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:objeto-cartao.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:41:ec:7a:e7:b0:5a:ef:f3:0b:0a:fc:c9:7f:dc:63:79:cb:90:b5:91"
+      }
+    },
+    "cert_index": 357757656,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x397/490",
+    "seen": 1787483320.872,
+    "submission_timestamp": 1780079046.929,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "gestao-seguros.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 08:30:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gestao-seguros.api.itau.com",
+        "aggregated": "/CN=gestao-seguros.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "023FDF1A7B8CEF5A29497BC2177800E9",
+      "not_before": 1784937600,
+      "not_after": 1802044799,
+      "fingerprint": "B7:D1:F7:D8:DD:90:1E:4F:34:75:55:AF:D3:57:23:63:6B:94:41:35",
+      "sha1": "B7:D1:F7:D8:DD:90:1E:4F:34:75:55:AF:D3:57:23:63:6B:94:41:35",
+      "sha256": "A8:D9:C6:AE:66:38:82:1E:87:87:18:6D:9F:F9:C3:B2:CD:FC:85:F6:D5:0F:26:30:12:27:8E:AA:92:89:07:A6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gestao-seguros.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gestao-seguros.api.itau.com",
+        "subjectKeyIdentifier": "keyid:c8:f3:6e:22:b7:ac:c5:0c:19:94:c3:f5:48:73:bf:f6:a6:80:b3:07"
+      }
+    },
+    "cert_index": 44993503,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x175/755",
+    "seen": 1787484602.41,
+    "submission_timestamp": 1784941914.976,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}
