@@ -1,0 +1,51 @@
+{
+  "dominio": "minha-claro-fatura.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/24/26 18:21:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "minha-claro-fatura.com",
+        "aggregated": "/CN=minha-claro-fatura.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "43212111A58A847800EFAE40CFDF8233",
+      "not_before": 1781136925,
+      "not_after": 1788770683,
+      "fingerprint": "DA:F4:C6:06:69:76:89:BF:7F:A1:C4:65:3C:90:46:C7:AB:AD:41:DE",
+      "sha1": "DA:F4:C6:06:69:76:89:BF:7F:A1:C4:65:3C:90:46:C7:AB:AD:41:DE",
+      "sha256": "BC:78:9F:80:9E:4B:6E:07:75:0F:F5:DD:01:73:35:54:16:80:3A:7F:F4:16:8B:B6:52:D1:A6:11:BE:4E:CC:97",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "minha-claro-fatura.com",
+        "*.minha-claro-fatura.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:minha-claro-fatura.com, DNS:*.minha-claro-fatura.com"
+      }
+    },
+    "cert_index": 984468777,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x845/581",
+    "seen": 1787606508.411,
+    "submission_timestamp": 1787404634.491,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

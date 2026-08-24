@@ -1,0 +1,52 @@
+{
+  "dominio": "bradesco-poc.homolog.softmed.app.br",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/24/26 19:00:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco-poc.homolog.softmed.app.br",
+        "aggregated": "/CN=bradesco-poc.homolog.softmed.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "040E8359D2146E35E4EDDCC676D6212D",
+      "not_before": 1782950400,
+      "not_after": 1798934399,
+      "fingerprint": "91:5F:06:C2:69:D7:70:EC:6C:2E:62:9F:1A:C8:63:5C:16:11:80:DB",
+      "sha1": "91:5F:06:C2:69:D7:70:EC:6C:2E:62:9F:1A:C8:63:5C:16:11:80:DB",
+      "sha256": "47:1D:71:8B:FB:86:F8:AE:CB:6E:43:2F:87:2E:BB:F6:05:41:B0:13:39:73:0A:84:E0:C7:63:6D:D3:6A:BB:14",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco-poc.homolog.softmed.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bradesco-poc.homolog.softmed.app.br",
+        "subjectKeyIdentifier": "keyid:61:e8:53:18:65:26:1b:b0:5f:4a:9e:55:76:30:b0:a6:1e:ed:15:bb"
+      }
+    },
+    "cert_index": 75840396,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x296/251",
+    "seen": 1787608851.946,
+    "submission_timestamp": 1783015355.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

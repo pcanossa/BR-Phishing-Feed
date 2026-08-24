@@ -1,0 +1,56 @@
+{
+  "dominio": "apps.prd-claro-co.eastus2.aroapp.io",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/24/26 18:20:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.apps.prd-claro-co.eastus2.aroapp.io",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.apps.prd-claro-co.eastus2.aroapp.io/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100B02F697B6DC611856BC902000000B02F69",
+      "not_before": 1786580218,
+      "not_after": 1802132218,
+      "fingerprint": "7D:1B:A9:32:8E:CC:44:4B:B5:0F:8D:C9:0C:9F:0B:A3:32:7C:75:09",
+      "sha1": "7D:1B:A9:32:8E:CC:44:4B:B5:0F:8D:C9:0C:9F:0B:A3:32:7C:75:09",
+      "sha256": "9B:31:D3:FB:58:9E:98:12:48:87:DC:B1:2B:2B:25:A7:80:80:8C:8D:6D:77:CF:7D:A8:10:2D:8D:CF:F1:DA:54",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.apps.prd-claro-co.eastus2.aroapp.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.prd-claro-co.eastus2.aroapp.io",
+        "subjectKeyIdentifier": "keyid:ab:9f:1a:d3:eb:fc:0e:9e:33:ae:5b:ae:8b:05:cf:55:1e:06:eb:61",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 51010618,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=51010618&end=51010618",
+    "seen": 1787606406.262,
+    "submission_timestamp": 1786580888.776,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

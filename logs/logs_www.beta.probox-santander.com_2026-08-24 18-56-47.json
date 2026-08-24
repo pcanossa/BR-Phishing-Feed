@@ -1,0 +1,53 @@
+{
+  "dominio": "www.beta.probox-santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 18:56:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.probox-santander.com",
+        "aggregated": "/CN=*.probox-santander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "055B8366D6AC0DA34278CB1C62471FE50027",
+      "not_before": 1780668778,
+      "not_after": 1788444777,
+      "fingerprint": "72:95:3E:B1:16:7A:9F:97:3E:D1:F6:8B:57:1A:DE:65:DE:57:B6:E9",
+      "sha1": "72:95:3E:B1:16:7A:9F:97:3E:D1:F6:8B:57:1A:DE:65:DE:57:B6:E9",
+      "sha256": "E5:78:FF:7E:3C:90:95:7B:FD:AA:97:19:C0:42:D3:0E:C9:F8:7B:BF:B1:0D:97:AD:69:A2:54:05:08:C3:CC:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.probox-santander.com",
+        "probox-santander.com",
+        "www.beta.probox-santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.probox-santander.com, DNS:probox-santander.com, DNS:www.beta.probox-santander.com",
+        "subjectKeyIdentifier": "keyid:0b:06:ff:59:a9:d0:99:fe:bb:74:47:2b:f5:49:0f:59:66:52:52:49"
+      }
+    },
+    "cert_index": 252030424,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x984/493",
+    "seen": 1787608606.7,
+    "submission_timestamp": 1780672289.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

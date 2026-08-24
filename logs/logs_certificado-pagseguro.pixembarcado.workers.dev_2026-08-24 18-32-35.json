@@ -1,0 +1,52 @@
+{
+  "dominio": "certificado-pagseguro.pixembarcado.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/24/26 18:32:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pixembarcado.workers.dev",
+        "aggregated": "/CN=pixembarcado.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "13894B99E2340E930E0314883EFDCD62",
+      "not_before": 1781134179,
+      "not_after": 1788913599,
+      "fingerprint": "62:8B:40:1F:F3:ED:FF:CB:00:C2:D5:3F:9A:10:35:04:F1:D6:FF:AA",
+      "sha1": "62:8B:40:1F:F3:ED:FF:CB:00:C2:D5:3F:9A:10:35:04:F1:D6:FF:AA",
+      "sha256": "9D:D8:E1:19:C4:F2:63:25:6B:E9:30:78:67:EC:C4:35:B4:32:60:1E:E7:D3:CA:48:DA:6C:E4:62:7D:3C:D5:1D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pixembarcado.workers.dev",
+        "*.certificado-pagseguro.pixembarcado.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/E4k, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pixembarcado.workers.dev, DNS:*.certificado-pagseguro.pixembarcado.workers.dev",
+        "subjectKeyIdentifier": "keyid:ea:98:ce:0b:0c:97:55:60:f9:56:61:e5:9b:7b:cf:77:0a:b6:95:88"
+      }
+    },
+    "cert_index": 984507283,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x845/731",
+    "seen": 1787607155.582,
+    "submission_timestamp": 1787404818.61,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

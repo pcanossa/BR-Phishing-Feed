@@ -1,0 +1,52 @@
+{
+  "dominio": "livrocaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/24/26 18:51:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "livrocaixa.app",
+        "aggregated": "/CN=livrocaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06091EB023CEE6D4E391784FF30510067013",
+      "not_before": 1780667409,
+      "not_after": 1788443408,
+      "fingerprint": "20:92:2F:58:62:02:36:48:51:0E:99:7A:A0:2E:88:D0:79:4D:4C:A9",
+      "sha1": "20:92:2F:58:62:02:36:48:51:0E:99:7A:A0:2E:88:D0:79:4D:4C:A9",
+      "sha256": "02:F3:25:03:FC:86:17:17:53:A8:D5:BA:A9:D3:CE:A8:01:0E:41:ED:0B:22:65:1F:9B:64:4A:8C:E4:F9:CD:22",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "livrocaixa.app",
+        "*.livrocaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.livrocaixa.app, DNS:livrocaixa.app",
+        "subjectKeyIdentifier": "keyid:15:29:77:16:e3:47:57:c6:a0:20:1a:b3:4a:ab:35:1f:0a:71:7b:6a"
+      }
+    },
+    "cert_index": 251989544,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x984/334",
+    "seen": 1787608319.901,
+    "submission_timestamp": 1780670920.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

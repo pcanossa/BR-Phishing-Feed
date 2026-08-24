@@ -1,0 +1,51 @@
+{
+  "dominio": "portalseguros.cnpsantander.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 18:36:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portalseguros.cnpsantander.es",
+        "aggregated": "/CN=portalseguros.cnpsantander.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0AA4DD08AE65626D2C1D6857E1A5C9FA",
+      "not_before": 1782950400,
+      "not_after": 1800057599,
+      "fingerprint": "3C:44:EE:B5:2B:BD:EA:D0:00:22:61:82:3D:0C:F0:52:E3:5E:83:0B",
+      "sha1": "3C:44:EE:B5:2B:BD:EA:D0:00:22:61:82:3D:0C:F0:52:E3:5E:83:0B",
+      "sha256": "68:E2:2A:D7:D8:6D:29:FE:13:8D:D5:F3:31:00:BF:5C:7C:B2:B4:0C:A8:4B:78:E5:3A:36:44:13:5B:04:26:37",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "portalseguros.cnpsantander.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portalseguros.cnpsantander.es",
+        "subjectKeyIdentifier": "keyid:7e:54:ba:8b:67:d3:2c:1c:e8:37:b9:6b:8e:a9:d2:3e:fa:6a:97:74"
+      }
+    },
+    "cert_index": 75651359,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x295/513",
+    "seen": 1787607403.15,
+    "submission_timestamp": 1783003546.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

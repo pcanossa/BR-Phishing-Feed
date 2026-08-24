@@ -1,0 +1,57 @@
+{
+  "dominio": "sbzacitauysneth.westus.atlas.cloudapp.azure.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 18:20:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "sbzacitauysneth.westus.atlas.cloudapp.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=sbzacitauysneth.westus.atlas.cloudapp.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "55008CBE873D5FA191555E79620000008CBE87",
+      "not_before": 1785470126,
+      "not_after": 1801022126,
+      "fingerprint": "B3:CF:40:F1:D0:F8:CE:DD:5A:6D:AB:58:AF:76:1B:5C:B8:05:E1:8C",
+      "sha1": "B3:CF:40:F1:D0:F8:CE:DD:5A:6D:AB:58:AF:76:1B:5C:B8:05:E1:8C",
+      "sha256": "35:F2:43:60:CF:51:AC:3E:B9:A9:05:ED:E0:98:54:2A:0F:A9:9B:80:B4:91:12:9D:D8:9A:7D:8E:D4:8A:27:82",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sbzacitauysneth.westus.atlas.cloudapp.azure.com",
+        "*.sbzacitauysneth.westus.atlas.cloudapp.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sbzacitauysneth.westus.atlas.cloudapp.azure.com, DNS:*.sbzacitauysneth.westus.atlas.cloudapp.azure.com",
+        "subjectKeyIdentifier": "keyid:d5:94:a1:8a:fa:73:29:78:15:4c:5e:e3:3e:db:00:91:1f:77:d9:38",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 47391706,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=47391706&end=47391706",
+    "seen": 1787606421.067,
+    "submission_timestamp": 1785470730.65,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}
