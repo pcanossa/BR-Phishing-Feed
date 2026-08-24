@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-core-service-cartoes.agibank-prd.in",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/24/26 17:15:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-core-service-meios-de-pagamento.agibank-prd.in",
+        "aggregated": "/CN=cartao-core-service-meios-de-pagamento.agibank-prd.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0516448D8424BC184F87A1FB8424A970CB47",
+      "not_before": 1779465391,
+      "not_after": 1787241390,
+      "fingerprint": "1B:24:4C:AF:A3:09:48:CD:2D:18:AC:6C:5E:34:69:0B:5F:95:08:CF",
+      "sha1": "1B:24:4C:AF:A3:09:48:CD:2D:18:AC:6C:5E:34:69:0B:5F:95:08:CF",
+      "sha256": "41:68:48:F1:DE:09:C1:4B:B7:CD:38:E1:BD:7D:79:04:F0:F6:68:0E:1B:98:70:DB:2A:8F:3D:62:7D:4B:37:A4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-core-service-meios-de-pagamento.agibank-prd.in",
+        "cartao-core-service-cartoes.agibank-prd.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-core-service-cartoes.agibank-prd.in, DNS:cartao-core-service-meios-de-pagamento.agibank-prd.in",
+        "subjectKeyIdentifier": "keyid:d2:0d:6a:ff:90:b0:55:d5:ff:80:6d:7b:2d:4e:08:45:67:9a:e8:a4"
+      }
+    },
+    "cert_index": 4392083310,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4392083310&end=4392083310",
+    "seen": 1787602545.07,
+    "submission_timestamp": 1779468905.647,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

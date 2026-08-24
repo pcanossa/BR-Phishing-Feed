@@ -1,0 +1,51 @@
+{
+  "dominio": "dev.cpf-glow.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 17:15:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.cpf-glow.com",
+        "aggregated": "/CN=dev.cpf-glow.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "48FC8EA41D1A73C91037BAC249607A1E",
+      "not_before": 1779465210,
+      "not_after": 1787244485,
+      "fingerprint": "99:4B:5E:19:E8:72:16:AA:93:75:B9:5F:D9:A7:9F:69:F1:3C:FF:2F",
+      "sha1": "99:4B:5E:19:E8:72:16:AA:93:75:B9:5F:D9:A7:9F:69:F1:3C:FF:2F",
+      "sha256": "7B:D0:AF:6A:1B:B3:37:9A:10:E3:BD:2B:20:3E:F1:64:59:73:1B:6B:FF:1B:6B:3C:7B:46:2B:C1:E2:86:1F:DA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.cpf-glow.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/SPw, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.cpf-glow.com",
+        "subjectKeyIdentifier": "keyid:58:12:0d:86:de:da:77:ae:25:53:20:b7:24:6a:10:20:a8:24:5b:99"
+      }
+    },
+    "cert_index": 4392078795,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4392078795&end=4392078795",
+    "seen": 1787602503.18,
+    "submission_timestamp": 1779468892.453,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "staging.cpf.ca",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 17:07:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.cpf.ca",
+        "aggregated": "/CN=staging.cpf.ca"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06D0C0837B60EFD9B3A854C5F3143975D78A",
+      "not_before": 1778783614,
+      "not_after": 1786559613,
+      "fingerprint": "BD:74:86:F2:7E:9C:11:C7:0A:B5:8A:00:D3:C9:0A:E9:CE:5A:4F:93",
+      "sha1": "BD:74:86:F2:7E:9C:11:C7:0A:B5:8A:00:D3:C9:0A:E9:CE:5A:4F:93",
+      "sha256": "4E:67:41:FE:A6:1B:C1:A1:83:35:2F:B7:7F:9D:A4:2B:7C:E4:9E:1A:D1:9A:29:2D:B6:81:62:87:47:71:4F:43",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "staging.cpf.ca"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.cpf.ca",
+        "subjectKeyIdentifier": "keyid:b8:68:f0:f8:ba:d6:5a:67:ed:82:d4:66:68:9c:e4:38:7b:9f:6b:73",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 665937966,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=665937966&end=665937966",
+    "seen": 1787602039.899,
+    "submission_timestamp": 1778787125.114,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "boleto-veiculo.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 17:45:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto-veiculo.api.dev.itau.com",
+        "aggregated": "/CN=boleto-veiculo.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0D1997B03548C3B79BA76577AB5376EF",
+      "not_before": 1787529600,
+      "not_after": 1804636799,
+      "fingerprint": "BA:5B:BC:41:8D:24:D7:D3:57:1C:74:35:8C:B3:03:F1:60:23:D9:6E",
+      "sha1": "BA:5B:BC:41:8D:24:D7:D3:57:1C:74:35:8C:B3:03:F1:60:23:D9:6E",
+      "sha256": "95:01:91:1C:2A:B4:2F:4D:12:7B:9A:C7:9B:9A:6C:79:63:0F:C1:BA:62:DE:AA:4A:D8:4B:7C:95:2D:21:E6:40",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boleto-veiculo.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boleto-veiculo.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:8c:ce:d6:1d:e4:df:a5:2e:d5:90:78:13:17:09:0a:4a:31:d2:c1:f5"
+      }
+    },
+    "cert_index": 26567845,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/tile/data/x103/780",
+    "seen": 1787604342.316,
+    "submission_timestamp": 1787604335.066,
+    "source": {
+      "name": "Google 'PlumbersArms2027h1' log",
+      "url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

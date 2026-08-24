@@ -1,0 +1,53 @@
+{
+  "dominio": "edd-cauth-int-arc-edhnonprod.cpf.gov.sg",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 18:01:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "edd-cauth-int-arc-edhnonprod.cpf.gov.sg",
+        "aggregated": "/CN=edd-cauth-int-arc-edhnonprod.cpf.gov.sg"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "69B92AC4D67087C994EE4407D251BA2E",
+      "not_before": 1783036800,
+      "not_after": 1800230399,
+      "fingerprint": "75:F9:AA:31:05:EB:4B:AF:8E:22:74:32:B0:FC:2E:1D:94:8E:45:AA",
+      "sha1": "75:F9:AA:31:05:EB:4B:AF:8E:22:74:32:B0:FC:2E:1D:94:8E:45:AA",
+      "sha256": "D5:05:2D:26:97:36:EC:4E:1B:BF:23:0B:B9:D9:10:18:54:5D:B1:43:55:0E:92:5E:A8:A1:BD:BD:33:37:AA:CA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "edd-cauth-int-arc-edhnonprod.cpf.gov.sg",
+        "www.edd-cauth-int-arc-edhnonprod.cpf.gov.sg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:edd-cauth-int-arc-edhnonprod.cpf.gov.sg, DNS:www.edd-cauth-int-arc-edhnonprod.cpf.gov.sg",
+        "subjectKeyIdentifier": "keyid:9e:2d:4c:ba:a0:5f:2d:89:0d:39:a3:14:ac:13:bc:c3:16:03:23:7c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 79430712,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=79430712&end=79430712",
+    "seen": 1787605295.295,
+    "submission_timestamp": 1783062225.884,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}
