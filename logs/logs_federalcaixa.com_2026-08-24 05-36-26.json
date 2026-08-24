@@ -1,0 +1,52 @@
+{
+  "dominio": "federalcaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/24/26 05:36:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "federalcaixa.com",
+        "aggregated": "/CN=federalcaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "1A991A81407BF9E3",
+      "not_before": 1782327199,
+      "not_after": 1799434399,
+      "fingerprint": "63:E0:8B:30:87:BE:94:8F:42:9E:12:DE:3E:8D:B8:CD:43:25:57:E6",
+      "sha1": "63:E0:8B:30:87:BE:94:8F:42:9E:12:DE:3E:8D:B8:CD:43:25:57:E6",
+      "sha256": "36:DC:AE:E0:B8:E1:FA:9D:55:79:ED:F2:77:82:87:83:82:46:41:68:7E:74:DD:8E:14:92:B6:87:85:AC:13:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "federalcaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:federalcaixa.com",
+        "subjectKeyIdentifier": "keyid:2a:f8:4a:bb:f5:9f:83:50:e1:d4:50:3a:75:c2:87:23:af:b3:89:1e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 102003545,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=102003545&end=102003545",
+    "seen": 1787560580.315,
+    "submission_timestamp": 1782327199.902,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

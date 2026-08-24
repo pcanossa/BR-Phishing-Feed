@@ -1,0 +1,50 @@
+{
+  "dominio": "fn23621-genesys-a3s-santander-br-contactcenter-prod.sa-east-1.aws.privatelink.snowflake.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 05:45:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "aggregated": ""
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "0677EFD95A79B08489DCFDC1F3D0DA22D628",
+      "not_before": 1787394209,
+      "not_after": 1791282208,
+      "fingerprint": "EC:16:CF:E3:58:12:F4:AA:84:0F:46:07:23:EE:4C:63:7C:D8:7B:1D",
+      "sha1": "EC:16:CF:E3:58:12:F4:AA:84:0F:46:07:23:EE:4C:63:7C:D8:7B:1D",
+      "sha256": "C6:DD:A5:B1:84:06:42:E8:03:FA:78:9A:AB:03:B2:7E:32:A8:5A:05:1B:3E:78:BB:D8:7D:70:33:D8:26:F4:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.fn23621-genesys-a3s-santander-br-contactcenter-prod.sa-east-1.aws.privatelink.snowflake.app",
+        "*.fn23621-genesys-a3s-santander-br-contactcenter-prod.sa-east-1.aws.snowflake.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.fn23621-genesys-a3s-santander-br-contactcenter-prod.sa-east-1.aws.privatelink.snowflake.app, DNS:*.fn23621-genesys-a3s-santander-br-contactcenter-prod.sa-east-1.aws.snowflake.app"
+      }
+    },
+    "cert_index": 982951125,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x839/652",
+    "seen": 1787561148.646,
+    "submission_timestamp": 1787397720.708,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}
