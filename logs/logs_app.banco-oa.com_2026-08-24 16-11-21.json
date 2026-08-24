@@ -1,0 +1,51 @@
+{
+  "dominio": "app.banco-oa.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/24/26 16:11:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.banco-oa.com",
+        "aggregated": "/CN=app.banco-oa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "059604E5126434281764F070C2911F60A144",
+      "not_before": 1780654464,
+      "not_after": 1788430463,
+      "fingerprint": "A4:1C:A4:7D:E7:31:F8:67:27:56:11:E5:66:81:0E:CD:3F:52:7D:B3",
+      "sha1": "A4:1C:A4:7D:E7:31:F8:67:27:56:11:E5:66:81:0E:CD:3F:52:7D:B3",
+      "sha256": "05:E5:C1:0C:14:B6:4A:E2:76:21:D4:6F:8B:21:AE:22:36:23:CE:BD:96:63:33:0F:04:25:A8:6E:4F:84:0B:D9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.banco-oa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.banco-oa.com",
+        "subjectKeyIdentifier": "keyid:5b:9e:98:b9:d0:50:fc:76:f4:c2:9c:63:32:e6:96:bc:48:2c:be:e6"
+      }
+    },
+    "cert_index": 236290002,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x923/007",
+    "seen": 1787598681.621,
+    "submission_timestamp": 1780657974.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

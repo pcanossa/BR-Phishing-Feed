@@ -1,0 +1,53 @@
+{
+  "dominio": "connect-partner-itau-sbx.apps.ins.inswhub.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 16:28:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "011D313FD7CF356B26A1185425780986",
+      "not_before": 1782315588,
+      "not_after": 1782401988,
+      "fingerprint": "6B:F8:01:46:09:0A:F5:8B:FC:70:AC:58:A9:FF:E7:0F:85:7D:41:99",
+      "sha1": "6B:F8:01:46:09:0A:F5:8B:FC:70:AC:58:A9:FF:E7:0F:85:7D:41:99",
+      "sha256": "0C:F5:BC:27:54:19:48:7A:60:88:27:1A:E1:F5:DD:FF:60:F3:25:93:79:0A:28:06:EC:E6:BE:BC:7A:59:24:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "connect-partner-itau-sbx.apps.ins.inswhub.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:connect-partner-itau-sbx.apps.ins.inswhub.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:e0:72:4c:d6:dc:de:4d:fb:3a:d9:47:f0:30:bf:0c:0e:b2:e0:bc:89",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1215085830,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1215085830&end=1215085830",
+    "seen": 1787599693.074,
+    "submission_timestamp": 1782315590.176,
+    "source": {
+      "name": "DigiCert 'Wyvern 2026h1' Log",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}

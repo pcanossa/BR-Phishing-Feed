@@ -1,0 +1,52 @@
+{
+  "dominio": "app.comersantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 17:00:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.comersantander.com",
+        "aggregated": "/CN=app.comersantander.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "6258CA7FF8651A4ACC4D37E7FFD7D1BB",
+      "not_before": 1779408000,
+      "not_after": 1787270399,
+      "fingerprint": "49:FC:9A:B9:A6:E8:E1:30:6A:F0:1A:EA:F9:DB:43:FD:FA:8A:78:50",
+      "sha1": "49:FC:9A:B9:A6:E8:E1:30:6A:F0:1A:EA:F9:DB:43:FD:FA:8A:78:50",
+      "sha256": "E8:93:9F:EF:1F:3E:01:30:F2:CC:26:BF:03:9A:42:B4:ED:E0:5E:7F:43:73:02:BE:D0:6F:78:09:D8:C5:D9:F2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.comersantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.comersantander.com",
+        "subjectKeyIdentifier": "keyid:30:12:f4:aa:dc:9c:6f:a4:e7:64:e6:b3:6d:6d:00:10:fc:d0:63:46",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4391988255,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4391988255&end=4391988255",
+    "seen": 1787601648.875,
+    "submission_timestamp": 1779468543.371,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

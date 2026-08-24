@@ -1,0 +1,51 @@
+{
+  "dominio": "prod.claro.saia.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/24/26 16:58:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prod.claro.saia.app",
+        "aggregated": "/CN=prod.claro.saia.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "054F6B9A456A1D99FE02CAB816C7637944B6",
+      "not_before": 1780668372,
+      "not_after": 1788444371,
+      "fingerprint": "91:EE:7C:E5:E4:91:15:30:DD:04:69:BA:7A:02:7F:DC:57:4A:DB:2D",
+      "sha1": "91:EE:7C:E5:E4:91:15:30:DD:04:69:BA:7A:02:7F:DC:57:4A:DB:2D",
+      "sha256": "3A:92:B6:28:78:24:FB:C5:A6:DB:53:A4:84:70:70:90:C8:29:A0:73:CB:92:08:B7:D5:B6:B9:8A:1C:D9:02:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "prod.claro.saia.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:prod.claro.saia.app",
+        "subjectKeyIdentifier": "keyid:a4:99:e7:00:d5:54:6d:31:1b:2b:ee:1d:a4:7a:7f:fa:79:c2:44:c9"
+      }
+    },
+    "cert_index": 236660553,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x924/455",
+    "seen": 1787601498.519,
+    "submission_timestamp": 1780671882.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

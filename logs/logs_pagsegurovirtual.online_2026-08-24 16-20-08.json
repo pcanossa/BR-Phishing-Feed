@@ -1,0 +1,52 @@
+{
+  "dominio": "pagsegurovirtual.online",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/24/26 16:20:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagsegurovirtual.online",
+        "aggregated": "/CN=pagsegurovirtual.online"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "86A58BF0C8F1B94C1BB3DC2A7FC7950B",
+      "not_before": 1780531200,
+      "not_after": 1788136341,
+      "fingerprint": "91:40:07:04:00:6F:E5:FC:27:A6:6E:D4:AC:7A:01:09:BE:E0:F5:47",
+      "sha1": "91:40:07:04:00:6F:E5:FC:27:A6:6E:D4:AC:7A:01:09:BE:E0:F5:47",
+      "sha256": "7E:28:C7:2F:3C:FD:EF:DC:02:C1:7C:92:8A:76:CF:FB:CD:24:18:C2:15:07:51:82:CD:A3:24:2E:DB:6C:12:31",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagsegurovirtual.online",
+        "*.pagsegurovirtual.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagsegurovirtual.online, DNS:*.pagsegurovirtual.online",
+        "subjectKeyIdentifier": "keyid:6e:82:cb:e2:f6:8b:b3:9f:63:44:5d:30:8d:20:f1:ac:37:c9:a0:8b"
+      }
+    },
+    "cert_index": 250719990,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x979/374",
+    "seen": 1787599207.557,
+    "submission_timestamp": 1780622923.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

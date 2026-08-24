@@ -1,0 +1,51 @@
+{
+  "dominio": "app.banco-oa.com",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/24/26 16:11:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.banco-oa.com",
+        "aggregated": "/CN=app.banco-oa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0685684D965ED2C3F0124C9BD89C09BDA03D",
+      "not_before": 1780654478,
+      "not_after": 1788430477,
+      "fingerprint": "49:89:09:E3:33:6E:A6:74:21:A4:D0:67:0C:1B:5C:37:E0:0A:70:E0",
+      "sha1": "49:89:09:E3:33:6E:A6:74:21:A4:D0:67:0C:1B:5C:37:E0:0A:70:E0",
+      "sha256": "62:E9:B4:AA:3A:31:0F:7D:19:FE:E8:44:89:5E:6F:F4:BB:78:F0:AB:03:3C:C1:1F:AF:92:42:44:54:2C:4C:9D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.banco-oa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.banco-oa.com",
+        "subjectKeyIdentifier": "keyid:19:bd:ae:7c:08:b9:19:7f:da:88:07:22:f4:f5:52:62:99:44:e3:39"
+      }
+    },
+    "cert_index": 236290405,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x923/009",
+    "seen": 1787598685.634,
+    "submission_timestamp": 1780657988.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

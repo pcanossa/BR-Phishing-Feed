@@ -1,0 +1,51 @@
+{
+  "dominio": "app-itau-dev.primecontrol.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 16:49:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-itau-dev.primecontrol.com.br",
+        "aggregated": "/CN=app-itau-dev.primecontrol.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0677E015F8DB131108689923FF793507",
+      "not_before": 1786665600,
+      "not_after": 1803772799,
+      "fingerprint": "80:DF:FA:B9:4D:87:E1:53:B5:B7:D7:A3:BE:3C:9C:42:67:CF:8F:03",
+      "sha1": "80:DF:FA:B9:4D:87:E1:53:B5:B7:D7:A3:BE:3C:9C:42:67:CF:8F:03",
+      "sha256": "9A:51:ED:D3:DE:7E:24:23:5F:26:B8:F8:8B:26:49:E6:0F:B2:ED:20:EE:61:24:2F:BD:FA:CC:F0:A3:9E:88:6B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-itau-dev.primecontrol.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-itau-dev.primecontrol.com.br",
+        "subjectKeyIdentifier": "keyid:e3:03:03:06:43:2d:51:4a:73:31:dd:0f:be:a7:4c:fa:14:0d:ae:dd"
+      }
+    },
+    "cert_index": 60910887,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x237/933",
+    "seen": 1787600959.338,
+    "submission_timestamp": 1786675999.726,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

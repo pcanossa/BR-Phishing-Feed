@@ -1,0 +1,55 @@
+{
+  "dominio": "debitorservice.no",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 16:54:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitorservice.com",
+        "aggregated": "/CN=*.debitorservice.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "06CEDED551915131086E76910002B571DC4B",
+      "not_before": 1780629545,
+      "not_after": 1788405544,
+      "fingerprint": "F0:C5:CA:59:D8:38:16:14:B4:48:D3:1C:00:6B:08:1C:50:63:39:8F",
+      "sha1": "F0:C5:CA:59:D8:38:16:14:B4:48:D3:1C:00:6B:08:1C:50:63:39:8F",
+      "sha256": "FA:B9:3E:9A:6E:6C:01:5E:C5:98:16:A2:96:2C:21:FA:B8:DF:12:E1:A4:87:FB:92:D4:2F:82:10:ED:49:4F:8F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitorservice.com",
+        "*.debitorservice.no",
+        "debitorservice.com",
+        "debitorservice.no",
+        "www.debitorservice.debitorservice.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitorservice.com, DNS:*.debitorservice.no, DNS:debitorservice.com, DNS:debitorservice.no, DNS:www.debitorservice.debitorservice.com",
+        "subjectKeyIdentifier": "keyid:8c:3e:35:ba:e7:13:55:bf:e5:67:e0:5a:4f:b6:eb:f4:d9:f8:56:36"
+      }
+    },
+    "cert_index": 251003513,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x980/482",
+    "seen": 1787601255.209,
+    "submission_timestamp": 1780633057.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

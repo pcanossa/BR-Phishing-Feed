@@ -1,0 +1,53 @@
+{
+  "dominio": "betechwithsantander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 16:41:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01ED04FAF6D36440844F4B7280A71FA2",
+      "not_before": 1782327938,
+      "not_after": 1782414299,
+      "fingerprint": "05:CE:44:68:61:95:61:71:59:E6:C1:C4:A2:53:DB:BA:2A:F1:0A:C0",
+      "sha1": "05:CE:44:68:61:95:61:71:59:E6:C1:C4:A2:53:DB:BA:2A:F1:0A:C0",
+      "sha256": "C1:2A:2F:36:68:AB:C4:97:50:15:BC:E4:B1:C9:4F:8F:D8:25:21:81:BE:70:B4:AD:8F:72:C6:92:0A:30:C7:4C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.betechwithsantander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.betechwithsantander.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:e0:72:4c:d6:dc:de:4d:fb:3a:d9:47:f0:30:bf:0c:0e:b2:e0:bc:89",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1215169106,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h1/ct/v1/get-entries?start=1215169106&end=1215169106",
+    "seen": 1787600485.493,
+    "submission_timestamp": 1782327940.59,
+    "source": {
+      "name": "DigiCert 'Wyvern 2026h1' Log",
+      "url": "https://wyvern.ct.digicert.com/2026h1"
+    }
+  }
+}

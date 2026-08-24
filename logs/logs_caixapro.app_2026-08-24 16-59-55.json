@@ -1,0 +1,52 @@
+{
+  "dominio": "caixapro.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/24/26 16:59:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.caixapro.app",
+        "aggregated": "/CN=*.caixapro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "06565DBDB6EA37E59846F5EB7AC9389DE475",
+      "not_before": 1780668825,
+      "not_after": 1788444824,
+      "fingerprint": "48:62:63:46:13:16:AB:01:15:79:6D:90:10:C0:B3:7E:22:66:7C:D2",
+      "sha1": "48:62:63:46:13:16:AB:01:15:79:6D:90:10:C0:B3:7E:22:66:7C:D2",
+      "sha256": "93:44:E5:27:98:54:BF:73:D9:9A:C3:0D:AF:EF:49:5E:2E:55:49:16:61:AE:6E:26:CE:C2:32:A5:94:F0:39:10",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.caixapro.app",
+        "caixapro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.caixapro.app, DNS:caixapro.app",
+        "subjectKeyIdentifier": "keyid:82:c9:de:88:92:49:68:67:9e:3a:fd:e5:5e:4d:21:d8:a7:57:2f:59"
+      }
+    },
+    "cert_index": 236672790,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x924/503",
+    "seen": 1787601596.336,
+    "submission_timestamp": 1780672336.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

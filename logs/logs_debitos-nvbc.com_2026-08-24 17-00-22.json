@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-nvbc.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 17:00:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-nvbc.com",
+        "aggregated": "/CN=debitos-nvbc.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06366444D8A7A7CEE4BF494125ADC0A3D6BE",
+      "not_before": 1780632046,
+      "not_after": 1788408045,
+      "fingerprint": "88:EA:32:52:6A:C6:25:36:72:D1:95:31:92:69:46:AC:AA:1A:33:0F",
+      "sha1": "88:EA:32:52:6A:C6:25:36:72:D1:95:31:92:69:46:AC:AA:1A:33:0F",
+      "sha256": "6D:4D:D7:04:03:71:A4:12:C4:35:A8:08:9D:CE:75:AD:93:CE:55:37:DF:3B:77:17:E4:3F:38:05:40:37:D4:84",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-nvbc.com",
+        "*.debitos-nvbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitos-nvbc.com, DNS:debitos-nvbc.com",
+        "subjectKeyIdentifier": "keyid:65:d5:14:46:7c:e9:90:81:0f:50:7c:00:cf:8a:5d:be:3e:c0:28:d3"
+      }
+    },
+    "cert_index": 251054738,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x980/682",
+    "seen": 1787601622.447,
+    "submission_timestamp": 1780635557.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
