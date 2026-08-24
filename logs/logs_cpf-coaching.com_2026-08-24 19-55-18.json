@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-coaching.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 19:55:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-coaching.com",
+        "aggregated": "/CN=cpf-coaching.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "AE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=AE1/O=Google Trust Services"
+      },
+      "serial_number": "C17A068871941B75136F327C05CEBDF1",
+      "not_before": 1779469500,
+      "not_after": 1783361011,
+      "fingerprint": "29:FF:0D:ED:D7:B5:D1:F7:95:C7:CC:2D:03:99:C7:49:01:E2:D2:65",
+      "sha1": "29:FF:0D:ED:D7:B5:D1:F7:95:C7:CC:2D:03:99:C7:49:01:E2:D2:65",
+      "sha256": "CA:1A:06:E4:EC:CE:7E:E8:B5:AC:2B:C3:11:92:DA:1E:7B:93:7F:12:C0:B7:5F:22:9F:D2:20:61:2A:44:C5:DF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-coaching.com",
+        "*.cpf-coaching.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/ae1/wXo, URI:http://i.pki.goog/ae1.crt",
+        "authorityKeyIdentifier": "keyid:48:89:60:f9:a3:7d:0c:ea:00:24:a2:dc:9f:07:ce:46:88:a8:32:3a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-coaching.com, DNS:*.cpf-coaching.com",
+        "subjectKeyIdentifier": "keyid:c3:4c:49:6a:4c:5f:35:88:da:a6:d0:53:41:ad:8e:12:ef:c8:fc:a0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4393141208,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4393141208&end=4393141208",
+    "seen": 1787612117.783,
+    "submission_timestamp": 1779473100.685,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

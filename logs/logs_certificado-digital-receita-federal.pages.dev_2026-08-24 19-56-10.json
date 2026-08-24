@@ -1,0 +1,51 @@
+{
+  "dominio": "certificado-digital-receita-federal.pages.dev",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/24/26 19:56:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "certificado-digital-receita-federal.pages.dev",
+        "aggregated": "/CN=certificado-digital-receita-federal.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "445C79F00BE106EDA6FA317C3F5586E0",
+      "not_before": 1781134088,
+      "not_after": 1788768455,
+      "fingerprint": "A5:0A:89:83:36:A2:D2:4D:B4:44:63:E5:7D:E2:29:5F:5E:C4:8F:C7",
+      "sha1": "A5:0A:89:83:36:A2:D2:4D:B4:44:63:E5:7D:E2:29:5F:5E:C4:8F:C7",
+      "sha256": "7B:D2:1E:4B:86:C8:EE:14:4D:DC:FD:F2:4E:F2:F6:29:C8:5D:A7:69:76:C4:F7:2D:0E:89:E7:50:F3:58:B1:98",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "certificado-digital-receita-federal.pages.dev",
+        "*.certificado-digital-receita-federal.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:certificado-digital-receita-federal.pages.dev, DNS:*.certificado-digital-receita-federal.pages.dev"
+      }
+    },
+    "cert_index": 984724880,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x846/581",
+    "seen": 1787612171.117,
+    "submission_timestamp": 1787403959.127,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

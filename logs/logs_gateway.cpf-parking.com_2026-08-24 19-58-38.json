@@ -1,0 +1,55 @@
+{
+  "dominio": "gateway.cpf-parking.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 19:58:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gateway.cpf-parking.com",
+        "aggregated": "/CN=gateway.cpf-parking.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "05FDD26D06B2073018BA7FE351E693A8D516",
+      "not_before": 1780725700,
+      "not_after": 1788501699,
+      "fingerprint": "4A:E6:DA:A0:3E:27:D1:D3:89:E4:03:60:E1:B3:9A:8E:58:FB:4B:CB",
+      "sha1": "4A:E6:DA:A0:3E:27:D1:D3:89:E4:03:60:E1:B3:9A:8E:58:FB:4B:CB",
+      "sha256": "CF:8A:00:B1:03:C8:F2:08:74:9A:64:8F:16:E9:E2:9F:2C:C3:F9:4D:C3:1E:E8:3B:C9:FB:95:A6:C3:7F:03:31",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gateway.cpf-parking.com",
+        "app.cpf-parking.com",
+        "carpark.systemcare.sg",
+        "kms.systemcare.sg",
+        "privacy.cpf-parking.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.cpf-parking.com, DNS:carpark.systemcare.sg, DNS:gateway.cpf-parking.com, DNS:kms.systemcare.sg, DNS:privacy.cpf-parking.com",
+        "subjectKeyIdentifier": "keyid:3e:65:28:06:34:6d:e6:d9:f8:25:cf:90:8c:ad:84:7c:d6:46:ad:97"
+      }
+    },
+    "cert_index": 238098862,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x930/073",
+    "seen": 1787612317.247,
+    "submission_timestamp": 1780729211.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

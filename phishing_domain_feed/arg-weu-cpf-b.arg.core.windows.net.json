@@ -1,0 +1,12 @@
+{
+    "dominio": "arg-weu-cpf-b.arg.core.windows.net",
+    "data_registro": "08/24/26 15:30:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Subdomínio contém o termo 'cpf', indicador forte de alvo brasileiro, comum em campanhas de phishing que solicitam dados de pessoa física",
+        "Domínio utiliza infraestrutura da Microsoft Azure (core.windows.net), frequentemente empregada por atores maliciosos para hospedar páginas de phishing ou arquivos de carga útil",
+        "Combinação de palavras 'arg-weu-cpf-b' não corresponde a nenhum serviço público ou empresarial conhecido no Brasil, sugerindo criação automática para enganar usuários",
+        "Domínio não está listado em bases de dados de domínios benignos ou em listas de reputação conhecidas"
+    ],
+    "analise_comportamental": "O subdomínio 'arg-weu-cpf-b.arg.core.windows.net' apresenta características típicas de um ponto de hospedagem usado em ataques de phishing direcionados ao Brasil, principalmente pela presença do termo 'cpf' que visa atrair vítimas brasileiras a inserir informações pessoais. Embora o domínio base seja legítimo (Azure), a combinação de palavras e a ausência de reputação apontam para possível uso malicioso como página de coleta de credenciais ou distribuição de payloads."
+}

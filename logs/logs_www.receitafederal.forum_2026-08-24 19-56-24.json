@@ -1,0 +1,51 @@
+{
+  "dominio": "www.receitafederal.forum",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/24/26 19:56:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.receitafederal.forum",
+        "aggregated": "/CN=www.receitafederal.forum"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "061F7AC39FE8EE281E5D10900B5976577B53",
+      "not_before": 1779469625,
+      "not_after": 1787245624,
+      "fingerprint": "D2:AB:93:AD:40:CF:11:D4:2D:05:19:A4:BA:91:D2:8C:51:E6:F3:81",
+      "sha1": "D2:AB:93:AD:40:CF:11:D4:2D:05:19:A4:BA:91:D2:8C:51:E6:F3:81",
+      "sha256": "7E:AB:1B:6E:00:D6:47:14:3D:0E:BD:E7:45:CF:F4:C0:0B:25:DB:88:A4:93:29:A3:51:93:CC:31:F4:12:74:6F",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.receitafederal.forum"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.receitafederal.forum",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4393149145,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4393149145&end=4393149145",
+    "seen": 1787612183.88,
+    "submission_timestamp": 1779473139.491,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
