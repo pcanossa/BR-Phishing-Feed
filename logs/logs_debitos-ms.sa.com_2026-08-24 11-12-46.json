@@ -1,0 +1,52 @@
+{
+  "dominio": "debitos-ms.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 11:12:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-ms.sa.com",
+        "aggregated": "/CN=debitos-ms.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06F642B2E8D3AA8673CC73C50621FBE50504",
+      "not_before": 1780614682,
+      "not_after": 1788390681,
+      "fingerprint": "F2:67:B3:63:D8:77:A7:DA:9F:30:D3:66:DA:0D:ED:C3:21:2D:59:5E",
+      "sha1": "F2:67:B3:63:D8:77:A7:DA:9F:30:D3:66:DA:0D:ED:C3:21:2D:59:5E",
+      "sha256": "2D:16:03:13:64:63:48:D2:39:CE:F0:40:5F:48:34:F8:BF:28:F8:0B:87:3E:88:77:A8:15:E6:27:D1:29:BA:B4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-ms.sa.com",
+        "*.debitos-ms.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitos-ms.sa.com, DNS:debitos-ms.sa.com",
+        "subjectKeyIdentifier": "keyid:7b:27:32:9b:89:fa:f2:37:ca:e5:5f:f1:ac:97:6c:a9:7e:34:be:6d"
+      }
+    },
+    "cert_index": 235252634,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x918/955",
+    "seen": 1787580765.926,
+    "submission_timestamp": 1780618192.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

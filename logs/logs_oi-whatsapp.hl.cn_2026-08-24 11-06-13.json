@@ -1,0 +1,52 @@
+{
+  "dominio": "oi-whatsapp.hl.cn",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/24/26 11:06:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi-whatsapp.hl.cn",
+        "aggregated": "/CN=oi-whatsapp.hl.cn"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "7EB7015514632C0FCC977431A835CABB",
+      "not_before": 1780272000,
+      "not_after": 1787834647,
+      "fingerprint": "C3:73:4E:19:59:B9:E5:27:35:56:BE:31:5E:9C:33:E5:1C:A4:E8:AD",
+      "sha1": "C3:73:4E:19:59:B9:E5:27:35:56:BE:31:5E:9C:33:E5:1C:A4:E8:AD",
+      "sha256": "49:76:D4:78:8A:88:72:38:5C:C1:C4:53:33:36:90:1F:BF:7C:07:F2:3D:D6:72:D6:C1:7C:88:14:D5:25:06:D9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "oi-whatsapp.hl.cn",
+        "*.oi-whatsapp.hl.cn"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:oi-whatsapp.hl.cn, DNS:*.oi-whatsapp.hl.cn",
+        "subjectKeyIdentifier": "keyid:63:e7:d2:f9:bf:75:1d:ee:7d:e8:f7:0b:d8:41:fe:29:3f:ba:2a:55"
+      }
+    },
+    "cert_index": 235203370,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x918/763",
+    "seen": 1787580373.226,
+    "submission_timestamp": 1780616213.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

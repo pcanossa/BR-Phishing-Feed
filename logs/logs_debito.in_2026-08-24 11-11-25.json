@@ -1,0 +1,53 @@
+{
+  "dominio": "debito.in",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 11:11:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debito.in",
+        "aggregated": "/CN=debito.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0625D143E73F7DAD89BBD82089D7B4248773",
+      "not_before": 1779460346,
+      "not_after": 1787236345,
+      "fingerprint": "7F:F6:4E:80:9A:5D:4E:D9:24:CE:3C:CE:84:2A:B4:99:70:05:8E:C4",
+      "sha1": "7F:F6:4E:80:9A:5D:4E:D9:24:CE:3C:CE:84:2A:B4:99:70:05:8E:C4",
+      "sha256": "B4:AC:CA:54:83:A9:72:9F:D8:67:1F:FC:BC:AC:1C:B6:5A:3C:4A:A9:93:0C:88:9E:58:B6:CB:4C:A4:76:B2:FC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debito.in",
+        "*.debito.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debito.in, DNS:debito.in",
+        "subjectKeyIdentifier": "keyid:49:bc:52:9c:8b:ad:45:8b:82:7f:26:7e:4d:c9:2f:7d:c3:33:40:92",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4390789306,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4390789306&end=4390789306",
+    "seen": 1787580685.066,
+    "submission_timestamp": 1779463856.702,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

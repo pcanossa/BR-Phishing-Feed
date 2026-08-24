@@ -1,0 +1,53 @@
+{
+  "dominio": "sancionados-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 11:13:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "CDD68948BA77F4F2134D08188CFF297F",
+      "not_before": 1779234147,
+      "not_after": 1787013609,
+      "fingerprint": "1C:75:44:B9:BC:B8:44:76:14:05:72:1B:53:CA:70:40:CC:47:D2:33",
+      "sha1": "1C:75:44:B9:BC:B8:44:76:14:05:72:1B:53:CA:70:40:CC:47:D2:33",
+      "sha256": "85:CA:A9:52:BE:D6:BF:5A:D8:D0:B6:9E:3D:B4:E6:06:12:13:4D:F6:78:31:05:14:39:13:8D:DA:2F:B4:55:9D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "sancionados-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/zdY, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:sancionados-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:5f:98:b9:65:4b:ca:b4:1b:2c:cf:78:e4:33:4c:25:ea:c3:2f:fe:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 700397801,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=700397801&end=700397801",
+    "seen": 1787580797.822,
+    "submission_timestamp": 1779237747.714,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}
