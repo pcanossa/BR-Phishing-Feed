@@ -1,0 +1,52 @@
+{
+  "dominio": "onboarding-app.dev.itaucloud.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 02:30:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "onboarding-app.dev.itaucloud.com",
+        "aggregated": "/CN=onboarding-app.dev.itaucloud.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "08887F9B7343B11D36FD12D23C70208E",
+      "not_before": 1780444800,
+      "not_after": 1788220799,
+      "fingerprint": "85:B5:61:C4:62:85:B0:79:6E:13:4E:63:E8:49:E3:2D:4B:CF:B2:C7",
+      "sha1": "85:B5:61:C4:62:85:B0:79:6E:13:4E:63:E8:49:E3:2D:4B:CF:B2:C7",
+      "sha256": "4C:CE:93:F3:50:48:5A:43:D9:3E:E9:CF:96:1B:CA:35:C5:37:D4:31:5B:59:E9:3A:89:20:97:C5:BA:BE:91:C3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "onboarding-app.dev.itaucloud.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:onboarding-app.dev.itaucloud.com",
+        "subjectKeyIdentifier": "keyid:af:5e:d3:0b:88:00:4d:dc:76:57:86:82:fc:ed:2c:a9:6d:c8:8d:fb"
+      }
+    },
+    "cert_index": 246432798,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x962/628",
+    "seen": 1787549446.912,
+    "submission_timestamp": 1780458503.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

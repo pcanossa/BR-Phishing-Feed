@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.pt",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/24/26 02:13:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.pt",
+        "aggregated": "/CN=cartao.pt"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "03631175B83C5CEF9E6986EB4305326E",
+      "not_before": 1782518400,
+      "not_after": 1799711999,
+      "fingerprint": "BD:9F:29:8A:79:F1:BF:8D:8F:EE:69:DC:53:17:7C:F6:98:A6:C1:93",
+      "sha1": "BD:9F:29:8A:79:F1:BF:8D:8F:EE:69:DC:53:17:7C:F6:98:A6:C1:93",
+      "sha256": "AC:6B:17:CB:3F:CF:3D:CC:D2:40:90:A1:04:B8:0B:41:61:3F:FF:CC:10:C3:C9:C3:44:C0:75:95:A6:0A:60:3F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.pt",
+        "www.cartao.pt"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.pt, DNS:www.cartao.pt",
+        "subjectKeyIdentifier": "keyid:58:9c:db:23:d5:79:fc:02:79:6a:5b:37:11:6c:7c:a9:f8:aa:9c:a2"
+      }
+    },
+    "cert_index": 77447373,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x302/528",
+    "seen": 1787548430.123,
+    "submission_timestamp": 1782523345.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

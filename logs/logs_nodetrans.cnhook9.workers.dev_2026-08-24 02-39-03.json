@@ -1,0 +1,53 @@
+{
+  "dominio": "nodetrans.cnhook9.workers.dev",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/24/26 02:39:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cnhook9.workers.dev",
+        "aggregated": "/CN=cnhook9.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "FF03270BDCF438DF0E857F1F16E65153",
+      "not_before": 1779446654,
+      "not_after": 1787226248,
+      "fingerprint": "7B:91:62:AA:1B:14:52:91:1D:A4:B5:CC:16:3E:3E:6D:4F:EC:13:2A",
+      "sha1": "7B:91:62:AA:1B:14:52:91:1D:A4:B5:CC:16:3E:3E:6D:4F:EC:13:2A",
+      "sha256": "3C:36:8C:3D:22:D2:F7:AE:3C:68:5B:8B:04:B5:6E:87:20:00:0B:6C:DE:15:8D:9C:CE:68:49:29:19:70:F8:60",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cnhook9.workers.dev",
+        "*.nodetrans.cnhook9.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/_wM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cnhook9.workers.dev, DNS:*.nodetrans.cnhook9.workers.dev",
+        "subjectKeyIdentifier": "keyid:5a:a2:5e:5a:14:81:f1:d6:fe:32:62:ab:a6:38:1f:e2:9d:70:2d:b9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4388112616,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4388112616&end=4388112616",
+    "seen": 1787549937.542,
+    "submission_timestamp": 1779450255.206,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

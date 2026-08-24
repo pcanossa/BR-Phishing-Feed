@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.legal",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 02:10:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.legal",
+        "aggregated": "/CN=cpf.legal"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05E927841313B30438B99E3F218D1EBD582B",
+      "not_before": 1780490336,
+      "not_after": 1788266335,
+      "fingerprint": "29:FC:03:71:87:A8:42:07:B8:73:2B:E7:4F:B6:FB:8B:5D:C9:40:29",
+      "sha1": "29:FC:03:71:87:A8:42:07:B8:73:2B:E7:4F:B6:FB:8B:5D:C9:40:29",
+      "sha256": "92:70:7E:8C:AC:4B:EC:63:65:2A:66:B2:1A:03:6C:80:F0:31:A7:AB:8F:B9:DE:07:77:55:3F:85:73:7C:17:37",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.legal",
+        "www.cpf.legal"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.legal, DNS:www.cpf.legal",
+        "subjectKeyIdentifier": "keyid:1e:ee:7e:02:3b:38:c4:e2:f4:b4:97:af:03:c9:9b:42:3f:ea:f7:b8"
+      }
+    },
+    "cert_index": 232070003,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x906/523",
+    "seen": 1787548216.027,
+    "submission_timestamp": 1780493846.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

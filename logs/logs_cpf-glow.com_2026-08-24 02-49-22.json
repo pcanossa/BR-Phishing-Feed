@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-glow.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 02:49:22",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-glow.com",
+        "aggregated": "/CN=cpf-glow.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06D1840B12B7D3B2F59084EB96A0B4B0A4BE",
+      "not_before": 1779447077,
+      "not_after": 1787223076,
+      "fingerprint": "2A:88:89:8F:20:F2:04:E1:3B:22:7C:B2:8A:8C:08:11:46:A2:31:66",
+      "sha1": "2A:88:89:8F:20:F2:04:E1:3B:22:7C:B2:8A:8C:08:11:46:A2:31:66",
+      "sha256": "95:45:78:CD:53:13:B7:1B:1B:7C:A3:E6:36:73:9F:53:C6:E5:1E:A5:0B:B2:49:8A:7A:61:AE:DA:1B:A9:AE:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-glow.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-glow.com",
+        "subjectKeyIdentifier": "keyid:bb:f1:d1:56:0b:5d:66:ad:eb:e7:9b:d4:c2:c0:b4:e1:22:e7:9b:d2"
+      }
+    },
+    "cert_index": 4388191688,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4388191688&end=4388191688",
+    "seen": 1787550556.249,
+    "submission_timestamp": 1779450736.107,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

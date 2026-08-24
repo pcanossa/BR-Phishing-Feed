@@ -1,0 +1,52 @@
+{
+  "dominio": "sicoobscrs.app",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "08/24/26 02:24:48",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sicoobscrs.app",
+        "aggregated": "/CN=sicoobscrs.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "063F6387ABE772398C1CBEE68E3F3659F66E",
+      "not_before": 1779442004,
+      "not_after": 1787218003,
+      "fingerprint": "9A:C2:AA:97:0D:A2:5F:5C:AF:D1:30:A5:11:C8:3F:72:B5:D3:C6:67",
+      "sha1": "9A:C2:AA:97:0D:A2:5F:5C:AF:D1:30:A5:11:C8:3F:72:B5:D3:C6:67",
+      "sha256": "66:EA:12:9D:A3:94:BF:2C:33:A1:50:1D:30:18:66:5C:A4:1A:56:21:5C:66:A4:8D:8E:8F:30:64:49:DC:93:79",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sicoobscrs.app",
+        "*.sicoobscrs.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sicoobscrs.app, DNS:sicoobscrs.app",
+        "subjectKeyIdentifier": "keyid:40:ac:8d:6f:54:da:3a:6c:74:00:b5:2f:7a:a8:8f:18:c4:e6:55:13"
+      }
+    },
+    "cert_index": 4388001379,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4388001379&end=4388001379",
+    "seen": 1787549083.135,
+    "submission_timestamp": 1779449616.009,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

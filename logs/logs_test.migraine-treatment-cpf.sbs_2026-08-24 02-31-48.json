@@ -1,0 +1,52 @@
+{
+  "dominio": "test.migraine-treatment-cpf.sbs",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 02:31:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test.migraine-treatment-cpf.sbs",
+        "aggregated": "/CN=test.migraine-treatment-cpf.sbs"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C63C8B53008FA2EBBD87593106F20C7",
+      "not_before": 1780444800,
+      "not_after": 1788220799,
+      "fingerprint": "74:AB:BA:66:92:82:5A:3C:4B:B1:22:21:27:B9:61:29:65:98:2B:66",
+      "sha1": "74:AB:BA:66:92:82:5A:3C:4B:B1:22:21:27:B9:61:29:65:98:2B:66",
+      "sha256": "BF:1B:92:68:7E:8D:63:AC:4A:F0:44:02:88:C1:5E:43:0B:56:6A:C4:10:D6:6A:90:3B:DC:E3:D5:6F:D1:E5:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "test.migraine-treatment-cpf.sbs"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:test.migraine-treatment-cpf.sbs",
+        "subjectKeyIdentifier": "keyid:42:dc:dc:b7:f9:0f:a4:aa:63:64:f5:0d:51:6f:3c:74:41:19:1e:7c"
+      }
+    },
+    "cert_index": 246440887,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x962/659",
+    "seen": 1787549502.905,
+    "submission_timestamp": 1780458690.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

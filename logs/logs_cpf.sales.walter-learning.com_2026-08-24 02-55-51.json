@@ -1,0 +1,54 @@
+{
+  "dominio": "cpf.sales.walter-learning.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 02:55:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sales.walter-learning.com",
+        "aggregated": "/CN=sales.walter-learning.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "06338B45D028332A5DB5BED8BBBA3F656713",
+      "not_before": 1780460628,
+      "not_after": 1788236627,
+      "fingerprint": "AD:EC:F3:19:B6:41:41:6E:A7:3B:E4:92:74:C4:D4:73:AB:34:E3:1D",
+      "sha1": "AD:EC:F3:19:B6:41:41:6E:A7:3B:E4:92:74:C4:D4:73:AB:34:E3:1D",
+      "sha256": "05:85:FE:43:21:07:D5:EC:3A:70:41:36:61:12:FE:5E:0A:F9:1C:A2:F5:67:0D:4B:CE:9D:05:12:9E:6D:1E:D5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sales.walter-learning.com",
+        "*.cpf.sales.walter-learning.com",
+        "*.dpc.sales.walter-learning.com",
+        "*.sales.walter-learning.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.sales.walter-learning.com, DNS:*.dpc.sales.walter-learning.com, DNS:*.sales.walter-learning.com, DNS:sales.walter-learning.com",
+        "subjectKeyIdentifier": "keyid:49:41:12:3f:7a:b2:c9:6e:50:42:40:d7:a4:fe:1a:5f:5e:d6:4c:c9"
+      }
+    },
+    "cert_index": 246646104,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x963/461",
+    "seen": 1787550945.569,
+    "submission_timestamp": 1780464140.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
