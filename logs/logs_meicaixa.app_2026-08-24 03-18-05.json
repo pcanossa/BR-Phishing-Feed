@@ -1,0 +1,52 @@
+{
+  "dominio": "meicaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/24/26 03:18:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.meicaixa.app",
+        "aggregated": "/CN=*.meicaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "068DE17234B4179A1FEDF01ED45C97F287BA",
+      "not_before": 1780513350,
+      "not_after": 1788289349,
+      "fingerprint": "B2:BB:F2:B1:C9:16:1B:94:4D:8B:7D:65:FA:7A:1C:DC:1E:ED:31:34",
+      "sha1": "B2:BB:F2:B1:C9:16:1B:94:4D:8B:7D:65:FA:7A:1C:DC:1E:ED:31:34",
+      "sha256": "1A:C7:3E:87:05:78:5E:3C:7D:C8:88:45:A8:F7:67:03:62:83:86:98:49:8A:F7:13:87:01:7C:D5:78:A8:82:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.meicaixa.app",
+        "meicaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.meicaixa.app, DNS:meicaixa.app",
+        "subjectKeyIdentifier": "keyid:a0:f3:e8:1c:92:71:93:17:de:34:7a:2c:1f:4a:f5:16:d3:e6:20:09"
+      }
+    },
+    "cert_index": 232633034,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x908/722",
+    "seen": 1787552279.319,
+    "submission_timestamp": 1780516860.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "acesso.sicoobnorte.com.br",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "08/24/26 03:08:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sicoobnorte.com.br",
+        "aggregated": "/CN=*.sicoobnorte.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "065A2EFFD54A89927D406BCD224CD2A393BB",
+      "not_before": 1780509921,
+      "not_after": 1788285920,
+      "fingerprint": "42:4A:42:72:18:4C:C5:85:AC:1A:98:B0:88:C0:E1:3A:BC:68:BE:43",
+      "sha1": "42:4A:42:72:18:4C:C5:85:AC:1A:98:B0:88:C0:E1:3A:BC:68:BE:43",
+      "sha256": "2F:05:C7:E0:B9:83:01:FC:5E:9C:C6:C6:B7:A7:D4:CB:F3:59:FE:AF:DF:CE:61:DF:33:3D:E4:37:A3:09:37:CF",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.sicoobnorte.com.br",
+        "*.acesso.sicoobnorte.com.br",
+        "*.sistemas.sicoobnorte.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.acesso.sicoobnorte.com.br, DNS:*.sicoobnorte.com.br, DNS:*.sistemas.sicoobnorte.com.br",
+        "subjectKeyIdentifier": "keyid:71:c4:43:31:78:6b:e3:0c:bc:90:7f:e4:58:f3:b9:8c:ac:61:2a:13"
+      }
+    },
+    "cert_index": 232555344,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x908/419",
+    "seen": 1787551716.801,
+    "submission_timestamp": 1780513431.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "login-bancosantander.securityctcentral.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 03:06:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login-bancosantander.securityctcentral.com",
+        "aggregated": "/CN=login-bancosantander.securityctcentral.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1928FBD4856283784EBC08EE81B148AA",
+      "not_before": 1780185600,
+      "not_after": 1788047999,
+      "fingerprint": "83:1C:76:7F:80:DA:DB:79:99:04:2C:A4:E4:39:4B:13:66:8D:F7:11",
+      "sha1": "83:1C:76:7F:80:DA:DB:79:99:04:2C:A4:E4:39:4B:13:66:8D:F7:11",
+      "sha256": "2F:DE:2A:E2:44:3C:02:A0:EE:F8:AC:5E:33:E5:51:19:99:48:78:13:BD:19:12:66:76:E5:80:F7:46:D5:2B:90",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "login-bancosantander.securityctcentral.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login-bancosantander.securityctcentral.com",
+        "subjectKeyIdentifier": "keyid:1e:52:10:ac:86:fa:fb:69:f2:30:66:ce:f2:6a:33:bb:88:94:09:93"
+      }
+    },
+    "cert_index": 246738225,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x963/821",
+    "seen": 1787551592.485,
+    "submission_timestamp": 1780468292.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
