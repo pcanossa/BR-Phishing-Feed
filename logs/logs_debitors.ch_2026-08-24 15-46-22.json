@@ -1,0 +1,53 @@
+{
+  "dominio": "debitors.ch",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 15:46:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.sitetemp.debitors.ch",
+        "aggregated": "/CN=www.sitetemp.debitors.ch"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "06B137AB3F6CFC8789BFB76695DE3263D141",
+      "not_before": 1780609044,
+      "not_after": 1788385043,
+      "fingerprint": "92:E4:EF:BA:3B:7C:F2:03:70:D7:F9:D1:69:96:3D:AC:EA:EA:94:47",
+      "sha1": "92:E4:EF:BA:3B:7C:F2:03:70:D7:F9:D1:69:96:3D:AC:EA:EA:94:47",
+      "sha256": "00:C3:90:6F:5F:E6:2F:E0:16:D2:22:26:59:D1:A0:2B:13:BB:3B:B9:E4:B9:0A:88:0C:C6:96:5B:37:4C:9E:5E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.sitetemp.debitors.ch",
+        "debitors.ch",
+        "www.debitors.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitors.ch, DNS:www.debitors.ch, DNS:www.sitetemp.debitors.ch",
+        "subjectKeyIdentifier": "keyid:c6:fd:ce:1b:fe:b3:69:e7:3f:5a:a4:e0:71:aa:40:e5:7a:58:85:7e"
+      }
+    },
+    "cert_index": 250439870,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x978/280",
+    "seen": 1787597181.327,
+    "submission_timestamp": 1780612555.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "dominio": "0667quungisidapohxio.6a00ahghohchookohnok.yfcowbetasantander.bimp-bot.duckdns.org",
+    "data_registro": "08/24/26 15:50:05",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de serviço de DNS dinâmico (duckdns.org) frequentemente empregado por infraestrutura de C2 e phishing",
+        "Subdomínio contém a marca 'santander', instituição financeira brasileira, indicando tentativa de engenharia social contra usuários no Brasil",
+        "Sequência de subdomínios com nomes aleatórios e sem sentido (0667quungisidapohxio, 6a00ahghohchookohnok, yfcowbetasantander, bimp-bot) típica de domínios gerados automaticamente para evitar listas negras",
+        "Domínio não listado em bases de dados de domínios legítimos ou whitelist de serviços confiáveis",
+        "Extensão '.org' combinada com DNS dinâmico pode passar despercebida em filtros automatizados, aumentando a probabilidade de uso malicioso"
+    ],
+    "analise_comportamental": "O domínio apresenta múltiplos indicadores de risco: utiliza um provedor de DNS dinâmico comumente usado por atores maliciosos, incorpora a marca de um banco brasileiro para atrair vítimas locais e contém subdomínios gerados aleatoriamente que dificultam a detecção por listas estáticas. Esses fatores sugerem que o domínio está sendo usado para campanha de phishing direcionada a usuários do Brasil, possivelmente hospedando páginas falsas de login ou capturando credenciais de clientes do Santander."
+}

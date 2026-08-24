@@ -1,0 +1,52 @@
+{
+  "dominio": "declaracao-receita-federa.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/24/26 15:19:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.declaracao-receita-federa.app",
+        "aggregated": "/CN=*.declaracao-receita-federa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "053C7D44B36A2CFCD1685C48A5579634F89A",
+      "not_before": 1780639067,
+      "not_after": 1788415066,
+      "fingerprint": "19:79:36:39:DE:BB:05:88:D7:E6:72:55:38:83:D2:9F:6C:0C:46:BF",
+      "sha1": "19:79:36:39:DE:BB:05:88:D7:E6:72:55:38:83:D2:9F:6C:0C:46:BF",
+      "sha256": "89:85:B0:22:C5:A7:70:5A:8B:41:D4:56:43:33:2F:76:0E:AC:22:12:60:EB:E2:9D:05:B4:3F:EB:C6:BC:6C:E3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.declaracao-receita-federa.app",
+        "declaracao-receita-federa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.declaracao-receita-federa.app, DNS:declaracao-receita-federa.app",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 235881295,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x921/411",
+    "seen": 1787595569.307,
+    "submission_timestamp": 1780642577.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

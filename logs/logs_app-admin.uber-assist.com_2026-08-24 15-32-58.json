@@ -1,0 +1,51 @@
+{
+  "dominio": "app-admin.uber-assist.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/24/26 15:32:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-admin.uber-assist.com",
+        "aggregated": "/CN=app-admin.uber-assist.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "051087B9905D2AA67E1876760E19D91D02FF",
+      "not_before": 1780604445,
+      "not_after": 1788380444,
+      "fingerprint": "73:ED:42:E4:BA:C0:EE:31:31:84:00:AB:79:F4:D0:BE:36:9B:00:ED",
+      "sha1": "73:ED:42:E4:BA:C0:EE:31:31:84:00:AB:79:F4:D0:BE:36:9B:00:ED",
+      "sha256": "5D:C9:4A:DF:B0:7A:E7:28:D5:58:64:1F:8F:16:59:DA:45:3E:4A:1A:4D:22:FC:C7:26:DA:62:6E:BC:ED:14:A4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-admin.uber-assist.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-admin.uber-assist.com",
+        "subjectKeyIdentifier": "keyid:0d:41:a0:c7:f6:d7:1e:93:83:fb:8b:e4:50:58:8a:b7:7d:0f:dd:b1"
+      }
+    },
+    "cert_index": 250329022,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x977/847",
+    "seen": 1787596377.356,
+    "submission_timestamp": 1780607956.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

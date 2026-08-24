@@ -1,0 +1,52 @@
+{
+  "dominio": "api-cpf-basica-v1.ninjx.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 15:09:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ninjx.workers.dev",
+        "aggregated": "/CN=ninjx.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "D351E6CCED8B5C4713D020E31CAFB615",
+      "not_before": 1782115936,
+      "not_after": 1789895533,
+      "fingerprint": "2F:33:B8:BA:C9:56:4C:7F:96:B9:B9:B5:CC:BA:12:89:16:48:56:79",
+      "sha1": "2F:33:B8:BA:C9:56:4C:7F:96:B9:B9:B5:CC:BA:12:89:16:48:56:79",
+      "sha256": "94:AC:0E:0E:A6:6E:88:6C:44:A3:A2:06:3F:7C:19:28:8E:D8:32:13:79:4C:C3:B2:D4:EF:09:2A:76:BE:F7:B6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ninjx.workers.dev",
+        "*.api-cpf-basica-v1.ninjx.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ninjx.workers.dev, DNS:*.api-cpf-basica-v1.ninjx.workers.dev",
+        "subjectKeyIdentifier": "keyid:b3:c5:d9:f1:12:7c:90:bb:af:67:cc:fd:e5:1f:00:8f:bd:ce:2e:46"
+      }
+    },
+    "cert_index": 983798310,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x842/962",
+    "seen": 1787594959.329,
+    "submission_timestamp": 1787399748.756,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

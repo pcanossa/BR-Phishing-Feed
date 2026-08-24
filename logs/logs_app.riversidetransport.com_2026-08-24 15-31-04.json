@@ -1,0 +1,52 @@
+{
+  "dominio": "app.riversidetransport.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/24/26 15:31:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.riversidetransport.com",
+        "aggregated": "/CN=app.riversidetransport.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0B6F55CC0E754D323C203D1524512B31",
+      "not_before": 1782864000,
+      "not_after": 1798847999,
+      "fingerprint": "D8:01:02:F9:F7:B8:11:42:03:A0:13:C3:07:F8:65:AA:F9:29:DD:04",
+      "sha1": "D8:01:02:F9:F7:B8:11:42:03:A0:13:C3:07:F8:65:AA:F9:29:DD:04",
+      "sha256": "24:13:4A:86:7C:EB:C0:69:28:FB:6F:43:04:EB:78:AC:71:7D:0A:D5:D0:C1:E5:48:77:C5:60:D8:D2:07:77:6B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.riversidetransport.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.riversidetransport.com",
+        "subjectKeyIdentifier": "keyid:7a:8c:29:e9:c1:92:34:56:0d:7e:37:ac:13:43:81:e3:8f:c6:a9:3f"
+      }
+    },
+    "cert_index": 74190020,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x289/804",
+    "seen": 1787596263.352,
+    "submission_timestamp": 1782902785.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
