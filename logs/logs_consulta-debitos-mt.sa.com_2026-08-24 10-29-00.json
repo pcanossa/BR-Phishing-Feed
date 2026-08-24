@@ -1,0 +1,53 @@
+{
+  "dominio": "consulta-debitos-mt.sa.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 10:29:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "consulta-debitos-mt.sa.com",
+        "aggregated": "/CN=consulta-debitos-mt.sa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "75EBF2BAF5150AB2130513F0D1CA2C03",
+      "not_before": 1778640169,
+      "not_after": 1786419475,
+      "fingerprint": "72:7D:37:46:50:EA:62:7A:59:7B:CC:8D:07:A7:F4:0F:D7:96:39:E7",
+      "sha1": "72:7D:37:46:50:EA:62:7A:59:7B:CC:8D:07:A7:F4:0F:D7:96:39:E7",
+      "sha256": "76:EF:22:49:B4:41:D0:2B:64:7A:79:A4:A7:9E:5D:FD:F5:A8:8E:59:23:18:C1:C5:35:47:20:00:FE:46:71:DA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "consulta-debitos-mt.sa.com",
+        "*.consulta-debitos-mt.sa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/des, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:consulta-debitos-mt.sa.com, DNS:*.consulta-debitos-mt.sa.com",
+        "subjectKeyIdentifier": "keyid:0a:1e:a9:a9:f3:3b:40:ed:3d:12:f6:e6:7b:ba:97:b6:88:49:57:0f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 676038342,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=676038342&end=676038342",
+    "seen": 1787578140.219,
+    "submission_timestamp": 1778643769.954,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

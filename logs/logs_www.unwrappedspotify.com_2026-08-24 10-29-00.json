@@ -1,0 +1,51 @@
+{
+  "dominio": "www.unwrappedspotify.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/24/26 10:29:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.unwrappedspotify.com",
+        "aggregated": "/CN=www.unwrappedspotify.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "BB88524F7C92D2790ADFA68B778615D8",
+      "not_before": 1779054584,
+      "not_after": 1786833595,
+      "fingerprint": "9C:67:66:89:BF:FA:8D:36:31:6E:40:99:CD:B5:28:4C:D4:15:26:6A",
+      "sha1": "9C:67:66:89:BF:FA:8D:36:31:6E:40:99:CD:B5:28:4C:D4:15:26:6A",
+      "sha256": "5F:BB:C3:4A:9E:EC:D0:46:6E:17:61:42:3B:2D:B2:4A:57:9B:55:A0:01:32:5A:46:49:DE:DC:9B:90:90:4F:7F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.unwrappedspotify.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/u4g, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.unwrappedspotify.com",
+        "subjectKeyIdentifier": "keyid:5f:0f:aa:a5:11:cd:16:07:b0:1c:05:c8:4d:2b:5c:6e:71:0b:12:bb"
+      }
+    },
+    "cert_index": 4390496838,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4390496838&end=4390496838",
+    "seen": 1787578140.66,
+    "submission_timestamp": 1779462858.995,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

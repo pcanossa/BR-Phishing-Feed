@@ -1,0 +1,52 @@
+{
+  "dominio": "bybitauditweb3.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 10:48:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bybitauditweb3.app",
+        "aggregated": "/CN=bybitauditweb3.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "952A6E9C43E2F323",
+      "not_before": 1782362926,
+      "not_after": 1799470126,
+      "fingerprint": "A2:0F:A2:B3:33:B7:A2:5B:F1:86:96:80:70:9E:42:09:A5:32:05:7A",
+      "sha1": "A2:0F:A2:B3:33:B7:A2:5B:F1:86:96:80:70:9E:42:09:A5:32:05:7A",
+      "sha256": "53:8E:9E:89:CF:9A:9B:16:DF:9D:40:C2:7B:66:44:8F:37:3E:4C:56:78:A7:34:C8:94:B8:24:91:A7:BA:FF:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "bybitauditweb3.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:bybitauditweb3.app",
+        "subjectKeyIdentifier": "keyid:6f:a6:50:a9:8f:56:ac:a8:ca:25:f3:b0:0a:c8:2e:29:68:b1:63:f8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 103136695,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=103136695&end=103136695",
+    "seen": 1787579296.365,
+    "submission_timestamp": 1782362928.695,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

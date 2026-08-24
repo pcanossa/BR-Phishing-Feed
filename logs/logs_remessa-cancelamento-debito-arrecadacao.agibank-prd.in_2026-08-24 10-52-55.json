@@ -1,0 +1,53 @@
+{
+  "dominio": "remessa-cancelamento-debito-arrecadacao.agibank-prd.in",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 10:52:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "remessa-cancelamento-debito-cobranca.agibank-prd.in",
+        "aggregated": "/CN=remessa-cancelamento-debito-cobranca.agibank-prd.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05AA979C964C82297EEEACAE6FB62DD624AB",
+      "not_before": 1779459879,
+      "not_after": 1787235878,
+      "fingerprint": "62:44:09:85:88:81:34:48:C4:19:29:A6:13:BD:8D:72:0A:1D:56:7B",
+      "sha1": "62:44:09:85:88:81:34:48:C4:19:29:A6:13:BD:8D:72:0A:1D:56:7B",
+      "sha256": "F2:4A:1D:51:6C:39:D4:45:F5:56:BC:0F:D7:77:74:9F:0E:30:32:EA:37:AE:24:4E:BB:20:F8:75:96:19:FF:13",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "remessa-cancelamento-debito-cobranca.agibank-prd.in",
+        "remessa-cancelamento-debito-arrecadacao.agibank-prd.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:remessa-cancelamento-debito-arrecadacao.agibank-prd.in, DNS:remessa-cancelamento-debito-cobranca.agibank-prd.in",
+        "subjectKeyIdentifier": "keyid:86:0d:e0:c7:87:5d:8b:e8:71:f9:ab:0e:3f:bd:1e:e6:4a:1a:b1:6d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4390659029,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4390659029&end=4390659029",
+    "seen": 1787579575.603,
+    "submission_timestamp": 1779463389.289,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
