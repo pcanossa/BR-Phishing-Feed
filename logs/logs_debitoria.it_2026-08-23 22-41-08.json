@@ -1,0 +1,52 @@
+{
+  "dominio": "debitoria.it",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 22:41:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoria.it",
+        "aggregated": "/CN=debitoria.it"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05893482B02AFF5D454D55CF0D55A4F15FCB",
+      "not_before": 1780424685,
+      "not_after": 1788200684,
+      "fingerprint": "72:EA:26:55:34:AA:7F:5D:59:9D:9E:48:1C:2B:A3:FE:07:82:AF:AF",
+      "sha1": "72:EA:26:55:34:AA:7F:5D:59:9D:9E:48:1C:2B:A3:FE:07:82:AF:AF",
+      "sha256": "7E:66:CA:F0:1D:72:20:40:61:D4:7A:4F:CD:19:FB:57:69:13:E8:46:76:39:30:A8:C9:1A:FA:77:E6:9E:35:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitoria.it",
+        "*.debitoria.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitoria.it, DNS:debitoria.it",
+        "subjectKeyIdentifier": "keyid:c4:bc:b2:0e:87:ec:58:1d:94:95:9b:0f:ea:f0:31:1c:f0:93:fe:d6"
+      }
+    },
+    "cert_index": 230331564,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x899/732",
+    "seen": 1787535662.946,
+    "submission_timestamp": 1780428196.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

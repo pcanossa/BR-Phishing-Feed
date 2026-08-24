@@ -1,0 +1,59 @@
+{
+  "dominio": "pagseguro.com.br.admin-mcas-df.ms",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 22:42:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.pagseguro.com.br.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.pagseguro.com.br.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100853DA3F2F8F58447C0015A000000853DA3",
+      "not_before": 1784679179,
+      "not_after": 1800231179,
+      "fingerprint": "6D:26:E9:83:59:28:A5:F7:68:31:4C:EF:8A:E6:8E:67:F1:AA:D0:BD",
+      "sha1": "6D:26:E9:83:59:28:A5:F7:68:31:4C:EF:8A:E6:8E:67:F1:AA:D0:BD",
+      "sha256": "45:95:A7:08:11:D5:96:F5:A6:14:93:4A:B1:2D:BC:83:A4:BE:7B:21:A8:9E:1D:93:46:EC:22:D5:3F:A5:2E:6F",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.pagseguro.com.br.mcas.ms",
+        "*.pagseguro.com.br.admin-mcas.ms",
+        "*.pagseguro.com.br.mcas-df.ms",
+        "*.pagseguro.com.br.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.pagseguro.com.br.mcas.ms, DNS:*.pagseguro.com.br.admin-mcas.ms, DNS:*.pagseguro.com.br.mcas-df.ms, DNS:*.pagseguro.com.br.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:ee:2d:4b:b5:95:ce:66:ab:2f:e9:54:36:07:12:e9:e9:a0:16:15:99",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 43254760,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=43254760&end=43254760",
+    "seen": 1787535716.764,
+    "submission_timestamp": 1784679784.425,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

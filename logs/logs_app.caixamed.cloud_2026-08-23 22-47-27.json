@@ -1,0 +1,56 @@
+{
+  "dominio": "app.caixamed.cloud",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/23/26 22:47:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixamed.cloud",
+        "aggregated": "/CN=caixamed.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06B4CABFED572EB2021A528A480BCD1786B8",
+      "not_before": 1780426625,
+      "not_after": 1788202624,
+      "fingerprint": "EC:EA:ED:17:DA:6C:31:67:C5:C4:9A:81:F0:3C:E0:0C:3F:33:FE:76",
+      "sha1": "EC:EA:ED:17:DA:6C:31:67:C5:C4:9A:81:F0:3C:E0:0C:3F:33:FE:76",
+      "sha256": "4C:6D:11:A3:DB:0C:E7:99:3C:6B:26:E4:38:32:36:57:D2:F9:7C:18:CF:47:74:FE:1B:35:66:29:3A:BA:16:B0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixamed.cloud",
+        "api.caixamed.cloud",
+        "app.caixamed.cloud",
+        "hospital.caixamed.cloud",
+        "medico.caixamed.cloud",
+        "www.caixamed.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.caixamed.cloud, DNS:app.caixamed.cloud, DNS:caixamed.cloud, DNS:hospital.caixamed.cloud, DNS:medico.caixamed.cloud, DNS:www.caixamed.cloud",
+        "subjectKeyIdentifier": "keyid:67:18:59:ba:85:50:52:00:3e:25:84:e9:73:ec:64:a5:3f:8b:fd:3d"
+      }
+    },
+    "cert_index": 230384379,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x899/938",
+    "seen": 1787536042.438,
+    "submission_timestamp": 1780430138.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

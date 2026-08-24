@@ -1,0 +1,52 @@
+{
+  "dominio": "indebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 22:28:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "indebito.com",
+        "aggregated": "/CN=indebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "053CFF523D295FA9649E7C9C830C38E4E51A",
+      "not_before": 1780421048,
+      "not_after": 1788197047,
+      "fingerprint": "06:63:EB:75:6A:F9:B1:FD:DF:7B:63:47:8B:B6:5E:A8:5F:53:44:5A",
+      "sha1": "06:63:EB:75:6A:F9:B1:FD:DF:7B:63:47:8B:B6:5E:A8:5F:53:44:5A",
+      "sha256": "68:36:4B:8A:F5:2B:46:8F:37:FD:35:48:E9:08:3A:F4:C4:40:F2:69:0C:C7:9E:43:6F:37:23:1D:0F:8F:E5:91",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "indebito.com",
+        "*.indebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.indebito.com, DNS:indebito.com",
+        "subjectKeyIdentifier": "keyid:38:0a:2a:13:51:dc:c5:a6:8f:28:3e:f6:b0:76:57:60:35:e7:95:5a"
+      }
+    },
+    "cert_index": 230227732,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x899/327",
+    "seen": 1787534911.985,
+    "submission_timestamp": 1780424558.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

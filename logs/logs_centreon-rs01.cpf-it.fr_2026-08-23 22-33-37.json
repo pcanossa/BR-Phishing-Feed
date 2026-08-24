@@ -1,0 +1,51 @@
+{
+  "dominio": "centreon-rs01.cpf-it.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 22:33:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "centreon-rs01.cpf-it.fr",
+        "aggregated": "/CN=centreon-rs01.cpf-it.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "05EAC9D8235B8CD7E1DC220F2A79480517A8",
+      "not_before": 1780422416,
+      "not_after": 1788198415,
+      "fingerprint": "81:BF:F2:B1:0D:B6:60:E5:73:CC:47:E5:A7:A2:1F:E6:B0:26:85:BD",
+      "sha1": "81:BF:F2:B1:0D:B6:60:E5:73:CC:47:E5:A7:A2:1F:E6:B0:26:85:BD",
+      "sha256": "6A:B4:CC:16:70:A6:F2:54:8F:63:E4:0F:4B:24:F5:13:2D:9C:C6:B4:87:9A:AE:5A:0C:73:76:DA:27:4F:7E:7A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "centreon-rs01.cpf-it.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:centreon-rs01.cpf-it.fr",
+        "subjectKeyIdentifier": "keyid:fb:84:8b:56:d4:cc:e2:e8:ac:7f:26:50:b7:4f:8a:e7:0a:5c:d9:3e"
+      }
+    },
+    "cert_index": 230269860,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x899/491",
+    "seen": 1787535212.137,
+    "submission_timestamp": 1780425926.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

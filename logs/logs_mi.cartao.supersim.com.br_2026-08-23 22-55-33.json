@@ -1,0 +1,51 @@
+{
+  "dominio": "mi.cartao.supersim.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/23/26 22:55:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mi.cartao.supersim.com.br",
+        "aggregated": "/CN=mi.cartao.supersim.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "04D49BE3E1EC43CAB753C3E7B53BF814",
+      "not_before": 1782432000,
+      "not_after": 1799539199,
+      "fingerprint": "BE:6A:30:1A:6D:09:C1:54:64:4A:52:6C:2E:38:EC:B2:58:1D:3B:28",
+      "sha1": "BE:6A:30:1A:6D:09:C1:54:64:4A:52:6C:2E:38:EC:B2:58:1D:3B:28",
+      "sha256": "27:46:A4:5A:3E:35:70:11:7D:13:90:8D:60:C5:AF:6B:18:2C:3E:4C:10:38:1B:3C:14:F2:D0:2F:A6:A9:8D:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mi.cartao.supersim.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mi.cartao.supersim.com.br",
+        "subjectKeyIdentifier": "keyid:80:ff:0b:a8:fd:67:80:80:a7:7b:d8:ac:dd:a6:d9:2e:d1:57:dd:b1"
+      }
+    },
+    "cert_index": 68693948,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x268/335",
+    "seen": 1787536528.209,
+    "submission_timestamp": 1782496019.964,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

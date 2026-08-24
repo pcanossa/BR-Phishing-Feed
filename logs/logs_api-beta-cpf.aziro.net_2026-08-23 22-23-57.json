@@ -1,0 +1,51 @@
+{
+  "dominio": "api-beta-cpf.aziro.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 22:23:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-beta-cpf.aziro.net",
+        "aggregated": "/CN=api-beta-cpf.aziro.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "060635C6BF6A2709BF401FA5985F4742575B",
+      "not_before": 1779435966,
+      "not_after": 1787211965,
+      "fingerprint": "01:77:EB:2D:BD:1F:E5:E1:0B:0B:6A:C1:A5:05:D0:EE:73:08:DD:C2",
+      "sha1": "01:77:EB:2D:BD:1F:E5:E1:0B:0B:6A:C1:A5:05:D0:EE:73:08:DD:C2",
+      "sha256": "D0:4E:EF:27:72:9F:3E:BF:B0:B3:F9:6D:32:23:6A:AC:3C:F5:7A:79:E7:F7:54:FE:57:B7:8F:DA:59:BD:D1:CD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api-beta-cpf.aziro.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api-beta-cpf.aziro.net",
+        "subjectKeyIdentifier": "keyid:17:f4:65:cb:f2:ba:11:98:ed:1d:5a:de:64:31:8e:18:c8:d2:31:a5"
+      }
+    },
+    "cert_index": 4386207904,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4386207904&end=4386207904",
+    "seen": 1787534632.57,
+    "submission_timestamp": 1779439586.568,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
