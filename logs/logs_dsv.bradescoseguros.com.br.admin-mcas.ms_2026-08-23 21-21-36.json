@@ -1,0 +1,59 @@
+{
+  "dominio": "dsv.bradescoseguros.com.br.admin-mcas.ms",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/23/26 21:21:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.dsv.bradescoseguros.com.br.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.dsv.bradescoseguros.com.br.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "43008FEC994AD990C97B158D880000008FEC99",
+      "not_before": 1784591152,
+      "not_after": 1800143152,
+      "fingerprint": "AF:B8:A5:37:05:D3:16:EA:7B:B3:73:34:72:3F:13:01:E0:3D:2B:33",
+      "sha1": "AF:B8:A5:37:05:D3:16:EA:7B:B3:73:34:72:3F:13:01:E0:3D:2B:33",
+      "sha256": "42:A9:D2:D7:4B:A4:A8:00:A0:D5:44:C7:EA:AD:B1:94:81:7D:74:2F:5C:65:9D:3F:67:C2:3E:A5:C2:A8:61:4B",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.dsv.bradescoseguros.com.br.mcas.ms",
+        "*.dsv.bradescoseguros.com.br.admin-mcas.ms",
+        "*.dsv.bradescoseguros.com.br.mcas-df.ms",
+        "*.dsv.bradescoseguros.com.br.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.dsv.bradescoseguros.com.br.mcas.ms, DNS:*.dsv.bradescoseguros.com.br.admin-mcas.ms, DNS:*.dsv.bradescoseguros.com.br.mcas-df.ms, DNS:*.dsv.bradescoseguros.com.br.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:17:1e:5f:47:e9:2d:5b:74:ff:25:52:89:92:4b:42:f1:65:22:14:89",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 42831413,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=42831413&end=42831413",
+    "seen": 1787530891.854,
+    "submission_timestamp": 1784591756.248,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

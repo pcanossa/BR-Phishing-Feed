@@ -1,0 +1,52 @@
+{
+  "dominio": "app.bitault.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/23/26 21:23:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.bitault.com",
+        "aggregated": "/CN=app.bitault.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "0690123A45597B6EBE25E36D98343F7B1895",
+      "not_before": 1780399501,
+      "not_after": 1788175500,
+      "fingerprint": "35:9E:59:B2:E4:15:FB:F6:60:16:25:52:DF:62:2B:DB:D0:78:F2:15",
+      "sha1": "35:9E:59:B2:E4:15:FB:F6:60:16:25:52:DF:62:2B:DB:D0:78:F2:15",
+      "sha256": "36:14:26:D4:C5:63:30:6D:DE:F2:EC:61:DE:6C:22:29:64:3C:6D:32:DE:E6:AB:28:EB:7F:62:0F:8A:76:CE:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.bitault.com",
+        "safe.bitault.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.bitault.com, DNS:safe.bitault.com",
+        "subjectKeyIdentifier": "keyid:c3:e7:fe:9f:52:21:9a:c3:d8:59:15:ed:c3:df:f2:f7:c5:7a:01:e6"
+      }
+    },
+    "cert_index": 229685050,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x897/207",
+    "seen": 1787530995.043,
+    "submission_timestamp": 1780403011.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

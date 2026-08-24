@@ -1,0 +1,65 @@
+{
+  "dominio": "jenkins.app.us-west-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 21:46:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=jenkins.app.us-west-1.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "058C593E77409502A0DC46F9F462A724",
+      "not_before": 1780012800,
+      "not_after": 1787868320,
+      "fingerprint": "3D:25:83:F3:63:E2:AF:95:3D:3E:59:A3:BB:5A:D4:74:FF:D2:65:D5",
+      "sha1": "3D:25:83:F3:63:E2:AF:95:3D:3E:59:A3:BB:5A:D4:74:FF:D2:65:D5",
+      "sha256": "F5:E7:5B:9D:69:3D:50:98:9F:37:CD:3C:C0:C1:A9:85:85:12:7E:79:FD:20:33:6C:36:F0:E2:5B:51:6C:4C:D3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "jenkins-unstable-controller.cluster.us-west-1.test.cloud.netflix.net",
+        "jenkins.dyntest.netflix.net",
+        "jenkins.test.netflix.net",
+        "jenkins.us-west-1.dyntest.netflix.net",
+        "jenkins.us-west-1.test.netflix.net",
+        "unstable.builds.test.netflix.net",
+        "unstable.jenkins.dyntest.netflix.net",
+        "unstable.jenkins.test.netflix.net",
+        "unstable.jenkins.us-west-1.dyntest.netflix.net",
+        "unstable.jenkins.us-west-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:jenkins-unstable-controller.cluster.us-west-1.test.cloud.netflix.net, DNS:jenkins.app.us-west-1.test.cloud.netflix.net, DNS:jenkins.dyntest.netflix.net, DNS:jenkins.test.netflix.net, DNS:jenkins.us-west-1.dyntest.netflix.net, DNS:jenkins.us-west-1.test.netflix.net, DNS:unstable.builds.test.netflix.net, DNS:unstable.jenkins.dyntest.netflix.net, DNS:unstable.jenkins.test.netflix.net, DNS:unstable.jenkins.us-west-1.dyntest.netflix.net, DNS:unstable.jenkins.us-west-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:3e:b8:46:ec:c2:82:bd:48:0f:83:a8:27:d0:87:92:a5:c5:8b:c5:c2"
+      }
+    },
+    "cert_index": 365933920,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x429/429",
+    "seen": 1787532376.647,
+    "submission_timestamp": 1780252529.096,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

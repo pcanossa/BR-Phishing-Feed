@@ -1,0 +1,52 @@
+{
+  "dominio": "internal-alb.dev.cpf.revoc.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 21:57:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "internal-alb.dev.cpf.revoc.dev",
+        "aggregated": "/CN=internal-alb.dev.cpf.revoc.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "09098E2F3A9041092B52FDA4BF49CAF8",
+      "not_before": 1787529600,
+      "not_after": 1804636799,
+      "fingerprint": "B2:BE:F4:3E:58:2E:3B:09:46:38:7E:31:0C:92:5B:93:33:89:D1:78",
+      "sha1": "B2:BE:F4:3E:58:2E:3B:09:46:38:7E:31:0C:92:5B:93:33:89:D1:78",
+      "sha256": "48:3C:8E:1B:3E:B7:8B:B6:EB:A2:C0:8A:0D:B8:12:8F:F7:C1:9E:BD:55:D9:2A:64:FD:6B:24:D6:95:89:41:DE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "internal-alb.dev.cpf.revoc.dev",
+        "*.internal-alb.dev.cpf.revoc.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:internal-alb.dev.cpf.revoc.dev, DNS:*.internal-alb.dev.cpf.revoc.dev",
+        "subjectKeyIdentifier": "keyid:47:36:61:93:77:ef:30:ad:49:d1:d9:92:c0:91:7b:a7:1f:d5:65:41"
+      }
+    },
+    "cert_index": 25351641,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/tile/data/x099/029",
+    "seen": 1787533032.829,
+    "submission_timestamp": 1787533026.041,
+    "source": {
+      "name": "Google 'PlumbersArms2027h1' log",
+      "url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "dominio": "ase-oi-procyon-prod.appserviceenvironment.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/23/26 21:22:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.ase-oi-procyon-prod.appserviceenvironment.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.ase-oi-procyon-prod.appserviceenvironment.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "43008FFB84D194C8D2A51572740000008FFB84",
+      "not_before": 1784591740,
+      "not_after": 1800143740,
+      "fingerprint": "DD:9B:67:03:C0:33:B8:CC:1B:2B:25:A2:B7:AB:FA:AD:91:6A:30:61",
+      "sha1": "DD:9B:67:03:C0:33:B8:CC:1B:2B:25:A2:B7:AB:FA:AD:91:6A:30:61",
+      "sha256": "3D:63:00:3C:40:1E:85:DF:F4:30:31:6F:09:24:47:47:C8:FF:60:88:8E:07:25:78:44:5B:87:1E:2B:9D:2E:8B",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.ase-oi-procyon-prod.appserviceenvironment.net",
+        "*.scm.ase-oi-procyon-prod.appserviceenvironment.net",
+        "ase-oi-procyon-prod.appserviceenvironment.net",
+        "*.ase-oi-procyon-prod.p.azurewebsites.net",
+        "*.scm.ase-oi-procyon-prod.p.azurewebsites.net",
+        "*.ase-oi-procyon-prod.p.azure-mobile.net",
+        "*.scm.ase-oi-procyon-prod.p.azure-mobile.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ase-oi-procyon-prod.appserviceenvironment.net, DNS:*.scm.ase-oi-procyon-prod.appserviceenvironment.net, DNS:ase-oi-procyon-prod.appserviceenvironment.net, DNS:*.ase-oi-procyon-prod.p.azurewebsites.net, DNS:*.scm.ase-oi-procyon-prod.p.azurewebsites.net, DNS:*.ase-oi-procyon-prod.p.azure-mobile.net, DNS:*.scm.ase-oi-procyon-prod.p.azure-mobile.net",
+        "subjectKeyIdentifier": "keyid:46:ad:af:8b:d4:aa:72:79:23:a6:8b:c7:f7:9f:78:c4:0b:70:51:f7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 42835607,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=42835607&end=42835607",
+    "seen": 1787530937.039,
+    "submission_timestamp": 1784592344.853,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

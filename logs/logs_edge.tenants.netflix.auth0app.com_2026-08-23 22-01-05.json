@@ -1,0 +1,54 @@
+{
+  "dominio": "edge.tenants.netflix.auth0app.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/23/26 22:01:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix.auth0app.com",
+        "aggregated": "/CN=netflix.auth0app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059869908794F7DC532E0D5A96B82E25F1D3",
+      "not_before": 1779287439,
+      "not_after": 1787063438,
+      "fingerprint": "56:62:B2:D1:C7:C2:E8:23:FC:A4:FB:21:EC:B2:E1:71:B2:D4:91:E5",
+      "sha1": "56:62:B2:D1:C7:C2:E8:23:FC:A4:FB:21:EC:B2:E1:71:B2:D4:91:E5",
+      "sha256": "AC:85:88:2D:2E:16:7A:07:88:B3:D3:86:07:AB:3C:68:9D:18:71:D0:35:05:13:06:6D:CE:F6:59:9E:3C:FA:B4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix.auth0app.com",
+        "*.edge.tenants.netflix.auth0app.com",
+        "*.netflix.auth0app.com",
+        "*.wt.netflix.auth0app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.edge.tenants.netflix.auth0app.com, DNS:*.netflix.auth0app.com, DNS:*.wt.netflix.auth0app.com, DNS:netflix.auth0app.com",
+        "subjectKeyIdentifier": "keyid:39:c7:ec:06:f0:b6:0c:e5:1e:2d:65:e9:91:b8:71:77:8a:d0:5f:fb"
+      }
+    },
+    "cert_index": 830056648,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=830056648&end=830056648",
+    "seen": 1787533259.543,
+    "submission_timestamp": 1779290951.26,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
