@@ -1,0 +1,53 @@
+{
+  "dominio": "tembo-fix-smoke-test-health-check-tim.api.rokr.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/23/26 23:32:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rokr.app",
+        "aggregated": "/CN=rokr.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "1753BF0954134973136CE2862FDE615B",
+      "not_before": 1779979311,
+      "not_after": 1787758699,
+      "fingerprint": "04:21:7E:B6:CE:AC:2C:5C:CB:FA:DD:BF:26:90:3C:2A:42:31:28:30",
+      "sha1": "04:21:7E:B6:CE:AC:2C:5C:CB:FA:DD:BF:26:90:3C:2A:42:31:28:30",
+      "sha256": "D3:82:89:E8:5C:82:DA:29:71:41:C6:EE:D2:F2:DC:64:F1:43:E2:2B:19:7A:8D:B1:18:5F:76:9C:97:47:57:3E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "rokr.app",
+        "tembo-fix-smoke-test-health-check-tim.api.rokr.app",
+        "*.tembo-fix-smoke-test-health-check-tim.api.rokr.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/F1M, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:rokr.app, DNS:tembo-fix-smoke-test-health-check-tim.api.rokr.app, DNS:*.tembo-fix-smoke-test-health-check-tim.api.rokr.app",
+        "subjectKeyIdentifier": "keyid:0d:91:e7:cd:9b:57:0e:be:a1:7d:48:71:88:20:26:38:7c:9f:f2:ee"
+      }
+    },
+    "cert_index": 366961462,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x433/443",
+    "seen": 1787538732.955,
+    "submission_timestamp": 1780271862.312,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

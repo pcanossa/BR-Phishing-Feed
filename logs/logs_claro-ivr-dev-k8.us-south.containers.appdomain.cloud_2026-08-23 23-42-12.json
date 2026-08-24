@@ -1,0 +1,53 @@
+{
+  "dominio": "claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/23/26 23:42:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=claro-ivr-dev-k8.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0569CB83F278D5E201502DFD704C17BC00B7",
+      "not_before": 1779290892,
+      "not_after": 1787066891,
+      "fingerprint": "8D:0E:6C:F3:F5:61:FC:53:71:36:43:6E:FE:15:4A:01:73:50:21:3E",
+      "sha1": "8D:0E:6C:F3:F5:61:FC:53:71:36:43:6E:FE:15:4A:01:73:50:21:3E",
+      "sha256": "9A:C1:FE:15:04:77:DE:19:46:3A:43:45:9C:1C:FA:A0:64:F9:9B:24:4E:DF:14:97:E9:74:DC:0A:21:F9:F8:A0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+        "*.claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud",
+        "claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud, DNS:claro-ivr-dev-k8-e7970c97c930f06667b9e09e99b9639a-0000.us-south.containers.appdomain.cloud, DNS:claro-ivr-dev-k8.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:22:e0:70:25:44:e9:cf:65:35:84:f0:16:ea:55:e4:55:e7:fe:ce:c1"
+      }
+    },
+    "cert_index": 830654166,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=830654166&end=830654166",
+    "seen": 1787539326.6,
+    "submission_timestamp": 1779294406.304,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "cadastro-dev.cadastro-dev.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 23:36:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cadastro-dev.cadastro-dev.aws.pagseguro.uol",
+        "aggregated": "/CN=*.cadastro-dev.cadastro-dev.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0F8E608639E9F1324AD4CB8C41F5F96B",
+      "not_before": 1782777600,
+      "not_after": 1799884799,
+      "fingerprint": "D6:0C:5A:CE:E7:C9:98:9C:0C:A4:E9:16:73:E0:2B:4B:C6:B2:FF:12",
+      "sha1": "D6:0C:5A:CE:E7:C9:98:9C:0C:A4:E9:16:73:E0:2B:4B:C6:B2:FF:12",
+      "sha256": "AF:4C:62:12:3F:B6:37:CB:18:57:84:BE:AC:96:24:E6:E5:6B:CD:BE:FD:65:2A:BB:67:92:B4:BB:EA:69:D5:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cadastro-dev.cadastro-dev.aws.pagseguro.uol",
+        "cadastro-dev.cadastro-dev.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cadastro-dev.cadastro-dev.aws.pagseguro.uol, DNS:cadastro-dev.cadastro-dev.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:f7:4e:9f:72:a5:ac:39:1f:ba:9e:02:5f:0c:cf:de:23:1b:4e:94:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 75257992,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=75257992&end=75257992",
+    "seen": 1787538972.517,
+    "submission_timestamp": 1782794173.541,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

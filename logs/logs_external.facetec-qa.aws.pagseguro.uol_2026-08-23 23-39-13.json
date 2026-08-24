@@ -1,0 +1,51 @@
+{
+  "dominio": "external.facetec-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/23/26 23:39:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.external.facetec-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=*.external.facetec-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A128F346911F57AAD4845C425A4A731",
+      "not_before": 1782518400,
+      "not_after": 1799625599,
+      "fingerprint": "20:DF:98:C6:89:CD:9D:8B:D8:17:3A:4A:55:1D:F4:66:0D:59:BE:BE",
+      "sha1": "20:DF:98:C6:89:CD:9D:8B:D8:17:3A:4A:55:1D:F4:66:0D:59:BE:BE",
+      "sha256": "10:3C:57:7F:E0:CE:74:9C:60:63:A7:F8:19:1D:7D:31:07:7C:A0:D2:85:CD:34:8E:EF:6A:64:40:05:F4:6E:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.external.facetec-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.external.facetec-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:cd:40:91:4b:f0:81:9c:99:9b:35:b0:94:32:94:e0:3c:b6:38:7f:b9"
+      }
+    },
+    "cert_index": 69057767,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x269/756",
+    "seen": 1787539147.863,
+    "submission_timestamp": 1782526911.964,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

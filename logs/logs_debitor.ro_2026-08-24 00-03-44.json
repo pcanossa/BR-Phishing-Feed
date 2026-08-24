@@ -1,0 +1,52 @@
+{
+  "dominio": "debitor.ro",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 00:03:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.ro",
+        "aggregated": "/CN=debitor.ro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06BE6010D0EAB0D2C7CCAEB9F23ABFFB0467",
+      "not_before": 1780449265,
+      "not_after": 1788225264,
+      "fingerprint": "3B:B1:9E:EF:64:13:B4:14:48:1C:EA:3C:F4:51:29:5C:6D:B5:17:A1",
+      "sha1": "3B:B1:9E:EF:64:13:B4:14:48:1C:EA:3C:F4:51:29:5C:6D:B5:17:A1",
+      "sha256": "13:13:F8:70:30:DB:18:F6:D1:DD:2B:D5:08:C4:AB:BB:29:D1:35:5F:8A:BE:14:98:AD:70:A0:44:1B:4B:AA:3A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.ro",
+        "*.debitor.ro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitor.ro, DNS:debitor.ro",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 231017582,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x902/412",
+    "seen": 1787540619.129,
+    "submission_timestamp": 1780452775.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
