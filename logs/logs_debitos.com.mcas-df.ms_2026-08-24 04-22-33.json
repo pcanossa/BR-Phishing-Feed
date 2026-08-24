@@ -1,0 +1,59 @@
+{
+  "dominio": "debitos.com.mcas-df.ms",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 04:22:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.debitos.com.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.debitos.com.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "550088ABA257EFE76192A7817900000088ABA2",
+      "not_before": 1784993302,
+      "not_after": 1800545302,
+      "fingerprint": "1D:72:A8:AE:AC:18:F2:CE:A0:A5:63:56:01:88:6D:53:7C:59:CD:B9",
+      "sha1": "1D:72:A8:AE:AC:18:F2:CE:A0:A5:63:56:01:88:6D:53:7C:59:CD:B9",
+      "sha256": "D6:4C:70:FD:4E:90:61:6D:E1:E9:A9:BC:17:85:3C:73:32:25:7D:5E:C2:F3:D4:99:78:83:B4:A2:F6:98:8C:21",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitos.com.mcas.ms",
+        "*.debitos.com.admin-mcas.ms",
+        "*.debitos.com.mcas-df.ms",
+        "*.debitos.com.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitos.com.mcas.ms, DNS:*.debitos.com.admin-mcas.ms, DNS:*.debitos.com.mcas-df.ms, DNS:*.debitos.com.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:22:10:d9:05:b1:0a:96:66:9a:35:8f:9a:b5:ad:08:e4:ad:0b:02:4b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 44997241,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=44997241&end=44997241",
+    "seen": 1787556147.99,
+    "submission_timestamp": 1784993907.406,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

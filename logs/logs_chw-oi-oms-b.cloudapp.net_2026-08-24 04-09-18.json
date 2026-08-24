@@ -1,0 +1,60 @@
+{
+  "dominio": "chw-oi-oms-b.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/24/26 04:09:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "OMS-ServerSSL201908chw.opinsights.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=OMS-ServerSSL201908chw.opinsights.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "43009CBCA5CA08C4E3A822B2790000009CBCA5",
+      "not_before": 1784984393,
+      "not_after": 1800536393,
+      "fingerprint": "C0:D6:DC:8A:21:DC:6F:A4:3B:43:E6:84:BA:3D:A0:28:DA:50:7E:01",
+      "sha1": "C0:D6:DC:8A:21:DC:6F:A4:3B:43:E6:84:BA:3D:A0:28:DA:50:7E:01",
+      "sha256": "F5:78:61:FE:58:48:D6:EA:29:17:B3:B2:D3:27:2C:6F:49:65:E2:63:23:29:B6:E6:AA:AC:72:08:78:67:D0:66",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "OMS-ServerSSL201908chw.opinsights.azure.com",
+        "*.oms.opinsights.azure.com",
+        "chw-oi-oms-b.cloudapp.net",
+        "chw-oi-oms.trafficmanager.net",
+        "chn-oi-oms-a.cloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.oms.opinsights.azure.com, DNS:chw-oi-oms-b.cloudapp.net, DNS:chw-oi-oms.trafficmanager.net, DNS:chn-oi-oms-a.cloudapp.net, DNS:OMS-ServerSSL201908chw.opinsights.azure.com",
+        "subjectKeyIdentifier": "keyid:6b:50:a6:ae:09:6b:12:d9:ff:f2:9d:e8:30:ff:41:bd:89:96:76:5e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 44928233,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=44928233&end=44928233",
+    "seen": 1787555352.145,
+    "submission_timestamp": 1784984997.21,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

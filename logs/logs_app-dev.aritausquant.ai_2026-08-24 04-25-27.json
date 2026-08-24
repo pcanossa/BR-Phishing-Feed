@@ -1,0 +1,52 @@
+{
+  "dominio": "app-dev.aritausquant.ai",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 04:25:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-dev.aritausquant.ai",
+        "aggregated": "/CN=app-dev.aritausquant.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0970F8FCADECDD86CA6A1F9205D9F5AD",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "1B:9C:30:06:76:A7:B1:3F:44:9D:E7:42:60:19:27:89:06:82:2B:78",
+      "sha1": "1B:9C:30:06:76:A7:B1:3F:44:9D:E7:42:60:19:27:89:06:82:2B:78",
+      "sha256": "60:B4:61:19:41:2A:76:1C:D9:39:B4:5E:6C:90:3F:EC:3B:3D:D1:C9:DA:78:A0:D4:68:A8:DF:2D:7B:75:D5:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-dev.aritausquant.ai",
+        "admin-dev.aritausquant.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-dev.aritausquant.ai, DNS:admin-dev.aritausquant.ai",
+        "subjectKeyIdentifier": "keyid:cf:e1:9f:3e:8c:ea:ef:67:d4:96:69:e7:32:50:7b:f0:9e:be:f5:2d"
+      }
+    },
+    "cert_index": 71433436,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x279/036",
+    "seen": 1787556329.873,
+    "submission_timestamp": 1782728005.965,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dominio": "cpf-phil.com.admin-mcas-df.ms",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 04:21:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.cpf-phil.com.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.cpf-phil.com.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "41008C39DA1B83D27EC36B41A60000008C39DA",
+      "not_before": 1784992738,
+      "not_after": 1800544738,
+      "fingerprint": "6C:A0:79:D7:BF:21:97:E8:A2:4C:A0:DC:AD:4E:14:6D:E3:C7:D2:46",
+      "sha1": "6C:A0:79:D7:BF:21:97:E8:A2:4C:A0:DC:AD:4E:14:6D:E3:C7:D2:46",
+      "sha256": "27:C8:8B:45:8B:54:56:08:B5:B1:1F:93:0F:4B:B1:BA:11:65:91:F1:60:5B:00:54:B6:67:22:A7:26:9F:BC:37",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-phil.com.mcas.ms",
+        "*.cpf-phil.com.admin-mcas.ms",
+        "*.cpf-phil.com.mcas-df.ms",
+        "*.cpf-phil.com.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-phil.com.mcas.ms, DNS:*.cpf-phil.com.admin-mcas.ms, DNS:*.cpf-phil.com.mcas-df.ms, DNS:*.cpf-phil.com.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:43:ff:59:90:59:f5:49:91:5b:20:50:37:a2:ad:31:3a:56:9e:6b:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 44992964,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=44992964&end=44992964",
+    "seen": 1787556098.479,
+    "submission_timestamp": 1784993342.594,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.app.wellfitauto.lk",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 04:41:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.wellfitauto.lk",
+        "aggregated": "/CN=app.wellfitauto.lk"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "7528DBE172A6F42C8EA8873278F413DC",
+      "not_before": 1779408000,
+      "not_after": 1796601599,
+      "fingerprint": "A6:DB:A9:58:99:1A:25:87:2D:A5:38:9C:A8:5B:EF:B4:38:6E:E7:45",
+      "sha1": "A6:DB:A9:58:99:1A:25:87:2D:A5:38:9C:A8:5B:EF:B4:38:6E:E7:45",
+      "sha256": "3D:11:C8:0C:85:75:C8:E0:C9:89:9E:79:26:A9:F3:9F:1C:8D:D6:99:B0:C9:7C:29:8A:1A:37:04:72:DF:0A:3B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.wellfitauto.lk",
+        "www.app.wellfitauto.lk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.wellfitauto.lk, DNS:www.app.wellfitauto.lk",
+        "subjectKeyIdentifier": "keyid:bc:ac:53:74:53:4a:7d:a1:a0:d2:6b:bf:b5:0a:9f:2d:72:dc:09:ae"
+      }
+    },
+    "cert_index": 4389037375,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4389037375&end=4389037375",
+    "seen": 1787557265.555,
+    "submission_timestamp": 1779455577.935,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
