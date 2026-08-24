@@ -1,0 +1,52 @@
+{
+  "dominio": "app-dev.aritausquant.ai",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 15:02:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-dev.aritausquant.ai",
+        "aggregated": "/CN=app-dev.aritausquant.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "094A89025E495B5429438A934F14938A",
+      "not_before": 1782777600,
+      "not_after": 1799884799,
+      "fingerprint": "55:1A:88:66:5E:CF:7B:BF:74:90:CC:AC:C0:8D:F4:4B:A9:50:9B:D0",
+      "sha1": "55:1A:88:66:5E:CF:7B:BF:74:90:CC:AC:C0:8D:F4:4B:A9:50:9B:D0",
+      "sha256": "F7:11:D4:05:2C:AA:1C:46:04:CE:6A:DB:2F:A8:CE:ED:B2:54:6C:B1:BF:9E:68:F6:FF:21:D5:CA:71:0F:15:80",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-dev.aritausquant.ai",
+        "admin-dev.aritausquant.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-dev.aritausquant.ai, DNS:admin-dev.aritausquant.ai",
+        "subjectKeyIdentifier": "keyid:fe:1e:9d:4b:4d:ce:0f:ec:be:fe:f1:74:28:07:b4:64:17:ec:be:aa"
+      }
+    },
+    "cert_index": 81235391,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x317/325",
+    "seen": 1787594519.768,
+    "submission_timestamp": 1782801978.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

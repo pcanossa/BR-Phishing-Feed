@@ -1,0 +1,51 @@
+{
+  "dominio": "app-us-west-2-test.serasa.ai",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/24/26 14:32:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-us-west-2-test.serasa.ai",
+        "aggregated": "/CN=app-us-west-2-test.serasa.ai"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "769CB799A47C5AFAFF4BAA2A0242598D",
+      "not_before": 1780099200,
+      "not_after": 1787961599,
+      "fingerprint": "B9:4F:9D:9C:1B:9F:E8:59:E6:D9:A0:48:FD:C7:48:D5:7F:1B:42:AE",
+      "sha1": "B9:4F:9D:9C:1B:9F:E8:59:E6:D9:A0:48:FD:C7:48:D5:7F:1B:42:AE",
+      "sha256": "8D:48:74:DE:FF:82:83:CB:BF:FB:3A:5A:80:D2:08:29:CF:D9:E8:65:8C:AD:79:22:E1:D8:F0:D8:43:4E:0B:D1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-us-west-2-test.serasa.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-us-west-2-test.serasa.ai",
+        "subjectKeyIdentifier": "keyid:c6:df:e0:54:32:20:f5:c6:b2:1a:e3:76:72:b7:33:69:ef:55:41:a3"
+      }
+    },
+    "cert_index": 235515353,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x919/981",
+    "seen": 1787592752.967,
+    "submission_timestamp": 1780627922.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

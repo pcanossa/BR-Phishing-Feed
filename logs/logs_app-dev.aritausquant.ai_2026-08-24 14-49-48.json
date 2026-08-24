@@ -1,0 +1,52 @@
+{
+  "dominio": "app-dev.aritausquant.ai",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 14:49:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-dev.aritausquant.ai",
+        "aggregated": "/CN=app-dev.aritausquant.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "094A89025E495B5429438A934F14938A",
+      "not_before": 1782777600,
+      "not_after": 1799884799,
+      "fingerprint": "68:EC:9C:F3:63:8B:DA:B0:03:BA:D5:72:E6:F7:94:7A:40:60:89:2A",
+      "sha1": "68:EC:9C:F3:63:8B:DA:B0:03:BA:D5:72:E6:F7:94:7A:40:60:89:2A",
+      "sha256": "19:40:FC:57:FA:1F:3F:45:2F:EE:02:D4:A3:B7:0D:A3:18:E5:B6:B0:00:61:54:C8:51:71:E4:85:A6:2D:C8:93",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-dev.aritausquant.ai",
+        "admin-dev.aritausquant.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-dev.aritausquant.ai, DNS:admin-dev.aritausquant.ai",
+        "subjectKeyIdentifier": "keyid:fe:1e:9d:4b:4d:ce:0f:ec:be:fe:f1:74:28:07:b4:64:17:ec:be:aa"
+      }
+    },
+    "cert_index": 81136280,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x316/938",
+    "seen": 1787593787.465,
+    "submission_timestamp": 1782796350.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

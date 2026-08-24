@@ -1,0 +1,55 @@
+{
+  "dominio": "b3-app.sfb1391.uni-tuebingen.de",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/24/26 14:31:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "DE",
+        "CN": "b3-app.sfb1391.uni-tuebingen.de",
+        "O": "Universitaet Tuebingen",
+        "ST": "Baden-Wuerttemberg",
+        "aggregated": "/C=DE/CN=b3-app.sfb1391.uni-tuebingen.de/O=Universitaet Tuebingen/ST=Baden-Wuerttemberg"
+      },
+      "issuer": {
+        "C": "GR",
+        "CN": "GEANT TLS ECC 1",
+        "O": "Hellenic Academic and Research Institutions CA",
+        "aggregated": "/C=GR/CN=GEANT TLS ECC 1/O=Hellenic Academic and Research Institutions CA"
+      },
+      "serial_number": "07E86E44AE95201D1D8844DB7A30D827",
+      "not_before": 1785221911,
+      "not_after": 1802415510,
+      "fingerprint": "56:DE:31:AD:8E:78:D4:AF:E2:B8:D5:2C:C2:76:FC:91:4F:10:50:D7",
+      "sha1": "56:DE:31:AD:8E:78:D4:AF:E2:B8:D5:2C:C2:76:FC:91:4F:10:50:D7",
+      "sha256": "76:0D:1E:D5:C9:FF:A0:74:7E:E3:63:8F:1E:24:C3:BB:BF:38:EC:6A:2E:C0:0B:04:68:BE:02:BC:86:17:9B:93",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "b3-app.sfb1391.uni-tuebingen.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.harica.gr/HARICA-GEANT-TLS-E1.cer",
+        "authorityKeyIdentifier": "keyid:e9:99:06:8d:17:1f:ab:fb:96:1a:5a:c8:5b:5e:5d:5e:ec:da:9c:8f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 0.4.0.2042.1.7\nPolicy: 1.3.6.1.4.1.26513.1.1.1.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:b3-app.sfb1391.uni-tuebingen.de",
+        "subjectKeyIdentifier": "keyid:05:a2:e5:8d:ff:a6:e4:a8:41:2c:e1:21:43:3e:5f:9e:7d:9e:20:79",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 46119966,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=46119966&end=46119966",
+    "seen": 1787592662.396,
+    "submission_timestamp": 1785222512.553,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "receitafederal-govbr-regulairpf.org",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/24/26 14:37:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederal-govbr-regulairpf.org",
+        "aggregated": "/CN=receitafederal-govbr-regulairpf.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "DED3D8F2E8188A770ECDAD878E57DCF6",
+      "not_before": 1779461301,
+      "not_after": 1787240897,
+      "fingerprint": "17:63:75:EA:F3:01:C1:62:93:2D:74:33:0A:EC:E4:10:D8:D8:D0:EE",
+      "sha1": "17:63:75:EA:F3:01:C1:62:93:2D:74:33:0A:EC:E4:10:D8:D8:D0:EE",
+      "sha256": "44:80:2B:B5:3F:9F:4F:55:28:71:5E:44:57:31:A7:E9:12:A9:32:FE:7B:9E:93:85:A3:D6:46:4E:B8:DD:52:DA",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederal-govbr-regulairpf.org",
+        "*.receitafederal-govbr-regulairpf.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/3tM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitafederal-govbr-regulairpf.org, DNS:*.receitafederal-govbr-regulairpf.org",
+        "subjectKeyIdentifier": "keyid:1a:56:1e:3f:5a:4d:55:86:12:a1:c5:ed:9c:c8:b6:8c:81:47:2c:d1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4391063051,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4391063051&end=4391063051",
+    "seen": 1787593020.749,
+    "submission_timestamp": 1779464902.077,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
