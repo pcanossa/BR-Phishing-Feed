@@ -1,0 +1,51 @@
+{
+  "dominio": "itau-boleto-webhook.swile.com.br",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 12:29:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itau-boleto-webhook.swile.com.br",
+        "aggregated": "/CN=itau-boleto-webhook.swile.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "05D3FBFEFBB97FC66365EFD60020F615",
+      "not_before": 1782777600,
+      "not_after": 1799884799,
+      "fingerprint": "A5:D4:09:8A:34:A9:69:AB:BA:AA:3C:8C:DC:E0:0E:42:B9:EB:EB:29",
+      "sha1": "A5:D4:09:8A:34:A9:69:AB:BA:AA:3C:8C:DC:E0:0E:42:B9:EB:EB:29",
+      "sha256": "31:66:BD:4B:15:A6:AE:8E:EA:B3:9F:89:0D:95:BE:0E:F1:C5:74:15:A0:F5:19:47:64:97:D0:C6:0F:6B:C7:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "itau-boleto-webhook.swile.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:itau-boleto-webhook.swile.com.br",
+        "subjectKeyIdentifier": "keyid:f7:a2:37:84:52:20:a3:93:76:bc:2d:bd:6e:f1:af:d3:00:00:50:a8"
+      }
+    },
+    "cert_index": 80911770,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x316/061",
+    "seen": 1787585361.43,
+    "submission_timestamp": 1782782348.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

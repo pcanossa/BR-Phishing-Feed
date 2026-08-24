@@ -1,0 +1,53 @@
+{
+  "dominio": "debitointerbancario-cluster-valkey.jtnhfd.sae1.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 12:22:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gft6fv9s3pnqfnquqmw2bmx4t03ibpuhb1atizj.sae1.cache.amazonaws.com",
+        "aggregated": "/CN=gft6fv9s3pnqfnquqmw2bmx4t03ibpuhb1atizj.sae1.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "035C4079E567B27128F15D6BD397067C",
+      "not_before": 1786492800,
+      "not_after": 1803599999,
+      "fingerprint": "36:70:57:E1:66:40:26:BA:64:FD:4D:1E:A4:DF:E2:12:EF:A0:A2:B4",
+      "sha1": "36:70:57:E1:66:40:26:BA:64:FD:4D:1E:A4:DF:E2:12:EF:A0:A2:B4",
+      "sha256": "0B:FA:D6:7C:94:EE:CF:07:E3:7F:2C:93:BF:4A:86:ED:EE:44:EC:E6:AD:E2:F0:14:B8:94:D9:C1:CF:BD:C5:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gft6fv9s3pnqfnquqmw2bmx4t03ibpuhb1atizj.sae1.cache.amazonaws.com",
+        "*.debitointerbancario-cluster-valkey.jtnhfd.sae1.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gft6fv9s3pnqfnquqmw2bmx4t03ibpuhb1atizj.sae1.cache.amazonaws.com, DNS:*.debitointerbancario-cluster-valkey.jtnhfd.sae1.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:55:c4:e3:7e:c3:d2:bf:d6:64:39:c6:00:23:c8:2e:b4:94:2a:58:1a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 49454176,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=49454176&end=49454176",
+    "seen": 1787584946.729,
+    "submission_timestamp": 1786493831.0,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

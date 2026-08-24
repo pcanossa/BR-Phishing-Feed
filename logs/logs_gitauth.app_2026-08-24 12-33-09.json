@@ -1,0 +1,52 @@
+{
+  "dominio": "gitauth.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 12:33:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gitauth.app",
+        "aggregated": "/CN=gitauth.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "56D5227E9DCE70250ECBAB8562A2A04D",
+      "not_before": 1780359973,
+      "not_after": 1787850163,
+      "fingerprint": "FC:C3:CF:B3:39:53:B6:9B:9B:EB:E0:79:B4:06:22:03:E5:15:94:E4",
+      "sha1": "FC:C3:CF:B3:39:53:B6:9B:9B:EB:E0:79:B4:06:22:03:E5:15:94:E4",
+      "sha256": "26:B7:AC:69:6B:F5:25:3F:9A:62:43:BA:9E:2E:37:33:6A:8F:45:BA:E2:2C:EF:78:B9:01:07:BA:6A:15:71:2A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gitauth.app",
+        "*.gitauth.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/VtU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gitauth.app, DNS:*.gitauth.app",
+        "subjectKeyIdentifier": "keyid:d3:ad:3c:1a:5d:ba:67:d5:59:da:18:ad:22:fd:76:b1:e9:45:7a:af"
+      }
+    },
+    "cert_index": 372076147,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x453/422",
+    "seen": 1787585589.452,
+    "submission_timestamp": 1780363764.019,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

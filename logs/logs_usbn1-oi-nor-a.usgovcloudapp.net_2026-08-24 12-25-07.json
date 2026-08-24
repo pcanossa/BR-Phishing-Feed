@@ -1,0 +1,58 @@
+{
+  "dominio": "usbn1-oi-nor-a.usgovcloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/24/26 12:25:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "nor-ssl201802usbn1.opinsights.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "Washington",
+        "aggregated": "/C=US/CN=nor-ssl201802usbn1.opinsights.azure.com/L=Redmond/O=Microsoft Corporation/ST=Washington"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert SHA2 Secure Server CA",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert SHA2 Secure Server CA/O=DigiCert Inc"
+      },
+      "serial_number": "0A1C6C1C18871D44A90A6B26F036F526",
+      "not_before": 1782345600,
+      "not_after": 1799539199,
+      "fingerprint": "74:FD:A9:3D:D0:11:37:FB:67:A5:BF:BA:BE:CE:8A:93:73:21:3B:08",
+      "sha1": "74:FD:A9:3D:D0:11:37:FB:67:A5:BF:BA:BE:CE:8A:93:73:21:3B:08",
+      "sha256": "7B:B6:6B:6B:2B:DD:99:FF:EA:35:EA:8B:C6:26:5B:3F:33:17:0C:AD:23:11:BC:CB:FF:A7:82:9E:6A:7A:09:77",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nor-ssl201802usbn1.opinsights.azure.com",
+        "usbn1-oi-nor-a.usgovcloudapp.net",
+        "usbn1-oi-nor-b.usgovcloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA-2.crt",
+        "authorityKeyIdentifier": "keyid:0f:80:61:1c:82:31:61:d5:2f:28:e7:8d:46:38:b4:2c:e1:c6:d9:e2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nor-ssl201802usbn1.opinsights.azure.com, DNS:usbn1-oi-nor-a.usgovcloudapp.net, DNS:usbn1-oi-nor-b.usgovcloudapp.net",
+        "subjectKeyIdentifier": "keyid:2e:c0:ed:86:ac:b1:44:d6:2e:57:2d:54:e6:68:0d:71:a8:0f:ed:42",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 103442589,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=103442589&end=103442589",
+    "seen": 1787585107.472,
+    "submission_timestamp": 1782377139.393,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
