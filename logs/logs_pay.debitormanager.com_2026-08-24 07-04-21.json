@@ -1,0 +1,51 @@
+{
+  "dominio": "pay.debitormanager.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 07:04:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pay.debitormanager.com",
+        "aggregated": "/CN=pay.debitormanager.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D03719359D4219D33BD3C347F619073",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "DC:0B:5B:AF:DC:0B:69:53:0E:10:F8:56:7B:59:6A:F8:29:43:BC:42",
+      "sha1": "DC:0B:5B:AF:DC:0B:69:53:0E:10:F8:56:7B:59:6A:F8:29:43:BC:42",
+      "sha256": "7F:DA:9C:18:B7:24:6C:F5:A3:49:AB:DB:14:D5:07:22:2B:3D:85:A8:11:1A:8D:74:16:F6:08:2B:9D:5F:85:2E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pay.debitormanager.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pay.debitormanager.com",
+        "subjectKeyIdentifier": "keyid:c6:7e:5e:b3:cc:19:d0:5c:d5:06:f4:77:9c:25:17:7a:fb:a0:85:da"
+      }
+    },
+    "cert_index": 79943640,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x312/279",
+    "seen": 1787565854.631,
+    "submission_timestamp": 1782724738.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

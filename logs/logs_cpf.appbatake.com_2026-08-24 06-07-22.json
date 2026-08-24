@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.appbatake.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 06:07:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.appbatake.com",
+        "aggregated": "/CN=cpf.appbatake.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C7B28376134902E50E1DC16ADF4B4F20",
+      "not_before": 1779455509,
+      "not_after": 1787235098,
+      "fingerprint": "67:A4:5B:B0:6D:83:87:F6:2F:5D:48:6E:B0:28:12:96:84:C4:43:13",
+      "sha1": "67:A4:5B:B0:6D:83:87:F6:2F:5D:48:6E:B0:28:12:96:84:C4:43:13",
+      "sha256": "9F:55:D6:B3:33:69:76:2C:19:56:14:B9:6A:91:46:BC:F1:9D:FD:C8:63:2A:FA:50:7E:3E:27:D2:F7:CA:A7:3C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.appbatake.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/x7I, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.appbatake.com",
+        "subjectKeyIdentifier": "keyid:4a:f3:d5:6a:4e:7f:38:2c:9e:52:c1:25:48:c7:ad:33:31:e3:1c:c4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4389689292,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4389689292&end=4389689292",
+    "seen": 1787562436.644,
+    "submission_timestamp": 1779459110.471,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

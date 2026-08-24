@@ -1,0 +1,53 @@
+{
+  "dominio": "appls.public.pre.onetrade.santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/24/26 06:56:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01BC87793B37682AE5EC798741DD8843",
+      "not_before": 1782567670,
+      "not_after": 1782654015,
+      "fingerprint": "08:58:D1:A2:9B:6D:8C:B6:56:9F:AD:24:50:EA:6C:1E:94:01:5C:62",
+      "sha1": "08:58:D1:A2:9B:6D:8C:B6:56:9F:AD:24:50:EA:6C:1E:94:01:5C:62",
+      "sha256": "59:2A:00:6A:71:63:07:8A:3E:AF:84:2A:C4:5E:74:80:34:3A:3B:09:55:D7:A1:FD:F0:97:26:96:B1:BD:09:48",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.appls.public.pre.onetrade.santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.appls.public.pre.onetrade.santander.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:e0:07:42:2c:d8:7f:ad:fa:73:75:ac:54:1c:c7:57:b3:2b:58:18:ef",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1099230441,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h1/ct/v1/get-entries?start=1099230441&end=1099230441",
+    "seen": 1787565391.748,
+    "submission_timestamp": 1782567675.165,
+    "source": {
+      "name": "DigiCert 'Sphinx 2026h1' Log",
+      "url": "https://sphinx.ct.digicert.com/2026h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "api-cpf-basica-v1.ninjx.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 07:03:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ninjx.workers.dev",
+        "aggregated": "/CN=ninjx.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6F7808EF897706C713B56758ECF49FAC",
+      "not_before": 1782115429,
+      "not_after": 1789895027,
+      "fingerprint": "D4:A3:0F:5D:FF:B4:E5:07:E2:70:7A:A0:C8:63:26:F7:57:F7:92:E2",
+      "sha1": "D4:A3:0F:5D:FF:B4:E5:07:E2:70:7A:A0:C8:63:26:F7:57:F7:92:E2",
+      "sha256": "4F:DF:8A:E6:69:38:B2:3B:4B:B7:54:23:B7:35:1C:6D:65:08:72:04:D2:EE:2F:45:7D:7F:76:86:B8:C9:B6:CF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "ninjx.workers.dev",
+        "*.api-cpf-basica-v1.ninjx.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ninjx.workers.dev, DNS:*.api-cpf-basica-v1.ninjx.workers.dev",
+        "subjectKeyIdentifier": "keyid:57:e4:50:f2:db:08:8a:f6:ac:f7:c2:93:48:65:29:2e:e4:b5:94:18"
+      }
+    },
+    "cert_index": 983231122,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x840/746",
+    "seen": 1787565779.82,
+    "submission_timestamp": 1787399023.374,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}
