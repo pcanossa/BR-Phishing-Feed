@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.supersim.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/24/26 01:35:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.supersim.com.br",
+        "aggregated": "/CN=cartao.supersim.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "05816CD126623737DF8ADB5E71576255",
+      "not_before": 1782432000,
+      "not_after": 1799539199,
+      "fingerprint": "2E:4C:90:AE:04:4E:E7:29:CE:78:81:53:55:48:43:41:66:F7:97:CF",
+      "sha1": "2E:4C:90:AE:04:4E:E7:29:CE:78:81:53:55:48:43:41:66:F7:97:CF",
+      "sha256": "65:3A:79:AE:38:F1:60:18:CA:8A:7C:F2:B9:A1:10:10:B2:F6:E7:13:10:FB:7B:B6:C2:FA:BA:A9:D3:51:D8:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.supersim.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.supersim.com.br",
+        "subjectKeyIdentifier": "keyid:5f:96:60:8f:3f:c0:af:15:80:73:55:be:45:fa:23:c2:e0:5e:26:fa"
+      }
+    },
+    "cert_index": 77114296,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x301/227",
+    "seen": 1787546108.533,
+    "submission_timestamp": 1782496019.566,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

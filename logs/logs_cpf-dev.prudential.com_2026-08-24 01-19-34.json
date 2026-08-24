@@ -1,0 +1,56 @@
+{
+  "dominio": "cpf-dev.prudential.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 01:19:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-dev.prudential.com",
+        "L": "Newark",
+        "O": "Prudential Financial, Inc.",
+        "ST": "New Jersey",
+        "aggregated": "/C=US/CN=cpf-dev.prudential.com/L=Newark/O=Prudential Financial, Inc./ST=New Jersey"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "024C7BB2EAA792CE7E86BD7A1F001EE9",
+      "not_before": 1782777600,
+      "not_after": 1799971199,
+      "fingerprint": "32:F9:77:22:BE:61:F8:B8:6C:5D:B4:70:44:28:59:26:84:B5:7E:82",
+      "sha1": "32:F9:77:22:BE:61:F8:B8:6C:5D:B4:70:44:28:59:26:84:B5:7E:82",
+      "sha256": "21:45:E5:90:D2:DE:66:F8:CF:CC:A9:94:F4:E3:B1:23:84:24:2A:C0:0A:72:4E:47:42:B8:6B:FB:BF:42:2D:2F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-dev.prudential.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-dev.prudential.com",
+        "subjectKeyIdentifier": "keyid:1d:59:2a:a5:0c:11:20:8d:70:ec:9c:dc:98:70:fc:24:5d:30:eb:ad",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 75888909,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=75888909&end=75888909",
+    "seen": 1787545168.699,
+    "submission_timestamp": 1782831326.97,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

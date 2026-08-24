@@ -1,0 +1,51 @@
+{
+  "dominio": "external.facetec.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/24/26 01:38:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.external.facetec.aws.pagseguro.uol",
+        "aggregated": "/CN=*.external.facetec.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0580645268D12DF94A59922593EA5130",
+      "not_before": 1782604800,
+      "not_after": 1799711999,
+      "fingerprint": "E4:CB:0C:9E:72:3C:C4:C7:95:F3:35:45:C6:21:8C:24:84:37:58:6F",
+      "sha1": "E4:CB:0C:9E:72:3C:C4:C7:95:F3:35:45:C6:21:8C:24:84:37:58:6F",
+      "sha256": "D4:09:45:98:76:DF:F1:72:31:D5:A2:B0:31:86:3A:D1:51:27:9C:7E:16:C2:BA:3D:58:79:26:0A:F7:AD:55:F1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.external.facetec.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.external.facetec.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:b1:cf:02:bf:f9:cd:68:f5:b9:0a:eb:51:c7:44:f0:fa:46:42:aa:3a"
+      }
+    },
+    "cert_index": 70047964,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x273/624",
+    "seen": 1787546298.86,
+    "submission_timestamp": 1782615070.965,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

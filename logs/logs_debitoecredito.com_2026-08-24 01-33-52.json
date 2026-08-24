@@ -1,0 +1,52 @@
+{
+  "dominio": "debitoecredito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 01:33:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoecredito.com",
+        "aggregated": "/CN=debitoecredito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "0548EA7670BE4E3CC6289FD8C0776D36E9A6",
+      "not_before": 1780479096,
+      "not_after": 1788255095,
+      "fingerprint": "2F:94:A5:03:BB:92:F9:3C:F1:FD:AC:A7:7E:A0:41:B3:89:DD:CE:76",
+      "sha1": "2F:94:A5:03:BB:92:F9:3C:F1:FD:AC:A7:7E:A0:41:B3:89:DD:CE:76",
+      "sha256": "2E:02:29:80:9D:8D:DF:D9:EC:98:3D:AC:BA:F6:6E:BB:88:62:32:62:B3:AB:D7:88:A4:DB:DD:53:AA:3A:03:BB",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitoecredito.com",
+        "*.debitoecredito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitoecredito.com, DNS:debitoecredito.com",
+        "subjectKeyIdentifier": "keyid:20:28:1c:d3:7e:f8:b7:de:9c:a6:f8:f1:f4:30:28:b4:0d:28:94:6f"
+      }
+    },
+    "cert_index": 231766911,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x905/339",
+    "seen": 1787546027.333,
+    "submission_timestamp": 1780482606.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
