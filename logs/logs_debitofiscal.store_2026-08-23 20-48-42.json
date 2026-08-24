@@ -1,0 +1,52 @@
+{
+  "dominio": "debitofiscal.store",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 20:48:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitofiscal.store",
+        "aggregated": "/CN=debitofiscal.store"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "37309F6A29D21493",
+      "not_before": 1782218950,
+      "not_after": 1799326150,
+      "fingerprint": "17:EF:24:7B:22:CC:6F:ED:94:A5:11:3A:D5:61:31:C6:AE:4E:22:10",
+      "sha1": "17:EF:24:7B:22:CC:6F:ED:94:A5:11:3A:D5:61:31:C6:AE:4E:22:10",
+      "sha256": "EB:F3:35:B7:8B:57:21:40:9B:62:AA:B9:7B:04:E8:C0:72:D7:66:23:BF:CE:E7:6D:62:63:73:73:B7:51:62:62",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitofiscal.store"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitofiscal.store",
+        "subjectKeyIdentifier": "keyid:62:8b:4c:af:b3:99:03:b7:5c:8d:e3:98:71:c9:dd:22:9f:39:b2:bc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 98130416,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=98130416&end=98130416",
+    "seen": 1787528916.88,
+    "submission_timestamp": 1782218951.721,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

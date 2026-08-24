@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao-corteingles.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/23/26 20:21:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-corteingles.com",
+        "aggregated": "/CN=cartao-corteingles.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon ECDSA 256 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon ECDSA 256 M04/O=Amazon"
+      },
+      "serial_number": "05C29E29A80F6FA87F33D3D7081FE8DF",
+      "not_before": 1785974400,
+      "not_after": 1803081599,
+      "fingerprint": "C3:04:FA:B1:F5:DF:3F:4F:03:4D:76:E6:CC:62:91:D0:F6:EE:A5:1A",
+      "sha1": "C3:04:FA:B1:F5:DF:3F:4F:03:4D:76:E6:CC:62:91:D0:F6:EE:A5:1A",
+      "sha256": "0A:13:9A:1E:C6:81:E6:10:21:45:BB:90:34:67:37:FB:FC:4E:6C:57:2A:A4:C1:3A:2C:D7:EE:00:80:56:94:15",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-corteingles.com",
+        "*.cartao-corteingles.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.e2m04.amazontrust.com, URI:http://crt.e2m04.amazontrust.com/e2m04.cer",
+        "authorityKeyIdentifier": "keyid:20:76:a0:e1:59:26:ed:45:b4:02:72:19:c2:4d:ae:77:37:b4:1b:49",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:cartao-corteingles.com, DNS:*.cartao-corteingles.com",
+        "subjectKeyIdentifier": "keyid:c3:94:b9:97:91:18:3b:fd:f3:74:01:36:26:d6:0a:b7:54:49:89:b3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 44811552,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=44811552&end=44811552",
+    "seen": 1787527268.672,
+    "submission_timestamp": 1786034873.668,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

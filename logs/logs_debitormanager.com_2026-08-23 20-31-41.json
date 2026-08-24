@@ -1,0 +1,53 @@
+{
+  "dominio": "debitormanager.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/23/26 20:31:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitormanager.com",
+        "aggregated": "/CN=*.debitormanager.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0F497B86704B9D21961F2256CF137187",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "5B:52:04:9E:C2:A1:F5:36:0B:CC:EA:ED:EB:CC:8A:73:BD:F6:17:3F",
+      "sha1": "5B:52:04:9E:C2:A1:F5:36:0B:CC:EA:ED:EB:CC:8A:73:BD:F6:17:3F",
+      "sha256": "C5:C5:E0:B5:E3:65:F8:7B:8A:DB:4D:2D:44:22:FE:54:DE:4F:36:EE:A7:8E:A7:EF:C2:96:3F:1C:60:C3:D9:9C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitormanager.com",
+        "debitormanager.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitormanager.com, DNS:debitormanager.com",
+        "subjectKeyIdentifier": "keyid:43:29:93:b9:de:d0:7f:8a:8e:7b:bf:ed:51:89:d4:c7:61:d4:30:37",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 74101300,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=74101300&end=74101300",
+    "seen": 1787527897.166,
+    "submission_timestamp": 1782722828.164,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

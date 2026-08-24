@@ -1,0 +1,52 @@
+{
+  "dominio": "receita-federal-servicos.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/23/26 20:44:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.receita-federal-servicos.app",
+        "aggregated": "/CN=*.receita-federal-servicos.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06A0C4F6E055F5B896DF769126092ECC0C30",
+      "not_before": 1780386126,
+      "not_after": 1788162125,
+      "fingerprint": "64:9B:D9:EA:D6:12:C8:0F:65:FA:F1:21:E1:58:87:B5:7B:A8:D2:89",
+      "sha1": "64:9B:D9:EA:D6:12:C8:0F:65:FA:F1:21:E1:58:87:B5:7B:A8:D2:89",
+      "sha256": "53:F5:84:AF:18:EE:FB:98:55:A7:00:A6:3C:76:9F:4B:A6:1C:1E:32:14:04:D8:18:85:CB:9B:17:36:1E:E9:C0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.receita-federal-servicos.app",
+        "receita-federal-servicos.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.receita-federal-servicos.app, DNS:receita-federal-servicos.app",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 229367379,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x895/966",
+    "seen": 1787528694.9,
+    "submission_timestamp": 1780389636.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

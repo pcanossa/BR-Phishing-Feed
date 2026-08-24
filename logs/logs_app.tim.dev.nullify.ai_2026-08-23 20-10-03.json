@@ -1,0 +1,56 @@
+{
+  "dominio": "app.tim.dev.nullify.ai",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/23/26 20:10:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.tim.dev.nullify.ai",
+        "aggregated": "/CN=*.tim.dev.nullify.ai"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0FECFF77281604B294CA9D094753CD73",
+      "not_before": 1782345600,
+      "not_after": 1799452799,
+      "fingerprint": "47:DF:72:E2:A3:D5:51:5B:37:32:A5:86:3F:A0:23:27:AB:C0:DD:6E",
+      "sha1": "47:DF:72:E2:A3:D5:51:5B:37:32:A5:86:3F:A0:23:27:AB:C0:DD:6E",
+      "sha256": "15:82:27:55:6F:D0:73:4D:68:61:F4:50:3C:09:D7:E7:24:3E:25:74:DC:6E:1B:E8:B1:2F:3F:92:B9:95:8B:EC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.tim.dev.nullify.ai",
+        "bitbucket.tim.dev.nullify.ai",
+        "github.tim.dev.nullify.ai",
+        "app.tim.dev.nullify.ai",
+        "azure.tim.dev.nullify.ai",
+        "api.tim.dev.nullify.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.tim.dev.nullify.ai, DNS:bitbucket.tim.dev.nullify.ai, DNS:github.tim.dev.nullify.ai, DNS:app.tim.dev.nullify.ai, DNS:azure.tim.dev.nullify.ai, DNS:api.tim.dev.nullify.ai",
+        "subjectKeyIdentifier": "keyid:d6:e5:6d:bd:16:8d:80:83:45:4b:be:75:e3:3c:38:a8:f4:be:73:cb"
+      }
+    },
+    "cert_index": 67322699,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x262/979",
+    "seen": 1787526603.32,
+    "submission_timestamp": 1782382282.965,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

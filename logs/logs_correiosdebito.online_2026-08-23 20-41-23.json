@@ -1,0 +1,53 @@
+{
+  "dominio": "correiosdebito.online",
+  "marcas_encontradas": [
+    "correios",
+    "debito"
+  ],
+  "timestamp": "08/23/26 20:41:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correiosdebito.online",
+        "aggregated": "/CN=correiosdebito.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "1069E78EED423FFE",
+      "not_before": 1782217626,
+      "not_after": 1799324826,
+      "fingerprint": "2B:DC:96:98:B2:B4:51:07:55:41:81:53:08:80:63:64:1C:BC:AB:C2",
+      "sha1": "2B:DC:96:98:B2:B4:51:07:55:41:81:53:08:80:63:64:1C:BC:AB:C2",
+      "sha256": "45:C7:63:1F:E5:1B:2E:C8:73:00:C9:06:9A:A9:E7:E5:83:09:58:9B:0E:CB:47:D8:F5:B9:B2:2C:63:FE:5B:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "correiosdebito.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:correiosdebito.online",
+        "subjectKeyIdentifier": "keyid:ae:2d:5f:15:5c:f0:a9:58:ab:0d:7f:ab:b5:cd:20:9e:04:79:fa:69",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 98078666,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=98078666&end=98078666",
+    "seen": 1787528478.349,
+    "submission_timestamp": 1782217627.576,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

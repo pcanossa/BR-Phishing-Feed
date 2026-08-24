@@ -1,0 +1,52 @@
+{
+  "dominio": "receitaimediata.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/23/26 20:42:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitaimediata.app",
+        "aggregated": "/CN=receitaimediata.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E23DD03B46C7069F",
+      "not_before": 1779435373,
+      "not_after": 1796542573,
+      "fingerprint": "39:02:AA:36:F6:94:D3:88:66:EA:9B:AF:B3:F7:10:DF:AB:97:25:0D",
+      "sha1": "39:02:AA:36:F6:94:D3:88:66:EA:9B:AF:B3:F7:10:DF:AB:97:25:0D",
+      "sha256": "54:45:E0:6B:C8:37:CC:B3:9B:F3:23:41:3B:83:76:44:FB:5E:77:F7:24:93:68:2E:A1:B7:D9:C4:8E:9E:E6:BE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "receitaimediata.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:receitaimediata.app",
+        "subjectKeyIdentifier": "keyid:d7:bd:e0:75:2b:8b:1f:14:79:c1:bd:a8:22:21:9c:e0:45:3c:01:64",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4385480282,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4385480282&end=4385480282",
+    "seen": 1787528558.749,
+    "submission_timestamp": 1779435374.147,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

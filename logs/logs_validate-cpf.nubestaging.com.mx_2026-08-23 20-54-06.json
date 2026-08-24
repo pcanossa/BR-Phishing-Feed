@@ -1,0 +1,54 @@
+{
+  "dominio": "validate-cpf.nubestaging.com.mx",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/23/26 20:54:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.validate-cpf.nubestaging.com",
+        "aggregated": "/CN=*.validate-cpf.nubestaging.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E08EFB9B3E5353A0629A74B8F685BB0",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "9D:FD:CA:5F:75:AC:43:2B:35:E6:B8:11:FB:D0:5A:DC:D7:C2:82:4C",
+      "sha1": "9D:FD:CA:5F:75:AC:43:2B:35:E6:B8:11:FB:D0:5A:DC:D7:C2:82:4C",
+      "sha256": "1E:DC:A7:2C:2C:B3:F7:FB:30:ED:6A:18:7F:C9:C8:AE:F1:C9:FF:94:84:51:14:4A:65:47:9B:F5:D6:5B:9A:1E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.validate-cpf.nubestaging.com",
+        "*.validate-cpf.nubestaging.com.mx",
+        "*.validate-cpf.nubestaging.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.validate-cpf.nubestaging.com, DNS:*.validate-cpf.nubestaging.com.mx, DNS:*.validate-cpf.nubestaging.com.br",
+        "subjectKeyIdentifier": "keyid:9f:ab:c6:1b:91:66:c6:43:3a:dc:45:60:bc:64:c1:4d:d3:22:9a:09",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 74242507,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=74242507&end=74242507",
+    "seen": 1787529246.635,
+    "submission_timestamp": 1782732379.892,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}
