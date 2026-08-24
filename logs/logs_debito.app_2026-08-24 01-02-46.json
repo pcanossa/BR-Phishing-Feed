@@ -1,0 +1,52 @@
+{
+  "dominio": "debito.app",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 01:02:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debito.app",
+        "aggregated": "/CN=*.debito.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05D3C584EE0C15798C513F3161F4DEF62526",
+      "not_before": 1780432247,
+      "not_after": 1788208246,
+      "fingerprint": "EB:80:A6:38:92:12:34:2D:03:24:79:90:18:37:4B:ED:36:89:7F:8B",
+      "sha1": "EB:80:A6:38:92:12:34:2D:03:24:79:90:18:37:4B:ED:36:89:7F:8B",
+      "sha256": "32:93:D5:36:C8:69:27:74:EF:AC:7A:CB:F8:6E:FF:B8:39:E9:D6:ED:9E:D6:01:A2:C7:0C:70:D5:B4:66:7D:A4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debito.app",
+        "debito.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debito.app, DNS:debito.app",
+        "subjectKeyIdentifier": "keyid:6c:0d:6b:d3:1b:db:2e:a4:10:af:31:c0:8b:f1:72:2c:20:c0:34:ef"
+      }
+    },
+    "cert_index": 245676785,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x959/674",
+    "seen": 1787544160.899,
+    "submission_timestamp": 1780435758.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

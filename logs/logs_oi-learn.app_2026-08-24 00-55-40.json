@@ -1,0 +1,52 @@
+{
+  "dominio": "oi-learn.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/24/26 00:55:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.oi-learn.app",
+        "aggregated": "/CN=*.oi-learn.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "0586917459F980CA2DB4601D5FC1689C584E",
+      "not_before": 1780462172,
+      "not_after": 1788238171,
+      "fingerprint": "33:70:90:08:BF:7F:4C:BD:52:CA:63:F3:CA:38:1E:89:47:6F:92:FA",
+      "sha1": "33:70:90:08:BF:7F:4C:BD:52:CA:63:F3:CA:38:1E:89:47:6F:92:FA",
+      "sha256": "36:DE:7A:BE:9A:03:DC:46:B1:00:EC:97:C9:07:60:67:3D:EE:20:43:EE:69:DD:8C:AB:65:03:6C:17:74:A1:38",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.oi-learn.app",
+        "oi-learn.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.oi-learn.app, DNS:oi-learn.app",
+        "subjectKeyIdentifier": "keyid:23:d0:17:38:d8:da:53:27:81:af:ca:0f:bf:ce:11:b8:81:36:16:5a"
+      }
+    },
+    "cert_index": 231449615,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x904/100",
+    "seen": 1787543734.758,
+    "submission_timestamp": 1780465682.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

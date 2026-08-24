@@ -1,0 +1,51 @@
+{
+  "dominio": "worker.cpf-it.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 00:16:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "worker.cpf-it.fr",
+        "aggregated": "/CN=worker.cpf-it.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "056B8D13E15AB2676EFAC4C8144EB1E78DA0",
+      "not_before": 1780422049,
+      "not_after": 1788198048,
+      "fingerprint": "2F:CB:DA:61:5A:E1:74:54:10:EC:3E:DD:06:0F:15:02:92:55:E7:E8",
+      "sha1": "2F:CB:DA:61:5A:E1:74:54:10:EC:3E:DD:06:0F:15:02:92:55:E7:E8",
+      "sha256": "A5:2E:87:AB:24:4D:AE:9D:4D:C9:29:9B:06:DF:C2:80:68:62:5E:70:16:82:DD:47:56:84:C4:5B:78:00:39:FA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "worker.cpf-it.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:worker.cpf-it.fr",
+        "subjectKeyIdentifier": "keyid:29:2f:48:93:80:f5:32:35:a3:6e:0d:75:e5:af:43:5f:86:c2:f1:46"
+      }
+    },
+    "cert_index": 245285929,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x958/148",
+    "seen": 1787541401.379,
+    "submission_timestamp": 1780425560.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

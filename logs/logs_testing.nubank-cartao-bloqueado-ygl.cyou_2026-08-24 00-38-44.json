@@ -1,0 +1,53 @@
+{
+  "dominio": "testing.nubank-cartao-bloqueado-ygl.cyou",
+  "marcas_encontradas": [
+    "cartao",
+    "nubank"
+  ],
+  "timestamp": "08/24/26 00:38:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.nubank-cartao-bloqueado-ygl.cyou",
+        "aggregated": "/CN=testing.nubank-cartao-bloqueado-ygl.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "03D2E359923BCB36280B2B1C0CA5F8F2",
+      "not_before": 1780444800,
+      "not_after": 1788220799,
+      "fingerprint": "CA:1C:09:C5:01:69:71:7A:CB:67:68:0E:73:13:06:BE:6F:69:E8:84",
+      "sha1": "CA:1C:09:C5:01:69:71:7A:CB:67:68:0E:73:13:06:BE:6F:69:E8:84",
+      "sha256": "57:5C:37:37:9B:43:59:AF:88:32:2F:5E:F1:50:C7:21:A9:77:A0:71:1E:D4:C6:07:7F:93:1C:2F:28:55:A8:BC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "testing.nubank-cartao-bloqueado-ygl.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:testing.nubank-cartao-bloqueado-ygl.cyou",
+        "subjectKeyIdentifier": "keyid:19:a5:bc:e8:57:c9:a1:ce:e0:b9:04:7a:95:05:5a:7e:7d:5e:78:98"
+      }
+    },
+    "cert_index": 231307713,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x903/545",
+    "seen": 1787542723.854,
+    "submission_timestamp": 1780461086.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "debitospendentes.sbs",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 00:43:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitospendentes.sbs",
+        "aggregated": "/CN=debitospendentes.sbs"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "AF1795E658680C4B1364C9925508C292",
+      "not_before": 1779438890,
+      "not_after": 1787218398,
+      "fingerprint": "87:C9:0D:9C:DC:97:6D:90:AE:1F:48:53:68:42:DC:2E:BD:0C:9A:FD",
+      "sha1": "87:C9:0D:9C:DC:97:6D:90:AE:1F:48:53:68:42:DC:2E:BD:0C:9A:FD",
+      "sha256": "A9:2C:80:09:B7:3C:69:F3:55:0B:F6:F0:71:44:40:67:D8:41:47:04:53:7D:7F:9F:74:33:EF:B0:62:95:90:F6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitospendentes.sbs",
+        "*.debitospendentes.sbs"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/rxc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitospendentes.sbs, DNS:*.debitospendentes.sbs",
+        "subjectKeyIdentifier": "keyid:fb:59:28:2e:f7:2b:c6:71:13:34:61:69:c8:8c:52:eb:e6:a3:ff:b3"
+      }
+    },
+    "cert_index": 4387230923,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4387230923&end=4387230923",
+    "seen": 1787542987.008,
+    "submission_timestamp": 1779445363.779,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

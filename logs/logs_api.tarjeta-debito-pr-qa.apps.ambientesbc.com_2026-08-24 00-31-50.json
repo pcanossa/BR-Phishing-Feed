@@ -1,0 +1,53 @@
+{
+  "dominio": "api.tarjeta-debito-pr-qa.apps.ambientesbc.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 00:31:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "019EDB4756B4D9086A6BCF5CDA9E6FF4",
+      "not_before": 1782251438,
+      "not_after": 1782337785,
+      "fingerprint": "91:71:46:EC:96:94:FC:7C:88:B8:90:23:3C:FD:D2:79:93:FB:80:04",
+      "sha1": "91:71:46:EC:96:94:FC:7C:88:B8:90:23:3C:FD:D2:79:93:FB:80:04",
+      "sha256": "A3:A5:16:8C:FC:56:C7:7C:A4:1C:DB:3B:91:FB:26:7A:FB:2A:48:A3:4A:77:60:E4:61:8F:B3:C6:26:56:DB:2A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "api.tarjeta-debito-pr-qa.apps.ambientesbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr-qa.apps.ambientesbc.com, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:dc:7a:ee:74:5a:d2:8b:53:84:da:1b:38:28:a9:e3:87:64:2c:d2:a6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 1999693732,
+    "cert_link": "https://tiger2026h1.ct.sectigo.com/ct/v1/get-entries?start=1999693732&end=1999693732",
+    "seen": 1787542304.545,
+    "submission_timestamp": 1782251442.229,
+    "source": {
+      "name": "Tiger 2026h1",
+      "url": "https://tiger2026h1.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cadastro-processo.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 00:26:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cadastro-processo.api.dev.itau.com",
+        "aggregated": "/CN=cadastro-processo.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0932769D473F4AAB356B1F272582AF40",
+      "not_before": 1782259200,
+      "not_after": 1799366399,
+      "fingerprint": "B4:1E:B1:BB:93:96:54:59:DB:89:77:F3:A3:5A:7B:A4:21:3B:1B:8F",
+      "sha1": "B4:1E:B1:BB:93:96:54:59:DB:89:77:F3:A3:5A:7B:A4:21:3B:1B:8F",
+      "sha256": "E9:5A:7B:1C:B1:0D:FC:E4:A2:C4:AE:B4:14:55:18:96:35:FB:7F:39:86:6B:B4:6B:9F:36:48:3D:DF:BC:F0:6C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cadastro-processo.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cadastro-processo.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:e1:b1:67:00:2b:02:a5:b1:c8:12:ea:0d:80:62:02:a4:e6:4d:94:2a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 99678379,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=99678379&end=99678379",
+    "seen": 1787541967.773,
+    "submission_timestamp": 1782260149.014,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
