@@ -1,0 +1,52 @@
+{
+  "dominio": "fahrerapp-uber-dispatcher-service.bemany.workers.dev",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/24/26 09:27:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bemany.workers.dev",
+        "aggregated": "/CN=bemany.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "42A3E896E8C36F0B13598D8E6FBC8CAE",
+      "not_before": 1780969496,
+      "not_after": 1788749063,
+      "fingerprint": "05:90:75:97:78:C1:88:1D:2D:F2:33:84:0E:F0:92:92:F3:7C:60:4F",
+      "sha1": "05:90:75:97:78:C1:88:1D:2D:F2:33:84:0E:F0:92:92:F3:7C:60:4F",
+      "sha256": "85:AF:0D:8C:2E:D6:AC:76:8F:99:1B:6C:B8:7C:37:51:BC:50:9F:82:64:A8:A8:88:F3:CD:5A:74:E0:A5:1F:21",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "bemany.workers.dev",
+        "*.fahrerapp-uber-dispatcher-service.bemany.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/QqM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:bemany.workers.dev, DNS:*.fahrerapp-uber-dispatcher-service.bemany.workers.dev",
+        "subjectKeyIdentifier": "keyid:f3:54:ff:58:eb:f7:50:89:d3:68:26:78:1e:51:1c:73:9c:23:bd:ed"
+      }
+    },
+    "cert_index": 983318705,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x841/088",
+    "seen": 1787574446.92,
+    "submission_timestamp": 1787397528.359,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

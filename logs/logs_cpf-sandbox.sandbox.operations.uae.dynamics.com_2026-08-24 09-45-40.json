@@ -1,0 +1,57 @@
+{
+  "dominio": "cpf-sandbox.sandbox.operations.uae.dynamics.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 09:45:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-sandbox.sandbox.operations.uae.dynamics.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=cpf-sandbox.sandbox.operations.uae.dynamics.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "4300A29D120949E5182D2C33E0000000A29D12",
+      "not_before": 1785142019,
+      "not_after": 1800694019,
+      "fingerprint": "48:F8:D4:24:6F:EF:A9:95:DC:6C:F8:52:74:20:4F:9D:D6:18:BB:87",
+      "sha1": "48:F8:D4:24:6F:EF:A9:95:DC:6C:F8:52:74:20:4F:9D:D6:18:BB:87",
+      "sha256": "C6:35:BB:3D:63:E3:D4:BD:CD:4D:F8:49:B4:86:FD:04:FF:37:A8:2D:8F:56:46:CF:7A:E2:FC:F9:D8:5D:FA:DD",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-sandbox.sandbox.operations.uae.dynamics.com",
+        "cpf-sandboxaossoap.sandbox.operations.uae.dynamics.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-sandboxaossoap.sandbox.operations.uae.dynamics.com, DNS:cpf-sandbox.sandbox.operations.uae.dynamics.com",
+        "subjectKeyIdentifier": "keyid:08:3b:e3:15:46:41:a5:86:ad:5b:ea:4a:50:98:db:36:d4:d9:7b:3d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 45716624,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=45716624&end=45716624",
+    "seen": 1787575540.695,
+    "submission_timestamp": 1785142624.121,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

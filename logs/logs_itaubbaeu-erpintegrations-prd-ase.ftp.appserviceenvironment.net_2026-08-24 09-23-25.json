@@ -1,0 +1,58 @@
+{
+  "dominio": "itaubbaeu-erpintegrations-prd-ase.ftp.appserviceenvironment.net",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 09:23:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "waws-prod-am2-0ccff28b.publish.p.azurewebsites.windows.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=waws-prod-am2-0ccff28b.publish.p.azurewebsites.windows.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100913368AEF495C76E89A47A000000913368",
+      "not_before": 1785121513,
+      "not_after": 1800673513,
+      "fingerprint": "43:EC:D3:2C:C0:18:51:B1:90:47:A3:D2:F7:0C:AF:13:E6:E8:94:AA",
+      "sha1": "43:EC:D3:2C:C0:18:51:B1:90:47:A3:D2:F7:0C:AF:13:E6:E8:94:AA",
+      "sha256": "D9:D2:6C:06:02:E9:BB:AF:1F:F8:87:9D:B7:87:61:17:35:65:49:38:20:B6:86:5D:38:E0:63:5B:47:9F:B9:C2",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "waws-prod-am2-0ccff28b.publish.p.azurewebsites.windows.net",
+        "waws-prod-am2-0ccff28b.ftp.p.azurewebsites.windows.net",
+        "itaubbaeu-erpintegrations-prd-ase.ftp.appserviceenvironment.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:waws-prod-am2-0ccff28b.ftp.p.azurewebsites.windows.net, DNS:waws-prod-am2-0ccff28b.publish.p.azurewebsites.windows.net, DNS:itaubbaeu-erpintegrations-prd-ase.ftp.appserviceenvironment.net",
+        "subjectKeyIdentifier": "keyid:2f:c2:5d:b4:05:7e:3a:f3:59:bf:b8:66:26:42:b7:82:1e:a1:24:2b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 45632631,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=45632631&end=45632631",
+    "seen": 1787574205.25,
+    "submission_timestamp": 1785122117.57,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}
