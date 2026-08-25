@@ -1,0 +1,53 @@
+{
+  "dominio": "santanderlogin.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 18:28:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderlogin.com",
+        "aggregated": "/CN=santanderlogin.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2D321A312F7D51F00E25304EDAC3056A",
+      "not_before": 1779301020,
+      "not_after": 1787080545,
+      "fingerprint": "4D:0F:24:34:C7:9C:60:B1:24:1D:07:C1:31:34:5D:83:47:9A:A0:27",
+      "sha1": "4D:0F:24:34:C7:9C:60:B1:24:1D:07:C1:31:34:5D:83:47:9A:A0:27",
+      "sha256": "17:08:56:87:BF:0F:63:69:03:44:3F:06:98:28:47:00:C8:8E:1A:E6:D9:B3:17:DD:74:85:2B:EE:2F:7C:CE:54",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "santanderlogin.com",
+        "*.santanderlogin.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/LTI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:santanderlogin.com, DNS:*.santanderlogin.com",
+        "subjectKeyIdentifier": "keyid:2f:71:b6:66:61:fd:3d:25:d0:60:13:07:2b:0a:77:a7:25:5d:b9:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 709465998,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=709465998&end=709465998",
+    "seen": 1787693311.483,
+    "submission_timestamp": 1779304724.399,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

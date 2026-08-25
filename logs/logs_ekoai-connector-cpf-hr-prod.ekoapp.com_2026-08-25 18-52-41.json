@@ -1,0 +1,52 @@
+{
+  "dominio": "ekoai-connector-cpf-hr-prod.ekoapp.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 18:52:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ekoai-connector-cpf-hr-prod.ekoapp.com",
+        "aggregated": "/CN=ekoai-connector-cpf-hr-prod.ekoapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "019DFCC6A5F17E5A17DBB17B3C273338",
+      "not_before": 1781049600,
+      "not_after": 1796947199,
+      "fingerprint": "8C:9F:25:69:ED:D8:9E:35:AD:47:42:81:D1:C6:47:18:62:9D:D8:0F",
+      "sha1": "8C:9F:25:69:ED:D8:9E:35:AD:47:42:81:D1:C6:47:18:62:9D:D8:0F",
+      "sha256": "FE:40:AA:FD:A7:AD:D3:6D:FF:40:B1:E1:CE:19:55:6B:5F:40:BC:F0:36:7F:62:09:B3:22:65:DC:DD:34:CC:4B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ekoai-connector-cpf-hr-prod.ekoapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ekoai-connector-cpf-hr-prod.ekoapp.com",
+        "subjectKeyIdentifier": "keyid:fe:27:e1:b0:f8:0b:f4:a0:96:8a:48:0f:47:34:fa:b3:49:5a:24:6d"
+      }
+    },
+    "cert_index": 249393460,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x974/193",
+    "seen": 1787694758.934,
+    "submission_timestamp": 1781131196.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

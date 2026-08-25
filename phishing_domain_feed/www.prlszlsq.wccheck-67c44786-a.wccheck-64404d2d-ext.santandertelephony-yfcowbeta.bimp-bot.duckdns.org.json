@@ -1,0 +1,13 @@
+{
+    "dominio": "www.prlszlsq.wccheck-67c44786-a.wccheck-64404d2d-ext.santandertelephony-yfcowbeta.bimp-bot.duckdns.org",
+    "data_registro": "25/08/26 15:30:00",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Domínio utiliza o serviço dinâmico DuckDNS, frequentemente usado por atores maliciosos para hospedagem rápida e mutável",
+        "Subdomínio contém a marca 'santandertelephony', remetendo ao banco Santander, alvo típico de ataques de phishing no Brasil",
+        "Estrutura de subdomínios extremamente longa e composta por strings aleatórias (prlszlsq, wccheck-67c44786-a, wccheck-64404d2d-ext, yfcowbeta, bimp-bot), característica de domínios gerados automaticamente para evadir filtros",
+        "Presença de termos associados a bots ('bimp-bot') que podem indicar funcionalidade de C2 ou coleta de credenciais",
+        "Domínio não reconhecido em listas de domínios legítimos ou de bancos brasileiros"
+    ],
+    "analise_comportamental": "O domínio apresenta múltiplas indicações de uso malicioso direcionado a usuários brasileiros: combina um serviço de DNS dinâmico com a marca de um banco brasileiro, utiliza subdomínios de aparência aleatória e inclui termos relacionados a bots. Esse conjunto de características aponta para um provável site de phishing que imita o serviço de telephony do Santander para capturar credenciais de clientes no Brasil."
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "suse.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/25/26 18:36:16",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "suse.uber.space",
+        "aggregated": "/CN=suse.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06DE99A5C16691FF4F2D289DC86CE09CF85E",
+      "not_before": 1779508321,
+      "not_after": 1787284320,
+      "fingerprint": "FF:C7:87:EC:BF:BF:E3:2E:03:73:AF:59:98:EC:9E:24:96:3F:82:88",
+      "sha1": "FF:C7:87:EC:BF:BF:E3:2E:03:73:AF:59:98:EC:9E:24:96:3F:82:88",
+      "sha256": "24:C6:FC:0C:62:5B:F4:27:FA:C2:EA:94:94:E1:BF:C0:48:0A:F7:1A:5F:43:82:64:8E:DB:06:42:D3:77:78:EB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "suse.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:suse.uber.space",
+        "subjectKeyIdentifier": "keyid:54:6c:ef:4e:05:af:78:80:4c:f8:84:f2:2e:e6:2e:72:92:ba:5b:73"
+      }
+    },
+    "cert_index": 4402759867,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4402759867&end=4402759867",
+    "seen": 1787693773.845,
+    "submission_timestamp": 1779511835.198,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

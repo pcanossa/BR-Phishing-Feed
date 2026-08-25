@@ -1,0 +1,52 @@
+{
+  "dominio": "precioclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 18:52:56",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "precioclaro.app",
+        "aggregated": "/CN=precioclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06BBCBD888E19FD46FB222A5377FE9B3F797",
+      "not_before": 1779508670,
+      "not_after": 1787284669,
+      "fingerprint": "FE:1A:34:0E:FF:6C:3B:91:0E:C6:CE:05:13:C4:69:3F:7A:EE:66:DC",
+      "sha1": "FE:1A:34:0E:FF:6C:3B:91:0E:C6:CE:05:13:C4:69:3F:7A:EE:66:DC",
+      "sha256": "48:6B:75:F7:84:32:F0:37:FB:3F:A2:66:D1:64:CE:B7:F5:B4:AD:CC:34:0F:03:1F:C1:C9:B6:F7:47:A1:A5:37",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "precioclaro.app",
+        "*.precioclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.precioclaro.app, DNS:precioclaro.app",
+        "subjectKeyIdentifier": "keyid:05:b7:8f:e1:a8:10:53:30:61:9b:f1:e6:65:e6:21:1b:3c:0f:08:6d"
+      }
+    },
+    "cert_index": 4402875405,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4402875405&end=4402875405",
+    "seen": 1787694772.792,
+    "submission_timestamp": 1779512447.239,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
