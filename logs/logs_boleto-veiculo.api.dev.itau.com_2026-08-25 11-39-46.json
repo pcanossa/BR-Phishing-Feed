@@ -1,0 +1,51 @@
+{
+  "dominio": "boleto-veiculo.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 11:39:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto-veiculo.api.dev.itau.com",
+        "aggregated": "/CN=boleto-veiculo.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E6E382F8A4419C443B924D5482801F5",
+      "not_before": 1787184000,
+      "not_after": 1804291199,
+      "fingerprint": "11:30:8F:88:25:34:66:D4:B3:D1:FB:28:DA:73:71:68:53:EB:A6:EF",
+      "sha1": "11:30:8F:88:25:34:66:D4:B3:D1:FB:28:DA:73:71:68:53:EB:A6:EF",
+      "sha256": "38:8A:63:2C:6F:50:EF:F7:F3:00:E1:65:C9:62:7F:3C:07:CC:7A:B9:A3:35:AC:71:E2:5A:4B:99:4E:D3:5B:1D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boleto-veiculo.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boleto-veiculo.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:23:62:20:3b:99:06:db:46:68:36:cc:63:9a:12:4d:35:55:19:42:6b"
+      }
+    },
+    "cert_index": 72441015,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x282/972",
+    "seen": 1787668783.728,
+    "submission_timestamp": 1787257962.953,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

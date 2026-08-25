@@ -1,0 +1,51 @@
+{
+  "dominio": "app.caixapixbrasil.com.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/25/26 11:41:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.caixapixbrasil.com.br",
+        "aggregated": "/CN=app.caixapixbrasil.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06F341BBFBA9A7E4E5292CA77618702DF17A",
+      "not_before": 1779496768,
+      "not_after": 1787272767,
+      "fingerprint": "BF:BE:36:B3:99:E3:44:D7:D8:44:3A:5C:D4:BB:61:B2:AD:06:30:CA",
+      "sha1": "BF:BE:36:B3:99:E3:44:D7:D8:44:3A:5C:D4:BB:61:B2:AD:06:30:CA",
+      "sha256": "59:F7:AF:57:1B:25:37:39:5E:0D:1F:F1:16:D4:20:E2:1D:00:05:F3:56:FF:23:AD:34:F6:93:41:4C:AD:7A:56",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.caixapixbrasil.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.caixapixbrasil.com.br",
+        "subjectKeyIdentifier": "keyid:2b:25:4e:38:66:56:07:f9:c6:01:6e:97:a2:ab:b6:cc:b0:24:fc:b8"
+      }
+    },
+    "cert_index": 4399894706,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4399894706&end=4399894706",
+    "seen": 1787668862.532,
+    "submission_timestamp": 1779500281.799,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

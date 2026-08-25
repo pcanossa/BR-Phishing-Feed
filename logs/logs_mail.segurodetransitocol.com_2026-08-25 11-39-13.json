@@ -1,0 +1,55 @@
+{
+  "dominio": "mail.segurodetransitocol.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/25/26 11:39:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.segurodetransitocol.com",
+        "aggregated": "/CN=www.segurodetransitocol.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06F6E1A1A9AD17971F5B3D8C05AB6CA71D65",
+      "not_before": 1778708167,
+      "not_after": 1786484166,
+      "fingerprint": "41:D2:84:66:2C:84:0D:88:A6:2E:AA:4B:4D:48:49:61:C2:91:AE:13",
+      "sha1": "41:D2:84:66:2C:84:0D:88:A6:2E:AA:4B:4D:48:49:61:C2:91:AE:13",
+      "sha256": "27:15:AE:3F:89:4C:C6:BB:91:9B:CE:C2:C5:79:7D:BB:26:F1:EC:DE:99:D2:D4:D0:FB:6F:91:6F:7B:47:02:F0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.segurodetransitocol.com",
+        "ftp.segurodetransitocol.com",
+        "mail.segurodetransitocol.com",
+        "segurodetransitocol.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ftp.segurodetransitocol.com, DNS:mail.segurodetransitocol.com, DNS:segurodetransitocol.com, DNS:www.segurodetransitocol.com",
+        "subjectKeyIdentifier": "keyid:a2:03:26:41:c8:6a:09:01:52:11:77:16:e3:09:73:dc:7b:1f:df:f5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 685459584,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=685459584&end=685459584",
+    "seen": 1787668753.373,
+    "submission_timestamp": 1778711677.692,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

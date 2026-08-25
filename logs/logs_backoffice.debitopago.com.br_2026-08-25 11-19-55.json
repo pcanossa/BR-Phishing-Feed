@@ -1,0 +1,54 @@
+{
+  "dominio": "backoffice.debitopago.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 11:19:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "backoffice.debitopago.com.br",
+        "aggregated": "/CN=backoffice.debitopago.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "03B0BB932D2E3C82C130AC531F37D6A5",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "70:C4:8C:F3:33:CF:F7:25:A9:D1:C8:56:1C:4B:B3:8A:74:26:45:63",
+      "sha1": "70:C4:8C:F3:33:CF:F7:25:A9:D1:C8:56:1C:4B:B3:8A:74:26:45:63",
+      "sha256": "11:79:93:87:E3:E4:2A:18:8B:45:A4:C8:06:18:76:1D:F1:7A:36:9E:BF:80:2D:07:FF:97:47:B7:BD:A3:C3:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "backoffice.debitopago.com.br",
+        "backoffice.controlcheck.com.br",
+        "backoffice.carropago.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:backoffice.debitopago.com.br, DNS:backoffice.controlcheck.com.br, DNS:backoffice.carropago.com.br",
+        "subjectKeyIdentifier": "keyid:29:b1:f4:1a:e7:c2:75:60:18:dc:3d:c0:84:ab:53:2b:8e:10:a5:71",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 80667832,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=80667832&end=80667832",
+    "seen": 1787667594.504,
+    "submission_timestamp": 1783258379.947,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

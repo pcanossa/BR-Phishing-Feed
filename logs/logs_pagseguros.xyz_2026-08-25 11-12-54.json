@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguros.xyz",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 11:12:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguros.xyz",
+        "aggregated": "/CN=pagseguros.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E5CA93C712142B6A",
+      "not_before": 1782770343,
+      "not_after": 1799877543,
+      "fingerprint": "03:64:8D:AE:09:0D:2F:7F:96:40:05:32:FD:7B:6A:57:80:24:18:DB",
+      "sha1": "03:64:8D:AE:09:0D:2F:7F:96:40:05:32:FD:7B:6A:57:80:24:18:DB",
+      "sha256": "DC:DF:62:60:E9:82:45:2F:F0:B9:06:CE:EA:A9:8B:75:5A:68:27:48:ED:E2:46:92:66:2B:E7:5F:B4:F0:FD:5F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguros.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguros.xyz",
+        "subjectKeyIdentifier": "keyid:48:53:7a:a2:35:b2:1c:58:7a:50:3d:a8:0f:a5:b3:e9:97:b4:e7:a3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 111971427,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=111971427&end=111971427",
+    "seen": 1787667172.311,
+    "submission_timestamp": 1782770344.379,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

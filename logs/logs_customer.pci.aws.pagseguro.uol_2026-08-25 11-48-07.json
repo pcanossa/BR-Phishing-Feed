@@ -1,0 +1,53 @@
+{
+  "dominio": "customer.pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 11:48:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.customer.pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.customer.pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "044E17CEBE60D5D39692595C45B99182",
+      "not_before": 1782777600,
+      "not_after": 1799884799,
+      "fingerprint": "88:60:D2:EE:C4:89:82:93:15:24:E0:35:9F:1C:AF:C1:D2:D5:49:59",
+      "sha1": "88:60:D2:EE:C4:89:82:93:15:24:E0:35:9F:1C:AF:C1:D2:D5:49:59",
+      "sha256": "BE:A6:5C:E8:14:3F:89:97:68:B2:6D:19:4C:22:69:28:A8:8B:86:F6:4C:DF:89:95:94:8C:1F:5B:7E:9D:20:6C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.customer.pci.aws.pagseguro.uol",
+        "customer.pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.customer.pci.aws.pagseguro.uol, DNS:customer.pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:cf:e4:66:0e:5a:fb:49:6a:a3:f9:b1:fd:32:9d:9b:9c:ab:bc:8c:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 112220993,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=112220993&end=112220993",
+    "seen": 1787669285.33,
+    "submission_timestamp": 1782778556.783,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

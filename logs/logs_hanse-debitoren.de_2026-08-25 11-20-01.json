@@ -1,0 +1,52 @@
+{
+  "dominio": "hanse-debitoren.de",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 11:20:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hanse-debitoren.de",
+        "aggregated": "/CN=hanse-debitoren.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0526DA5BB58B53C22854D37F95AC8864D452",
+      "not_before": 1779496088,
+      "not_after": 1787272087,
+      "fingerprint": "FF:68:01:43:20:CB:F5:D5:30:4C:CD:3D:1E:C8:5A:23:F8:C5:22:F9",
+      "sha1": "FF:68:01:43:20:CB:F5:D5:30:4C:CD:3D:1E:C8:5A:23:F8:C5:22:F9",
+      "sha256": "E2:F3:54:D1:A3:31:32:86:00:18:14:4F:E6:AD:AC:43:86:A2:D7:EE:14:73:1A:DB:98:0F:C4:EA:B3:F2:DD:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hanse-debitoren.de",
+        "www.hanse-debitoren.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hanse-debitoren.de, DNS:www.hanse-debitoren.de",
+        "subjectKeyIdentifier": "keyid:59:01:fb:1c:5f:14:ce:2e:37:df:34:0a:5b:39:9a:fa:01:98:06:b6"
+      }
+    },
+    "cert_index": 4399741962,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4399741962&end=4399741962",
+    "seen": 1787667601.048,
+    "submission_timestamp": 1779499600.446,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

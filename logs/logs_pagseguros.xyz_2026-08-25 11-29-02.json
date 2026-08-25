@@ -1,0 +1,51 @@
+{
+  "dominio": "pagseguros.xyz",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 11:29:02",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguros.xyz",
+        "aggregated": "/CN=pagseguros.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E5CA93C712142B6A",
+      "not_before": 1782770343,
+      "not_after": 1799877543,
+      "fingerprint": "E8:3C:0F:54:75:79:D6:72:34:A9:DD:25:BF:5F:0C:9B:9C:D4:F7:DF",
+      "sha1": "E8:3C:0F:54:75:79:D6:72:34:A9:DD:25:BF:5F:0C:9B:9C:D4:F7:DF",
+      "sha256": "F0:B7:0E:61:64:D2:CC:B5:BD:39:7C:3A:1B:89:79:B4:7D:EA:67:D5:D7:BD:2C:F9:26:5C:9E:43:D3:24:1E:BB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguros.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagseguros.xyz",
+        "subjectKeyIdentifier": "keyid:48:53:7a:a2:35:b2:1c:58:7a:50:3d:a8:0f:a5:b3:e9:97:b4:e7:a3"
+      }
+    },
+    "cert_index": 112086662,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=112086662&end=112086662",
+    "seen": 1787668141.199,
+    "submission_timestamp": 1782774700.552,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
