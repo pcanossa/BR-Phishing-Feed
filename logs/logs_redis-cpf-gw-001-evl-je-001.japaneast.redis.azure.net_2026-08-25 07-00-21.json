@@ -1,0 +1,56 @@
+{
+  "dominio": "redis-cpf-gw-001-evl-je-001.japaneast.redis.azure.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 07:00:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "japaneast.redis.azure.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=japaneast.redis.azure.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 ECC CA OCSP 06",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 ECC CA OCSP 06/O=Microsoft Corporation"
+      },
+      "serial_number": "610004A80A04412F0AE39248E500000004A80A",
+      "not_before": 1787111833,
+      "not_after": 1802663833,
+      "fingerprint": "DD:4A:3A:94:58:C6:5D:96:66:E6:95:7D:E7:1C:92:41:79:36:E9:17",
+      "sha1": "DD:4A:3A:94:58:C6:5D:96:66:E6:95:7D:E7:1C:92:41:79:36:E9:17",
+      "sha256": "6E:B3:FD:3E:C6:84:DC:D3:88:28:5F:A1:72:94:D1:B4:B0:28:89:B4:B5:1C:54:B4:22:36:7C:66:26:74:F8:93",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "japaneast.redis.azure.net",
+        "redis-cpf-gw-001-evl-je-001.japaneast.redis.azure.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20ECC%20CA%20OCSP%2006.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20ECC%20CA%20OCSP%2006.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:38:9b:2c:e5:9c:4f:9d:c2:14:61:ea:e9:44:10:8d:70:49:4b:ea:5b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:redis-cpf-gw-001-evl-je-001.japaneast.redis.azure.net, DNS:japaneast.redis.azure.net",
+        "subjectKeyIdentifier": "keyid:bb:38:cf:5b:03:a4:65:53:d2:40:fb:74:56:fe:02:48:39:52:1a:4d"
+      }
+    },
+    "cert_index": 69645885,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x272/054",
+    "seen": 1787652020.832,
+    "submission_timestamp": 1787112520.679,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

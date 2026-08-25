@@ -1,0 +1,52 @@
+{
+  "dominio": "debitorka.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 06:32:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitorka.com",
+        "aggregated": "/CN=debitorka.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "055F0C8D5E1E42B9D237910783E947E35BBF",
+      "not_before": 1780895507,
+      "not_after": 1788671506,
+      "fingerprint": "E4:59:F8:CB:AF:23:65:5C:34:AB:06:52:F4:B8:D7:96:E4:C4:8F:D9",
+      "sha1": "E4:59:F8:CB:AF:23:65:5C:34:AB:06:52:F4:B8:D7:96:E4:C4:8F:D9",
+      "sha256": "FB:98:37:0D:D9:FE:F2:6B:E8:27:71:DF:1D:9A:BB:DA:60:93:B6:76:27:E6:9B:0C:A9:F8:DC:46:A5:CF:56:09",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitorka.com",
+        "*.debitorka.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitorka.com, DNS:debitorka.com",
+        "subjectKeyIdentifier": "keyid:3c:58:5d:87:82:41:2a:25:bf:0f:21:09:47:ac:e8:be:f8:45:a0:17"
+      }
+    },
+    "cert_index": 257974808,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x007/714",
+    "seen": 1787650332.202,
+    "submission_timestamp": 1780899018.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "tembo-fix-smoke-test-health-check-tim.api.rokr.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/25/26 06:49:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rokr.app",
+        "aggregated": "/CN=rokr.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C26E1921B3CE05E10ECF3A7E43A2F3E4",
+      "not_before": 1779979334,
+      "not_after": 1787758917,
+      "fingerprint": "1B:69:DF:76:6F:58:05:EA:EE:AA:71:FF:05:7A:90:82:46:AB:22:8A",
+      "sha1": "1B:69:DF:76:6F:58:05:EA:EE:AA:71:FF:05:7A:90:82:46:AB:22:8A",
+      "sha256": "9C:0B:55:58:14:60:E8:39:1B:D6:46:98:4B:BE:58:82:DE:B3:1F:98:F8:37:8B:77:8C:05:B2:3C:B5:E1:9F:39",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "rokr.app",
+        "tembo-fix-smoke-test-health-check-tim.api.rokr.app",
+        "*.tembo-fix-smoke-test-health-check-tim.api.rokr.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/wm4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:rokr.app, DNS:tembo-fix-smoke-test-health-check-tim.api.rokr.app, DNS:*.tembo-fix-smoke-test-health-check-tim.api.rokr.app",
+        "subjectKeyIdentifier": "keyid:66:ad:ec:5f:44:96:20:a4:d3:da:80:49:a1:7a:d2:5d:2b:6f:85:b8"
+      }
+    },
+    "cert_index": 986870421,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x854/962",
+    "seen": 1787651384.14,
+    "submission_timestamp": 1787413248.484,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

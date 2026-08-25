@@ -1,0 +1,54 @@
+{
+  "dominio": "stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/25/26 06:25:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=stg-openshift-dallas-b3.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06563BBDBBBCC2867D815D5D77D9F93B7E77",
+      "not_before": 1779349140,
+      "not_after": 1787125139,
+      "fingerprint": "87:B4:9D:98:C7:81:91:BE:18:41:1B:51:B9:3D:2F:15:F6:55:A1:2A",
+      "sha1": "87:B4:9D:98:C7:81:91:BE:18:41:1B:51:B9:3D:2F:15:F6:55:A1:2A",
+      "sha256": "C1:B7:93:0C:AA:4F:1D:D2:01:26:C4:DA:37:94:AF:B6:E1:F3:CA:79:35:87:AC:27:32:F6:7E:57:D5:3B:7E:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+        "*.stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud",
+        "stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud, DNS:stg-openshift-dallas-b3-1d7024b22199d59a72fd3e3ea6794251-0000.us-south.containers.appdomain.cloud, DNS:stg-openshift-dallas-b3.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:d8:dd:ab:ce:33:b5:23:2d:f6:c2:eb:01:4f:55:8a:dc:27:7d:26:79",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 839543385,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=839543385&end=839543385",
+    "seen": 1787649914.627,
+    "submission_timestamp": 1779352651.174,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

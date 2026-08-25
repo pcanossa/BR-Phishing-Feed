@@ -1,0 +1,60 @@
+{
+  "dominio": "den-oi-ods-c.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/25/26 06:21:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "den-oi-ods.trafficmanager.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=den-oi-ods.trafficmanager.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "4300B2C2ED55AF91DA254D800D000000B2C2ED",
+      "not_before": 1785856127,
+      "not_after": 1801408127,
+      "fingerprint": "F8:5A:10:AF:97:4D:1A:66:A0:B7:B0:F9:79:2D:16:66:9C:92:7F:F8",
+      "sha1": "F8:5A:10:AF:97:4D:1A:66:A0:B7:B0:F9:79:2D:16:66:9C:92:7F:F8",
+      "sha256": "AC:CD:B1:AD:EA:56:84:77:F1:86:79:48:7A:6E:D5:3A:B1:2D:66:42:84:4E:28:B3:56:C4:84:71:2A:1C:15:10",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "den-oi-ods.trafficmanager.net",
+        "den-oi-ods-a.cloudapp.net",
+        "den-oi-ods-b.cloudapp.net",
+        "den-oi-ods-c.cloudapp.net",
+        "*.ods.opinsights.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:den-oi-ods.trafficmanager.net, DNS:den-oi-ods-a.cloudapp.net, DNS:den-oi-ods-b.cloudapp.net, DNS:den-oi-ods-c.cloudapp.net, DNS:*.ods.opinsights.azure.com",
+        "subjectKeyIdentifier": "keyid:9e:29:03:0a:99:cb:ac:76:4f:81:8b:68:63:8c:78:00:4c:df:eb:a1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 52437923,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=52437923&end=52437923",
+    "seen": 1787649662.929,
+    "submission_timestamp": 1785856732.565,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

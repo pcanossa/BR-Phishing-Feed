@@ -1,0 +1,51 @@
+{
+  "dominio": "drugs.happy.detransp.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/25/26 06:53:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "drugs.happy.detransp.com",
+        "aggregated": "/CN=drugs.happy.detransp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "066F837E8EE9C9DF792A1061C09089664E8C",
+      "not_before": 1779487929,
+      "not_after": 1787263928,
+      "fingerprint": "5C:22:F8:E7:4F:CA:16:1A:91:55:2D:B3:1D:54:76:6B:78:3A:3A:B8",
+      "sha1": "5C:22:F8:E7:4F:CA:16:1A:91:55:2D:B3:1D:54:76:6B:78:3A:3A:B8",
+      "sha256": "5A:2C:82:C8:6A:A4:CE:4C:5C:EC:A8:05:D4:71:E5:1C:70:69:A6:8D:7A:05:EF:D8:8E:55:F9:63:E9:E3:A3:66",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "drugs.happy.detransp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:drugs.happy.detransp.com",
+        "subjectKeyIdentifier": "keyid:d8:db:2b:5b:03:66:c3:88:d3:1e:c7:8c:be:5a:5c:f3:18:9b:30:fc"
+      }
+    },
+    "cert_index": 4397775814,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4397775814&end=4397775814",
+    "seen": 1787651624.853,
+    "submission_timestamp": 1779491441.239,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

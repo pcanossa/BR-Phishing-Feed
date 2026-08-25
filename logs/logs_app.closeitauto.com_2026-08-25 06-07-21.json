@@ -1,0 +1,51 @@
+{
+  "dominio": "app.closeitauto.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 06:07:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.closeitauto.com",
+        "aggregated": "/CN=app.closeitauto.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "05DF51723EC09AF6AD01482145E8D004",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "7C:55:A0:2F:08:DE:7A:03:67:19:59:10:23:BE:5C:50:10:A4:31:97",
+      "sha1": "7C:55:A0:2F:08:DE:7A:03:67:19:59:10:23:BE:5C:50:10:A4:31:97",
+      "sha256": "2C:F5:B4:31:1F:D1:4F:51:21:10:2C:60:03:65:99:17:63:74:F9:2F:EA:25:D3:DA:44:B9:C4:18:84:56:D2:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.closeitauto.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.closeitauto.com",
+        "subjectKeyIdentifier": "keyid:9e:85:e4:7d:93:1e:92:06:f6:76:28:8d:f4:fb:23:4b:d4:7b:00:8b"
+      }
+    },
+    "cert_index": 81262790,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x317/432",
+    "seen": 1787648839.828,
+    "submission_timestamp": 1783391487.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

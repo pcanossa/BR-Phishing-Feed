@@ -1,0 +1,52 @@
+{
+  "dominio": "cards-apply-jl3.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 06:39:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cards-apply-jl3.api.hom.itau.com",
+        "aggregated": "/CN=cards-apply-jl3.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0F23468DC60F517B6CC8FE759A6BC81C",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "41:B5:E0:93:E6:16:8B:F2:2D:5E:2B:30:5F:DC:3D:F0:F3:04:A4:F5",
+      "sha1": "41:B5:E0:93:E6:16:8B:F2:2D:5E:2B:30:5F:DC:3D:F0:F3:04:A4:F5",
+      "sha256": "75:3B:8C:A1:28:BA:DB:22:65:CF:94:03:F1:8B:CD:DF:56:AA:EA:57:77:28:63:C9:69:85:BC:F0:B1:01:C5:32",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cards-apply-jl3.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cards-apply-jl3.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:4d:da:60:5f:e0:c8:e1:5f:45:33:84:e0:3d:8e:35:45:49:ab:bf:e3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 110003737,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=110003737&end=110003737",
+    "seen": 1787650785.565,
+    "submission_timestamp": 1782692192.111,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

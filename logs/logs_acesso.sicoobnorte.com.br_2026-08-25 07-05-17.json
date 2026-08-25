@@ -1,0 +1,53 @@
+{
+  "dominio": "acesso.sicoobnorte.com.br",
+  "marcas_encontradas": [
+    "sicoob"
+  ],
+  "timestamp": "08/25/26 07:05:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sicoobnorte.com.br",
+        "aggregated": "/CN=*.sicoobnorte.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05D2315719278EBCE6DEC0401AFACFF16427",
+      "not_before": 1780930530,
+      "not_after": 1788706529,
+      "fingerprint": "78:7D:2D:6A:22:AD:0D:0F:FD:89:A5:22:DA:EC:6E:BC:2F:1F:34:C3",
+      "sha1": "78:7D:2D:6A:22:AD:0D:0F:FD:89:A5:22:DA:EC:6E:BC:2F:1F:34:C3",
+      "sha256": "5A:1A:D9:BC:83:D6:AB:38:31:02:EF:10:55:F1:97:25:00:27:66:F2:8F:4B:02:10:07:E5:FC:EC:34:A8:D6:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sicoobnorte.com.br",
+        "*.acesso.sicoobnorte.com.br",
+        "*.sistemas.sicoobnorte.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.acesso.sicoobnorte.com.br, DNS:*.sicoobnorte.com.br, DNS:*.sistemas.sicoobnorte.com.br",
+        "subjectKeyIdentifier": "keyid:bb:2f:1d:1a:a9:ac:6a:eb:22:03:39:ab:59:80:1b:05:61:a3:36:5c"
+      }
+    },
+    "cert_index": 243569064,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x951/441",
+    "seen": 1787652316.367,
+    "submission_timestamp": 1780934041.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

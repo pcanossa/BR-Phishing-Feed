@@ -1,0 +1,52 @@
+{
+  "dominio": "usclaroapps.mobi",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 06:25:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "usclaroapps.mobi",
+        "aggregated": "/CN=usclaroapps.mobi"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E02183B42D4E6148",
+      "not_before": 1782687211,
+      "not_after": 1799794411,
+      "fingerprint": "C5:EF:FD:44:16:59:F7:D1:18:77:30:03:08:2F:2D:5E:B6:01:B6:73",
+      "sha1": "C5:EF:FD:44:16:59:F7:D1:18:77:30:03:08:2F:2D:5E:B6:01:B6:73",
+      "sha256": "30:C2:34:2F:B2:9D:04:F0:43:74:AD:F0:E4:E3:72:A2:20:58:79:B4:FF:7E:8F:CA:5A:75:35:5C:40:AA:37:94",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "usclaroapps.mobi"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:usclaroapps.mobi",
+        "subjectKeyIdentifier": "keyid:f2:1e:f7:18:70:fd:eb:1c:04:cc:b5:32:68:75:ac:28:a9:78:2d:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 109897036,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=109897036&end=109897036",
+    "seen": 1787649907.278,
+    "submission_timestamp": 1782687212.379,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
