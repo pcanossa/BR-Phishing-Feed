@@ -1,0 +1,53 @@
+{
+  "dominio": "www.pay.cpf-internal.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 16:40:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pay.cpf-internal.com",
+        "aggregated": "/CN=pay.cpf-internal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "A41D11318C883575",
+      "not_before": 1783406130,
+      "not_after": 1800513330,
+      "fingerprint": "B0:C1:E7:D3:FB:54:88:6C:33:5D:FB:D6:40:73:CA:07:93:B0:C7:FC",
+      "sha1": "B0:C1:E7:D3:FB:54:88:6C:33:5D:FB:D6:40:73:CA:07:93:B0:C7:FC",
+      "sha256": "01:7C:4B:18:4E:3D:56:6E:1C:8C:E4:EC:85:40:F7:7C:11:35:2C:B6:6E:CA:4F:18:AF:95:79:AA:96:57:8F:EE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pay.cpf-internal.com",
+        "www.pay.cpf-internal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pay.cpf-internal.com, DNS:www.pay.cpf-internal.com",
+        "subjectKeyIdentifier": "keyid:ee:6f:bd:f6:94:55:49:59:b9:0a:75:31:f0:8d:2b:46:60:da:05:2f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 82962906,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=82962906&end=82962906",
+    "seen": 1787686813.147,
+    "submission_timestamp": 1783406132.214,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

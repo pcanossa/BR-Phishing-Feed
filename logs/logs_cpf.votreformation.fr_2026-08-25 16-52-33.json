@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.votreformation.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 16:52:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.votreformation.fr",
+        "aggregated": "/CN=cpf.votreformation.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06C1BE48E3956C776B31B38FBCB8C527ECBC",
+      "not_before": 1779505345,
+      "not_after": 1787281344,
+      "fingerprint": "EF:BE:83:DA:C7:FE:A8:EA:0F:EB:53:E3:2F:5C:C3:03:50:BF:C3:1B",
+      "sha1": "EF:BE:83:DA:C7:FE:A8:EA:0F:EB:53:E3:2F:5C:C3:03:50:BF:C3:1B",
+      "sha256": "18:C8:BB:BB:66:E9:BD:9C:0E:D8:90:68:F3:84:48:12:35:25:21:AD:C9:CD:2F:E6:4D:23:8F:6D:54:56:41:01",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.votreformation.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.votreformation.fr",
+        "subjectKeyIdentifier": "keyid:b4:09:9f:53:83:1d:8f:9d:fd:29:5b:73:6e:7f:97:02:66:34:4e:a7"
+      }
+    },
+    "cert_index": 4402047637,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4402047637&end=4402047637",
+    "seen": 1787687551.626,
+    "submission_timestamp": 1779508857.191,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.telesapiens.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 16:10:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.telesapiens.com.br",
+        "aggregated": "/CN=cartao.telesapiens.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "056BBC547996974BCBB5895AF35CE44977A1",
+      "not_before": 1779503980,
+      "not_after": 1787279979,
+      "fingerprint": "3F:5D:D7:B6:7B:77:94:54:B1:93:D2:22:FD:8C:56:62:3C:7A:96:48",
+      "sha1": "3F:5D:D7:B6:7B:77:94:54:B1:93:D2:22:FD:8C:56:62:3C:7A:96:48",
+      "sha256": "87:25:FF:6D:D2:7E:E7:DA:F7:2F:E2:62:A3:96:1A:8F:A2:A7:9E:E7:A9:00:31:A9:CC:EF:6A:6B:A0:74:E4:79",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.telesapiens.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.telesapiens.com.br",
+        "subjectKeyIdentifier": "keyid:07:e0:bd:95:a1:e8:bc:ae:6e:1f:b7:c6:85:51:52:35:6f:9d:05:b7"
+      }
+    },
+    "cert_index": 4401754528,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4401754528&end=4401754528",
+    "seen": 1787685052.755,
+    "submission_timestamp": 1779507499.435,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

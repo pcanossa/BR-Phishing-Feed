@@ -1,0 +1,59 @@
+{
+  "dominio": "apps.ocp-prod.clarodigital.net.admin-mcas.ms",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 16:18:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.apps.ocp-prod.clarodigital.net.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.apps.ocp-prod.clarodigital.net.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "5500A9FCB582F814A7F5C476F0000000A9FCB5",
+      "not_before": 1787130804,
+      "not_after": 1802682804,
+      "fingerprint": "74:D6:CA:FB:58:33:1B:4B:A8:0E:4C:22:09:96:52:DF:B2:33:09:BF",
+      "sha1": "74:D6:CA:FB:58:33:1B:4B:A8:0E:4C:22:09:96:52:DF:B2:33:09:BF",
+      "sha256": "3E:CB:EF:8A:5E:1D:77:E4:1D:18:A3:BE:F2:3D:A4:66:A4:7D:3A:6D:13:3D:7B:25:C0:F6:64:F2:D0:08:3F:C1",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.apps.ocp-prod.clarodigital.net.mcas.ms",
+        "*.apps.ocp-prod.clarodigital.net.admin-mcas.ms",
+        "*.apps.ocp-prod.clarodigital.net.mcas-df.ms",
+        "*.apps.ocp-prod.clarodigital.net.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.ocp-prod.clarodigital.net.mcas.ms, DNS:*.apps.ocp-prod.clarodigital.net.admin-mcas.ms, DNS:*.apps.ocp-prod.clarodigital.net.mcas-df.ms, DNS:*.apps.ocp-prod.clarodigital.net.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:20:05:36:43:1e:75:8a:7a:ae:e9:50:20:03:1b:fb:48:07:1b:4c:16",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 62183060,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=62183060&end=62183060",
+    "seen": 1787685513.196,
+    "submission_timestamp": 1787131477.007,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

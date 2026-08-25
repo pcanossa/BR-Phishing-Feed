@@ -1,0 +1,52 @@
+{
+  "dominio": "santanderseguro.online",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 16:59:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santanderseguro.online",
+        "aggregated": "/CN=santanderseguro.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "57C86DABB4C1B479",
+      "not_before": 1782861463,
+      "not_after": 1799968663,
+      "fingerprint": "B1:1A:CA:04:1E:DA:FF:5F:1B:22:3A:DE:7E:EA:CC:99:E5:DF:BD:35",
+      "sha1": "B1:1A:CA:04:1E:DA:FF:5F:1B:22:3A:DE:7E:EA:CC:99:E5:DF:BD:35",
+      "sha256": "4D:65:9D:DE:58:76:3F:DA:F8:14:91:FC:84:3E:B1:90:27:04:91:49:B7:73:6E:C1:72:CE:3C:96:C5:F9:8D:15",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santanderseguro.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santanderseguro.online",
+        "subjectKeyIdentifier": "keyid:43:fa:33:93:96:db:b9:a0:2b:97:10:71:4e:61:d9:d7:0a:ca:d5:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 114328591,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=114328591&end=114328591",
+    "seen": 1787687972.9,
+    "submission_timestamp": 1782861464.684,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

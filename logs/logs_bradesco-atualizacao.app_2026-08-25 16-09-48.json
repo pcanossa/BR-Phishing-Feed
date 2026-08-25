@@ -1,0 +1,52 @@
+{
+  "dominio": "bradesco-atualizacao.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/25/26 16:09:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bradesco-atualizacao.app",
+        "aggregated": "/CN=bradesco-atualizacao.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0667721B74EA694944AE5582CB338AA4E824",
+      "not_before": 1781089250,
+      "not_after": 1788865249,
+      "fingerprint": "00:95:20:27:32:63:5C:CC:B1:75:1F:44:E1:AC:A4:44:0E:AA:68:48",
+      "sha1": "00:95:20:27:32:63:5C:CC:B1:75:1F:44:E1:AC:A4:44:0E:AA:68:48",
+      "sha256": "AE:4D:A9:B3:EC:33:02:D3:73:6B:B1:B9:8A:EF:EF:70:CE:9E:34:10:4F:21:3E:C6:55:27:88:36:3D:BE:B4:31",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "bradesco-atualizacao.app",
+        "*.bradesco-atualizacao.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.bradesco-atualizacao.app, DNS:bradesco-atualizacao.app",
+        "subjectKeyIdentifier": "keyid:a4:9f:91:9c:b6:14:d4:e1:f2:f6:b2:7c:1f:c1:41:16:48:dc:b3:e7"
+      }
+    },
+    "cert_index": 248040981,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x968/910",
+    "seen": 1787684987.037,
+    "submission_timestamp": 1781092760.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

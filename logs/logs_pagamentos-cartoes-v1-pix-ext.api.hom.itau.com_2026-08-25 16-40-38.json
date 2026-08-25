@@ -1,0 +1,52 @@
+{
+  "dominio": "pagamentos-cartoes-v1-pix-ext.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 16:40:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamentos-cartoes-v1-pix-ext.api.hom.itau.com",
+        "aggregated": "/CN=pagamentos-cartoes-v1-pix-ext.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B3199A060CCD13702C368021608925C",
+      "not_before": 1783728000,
+      "not_after": 1800835199,
+      "fingerprint": "C1:CD:AD:19:FE:28:CE:4B:C0:1B:E1:86:59:B9:0A:79:28:88:C5:F7",
+      "sha1": "C1:CD:AD:19:FE:28:CE:4B:C0:1B:E1:86:59:B9:0A:79:28:88:C5:F7",
+      "sha256": "DD:A2:12:71:8C:B7:5B:C9:9C:FD:CB:7D:B4:80:2C:AD:6E:AE:0B:AF:6F:12:1A:59:3B:43:DC:E4:A7:F3:E7:85",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagamentos-cartoes-v1-pix-ext.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamentos-cartoes-v1-pix-ext.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:b7:48:08:da:9d:9c:99:f1:bd:8b:80:21:9d:42:40:9b:b4:3f:68:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 91783941,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=91783941&end=91783941",
+    "seen": 1787686836.306,
+    "submission_timestamp": 1783728852.584,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

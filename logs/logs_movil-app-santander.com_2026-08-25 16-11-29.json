@@ -1,0 +1,53 @@
+{
+  "dominio": "movil-app-santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 16:11:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "movil-app-santander.com",
+        "aggregated": "/CN=movil-app-santander.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "85937ADF5EB7E03813DD32799FC21266",
+      "not_before": 1779503916,
+      "not_after": 1787283346,
+      "fingerprint": "03:DA:C5:6C:DD:D4:86:2B:18:E3:33:4E:0E:4B:92:E3:00:22:FA:20",
+      "sha1": "03:DA:C5:6C:DD:D4:86:2B:18:E3:33:4E:0E:4B:92:E3:00:22:FA:20",
+      "sha256": "23:27:D4:50:67:85:A7:64:4D:B6:4C:67:6E:3C:37:20:A7:68:B3:5B:30:18:9F:38:9F:23:AF:DB:E4:6A:79:0E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "movil-app-santander.com",
+        "*.movil-app-santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/hZM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:movil-app-santander.com, DNS:*.movil-app-santander.com",
+        "subjectKeyIdentifier": "keyid:3d:68:e7:44:80:54:c3:95:07:83:fa:43:11:ba:52:84:e5:98:1a:73",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4401758284,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4401758284&end=4401758284",
+    "seen": 1787685086.761,
+    "submission_timestamp": 1779507517.414,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

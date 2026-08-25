@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.onilearning.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 16:07:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.onilearning.com.br",
+        "aggregated": "/CN=cartao.onilearning.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06EE35D3B45C180FC350DA4677D7D6B136E0",
+      "not_before": 1779503900,
+      "not_after": 1787279899,
+      "fingerprint": "EE:7B:45:53:21:FB:55:B5:1D:57:46:8B:BC:26:F2:A5:08:37:90:1E",
+      "sha1": "EE:7B:45:53:21:FB:55:B5:1D:57:46:8B:BC:26:F2:A5:08:37:90:1E",
+      "sha256": "BC:74:95:61:1B:79:36:B7:E6:C3:B5:35:D9:58:5C:1A:F9:58:7D:24:A5:C3:AC:5A:C2:E4:3B:CF:4A:9B:AB:8C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.onilearning.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.onilearning.com.br",
+        "subjectKeyIdentifier": "keyid:d5:2b:4d:5a:ed:f3:3d:21:d6:82:56:ee:25:29:77:35:2e:d7:d0:88",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4401732838,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4401732838&end=4401732838",
+    "seen": 1787684864.721,
+    "submission_timestamp": 1779507412.965,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

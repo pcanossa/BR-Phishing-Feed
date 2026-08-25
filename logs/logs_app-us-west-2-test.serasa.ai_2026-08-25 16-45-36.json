@@ -1,0 +1,51 @@
+{
+  "dominio": "app-us-west-2-test.serasa.ai",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/25/26 16:45:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-us-west-2-test.serasa.ai",
+        "aggregated": "/CN=app-us-west-2-test.serasa.ai"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "769CB799A47C5AFAFF4BAA2A0242598D",
+      "not_before": 1780099200,
+      "not_after": 1787961599,
+      "fingerprint": "2D:B0:DF:E7:00:48:74:60:6C:9B:AC:19:22:FB:21:A2:3C:10:C9:84",
+      "sha1": "2D:B0:DF:E7:00:48:74:60:6C:9B:AC:19:22:FB:21:A2:3C:10:C9:84",
+      "sha256": "B7:89:6F:F0:79:A3:A7:2E:F3:47:EC:70:7C:9D:68:06:6C:53:7F:5B:AB:11:6B:2E:67:8F:32:17:3B:6E:3E:46",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-us-west-2-test.serasa.ai"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-us-west-2-test.serasa.ai",
+        "subjectKeyIdentifier": "keyid:c6:df:e0:54:32:20:f5:c6:b2:1a:e3:76:72:b7:33:69:ef:55:41:a3"
+      }
+    },
+    "cert_index": 386445959,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x509/554",
+    "seen": 1787687133.398,
+    "submission_timestamp": 1780612919.023,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}
