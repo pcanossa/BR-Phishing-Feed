@@ -1,0 +1,52 @@
+{
+  "dominio": "indebito.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 03:46:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.indebito.com.br",
+        "aggregated": "/CN=*.indebito.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "07032BA04EDAF3E62531CA83938F114D",
+      "not_before": 1783296000,
+      "not_after": 1800403199,
+      "fingerprint": "A5:E0:BC:93:D8:3B:14:7B:08:CE:46:78:BC:45:ED:F4:2D:E9:38:45",
+      "sha1": "A5:E0:BC:93:D8:3B:14:7B:08:CE:46:78:BC:45:ED:F4:2D:E9:38:45",
+      "sha256": "72:4A:E6:23:90:69:F1:98:12:56:B0:EE:7B:2F:BD:EC:B9:8D:4E:7E:42:80:6C:9D:32:C1:52:1F:88:6A:CC:8F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.indebito.com.br",
+        "indebito.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.indebito.com.br, DNS:indebito.com.br",
+        "subjectKeyIdentifier": "keyid:85:7d:ed:1c:8e:b8:3b:e5:de:18:37:7f:93:62:42:a0:45:01:4c:80"
+      }
+    },
+    "cert_index": 80102375,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x312/899",
+    "seen": 1787640392.018,
+    "submission_timestamp": 1783316735.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

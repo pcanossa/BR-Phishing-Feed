@@ -1,0 +1,53 @@
+{
+  "dominio": "testcdn.spotify.com.udp.gtns.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/25/26 03:40:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gtns.app",
+        "aggregated": "/CN=gtns.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0B2DE76171A629D3134CAA645346661F",
+      "not_before": 1779337762,
+      "not_after": 1787117360,
+      "fingerprint": "BA:59:FA:73:58:3D:34:67:A0:51:63:6C:58:E8:64:0D:38:B3:EC:0B",
+      "sha1": "BA:59:FA:73:58:3D:34:67:A0:51:63:6C:58:E8:64:0D:38:B3:EC:0B",
+      "sha256": "7F:D9:BF:47:FE:D4:FA:C0:58:44:08:B1:6E:76:C2:46:3C:CA:EF:7F:0E:42:6E:34:38:32:4A:4A:6B:A0:EE:6F",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gtns.app",
+        "testcdn.spotify.com.udp.gtns.app",
+        "*.testcdn.spotify.com.udp.gtns.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Cy0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gtns.app, DNS:testcdn.spotify.com.udp.gtns.app, DNS:*.testcdn.spotify.com.udp.gtns.app",
+        "subjectKeyIdentifier": "keyid:53:b9:d4:6c:89:d4:fa:8a:32:6f:94:0a:56:66:d0:e7:c0:88:6c:4e"
+      }
+    },
+    "cert_index": 837963272,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=837963272&end=837963272",
+    "seen": 1787640045.498,
+    "submission_timestamp": 1779341422.066,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

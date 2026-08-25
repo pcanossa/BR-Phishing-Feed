@@ -1,0 +1,52 @@
+{
+  "dominio": "caixageral-alerta.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/25/26 03:50:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixageral-alerta.com",
+        "aggregated": "/CN=caixageral-alerta.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "05F3E061A338582400C17812CCD6947E34EC",
+      "not_before": 1780845716,
+      "not_after": 1788621715,
+      "fingerprint": "EA:07:A1:5C:46:F6:A7:A1:9C:C5:C5:CD:A3:97:27:A6:B5:42:4B:A6",
+      "sha1": "EA:07:A1:5C:46:F6:A7:A1:9C:C5:C5:CD:A3:97:27:A6:B5:42:4B:A6",
+      "sha256": "0A:E5:B4:0C:23:B6:37:6F:0D:62:D0:BD:0C:3D:88:B7:FB:83:5C:04:58:98:30:D0:A3:9D:F2:96:B0:29:C0:5C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixageral-alerta.com",
+        "*.caixageral-alerta.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixageral-alerta.com, DNS:caixageral-alerta.com",
+        "subjectKeyIdentifier": "keyid:2f:9c:b5:17:dd:56:d8:60:1a:dd:75:f1:31:4c:f2:6e:ce:34:c2:c7"
+      }
+    },
+    "cert_index": 256585887,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x002/288",
+    "seen": 1787640629.17,
+    "submission_timestamp": 1780849227.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

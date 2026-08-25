@@ -1,0 +1,52 @@
+{
+  "dominio": "solicita-debitos.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau",
+    "debito"
+  ],
+  "timestamp": "08/25/26 03:16:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "solicita-debitos.api.hom.itau.com",
+        "aggregated": "/CN=solicita-debitos.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A09D7EBCD58C2A8598BCE72A54894A9",
+      "not_before": 1787011200,
+      "not_after": 1804118399,
+      "fingerprint": "A8:C0:8A:DA:EF:EF:8D:2D:B9:B2:7D:9E:DC:02:0B:86:D0:F8:FB:CE",
+      "sha1": "A8:C0:8A:DA:EF:EF:8D:2D:B9:B2:7D:9E:DC:02:0B:86:D0:F8:FB:CE",
+      "sha256": "2A:56:25:9D:58:20:8B:91:A3:B8:69:5C:63:52:6D:C1:BB:8C:85:EB:54:E9:DD:B7:13:86:DD:65:52:FC:18:EF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "solicita-debitos.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:solicita-debitos.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:29:a8:a6:9a:90:b8:c4:ae:54:aa:cf:e8:ad:29:27:ce:78:d2:ec:d3"
+      }
+    },
+    "cert_index": 67311571,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x262/935",
+    "seen": 1787638580.038,
+    "submission_timestamp": 1787012178.535,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

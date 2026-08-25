@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.primeatende.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 03:22:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.primeatende.com.br",
+        "aggregated": "/CN=cartao.primeatende.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05B53E8D69EDDA9647B5DB8CE2EB7097F459",
+      "not_before": 1779481446,
+      "not_after": 1787257445,
+      "fingerprint": "E5:9E:C2:55:C3:70:D3:B6:8E:4F:3D:5B:2B:2C:35:2E:B7:E5:3A:28",
+      "sha1": "E5:9E:C2:55:C3:70:D3:B6:8E:4F:3D:5B:2B:2C:35:2E:B7:E5:3A:28",
+      "sha256": "D5:57:F2:BF:5D:77:A3:0E:B7:18:80:BC:5F:A3:6F:3D:D5:74:52:26:86:D7:EF:65:D5:45:7D:38:19:42:75:5B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.primeatende.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.primeatende.com.br",
+        "subjectKeyIdentifier": "keyid:92:cb:cc:5b:59:1a:14:c5:c5:3e:cf:0f:2e:39:08:43:41:ad:cc:14"
+      }
+    },
+    "cert_index": 4396245645,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4396245645&end=4396245645",
+    "seen": 1787638949.555,
+    "submission_timestamp": 1779484960.933,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

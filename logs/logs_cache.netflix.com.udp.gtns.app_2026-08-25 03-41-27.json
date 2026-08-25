@@ -1,0 +1,54 @@
+{
+  "dominio": "cache.netflix.com.udp.gtns.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 03:41:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gtns.app",
+        "aggregated": "/CN=gtns.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6C912FD9361DD4650E9119DBEDE36E5E",
+      "not_before": 1779337862,
+      "not_after": 1787117459,
+      "fingerprint": "D7:7B:19:1A:3A:45:FF:E1:53:AD:75:87:B9:4B:8D:42:97:7F:89:CF",
+      "sha1": "D7:7B:19:1A:3A:45:FF:E1:53:AD:75:87:B9:4B:8D:42:97:7F:89:CF",
+      "sha256": "F4:1E:2F:09:7C:CD:D7:26:31:A8:E3:08:C1:94:DB:33:18:4E:59:FF:53:14:67:A4:4F:15:0A:22:D9:4C:5B:AB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gtns.app",
+        "cache.netflix.com.udp.gtns.app",
+        "*.cache.netflix.com.udp.gtns.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/bJE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gtns.app, DNS:cache.netflix.com.udp.gtns.app, DNS:*.cache.netflix.com.udp.gtns.app",
+        "subjectKeyIdentifier": "keyid:9f:e5:91:a1:a0:54:58:f9:b8:25:eb:10:f2:56:20:02:66:8b:d0:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 837969245,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=837969245&end=837969245",
+    "seen": 1787640086.052,
+    "submission_timestamp": 1779341463.109,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

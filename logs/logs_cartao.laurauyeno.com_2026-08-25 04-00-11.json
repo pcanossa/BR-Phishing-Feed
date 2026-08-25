@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.laurauyeno.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 04:00:11",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.laurauyeno.com",
+        "aggregated": "/CN=cartao.laurauyeno.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06E152A434492A10DCDF51E6EC6FEDA7FCE0",
+      "not_before": 1779482530,
+      "not_after": 1787258529,
+      "fingerprint": "F3:D4:3D:53:E0:0A:92:10:2E:66:B4:AB:CC:BB:06:56:E4:5F:9F:0E",
+      "sha1": "F3:D4:3D:53:E0:0A:92:10:2E:66:B4:AB:CC:BB:06:56:E4:5F:9F:0E",
+      "sha256": "52:8B:FC:47:CF:63:00:CB:2D:13:27:5B:A3:FC:82:14:C3:5B:E6:8C:39:8E:68:16:99:2E:92:27:55:E1:E2:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.laurauyeno.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.laurauyeno.com",
+        "subjectKeyIdentifier": "keyid:67:aa:b7:14:78:d5:65:91:c5:09:03:5c:57:66:85:77:9f:34:bd:06"
+      }
+    },
+    "cert_index": 4396519948,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4396519948&end=4396519948",
+    "seen": 1787641210.718,
+    "submission_timestamp": 1779486042.588,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

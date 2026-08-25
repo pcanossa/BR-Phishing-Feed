@@ -1,0 +1,53 @@
+{
+  "dominio": "vitau.vercel.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 04:00:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.vitau.vercel.app",
+        "aggregated": "/CN=*.vitau.vercel.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "6D4C569061B4C62C0D81A90E90F5B062",
+      "not_before": 1778826598,
+      "not_after": 1786602597,
+      "fingerprint": "25:8E:E7:9D:E0:95:06:56:1F:17:49:B3:A7:38:93:16:AB:6A:CA:96",
+      "sha1": "25:8E:E7:9D:E0:95:06:56:1F:17:49:B3:A7:38:93:16:AB:6A:CA:96",
+      "sha256": "80:33:67:05:64:2F:EF:9C:9E:55:95:11:B7:72:62:42:46:6E:B2:A0:11:6F:5F:97:FD:BD:5E:6C:4C:CB:2F:88",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.vitau.vercel.app",
+        "vitau.vercel.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/bUw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.vitau.vercel.app, DNS:vitau.vercel.app",
+        "subjectKeyIdentifier": "keyid:d2:8a:27:d4:c3:0f:e0:ad:c9:ec:a9:6b:2d:32:96:b7:ba:e4:64:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 671036503,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=671036503&end=671036503",
+    "seen": 1787641223.264,
+    "submission_timestamp": 1778830199.54,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

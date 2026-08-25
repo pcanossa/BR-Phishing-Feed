@@ -1,0 +1,56 @@
+{
+  "dominio": "cpf-uat1.sandbox.operations.dynamics.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 03:41:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-uat1.sandbox.operations.dynamics.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=cpf-uat1.sandbox.operations.dynamics.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "550059AF120F06FE6A9650395700000059AF12",
+      "not_before": 1782125983,
+      "not_after": 1797677983,
+      "fingerprint": "D4:40:E4:7C:41:01:CE:E5:0A:74:42:CF:9D:39:51:9A:73:42:2C:D2",
+      "sha1": "D4:40:E4:7C:41:01:CE:E5:0A:74:42:CF:9D:39:51:9A:73:42:2C:D2",
+      "sha256": "77:0D:44:F7:5A:A4:D9:83:2F:37:01:63:6C:17:0C:D9:20:5B:4D:9B:6D:7E:C1:AF:5E:1C:53:E3:CF:9B:A9:ED",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-uat1.sandbox.operations.dynamics.com",
+        "cpf-uat1aossoap.sandbox.operations.dynamics.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-uat1aossoap.sandbox.operations.dynamics.com, DNS:cpf-uat1.sandbox.operations.dynamics.com",
+        "subjectKeyIdentifier": "keyid:30:fc:ac:57:74:ff:f7:9b:7d:ad:d5:92:59:db:03:6c:6e:6b:fa:bc"
+      }
+    },
+    "cert_index": 986247462,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x852/529",
+    "seen": 1787640076.01,
+    "submission_timestamp": 1787410755.922,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}
