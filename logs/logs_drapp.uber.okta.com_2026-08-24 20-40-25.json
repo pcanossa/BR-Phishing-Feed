@@ -1,0 +1,51 @@
+{
+  "dominio": "drapp.uber.okta.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/24/26 20:40:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "drapp.uber.okta.com",
+        "aggregated": "/CN=drapp.uber.okta.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "0646F23F503CF602A713CF6C57D711792D56",
+      "not_before": 1780703841,
+      "not_after": 1788479840,
+      "fingerprint": "22:FB:18:A0:34:DC:5D:10:4C:0C:78:26:AD:45:0D:B4:C9:EC:59:A0",
+      "sha1": "22:FB:18:A0:34:DC:5D:10:4C:0C:78:26:AD:45:0D:B4:C9:EC:59:A0",
+      "sha256": "85:2B:B6:FB:C6:A1:5F:6B:29:AB:30:99:1A:9F:39:B4:05:D1:16:1C:7E:F3:A4:AB:19:49:17:12:23:69:8E:F1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "drapp.uber.okta.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:drapp.uber.okta.com",
+        "subjectKeyIdentifier": "keyid:f8:69:00:74:37:ef:34:8d:0b:e0:a1:d6:f0:61:83:ae:7a:3c:c0:55"
+      }
+    },
+    "cert_index": 252901074,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x987/894",
+    "seen": 1787614825.696,
+    "submission_timestamp": 1780707352.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

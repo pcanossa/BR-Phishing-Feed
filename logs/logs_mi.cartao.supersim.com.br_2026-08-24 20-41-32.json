@@ -1,0 +1,51 @@
+{
+  "dominio": "mi.cartao.supersim.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/24/26 20:41:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mi.cartao.supersim.com.br",
+        "aggregated": "/CN=mi.cartao.supersim.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "04D49BE3E1EC43CAB753C3E7B53BF814",
+      "not_before": 1782432000,
+      "not_after": 1799539199,
+      "fingerprint": "2F:6D:B2:F0:E0:37:BE:9D:A6:22:1A:69:5A:C1:8E:D9:A1:0D:A9:1D",
+      "sha1": "2F:6D:B2:F0:E0:37:BE:9D:A6:22:1A:69:5A:C1:8E:D9:A1:0D:A9:1D",
+      "sha256": "E5:35:FE:90:41:9D:30:C8:77:CE:4C:50:52:DF:78:F8:17:0E:F3:75:39:D7:03:B3:75:03:28:94:08:EE:29:76",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mi.cartao.supersim.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mi.cartao.supersim.com.br",
+        "subjectKeyIdentifier": "keyid:80:ff:0b:a8:fd:67:80:80:a7:7b:d8:ac:dd:a6:d9:2e:d1:57:dd:b1"
+      }
+    },
+    "cert_index": 105923249,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=105923249&end=105923249",
+    "seen": 1787614891.375,
+    "submission_timestamp": 1782500610.923,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

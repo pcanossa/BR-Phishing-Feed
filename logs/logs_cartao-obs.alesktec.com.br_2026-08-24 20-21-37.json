@@ -1,0 +1,54 @@
+{
+  "dominio": "cartao-obs.alesktec.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/24/26 20:21:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alesktec.com.br",
+        "aggregated": "/CN=alesktec.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "4AB862D09A09EE6E13AEB4351839739D",
+      "not_before": 1779470279,
+      "not_after": 1787249608,
+      "fingerprint": "BF:3B:F4:5C:E9:24:AB:8E:52:CE:D4:38:73:E7:6D:C9:F2:BB:68:B2",
+      "sha1": "BF:3B:F4:5C:E9:24:AB:8E:52:CE:D4:38:73:E7:6D:C9:F2:BB:68:B2",
+      "sha256": "5F:D9:40:BB:BA:21:00:F4:36:95:A2:0B:14:84:68:D9:3A:C3:32:C1:BD:D7:83:80:5C:29:B4:74:A2:35:46:85",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alesktec.com.br",
+        "cartao-obs.alesktec.com.br",
+        "*.cartao-obs.alesktec.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Srg, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alesktec.com.br, DNS:cartao-obs.alesktec.com.br, DNS:*.cartao-obs.alesktec.com.br",
+        "subjectKeyIdentifier": "keyid:fd:3f:0a:07:d6:f5:35:50:3a:d6:95:fc:69:af:46:8a:e4:8b:4c:a2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4393329558,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4393329558&end=4393329558",
+    "seen": 1787613697.299,
+    "submission_timestamp": 1779473880.728,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

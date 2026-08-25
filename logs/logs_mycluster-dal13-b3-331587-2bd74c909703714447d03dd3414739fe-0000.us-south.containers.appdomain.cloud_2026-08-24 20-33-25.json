@@ -1,0 +1,54 @@
+{
+  "dominio": "mycluster-dal13-b3-331587-2bd74c909703714447d03dd3414739fe-0000.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/24/26 20:33:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mycluster-dal13-b3-331587.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=mycluster-dal13-b3-331587.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05D21273F502862D7FE5C1D523C23E2E4A91",
+      "not_before": 1778658226,
+      "not_after": 1786434225,
+      "fingerprint": "7B:A7:C7:6A:CE:86:08:D9:A1:B7:B0:B3:3F:91:A9:9C:00:84:6C:8D",
+      "sha1": "7B:A7:C7:6A:CE:86:08:D9:A1:B7:B0:B3:3F:91:A9:9C:00:84:6C:8D",
+      "sha256": "93:3B:04:AF:E5:27:A3:E4:11:E8:0F:74:7C:55:30:D8:C3:ED:54:30:70:36:CB:79:55:5A:3E:35:7B:2E:AF:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mycluster-dal13-b3-331587.us-south.containers.appdomain.cloud",
+        "*.mycluster-dal13-b3-331587-2bd74c909703714447d03dd3414739fe-0000.us-south.containers.appdomain.cloud",
+        "mycluster-dal13-b3-331587-2bd74c909703714447d03dd3414739fe-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.mycluster-dal13-b3-331587-2bd74c909703714447d03dd3414739fe-0000.us-south.containers.appdomain.cloud, DNS:mycluster-dal13-b3-331587-2bd74c909703714447d03dd3414739fe-0000.us-south.containers.appdomain.cloud, DNS:mycluster-dal13-b3-331587.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:ed:06:41:6d:e2:a5:3c:5e:e7:a4:cf:90:bb:72:4c:6c:68:d1:a9:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 678598441,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=678598441&end=678598441",
+    "seen": 1787614405.816,
+    "submission_timestamp": 1778661736.909,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

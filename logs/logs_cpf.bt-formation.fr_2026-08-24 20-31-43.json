@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.bt-formation.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 20:31:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sign.bt-formation.fr",
+        "aggregated": "/CN=sign.bt-formation.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "057B5E5A88CE72CA76917E3567957B03F9CD",
+      "not_before": 1780737154,
+      "not_after": 1788513153,
+      "fingerprint": "FE:A4:A5:64:6B:2C:19:79:E0:6B:E4:53:86:4E:0E:03:FC:7E:5C:11",
+      "sha1": "FE:A4:A5:64:6B:2C:19:79:E0:6B:E4:53:86:4E:0E:03:FC:7E:5C:11",
+      "sha256": "7A:5A:13:9C:CA:89:1A:9E:A6:C9:04:17:CF:95:7D:70:F4:91:A9:39:82:42:6B:6B:B4:3B:FD:46:07:15:06:1B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sign.bt-formation.fr",
+        "cpf.bt-formation.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.bt-formation.fr, DNS:sign.bt-formation.fr",
+        "subjectKeyIdentifier": "keyid:ef:c4:67:d0:3b:f3:68:3a:5f:1d:ac:34:38:1e:89:f7:3a:df:95:5f"
+      }
+    },
+    "cert_index": 238364598,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x931/111",
+    "seen": 1787614301.905,
+    "submission_timestamp": 1780740665.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dominio": "webhook-pix-itau-cat.fiservapp.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/24/26 20:55:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "webhook-pix-itau-cat.fiservapp.com",
+        "L": "Milwaukee",
+        "O": "Fiserv, Inc.",
+        "ST": "Wisconsin",
+        "aggregated": "/C=US/CN=webhook-pix-itau-cat.fiservapp.com/L=Milwaukee/O=Fiserv, Inc./ST=Wisconsin"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0C8697CC444B42ADD20676D7AC046D47",
+      "not_before": 1779408000,
+      "not_after": 1796601599,
+      "fingerprint": "CC:51:EA:EF:AB:F5:08:83:3F:7B:D0:14:CF:36:A3:34:99:0A:7C:F2",
+      "sha1": "CC:51:EA:EF:AB:F5:08:83:3F:7B:D0:14:CF:36:A3:34:99:0A:7C:F2",
+      "sha256": "3C:1C:5A:93:C5:8F:EC:C9:EB:93:98:A9:DE:8B:CC:3C:B7:1B:62:14:83:40:C7:DD:D8:88:81:EA:D7:F8:1B:24",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "webhook-pix-itau-cat.fiservapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:webhook-pix-itau-cat.fiservapp.com",
+        "subjectKeyIdentifier": "keyid:dd:17:b9:76:2e:ef:8d:fc:f6:0a:95:00:ff:84:52:c9:e5:8f:3a:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4393566579,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4393566579&end=4393566579",
+    "seen": 1787615699.657,
+    "submission_timestamp": 1779474773.818,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
