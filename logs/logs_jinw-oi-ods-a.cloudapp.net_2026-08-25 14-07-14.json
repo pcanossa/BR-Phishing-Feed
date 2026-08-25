@@ -1,0 +1,58 @@
+{
+  "dominio": "jinw-oi-ods-a.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/25/26 14:07:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jinw-oi-ods.trafficmanager.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=jinw-oi-ods.trafficmanager.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100A523076480A5C5DA348567000000A52307",
+      "not_before": 1786062695,
+      "not_after": 1801614695,
+      "fingerprint": "48:1F:B4:E0:C4:9C:37:F9:4B:8C:D7:9D:E3:24:36:4A:95:B3:8A:BD",
+      "sha1": "48:1F:B4:E0:C4:9C:37:F9:4B:8C:D7:9D:E3:24:36:4A:95:B3:8A:BD",
+      "sha256": "14:44:B7:4A:C8:C8:EB:07:62:77:9D:0A:82:F2:4D:EC:F3:73:93:28:96:00:62:2C:34:EB:C7:70:A1:F3:1A:33",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "jinw-oi-ods.trafficmanager.net",
+        "*.ods.opinsights.azure.com",
+        "jinw-oi-ods-a.cloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ods.opinsights.azure.com, DNS:jinw-oi-ods-a.cloudapp.net, DNS:jinw-oi-ods.trafficmanager.net",
+        "subjectKeyIdentifier": "keyid:d0:51:38:81:e7:ba:cf:91:bd:61:20:00:c9:15:0e:4f:fb:c4:a7:e4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 55815147,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=55815147&end=55815147",
+    "seen": 1787677632.814,
+    "submission_timestamp": 1786063299.79,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

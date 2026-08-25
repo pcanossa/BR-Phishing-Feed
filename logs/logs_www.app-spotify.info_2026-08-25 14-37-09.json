@@ -1,0 +1,52 @@
+{
+  "dominio": "www.app-spotify.info",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/25/26 14:37:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.app-spotify.info",
+        "aggregated": "/CN=www.app-spotify.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9977EFBD66BAA006",
+      "not_before": 1779505107,
+      "not_after": 1796612307,
+      "fingerprint": "0E:1D:EA:B9:03:DC:DB:50:48:6A:5B:D4:76:99:0B:D7:80:C6:02:AE",
+      "sha1": "0E:1D:EA:B9:03:DC:DB:50:48:6A:5B:D4:76:99:0B:D7:80:C6:02:AE",
+      "sha256": "87:2A:E0:01:D6:E3:22:0B:E2:77:07:EF:E2:B1:78:4A:1E:27:79:BE:9F:F5:11:25:B7:4A:66:C9:0F:9E:8A:56",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.app-spotify.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.app-spotify.info",
+        "subjectKeyIdentifier": "keyid:4c:9f:2e:0b:aa:00:04:58:6d:9b:dc:49:ad:52:2d:b1:42:b4:65:db",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4401118934,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4401118934&end=4401118934",
+    "seen": 1787679429.272,
+    "submission_timestamp": 1779505107.922,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

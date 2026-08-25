@@ -1,0 +1,52 @@
+{
+  "dominio": "verificacao-correios.shop",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/25/26 14:33:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "verificacao-correios.shop",
+        "aggregated": "/CN=verificacao-correios.shop"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "85191BC341AAD441BE4B83E0F8909AF5",
+      "not_before": 1780531200,
+      "not_after": 1788213240,
+      "fingerprint": "2B:49:B8:AF:9B:E9:D6:79:E9:78:1C:14:4B:FF:19:48:DC:BA:9C:C5",
+      "sha1": "2B:49:B8:AF:9B:E9:D6:79:E9:78:1C:14:4B:FF:19:48:DC:BA:9C:C5",
+      "sha256": "15:16:21:A3:BF:6E:10:5D:1F:7B:47:BE:E3:57:1E:AC:FE:EE:00:D7:B6:D1:57:A4:15:9A:6B:D8:90:8C:05:76",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "verificacao-correios.shop",
+        "*.verificacao-correios.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:verificacao-correios.shop, DNS:*.verificacao-correios.shop",
+        "subjectKeyIdentifier": "keyid:b0:02:eb:22:f0:15:ca:7b:12:c1:a1:4b:3d:c9:ea:bd:80:3c:50:ce"
+      }
+    },
+    "cert_index": 385335568,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x505/217",
+    "seen": 1787679206.011,
+    "submission_timestamp": 1780592017.318,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

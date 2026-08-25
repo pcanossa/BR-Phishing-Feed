@@ -1,0 +1,58 @@
+{
+  "dominio": "noe-oi-ods-a.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/25/26 15:03:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "noe-oi-ods.trafficmanager.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=noe-oi-ods.trafficmanager.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100A66ECBB59252CA308A8F7F000000A66ECB",
+      "not_before": 1786144423,
+      "not_after": 1801696423,
+      "fingerprint": "EE:64:F8:3B:92:EE:28:49:C1:0F:C3:17:6C:14:F1:D4:B7:9E:33:32",
+      "sha1": "EE:64:F8:3B:92:EE:28:49:C1:0F:C3:17:6C:14:F1:D4:B7:9E:33:32",
+      "sha256": "56:B6:92:23:83:E0:CE:CF:51:0A:34:5F:60:D1:0A:F9:EB:51:7D:0E:C3:7A:A0:97:41:F0:50:69:ED:A7:B0:37",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "noe-oi-ods.trafficmanager.net",
+        "*.ods.opinsights.azure.com",
+        "noe-oi-ods-a.cloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ods.opinsights.azure.com, DNS:noe-oi-ods-a.cloudapp.net, DNS:noe-oi-ods.trafficmanager.net",
+        "subjectKeyIdentifier": "keyid:70:dd:b7:ba:31:50:e6:12:01:d2:13:46:0a:68:96:8c:15:c5:38:82",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 56203491,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=56203491&end=56203491",
+    "seen": 1787681009.65,
+    "submission_timestamp": 1786145028.458,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

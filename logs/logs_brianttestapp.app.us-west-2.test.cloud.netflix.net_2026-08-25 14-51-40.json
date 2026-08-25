@@ -1,0 +1,56 @@
+{
+  "dominio": "brianttestapp.app.us-west-2.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 14:51:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "brianttestapp.app.us-west-2.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=brianttestapp.app.us-west-2.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0FED8B805419B82FC3B7DB95C370A11A",
+      "not_before": 1780963200,
+      "not_after": 1788822291,
+      "fingerprint": "95:7F:A3:9E:D1:6B:A0:3A:35:9F:F8:7D:9F:09:B0:9B:2E:16:54:E1",
+      "sha1": "95:7F:A3:9E:D1:6B:A0:3A:35:9F:F8:7D:9F:09:B0:9B:2E:16:54:E1",
+      "sha256": "68:9E:63:31:1E:ED:DF:72:C6:A2:D2:32:DD:11:66:CE:B0:1D:D7:B8:5C:68:71:C8:40:46:5E:0E:B0:13:16:A3",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "brianttestapp.app.us-west-2.test.cloud.netflix.net",
+        "brianttestapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:brianttestapp.app.us-west-2.test.cloud.netflix.net, DNS:brianttestapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:da:d8:d6:38:c4:54:6a:c2:84:f9:ba:7e:d7:96:f0:ba:d0:e9:94:a8"
+      }
+    },
+    "cert_index": 262325463,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x024/708",
+    "seen": 1787680299.73,
+    "submission_timestamp": 1781046293.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

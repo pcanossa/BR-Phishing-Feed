@@ -1,0 +1,53 @@
+{
+  "dominio": "crossborder.pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 14:18:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.crossborder.pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.crossborder.pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0AB1CF610A65EEDF166CBABA52B3E866",
+      "not_before": 1787097600,
+      "not_after": 1804204799,
+      "fingerprint": "23:D0:9A:D4:43:C8:07:A1:99:E6:A7:60:CC:BA:A4:CC:38:47:B2:F1",
+      "sha1": "23:D0:9A:D4:43:C8:07:A1:99:E6:A7:60:CC:BA:A4:CC:38:47:B2:F1",
+      "sha256": "FD:E8:D9:0B:C7:E3:3E:55:DE:71:F7:DA:E8:68:35:68:60:DF:8B:7E:C3:A9:3D:56:A4:4C:28:7D:2F:D8:55:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.crossborder.pci.aws.pagseguro.uol",
+        "*.external.crossborder.pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.crossborder.pci.aws.pagseguro.uol, DNS:*.external.crossborder.pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:f9:7c:4f:3e:b3:a9:b5:76:88:b0:dd:f3:b1:30:d5:1c:71:34:08:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 61071202,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=61071202&end=61071202",
+    "seen": 1787678311.343,
+    "submission_timestamp": 1787098565.845,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

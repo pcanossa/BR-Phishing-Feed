@@ -1,0 +1,52 @@
+{
+  "dominio": "app.fazendacoffee.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/25/26 14:39:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.fazendacoffee.com",
+        "aggregated": "/CN=app.fazendacoffee.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "6F38686F6EE5A479",
+      "not_before": 1783355474,
+      "not_after": 1800462674,
+      "fingerprint": "CC:31:67:BD:94:F2:E3:C5:52:03:4D:87:54:06:E1:1A:26:1B:19:4D",
+      "sha1": "CC:31:67:BD:94:F2:E3:C5:52:03:4D:87:54:06:E1:1A:26:1B:19:4D",
+      "sha256": "FC:4F:44:65:F3:BB:89:80:DE:D8:E2:05:21:FA:D7:76:B8:64:1B:16:84:3F:BA:12:17:D4:43:21:54:21:9F:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.fazendacoffee.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.fazendacoffee.com",
+        "subjectKeyIdentifier": "keyid:0a:15:f4:02:6d:60:10:7c:e9:74:48:97:67:32:85:75:d0:c7:a4:52",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 82133680,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=82133680&end=82133680",
+    "seen": 1787679581.979,
+    "submission_timestamp": 1783355475.091,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "www.app-spotify.info",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/25/26 14:37:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.app-spotify.info",
+        "aggregated": "/CN=www.app-spotify.info"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9977EFBD66BAA006",
+      "not_before": 1779505107,
+      "not_after": 1796612307,
+      "fingerprint": "30:64:46:1D:BE:50:D3:E0:18:31:2C:7B:1F:D5:E2:B7:27:2D:4C:31",
+      "sha1": "30:64:46:1D:BE:50:D3:E0:18:31:2C:7B:1F:D5:E2:B7:27:2D:4C:31",
+      "sha256": "CD:14:F0:20:E8:F6:3C:16:DB:FB:8B:9E:B2:7D:AE:2D:CE:0B:B4:45:9F:0F:6A:7A:F1:4D:8F:29:B8:F1:80:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.app-spotify.info"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.app-spotify.info",
+        "subjectKeyIdentifier": "keyid:4c:9f:2e:0b:aa:00:04:58:6d:9b:dc:49:ad:52:2d:b1:42:b4:65:db"
+      }
+    },
+    "cert_index": 4401119080,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4401119080&end=4401119080",
+    "seen": 1787679429.383,
+    "submission_timestamp": 1779505108.37,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "www.pagseguro.wtechnologia.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 14:15:20",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pagseguro.wtechnologia.com.br",
+        "aggregated": "/CN=www.pagseguro.wtechnologia.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "060F59B2581C2B4B29398A9C6BEB05D5CBDD",
+      "not_before": 1779141307,
+      "not_after": 1786917306,
+      "fingerprint": "73:82:1A:F8:86:A6:7E:62:75:B3:05:C1:AF:62:89:C6:99:B6:AF:55",
+      "sha1": "73:82:1A:F8:86:A6:7E:62:75:B3:05:C1:AF:62:89:C6:99:B6:AF:55",
+      "sha256": "21:47:A7:2C:F5:9A:77:FD:C4:15:A2:6A:B0:B0:0A:04:6D:2A:F9:F9:86:E7:D9:12:74:95:3B:2B:28:7C:53:96",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pagseguro.wtechnologia.com.br",
+        "*.wtechnologia.com.br",
+        "www.netflix.wtechnologia.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.wtechnologia.com.br, DNS:www.netflix.wtechnologia.com.br, DNS:www.pagseguro.wtechnologia.com.br",
+        "subjectKeyIdentifier": "keyid:1c:26:90:ea:7b:5e:19:73:c7:92:dc:d9:08:5f:88:77:27:a0:6f:63"
+      }
+    },
+    "cert_index": 4400965683,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4400965683&end=4400965683",
+    "seen": 1787678120.176,
+    "submission_timestamp": 1779504524.225,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

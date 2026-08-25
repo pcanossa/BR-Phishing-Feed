@@ -1,0 +1,51 @@
+{
+  "dominio": "grafana.dataplatform.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 14:33:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "grafana.dataplatform.aws.pagseguro.uol",
+        "aggregated": "/CN=grafana.dataplatform.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "054BA9C838338E670BE54348E5660BD8",
+      "not_before": 1783555200,
+      "not_after": 1800662399,
+      "fingerprint": "39:21:12:44:43:60:88:70:9E:54:4F:86:E8:8D:10:D2:06:AB:4B:B7",
+      "sha1": "39:21:12:44:43:60:88:70:9E:54:4F:86:E8:8D:10:D2:06:AB:4B:B7",
+      "sha256": "48:00:2B:B8:E4:D1:BD:B5:A9:1D:08:84:8F:E7:A7:E6:D6:DC:54:99:F4:E2:9E:C5:53:47:3D:1E:A0:F5:72:73",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "grafana.dataplatform.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:grafana.dataplatform.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:d9:3d:8d:21:03:58:05:15:fa:eb:af:6e:96:05:2f:c5:cb:84:93:59"
+      }
+    },
+    "cert_index": 93294320,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x364/430",
+    "seen": 1787679234.829,
+    "submission_timestamp": 1783572938.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
