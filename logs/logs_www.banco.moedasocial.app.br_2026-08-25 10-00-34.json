@@ -1,0 +1,54 @@
+{
+  "dominio": "www.banco.moedasocial.app.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/25/26 10:00:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.api.moedasocial.app.br",
+        "aggregated": "/CN=www.api.moedasocial.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "05ECEB10764EA3ACA1526B1FCC0B1E4AE31D",
+      "not_before": 1780952648,
+      "not_after": 1788728647,
+      "fingerprint": "E9:04:1A:5C:BA:CE:AA:9B:F4:0E:46:BA:D2:FE:A1:89:3A:90:71:5D",
+      "sha1": "E9:04:1A:5C:BA:CE:AA:9B:F4:0E:46:BA:D2:FE:A1:89:3A:90:71:5D",
+      "sha256": "6C:8A:B6:0C:33:82:68:CF:CF:7A:1D:5A:AC:26:A3:EA:AB:7C:56:64:22:46:98:04:F6:09:EF:69:FE:84:9E:3C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.api.moedasocial.app.br",
+        "*.moedasocial.app.br",
+        "www.banco.moedasocial.app.br",
+        "www.credenciado.moedasocial.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.moedasocial.app.br, DNS:www.api.moedasocial.app.br, DNS:www.banco.moedasocial.app.br, DNS:www.credenciado.moedasocial.app.br",
+        "subjectKeyIdentifier": "keyid:d5:01:f2:ed:58:02:66:24:2f:0d:cf:ed:17:03:d8:8b:46:24:e4:79"
+      }
+    },
+    "cert_index": 259785725,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x014/787",
+    "seen": 1787662834.669,
+    "submission_timestamp": 1780956159.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

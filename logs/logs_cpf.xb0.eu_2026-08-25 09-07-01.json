@@ -1,0 +1,54 @@
+{
+  "dominio": "cpf.xb0.eu",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 09:07:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "xb0.eu",
+        "aggregated": "/CN=xb0.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A2C9E96E882B695B0E8B6559EA7791ED",
+      "not_before": 1778848693,
+      "not_after": 1786628291,
+      "fingerprint": "83:A8:C7:55:29:0C:A7:93:21:29:32:15:B5:01:D4:EF:A5:97:9B:F3",
+      "sha1": "83:A8:C7:55:29:0C:A7:93:21:29:32:15:B5:01:D4:EF:A5:97:9B:F3",
+      "sha256": "D6:5B:51:82:52:C0:79:47:2B:1C:0B:F1:B1:1C:50:6E:DD:BF:36:26:E3:35:D2:C5:0B:F7:EC:18:13:27:82:0D",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "xb0.eu",
+        "cpf.xb0.eu",
+        "*.cpf.xb0.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/osk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:xb0.eu, DNS:cpf.xb0.eu, DNS:*.cpf.xb0.eu",
+        "subjectKeyIdentifier": "keyid:c2:fa:32:fd:46:36:26:4f:9d:f4:d8:fa:06:51:3b:26:ab:0a:ed:cc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 673881938,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=673881938&end=673881938",
+    "seen": 1787659619.834,
+    "submission_timestamp": 1778852294.46,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

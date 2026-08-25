@@ -1,0 +1,52 @@
+{
+  "dominio": "manage.netflix-dev.maximo.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 09:31:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "manage.netflix-dev.maximo.app",
+        "aggregated": "/CN=manage.netflix-dev.maximo.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "068CF7338A607FEDB4046D199BF7BDE5279A",
+      "not_before": 1780972423,
+      "not_after": 1788748422,
+      "fingerprint": "AC:11:B8:3C:B6:D2:2B:31:A3:D6:EB:45:1C:89:2A:03:27:8E:C8:64",
+      "sha1": "AC:11:B8:3C:B6:D2:2B:31:A3:D6:EB:45:1C:89:2A:03:27:8E:C8:64",
+      "sha256": "20:02:DB:4F:E8:99:05:47:6D:0D:DB:90:83:25:86:97:AB:B2:A5:56:52:12:3D:D4:C6:77:D6:C7:38:4B:5B:BD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "manage.netflix-dev.maximo.app",
+        "*.manage.netflix-dev.maximo.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.manage.netflix-dev.maximo.app, DNS:manage.netflix-dev.maximo.app",
+        "subjectKeyIdentifier": "keyid:fe:9c:59:9d:ba:7e:e7:dd:cd:8f:6e:3c:66:7d:fc:18:57:71:31:c9"
+      }
+    },
+    "cert_index": 244771467,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x956/138",
+    "seen": 1787661107.036,
+    "submission_timestamp": 1780975933.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

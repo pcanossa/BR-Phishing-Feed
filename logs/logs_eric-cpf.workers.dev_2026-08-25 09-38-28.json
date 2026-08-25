@@ -1,0 +1,53 @@
+{
+  "dominio": "eric-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 09:38:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eric-cpf.workers.dev",
+        "aggregated": "/CN=eric-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A2AE31E78B91F63713E1BF69458FD781",
+      "not_before": 1779359779,
+      "not_after": 1787139142,
+      "fingerprint": "2B:EE:69:4B:B1:5A:6B:0C:B1:05:89:36:A5:4D:F0:FA:22:66:2F:31",
+      "sha1": "2B:EE:69:4B:B1:5A:6B:0C:B1:05:89:36:A5:4D:F0:FA:22:66:2F:31",
+      "sha256": "9D:F8:73:B7:28:F6:8C:4F:5B:0A:58:7A:73:2C:CD:18:4F:6A:DD:B0:3C:BD:11:5A:1F:64:58:FE:60:72:58:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "eric-cpf.workers.dev",
+        "*.eric-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/oq4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:eric-cpf.workers.dev, DNS:*.eric-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:9f:3f:27:24:1d:99:72:03:2f:f4:d3:4e:09:f7:a8:1f:0a:18:1a:4a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 841336139,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=841336139&end=841336139",
+    "seen": 1787661506.57,
+    "submission_timestamp": 1779363380.487,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

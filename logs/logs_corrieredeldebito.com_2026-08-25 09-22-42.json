@@ -1,0 +1,53 @@
+{
+  "dominio": "corrieredeldebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 09:22:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "corrieredeldebito.com",
+        "aggregated": "/CN=corrieredeldebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E48707C14FD76348134B3CDB84C8F66C",
+      "not_before": 1779125016,
+      "not_after": 1786904608,
+      "fingerprint": "25:2A:0E:55:08:A0:24:F3:3F:4C:E1:4D:E2:79:02:78:EE:2D:DD:F4",
+      "sha1": "25:2A:0E:55:08:A0:24:F3:3F:4C:E1:4D:E2:79:02:78:EE:2D:DD:F4",
+      "sha256": "93:46:6D:C0:25:9C:73:AB:E1:09:9E:07:79:3F:84:C7:02:17:80:89:CC:CB:95:6B:18:CA:A8:E8:E2:73:47:AE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "corrieredeldebito.com",
+        "*.corrieredeldebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/5Ic, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:corrieredeldebito.com, DNS:*.corrieredeldebito.com",
+        "subjectKeyIdentifier": "keyid:2a:c9:16:4b:d4:ae:88:70:2e:64:47:bf:a6:71:08:40:26:d8:57:d6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4398874034,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4398874034&end=4398874034",
+    "seen": 1787660561.737,
+    "submission_timestamp": 1779495912.741,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

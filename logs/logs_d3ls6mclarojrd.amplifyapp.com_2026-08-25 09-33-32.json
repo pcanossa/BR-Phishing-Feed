@@ -1,0 +1,53 @@
+{
+  "dominio": "d3ls6mclarojrd.amplifyapp.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 09:33:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.d3ls6mclarojrd.amplifyapp.com",
+        "aggregated": "/CN=*.d3ls6mclarojrd.amplifyapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B3525A9ADA8E13A13F5C5EF8C1D40B8",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "F2:36:4F:43:29:37:59:79:CD:DB:2B:6E:52:6B:CB:CD:29:75:1A:DF",
+      "sha1": "F2:36:4F:43:29:37:59:79:CD:DB:2B:6E:52:6B:CB:CD:29:75:1A:DF",
+      "sha256": "A5:53:9E:FC:5C:17:3D:1E:FD:8D:A8:B8:B6:5E:19:1D:B3:14:94:39:6F:89:65:47:E3:D0:6E:86:20:55:A0:09",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.d3ls6mclarojrd.amplifyapp.com",
+        "d3ls6mclarojrd.amplifyapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.d3ls6mclarojrd.amplifyapp.com, DNS:d3ls6mclarojrd.amplifyapp.com",
+        "subjectKeyIdentifier": "keyid:31:4d:f2:41:0e:a2:ff:d2:cd:d7:99:94:45:ac:2f:67:67:77:12:08",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 111251214,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=111251214&end=111251214",
+    "seen": 1787661209.861,
+    "submission_timestamp": 1782742141.491,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
