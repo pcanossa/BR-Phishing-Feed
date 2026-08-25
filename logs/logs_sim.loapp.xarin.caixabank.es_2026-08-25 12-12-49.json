@@ -1,0 +1,59 @@
+{
+  "dominio": "sim.loapp.xarin.caixabank.es",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/25/26 12:12:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "ES",
+        "CN": "sim.lom.caixabank.es",
+        "O": "CaixaBank SA",
+        "ST": "Valencia",
+        "aggregated": "/C=ES/CN=sim.lom.caixabank.es/O=CaixaBank SA/ST=Valencia"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "DC4FB70C926BD2E230426F687938AEF3",
+      "not_before": 1780963200,
+      "not_after": 1797119999,
+      "fingerprint": "00:E9:9B:A0:E6:0C:4F:01:6A:FA:6F:A0:10:90:9C:E3:13:E8:BD:0B",
+      "sha1": "00:E9:9B:A0:E6:0C:4F:01:6A:FA:6F:A0:10:90:9C:E3:13:E8:BD:0B",
+      "sha256": "42:90:72:84:C5:E2:D6:A4:74:D1:AE:BC:AF:D8:DF:2E:36:90:EB:30:A8:C7:A3:A7:04:E6:25:86:B1:DE:B7:CF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sim.lom.caixabank.es",
+        "sim.loapp.xarin.caixabank.es",
+        "sim.loin.caixabank.es",
+        "sim.lom.xarin.caixabank.es",
+        "sim.lop.caixabank.es",
+        "sim.lop.xarin.caixabank.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sim.lom.caixabank.es, DNS:sim.loapp.xarin.caixabank.es, DNS:sim.loin.caixabank.es, DNS:sim.lom.xarin.caixabank.es, DNS:sim.lop.caixabank.es, DNS:sim.lop.xarin.caixabank.es",
+        "subjectKeyIdentifier": "keyid:f0:75:37:35:3c:ce:04:c0:b7:98:57:81:ea:80:22:c2:ec:5b:dd:89"
+      }
+    },
+    "cert_index": 260936035,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x019/281",
+    "seen": 1787670768.539,
+    "submission_timestamp": 1780995558.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

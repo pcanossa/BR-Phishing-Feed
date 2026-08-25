@@ -1,0 +1,52 @@
+{
+  "dominio": "debitodireto.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 12:14:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitodireto.com",
+        "aggregated": "/CN=debitodireto.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "069918A46B6DF2ED4D52CE56D0D9AA92DE9E",
+      "not_before": 1778863903,
+      "not_after": 1786639902,
+      "fingerprint": "85:05:F5:95:08:83:4B:56:D3:FB:D4:DF:3B:71:36:D0:37:28:AD:FB",
+      "sha1": "85:05:F5:95:08:83:4B:56:D3:FB:D4:DF:3B:71:36:D0:37:28:AD:FB",
+      "sha256": "3F:6E:E7:E5:B5:96:0E:72:04:FC:97:22:A5:50:D5:27:F1:64:72:6C:56:69:5C:0C:2E:AD:9D:C1:DF:C2:27:C0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitodireto.com",
+        "*.debitodireto.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitodireto.com, DNS:debitodireto.com",
+        "subjectKeyIdentifier": "keyid:3f:eb:59:2f:65:d8:9e:89:56:e0:8a:a2:d4:ec:f2:2b:b8:b0:ff:b4"
+      }
+    },
+    "cert_index": 675713496,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=675713496&end=675713496",
+    "seen": 1787670892.907,
+    "submission_timestamp": 1778867416.477,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

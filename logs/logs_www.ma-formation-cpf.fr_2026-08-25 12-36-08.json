@@ -1,0 +1,51 @@
+{
+  "dominio": "www.ma-formation-cpf.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 12:36:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.ma-formation-cpf.fr",
+        "aggregated": "/CN=www.ma-formation-cpf.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06B981F6994192801BFA3A9A55A824516B0F",
+      "not_before": 1779498345,
+      "not_after": 1787274344,
+      "fingerprint": "DD:93:43:67:DC:87:9B:4A:EF:5D:7D:C0:9D:76:C3:92:3A:B7:76:DA",
+      "sha1": "DD:93:43:67:DC:87:9B:4A:EF:5D:7D:C0:9D:76:C3:92:3A:B7:76:DA",
+      "sha256": "47:3F:1F:78:DF:86:78:5C:30:36:E2:6E:61:D8:93:62:EF:2F:E4:E3:D4:E2:B1:FD:33:B4:8C:D0:D0:1F:5E:24",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.ma-formation-cpf.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.ma-formation-cpf.fr",
+        "subjectKeyIdentifier": "keyid:be:30:26:86:ad:48:5d:2d:6e:94:0c:a6:ae:c4:be:74:93:d0:9f:bf"
+      }
+    },
+    "cert_index": 4400276693,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4400276693&end=4400276693",
+    "seen": 1787672165.478,
+    "submission_timestamp": 1779501938.122,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

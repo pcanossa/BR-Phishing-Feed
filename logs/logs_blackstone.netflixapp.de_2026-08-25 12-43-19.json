@@ -1,0 +1,52 @@
+{
+  "dominio": "blackstone.netflixapp.de",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 12:43:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "blackstone.netflixapp.de",
+        "aggregated": "/CN=blackstone.netflixapp.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "06D17D109B9D73E33599F850B1B5D470",
+      "not_before": 1780963200,
+      "not_after": 1788739199,
+      "fingerprint": "BB:7C:D0:54:F4:7A:E5:A4:0E:66:19:F0:15:61:E3:D8:3B:CC:F5:66",
+      "sha1": "BB:7C:D0:54:F4:7A:E5:A4:0E:66:19:F0:15:61:E3:D8:3B:CC:F5:66",
+      "sha256": "74:5B:EA:ED:C2:BF:06:53:1C:C7:4A:EB:8D:26:57:97:70:90:DC:95:34:D6:55:6D:27:AB:76:CE:11:47:E0:08",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "blackstone.netflixapp.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:blackstone.netflixapp.de",
+        "subjectKeyIdentifier": "keyid:70:f9:da:2e:77:4d:c6:02:a0:80:3f:04:ce:d0:53:cf:d2:09:d5:31"
+      }
+    },
+    "cert_index": 246347704,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x962/295",
+    "seen": 1787672598.554,
+    "submission_timestamp": 1781035490.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

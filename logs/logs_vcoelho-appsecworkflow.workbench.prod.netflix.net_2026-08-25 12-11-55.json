@@ -1,0 +1,52 @@
+{
+  "dominio": "vcoelho-appsecworkflow.workbench.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 12:11:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "vcoelho-appsecworkflow.workbench.prod.netflix.net",
+        "aggregated": "/CN=vcoelho-appsecworkflow.workbench.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05BCAC7C6D0D987D019BAB0D9A4BE4EC8578",
+      "not_before": 1778710126,
+      "not_after": 1786486125,
+      "fingerprint": "ED:69:59:D0:94:D3:D5:0F:B1:34:B0:08:07:48:E9:A2:4E:0D:B7:03",
+      "sha1": "ED:69:59:D0:94:D3:D5:0F:B1:34:B0:08:07:48:E9:A2:4E:0D:B7:03",
+      "sha256": "AE:FC:3B:C4:0B:3F:0D:03:E5:5E:DE:3B:F4:7C:FA:6E:9A:FA:61:AD:5E:55:97:DC:4B:D1:C5:10:B7:16:C4:6E",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "vcoelho-appsecworkflow.workbench.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:vcoelho-appsecworkflow.workbench.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:3d:57:c2:3e:9a:1f:5b:df:64:79:8c:ee:4f:37:80:43:0b:fc:ef:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 685706707,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=685706707&end=685706707",
+    "seen": 1787670714.814,
+    "submission_timestamp": 1778713636.173,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "studio--cpf-quality-commander.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 12:27:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--cpf-quality-commander.us-central1.hosted.app",
+        "aggregated": "/CN=studio--cpf-quality-commander.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "4375F1046C0DACB210F6F843CADC56A5",
+      "not_before": 1779498079,
+      "not_after": 1787277435,
+      "fingerprint": "5E:3F:C8:35:E9:66:AE:BD:84:55:A5:1A:77:B4:A8:B2:F2:A9:6E:15",
+      "sha1": "5E:3F:C8:35:E9:66:AE:BD:84:55:A5:1A:77:B4:A8:B2:F2:A9:6E:15",
+      "sha256": "5D:AF:13:C4:7E:0E:8F:89:8E:62:6B:94:42:2F:B9:17:E7:32:DC:6D:ED:B9:F3:92:26:C7:BC:A2:B1:B0:FE:5B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--cpf-quality-commander.us-central1.hosted.app",
+        "*.studio--cpf-quality-commander.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/Q3U, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--cpf-quality-commander.us-central1.hosted.app, DNS:*.studio--cpf-quality-commander.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:ef:4b:cd:6e:d2:ee:3e:2a:1c:55:16:ed:5b:2b:85:da:f4:e1:43:2e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4400213026,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4400213026&end=4400213026",
+    "seen": 1787671619.889,
+    "submission_timestamp": 1779501680.342,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

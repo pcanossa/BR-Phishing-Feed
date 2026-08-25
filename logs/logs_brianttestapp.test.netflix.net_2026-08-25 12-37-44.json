@@ -1,0 +1,51 @@
+{
+  "dominio": "brianttestapp.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 12:37:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "brianttestapp.test.netflix.net",
+        "aggregated": "/CN=brianttestapp.test.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "0584878C310A9AA66598CC626C2298F8CB31",
+      "not_before": 1781030017,
+      "not_after": 1788806016,
+      "fingerprint": "D4:C5:F8:DC:DA:D9:63:9E:7C:F8:D4:DB:6B:F1:4C:A5:E1:20:E6:A4",
+      "sha1": "D4:C5:F8:DC:DA:D9:63:9E:7C:F8:D4:DB:6B:F1:4C:A5:E1:20:E6:A4",
+      "sha256": "B8:39:0E:A7:30:E7:22:1B:F8:FB:1D:07:E7:5C:FA:86:F1:DC:27:F3:15:89:3A:CE:25:5F:D8:E2:D9:3F:F4:78",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "brianttestapp.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:brianttestapp.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:ca:e6:f4:d6:7e:a4:d9:7d:c2:e3:ed:4e:31:27:70:2a:5d:9d:48:35"
+      }
+    },
+    "cert_index": 246301274,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x962/114",
+    "seen": 1787672262.815,
+    "submission_timestamp": 1781033527.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

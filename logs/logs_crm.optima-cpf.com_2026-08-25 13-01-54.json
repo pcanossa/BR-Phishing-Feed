@@ -1,0 +1,51 @@
+{
+  "dominio": "crm.optima-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 13:01:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "crm.optima-cpf.com",
+        "aggregated": "/CN=crm.optima-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "063C30C4C9B5134A5C567964249CE51699CD",
+      "not_before": 1779499182,
+      "not_after": 1787275181,
+      "fingerprint": "E6:D4:88:00:03:1E:0B:1A:F5:CF:A4:96:34:EC:05:5A:7C:71:46:2B",
+      "sha1": "E6:D4:88:00:03:1E:0B:1A:F5:CF:A4:96:34:EC:05:5A:7C:71:46:2B",
+      "sha256": "5E:43:DC:02:3F:6D:76:19:16:1F:42:96:2B:CE:57:E4:FE:0F:74:D4:9F:06:98:1D:7B:85:62:74:85:3D:89:F6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "crm.optima-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:crm.optima-cpf.com",
+        "subjectKeyIdentifier": "keyid:39:c3:0b:dd:0f:da:ae:d7:7b:33:04:20:f8:65:6c:e8:1f:31:ce:48"
+      }
+    },
+    "cert_index": 4400464050,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4400464050&end=4400464050",
+    "seen": 1787673713.39,
+    "submission_timestamp": 1779502696.719,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

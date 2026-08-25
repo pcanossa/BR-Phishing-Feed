@@ -1,0 +1,53 @@
+{
+  "dominio": "gw-api-v3-consultas-cpf.enotasgw.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 12:44:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "enotasgw.workers.dev",
+        "aggregated": "/CN=enotasgw.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0F9F0C0AA6B481951355B7EC090C2D23",
+      "not_before": 1778866144,
+      "not_after": 1786645737,
+      "fingerprint": "DA:EA:DC:54:B0:5E:95:6C:BA:EA:78:DC:50:1A:3D:A4:E6:98:BE:CC",
+      "sha1": "DA:EA:DC:54:B0:5E:95:6C:BA:EA:78:DC:50:1A:3D:A4:E6:98:BE:CC",
+      "sha256": "19:E7:00:89:E0:90:4A:24:9A:13:C4:01:19:73:A2:E2:C0:F0:31:83:EF:31:B2:07:D3:30:42:00:40:93:02:01",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "enotasgw.workers.dev",
+        "*.gw-api-v3-consultas-cpf.enotasgw.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/D58, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:enotasgw.workers.dev, DNS:*.gw-api-v3-consultas-cpf.enotasgw.workers.dev",
+        "subjectKeyIdentifier": "keyid:e9:b3:58:1f:09:6c:8f:47:3f:64:53:ac:8c:61:17:71:cb:ac:88:8a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 675998914,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=675998914&end=675998914",
+    "seen": 1787672687.376,
+    "submission_timestamp": 1778869745.035,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

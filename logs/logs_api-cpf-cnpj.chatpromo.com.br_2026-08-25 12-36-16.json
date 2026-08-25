@@ -1,0 +1,52 @@
+{
+  "dominio": "api-cpf-cnpj.chatpromo.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 12:36:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-cpf-cnpj.chatpromo.com.br",
+        "aggregated": "/CN=api-cpf-cnpj.chatpromo.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "09B05C18F07F5939E278FC3D92BD296C",
+      "not_before": 1783468800,
+      "not_after": 1800575999,
+      "fingerprint": "94:A1:42:A4:3B:79:17:AC:19:2B:A7:BA:00:EC:45:9D:D8:FB:BF:7D",
+      "sha1": "94:A1:42:A4:3B:79:17:AC:19:2B:A7:BA:00:EC:45:9D:D8:FB:BF:7D",
+      "sha256": "62:51:9D:34:DB:84:A9:30:E8:DA:34:4A:89:89:98:8D:06:32:E0:F9:E8:8E:AB:D9:5E:41:4E:D4:43:39:B4:0C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-cpf-cnpj.chatpromo.com.br",
+        "*.api-cpf-cnpj.chatpromo.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-cpf-cnpj.chatpromo.com.br, DNS:*.api-cpf-cnpj.chatpromo.com.br",
+        "subjectKeyIdentifier": "keyid:cb:b0:a3:91:07:bc:a7:ca:67:f6:a3:dc:ed:c6:bf:1d:92:2c:14:7e"
+      }
+    },
+    "cert_index": 92269575,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x360/428",
+    "seen": 1787672174.276,
+    "submission_timestamp": 1783513028.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

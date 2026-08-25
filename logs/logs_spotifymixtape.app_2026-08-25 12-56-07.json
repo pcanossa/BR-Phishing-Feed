@@ -1,0 +1,52 @@
+{
+  "dominio": "spotifymixtape.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/25/26 12:56:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifymixtape.app",
+        "aggregated": "/CN=spotifymixtape.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E700C0FF927B38D2",
+      "not_before": 1782797235,
+      "not_after": 1799904435,
+      "fingerprint": "86:61:CB:E5:C3:32:71:30:9C:12:79:71:50:04:D0:FB:65:9B:CD:DE",
+      "sha1": "86:61:CB:E5:C3:32:71:30:9C:12:79:71:50:04:D0:FB:65:9B:CD:DE",
+      "sha256": "0F:AE:FE:EC:52:C9:BB:FE:E9:18:89:86:72:FC:E8:5C:D3:67:68:D5:EF:18:88:FE:BD:9F:EB:CB:D5:F8:70:4C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "spotifymixtape.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:spotifymixtape.app",
+        "subjectKeyIdentifier": "keyid:10:c8:c2:94:64:61:c7:9b:90:f6:01:7c:13:c5:a2:5f:db:84:80:4d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 112689313,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=112689313&end=112689313",
+    "seen": 1787673364.958,
+    "submission_timestamp": 1782797236.704,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

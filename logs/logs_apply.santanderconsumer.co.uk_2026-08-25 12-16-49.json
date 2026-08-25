@@ -1,0 +1,53 @@
+{
+  "dominio": "apply.santanderconsumer.co.uk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 12:16:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01F2558171700CF9AD686CD17A4F2A45",
+      "not_before": 1780038630,
+      "not_after": 1780125030,
+      "fingerprint": "78:54:9E:14:5D:4B:45:9E:99:E2:B3:9E:E6:C1:F7:52:EC:B6:4C:ED",
+      "sha1": "78:54:9E:14:5D:4B:45:9E:99:E2:B3:9E:E6:C1:F7:52:EC:B6:4C:ED",
+      "sha256": "32:1A:2B:01:C0:9B:5B:3C:E7:DB:D9:AF:77:89:F4:F5:24:28:4F:3A:9F:D4:4A:E2:3B:CE:C1:C9:C9:62:EA:2C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "*.apply.santanderconsumer.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apply.santanderconsumer.co.uk, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:7d:39:55:d3:e1:5a:6b:77:fa:4c:61:4f:34:fd:e5:c9:76:7a:23:54",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2521068296,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h1/ct/v1/get-entries?start=2521068296&end=2521068296",
+    "seen": 1787671008.833,
+    "submission_timestamp": 1780038633.229,
+    "source": {
+      "name": "Google 'Xenon 2026H1' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h1"
+    }
+  }
+}
