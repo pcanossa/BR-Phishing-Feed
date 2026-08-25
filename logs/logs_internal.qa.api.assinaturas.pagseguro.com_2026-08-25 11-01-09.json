@@ -1,0 +1,52 @@
+{
+  "dominio": "internal.qa.api.assinaturas.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 11:01:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "internal.qa.api.assinaturas.pagseguro.com",
+        "aggregated": "/CN=internal.qa.api.assinaturas.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "090211D55B5BD65377EF448716911004",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "EC:80:E1:BC:18:1F:94:CB:7A:35:5E:37:77:3B:1B:68:91:F8:FD:2C",
+      "sha1": "EC:80:E1:BC:18:1F:94:CB:7A:35:5E:37:77:3B:1B:68:91:F8:FD:2C",
+      "sha256": "E4:D8:5E:39:A5:2C:2F:D8:B6:E9:99:81:F9:6B:72:A5:5A:C1:93:F1:13:B5:93:2F:3D:BB:47:E3:DC:FB:A2:E2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "internal.qa.api.assinaturas.pagseguro.com",
+        "www.internal.qa.api.assinaturas.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:internal.qa.api.assinaturas.pagseguro.com, DNS:www.internal.qa.api.assinaturas.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:01:c7:95:3a:88:25:c1:d5:78:c4:55:1b:e0:50:e9:6d:38:75:23:79"
+      }
+    },
+    "cert_index": 27742085,
+    "cert_link": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/tile/data/x108/367",
+    "seen": 1787666467.038,
+    "submission_timestamp": 1787666454.838,
+    "source": {
+      "name": "Google 'ParcelYard2027h1' log",
+      "url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "preciosdetransferencia.com.ar",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/25/26 10:58:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.preciosdetransferencia.com.ar",
+        "aggregated": "/CN=*.preciosdetransferencia.com.ar"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06172DA8344896A0E3291520C06C50EBCD04",
+      "not_before": 1779495392,
+      "not_after": 1787271391,
+      "fingerprint": "EA:5B:7F:AC:2A:71:D2:44:A3:74:E2:77:57:2D:AF:D7:5B:90:45:97",
+      "sha1": "EA:5B:7F:AC:2A:71:D2:44:A3:74:E2:77:57:2D:AF:D7:5B:90:45:97",
+      "sha256": "45:FF:5A:93:B6:64:1F:DB:C1:2E:5E:0B:E6:08:CF:B9:46:59:B7:3D:36:F5:6C:59:4D:99:67:36:51:94:64:60",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.preciosdetransferencia.com.ar",
+        "preciosdetransferencia.com.ar"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.preciosdetransferencia.com.ar, DNS:preciosdetransferencia.com.ar",
+        "subjectKeyIdentifier": "keyid:40:54:f2:a9:94:eb:cd:66:d3:9c:9c:4c:58:55:3c:8b:6d:5e:d2:ce"
+      }
+    },
+    "cert_index": 4399574828,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4399574828&end=4399574828",
+    "seen": 1787666281.969,
+    "submission_timestamp": 1779498905.022,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

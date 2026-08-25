@@ -1,0 +1,13 @@
+{
+    "dominio": "wccheck-a64cd1b9-ext.santandertelephony-www.yfcowbeta.bimp-bot.duckdns.org",
+    "data_registro": "08/25/26 10:53:25",
+    "categoria_ameaca": "phishing",
+    "caracteristicas_suspeitas": [
+        "Uso de serviço de DNS dinâmico gratuito (duckdns.org), comumente utilizado por atores maliciosos para C2 ou phishing",
+        "Subdomínio contendo a marca 'santander', instituição financeira brasileira, indicando tentativa de spoofing",
+        "Presença de termos como 'telephony' e 'www' que simulam ser um site institucional legítimo de Santander",
+        "Estrutura de subdomínios altamente aleatória e complexa (wccheck-a64cd1b9-ext, yfcowbeta, bimp-bot), típica de domínios maliciosos gerados automaticamente",
+        "Domínio não aparece em listas de domínios legítimos ou de marcas registradas da Santander"
+    ],
+    "analise_comportamental": "O domínio apresenta indicadores típicos de campanha de phishing direcionada a usuários brasileiros: exploração de marca reconhecida (Santander), uso de DNS dinâmico para ocultar infraestrutura e subdomínios complexos que dificultam a detecção. Tais características sugerem que o domínio pode ser utilizado para enganar vítimas ao apresentar uma página que imita serviços de telemarketing ou atendimento bancário, coletando credenciais ou instalando malware."
+}

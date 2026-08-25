@@ -1,0 +1,51 @@
+{
+  "dominio": "app.tramitavisitausa.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 10:13:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.tramitavisitausa.com",
+        "aggregated": "/CN=app.tramitavisitausa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "036BE05EAC8DA7A17824AE2486CE1DFB",
+      "not_before": 1781740800,
+      "not_after": 1798847999,
+      "fingerprint": "F8:30:A7:93:96:F3:9D:A8:CA:4A:0E:5E:5E:36:45:96:3A:C3:1D:BE",
+      "sha1": "F8:30:A7:93:96:F3:9D:A8:CA:4A:0E:5E:5E:36:45:96:3A:C3:1D:BE",
+      "sha256": "81:A3:FA:E2:8F:3F:0C:41:73:6F:85:5F:3C:9C:E6:77:55:DA:00:B7:A6:C2:73:91:AB:39:50:CD:69:CA:0A:B3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.tramitavisitausa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.tramitavisitausa.com",
+        "subjectKeyIdentifier": "keyid:63:bc:ce:5b:78:af:66:bb:79:a3:43:24:18:72:7f:ee:9c:1e:37:39"
+      }
+    },
+    "cert_index": 31583611,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2027h1/ct/v1/get-entries?start=31583611&end=31583611",
+    "seen": 1787663624.793,
+    "submission_timestamp": 1781791544.895,
+    "source": {
+      "name": "Google 'Xenon2027h1'",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2027h1"
+    }
+  }
+}

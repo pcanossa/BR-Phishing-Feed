@@ -1,0 +1,54 @@
+{
+  "dominio": "api.debitoor.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 10:41:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor.com",
+        "aggregated": "/CN=debitoor.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "39723948C10E09DC0EB14E0B79278F8F",
+      "not_before": 1780553757,
+      "not_after": 1788333334,
+      "fingerprint": "B1:BA:0E:E0:68:38:9F:9E:FC:2E:11:99:AA:62:92:7C:9F:41:E2:FF",
+      "sha1": "B1:BA:0E:E0:68:38:9F:9E:FC:2E:11:99:AA:62:92:7C:9F:41:E2:FF",
+      "sha256": "4E:D0:A4:23:8D:37:CE:9C:E7:B9:C6:70:AB:EB:DD:7B:8C:07:0A:6A:DB:C6:FD:C4:46:D9:91:DF:A2:DB:52:B0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor.com",
+        "api.debitoor.com",
+        "*.api.debitoor.com",
+        "*.debitoor.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/OXI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitoor.com, DNS:api.debitoor.com, DNS:*.api.debitoor.com, DNS:*.debitoor.com",
+        "subjectKeyIdentifier": "keyid:0e:b2:e2:e5:a0:26:08:5d:99:75:60:d1:d2:dd:2b:53:8b:9e:56:61"
+      }
+    },
+    "cert_index": 383403741,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x497/670",
+    "seen": 1787665294.841,
+    "submission_timestamp": 1780557488.2,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

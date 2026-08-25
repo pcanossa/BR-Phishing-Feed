@@ -1,0 +1,14 @@
+{
+    "dominio": "wccheck-67c44786-b.wccheck-64404d2d-ext.santandertelephony-yfcowbeta.bimp-bot.duckdns.org",
+    "data_registro": "08/25/26 10:50:32",
+    "categoria_ameaca": "C2",
+    "caracteristicas_suspeitas": [
+        "Uso de serviço de DNS dinâmico (duckdns.org), frequentemente utilizado por operadores de malware para ocultar infraestrutura.",
+        "Subdomínios compostos por strings aleatórias (wccheck-67c44786-b, wccheck-64404d2d-ext) que indicam geração automática de nomes para evitar listas de bloqueio.",
+        "Inclusão da marca 'santander' (banco com forte presença no Brasil) que pode ser usada para enganar usuários brasileiros.",
+        "Presença do termo 'bimp-bot' sugerindo a presença de um bot ou agente malicioso.",
+        "Domínio não encontrado em bases de domínios legítimos ou listas de boas práticas de segurança.",
+        "Estrutura de subdomínios profunda (5 níveis) típica de infraestrutura de comando e controle para dificultar a atribuição."
+    ],
+    "analise_comportamental": "O domínio 'wccheck-67c44786-b.wccheck-64404d2d-ext.santandertelephony-yfcowbeta.bimp-bot.duckdns.org' apresenta múltiplas características típicas de servidores de comando e controle utilizados por malware que tem como alvo usuários no Brasil, incluindo o uso de DNS dinâmico, nomes de subdomínios gerados automaticamente e referência a marca bancária brasileira para potencial engenharia social."
+}
