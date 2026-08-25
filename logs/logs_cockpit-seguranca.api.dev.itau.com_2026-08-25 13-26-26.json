@@ -1,0 +1,52 @@
+{
+  "dominio": "cockpit-seguranca.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 13:26:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cockpit-seguranca.api.dev.itau.com",
+        "aggregated": "/CN=cockpit-seguranca.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0AC870F139018E061D4C32C744C68F57",
+      "not_before": 1787011200,
+      "not_after": 1804118399,
+      "fingerprint": "A6:A7:EB:9F:ED:38:D3:22:12:2A:B9:07:95:31:7B:21:74:61:B4:34",
+      "sha1": "A6:A7:EB:9F:ED:38:D3:22:12:2A:B9:07:95:31:7B:21:74:61:B4:34",
+      "sha256": "6F:75:6C:8C:46:F8:C9:31:9A:4B:97:B4:57:71:33:E2:04:68:99:AD:01:A2:0A:43:6C:8D:97:17:E2:D5:9A:8A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cockpit-seguranca.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cockpit-seguranca.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:ce:89:96:3f:22:06:75:88:bb:f8:8b:8b:36:7d:c6:c4:d0:c2:4e:02",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 60584806,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=60584806&end=60584806",
+    "seen": 1787675185.835,
+    "submission_timestamp": 1787081226.324,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

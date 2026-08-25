@@ -1,0 +1,54 @@
+{
+  "dominio": "alertafazenda.com.br",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/25/26 13:59:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alertafazenda.com",
+        "aggregated": "/CN=alertafazenda.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "09663883B42495CD4FF09582E05064F6",
+      "not_before": 1785974400,
+      "not_after": 1803081599,
+      "fingerprint": "25:59:B0:F0:7B:B7:FB:0F:5A:ED:81:D0:58:7D:0D:92:5C:BF:60:DF",
+      "sha1": "25:59:B0:F0:7B:B7:FB:0F:5A:ED:81:D0:58:7D:0D:92:5C:BF:60:DF",
+      "sha256": "D7:5A:4C:BE:C4:F0:AA:58:5F:CE:CD:C0:8C:B9:C5:99:CA:B3:61:D7:F1:63:C4:81:30:4F:F5:7B:5A:FE:F2:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alertafazenda.com",
+        "*.alertafazenda.com.br",
+        "*.alertafazenda.com",
+        "alertafazenda.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alertafazenda.com, DNS:*.alertafazenda.com.br, DNS:*.alertafazenda.com, DNS:alertafazenda.com.br",
+        "subjectKeyIdentifier": "keyid:80:09:c5:b0:11:4f:e8:f7:31:ca:ce:18:8b:31:55:85:0a:4b:86:71"
+      }
+    },
+    "cert_index": 55758776,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=55758776&end=55758776",
+    "seen": 1787677170.93,
+    "submission_timestamp": 1786048248.028,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

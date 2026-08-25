@@ -1,0 +1,52 @@
+{
+  "dominio": "www.netflix.com.br.fatura-clientes.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 13:52:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.netflix.com.br.fatura-clientes.com",
+        "aggregated": "/CN=www.netflix.com.br.fatura-clientes.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "06CC7D91D0E1866C0638DDC61BF1B4B8B8AB",
+      "not_before": 1781022867,
+      "not_after": 1788798866,
+      "fingerprint": "EE:42:8F:0C:96:E8:52:22:85:1E:CB:D1:6E:0D:BF:1B:EF:C3:3B:34",
+      "sha1": "EE:42:8F:0C:96:E8:52:22:85:1E:CB:D1:6E:0D:BF:1B:EF:C3:3B:34",
+      "sha256": "C2:88:61:7E:A4:18:57:EC:FB:EA:6E:32:69:6A:DE:AE:D9:B5:15:23:4E:B3:4F:A1:1A:6F:A1:DE:0A:2C:00:36",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.netflix.com.br.fatura-clientes.com",
+        "www.www.netflix.com.br.fatura-clientes.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.netflix.com.br.fatura-clientes.com, DNS:www.www.netflix.com.br.fatura-clientes.com",
+        "subjectKeyIdentifier": "keyid:3c:9d:1d:b3:88:86:79:55:97:6d:a5:bb:94:52:48:e0:40:e1:c3:6a"
+      }
+    },
+    "cert_index": 261805671,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x022/678",
+    "seen": 1787676726.612,
+    "submission_timestamp": 1781026378.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

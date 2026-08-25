@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.traje.style",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 13:50:55",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.traje.style",
+        "aggregated": "/CN=cartao.traje.style"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0570DBC0B440CF1293F7CDDA78865D83EA58",
+      "not_before": 1779138822,
+      "not_after": 1786914821,
+      "fingerprint": "3E:7D:3E:6C:4C:16:AA:22:BC:66:63:4A:EE:AD:13:76:59:D8:FA:58",
+      "sha1": "3E:7D:3E:6C:4C:16:AA:22:BC:66:63:4A:EE:AD:13:76:59:D8:FA:58",
+      "sha256": "CB:50:30:9A:E7:FE:F4:BB:BF:0B:F1:84:FB:96:0B:82:D1:87:21:51:4A:43:F3:0A:79:03:BD:1E:22:BA:EB:7E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.traje.style"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.traje.style",
+        "subjectKeyIdentifier": "keyid:af:f0:61:a8:28:7e:8e:44:11:46:27:0e:65:69:9a:f0:89:28:30:38"
+      }
+    },
+    "cert_index": 4400804818,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4400804818&end=4400804818",
+    "seen": 1787676654.064,
+    "submission_timestamp": 1779503931.822,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

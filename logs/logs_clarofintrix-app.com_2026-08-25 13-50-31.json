@@ -1,0 +1,53 @@
+{
+  "dominio": "clarofintrix-app.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 13:50:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "clarofintrix-app.com",
+        "aggregated": "/CN=clarofintrix-app.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C6F102B7F39FD5B20E2D6F6C60DAA02D",
+      "not_before": 1778871440,
+      "not_after": 1786650965,
+      "fingerprint": "D1:E5:D0:57:48:84:3E:9C:C7:A3:86:7F:C7:6E:1A:04:13:0C:0E:53",
+      "sha1": "D1:E5:D0:57:48:84:3E:9C:C7:A3:86:7F:C7:6E:1A:04:13:0C:0E:53",
+      "sha256": "FB:58:D3:DF:8C:8C:49:AD:B5:C4:0E:3B:53:3E:53:72:75:43:FE:5C:8D:C8:C1:03:5A:08:A5:10:90:10:99:27",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "clarofintrix-app.com",
+        "*.clarofintrix-app.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/xvE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:clarofintrix-app.com, DNS:*.clarofintrix-app.com",
+        "subjectKeyIdentifier": "keyid:c4:c6:8e:dd:42:20:7a:2c:6b:4d:5c:b4:7d:3f:2a:5b:6b:50:a9:fb",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 676626385,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=676626385&end=676626385",
+    "seen": 1787676629.749,
+    "submission_timestamp": 1778875041.378,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

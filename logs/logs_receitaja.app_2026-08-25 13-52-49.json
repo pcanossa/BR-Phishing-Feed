@@ -1,0 +1,51 @@
+{
+  "dominio": "receitaja.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/25/26 13:52:49",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitaja.app",
+        "aggregated": "/CN=receitaja.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05DC756FF473A76B497D7A608AAA907BA482",
+      "not_before": 1779139034,
+      "not_after": 1786915033,
+      "fingerprint": "4F:A0:DE:23:CC:70:1E:0B:F3:D0:C1:C3:F9:85:E9:0E:06:EE:91:98",
+      "sha1": "4F:A0:DE:23:CC:70:1E:0B:F3:D0:C1:C3:F9:85:E9:0E:06:EE:91:98",
+      "sha256": "52:E2:DF:8F:60:2F:1B:C5:45:B9:BF:0C:28:6C:30:4C:A0:30:2E:00:57:26:55:03:02:49:35:0F:E0:8C:57:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "receitaja.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:receitaja.app",
+        "subjectKeyIdentifier": "keyid:b0:77:59:bd:b8:01:d4:cc:62:93:9b:31:57:e6:6c:dd:83:46:59:d5"
+      }
+    },
+    "cert_index": 4400817035,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4400817035&end=4400817035",
+    "seen": 1787676768.255,
+    "submission_timestamp": 1779503985.886,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

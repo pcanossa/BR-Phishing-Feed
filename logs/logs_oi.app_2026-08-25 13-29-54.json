@@ -1,0 +1,52 @@
+{
+  "dominio": "oi.app",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/25/26 13:29:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "oi.app",
+        "aggregated": "/CN=oi.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "05ABD63C2F59A18563F60604345662926BD1",
+      "not_before": 1787414877,
+      "not_after": 1795190876,
+      "fingerprint": "78:73:FC:4B:4E:BA:F4:81:61:B2:36:6D:51:C5:37:61:5B:28:81:8D",
+      "sha1": "78:73:FC:4B:4E:BA:F4:81:61:B2:36:6D:51:C5:37:61:5B:28:81:8D",
+      "sha256": "D0:97:02:A3:5B:1E:2F:25:54:84:7E:35:51:A4:61:3E:B5:58:1F:E0:27:3F:65:4D:EA:46:51:AA:CC:7B:E9:8B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "oi.app",
+        "*.oi.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.oi.app, DNS:oi.app",
+        "subjectKeyIdentifier": "keyid:37:b4:52:bc:34:05:76:c5:14:9f:3a:a9:c6:c4:c4:7e:40:48:7c:32"
+      }
+    },
+    "cert_index": 988145933,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x859/945",
+    "seen": 1787675392.498,
+    "submission_timestamp": 1787418388.462,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

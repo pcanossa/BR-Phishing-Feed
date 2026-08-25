@@ -1,0 +1,52 @@
+{
+  "dominio": "www.debitoren.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 13:28:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debitoren.com",
+        "aggregated": "/CN=www.debitoren.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "0E91581EB2CEDE98",
+      "not_before": 1781759623,
+      "not_after": 1798866823,
+      "fingerprint": "A8:CA:9E:34:EA:5B:88:F2:BC:23:2E:62:EA:BA:0A:47:44:AD:F8:B9",
+      "sha1": "A8:CA:9E:34:EA:5B:88:F2:BC:23:2E:62:EA:BA:0A:47:44:AD:F8:B9",
+      "sha256": "C4:C7:6B:73:6B:65:34:28:A3:DB:CC:E1:55:19:20:1F:67:2E:70:93:33:DA:7E:12:4C:0F:56:71:6B:D8:B7:6D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debitoren.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.debitoren.com",
+        "subjectKeyIdentifier": "keyid:6b:b8:fd:1e:84:e0:4c:8b:98:90:4b:13:89:c3:fd:2d:93:28:70:8a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 32479528,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2027h1/ct/v1/get-entries?start=32479528&end=32479528",
+    "seen": 1787675325.69,
+    "submission_timestamp": 1781759624.365,
+    "source": {
+      "name": "Google 'Argon2027h1'",
+      "url": "https://ct.googleapis.com/logs/us1/argon2027h1"
+    }
+  }
+}
