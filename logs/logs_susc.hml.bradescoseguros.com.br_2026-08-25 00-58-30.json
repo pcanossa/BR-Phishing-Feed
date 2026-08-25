@@ -1,0 +1,57 @@
+{
+  "dominio": "susc.hml.bradescoseguros.com.br",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/25/26 00:58:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "BR",
+        "CN": "susc.hml.bradescoseguros.com.br",
+        "L": "RIO DE JANEIRO",
+        "O": "BRADESCO SEGUROS S/A",
+        "ST": "RIO DE JANEIRO",
+        "aggregated": "/C=BR/CN=susc.hml.bradescoseguros.com.br/L=RIO DE JANEIRO/O=BRADESCO SEGUROS S/A/ST=RIO DE JANEIRO"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign RSA OV SSL CA 2018",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign RSA OV SSL CA 2018/O=GlobalSign nv-sa"
+      },
+      "serial_number": "1D8D8A61415A3B9A59272802",
+      "not_before": 1779480980,
+      "not_after": 1796674580,
+      "fingerprint": "A7:CD:52:72:92:1F:E0:9B:37:B9:4B:84:CA:E6:46:88:55:62:8C:17",
+      "sha1": "A7:CD:52:72:92:1F:E0:9B:37:B9:4B:84:CA:E6:46:88:55:62:8C:17",
+      "sha256": "21:52:A9:82:AD:ED:30:99:6A:DB:F0:9A:A3:3B:58:AA:BE:E4:2D:A3:83:3A:ED:8D:4F:29:C2:DE:8A:A6:0C:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "susc.hml.bradescoseguros.com.br",
+        "dpsusci.hml.bradseg.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt, URI:http://ocsp.globalsign.com/gsrsaovsslca2018",
+        "authorityKeyIdentifier": "keyid:f8:ef:7f:f2:cd:78:67:a8:de:6f:8f:24:8d:88:f1:87:03:02:b3:eb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.4146.1.20\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:susc.hml.bradescoseguros.com.br, DNS:dpsusci.hml.bradseg.com.br",
+        "subjectKeyIdentifier": "keyid:6c:77:9d:aa:73:07:62:81:61:df:cb:6e:2c:a9:b7:db:fa:19:00:a9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4395214771,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4395214771&end=4395214771",
+    "seen": 1787630310.1,
+    "submission_timestamp": 1779480984.632,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

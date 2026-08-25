@@ -1,0 +1,52 @@
+{
+  "dominio": "jiro-sushi-santander.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 00:16:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jiro-sushi-santander.es",
+        "aggregated": "/CN=jiro-sushi-santander.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0504AA804EE81284A1E6EF005699282AA44D",
+      "not_before": 1780774863,
+      "not_after": 1788550862,
+      "fingerprint": "6D:59:0C:AE:06:DF:F0:C6:9C:1E:EF:E4:4D:90:D1:23:53:37:F0:2C",
+      "sha1": "6D:59:0C:AE:06:DF:F0:C6:9C:1E:EF:E4:4D:90:D1:23:53:37:F0:2C",
+      "sha256": "47:37:20:01:4F:9D:92:BE:12:5D:F6:E7:44:F9:7F:21:BD:76:DD:97:71:13:71:C3:E6:A4:30:D3:1A:5C:C3:B6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jiro-sushi-santander.es",
+        "*.jiro-sushi-santander.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.jiro-sushi-santander.es, DNS:jiro-sushi-santander.es",
+        "subjectKeyIdentifier": "keyid:72:50:4a:8a:9f:64:28:c1:79:46:a0:34:1b:c7:75:f9:8c:50:52:e2"
+      }
+    },
+    "cert_index": 254735395,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x995/060",
+    "seen": 1787627780.224,
+    "submission_timestamp": 1780778374.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

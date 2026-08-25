@@ -1,0 +1,52 @@
+{
+  "dominio": "caixa-pagamento-seguro.top",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/25/26 01:03:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa-pagamento-seguro.top",
+        "aggregated": "/CN=caixa-pagamento-seguro.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "05C9D0D4284A2A76DB554F8BCAF3CAB319C3",
+      "not_before": 1780823320,
+      "not_after": 1788599319,
+      "fingerprint": "96:7A:5B:08:0D:9F:EB:BA:24:71:AD:97:CC:B6:75:C1:6A:BD:3F:BE",
+      "sha1": "96:7A:5B:08:0D:9F:EB:BA:24:71:AD:97:CC:B6:75:C1:6A:BD:3F:BE",
+      "sha256": "8E:ED:95:D4:47:1B:08:81:4B:D9:F0:7F:6E:0D:79:12:41:F4:E6:88:32:CE:42:5C:0F:B2:C0:0A:9E:FF:67:B6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixa-pagamento-seguro.top",
+        "*.caixa-pagamento-seguro.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixa-pagamento-seguro.top, DNS:caixa-pagamento-seguro.top",
+        "subjectKeyIdentifier": "keyid:fa:ed:b6:0e:b9:14:7e:f4:74:60:20:bc:e3:ba:55:39:72:6f:fa:16"
+      }
+    },
+    "cert_index": 240577274,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x939/754",
+    "seen": 1787630584.05,
+    "submission_timestamp": 1780826830.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

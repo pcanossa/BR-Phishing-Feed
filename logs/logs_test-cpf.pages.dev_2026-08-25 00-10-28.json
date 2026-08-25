@@ -1,0 +1,52 @@
+{
+  "dominio": "test-cpf.pages.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 00:10:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test-cpf.pages.dev",
+        "aggregated": "/CN=test-cpf.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "8CFFFD1233F939870E75D9137949F488",
+      "not_before": 1779086373,
+      "not_after": 1786865968,
+      "fingerprint": "C2:F7:E7:89:42:1B:B0:46:94:19:A1:FF:D4:78:EF:A2:90:12:1D:93",
+      "sha1": "C2:F7:E7:89:42:1B:B0:46:94:19:A1:FF:D4:78:EF:A2:90:12:1D:93",
+      "sha256": "C0:E1:7C:F9:4B:A2:FC:0E:3E:B7:29:66:3A:7E:0D:43:A1:19:FA:E6:83:7B:AF:E8:3C:08:33:62:6D:3C:73:70",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "test-cpf.pages.dev",
+        "*.test-cpf.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/jP8, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:test-cpf.pages.dev, DNS:*.test-cpf.pages.dev",
+        "subjectKeyIdentifier": "keyid:81:2d:79:a0:e6:e8:ea:c1:f5:95:ee:41:85:5f:16:86:0f:af:39:e3"
+      }
+    },
+    "cert_index": 4394862962,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4394862962&end=4394862962",
+    "seen": 1787627429.206,
+    "submission_timestamp": 1779479682.644,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

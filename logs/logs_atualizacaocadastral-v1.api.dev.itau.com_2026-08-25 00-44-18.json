@@ -1,0 +1,51 @@
+{
+  "dominio": "atualizacaocadastral-v1.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 00:44:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "atualizacaocadastral-v1.api.dev.itau.com",
+        "aggregated": "/CN=atualizacaocadastral-v1.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0C245EAB208ABE3E5F3FCBA2B1928083",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "E1:E8:00:77:5B:92:F6:9A:E2:C9:B2:97:C8:17:52:5E:F0:D7:EE:76",
+      "sha1": "E1:E8:00:77:5B:92:F6:9A:E2:C9:B2:97:C8:17:52:5E:F0:D7:EE:76",
+      "sha256": "89:C5:CF:11:AF:5A:4E:2F:E3:A9:2D:A0:03:41:C3:EC:F8:65:E2:7F:45:4C:92:2F:F5:2F:4E:76:8E:F7:69:EE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "atualizacaocadastral-v1.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:atualizacaocadastral-v1.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:f1:77:08:83:bb:ec:a1:36:7d:ff:95:f0:fa:7e:13:d3:42:a7:43:f1"
+      }
+    },
+    "cert_index": 78607969,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x307/062",
+    "seen": 1787629457.988,
+    "submission_timestamp": 1783210503.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

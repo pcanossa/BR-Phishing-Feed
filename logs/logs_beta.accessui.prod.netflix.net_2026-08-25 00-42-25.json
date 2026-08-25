@@ -1,0 +1,53 @@
+{
+  "dominio": "beta.accessui.prod.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 00:42:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "accessui.prod.netflix.net",
+        "aggregated": "/CN=accessui.prod.netflix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "058163A7E03C6E8C806A4E405F95E966F4C1",
+      "not_before": 1778669734,
+      "not_after": 1786445733,
+      "fingerprint": "BC:B0:59:B1:4E:A2:94:68:41:41:D7:45:8B:A4:04:D8:0C:2F:14:2D",
+      "sha1": "BC:B0:59:B1:4E:A2:94:68:41:41:D7:45:8B:A4:04:D8:0C:2F:14:2D",
+      "sha256": "17:AD:D9:E4:05:60:BA:8A:9D:80:7E:AB:FB:39:25:A7:D8:BB:84:2C:D9:78:6F:A3:54:2A:28:7C:9B:7D:6C:D6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "accessui.prod.netflix.net",
+        "beta.accessui.prod.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:accessui.prod.netflix.net, DNS:beta.accessui.prod.netflix.net",
+        "subjectKeyIdentifier": "keyid:ad:98:48:5e:2b:fb:73:cb:0a:2e:8f:a3:b5:c1:ad:4f:d9:29:7c:59",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 680274431,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=680274431&end=680274431",
+    "seen": 1787629344.613,
+    "submission_timestamp": 1778673244.68,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

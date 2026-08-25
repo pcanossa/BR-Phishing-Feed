@@ -1,0 +1,53 @@
+{
+  "dominio": "spotify-history-worker.apps.ayoub.io",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/25/26 00:15:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ayoub.io",
+        "aggregated": "/CN=ayoub.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "5D8A88F05B8E6A8113794C1D0BAC7458",
+      "not_before": 1779476242,
+      "not_after": 1787255708,
+      "fingerprint": "8F:93:AD:AA:E4:9E:A7:BB:71:61:AA:1D:06:41:BD:C2:0C:99:9C:35",
+      "sha1": "8F:93:AD:AA:E4:9E:A7:BB:71:61:AA:1D:06:41:BD:C2:0C:99:9C:35",
+      "sha256": "2A:F2:8C:F1:A5:9A:C4:14:F7:04:85:15:09:D9:7D:C5:B8:E1:9A:90:9D:F1:77:B5:17:C2:E2:13:7F:9E:C6:49",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ayoub.io",
+        "spotify-history-worker.apps.ayoub.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/XYo, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ayoub.io, DNS:spotify-history-worker.apps.ayoub.io",
+        "subjectKeyIdentifier": "keyid:7a:70:ef:58:46:13:6f:29:a6:01:81:f6:5c:fd:00:6f:7b:63:40:7d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4394897795,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4394897795&end=4394897795",
+    "seen": 1787627725.979,
+    "submission_timestamp": 1779479842.683,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

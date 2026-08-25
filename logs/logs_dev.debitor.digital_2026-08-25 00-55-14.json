@@ -1,0 +1,51 @@
+{
+  "dominio": "dev.debitor.digital",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 00:55:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.debitor.digital",
+        "aggregated": "/CN=dev.debitor.digital"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0F13A3EEA79E410C3D31936EF51A88ED",
+      "not_before": 1783123200,
+      "not_after": 1800230399,
+      "fingerprint": "26:3E:A6:C0:99:B8:3E:EA:05:91:93:8B:8F:56:97:47:23:5B:C9:4E",
+      "sha1": "26:3E:A6:C0:99:B8:3E:EA:05:91:93:8B:8F:56:97:47:23:5B:C9:4E",
+      "sha256": "1F:BF:0A:35:49:D5:ED:ED:33:3F:83:70:AB:D3:0E:B4:9C:5C:FC:51:48:67:98:66:B0:86:D9:01:67:E2:1C:68",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev.debitor.digital"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev.debitor.digital",
+        "subjectKeyIdentifier": "keyid:23:ee:49:d6:af:6c:bb:e6:49:8b:88:fc:1d:0c:ac:e8:41:8f:bc:7d"
+      }
+    },
+    "cert_index": 86203853,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x336/733",
+    "seen": 1787630114.358,
+    "submission_timestamp": 1783124399.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

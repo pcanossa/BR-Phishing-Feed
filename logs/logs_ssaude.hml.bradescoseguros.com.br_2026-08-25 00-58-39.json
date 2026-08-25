@@ -1,0 +1,59 @@
+{
+  "dominio": "ssaude.hml.bradescoseguros.com.br",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/25/26 00:58:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "BR",
+        "CN": "ssaude.hml.bradescoseguros.com.br",
+        "L": "RIO DE JANEIRO",
+        "O": "BRADESCO SEGUROS S/A",
+        "ST": "RIO DE JANEIRO",
+        "aggregated": "/C=BR/CN=ssaude.hml.bradescoseguros.com.br/L=RIO DE JANEIRO/O=BRADESCO SEGUROS S/A/ST=RIO DE JANEIRO"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign RSA OV SSL CA 2018",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign RSA OV SSL CA 2018/O=GlobalSign nv-sa"
+      },
+      "serial_number": "0AAEDF1AEE3042C94C62B8CC",
+      "not_before": 1779480985,
+      "not_after": 1796674585,
+      "fingerprint": "88:58:CA:77:20:48:74:4C:2E:E8:18:CE:AB:A4:20:03:0F:6A:17:5F",
+      "sha1": "88:58:CA:77:20:48:74:4C:2E:E8:18:CE:AB:A4:20:03:0F:6A:17:5F",
+      "sha256": "69:83:A2:32:51:96:E9:5B:1B:CD:28:59:20:F0:01:52:07:3D:B0:F8:AC:21:19:C8:AC:53:C0:DB:27:3B:68:CD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ssaude.hml.bradescoseguros.com.br",
+        "ssaude.hml.mediservice.com.br",
+        "dpssaudei.hml.bradseg.com.br",
+        "ssaude.hml.bradescosaude.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt, URI:http://ocsp.globalsign.com/gsrsaovsslca2018",
+        "authorityKeyIdentifier": "keyid:f8:ef:7f:f2:cd:78:67:a8:de:6f:8f:24:8d:88:f1:87:03:02:b3:eb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.4146.1.20\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ssaude.hml.bradescoseguros.com.br, DNS:ssaude.hml.mediservice.com.br, DNS:dpssaudei.hml.bradseg.com.br, DNS:ssaude.hml.bradescosaude.com.br",
+        "subjectKeyIdentifier": "keyid:93:db:86:d0:d1:a0:02:8a:16:e0:26:26:97:2f:97:76:83:ef:19:1c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4395215942,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4395215942&end=4395215942",
+    "seen": 1787630320.495,
+    "submission_timestamp": 1779480989.332,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

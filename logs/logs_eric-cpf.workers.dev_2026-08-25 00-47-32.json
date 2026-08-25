@@ -1,0 +1,52 @@
+{
+  "dominio": "eric-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 00:47:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eric-cpf.workers.dev",
+        "aggregated": "/CN=eric-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "054B6D0C7D7AD98E33D2DB4DA638C2EB69D5",
+      "not_before": 1780785417,
+      "not_after": 1788561416,
+      "fingerprint": "D0:A1:9A:8F:15:9A:8D:24:76:A3:B9:95:32:4F:A4:D0:89:F0:31:D7",
+      "sha1": "D0:A1:9A:8F:15:9A:8D:24:76:A3:B9:95:32:4F:A4:D0:89:F0:31:D7",
+      "sha256": "A0:59:64:37:96:13:F3:A9:BB:EE:3F:3D:4B:0E:9D:40:D0:25:04:AA:49:D4:F1:99:A6:87:AE:BD:F2:8B:D9:5D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "eric-cpf.workers.dev",
+        "*.eric-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.eric-cpf.workers.dev, DNS:eric-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:f2:5c:fd:05:a2:d0:d4:35:ae:ba:74:e3:6c:b5:4a:08:c5:c0:0a:e2"
+      }
+    },
+    "cert_index": 255003853,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x996/108",
+    "seen": 1787629652.343,
+    "submission_timestamp": 1780788928.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

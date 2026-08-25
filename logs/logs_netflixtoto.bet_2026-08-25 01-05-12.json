@@ -1,0 +1,52 @@
+{
+  "dominio": "netflixtoto.bet",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 01:05:12",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixtoto.bet",
+        "aggregated": "/CN=netflixtoto.bet"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06FD667176A1B351F148BD3D09F92F65FAFF",
+      "not_before": 1779477435,
+      "not_after": 1787253434,
+      "fingerprint": "B5:04:08:C2:FE:72:84:B1:79:70:27:5F:99:C0:60:19:90:32:8E:95",
+      "sha1": "B5:04:08:C2:FE:72:84:B1:79:70:27:5F:99:C0:60:19:90:32:8E:95",
+      "sha256": "9B:CC:3E:2C:9B:0F:04:5D:A5:76:9B:D9:7D:46:82:D9:B8:4A:86:F4:A1:D0:36:14:47:09:FC:14:B2:B1:A4:AC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflixtoto.bet",
+        "*.netflixtoto.bet"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.netflixtoto.bet, DNS:netflixtoto.bet",
+        "subjectKeyIdentifier": "keyid:74:9c:0b:9b:b6:78:b7:32:bd:0a:0e:a1:19:fe:3b:6e:e2:40:5a:c0"
+      }
+    },
+    "cert_index": 4395262531,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4395262531&end=4395262531",
+    "seen": 1787630711.533,
+    "submission_timestamp": 1779481156.522,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
