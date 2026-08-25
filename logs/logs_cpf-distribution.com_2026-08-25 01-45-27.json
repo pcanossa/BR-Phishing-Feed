@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-distribution.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 01:45:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-distribution.com",
+        "aggregated": "/CN=cpf-distribution.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0D95450D535317A39EDBEDE4BC55BD85",
+      "not_before": 1783209600,
+      "not_after": 1800403199,
+      "fingerprint": "C8:1F:D7:1C:82:A8:BD:AE:95:D0:7F:B9:70:8B:F8:0A:C5:33:1A:41",
+      "sha1": "C8:1F:D7:1C:82:A8:BD:AE:95:D0:7F:B9:70:8B:F8:0A:C5:33:1A:41",
+      "sha256": "AF:99:86:6B:DC:63:68:8C:19:A9:73:67:75:77:6D:44:11:43:BD:EB:CF:5E:29:0C:98:9D:77:DF:22:AF:26:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-distribution.com",
+        "www.cpf-distribution.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-distribution.com, DNS:www.cpf-distribution.com",
+        "subjectKeyIdentifier": "keyid:7e:ef:f9:ad:22:32:38:df:10:66:66:54:18:99:84:c7:02:ec:5d:d3"
+      }
+    },
+    "cert_index": 79111665,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x309/029",
+    "seen": 1787633126.936,
+    "submission_timestamp": 1783247027.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "bank-contadigital-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 01:16:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bank-contadigital-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=*.bank-contadigital-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0BAA3A7453A7BC29314F6280B4AE7DFB",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "59:70:E8:68:AC:E6:DD:07:D1:ED:00:7F:41:DC:D9:26:CA:F2:CA:55",
+      "sha1": "59:70:E8:68:AC:E6:DD:07:D1:ED:00:7F:41:DC:D9:26:CA:F2:CA:55",
+      "sha256": "03:F1:7C:54:A8:72:83:5B:CF:CE:38:D5:6A:83:D6:89:95:B5:DD:3D:B1:0A:1B:3A:1C:10:FA:35:CD:79:7F:88",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bank-contadigital-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bank-contadigital-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:71:7d:47:35:4f:c8:13:24:24:5b:f5:10:17:d1:6f:c2:da:97:8f:3a"
+      }
+    },
+    "cert_index": 78874099,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x308/101",
+    "seen": 1787631402.201,
+    "submission_timestamp": 1783229116.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

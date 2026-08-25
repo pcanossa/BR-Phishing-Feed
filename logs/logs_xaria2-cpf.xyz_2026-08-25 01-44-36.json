@@ -1,0 +1,52 @@
+{
+  "dominio": "xaria2-cpf.xyz",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 01:44:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.xaria2-cpf.xyz",
+        "aggregated": "/CN=*.xaria2-cpf.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05BE11E99C3DE36F38131B7EF1706B7EC41D",
+      "not_before": 1779478671,
+      "not_after": 1787254670,
+      "fingerprint": "95:24:CD:2A:74:58:DD:A5:91:CD:22:27:CE:3C:03:A8:55:93:9C:78",
+      "sha1": "95:24:CD:2A:74:58:DD:A5:91:CD:22:27:CE:3C:03:A8:55:93:9C:78",
+      "sha256": "6C:E8:32:D7:11:C5:BC:42:CD:79:ED:9F:1E:2D:C5:8F:2F:C1:4C:8E:9E:A8:DC:66:FC:6D:A2:24:97:18:BC:EA",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.xaria2-cpf.xyz",
+        "xaria2-cpf.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.xaria2-cpf.xyz, DNS:xaria2-cpf.xyz",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 4395551148,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4395551148&end=4395551148",
+    "seen": 1787633076.039,
+    "submission_timestamp": 1779482184.812,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

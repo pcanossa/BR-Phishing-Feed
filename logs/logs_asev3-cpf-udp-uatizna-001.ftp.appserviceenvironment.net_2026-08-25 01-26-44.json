@@ -1,0 +1,58 @@
+{
+  "dominio": "asev3-cpf-udp-uatizna-001.ftp.appserviceenvironment.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 01:26:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "waws-prod-sg1-5047c806.publish.p.azurewebsites.windows.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=waws-prod-sg1-5047c806.publish.p.azurewebsites.windows.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "43002B1B8D94251E7794383CDB0000002B1B8D",
+      "not_before": 1778674977,
+      "not_after": 1794226977,
+      "fingerprint": "7B:44:26:EB:0A:5C:38:FB:03:45:A2:CC:37:CF:0C:F7:C7:26:EA:21",
+      "sha1": "7B:44:26:EB:0A:5C:38:FB:03:45:A2:CC:37:CF:0C:F7:C7:26:EA:21",
+      "sha256": "A7:05:0F:CD:31:1F:49:1E:31:B6:D8:1B:9B:14:51:5E:29:00:09:31:A3:9D:00:76:FE:2E:C3:69:92:0B:E7:70",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "waws-prod-sg1-5047c806.publish.p.azurewebsites.windows.net",
+        "waws-prod-sg1-5047c806.ftp.p.azurewebsites.windows.net",
+        "asev3-cpf-udp-uatizna-001.ftp.appserviceenvironment.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:waws-prod-sg1-5047c806.ftp.p.azurewebsites.windows.net, DNS:waws-prod-sg1-5047c806.publish.p.azurewebsites.windows.net, DNS:asev3-cpf-udp-uatizna-001.ftp.appserviceenvironment.net",
+        "subjectKeyIdentifier": "keyid:8c:d2:ae:e6:6c:5e:0c:20:e2:bc:8f:e9:13:85:3b:87:62:e9:fd:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 680620423,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=680620423&end=680620423",
+    "seen": 1787632002.881,
+    "submission_timestamp": 1778675582.527,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

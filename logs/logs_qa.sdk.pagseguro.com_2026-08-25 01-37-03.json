@@ -1,0 +1,51 @@
+{
+  "dominio": "qa.sdk.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 01:37:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "qa.sdk.pagseguro.com",
+        "aggregated": "/CN=qa.sdk.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "050230C2F30F22A96A656BAEC56CF9FF",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "F6:35:08:CA:EF:BA:92:76:07:9D:B1:6D:E2:99:02:AA:DF:2D:C9:91",
+      "sha1": "F6:35:08:CA:EF:BA:92:76:07:9D:B1:6D:E2:99:02:AA:DF:2D:C9:91",
+      "sha256": "AB:C4:A7:89:CB:0F:01:96:46:EF:FF:48:8F:84:67:E2:86:54:43:CE:80:50:1A:CF:49:7F:8F:05:96:EC:80:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "qa.sdk.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:qa.sdk.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:ee:ab:4b:af:3c:77:2b:93:60:b9:da:d6:51:d2:d4:63:86:79:6f:d7"
+      }
+    },
+    "cert_index": 27137527,
+    "cert_link": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/tile/data/x106/005",
+    "seen": 1787632623.892,
+    "submission_timestamp": 1787632614.096,
+    "source": {
+      "name": "Google 'ParcelYard2027h1' log",
+      "url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

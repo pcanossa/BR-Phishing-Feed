@@ -1,0 +1,51 @@
+{
+  "dominio": "debitopen.org",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 01:29:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitopen.org",
+        "aggregated": "/CN=debitopen.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "FC0816D92A52C0CF",
+      "not_before": 1779336290,
+      "not_after": 1796443490,
+      "fingerprint": "22:76:4A:8F:AA:6F:8B:D1:18:CD:31:D1:5F:B9:CC:AA:45:58:F6:F4",
+      "sha1": "22:76:4A:8F:AA:6F:8B:D1:18:CD:31:D1:5F:B9:CC:AA:45:58:F6:F4",
+      "sha256": "F1:27:F1:AD:45:05:B6:DF:80:41:A0:B3:A1:BB:68:18:6E:27:5E:56:B2:CE:91:BD:6B:8F:3F:E2:17:6B:1A:E0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitopen.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitopen.org",
+        "subjectKeyIdentifier": "keyid:c3:c1:a4:aa:cb:90:41:aa:d8:0b:0c:f6:7a:c2:de:bc:bf:a6:a0:81"
+      }
+    },
+    "cert_index": 255367002,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x997/527",
+    "seen": 1787632198.776,
+    "submission_timestamp": 1780801747.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
