@@ -1,0 +1,52 @@
+{
+  "dominio": "www.pacote-rastreamento-correios.net",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/25/26 17:09:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pacote-rastreamento-correios.net",
+        "aggregated": "/CN=www.pacote-rastreamento-correios.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "1B7BAA6C1384CA37",
+      "not_before": 1782864097,
+      "not_after": 1799971297,
+      "fingerprint": "8D:AF:20:78:FF:E6:97:08:67:AB:6C:CD:C2:FA:3E:9B:99:21:F3:AE",
+      "sha1": "8D:AF:20:78:FF:E6:97:08:67:AB:6C:CD:C2:FA:3E:9B:99:21:F3:AE",
+      "sha256": "3A:44:6C:BC:9C:58:96:FF:95:C4:42:39:6E:46:8F:1A:7D:7E:B7:A0:70:60:3F:76:58:60:B2:E1:24:75:C8:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pacote-rastreamento-correios.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pacote-rastreamento-correios.net",
+        "subjectKeyIdentifier": "keyid:32:e8:a0:43:c5:45:1f:4d:50:50:5f:dc:45:60:3a:97:73:04:e5:8b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 114395269,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=114395269&end=114395269",
+    "seen": 1787688575.911,
+    "submission_timestamp": 1782864098.841,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

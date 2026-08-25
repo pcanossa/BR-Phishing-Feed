@@ -1,0 +1,52 @@
+{
+  "dominio": "sandbox.api.assinaturas.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 17:22:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sandbox.api.assinaturas.pagseguro.com",
+        "aggregated": "/CN=sandbox.api.assinaturas.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0FBDD7BC7662EDFC23C64544CFD8A96E",
+      "not_before": 1783641600,
+      "not_after": 1800748799,
+      "fingerprint": "BF:E6:FF:DC:30:66:15:2D:60:1C:F6:86:13:F1:FB:87:25:9F:48:D5",
+      "sha1": "BF:E6:FF:DC:30:66:15:2D:60:1C:F6:86:13:F1:FB:87:25:9F:48:D5",
+      "sha256": "45:19:0E:53:EB:8F:B3:31:E7:6A:D1:5A:87:5B:67:66:66:96:E0:0A:95:D5:56:4A:25:3F:2E:F7:37:D6:40:FD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sandbox.api.assinaturas.pagseguro.com",
+        "www.sandbox.api.assinaturas.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sandbox.api.assinaturas.pagseguro.com, DNS:www.sandbox.api.assinaturas.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:7c:62:e0:da:79:5f:f3:1d:92:39:70:1d:21:8d:e5:1d:02:53:fd:73"
+      }
+    },
+    "cert_index": 94748361,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x370/110",
+    "seen": 1787689319.259,
+    "submission_timestamp": 1783655482.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

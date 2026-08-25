@@ -1,0 +1,51 @@
+{
+  "dominio": "app.claroinsurance.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 17:43:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.claroinsurance.com",
+        "aggregated": "/CN=*.app.claroinsurance.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0D5BAA627EADC7BA023E870E6CF3BC81",
+      "not_before": 1787529600,
+      "not_after": 1804636799,
+      "fingerprint": "99:D7:4F:2D:64:99:84:00:70:D2:99:3C:0A:DC:40:1E:32:74:DD:DB",
+      "sha1": "99:D7:4F:2D:64:99:84:00:70:D2:99:3C:0A:DC:40:1E:32:74:DD:DB",
+      "sha256": "17:A3:02:66:DD:59:6F:DB:18:D4:CF:99:35:17:25:25:48:02:27:53:F4:DE:1A:0D:E3:31:9A:62:50:3C:0B:33",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.claroinsurance.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.claroinsurance.com",
+        "subjectKeyIdentifier": "keyid:d4:3b:c9:92:7c:b7:4f:28:da:21:00:75:91:89:aa:ef:9a:8c:ed:8e"
+      }
+    },
+    "cert_index": 76735782,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x299/749",
+    "seen": 1787690602.049,
+    "submission_timestamp": 1787541368.414,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

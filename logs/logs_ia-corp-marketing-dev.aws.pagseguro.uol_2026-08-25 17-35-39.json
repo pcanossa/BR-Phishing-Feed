@@ -1,0 +1,52 @@
+{
+  "dominio": "ia-corp-marketing-dev.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 17:35:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.ia-corp-marketing-dev.aws.pagseguro.uol",
+        "aggregated": "/CN=*.ia-corp-marketing-dev.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "05818489F473468A2C0FD3FE099D0F49",
+      "not_before": 1787097600,
+      "not_after": 1804204799,
+      "fingerprint": "54:A1:B6:81:48:C0:CD:95:0D:23:D8:25:EC:BE:7A:1A:EE:8B:F3:C8",
+      "sha1": "54:A1:B6:81:48:C0:CD:95:0D:23:D8:25:EC:BE:7A:1A:EE:8B:F3:C8",
+      "sha256": "EE:80:26:D8:44:8E:41:18:0F:DD:5B:D4:3A:DB:58:61:A0:C2:AA:4A:72:1A:3B:74:93:A2:80:DD:DA:48:6D:4C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.ia-corp-marketing-dev.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ia-corp-marketing-dev.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:54:6a:05:85:39:0a:f0:0e:17:d2:87:4f:e0:a0:75:08:07:c9:5f:b5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 62879921,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=62879921&end=62879921",
+    "seen": 1787690135.978,
+    "submission_timestamp": 1787169023.052,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

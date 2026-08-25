@@ -1,0 +1,51 @@
+{
+  "dominio": "benjamin-fau-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 17:47:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "benjamin-fau-cpf.workers.dev",
+        "aggregated": "/CN=benjamin-fau-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "541B6BBEBE27A4D42647E5B29471A28A",
+      "not_before": 1787420767,
+      "not_after": 1795090558,
+      "fingerprint": "EF:21:64:DA:F2:79:F2:47:17:95:A7:02:D7:5E:EE:26:48:58:47:D9",
+      "sha1": "EF:21:64:DA:F2:79:F2:47:17:95:A7:02:D7:5E:EE:26:48:58:47:D9",
+      "sha256": "06:0A:A0:78:A4:27:2A:97:09:63:FF:15:0E:01:F1:55:AA:52:59:F7:1C:1C:B0:D9:FD:D7:D7:3D:44:24:6B:DD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "benjamin-fau-cpf.workers.dev",
+        "*.benjamin-fau-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:benjamin-fau-cpf.workers.dev, DNS:*.benjamin-fau-cpf.workers.dev"
+      }
+    },
+    "cert_index": 988956976,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x863/113",
+    "seen": 1787690863.555,
+    "submission_timestamp": 1787421429.996,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

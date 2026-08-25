@@ -1,0 +1,55 @@
+{
+  "dominio": "oi.presto-apps.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/25/26 17:25:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "images.presto-apps.com",
+        "aggregated": "/CN=images.presto-apps.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "010B17423C2A3069747F4CC2C51E152D",
+      "not_before": 1783641600,
+      "not_after": 1800748799,
+      "fingerprint": "39:08:FB:64:AA:39:78:B9:48:D3:E8:0B:E4:71:CE:6D:3F:C3:F9:D0",
+      "sha1": "39:08:FB:64:AA:39:78:B9:48:D3:E8:0B:E4:71:CE:6D:3F:C3:F9:D0",
+      "sha256": "90:0E:7C:FC:E8:7E:2F:8D:9B:51:73:61:70:B3:71:11:3F:93:60:02:A6:86:DF:3C:12:DB:22:41:98:A8:7E:6B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "images.presto-apps.com",
+        "o-images.presto-apps.com",
+        "assets.presto-apps.com",
+        "oi.presto-apps.com",
+        "i.presto-apps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:images.presto-apps.com, DNS:o-images.presto-apps.com, DNS:assets.presto-apps.com, DNS:oi.presto-apps.com, DNS:i.presto-apps.com",
+        "subjectKeyIdentifier": "keyid:47:c4:45:a9:98:34:1a:bd:c5:4a:c6:0e:ee:fd:b4:56:2b:b2:1a:6c"
+      }
+    },
+    "cert_index": 94781251,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x370/239",
+    "seen": 1787689551.915,
+    "submission_timestamp": 1783657120.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

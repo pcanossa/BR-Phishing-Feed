@@ -1,0 +1,53 @@
+{
+  "dominio": "spotifyunwrapped.org",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/25/26 17:47:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "spotifyunwrapped.org",
+        "aggregated": "/CN=spotifyunwrapped.org"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "64ECFA8CD1DF7EA370D7D55972193E64",
+      "not_before": 1779321600,
+      "not_after": 1787164651,
+      "fingerprint": "D2:B5:03:55:21:A5:34:E3:A5:3B:DD:6D:49:22:C3:E1:F3:BD:54:1B",
+      "sha1": "D2:B5:03:55:21:A5:34:E3:A5:3B:DD:6D:49:22:C3:E1:F3:BD:54:1B",
+      "sha256": "3F:23:DE:2F:45:AF:0F:A8:4E:13:60:11:FD:39:D2:03:4A:56:68:52:F6:3D:40:1F:96:44:66:29:C7:0F:BD:45",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "spotifyunwrapped.org",
+        "*.spotifyunwrapped.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:spotifyunwrapped.org, DNS:*.spotifyunwrapped.org",
+        "subjectKeyIdentifier": "keyid:42:9d:5a:df:d1:92:6d:cd:49:21:62:17:c4:fe:11:b3:8a:45:83:57",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 845629819,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=845629819&end=845629819",
+    "seen": 1787690867.041,
+    "submission_timestamp": 1779388769.735,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
