@@ -1,0 +1,52 @@
+{
+  "dominio": "detran-informacao.app",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/24/26 23:52:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.detran-informacao.app",
+        "aggregated": "/CN=*.detran-informacao.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "064B0AD17B14E93806089D0C23ECD542BEAB",
+      "not_before": 1780799995,
+      "not_after": 1788575994,
+      "fingerprint": "11:FA:87:3C:92:0B:12:24:00:DF:86:26:32:26:EA:4C:D4:9D:B9:9E",
+      "sha1": "11:FA:87:3C:92:0B:12:24:00:DF:86:26:32:26:EA:4C:D4:9D:B9:9E",
+      "sha256": "4D:5B:6D:A4:D3:09:5D:59:6B:E7:84:65:4F:56:82:42:3E:B9:54:93:34:88:4B:85:95:87:79:C1:A4:0E:13:AE",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.detran-informacao.app",
+        "detran-informacao.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.detran-informacao.app, DNS:detran-informacao.app",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 239995697,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x937/483",
+    "seen": 1787626325.0,
+    "submission_timestamp": 1780803505.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "gestao-cartao-serverless.stg.abccard.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/24/26 23:31:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gestao-cartao-serverless.stg.abccard.com.br",
+        "aggregated": "/CN=gestao-cartao-serverless.stg.abccard.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "07E7352807109E0B4733CCADDE3A4E2D",
+      "not_before": 1783123200,
+      "not_after": 1800230399,
+      "fingerprint": "36:1C:B0:54:36:47:A0:6D:02:1B:00:A7:C1:82:03:56:2C:69:32:7A",
+      "sha1": "36:1C:B0:54:36:47:A0:6D:02:1B:00:A7:C1:82:03:56:2C:69:32:7A",
+      "sha256": "20:4E:30:F5:71:37:32:05:F1:2C:31:41:BA:C6:59:AF:DA:AE:69:D0:DC:95:C9:7A:73:EF:90:2F:AE:51:5E:37",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gestao-cartao-serverless.stg.abccard.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gestao-cartao-serverless.stg.abccard.com.br",
+        "subjectKeyIdentifier": "keyid:3f:77:ae:63:21:e9:cf:a7:27:a3:07:c6:85:93:9b:fa:77:71:ef:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 80635093,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=80635093&end=80635093",
+    "seen": 1787625088.611,
+    "submission_timestamp": 1783138106.012,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

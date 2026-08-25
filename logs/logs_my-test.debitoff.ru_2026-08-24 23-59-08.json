@@ -1,0 +1,51 @@
+{
+  "dominio": "my-test.debitoff.ru",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 23:59:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-test.debitoff.ru",
+        "aggregated": "/CN=my-test.debitoff.ru"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "05491D147BBDB35CDBB19A377940FB8E6FEC",
+      "not_before": 1780767660,
+      "not_after": 1788543659,
+      "fingerprint": "3A:66:93:5D:4D:90:F5:B6:2A:0D:1F:73:60:C9:4F:20:C6:A8:6F:74",
+      "sha1": "3A:66:93:5D:4D:90:F5:B6:2A:0D:1F:73:60:C9:4F:20:C6:A8:6F:74",
+      "sha256": "85:DE:42:27:14:F9:88:B9:B3:8B:19:5C:28:B2:26:3A:D9:69:19:B9:5B:44:D5:93:69:93:61:19:5E:A3:D9:25",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "my-test.debitoff.ru"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:my-test.debitoff.ru",
+        "subjectKeyIdentifier": "keyid:13:52:09:f5:6c:c5:4d:c8:92:ee:d3:fb:01:c0:eb:dc:19:cc:c6:b5"
+      }
+    },
+    "cert_index": 254588075,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x994/484",
+    "seen": 1787626747.1,
+    "submission_timestamp": 1780771171.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

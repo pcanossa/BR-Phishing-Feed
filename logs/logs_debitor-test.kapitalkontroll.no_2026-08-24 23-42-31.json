@@ -1,0 +1,52 @@
+{
+  "dominio": "debitor-test.kapitalkontroll.no",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/24/26 23:42:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor-test.kapitalkontroll.no",
+        "aggregated": "/CN=debitor-test.kapitalkontroll.no"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0AB2A153491183C302EFBECC43FF97BD",
+      "not_before": 1780704000,
+      "not_after": 1796601599,
+      "fingerprint": "33:BF:6B:A0:8F:B1:8B:9B:D0:42:8A:56:FF:EB:3C:69:B6:A6:DA:C8",
+      "sha1": "33:BF:6B:A0:8F:B1:8B:9B:D0:42:8A:56:FF:EB:3C:69:B6:A6:DA:C8",
+      "sha256": "1D:AF:B0:32:D0:30:99:5E:58:EA:CF:9B:9B:5A:CD:FF:88:B4:84:9F:DB:2D:92:F7:70:41:18:08:7F:A1:62:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitor-test.kapitalkontroll.no"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitor-test.kapitalkontroll.no",
+        "subjectKeyIdentifier": "keyid:87:69:b2:0d:66:cd:ef:de:fc:24:a2:47:cb:84:14:95:02:bb:7b:d2"
+      }
+    },
+    "cert_index": 254445516,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x993/927",
+    "seen": 1787625751.253,
+    "submission_timestamp": 1780765019.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
