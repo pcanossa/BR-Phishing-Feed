@@ -1,0 +1,53 @@
+{
+  "dominio": "caixapp.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/24/26 21:43:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.caixapp.com",
+        "aggregated": "/CN=*.caixapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "061A06EEA0386FB6905B2235A9E3A6B12B58",
+      "not_before": 1778800605,
+      "not_after": 1786576604,
+      "fingerprint": "DD:FE:54:E2:A7:7B:09:8D:CE:C1:E7:05:78:12:D0:A1:92:D8:77:D0",
+      "sha1": "DD:FE:54:E2:A7:7B:09:8D:CE:C1:E7:05:78:12:D0:A1:92:D8:77:D0",
+      "sha256": "88:DE:70:49:83:18:37:3C:F1:23:31:43:6E:14:69:01:BA:34:B9:14:DE:62:27:71:E7:F6:9E:68:51:74:CD:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.caixapp.com",
+        "caixapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.caixapp.com, DNS:caixapp.com",
+        "subjectKeyIdentifier": "keyid:d7:73:ff:9b:da:a9:87:00:64:ed:1b:86:8d:be:32:30:11:6c:62:dd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 667841515,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=667841515&end=667841515",
+    "seen": 1787618607.353,
+    "submission_timestamp": 1778804115.336,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

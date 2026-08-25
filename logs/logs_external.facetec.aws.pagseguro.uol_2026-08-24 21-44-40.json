@@ -1,0 +1,52 @@
+{
+  "dominio": "external.facetec.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/24/26 21:44:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.external.facetec.aws.pagseguro.uol",
+        "aggregated": "/CN=*.external.facetec.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0C459B2FA36AD1D04886743461C9C19C",
+      "not_before": 1782518400,
+      "not_after": 1799625599,
+      "fingerprint": "80:97:31:54:B5:91:76:EE:04:25:18:63:EA:13:0E:D3:E7:E2:D6:0C",
+      "sha1": "80:97:31:54:B5:91:76:EE:04:25:18:63:EA:13:0E:D3:E7:E2:D6:0C",
+      "sha256": "CE:4E:4E:CD:90:76:9F:83:7A:88:A7:BE:9F:71:4A:ED:92:6C:38:60:E7:11:F9:1A:80:BB:A4:D9:17:9F:03:7E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.external.facetec.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.external.facetec.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:ae:64:c3:53:66:8d:e8:4d:86:33:08:d7:70:a5:4f:14:ae:7c:35:5c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 106331228,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=106331228&end=106331228",
+    "seen": 1787618680.816,
+    "submission_timestamp": 1782519344.645,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

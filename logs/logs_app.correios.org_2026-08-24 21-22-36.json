@@ -1,0 +1,51 @@
+{
+  "dominio": "app.correios.org",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/24/26 21:22:36",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.correios.org",
+        "aggregated": "/CN=app.correios.org"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "926E3FFD346F88570C28FB3D0352344B",
+      "not_before": 1780704000,
+      "not_after": 1788566399,
+      "fingerprint": "F9:7B:4D:28:1F:6E:DD:FB:3B:98:81:2B:99:41:4B:F4:04:3F:9D:CC",
+      "sha1": "F9:7B:4D:28:1F:6E:DD:FB:3B:98:81:2B:99:41:4B:F4:04:3F:9D:CC",
+      "sha256": "F1:14:B7:56:56:60:01:3E:E6:29:90:34:80:BA:F9:63:7C:6D:0C:2B:A6:55:7B:BB:44:3F:EC:DE:39:F5:6F:2C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.correios.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.correios.org",
+        "subjectKeyIdentifier": "keyid:86:1a:f1:e9:ca:f8:3e:6b:99:44:ef:36:86:bc:77:0d:5a:98:ae:c5"
+      }
+    },
+    "cert_index": 253255624,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x989/279",
+    "seen": 1787617355.349,
+    "submission_timestamp": 1780720084.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

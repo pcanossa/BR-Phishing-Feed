@@ -1,0 +1,53 @@
+{
+  "dominio": "app.clarogive.org",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/24/26 21:48:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.clarogive.org",
+        "aggregated": "/CN=app.clarogive.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "089D882C65FEB087C2FBB693344AC551",
+      "not_before": 1778803200,
+      "not_after": 1786579199,
+      "fingerprint": "72:80:66:21:CC:8B:FA:27:00:8D:CF:79:C1:E4:E5:67:12:FA:42:F2",
+      "sha1": "72:80:66:21:CC:8B:FA:27:00:8D:CF:79:C1:E4:E5:67:12:FA:42:F2",
+      "sha256": "61:95:B4:C0:53:94:0D:02:96:7F:3D:3B:59:15:23:9A:B7:F8:42:50:54:36:F7:69:4C:3F:4F:12:A2:70:4D:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.clarogive.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.clarogive.org",
+        "subjectKeyIdentifier": "keyid:90:69:58:51:a0:4b:2c:8a:f2:5a:a5:6f:20:5d:a9:07:8f:e9:b0:ae",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 667878310,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=667878310&end=667878310",
+    "seen": 1787618913.607,
+    "submission_timestamp": 1778804378.011,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

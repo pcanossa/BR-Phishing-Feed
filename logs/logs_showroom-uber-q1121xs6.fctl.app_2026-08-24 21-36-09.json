@@ -1,0 +1,51 @@
+{
+  "dominio": "showroom-uber-q1121xs6.fctl.app",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/24/26 21:36:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "showroom-uber-q1121xs6.fctl.app",
+        "aggregated": "/CN=showroom-uber-q1121xs6.fctl.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "059CE377CF907BB60CCE94E49F0E4AE6",
+      "not_before": 1783036800,
+      "not_after": 1800143999,
+      "fingerprint": "EC:E8:F2:5A:72:2C:9E:B4:67:40:C0:51:FA:E3:77:C9:0F:92:79:BE",
+      "sha1": "EC:E8:F2:5A:72:2C:9E:B4:67:40:C0:51:FA:E3:77:C9:0F:92:79:BE",
+      "sha256": "8C:80:A2:30:90:C0:66:2E:68:EB:44:19:D3:A3:65:15:D4:99:0E:A1:DC:C6:52:73:7D:EF:45:E1:53:4F:AC:4E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "showroom-uber-q1121xs6.fctl.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:showroom-uber-q1121xs6.fctl.app",
+        "subjectKeyIdentifier": "keyid:25:c6:e5:1a:54:97:ea:9a:8f:bf:05:a0:02:72:b7:65:b6:7c:eb:ee"
+      }
+    },
+    "cert_index": 77085348,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x301/114",
+    "seen": 1787618168.502,
+    "submission_timestamp": 1783101434.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

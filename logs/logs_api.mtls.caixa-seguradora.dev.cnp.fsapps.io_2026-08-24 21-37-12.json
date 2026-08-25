@@ -1,0 +1,52 @@
+{
+  "dominio": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/24/26 21:37:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "068147205B1DF1424AB8FC5BC193AE475FA6",
+      "not_before": 1778800295,
+      "not_after": 1786576294,
+      "fingerprint": "E0:09:DA:8A:58:D6:C8:47:32:42:DC:85:F8:11:4C:5C:0F:70:42:76",
+      "sha1": "E0:09:DA:8A:58:D6:C8:47:32:42:DC:85:F8:11:4C:5C:0F:70:42:76",
+      "sha256": "24:1D:57:2F:8E:38:B3:A7:46:8C:51:3E:F8:77:FF:12:DB:37:92:64:8A:A6:71:3F:85:96:9D:77:53:52:F0:B6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:19:60:14:a9:8b:0b:89:fd:7c:31:a2:66:bf:59:1b:c1:07:56:e6:76",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 667797498,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=667797498&end=667797498",
+    "seen": 1787618232.574,
+    "submission_timestamp": 1778803805.668,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
