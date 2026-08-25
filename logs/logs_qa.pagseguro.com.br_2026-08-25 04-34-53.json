@@ -1,0 +1,52 @@
+{
+  "dominio": "qa.pagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 04:34:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "qa.pagseguro.com.br",
+        "aggregated": "/CN=qa.pagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "A0FE8F9C638C6FC813687010B4EEF07E",
+      "not_before": 1780469445,
+      "not_after": 1788248676,
+      "fingerprint": "D3:56:08:88:7B:C3:24:6C:29:E8:14:ED:8D:5E:5C:5F:7D:00:CD:63",
+      "sha1": "D3:56:08:88:7B:C3:24:6C:29:E8:14:ED:8D:5E:5C:5F:7D:00:CD:63",
+      "sha256": "0D:F8:2F:9E:A5:FC:29:A6:99:83:D9:46:02:34:64:9B:FD:66:B5:C8:1C:74:4D:5D:54:37:D3:EE:F3:BE:90:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "qa.pagseguro.com.br",
+        "*.qa.pagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/oP4, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:qa.pagseguro.com.br, DNS:*.qa.pagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:fb:76:e5:6e:9a:b0:48:6a:84:ff:ac:18:ad:3f:b3:52:d8:2a:ea:73"
+      }
+    },
+    "cert_index": 256967528,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x003/779",
+    "seen": 1787643293.982,
+    "submission_timestamp": 1780865283.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "debito-test.pagopar.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 05:01:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debito-test.pagopar.com",
+        "aggregated": "/CN=debito-test.pagopar.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D7BFF8A96713C9100EAB2F06C0457B61",
+      "not_before": 1780499479,
+      "not_after": 1788279076,
+      "fingerprint": "50:43:0E:36:3E:AA:C4:F7:28:EF:90:D4:59:53:6E:AB:BF:30:85:60",
+      "sha1": "50:43:0E:36:3E:AA:C4:F7:28:EF:90:D4:59:53:6E:AB:BF:30:85:60",
+      "sha256": "5F:66:54:22:D1:56:E6:8A:26:AC:B9:CF:EC:9A:BD:D4:A7:48:A4:36:FA:A9:EE:C6:CA:4E:49:FB:B9:41:2D:B3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debito-test.pagopar.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/178, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debito-test.pagopar.com",
+        "subjectKeyIdentifier": "keyid:e8:13:f0:96:ba:4e:71:e8:82:82:40:6f:f0:1e:83:cf:72:2b:54:e6"
+      }
+    },
+    "cert_index": 380279344,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x485/466",
+    "seen": 1787644891.48,
+    "submission_timestamp": 1780503275.157,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

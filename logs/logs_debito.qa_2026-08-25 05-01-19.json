@@ -1,0 +1,52 @@
+{
+  "dominio": "debito.qa",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 05:01:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debito.qa",
+        "aggregated": "/CN=debito.qa"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "059EDEB280D8B33593B55FF2A5683411C2B6",
+      "not_before": 1780873409,
+      "not_after": 1788649408,
+      "fingerprint": "A3:14:48:A0:F6:76:5A:0F:E8:D4:CA:59:FF:E6:6D:B0:CB:C3:D3:29",
+      "sha1": "A3:14:48:A0:F6:76:5A:0F:E8:D4:CA:59:FF:E6:6D:B0:CB:C3:D3:29",
+      "sha256": "C2:2F:76:4B:62:C5:91:6B:36:E0:85:9D:27:3E:7D:56:2A:49:59:0B:C5:E1:66:48:DD:AB:B5:17:6B:19:FC:A1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debito.qa",
+        "*.debito.qa"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debito.qa, DNS:debito.qa",
+        "subjectKeyIdentifier": "keyid:18:77:d6:9f:6b:db:5d:08:a7:fd:a6:05:fb:8e:36:1b:31:08:a4:8a"
+      }
+    },
+    "cert_index": 257195761,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x004/670",
+    "seen": 1787644879.765,
+    "submission_timestamp": 1780876919.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

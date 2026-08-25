@@ -1,0 +1,52 @@
+{
+  "dominio": "corp-platform-dev.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 04:39:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "corp-platform-dev.pagseguro.uol",
+        "aggregated": "/CN=corp-platform-dev.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "86B919F0A221283E0E4BC71FFB5FD986",
+      "not_before": 1780469319,
+      "not_after": 1788248748,
+      "fingerprint": "DB:96:80:48:F4:5F:57:04:BF:D8:B5:C6:57:E9:34:D3:DB:FD:2B:AE",
+      "sha1": "DB:96:80:48:F4:5F:57:04:BF:D8:B5:C6:57:E9:34:D3:DB:FD:2B:AE",
+      "sha256": "8E:C1:23:D4:39:8E:02:36:2F:B6:DA:B2:47:FD:C2:47:DB:09:24:00:4A:5D:E4:53:DD:BB:83:3B:D2:1A:E7:A3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "corp-platform-dev.pagseguro.uol",
+        "*.corp-platform-dev.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/hrk, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:corp-platform-dev.pagseguro.uol, DNS:*.corp-platform-dev.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:c0:32:3c:d1:03:44:7e:23:9e:6d:25:2b:27:a5:a5:ac:4a:cf:e7:aa"
+      }
+    },
+    "cert_index": 257004637,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x003/924",
+    "seen": 1787643548.204,
+    "submission_timestamp": 1780867242.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
