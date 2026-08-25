@@ -1,0 +1,52 @@
+{
+  "dominio": "beta.caixa.de",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/25/26 07:52:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beta.caixa.de",
+        "aggregated": "/CN=beta.caixa.de"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "A1F02F83ED9BA493684D12A7B1429D0A",
+      "not_before": 1779321600,
+      "not_after": 1787183999,
+      "fingerprint": "68:10:56:EA:85:60:F1:EB:34:79:55:80:A6:BF:E4:5A:84:7D:AE:71",
+      "sha1": "68:10:56:EA:85:60:F1:EB:34:79:55:80:A6:BF:E4:5A:84:7D:AE:71",
+      "sha256": "92:68:DB:92:00:89:2D:5C:9F:6C:80:4F:E7:9A:89:0C:DE:3C:97:B1:64:92:23:38:73:F6:E1:8C:95:E0:C2:05",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "beta.caixa.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:beta.caixa.de",
+        "subjectKeyIdentifier": "keyid:ba:59:7b:e9:49:7f:23:ef:a2:8a:11:fd:d5:64:1d:7c:ca:eb:e3:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 840380506,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=840380506&end=840380506",
+    "seen": 1787655136.274,
+    "submission_timestamp": 1779357868.695,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

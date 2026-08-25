@@ -1,0 +1,58 @@
+{
+  "dominio": "apps.ocp-prod.clarodigital.net.mcas.ms",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 07:57:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.apps.ocp-prod.clarodigital.net.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.apps.ocp-prod.clarodigital.net.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 16",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 16/O=Microsoft Corporation"
+      },
+      "serial_number": "5500A9FBF187830B6534E49116000000A9FBF1",
+      "not_before": 1787130626,
+      "not_after": 1802682626,
+      "fingerprint": "4C:90:A1:02:52:0D:48:B5:4A:07:47:EF:5B:57:FC:02:14:8C:11:DB",
+      "sha1": "4C:90:A1:02:52:0D:48:B5:4A:07:47:EF:5B:57:FC:02:14:8C:11:DB",
+      "sha256": "E3:44:E7:68:37:3C:17:5B:9D:0D:E6:3D:C2:BF:FA:07:BF:5C:5C:9B:38:F3:76:13:4A:02:88:F2:0F:D7:61:BC",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.apps.ocp-prod.clarodigital.net.mcas.ms",
+        "*.apps.ocp-prod.clarodigital.net.admin-mcas.ms",
+        "*.apps.ocp-prod.clarodigital.net.mcas-df.ms",
+        "*.apps.ocp-prod.clarodigital.net.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2016.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:06:39:f0:56:d1:ed:90:c8:36:a3:a0:0f:94:fe:62:94:a7:e6:fc:37",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.ocp-prod.clarodigital.net.mcas.ms, DNS:*.apps.ocp-prod.clarodigital.net.admin-mcas.ms, DNS:*.apps.ocp-prod.clarodigital.net.mcas-df.ms, DNS:*.apps.ocp-prod.clarodigital.net.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:6e:02:1d:39:3c:93:c0:c1:0a:1c:ac:8b:88:23:26:29:e5:56:88:87"
+      }
+    },
+    "cert_index": 70223898,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x274/312",
+    "seen": 1787655457.989,
+    "submission_timestamp": 1787131299.832,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

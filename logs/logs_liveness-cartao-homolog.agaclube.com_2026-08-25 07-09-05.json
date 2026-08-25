@@ -1,0 +1,52 @@
+{
+  "dominio": "liveness-cartao-homolog.agaclube.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 07:09:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "liveness-cartao-homolog.agaclube.com",
+        "aggregated": "/CN=liveness-cartao-homolog.agaclube.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0DBA5702DC16D48F380637FF60FB77A8",
+      "not_before": 1783296000,
+      "not_after": 1800403199,
+      "fingerprint": "8F:D1:EC:64:74:48:5D:62:DD:06:14:66:31:ED:EB:69:92:12:65:EA",
+      "sha1": "8F:D1:EC:64:74:48:5D:62:DD:06:14:66:31:ED:EB:69:92:12:65:EA",
+      "sha256": "70:5E:FC:2E:4A:1A:19:92:7F:C5:75:E8:83:FF:32:DD:CF:2D:E5:95:44:44:05:CA:24:26:C9:95:54:63:98:00",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "liveness-cartao-homolog.agaclube.com",
+        "liveness-api-cartao-homolog.agaclube.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:liveness-cartao-homolog.agaclube.com, DNS:liveness-api-cartao-homolog.agaclube.com",
+        "subjectKeyIdentifier": "keyid:ac:86:ff:a9:f2:2a:7f:4f:46:84:4a:56:40:69:c4:c6:dd:9f:20:04"
+      }
+    },
+    "cert_index": 89433079,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x349/347",
+    "seen": 1787652544.965,
+    "submission_timestamp": 1783344542.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

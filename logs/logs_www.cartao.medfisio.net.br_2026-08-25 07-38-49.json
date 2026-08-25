@@ -1,0 +1,53 @@
+{
+  "dominio": "www.cartao.medfisio.net.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 07:38:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.medfisio.net.br",
+        "aggregated": "/CN=*.medfisio.net.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05BF5C7B6EFD69396AC3EC96365B0F182F39",
+      "not_before": 1780914566,
+      "not_after": 1788690565,
+      "fingerprint": "82:76:E8:97:B5:0B:E1:48:4D:7F:FF:95:EE:DB:F3:1F:5C:28:35:D2",
+      "sha1": "82:76:E8:97:B5:0B:E1:48:4D:7F:FF:95:EE:DB:F3:1F:5C:28:35:D2",
+      "sha256": "EC:BE:58:25:05:8D:A8:B0:E1:43:8E:F7:8C:81:6C:B9:EF:58:3A:0E:C7:7F:AE:CB:34:40:13:4D:64:14:D7:72",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.medfisio.net.br",
+        "medfisio.net.br",
+        "www.cartao.medfisio.net.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.medfisio.net.br, DNS:medfisio.net.br, DNS:www.cartao.medfisio.net.br",
+        "subjectKeyIdentifier": "keyid:56:f6:e4:fc:c6:1d:ac:36:9c:ea:6f:8d:50:5d:73:9f:1e:9f:51:28"
+      }
+    },
+    "cert_index": 258549244,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x009/957",
+    "seen": 1787654328.017,
+    "submission_timestamp": 1780918077.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "new.debitoautomatico.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 07:07:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "new.debitoautomatico.com",
+        "aggregated": "/CN=new.debitoautomatico.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "05296667FD9B136BF6A3EC02C5E069A5",
+      "not_before": 1780876800,
+      "not_after": 1788652799,
+      "fingerprint": "68:31:8D:B8:64:99:1B:CD:59:28:42:41:E8:38:87:69:24:A1:30:D7",
+      "sha1": "68:31:8D:B8:64:99:1B:CD:59:28:42:41:E8:38:87:69:24:A1:30:D7",
+      "sha256": "B6:94:E5:62:B8:0E:72:E7:4D:E3:32:98:44:BF:04:75:60:90:B8:FB:C8:4E:FC:E1:04:A5:7B:34:F7:EC:04:34",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "new.debitoautomatico.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:new.debitoautomatico.com",
+        "subjectKeyIdentifier": "keyid:92:44:8b:6e:07:77:b7:a7:c7:6f:f0:06:aa:68:30:62:bf:7c:61:58"
+      }
+    },
+    "cert_index": 243585730,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x951/506",
+    "seen": 1787652435.992,
+    "submission_timestamp": 1780934521.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

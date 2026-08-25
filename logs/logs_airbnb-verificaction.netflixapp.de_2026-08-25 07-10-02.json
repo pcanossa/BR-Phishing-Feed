@@ -1,0 +1,52 @@
+{
+  "dominio": "airbnb-verificaction.netflixapp.de",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 07:10:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "airbnb-verificaction.netflixapp.de",
+        "aggregated": "/CN=airbnb-verificaction.netflixapp.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0144E4857FBAC829D26372F7EAC42702",
+      "not_before": 1780876800,
+      "not_after": 1788652799,
+      "fingerprint": "B2:DA:53:40:00:DA:0E:95:EC:01:1E:C2:34:04:30:61:FC:C5:E5:24",
+      "sha1": "B2:DA:53:40:00:DA:0E:95:EC:01:1E:C2:34:04:30:61:FC:C5:E5:24",
+      "sha256": "42:20:FE:58:95:05:55:9B:ED:52:F0:00:FC:09:24:58:1B:F1:6C:E7:D1:3D:2B:B5:1B:76:89:1B:0E:EB:58:9F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "airbnb-verificaction.netflixapp.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:airbnb-verificaction.netflixapp.de",
+        "subjectKeyIdentifier": "keyid:7e:1e:f2:71:6f:f4:89:ce:8b:11:01:06:fb:56:ad:63:7f:e5:92:a4"
+      }
+    },
+    "cert_index": 258299383,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x008/981",
+    "seen": 1787652599.97,
+    "submission_timestamp": 1780910268.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

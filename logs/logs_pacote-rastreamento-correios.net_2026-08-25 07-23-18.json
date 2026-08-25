@@ -1,0 +1,52 @@
+{
+  "dominio": "pacote-rastreamento-correios.net",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/25/26 07:23:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pacote-rastreamento-correios.net",
+        "aggregated": "/CN=pacote-rastreamento-correios.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F33E807BC21DCE33",
+      "not_before": 1782706251,
+      "not_after": 1799813451,
+      "fingerprint": "0F:39:CC:4D:5A:9B:CF:96:A4:8D:D8:2D:BC:FA:AD:6A:2F:07:44:18",
+      "sha1": "0F:39:CC:4D:5A:9B:CF:96:A4:8D:D8:2D:BC:FA:AD:6A:2F:07:44:18",
+      "sha256": "A0:FA:1A:A0:09:F4:A0:88:F6:ED:6A:75:65:5F:B7:F7:D8:31:08:02:81:59:1D:CB:C8:8B:12:AE:7C:26:F2:8F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pacote-rastreamento-correios.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pacote-rastreamento-correios.net",
+        "subjectKeyIdentifier": "keyid:a4:e9:73:91:4b:13:5c:14:2d:1e:6a:6b:5a:82:a6:43:6c:d5:6b:39",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 110317901,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=110317901&end=110317901",
+    "seen": 1787653396.575,
+    "submission_timestamp": 1782706251.988,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

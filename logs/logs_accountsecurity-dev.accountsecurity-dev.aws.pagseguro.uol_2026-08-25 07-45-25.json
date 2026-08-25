@@ -1,0 +1,53 @@
+{
+  "dominio": "accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 07:45:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol",
+        "aggregated": "/CN=*.accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E0F20F551FD494558A97087AF756BEA",
+      "not_before": 1782691200,
+      "not_after": 1799798399,
+      "fingerprint": "52:7B:CA:DE:D1:8F:46:65:38:84:F9:96:E4:61:F2:10:7B:B5:F0:2B",
+      "sha1": "52:7B:CA:DE:D1:8F:46:65:38:84:F9:96:E4:61:F2:10:7B:B5:F0:2B",
+      "sha256": "D4:05:89:9A:11:3A:49:C1:0B:B4:35:90:F6:5A:F1:D6:06:FC:4E:BE:07:43:4F:35:6D:A4:57:95:C0:A8:5A:56",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol",
+        "accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol, DNS:accountsecurity-dev.accountsecurity-dev.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:a3:79:b6:47:25:f6:f4:17:29:05:ce:76:8b:0a:b3:55:d3:b7:f7:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 110480897,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=110480897&end=110480897",
+    "seen": 1787654725.054,
+    "submission_timestamp": 1782713754.415,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

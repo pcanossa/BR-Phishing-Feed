@@ -1,0 +1,52 @@
+{
+  "dominio": "sosdebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 07:30:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sosdebito.com",
+        "aggregated": "/CN=sosdebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "905DD712F8883E16",
+      "not_before": 1782708823,
+      "not_after": 1799816023,
+      "fingerprint": "CF:C3:28:C2:C4:AE:96:48:D6:26:87:21:E0:96:28:F8:9E:E1:C7:41",
+      "sha1": "CF:C3:28:C2:C4:AE:96:48:D6:26:87:21:E0:96:28:F8:9E:E1:C7:41",
+      "sha256": "51:20:A4:36:6C:9B:E6:63:25:10:FC:81:28:25:16:B3:0E:EC:A3:C7:30:8B:34:44:91:4E:97:B0:93:4A:CF:AC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sosdebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sosdebito.com",
+        "subjectKeyIdentifier": "keyid:70:17:f9:ef:90:a8:44:80:11:7b:fd:0c:f6:78:22:90:c5:00:c1:d8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 110372090,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=110372090&end=110372090",
+    "seen": 1787653835.392,
+    "submission_timestamp": 1782708824.619,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
