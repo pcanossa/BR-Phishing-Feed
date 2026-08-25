@@ -1,0 +1,51 @@
+{
+  "dominio": "elb.prod.cpf-langfuse.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 06:05:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "elb.prod.cpf-langfuse.consumables.amazon.dev",
+        "aggregated": "/CN=elb.prod.cpf-langfuse.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0874DE58D393137BB21F522654331048",
+      "not_before": 1781136000,
+      "not_after": 1798243199,
+      "fingerprint": "6B:38:82:AF:48:F7:16:17:BC:62:17:76:7F:BA:9D:93:14:02:EA:11",
+      "sha1": "6B:38:82:AF:48:F7:16:17:BC:62:17:76:7F:BA:9D:93:14:02:EA:11",
+      "sha256": "B4:D4:D7:75:DE:1F:66:52:85:EF:48:11:95:30:E9:34:62:16:46:01:E3:0B:F2:CF:6B:D0:60:41:87:06:14:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "elb.prod.cpf-langfuse.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:elb.prod.cpf-langfuse.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:34:18:d9:e6:a6:40:70:05:2f:ba:07:db:70:a6:c7:17:98:6c:27:76"
+      }
+    },
+    "cert_index": 986722594,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x854/385",
+    "seen": 1787648719.55,
+    "submission_timestamp": 1787412620.632,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

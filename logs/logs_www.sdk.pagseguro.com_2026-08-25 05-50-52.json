@@ -1,0 +1,52 @@
+{
+  "dominio": "www.sdk.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 05:50:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sdk.pagseguro.com",
+        "aggregated": "/CN=sdk.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "080A2DF536A1ADBD8FCEE2F63A1F30D5",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "AB:B2:6B:3A:BE:FB:79:A3:AE:64:30:FA:1B:AC:E6:19:AE:94:81:43",
+      "sha1": "AB:B2:6B:3A:BE:FB:79:A3:AE:64:30:FA:1B:AC:E6:19:AE:94:81:43",
+      "sha256": "4F:5A:A5:89:10:A4:55:CE:48:22:15:E1:E4:C6:BD:BE:A3:98:3E:DF:84:72:71:CA:91:33:C6:C0:12:F1:92:BA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sdk.pagseguro.com",
+        "www.sdk.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sdk.pagseguro.com, DNS:www.sdk.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:2b:d0:df:34:83:bb:f2:51:d5:fb:c7:db:6a:bb:3e:48:a3:28:15:9e"
+      }
+    },
+    "cert_index": 81126386,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x316/899",
+    "seen": 1787647852.567,
+    "submission_timestamp": 1783383367.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

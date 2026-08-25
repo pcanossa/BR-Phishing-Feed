@@ -1,0 +1,51 @@
+{
+  "dominio": "cockpit-seguranca.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 05:26:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cockpit-seguranca.api.hom.itau.com",
+        "aggregated": "/CN=cockpit-seguranca.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0B518AABA274B3CFABB3104D4CF781F7",
+      "not_before": 1787011200,
+      "not_after": 1804118399,
+      "fingerprint": "8D:25:1C:9D:E0:A0:A3:84:5E:ED:C5:B2:EF:EE:E1:CF:1D:7F:25:5D",
+      "sha1": "8D:25:1C:9D:E0:A0:A3:84:5E:ED:C5:B2:EF:EE:E1:CF:1D:7F:25:5D",
+      "sha256": "CE:52:9F:A7:8B:06:70:3E:3B:95:21:15:59:AB:93:C9:27:8A:98:15:F6:A1:6F:15:76:FE:95:3D:20:30:25:45",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cockpit-seguranca.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cockpit-seguranca.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:06:f9:28:1e:bb:da:4f:1a:68:1b:3d:11:0a:c2:a9:83:77:b0:8f:90"
+      }
+    },
+    "cert_index": 68673374,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x268/255",
+    "seen": 1787646365.574,
+    "submission_timestamp": 1787081457.74,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.solicitudvisitausa.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 05:51:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.solicitudvisitausa.com",
+        "aggregated": "/CN=app.solicitudvisitausa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "09A1DAAC89F7543B3B48CD5036C959EA",
+      "not_before": 1781740800,
+      "not_after": 1798847999,
+      "fingerprint": "24:7C:AF:F2:4B:FF:55:06:81:39:6D:98:3D:E1:74:52:D1:D9:31:60",
+      "sha1": "24:7C:AF:F2:4B:FF:55:06:81:39:6D:98:3D:E1:74:52:D1:D9:31:60",
+      "sha256": "6F:D4:C3:4C:03:2E:B3:0D:16:77:3F:15:40:52:4A:5D:10:60:C6:BF:8C:92:59:07:F8:91:51:26:A4:DD:A4:72",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.solicitudvisitausa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.solicitudvisitausa.com",
+        "subjectKeyIdentifier": "keyid:2d:fe:da:bf:34:93:84:c3:7e:9c:e1:bc:50:5b:2c:d8:f5:10:2f:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 31475136,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2027h1/ct/v1/get-entries?start=31475136&end=31475136",
+    "seen": 1787647908.969,
+    "submission_timestamp": 1781786949.559,
+    "source": {
+      "name": "Google 'Xenon2027h1'",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2027h1"
+    }
+  }
+}

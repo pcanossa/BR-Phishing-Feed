@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.co.th",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 06:01:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.co.th",
+        "aggregated": "/CN=*.cpf.co.th"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0DD8E3C67F831414D6F9D27AC073F70C",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "60:F6:E7:78:1F:27:26:E0:A5:0E:A9:CC:06:6B:0A:8C:70:13:A9:04",
+      "sha1": "60:F6:E7:78:1F:27:26:E0:A5:0E:A9:CC:06:6B:0A:8C:70:13:A9:04",
+      "sha256": "08:98:98:B8:CE:90:24:3F:20:8E:73:46:7C:B0:97:45:44:62:AB:D6:C7:9F:75:79:2D:F1:84:3B:1D:B1:B3:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.co.th",
+        "cpf.co.th"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.co.th, DNS:cpf.co.th",
+        "subjectKeyIdentifier": "keyid:f2:67:25:2c:76:77:69:a6:a2:a8:37:0d:5a:57:4d:cb:e5:19:e2:80",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 84727811,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=84727811&end=84727811",
+    "seen": 1787648509.088,
+    "submission_timestamp": 1783383798.033,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

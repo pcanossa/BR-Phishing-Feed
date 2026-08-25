@@ -1,0 +1,51 @@
+{
+  "dominio": "staging.boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/25/26 05:46:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.boletosserasa.com",
+        "aggregated": "/CN=staging.boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "31A3B77E35E4C6F47ECEB79B83C5D453",
+      "not_before": 1779148800,
+      "not_after": 1787011199,
+      "fingerprint": "2F:AF:5C:08:AC:86:1C:DB:9A:1E:2D:A5:13:92:55:A9:BC:EE:E1:5A",
+      "sha1": "2F:AF:5C:08:AC:86:1C:DB:9A:1E:2D:A5:13:92:55:A9:BC:EE:E1:5A",
+      "sha256": "24:18:FF:5E:10:61:1E:36:1D:5F:8D:AC:BF:A8:2C:D6:91:5E:AE:F8:4D:4C:E8:24:1D:19:E7:F4:6D:96:F6:97",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "staging.boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging.boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:f2:36:2d:14:30:a7:c5:b7:a0:40:4d:3f:f7:03:0d:7c:2e:e7:e1:fb"
+      }
+    },
+    "cert_index": 242914731,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x948/885",
+    "seen": 1787647595.162,
+    "submission_timestamp": 1780914538.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

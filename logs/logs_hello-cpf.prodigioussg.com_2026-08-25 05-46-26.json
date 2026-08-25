@@ -1,0 +1,52 @@
+{
+  "dominio": "hello-cpf.prodigioussg.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 05:46:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hello-cpf.prodigioussg.com",
+        "aggregated": "/CN=hello-cpf.prodigioussg.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05C874076B44468D8E7740FABCB314A99B05",
+      "not_before": 1777973824,
+      "not_after": 1785749823,
+      "fingerprint": "A8:2F:0B:BD:AD:09:40:60:70:B9:05:AF:38:D2:60:34:EC:2E:79:09",
+      "sha1": "A8:2F:0B:BD:AD:09:40:60:70:B9:05:AF:38:D2:60:34:EC:2E:79:09",
+      "sha256": "C2:01:FF:9A:37:6B:4F:FE:57:AB:BE:10:5D:D9:88:F1:E8:00:0A:62:08:60:C7:4D:65:FA:19:B5:67:B3:54:FD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "hello-cpf.prodigioussg.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:hello-cpf.prodigioussg.com",
+        "subjectKeyIdentifier": "keyid:b3:cf:81:44:00:4d:8b:af:b7:15:1a:3d:12:9a:9c:bd:00:8b:ab:7f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 845795457,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=845795457&end=845795457",
+    "seen": 1787647584.373,
+    "submission_timestamp": 1777977334.407,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

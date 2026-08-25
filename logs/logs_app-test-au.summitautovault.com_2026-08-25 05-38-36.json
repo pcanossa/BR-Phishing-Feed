@@ -1,0 +1,51 @@
+{
+  "dominio": "app-test-au.summitautovault.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 05:38:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-test-au.summitautovault.com",
+        "aggregated": "/CN=app-test-au.summitautovault.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9D53C7F8CCCD952C9126CC24273CAFE0",
+      "not_before": 1785715200,
+      "not_after": 1793577599,
+      "fingerprint": "9D:48:2D:F6:3C:4E:5B:0F:97:FA:6C:AC:CA:F6:08:11:B8:BE:C0:63",
+      "sha1": "9D:48:2D:F6:3C:4E:5B:0F:97:FA:6C:AC:CA:F6:08:11:B8:BE:C0:63",
+      "sha256": "31:6D:35:6D:B3:75:42:C3:15:E8:DD:34:F6:EE:8A:52:A3:9F:40:F9:74:B3:D6:7D:FE:0F:24:23:22:85:F9:B2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-test-au.summitautovault.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-test-au.summitautovault.com",
+        "subjectKeyIdentifier": "keyid:3a:0d:d8:0c:0b:2d:ee:ac:ff:b5:ec:b2:d1:5f:86:a8:de:24:f4:c3"
+      }
+    },
+    "cert_index": 986632810,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x854/034",
+    "seen": 1787647116.405,
+    "submission_timestamp": 1787412248.056,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

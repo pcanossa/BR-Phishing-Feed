@@ -1,0 +1,52 @@
+{
+  "dominio": "test-vivo.app.nexusretail.ro",
+  "marcas_encontradas": [
+    "vivo"
+  ],
+  "timestamp": "08/25/26 05:19:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test-vivo.app.nexusretail.ro",
+        "aggregated": "/CN=test-vivo.app.nexusretail.ro"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2A7F92602F42D54E86E906CBA37A21FD",
+      "not_before": 1779321600,
+      "not_after": 1787183999,
+      "fingerprint": "18:27:03:A5:C8:DE:7D:40:A5:F6:CE:06:DD:E9:AA:E3:69:0D:F5:A0",
+      "sha1": "18:27:03:A5:C8:DE:7D:40:A5:F6:CE:06:DD:E9:AA:E3:69:0D:F5:A0",
+      "sha256": "C9:4D:DC:F2:7D:3E:F7:21:46:D2:8B:F4:BD:D3:D6:E2:4C:A0:57:47:4E:7E:17:09:55:3D:C9:B3:64:BE:07:EE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "test-vivo.app.nexusretail.ro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:test-vivo.app.nexusretail.ro",
+        "subjectKeyIdentifier": "keyid:27:b0:07:6c:4b:9c:ba:07:40:75:f1:96:2e:4b:42:0e:cd:f1:d5:dc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 838901119,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=838901119&end=838901119",
+    "seen": 1787645952.63,
+    "submission_timestamp": 1779348105.979,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

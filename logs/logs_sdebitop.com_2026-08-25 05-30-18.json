@@ -1,0 +1,55 @@
+{
+  "dominio": "sdebitop.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 05:30:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sdebitop.com",
+        "aggregated": "/CN=*.sdebitop.com"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "Actalis Domain Validated TLS Server RSA CA 2025",
+        "L": "Ponte San Pietro",
+        "O": "Actalis S.p.A.",
+        "ST": "Bergamo",
+        "aggregated": "/C=IT/CN=Actalis Domain Validated TLS Server RSA CA 2025/L=Ponte San Pietro/O=Actalis S.p.A./ST=Bergamo"
+      },
+      "serial_number": "4638F606C7D619A6310EBCCBA792208A",
+      "not_before": 1785839776,
+      "not_after": 1803033375,
+      "fingerprint": "BA:DC:A9:F3:B3:65:C7:99:1E:34:98:08:A3:B0:16:74:FD:8D:68:10",
+      "sha1": "BA:DC:A9:F3:B3:65:C7:99:1E:34:98:08:A3:B0:16:74:FD:8D:68:10",
+      "sha256": "1D:A9:44:03:75:B5:6E:FD:AB:8F:6C:7B:51:AA:8F:A6:CE:CC:08:2A:50:96:A6:DE:80:5C:DC:BC:CA:72:FB:C4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sdebitop.com",
+        "sdebitop.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://cacert.actalis.it/certs/tls-subca-rsa-dv-2025, URI:http://ocsp15.actalis.it/va/tls-subca-rsa-dv-2025",
+        "authorityKeyIdentifier": "keyid:d8:ba:cf:a1:9e:80:0e:0a:a6:32:7e:5e:fb:fb:75:d0:8e:62:b4:5e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.159.1.23.1\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sdebitop.com, DNS:sdebitop.com",
+        "subjectKeyIdentifier": "keyid:3b:c5:85:68:a8:b0:ad:79:f8:4e:f6:f2:48:f9:ca:a8:59:3a:03:66",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 52053003,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=52053003&end=52053003",
+    "seen": 1787646617.817,
+    "submission_timestamp": 1785840377.62,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

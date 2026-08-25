@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.co.th",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 05:52:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.co.th",
+        "aggregated": "/CN=*.cpf.co.th"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "04DBB440B0A282585C0E338DC25EC1B8",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "3B:78:70:46:F3:EA:EA:EF:F5:ED:97:29:9C:AC:69:29:1B:EF:66:96",
+      "sha1": "3B:78:70:46:F3:EA:EA:EF:F5:ED:97:29:9C:AC:69:29:1B:EF:66:96",
+      "sha256": "93:10:FE:F1:A5:42:46:02:31:2F:38:5B:88:3D:1C:41:38:22:C8:C0:DC:BB:10:5E:46:CD:69:50:0D:72:BA:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.co.th",
+        "cpf.co.th"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.co.th, DNS:cpf.co.th",
+        "subjectKeyIdentifier": "keyid:c1:22:ed:2f:b6:36:56:ee:41:ce:51:cd:80:d1:1e:e5:10:5c:93:1c"
+      }
+    },
+    "cert_index": 81139221,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x316/950",
+    "seen": 1787647946.02,
+    "submission_timestamp": 1783383815.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "esvcpaynow-stg.cpf.gov.sg",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 05:50:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "esvcpaynow-stg.cpf.gov.sg",
+        "aggregated": "/CN=esvcpaynow-stg.cpf.gov.sg"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "D448375A381E2EAAC484C5E61A357C54",
+      "not_before": 1783296000,
+      "not_after": 1800489599,
+      "fingerprint": "7C:5D:11:BE:00:99:51:B6:49:2B:EA:AF:C1:09:57:F4:1A:80:D4:4D",
+      "sha1": "7C:5D:11:BE:00:99:51:B6:49:2B:EA:AF:C1:09:57:F4:1A:80:D4:4D",
+      "sha256": "5C:16:8E:D7:D3:2C:CB:3E:2D:91:D8:7A:22:9E:04:C8:87:7D:C4:E4:D7:2D:EF:57:5C:50:1C:8C:ED:7C:1A:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "esvcpaynow-stg.cpf.gov.sg",
+        "www.esvcpaynow-stg.cpf.gov.sg"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:esvcpaynow-stg.cpf.gov.sg, DNS:www.esvcpaynow-stg.cpf.gov.sg",
+        "subjectKeyIdentifier": "keyid:88:e1:dc:4e:0d:a3:f1:1a:84:55:67:b8:bb:18:a4:41:ab:3f:ee:96"
+      }
+    },
+    "cert_index": 88756693,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x346/705",
+    "seen": 1787647817.676,
+    "submission_timestamp": 1783303851.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
