@@ -1,0 +1,51 @@
+{
+  "dominio": "poc.claro.estatanalytics.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/24/26 22:59:43",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "poc.claro.estatanalytics.app",
+        "aggregated": "/CN=poc.claro.estatanalytics.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05568AF1692B472AF1CB31206B6DF05088E2",
+      "not_before": 1779474255,
+      "not_after": 1787250254,
+      "fingerprint": "8E:E4:D9:25:3A:AB:DE:88:83:EB:BB:90:C5:8C:4E:D5:C0:18:01:6F",
+      "sha1": "8E:E4:D9:25:3A:AB:DE:88:83:EB:BB:90:C5:8C:4E:D5:C0:18:01:6F",
+      "sha256": "8B:46:45:F9:72:A7:AB:C1:EF:7D:91:1E:48:D6:78:21:7C:7E:BC:89:EA:59:E7:90:48:CC:18:22:9D:F8:49:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "poc.claro.estatanalytics.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:poc.claro.estatanalytics.app",
+        "subjectKeyIdentifier": "keyid:1e:59:c3:31:ab:b7:a6:ce:27:ee:72:dd:05:fa:34:f8:1e:1b:cd:e8"
+      }
+    },
+    "cert_index": 4394382172,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4394382172&end=4394382172",
+    "seen": 1787623182.275,
+    "submission_timestamp": 1779477768.945,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

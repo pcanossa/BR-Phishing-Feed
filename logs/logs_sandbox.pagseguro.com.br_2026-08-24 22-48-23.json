@@ -1,0 +1,52 @@
+{
+  "dominio": "sandbox.pagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/24/26 22:48:23",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sandbox.pagseguro.com.br",
+        "aggregated": "/CN=sandbox.pagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "51512741DA92F51E13AC4BB9055276D9",
+      "not_before": 1779473815,
+      "not_after": 1787253409,
+      "fingerprint": "00:72:FF:E0:C5:1D:5A:A9:B4:F7:DE:8B:29:AF:86:42:C6:40:65:AC",
+      "sha1": "00:72:FF:E0:C5:1D:5A:A9:B4:F7:DE:8B:29:AF:86:42:C6:40:65:AC",
+      "sha256": "F0:37:DF:84:24:77:D3:FE:44:F2:36:18:E1:56:A5:8B:1F:06:89:54:CA:A4:20:AC:E4:61:3B:1D:15:4B:68:FD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "sandbox.pagseguro.com.br",
+        "*.sandbox.pagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/UVE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:sandbox.pagseguro.com.br, DNS:*.sandbox.pagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:93:dd:a6:9f:f9:5a:02:b7:32:08:11:d3:fa:5b:76:fa:1f:47:b4:40"
+      }
+    },
+    "cert_index": 4394322739,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4394322739&end=4394322739",
+    "seen": 1787622503.463,
+    "submission_timestamp": 1779477541.264,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "stg.cpf.mc-soc.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 22:12:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg.cpf.mc-soc.com",
+        "aggregated": "/CN=stg.cpf.mc-soc.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "09663A3C31EC6C7EF7956DC059591F79",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "7F:B1:5F:CA:7A:66:6B:E6:32:EC:8D:6F:36:1A:5F:39:80:04:B4:43",
+      "sha1": "7F:B1:5F:CA:7A:66:6B:E6:32:EC:8D:6F:36:1A:5F:39:80:04:B4:43",
+      "sha256": "7A:B5:7B:86:AA:03:FE:35:59:F9:B3:5D:E8:D3:D0:C1:B0:EB:4F:66:E2:7D:C4:0D:D1:1D:E6:C6:CE:79:46:81",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "stg.cpf.mc-soc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:stg.cpf.mc-soc.com",
+        "subjectKeyIdentifier": "keyid:46:78:1d:fb:d8:a4:5f:6f:a1:18:fe:3a:59:9f:18:04:63:b6:80:9c"
+      }
+    },
+    "cert_index": 26861955,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/tile/data/x104/929",
+    "seen": 1787620322.178,
+    "submission_timestamp": 1787620309.913,
+    "source": {
+      "name": "Google 'PlumbersArms2027h1' log",
+      "url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.rest",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 22:30:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.rest",
+        "aggregated": "/CN=cpf.rest"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06D30D88303DC6CFEEC2474A3950CC67A2A1",
+      "not_before": 1780775227,
+      "not_after": 1788551226,
+      "fingerprint": "FB:C3:4F:56:79:23:10:B9:18:C2:2E:AF:50:B3:B6:15:F1:44:26:0B",
+      "sha1": "FB:C3:4F:56:79:23:10:B9:18:C2:2E:AF:50:B3:B6:15:F1:44:26:0B",
+      "sha256": "3E:93:60:4B:1C:00:5A:59:A2:3A:4F:E4:8F:0C:1F:71:6A:D1:4C:1B:BB:CD:4F:43:77:20:EE:D5:73:35:B6:3C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.rest",
+        "*.cpf.rest"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf.rest, DNS:cpf.rest",
+        "subjectKeyIdentifier": "keyid:e6:c1:01:81:58:c8:0a:e6:83:d9:62:a3:a2:75:15:a4:1a:bd:73:82"
+      }
+    },
+    "cert_index": 239331514,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x934/888",
+    "seen": 1787621453.347,
+    "submission_timestamp": 1780778738.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

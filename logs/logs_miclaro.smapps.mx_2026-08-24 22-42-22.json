@@ -1,0 +1,53 @@
+{
+  "dominio": "miclaro.smapps.mx",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/24/26 22:42:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.miclaro.smapps.mx",
+        "aggregated": "/CN=*.miclaro.smapps.mx"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "AA555763B206F65DE3EC6120C50A57A3",
+      "not_before": 1778716800,
+      "not_after": 1795910399,
+      "fingerprint": "DA:2D:4F:BD:A5:2D:B0:08:3C:14:93:DA:2E:E0:EE:23:BA:43:7C:83",
+      "sha1": "DA:2D:4F:BD:A5:2D:B0:08:3C:14:93:DA:2E:E0:EE:23:BA:43:7C:83",
+      "sha256": "1D:E6:B4:DA:0E:EE:E8:35:64:DC:A9:D0:DC:33:23:52:31:9A:12:0A:27:07:6D:3B:FC:C2:93:F1:FA:8C:AA:58",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.miclaro.smapps.mx",
+        "miclaro.smapps.mx"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.miclaro.smapps.mx, DNS:miclaro.smapps.mx",
+        "subjectKeyIdentifier": "keyid:3b:13:18:d9:0e:6b:31:02:56:d9:9b:74:df:ea:d3:72:ab:89:ef:73",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 668265547,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=668265547&end=668265547",
+    "seen": 1787622142.895,
+    "submission_timestamp": 1778807624.148,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/24/26 22:07:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cpf.com",
+        "aggregated": "/CN=www.cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "1CD92EEF2053830A",
+      "not_before": 1782525887,
+      "not_after": 1799633087,
+      "fingerprint": "C1:3F:CF:C6:45:4E:87:BB:DD:FA:80:46:E5:EB:73:1F:7D:F2:EB:F9",
+      "sha1": "C1:3F:CF:C6:45:4E:87:BB:DD:FA:80:46:E5:EB:73:1F:7D:F2:EB:F9",
+      "sha256": "6B:01:98:59:2B:D9:8E:11:1E:08:6A:2C:77:8C:31:38:D7:F5:24:9D:85:D4:B6:AE:95:60:1A:E5:73:4F:4E:F2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cpf.com",
+        "subjectKeyIdentifier": "keyid:a7:08:be:6f:9d:1b:94:cb:d4:c7:f3:28:b3:c5:a8:23:c0:44:ee:9d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 106477591,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=106477591&end=106477591",
+    "seen": 1787620048.912,
+    "submission_timestamp": 1782525888.098,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
