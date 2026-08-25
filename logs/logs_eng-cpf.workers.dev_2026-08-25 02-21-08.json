@@ -1,0 +1,52 @@
+{
+  "dominio": "eng-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 02:21:08",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eng-cpf.workers.dev",
+        "aggregated": "/CN=eng-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "933A7D0DBD589FA813D98A3F3FD28867",
+      "not_before": 1776079066,
+      "not_after": 1783858570,
+      "fingerprint": "A3:87:24:81:9A:A9:61:43:DD:00:FF:35:5B:7D:41:A4:6D:D1:E9:48",
+      "sha1": "A3:87:24:81:9A:A9:61:43:DD:00:FF:35:5B:7D:41:A4:6D:D1:E9:48",
+      "sha256": "F3:22:D7:8E:E2:73:48:B1:CE:E1:E8:61:3E:58:E6:60:F1:7E:64:8F:71:FD:AD:64:BA:AB:72:F0:BC:A1:25:72",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "eng-cpf.workers.dev",
+        "*.eng-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/kzo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:eng-cpf.workers.dev, DNS:*.eng-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:e1:c3:ee:67:0d:ba:56:73:73:25:95:c0:0a:16:c0:f1:de:47:4d:59"
+      }
+    },
+    "cert_index": 241221309,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x942/270",
+    "seen": 1787635268.334,
+    "submission_timestamp": 1780852830.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dominio": "azzeraildebitofacile.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 02:55:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.azzeraildebitofacile.com",
+        "aggregated": "/CN=*.azzeraildebitofacile.com"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "Actalis Domain Validation Server CA G3",
+        "L": "Ponte San Pietro",
+        "O": "Actalis S.p.A.",
+        "ST": "Bergamo",
+        "aggregated": "/C=IT/CN=Actalis Domain Validation Server CA G3/L=Ponte San Pietro/O=Actalis S.p.A./ST=Bergamo"
+      },
+      "serial_number": "3AFE53F234A988E14205CEB84CA5C119",
+      "not_before": 1782615799,
+      "not_after": 1799809398,
+      "fingerprint": "25:15:84:1D:A6:A4:E4:34:47:15:AD:EA:E7:BF:6E:17:8F:1D:99:CB",
+      "sha1": "25:15:84:1D:A6:A4:E4:34:47:15:AD:EA:E7:BF:6E:17:8F:1D:99:CB",
+      "sha256": "71:79:EA:DA:09:B8:14:6A:6F:D8:1C:2A:42:33:7C:3B:5B:DF:97:62:FD:6C:98:9B:E4:0D:C5:6E:C2:DF:AF:BA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.azzeraildebitofacile.com",
+        "azzeraildebitofacile.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://cacert.actalis.it/certs/actalis-autdvg3, URI:http://ocsp06.actalis.it/VA/AUTHDV-G3",
+        "authorityKeyIdentifier": "keyid:42:83:6d:80:7c:09:84:67:fd:80:57:ab:f1:26:f5:77:c8:22:82:71",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.159.1.23.1\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.azzeraildebitofacile.com, DNS:azzeraildebitofacile.com",
+        "subjectKeyIdentifier": "keyid:09:b5:34:bb:93:a3:51:55:cd:4e:b0:45:02:00:8d:06:96:fa:20:1d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 108423403,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=108423403&end=108423403",
+    "seen": 1787637306.15,
+    "submission_timestamp": 1782616400.045,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

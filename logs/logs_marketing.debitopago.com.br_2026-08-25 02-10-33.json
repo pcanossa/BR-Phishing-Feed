@@ -1,0 +1,52 @@
+{
+  "dominio": "marketing.debitopago.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 02:10:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "marketing.debitopago.com.br",
+        "aggregated": "/CN=marketing.debitopago.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "04E461707465D7B438EA61D2F546809F",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "C9:A5:27:35:AB:83:44:3D:A8:84:82:98:F8:DF:EB:08:B5:A7:9A:F4",
+      "sha1": "C9:A5:27:35:AB:83:44:3D:A8:84:82:98:F8:DF:EB:08:B5:A7:9A:F4",
+      "sha256": "0F:66:DA:87:5C:F5:23:40:78:4C:A4:98:56:DE:CC:5C:2F:AE:94:9B:67:6D:0F:77:DE:85:15:ED:7A:E7:C0:0A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "marketing.debitopago.com.br",
+        "marketing.carropago.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:marketing.debitopago.com.br, DNS:marketing.carropago.com.br",
+        "subjectKeyIdentifier": "keyid:6f:ea:03:2c:36:ac:2d:a4:c0:9e:87:9d:69:0f:7b:b9:25:26:fa:9c"
+      }
+    },
+    "cert_index": 79316916,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x309/831",
+    "seen": 1787634633.167,
+    "submission_timestamp": 1783261211.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

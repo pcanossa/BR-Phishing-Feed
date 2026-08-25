@@ -1,0 +1,53 @@
+{
+  "dominio": "www.app.zukaitautos.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 02:45:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.zukaitautos.com",
+        "aggregated": "/CN=*.zukaitautos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "061F9F7B803903ADB93AAF6D8A6B5CFE8A44",
+      "not_before": 1780858276,
+      "not_after": 1788634275,
+      "fingerprint": "5B:92:43:11:86:E9:1C:D4:EA:4E:9E:23:98:88:48:18:B0:77:91:D9",
+      "sha1": "5B:92:43:11:86:E9:1C:D4:EA:4E:9E:23:98:88:48:18:B0:77:91:D9",
+      "sha256": "66:B8:B0:EC:F6:8E:52:52:24:71:0B:33:63:C1:57:41:E1:08:4F:B7:10:C2:C8:C7:18:C3:67:6B:74:1D:C5:87",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.zukaitautos.com",
+        "www.app.zukaitautos.com",
+        "zukaitautos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.zukaitautos.com, DNS:www.app.zukaitautos.com, DNS:zukaitautos.com",
+        "subjectKeyIdentifier": "keyid:47:a6:51:43:70:7c:ea:44:fa:d6:12:ef:64:e6:fb:b1:99:cb:ec:34"
+      }
+    },
+    "cert_index": 241423769,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x943/061",
+    "seen": 1787636739.542,
+    "submission_timestamp": 1780861786.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

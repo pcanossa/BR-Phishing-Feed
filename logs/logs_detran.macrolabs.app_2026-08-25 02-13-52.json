@@ -1,0 +1,52 @@
+{
+  "dominio": "detran.macrolabs.app",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/25/26 02:13:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.detran.macrolabs.app",
+        "aggregated": "/CN=*.detran.macrolabs.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "04B1BEFE1AACE2D991A2119BA5E73038",
+      "not_before": 1785715200,
+      "not_after": 1802822399,
+      "fingerprint": "F3:DB:1A:B1:47:8A:06:FA:66:F8:43:58:86:59:BE:5E:B7:0C:34:4A",
+      "sha1": "F3:DB:1A:B1:47:8A:06:FA:66:F8:43:58:86:59:BE:5E:B7:0C:34:4A",
+      "sha256": "F5:DF:EF:5D:81:5C:48:42:77:01:1C:5B:9C:D2:27:A1:FE:B4:06:88:11:04:E7:60:8C:BC:8D:1F:93:39:25:34",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.detran.macrolabs.app",
+        "detran.macrolabs.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.detran.macrolabs.app, DNS:detran.macrolabs.app",
+        "subjectKeyIdentifier": "keyid:b3:53:f7:87:f7:df:d3:a2:78:52:dd:94:f3:fc:d2:a9:97:0e:7c:9d"
+      }
+    },
+    "cert_index": 50552015,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=50552015&end=50552015",
+    "seen": 1787634832.627,
+    "submission_timestamp": 1785773184.856,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

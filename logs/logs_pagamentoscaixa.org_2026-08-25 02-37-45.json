@@ -1,0 +1,52 @@
+{
+  "dominio": "pagamentoscaixa.org",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/25/26 02:37:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagamentoscaixa.org",
+        "aggregated": "/CN=pagamentoscaixa.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06E7F5662574DC1D686CD1935C281FFA7B8E",
+      "not_before": 1780820846,
+      "not_after": 1788596845,
+      "fingerprint": "AD:F7:2B:B5:CA:FB:6B:94:A3:EE:5A:BA:01:52:C3:FB:E0:1B:B7:5E",
+      "sha1": "AD:F7:2B:B5:CA:FB:6B:94:A3:EE:5A:BA:01:52:C3:FB:E0:1B:B7:5E",
+      "sha256": "34:B0:5E:D5:82:8F:CA:CB:58:EA:AB:F5:34:A2:70:88:58:30:2E:EA:E0:09:C4:5E:91:74:14:6D:9C:BB:37:D0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagamentoscaixa.org",
+        "*.pagamentoscaixa.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagamentoscaixa.org, DNS:pagamentoscaixa.org",
+        "subjectKeyIdentifier": "keyid:71:73:e1:3a:2a:9a:78:2a:55:98:5e:d7:a9:c5:9a:06:05:35:0e:80"
+      }
+    },
+    "cert_index": 255951125,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x999/809",
+    "seen": 1787636263.83,
+    "submission_timestamp": 1780824356.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

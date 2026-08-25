@@ -1,0 +1,52 @@
+{
+  "dominio": "pagseguro.br.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 02:15:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro.br.com",
+        "aggregated": "/CN=pagseguro.br.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06EE8AD2677E92FA202749BEE9EE9A6AD715",
+      "not_before": 1780847657,
+      "not_after": 1788623656,
+      "fingerprint": "E3:84:C1:BB:8E:D2:B3:4E:6F:BF:50:D7:1C:7E:B9:64:F6:09:35:F9",
+      "sha1": "E3:84:C1:BB:8E:D2:B3:4E:6F:BF:50:D7:1C:7E:B9:64:F6:09:35:F9",
+      "sha256": "A3:FF:CF:2E:4D:CE:88:F5:D1:7D:D7:6B:99:20:10:95:F7:8C:46:D7:56:58:E6:52:32:8C:B6:73:0A:9F:4A:59",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro.br.com",
+        "*.pagseguro.br.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.pagseguro.br.com, DNS:pagseguro.br.com",
+        "subjectKeyIdentifier": "keyid:22:cf:ac:87:94:98:b5:08:e6:8b:3b:62:3d:2f:bf:eb:a2:b0:7c:99"
+      }
+    },
+    "cert_index": 241178336,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x942/102",
+    "seen": 1787634956.751,
+    "submission_timestamp": 1780851168.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

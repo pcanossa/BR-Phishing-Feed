@@ -1,0 +1,52 @@
+{
+  "dominio": "appamericanas.site",
+  "marcas_encontradas": [
+    "americanas"
+  ],
+  "timestamp": "08/25/26 02:59:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.appamericanas.site",
+        "aggregated": "/CN=*.appamericanas.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "064722528CE07A34E4B95BCC653E91412C7E",
+      "not_before": 1779469417,
+      "not_after": 1787245416,
+      "fingerprint": "F4:D7:D9:20:32:F6:CF:6A:11:D4:1E:CB:DF:0D:6A:E3:2F:0E:CA:2F",
+      "sha1": "F4:D7:D9:20:32:F6:CF:6A:11:D4:1E:CB:DF:0D:6A:E3:2F:0E:CA:2F",
+      "sha256": "7C:A1:DD:2D:B5:77:6B:CD:D2:C6:D6:61:F0:61:11:45:91:DB:79:02:03:C1:6F:D6:D7:2B:EC:11:EB:7D:40:4D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.appamericanas.site",
+        "appamericanas.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.appamericanas.site, DNS:appamericanas.site",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 4396096745,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4396096745&end=4396096745",
+    "seen": 1787637574.308,
+    "submission_timestamp": 1779484383.206,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "debitoor.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 02:40:42",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor.com",
+        "aggregated": "/CN=debitoor.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0569BA203E3CB33C8D73C73A1ABF27277BE1",
+      "not_before": 1777312802,
+      "not_after": 1785088801,
+      "fingerprint": "6B:90:7A:49:DF:FA:5D:90:BC:74:7D:AF:E9:7E:12:C9:7C:61:9D:13",
+      "sha1": "6B:90:7A:49:DF:FA:5D:90:BC:74:7D:AF:E9:7E:12:C9:7C:61:9D:13",
+      "sha256": "A4:45:1F:83:BF:B1:98:81:16:4B:3A:F3:69:A1:19:5A:06:35:79:8E:02:AF:92:AD:86:A3:20:47:5F:81:A6:CE",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor.com",
+        "*.debitoor.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitoor.com, DNS:debitoor.com",
+        "subjectKeyIdentifier": "keyid:55:12:65:e3:e9:0a:70:92:cb:9a:1c:57:97:7c:35:fe:ff:e2:fe:86"
+      }
+    },
+    "cert_index": 681206188,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=681206188&end=681206188",
+    "seen": 1787636442.186,
+    "submission_timestamp": 1778680005.336,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

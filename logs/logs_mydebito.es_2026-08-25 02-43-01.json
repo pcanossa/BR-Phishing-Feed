@@ -1,0 +1,51 @@
+{
+  "dominio": "mydebito.es",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 02:43:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mydebito.es",
+        "aggregated": "/CN=mydebito.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "ADE28D0EC8E99D95",
+      "not_before": 1785781278,
+      "not_after": 1802888478,
+      "fingerprint": "84:01:FF:0F:5C:4A:B8:65:88:2B:7B:91:9B:75:72:77:70:68:38:B1",
+      "sha1": "84:01:FF:0F:5C:4A:B8:65:88:2B:7B:91:9B:75:72:77:70:68:38:B1",
+      "sha256": "5C:A7:40:04:CA:2C:10:8B:9B:0E:D7:1E:8E:DC:BC:16:32:42:4B:9C:7F:8B:84:44:5C:D0:46:BE:AF:DD:F0:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mydebito.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mydebito.es",
+        "subjectKeyIdentifier": "keyid:aa:82:e1:fc:ce:93:7d:11:ed:83:ea:4a:b3:f2:51:79:b8:98:77:75"
+      }
+    },
+    "cert_index": 50773243,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=50773243&end=50773243",
+    "seen": 1787636581.792,
+    "submission_timestamp": 1785781344.104,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}
