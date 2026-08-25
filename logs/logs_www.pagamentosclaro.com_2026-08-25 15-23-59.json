@@ -1,0 +1,52 @@
+{
+  "dominio": "www.pagamentosclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 15:23:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.pagamentosclaro.com",
+        "aggregated": "/CN=www.pagamentosclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "334CEFDF8C5435CC",
+      "not_before": 1782834362,
+      "not_after": 1799941562,
+      "fingerprint": "0F:F0:91:B4:D0:22:71:A9:1C:9A:46:32:D0:6F:B7:AB:62:A0:D6:E0",
+      "sha1": "0F:F0:91:B4:D0:22:71:A9:1C:9A:46:32:D0:6F:B7:AB:62:A0:D6:E0",
+      "sha256": "7D:5A:63:8C:A8:E0:CD:A7:92:EC:B7:32:B7:06:A9:62:52:86:AF:56:93:17:0C:DD:54:F7:E7:AB:E3:81:05:7A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.pagamentosclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.pagamentosclaro.com",
+        "subjectKeyIdentifier": "keyid:0f:7d:c5:c6:9b:74:17:b3:a4:ed:fa:be:ea:cf:84:04:42:40:df:fc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 113675190,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=113675190&end=113675190",
+    "seen": 1787682238.405,
+    "submission_timestamp": 1782834364.098,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

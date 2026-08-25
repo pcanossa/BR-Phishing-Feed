@@ -1,0 +1,53 @@
+{
+  "dominio": "xml.debitos.uk",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 15:47:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "9bf4ed56.sni.cloudflaressl.com",
+        "aggregated": "/CN=9bf4ed56.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "7467527B6D89FB5813C2C73ADC825F38",
+      "not_before": 1779379183,
+      "not_after": 1787158689,
+      "fingerprint": "B5:40:33:C5:30:89:AB:06:58:10:AB:1C:A2:7E:2F:E9:A0:99:F0:15",
+      "sha1": "B5:40:33:C5:30:89:AB:06:58:10:AB:1C:A2:7E:2F:E9:A0:99:F0:15",
+      "sha256": "FD:D9:CC:D2:45:C4:1F:AD:E5:5D:F7:AA:25:D8:F4:F5:B1:74:0A:2E:5E:8E:67:31:8D:1B:8A:7B:9B:61:BE:B1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "9bf4ed56.sni.cloudflaressl.com",
+        "xml.debitos.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/dGc, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:9bf4ed56.sni.cloudflaressl.com, DNS:xml.debitos.uk",
+        "subjectKeyIdentifier": "keyid:e8:af:62:ed:25:16:b5:4f:c8:98:02:c5:c3:ac:e2:5e:7a:a6:d5:11",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 844593459,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=844593459&end=844593459",
+    "seen": 1787683628.952,
+    "submission_timestamp": 1779382784.019,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

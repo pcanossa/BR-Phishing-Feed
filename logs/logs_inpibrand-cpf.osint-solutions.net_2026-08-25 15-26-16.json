@@ -1,0 +1,53 @@
+{
+  "dominio": "inpibrand-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 15:26:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "F33CE51A3E67A5421316EF28996499C9",
+      "not_before": 1778879422,
+      "not_after": 1786658893,
+      "fingerprint": "7A:A1:CC:8C:73:CD:62:E7:4A:55:FA:ED:DF:5D:A5:6E:10:7B:92:E7",
+      "sha1": "7A:A1:CC:8C:73:CD:62:E7:4A:55:FA:ED:DF:5D:A5:6E:10:7B:92:E7",
+      "sha256": "47:D5:BF:BA:16:A4:E1:E4:D2:3F:07:18:96:B3:25:69:0F:91:04:D2:5A:65:4A:B7:AE:7D:53:17:44:0F:FE:B1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "inpibrand-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/8zw, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:inpibrand-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:29:2d:6b:5b:f2:de:c8:ad:52:da:ba:ec:3e:0c:2a:1b:0c:41:ff:0a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 677540890,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=677540890&end=677540890",
+    "seen": 1787682375.087,
+    "submission_timestamp": 1778883022.85,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

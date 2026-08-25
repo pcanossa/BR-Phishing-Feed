@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-cloud.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 15:38:30",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf-cloud.com",
+        "aggregated": "/CN=*.cpf-cloud.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "068C80DC4E80201635201BA04A9ECCC8D255",
+      "not_before": 1779378701,
+      "not_after": 1787154700,
+      "fingerprint": "91:69:5A:AE:65:83:7C:D9:CA:3F:D6:B4:1F:99:A1:67:56:97:21:32",
+      "sha1": "91:69:5A:AE:65:83:7C:D9:CA:3F:D6:B4:1F:99:A1:67:56:97:21:32",
+      "sha256": "AD:CB:C7:59:4D:66:8A:86:14:22:8F:DC:79:12:45:D9:71:2B:E9:84:20:CA:33:BC:B2:30:7D:E6:D1:69:2F:84",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-cloud.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-cloud.com",
+        "subjectKeyIdentifier": "keyid:d0:2e:12:ba:e1:6c:b3:fb:7b:6d:f5:f9:96:46:81:f3:eb:a2:00:e9"
+      }
+    },
+    "cert_index": 844517435,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=844517435&end=844517435",
+    "seen": 1787683109.589,
+    "submission_timestamp": 1779382341.566,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "eventapp.santanders.se",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 15:51:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eventapp.santanders.se",
+        "aggregated": "/CN=eventapp.santanders.se"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "05C80889A39E663903788420D532945B1508",
+      "not_before": 1781085096,
+      "not_after": 1788861095,
+      "fingerprint": "88:7E:D6:2F:32:01:7A:01:D7:6A:98:93:8A:01:B2:F8:1B:36:EE:AD",
+      "sha1": "88:7E:D6:2F:32:01:7A:01:D7:6A:98:93:8A:01:B2:F8:1B:36:EE:AD",
+      "sha256": "A8:32:ED:9D:DF:BC:EA:DB:C1:3A:54:D1:90:C5:4B:FE:D2:2A:AC:BD:06:F1:36:69:77:56:7F:F9:A2:C4:99:98",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "eventapp.santanders.se"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:eventapp.santanders.se",
+        "subjectKeyIdentifier": "keyid:cc:16:76:14:08:3b:6c:27:7d:8b:fc:ea:13:ab:b5:ab:96:df:ec:a9"
+      }
+    },
+    "cert_index": 247888866,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x968/315",
+    "seen": 1787683873.607,
+    "submission_timestamp": 1781088606.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

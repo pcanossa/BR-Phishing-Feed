@@ -1,0 +1,53 @@
+{
+  "dominio": "xml.debitos.uk",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 15:47:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "9bf4ed56.sni.cloudflaressl.com",
+        "aggregated": "/CN=9bf4ed56.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "92B89E2626D6F30713606B88277CB4E0",
+      "not_before": 1779379201,
+      "not_after": 1787158789,
+      "fingerprint": "72:08:4B:C0:A4:7E:6B:0F:96:67:9E:27:2A:02:39:B3:39:DB:1E:9B",
+      "sha1": "72:08:4B:C0:A4:7E:6B:0F:96:67:9E:27:2A:02:39:B3:39:DB:1E:9B",
+      "sha256": "B5:82:42:67:AB:AD:D0:88:BE:E6:D9:07:31:9B:46:14:DC:E7:17:C2:FE:26:06:20:3F:80:D7:E2:0D:F6:09:17",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "9bf4ed56.sni.cloudflaressl.com",
+        "xml.debitos.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/krg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:9bf4ed56.sni.cloudflaressl.com, DNS:xml.debitos.uk",
+        "subjectKeyIdentifier": "keyid:f6:2c:e8:65:c5:53:6f:c3:12:64:8f:51:13:6b:0e:84:ce:96:a4:34",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 844596321,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=844596321&end=844596321",
+    "seen": 1787683647.344,
+    "submission_timestamp": 1779382803.32,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
