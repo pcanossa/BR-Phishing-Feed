@@ -1,0 +1,51 @@
+{
+  "dominio": "ia-corp-crm-dev.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 09:03:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.ia-corp-crm-dev.aws.pagseguro.uol",
+        "aggregated": "/CN=*.ia-corp-crm-dev.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0982708771525C51CD7E9D0802301B10",
+      "not_before": 1787097600,
+      "not_after": 1804204799,
+      "fingerprint": "4F:D5:AA:75:74:0A:D5:C2:08:06:6D:20:3E:99:F2:BE:79:29:E5:39",
+      "sha1": "4F:D5:AA:75:74:0A:D5:C2:08:06:6D:20:3E:99:F2:BE:79:29:E5:39",
+      "sha256": "DA:31:10:69:64:7F:06:AC:61:BC:78:E3:E0:1D:9D:D0:36:A8:08:4F:78:B0:31:FB:F1:CF:D5:88:2F:AF:B7:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.ia-corp-crm-dev.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ia-corp-crm-dev.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:d0:fd:f5:62:52:fc:43:bd:25:6a:47:0d:14:96:b6:e6:37:7d:f8:21"
+      }
+    },
+    "cert_index": 70889464,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x276/911",
+    "seen": 1787659421.198,
+    "submission_timestamp": 1787168560.473,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

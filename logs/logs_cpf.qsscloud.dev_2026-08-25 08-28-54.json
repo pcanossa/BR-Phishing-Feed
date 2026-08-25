@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.qsscloud.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 08:28:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.qsscloud.dev",
+        "aggregated": "/CN=cpf.qsscloud.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06DCF4FFA78DE3F328F7DB01612E685D7CB5",
+      "not_before": 1779356356,
+      "not_after": 1787132355,
+      "fingerprint": "F2:9A:7A:65:DE:A8:B7:F6:DF:C0:E4:7E:79:35:B8:E5:58:B5:86:34",
+      "sha1": "F2:9A:7A:65:DE:A8:B7:F6:DF:C0:E4:7E:79:35:B8:E5:58:B5:86:34",
+      "sha256": "32:99:02:D7:2B:F8:76:5B:39:C7:46:D8:74:A3:31:36:8B:84:C5:22:64:50:28:7C:25:5D:FD:9B:0C:BB:9E:7A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.qsscloud.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.qsscloud.dev",
+        "subjectKeyIdentifier": "keyid:ac:b3:9e:35:b1:8c:43:34:3c:23:ee:1f:d1:01:f4:98:a6:43:c7:7e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 840734758,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=840734758&end=840734758",
+    "seen": 1787657333.313,
+    "submission_timestamp": 1779359866.924,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

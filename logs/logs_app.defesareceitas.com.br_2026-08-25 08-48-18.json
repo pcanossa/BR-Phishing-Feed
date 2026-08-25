@@ -1,0 +1,51 @@
+{
+  "dominio": "app.defesareceitas.com.br",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/25/26 08:48:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.defesareceitas.com.br",
+        "aggregated": "/CN=app.defesareceitas.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05A41814AA83CF6582B73D31628DC3422581",
+      "not_before": 1779123767,
+      "not_after": 1786899766,
+      "fingerprint": "4B:7B:8F:DD:AA:19:F6:57:2C:84:A2:94:37:7D:C7:85:38:0C:39:E4",
+      "sha1": "4B:7B:8F:DD:AA:19:F6:57:2C:84:A2:94:37:7D:C7:85:38:0C:39:E4",
+      "sha256": "3F:1B:7E:CA:D7:D2:DE:97:D8:7C:7C:1F:D7:82:35:F4:71:FB:EA:5A:12:76:43:17:11:96:3B:01:9A:33:99:E4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.defesareceitas.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.defesareceitas.com.br",
+        "subjectKeyIdentifier": "keyid:c0:ec:ed:54:59:4e:4d:84:e5:bd:04:1f:14:32:f8:ed:c5:8d:8a:13"
+      }
+    },
+    "cert_index": 4398631174,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4398631174&end=4398631174",
+    "seen": 1787658495.75,
+    "submission_timestamp": 1779494992.489,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

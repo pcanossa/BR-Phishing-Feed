@@ -1,0 +1,51 @@
+{
+  "dominio": "supabase-staging.crewclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 08:08:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "supabase-staging.crewclaro.com",
+        "aggregated": "/CN=supabase-staging.crewclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "051DA86C6A537E8BF983F6C92D7F07115F89",
+      "not_before": 1780948648,
+      "not_after": 1788724647,
+      "fingerprint": "01:CF:D2:92:88:2F:58:55:E9:D1:FB:E1:22:79:5C:65:0A:66:6C:EC",
+      "sha1": "01:CF:D2:92:88:2F:58:55:E9:D1:FB:E1:22:79:5C:65:0A:66:6C:EC",
+      "sha256": "54:41:79:46:29:C4:25:D9:F7:03:41:77:69:AB:97:70:57:E5:E2:5C:C3:18:B0:19:26:1C:34:5A:15:FA:13:46",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "supabase-staging.crewclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:supabase-staging.crewclaro.com",
+        "subjectKeyIdentifier": "keyid:0b:da:da:a3:3e:f6:8f:dd:db:9d:6a:c9:61:34:ee:fd:d1:22:70:09"
+      }
+    },
+    "cert_index": 244092449,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x953/486",
+    "seen": 1787656133.278,
+    "submission_timestamp": 1780952158.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

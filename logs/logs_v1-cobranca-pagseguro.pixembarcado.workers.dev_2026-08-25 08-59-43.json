@@ -1,0 +1,53 @@
+{
+  "dominio": "v1-cobranca-pagseguro.pixembarcado.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 08:59:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pixembarcado.workers.dev",
+        "aggregated": "/CN=pixembarcado.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "92F7187B18DB76520ED419964F9885F8",
+      "not_before": 1778698711,
+      "not_after": 1786478171,
+      "fingerprint": "76:41:EE:A8:75:2E:FC:10:AB:BF:4C:4A:63:06:C8:D8:E7:2F:B5:D3",
+      "sha1": "76:41:EE:A8:75:2E:FC:10:AB:BF:4C:4A:63:06:C8:D8:E7:2F:B5:D3",
+      "sha256": "AC:D7:BD:74:FF:B0:AE:EF:84:4B:06:27:BE:3B:F6:74:FB:9A:97:B6:D5:52:2B:73:3F:46:70:47:B9:CD:CD:45",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pixembarcado.workers.dev",
+        "*.v1-cobranca-pagseguro.pixembarcado.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/kvc, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pixembarcado.workers.dev, DNS:*.v1-cobranca-pagseguro.pixembarcado.workers.dev",
+        "subjectKeyIdentifier": "keyid:a2:1d:ed:6a:b7:41:e5:a6:61:18:8a:45:83:94:b9:12:99:92:86:15",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 684231304,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=684231304&end=684231304",
+    "seen": 1787659181.527,
+    "submission_timestamp": 1778702312.226,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.co.th",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 08:21:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.co.th",
+        "aggregated": "/CN=*.cpf.co.th"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0260043CC0379B2718F01974811B72C0",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "6F:77:DF:1E:E1:3A:FE:78:D6:9D:F3:8E:69:B5:43:56:6E:D6:E4:9A",
+      "sha1": "6F:77:DF:1E:E1:3A:FE:78:D6:9D:F3:8E:69:B5:43:56:6E:D6:E4:9A",
+      "sha256": "03:E6:83:FA:A2:FB:32:C2:BA:2C:42:59:59:19:CF:F1:54:AB:12:5A:2A:3A:81:8A:90:06:FC:A5:14:FD:CD:CC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.co.th",
+        "cpf.co.th"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.co.th, DNS:cpf.co.th",
+        "subjectKeyIdentifier": "keyid:7a:cb:6e:2c:55:15:9c:fd:8b:b1:16:f4:e9:76:fa:05:a2:83:92:82"
+      }
+    },
+    "cert_index": 90058277,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x351/790",
+    "seen": 1787656892.608,
+    "submission_timestamp": 1783383815.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

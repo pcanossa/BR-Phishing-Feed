@@ -1,0 +1,51 @@
+{
+  "dominio": "test-app-euc1.serasamaonaroda.online",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/25/26 08:19:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "test-app-euc1.serasamaonaroda.online",
+        "aggregated": "/CN=test-app-euc1.serasamaonaroda.online"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "1A735B883ED7872137CA8C0EA979987F",
+      "not_before": 1780531200,
+      "not_after": 1788393599,
+      "fingerprint": "8A:EB:94:73:E9:2A:EE:89:36:1B:3B:C1:B0:B8:A3:B0:C4:B8:87:EF",
+      "sha1": "8A:EB:94:73:E9:2A:EE:89:36:1B:3B:C1:B0:B8:A3:B0:C4:B8:87:EF",
+      "sha256": "8B:91:58:F9:7A:F2:9B:9A:2D:33:74:E0:9C:8A:AF:3A:4D:7C:8E:8D:AD:42:42:15:4F:07:CE:CF:C7:14:E0:CB",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "test-app-euc1.serasamaonaroda.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:test-app-euc1.serasamaonaroda.online",
+        "subjectKeyIdentifier": "keyid:f2:65:f7:04:26:a9:39:f7:49:01:1c:75:e8:d6:e9:a8:ef:78:ae:d1"
+      }
+    },
+    "cert_index": 382064815,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x492/440",
+    "seen": 1787656795.68,
+    "submission_timestamp": 1780535943.271,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

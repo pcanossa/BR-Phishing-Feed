@@ -1,0 +1,52 @@
+{
+  "dominio": "b3-compliance.data2.app",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/25/26 08:47:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "b3-compliance.data2.app",
+        "aggregated": "/CN=b3-compliance.data2.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "0526AE2A7F4876DC624BBA259C6C1182DF46",
+      "not_before": 1780930877,
+      "not_after": 1788706876,
+      "fingerprint": "F5:BF:0F:56:E5:DA:B5:75:2F:5C:7A:1F:E9:8D:81:83:00:08:6C:4B",
+      "sha1": "F5:BF:0F:56:E5:DA:B5:75:2F:5C:7A:1F:E9:8D:81:83:00:08:6C:4B",
+      "sha256": "F2:B5:CE:6E:D3:AD:32:50:A9:F9:0E:89:C2:78:82:D1:E7:A0:B3:EE:EC:6D:B3:29:17:04:DD:8C:93:64:9A:3D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "b3-compliance.data2.app",
+        "*.b3-compliance.data2.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.b3-compliance.data2.app, DNS:b3-compliance.data2.app",
+        "subjectKeyIdentifier": "keyid:56:6e:1c:54:01:6c:12:28:28:4c:9d:2b:f9:3a:fe:d3:e8:f1:77:c3"
+      }
+    },
+    "cert_index": 259146513,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x012/291",
+    "seen": 1787658470.918,
+    "submission_timestamp": 1780934387.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

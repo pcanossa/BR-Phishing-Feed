@@ -1,0 +1,52 @@
+{
+  "dominio": "qa.api.assinaturas.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 08:55:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "qa.api.assinaturas.pagseguro.com",
+        "aggregated": "/CN=qa.api.assinaturas.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "03749F897778FC26B5F6E9672325AB83",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "C5:62:10:1A:CF:C3:BF:C5:A3:10:CB:A0:52:55:38:B6:2F:4B:91:85",
+      "sha1": "C5:62:10:1A:CF:C3:BF:C5:A3:10:CB:A0:52:55:38:B6:2F:4B:91:85",
+      "sha256": "37:4C:BC:CD:1C:26:8F:45:57:50:55:1E:5F:2D:D3:BD:71:F0:12:B5:BA:9C:6D:C1:62:5B:58:57:65:CA:50:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "qa.api.assinaturas.pagseguro.com",
+        "www.qa.api.assinaturas.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:qa.api.assinaturas.pagseguro.com, DNS:www.qa.api.assinaturas.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:cd:11:e9:a9:5d:a4:e6:a1:cd:18:01:ad:85:af:8f:82:e9:6a:c0:31"
+      }
+    },
+    "cert_index": 90348033,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x352/922",
+    "seen": 1787658934.214,
+    "submission_timestamp": 1783399324.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
