@@ -1,0 +1,52 @@
+{
+  "dominio": "jcpp-tim.dts-bobswift.appfire.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/26/26 12:43:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "jcpp-tim.dts-bobswift.appfire.app",
+        "aggregated": "/CN=jcpp-tim.dts-bobswift.appfire.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E5D883BD2A6548F5693B1AB21F5E354",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "17:B8:B0:93:A4:C5:D2:B8:1C:BF:12:88:10:17:49:E0:A6:94:20:48",
+      "sha1": "17:B8:B0:93:A4:C5:D2:B8:1C:BF:12:88:10:17:49:E0:A6:94:20:48",
+      "sha256": "C7:3C:3D:EB:74:D0:C6:8E:AF:E2:AB:E8:8F:2F:0E:2F:E3:02:77:32:62:C2:4F:19:BB:DA:72:B8:61:F9:D1:5D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "jcpp-tim.dts-bobswift.appfire.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:jcpp-tim.dts-bobswift.appfire.app",
+        "subjectKeyIdentifier": "keyid:cf:02:39:6a:de:3a:01:64:af:64:cb:84:16:ec:28:53:78:4e:cb:d5",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 123172050,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=123172050&end=123172050",
+    "seen": 1787759014.574,
+    "submission_timestamp": 1783223965.31,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

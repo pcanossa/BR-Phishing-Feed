@@ -1,0 +1,52 @@
+{
+  "dominio": "www.itaudit.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 12:34:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.itaudit.app",
+        "aggregated": "/CN=www.itaudit.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "5E25F5B2EDB0A0FE",
+      "not_before": 1783945635,
+      "not_after": 1801052835,
+      "fingerprint": "65:42:30:A0:DC:5C:77:E3:BF:3D:C1:BD:1C:76:D6:D4:9F:17:A0:49",
+      "sha1": "65:42:30:A0:DC:5C:77:E3:BF:3D:C1:BD:1C:76:D6:D4:9F:17:A0:49",
+      "sha256": "8C:02:C5:22:9C:78:21:0C:EB:2E:E0:10:B9:F8:A0:9F:92:55:27:42:F5:5B:AC:12:6B:5A:BF:57:E0:A8:82:D5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.itaudit.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.itaudit.app",
+        "subjectKeyIdentifier": "keyid:6d:aa:3a:c6:c3:c8:98:97:18:e9:0a:20:71:e5:32:4b:aa:b5:2a:1a",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 92217459,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=92217459&end=92217459",
+    "seen": 1787758463.075,
+    "submission_timestamp": 1783945636.73,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

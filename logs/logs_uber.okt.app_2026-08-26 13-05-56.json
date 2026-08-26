@@ -1,0 +1,52 @@
+{
+  "dominio": "uber.okt.app",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/26/26 13:05:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uber.okt.app",
+        "aggregated": "/CN=uber.okt.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "080FD5B1535C73A30ADB607006192AE4",
+      "not_before": 1781308800,
+      "not_after": 1789084799,
+      "fingerprint": "8A:E1:5C:14:FF:55:CA:37:08:58:12:F0:45:DA:CC:1E:2C:97:B1:55",
+      "sha1": "8A:E1:5C:14:FF:55:CA:37:08:58:12:F0:45:DA:CC:1E:2C:97:B1:55",
+      "sha256": "8A:CA:CC:8C:D4:E7:5E:4C:C4:70:41:3E:0F:3D:43:07:34:60:85:1A:09:4A:99:5B:2D:5A:A3:E2:77:B6:B4:0F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uber.okt.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:uber.okt.app",
+        "subjectKeyIdentifier": "keyid:7f:d9:6b:c5:a6:a1:0d:6c:1e:85:f5:9e:47:6c:e2:21:2f:38:4d:cb"
+      }
+    },
+    "cert_index": 273902020,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x069/929",
+    "seen": 1787760350.719,
+    "submission_timestamp": 1781370271.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

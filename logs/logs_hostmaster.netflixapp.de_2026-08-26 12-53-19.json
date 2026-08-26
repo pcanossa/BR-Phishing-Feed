@@ -1,0 +1,52 @@
+{
+  "dominio": "hostmaster.netflixapp.de",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 12:53:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "hostmaster.netflixapp.de",
+        "aggregated": "/CN=hostmaster.netflixapp.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0582B579CF5F6910B09FAED703ECA383",
+      "not_before": 1781308800,
+      "not_after": 1789084799,
+      "fingerprint": "B9:3D:B5:3F:4D:AE:FC:28:A0:65:99:CE:F6:29:34:4A:D7:4D:02:CF",
+      "sha1": "B9:3D:B5:3F:4D:AE:FC:28:A0:65:99:CE:F6:29:34:4A:D7:4D:02:CF",
+      "sha256": "8E:A2:5C:20:36:BE:85:E6:2B:08:AE:A1:EA:2D:BA:EC:78:D1:2E:C1:C8:25:02:65:84:CE:60:48:D8:A0:2A:51",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "hostmaster.netflixapp.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:hostmaster.netflixapp.de",
+        "subjectKeyIdentifier": "keyid:96:20:d4:8a:07:ef:e4:7e:64:d9:99:74:e2:f4:35:d1:38:49:dc:5b"
+      }
+    },
+    "cert_index": 273788453,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x069/486",
+    "seen": 1787759594.524,
+    "submission_timestamp": 1781367490.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

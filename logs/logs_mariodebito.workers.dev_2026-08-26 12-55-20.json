@@ -1,0 +1,53 @@
+{
+  "dominio": "mariodebito.workers.dev",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 12:55:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mariodebito.workers.dev",
+        "aggregated": "/CN=mariodebito.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "F8E8A0B3C29D49990E424E9E25358A34",
+      "not_before": 1779441305,
+      "not_after": 1787220756,
+      "fingerprint": "04:09:09:AB:49:9B:F1:03:ED:AC:AF:0B:04:CE:60:5E:1F:1D:AD:64",
+      "sha1": "04:09:09:AB:49:9B:F1:03:ED:AC:AF:0B:04:CE:60:5E:1F:1D:AD:64",
+      "sha256": "32:BC:6A:F9:40:1F:45:C8:AC:10:45:B4:A7:EF:B4:82:C4:55:D0:EA:2E:15:28:9E:0D:F2:F9:80:F1:70:5A:28",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mariodebito.workers.dev",
+        "*.mariodebito.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/-Og, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mariodebito.workers.dev, DNS:*.mariodebito.workers.dev",
+        "subjectKeyIdentifier": "keyid:1b:c4:1c:82:f1:85:0f:99:b6:1c:a1:62:6b:85:28:56:97:2d:6f:75",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 855055970,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=855055970&end=855055970",
+    "seen": 1787759716.837,
+    "submission_timestamp": 1779444906.391,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

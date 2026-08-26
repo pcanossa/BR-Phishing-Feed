@@ -1,0 +1,53 @@
+{
+  "dominio": "debitos-detransp.cfd",
+  "marcas_encontradas": [
+    "detran",
+    "debito"
+  ],
+  "timestamp": "08/26/26 12:51:01",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitos-detransp.cfd",
+        "aggregated": "/CN=debitos-detransp.cfd"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6DF30B64130342850E53152129D6B8E3",
+      "not_before": 1779227865,
+      "not_after": 1787007382,
+      "fingerprint": "CB:81:D7:38:AF:1F:30:D9:F6:8B:47:55:42:D5:35:BF:48:06:0D:22",
+      "sha1": "CB:81:D7:38:AF:1F:30:D9:F6:8B:47:55:42:D5:35:BF:48:06:0D:22",
+      "sha256": "7D:66:3F:20:FC:A7:B1:BC:5A:DA:42:E6:AE:0E:F9:8D:07:78:4C:2A:36:80:20:27:DC:6E:BB:9C:E6:35:06:92",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitos-detransp.cfd",
+        "*.debitos-detransp.cfd"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/bfM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitos-detransp.cfd, DNS:*.debitos-detransp.cfd",
+        "subjectKeyIdentifier": "keyid:4b:b4:ce:57:b7:d2:a3:df:d6:ab:26:c1:af:25:85:30:a0:2c:a8:66"
+      }
+    },
+    "cert_index": 4411236750,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4411236750&end=4411236750",
+    "seen": 1787759456.238,
+    "submission_timestamp": 1779547368.163,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

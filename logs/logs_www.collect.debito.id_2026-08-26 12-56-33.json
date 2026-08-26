@@ -1,0 +1,54 @@
+{
+  "dominio": "www.collect.debito.id",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 12:56:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "collect.debito.id",
+        "aggregated": "/CN=collect.debito.id"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "023639B55813811FD3160E4CA81D41B7",
+      "not_before": 1787702400,
+      "not_after": 1803686399,
+      "fingerprint": "17:5A:77:F7:6C:47:C5:9E:F3:03:5C:A0:D1:21:9D:35:53:DC:10:8D",
+      "sha1": "17:5A:77:F7:6C:47:C5:9E:F3:03:5C:A0:D1:21:9D:35:53:DC:10:8D",
+      "sha256": "15:E7:93:B2:46:73:2F:88:55:69:C6:9C:5D:E9:D5:B3:26:74:22:71:57:66:3F:49:5E:BD:7C:E4:07:3E:C1:FD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "collect.debito.id",
+        "www.collect.debito.id"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:collect.debito.id, DNS:www.collect.debito.id",
+        "subjectKeyIdentifier": "keyid:f0:a7:21:a2:d5:5d:97:53:8b:53:32:32:88:0f:bd:b7:f3:1c:85:7b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 73241608,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=73241608&end=73241608",
+    "seen": 1787759788.745,
+    "submission_timestamp": 1787728347.402,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

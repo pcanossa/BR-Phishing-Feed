@@ -1,0 +1,52 @@
+{
+  "dominio": "itaudit.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 12:34:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itaudit.app",
+        "aggregated": "/CN=itaudit.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "A5C641A127A00E3E",
+      "not_before": 1783945665,
+      "not_after": 1801052865,
+      "fingerprint": "B8:41:FF:D8:67:9A:E0:29:B6:09:5B:A0:93:41:09:D2:4D:C3:D9:86",
+      "sha1": "B8:41:FF:D8:67:9A:E0:29:B6:09:5B:A0:93:41:09:D2:4D:C3:D9:86",
+      "sha256": "13:E8:65:D7:8C:E4:79:48:1C:08:05:FF:D7:FB:AB:C3:CB:30:03:06:3C:11:CE:3B:B1:D6:02:BF:76:A8:9E:8A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "itaudit.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:itaudit.app",
+        "subjectKeyIdentifier": "keyid:90:82:7b:f1:3b:96:c1:e0:5c:6d:7c:de:00:0c:ef:b2:dd:96:5f:dd",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 92218027,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=92218027&end=92218027",
+    "seen": 1787758467.055,
+    "submission_timestamp": 1783945666.4,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}
