@@ -1,0 +1,52 @@
+{
+  "dominio": "app.westsidetransit.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/26/26 18:14:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.westsidetransit.com",
+        "aggregated": "/CN=app.westsidetransit.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "6774F346F041BF8DC51279A4C71E72DF",
+      "not_before": 1779408000,
+      "not_after": 1787270399,
+      "fingerprint": "DE:83:A3:8E:6F:24:60:87:90:31:E5:AF:99:EA:09:09:8E:0C:71:44",
+      "sha1": "DE:83:A3:8E:6F:24:60:87:90:31:E5:AF:99:EA:09:09:8E:0C:71:44",
+      "sha256": "8D:F8:84:24:91:FB:99:06:13:61:3C:79:14:56:07:CD:5F:88:61:44:5B:B7:59:28:1E:68:6F:11:83:1F:79:D9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.westsidetransit.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.westsidetransit.com",
+        "subjectKeyIdentifier": "keyid:d4:c2:97:fe:a7:7a:93:84:8f:b0:d1:10:47:0a:2e:c7:a1:72:33:94",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 857493265,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=857493265&end=857493265",
+    "seen": 1787778871.339,
+    "submission_timestamp": 1779458702.008,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

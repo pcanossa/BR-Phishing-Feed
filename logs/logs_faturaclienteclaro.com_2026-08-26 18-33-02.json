@@ -1,0 +1,53 @@
+{
+  "dominio": "faturaclienteclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 18:33:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "faturaclienteclaro.com",
+        "aggregated": "/CN=faturaclienteclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "50876BB0F3F6A04D0E5BBABE4D610E68",
+      "not_before": 1778824155,
+      "not_after": 1786603606,
+      "fingerprint": "B1:FC:CE:D6:20:00:61:8F:D6:14:F5:9B:38:9B:5A:7D:8E:FF:44:47",
+      "sha1": "B1:FC:CE:D6:20:00:61:8F:D6:14:F5:9B:38:9B:5A:7D:8E:FF:44:47",
+      "sha256": "33:78:15:46:4A:F1:6C:82:31:2E:44:0D:06:ED:36:28:44:F7:12:11:AA:04:AA:71:82:FC:62:26:EF:76:CE:A2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "faturaclienteclaro.com",
+        "*.faturaclienteclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/UIc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:faturaclienteclaro.com, DNS:*.faturaclienteclaro.com",
+        "subjectKeyIdentifier": "keyid:d0:22:8d:4f:5c:21:ce:bf:99:9f:98:79:ce:62:d8:8f:7f:64:b9:9c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 700100084,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=700100084&end=700100084",
+    "seen": 1787779976.78,
+    "submission_timestamp": 1778827755.695,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

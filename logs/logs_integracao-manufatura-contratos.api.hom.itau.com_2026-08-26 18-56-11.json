@@ -1,0 +1,52 @@
+{
+  "dominio": "integracao-manufatura-contratos.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 18:56:11",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "integracao-manufatura-contratos.api.hom.itau.com",
+        "aggregated": "/CN=integracao-manufatura-contratos.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "07EFB640F36C3DA5A7CAF87E5D200698",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "CC:E1:B5:28:71:3C:FA:5B:0D:A0:A1:B6:F6:A5:5E:1E:60:C2:10:54",
+      "sha1": "CC:E1:B5:28:71:3C:FA:5B:0D:A0:A1:B6:F6:A5:5E:1E:60:C2:10:54",
+      "sha256": "E8:2F:2A:36:7A:60:68:6B:5D:56:F0:41:14:02:22:F5:DA:E7:48:A8:C2:AF:B1:B7:93:5A:25:91:C4:29:A5:50",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "integracao-manufatura-contratos.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:integracao-manufatura-contratos.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:2d:5f:40:a9:52:ad:b8:90:17:a6:44:f8:43:1e:26:5f:6f:70:25:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 105249883,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=105249883&end=105249883",
+    "seen": 1787781365.784,
+    "submission_timestamp": 1784420081.152,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

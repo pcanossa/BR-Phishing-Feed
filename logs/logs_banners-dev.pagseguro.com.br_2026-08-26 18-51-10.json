@@ -1,0 +1,52 @@
+{
+  "dominio": "banners-dev.pagseguro.com.br",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 18:51:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banners-dev.pagseguro.com.br",
+        "aggregated": "/CN=banners-dev.pagseguro.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "018802D431DF9EB2F66454182E401BEA",
+      "not_before": 1784505600,
+      "not_after": 1801612799,
+      "fingerprint": "DB:4F:07:28:99:F0:CE:30:28:44:54:34:F0:5F:FC:92:59:7C:07:E9",
+      "sha1": "DB:4F:07:28:99:F0:CE:30:28:44:54:34:F0:5F:FC:92:59:7C:07:E9",
+      "sha256": "29:0B:DB:A4:5B:24:B2:B0:89:36:CD:A9:34:89:4F:BA:85:A6:2E:64:3F:B5:A3:3D:53:CD:FD:34:BC:C2:8C:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "banners-dev.pagseguro.com.br",
+        "www.banners-dev.pagseguro.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banners-dev.pagseguro.com.br, DNS:www.banners-dev.pagseguro.com.br",
+        "subjectKeyIdentifier": "keyid:d4:88:9b:56:c8:8a:f9:98:92:95:5b:95:b6:95:1a:ed:8b:ce:e8:43"
+      }
+    },
+    "cert_index": 99260971,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x387/738",
+    "seen": 1787781064.28,
+    "submission_timestamp": 1784519033.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dominio": "app1.c6bank.app",
+  "marcas_encontradas": [
+    "c6bank"
+  ],
+  "timestamp": "08/26/26 18:56:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.c6bank.app",
+        "aggregated": "/CN=app.c6bank.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "047BFCEA7610F64F2B2935F0929622A5",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "0D:88:3B:96:BD:95:48:B1:4E:E1:4B:E6:22:ED:6E:9C:62:24:EE:9B",
+      "sha1": "0D:88:3B:96:BD:95:48:B1:4E:E1:4B:E6:22:ED:6E:9C:62:24:EE:9B",
+      "sha256": "03:B5:A6:7F:27:FE:E5:27:94:D9:40:5A:8F:C4:34:E2:F5:E5:EB:02:71:B0:6F:C2:1E:BB:87:8A:CA:5B:BA:33",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.c6bank.app",
+        "apptest.c6bank.app",
+        "app2.c6bank.app",
+        "apptest1.c6bank.app",
+        "app1.c6bank.app",
+        "apptest2.c6bank.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.c6bank.app, DNS:apptest.c6bank.app, DNS:app2.c6bank.app, DNS:apptest1.c6bank.app, DNS:app1.c6bank.app, DNS:apptest2.c6bank.app",
+        "subjectKeyIdentifier": "keyid:a8:57:c3:af:a7:f2:4b:5c:da:7b:c3:ad:79:68:17:ac:d9:3a:a3:71",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 105252848,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=105252848&end=105252848",
+    "seen": 1787781383.479,
+    "submission_timestamp": 1784420173.136,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

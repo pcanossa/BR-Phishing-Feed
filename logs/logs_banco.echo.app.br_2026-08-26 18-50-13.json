@@ -1,0 +1,51 @@
+{
+  "dominio": "banco.echo.app.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/26/26 18:50:13",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "banco.echo.app.br",
+        "aggregated": "/CN=banco.echo.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05615628362F32ED000BC47F89839DE7FA33",
+      "not_before": 1779554419,
+      "not_after": 1787330418,
+      "fingerprint": "41:BA:85:26:11:D1:BE:05:D1:B2:23:DE:62:AA:03:53:50:70:DF:8B",
+      "sha1": "41:BA:85:26:11:D1:BE:05:D1:B2:23:DE:62:AA:03:53:50:70:DF:8B",
+      "sha256": "16:B2:37:24:CE:FA:8D:F5:03:DB:7B:3A:E3:C7:51:33:3D:5D:44:EC:D4:0B:64:03:17:D8:C4:E6:1D:C6:8F:64",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "banco.echo.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:banco.echo.app.br",
+        "subjectKeyIdentifier": "keyid:af:ee:77:24:45:17:51:00:af:fe:67:8c:21:de:0f:6a:21:3d:29:e7"
+      }
+    },
+    "cert_index": 4413980937,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4413980937&end=4413980937",
+    "seen": 1787781007.831,
+    "submission_timestamp": 1779557932.899,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

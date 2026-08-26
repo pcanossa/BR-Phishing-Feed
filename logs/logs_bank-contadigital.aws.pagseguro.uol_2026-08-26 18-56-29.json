@@ -1,0 +1,52 @@
+{
+  "dominio": "bank-contadigital.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 18:56:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bank-contadigital.aws.pagseguro.uol",
+        "aggregated": "/CN=*.bank-contadigital.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0D70ECB2BD6E7F3C027ED67FD16E90B0",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "A9:FA:03:F4:36:42:90:28:B6:14:42:EB:4E:A0:DB:BA:A2:01:77:F4",
+      "sha1": "A9:FA:03:F4:36:42:90:28:B6:14:42:EB:4E:A0:DB:BA:A2:01:77:F4",
+      "sha256": "97:B8:AF:E1:21:66:C2:FC:81:4E:97:55:E7:E2:7B:39:E4:8E:A2:36:2A:D9:93:88:BA:DA:F9:B7:55:25:FB:F6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bank-contadigital.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bank-contadigital.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:1c:1a:0f:c5:93:05:8f:63:05:ca:ab:70:11:2e:e7:82:d5:49:f1:3f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 105252609,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=105252609&end=105252609",
+    "seen": 1787781383.32,
+    "submission_timestamp": 1784420165.924,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

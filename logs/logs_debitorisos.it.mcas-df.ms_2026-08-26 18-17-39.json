@@ -1,0 +1,59 @@
+{
+  "dominio": "debitorisos.it.mcas-df.ms",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 18:17:39",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.debitorisos.it.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.debitorisos.it.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "4300D6BF8B6ADAA30BE2F969A1000000D6BF8B",
+      "not_before": 1787777963,
+      "not_after": 1803329963,
+      "fingerprint": "19:0C:29:D8:6A:C7:40:18:36:3D:82:7D:5C:28:20:64:86:FC:9B:98",
+      "sha1": "19:0C:29:D8:6A:C7:40:18:36:3D:82:7D:5C:28:20:64:86:FC:9B:98",
+      "sha256": "41:8F:70:ED:B7:CD:37:1E:97:5C:A3:13:F7:D2:D1:C9:A8:D8:ED:95:30:61:23:A0:4B:62:07:51:81:17:49:0A",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitorisos.it.mcas.ms",
+        "*.debitorisos.it.admin-mcas.ms",
+        "*.debitorisos.it.mcas-df.ms",
+        "*.debitorisos.it.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitorisos.it.mcas.ms, DNS:*.debitorisos.it.admin-mcas.ms, DNS:*.debitorisos.it.mcas-df.ms, DNS:*.debitorisos.it.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:6c:3f:da:10:96:09:9c:3a:9d:7d:3e:b4:41:25:84:7b:ee:f3:76:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 74263707,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=74263707&end=74263707",
+    "seen": 1787779053.988,
+    "submission_timestamp": 1787779050.411,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}
