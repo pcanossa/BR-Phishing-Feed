@@ -1,0 +1,52 @@
+{
+  "dominio": "imposto-receita-federal.org",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/26/26 16:46:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imposto-receita-federal.org",
+        "aggregated": "/CN=imposto-receita-federal.org"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "9F355687EDC8C8740C01EB17300963FF",
+      "not_before": 1779494400,
+      "not_after": 1787355265,
+      "fingerprint": "56:8E:A8:C6:53:CD:47:4A:2D:14:2B:31:04:1D:41:19:24:8E:F7:D6",
+      "sha1": "56:8E:A8:C6:53:CD:47:4A:2D:14:2B:31:04:1D:41:19:24:8E:F7:D6",
+      "sha256": "85:CA:5E:1B:88:D4:37:D5:09:6D:CA:6B:2B:D4:CA:3F:90:50:07:F5:F3:48:25:08:07:A9:65:7E:08:19:9B:A1",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "imposto-receita-federal.org",
+        "*.imposto-receita-federal.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:imposto-receita-federal.org, DNS:*.imposto-receita-federal.org",
+        "subjectKeyIdentifier": "keyid:67:4f:8a:54:de:49:e5:05:f4:c5:76:83:57:66:27:3a:f9:e6:ea:9d"
+      }
+    },
+    "cert_index": 275810774,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x077/385",
+    "seen": 1787773555.153,
+    "submission_timestamp": 1781438461.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

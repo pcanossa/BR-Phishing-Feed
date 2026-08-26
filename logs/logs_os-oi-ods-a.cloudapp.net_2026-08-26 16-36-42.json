@@ -1,0 +1,58 @@
+{
+  "dominio": "os-oi-ods-a.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 16:36:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "os-oi-ods.trafficmanager.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=os-oi-ods.trafficmanager.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "41002E7B825CBABEC26D4DB5F60000002E7B82",
+      "not_before": 1778819277,
+      "not_after": 1794371277,
+      "fingerprint": "A2:7E:00:A0:18:F8:2D:E1:AA:06:1A:CA:D7:54:89:1A:91:8D:99:C1",
+      "sha1": "A2:7E:00:A0:18:F8:2D:E1:AA:06:1A:CA:D7:54:89:1A:91:8D:99:C1",
+      "sha256": "5C:21:6E:26:C5:5D:E3:D6:94:45:73:66:E2:F7:D9:7D:F1:9A:DE:67:DE:6E:30:1B:3E:DC:D3:B1:91:2E:BA:73",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "os-oi-ods.trafficmanager.net",
+        "*.ods.opinsights.azure.com",
+        "os-oi-ods-a.cloudapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ods.opinsights.azure.com, DNS:os-oi-ods-a.cloudapp.net, DNS:os-oi-ods.trafficmanager.net",
+        "subjectKeyIdentifier": "keyid:b3:a5:e3:27:1a:8a:3f:b9:a3:95:b1:60:00:76:e7:78:d0:eb:2f:a4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 699132862,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=699132862&end=699132862",
+    "seen": 1787772996.731,
+    "submission_timestamp": 1778819882.207,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

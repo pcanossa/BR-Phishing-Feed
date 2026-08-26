@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cpf.church",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 16:57:25",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.church",
+        "aggregated": "/CN=cpf.church"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0628D8774E0573C532B1AFF00EBCA3EA7B20",
+      "not_before": 1779550794,
+      "not_after": 1787326793,
+      "fingerprint": "75:70:2B:8E:06:0D:CB:C7:49:94:E2:18:B0:60:AC:23:09:5A:7C:E9",
+      "sha1": "75:70:2B:8E:06:0D:CB:C7:49:94:E2:18:B0:60:AC:23:09:5A:7C:E9",
+      "sha256": "DC:82:8C:9B:F6:F5:D2:06:85:30:43:FF:71:9C:C3:C1:C7:9B:8D:04:47:8B:AF:7A:68:34:21:40:1E:38:69:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.church",
+        "www.cpf.church"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.church, DNS:www.cpf.church",
+        "subjectKeyIdentifier": "keyid:d8:24:44:49:07:74:98:bd:00:47:ac:89:5b:50:c6:de:88:7c:dc:95"
+      }
+    },
+    "cert_index": 4413142948,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4413142948&end=4413142948",
+    "seen": 1787774240.285,
+    "submission_timestamp": 1779554604.008,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

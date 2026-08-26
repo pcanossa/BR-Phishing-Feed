@@ -1,0 +1,51 @@
+{
+  "dominio": "cpfs-receita.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/26/26 16:33:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpfs-receita.com",
+        "aggregated": "/CN=cpfs-receita.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "19CAE56DA0B45D62",
+      "not_before": 1780828226,
+      "not_after": 1797935426,
+      "fingerprint": "A6:92:BC:96:3C:A6:15:DC:E5:A3:BF:C5:45:66:74:73:B4:C6:4B:EC",
+      "sha1": "A6:92:BC:96:3C:A6:15:DC:E5:A3:BF:C5:45:66:74:73:B4:C6:4B:EC",
+      "sha256": "4D:39:DD:11:6E:E7:33:7E:D1:8F:96:5B:95:5A:6E:09:D9:12:09:70:12:C5:F9:DD:AD:CF:F9:00:E4:06:06:6D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpfs-receita.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpfs-receita.com",
+        "subjectKeyIdentifier": "keyid:7c:a5:8f:8f:76:52:e9:79:02:16:ee:19:a0:05:9f:fc:52:2b:a6:4f"
+      }
+    },
+    "cert_index": 98143222,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x383/371",
+    "seen": 1787772803.613,
+    "submission_timestamp": 1784447045.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

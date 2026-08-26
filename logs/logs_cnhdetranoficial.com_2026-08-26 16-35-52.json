@@ -1,0 +1,52 @@
+{
+  "dominio": "cnhdetranoficial.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/26/26 16:35:52",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cnhdetranoficial.com",
+        "aggregated": "/CN=*.cnhdetranoficial.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05307AEE92742B485BB4703F655BC7534752",
+      "not_before": 1779550361,
+      "not_after": 1787326360,
+      "fingerprint": "27:3E:F4:C6:B3:7D:E9:A2:37:2A:65:1E:59:8B:23:7C:79:D3:8A:AF",
+      "sha1": "27:3E:F4:C6:B3:7D:E9:A2:37:2A:65:1E:59:8B:23:7C:79:D3:8A:AF",
+      "sha256": "15:3E:19:D5:9D:54:BD:4F:2A:3B:9E:21:24:49:4A:C1:E5:8C:E8:A2:A0:2D:D9:E6:7D:73:0B:4E:72:49:E1:B1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cnhdetranoficial.com",
+        "cnhdetranoficial.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cnhdetranoficial.com, DNS:cnhdetranoficial.com",
+        "subjectKeyIdentifier": "keyid:38:84:d5:28:18:b7:ff:b1:cb:30:9f:3e:cd:66:96:51:9f:77:21:6b"
+      }
+    },
+    "cert_index": 4412974650,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412974650&end=4412974650",
+    "seen": 1787772946.375,
+    "submission_timestamp": 1779553874.576,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

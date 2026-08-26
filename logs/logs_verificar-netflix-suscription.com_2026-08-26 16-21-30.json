@@ -1,0 +1,52 @@
+{
+  "dominio": "verificar-netflix-suscription.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 16:21:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "verificar-netflix-suscription.com",
+        "aggregated": "/CN=verificar-netflix-suscription.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05EBB4C34E341FBC27DDFE525569270F14CD",
+      "not_before": 1781456360,
+      "not_after": 1789232359,
+      "fingerprint": "7F:90:52:EA:33:01:E7:FA:B5:4A:15:8B:66:F4:97:6F:43:E6:E2:8E",
+      "sha1": "7F:90:52:EA:33:01:E7:FA:B5:4A:15:8B:66:F4:97:6F:43:E6:E2:8E",
+      "sha256": "D8:C9:9E:F7:D1:69:37:47:93:81:F4:26:3A:9F:63:F6:3A:EB:EC:F9:30:82:34:C4:68:17:FE:E2:B3:1F:B6:C9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "verificar-netflix-suscription.com",
+        "*.verificar-netflix-suscription.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.verificar-netflix-suscription.com, DNS:verificar-netflix-suscription.com",
+        "subjectKeyIdentifier": "keyid:65:ec:06:fd:8c:dc:8f:9f:d7:c3:f7:71:21:5e:c3:4f:34:5e:63:88"
+      }
+    },
+    "cert_index": 260041746,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x015/788",
+    "seen": 1787772084.77,
+    "submission_timestamp": 1781459870.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

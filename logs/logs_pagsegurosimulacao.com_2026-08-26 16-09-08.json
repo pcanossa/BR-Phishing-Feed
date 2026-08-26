@@ -1,0 +1,52 @@
+{
+  "dominio": "pagsegurosimulacao.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 16:09:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagsegurosimulacao.com",
+        "aggregated": "/CN=pagsegurosimulacao.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "391D7B5BD8065B2E",
+      "not_before": 1783289814,
+      "not_after": 1800397014,
+      "fingerprint": "27:72:44:68:FF:D1:6D:9A:4D:42:26:DE:FE:EF:E4:22:40:FA:8B:55",
+      "sha1": "27:72:44:68:FF:D1:6D:9A:4D:42:26:DE:FE:EF:E4:22:40:FA:8B:55",
+      "sha256": "5F:30:80:A8:1C:2F:99:FE:30:46:31:B3:85:E5:A3:99:4A:25:ED:EA:54:86:5B:CC:22:B1:1A:14:61:AD:D2:DB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagsegurosimulacao.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagsegurosimulacao.com",
+        "subjectKeyIdentifier": "keyid:a3:73:92:5f:e0:2a:f4:2e:b4:a1:f7:f9:b0:76:46:eb:2f:86:c1:49",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 124728816,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=124728816&end=124728816",
+    "seen": 1787771342.56,
+    "submission_timestamp": 1783289815.386,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

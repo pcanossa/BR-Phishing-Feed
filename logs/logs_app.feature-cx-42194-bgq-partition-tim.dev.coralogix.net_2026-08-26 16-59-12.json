@@ -1,0 +1,53 @@
+{
+  "dominio": "app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/26/26 16:59:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+        "aggregated": "/CN=*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0C849B8DF978B189BD6B94D6BAD248E7",
+      "not_before": 1778976000,
+      "not_after": 1796083199,
+      "fingerprint": "B1:2E:85:B2:CE:37:1E:97:CF:DD:C9:55:76:B6:4D:1F:D5:E1:D9:0F",
+      "sha1": "B1:2E:85:B2:CE:37:1E:97:CF:DD:C9:55:76:B6:4D:1F:D5:E1:D9:0F",
+      "sha256": "00:DB:7E:08:8D:ED:A8:00:FD:E9:DC:30:6E:16:DF:E2:59:BC:9E:74:63:C3:9C:2D:6F:AB:2D:D3:D3:43:C9:19",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+        "dashboard.feature-cx-42194-bgq-partition-tim.dev.coralogix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app.feature-cx-42194-bgq-partition-tim.dev.coralogix.net, DNS:dashboard.feature-cx-42194-bgq-partition-tim.dev.coralogix.net",
+        "subjectKeyIdentifier": "keyid:72:71:0c:01:a6:56:18:a6:de:36:d0:81:74:03:a8:5d:ec:12:9f:3d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 692261981,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=692261981&end=692261981",
+    "seen": 1787774346.602,
+    "submission_timestamp": 1779011354.069,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

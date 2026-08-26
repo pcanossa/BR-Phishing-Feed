@@ -1,0 +1,52 @@
+{
+  "dominio": "itau-qa.login.sailpoint.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 16:55:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "itau-qa.login.sailpoint.com",
+        "aggregated": "/CN=itau-qa.login.sailpoint.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "9A04148FD07336640E31305231D3BA1C",
+      "not_before": 1778817561,
+      "not_after": 1786597093,
+      "fingerprint": "41:90:F5:F6:5A:53:19:86:30:D9:41:58:5D:08:F5:1A:56:33:EA:33",
+      "sha1": "41:90:F5:F6:5A:53:19:86:30:D9:41:58:5D:08:F5:1A:56:33:EA:33",
+      "sha256": "40:88:9E:9D:9B:FE:AA:03:60:1D:1C:F1:FD:67:64:4F:37:D8:9D:D3:09:1A:00:96:FE:3E:35:7F:E9:18:14:D1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "itau-qa.login.sailpoint.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/mgQ, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:itau-qa.login.sailpoint.com",
+        "subjectKeyIdentifier": "keyid:da:95:dc:79:9b:5d:5a:ce:d6:a4:33:f0:40:d2:e3:0b:12:2d:cd:3e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 699276249,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=699276249&end=699276249",
+    "seen": 1787774098.072,
+    "submission_timestamp": 1778821161.949,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

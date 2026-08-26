@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-uat.pg.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 16:15:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-uat.pg.com",
+        "aggregated": "/CN=cpf-uat.pg.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0EDE73B90D221ACD342AEEA8D6775329",
+      "not_before": 1781395200,
+      "not_after": 1797292799,
+      "fingerprint": "F7:16:9B:94:16:1A:93:0A:62:17:2A:6B:16:B0:38:69:74:53:62:EB",
+      "sha1": "F7:16:9B:94:16:1A:93:0A:62:17:2A:6B:16:B0:38:69:74:53:62:EB",
+      "sha256": "59:AA:85:7C:BC:AA:F9:51:55:45:E1:A5:EB:48:97:7D:12:54:C0:74:24:1F:B6:91:76:97:C9:26:69:CB:AB:C3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-uat.pg.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-uat.pg.com",
+        "subjectKeyIdentifier": "keyid:7e:07:fa:50:6b:fe:ae:5e:bf:71:23:b6:a9:83:d8:99:4f:de:7d:51"
+      }
+    },
+    "cert_index": 275549914,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x076/366",
+    "seen": 1787771745.85,
+    "submission_timestamp": 1781428371.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

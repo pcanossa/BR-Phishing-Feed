@@ -1,0 +1,52 @@
+{
+  "dominio": "banco.tpeni.app.br",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/26/26 16:21:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.tpeni.app.br",
+        "aggregated": "/CN=api.tpeni.app.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0621F2A16F7BC12590FF2D8862826B70F981",
+      "not_before": 1781426728,
+      "not_after": 1789202727,
+      "fingerprint": "D5:D7:78:97:0B:2C:69:43:0C:B5:CB:D0:A2:7F:AD:D5:72:4C:1E:FB",
+      "sha1": "D5:D7:78:97:0B:2C:69:43:0C:B5:CB:D0:A2:7F:AD:D5:72:4C:1E:FB",
+      "sha256": "25:73:EB:A7:70:3E:39:4D:C3:7B:07:28:54:76:2A:30:0B:0D:8A:A1:6B:24:6B:9A:96:94:25:75:C9:24:B7:59",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "api.tpeni.app.br",
+        "banco.tpeni.app.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:api.tpeni.app.br, DNS:banco.tpeni.app.br",
+        "subjectKeyIdentifier": "keyid:a8:2f:f5:f1:ff:a3:85:7d:b8:1b:06:0b:9d:9a:69:50:c5:19:83:b9"
+      }
+    },
+    "cert_index": 275595030,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x076/543",
+    "seen": 1787772060.79,
+    "submission_timestamp": 1781430239.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
