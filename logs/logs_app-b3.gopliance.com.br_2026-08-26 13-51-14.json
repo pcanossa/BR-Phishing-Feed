@@ -1,0 +1,51 @@
+{
+  "dominio": "app-b3.gopliance.com.br",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/26/26 13:51:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-b3.gopliance.com.br",
+        "aggregated": "/CN=app-b3.gopliance.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "069B3EB317DA5A44991685C2C843FBA79382",
+      "not_before": 1779545687,
+      "not_after": 1787321686,
+      "fingerprint": "BA:90:4D:96:8A:2A:83:90:96:B5:17:82:A4:42:B4:79:F4:1A:70:E1",
+      "sha1": "BA:90:4D:96:8A:2A:83:90:96:B5:17:82:A4:42:B4:79:F4:1A:70:E1",
+      "sha256": "60:33:42:AC:16:6F:78:9E:49:93:C0:DE:5B:05:DA:44:27:04:DD:EB:53:DB:7B:AC:C0:35:E2:9E:B1:29:20:39",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-b3.gopliance.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-b3.gopliance.com.br",
+        "subjectKeyIdentifier": "keyid:40:71:72:6e:ae:c1:ce:41:82:01:2c:ec:09:0f:28:5a:8b:27:ea:7c"
+      }
+    },
+    "cert_index": 4411709165,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4411709165&end=4411709165",
+    "seen": 1787763070.074,
+    "submission_timestamp": 1779549206.747,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

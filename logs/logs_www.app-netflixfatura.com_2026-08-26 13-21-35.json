@@ -1,0 +1,52 @@
+{
+  "dominio": "www.app-netflixfatura.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 13:21:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.app-netflixfatura.com",
+        "aggregated": "/CN=www.app-netflixfatura.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "5F0A8D5CFA612631",
+      "not_before": 1778991948,
+      "not_after": 1796099148,
+      "fingerprint": "A5:C5:86:C3:B5:4E:CA:03:E5:A4:1E:86:1B:00:7C:D7:C4:80:DA:62",
+      "sha1": "A5:C5:86:C3:B5:4E:CA:03:E5:A4:1E:86:1B:00:7C:D7:C4:80:DA:62",
+      "sha256": "F8:E6:03:DE:50:8E:B2:45:E8:32:01:B2:7A:69:6A:E7:F1:90:59:AF:CB:C0:EF:21:B5:97:F0:F4:2D:3A:B0:1B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.app-netflixfatura.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.app-netflixfatura.com",
+        "subjectKeyIdentifier": "keyid:03:86:72:3d:68:f4:23:02:34:4d:9e:9f:ca:5d:b4:4f:04:33:be:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 689974141,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=689974141&end=689974141",
+    "seen": 1787761291.002,
+    "submission_timestamp": 1778991949.817,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

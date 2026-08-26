@@ -1,0 +1,53 @@
+{
+  "dominio": "debitoile.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 14:03:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoile.com",
+        "aggregated": "/CN=debitoile.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "C54A3B967EC36C0F0EB186F448CEE36F",
+      "not_before": 1778806519,
+      "not_after": 1786585983,
+      "fingerprint": "14:90:DB:94:7A:E8:EF:8D:8C:3D:EB:91:49:00:3C:7D:6D:27:48:69",
+      "sha1": "14:90:DB:94:7A:E8:EF:8D:8C:3D:EB:91:49:00:3C:7D:6D:27:48:69",
+      "sha256": "63:F9:D0:49:D5:65:5F:B6:B7:00:FD:FD:CF:7C:60:24:BB:A4:6B:BF:32:E8:76:12:3E:6B:4C:43:36:59:B3:87",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitoile.com",
+        "*.debitoile.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/xUo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitoile.com, DNS:*.debitoile.com",
+        "subjectKeyIdentifier": "keyid:b5:ee:75:11:a1:5f:1f:55:58:1e:c7:07:13:f6:71:e9:c2:c5:72:e6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 697859130,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=697859130&end=697859130",
+    "seen": 1787763825.796,
+    "submission_timestamp": 1778810119.613,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

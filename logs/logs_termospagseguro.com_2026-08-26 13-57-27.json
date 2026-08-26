@@ -1,0 +1,52 @@
+{
+  "dominio": "termospagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 13:57:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "termospagseguro.com",
+        "aggregated": "/CN=termospagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "65E5B94CB11EE02F",
+      "not_before": 1783247626,
+      "not_after": 1800354826,
+      "fingerprint": "41:07:C5:C5:FA:59:24:C0:5A:4D:56:B6:5F:01:EC:15:8D:FB:4E:00",
+      "sha1": "41:07:C5:C5:FA:59:24:C0:5A:4D:56:B6:5F:01:EC:15:8D:FB:4E:00",
+      "sha256": "3F:A0:83:33:20:6E:6C:E6:DC:27:81:8B:97:A3:80:AC:44:A7:ED:84:85:D1:17:62:29:34:EA:0F:44:29:FC:C5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "termospagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:termospagseguro.com",
+        "subjectKeyIdentifier": "keyid:ce:14:0e:ea:19:07:f2:93:59:cc:ef:a6:51:42:bb:03:0e:cc:05:8b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 123732658,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=123732658&end=123732658",
+    "seen": 1787763442.563,
+    "submission_timestamp": 1783247627.445,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app.projetocorreios.com.br",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/26/26 13:08:45",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.projetocorreios.com.br",
+        "aggregated": "/CN=app.projetocorreios.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "062401B8B9C1A1C93DAA8AF88F500CC743B5",
+      "not_before": 1777977706,
+      "not_after": 1785753705,
+      "fingerprint": "55:55:AF:D4:CF:79:EF:9B:F1:D2:68:57:71:20:32:0F:7B:B5:0F:29",
+      "sha1": "55:55:AF:D4:CF:79:EF:9B:F1:D2:68:57:71:20:32:0F:7B:B5:0F:29",
+      "sha256": "62:A0:40:04:B9:F8:65:B0:4E:1D:1B:77:2E:51:53:37:9D:16:E6:CD:47:4A:00:BF:7F:5E:BA:D2:E1:64:CC:CE",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app.projetocorreios.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.projetocorreios.com.br",
+        "subjectKeyIdentifier": "keyid:4b:2e:9d:a3:04:e4:a9:91:05:dd:f9:8b:bd:2d:8d:b4:5f:45:ff:7b"
+      }
+    },
+    "cert_index": 846615282,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=846615282&end=846615282",
+    "seen": 1787760520.805,
+    "submission_timestamp": 1777981217.398,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

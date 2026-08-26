@@ -1,0 +1,52 @@
+{
+  "dominio": "mydebitors.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 13:42:26",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.mydebitors.com",
+        "aggregated": "/CN=www.mydebitors.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "057C92F715D7B9EC849B1763AC584704C3D5",
+      "not_before": 1781378548,
+      "not_after": 1789154547,
+      "fingerprint": "2A:32:80:93:2A:F8:61:DC:E9:7F:DD:4A:4E:89:31:77:52:C6:13:F4",
+      "sha1": "2A:32:80:93:2A:F8:61:DC:E9:7F:DD:4A:4E:89:31:77:52:C6:13:F4",
+      "sha256": "6F:3B:6C:BB:84:71:27:EC:6A:9C:7D:02:96:D1:5F:AD:5E:E3:8F:78:13:55:59:4B:FD:BE:67:5A:58:78:DF:55",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.mydebitors.com",
+        "mydebitors.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mydebitors.com, DNS:www.mydebitors.com",
+        "subjectKeyIdentifier": "keyid:0f:0b:6f:ba:a3:ef:2b:b1:04:75:02:c2:84:66:5e:0f:bb:a6:47:63"
+      }
+    },
+    "cert_index": 274215511,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x071/154",
+    "seen": 1787762541.871,
+    "submission_timestamp": 1781382059.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "netflix.foreignscan.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 13:10:26",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix.foreignscan.app",
+        "aggregated": "/CN=netflix.foreignscan.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "055DF88C2C0456D55B4362AD1E4BEC13A276",
+      "not_before": 1778829183,
+      "not_after": 1786605182,
+      "fingerprint": "9D:0A:AE:6C:C3:BF:9F:88:95:8F:76:0C:AA:1A:E9:21:01:1D:4A:21",
+      "sha1": "9D:0A:AE:6C:C3:BF:9F:88:95:8F:76:0C:AA:1A:E9:21:01:1D:4A:21",
+      "sha256": "73:2D:F9:01:BF:52:23:04:EE:5C:CF:0C:C1:D3:24:71:1E:23:12:B6:08:AE:BF:27:6F:7E:3B:7B:89:A4:E6:E0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix.foreignscan.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflix.foreignscan.app",
+        "subjectKeyIdentifier": "keyid:0b:cb:fe:88:e3:bc:71:cf:28:bd:12:96:25:dd:d5:7f:75:97:02:28"
+      }
+    },
+    "cert_index": 4411395722,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4411395722&end=4411395722",
+    "seen": 1787760623.562,
+    "submission_timestamp": 1779547992.666,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

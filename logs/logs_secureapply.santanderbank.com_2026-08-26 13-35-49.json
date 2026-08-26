@@ -1,0 +1,57 @@
+{
+  "dominio": "secureapply.santanderbank.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 13:35:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.openbank.us",
+        "aggregated": "/CN=login.openbank.us"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "039BE45B69C012980FC39EF0A80A1D64",
+      "not_before": 1784246400,
+      "not_after": 1801353599,
+      "fingerprint": "A5:24:0E:03:03:F3:F9:B5:6F:51:D6:BE:33:5D:5B:BE:C4:AB:CD:72",
+      "sha1": "A5:24:0E:03:03:F3:F9:B5:6F:51:D6:BE:33:5D:5B:BE:C4:AB:CD:72",
+      "sha256": "C9:6A:A8:F3:7D:48:D8:A0:C2:8F:F0:72:DA:BD:4A:04:55:8C:4A:A2:CE:81:C5:7F:5C:CE:50:B2:F4:3F:14:6A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.openbank.us",
+        "onlinebanking.santanderbank.com",
+        "login.santanderbank.com",
+        "onlinebanking.openbank.us",
+        "secureapply.santanderbank.com",
+        "secureapply.openbank.us"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.openbank.us, DNS:onlinebanking.santanderbank.com, DNS:login.santanderbank.com, DNS:onlinebanking.openbank.us, DNS:secureapply.santanderbank.com, DNS:secureapply.openbank.us",
+        "subjectKeyIdentifier": "keyid:65:ec:c5:ec:9e:cd:6e:4b:af:01:65:6d:a5:e2:d8:37:6d:67:8c:26",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 102638085,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=102638085&end=102638085",
+    "seen": 1787762146.246,
+    "submission_timestamp": 1784276378.781,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

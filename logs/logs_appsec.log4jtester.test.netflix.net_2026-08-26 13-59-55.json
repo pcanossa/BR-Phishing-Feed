@@ -1,0 +1,55 @@
+{
+  "dominio": "appsec.log4jtester.test.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 13:59:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "appsec.log4jtester.test.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=appsec.log4jtester.test.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "013085A4507FB3173F2E0AEA36406938",
+      "not_before": 1781308800,
+      "not_after": 1789164331,
+      "fingerprint": "A3:1E:02:C8:DB:A2:EB:A5:73:B9:AD:BA:04:78:2E:4A:2B:8D:A8:22",
+      "sha1": "A3:1E:02:C8:DB:A2:EB:A5:73:B9:AD:BA:04:78:2E:4A:2B:8D:A8:22",
+      "sha256": "33:D3:CA:83:71:01:3A:93:24:3E:09:0B:89:10:0D:9E:AC:0F:F2:2A:05:64:7C:1C:23:37:33:10:FC:4C:50:D4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "appsec.log4jtester.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:appsec.log4jtester.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:ff:32:71:b0:80:2d:92:97:bc:5e:c9:52:57:8a:cc:0e:18:3c:5e:0c"
+      }
+    },
+    "cert_index": 274366889,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x071/745",
+    "seen": 1787763592.172,
+    "submission_timestamp": 1781388333.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

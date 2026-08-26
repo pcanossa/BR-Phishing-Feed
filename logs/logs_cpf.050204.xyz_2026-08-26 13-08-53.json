@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.050204.xyz",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 13:08:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "6e12672a.sni.cloudflaressl.com",
+        "aggregated": "/CN=6e12672a.sni.cloudflaressl.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "D7394BB9490C490D136E5A8468F19943",
+      "not_before": 1778987268,
+      "not_after": 1786766861,
+      "fingerprint": "DE:02:71:92:BE:CC:46:D4:B3:7A:DA:15:6D:C0:12:A8:FD:34:FB:4E",
+      "sha1": "DE:02:71:92:BE:CC:46:D4:B3:7A:DA:15:6D:C0:12:A8:FD:34:FB:4E",
+      "sha256": "3C:A5:0F:1D:81:33:10:0B:A7:6B:61:92:F8:A8:2F:89:40:FA:31:8C:3B:94:34:54:B5:D9:00:C6:DE:A1:E2:B7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "6e12672a.sni.cloudflaressl.com",
+        "cpf.050204.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/1zk, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:6e12672a.sni.cloudflaressl.com, DNS:cpf.050204.xyz",
+        "subjectKeyIdentifier": "keyid:dd:a0:ff:6b:ff:0e:56:8d:55:ac:26:c2:3d:ef:35:a5:c4:0d:d8:f6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 689856886,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=689856886&end=689856886",
+    "seen": 1787760529.732,
+    "submission_timestamp": 1778990869.67,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

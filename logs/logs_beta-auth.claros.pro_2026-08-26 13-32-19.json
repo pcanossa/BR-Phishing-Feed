@@ -1,0 +1,53 @@
+{
+  "dominio": "beta-auth.claros.pro",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 13:32:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beta.claros.pro",
+        "aggregated": "/CN=beta.claros.pro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0AC04CB3271B96ED36EADDAAB468ECE5",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "33:91:BE:D9:43:F2:4B:39:03:3E:1B:77:A0:B8:DE:9B:6B:E0:9A:AA",
+      "sha1": "33:91:BE:D9:43:F2:4B:39:03:3E:1B:77:A0:B8:DE:9B:6B:E0:9A:AA",
+      "sha256": "5E:2F:D3:EA:14:C9:5C:5D:AA:65:72:51:8A:DC:47:AB:1D:11:A5:05:07:7D:D0:47:C1:34:8E:D1:D5:87:A2:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "beta.claros.pro",
+        "beta-auth.claros.pro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:beta.claros.pro, DNS:beta-auth.claros.pro",
+        "subjectKeyIdentifier": "keyid:15:e8:fb:73:69:e4:79:ec:c9:ab:20:1d:ac:77:e8:61:6e:f4:ff:1c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 123538309,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=123538309&end=123538309",
+    "seen": 1787761934.301,
+    "submission_timestamp": 1783239430.709,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

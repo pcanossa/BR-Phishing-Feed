@@ -1,0 +1,51 @@
+{
+  "dominio": "backend.boletosserasa.com",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/26/26 14:05:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "backend.boletosserasa.com",
+        "aggregated": "/CN=backend.boletosserasa.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "2F7C0163BD925764671A26986D7F5D8A",
+      "not_before": 1780704000,
+      "not_after": 1788566399,
+      "fingerprint": "5A:B9:43:2F:CD:7F:13:4C:82:CB:B2:BD:B4:F1:DF:13:2E:54:00:F1",
+      "sha1": "5A:B9:43:2F:CD:7F:13:4C:82:CB:B2:BD:B4:F1:DF:13:2E:54:00:F1",
+      "sha256": "C8:B9:87:10:11:90:81:48:D6:74:DD:F4:AF:D6:D6:0E:6E:68:C5:AA:96:AA:CE:48:E4:A6:A0:E6:4A:8D:E1:2A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "backend.boletosserasa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:backend.boletosserasa.com",
+        "subjectKeyIdentifier": "keyid:6b:de:51:14:ac:b2:d3:6a:e3:fe:26:8c:66:c1:f0:9d:8d:27:39:5c"
+      }
+    },
+    "cert_index": 274410883,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x071/917",
+    "seen": 1787763897.469,
+    "submission_timestamp": 1781390135.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
