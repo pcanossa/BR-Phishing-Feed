@@ -1,0 +1,52 @@
+{
+  "dominio": "app-test-us-west-2.ericgitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 19:06:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-test-us-west-2.ericgitau.com",
+        "aggregated": "/CN=app-test-us-west-2.ericgitau.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "F054B5091A1CB4167A1BED46E87AD099",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "05:D0:FF:25:02:3D:FF:86:8D:48:35:A2:A3:59:45:D4:5E:06:CA:FF",
+      "sha1": "05:D0:FF:25:02:3D:FF:86:8D:48:35:A2:A3:59:45:D4:5E:06:CA:FF",
+      "sha256": "72:BE:71:68:EE:AF:4E:81:A9:30:42:81:4E:02:02:CB:EA:B0:DE:BD:EF:91:B9:50:C2:15:ED:7E:AC:80:6C:96",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-test-us-west-2.ericgitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-test-us-west-2.ericgitau.com",
+        "subjectKeyIdentifier": "keyid:c4:98:51:fc:eb:31:cd:bf:19:0a:43:ff:b0:63:11:f3:9b:26:18:55",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4414110175,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4414110175&end=4414110175",
+    "seen": 1787781990.416,
+    "submission_timestamp": 1779558474.545,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

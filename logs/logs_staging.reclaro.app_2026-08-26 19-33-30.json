@@ -1,0 +1,52 @@
+{
+  "dominio": "staging.reclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 19:33:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging.reclaro.app",
+        "aggregated": "/CN=staging.reclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "060A5A565F7535218C5EA6E10FD89117BF34",
+      "not_before": 1781507633,
+      "not_after": 1789283632,
+      "fingerprint": "33:08:4C:0A:16:45:72:39:46:BA:3B:DD:31:E0:A3:83:09:51:53:E6",
+      "sha1": "33:08:4C:0A:16:45:72:39:46:BA:3B:DD:31:E0:A3:83:09:51:53:E6",
+      "sha256": "A7:A2:49:A2:2A:51:92:6A:1B:96:39:D8:EA:AB:3F:3E:76:2E:1B:A1:E4:9A:3A:77:E9:74:45:F6:E8:09:0A:48",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "staging.reclaro.app",
+        "canarystaging.reclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:canarystaging.reclaro.app, DNS:staging.reclaro.app",
+        "subjectKeyIdentifier": "keyid:2a:34:28:4a:cc:63:79:1f:9d:be:b9:cb:b1:83:38:43:8a:9d:49:9c"
+      }
+    },
+    "cert_index": 261620678,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x021/955",
+    "seen": 1787783604.933,
+    "submission_timestamp": 1781511143.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

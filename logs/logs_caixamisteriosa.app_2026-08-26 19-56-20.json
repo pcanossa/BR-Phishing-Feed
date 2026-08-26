@@ -1,0 +1,53 @@
+{
+  "dominio": "caixamisteriosa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 19:56:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixamisteriosa.app",
+        "aggregated": "/CN=caixamisteriosa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05FABA7C22D8D8C5B613875B829B8E96B5BC",
+      "not_before": 1778829410,
+      "not_after": 1786605409,
+      "fingerprint": "03:19:AF:45:EF:8E:6F:66:FE:78:F7:56:76:5F:85:E4:CA:68:6B:C0",
+      "sha1": "03:19:AF:45:EF:8E:6F:66:FE:78:F7:56:76:5F:85:E4:CA:68:6B:C0",
+      "sha256": "30:FB:9B:CF:B2:2F:C3:00:99:13:44:1F:4D:B0:3E:48:16:19:AD:DE:69:C1:C1:6B:40:51:4D:4E:7B:2F:00:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "caixamisteriosa.app",
+        "www.caixamisteriosa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:caixamisteriosa.app, DNS:www.caixamisteriosa.app",
+        "subjectKeyIdentifier": "keyid:29:7a:ac:7a:46:c4:67:fc:99:8f:34:12:43:47:bb:0b:3d:7c:44:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 700770823,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=700770823&end=700770823",
+    "seen": 1787784974.205,
+    "submission_timestamp": 1778832920.373,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

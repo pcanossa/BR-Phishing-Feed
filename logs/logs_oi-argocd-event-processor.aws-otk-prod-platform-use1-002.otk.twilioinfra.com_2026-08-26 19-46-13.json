@@ -1,0 +1,53 @@
+{
+  "dominio": "oi-argocd-event-processor.aws-otk-prod-platform-use1-002.otk.twilioinfra.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 19:46:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "aws-otk-prod-platform-use1-002.otk.twilioinfra.com",
+        "aggregated": "/CN=aws-otk-prod-platform-use1-002.otk.twilioinfra.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0589E90E3EB9ED759A5018EC49CDA031",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "56:07:F4:7E:A3:F1:DC:0C:B9:D6:72:C0:E2:E8:4C:CB:63:03:00:22",
+      "sha1": "56:07:F4:7E:A3:F1:DC:0C:B9:D6:72:C0:E2:E8:4C:CB:63:03:00:22",
+      "sha256": "29:E3:0F:CE:9E:A8:7F:A9:44:B2:4E:38:A1:CD:D7:D1:3C:BE:48:41:30:22:D2:22:F8:F8:F3:51:23:A7:99:58",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "aws-otk-prod-platform-use1-002.otk.twilioinfra.com",
+        "oi-argocd-event-processor.aws-otk-prod-platform-use1-002.otk.twilioinfra.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:aws-otk-prod-platform-use1-002.otk.twilioinfra.com, DNS:oi-argocd-event-processor.aws-otk-prod-platform-use1-002.otk.twilioinfra.com",
+        "subjectKeyIdentifier": "keyid:2b:ce:c0:e9:b9:49:c9:c6:89:d2:e2:56:07:7e:ab:84:95:f7:b8:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 105697198,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=105697198&end=105697198",
+    "seen": 1787784367.843,
+    "submission_timestamp": 1784441277.933,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

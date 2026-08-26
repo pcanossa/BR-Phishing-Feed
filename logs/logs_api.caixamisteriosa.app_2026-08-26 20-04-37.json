@@ -1,0 +1,51 @@
+{
+  "dominio": "api.caixamisteriosa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 20:04:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.caixamisteriosa.app",
+        "aggregated": "/CN=api.caixamisteriosa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0668CE65302BF58EF79F65D2F4EE6F43775C",
+      "not_before": 1779023984,
+      "not_after": 1786799983,
+      "fingerprint": "C3:36:32:62:21:60:7E:61:0C:1E:BD:6E:F0:E0:C8:9F:A6:A2:06:A2",
+      "sha1": "C3:36:32:62:21:60:7E:61:0C:1E:BD:6E:F0:E0:C8:9F:A6:A2:06:A2",
+      "sha256": "1B:54:F6:07:00:07:AA:D8:E8:02:87:DD:53:DB:6D:CF:DA:CD:A3:75:B0:DC:63:80:E5:31:24:F7:61:19:D0:19",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.caixamisteriosa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.caixamisteriosa.app",
+        "subjectKeyIdentifier": "keyid:c9:26:11:2b:b3:1a:68:30:6e:43:0a:07:ea:89:67:8b:a7:96:e8:7b"
+      }
+    },
+    "cert_index": 694242494,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=694242494&end=694242494",
+    "seen": 1787785477.623,
+    "submission_timestamp": 1779027499.233,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

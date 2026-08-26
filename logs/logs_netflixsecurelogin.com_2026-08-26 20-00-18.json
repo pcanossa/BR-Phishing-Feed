@@ -1,0 +1,51 @@
+{
+  "dominio": "netflixsecurelogin.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 20:00:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixsecurelogin.com",
+        "aggregated": "/CN=netflixsecurelogin.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "069A6DCED1069C5EAD28830CFA24117CC4DA",
+      "not_before": 1781515270,
+      "not_after": 1789291269,
+      "fingerprint": "C0:07:84:89:06:91:2C:7D:92:AF:32:1C:52:7F:44:20:F2:C3:AD:3F",
+      "sha1": "C0:07:84:89:06:91:2C:7D:92:AF:32:1C:52:7F:44:20:F2:C3:AD:3F",
+      "sha256": "9A:5C:22:D4:7D:24:16:08:56:44:4C:36:CB:5D:2A:A9:2D:3E:FE:78:B7:B7:FC:D9:2D:1A:A8:61:54:15:84:F7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflixsecurelogin.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflixsecurelogin.com",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4"
+      }
+    },
+    "cert_index": 261842467,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x022/822",
+    "seen": 1787785212.915,
+    "submission_timestamp": 1781518780.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

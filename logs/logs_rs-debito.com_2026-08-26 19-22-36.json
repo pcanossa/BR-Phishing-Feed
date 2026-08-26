@@ -1,0 +1,53 @@
+{
+  "dominio": "rs-debito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 19:22:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rs-debito.com",
+        "aggregated": "/CN=rs-debito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059332CDFB369226DAE149AD7ED128FFDFEE",
+      "not_before": 1779376947,
+      "not_after": 1787152946,
+      "fingerprint": "15:FC:49:3A:4D:A0:F3:FF:17:CF:72:54:11:6B:34:7A:19:4B:3F:06",
+      "sha1": "15:FC:49:3A:4D:A0:F3:FF:17:CF:72:54:11:6B:34:7A:19:4B:3F:06",
+      "sha256": "61:C7:04:C7:31:FC:0A:6F:37:38:30:E8:55:34:08:FF:63:F6:9D:1D:44:86:FE:CD:3E:36:E2:8B:55:B2:BC:B1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "rs-debito.com",
+        "*.rs-debito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.rs-debito.com, DNS:rs-debito.com",
+        "subjectKeyIdentifier": "keyid:9f:7a:4e:d7:3d:e9:1a:20:c3:87:fa:66:95:96:da:44:d8:87:a9:e3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 719039807,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=719039807&end=719039807",
+    "seen": 1787782950.318,
+    "submission_timestamp": 1779380458.008,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

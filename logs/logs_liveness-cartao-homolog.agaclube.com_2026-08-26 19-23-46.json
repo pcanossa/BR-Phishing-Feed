@@ -1,0 +1,52 @@
+{
+  "dominio": "liveness-cartao-homolog.agaclube.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/26/26 19:23:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "liveness-cartao-homolog.agaclube.com",
+        "aggregated": "/CN=liveness-cartao-homolog.agaclube.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0DBA5702DC16D48F380637FF60FB77A8",
+      "not_before": 1783296000,
+      "not_after": 1800403199,
+      "fingerprint": "C8:93:66:7A:97:5E:C1:DA:6D:3D:94:FA:FF:A4:B5:BC:F1:C1:89:16",
+      "sha1": "C8:93:66:7A:97:5E:C1:DA:6D:3D:94:FA:FF:A4:B5:BC:F1:C1:89:16",
+      "sha256": "63:48:21:21:79:2C:55:1A:DC:E3:BB:65:5A:CA:63:90:31:78:9D:90:9D:2A:B1:FD:22:96:A5:FE:2F:89:90:92",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "liveness-cartao-homolog.agaclube.com",
+        "liveness-api-cartao-homolog.agaclube.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:liveness-cartao-homolog.agaclube.com, DNS:liveness-api-cartao-homolog.agaclube.com",
+        "subjectKeyIdentifier": "keyid:ac:86:ff:a9:f2:2a:7f:4f:46:84:4a:56:40:69:c4:c6:dd:9f:20:04"
+      }
+    },
+    "cert_index": 126178001,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=126178001&end=126178001",
+    "seen": 1787783020.428,
+    "submission_timestamp": 1783344622.771,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}
