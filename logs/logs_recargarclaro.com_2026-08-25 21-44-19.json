@@ -1,0 +1,52 @@
+{
+  "dominio": "recargarclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 21:44:19",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "recargarclaro.com",
+        "aggregated": "/CN=recargarclaro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "05C341654BFEBDFFD4F7DBE83FB3E9CA562B",
+      "not_before": 1779513877,
+      "not_after": 1787289876,
+      "fingerprint": "DA:04:5B:FF:EE:10:C7:8B:31:6D:4F:8E:46:CC:93:C7:37:DD:26:16",
+      "sha1": "DA:04:5B:FF:EE:10:C7:8B:31:6D:4F:8E:46:CC:93:C7:37:DD:26:16",
+      "sha256": "09:5E:51:01:11:6F:FD:38:30:48:06:53:53:A4:E2:46:8D:27:6B:A7:8E:E1:98:6C:13:F4:59:3E:58:44:E1:35",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "recargarclaro.com",
+        "*.recargarclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.recargarclaro.com, DNS:recargarclaro.com",
+        "subjectKeyIdentifier": "keyid:30:39:97:c7:a7:34:82:88:93:d5:04:87:89:ae:ba:bf:c1:83:46:9d"
+      }
+    },
+    "cert_index": 4404061913,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4404061913&end=4404061913",
+    "seen": 1787705055.243,
+    "submission_timestamp": 1779517545.347,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

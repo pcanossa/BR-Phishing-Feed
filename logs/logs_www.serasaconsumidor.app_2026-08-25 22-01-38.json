@@ -1,0 +1,51 @@
+{
+  "dominio": "www.serasaconsumidor.app",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/25/26 22:01:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.serasaconsumidor.app",
+        "aggregated": "/CN=www.serasaconsumidor.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "068AC262C2FEE76CCDCBE91AC15913B14C37",
+      "not_before": 1779514418,
+      "not_after": 1787290417,
+      "fingerprint": "BF:D3:B6:C8:35:4B:D7:97:AA:7C:08:3B:CD:48:E2:B6:4B:B7:74:7D",
+      "sha1": "BF:D3:B6:C8:35:4B:D7:97:AA:7C:08:3B:CD:48:E2:B6:4B:B7:74:7D",
+      "sha256": "EA:8B:40:BC:35:DD:C8:97:3B:5C:03:78:1D:18:AA:57:43:C5:51:6B:52:44:90:7B:5F:A0:B7:02:C7:0F:8E:49",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.serasaconsumidor.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.serasaconsumidor.app",
+        "subjectKeyIdentifier": "keyid:1f:ba:55:16:ec:5f:7d:1b:95:97:4e:7b:4b:d8:00:a4:66:11:1c:99"
+      }
+    },
+    "cert_index": 4404199055,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4404199055&end=4404199055",
+    "seen": 1787706098.798,
+    "submission_timestamp": 1779518091.109,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

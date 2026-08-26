@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.dev.bancocdc.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 21:07:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cartao.dev.bancocdc.com.br",
+        "aggregated": "/CN=*.cartao.dev.bancocdc.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0425912AA12EAB87DD1B1227FB4777D0",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "C5:36:57:30:96:E1:11:96:48:DE:76:0D:29:A6:39:53:79:D9:FB:25",
+      "sha1": "C5:36:57:30:96:E1:11:96:48:DE:76:0D:29:A6:39:53:79:D9:FB:25",
+      "sha256": "6E:7E:0C:93:71:B2:58:F8:F4:7C:C9:A7:EC:34:1D:F1:4F:AC:86:52:66:C3:90:BB:C3:D9:E6:EA:07:8C:8A:CC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cartao.dev.bancocdc.com.br",
+        "cartao.dev.bancocdc.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cartao.dev.bancocdc.com.br, DNS:cartao.dev.bancocdc.com.br",
+        "subjectKeyIdentifier": "keyid:c3:a6:a5:09:14:e5:79:88:e2:a6:c7:5e:58:eb:37:a9:85:8f:49:0c"
+      }
+    },
+    "cert_index": 79167527,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x309/248",
+    "seen": 1787702872.779,
+    "submission_timestamp": 1787690311.171,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

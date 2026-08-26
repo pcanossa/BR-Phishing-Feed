@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.top",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 21:55:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.top",
+        "aggregated": "/CN=cartao.top"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06B2E176126F65181765D7E2D100EE5415DD",
+      "not_before": 1778912103,
+      "not_after": 1786688102,
+      "fingerprint": "41:93:7A:4C:05:EE:B7:C8:5F:23:44:A7:6C:91:71:B8:CE:A4:1A:E8",
+      "sha1": "41:93:7A:4C:05:EE:B7:C8:5F:23:44:A7:6C:91:71:B8:CE:A4:1A:E8",
+      "sha256": "E4:B3:3B:D6:65:94:F9:BA:6C:D2:A1:E2:20:3D:3C:22:35:1E:B2:ED:4F:81:DB:80:3E:EF:8B:2F:97:9D:16:A0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.top",
+        "*.cartao.top"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cartao.top, DNS:cartao.top",
+        "subjectKeyIdentifier": "keyid:ef:6a:99:54:35:df:9c:af:71:f1:65:18:c0:f9:c0:33:99:3b:46:14",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 681286012,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=681286012&end=681286012",
+    "seen": 1787705724.89,
+    "submission_timestamp": 1778915613.534,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

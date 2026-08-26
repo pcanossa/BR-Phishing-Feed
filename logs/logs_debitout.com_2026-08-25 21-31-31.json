@@ -1,0 +1,52 @@
+{
+  "dominio": "debitout.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 21:31:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitout.com",
+        "aggregated": "/CN=debitout.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F7A0B9CC8FC0922A",
+      "not_before": 1778747255,
+      "not_after": 1795854455,
+      "fingerprint": "B3:B4:A6:72:0E:56:F0:26:EF:C8:CF:37:00:9A:68:B2:BD:F7:5E:32",
+      "sha1": "B3:B4:A6:72:0E:56:F0:26:EF:C8:CF:37:00:9A:68:B2:BD:F7:5E:32",
+      "sha256": "04:A3:23:B4:46:9D:1B:62:7D:9C:72:6E:C1:F8:DF:56:1A:A2:2E:E7:FA:0C:8E:F4:CD:AE:1C:A3:36:E8:52:66",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitout.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitout.com",
+        "subjectKeyIdentifier": "keyid:4a:f1:53:35:f4:fb:3c:a3:55:88:0d:f5:ae:08:9d:1f:82:d7:f2:99",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 690040752,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=690040752&end=690040752",
+    "seen": 1787704289.76,
+    "submission_timestamp": 1778747256.373,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

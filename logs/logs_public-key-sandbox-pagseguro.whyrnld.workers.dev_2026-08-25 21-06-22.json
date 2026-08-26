@@ -1,0 +1,52 @@
+{
+  "dominio": "public-key-sandbox-pagseguro.whyrnld.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 21:06:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "whyrnld.workers.dev",
+        "aggregated": "/CN=whyrnld.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0FE53D458C2417A10E4FAEEC5C78CDC5",
+      "not_before": 1780642318,
+      "not_after": 1788421889,
+      "fingerprint": "95:FE:44:82:65:D8:A9:69:84:BF:6E:12:A2:27:68:C9:BC:F0:BD:DD",
+      "sha1": "95:FE:44:82:65:D8:A9:69:84:BF:6E:12:A2:27:68:C9:BC:F0:BD:DD",
+      "sha256": "0A:B8:02:C5:80:3E:FC:B8:1F:87:5B:8B:90:A9:85:83:D9:1B:BB:F9:02:B3:46:4A:C8:D4:9F:35:6A:28:7B:29",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "whyrnld.workers.dev",
+        "*.public-key-sandbox-pagseguro.whyrnld.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/D-U, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:whyrnld.workers.dev, DNS:*.public-key-sandbox-pagseguro.whyrnld.workers.dev",
+        "subjectKeyIdentifier": "keyid:77:5b:68:4e:78:04:40:10:75:73:c2:f8:5b:44:12:dd:8e:78:d9:1d"
+      }
+    },
+    "cert_index": 388623762,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x518/061",
+    "seen": 1787702780.145,
+    "submission_timestamp": 1780647298.822,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

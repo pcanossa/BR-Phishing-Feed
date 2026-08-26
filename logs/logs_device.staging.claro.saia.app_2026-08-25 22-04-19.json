@@ -1,0 +1,52 @@
+{
+  "dominio": "device.staging.claro.saia.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 22:04:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "device.staging.claro.saia.app",
+        "aggregated": "/CN=device.staging.claro.saia.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "06465FD9E52AA6866205D4DC498CF518AA44",
+      "not_before": 1778745751,
+      "not_after": 1786521750,
+      "fingerprint": "DD:78:6B:E6:3E:D6:03:60:88:BC:56:8D:97:00:67:63:9C:65:DA:AB",
+      "sha1": "DD:78:6B:E6:3E:D6:03:60:88:BC:56:8D:97:00:67:63:9C:65:DA:AB",
+      "sha256": "27:AF:DC:99:3E:D1:99:85:CC:40:A9:31:D8:8B:71:71:28:DD:6D:F7:F3:FE:EB:CC:BE:F7:C5:D0:D5:31:6D:2C",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "device.staging.claro.saia.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:device.staging.claro.saia.app",
+        "subjectKeyIdentifier": "keyid:80:59:96:97:7b:ec:4d:00:ca:91:43:dd:26:39:9f:a2:cd:4b:02:e6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 690290903,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=690290903&end=690290903",
+    "seen": 1787706255.365,
+    "submission_timestamp": 1778749261.825,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}
