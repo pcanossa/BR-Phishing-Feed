@@ -1,0 +1,51 @@
+{
+  "dominio": "santander-middleware-test.oncreate.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 15:34:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-middleware-test.oncreate.app",
+        "aggregated": "/CN=santander-middleware-test.oncreate.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0D4AF3CF6348017B28ED6FFBC013DF74",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "5F:B1:63:A1:C2:4B:E4:1D:CB:04:67:BE:BA:FA:1A:F6:53:B4:DE:3A",
+      "sha1": "5F:B1:63:A1:C2:4B:E4:1D:CB:04:67:BE:BA:FA:1A:F6:53:B4:DE:3A",
+      "sha256": "D8:D7:88:32:08:5A:2E:45:F7:2A:7F:9F:4D:B0:29:B7:9B:33:FA:8F:34:0E:4B:2D:03:B7:2D:46:EF:AE:25:8B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander-middleware-test.oncreate.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander-middleware-test.oncreate.app",
+        "subjectKeyIdentifier": "keyid:8b:4e:6d:fc:b0:c5:6a:70:31:ac:d7:36:35:fa:73:fc:5c:c3:6d:cb"
+      }
+    },
+    "cert_index": 97669260,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x381/520",
+    "seen": 1787769283.905,
+    "submission_timestamp": 1784420404.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

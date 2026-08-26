@@ -1,0 +1,51 @@
+{
+  "dominio": "sso.app.sedex.com",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "08/26/26 15:54:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sso.app.sedex.com",
+        "aggregated": "/CN=sso.app.sedex.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "07FBB4EEB6913C67B59F5AA95844A53F",
+      "not_before": 1784332800,
+      "not_after": 1801439999,
+      "fingerprint": "66:C4:0A:D4:77:3D:CA:12:64:97:B3:50:B4:73:35:2B:DF:34:54:98",
+      "sha1": "66:C4:0A:D4:77:3D:CA:12:64:97:B3:50:B4:73:35:2B:DF:34:54:98",
+      "sha256": "08:3C:80:17:40:43:AD:D4:7E:BF:B2:37:EE:F9:75:BB:1A:C2:F8:BC:E0:29:4C:7C:23:34:DD:DA:05:2D:6B:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sso.app.sedex.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sso.app.sedex.com",
+        "subjectKeyIdentifier": "keyid:ba:96:8a:ee:45:d7:ce:9a:7b:7b:d4:c3:cb:94:eb:9d:97:fb:76:27"
+      }
+    },
+    "cert_index": 106432890,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x415/753",
+    "seen": 1787770444.666,
+    "submission_timestamp": 1784356546.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

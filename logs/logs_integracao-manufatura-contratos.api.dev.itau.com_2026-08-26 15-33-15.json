@@ -1,0 +1,51 @@
+{
+  "dominio": "integracao-manufatura-contratos.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 15:33:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "integracao-manufatura-contratos.api.dev.itau.com",
+        "aggregated": "/CN=integracao-manufatura-contratos.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A52DE00AB8D6659591F629F0E1F49D3",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "BD:77:99:34:14:DD:7A:19:7E:C1:1C:A1:45:95:4D:60:DD:1A:77:10",
+      "sha1": "BD:77:99:34:14:DD:7A:19:7E:C1:1C:A1:45:95:4D:60:DD:1A:77:10",
+      "sha256": "73:9D:2B:05:F7:45:1A:08:7D:79:8D:4A:73:7E:A5:C5:F8:6F:F6:26:29:72:97:70:D8:C2:94:15:72:53:94:74",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "integracao-manufatura-contratos.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:integracao-manufatura-contratos.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:ec:1e:20:d9:e6:bf:00:bb:f3:3f:2d:40:d6:06:76:8e:58:29:cb:05"
+      }
+    },
+    "cert_index": 97657070,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x381/472",
+    "seen": 1787769189.824,
+    "submission_timestamp": 1784420021.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "app-staging-eu.netflixer.de",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 15:39:51",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-staging-eu.netflixer.de",
+        "aggregated": "/CN=app-staging-eu.netflixer.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0D5818FFB4B9E8F010CD99A8795BD90E",
+      "not_before": 1779494400,
+      "not_after": 1787270399,
+      "fingerprint": "AC:D5:C2:0F:1B:83:10:44:87:A2:D9:E5:45:A6:DE:F6:85:A3:4C:F8",
+      "sha1": "AC:D5:C2:0F:1B:83:10:44:87:A2:D9:E5:45:A6:DE:F6:85:A3:4C:F8",
+      "sha256": "7A:A8:E5:9F:E2:A8:F7:FD:34:36:43:E0:CF:3A:14:19:3E:AE:AA:45:88:A0:E5:D6:43:E3:21:FE:05:78:2C:BA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-staging-eu.netflixer.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-staging-eu.netflixer.de",
+        "subjectKeyIdentifier": "keyid:10:f6:ed:c6:c3:41:72:c3:46:af:4f:f3:ac:27:01:c0:f6:0b:ea:b0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4412539087,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412539087&end=4412539087",
+    "seen": 1787769585.753,
+    "submission_timestamp": 1779552360.976,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

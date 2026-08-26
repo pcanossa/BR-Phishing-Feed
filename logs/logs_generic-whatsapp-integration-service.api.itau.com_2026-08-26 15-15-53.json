@@ -1,0 +1,51 @@
+{
+  "dominio": "generic-whatsapp-integration-service.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 15:15:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "generic-whatsapp-integration-service.api.itau.com",
+        "aggregated": "/CN=generic-whatsapp-integration-service.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D2C63635B23F5A26282E78E66B00960",
+      "not_before": 1784332800,
+      "not_after": 1801439999,
+      "fingerprint": "3F:96:2D:E8:56:3C:59:F0:45:45:26:D2:65:63:B6:D3:D2:DD:68:C1",
+      "sha1": "3F:96:2D:E8:56:3C:59:F0:45:45:26:D2:65:63:B6:D3:D2:DD:68:C1",
+      "sha256": "B5:AC:DD:F3:AD:DC:A5:32:3A:81:AC:41:CB:2B:26:48:B7:E9:42:EE:40:67:D6:9B:2A:53:8A:59:6F:A0:10:16",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "generic-whatsapp-integration-service.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:generic-whatsapp-integration-service.api.itau.com",
+        "subjectKeyIdentifier": "keyid:a4:60:35:46:80:e3:bf:e1:4a:c7:ef:2b:37:39:d1:00:00:78:0d:c5"
+      }
+    },
+    "cert_index": 106096157,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x414/438",
+    "seen": 1787768148.03,
+    "submission_timestamp": 1784333732.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

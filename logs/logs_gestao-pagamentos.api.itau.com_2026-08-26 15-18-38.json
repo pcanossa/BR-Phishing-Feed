@@ -1,0 +1,52 @@
+{
+  "dominio": "gestao-pagamentos.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 15:18:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gestao-pagamentos.api.itau.com",
+        "aggregated": "/CN=gestao-pagamentos.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0B258DE3082DACE03966595CEFA6C4FD",
+      "not_before": 1786752000,
+      "not_after": 1803859199,
+      "fingerprint": "F1:17:F0:14:09:EA:C0:80:28:79:6B:4B:04:D1:05:DE:53:90:F4:C3",
+      "sha1": "F1:17:F0:14:09:EA:C0:80:28:79:6B:4B:04:D1:05:DE:53:90:F4:C3",
+      "sha256": "AE:C4:05:53:1B:06:01:1A:FB:B6:0E:5C:36:9C:2F:03:7E:81:3C:05:6A:33:E7:E8:E9:FF:20:ED:71:7F:A1:A5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gestao-pagamentos.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gestao-pagamentos.api.itau.com",
+        "subjectKeyIdentifier": "keyid:94:95:88:10:b8:53:cc:00:43:32:56:dd:9d:00:ae:28:70:61:20:56",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 67062775,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=67062775&end=67062775",
+    "seen": 1787768312.684,
+    "submission_timestamp": 1786752962.327,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

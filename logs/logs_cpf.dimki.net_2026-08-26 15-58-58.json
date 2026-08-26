@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.dimki.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 15:58:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.dimki.net",
+        "aggregated": "/CN=*.cpf.dimki.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "056851DDA63B43C9A4C112FE3F472B928ED2",
+      "not_before": 1781449138,
+      "not_after": 1789225137,
+      "fingerprint": "1D:FD:28:10:FA:AE:8F:11:3E:7D:28:8F:6F:EC:C4:09:93:BB:48:95",
+      "sha1": "1D:FD:28:10:FA:AE:8F:11:3E:7D:28:8F:6F:EC:C4:09:93:BB:48:95",
+      "sha256": "C7:C2:04:ED:EE:69:7E:31:2A:D7:BE:E6:30:7A:94:4C:E8:7A:37:C8:36:73:34:D3:D7:49:AE:FC:09:C6:D3:EE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.dimki.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.dimki.net",
+        "subjectKeyIdentifier": "keyid:65:5b:cd:11:fb:a4:a1:f3:bd:4f:1f:b7:29:c3:4f:bc:40:d9:af:a5"
+      }
+    },
+    "cert_index": 259856279,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x015/063",
+    "seen": 1787770739.341,
+    "submission_timestamp": 1781452648.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

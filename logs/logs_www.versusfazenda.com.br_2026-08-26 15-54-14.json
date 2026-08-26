@@ -1,0 +1,51 @@
+{
+  "dominio": "www.versusfazenda.com.br",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/26/26 15:54:14",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.versusfazenda.com.br",
+        "aggregated": "/CN=www.versusfazenda.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "062DE3FBF77B14B511BE83BF98D2592A1E43",
+      "not_before": 1779549198,
+      "not_after": 1787325197,
+      "fingerprint": "1E:09:2F:49:B9:E8:E1:09:4E:44:A4:47:A6:2A:3F:D1:FC:CD:56:90",
+      "sha1": "1E:09:2F:49:B9:E8:E1:09:4E:44:A4:47:A6:2A:3F:D1:FC:CD:56:90",
+      "sha256": "BA:7E:5B:04:A6:5B:49:8A:4E:6D:56:E5:37:CA:68:D9:EE:EF:82:5A:94:DB:A9:0F:99:AA:C3:91:48:DC:A6:DD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.versusfazenda.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.versusfazenda.com.br",
+        "subjectKeyIdentifier": "keyid:a3:35:fd:6d:f9:9d:e2:06:9c:1d:11:c4:b5:06:b1:d9:ec:58:c7:44"
+      }
+    },
+    "cert_index": 4412651541,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412651541&end=4412651541",
+    "seen": 1787770448.674,
+    "submission_timestamp": 1779552710.692,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
