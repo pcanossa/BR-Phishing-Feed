@@ -1,0 +1,53 @@
+{
+  "dominio": "sao1-caixatem-pmf-prd-cai.us-south.containers.appdomain.cloud",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 01:30:44",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sao1-caixatem-pmf-prd-cai.us-south.containers.appdomain.cloud",
+        "aggregated": "/CN=sao1-caixatem-pmf-prd-cai.us-south.containers.appdomain.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06295BA2B9AB1C54FF79A2037B28D73F10FE",
+      "not_before": 1779500352,
+      "not_after": 1787276351,
+      "fingerprint": "1A:89:33:A6:91:BE:CD:F8:87:43:11:DE:91:F0:9F:61:05:2A:AF:D7",
+      "sha1": "1A:89:33:A6:91:BE:CD:F8:87:43:11:DE:91:F0:9F:61:05:2A:AF:D7",
+      "sha256": "56:83:75:7C:B6:1E:8F:21:F2:A7:8C:3C:A0:93:67:57:12:E6:43:95:7B:6F:07:39:E3:0A:41:3E:DF:A4:C0:8D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sao1-caixatem-pmf-prd-cai.us-south.containers.appdomain.cloud",
+        "*.sao1-caixatem-pmf-prd-cai-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud",
+        "sao1-caixatem-pmf-prd-cai-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sao1-caixatem-pmf-prd-cai-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud, DNS:sao1-caixatem-pmf-prd-cai-9bd168bd7799c8d70570dd790632a2cb-0000.us-south.containers.appdomain.cloud, DNS:sao1-caixatem-pmf-prd-cai.us-south.containers.appdomain.cloud",
+        "subjectKeyIdentifier": "keyid:00:d7:01:59:b5:f7:a7:65:06:2d:5e:72:2b:46:f9:c9:f6:63:37:f7"
+      }
+    },
+    "cert_index": 4405843806,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4405843806&end=4405843806",
+    "seen": 1787718642.025,
+    "submission_timestamp": 1779524885.094,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

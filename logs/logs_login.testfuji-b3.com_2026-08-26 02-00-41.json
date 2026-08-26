@@ -1,0 +1,51 @@
+{
+  "dominio": "login.testfuji-b3.com",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/26/26 02:00:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.testfuji-b3.com",
+        "aggregated": "/CN=login.testfuji-b3.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "06E39F70E6F16E272B051F5EB9674F4B64FD",
+      "not_before": 1781221755,
+      "not_after": 1788997754,
+      "fingerprint": "3C:A3:91:12:90:A5:DB:7A:58:81:8E:74:C0:16:34:05:CF:DC:27:31",
+      "sha1": "3C:A3:91:12:90:A5:DB:7A:58:81:8E:74:C0:16:34:05:CF:DC:27:31",
+      "sha256": "D8:61:FF:6A:44:20:C0:F3:37:39:E9:B3:47:B8:52:4D:E4:05:60:2B:5F:22:91:E7:34:41:CF:88:71:F6:2F:61",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "login.testfuji-b3.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:login.testfuji-b3.com",
+        "subjectKeyIdentifier": "keyid:cf:c8:3b:71:cb:48:27:cb:12:68:7b:7a:77:78:1d:94:8d:8d:f5:9a"
+      }
+    },
+    "cert_index": 252945576,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x988/068",
+    "seen": 1787720439.337,
+    "submission_timestamp": 1781225265.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

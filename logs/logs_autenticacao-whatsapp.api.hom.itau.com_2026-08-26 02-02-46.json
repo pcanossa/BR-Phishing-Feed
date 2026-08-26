@@ -1,0 +1,52 @@
+{
+  "dominio": "autenticacao-whatsapp.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 02:02:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "autenticacao-whatsapp.api.hom.itau.com",
+        "aggregated": "/CN=autenticacao-whatsapp.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "08C4E599C4135690627E99D227FFB224",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "CF:94:74:00:23:DF:2B:96:C4:51:A8:49:15:30:B0:20:B5:76:37:60",
+      "sha1": "CF:94:74:00:23:DF:2B:96:C4:51:A8:49:15:30:B0:20:B5:76:37:60",
+      "sha256": "26:8E:EA:82:2C:E5:CC:A6:29:ED:C7:A2:4F:A5:BC:B2:60:49:EB:22:60:62:0B:34:B9:E4:0A:FA:A1:7D:FE:40",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "autenticacao-whatsapp.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:autenticacao-whatsapp.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:c9:be:5e:55:17:96:1c:51:8e:21:55:3a:c9:34:40:ca:9c:f9:79:83",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 96368861,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=96368861&end=96368861",
+    "seen": 1787720563.532,
+    "submission_timestamp": 1783964373.458,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

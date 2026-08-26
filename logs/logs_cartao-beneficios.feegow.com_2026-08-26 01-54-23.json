@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao-beneficios.feegow.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/26/26 01:54:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao-beneficios.feegow.com",
+        "aggregated": "/CN=cartao-beneficios.feegow.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E6B4FA4F42D0F5A0B7794120FE7BA43",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "37:5F:E0:F1:9C:AD:5A:6E:28:40:75:E3:84:B7:F7:DD:5F:65:36:D1",
+      "sha1": "37:5F:E0:F1:9C:AD:5A:6E:28:40:75:E3:84:B7:F7:DD:5F:65:36:D1",
+      "sha256": "B6:B8:81:DC:13:3D:15:01:97:71:C6:73:EC:09:1A:03:99:B6:66:0D:1B:63:F1:D6:38:69:20:6E:1D:DD:4F:33",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao-beneficios.feegow.com",
+        "cartao-beneficios.production.feegow.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao-beneficios.feegow.com, DNS:cartao-beneficios.production.feegow.com",
+        "subjectKeyIdentifier": "keyid:a2:e9:7a:80:42:d1:24:2e:4f:fb:73:1b:55:55:23:58:03:fc:06:ea"
+      }
+    },
+    "cert_index": 99160966,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x387/347",
+    "seen": 1787720061.167,
+    "submission_timestamp": 1783912434.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

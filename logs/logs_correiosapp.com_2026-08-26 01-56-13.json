@@ -1,0 +1,52 @@
+{
+  "dominio": "correiosapp.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/26/26 01:56:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correiosapp.com",
+        "aggregated": "/CN=correiosapp.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "D4D21FED05402494783EA383B456AA9B",
+      "not_before": 1780617600,
+      "not_after": 1788210646,
+      "fingerprint": "05:92:80:A3:51:4D:C7:FE:99:D6:D0:6C:06:E3:F3:C3:1F:DE:80:CE",
+      "sha1": "05:92:80:A3:51:4D:C7:FE:99:D6:D0:6C:06:E3:F3:C3:1F:DE:80:CE",
+      "sha256": "76:16:67:7C:88:A5:AB:DC:E1:3A:80:7D:9B:94:3E:5F:15:DA:7A:F6:08:C5:48:C1:ED:3B:6C:3D:A5:25:84:03",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "correiosapp.com",
+        "*.correiosapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:correiosapp.com, DNS:*.correiosapp.com",
+        "subjectKeyIdentifier": "keyid:a2:de:da:61:67:0f:9d:48:3d:7d:4d:d0:b4:e2:92:f5:cf:cd:40:63"
+      }
+    },
+    "cert_index": 391564372,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x529/548",
+    "seen": 1787720172.08,
+    "submission_timestamp": 1780693027.944,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dominio": "e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 01:31:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=e2edemospring.app.us-east-1.prod.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "01AAEC86F496E51BDD4BB76502C61687",
+      "not_before": 1779494400,
+      "not_after": 1787300692,
+      "fingerprint": "7C:E9:8D:EB:AD:47:D9:B7:DB:52:AB:BA:E0:C8:07:4B:49:D5:60:82",
+      "sha1": "7C:E9:8D:EB:AD:47:D9:B7:DB:52:AB:BA:E0:C8:07:4B:49:D5:60:82",
+      "sha256": "3A:23:0B:9A:6C:CD:D4:D9:F2:B6:16:EC:F7:13:69:0B:8F:E9:1A:56:91:6E:8E:F0:22:8B:E0:0F:B0:FA:27:5F",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+        "e2edemospring--pq2j2-chap-canary.cluster.us-east-1.prod.cloud.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:e2edemospring--pq2j2-chap-canary.cluster.us-east-1.prod.cloud.netflix.net, DNS:e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+        "subjectKeyIdentifier": "keyid:a1:21:2c:da:75:ed:0d:2f:3f:9a:34:69:2e:6d:18:11:c1:45:95:f6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4405848152,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4405848152&end=4405848152",
+    "seen": 1787718673.805,
+    "submission_timestamp": 1779524899.713,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

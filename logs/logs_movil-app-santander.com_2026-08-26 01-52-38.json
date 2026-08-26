@@ -1,0 +1,52 @@
+{
+  "dominio": "movil-app-santander.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 01:52:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "movil-app-santander.com",
+        "aggregated": "/CN=movil-app-santander.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "DB932BA3F5AF06B2165BA587B639D812",
+      "not_before": 1780617600,
+      "not_after": 1788275730,
+      "fingerprint": "30:4F:73:19:BF:EA:81:D3:5C:DC:29:53:FE:95:BC:F5:DC:DA:D5:C7",
+      "sha1": "30:4F:73:19:BF:EA:81:D3:5C:DC:29:53:FE:95:BC:F5:DC:DA:D5:C7",
+      "sha256": "CC:80:B1:93:B4:BC:3D:92:A3:C2:DF:AD:7B:87:36:A3:41:86:3E:F8:55:B6:93:5D:13:C4:DE:0A:82:CF:0A:9A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "movil-app-santander.com",
+        "*.movil-app-santander.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:movil-app-santander.com, DNS:*.movil-app-santander.com",
+        "subjectKeyIdentifier": "keyid:b8:b1:7d:a8:f3:cd:7d:0f:92:68:5d:50:0e:e2:aa:81:80:4f:fe:b1"
+      }
+    },
+    "cert_index": 391529618,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x529/412",
+    "seen": 1787719954.4,
+    "submission_timestamp": 1780692376.048,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

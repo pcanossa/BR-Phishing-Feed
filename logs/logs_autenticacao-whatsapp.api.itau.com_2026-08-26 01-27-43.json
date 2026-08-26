@@ -1,0 +1,51 @@
+{
+  "dominio": "autenticacao-whatsapp.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 01:27:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "autenticacao-whatsapp.api.itau.com",
+        "aggregated": "/CN=autenticacao-whatsapp.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "083C6E30252EB843D1630C8D5E502405",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "07:E5:0D:7F:77:16:AB:AC:1A:06:D1:EF:25:8A:86:6D:F0:8B:25:1E",
+      "sha1": "07:E5:0D:7F:77:16:AB:AC:1A:06:D1:EF:25:8A:86:6D:F0:8B:25:1E",
+      "sha256": "94:D2:23:25:A3:17:17:60:07:DA:34:28:4A:F7:7B:AF:DC:12:14:31:67:DC:D3:A4:97:B8:CB:67:EC:9A:B3:B3",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "autenticacao-whatsapp.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:autenticacao-whatsapp.api.itau.com",
+        "subjectKeyIdentifier": "keyid:4f:09:26:67:5c:50:90:5d:4c:a2:cb:ba:f1:5c:a2:ab:49:7c:fa:b9"
+      }
+    },
+    "cert_index": 90733832,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x354/429",
+    "seen": 1787718459.874,
+    "submission_timestamp": 1783966739.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

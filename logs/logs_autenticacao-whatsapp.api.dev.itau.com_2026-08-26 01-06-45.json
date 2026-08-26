@@ -1,0 +1,51 @@
+{
+  "dominio": "autenticacao-whatsapp.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 01:06:45",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "autenticacao-whatsapp.api.dev.itau.com",
+        "aggregated": "/CN=autenticacao-whatsapp.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E6D966E2F09030760B830E3A2159C84",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "86:54:CA:0B:51:FC:04:0F:36:B0:70:C0:A1:D4:B4:5F:B3:82:56:E7",
+      "sha1": "86:54:CA:0B:51:FC:04:0F:36:B0:70:C0:A1:D4:B4:5F:B3:82:56:E7",
+      "sha256": "C6:48:34:ED:D3:17:82:4C:A1:13:90:87:09:16:28:28:18:2D:26:60:94:CE:5C:CF:34:6C:5C:21:06:1B:CF:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "autenticacao-whatsapp.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:autenticacao-whatsapp.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:a3:34:17:03:60:42:b5:6b:1a:27:df:e1:6f:65:92:1f:10:bc:58:ce"
+      }
+    },
+    "cert_index": 90561757,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x353/756",
+    "seen": 1787717200.932,
+    "submission_timestamp": 1783956116.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

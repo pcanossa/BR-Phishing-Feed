@@ -1,0 +1,53 @@
+{
+  "dominio": "debitoor.at",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 01:06:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor.at",
+        "aggregated": "/CN=debitoor.at"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "065B21CA16DBE824FE8BCB1CC16A711802E6",
+      "not_before": 1778927633,
+      "not_after": 1786703632,
+      "fingerprint": "FE:3F:23:66:A4:6E:A8:92:75:A1:65:C6:9B:6F:17:03:15:5D:B7:DF",
+      "sha1": "FE:3F:23:66:A4:6E:A8:92:75:A1:65:C6:9B:6F:17:03:15:5D:B7:DF",
+      "sha256": "3F:3D:BD:B6:87:A7:25:34:80:92:AB:EE:C6:B2:82:32:54:6E:7C:FE:21:EC:83:00:8A:C5:1A:64:C5:D1:BD:B0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor.at",
+        "*.debitoor.at"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitoor.at, DNS:debitoor.at",
+        "subjectKeyIdentifier": "keyid:81:f2:79:b9:1f:dd:50:6e:85:10:65:5f:9f:5c:34:d0:1f:f3:d4:e7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 683107336,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=683107336&end=683107336",
+    "seen": 1787717193.292,
+    "submission_timestamp": 1778931143.302,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

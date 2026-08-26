@@ -1,0 +1,52 @@
+{
+  "dominio": "fazenda-govbr.app",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/26/26 01:28:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.fazenda-govbr.app",
+        "aggregated": "/CN=*.fazenda-govbr.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06DB1E9BEED02A272A70B271C9E91CDD0764",
+      "not_before": 1781215911,
+      "not_after": 1788991910,
+      "fingerprint": "C7:4D:9A:75:39:11:6C:29:42:DA:75:05:1A:32:D8:93:CE:AA:BE:9F",
+      "sha1": "C7:4D:9A:75:39:11:6C:29:42:DA:75:05:1A:32:D8:93:CE:AA:BE:9F",
+      "sha256": "6D:F1:BE:B3:B3:B4:CA:68:92:CA:3F:B2:99:5B:17:35:C9:21:23:57:BA:B7:B8:0E:30:8B:B3:FF:E6:EE:88:F9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.fazenda-govbr.app",
+        "fazenda-govbr.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.fazenda-govbr.app, DNS:fazenda-govbr.app",
+        "subjectKeyIdentifier": "keyid:99:f0:02:50:67:4a:b4:77:1a:95:b4:75:b2:43:7b:4d:18:82:65:ed"
+      }
+    },
+    "cert_index": 252679055,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x987/027",
+    "seen": 1787718509.663,
+    "submission_timestamp": 1781219421.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

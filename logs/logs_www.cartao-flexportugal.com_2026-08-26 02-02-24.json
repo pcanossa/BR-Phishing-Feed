@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao-flexportugal.com",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/26/26 02:02:24",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao-flexportugal.com",
+        "aggregated": "/CN=www.cartao-flexportugal.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "052E55B6B4691716C9030697972C7F680B54",
+      "not_before": 1779522503,
+      "not_after": 1787298502,
+      "fingerprint": "01:E6:B5:0A:39:82:D3:C2:38:0D:EC:FC:24:81:77:61:E4:E0:D0:E7",
+      "sha1": "01:E6:B5:0A:39:82:D3:C2:38:0D:EC:FC:24:81:77:61:E4:E0:D0:E7",
+      "sha256": "CD:69:FA:8A:99:9B:75:BA:7F:B8:3E:5F:23:7D:6C:C7:AE:D6:EC:C3:4E:3F:70:59:40:13:DC:B3:EC:57:AC:1B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao-flexportugal.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:www.cartao-flexportugal.com",
+        "subjectKeyIdentifier": "keyid:6b:fd:98:d5:13:75:76:3c:da:ba:b3:67:90:ed:3f:ca:05:a9:44:d6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4406101270,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4406101270&end=4406101270",
+    "seen": 1787720541.719,
+    "submission_timestamp": 1779526013.355,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
