@@ -1,0 +1,52 @@
+{
+  "dominio": "gbnetflix.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 11:20:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gbnetflix.app",
+        "aggregated": "/CN=gbnetflix.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "05763BA8E4A405BBFEF6512D2146D345A39E",
+      "not_before": 1781361571,
+      "not_after": 1789137570,
+      "fingerprint": "DC:55:A6:69:F4:45:AF:96:8D:06:C4:AB:06:2D:94:AE:86:02:36:C1",
+      "sha1": "DC:55:A6:69:F4:45:AF:96:8D:06:C4:AB:06:2D:94:AE:86:02:36:C1",
+      "sha256": "9B:6C:65:B8:E1:5F:AC:FD:F3:81:37:0B:20:01:22:88:75:4E:CA:2F:44:1C:FE:52:8D:41:91:09:56:33:2D:21",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "gbnetflix.app",
+        "*.gbnetflix.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.gbnetflix.app, DNS:gbnetflix.app",
+        "subjectKeyIdentifier": "keyid:61:7d:77:98:79:c0:2f:70:e7:b2:9a:a4:c3:37:b0:67:cc:a5:3d:3b"
+      }
+    },
+    "cert_index": 257572709,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x006/143",
+    "seen": 1787754053.989,
+    "submission_timestamp": 1781365081.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

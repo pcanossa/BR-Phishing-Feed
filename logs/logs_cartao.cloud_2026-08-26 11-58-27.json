@@ -1,0 +1,55 @@
+{
+  "dominio": "cartao.cloud",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/26/26 11:58:27",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.cloud",
+        "aggregated": "/CN=cartao.cloud"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05EE1214A65559B5989C431990886D998ED1",
+      "not_before": 1779542222,
+      "not_after": 1787318221,
+      "fingerprint": "7E:BB:DF:6A:23:2C:F1:1A:B1:77:E7:A4:28:E5:2F:8D:B5:67:1B:A2",
+      "sha1": "7E:BB:DF:6A:23:2C:F1:1A:B1:77:E7:A4:28:E5:2F:8D:B5:67:1B:A2",
+      "sha256": "04:89:37:E3:14:AF:3B:E4:7C:2F:C9:F5:09:24:A0:0E:9F:18:D6:29:E9:18:F1:69:87:71:10:0B:81:65:4F:D7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.cloud",
+        "*.cartao.cloud",
+        "*.renantec.com",
+        "renantec.com",
+        "www.renantec.cartao.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cartao.cloud, DNS:*.renantec.com, DNS:cartao.cloud, DNS:renantec.com, DNS:www.renantec.cartao.cloud",
+        "subjectKeyIdentifier": "keyid:de:c0:3a:52:69:1c:05:a0:24:77:fc:3b:67:d8:a7:fd:1d:4d:d2:2a"
+      }
+    },
+    "cert_index": 4410829030,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4410829030&end=4410829030",
+    "seen": 1787756303.417,
+    "submission_timestamp": 1779545735.497,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

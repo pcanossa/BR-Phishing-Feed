@@ -1,0 +1,52 @@
+{
+  "dominio": "integracao-manufatura-propostas.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 12:00:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "integracao-manufatura-propostas.api.itau.com",
+        "aggregated": "/CN=integracao-manufatura-propostas.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0606A48456D20DFDAFF8094CE0340E1A",
+      "not_before": 1783209600,
+      "not_after": 1800316799,
+      "fingerprint": "10:09:19:95:97:FF:60:5C:09:07:ED:25:E5:85:64:47:02:28:4E:89",
+      "sha1": "10:09:19:95:97:FF:60:5C:09:07:ED:25:E5:85:64:47:02:28:4E:89",
+      "sha256": "C2:46:B4:9E:9E:3F:24:92:DC:FA:D7:8C:EC:43:D0:D8:3D:BC:D0:57:A9:1B:E6:9A:80:1B:8F:AF:AA:28:0D:AD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "integracao-manufatura-propostas.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:integracao-manufatura-propostas.api.itau.com",
+        "subjectKeyIdentifier": "keyid:1f:24:c8:b4:8f:26:24:0f:a6:cb:de:c9:b4:fd:f6:d8:d9:41:45:61",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 122842426,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=122842426&end=122842426",
+    "seen": 1787756398.484,
+    "submission_timestamp": 1783210481.298,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

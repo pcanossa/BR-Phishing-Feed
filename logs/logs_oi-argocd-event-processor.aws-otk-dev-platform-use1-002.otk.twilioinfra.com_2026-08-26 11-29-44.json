@@ -1,0 +1,52 @@
+{
+  "dominio": "oi-argocd-event-processor.aws-otk-dev-platform-use1-002.otk.twilioinfra.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 11:29:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "aws-otk-dev-platform-use1-002.otk.twilioinfra.com",
+        "aggregated": "/CN=aws-otk-dev-platform-use1-002.otk.twilioinfra.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "099CB409F2955548732E48CC0B482841",
+      "not_before": 1784246400,
+      "not_after": 1801353599,
+      "fingerprint": "58:B8:36:62:DC:98:B7:5A:7B:61:8B:92:C3:27:16:FE:10:9B:1D:44",
+      "sha1": "58:B8:36:62:DC:98:B7:5A:7B:61:8B:92:C3:27:16:FE:10:9B:1D:44",
+      "sha256": "60:F6:EB:9C:A5:B3:44:3B:C4:2E:4F:42:4D:6E:6C:1B:59:4E:47:57:3B:28:ED:4F:DA:82:05:C1:2A:5D:A0:5C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "aws-otk-dev-platform-use1-002.otk.twilioinfra.com",
+        "oi-argocd-event-processor.aws-otk-dev-platform-use1-002.otk.twilioinfra.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:aws-otk-dev-platform-use1-002.otk.twilioinfra.com, DNS:oi-argocd-event-processor.aws-otk-dev-platform-use1-002.otk.twilioinfra.com",
+        "subjectKeyIdentifier": "keyid:ad:58:a5:ea:9e:11:2f:da:f8:5f:5c:43:71:34:51:d3:b9:d3:c5:91"
+      }
+    },
+    "cert_index": 95678232,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x373/743",
+    "seen": 1787754580.432,
+    "submission_timestamp": 1784282700.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

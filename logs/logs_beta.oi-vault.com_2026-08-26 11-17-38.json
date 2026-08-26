@@ -1,0 +1,52 @@
+{
+  "dominio": "beta.oi-vault.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 11:17:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beta.oi-vault.com",
+        "aggregated": "/CN=beta.oi-vault.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C20FD7A85BA7E60B6F90D922F2400DC",
+      "not_before": 1784160000,
+      "not_after": 1800143999,
+      "fingerprint": "B8:06:2E:09:90:1F:FF:E0:5F:C1:6C:27:50:B6:F9:46:A7:C4:4B:AA",
+      "sha1": "B8:06:2E:09:90:1F:FF:E0:5F:C1:6C:27:50:B6:F9:46:A7:C4:4B:AA",
+      "sha256": "89:A7:82:05:A3:2B:77:98:36:FE:EC:F2:25:F6:64:FF:CB:83:99:73:EB:06:13:DA:3C:B1:BD:BD:CC:E1:94:A2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "beta.oi-vault.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:beta.oi-vault.com",
+        "subjectKeyIdentifier": "keyid:79:1b:92:eb:10:4e:bb:49:55:ea:dd:20:3f:a1:17:76:27:d0:38:3b"
+      }
+    },
+    "cert_index": 104023898,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x406/343",
+    "seen": 1787753854.557,
+    "submission_timestamp": 1784199173.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi-vault.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 11:11:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi-vault.com",
+        "aggregated": "/CN=app.oi-vault.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "05C300BB92350070C3D4752D51D42BFE",
+      "not_before": 1784160000,
+      "not_after": 1800143999,
+      "fingerprint": "82:06:42:DF:3F:38:A5:B0:08:68:22:FF:EA:9F:B7:00:EE:2B:3E:90",
+      "sha1": "82:06:42:DF:3F:38:A5:B0:08:68:22:FF:EA:9F:B7:00:EE:2B:3E:90",
+      "sha256": "30:A8:0C:3F:06:51:B2:23:5B:9A:03:C2:5C:1F:56:79:B5:47:46:A3:66:CB:B0:1C:D2:44:1C:4F:74:17:A2:CC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi-vault.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.oi-vault.com",
+        "subjectKeyIdentifier": "keyid:7d:6e:01:93:ed:16:db:52:6f:6c:44:a2:cd:f4:2a:d1:21:a4:dd:03"
+      }
+    },
+    "cert_index": 103971461,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x406/138",
+    "seen": 1787753493.223,
+    "submission_timestamp": 1784195386.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

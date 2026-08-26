@@ -1,0 +1,52 @@
+{
+  "dominio": "www.vitauapp.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 11:44:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.vitauapp.com",
+        "aggregated": "/CN=www.vitauapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E31EE2B91EAC52D7",
+      "not_before": 1781778175,
+      "not_after": 1798885375,
+      "fingerprint": "AE:2B:00:C7:23:5C:3C:BD:FC:BD:89:C3:F3:E5:D1:C6:0B:DF:67:F1",
+      "sha1": "AE:2B:00:C7:23:5C:3C:BD:FC:BD:89:C3:F3:E5:D1:C6:0B:DF:67:F1",
+      "sha256": "48:D6:C4:1F:7E:3B:42:4F:A0:2A:CD:9C:8A:6D:04:72:CB:DB:3A:D5:28:8D:F9:29:76:4B:CB:EC:3D:C5:C0:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.vitauapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.vitauapp.com",
+        "subjectKeyIdentifier": "keyid:00:2e:79:55:86:dd:8f:56:5f:27:03:31:75:f3:63:1b:82:99:1f:89",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 33060941,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2027h1/ct/v1/get-entries?start=33060941&end=33060941",
+    "seen": 1787755472.116,
+    "submission_timestamp": 1781778176.436,
+    "source": {
+      "name": "Google 'Argon2027h1'",
+      "url": "https://ct.googleapis.com/logs/us1/argon2027h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "netflix-wrapped.pages.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 11:27:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-wrapped.pages.dev",
+        "aggregated": "/CN=netflix-wrapped.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "066E243452905FCC118AE060539ADE52EE67",
+      "not_before": 1781363840,
+      "not_after": 1789139839,
+      "fingerprint": "A0:61:CF:A3:09:3A:62:5C:E4:5E:F4:25:73:F5:4C:64:E4:A8:96:CA",
+      "sha1": "A0:61:CF:A3:09:3A:62:5C:E4:5E:F4:25:73:F5:4C:64:E4:A8:96:CA",
+      "sha256": "01:BB:82:9F:37:79:2F:A1:51:41:EC:7C:25:87:8B:85:15:2A:17:EB:68:3B:53:46:C6:01:C5:7F:9C:0E:2B:D0",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-wrapped.pages.dev",
+        "*.netflix-wrapped.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.netflix-wrapped.pages.dev, DNS:netflix-wrapped.pages.dev",
+        "subjectKeyIdentifier": "keyid:95:f6:d4:80:e4:73:90:15:e6:d0:8d:d6:56:e4:13:f0:1e:4b:8f:1a"
+      }
+    },
+    "cert_index": 257630192,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x006/367",
+    "seen": 1787754473.903,
+    "submission_timestamp": 1781367350.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

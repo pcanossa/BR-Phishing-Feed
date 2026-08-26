@@ -1,0 +1,52 @@
+{
+  "dominio": "ia-corp-crm.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 11:13:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.ia-corp-crm.aws.pagseguro.uol",
+        "aggregated": "/CN=*.ia-corp-crm.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0295BF9E74A1F06872896E136782955B",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "19:0B:CC:60:70:F4:6B:A3:3C:C0:6F:91:B4:FB:2C:D9:F8:10:50:CA",
+      "sha1": "19:0B:CC:60:70:F4:6B:A3:3C:C0:6F:91:B4:FB:2C:D9:F8:10:50:CA",
+      "sha256": "74:1A:B4:95:14:B4:09:8C:BD:B7:A8:AB:6B:DC:7D:3D:C3:BB:5F:16:EA:09:4D:A3:12:D4:6A:34:92:DC:33:DF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.ia-corp-crm.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.ia-corp-crm.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:e6:38:44:e7:3c:4d:27:63:db:02:8e:26:52:f1:4c:b7:2b:a8:bf:62",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 72329629,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=72329629&end=72329629",
+    "seen": 1787753597.732,
+    "submission_timestamp": 1787678642.269,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "app-netflixfatura.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 11:47:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-netflixfatura.com",
+        "aggregated": "/CN=app-netflixfatura.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "2BA0E06EF5F037D5",
+      "not_before": 1778979317,
+      "not_after": 1796086517,
+      "fingerprint": "5E:6F:E7:A3:A9:FB:68:2E:C0:C6:55:E1:2A:B4:8C:9B:7E:F9:A6:5A",
+      "sha1": "5E:6F:E7:A3:A9:FB:68:2E:C0:C6:55:E1:2A:B4:8C:9B:7E:F9:A6:5A",
+      "sha256": "E4:F2:89:AA:CA:3D:F4:AE:79:D6:D3:A2:53:12:C8:DF:C8:FB:E7:2D:31:87:E8:69:28:03:6C:C0:CD:69:03:D7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-netflixfatura.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-netflixfatura.com",
+        "subjectKeyIdentifier": "keyid:c2:e9:53:60:d9:93:d3:03:d7:f3:32:b6:50:c3:c2:d9:ff:ef:7f:81"
+      }
+    },
+    "cert_index": 689089794,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=689089794&end=689089794",
+    "seen": 1787755632.17,
+    "submission_timestamp": 1778983855.052,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}
