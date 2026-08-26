@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cartao.global",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/26/26 02:28:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cartao.global",
+        "aggregated": "/CN=www.cartao.global"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B2488EE5BE92A949",
+      "not_before": 1783698786,
+      "not_after": 1800805986,
+      "fingerprint": "71:9B:58:54:7A:66:F3:9C:93:4A:63:DD:B0:18:05:C6:0C:56:B9:03",
+      "sha1": "71:9B:58:54:7A:66:F3:9C:93:4A:63:DD:B0:18:05:C6:0C:56:B9:03",
+      "sha256": "DE:6E:B4:08:B2:D4:C3:44:38:CE:B5:AF:4D:F7:24:AD:C5:49:D9:0D:8C:D5:5E:23:1C:82:14:E1:90:B7:4B:57",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cartao.global"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cartao.global",
+        "subjectKeyIdentifier": "keyid:de:29:a8:f8:19:82:09:0b:5c:a3:82:03:c7:50:b8:8a:b1:01:86:2c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 87841855,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=87841855&end=87841855",
+    "seen": 1787722092.035,
+    "submission_timestamp": 1783698788.023,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

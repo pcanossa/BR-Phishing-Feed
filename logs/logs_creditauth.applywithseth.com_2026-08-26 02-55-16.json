@@ -1,0 +1,52 @@
+{
+  "dominio": "creditauth.applywithseth.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 02:55:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "creditauth.applywithseth.com",
+        "aggregated": "/CN=creditauth.applywithseth.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "962FAE0A25F7A164",
+      "not_before": 1783038699,
+      "not_after": 1800145899,
+      "fingerprint": "54:50:77:3A:63:BC:F6:CA:6E:EC:EB:A7:D7:54:72:7D:97:9C:A5:81",
+      "sha1": "54:50:77:3A:63:BC:F6:CA:6E:EC:EB:A7:D7:54:72:7D:97:9C:A5:81",
+      "sha256": "00:D1:EC:98:E3:55:E0:E1:DF:E6:EB:F9:05:D4:9B:90:2A:35:93:5D:1D:C8:2D:7B:6E:4A:CC:88:CF:C9:B6:20",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "creditauth.applywithseth.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:creditauth.applywithseth.com",
+        "subjectKeyIdentifier": "keyid:12:2f:83:14:2e:10:45:cd:c2:e7:d0:17:b9:46:7f:54:03:fc:81:06",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 118645752,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=118645752&end=118645752",
+    "seen": 1787723714.722,
+    "submission_timestamp": 1783038700.711,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

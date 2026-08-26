@@ -1,0 +1,54 @@
+{
+  "dominio": "alertasantanderes-dev.rcnra-dev.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 02:28:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.alertasantanderes-dev.rcnra-dev.com",
+        "aggregated": "/CN=www.alertasantanderes-dev.rcnra-dev.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06C1302D1297032AA46358105D3423E1",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "7D:1B:94:85:BF:D9:35:2F:27:C3:53:CD:BC:B8:52:16:04:72:86:CE",
+      "sha1": "7D:1B:94:85:BF:D9:35:2F:27:C3:53:CD:BC:B8:52:16:04:72:86:CE",
+      "sha256": "71:7E:C6:95:06:1F:11:CB:4D:92:D9:BB:D6:00:8B:9F:FA:F5:B7:CF:59:31:D0:A8:E2:42:96:4F:8E:98:20:61",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.alertasantanderes-dev.rcnra-dev.com",
+        "alertasantanderes-dev.rcnra-dev.com",
+        "alertasantanderes-prod.rcnra-dev.com",
+        "www.alertasantanderes-prod.rcnra-dev.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.alertasantanderes-dev.rcnra-dev.com, DNS:alertasantanderes-dev.rcnra-dev.com, DNS:alertasantanderes-prod.rcnra-dev.com, DNS:www.alertasantanderes-prod.rcnra-dev.com",
+        "subjectKeyIdentifier": "keyid:03:f6:e7:0f:f7:dc:1d:42:55:34:37:e5:ad:ac:8a:db:06:eb:15:fb"
+      }
+    },
+    "cert_index": 99449258,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x388/473",
+    "seen": 1787722079.242,
+    "submission_timestamp": 1783926895.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

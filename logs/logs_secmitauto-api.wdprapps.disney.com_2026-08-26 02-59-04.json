@@ -1,0 +1,52 @@
+{
+  "dominio": "secmitauto-api.wdprapps.disney.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 02:59:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.secmitauto-api.wdprapps.disney.com",
+        "aggregated": "/CN=*.secmitauto-api.wdprapps.disney.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0278ADCE039AA4D4163AE62C77E5FF9F",
+      "not_before": 1783987200,
+      "not_after": 1801094399,
+      "fingerprint": "D9:3A:50:E4:6A:DD:1D:4C:3A:85:8C:14:D1:01:4D:E5:82:90:EA:75",
+      "sha1": "D9:3A:50:E4:6A:DD:1D:4C:3A:85:8C:14:D1:01:4D:E5:82:90:EA:75",
+      "sha256": "AC:42:3F:06:58:30:A1:CB:29:EB:99:57:F5:6F:C0:CA:F1:70:0C:6E:BF:4C:D8:50:0B:BA:A8:D5:75:98:9A:03",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.secmitauto-api.wdprapps.disney.com",
+        "*.origin.secmitauto-api.wdprapps.disney.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.secmitauto-api.wdprapps.disney.com, DNS:*.origin.secmitauto-api.wdprapps.disney.com",
+        "subjectKeyIdentifier": "keyid:b9:8e:28:99:44:71:b8:b5:f1:72:23:0f:59:ef:ca:f0:52:40:e4:f7"
+      }
+    },
+    "cert_index": 91488458,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x357/376",
+    "seen": 1787723940.196,
+    "submission_timestamp": 1784017437.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "nubankseguro.shop",
+  "marcas_encontradas": [
+    "nubank"
+  ],
+  "timestamp": "08/26/26 02:52:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nubankseguro.shop",
+        "aggregated": "/CN=nubankseguro.shop"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "B6FA82BE0E260AD3134B1BE6541E0707",
+      "not_before": 1779524026,
+      "not_after": 1787303397,
+      "fingerprint": "50:42:D0:92:0E:C4:96:C6:84:B5:80:60:09:AB:7A:0A:39:A9:2A:48",
+      "sha1": "50:42:D0:92:0E:C4:96:C6:84:B5:80:60:09:AB:7A:0A:39:A9:2A:48",
+      "sha256": "7B:4F:B8:8F:0D:96:43:01:D6:AC:51:6A:7A:DC:63:61:61:C7:4E:3D:2B:C6:B2:B2:80:08:1B:B8:DA:37:8B:35",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "nubankseguro.shop",
+        "*.nubankseguro.shop"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/tvo, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:nubankseguro.shop, DNS:*.nubankseguro.shop",
+        "subjectKeyIdentifier": "keyid:c2:88:13:02:78:a8:65:c4:e4:5e:ed:e3:c7:64:e1:73:34:97:27:96",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4406502162,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4406502162&end=4406502162",
+    "seen": 1787723544.302,
+    "submission_timestamp": 1779527761.639,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

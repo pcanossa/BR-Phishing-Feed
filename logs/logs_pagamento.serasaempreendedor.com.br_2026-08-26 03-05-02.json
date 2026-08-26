@@ -1,0 +1,53 @@
+{
+  "dominio": "pagamento.serasaempreendedor.com.br",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/26/26 03:05:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "0165703BF395FEC1340B5A720BB8D010",
+      "not_before": 1780102427,
+      "not_after": 1780188827,
+      "fingerprint": "FF:E5:E7:F7:06:D6:5C:C0:77:AF:4A:65:EC:09:B1:85:11:F4:B0:D1",
+      "sha1": "FF:E5:E7:F7:06:D6:5C:C0:77:AF:4A:65:EC:09:B1:85:11:F4:B0:D1",
+      "sha256": "82:4B:5A:DD:CA:D3:57:DF:2A:2C:E9:7A:F6:C4:C6:09:DA:64:3B:35:50:C1:36:C3:B4:42:20:AC:82:35:F6:87",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "pagamento.serasaempreendedor.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento.serasaempreendedor.com.br, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:c9:22:2b:e2:a9:ab:63:78:c6:40:e2:68:28:51:e4:d6:ad:5c:9d:7b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2521439196,
+    "cert_link": "https://ct.googleapis.com/logs/eu1/xenon2026h1/ct/v1/get-entries?start=2521439196&end=2521439196",
+    "seen": 1787724299.381,
+    "submission_timestamp": 1780102430.01,
+    "source": {
+      "name": "Google 'Xenon 2026H1' log",
+      "url": "https://ct.googleapis.com/logs/eu1/xenon2026h1"
+    }
+  }
+}

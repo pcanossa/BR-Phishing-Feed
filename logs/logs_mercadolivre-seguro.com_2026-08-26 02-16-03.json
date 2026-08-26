@@ -1,0 +1,52 @@
+{
+  "dominio": "mercadolivre-seguro.com",
+  "marcas_encontradas": [
+    "mercadolivre"
+  ],
+  "timestamp": "08/26/26 02:16:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mercadolivre-seguro.com",
+        "aggregated": "/CN=mercadolivre-seguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9451946E3E34AA67",
+      "not_before": 1783025175,
+      "not_after": 1800132375,
+      "fingerprint": "0D:23:E5:CA:6B:B2:54:CF:32:44:18:CA:17:76:8F:C8:6E:DE:C5:0D",
+      "sha1": "0D:23:E5:CA:6B:B2:54:CF:32:44:18:CA:17:76:8F:C8:6E:DE:C5:0D",
+      "sha256": "FB:B4:AC:85:9E:34:21:BC:A0:A4:30:5A:9E:9B:FA:80:42:53:7A:40:C0:FF:D4:29:F6:15:CC:26:13:67:7B:39",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mercadolivre-seguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mercadolivre-seguro.com",
+        "subjectKeyIdentifier": "keyid:4c:b5:8b:13:0e:8c:b2:8e:bf:a8:ad:2d:8c:b6:68:47:ad:90:88:14",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 118336313,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=118336313&end=118336313",
+    "seen": 1787721361.131,
+    "submission_timestamp": 1783025176.36,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

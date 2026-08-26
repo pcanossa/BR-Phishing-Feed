@@ -1,0 +1,60 @@
+{
+  "dominio": "scus-oi-ods-a.cloudapp.net",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 03:06:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "ODS-SeverSSL201901scus.opinsights.azure.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=ODS-SeverSSL201901scus.opinsights.azure.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100AEC8BD2122BCD4D9DA9455000000AEC8BD",
+      "not_before": 1786489852,
+      "not_after": 1802041852,
+      "fingerprint": "B8:7C:04:8F:27:E5:D0:F9:FC:0D:EB:18:B9:5F:4D:0D:D5:94:1D:11",
+      "sha1": "B8:7C:04:8F:27:E5:D0:F9:FC:0D:EB:18:B9:5F:4D:0D:D5:94:1D:11",
+      "sha256": "5D:FF:FB:CB:B5:67:FF:B1:C2:12:01:B8:C4:F5:AC:96:AA:91:4B:DE:09:62:97:7F:2B:29:AF:20:C3:44:3A:4E",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "ODS-SeverSSL201901scus.opinsights.azure.com",
+        "scus-oi-ods-b.cloudapp.net",
+        "scus-oi-ods-a.cloudapp.net",
+        "scus-oi-ods.trafficmanager.net",
+        "*.ods.opinsights.azure.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:ODS-SeverSSL201901scus.opinsights.azure.com, DNS:scus-oi-ods-b.cloudapp.net, DNS:scus-oi-ods-a.cloudapp.net, DNS:scus-oi-ods.trafficmanager.net, DNS:*.ods.opinsights.azure.com",
+        "subjectKeyIdentifier": "keyid:21:7a:e8:0a:46:22:d3:ce:31:4b:5c:ad:fa:95:15:b9:4c:1f:5c:5f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 61568106,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=61568106&end=61568106",
+    "seen": 1787724362.939,
+    "submission_timestamp": 1786490456.476,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}
