@@ -1,0 +1,53 @@
+{
+  "dominio": "debitosmei.site",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 11:05:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitosmei.site",
+        "aggregated": "/CN=debitosmei.site"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "06A3AD0F1A1F9F1E13E1120588EFC4A1",
+      "not_before": 1779540288,
+      "not_after": 1787319803,
+      "fingerprint": "72:34:A4:62:11:F5:F9:2B:C9:BC:90:54:6D:AD:A8:90:7C:0D:B5:68",
+      "sha1": "72:34:A4:62:11:F5:F9:2B:C9:BC:90:54:6D:AD:A8:90:7C:0D:B5:68",
+      "sha256": "80:3B:5B:45:4A:30:0B:AC:4D:DF:E5:51:EC:15:0C:BA:4C:80:29:24:07:5E:5D:C8:EB:78:18:32:FA:DD:74:78",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitosmei.site",
+        "*.debitosmei.site"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/BqM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitosmei.site, DNS:*.debitosmei.site",
+        "subjectKeyIdentifier": "keyid:ca:33:33:be:62:6b:c6:2b:a0:e7:0a:11:8f:53:04:4c:c9:ea:06:2c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4410414082,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4410414082&end=4410414082",
+    "seen": 1787753127.996,
+    "submission_timestamp": 1779543888.569,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "www.debitoragentic.xyz",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 10:25:05",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.debitoragentic.xyz",
+        "aggregated": "/CN=www.debitoragentic.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "B6076308BD858778",
+      "not_before": 1783178031,
+      "not_after": 1800285231,
+      "fingerprint": "52:59:2D:49:BB:13:60:D4:CA:07:4B:76:A1:59:A1:51:E1:60:CF:A5",
+      "sha1": "52:59:2D:49:BB:13:60:D4:CA:07:4B:76:A1:59:A1:51:E1:60:CF:A5",
+      "sha256": "A0:AF:B4:7B:B3:38:CC:8B:4F:3D:4F:8F:7F:E7:D0:CD:73:8E:36:53:DA:21:B3:95:34:18:9B:62:DC:27:07:7F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.debitoragentic.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.debitoragentic.xyz",
+        "subjectKeyIdentifier": "keyid:e6:0b:13:c6:3c:3c:f2:7d:29:34:6d:24:19:1e:60:f9:b3:9e:8f:0e"
+      }
+    },
+    "cert_index": 122129676,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=122129676&end=122129676",
+    "seen": 1787750700.463,
+    "submission_timestamp": 1783178111.414,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

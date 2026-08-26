@@ -1,0 +1,52 @@
+{
+  "dominio": "psp.pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 10:29:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.psp.pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.psp.pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "D6380B2E68D867190E1AD8D2FF9F0BA0",
+      "not_before": 1781045071,
+      "not_after": 1788824582,
+      "fingerprint": "07:C2:27:A8:36:C7:FD:AD:95:1F:F1:F6:0D:09:27:E2:7F:73:7E:8D",
+      "sha1": "07:C2:27:A8:36:C7:FD:AD:95:1F:F1:F6:0D:09:27:E2:7F:73:7E:8D",
+      "sha256": "AC:FA:0F:B1:AC:90:5F:E1:FB:D5:DF:41:A2:B2:5F:D5:A1:00:F3:0B:11:FB:2B:4F:38:A6:C3:FC:08:A7:BA:3C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.psp.pci.aws.pagseguro.uol",
+        "psp.pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/1jg, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.psp.pci.aws.pagseguro.uol, DNS:psp.pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:3e:37:b7:b4:36:eb:e9:9c:d5:a9:5f:c6:fa:b6:5d:ae:ec:eb:13:ca"
+      }
+    },
+    "cert_index": 992135119,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x875/527",
+    "seen": 1787750959.344,
+    "submission_timestamp": 1787434884.63,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

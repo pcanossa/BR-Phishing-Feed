@@ -1,0 +1,52 @@
+{
+  "dominio": "fazendabetania.com.br",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/26/26 10:31:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fazendabetania.com.br",
+        "aggregated": "/CN=fazendabetania.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "1700A9F7E24A0B330EC4A24F199D4FF3",
+      "not_before": 1779220063,
+      "not_after": 1786999516,
+      "fingerprint": "57:C3:1A:15:4C:84:E7:4B:9F:B9:E6:19:6F:3E:4A:08:41:70:F1:EE",
+      "sha1": "57:C3:1A:15:4C:84:E7:4B:9F:B9:E6:19:6F:3E:4A:08:41:70:F1:EE",
+      "sha256": "9A:8E:31:42:39:29:0C:FE:37:27:D6:81:18:8F:03:3D:10:1F:C3:D1:F5:68:EA:B5:F7:57:34:9B:05:AA:23:89",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "fazendabetania.com.br",
+        "*.fazendabetania.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/FwA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:fazendabetania.com.br, DNS:*.fazendabetania.com.br",
+        "subjectKeyIdentifier": "keyid:01:2a:02:9e:2b:e3:6c:47:2c:48:4a:3b:fa:5e:55:2f:17:4e:3d:af"
+      }
+    },
+    "cert_index": 4410148631,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4410148631&end=4410148631",
+    "seen": 1787751055.909,
+    "submission_timestamp": 1779542717.854,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

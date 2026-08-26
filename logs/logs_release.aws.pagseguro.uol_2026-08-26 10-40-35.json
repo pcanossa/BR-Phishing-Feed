@@ -1,0 +1,52 @@
+{
+  "dominio": "release.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 10:40:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.release.aws.pagseguro.uol",
+        "aggregated": "/CN=*.release.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "095FB00765AA7F37BB265554C1CE3B54",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "53:5D:65:31:01:59:CA:EE:09:8C:ED:E1:DC:91:3D:DA:07:BE:88:95",
+      "sha1": "53:5D:65:31:01:59:CA:EE:09:8C:ED:E1:DC:91:3D:DA:07:BE:88:95",
+      "sha256": "6F:09:1C:DC:87:ED:68:B4:3A:84:33:EA:43:70:1F:D6:35:B0:7C:34:DD:53:24:9F:BB:CE:7F:CA:8A:06:BA:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.release.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.release.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:b8:04:4a:1d:25:94:5a:fa:46:1f:d1:00:09:6e:a4:76:33:32:f4:0f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 91470572,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=91470572&end=91470572",
+    "seen": 1787751636.589,
+    "submission_timestamp": 1783901768.934,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

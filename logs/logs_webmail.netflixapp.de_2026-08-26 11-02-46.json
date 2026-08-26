@@ -1,0 +1,52 @@
+{
+  "dominio": "webmail.netflixapp.de",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 11:02:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "webmail.netflixapp.de",
+        "aggregated": "/CN=webmail.netflixapp.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0A094584D25C1EE8D9CE9F3240A1E8D6",
+      "not_before": 1781308800,
+      "not_after": 1789084799,
+      "fingerprint": "AF:0E:8A:6A:99:05:51:23:FD:1D:45:84:03:E2:E2:32:15:B7:F0:C9",
+      "sha1": "AF:0E:8A:6A:99:05:51:23:FD:1D:45:84:03:E2:E2:32:15:B7:F0:C9",
+      "sha256": "CA:8C:EC:DD:B8:12:C0:63:76:B0:05:7C:B1:01:C0:1E:B5:B8:83:F6:0F:8D:68:BD:32:DD:D8:E9:CF:0D:67:A0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "webmail.netflixapp.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:webmail.netflixapp.de",
+        "subjectKeyIdentifier": "keyid:c8:09:e6:10:01:d5:80:61:6a:c3:63:6a:34:c1:f3:44:18:ce:4b:13"
+      }
+    },
+    "cert_index": 257424085,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x005/562",
+    "seen": 1787752961.029,
+    "submission_timestamp": 1781360172.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

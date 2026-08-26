@@ -1,0 +1,52 @@
+{
+  "dominio": "app.itaurora.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 10:10:52",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.itaurora.com",
+        "aggregated": "/CN=app.itaurora.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "04DBA9C32FCC220CCD52C537B7AC01A7",
+      "not_before": 1781308800,
+      "not_after": 1789084799,
+      "fingerprint": "7B:77:2A:F8:2D:87:28:37:0C:D3:2D:A7:F2:4B:64:A1:14:5A:A1:29",
+      "sha1": "7B:77:2A:F8:2D:87:28:37:0C:D3:2D:A7:F2:4B:64:A1:14:5A:A1:29",
+      "sha256": "4B:7E:73:C8:A6:A7:64:96:B5:52:0F:B4:CE:38:5F:F6:19:C7:6E:9D:DC:96:52:AA:1C:54:47:29:7F:77:9B:02",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.itaurora.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.itaurora.com",
+        "subjectKeyIdentifier": "keyid:e0:c0:5c:6a:68:89:a3:92:2f:47:c1:20:15:dd:38:34:77:77:1a:76"
+      }
+    },
+    "cert_index": 272374232,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x063/961",
+    "seen": 1787749849.43,
+    "submission_timestamp": 1781326373.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

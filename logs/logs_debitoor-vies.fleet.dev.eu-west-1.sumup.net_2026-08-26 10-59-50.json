@@ -1,0 +1,52 @@
+{
+  "dominio": "debitoor-vies.fleet.dev.eu-west-1.sumup.net",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 10:59:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor-vies.fleet.dev.eu-west-1.sumup.net",
+        "aggregated": "/CN=debitoor-vies.fleet.dev.eu-west-1.sumup.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "67A65F15DD03976013A4622130398AA2",
+      "not_before": 1779540088,
+      "not_after": 1787319558,
+      "fingerprint": "1E:27:C8:FD:B5:0E:A0:48:C0:E0:9A:84:3B:EF:4B:D3:39:BB:1B:87",
+      "sha1": "1E:27:C8:FD:B5:0E:A0:48:C0:E0:9A:84:3B:EF:4B:D3:39:BB:1B:87",
+      "sha256": "41:82:E7:BB:9C:8F:84:11:87:01:28:BF:48:E7:A0:71:64:F6:A7:28:62:5A:39:AE:53:0F:8C:39:64:91:6D:D2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor-vies.fleet.dev.eu-west-1.sumup.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Z6Y, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitoor-vies.fleet.dev.eu-west-1.sumup.net",
+        "subjectKeyIdentifier": "keyid:dd:73:ff:13:f0:6e:33:71:6d:41:3f:25:66:24:e3:56:41:aa:b7:52",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4410368445,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4410368445&end=4410368445",
+    "seen": 1787752787.004,
+    "submission_timestamp": 1779543689.494,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

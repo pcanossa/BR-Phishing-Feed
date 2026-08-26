@@ -1,0 +1,55 @@
+{
+  "dominio": "app.cpf-parking.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 10:44:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gateway.cpf-parking.com",
+        "aggregated": "/CN=gateway.cpf-parking.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "0660E3D7BF71887D645C90B37B2D050569E8",
+      "not_before": 1781330566,
+      "not_after": 1789106565,
+      "fingerprint": "9B:F0:37:7B:53:95:B8:2B:57:46:72:A8:D8:5E:0C:24:E9:8E:69:6C",
+      "sha1": "9B:F0:37:7B:53:95:B8:2B:57:46:72:A8:D8:5E:0C:24:E9:8E:69:6C",
+      "sha256": "2A:CE:77:80:4F:6C:EF:A9:C8:46:3D:17:D8:6A:AC:FC:78:B8:58:34:28:46:3A:31:FC:A5:75:C1:BA:9F:18:59",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gateway.cpf-parking.com",
+        "app.cpf-parking.com",
+        "carpark.systemcare.sg",
+        "kms.systemcare.sg",
+        "privacy.cpf-parking.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.cpf-parking.com, DNS:carpark.systemcare.sg, DNS:gateway.cpf-parking.com, DNS:kms.systemcare.sg, DNS:privacy.cpf-parking.com",
+        "subjectKeyIdentifier": "keyid:93:a7:5e:f6:47:19:02:8f:48:61:31:ba:8c:2d:af:79:07:b7:5c:70"
+      }
+    },
+    "cert_index": 272663521,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x065/091",
+    "seen": 1787751852.937,
+    "submission_timestamp": 1781334079.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

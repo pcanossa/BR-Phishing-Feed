@@ -1,0 +1,52 @@
+{
+  "dominio": "psp.pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 10:30:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.psp.pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.psp.pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "A21B5B3912FCCA811375EF91B4E68A4A",
+      "not_before": 1781045093,
+      "not_after": 1788824677,
+      "fingerprint": "13:04:B9:90:C0:2A:70:19:81:DF:B5:40:63:A5:EF:1F:80:6D:7D:36",
+      "sha1": "13:04:B9:90:C0:2A:70:19:81:DF:B5:40:63:A5:EF:1F:80:6D:7D:36",
+      "sha256": "89:DE:B2:09:56:B6:37:8F:7F:12:E4:DA:AD:D6:E9:7D:98:AB:4C:C2:96:35:35:CF:A8:8F:5A:F6:10:3D:9D:89",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "*.psp.pci.aws.pagseguro.uol",
+        "psp.pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ohs, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.psp.pci.aws.pagseguro.uol, DNS:psp.pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:72:83:e0:76:5f:ab:3c:77:34:84:92:a6:64:2a:36:27:12:cb:9e:03"
+      }
+    },
+    "cert_index": 992137392,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x875/536",
+    "seen": 1787751003.901,
+    "submission_timestamp": 1787434893.796,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}
