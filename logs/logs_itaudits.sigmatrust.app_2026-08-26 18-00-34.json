@@ -1,0 +1,52 @@
+{
+  "dominio": "itaudits.sigmatrust.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 18:00:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sigmatrust.app",
+        "aggregated": "/CN=sigmatrust.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "DD0CC30D3B5155A80E11A383050CD075",
+      "not_before": 1779372639,
+      "not_after": 1787152219,
+      "fingerprint": "31:D5:8A:E5:33:77:BF:C2:2B:F8:7C:56:8C:54:A9:C3:D4:C1:F6:37",
+      "sha1": "31:D5:8A:E5:33:77:BF:C2:2B:F8:7C:56:8C:54:A9:C3:D4:C1:F6:37",
+      "sha256": "65:F4:37:25:63:E9:99:F5:BA:F5:35:12:D3:FF:55:4C:1F:2E:FA:A5:BD:54:24:6F:10:13:47:D5:87:DF:E7:16",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "sigmatrust.app",
+        "itaudits.sigmatrust.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/3Qw, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:sigmatrust.app, DNS:itaudits.sigmatrust.app",
+        "subjectKeyIdentifier": "keyid:c9:39:1a:1b:24:e2:3c:7f:0e:b3:05:b3:9d:1d:e8:3c:55:94:f2:8f"
+      }
+    },
+    "cert_index": 718488974,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=718488974&end=718488974",
+    "seen": 1787778029.256,
+    "submission_timestamp": 1779376411.064,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

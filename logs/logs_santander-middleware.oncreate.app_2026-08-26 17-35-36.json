@@ -1,0 +1,51 @@
+{
+  "dominio": "santander-middleware.oncreate.app",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 17:35:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-middleware.oncreate.app",
+        "aggregated": "/CN=santander-middleware.oncreate.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "067F8377D2E5B831E678AE34AC754AA8",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "A6:3C:E2:6A:7E:5A:DB:A7:34:38:D9:5D:60:6C:C2:46:A3:85:20:78",
+      "sha1": "A6:3C:E2:6A:7E:5A:DB:A7:34:38:D9:5D:60:6C:C2:46:A3:85:20:78",
+      "sha256": "06:B7:36:E1:7B:92:1C:10:F3:04:CB:3C:E9:5E:AF:98:2A:C7:D7:45:0E:30:93:E1:C2:86:E2:27:CB:7D:11:85",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "santander-middleware.oncreate.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:santander-middleware.oncreate.app",
+        "subjectKeyIdentifier": "keyid:cb:48:6f:74:2a:27:91:2f:9c:22:0f:db:46:b6:12:74:3c:77:39:54"
+      }
+    },
+    "cert_index": 107321153,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x419/223",
+    "seen": 1787776531.199,
+    "submission_timestamp": 1784420450.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

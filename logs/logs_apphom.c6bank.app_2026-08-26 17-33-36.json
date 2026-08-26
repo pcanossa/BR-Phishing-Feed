@@ -1,0 +1,53 @@
+{
+  "dominio": "apphom.c6bank.app",
+  "marcas_encontradas": [
+    "c6bank"
+  ],
+  "timestamp": "08/26/26 17:33:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apphom.c6bank.app",
+        "aggregated": "/CN=apphom.c6bank.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "08E478CE7544E74C31B4E8D6B3A9D5E7",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "59:5C:20:9A:AA:38:13:54:BC:95:5F:AC:12:94:75:D1:20:B7:56:A8",
+      "sha1": "59:5C:20:9A:AA:38:13:54:BC:95:5F:AC:12:94:75:D1:20:B7:56:A8",
+      "sha256": "40:62:A5:9D:80:A8:D2:13:47:BA:97:CF:F9:BE:EA:0A:35:6D:D0:02:03:1B:AB:A0:05:E9:77:A3:DD:EC:10:25",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "apphom.c6bank.app",
+        "apphom1.c6bank.app",
+        "apphom2.c6bank.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apphom.c6bank.app, DNS:apphom1.c6bank.app, DNS:apphom2.c6bank.app",
+        "subjectKeyIdentifier": "keyid:d1:73:2c:ec:75:1b:15:b8:0d:d9:94:cf:ba:bb:f0:34:04:12:67:89"
+      }
+    },
+    "cert_index": 107303222,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x419/153",
+    "seen": 1787776410.59,
+    "submission_timestamp": 1784419847.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "www.federalcaixa.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 17:22:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.federalcaixa.com",
+        "aggregated": "/CN=www.federalcaixa.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "678E589FD8E603B1",
+      "not_before": 1784049439,
+      "not_after": 1801156639,
+      "fingerprint": "A4:CF:F7:89:30:DC:D7:AE:20:E6:B7:0A:2F:0B:91:83:B7:00:0F:0E",
+      "sha1": "A4:CF:F7:89:30:DC:D7:AE:20:E6:B7:0A:2F:0B:91:83:B7:00:0F:0E",
+      "sha256": "C5:6F:C9:DE:D5:82:FB:A7:BB:FA:20:26:83:22:FB:5D:3D:B6:1F:B1:AA:23:A4:77:B7:33:78:18:A5:8E:96:CD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.federalcaixa.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.federalcaixa.com",
+        "subjectKeyIdentifier": "keyid:63:2f:1a:43:3d:5e:bf:b5:08:39:43:32:c4:e9:e7:04:7e:a0:a2:2c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 93993567,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=93993567&end=93993567",
+    "seen": 1787775750.137,
+    "submission_timestamp": 1784049440.323,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

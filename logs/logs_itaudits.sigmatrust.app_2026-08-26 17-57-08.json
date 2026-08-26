@@ -1,0 +1,53 @@
+{
+  "dominio": "itaudits.sigmatrust.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 17:57:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sigmatrust.app",
+        "aggregated": "/CN=sigmatrust.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "B08B205D168486440EEB1FB00F1F47FF",
+      "not_before": 1779372614,
+      "not_after": 1787152058,
+      "fingerprint": "CC:C9:EF:F5:99:2F:53:EA:C5:DF:85:47:27:B0:65:15:AD:B6:1B:07",
+      "sha1": "CC:C9:EF:F5:99:2F:53:EA:C5:DF:85:47:27:B0:65:15:AD:B6:1B:07",
+      "sha256": "D6:98:ED:1D:01:DA:57:0A:EF:3C:F5:6D:A5:5D:4F:AB:30:B2:D5:79:CB:06:ED:FE:8B:8E:2C:59:56:5D:FD:39",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sigmatrust.app",
+        "itaudits.sigmatrust.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/sIs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sigmatrust.app, DNS:itaudits.sigmatrust.app",
+        "subjectKeyIdentifier": "keyid:19:4d:01:b7:c2:d5:0b:83:ee:ac:63:e2:42:89:7c:ef:01:76:79:57",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 718465049,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=718465049&end=718465049",
+    "seen": 1787777823.09,
+    "submission_timestamp": 1779376214.783,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

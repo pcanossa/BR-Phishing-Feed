@@ -1,0 +1,52 @@
+{
+  "dominio": "formations-cpf.io",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 17:07:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "formations-cpf.io",
+        "aggregated": "/CN=formations-cpf.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0182DD40901152BF8C2E89F918DBB789",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "48:AD:A5:F4:D1:49:BA:80:07:AC:A5:85:F8:9B:58:BD:F4:C8:D3:58",
+      "sha1": "48:AD:A5:F4:D1:49:BA:80:07:AC:A5:85:F8:9B:58:BD:F4:C8:D3:58",
+      "sha256": "E3:F6:C4:64:49:B7:4A:3D:FD:E7:12:4C:88:8B:F2:67:C1:4F:85:8F:84:46:33:64:57:3D:38:9E:16:15:BF:E9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "formations-cpf.io",
+        "*.formations-cpf.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:formations-cpf.io, DNS:*.formations-cpf.io",
+        "subjectKeyIdentifier": "keyid:53:7e:37:22:9f:20:73:fc:a2:ca:22:1f:6e:de:37:35:02:58:97:14"
+      }
+    },
+    "cert_index": 98417784,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x384/444",
+    "seen": 1787774823.845,
+    "submission_timestamp": 1784462355.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

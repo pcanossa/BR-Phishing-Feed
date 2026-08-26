@@ -1,0 +1,54 @@
+{
+  "dominio": "node22.cpf.staging.eduid.ch",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 17:45:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "CH",
+        "CN": "node22.cpf.staging.eduid.ch",
+        "L": "Z\u00fcrich",
+        "O": "SWITCH",
+        "aggregated": "/C=CH/CN=node22.cpf.staging.eduid.ch/L=Z\u00fcrich/O=SWITCH"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0C06DDE29730A055AED770B58C44E90C",
+      "not_before": 1781481600,
+      "not_after": 1789257599,
+      "fingerprint": "14:8E:CE:CB:8F:54:50:BF:09:B5:CA:AC:26:F2:CB:41:9C:86:85:C2",
+      "sha1": "14:8E:CE:CB:8F:54:50:BF:09:B5:CA:AC:26:F2:CB:41:9C:86:85:C2",
+      "sha256": "FA:71:88:A9:0A:7D:BF:3F:77:66:12:3B:3F:31:B4:F4:D2:E6:28:9A:33:62:D1:EF:B5:97:FC:D2:E7:B3:F5:5F",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "node22.cpf.staging.eduid.ch"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:node22.cpf.staging.eduid.ch",
+        "subjectKeyIdentifier": "keyid:f8:cb:6e:d7:ed:b3:f9:35:e8:8d:f7:0e:eb:75:cb:36:80:c7:b8:5f"
+      }
+    },
+    "cert_index": 260729994,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x018/476",
+    "seen": 1787777130.37,
+    "submission_timestamp": 1781483636.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

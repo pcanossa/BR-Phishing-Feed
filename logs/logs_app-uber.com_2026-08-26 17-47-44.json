@@ -1,0 +1,52 @@
+{
+  "dominio": "app-uber.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/26/26 17:47:44",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.app-uber.com",
+        "aggregated": "/CN=*.app-uber.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "3C255626C72FA1D3D2CAB98EA3E2B4BD",
+      "not_before": 1784419200,
+      "not_after": 1800057599,
+      "fingerprint": "8E:90:17:97:08:F5:7E:AD:33:A3:CE:DF:50:18:D9:C8:F8:5A:CA:82",
+      "sha1": "8E:90:17:97:08:F5:7E:AD:33:A3:CE:DF:50:18:D9:C8:F8:5A:CA:82",
+      "sha256": "42:7D:FF:AC:20:82:84:73:F7:34:25:2C:88:F8:2C:83:4C:5B:6C:EC:38:9B:4B:5A:73:23:51:61:39:FA:91:EE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.app-uber.com",
+        "app-uber.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.app-uber.com, DNS:app-uber.com",
+        "subjectKeyIdentifier": "keyid:29:96:c5:04:1c:8e:ed:0f:ed:25:12:7f:22:79:5d:68:5a:14:34:21"
+      }
+    },
+    "cert_index": 107425955,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x419/632",
+    "seen": 1787777258.667,
+    "submission_timestamp": 1784425921.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

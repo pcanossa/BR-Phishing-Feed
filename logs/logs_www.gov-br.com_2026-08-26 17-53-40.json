@@ -1,0 +1,51 @@
+{
+  "dominio": "www.gov-br.com",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "08/26/26 17:53:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.gov-br.com",
+        "aggregated": "/CN=www.gov-br.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "791DC65A4832E7F9",
+      "not_before": 1786810792,
+      "not_after": 1803917992,
+      "fingerprint": "0F:32:8E:A0:2E:82:20:17:A1:32:78:19:3D:DB:00:0D:E8:37:85:3E",
+      "sha1": "0F:32:8E:A0:2E:82:20:17:A1:32:78:19:3D:DB:00:0D:E8:37:85:3E",
+      "sha256": "CC:D5:DD:76:15:BE:E1:71:37:F6:90:85:50:BE:23:E1:23:EC:A0:69:B9:35:24:CF:8C:94:FF:09:FD:E0:64:A5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.gov-br.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.gov-br.com",
+        "subjectKeyIdentifier": "keyid:88:b0:04:ca:c3:1d:46:1e:7d:d5:f4:73:aa:ba:ef:7b:d3:b0:56:04"
+      }
+    },
+    "cert_index": 68283949,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=68283949&end=68283949",
+    "seen": 1787777614.65,
+    "submission_timestamp": 1786810859.735,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

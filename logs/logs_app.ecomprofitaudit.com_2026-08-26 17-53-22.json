@@ -1,0 +1,52 @@
+{
+  "dominio": "app.ecomprofitaudit.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 17:53:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.ecomprofitaudit.com",
+        "aggregated": "/CN=app.ecomprofitaudit.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06066201D3177CE3B6FD925A339AE9545C99",
+      "not_before": 1779013016,
+      "not_after": 1786789015,
+      "fingerprint": "2D:55:21:42:C7:FE:04:92:98:0B:E5:9B:0A:BB:8F:B8:40:5B:4B:87",
+      "sha1": "2D:55:21:42:C7:FE:04:92:98:0B:E5:9B:0A:BB:8F:B8:40:5B:4B:87",
+      "sha256": "5E:68:67:BD:C7:61:A0:5F:8F:10:E2:FA:07:A2:BC:68:66:00:80:4E:BB:09:4C:92:8B:93:8B:BC:07:65:93:13",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.ecomprofitaudit.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.ecomprofitaudit.com",
+        "subjectKeyIdentifier": "keyid:bc:6e:b6:3c:49:b4:9d:72:a6:03:d5:46:ff:21:4c:6a:fa:8f:30:93",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 692906544,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=692906544&end=692906544",
+    "seen": 1787777596.311,
+    "submission_timestamp": 1779016526.803,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

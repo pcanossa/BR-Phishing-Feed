@@ -1,0 +1,52 @@
+{
+  "dominio": "wildcard.tarjetadedebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 17:21:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "wildcard.tarjetadedebito.com",
+        "aggregated": "/CN=wildcard.tarjetadedebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0928167334ED4CC89B2AF062FBED55FB",
+      "not_before": 1781395200,
+      "not_after": 1789171199,
+      "fingerprint": "D3:05:D7:61:2F:04:2F:0A:0E:D6:41:47:91:53:B0:D7:81:63:FD:DA",
+      "sha1": "D3:05:D7:61:2F:04:2F:0A:0E:D6:41:47:91:53:B0:D7:81:63:FD:DA",
+      "sha256": "0F:78:FE:95:47:56:F7:88:88:C5:EC:79:07:2F:B1:46:02:07:9B:C9:6A:87:60:76:20:7E:F0:13:72:5F:DB:A9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "wildcard.tarjetadedebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:wildcard.tarjetadedebito.com",
+        "subjectKeyIdentifier": "keyid:a9:1a:4b:3a:8e:6c:d4:45:36:3a:e7:13:9a:47:2b:eb:65:6c:81:d6"
+      }
+    },
+    "cert_index": 260528723,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x017/690",
+    "seen": 1787775658.061,
+    "submission_timestamp": 1781477856.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

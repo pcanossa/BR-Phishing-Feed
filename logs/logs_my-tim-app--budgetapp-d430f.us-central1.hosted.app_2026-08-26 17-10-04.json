@@ -1,0 +1,52 @@
+{
+  "dominio": "my-tim-app--budgetapp-d430f.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/26/26 17:10:04",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "my-tim-app--budgetapp-d430f.us-central1.hosted.app",
+        "aggregated": "/CN=my-tim-app--budgetapp-d430f.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "17AF436AF3924F4A0917408D8C05759E",
+      "not_before": 1779550918,
+      "not_after": 1787330273,
+      "fingerprint": "68:E2:EF:3B:0D:69:6D:98:45:78:79:3F:62:3E:2F:A1:7D:8C:94:7F",
+      "sha1": "68:E2:EF:3B:0D:69:6D:98:45:78:79:3F:62:3E:2F:A1:7D:8C:94:7F",
+      "sha256": "90:B7:74:C3:85:77:A9:3F:EB:A1:48:FE:8B:2B:FA:D4:6B:81:6D:C1:0E:92:5D:04:43:82:94:AF:84:C5:8C:BB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "my-tim-app--budgetapp-d430f.us-central1.hosted.app",
+        "*.my-tim-app--budgetapp-d430f.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/F68, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:my-tim-app--budgetapp-d430f.us-central1.hosted.app, DNS:*.my-tim-app--budgetapp-d430f.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:a0:df:0b:2a:23:2a:99:d0:15:65:2c:34:af:b0:26:f8:8b:8e:66:51"
+      }
+    },
+    "cert_index": 4413238437,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4413238437&end=4413238437",
+    "seen": 1787774998.904,
+    "submission_timestamp": 1779555145.426,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
