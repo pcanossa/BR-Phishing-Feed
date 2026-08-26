@@ -1,0 +1,65 @@
+{
+  "dominio": "jenkins.app.us-west-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 07:23:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "ecom.builds.test.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=ecom.builds.test.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "03CDEB1F5038447547A8FCB03BFEBDD5",
+      "not_before": 1780099200,
+      "not_after": 1787876803,
+      "fingerprint": "21:70:63:9C:A1:51:FC:02:25:1C:F1:EE:4E:F9:77:39:5C:A3:45:85",
+      "sha1": "21:70:63:9C:A1:51:FC:02:25:1C:F1:EE:4E:F9:77:39:5C:A3:45:85",
+      "sha256": "51:A5:49:3D:7D:F5:42:31:16:EF:81:E7:4B:B7:AC:3E:B7:89:12:C2:9C:38:76:57:C7:5E:98:B0:24:4B:DD:3B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "ecom.builds.test.netflix.net",
+        "ecom.jenkins.dyntest.netflix.net",
+        "ecom.jenkins.test.netflix.net",
+        "ecom.jenkins.us-west-1.dyntest.netflix.net",
+        "ecom.jenkins.us-west-1.test.netflix.net",
+        "jenkins-ecom-controller.cluster.us-west-1.test.cloud.netflix.net",
+        "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "jenkins.dyntest.netflix.net",
+        "jenkins.test.netflix.net",
+        "jenkins.us-west-1.dyntest.netflix.net",
+        "jenkins.us-west-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:ecom.builds.test.netflix.net, DNS:ecom.jenkins.dyntest.netflix.net, DNS:ecom.jenkins.test.netflix.net, DNS:ecom.jenkins.us-west-1.dyntest.netflix.net, DNS:ecom.jenkins.us-west-1.test.netflix.net, DNS:jenkins-ecom-controller.cluster.us-west-1.test.cloud.netflix.net, DNS:jenkins.app.us-west-1.test.cloud.netflix.net, DNS:jenkins.dyntest.netflix.net, DNS:jenkins.test.netflix.net, DNS:jenkins.us-west-1.dyntest.netflix.net, DNS:jenkins.us-west-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:83:de:06:93:d8:1d:84:6d:12:d1:0b:0a:62:a7:84:8e:3f:dc:68:77"
+      }
+    },
+    "cert_index": 420628459,
+    "cert_link": "https://halloumi2026h2a.mon.ct.ipng.ch/tile/data/x001/x643/079",
+    "seen": 1787739790.441,
+    "submission_timestamp": 1780576395.337,
+    "source": {
+      "name": "IPng Networks 'Halloumi2026h2a'",
+      "url": "https://halloumi2026h2a.mon.ct.ipng.ch"
+    }
+  }
+}

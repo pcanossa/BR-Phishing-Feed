@@ -1,0 +1,53 @@
+{
+  "dominio": "app-dev-au.banco.biz",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/26/26 07:09:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-dev-au.banco.biz",
+        "aggregated": "/CN=app-dev-au.banco.biz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "091395FAF1CE2DA686BE02EE3B6FA156",
+      "not_before": 1779494400,
+      "not_after": 1787270399,
+      "fingerprint": "30:C3:1B:0E:F9:52:82:86:DC:70:F0:D3:5B:96:06:04:77:1A:90:64",
+      "sha1": "30:C3:1B:0E:F9:52:82:86:DC:70:F0:D3:5B:96:06:04:77:1A:90:64",
+      "sha256": "5A:3B:B4:7C:3F:BD:FF:19:4D:7F:F4:0B:4C:4E:0E:A6:1D:E6:52:50:E0:45:0C:30:D6:3D:08:E9:4F:90:9E:E6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-dev-au.banco.biz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-dev-au.banco.biz",
+        "subjectKeyIdentifier": "keyid:92:39:84:bf:9a:18:49:ea:c5:63:cb:89:40:0d:c3:58:19:3a:98:a6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4408594371,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408594371&end=4408594371",
+    "seen": 1787738949.875,
+    "submission_timestamp": 1779536316.96,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

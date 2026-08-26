@@ -1,0 +1,53 @@
+{
+  "dominio": "ingest-meudetran.debitosveicular.com",
+  "marcas_encontradas": [
+    "detran",
+    "debito"
+  ],
+  "timestamp": "08/26/26 07:42:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "ingest-meudetran.debitosveicular.com",
+        "aggregated": "/CN=ingest-meudetran.debitosveicular.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06F54AE5B5917942292B4B42B374574F91A5",
+      "not_before": 1781306673,
+      "not_after": 1789082672,
+      "fingerprint": "85:0F:79:EF:81:D7:F6:4F:31:37:B6:CE:8A:BE:F6:AE:64:E5:1E:3F",
+      "sha1": "85:0F:79:EF:81:D7:F6:4F:31:37:B6:CE:8A:BE:F6:AE:64:E5:1E:3F",
+      "sha256": "14:7F:A2:AF:46:54:30:2C:12:81:3F:73:BE:52:D6:27:39:45:E7:87:E4:08:9F:A3:79:D7:19:E2:77:43:75:86",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "ingest-meudetran.debitosveicular.com",
+        "ws-meudetran.debitosveicular.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:ingest-meudetran.debitosveicular.com, DNS:ws-meudetran.debitosveicular.com",
+        "subjectKeyIdentifier": "keyid:d2:bf:7e:4a:0a:ee:d9:54:ac:1c:d7:82:23:66:68:26:74:3c:b7:83"
+      }
+    },
+    "cert_index": 255778068,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x999/133",
+    "seen": 1787740957.13,
+    "submission_timestamp": 1781310184.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

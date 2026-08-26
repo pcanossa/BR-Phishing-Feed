@@ -1,0 +1,54 @@
+{
+  "dominio": "angie-cache-beta-uber-us-west-2.xcw0mr.usw2.cache.amazonaws.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/26/26 07:41:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "7zfimqdeazljd6o7qam10hoifiucsjnbnbf59z3.usw2.cache.amazonaws.com",
+        "aggregated": "/CN=7zfimqdeazljd6o7qam10hoifiucsjnbnbf59z3.usw2.cache.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0F0500B44281A89E169CE48083CC624E",
+      "not_before": 1783123200,
+      "not_after": 1800230399,
+      "fingerprint": "32:9A:6B:5F:94:3F:67:38:5F:27:D4:ED:53:43:C1:E2:B0:3B:A9:BB",
+      "sha1": "32:9A:6B:5F:94:3F:67:38:5F:27:D4:ED:53:43:C1:E2:B0:3B:A9:BB",
+      "sha256": "85:81:06:7D:42:23:6A:E5:63:F7:02:94:97:83:04:0D:77:7F:16:0D:96:03:B8:17:28:2A:73:20:95:14:B3:70",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "7zfimqdeazljd6o7qam10hoifiucsjnbnbf59z3.usw2.cache.amazonaws.com",
+        "angie-cache-beta-uber-us-west-2.xcw0mr.cfg.usw2.cache.amazonaws.com",
+        "*.angie-cache-beta-uber-us-west-2.xcw0mr.usw2.cache.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:7zfimqdeazljd6o7qam10hoifiucsjnbnbf59z3.usw2.cache.amazonaws.com, DNS:angie-cache-beta-uber-us-west-2.xcw0mr.cfg.usw2.cache.amazonaws.com, DNS:*.angie-cache-beta-uber-us-west-2.xcw0mr.usw2.cache.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:15:9e:cd:98:d5:e6:2e:17:06:9e:3c:22:51:9d:ba:94:b7:d5:0a:33",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 120911762,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=120911762&end=120911762",
+    "seen": 1787740913.596,
+    "submission_timestamp": 1783128225.285,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

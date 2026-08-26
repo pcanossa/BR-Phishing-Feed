@@ -1,0 +1,53 @@
+{
+  "dominio": "apps.rosa-nsts-f3-b3.j2rb.s1.devshift.org",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/26/26 07:58:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.rosa-nsts-f3-b3.j2rb.s1.devshift.org",
+        "aggregated": "/CN=api.rosa-nsts-f3-b3.j2rb.s1.devshift.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0645611EC23EF9369BD41A1A8C58B03A75D6",
+      "not_before": 1779343423,
+      "not_after": 1787119422,
+      "fingerprint": "DC:2C:02:15:3F:D7:59:34:3A:10:93:21:0B:F4:72:1C:5D:9A:AB:DF",
+      "sha1": "DC:2C:02:15:3F:D7:59:34:3A:10:93:21:0B:F4:72:1C:5D:9A:AB:DF",
+      "sha256": "73:2F:2E:20:0E:71:6E:6E:AE:01:58:3F:F8:F2:77:62:D4:13:41:5F:C9:48:32:F2:F8:41:B5:AA:7B:DA:13:27",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.rosa-nsts-f3-b3.j2rb.s1.devshift.org",
+        "*.apps.rosa-nsts-f3-b3.j2rb.s1.devshift.org",
+        "rh-api.rosa-nsts-f3-b3.j2rb.s1.devshift.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.rosa-nsts-f3-b3.j2rb.s1.devshift.org, DNS:api.rosa-nsts-f3-b3.j2rb.s1.devshift.org, DNS:rh-api.rosa-nsts-f3-b3.j2rb.s1.devshift.org",
+        "subjectKeyIdentifier": "keyid:05:45:52:1c:29:bf:17:63:cc:52:47:a6:f8:a1:77:8f:b6:9f:b5:77"
+      }
+    },
+    "cert_index": 714674385,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=714674385&end=714674385",
+    "seen": 1787741885.304,
+    "submission_timestamp": 1779346934.806,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "debitor.irish",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 07:51:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitor.irish",
+        "aggregated": "/CN=*.debitor.irish"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0661D33CDBA9B2A364927BC92A02F45BA138",
+      "not_before": 1779343013,
+      "not_after": 1787119012,
+      "fingerprint": "72:7E:F9:93:46:45:C6:7A:19:90:24:3D:D8:97:31:C3:CE:D4:EA:56",
+      "sha1": "72:7E:F9:93:46:45:C6:7A:19:90:24:3D:D8:97:31:C3:CE:D4:EA:56",
+      "sha256": "1C:EA:60:09:93:67:CC:30:6C:FA:97:8D:E0:58:0A:24:1C:B2:1B:BD:CA:A8:7A:04:B8:50:ED:D9:21:32:8D:09",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitor.irish",
+        "debitor.irish"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.debitor.irish, DNS:debitor.irish",
+        "subjectKeyIdentifier": "keyid:b5:ff:a0:f3:e8:65:23:0b:9d:08:ad:e5:16:0f:02:c2:26:62:6f:d4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 714623307,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=714623307&end=714623307",
+    "seen": 1787741471.848,
+    "submission_timestamp": 1779346524.417,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

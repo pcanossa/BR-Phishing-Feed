@@ -1,0 +1,52 @@
+{
+  "dominio": "debitor.se",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 07:08:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitor.se",
+        "aggregated": "/CN=debitor.se"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "EE438EE90F9A664C0E143EFF81044121",
+      "not_before": 1780347666,
+      "not_after": 1788127194,
+      "fingerprint": "C7:D7:A3:66:82:9E:08:DC:0B:1A:76:EB:A3:E6:9C:15:FD:55:23:03",
+      "sha1": "C7:D7:A3:66:82:9E:08:DC:0B:1A:76:EB:A3:E6:9C:15:FD:55:23:03",
+      "sha256": "5A:12:FF:98:8B:71:2F:B2:AC:5A:41:65:E3:E8:A7:BB:94:B0:B4:DA:E3:BB:CC:05:E1:AE:4F:2A:57:05:81:D3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitor.se",
+        "*.debitor.se"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/7kM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitor.se, DNS:*.debitor.se",
+        "subjectKeyIdentifier": "keyid:16:d2:21:ba:4c:10:7c:f2:3f:31:4e:67:40:c8:9e:de:54:4e:49:1e"
+      }
+    },
+    "cert_index": 394765031,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x542/050",
+    "seen": 1787738910.746,
+    "submission_timestamp": 1780768240.888,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

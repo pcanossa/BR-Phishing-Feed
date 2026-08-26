@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 07:53:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.net",
+        "aggregated": "/CN=cpf.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "0698F1D3BB632E97FB6CA96B2A0B9627D3B3",
+      "not_before": 1781308966,
+      "not_after": 1789084965,
+      "fingerprint": "1B:7F:C5:00:CA:92:D6:C7:2E:D5:5E:C4:70:41:2E:3E:5C:7C:42:DE",
+      "sha1": "1B:7F:C5:00:CA:92:D6:C7:2E:D5:5E:C4:70:41:2E:3E:5C:7C:42:DE",
+      "sha256": "E0:C6:0C:33:29:F6:1C:3C:19:5F:54:B1:BA:E9:41:4E:66:46:1B:F7:2C:3E:A5:6E:77:31:F4:1E:70:A5:D4:EC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.net",
+        "www.cpf.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.net, DNS:www.cpf.net",
+        "subjectKeyIdentifier": "keyid:bf:e7:e9:ae:9d:60:21:95:58:a6:0d:ef:c3:6c:db:44:b8:98:da:c0"
+      }
+    },
+    "cert_index": 255864067,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x999/469",
+    "seen": 1787741577.467,
+    "submission_timestamp": 1781312476.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

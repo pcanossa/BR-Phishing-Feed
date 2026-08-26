@@ -1,0 +1,65 @@
+{
+  "dominio": "jenkins.app.us-west-1.test.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 07:23:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=jenkins.app.us-west-1.test.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0C32483D0B6B703529DC7934CFA45C24",
+      "not_before": 1780099200,
+      "not_after": 1787876786,
+      "fingerprint": "CC:85:3A:0C:D7:C6:BF:A1:E8:71:F6:DC:FA:AF:EA:C9:7C:27:93:A3",
+      "sha1": "CC:85:3A:0C:D7:C6:BF:A1:E8:71:F6:DC:FA:AF:EA:C9:7C:27:93:A3",
+      "sha256": "14:EB:37:BB:96:DF:21:93:86:E4:17:55:5A:AB:E4:22:6D:C8:EC:E3:A4:EB:67:71:DF:D7:84:43:B6:D7:BE:A1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "jenkins.app.us-west-1.test.cloud.netflix.net",
+        "jenkins-titus-controller.cluster.us-west-1.test.cloud.netflix.net",
+        "jenkins.dyntest.netflix.net",
+        "jenkins.test.netflix.net",
+        "jenkins.us-west-1.dyntest.netflix.net",
+        "jenkins.us-west-1.test.netflix.net",
+        "titus.builds.test.netflix.net",
+        "titus.jenkins.dyntest.netflix.net",
+        "titus.jenkins.test.netflix.net",
+        "titus.jenkins.us-west-1.dyntest.netflix.net",
+        "titus.jenkins.us-west-1.test.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:jenkins-titus-controller.cluster.us-west-1.test.cloud.netflix.net, DNS:jenkins.app.us-west-1.test.cloud.netflix.net, DNS:jenkins.dyntest.netflix.net, DNS:jenkins.test.netflix.net, DNS:jenkins.us-west-1.dyntest.netflix.net, DNS:jenkins.us-west-1.test.netflix.net, DNS:titus.builds.test.netflix.net, DNS:titus.jenkins.dyntest.netflix.net, DNS:titus.jenkins.test.netflix.net, DNS:titus.jenkins.us-west-1.dyntest.netflix.net, DNS:titus.jenkins.us-west-1.test.netflix.net",
+        "subjectKeyIdentifier": "keyid:e6:85:f5:01:74:ec:41:14:ba:b6:9f:1d:08:32:1f:1f:7a:15:3a:32"
+      }
+    },
+    "cert_index": 420625506,
+    "cert_link": "https://halloumi2026h2a.mon.ct.ipng.ch/tile/data/x001/x643/068",
+    "seen": 1787739784.376,
+    "submission_timestamp": 1780576358.012,
+    "source": {
+      "name": "IPng Networks 'Halloumi2026h2a'",
+      "url": "https://halloumi2026h2a.mon.ct.ipng.ch"
+    }
+  }
+}

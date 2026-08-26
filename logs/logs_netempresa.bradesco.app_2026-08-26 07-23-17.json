@@ -1,0 +1,51 @@
+{
+  "dominio": "netempresa.bradesco.app",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/26/26 07:23:17",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netempresa.bradesco.app",
+        "aggregated": "/CN=netempresa.bradesco.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "05B25CD256E5E987C8D7C265D0BA8F9DF26D",
+      "not_before": 1779205690,
+      "not_after": 1786981689,
+      "fingerprint": "1A:0C:94:E7:5B:05:87:28:DA:EA:10:65:C2:04:51:DC:56:95:B5:38",
+      "sha1": "1A:0C:94:E7:5B:05:87:28:DA:EA:10:65:C2:04:51:DC:56:95:B5:38",
+      "sha256": "1A:43:30:7E:83:14:91:8F:FF:87:5F:44:BF:07:B9:31:3A:91:5B:70:A9:D2:F8:66:DA:DC:96:AC:75:85:E5:A6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netempresa.bradesco.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netempresa.bradesco.app",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4408704684,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408704684&end=4408704684",
+    "seen": 1787739793.902,
+    "submission_timestamp": 1779536826.662,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

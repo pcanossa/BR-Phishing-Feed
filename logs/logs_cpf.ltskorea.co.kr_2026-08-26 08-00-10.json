@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.ltskorea.co.kr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 08:00:10",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.ltskorea.co.kr",
+        "aggregated": "/CN=cpf.ltskorea.co.kr"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV R36/O=Sectigo Limited"
+      },
+      "serial_number": "888006F02C42FFA66144B1986AE6A5DF",
+      "not_before": 1784073600,
+      "not_after": 1801267199,
+      "fingerprint": "38:B7:86:54:12:8B:86:0C:FC:55:B1:7F:A6:0F:D5:CE:7D:E6:0D:57",
+      "sha1": "38:B7:86:54:12:8B:86:0C:FC:55:B1:7F:A6:0F:D5:CE:7D:E6:0D:57",
+      "sha256": "9C:FB:54:A5:67:F7:DD:6C:07:5C:EB:2E:C0:AF:21:5A:6B:8C:B4:93:A6:D0:92:4B:5A:5B:15:EE:FB:F6:95:91",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.ltskorea.co.kr",
+        "www.cpf.ltskorea.co.kr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:68:c0:12:16:18:0e:af:ce:f6:87:a6:32:57:a3:46:51:5d:cb:07:27",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.ltskorea.co.kr, DNS:www.cpf.ltskorea.co.kr",
+        "subjectKeyIdentifier": "keyid:ed:0c:17:3b:2c:42:25:b9:78:51:00:c2:ba:52:4f:54:3b:55:29:e5"
+      }
+    },
+    "cert_index": 102313747,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x399/663",
+    "seen": 1787742007.054,
+    "submission_timestamp": 1784099287.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

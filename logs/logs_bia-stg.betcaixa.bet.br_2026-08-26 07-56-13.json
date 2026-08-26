@@ -1,0 +1,53 @@
+{
+  "dominio": "bia-stg.betcaixa.bet.br",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 07:56:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "betcaixa.bet.br",
+        "aggregated": "/CN=betcaixa.bet.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "3F7418CE1BD6DAC613E7E4F0BDD74C0A",
+      "not_before": 1777976916,
+      "not_after": 1785756383,
+      "fingerprint": "53:4B:34:B7:AB:10:F9:B0:AF:3C:1D:D7:B9:64:B6:8C:09:A8:18:FF",
+      "sha1": "53:4B:34:B7:AB:10:F9:B0:AF:3C:1D:D7:B9:64:B6:8C:09:A8:18:FF",
+      "sha256": "00:EA:3D:99:CB:A6:72:DF:2E:91:AB:77:06:EA:7A:42:CE:AD:94:F4:75:69:C4:BD:CA:CE:B9:B9:CC:EB:5B:9E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "betcaixa.bet.br",
+        "bia-stg.betcaixa.bet.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/P3Q, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:betcaixa.bet.br, DNS:bia-stg.betcaixa.bet.br",
+        "subjectKeyIdentifier": "keyid:89:99:c5:ba:6d:5a:10:76:f4:78:ca:66:bf:4b:2c:4b:f4:54:05:a1",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 846478850,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h2/ct/v1/get-entries?start=846478850&end=846478850",
+    "seen": 1787741770.476,
+    "submission_timestamp": 1777980517.375,
+    "source": {
+      "name": "Google 'Argon2026h2' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h2"
+    }
+  }
+}

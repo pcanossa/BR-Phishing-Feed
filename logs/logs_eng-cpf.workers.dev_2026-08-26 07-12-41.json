@@ -1,0 +1,52 @@
+{
+  "dominio": "eng-cpf.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 07:12:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "eng-cpf.workers.dev",
+        "aggregated": "/CN=eng-cpf.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "BEC774985003B5870E4AD7B946FD435E",
+      "not_before": 1781185172,
+      "not_after": 1788964625,
+      "fingerprint": "F5:99:71:F5:BA:60:7A:1A:E4:C7:22:9A:A1:F6:6C:71:3D:0C:88:34",
+      "sha1": "F5:99:71:F5:BA:60:7A:1A:E4:C7:22:9A:A1:F6:6C:71:3D:0C:88:34",
+      "sha256": "81:9E:F0:61:FE:5B:0A:54:E4:F4:3B:1A:BF:71:83:32:76:E8:35:43:3D:63:D6:9D:2E:1A:C5:2D:B3:90:64:82",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "eng-cpf.workers.dev",
+        "*.eng-cpf.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/vsc, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:eng-cpf.workers.dev, DNS:*.eng-cpf.workers.dev",
+        "subjectKeyIdentifier": "keyid:d9:3d:63:7e:2d:bf:ba:4a:6b:5b:47:82:f7:88:07:72:21:cc:25:4b"
+      }
+    },
+    "cert_index": 991995527,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x874/982",
+    "seen": 1787739156.644,
+    "submission_timestamp": 1787436100.249,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

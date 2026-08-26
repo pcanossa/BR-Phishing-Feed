@@ -1,0 +1,52 @@
+{
+  "dominio": "acesso-detran.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/26/26 07:36:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "acesso-detran.com",
+        "aggregated": "/CN=acesso-detran.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "E32C316E7342675F",
+      "not_before": 1783126936,
+      "not_after": 1800234136,
+      "fingerprint": "4B:54:68:C8:0E:15:DA:7F:ED:B7:5C:51:5C:DE:A6:9F:1A:F3:35:9D",
+      "sha1": "4B:54:68:C8:0E:15:DA:7F:ED:B7:5C:51:5C:DE:A6:9F:1A:F3:35:9D",
+      "sha256": "26:02:8B:F3:03:54:34:4D:A2:DA:95:78:F2:D7:39:65:79:08:F4:B4:87:BE:46:D1:15:51:8A:FB:11:9C:DA:41",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "acesso-detran.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:acesso-detran.com",
+        "subjectKeyIdentifier": "keyid:c2:35:12:9d:97:da:7a:87:cf:33:bb:be:ff:f7:3f:ad:22:01:7e:22",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 120872293,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=120872293&end=120872293",
+    "seen": 1787740614.065,
+    "submission_timestamp": 1783126937.6,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "myapplication.santanderconsumer.co.uk",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 07:09:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "myapplication.santanderconsumer.co.uk",
+        "aggregated": "/CN=myapplication.santanderconsumer.co.uk"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0EE3E237555F0B22BC0815075C7BB615",
+      "not_before": 1781222400,
+      "not_after": 1797119999,
+      "fingerprint": "46:6E:96:A9:2F:43:96:D5:BB:A5:FB:FE:95:8C:EC:10:83:21:73:28",
+      "sha1": "46:6E:96:A9:2F:43:96:D5:BB:A5:FB:FE:95:8C:EC:10:83:21:73:28",
+      "sha256": "22:7D:B9:36:E2:D9:51:5A:C1:4F:7A:52:22:C3:9F:71:1A:AF:08:F9:25:3E:E5:F1:77:9A:A8:2D:AB:18:9E:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "myapplication.santanderconsumer.co.uk"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:myapplication.santanderconsumer.co.uk",
+        "subjectKeyIdentifier": "keyid:6f:86:2c:6f:fc:86:ec:36:86:33:bd:d3:5a:36:c5:8e:1b:c8:e2:e0"
+      }
+    },
+    "cert_index": 270799826,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x057/811",
+    "seen": 1787738979.988,
+    "submission_timestamp": 1781274177.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

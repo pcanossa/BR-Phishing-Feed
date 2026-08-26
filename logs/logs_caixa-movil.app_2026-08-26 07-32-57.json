@@ -1,0 +1,52 @@
+{
+  "dominio": "caixa-movil.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 07:32:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "caixa-movil.app",
+        "aggregated": "/CN=caixa-movil.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06BE8C5FEC6668BE55947FBC20976BF7EF9F",
+      "not_before": 1779533683,
+      "not_after": 1787309682,
+      "fingerprint": "38:98:44:2A:1A:31:09:81:6D:79:D6:99:D6:C9:6C:F0:BB:0F:B3:76",
+      "sha1": "38:98:44:2A:1A:31:09:81:6D:79:D6:99:D6:C9:6C:F0:BB:0F:B3:76",
+      "sha256": "50:02:8F:E0:31:D6:D3:B2:CF:A7:77:8E:FE:0A:BA:83:95:54:6C:4D:C3:C1:AA:9B:EE:C4:8C:16:B8:F2:58:B5",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "caixa-movil.app",
+        "*.caixa-movil.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.caixa-movil.app, DNS:caixa-movil.app",
+        "subjectKeyIdentifier": "keyid:a6:51:06:99:3d:be:ee:94:e5:3a:cf:01:86:85:64:80:5e:91:87:0c"
+      }
+    },
+    "cert_index": 4408780502,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408780502&end=4408780502",
+    "seen": 1787740374.624,
+    "submission_timestamp": 1779537196.268,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
