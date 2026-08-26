@@ -1,0 +1,52 @@
+{
+  "dominio": "alerta-correios.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/26/26 04:55:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "alerta-correios.com",
+        "aggregated": "/CN=alerta-correios.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "A4ADEBCCDF507EE9",
+      "not_before": 1783078335,
+      "not_after": 1800185535,
+      "fingerprint": "CE:E8:11:7A:A2:92:93:35:3B:FA:7B:65:0B:A1:C4:D0:47:0E:67:C1",
+      "sha1": "CE:E8:11:7A:A2:92:93:35:3B:FA:7B:65:0B:A1:C4:D0:47:0E:67:C1",
+      "sha256": "B2:44:30:90:97:6F:14:F0:9C:BD:3D:4B:D3:75:11:8C:4C:B6:F3:39:2F:E9:41:6E:F9:8F:58:79:17:6E:13:C1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "alerta-correios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:alerta-correios.com",
+        "subjectKeyIdentifier": "keyid:b2:30:4a:e8:4e:e2:51:aa:a2:dd:f4:ab:31:c5:30:cb:77:dd:5f:33",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 119608026,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=119608026&end=119608026",
+    "seen": 1787730951.752,
+    "submission_timestamp": 1783078336.263,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

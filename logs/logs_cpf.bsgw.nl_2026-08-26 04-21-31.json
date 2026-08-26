@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.bsgw.nl",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 04:21:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.bsgw.nl",
+        "aggregated": "/CN=cpf.bsgw.nl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "054C68388A3FE4D7A11AF85FD974D7C4820B",
+      "not_before": 1778943230,
+      "not_after": 1786719229,
+      "fingerprint": "79:DC:A0:3B:62:70:BE:9A:F4:77:27:F5:90:7C:36:D1:84:BA:A6:82",
+      "sha1": "79:DC:A0:3B:62:70:BE:9A:F4:77:27:F5:90:7C:36:D1:84:BA:A6:82",
+      "sha256": "D0:A4:A5:7B:C6:DB:22:A5:2A:66:A0:90:90:E4:FB:4B:2F:DD:ED:80:61:73:99:71:07:E0:62:B7:18:C7:EE:99",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.bsgw.nl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.bsgw.nl",
+        "subjectKeyIdentifier": "keyid:d4:16:5e:91:2a:5d:67:6e:f5:5c:42:c8:19:52:2e:c9:3a:87:7b:72"
+      }
+    },
+    "cert_index": 684918094,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=684918094&end=684918094",
+    "seen": 1787728888.301,
+    "submission_timestamp": 1778946743.718,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

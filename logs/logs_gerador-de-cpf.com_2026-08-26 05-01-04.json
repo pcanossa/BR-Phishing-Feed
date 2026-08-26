@@ -1,0 +1,52 @@
+{
+  "dominio": "gerador-de-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 05:01:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.gerador-de-cpf.com",
+        "aggregated": "/CN=*.gerador-de-cpf.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "05E4CA2ACCCD9C976F8E9D43F48D9E4E1DD1",
+      "not_before": 1781259997,
+      "not_after": 1789035996,
+      "fingerprint": "78:8D:C0:D5:5F:CC:C4:C9:97:16:AB:11:CA:69:5C:D1:7F:82:95:3B",
+      "sha1": "78:8D:C0:D5:5F:CC:C4:C9:97:16:AB:11:CA:69:5C:D1:7F:82:95:3B",
+      "sha256": "41:32:A5:AE:F5:A9:8A:03:B0:E8:DD:15:DC:D9:A6:24:6D:B7:25:CF:77:1F:7D:9F:0D:BB:72:1F:55:1E:BC:42",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.gerador-de-cpf.com",
+        "gerador-de-cpf.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.gerador-de-cpf.com, DNS:gerador-de-cpf.com",
+        "subjectKeyIdentifier": "keyid:70:e2:8e:36:4f:84:08:2c:56:04:37:7f:f5:7b:ff:24:90:48:82:0a"
+      }
+    },
+    "cert_index": 254435934,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x993/890",
+    "seen": 1787731261.066,
+    "submission_timestamp": 1781263507.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

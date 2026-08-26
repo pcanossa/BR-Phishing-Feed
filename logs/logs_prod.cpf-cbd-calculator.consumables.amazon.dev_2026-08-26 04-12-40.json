@@ -1,0 +1,52 @@
+{
+  "dominio": "prod.cpf-cbd-calculator.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 04:12:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prod.cpf-cbd-calculator.consumables.amazon.dev",
+        "aggregated": "/CN=prod.cpf-cbd-calculator.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0A9929CB80265ACA4F9985FE7FFA64C8",
+      "not_before": 1783987200,
+      "not_after": 1801094399,
+      "fingerprint": "0E:B4:1C:8E:71:5D:1A:95:16:4F:24:DE:F5:5A:75:BE:8B:4B:03:60",
+      "sha1": "0E:B4:1C:8E:71:5D:1A:95:16:4F:24:DE:F5:5A:75:BE:8B:4B:03:60",
+      "sha256": "B9:43:DC:35:13:AC:37:3B:CC:6D:DE:61:D6:5C:02:C8:BC:F5:53:B9:A2:E8:44:D6:7A:78:A5:6F:B6:33:D0:73",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "prod.cpf-cbd-calculator.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:prod.cpf-cbd-calculator.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:5c:e5:7a:86:9a:49:ae:76:a6:67:6c:96:8f:b5:64:0f:8a:85:41:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 97676903,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=97676903&end=97676903",
+    "seen": 1787728356.213,
+    "submission_timestamp": 1784029310.316,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}
