@@ -1,0 +1,56 @@
+{
+  "dominio": "e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 22:16:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=e2edemospring.app.us-east-1.prod.cloud.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "087F828846E0AEB23B004E827F8F43AF",
+      "not_before": 1781136000,
+      "not_after": 1788932882,
+      "fingerprint": "42:8C:06:97:01:1B:05:A1:B0:D1:19:FD:A9:D0:05:AC:04:7F:CE:90",
+      "sha1": "42:8C:06:97:01:1B:05:A1:B0:D1:19:FD:A9:D0:05:AC:04:7F:CE:90",
+      "sha256": "E1:92:CE:3A:44:C9:30:88:EB:66:6F:9D:78:0B:FE:EB:59:C5:2D:B7:4A:40:E2:B2:BA:F0:3A:94:AE:A4:8C:F4",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+        "e2edemospring--vyuhl-canry-chap-baseline.cluster.us-east-1.prod.cloud.netflix.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG3TLSECCSHA3842020CA1-2.crt",
+        "authorityKeyIdentifier": "keyid:8a:23:eb:9e:6b:d7:f9:37:5d:f9:6d:21:39:76:9a:a1:67:de:10:a8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Agreement",
+        "subjectAltName": "DNS:e2edemospring--vyuhl-canry-chap-baseline.cluster.us-east-1.prod.cloud.netflix.net, DNS:e2edemospring.app.us-east-1.prod.cloud.netflix.net",
+        "subjectKeyIdentifier": "keyid:51:9a:bb:f3:b7:f1:7c:c8:de:93:c8:fa:46:f1:42:04:f4:1a:53:ec"
+      }
+    },
+    "cert_index": 266190300,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x039/805",
+    "seen": 1787707003.739,
+    "submission_timestamp": 1781156884.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

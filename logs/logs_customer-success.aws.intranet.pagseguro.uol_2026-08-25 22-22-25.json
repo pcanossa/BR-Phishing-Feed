@@ -1,0 +1,53 @@
+{
+  "dominio": "customer-success.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 22:22:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.customer-success.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.customer-success.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "03A35E5F4166EE363EC7C796337B48CD",
+      "not_before": 1782950400,
+      "not_after": 1800057599,
+      "fingerprint": "A6:A3:45:DF:F8:24:B6:CE:C1:BE:1D:D2:F1:9D:C3:2C:29:B6:1F:45",
+      "sha1": "A6:A3:45:DF:F8:24:B6:CE:C1:BE:1D:D2:F1:9D:C3:2C:29:B6:1F:45",
+      "sha256": "1D:60:AA:AF:B0:71:2B:05:77:39:8C:2F:BF:06:D9:30:9E:C7:35:5A:5F:37:62:E8:4F:21:5D:DC:3E:D4:50:7C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.customer-success.aws.intranet.pagseguro.uol",
+        "customer-success.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.customer-success.aws.intranet.pagseguro.uol, DNS:customer-success.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:7f:7c:0f:64:bc:51:27:66:cf:d3:c1:c0:2d:4c:dc:6f:18:be:3d:12",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 116537898,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=116537898&end=116537898",
+    "seen": 1787707343.893,
+    "submission_timestamp": 1782951306.365,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

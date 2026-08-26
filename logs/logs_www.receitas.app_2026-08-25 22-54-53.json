@@ -1,0 +1,52 @@
+{
+  "dominio": "www.receitas.app",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/25/26 22:54:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.receitas.app",
+        "aggregated": "/CN=www.receitas.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "112DDADCB5D45ADD",
+      "not_before": 1782961203,
+      "not_after": 1800068403,
+      "fingerprint": "BE:89:53:E7:EC:E2:B2:0C:53:14:76:B8:A2:58:34:37:7B:C7:0C:BC",
+      "sha1": "BE:89:53:E7:EC:E2:B2:0C:53:14:76:B8:A2:58:34:37:7B:C7:0C:BC",
+      "sha256": "3F:E1:AA:FB:BB:4C:90:D8:48:1E:8F:F3:D9:78:0F:76:B4:18:FA:DC:EA:AB:B4:F2:C5:99:A1:9A:58:DF:07:9A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.receitas.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.receitas.app",
+        "subjectKeyIdentifier": "keyid:28:f4:38:92:6a:c4:b4:cc:63:d6:d5:99:15:f7:ae:43:c2:62:89:64",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 116782638,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=116782638&end=116782638",
+    "seen": 1787709290.448,
+    "submission_timestamp": 1782961204.546,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

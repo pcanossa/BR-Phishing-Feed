@@ -1,0 +1,51 @@
+{
+  "dominio": "app-dev.ericgitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/25/26 22:54:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-dev.ericgitau.com",
+        "aggregated": "/CN=app-dev.ericgitau.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "D4190D274870025E8CBFD59A673DA9A9",
+      "not_before": 1780617600,
+      "not_after": 1788479999,
+      "fingerprint": "22:64:FB:7F:1A:9B:63:82:B8:47:90:F7:93:08:B7:0B:74:AB:AD:F0",
+      "sha1": "22:64:FB:7F:1A:9B:63:82:B8:47:90:F7:93:08:B7:0B:74:AB:AD:F0",
+      "sha256": "88:8D:B5:51:8C:0C:06:0A:20:5D:E5:22:C9:3F:B5:04:2F:48:35:E9:C7:8E:6D:6D:DD:48:DD:40:09:8E:8F:F4",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-dev.ericgitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-dev.ericgitau.com",
+        "subjectKeyIdentifier": "keyid:1c:0f:81:43:72:16:b5:b6:70:75:17:38:12:bc:3d:62:6b:55:69:45"
+      }
+    },
+    "cert_index": 389705178,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x522/285",
+    "seen": 1787709266.054,
+    "submission_timestamp": 1780663640.035,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

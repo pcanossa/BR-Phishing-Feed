@@ -1,0 +1,56 @@
+{
+  "dominio": "aerojet-test1-cpf.ptccloudservices.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 22:29:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "aerojet-test1-pf.ptccloudservices.com",
+        "L": "Boston",
+        "O": "PTC Inc.",
+        "ST": "Massachusetts",
+        "aggregated": "/C=US/CN=aerojet-test1-pf.ptccloudservices.com/L=Boston/O=PTC Inc./ST=Massachusetts"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0988E0529F2D33E1F13264134FBA06F0",
+      "not_before": 1786320000,
+      "not_after": 1803513599,
+      "fingerprint": "9F:06:42:E7:2D:E5:FB:A2:6F:18:4A:0B:9A:54:C4:B8:27:DE:1E:1B",
+      "sha1": "9F:06:42:E7:2D:E5:FB:A2:6F:18:4A:0B:9A:54:C4:B8:27:DE:1E:1B",
+      "sha256": "0D:C9:41:8F:1E:09:4C:52:7F:4B:F7:BA:5F:AB:A4:0E:93:51:B7:31:2C:07:80:7F:21:81:38:33:F7:D4:49:F9",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "aerojet-test1-pf.ptccloudservices.com",
+        "aerojet-test1-cpf.ptccloudservices.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:aerojet-test1-pf.ptccloudservices.com, DNS:aerojet-test1-cpf.ptccloudservices.com",
+        "subjectKeyIdentifier": "keyid:95:2b:1f:f8:94:29:a6:00:01:a0:27:0c:6a:3d:95:8d:77:23:33:ad"
+      }
+    },
+    "cert_index": 59484149,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=59484149&end=59484149",
+    "seen": 1787707772.457,
+    "submission_timestamp": 1786390105.108,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}
