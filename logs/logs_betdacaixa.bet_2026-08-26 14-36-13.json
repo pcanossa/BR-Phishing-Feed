@@ -1,0 +1,53 @@
+{
+  "dominio": "betdacaixa.bet",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 14:36:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "betdacaixa.bet",
+        "aggregated": "/CN=betdacaixa.bet"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "6662E7F7342483A10EDFEFF79260AE23",
+      "not_before": 1779546934,
+      "not_after": 1787326452,
+      "fingerprint": "C0:0E:55:3C:D8:43:49:09:6D:C8:27:3E:B6:69:62:79:4D:45:FA:CB",
+      "sha1": "C0:0E:55:3C:D8:43:49:09:6D:C8:27:3E:B6:69:62:79:4D:45:FA:CB",
+      "sha256": "CD:85:C2:1B:D6:41:10:28:90:5D:1E:0C:05:0F:53:B3:81:C1:6B:6B:C4:F5:DD:89:A3:14:75:42:A4:71:20:9A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "betdacaixa.bet",
+        "*.betdacaixa.bet"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/ZmI, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:betdacaixa.bet, DNS:*.betdacaixa.bet",
+        "subjectKeyIdentifier": "keyid:27:1d:70:c4:72:cc:25:d1:cb:a6:53:33:20:5c:45:16:92:c5:cb:ad",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4412046701,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412046701&end=4412046701",
+    "seen": 1787765768.451,
+    "submission_timestamp": 1779550535.139,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

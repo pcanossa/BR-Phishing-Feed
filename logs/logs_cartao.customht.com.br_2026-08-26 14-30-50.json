@@ -1,0 +1,51 @@
+{
+  "dominio": "cartao.customht.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/26/26 14:30:50",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.customht.com.br",
+        "aggregated": "/CN=cartao.customht.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "052B2DB5E01B3DA5376644FBBDBA7073F96D",
+      "not_before": 1779546841,
+      "not_after": 1787322840,
+      "fingerprint": "27:96:4B:F6:64:BA:6A:8B:74:D2:11:32:DF:71:B0:12:87:CA:6A:3A",
+      "sha1": "27:96:4B:F6:64:BA:6A:8B:74:D2:11:32:DF:71:B0:12:87:CA:6A:3A",
+      "sha256": "94:07:42:22:93:9B:82:34:26:C2:33:7B:EB:9C:63:BF:EA:3E:AD:A5:46:A1:34:B9:08:79:E3:A0:89:62:38:65",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.customht.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.customht.com.br",
+        "subjectKeyIdentifier": "keyid:93:ad:83:a6:aa:c3:d6:3b:83:51:78:cd:06:fa:48:6e:2a:19:52:2d"
+      }
+    },
+    "cert_index": 4412002731,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412002731&end=4412002731",
+    "seen": 1787765445.567,
+    "submission_timestamp": 1779550354.747,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

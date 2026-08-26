@@ -1,0 +1,51 @@
+{
+  "dominio": "cisapp.smitautoparts.nl",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 14:33:10",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cisapp.smitautoparts.nl",
+        "aggregated": "/CN=cisapp.smitautoparts.nl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06357602D8FE32287641380780635B80989F",
+      "not_before": 1778829984,
+      "not_after": 1786605983,
+      "fingerprint": "92:9C:9D:2C:41:42:6E:E7:A3:A2:28:ED:A9:0F:4A:76:69:04:22:A0",
+      "sha1": "92:9C:9D:2C:41:42:6E:E7:A3:A2:28:ED:A9:0F:4A:76:69:04:22:A0",
+      "sha256": "11:7A:5C:1D:EE:1C:49:3A:11:98:3D:DD:86:9D:24:3C:E3:C4:32:B1:B9:9F:C0:BA:68:D5:AC:53:15:95:9E:7B",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cisapp.smitautoparts.nl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cisapp.smitautoparts.nl",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4412021759,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412021759&end=4412021759",
+    "seen": 1787765585.152,
+    "submission_timestamp": 1779550431.918,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

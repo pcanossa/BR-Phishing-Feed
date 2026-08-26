@@ -1,0 +1,51 @@
+{
+  "dominio": "app-euw2-dev.oi-officesupplies.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 14:33:18",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-euw2-dev.oi-officesupplies.com",
+        "aggregated": "/CN=app-euw2-dev.oi-officesupplies.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "863A2A654B480BE7689824E9096335A2",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "E3:7D:6E:C8:5B:23:7F:23:93:48:DF:00:7F:C7:A5:75:27:43:83:63",
+      "sha1": "E3:7D:6E:C8:5B:23:7F:23:93:48:DF:00:7F:C7:A5:75:27:43:83:63",
+      "sha256": "6B:E4:1F:70:68:14:35:A7:CC:40:DA:1B:60:BC:CB:27:DD:46:19:A4:3E:FF:94:3A:F5:81:01:05:B3:08:E6:A2",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-euw2-dev.oi-officesupplies.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-euw2-dev.oi-officesupplies.com",
+        "subjectKeyIdentifier": "keyid:da:7e:0f:36:ff:e1:ba:a0:7c:fa:6e:41:f1:10:f2:db:75:a3:94:d2"
+      }
+    },
+    "cert_index": 4412022603,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4412022603&end=4412022603",
+    "seen": 1787765593.128,
+    "submission_timestamp": 1779550435.387,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

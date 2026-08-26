@@ -1,0 +1,51 @@
+{
+  "dominio": "app.clarosinfotech.com.br",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 14:06:10",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.clarosinfotech.com.br",
+        "aggregated": "/CN=app.clarosinfotech.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05F7342A89B1B58CB5168E01596E3139FCC3",
+      "not_before": 1779546150,
+      "not_after": 1787322149,
+      "fingerprint": "21:AD:AD:DB:27:26:FF:AA:3B:08:C1:AC:43:60:BF:D5:8A:08:C4:BB",
+      "sha1": "21:AD:AD:DB:27:26:FF:AA:3B:08:C1:AC:43:60:BF:D5:8A:08:C4:BB",
+      "sha256": "BA:09:3E:75:F3:56:B7:46:F5:5E:BA:EB:77:9E:65:A0:3E:3C:84:1F:02:03:0F:09:FE:C0:E7:E8:3A:95:90:28",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.clarosinfotech.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.clarosinfotech.com.br",
+        "subjectKeyIdentifier": "keyid:99:5e:67:c4:a3:57:af:27:01:13:47:7b:47:8f:24:69:a4:aa:ed:5a"
+      }
+    },
+    "cert_index": 4411824395,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4411824395&end=4411824395",
+    "seen": 1787763966.007,
+    "submission_timestamp": 1779549663.685,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

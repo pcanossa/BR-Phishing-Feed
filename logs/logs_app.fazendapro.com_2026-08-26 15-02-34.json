@@ -1,0 +1,52 @@
+{
+  "dominio": "app.fazendapro.com",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/26/26 15:02:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fazendapro.com",
+        "aggregated": "/CN=fazendapro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0506EAEF0CDBB4BEB51BC8A3C5679BAC2497",
+      "not_before": 1781403458,
+      "not_after": 1789179457,
+      "fingerprint": "D6:C5:D4:28:3A:58:97:78:15:8E:26:81:42:A3:10:86:A3:89:3F:6C",
+      "sha1": "D6:C5:D4:28:3A:58:97:78:15:8E:26:81:42:A3:10:86:A3:89:3F:6C",
+      "sha256": "16:47:65:5E:B0:E0:9D:90:2D:10:A2:43:53:A6:EB:CC:1C:BE:03:94:69:92:4C:7B:95:B6:A6:C6:2E:1C:49:DD",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "fazendapro.com",
+        "app.fazendapro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.fazendapro.com, DNS:fazendapro.com",
+        "subjectKeyIdentifier": "keyid:8f:c2:52:c4:0a:1f:27:66:1f:3f:66:80:85:6c:7a:b3:8f:72:68:71"
+      }
+    },
+    "cert_index": 274909517,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x073/865",
+    "seen": 1787767349.535,
+    "submission_timestamp": 1781406969.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

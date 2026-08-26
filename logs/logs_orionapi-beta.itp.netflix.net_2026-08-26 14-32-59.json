@@ -1,0 +1,57 @@
+{
+  "dominio": "orionapi-beta.itp.netflix.net",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 14:32:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "orionapi-beta.itp.netflix.net",
+        "L": "Los Gatos",
+        "O": "Netflix",
+        "ST": "California",
+        "aggregated": "/C=US/CN=orionapi-beta.itp.netflix.net/L=Los Gatos/O=Netflix/ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0E8B7AFD525C71635AC703DABE1410DF",
+      "not_before": 1787356800,
+      "not_after": 1795214159,
+      "fingerprint": "17:D4:5B:E5:35:67:2D:30:8D:EA:E0:18:B7:CF:8C:FA:AE:F2:E0:2C",
+      "sha1": "17:D4:5B:E5:35:67:2D:30:8D:EA:E0:18:B7:CF:8C:FA:AE:F2:E0:2C",
+      "sha256": "A9:4B:FB:55:92:3C:77:EA:6B:6F:75:18:3F:54:59:D7:D1:83:BF:0F:FD:71:A2:1B:E2:45:CA:02:57:E5:6D:46",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "orionapi-beta.itp.netflix.net",
+        "orionapi-canary.itp.netflix.net",
+        "orionapi-staging.prod.netflixstudios.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:orionapi-beta.itp.netflix.net, DNS:orionapi-canary.itp.netflix.net, DNS:orionapi-staging.prod.netflixstudios.com",
+        "subjectKeyIdentifier": "keyid:1f:e7:43:ab:8b:5b:aa:ef:c6:be:95:57:96:53:d7:f8:8e:e9:66:ed"
+      }
+    },
+    "cert_index": 992910199,
+    "cert_link": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog/tile/data/x003/x878/555",
+    "seen": 1787765573.831,
+    "submission_timestamp": 1787438232.077,
+    "source": {
+      "name": "Google 'ParcelYard2026h2' log",
+      "url": "https://storage.googleapis.com/parcelyard2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

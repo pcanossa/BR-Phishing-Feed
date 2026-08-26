@@ -1,0 +1,52 @@
+{
+  "dominio": "grd-cpf.in",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 14:36:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "grd-cpf.in",
+        "aggregated": "/CN=grd-cpf.in"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "8C515CBA539A82D0",
+      "not_before": 1783259222,
+      "not_after": 1800366422,
+      "fingerprint": "25:42:29:15:96:47:7E:7C:55:08:5C:64:58:A6:5B:6C:5E:58:1C:B8",
+      "sha1": "25:42:29:15:96:47:7E:7C:55:08:5C:64:58:A6:5B:6C:5E:58:1C:B8",
+      "sha256": "76:96:16:F9:E1:6B:6B:20:2E:EB:1E:65:04:21:36:F6:8F:EB:5A:6D:B7:BD:23:B0:5A:99:26:5C:8B:9E:A5:7E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "grd-cpf.in"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:grd-cpf.in",
+        "subjectKeyIdentifier": "keyid:b8:5d:66:bb:41:93:ac:f8:e2:81:c5:d6:f6:62:fa:d4:1a:be:b2:8f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 124019915,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=124019915&end=124019915",
+    "seen": 1787765791.095,
+    "submission_timestamp": 1783259223.941,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

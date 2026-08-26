@@ -1,0 +1,51 @@
+{
+  "dominio": "cadastro-unico-iseguros.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 14:58:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cadastro-unico-iseguros.api.itau.com",
+        "aggregated": "/CN=cadastro-unico-iseguros.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "01CD48F6C347CB1135559B56415F0687",
+      "not_before": 1784246400,
+      "not_after": 1801353599,
+      "fingerprint": "90:B1:3E:2C:3F:C8:96:B3:F9:19:78:33:C2:C3:05:83:CE:53:78:C9",
+      "sha1": "90:B1:3E:2C:3F:C8:96:B3:F9:19:78:33:C2:C3:05:83:CE:53:78:C9",
+      "sha256": "23:B0:63:D1:CD:12:C1:56:71:BD:F2:47:9B:98:A3:46:65:72:AF:C0:D9:78:54:3F:62:9A:1F:6C:24:72:C4:43",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cadastro-unico-iseguros.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cadastro-unico-iseguros.api.itau.com",
+        "subjectKeyIdentifier": "keyid:d6:df:5d:2a:fa:b7:7e:f9:38:2d:c2:1c:b9:09:92:c5:69:f4:da:5f"
+      }
+    },
+    "cert_index": 105944411,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x413/845",
+    "seen": 1787767105.14,
+    "submission_timestamp": 1784322919.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

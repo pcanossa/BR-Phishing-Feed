@@ -1,0 +1,51 @@
+{
+  "dominio": "multasdetransito.com",
+  "marcas_encontradas": [
+    "detran"
+  ],
+  "timestamp": "08/26/26 14:48:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "multasdetransito.com",
+        "aggregated": "/CN=multasdetransito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "9A50A0EFAA2C5CD2",
+      "not_before": 1778812169,
+      "not_after": 1795919369,
+      "fingerprint": "9A:11:2E:76:E6:26:E8:E3:F6:32:7F:E9:47:90:73:84:62:4C:27:7A",
+      "sha1": "9A:11:2E:76:E6:26:E8:E3:F6:32:7F:E9:47:90:73:84:62:4C:27:7A",
+      "sha256": "18:8E:93:4E:CC:11:A5:DD:D5:67:6B:D3:67:B1:04:74:1B:E4:3E:56:46:A9:0D:CC:FB:CC:3E:5B:F0:89:EA:1C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "multasdetransito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:multasdetransito.com",
+        "subjectKeyIdentifier": "keyid:66:09:2a:f3:4c:c2:c4:d3:5b:24:4d:ca:9f:d4:e6:37:f4:cf:54:05"
+      }
+    },
+    "cert_index": 274787818,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x073/389",
+    "seen": 1787766509.366,
+    "submission_timestamp": 1781403286.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
