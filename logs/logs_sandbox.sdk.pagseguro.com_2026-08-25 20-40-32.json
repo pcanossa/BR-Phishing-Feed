@@ -1,0 +1,51 @@
+{
+  "dominio": "sandbox.sdk.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 20:40:32",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sandbox.sdk.pagseguro.com",
+        "aggregated": "/CN=sandbox.sdk.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D9821B41D4C377957161A4212CF3B5D",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "0C:2A:8C:90:C6:45:A2:01:2E:D2:C8:00:B4:CE:75:80:CD:C3:EE:D2",
+      "sha1": "0C:2A:8C:90:C6:45:A2:01:2E:D2:C8:00:B4:CE:75:80:CD:C3:EE:D2",
+      "sha256": "BB:7B:82:7D:90:64:13:58:4F:B8:D3:C1:AC:19:47:42:66:9F:EB:BB:4E:F0:B7:94:46:98:EE:64:FA:C3:7C:79",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sandbox.sdk.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sandbox.sdk.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:6a:fb:d1:0f:c1:42:7d:1b:2a:c3:44:0d:b2:72:e2:c9:16:5f:1f:68"
+      }
+    },
+    "cert_index": 78832733,
+    "cert_link": "https://raio2027h1a.ct.cloudflare.com/tile/data/x307/940",
+    "seen": 1787701230.266,
+    "submission_timestamp": 1787669019.819,
+    "source": {
+      "name": "Cloudflare 'Raio2027h1a' log",
+      "url": "https://raio2027h1a.ct.cloudflare.com"
+    }
+  }
+}

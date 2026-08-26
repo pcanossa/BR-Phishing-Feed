@@ -1,0 +1,54 @@
+{
+  "dominio": "debitoformativo.it",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/25/26 20:58:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitoformativo.it",
+        "aggregated": "/CN=*.debitoformativo.it"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "Actalis Domain Validation Server CA G3",
+        "L": "Ponte San Pietro",
+        "O": "Actalis S.p.A.",
+        "ST": "Bergamo",
+        "aggregated": "/C=IT/CN=Actalis Domain Validation Server CA G3/L=Ponte San Pietro/O=Actalis S.p.A./ST=Bergamo"
+      },
+      "serial_number": "02A286221E3212152934A0EBB0B019C0",
+      "not_before": 1783825933,
+      "not_after": 1801019532,
+      "fingerprint": "AB:E5:0D:FC:2E:9F:5A:3E:C3:F2:39:F3:0B:1C:AD:7F:FA:38:E0:C9",
+      "sha1": "AB:E5:0D:FC:2E:9F:5A:3E:C3:F2:39:F3:0B:1C:AD:7F:FA:38:E0:C9",
+      "sha256": "C6:8C:D4:0C:37:03:E6:DC:77:4B:02:25:C1:2D:F1:18:AB:9D:81:41:C7:89:83:2C:56:0D:EC:E6:05:95:31:A1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitoformativo.it",
+        "debitoformativo.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://cacert.actalis.it/certs/actalis-autdvg3, URI:http://ocsp06.actalis.it/VA/AUTHDV-G3",
+        "authorityKeyIdentifier": "keyid:42:83:6d:80:7c:09:84:67:fd:80:57:ab:f1:26:f5:77:c8:22:82:71",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.159.1.23.1\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitoformativo.it, DNS:debitoformativo.it",
+        "subjectKeyIdentifier": "keyid:aa:73:81:74:42:ca:3e:3d:6d:33:90:3a:1a:56:32:b7:bf:69:d4:82"
+      }
+    },
+    "cert_index": 88536548,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x345/845",
+    "seen": 1787702314.981,
+    "submission_timestamp": 1783826533.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

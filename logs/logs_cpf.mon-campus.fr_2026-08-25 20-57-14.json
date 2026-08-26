@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.mon-campus.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/25/26 20:57:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.mon-campus.fr",
+        "aggregated": "/CN=cpf.mon-campus.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0576FF0EDE0D2BF12116F12DE7D2F8FC8A6E",
+      "not_before": 1779305599,
+      "not_after": 1787081598,
+      "fingerprint": "B3:13:D8:D3:1F:BA:CA:EF:23:C9:65:F4:D0:AB:7D:4D:BF:03:CB:2A",
+      "sha1": "B3:13:D8:D3:1F:BA:CA:EF:23:C9:65:F4:D0:AB:7D:4D:BF:03:CB:2A",
+      "sha256": "16:B5:05:27:76:7D:A7:46:24:BB:E8:F6:1A:24:C3:15:23:E5:5E:63:F6:E5:DF:43:7F:70:2C:6D:D1:43:46:FF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.mon-campus.fr",
+        "www.cpf.mon-campus.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.mon-campus.fr, DNS:www.cpf.mon-campus.fr",
+        "subjectKeyIdentifier": "keyid:a5:a0:ae:98:bf:d9:b9:37:d1:9a:a3:d5:0e:a0:26:31:43:73:97:ee",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 710027258,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=710027258&end=710027258",
+    "seen": 1787702232.307,
+    "submission_timestamp": 1779309109.69,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

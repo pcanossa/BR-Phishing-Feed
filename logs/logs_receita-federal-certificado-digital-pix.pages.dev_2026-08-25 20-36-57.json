@@ -1,0 +1,52 @@
+{
+  "dominio": "receita-federal-certificado-digital-pix.pages.dev",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/25/26 20:36:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receita-federal-certificado-digital-pix.pages.dev",
+        "aggregated": "/CN=receita-federal-certificado-digital-pix.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06F3EE63D73ACAF9B7AFC683168E8D773950",
+      "not_before": 1781149294,
+      "not_after": 1788925293,
+      "fingerprint": "1B:F2:A7:73:29:22:D1:13:0F:BB:A1:AC:38:B4:65:A5:42:76:B3:53",
+      "sha1": "1B:F2:A7:73:29:22:D1:13:0F:BB:A1:AC:38:B4:65:A5:42:76:B3:53",
+      "sha256": "EE:6C:5B:2F:06:9B:06:07:D4:9B:7C:62:55:D8:1D:00:7C:6C:23:A1:7D:C0:96:E6:41:D9:00:EC:F0:AC:5A:57",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "receita-federal-certificado-digital-pix.pages.dev",
+        "*.receita-federal-certificado-digital-pix.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.receita-federal-certificado-digital-pix.pages.dev, DNS:receita-federal-certificado-digital-pix.pages.dev",
+        "subjectKeyIdentifier": "keyid:23:10:1d:32:34:a0:0f:b9:f5:10:f2:b0:16:f7:89:27:1c:3f:de:0e"
+      }
+    },
+    "cert_index": 250258802,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x977/573",
+    "seen": 1787701016.462,
+    "submission_timestamp": 1781152805.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
