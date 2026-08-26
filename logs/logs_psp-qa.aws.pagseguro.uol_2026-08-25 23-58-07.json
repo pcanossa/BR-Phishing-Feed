@@ -1,0 +1,54 @@
+{
+  "dominio": "psp-qa.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/25/26 23:58:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "psp-qa.aws.pagseguro.uol",
+        "aggregated": "/CN=psp-qa.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4333C8BB39F452AE13F94313C7ECB778",
+      "not_before": 1775943675,
+      "not_after": 1783723261,
+      "fingerprint": "54:15:92:BA:7C:40:07:87:07:16:4A:B8:22:F7:AE:C6:FC:F3:07:3E",
+      "sha1": "54:15:92:BA:7C:40:07:87:07:16:4A:B8:22:F7:AE:C6:FC:F3:07:3E",
+      "sha256": "7C:B2:A5:24:02:2D:EC:FA:64:80:D9:D0:6C:F4:98:31:B1:C6:0E:16:97:6B:84:39:28:05:05:0D:C9:E6:7A:A6",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "psp-qa.aws.pagseguro.uol",
+        "*.psp-capture-qa.aws.pagseguro.uol",
+        "psp-capture-qa.aws.pagseguro.uol",
+        "*.psp-qa.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/QzM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:psp-qa.aws.pagseguro.uol, DNS:*.psp-capture-qa.aws.pagseguro.uol, DNS:psp-capture-qa.aws.pagseguro.uol, DNS:*.psp-qa.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:ef:76:94:da:2a:1b:d1:83:78:c6:2f:c6:24:6a:61:cd:1d:ed:b8:00"
+      }
+    },
+    "cert_index": 390354978,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x524/824",
+    "seen": 1787713083.923,
+    "submission_timestamp": 1780673881.412,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

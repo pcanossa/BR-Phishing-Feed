@@ -1,0 +1,52 @@
+{
+  "dominio": "beneficios-netflix.app",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/25/26 23:22:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "beneficios-netflix.app",
+        "aggregated": "/CN=beneficios-netflix.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "065F426DA67A874A2B6B1F4C46F7D595532E",
+      "not_before": 1781187218,
+      "not_after": 1788963217,
+      "fingerprint": "C5:83:F0:E8:EB:36:60:FE:D4:1A:B1:AC:08:C8:3C:66:BE:5F:B6:BA",
+      "sha1": "C5:83:F0:E8:EB:36:60:FE:D4:1A:B1:AC:08:C8:3C:66:BE:5F:B6:BA",
+      "sha256": "96:84:D6:4C:82:81:41:A6:9A:F2:EA:A1:5F:9E:97:F0:12:E1:6D:CE:F8:D9:71:F7:D6:C1:70:6E:44:4E:3B:7A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "beneficios-netflix.app",
+        "*.beneficios-netflix.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.beneficios-netflix.app, DNS:beneficios-netflix.app",
+        "subjectKeyIdentifier": "keyid:5f:58:c2:c5:b4:e8:ca:59:27:47:38:25:43:40:b6:80:d7:27:38:05"
+      }
+    },
+    "cert_index": 251633673,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x982/944",
+    "seen": 1787710954.644,
+    "submission_timestamp": 1781190728.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

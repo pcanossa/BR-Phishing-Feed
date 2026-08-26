@@ -1,0 +1,51 @@
+{
+  "dominio": "helpwww.app-santander-es.help",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/25/26 23:11:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "helpwww.app-santander-es.help",
+        "aggregated": "/CN=helpwww.app-santander-es.help"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "060A1C1A64CB02A36AA964FB1E5E65C919AA",
+      "not_before": 1779516675,
+      "not_after": 1787292674,
+      "fingerprint": "5E:04:D9:E9:BE:28:55:37:66:F7:30:8E:DC:3A:FD:E6:62:DE:27:CD",
+      "sha1": "5E:04:D9:E9:BE:28:55:37:66:F7:30:8E:DC:3A:FD:E6:62:DE:27:CD",
+      "sha256": "B4:34:5A:48:D0:0D:5D:B3:F7:92:0B:99:84:3D:37:6A:59:4E:B2:F1:AC:76:7E:D5:E4:B8:01:E3:0F:BD:81:19",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "helpwww.app-santander-es.help"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:helpwww.app-santander-es.help",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 4404749572,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4404749572&end=4404749572",
+    "seen": 1787710294.623,
+    "submission_timestamp": 1779520298.872,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

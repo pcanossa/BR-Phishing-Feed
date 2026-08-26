@@ -1,0 +1,53 @@
+{
+  "dominio": "cartao.gratis",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/25/26 23:06:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.gratis",
+        "aggregated": "/CN=cartao.gratis"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5D61C0FF8D4592D90E42860A2FD6A6C0",
+      "not_before": 1779516451,
+      "not_after": 1787296049,
+      "fingerprint": "DE:DF:7D:89:AF:77:95:C6:C2:6D:0B:D5:48:BA:CA:8A:42:32:F6:83",
+      "sha1": "DE:DF:7D:89:AF:77:95:C6:C2:6D:0B:D5:48:BA:CA:8A:42:32:F6:83",
+      "sha256": "5A:6E:19:8A:09:E7:7C:40:71:5F:2B:39:88:A7:76:E4:2C:58:EF:0B:87:AA:16:3F:62:06:C5:40:31:DC:03:2A",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.gratis",
+        "*.cartao.gratis"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/XWE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.gratis, DNS:*.cartao.gratis",
+        "subjectKeyIdentifier": "keyid:c7:a7:90:99:f7:d6:31:23:5a:6a:ad:3b:3d:96:ae:8f:90:33:bc:cc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4404710013,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4404710013&end=4404710013",
+    "seen": 1787709991.829,
+    "submission_timestamp": 1779520156.253,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

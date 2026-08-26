@@ -1,0 +1,52 @@
+{
+  "dominio": "rastreioclaro.online",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/25/26 23:44:33",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "rastreioclaro.online",
+        "aggregated": "/CN=rastreioclaro.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06576A952E9660BEA09A2C47CDB095CC6021",
+      "not_before": 1779517863,
+      "not_after": 1787293862,
+      "fingerprint": "A2:A9:FE:9A:14:CB:00:9D:E7:19:03:F6:82:72:8A:09:66:AB:08:EC",
+      "sha1": "A2:A9:FE:9A:14:CB:00:9D:E7:19:03:F6:82:72:8A:09:66:AB:08:EC",
+      "sha256": "17:B7:A5:80:61:E0:5D:9E:CB:22:6C:2A:14:37:40:A7:B9:81:5D:FD:6C:05:3E:31:A5:F1:50:84:26:CD:5B:A7",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "rastreioclaro.online",
+        "*.rastreioclaro.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.rastreioclaro.online, DNS:rastreioclaro.online",
+        "subjectKeyIdentifier": "keyid:18:17:22:ec:e5:72:24:73:cd:ad:0e:d2:28:67:7b:1f:0c:8b:a4:bf"
+      }
+    },
+    "cert_index": 4405010866,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4405010866&end=4405010866",
+    "seen": 1787712271.026,
+    "submission_timestamp": 1779521374.863,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
