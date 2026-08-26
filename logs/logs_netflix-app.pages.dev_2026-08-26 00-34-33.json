@@ -1,0 +1,52 @@
+{
+  "dominio": "netflix-app.pages.dev",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 00:34:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflix-app.pages.dev",
+        "aggregated": "/CN=netflix-app.pages.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "06C09CD612A926E784B3E92474B889D12474",
+      "not_before": 1781203725,
+      "not_after": 1788979724,
+      "fingerprint": "C8:92:69:5B:06:02:AF:DE:7F:86:E9:2B:E8:07:46:FB:41:D5:A7:B8",
+      "sha1": "C8:92:69:5B:06:02:AF:DE:7F:86:E9:2B:E8:07:46:FB:41:D5:A7:B8",
+      "sha256": "47:A9:30:D0:79:07:EE:F9:6E:79:5B:FD:5B:EE:D4:96:A0:F0:D7:82:29:B5:AF:DE:58:D4:30:F0:03:40:27:67",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflix-app.pages.dev",
+        "*.netflix-app.pages.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.netflix-app.pages.dev, DNS:netflix-app.pages.dev",
+        "subjectKeyIdentifier": "keyid:49:d8:c1:ac:e5:e5:37:16:bb:0e:b6:33:10:7b:95:34:b5:2e:0a:49"
+      }
+    },
+    "cert_index": 252230423,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x985/275",
+    "seen": 1787715270.524,
+    "submission_timestamp": 1781207236.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

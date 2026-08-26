@@ -1,0 +1,53 @@
+{
+  "dominio": "debitoor.ru",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 00:10:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor.ru",
+        "aggregated": "/CN=debitoor.ru"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2C0698DA28D968D90E501086626D2AFF",
+      "not_before": 1779518644,
+      "not_after": 1787298158,
+      "fingerprint": "CB:95:DB:7A:D3:F1:55:B2:DC:FC:56:E0:76:EB:F4:EC:17:74:83:57",
+      "sha1": "CB:95:DB:7A:D3:F1:55:B2:DC:FC:56:E0:76:EB:F4:EC:17:74:83:57",
+      "sha256": "C5:09:12:D3:0E:72:79:D8:30:A7:45:82:41:22:3F:73:16:1D:67:12:C6:96:96:02:08:06:1F:1E:C1:E0:43:46",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor.ru",
+        "*.debitoor.ru"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/LAY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitoor.ru, DNS:*.debitoor.ru",
+        "subjectKeyIdentifier": "keyid:5b:4f:bf:55:aa:80:c2:83:ca:bf:36:fb:e1:1f:12:8e:2d:e7:03:a2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4405220039,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4405220039&end=4405220039",
+    "seen": 1787713842.487,
+    "submission_timestamp": 1779522245.077,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

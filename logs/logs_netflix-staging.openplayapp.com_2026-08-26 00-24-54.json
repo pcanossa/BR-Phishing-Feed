@@ -1,0 +1,55 @@
+{
+  "dominio": "netflix-staging.openplayapp.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 00:24:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "nfs-staging.openplayapp.com",
+        "aggregated": "/CN=nfs-staging.openplayapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0F60F752F1CC5F38FD4DB45BCFE9ADD0",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "6B:BE:0A:53:EE:F0:66:51:E3:EB:98:89:5A:7A:59:21:B9:4F:B7:ED",
+      "sha1": "6B:BE:0A:53:EE:F0:66:51:E3:EB:98:89:5A:7A:59:21:B9:4F:B7:ED",
+      "sha256": "14:E3:D3:C1:4B:BD:D8:0E:69:1D:A5:25:D6:07:E3:E5:A1:13:7E:66:1B:3D:AD:7B:64:F9:70:E9:DC:F0:3F:2C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "nfs-staging.openplayapp.com",
+        "netflix-staging.openplayapp.com",
+        "*.nfs-staging.openplayapp.com",
+        "*.netflix-staging.openplayapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:nfs-staging.openplayapp.com, DNS:netflix-staging.openplayapp.com, DNS:*.nfs-staging.openplayapp.com, DNS:*.netflix-staging.openplayapp.com",
+        "subjectKeyIdentifier": "keyid:1e:cf:41:00:bb:a1:0e:44:f7:7a:93:f9:4d:95:5b:37:95:f0:ff:d2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 95408958,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=95408958&end=95408958",
+    "seen": 1787714691.422,
+    "submission_timestamp": 1783917363.834,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

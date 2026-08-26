@@ -1,0 +1,51 @@
+{
+  "dominio": "en.kitausushi.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 00:20:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "en.kitausushi.com",
+        "aggregated": "/CN=en.kitausushi.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0605CB053CED889F4A7D52A5395A2EF544BA",
+      "not_before": 1779518932,
+      "not_after": 1787294931,
+      "fingerprint": "A6:28:9A:05:56:11:5B:96:7C:62:DF:01:9D:F0:96:57:7C:E3:F5:4C",
+      "sha1": "A6:28:9A:05:56:11:5B:96:7C:62:DF:01:9D:F0:96:57:7C:E3:F5:4C",
+      "sha256": "01:99:94:E4:8A:35:D9:33:C6:95:00:6D:40:DD:5C:A2:C7:3A:93:33:3A:60:13:91:54:42:0F:8C:7F:01:CD:48",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "en.kitausushi.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:en.kitausushi.com",
+        "subjectKeyIdentifier": "keyid:7c:0f:fe:61:dd:f0:a6:30:c7:6e:0e:de:5a:18:68:e5:cd:9d:6a:cc"
+      }
+    },
+    "cert_index": 4405298891,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4405298891&end=4405298891",
+    "seen": 1787714443.179,
+    "submission_timestamp": 1779522583.425,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

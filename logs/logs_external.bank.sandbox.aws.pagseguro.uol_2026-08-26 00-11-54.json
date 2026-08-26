@@ -1,0 +1,52 @@
+{
+  "dominio": "external.bank.sandbox.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 00:11:54",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bank.sandbox.aws.pagseguro.uol",
+        "aggregated": "/CN=*.bank.sandbox.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "05EC250B3182D647817147D368C199FA",
+      "not_before": 1783900800,
+      "not_after": 1801007999,
+      "fingerprint": "4C:F8:FF:F6:24:1E:05:64:50:28:7F:BA:21:13:00:89:DF:3E:85:83",
+      "sha1": "4C:F8:FF:F6:24:1E:05:64:50:28:7F:BA:21:13:00:89:DF:3E:85:83",
+      "sha256": "D6:DE:B4:8C:07:06:7E:C1:A3:4F:39:5E:F3:3A:6B:30:FA:B3:2B:49:D9:6E:F1:6E:CE:D6:EE:21:EF:0A:56:E0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bank.sandbox.aws.pagseguro.uol",
+        "*.external.bank.sandbox.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bank.sandbox.aws.pagseguro.uol, DNS:*.external.bank.sandbox.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:dd:92:02:7f:60:65:a9:97:f0:32:60:93:aa:33:83:23:fc:f8:82:d2"
+      }
+    },
+    "cert_index": 90110148,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x351/992",
+    "seen": 1787713912.543,
+    "submission_timestamp": 1783925007.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

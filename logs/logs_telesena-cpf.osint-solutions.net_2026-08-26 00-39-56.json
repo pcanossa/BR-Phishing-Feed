@@ -1,0 +1,53 @@
+{
+  "dominio": "telesena-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 00:39:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2B861B66A6B3AE661323820AE77D9EF9",
+      "not_before": 1779403266,
+      "not_after": 1787182858,
+      "fingerprint": "7E:7F:A5:EF:A2:9E:35:E5:3F:D3:55:42:4E:B5:38:16:05:B1:2F:D1",
+      "sha1": "7E:7F:A5:EF:A2:9E:35:E5:3F:D3:55:42:4E:B5:38:16:05:B1:2F:D1",
+      "sha256": "14:F2:FD:C2:B7:F7:AB:5F:AB:E1:EE:C7:CB:5A:A8:C5:68:08:06:D7:C7:68:91:FE:C7:21:6C:A3:32:D9:D3:0B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "telesena-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/K4Y, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:telesena-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:6c:0d:dd:c3:f5:09:b6:49:a0:2f:0c:47:01:89:5f:75:bb:f4:19:b9",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 848591037,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=848591037&end=848591037",
+    "seen": 1787715593.386,
+    "submission_timestamp": 1779406867.234,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

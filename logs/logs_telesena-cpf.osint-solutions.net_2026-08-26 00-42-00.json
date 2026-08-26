@@ -1,0 +1,52 @@
+{
+  "dominio": "telesena-cpf.osint-solutions.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 00:42:00",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "osint-solutions.net",
+        "aggregated": "/CN=osint-solutions.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "2B861B66A6B3AE661323820AE77D9EF9",
+      "not_before": 1779403266,
+      "not_after": 1787182858,
+      "fingerprint": "F6:D4:56:D6:2A:28:07:56:7B:E3:63:3E:F3:02:6D:D4:2E:0D:6B:2C",
+      "sha1": "F6:D4:56:D6:2A:28:07:56:7B:E3:63:3E:F3:02:6D:D4:2E:0D:6B:2C",
+      "sha256": "92:A8:03:92:2E:80:C8:00:56:40:7F:E2:44:6F:DF:1D:F0:90:F8:18:CD:F5:4C:E1:AE:14:F2:62:85:3F:B6:AE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "osint-solutions.net",
+        "telesena-cpf.osint-solutions.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/K4Y, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:osint-solutions.net, DNS:telesena-cpf.osint-solutions.net",
+        "subjectKeyIdentifier": "keyid:6c:0d:dd:c3:f5:09:b6:49:a0:2f:0c:47:01:89:5f:75:bb:f4:19:b9"
+      }
+    },
+    "cert_index": 848606857,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=848606857&end=848606857",
+    "seen": 1787715718.653,
+    "submission_timestamp": 1779406964.697,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}
