@@ -1,0 +1,52 @@
+{
+  "dominio": "www.cpf-military.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 05:45:47",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.cpf-military.com",
+        "aggregated": "/CN=www.cpf-military.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "3BF1E10187D6401F",
+      "not_before": 1783780512,
+      "not_after": 1800887712,
+      "fingerprint": "CA:18:DA:F9:4A:0D:C0:78:30:3D:49:1A:5C:71:1C:04:3A:34:9D:E6",
+      "sha1": "CA:18:DA:F9:4A:0D:C0:78:30:3D:49:1A:5C:71:1C:04:3A:34:9D:E6",
+      "sha256": "F6:14:AF:57:2E:9E:F9:67:A1:6A:0E:2D:A6:F4:D9:D9:17:9D:4F:06:91:F8:34:70:40:1B:86:17:37:AF:16:25",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.cpf-military.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.cpf-military.com",
+        "subjectKeyIdentifier": "keyid:65:b5:f9:c2:7b:70:ee:6e:7d:5d:00:f5:85:50:81:03:36:ab:9a:4c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 89344812,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=89344812&end=89344812",
+    "seen": 1787733944.725,
+    "submission_timestamp": 1783780513.679,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

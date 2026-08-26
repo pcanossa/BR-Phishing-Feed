@@ -1,0 +1,52 @@
+{
+  "dominio": "santander-clientelogin.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 05:32:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "santander-clientelogin.com",
+        "aggregated": "/CN=santander-clientelogin.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "05A85404E5E13DA3341C7EE0AC8714616DC7",
+      "not_before": 1781248713,
+      "not_after": 1789024712,
+      "fingerprint": "35:99:3A:64:7F:6D:90:68:64:46:B7:9E:2B:0B:F4:03:01:C2:88:A9",
+      "sha1": "35:99:3A:64:7F:6D:90:68:64:46:B7:9E:2B:0B:F4:03:01:C2:88:A9",
+      "sha256": "FB:44:26:D0:71:72:1E:C6:12:F5:DE:AA:CE:F3:EA:9F:20:EB:19:4E:E7:36:99:3A:E5:D5:AA:0A:A2:8A:C2:2D",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "santander-clientelogin.com",
+        "*.santander-clientelogin.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.santander-clientelogin.com, DNS:santander-clientelogin.com",
+        "subjectKeyIdentifier": "keyid:9f:cd:01:82:95:c2:8f:ff:14:7b:f0:23:63:fe:ab:5c:3a:91:5b:80"
+      }
+    },
+    "cert_index": 269960281,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x054/532",
+    "seen": 1787733148.979,
+    "submission_timestamp": 1781252224.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

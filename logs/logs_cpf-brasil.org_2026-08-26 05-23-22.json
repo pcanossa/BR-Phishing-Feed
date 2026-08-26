@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-brasil.org",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 05:23:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-brasil.org",
+        "aggregated": "/CN=cpf-brasil.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "069383056D3CEDD333A3560B9560CCF72302",
+      "not_before": 1781264652,
+      "not_after": 1789040651,
+      "fingerprint": "32:22:B0:87:6D:A9:DD:A4:56:1E:03:68:1F:B0:4F:5A:11:CF:2B:33",
+      "sha1": "32:22:B0:87:6D:A9:DD:A4:56:1E:03:68:1F:B0:4F:5A:11:CF:2B:33",
+      "sha256": "B2:CA:79:51:74:0E:9D:37:85:14:88:FF:9D:A0:9D:BE:5A:5B:DB:F1:9A:B3:16:D5:11:71:4A:8D:08:A3:B6:2A",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-brasil.org",
+        "*.cpf-brasil.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.cpf-brasil.org, DNS:cpf-brasil.org",
+        "subjectKeyIdentifier": "keyid:dd:06:95:20:9f:0e:34:e5:ed:a4:9b:99:aa:0e:aa:7c:49:10:a3:19"
+      }
+    },
+    "cert_index": 254620718,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x994/612",
+    "seen": 1787732599.525,
+    "submission_timestamp": 1781268162.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

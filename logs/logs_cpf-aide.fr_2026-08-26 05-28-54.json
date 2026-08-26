@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-aide.fr",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 05:28:54",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-aide.fr",
+        "aggregated": "/CN=cpf-aide.fr"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "0519DD9650656B7C9DC714CEB3B580472EE0",
+      "not_before": 1779529597,
+      "not_after": 1787305596,
+      "fingerprint": "01:4C:66:B3:DE:14:B1:D8:22:44:EE:DB:14:7F:79:06:A8:AB:48:5C",
+      "sha1": "01:4C:66:B3:DE:14:B1:D8:22:44:EE:DB:14:7F:79:06:A8:AB:48:5C",
+      "sha256": "6F:57:43:C6:B6:00:79:D6:14:FC:9A:71:AB:B6:3B:9B:BB:22:DF:D1:DD:C6:89:AA:B4:9A:52:3A:BE:CD:F5:17",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-aide.fr",
+        "www.cpf-aide.fr"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-aide.fr, DNS:www.cpf-aide.fr",
+        "subjectKeyIdentifier": "keyid:1b:d7:e8:e9:1b:ad:39:71:01:c6:e9:e3:fd:09:9d:35:f9:ca:b4:17"
+      }
+    },
+    "cert_index": 4407791595,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4407791595&end=4407791595",
+    "seen": 1787732931.644,
+    "submission_timestamp": 1779533109.371,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

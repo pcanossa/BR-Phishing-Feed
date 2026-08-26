@@ -1,0 +1,52 @@
+{
+  "dominio": "app.oi.wizzflix.com",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 05:20:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.oi.wizzflix.com",
+        "aggregated": "/CN=app.oi.wizzflix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "014F30AF4599D0388E0CF5DA8289DA52",
+      "not_before": 1783987200,
+      "not_after": 1801094399,
+      "fingerprint": "AD:FD:62:0A:BE:85:5F:12:13:14:92:4F:34:F9:85:52:97:20:FB:4B",
+      "sha1": "AD:FD:62:0A:BE:85:5F:12:13:14:92:4F:34:F9:85:52:97:20:FB:4B",
+      "sha256": "86:67:E3:69:F5:E9:B2:7F:96:2E:96:B2:80:FC:77:B5:79:E6:10:1D:B4:29:B5:3F:B5:EF:B4:49:C1:7A:97:EB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.oi.wizzflix.com",
+        "*.app.oi.wizzflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.oi.wizzflix.com, DNS:*.app.oi.wizzflix.com",
+        "subjectKeyIdentifier": "keyid:94:fb:b4:d8:f6:b7:30:cc:ab:d5:49:24:23:75:6a:9d:d9:2c:94:56"
+      }
+    },
+    "cert_index": 100941247,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x394/301",
+    "seen": 1787732421.585,
+    "submission_timestamp": 1784021584.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

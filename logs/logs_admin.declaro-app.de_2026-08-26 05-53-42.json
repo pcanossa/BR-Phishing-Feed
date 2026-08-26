@@ -1,0 +1,53 @@
+{
+  "dominio": "admin.declaro-app.de",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 05:53:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "admin.declaro-app.de",
+        "aggregated": "/CN=admin.declaro-app.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "023E9590303B72A16674E91FD764C8BC",
+      "not_before": 1784073600,
+      "not_after": 1801180799,
+      "fingerprint": "59:34:41:61:49:DE:76:FA:0B:48:89:A5:AA:66:A7:D7:A9:8F:EA:45",
+      "sha1": "59:34:41:61:49:DE:76:FA:0B:48:89:A5:AA:66:A7:D7:A9:8F:EA:45",
+      "sha256": "DC:30:49:F7:09:1E:1C:22:0A:4D:97:3C:34:32:CA:B9:89:B9:51:A7:5F:91:7C:DC:BD:C1:13:F8:FC:8B:1A:A7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "admin.declaro-app.de",
+        "*.admin.declaro-app.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:admin.declaro-app.de, DNS:*.admin.declaro-app.de",
+        "subjectKeyIdentifier": "keyid:6f:ad:99:79:ba:21:fd:46:e1:51:82:4f:4b:d0:ed:b3:9a:0c:0f:59",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 98649009,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=98649009&end=98649009",
+    "seen": 1787734418.174,
+    "submission_timestamp": 1784075256.039,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

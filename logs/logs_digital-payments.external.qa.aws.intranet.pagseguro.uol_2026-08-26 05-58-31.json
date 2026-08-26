@@ -1,0 +1,51 @@
+{
+  "dominio": "digital-payments.external.qa.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 05:58:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.digital-payments.external.qa.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.digital-payments.external.qa.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "01F626C63AC82112953A049A86AB74F0",
+      "not_before": 1784073600,
+      "not_after": 1801180799,
+      "fingerprint": "4A:4D:3F:92:28:4F:0E:3B:B9:21:48:98:3A:86:D7:7F:B8:B9:17:43",
+      "sha1": "4A:4D:3F:92:28:4F:0E:3B:B9:21:48:98:3A:86:D7:7F:B8:B9:17:43",
+      "sha256": "40:F4:12:A1:12:0E:41:A0:8F:9F:77:65:6A:36:4F:67:E6:B9:43:A7:9A:47:1A:64:76:0B:4D:0F:89:0A:62:C8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.digital-payments.external.qa.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.digital-payments.external.qa.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:a3:8c:07:a2:25:e4:98:70:d5:e4:45:ee:c6:0d:46:a7:e0:d3:40:63"
+      }
+    },
+    "cert_index": 92957671,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x363/115",
+    "seen": 1787734709.258,
+    "submission_timestamp": 1784104618.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

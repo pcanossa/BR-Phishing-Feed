@@ -1,0 +1,52 @@
+{
+  "dominio": "portalseguros.cnpsantander.es",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/26/26 05:10:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "portalseguros.cnpsantander.es",
+        "aggregated": "/CN=portalseguros.cnpsantander.es"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "048F978A5008EFBB60139290D3493038",
+      "not_before": 1783036800,
+      "not_after": 1800143999,
+      "fingerprint": "BE:8E:4C:08:4A:D8:FB:F5:8D:3F:D3:78:41:4C:84:88:8C:BC:AC:25",
+      "sha1": "BE:8E:4C:08:4A:D8:FB:F5:8D:3F:D3:78:41:4C:84:88:8C:BC:AC:25",
+      "sha256": "BB:0E:E3:D4:70:AE:DF:10:0C:49:8B:18:35:82:28:2F:54:0B:B6:6E:AA:95:22:4F:58:E0:73:4F:53:DF:41:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "portalseguros.cnpsantander.es"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:portalseguros.cnpsantander.es",
+        "subjectKeyIdentifier": "keyid:b3:d3:e4:75:64:92:7d:27:7c:bf:1f:0c:16:0b:51:af:39:62:1d:c7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 119728383,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=119728383&end=119728383",
+    "seen": 1787731833.848,
+    "submission_timestamp": 1783083191.526,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "testapp.haco2.uber.space",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/26/26 05:49:24",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testapp.haco2.uber.space",
+        "aggregated": "/CN=testapp.haco2.uber.space"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "064625106708D5180F9986B0FA60A4E21EA8",
+      "not_before": 1779530264,
+      "not_after": 1787306263,
+      "fingerprint": "24:5C:68:5A:BC:50:F5:FD:C3:21:A2:39:96:D1:AA:E3:20:C4:78:9A",
+      "sha1": "24:5C:68:5A:BC:50:F5:FD:C3:21:A2:39:96:D1:AA:E3:20:C4:78:9A",
+      "sha256": "38:6E:11:4A:FD:34:23:86:62:87:B5:56:62:DB:EB:F6:20:3C:AA:61:97:7B:A8:A9:36:EE:03:DA:F5:DB:61:D5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "testapp.haco2.uber.space"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:testapp.haco2.uber.space",
+        "subjectKeyIdentifier": "keyid:7f:c1:bf:90:22:25:32:a4:29:35:d9:2d:38:86:32:a3:e8:6c:be:d7"
+      }
+    },
+    "cert_index": 4407960135,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4407960135&end=4407960135",
+    "seen": 1787734162.044,
+    "submission_timestamp": 1779533777.519,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}
