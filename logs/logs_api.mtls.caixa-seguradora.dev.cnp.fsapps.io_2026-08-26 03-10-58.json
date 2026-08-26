@@ -1,0 +1,51 @@
+{
+  "dominio": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 03:10:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "aggregated": "/CN=api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "0529119223A5DEFFC8D67D0D9C174ADE6B3E",
+      "not_before": 1781219453,
+      "not_after": 1788995452,
+      "fingerprint": "C7:56:0A:A5:9C:F2:63:AE:2F:2B:B8:FC:9F:85:5F:3A:41:80:8F:7E",
+      "sha1": "C7:56:0A:A5:9C:F2:63:AE:2F:2B:B8:FC:9F:85:5F:3A:41:80:8F:7E",
+      "sha256": "4A:81:8C:88:9E:6B:08:55:73:9A:95:8E:AE:BF:5C:1E:77:4A:1A:82:4B:CF:42:64:9A:0A:AD:F7:D1:BF:B3:E8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.mtls.caixa-seguradora.dev.cnp.fsapps.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.mtls.caixa-seguradora.dev.cnp.fsapps.io",
+        "subjectKeyIdentifier": "keyid:cb:2c:56:6d:82:d0:32:cf:45:92:b9:e0:08:8b:c6:e5:c3:95:8c:d4"
+      }
+    },
+    "cert_index": 268731781,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x049/733",
+    "seen": 1787724654.673,
+    "submission_timestamp": 1781222963.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "fatura-clarobr.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 04:01:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "fatura-clarobr.com",
+        "aggregated": "/CN=fatura-clarobr.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4CB64372C115248A0E006D0586E1F546",
+      "not_before": 1778821720,
+      "not_after": 1786601098,
+      "fingerprint": "19:0D:52:C2:76:F4:13:AA:96:A7:EE:04:7E:76:7E:EC:E6:49:21:AB",
+      "sha1": "19:0D:52:C2:76:F4:13:AA:96:A7:EE:04:7E:76:7E:EC:E6:49:21:AB",
+      "sha256": "51:40:EE:9C:1E:87:46:80:85:1F:75:C7:4A:5C:12:A8:9C:54:4D:1C:77:7F:08:DD:0E:32:4C:F7:85:1F:13:35",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "fatura-clarobr.com",
+        "*.fatura-clarobr.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/TLY, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:fatura-clarobr.com, DNS:*.fatura-clarobr.com",
+        "subjectKeyIdentifier": "keyid:f2:e5:a7:63:ef:32:29:5e:cb:63:81:b0:d1:8c:93:84:98:03:95:54",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4407058957,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4407058957&end=4407058957",
+    "seen": 1787727700.125,
+    "submission_timestamp": 1779530167.873,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

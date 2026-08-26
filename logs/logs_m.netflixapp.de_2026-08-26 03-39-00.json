@@ -1,0 +1,52 @@
+{
+  "dominio": "m.netflixapp.de",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 03:39:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "m.netflixapp.de",
+        "aggregated": "/CN=m.netflixapp.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "060794749D73EF5F8715CD26CB26D920",
+      "not_before": 1781222400,
+      "not_after": 1788998399,
+      "fingerprint": "61:5B:8C:0B:4E:CA:AD:F8:7A:D6:68:EF:70:03:B7:72:4D:A5:AC:E0",
+      "sha1": "61:5B:8C:0B:4E:CA:AD:F8:7A:D6:68:EF:70:03:B7:72:4D:A5:AC:E0",
+      "sha256": "48:39:3F:00:6C:10:9A:94:D1:38:82:44:1A:F0:95:AE:45:6E:64:74:8E:FC:63:F9:14:42:A4:B1:8B:A0:AB:DA",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "m.netflixapp.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:m.netflixapp.de",
+        "subjectKeyIdentifier": "keyid:81:1a:ab:b3:e8:d3:cd:3d:79:75:fa:2d:8b:ef:ee:e1:70:fb:73:a5"
+      }
+    },
+    "cert_index": 268976929,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x050/691",
+    "seen": 1787726336.385,
+    "submission_timestamp": 1781227797.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

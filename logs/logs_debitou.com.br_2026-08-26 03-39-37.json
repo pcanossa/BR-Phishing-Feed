@@ -1,0 +1,53 @@
+{
+  "dominio": "debitou.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 03:39:37",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitou.com.br",
+        "aggregated": "/CN=debitou.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "017B3556F71F0B7FE3BDA232C2FCED9B",
+      "not_before": 1783987200,
+      "not_after": 1801094399,
+      "fingerprint": "6D:BC:C6:85:D3:7C:35:5C:EA:6D:9D:C5:2F:4C:20:27:5F:65:02:DF",
+      "sha1": "6D:BC:C6:85:D3:7C:35:5C:EA:6D:9D:C5:2F:4C:20:27:5F:65:02:DF",
+      "sha256": "1F:A4:E1:27:8A:81:E9:32:51:76:54:8B:CB:CD:E0:41:0F:AB:78:D7:A1:99:7D:9A:6A:8B:E3:C4:20:DA:82:98",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitou.com.br",
+        "www.debitou.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitou.com.br, DNS:www.debitou.com.br",
+        "subjectKeyIdentifier": "keyid:bb:7c:57:38:76:94:a6:f7:52:46:ae:7d:68:2f:18:1e:7f:d0:7f:71",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 97346558,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=97346558&end=97346558",
+    "seen": 1787726373.464,
+    "submission_timestamp": 1784014820.37,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

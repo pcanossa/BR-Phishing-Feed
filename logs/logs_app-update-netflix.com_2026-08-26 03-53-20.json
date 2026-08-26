@@ -1,0 +1,51 @@
+{
+  "dominio": "app-update-netflix.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/26/26 03:53:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-update-netflix.com",
+        "aggregated": "/CN=app-update-netflix.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "05A4065ED91E3F906CD2F593F25EE75BEC75",
+      "not_before": 1781245328,
+      "not_after": 1789021327,
+      "fingerprint": "B6:B0:69:51:90:29:13:90:BF:20:43:ED:7E:97:0C:3A:88:BB:34:C7",
+      "sha1": "B6:B0:69:51:90:29:13:90:BF:20:43:ED:7E:97:0C:3A:88:BB:34:C7",
+      "sha256": "1D:06:64:A2:0C:2F:15:87:21:F7:DB:9B:04:78:A8:00:35:3D:EC:5E:B6:F1:69:CE:7A:C6:22:4E:C9:5C:B6:26",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "app-update-netflix.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-update-netflix.com",
+        "subjectKeyIdentifier": "keyid:0f:c8:00:47:fc:4f:e9:38:b0:f7:aa:a7:07:e2:1f:58:a6:45:83:81"
+      }
+    },
+    "cert_index": 253876459,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x991/704",
+    "seen": 1787727196.936,
+    "submission_timestamp": 1781248838.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
