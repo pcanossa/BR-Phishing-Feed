@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 06:53:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.com.br",
+        "aggregated": "/CN=cpf.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "AE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=AE1/O=Google Trust Services"
+      },
+      "serial_number": "15C4CEB8702D83ED0E066C9B4AD7070C",
+      "not_before": 1779423289,
+      "not_after": 1783314884,
+      "fingerprint": "4A:09:B6:A2:1A:D3:DA:2B:C1:9E:2B:B2:03:36:1C:AD:1A:A3:28:E2",
+      "sha1": "4A:09:B6:A2:1A:D3:DA:2B:C1:9E:2B:B2:03:36:1C:AD:1A:A3:28:E2",
+      "sha256": "F2:34:C9:94:33:04:F0:FA:A5:29:02:44:15:9F:6F:F8:4A:0A:6C:47:87:DC:A2:94:C8:83:CC:B5:63:62:81:03",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.com.br",
+        "*.cpf.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/ae1/FcQ, URI:http://i.pki.goog/ae1.crt",
+        "authorityKeyIdentifier": "keyid:48:89:60:f9:a3:7d:0c:ea:00:24:a2:dc:9f:07:ce:46:88:a8:32:3a",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf.com.br, DNS:*.cpf.com.br",
+        "subjectKeyIdentifier": "keyid:5d:ce:8c:c7:b8:bb:b3:47:44:fd:46:1c:df:ca:9d:ae:49:04:25:fa",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 851975860,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=851975860&end=851975860",
+    "seen": 1787737992.243,
+    "submission_timestamp": 1779426889.5,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

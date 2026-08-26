@@ -1,0 +1,52 @@
+{
+  "dominio": "app-test-euw1.combidaserasa.online",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/26/26 06:58:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-test-euw1.combidaserasa.online",
+        "aggregated": "/CN=app-test-euw1.combidaserasa.online"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0C384853F99B69D17F45A1B4E4E53029",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "53:A7:4D:B1:E4:06:A3:39:81:DE:9F:05:36:00:93:1B:D4:F5:11:9D",
+      "sha1": "53:A7:4D:B1:E4:06:A3:39:81:DE:9F:05:36:00:93:1B:D4:F5:11:9D",
+      "sha256": "A3:DA:9F:F8:35:D2:B5:17:B7:4B:F0:84:8D:6C:38:C9:D6:CE:31:E4:6E:25:87:EC:D5:AB:B3:76:35:65:89:3E",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-test-euw1.combidaserasa.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-test-euw1.combidaserasa.online",
+        "subjectKeyIdentifier": "keyid:eb:d3:d7:21:27:04:28:d5:a5:98:e6:59:6f:2b:c8:de:47:68:e8:05",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4408506363,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408506363&end=4408506363",
+    "seen": 1787738292.065,
+    "submission_timestamp": 1779535938.398,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

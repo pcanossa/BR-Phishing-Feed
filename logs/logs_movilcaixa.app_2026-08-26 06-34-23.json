@@ -1,0 +1,53 @@
+{
+  "dominio": "movilcaixa.app",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/26/26 06:34:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "movilcaixa.app",
+        "aggregated": "/CN=movilcaixa.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "5220A78B2F64B2811371850EF4F51E8A",
+      "not_before": 1779531484,
+      "not_after": 1787310990,
+      "fingerprint": "5D:5A:54:C3:D9:3B:E4:03:EB:7C:AE:F9:9E:53:76:D1:32:9B:8A:10",
+      "sha1": "5D:5A:54:C3:D9:3B:E4:03:EB:7C:AE:F9:9E:53:76:D1:32:9B:8A:10",
+      "sha256": "33:A8:51:98:22:0B:98:44:F2:99:90:40:BE:01:12:C8:68:D7:F6:13:41:50:63:DE:01:29:36:4F:BC:44:BB:98",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "movilcaixa.app",
+        "*.movilcaixa.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/UiA, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:movilcaixa.app, DNS:*.movilcaixa.app",
+        "subjectKeyIdentifier": "keyid:07:67:0b:bf:8f:c7:b0:29:26:b9:ae:61:36:68:65:b8:be:99:25:13",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4408316082,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408316082&end=4408316082",
+    "seen": 1787736861.058,
+    "submission_timestamp": 1779535166.823,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

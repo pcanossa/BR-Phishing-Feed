@@ -1,0 +1,53 @@
+{
+  "dominio": "api-usw1-test.cpf-negativado-ufq.cyou",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 07:00:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api-usw1-test.cpf-negativado-ufq.cyou",
+        "aggregated": "/CN=api-usw1-test.cpf-negativado-ufq.cyou"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "07741B7A92BB524D0CB49097BC47CBD3",
+      "not_before": 1779494400,
+      "not_after": 1787270399,
+      "fingerprint": "8E:EF:42:B2:44:41:42:DE:71:24:47:C2:99:43:F9:B3:54:32:0A:C9",
+      "sha1": "8E:EF:42:B2:44:41:42:DE:71:24:47:C2:99:43:F9:B3:54:32:0A:C9",
+      "sha256": "2E:15:F6:04:F6:CA:9A:9F:20:7C:5A:E7:F9:DE:FF:50:83:56:EC:34:20:6D:E3:02:DB:80:BA:37:B0:1D:A5:8B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api-usw1-test.cpf-negativado-ufq.cyou"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api-usw1-test.cpf-negativado-ufq.cyou",
+        "subjectKeyIdentifier": "keyid:e6:a5:87:a0:32:9f:aa:0b:8f:88:52:d4:c8:f7:05:1d:af:a0:95:6c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4408521511,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408521511&end=4408521511",
+    "seen": 1787738409.438,
+    "submission_timestamp": 1779536013.316,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dominio": "testcdn.spotify.com.udp.gtns.app",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/26/26 06:27:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gtns.app",
+        "aggregated": "/CN=gtns.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "0B2DE76171A629D3134CAA645346661F",
+      "not_before": 1779337762,
+      "not_after": 1787117360,
+      "fingerprint": "DE:F6:27:F6:93:B6:51:B1:6E:A2:41:DF:66:E9:40:E8:C3:71:6E:34",
+      "sha1": "DE:F6:27:F6:93:B6:51:B1:6E:A2:41:DF:66:E9:40:E8:C3:71:6E:34",
+      "sha256": "A2:4C:CF:43:F8:A6:5B:2F:C2:BF:7A:E3:00:C6:94:4D:D3:48:0F:89:B7:E3:7B:EB:51:19:EC:CA:D5:16:0F:3C",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gtns.app",
+        "testcdn.spotify.com.udp.gtns.app",
+        "*.testcdn.spotify.com.udp.gtns.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/Cy0, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gtns.app, DNS:testcdn.spotify.com.udp.gtns.app, DNS:*.testcdn.spotify.com.udp.gtns.app",
+        "subjectKeyIdentifier": "keyid:53:b9:d4:6c:89:d4:fa:8a:32:6f:94:0a:56:66:d0:e7:c0:88:6c:4e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 714013681,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=714013681&end=714013681",
+    "seen": 1787736445.13,
+    "submission_timestamp": 1779341363.373,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

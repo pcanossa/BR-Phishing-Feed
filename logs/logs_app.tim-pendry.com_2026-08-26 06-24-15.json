@@ -1,0 +1,51 @@
+{
+  "dominio": "app.tim-pendry.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/26/26 06:24:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.tim-pendry.com",
+        "aggregated": "/CN=app.tim-pendry.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "DF4E278FA0808DCC31A4BB56C253286F",
+      "not_before": 1780617600,
+      "not_after": 1788479999,
+      "fingerprint": "83:10:7A:36:D6:6C:D5:6B:14:84:A7:0D:E4:5D:68:54:23:81:4D:3B",
+      "sha1": "83:10:7A:36:D6:6C:D5:6B:14:84:A7:0D:E4:5D:68:54:23:81:4D:3B",
+      "sha256": "E8:2E:1A:E3:7F:55:69:3F:58:3C:63:F7:AC:5B:C4:42:B5:36:9B:26:7B:1B:9B:5D:7E:F3:52:63:29:54:7C:CC",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.tim-pendry.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.tim-pendry.com",
+        "subjectKeyIdentifier": "keyid:ce:3d:45:96:30:b5:3f:52:5b:a4:11:19:f1:b4:6d:ab:dd:d7:d2:5a"
+      }
+    },
+    "cert_index": 270407096,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x056/277",
+    "seen": 1787736252.416,
+    "submission_timestamp": 1781263741.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

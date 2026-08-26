@@ -1,0 +1,52 @@
+{
+  "dominio": "apps.into-itaudio.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 07:03:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "apps.into-itaudio.com",
+        "aggregated": "/CN=apps.into-itaudio.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "255F1F939035DDAF0DAE7857C8A87057",
+      "not_before": 1778803200,
+      "not_after": 1786665599,
+      "fingerprint": "BB:DA:BA:46:F2:54:4D:14:1B:A7:8E:C6:BB:7A:C3:22:AA:D8:E0:82",
+      "sha1": "BB:DA:BA:46:F2:54:4D:14:1B:A7:8E:C6:BB:7A:C3:22:AA:D8:E0:82",
+      "sha256": "18:0D:A2:75:79:64:8D:1D:06:97:DE:60:A6:E1:0B:26:CF:48:05:E6:BC:4E:30:73:59:CA:35:A0:B5:56:08:E7",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "apps.into-itaudio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:apps.into-itaudio.com",
+        "subjectKeyIdentifier": "keyid:d8:ed:80:74:ce:28:5c:25:ba:c7:17:b8:39:2b:55:a5:59:d3:18:25",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4408548948,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4408548948&end=4408548948",
+    "seen": 1787738612.19,
+    "submission_timestamp": 1779536122.975,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

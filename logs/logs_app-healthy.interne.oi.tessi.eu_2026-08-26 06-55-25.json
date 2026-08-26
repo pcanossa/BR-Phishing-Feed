@@ -1,0 +1,52 @@
+{
+  "dominio": "app-healthy.interne.oi.tessi.eu",
+  "marcas_encontradas": [
+    "oi"
+  ],
+  "timestamp": "08/26/26 06:55:25",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-healthy.interne.oi.tessi.eu",
+        "aggregated": "/CN=app-healthy.interne.oi.tessi.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR2/O=Let's Encrypt"
+      },
+      "serial_number": "068A2F0B6CD28F743B68716AAB5303C8588D",
+      "not_before": 1781267197,
+      "not_after": 1789043196,
+      "fingerprint": "0D:A4:CC:44:DF:77:EF:B1:EA:C7:40:6C:23:5E:A8:17:4D:D1:27:48",
+      "sha1": "0D:A4:CC:44:DF:77:EF:B1:EA:C7:40:6C:23:5E:A8:17:4D:D1:27:48",
+      "sha256": "B4:AC:4B:E1:78:40:5C:4A:C4:3D:60:DB:6A:AB:41:99:60:65:B2:69:9C:B8:ED:D9:08:99:A4:65:E6:88:3A:1A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app-healthy.interne.oi.tessi.eu",
+        "www.app-healthy.interne.oi.tessi.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:40:15:2d:26:79:ed:32:20:9e:df:9a:72:1d:d6:32:1f:81:0c:81:0c",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app-healthy.interne.oi.tessi.eu, DNS:www.app-healthy.interne.oi.tessi.eu",
+        "subjectKeyIdentifier": "keyid:2c:d9:2a:fb:c2:68:ed:c5:f7:e6:af:f0:95:9f:4d:c4:47:2d:ec:0d"
+      }
+    },
+    "cert_index": 270677140,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x057/332",
+    "seen": 1787738121.191,
+    "submission_timestamp": 1781270707.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

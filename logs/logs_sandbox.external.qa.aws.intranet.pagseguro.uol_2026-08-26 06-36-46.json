@@ -1,0 +1,52 @@
+{
+  "dominio": "sandbox.external.qa.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 06:36:46",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sandbox.external.qa.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.sandbox.external.qa.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "09FCE71A063E2B5E9A036E899C1D4D80",
+      "not_before": 1784073600,
+      "not_after": 1801180799,
+      "fingerprint": "3B:54:52:81:9F:71:E7:67:1B:2B:EF:9E:2B:79:CC:90:54:8E:32:D9",
+      "sha1": "3B:54:52:81:9F:71:E7:67:1B:2B:EF:9E:2B:79:CC:90:54:8E:32:D9",
+      "sha256": "90:C9:90:FD:34:97:94:26:07:B0:CC:E7:77:5E:86:49:F4:50:50:41:E3:67:B7:14:61:B4:A9:61:0B:17:0F:4A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sandbox.external.qa.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.sandbox.external.qa.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:44:1c:2f:93:5a:51:d8:6f:61:63:10:e4:bc:82:b6:76:b3:31:42:6c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 99053545,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=99053545&end=99053545",
+    "seen": 1787737001.64,
+    "submission_timestamp": 1784095278.613,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}
