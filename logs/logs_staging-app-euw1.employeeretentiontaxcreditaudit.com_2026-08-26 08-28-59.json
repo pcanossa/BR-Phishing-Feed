@@ -1,0 +1,52 @@
+{
+  "dominio": "staging-app-euw1.employeeretentiontaxcreditaudit.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 08:28:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "staging-app-euw1.employeeretentiontaxcreditaudit.com",
+        "aggregated": "/CN=staging-app-euw1.employeeretentiontaxcreditaudit.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "9813D1625DC8B66F96F291EECB93F5D4",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "11:F1:F6:CD:89:AC:9D:8B:6C:AD:BB:55:E5:C1:27:47:DA:28:40:0E",
+      "sha1": "11:F1:F6:CD:89:AC:9D:8B:6C:AD:BB:55:E5:C1:27:47:DA:28:40:0E",
+      "sha256": "58:72:2B:1F:AB:08:2D:3A:BC:4C:77:85:6E:2C:7D:D3:88:5D:4B:80:85:55:C0:C9:54:93:E2:9C:04:9B:4F:A0",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "staging-app-euw1.employeeretentiontaxcreditaudit.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:staging-app-euw1.employeeretentiontaxcreditaudit.com",
+        "subjectKeyIdentifier": "keyid:ac:79:66:de:02:0a:f8:2f:0e:a0:a6:cd:98:e6:1d:47:4d:7d:01:cf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4409217810,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4409217810&end=4409217810",
+    "seen": 1787743737.293,
+    "submission_timestamp": 1779539025.975,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

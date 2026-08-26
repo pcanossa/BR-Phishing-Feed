@@ -1,0 +1,58 @@
+{
+  "dominio": "rtrt.tim.it",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/26/26 08:14:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "IT",
+        "CN": "rtrt.tim.it",
+        "O": "NOOVLE S.P.A. SOCIETA' BENEFIT",
+        "ST": "Milano",
+        "aggregated": "/C=IT/CN=rtrt.tim.it/O=NOOVLE S.P.A. SOCIETA' BENEFIT/ST=Milano"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "TI Trust Technologies OV CA",
+        "L": "Pomezia",
+        "O": "TI Trust Technologies S.R.L.",
+        "ST": "Roma",
+        "aggregated": "/C=IT/CN=TI Trust Technologies OV CA/L=Pomezia/O=TI Trust Technologies S.R.L./ST=Roma"
+      },
+      "serial_number": "F69D63D2AE1EDF503496778D7C0D9DD6",
+      "not_before": 1784073600,
+      "not_after": 1801267199,
+      "fingerprint": "FF:9D:6C:60:F4:3E:2D:B3:28:90:93:75:B1:0E:4D:14:34:DD:41:3C",
+      "sha1": "FF:9D:6C:60:F4:3E:2D:B3:28:90:93:75:B1:0E:4D:14:34:DD:41:3C",
+      "sha256": "FD:B4:2C:B1:2D:D6:B0:63:66:3A:48:44:A4:DE:E7:6D:0A:E7:96:F8:B7:6A:76:5D:3A:7A:03:23:14:5C:49:06",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "rtrt.tim.it",
+        "rtrtmabkbn.tim.it",
+        "rtrtmaenti.tim.it"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://tiTrust.crt.sectigo.com/TITrustTechnologiesOVCA.crt, URI:http://tiTrust.ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:63:e5:3f:f8:cf:27:b1:31:19:2a:2b:5c:cd:ff:2e:71:fb:29:38:df",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.73\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:rtrt.tim.it, DNS:rtrtmabkbn.tim.it, DNS:rtrtmaenti.tim.it",
+        "subjectKeyIdentifier": "keyid:f6:88:b0:23:d8:c9:81:a6:06:8c:2e:59:d9:ef:a6:d3:93:91:6d:bf"
+      }
+    },
+    "cert_index": 102440904,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x400/159",
+    "seen": 1787742895.058,
+    "submission_timestamp": 1784106315.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

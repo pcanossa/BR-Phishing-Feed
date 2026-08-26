@@ -1,0 +1,56 @@
+{
+  "dominio": "dev-login.sigaitau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 08:57:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev-apiconfiguracao.sigaitau.com",
+        "aggregated": "/CN=dev-apiconfiguracao.sigaitau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "07EDEE3C7B72ED5629A8E75351003C1E",
+      "not_before": 1784160000,
+      "not_after": 1801267199,
+      "fingerprint": "33:8B:F8:0A:DB:F3:89:CB:44:70:11:D5:6A:32:B1:B9:BE:25:9E:8D",
+      "sha1": "33:8B:F8:0A:DB:F3:89:CB:44:70:11:D5:6A:32:B1:B9:BE:25:9E:8D",
+      "sha256": "0B:AA:4A:DE:E7:59:92:EB:23:E6:80:03:76:98:C4:91:E0:3D:BC:47:C3:40:D3:4D:1C:B3:EA:C2:40:55:F0:F7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev-apiconfiguracao.sigaitau.com",
+        "dev-backend.sigaitau.com",
+        "dev-login.sigaitau.com",
+        "dev.sigaitau.com",
+        "dev-vscubes.sigaitau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev-apiconfiguracao.sigaitau.com, DNS:dev-backend.sigaitau.com, DNS:dev-login.sigaitau.com, DNS:dev.sigaitau.com, DNS:dev-vscubes.sigaitau.com",
+        "subjectKeyIdentifier": "keyid:a2:42:36:c5:95:7d:fd:cd:49:d2:f7:0c:74:e5:98:2b:c5:93:83:bc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 100383702,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=100383702&end=100383702",
+    "seen": 1787745466.415,
+    "submission_timestamp": 1784160932.535,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "consultar-debitos.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 09:10:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "consultar-debitos.com",
+        "aggregated": "/CN=consultar-debitos.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "6B82E2A55944BDCD7B7F4E34EFFCACDD",
+      "not_before": 1778790308,
+      "not_after": 1786566817,
+      "fingerprint": "91:8A:E1:1A:7C:B9:F4:71:CC:53:37:78:BA:4A:24:51:19:FE:42:0E",
+      "sha1": "91:8A:E1:1A:7C:B9:F4:71:CC:53:37:78:BA:4A:24:51:19:FE:42:0E",
+      "sha256": "19:08:18:53:2F:C0:42:B6:4B:BD:E3:ED:AF:A2:D6:11:3E:D5:22:02:A1:3C:5E:D3:BE:DE:E6:32:0A:7F:45:C9",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "consultar-debitos.com",
+        "*.consultar-debitos.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:consultar-debitos.com, DNS:*.consultar-debitos.com",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695545383,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=695545383&end=695545383",
+    "seen": 1787746198.302,
+    "submission_timestamp": 1778790909.517,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

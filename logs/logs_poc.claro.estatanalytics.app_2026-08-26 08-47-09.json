@@ -1,0 +1,52 @@
+{
+  "dominio": "poc.claro.estatanalytics.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 08:47:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "poc.claro.estatanalytics.app",
+        "aggregated": "/CN=poc.claro.estatanalytics.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "060117FB282B28F0399D6FB62C49525277C2",
+      "not_before": 1778785794,
+      "not_after": 1786561793,
+      "fingerprint": "D3:68:D0:3E:54:2E:D5:8E:A5:F2:45:00:4A:FA:A4:1C:E4:C1:7C:67",
+      "sha1": "D3:68:D0:3E:54:2E:D5:8E:A5:F2:45:00:4A:FA:A4:1C:E4:C1:7C:67",
+      "sha256": "D6:02:8C:BD:96:0A:92:98:3B:08:FE:96:CA:84:51:DD:0C:DD:94:36:49:E3:DD:9E:8B:AE:59:E5:F8:DF:73:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "poc.claro.estatanalytics.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:poc.claro.estatanalytics.app",
+        "subjectKeyIdentifier": "keyid:f8:f9:8b:92:40:98:65:e3:1b:8b:a5:24:b9:18:b5:ea:2c:09:cc:29",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695359990,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=695359990&end=695359990",
+    "seen": 1787744826.818,
+    "submission_timestamp": 1778789304.478,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

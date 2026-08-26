@@ -1,0 +1,53 @@
+{
+  "dominio": "valida-cpf.mek-douglas.workers.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 09:01:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mek-douglas.workers.dev",
+        "aggregated": "/CN=mek-douglas.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "7AEE53C219760BC913C516F5A18B1D33",
+      "not_before": 1779430353,
+      "not_after": 1787209939,
+      "fingerprint": "FE:9E:D8:D1:37:77:29:1B:03:1E:39:97:D8:53:CB:41:81:CF:CB:65",
+      "sha1": "FE:9E:D8:D1:37:77:29:1B:03:1E:39:97:D8:53:CB:41:81:CF:CB:65",
+      "sha256": "36:A3:E1:06:5E:7E:6B:C2:8D:3F:D4:C4:29:61:4F:D6:1C:C2:E1:58:D3:D5:FC:09:43:BC:F2:55:89:85:E3:49",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "mek-douglas.workers.dev",
+        "*.valida-cpf.mek-douglas.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/eu4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:mek-douglas.workers.dev, DNS:*.valida-cpf.mek-douglas.workers.dev",
+        "subjectKeyIdentifier": "keyid:dd:9d:eb:69:f1:45:c5:18:34:9f:e1:7c:bb:89:21:cb:c4:ad:01:cf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 853145907,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=853145907&end=853145907",
+    "seen": 1787745697.455,
+    "submission_timestamp": 1779433953.485,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "correiosrastreio.com",
+  "marcas_encontradas": [
+    "correios"
+  ],
+  "timestamp": "08/26/26 08:52:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "correiosrastreio.com",
+        "aggregated": "/CN=correiosrastreio.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "7B757E76B1C57669",
+      "not_before": 1783148429,
+      "not_after": 1800255629,
+      "fingerprint": "4F:28:61:11:BF:6A:52:90:2C:3D:F8:2A:F6:DC:68:17:14:FB:1B:1F",
+      "sha1": "4F:28:61:11:BF:6A:52:90:2C:3D:F8:2A:F6:DC:68:17:14:FB:1B:1F",
+      "sha256": "15:C1:13:D0:25:A1:44:D3:61:D5:D3:C3:0D:65:0D:B0:3D:95:D7:F8:AC:4D:EA:5A:29:AE:E9:25:43:48:1F:13",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "correiosrastreio.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:correiosrastreio.com",
+        "subjectKeyIdentifier": "keyid:f9:0a:b2:c9:62:ee:fb:59:c9:5b:90:d1:d8:47:9f:41:97:bc:41:f3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 121449757,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=121449757&end=121449757",
+    "seen": 1787745139.74,
+    "submission_timestamp": 1783148430.748,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

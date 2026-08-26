@@ -1,0 +1,51 @@
+{
+  "dominio": "teste-tim-001.dcgseguros.io",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/26/26 08:21:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "teste-tim-001.dcgseguros.io",
+        "aggregated": "/CN=teste-tim-001.dcgseguros.io"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "05E031197820D044A77A40E33C8EDB393A20",
+      "not_before": 1781292845,
+      "not_after": 1789068844,
+      "fingerprint": "24:7B:53:B4:E0:F3:4F:E4:10:0D:6F:D7:7A:A3:BD:61:29:03:3C:EF",
+      "sha1": "24:7B:53:B4:E0:F3:4F:E4:10:0D:6F:D7:7A:A3:BD:61:29:03:3C:EF",
+      "sha256": "22:74:F3:F2:49:CE:75:C8:15:9E:14:64:25:CD:9E:4D:48:14:0D:E8:2C:31:14:2B:61:1D:80:91:05:7F:17:B1",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "teste-tim-001.dcgseguros.io"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:teste-tim-001.dcgseguros.io",
+        "subjectKeyIdentifier": "keyid:6c:52:ee:d2:3f:fd:b6:1d:d0:e5:0f:86:41:99:4f:03:36:01:66:64"
+      }
+    },
+    "cert_index": 271423571,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x060/248",
+    "seen": 1787743312.592,
+    "submission_timestamp": 1781296356.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

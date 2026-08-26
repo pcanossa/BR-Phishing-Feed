@@ -1,0 +1,52 @@
+{
+  "dominio": "gov-br.workers.dev",
+  "marcas_encontradas": [
+    "gov-br"
+  ],
+  "timestamp": "08/26/26 08:38:57",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gov-br.workers.dev",
+        "aggregated": "/CN=gov-br.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3BFE22FF107B2273132C032934EA3EED",
+      "not_before": 1778983366,
+      "not_after": 1786762816,
+      "fingerprint": "BA:3C:2A:08:F3:8C:E7:31:E6:55:2F:69:D0:05:9B:A4:7E:63:63:E4",
+      "sha1": "BA:3C:2A:08:F3:8C:E7:31:E6:55:2F:69:D0:05:9B:A4:7E:63:63:E4",
+      "sha256": "9D:75:BE:AC:57:69:13:06:19:F3:3B:C9:76:21:95:7E:C2:64:B0:A5:50:8A:6B:39:EC:03:70:64:EB:75:FA:4B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "gov-br.workers.dev",
+        "*.gov-br.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/O_4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:gov-br.workers.dev, DNS:*.gov-br.workers.dev",
+        "subjectKeyIdentifier": "keyid:07:63:f8:80:82:64:fb:21:5f:ae:b4:a5:4f:11:60:0b:e1:a9:20:f4"
+      }
+    },
+    "cert_index": 256243666,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x000/951",
+    "seen": 1787744334.582,
+    "submission_timestamp": 1781323974.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

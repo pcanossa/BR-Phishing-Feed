@@ -1,0 +1,52 @@
+{
+  "dominio": "www.itaurus.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 09:05:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.itaurus.app",
+        "aggregated": "/CN=www.itaurus.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "06DCC6C4F59D52A204400B1BDC9CEC43",
+      "not_before": 1781308800,
+      "not_after": 1789084799,
+      "fingerprint": "DF:BE:3D:70:8A:43:4A:D4:D7:85:C0:3F:6A:4A:B6:CA:D7:FB:80:33",
+      "sha1": "DF:BE:3D:70:8A:43:4A:D4:D7:85:C0:3F:6A:4A:B6:CA:D7:FB:80:33",
+      "sha256": "E0:66:CE:5D:69:07:AC:BA:E6:EF:5E:BA:B2:59:95:2F:1E:24:7D:87:CD:0F:52:84:77:22:DC:9A:4D:D4:71:1D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.itaurus.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.itaurus.app",
+        "subjectKeyIdentifier": "keyid:01:1c:32:f2:68:97:f4:d9:4d:8e:27:9a:7d:15:a8:16:16:bf:d4:67"
+      }
+    },
+    "cert_index": 256459320,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x001/794",
+    "seen": 1787745907.735,
+    "submission_timestamp": 1781330106.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

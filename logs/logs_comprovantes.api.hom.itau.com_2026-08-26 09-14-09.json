@@ -1,0 +1,52 @@
+{
+  "dominio": "comprovantes.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/26/26 09:14:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "comprovantes.api.hom.itau.com",
+        "aggregated": "/CN=comprovantes.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "055360D2004217A0B80479F33F90A4BA",
+      "not_before": 1786579200,
+      "not_after": 1803686399,
+      "fingerprint": "D5:3F:28:E0:62:2C:9D:19:CF:2C:CB:C4:4C:7C:73:BD:66:33:C1:1D",
+      "sha1": "D5:3F:28:E0:62:2C:9D:19:CF:2C:CB:C4:4C:7C:73:BD:66:33:C1:1D",
+      "sha256": "08:E1:34:32:A6:BE:44:FD:62:39:10:45:B1:90:75:74:87:4E:C9:96:E6:83:35:17:31:8B:54:87:96:A2:E0:D0",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "comprovantes.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:comprovantes.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:34:04:78:b3:79:79:7c:c0:be:51:f8:e0:83:de:81:2f:d8:0c:4f:bf",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 64382801,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=64382801&end=64382801",
+    "seen": 1787746444.301,
+    "submission_timestamp": 1786629573.403,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

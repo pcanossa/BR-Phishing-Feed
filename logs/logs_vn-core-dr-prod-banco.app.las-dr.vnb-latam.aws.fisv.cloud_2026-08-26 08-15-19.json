@@ -1,0 +1,57 @@
+{
+  "dominio": "vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/26/26 08:15:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud",
+        "L": "Milwaukee",
+        "O": "Fiserv, Inc.",
+        "ST": "Wisconsin",
+        "aggregated": "/C=US/CN=vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud/L=Milwaukee/O=Fiserv, Inc./ST=Wisconsin"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "04C4D7DBEC8B084724A9C69D0ACCE293",
+      "not_before": 1784160000,
+      "not_after": 1801353599,
+      "fingerprint": "D9:43:6C:26:53:AC:97:D4:74:ED:98:2A:A2:68:56:DA:D2:9E:D6:5F",
+      "sha1": "D9:43:6C:26:53:AC:97:D4:74:ED:98:2A:A2:68:56:DA:D2:9E:D6:5F",
+      "sha256": "81:F7:9E:72:12:5B:BC:4C:D6:A5:D3:B9:B8:1B:EE:F3:2F:AC:D6:9A:16:F2:B3:18:80:48:9F:74:F7:BA:F7:12",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud",
+        "*.vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud",
+        "vn-api-vnb.app.las-dr.vnb-latam.aws.fisv.cloud"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud, DNS:*.vn-core-dr-prod-banco.app.las-dr.vnb-latam.aws.fisv.cloud, DNS:vn-api-vnb.app.las-dr.vnb-latam.aws.fisv.cloud",
+        "subjectKeyIdentifier": "keyid:be:62:7b:33:c8:fb:7b:33:97:ba:8e:0f:43:3b:f9:70:c8:a0:87:6f"
+      }
+    },
+    "cert_index": 94084783,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x367/518",
+    "seen": 1787742916.238,
+    "submission_timestamp": 1784175585.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

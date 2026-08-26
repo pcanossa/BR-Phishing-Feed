@@ -1,0 +1,51 @@
+{
+  "dominio": "media.eu-west-1.prod.cpf-enrollment.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 09:13:28",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "media.eu-west-1.prod.cpf-enrollment.consumables.amazon.dev",
+        "aggregated": "/CN=media.eu-west-1.prod.cpf-enrollment.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "089F99F0F11AB021A681BD860B8295B8",
+      "not_before": 1787616000,
+      "not_after": 1804723199,
+      "fingerprint": "2C:2F:95:14:96:9A:40:5F:8A:17:8F:84:60:74:E9:75:59:B8:AD:28",
+      "sha1": "2C:2F:95:14:96:9A:40:5F:8A:17:8F:84:60:74:E9:75:59:B8:AD:28",
+      "sha256": "EA:A5:02:71:D3:87:C4:5E:05:30:2B:7D:AB:A7:7A:0B:C7:44:1E:7E:0C:57:ED:31:49:42:17:F5:B1:08:E0:89",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "media.eu-west-1.prod.cpf-enrollment.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:media.eu-west-1.prod.cpf-enrollment.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:a5:24:dc:d5:04:8a:b1:cd:29:51:80:b0:eb:d5:4f:41:fe:51:40:39"
+      }
+    },
+    "cert_index": 71247043,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=71247043&end=71247043",
+    "seen": 1787746404.412,
+    "submission_timestamp": 1787623150.857,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}
