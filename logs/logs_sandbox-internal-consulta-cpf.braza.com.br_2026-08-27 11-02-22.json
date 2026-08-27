@@ -1,0 +1,51 @@
+{
+  "dominio": "sandbox-internal-consulta-cpf.braza.com.br",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 11:02:22",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sandbox-internal-consulta-cpf.braza.com.br",
+        "aggregated": "/CN=sandbox-internal-consulta-cpf.braza.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "05B70EB55F65B24289AE06D03C8192BA",
+      "not_before": 1784592000,
+      "not_after": 1801699199,
+      "fingerprint": "A7:37:1E:66:E1:4A:BB:3B:FE:A1:7D:06:7D:A8:15:82:B9:A3:DB:79",
+      "sha1": "A7:37:1E:66:E1:4A:BB:3B:FE:A1:7D:06:7D:A8:15:82:B9:A3:DB:79",
+      "sha256": "73:A7:E7:27:CC:2F:B8:A5:D1:31:42:F3:B2:04:4E:A4:51:CA:E7:C6:5C:8F:09:5A:E2:D2:A7:ED:E7:98:76:3D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sandbox-internal-consulta-cpf.braza.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sandbox-internal-consulta-cpf.braza.com.br",
+        "subjectKeyIdentifier": "keyid:dd:e2:5d:63:ea:5b:86:e7:14:23:50:e0:1f:ba:e3:3c:6a:af:92:0b"
+      }
+    },
+    "cert_index": 110262928,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x430/714",
+    "seen": 1787839341.956,
+    "submission_timestamp": 1784592385.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

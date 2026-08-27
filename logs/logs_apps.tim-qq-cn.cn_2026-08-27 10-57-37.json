@@ -1,0 +1,56 @@
+{
+  "dominio": "apps.tim-qq-cn.cn",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/27/26 10:57:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cn.tim-qq-cn.cn",
+        "aggregated": "/CN=cn.tim-qq-cn.cn"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "05FF3FA949D76C9A82B5CF68AE7333DB84C6",
+      "not_before": 1779272799,
+      "not_after": 1787048798,
+      "fingerprint": "71:CE:2C:5C:71:EB:30:E6:78:30:09:CF:14:91:D4:75:CC:3D:18:45",
+      "sha1": "71:CE:2C:5C:71:EB:30:E6:78:30:09:CF:14:91:D4:75:CC:3D:18:45",
+      "sha256": "88:B8:39:32:B5:AE:F5:6E:90:D0:C0:5B:72:70:B9:8D:86:A1:67:C1:2A:18:A4:79:50:D4:BF:FA:10:7F:B2:06",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cn.tim-qq-cn.cn",
+        "apps.tim-qq-cn.cn",
+        "tim-qq-cn.cn",
+        "web.tim-qq-cn.cn",
+        "www.tim-qq-cn.cn",
+        "zh.tim-qq-cn.cn"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:apps.tim-qq-cn.cn, DNS:cn.tim-qq-cn.cn, DNS:tim-qq-cn.cn, DNS:web.tim-qq-cn.cn, DNS:www.tim-qq-cn.cn, DNS:zh.tim-qq-cn.cn",
+        "subjectKeyIdentifier": "keyid:9b:65:23:5c:a3:dd:77:d9:85:b4:05:d2:43:9f:b8:5f:d8:37:e0:5b"
+      }
+    },
+    "cert_index": 4415878528,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4415878528&end=4415878528",
+    "seen": 1787839057.76,
+    "submission_timestamp": 1779565911.771,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "prod-tarjeta-debito.ar.ua.la",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 11:02:12",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "prod-tarjeta-debito.ar.ua.la",
+        "aggregated": "/CN=prod-tarjeta-debito.ar.ua.la"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "RapidSSL TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=RapidSSL TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "056B88DFD5D9597AC1BD2D531CD6CFFC",
+      "not_before": 1784592000,
+      "not_after": 1801785599,
+      "fingerprint": "AF:36:87:0B:7D:A8:A4:ED:CB:29:0B:DB:0F:71:FA:D6:2B:0D:54:7A",
+      "sha1": "AF:36:87:0B:7D:A8:A4:ED:CB:29:0B:DB:0F:71:FA:D6:2B:0D:54:7A",
+      "sha256": "98:1E:40:14:11:F6:E4:4D:B6:8B:BC:95:7F:32:A6:E7:F2:AC:BF:FB:58:3F:AA:F6:F5:B9:A9:61:A4:4A:29:DB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "prod-tarjeta-debito.ar.ua.la",
+        "www.prod-tarjeta-debito.ar.ua.la"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.rapidssl.com, URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:0c:db:6c:82:49:0f:4a:67:0a:b8:14:ee:7a:c4:48:52:88:eb:56:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:prod-tarjeta-debito.ar.ua.la, DNS:www.prod-tarjeta-debito.ar.ua.la",
+        "subjectKeyIdentifier": "keyid:9e:3e:6c:c4:10:b6:cd:99:ff:cb:e7:9e:e8:27:c6:a2:48:7e:ad:7b"
+      }
+    },
+    "cert_index": 101405125,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x396/113",
+    "seen": 1787839332.8,
+    "submission_timestamp": 1784650030.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

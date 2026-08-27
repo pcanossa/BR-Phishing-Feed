@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.pl",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 10:12:18",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.pl",
+        "aggregated": "/CN=cpf.pl"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "06F4040B83CD816CEC3D91A139A578A2DA58",
+      "not_before": 1779038171,
+      "not_after": 1786814170,
+      "fingerprint": "4E:18:29:C1:79:CF:69:55:35:76:54:9F:2A:DA:45:D8:E7:73:15:1F",
+      "sha1": "4E:18:29:C1:79:CF:69:55:35:76:54:9F:2A:DA:45:D8:E7:73:15:1F",
+      "sha256": "92:A2:8D:EE:8E:98:8F:7A:77:6E:26:C4:D0:1D:CA:3A:2A:CA:99:99:8C:4C:F8:3B:F1:DD:42:6C:BA:42:4F:54",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.pl",
+        "www.cpf.pl"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.pl, DNS:www.cpf.pl",
+        "subjectKeyIdentifier": "keyid:68:ca:f2:77:67:15:7c:3f:c5:46:34:7d:bf:d1:56:fa:33:28:79:60",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695751805,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=695751805&end=695751805",
+    "seen": 1787836337.854,
+    "submission_timestamp": 1779041681.976,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

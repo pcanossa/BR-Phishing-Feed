@@ -1,0 +1,51 @@
+{
+  "dominio": "bancosantander.bethburnham.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/27/26 10:33:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "bancosantander.bethburnham.com",
+        "aggregated": "/CN=bancosantander.bethburnham.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "01C82D3C0D49E4F5062A60922D0D32EC",
+      "not_before": 1778803200,
+      "not_after": 1786665599,
+      "fingerprint": "2F:03:F3:10:27:4C:7B:EA:09:84:38:9C:5D:07:4C:F2:3B:D8:FE:5F",
+      "sha1": "2F:03:F3:10:27:4C:7B:EA:09:84:38:9C:5D:07:4C:F2:3B:D8:FE:5F",
+      "sha256": "F6:3B:46:C6:A5:B6:DD:44:69:1C:FF:F1:1A:F2:56:10:F5:5F:6B:34:8B:05:59:77:05:13:3F:94:32:01:9E:F3",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "bancosantander.bethburnham.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:bancosantander.bethburnham.com",
+        "subjectKeyIdentifier": "keyid:e0:36:cb:78:59:17:71:0a:81:49:6a:58:a2:e5:2d:49:c6:f1:c6:a6"
+      }
+    },
+    "cert_index": 4415695216,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4415695216&end=4415695216",
+    "seen": 1787837615.107,
+    "submission_timestamp": 1779565127.796,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

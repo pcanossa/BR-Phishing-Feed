@@ -1,0 +1,52 @@
+{
+  "dominio": "app.felipeclaro.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/27/26 10:42:30",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.felipeclaro.com",
+        "aggregated": "/CN=app.felipeclaro.com"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "45A690C8BB4C2B7E78F218370708770F",
+      "not_before": 1779408000,
+      "not_after": 1787270399,
+      "fingerprint": "2B:AB:72:82:20:7D:44:0A:66:7E:98:DB:9C:F6:AD:4D:3F:CF:A7:4D",
+      "sha1": "2B:AB:72:82:20:7D:44:0A:66:7E:98:DB:9C:F6:AD:4D:3F:CF:A7:4D",
+      "sha256": "8B:6B:66:1C:26:10:00:6D:33:E4:DA:41:AE:01:54:85:54:8D:39:58:F2:D2:DB:86:25:4C:5A:B1:BC:E5:41:16",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app.felipeclaro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.felipeclaro.com",
+        "subjectKeyIdentifier": "keyid:4d:72:77:f5:87:d6:20:e1:88:8b:71:bb:b5:5d:c2:d2:7b:fd:be:07",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 859622671,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=859622671&end=859622671",
+    "seen": 1787838150.873,
+    "submission_timestamp": 1779470516.667,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

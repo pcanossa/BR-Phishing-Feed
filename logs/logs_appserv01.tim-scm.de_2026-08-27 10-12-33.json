@@ -1,0 +1,52 @@
+{
+  "dominio": "appserv01.tim-scm.de",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/27/26 10:12:33",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "appserv01.tim-scm.de",
+        "aggregated": "/CN=appserv01.tim-scm.de"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "062D674B7EAAA80DC10139F24867CE8CC5AD",
+      "not_before": 1779038197,
+      "not_after": 1786814196,
+      "fingerprint": "7B:37:BB:C8:F2:6A:19:62:E5:6F:56:41:91:26:4C:5A:EF:5B:38:B4",
+      "sha1": "7B:37:BB:C8:F2:6A:19:62:E5:6F:56:41:91:26:4C:5A:EF:5B:38:B4",
+      "sha256": "22:CB:B5:E5:53:81:1D:EA:D0:99:A2:01:0D:90:66:1F:66:02:7A:25:6A:B9:A4:AC:BE:15:F4:CF:E2:75:FC:12",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "appserv01.tim-scm.de"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:appserv01.tim-scm.de",
+        "subjectKeyIdentifier": "keyid:4a:e9:06:c6:0a:a0:95:19:09:fe:9e:2b:74:06:e1:75:d5:24:7f:16",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 695754213,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=695754213&end=695754213",
+    "seen": 1787836351.906,
+    "submission_timestamp": 1779041707.276,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

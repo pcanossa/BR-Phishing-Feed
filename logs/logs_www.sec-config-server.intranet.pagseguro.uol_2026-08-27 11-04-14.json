@@ -1,0 +1,52 @@
+{
+  "dominio": "www.sec-config-server.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 11:04:14",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sec-config-server.intranet.pagseguro.uol",
+        "aggregated": "/CN=sec-config-server.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0FF95FA6B9D70B12617E39A665C7C2DF",
+      "not_before": 1784592000,
+      "not_after": 1801699199,
+      "fingerprint": "F8:9E:84:95:BF:82:31:38:EE:6B:2A:99:6C:63:05:6C:DE:A8:49:32",
+      "sha1": "F8:9E:84:95:BF:82:31:38:EE:6B:2A:99:6C:63:05:6C:DE:A8:49:32",
+      "sha256": "DA:4F:DB:87:E8:5B:DB:3A:82:DF:82:CF:45:3B:0A:89:94:4D:13:72:64:C5:FD:8B:D8:89:84:44:0F:9D:3F:AF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "sec-config-server.intranet.pagseguro.uol",
+        "www.sec-config-server.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sec-config-server.intranet.pagseguro.uol, DNS:www.sec-config-server.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:eb:7a:ce:32:9f:c2:64:ce:5e:57:41:f4:c7:61:1a:d3:31:c2:f9:1d"
+      }
+    },
+    "cert_index": 110279110,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x430/777",
+    "seen": 1787839453.952,
+    "submission_timestamp": 1784592933.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

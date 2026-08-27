@@ -1,0 +1,55 @@
+{
+  "dominio": "cpf-stg.prudential.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 10:49:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-stg.prudential.com",
+        "L": "Newark",
+        "O": "Prudential Financial, Inc.",
+        "ST": "New Jersey",
+        "aggregated": "/C=US/CN=cpf-stg.prudential.com/L=Newark/O=Prudential Financial, Inc./ST=New Jersey"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0F465F1A21312D5FC4AFF33A425A6BC0",
+      "not_before": 1784592000,
+      "not_after": 1801785599,
+      "fingerprint": "97:F9:33:0D:6E:25:23:C3:AD:AF:A6:56:11:17:46:41:A2:1C:19:0A",
+      "sha1": "97:F9:33:0D:6E:25:23:C3:AD:AF:A6:56:11:17:46:41:A2:1C:19:0A",
+      "sha256": "6E:2A:24:AA:FC:18:E3:B7:0C:67:3D:A9:12:D7:F7:84:9E:03:2E:6E:B9:61:D7:A6:0A:65:3B:7B:10:FB:4D:D2",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-stg.prudential.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-stg.prudential.com",
+        "subjectKeyIdentifier": "keyid:c6:67:b1:2b:d4:ab:0b:e9:f2:56:a4:f3:c7:3b:12:8c:bd:ee:ec:11"
+      }
+    },
+    "cert_index": 101296334,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x395/688",
+    "seen": 1787838542.809,
+    "submission_timestamp": 1784641991.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

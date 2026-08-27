@@ -1,0 +1,51 @@
+{
+  "dominio": "showroom-uber-production-ja3hd1lzj.fctl.app",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/27/26 10:19:02",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "showroom-uber-production-ja3hd1lzj.fctl.app",
+        "aggregated": "/CN=showroom-uber-production-ja3hd1lzj.fctl.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0F720B83595697AF55ECBA28D861869E",
+      "not_before": 1784505600,
+      "not_after": 1801612799,
+      "fingerprint": "9B:14:F4:01:D3:06:98:00:40:58:8E:C9:48:0A:18:DB:B6:78:F8:F9",
+      "sha1": "9B:14:F4:01:D3:06:98:00:40:58:8E:C9:48:0A:18:DB:B6:78:F8:F9",
+      "sha256": "5A:DC:6D:5D:9A:31:31:C2:90:84:BA:6E:EC:00:87:A8:D2:9F:7E:81:2E:42:B7:BB:C7:AC:0D:2F:2D:C3:8C:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "showroom-uber-production-ja3hd1lzj.fctl.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:showroom-uber-production-ja3hd1lzj.fctl.app",
+        "subjectKeyIdentifier": "keyid:27:9c:24:4d:60:37:fe:38:d7:f1:c1:90:ac:16:7a:32:43:90:66:26"
+      }
+    },
+    "cert_index": 109898019,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x429/289",
+    "seen": 1787836740.832,
+    "submission_timestamp": 1784572340.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

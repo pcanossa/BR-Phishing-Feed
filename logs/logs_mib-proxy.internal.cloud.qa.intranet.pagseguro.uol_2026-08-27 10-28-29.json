@@ -1,0 +1,53 @@
+{
+  "dominio": "mib-proxy.internal.cloud.qa.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 10:28:29",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mib-proxy.internal.cloud.qa.intranet.pagseguro.uol",
+        "aggregated": "/CN=mib-proxy.internal.cloud.qa.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "06DCA2B74C1D79EF4DB6F383A381A0FA",
+      "not_before": 1784505600,
+      "not_after": 1801612799,
+      "fingerprint": "35:61:29:03:80:C8:72:D6:0F:78:89:1E:1E:42:16:26:43:95:B4:35",
+      "sha1": "35:61:29:03:80:C8:72:D6:0F:78:89:1E:1E:42:16:26:43:95:B4:35",
+      "sha256": "2F:2D:68:F3:18:4B:D1:7C:02:36:4C:EC:26:65:83:68:64:DA:E8:9B:6F:B6:BD:FF:08:D6:05:36:17:0F:4F:B4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mib-proxy.internal.cloud.qa.intranet.pagseguro.uol",
+        "www.mib-proxy.internal.cloud.qa.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mib-proxy.internal.cloud.qa.intranet.pagseguro.uol, DNS:www.mib-proxy.internal.cloud.qa.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:e0:57:c3:35:87:75:65:01:01:c2:06:11:dc:b6:56:59:b8:ba:4d:32",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 107238758,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=107238758&end=107238758",
+    "seen": 1787837309.349,
+    "submission_timestamp": 1784524209.316,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}
