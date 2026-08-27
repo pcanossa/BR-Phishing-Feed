@@ -1,0 +1,60 @@
+{
+  "dominio": "cpf-ase-v3-p001.p.azure-mobile.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/26/26 20:50:08",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.cpf-ase-v3-p001.p.azurewebsites.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.cpf-ase-v3-p001.p.azurewebsites.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "4300D7FD4A6B6D549C0BE270F3000000D7FD4A",
+      "not_before": 1787784308,
+      "not_after": 1803336308,
+      "fingerprint": "08:73:B7:A3:31:55:0F:AA:5F:A6:2E:EE:E5:ED:E0:07:A9:36:51:DE",
+      "sha1": "08:73:B7:A3:31:55:0F:AA:5F:A6:2E:EE:E5:ED:E0:07:A9:36:51:DE",
+      "sha256": "21:1C:73:7A:F7:6B:61:08:44:D1:B1:E3:21:29:D5:27:5D:50:05:28:FC:DE:8B:BD:F1:88:96:7A:BB:A8:65:CF",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-ase-v3-p001.p.azurewebsites.net",
+        "*.scm.cpf-ase-v3-p001.p.azurewebsites.net",
+        "*.cpf-ase-v3-p001.p.azure-mobile.net",
+        "*.scm.cpf-ase-v3-p001.p.azure-mobile.net",
+        "cpf-ase-v3-p001.scm.p.azurewebsites.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-ase-v3-p001.p.azurewebsites.net, DNS:*.scm.cpf-ase-v3-p001.p.azurewebsites.net, DNS:*.cpf-ase-v3-p001.p.azure-mobile.net, DNS:*.scm.cpf-ase-v3-p001.p.azure-mobile.net, DNS:cpf-ase-v3-p001.scm.p.azurewebsites.net",
+        "subjectKeyIdentifier": "keyid:bc:59:47:53:84:2f:43:92:d5:bf:54:e3:e4:fd:00:1b:a8:31:27:8c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 74595373,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=74595373&end=74595373",
+    "seen": 1787788208.571,
+    "submission_timestamp": 1787788205.831,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

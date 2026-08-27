@@ -1,0 +1,53 @@
+{
+  "dominio": "api.clarotv-preprod.p5vs.p1.openshiftapps.com",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/26/26 20:44:15",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.clarotv-preprod.p5vs.p1.openshiftapps.com",
+        "aggregated": "/CN=api.clarotv-preprod.p5vs.p1.openshiftapps.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "061F491107986B49AA3A0FC57AE0AAE8EEEE",
+      "not_before": 1781526740,
+      "not_after": 1789302739,
+      "fingerprint": "66:72:A6:78:51:1E:10:C9:4F:35:27:C3:B0:64:0E:57:5D:D0:38:F4",
+      "sha1": "66:72:A6:78:51:1E:10:C9:4F:35:27:C3:B0:64:0E:57:5D:D0:38:F4",
+      "sha256": "78:B6:B7:C3:11:99:0C:7F:99:08:F0:81:25:C0:11:BD:0E:94:18:E3:AF:AC:2E:14:9B:F0:D5:ED:FD:D4:7C:63",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.clarotv-preprod.p5vs.p1.openshiftapps.com",
+        "*.apps.clarotv-preprod.p5vs.p1.openshiftapps.com",
+        "rh-api.clarotv-preprod.p5vs.p1.openshiftapps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.apps.clarotv-preprod.p5vs.p1.openshiftapps.com, DNS:api.clarotv-preprod.p5vs.p1.openshiftapps.com, DNS:rh-api.clarotv-preprod.p5vs.p1.openshiftapps.com",
+        "subjectKeyIdentifier": "keyid:08:34:bd:0c:56:be:68:2c:55:cb:03:00:aa:62:4b:fd:27:f2:0d:8b"
+      }
+    },
+    "cert_index": 262179108,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x024/137",
+    "seen": 1787787855.195,
+    "submission_timestamp": 1781530250.945,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

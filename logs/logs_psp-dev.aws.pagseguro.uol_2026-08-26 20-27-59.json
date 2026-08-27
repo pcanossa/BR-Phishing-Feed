@@ -1,0 +1,53 @@
+{
+  "dominio": "psp-dev.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/26/26 20:27:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.psp-dev.aws.pagseguro.uol",
+        "aggregated": "/CN=*.psp-dev.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "076044E6E875984C25F35B12691EE199",
+      "not_before": 1784419200,
+      "not_after": 1801526399,
+      "fingerprint": "FB:24:76:9E:AA:C6:F3:4C:DA:D7:84:6C:99:74:3D:40:1B:0E:4B:DB",
+      "sha1": "FB:24:76:9E:AA:C6:F3:4C:DA:D7:84:6C:99:74:3D:40:1B:0E:4B:DB",
+      "sha256": "95:67:EC:1C:96:3E:C2:22:F2:A9:AD:95:03:83:4B:32:CC:2E:80:74:04:88:21:39:C3:36:B3:3B:94:33:53:E7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.psp-dev.aws.pagseguro.uol",
+        "*.external.psp-dev.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.psp-dev.aws.pagseguro.uol, DNS:*.external.psp-dev.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:ee:f8:02:0d:65:16:b0:a5:7f:a1:04:f9:e3:de:e7:d3:26:3f:97:cc",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 106048424,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=106048424&end=106048424",
+    "seen": 1787786879.071,
+    "submission_timestamp": 1784457596.836,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

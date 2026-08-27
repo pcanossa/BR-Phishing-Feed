@@ -1,0 +1,52 @@
+{
+  "dominio": "testing.tarjeta-debito-virtual.online",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/26/26 20:16:17",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "testing.tarjeta-debito-virtual.online",
+        "aggregated": "/CN=testing.tarjeta-debito-virtual.online"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "07A132EC173DFA2F5C146C1A48840112",
+      "not_before": 1781481600,
+      "not_after": 1789257599,
+      "fingerprint": "AA:40:6A:E0:1C:B2:5E:C0:DE:AD:AA:2D:A0:99:B3:EA:75:39:7A:D1",
+      "sha1": "AA:40:6A:E0:1C:B2:5E:C0:DE:AD:AA:2D:A0:99:B3:EA:75:39:7A:D1",
+      "sha256": "F1:D0:14:0F:53:8B:A7:51:4E:B8:C1:5A:4B:BF:51:D9:FE:82:25:49:AA:88:D0:3B:AF:C1:2C:13:6B:91:6B:FE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "testing.tarjeta-debito-virtual.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:testing.tarjeta-debito-virtual.online",
+        "subjectKeyIdentifier": "keyid:ad:e7:77:1e:9b:5c:b2:77:eb:c5:ff:8c:ce:f2:5e:b4:ec:88:22:7b"
+      }
+    },
+    "cert_index": 277643171,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x084/543",
+    "seen": 1787786178.068,
+    "submission_timestamp": 1781499636.202,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
