@@ -1,0 +1,52 @@
+{
+  "dominio": "external-customer.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 11:07:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "external-customer.intranet.pagseguro.uol",
+        "aggregated": "/CN=external-customer.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0743BD0027561432ED5F7288D022B37A",
+      "not_before": 1786924800,
+      "not_after": 1804031999,
+      "fingerprint": "9C:D5:B8:98:52:6A:CD:AF:C7:B9:21:B0:D6:B6:4E:83:CC:7D:37:30",
+      "sha1": "9C:D5:B8:98:52:6A:CD:AF:C7:B9:21:B0:D6:B6:4E:83:CC:7D:37:30",
+      "sha256": "D1:2B:46:F2:EC:4A:C0:D8:F4:97:E2:07:0E:76:5C:B3:31:44:3B:F8:45:72:5A:07:45:F0:59:B2:EA:3F:FE:AE",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "external-customer.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:external-customer.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:d3:be:73:6f:e0:0e:82:18:9b:92:fb:04:04:8c:39:bd:36:a5:8e:65",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 70676990,
+    "cert_link": "https://wyvern.ct.digicert.com/2027h1/ct/v1/get-entries?start=70676990&end=70676990",
+    "seen": 1787839661.766,
+    "submission_timestamp": 1786925921.516,
+    "source": {
+      "name": "DigiCert 'Wyvern2027h1'",
+      "url": "https://wyvern.ct.digicert.com/2027h1"
+    }
+  }
+}

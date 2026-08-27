@@ -1,0 +1,55 @@
+{
+  "dominio": "www.pagoseguro.caixabank.com",
+  "marcas_encontradas": [
+    "caixa"
+  ],
+  "timestamp": "08/27/26 12:10:58",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "ES",
+        "CN": "pagoseguro.caixabank.com",
+        "O": "CaixaBank SA",
+        "ST": "Valencia",
+        "aggregated": "/C=ES/CN=pagoseguro.caixabank.com/O=CaixaBank SA/ST=Valencia"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA OV R36/O=Sectigo Limited"
+      },
+      "serial_number": "1E9C947F7C16BFE2008E4FECAF2DADA6",
+      "not_before": 1784592000,
+      "not_after": 1801785599,
+      "fingerprint": "84:53:49:94:C1:4C:51:94:44:49:91:04:F0:2D:E5:A0:83:F4:A2:44",
+      "sha1": "84:53:49:94:C1:4C:51:94:44:49:91:04:F0:2D:E5:A0:83:F4:A2:44",
+      "sha256": "08:6C:D9:64:41:4F:BF:AB:4B:B9:A5:17:71:BB:44:83:C3:35:DA:F7:DC:78:FD:24:43:77:B7:86:79:E0:1E:38",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "pagoseguro.caixabank.com",
+        "www.pagoseguro.caixabank.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:e3:66:74:bb:70:68:8d:2c:5d:4e:0e:a6:4a:8f:9b:37:22:9c:82:92",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.1.3.4\nPolicy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagoseguro.caixabank.com, DNS:www.pagoseguro.caixabank.com",
+        "subjectKeyIdentifier": "keyid:6b:c4:66:81:48:9e:25:cd:28:c4:cb:5a:ef:44:07:8f:93:1f:3a:9f"
+      }
+    },
+    "cert_index": 110853681,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x433/022",
+    "seen": 1787843458.285,
+    "submission_timestamp": 1784624954.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

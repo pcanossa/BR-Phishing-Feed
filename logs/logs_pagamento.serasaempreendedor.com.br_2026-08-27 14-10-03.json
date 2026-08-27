@@ -1,0 +1,53 @@
+{
+  "dominio": "pagamento.serasaempreendedor.com.br",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/27/26 14:10:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "imperva.com",
+        "aggregated": "/CN=imperva.com"
+      },
+      "issuer": {
+        "C": "BE",
+        "CN": "GlobalSign Atlas R46 DV TLS CA 2026 Q2",
+        "O": "GlobalSign nv-sa",
+        "aggregated": "/C=BE/CN=GlobalSign Atlas R46 DV TLS CA 2026 Q2/O=GlobalSign nv-sa"
+      },
+      "serial_number": "01E7EA1D4C785F888C74261646D30BCB",
+      "not_before": 1780190371,
+      "not_after": 1780276771,
+      "fingerprint": "78:2F:E1:E1:92:58:C6:07:83:ED:00:1C:D0:F2:BA:70:21:4E:F2:03",
+      "sha1": "78:2F:E1:E1:92:58:C6:07:83:ED:00:1C:D0:F2:BA:70:21:4E:F2:03",
+      "sha256": "81:57:4B:9F:E8:30:21:20:71:B6:A9:64:02:BE:4F:12:B2:C1:8D:0E:B8:BF:8A:65:F4:1E:A1:A3:B2:84:68:97",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "imperva.com",
+        "pagamento.serasaempreendedor.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.globalsign.com/ca/gsatlasr46dvtlsca2026q2, URI:http://secure.globalsign.com/cacert/gsatlasr46dvtlsca2026q2.crt",
+        "authorityKeyIdentifier": "keyid:79:1f:43:e7:5e:87:ce:3e:d7:ac:d7:44:55:60:17:4a:ef:e5:08:45",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.4146.10.1.3\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:pagamento.serasaempreendedor.com.br, DNS:imperva.com",
+        "subjectKeyIdentifier": "keyid:6f:71:cc:b5:d1:c6:60:be:af:59:c4:d3:cd:ed:bb:10:71:14:f2:5d",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 2786929034,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2026h1/ct/v1/get-entries?start=2786929034&end=2786929034",
+    "seen": 1787850604.161,
+    "submission_timestamp": 1780190374.542,
+    "source": {
+      "name": "Google 'Argon 2026H1' log",
+      "url": "https://ct.googleapis.com/logs/us1/argon2026h1"
+    }
+  }
+}

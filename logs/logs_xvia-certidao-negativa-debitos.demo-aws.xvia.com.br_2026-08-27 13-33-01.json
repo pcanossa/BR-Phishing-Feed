@@ -1,0 +1,51 @@
+{
+  "dominio": "xvia-certidao-negativa-debitos.demo-aws.xvia.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 13:33:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "xvia-certidao-negativa-debitos.demo-aws.xvia.com.br",
+        "aggregated": "/CN=xvia-certidao-negativa-debitos.demo-aws.xvia.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YR1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YR1/O=Let's Encrypt"
+      },
+      "serial_number": "05F6361A3B4BDF8F6067157306993E66515F",
+      "not_before": 1781613200,
+      "not_after": 1789389199,
+      "fingerprint": "2E:91:C3:45:41:06:94:E5:8D:F0:65:9E:33:38:87:DB:4E:BA:7F:77",
+      "sha1": "2E:91:C3:45:41:06:94:E5:8D:F0:65:9E:33:38:87:DB:4E:BA:7F:77",
+      "sha256": "45:22:B4:0F:2C:2D:0C:EF:DD:E7:C4:4B:4B:4F:53:E5:35:E9:DE:ED:89:38:D1:A4:3D:AF:1B:98:3B:06:57:E4",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "xvia-certidao-negativa-debitos.demo-aws.xvia.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://yr1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:1f:2f:35:be:46:14:82:cd:40:b1:ae:79:2c:55:78:fa:f7:d4:68:fb",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:xvia-certidao-negativa-debitos.demo-aws.xvia.com.br",
+        "subjectKeyIdentifier": "keyid:02:f7:ee:8a:a2:6b:cd:5d:c5:65:e6:0d:15:6e:ae:29:1d:9b:92:39"
+      }
+    },
+    "cert_index": 264681709,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x033/912",
+    "seen": 1787848381.126,
+    "submission_timestamp": 1781616711.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

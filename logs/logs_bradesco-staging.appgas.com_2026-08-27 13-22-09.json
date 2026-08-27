@@ -1,0 +1,53 @@
+{
+  "dominio": "bradesco-staging.appgas.com",
+  "marcas_encontradas": [
+    "bradesco"
+  ],
+  "timestamp": "08/27/26 13:22:09",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bradesco-staging.appgas.com",
+        "aggregated": "/CN=*.bradesco-staging.appgas.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E6FEEBB7CFC05675B82E10E36780505",
+      "not_before": 1781740800,
+      "not_after": 1798847999,
+      "fingerprint": "2D:75:FB:C2:DC:E5:FA:79:98:40:38:0D:88:AB:BE:06:82:76:86:88",
+      "sha1": "2D:75:FB:C2:DC:E5:FA:79:98:40:38:0D:88:AB:BE:06:82:76:86:88",
+      "sha256": "03:89:AF:9A:AD:2A:B3:46:A4:39:44:AE:3F:B3:4F:4D:34:82:37:9C:39:54:95:26:E1:BB:C6:B6:4B:87:62:23",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bradesco-staging.appgas.com",
+        "bradesco-staging.appgas.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bradesco-staging.appgas.com, DNS:bradesco-staging.appgas.com",
+        "subjectKeyIdentifier": "keyid:d4:a4:d0:f7:c6:3c:7a:27:a7:45:f9:2d:72:37:97:06:1f:82:38:9f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 33410533,
+    "cert_link": "https://ct.googleapis.com/logs/us1/argon2027h1/ct/v1/get-entries?start=33410533&end=33410533",
+    "seen": 1787847729.111,
+    "submission_timestamp": 1781789721.627,
+    "source": {
+      "name": "Google 'Argon2027h1'",
+      "url": "https://ct.googleapis.com/logs/us1/argon2027h1"
+    }
+  }
+}

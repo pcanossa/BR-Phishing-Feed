@@ -1,0 +1,52 @@
+{
+  "dominio": "dev-cpf-info.pg.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 13:41:59",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev-cpf-info.pg.com",
+        "aggregated": "/CN=dev-cpf-info.pg.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0211E743906B1F7FBEDC89C2675495E4",
+      "not_before": 1781568000,
+      "not_after": 1797465599,
+      "fingerprint": "03:56:64:61:2C:F8:28:72:0D:1B:36:90:27:64:64:A7:FD:B2:10:73",
+      "sha1": "03:56:64:61:2C:F8:28:72:0D:1B:36:90:27:64:64:A7:FD:B2:10:73",
+      "sha256": "74:60:91:17:98:2F:4A:01:52:38:EB:BF:43:E5:D3:7F:A5:16:FA:6F:8C:94:C2:32:B2:05:DA:64:EA:B9:B9:DC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "dev-cpf-info.pg.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:dev-cpf-info.pg.com",
+        "subjectKeyIdentifier": "keyid:17:c8:eb:57:5b:b7:bc:bd:e3:19:f3:2a:2b:2c:eb:f0:e3:ba:5b:7b"
+      }
+    },
+    "cert_index": 280603259,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x096/106",
+    "seen": 1787848917.475,
+    "submission_timestamp": 1781603306.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

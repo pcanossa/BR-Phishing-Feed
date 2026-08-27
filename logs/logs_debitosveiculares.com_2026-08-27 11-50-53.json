@@ -1,0 +1,52 @@
+{
+  "dominio": "debitosveiculares.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 11:50:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitosveiculares.com",
+        "aggregated": "/CN=debitosveiculares.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E1399A080272360E5C9235CD159C1A2",
+      "not_before": 1784678400,
+      "not_after": 1801785599,
+      "fingerprint": "79:EC:B9:87:EA:11:91:29:76:B7:6A:8B:AF:88:C4:6D:CC:ED:FB:8D",
+      "sha1": "79:EC:B9:87:EA:11:91:29:76:B7:6A:8B:AF:88:C4:6D:CC:ED:FB:8D",
+      "sha256": "0D:3B:10:48:6F:FC:DE:7C:9D:1A:40:60:2F:FB:D1:F7:BE:59:E1:69:D7:F6:F7:36:6B:4B:A9:34:8F:EF:DD:00",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitosveiculares.com",
+        "*.debitosveiculares.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitosveiculares.com, DNS:*.debitosveiculares.com",
+        "subjectKeyIdentifier": "keyid:4e:1b:ba:26:f1:f0:d3:92:b0:99:10:26:ab:ad:7a:bb:27:56:2c:22"
+      }
+    },
+    "cert_index": 101805754,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x397/678",
+    "seen": 1787842254.032,
+    "submission_timestamp": 1784679230.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dominio": "debito-despachante.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 11:27:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debito-despachante.com",
+        "aggregated": "/CN=debito-despachante.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "063ACEF36D3DEB9776A88DACCA8F337E",
+      "not_before": 1779408000,
+      "not_after": 1787247496,
+      "fingerprint": "79:A5:8A:75:B0:4B:2D:20:BF:DB:40:E6:97:E6:CD:D2:A4:98:35:66",
+      "sha1": "79:A5:8A:75:B0:4B:2D:20:BF:DB:40:E6:97:E6:CD:D2:A4:98:35:66",
+      "sha256": "92:DC:88:D4:AE:06:39:6C:B1:19:71:6D:D2:BE:55:D9:60:AA:DC:3C:00:00:45:2A:14:2E:D9:F0:5A:3A:B4:95",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debito-despachante.com",
+        "*.debito-despachante.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debito-despachante.com, DNS:*.debito-despachante.com",
+        "subjectKeyIdentifier": "keyid:68:dd:d5:f5:c1:90:d2:d1:e9:c0:8b:7c:2c:9e:15:b6:61:09:9d:0b",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 859831968,
+    "cert_link": "https://tiger2026h2.ct.sectigo.com/ct/v1/get-entries?start=859831968&end=859831968",
+    "seen": 1787840876.073,
+    "submission_timestamp": 1779471739.631,
+    "source": {
+      "name": "Sectigo 'Tiger2026h2'",
+      "url": "https://tiger2026h2.ct.sectigo.com"
+    }
+  }
+}

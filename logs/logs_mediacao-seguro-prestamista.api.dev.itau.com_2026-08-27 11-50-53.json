@@ -1,0 +1,51 @@
+{
+  "dominio": "mediacao-seguro-prestamista.api.dev.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/27/26 11:50:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mediacao-seguro-prestamista.api.dev.itau.com",
+        "aggregated": "/CN=mediacao-seguro-prestamista.api.dev.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E92DF8490B059BC62B8AA64DB45B0BD",
+      "not_before": 1784678400,
+      "not_after": 1801785599,
+      "fingerprint": "E6:E3:49:59:1A:E9:D5:08:91:37:C4:87:13:9E:2A:2B:AB:CA:96:16",
+      "sha1": "E6:E3:49:59:1A:E9:D5:08:91:37:C4:87:13:9E:2A:2B:AB:CA:96:16",
+      "sha256": "6D:EC:43:38:4D:F1:56:D2:C3:39:E1:3F:28:64:15:0F:69:E1:D1:F3:D3:0B:CE:B4:88:E7:F0:00:C1:18:29:5A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mediacao-seguro-prestamista.api.dev.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mediacao-seguro-prestamista.api.dev.itau.com",
+        "subjectKeyIdentifier": "keyid:b9:27:15:35:4b:43:48:00:a7:25:f6:2d:35:ed:14:ac:3d:7e:35:37"
+      }
+    },
+    "cert_index": 101805798,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x397/678",
+    "seen": 1787842254.039,
+    "submission_timestamp": 1784679232.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

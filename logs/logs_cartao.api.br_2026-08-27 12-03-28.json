@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.api.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/27/26 12:03:28",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.api.br",
+        "aggregated": "/CN=cartao.api.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "04B9F052E088F716D120FFDD3ABAD81D",
+      "not_before": 1779567233,
+      "not_after": 1787343730,
+      "fingerprint": "BB:A9:F0:8A:B3:D6:23:26:3E:AE:16:93:E4:97:D8:C3:98:33:10:07",
+      "sha1": "BB:A9:F0:8A:B3:D6:23:26:3E:AE:16:93:E4:97:D8:C3:98:33:10:07",
+      "sha256": "CE:21:27:DE:22:8C:11:38:B4:A9:04:F9:F1:E2:B6:E7:BF:17:2B:28:C2:B5:FC:91:C2:40:C2:64:CA:49:92:08",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.api.br",
+        "*.cartao.api.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cartao.api.br, DNS:*.cartao.api.br",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4416328990,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4416328990&end=4416328990",
+    "seen": 1787843007.322,
+    "submission_timestamp": 1779567834.792,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "security-questionnaire-app.platform-core.sedexconnect.com",
+  "marcas_encontradas": [
+    "sedex"
+  ],
+  "timestamp": "08/27/26 13:51:34",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "security-questionnaire-app.platform-core.sedexconnect.com",
+        "aggregated": "/CN=security-questionnaire-app.platform-core.sedexconnect.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0C174C40EEA8CEEBB400B75A340DF3E3",
+      "not_before": 1784505600,
+      "not_after": 1801612799,
+      "fingerprint": "9D:50:28:D1:22:E6:7C:9E:89:39:5C:20:BC:C5:B7:BE:39:78:14:C1",
+      "sha1": "9D:50:28:D1:22:E6:7C:9E:89:39:5C:20:BC:C5:B7:BE:39:78:14:C1",
+      "sha256": "2F:22:25:19:2E:12:4A:5D:9E:A7:2B:93:E2:0F:19:71:3F:CD:B5:E2:08:42:A6:BE:A4:47:7B:FE:46:0A:17:64",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "security-questionnaire-app.platform-core.sedexconnect.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:security-questionnaire-app.platform-core.sedexconnect.com",
+        "subjectKeyIdentifier": "keyid:eb:58:8f:6f:51:15:7e:a6:f0:9e:d0:ae:dd:34:6f:83:46:26:03:f3"
+      }
+    },
+    "cert_index": 108804677,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=108804677&end=108804677",
+    "seen": 1787849493.193,
+    "submission_timestamp": 1784592981.949,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

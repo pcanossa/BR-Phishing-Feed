@@ -1,0 +1,53 @@
+{
+  "dominio": "pagseguro-magic-transit.workers.dev",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 17:00:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "pagseguro-magic-transit.workers.dev",
+        "aggregated": "/CN=pagseguro-magic-transit.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "F298E0B22EF7C41E13F67D5A6C8DC9F1",
+      "not_before": 1779074596,
+      "not_after": 1786843967,
+      "fingerprint": "C5:A3:B3:D4:CB:CB:E1:14:A2:BD:09:86:FC:AA:28:28:25:5E:ED:7B",
+      "sha1": "C5:A3:B3:D4:CB:CB:E1:14:A2:BD:09:86:FC:AA:28:28:25:5E:ED:7B",
+      "sha256": "7F:2F:5C:5D:B9:26:90:12:31:FF:06:A4:B0:AB:3A:CA:2F:24:06:25:04:F4:A3:B2:2C:0D:FE:DE:55:06:94:CF",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "pagseguro-magic-transit.workers.dev",
+        "*.pagseguro-magic-transit.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/8pg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:pagseguro-magic-transit.workers.dev, DNS:*.pagseguro-magic-transit.workers.dev",
+        "subjectKeyIdentifier": "keyid:d7:8c:bc:29:a2:72:2a:2c:2b:e8:17:a2:dd:ef:58:69:44:5e:58:12",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 699734620,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=699734620&end=699734620",
+    "seen": 1787860818.978,
+    "submission_timestamp": 1779078196.61,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

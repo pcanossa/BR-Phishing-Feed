@@ -1,0 +1,51 @@
+{
+  "dominio": "app-test-euw1.combidaserasa.online",
+  "marcas_encontradas": [
+    "serasa"
+  ],
+  "timestamp": "08/27/26 11:24:40",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-test-euw1.combidaserasa.online",
+        "aggregated": "/CN=app-test-euw1.combidaserasa.online"
+      },
+      "issuer": {
+        "C": "AT",
+        "CN": "ZeroSSL ECC DV SSL CA 2",
+        "O": "ZeroSSL GmbH",
+        "aggregated": "/C=AT/CN=ZeroSSL ECC DV SSL CA 2/O=ZeroSSL GmbH"
+      },
+      "serial_number": "0C384853F99B69D17F45A1B4E4E53029",
+      "not_before": 1779494400,
+      "not_after": 1787356799,
+      "fingerprint": "CD:A2:0D:C8:2A:37:EB:55:AB:B7:99:BB:F6:02:FD:AE:5A:B3:18:50",
+      "sha1": "CD:A2:0D:C8:2A:37:EB:55:AB:B7:99:BB:F6:02:FD:AE:5A:B3:18:50",
+      "sha256": "B1:AE:FE:6A:6D:1B:EF:0C:5C:34:62:90:52:83:B7:E4:6E:53:74:12:8D:ED:5F:7F:12:F3:BB:B4:05:03:9B:DD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-test-euw1.combidaserasa.online"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/ZeroSSLECCDVSSLCA2.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:94:45:9f:da:51:47:71:d5:73:ae:ac:1d:ab:08:72:12:6d:ad:7c:62",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-test-euw1.combidaserasa.online",
+        "subjectKeyIdentifier": "keyid:eb:d3:d7:21:27:04:28:d5:a5:98:e6:59:6f:2b:c8:de:47:68:e8:05"
+      }
+    },
+    "cert_index": 4416052921,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4416052921&end=4416052921",
+    "seen": 1787840678.881,
+    "submission_timestamp": 1779566655.595,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

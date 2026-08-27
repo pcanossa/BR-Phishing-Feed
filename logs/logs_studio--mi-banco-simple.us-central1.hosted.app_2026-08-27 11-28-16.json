@@ -1,0 +1,53 @@
+{
+  "dominio": "studio--mi-banco-simple.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "banco"
+  ],
+  "timestamp": "08/27/26 11:28:16",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--mi-banco-simple.us-central1.hosted.app",
+        "aggregated": "/CN=studio--mi-banco-simple.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "42B3800034720CD609E574494ECA1BEF",
+      "not_before": 1779385499,
+      "not_after": 1787164855,
+      "fingerprint": "AF:43:52:82:6A:48:02:B5:EF:5B:B6:76:33:CF:EB:E5:81:82:94:2E",
+      "sha1": "AF:43:52:82:6A:48:02:B5:EF:5B:B6:76:33:CF:EB:E5:81:82:94:2E",
+      "sha256": "71:2A:14:B6:23:DE:FD:66:91:A8:28:2C:4F:A2:77:67:55:74:0E:BA:8A:E3:56:2E:DB:E7:18:1A:E4:0C:22:69",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--mi-banco-simple.us-central1.hosted.app",
+        "*.studio--mi-banco-simple.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/QrM, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--mi-banco-simple.us-central1.hosted.app, DNS:*.studio--mi-banco-simple.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:4f:52:42:d9:7e:49:b4:58:8c:65:15:be:5f:46:aa:10:ac:3e:c6:a7",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 720234309,
+    "cert_link": "https://elephant2026h2.ct.sectigo.com/ct/v1/get-entries?start=720234309&end=720234309",
+    "seen": 1787840894.78,
+    "submission_timestamp": 1779389100.495,
+    "source": {
+      "name": "Sectigo 'Elephant2026h2'",
+      "url": "https://elephant2026h2.ct.sectigo.com"
+    }
+  }
+}

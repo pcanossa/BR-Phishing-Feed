@@ -1,0 +1,52 @@
+{
+  "dominio": "meudebitoseusite11.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 15:08:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "meudebitoseusite11.com",
+        "aggregated": "/CN=meudebitoseusite11.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "AAEECFBE25EA098D",
+      "not_before": 1783469830,
+      "not_after": 1800577030,
+      "fingerprint": "26:31:EB:A4:90:19:CF:49:DE:B5:DD:8D:6A:99:2A:8D:46:CD:E8:A9",
+      "sha1": "26:31:EB:A4:90:19:CF:49:DE:B5:DD:8D:6A:99:2A:8D:46:CD:E8:A9",
+      "sha256": "82:EB:AA:06:DE:F3:D5:12:04:50:23:04:DE:5C:4E:5F:20:05:FB:08:E1:A2:B8:0C:23:E8:05:00:96:7A:A8:C7",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "meudebitoseusite11.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:meudebitoseusite11.com",
+        "subjectKeyIdentifier": "keyid:43:29:3c:7d:a2:c0:0c:0c:8a:a7:46:2d:f5:18:32:76:ee:3d:ce:84",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 129509537,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=129509537&end=129509537",
+    "seen": 1787854082.817,
+    "submission_timestamp": 1783469831.682,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

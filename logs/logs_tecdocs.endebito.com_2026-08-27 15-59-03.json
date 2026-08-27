@@ -1,0 +1,51 @@
+{
+  "dominio": "tecdocs.endebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 15:59:03",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "tecdocs.endebito.com",
+        "aggregated": "/CN=tecdocs.endebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R13",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R13/O=Let's Encrypt"
+      },
+      "serial_number": "0676DF2480C9DDD95A60D472F64BB9951FD8",
+      "not_before": 1779571739,
+      "not_after": 1787347738,
+      "fingerprint": "E6:9A:D5:A2:9E:BD:2B:7B:9A:3B:E6:D5:A4:69:3E:2A:3E:B4:61:90",
+      "sha1": "E6:9A:D5:A2:9E:BD:2B:7B:9A:3B:E6:D5:A4:69:3E:2A:3E:B4:61:90",
+      "sha256": "70:FE:A5:89:B6:35:4F:0A:22:ED:9C:F6:10:F4:81:AE:2A:E0:CC:5E:46:05:1A:D0:ED:18:68:92:74:5C:01:B8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "tecdocs.endebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r13.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:e7:ab:9f:0f:2c:33:a0:53:d3:5e:4f:78:c8:b2:84:0e:3b:d6:92:33",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:tecdocs.endebito.com",
+        "subjectKeyIdentifier": "keyid:07:3b:e1:43:82:f2:47:66:66:30:43:5a:25:8e:da:fb:d3:10:ba:19"
+      }
+    },
+    "cert_index": 4418037731,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4418037731&end=4418037731",
+    "seen": 1787857143.089,
+    "submission_timestamp": 1779575253.028,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dominio": "cpf.xb0.eu",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 13:06:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "xb0.eu",
+        "aggregated": "/CN=xb0.eu"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "B54F59A81ED1FF0F0ED1B7D1A3653154",
+      "not_before": 1778848685,
+      "not_after": 1786628156,
+      "fingerprint": "CE:43:60:1A:CF:A6:20:64:43:4D:8F:B4:92:6A:06:23:97:3F:75:54",
+      "sha1": "CE:43:60:1A:CF:A6:20:64:43:4D:8F:B4:92:6A:06:23:97:3F:75:54",
+      "sha256": "45:D3:75:7E:8A:C9:FD:89:02:1A:FC:62:08:73:4E:A0:C5:D4:C9:B0:DD:24:FF:71:51:8D:BD:EF:73:74:28:E5",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "xb0.eu",
+        "cpf.xb0.eu",
+        "*.cpf.xb0.eu"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/tU8, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:xb0.eu, DNS:cpf.xb0.eu, DNS:*.cpf.xb0.eu",
+        "subjectKeyIdentifier": "keyid:3e:3f:20:81:0c:30:8f:db:13:25:07:cd:ca:97:2f:89:44:5e:9e:f8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 703334243,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=703334243&end=703334243",
+    "seen": 1787846763.311,
+    "submission_timestamp": 1778852286.03,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

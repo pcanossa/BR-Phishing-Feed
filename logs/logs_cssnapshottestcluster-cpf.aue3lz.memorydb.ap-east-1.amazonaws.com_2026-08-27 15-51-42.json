@@ -1,0 +1,53 @@
+{
+  "dominio": "cssnapshottestcluster-cpf.aue3lz.memorydb.ap-east-1.amazonaws.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 15:51:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "wcpnmukdx6fihfh17cqpqp2onsrprno.memorydb.ap-east-1.amazonaws.com",
+        "aggregated": "/CN=wcpnmukdx6fihfh17cqpqp2onsrprno.memorydb.ap-east-1.amazonaws.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "02CF794C530892B166D6D72EF7AF5B64",
+      "not_before": 1783468800,
+      "not_after": 1800575999,
+      "fingerprint": "12:5B:11:7C:3A:FE:A3:CB:2C:48:11:68:10:F9:D4:E0:12:09:A5:09",
+      "sha1": "12:5B:11:7C:3A:FE:A3:CB:2C:48:11:68:10:F9:D4:E0:12:09:A5:09",
+      "sha256": "CD:BE:CA:8E:15:AE:DC:76:94:6D:7E:B5:3E:21:14:EF:60:FA:A8:21:00:A7:E0:78:1A:B8:82:11:DB:94:98:13",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "wcpnmukdx6fihfh17cqpqp2onsrprno.memorydb.ap-east-1.amazonaws.com",
+        "*.cssnapshottestcluster-cpf.aue3lz.memorydb.ap-east-1.amazonaws.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:wcpnmukdx6fihfh17cqpqp2onsrprno.memorydb.ap-east-1.amazonaws.com, DNS:*.cssnapshottestcluster-cpf.aue3lz.memorydb.ap-east-1.amazonaws.com",
+        "subjectKeyIdentifier": "keyid:a1:4a:54:87:d1:30:1b:99:c4:9b:41:72:bb:3c:7a:bb:e7:13:be:21",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 129809629,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=129809629&end=129809629",
+    "seen": 1787856700.95,
+    "submission_timestamp": 1783481300.818,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dominio": "cpf-ae1.vpc.verizon.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 14:19:21",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-ae1.vpc.verizon.com",
+        "L": "Temple Terrace",
+        "O": "Verizon Data Services LLC",
+        "ST": "Florida",
+        "aggregated": "/C=US/CN=cpf-ae1.vpc.verizon.com/L=Temple Terrace/O=Verizon Data Services LLC/ST=Florida"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "077061968A0499DFA4F760B7C74BA0F3",
+      "not_before": 1784678400,
+      "not_after": 1801871999,
+      "fingerprint": "D1:17:4C:13:B6:13:9E:25:A8:04:E4:61:77:E7:4C:16:A3:7F:E0:6E",
+      "sha1": "D1:17:4C:13:B6:13:9E:25:A8:04:E4:61:77:E7:4C:16:A3:7F:E0:6E",
+      "sha256": "4D:C2:C7:88:D7:83:AE:20:10:68:BA:4C:8F:E9:40:D0:2E:B6:48:D5:AC:33:6A:3A:80:D7:FF:07:0D:5D:18:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-ae1.vpc.verizon.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-ae1.vpc.verizon.com",
+        "subjectKeyIdentifier": "keyid:2b:e8:db:fc:df:49:aa:9c:98:a1:28:2b:a7:e1:2a:91:1d:f8:50:40"
+      }
+    },
+    "cert_index": 111970456,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x437/384",
+    "seen": 1787851160.4,
+    "submission_timestamp": 1784700644.256,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

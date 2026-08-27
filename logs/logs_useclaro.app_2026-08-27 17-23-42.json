@@ -1,0 +1,52 @@
+{
+  "dominio": "useclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/27/26 17:23:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "useclaro.app",
+        "aggregated": "/CN=useclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Cloudflare TLS Issuing ECC CA 4",
+        "O": "SSL Corporation",
+        "aggregated": "/C=US/CN=Cloudflare TLS Issuing ECC CA 4/O=SSL Corporation"
+      },
+      "serial_number": "759B1247F3E1A0BFD79D7407D8BBD63E",
+      "not_before": 1779577021,
+      "not_after": 1787353542,
+      "fingerprint": "79:98:39:F5:97:39:4B:7D:EB:69:F0:4C:FE:DB:72:CB:42:6F:96:1C",
+      "sha1": "79:98:39:F5:97:39:4B:7D:EB:69:F0:4C:FE:DB:72:CB:42:6F:96:1C",
+      "sha256": "14:40:EC:BE:ED:37:68:ED:0A:80:43:96:59:6E:DD:D3:D1:62:1B:66:F5:9A:D7:B1:4A:FF:37:F2:D7:2F:E8:1B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "useclaro.app",
+        "*.useclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://i.cf-i.ssl.com/Cloudflare-TLS-I-E4.cer",
+        "authorityKeyIdentifier": "keyid:82:0d:ce:68:92:74:be:64:65:7f:18:d5:b0:16:70:0e:6a:bb:80:48",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 1.3.6.1.4.1.38064.1.3.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:useclaro.app, DNS:*.useclaro.app",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4418564131,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4418564131&end=4418564131",
+    "seen": 1787862222.809,
+    "submission_timestamp": 1779577622.562,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

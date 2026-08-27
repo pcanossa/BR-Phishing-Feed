@@ -1,0 +1,56 @@
+{
+  "dominio": "admin.billing.debitoor.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 14:00:03",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "op-live-eks-eu-west-1.sam-app.ro",
+        "aggregated": "/CN=op-live-eks-eu-west-1.sam-app.ro"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "030FE7D4E7B5C8B2259899C25293EB6A",
+      "not_before": 1784592000,
+      "not_after": 1801699199,
+      "fingerprint": "53:65:AB:DE:81:C1:12:FC:9A:BF:6B:0C:DD:67:47:14:D1:0E:66:33",
+      "sha1": "53:65:AB:DE:81:C1:12:FC:9A:BF:6B:0C:DD:67:47:14:D1:0E:66:33",
+      "sha256": "7D:C2:09:44:F4:37:4C:46:B4:FD:82:C0:E4:1F:16:4A:93:ED:8B:D5:53:FD:68:CE:9F:85:2D:68:24:52:D7:8A",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "op-live-eks-eu-west-1.sam-app.ro",
+        "admin.billing.debitoor.com",
+        "*.op-live-eks-eu-west-1.sam-app.ro",
+        "*.internal.op-live-eks-eu-west-1.sam-app.ro",
+        "*.teleport.op-live-eks-eu-west-1.sam-app.ro"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:op-live-eks-eu-west-1.sam-app.ro, DNS:admin.billing.debitoor.com, DNS:*.op-live-eks-eu-west-1.sam-app.ro, DNS:*.internal.op-live-eks-eu-west-1.sam-app.ro, DNS:*.teleport.op-live-eks-eu-west-1.sam-app.ro",
+        "subjectKeyIdentifier": "keyid:fc:03:fc:f8:df:5a:a0:f3:0c:c4:17:2b:67:18:52:ff:3e:82:8f:10",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 108861799,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=108861799&end=108861799",
+    "seen": 1787850003.821,
+    "submission_timestamp": 1784594898.549,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

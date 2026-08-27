@@ -1,0 +1,52 @@
+{
+  "dominio": "taxas-fazenda.live",
+  "marcas_encontradas": [
+    "fazenda"
+  ],
+  "timestamp": "08/27/26 12:50:38",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "taxas-fazenda.live",
+        "aggregated": "/CN=taxas-fazenda.live"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "06AF242B81DC355006D7B7D14133A750B600",
+      "not_before": 1779565894,
+      "not_after": 1787341893,
+      "fingerprint": "0C:E5:6B:C6:2E:DE:AF:3B:97:9A:3E:05:1B:A6:14:E0:7B:25:5E:2A",
+      "sha1": "0C:E5:6B:C6:2E:DE:AF:3B:97:9A:3E:05:1B:A6:14:E0:7B:25:5E:2A",
+      "sha256": "DE:AD:72:E4:80:CC:02:D9:87:35:A1:6D:4B:8E:50:19:AD:9A:78:61:09:C2:2E:D5:7B:77:AD:A1:83:21:CE:A6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "taxas-fazenda.live",
+        "*.taxas-fazenda.live"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.taxas-fazenda.live, DNS:taxas-fazenda.live",
+        "subjectKeyIdentifier": "keyid:37:56:3c:7b:56:02:f5:e0:2c:fe:f6:b7:d8:29:bf:1b:91:2f:38:cf"
+      }
+    },
+    "cert_index": 4416664161,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4416664161&end=4416664161",
+    "seen": 1787845837.044,
+    "submission_timestamp": 1779569407.161,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

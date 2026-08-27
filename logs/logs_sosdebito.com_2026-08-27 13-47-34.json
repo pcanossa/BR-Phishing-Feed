@@ -1,0 +1,55 @@
+{
+  "dominio": "sosdebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 13:47:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.sosdebito.com",
+        "aggregated": "/CN=*.sosdebito.com"
+      },
+      "issuer": {
+        "C": "IT",
+        "CN": "Actalis Domain Validation Server CA G3",
+        "L": "Ponte San Pietro",
+        "O": "Actalis S.p.A.",
+        "ST": "Bergamo",
+        "aggregated": "/C=IT/CN=Actalis Domain Validation Server CA G3/L=Ponte San Pietro/O=Actalis S.p.A./ST=Bergamo"
+      },
+      "serial_number": "6BF15E6CFF19232B9F5177B17F3478FF",
+      "not_before": 1784260643,
+      "not_after": 1801454242,
+      "fingerprint": "E7:80:46:BD:D0:7C:AE:10:69:E6:EE:A3:4A:26:5E:6D:B6:4B:51:68",
+      "sha1": "E7:80:46:BD:D0:7C:AE:10:69:E6:EE:A3:4A:26:5E:6D:B6:4B:51:68",
+      "sha256": "23:DA:FA:D4:D9:05:7C:A6:40:7B:75:D2:59:94:09:3E:D0:F5:3F:7F:62:C9:96:9A:F7:8E:62:B8:9E:1B:1D:FC",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.sosdebito.com",
+        "sosdebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://cacert.actalis.it/certs/actalis-autdvg3, URI:http://ocsp06.actalis.it/VA/AUTHDV-G3",
+        "authorityKeyIdentifier": "keyid:42:83:6d:80:7c:09:84:67:fd:80:57:ab:f1:26:f5:77:c8:22:82:71",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.159.1.23.1\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:sosdebito.com, DNS:*.sosdebito.com",
+        "subjectKeyIdentifier": "keyid:9e:17:e8:d6:23:38:0e:b3:da:e7:26:e2:b1:fd:12:d4:3f:88:cc:c6",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 97310094,
+    "cert_link": "https://elephant2027h1.ct.sectigo.com/ct/v1/get-entries?start=97310094&end=97310094",
+    "seen": 1787849253.871,
+    "submission_timestamp": 1784261244.002,
+    "source": {
+      "name": "Sectigo 'Elephant2027h1'",
+      "url": "https://elephant2027h1.ct.sectigo.com"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "es-login.particulares-santander.workers.dev",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/27/26 17:36:55",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "particulares-santander.workers.dev",
+        "aggregated": "/CN=particulares-santander.workers.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "9395EFB8894F9A570E0A24554248F8BF",
+      "not_before": 1781084179,
+      "not_after": 1788863736,
+      "fingerprint": "3B:D0:5C:94:2A:30:0C:02:B1:D7:9E:E7:8E:4E:A2:AA:60:86:D9:20",
+      "sha1": "3B:D0:5C:94:2A:30:0C:02:B1:D7:9E:E7:8E:4E:A2:AA:60:86:D9:20",
+      "sha256": "D2:67:74:0E:F4:E2:6F:B7:09:B6:58:E0:D3:3A:86:6F:AF:97:EA:45:75:2C:98:73:D3:B3:18:41:5F:21:76:FD",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "particulares-santander.workers.dev",
+        "*.es-login.particulares-santander.workers.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/k5U, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:particulares-santander.workers.dev, DNS:*.es-login.particulares-santander.workers.dev",
+        "subjectKeyIdentifier": "keyid:7b:d9:c0:3c:53:e1:f7:22:42:96:ba:c2:bc:aa:08:21:79:13:87:5b"
+      }
+    },
+    "cert_index": 996599150,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog/tile/data/x003/x892/965",
+    "seen": 1787863015.274,
+    "submission_timestamp": 1787455560.842,
+    "source": {
+      "name": "Google 'PlumbersArms2026h2' log",
+      "url": "https://storage.googleapis.com/plumbersarms2026h2.prod.certificate.transparency.goog"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "dev.debito.qa",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 13:17:59",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "dev.debito.qa",
+        "aggregated": "/CN=dev.debito.qa"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "0508D6CF371C699F654F38CAE9E0D6C12FEA",
+      "not_before": 1779566716,
+      "not_after": 1787342715,
+      "fingerprint": "0D:44:62:77:6F:73:86:1A:61:5F:78:C2:9D:FC:6F:B0:98:5D:E5:D0",
+      "sha1": "0D:44:62:77:6F:73:86:1A:61:5F:78:C2:9D:FC:6F:B0:98:5D:E5:D0",
+      "sha256": "90:BD:CB:19:8B:39:C1:E5:1F:30:17:A5:78:A2:58:0F:E9:72:ED:0D:C4:33:4E:09:81:A6:B1:DF:23:6D:53:A6",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "dev.debito.qa"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:dev.debito.qa",
+        "subjectKeyIdentifier": "keyid:82:f0:48:89:18:56:24:8d:88:78:d7:60:23:86:14:16:0e:66:69:4d"
+      }
+    },
+    "cert_index": 4416861112,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4416861112&end=4416861112",
+    "seen": 1787847478.842,
+    "submission_timestamp": 1779570293.508,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

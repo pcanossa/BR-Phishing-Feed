@@ -1,0 +1,52 @@
+{
+  "dominio": "d3vc0itaunqwdo.amplifyapp.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/27/26 15:03:07",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.d3vc0itaunqwdo.amplifyapp.com",
+        "aggregated": "/CN=*.d3vc0itaunqwdo.amplifyapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B78E952D8E7AF9193A1A4BE30AC309A",
+      "not_before": 1779494400,
+      "not_after": 1796601599,
+      "fingerprint": "D1:CD:81:3C:F7:7E:DD:C4:9C:BE:65:11:5C:6A:70:42:70:51:92:C0",
+      "sha1": "D1:CD:81:3C:F7:7E:DD:C4:9C:BE:65:11:5C:6A:70:42:70:51:92:C0",
+      "sha256": "05:89:C1:6F:8C:33:15:E4:A1:F3:C7:4F:54:6E:62:DC:A1:CA:BC:B8:58:FF:96:65:50:EA:FD:11:5D:97:AE:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.d3vc0itaunqwdo.amplifyapp.com",
+        "d3vc0itaunqwdo.amplifyapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.d3vc0itaunqwdo.amplifyapp.com, DNS:d3vc0itaunqwdo.amplifyapp.com",
+        "subjectKeyIdentifier": "keyid:0f:34:d4:cf:0f:35:e7:d5:b2:02:df:0f:56:8a:d6:24:12:c3:92:a9"
+      }
+    },
+    "cert_index": 4417643105,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4417643105&end=4417643105",
+    "seen": 1787853787.459,
+    "submission_timestamp": 1779573726.339,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

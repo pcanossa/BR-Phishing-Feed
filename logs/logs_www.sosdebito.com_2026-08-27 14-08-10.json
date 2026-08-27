@@ -1,0 +1,52 @@
+{
+  "dominio": "www.sosdebito.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 14:08:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.sosdebito.com",
+        "aggregated": "/CN=www.sosdebito.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "3A2B218DD691CD49",
+      "not_before": 1783454086,
+      "not_after": 1800561286,
+      "fingerprint": "0A:79:46:92:16:E1:B0:73:8A:8C:B7:D0:29:DE:CB:04:B1:B5:33:EE",
+      "sha1": "0A:79:46:92:16:E1:B0:73:8A:8C:B7:D0:29:DE:CB:04:B1:B5:33:EE",
+      "sha256": "E7:C1:2B:8D:FE:D6:CA:10:15:3C:18:95:76:97:BC:D6:6B:77:1F:25:E3:C6:21:3A:63:31:95:CB:E3:EA:7D:90",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.sosdebito.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.sosdebito.com",
+        "subjectKeyIdentifier": "keyid:3e:8c:e0:65:1c:88:62:be:9e:ff:33:c4:43:54:47:cc:f7:81:a7:f8",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 129087751,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=129087751&end=129087751",
+    "seen": 1787850490.134,
+    "submission_timestamp": 1783454087.731,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "boleto-veiculo.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/27/26 11:45:50",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "boleto-veiculo.api.hom.itau.com",
+        "aggregated": "/CN=boleto-veiculo.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "039A59EE6A7F9ED6421966FF82788888",
+      "not_before": 1787788800,
+      "not_after": 1804895999,
+      "fingerprint": "98:22:A0:F1:5E:CF:15:43:9F:F0:DB:56:1C:18:F8:35:5D:47:27:64",
+      "sha1": "98:22:A0:F1:5E:CF:15:43:9F:F0:DB:56:1C:18:F8:35:5D:47:27:64",
+      "sha256": "D8:49:74:14:95:C4:AD:78:A8:14:45:98:7C:E6:29:95:69:71:7D:AE:C6:90:62:4D:F7:A3:81:FB:FB:04:B9:68",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "boleto-veiculo.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:boleto-veiculo.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:21:4f:6b:85:17:4a:3a:f5:8b:2b:b6:ad:ca:31:d3:25:e9:2e:a2:16",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 76008758,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=76008758&end=76008758",
+    "seen": 1787841950.137,
+    "submission_timestamp": 1787838101.941,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dominio": "mediacao-seguro-prestamista.api.hom.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/27/26 13:40:34",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "mediacao-seguro-prestamista.api.hom.itau.com",
+        "aggregated": "/CN=mediacao-seguro-prestamista.api.hom.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0D826615D22019B60F650895E2493A3F",
+      "not_before": 1784678400,
+      "not_after": 1801785599,
+      "fingerprint": "BF:9D:4C:84:51:B3:32:0E:6F:E0:12:78:0B:3C:2D:AE:31:47:C4:65",
+      "sha1": "BF:9D:4C:84:51:B3:32:0E:6F:E0:12:78:0B:3C:2D:AE:31:47:C4:65",
+      "sha256": "B3:FF:D2:78:AD:75:8B:53:60:CE:B6:FD:B1:FB:F8:02:82:17:01:05:B1:58:CD:11:0A:CF:36:95:85:A1:5A:4D",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "mediacao-seguro-prestamista.api.hom.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:mediacao-seguro-prestamista.api.hom.itau.com",
+        "subjectKeyIdentifier": "keyid:75:85:3a:0d:96:0d:83:9e:72:22:dc:32:52:c9:16:4e:97:78:0e:23"
+      }
+    },
+    "cert_index": 111632963,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2027h1/tile/data/x436/066",
+    "seen": 1787848832.622,
+    "submission_timestamp": 1784679239.255,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2027h1'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

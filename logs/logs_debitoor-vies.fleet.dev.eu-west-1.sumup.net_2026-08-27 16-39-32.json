@@ -1,0 +1,51 @@
+{
+  "dominio": "debitoor-vies.fleet.dev.eu-west-1.sumup.net",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 16:39:32",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitoor-vies.fleet.dev.eu-west-1.sumup.net",
+        "aggregated": "/CN=debitoor-vies.fleet.dev.eu-west-1.sumup.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "3F4F681F4FF8CC4913B5DAE99AFAEAD6",
+      "not_before": 1779540096,
+      "not_after": 1787319695,
+      "fingerprint": "F5:52:70:8A:FD:09:AE:A4:2A:4E:65:E6:2D:9F:21:00:8B:AD:F5:5E",
+      "sha1": "F5:52:70:8A:FD:09:AE:A4:2A:4E:65:E6:2D:9F:21:00:8B:AD:F5:5E",
+      "sha256": "E4:FC:C4:71:A7:A8:89:F7:FB:D5:CA:93:8A:BB:E1:8C:7A:F2:27:40:07:B1:FC:07:F4:A4:56:E2:75:56:49:71",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "debitoor-vies.fleet.dev.eu-west-1.sumup.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/P08, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:debitoor-vies.fleet.dev.eu-west-1.sumup.net",
+        "subjectKeyIdentifier": "keyid:f9:19:f7:22:db:ac:cb:c7:3f:ca:17:ff:71:8d:d3:0b:45:d3:cd:1f"
+      }
+    },
+    "cert_index": 4418289821,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4418289821&end=4418289821",
+    "seen": 1787859571.833,
+    "submission_timestamp": 1779576382.979,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

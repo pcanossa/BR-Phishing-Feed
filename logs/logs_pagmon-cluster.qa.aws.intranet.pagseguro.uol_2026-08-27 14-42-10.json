@@ -1,0 +1,51 @@
+{
+  "dominio": "pagmon-cluster.qa.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 14:42:10",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.pagmon-cluster.qa.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.pagmon-cluster.qa.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0C47522D15D1FF5AD3C2985725F93EB6",
+      "not_before": 1787788800,
+      "not_after": 1804895999,
+      "fingerprint": "13:6C:1F:1A:B1:74:38:A0:09:1A:36:27:B6:79:4C:D6:F8:09:DE:66",
+      "sha1": "13:6C:1F:1A:B1:74:38:A0:09:1A:36:27:B6:79:4C:D6:F8:09:DE:66",
+      "sha256": "45:BB:67:24:A5:8A:0F:6D:2C:44:98:9E:4F:BC:8D:61:C9:F1:44:01:21:1E:A4:51:BD:A2:83:DA:B1:49:29:CB",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.pagmon-cluster.qa.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.pagmon-cluster.qa.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:7a:da:e9:43:83:82:dd:4f:88:c8:82:89:d0:bb:0f:fd:c2:5f:70:50"
+      }
+    },
+    "cert_index": 31255497,
+    "cert_link": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog/tile/data/x122/091",
+    "seen": 1787852529.353,
+    "submission_timestamp": 1787840010.103,
+    "source": {
+      "name": "Google 'PlumbersArms2027h1' log",
+      "url": "https://storage.googleapis.com/plumbersarms2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

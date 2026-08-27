@@ -1,0 +1,59 @@
+{
+  "dominio": "e.cpf.gov.sg.admin-mcas.ms",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 11:12:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.e.cpf.gov.sg.mcas.ms",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.e.cpf.gov.sg.mcas.ms/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "4100CAA5A7847D5EC570529EE9000000CAA5A7",
+      "not_before": 1787825312,
+      "not_after": 1803377312,
+      "fingerprint": "08:E3:32:50:21:4C:F4:68:32:92:71:3E:F5:6A:57:CB:F9:ED:F8:5F",
+      "sha1": "08:E3:32:50:21:4C:F4:68:32:92:71:3E:F5:6A:57:CB:F9:ED:F8:5F",
+      "sha256": "FE:3B:18:7C:75:46:44:17:9A:D8:ED:4A:89:32:01:EA:9C:7A:0F:0A:05:74:C8:96:2B:58:3A:77:93:3A:0A:65",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.e.cpf.gov.sg.mcas.ms",
+        "*.e.cpf.gov.sg.admin-mcas.ms",
+        "*.e.cpf.gov.sg.mcas-df.ms",
+        "*.e.cpf.gov.sg.admin-mcas-df.ms"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:b8:2f:33:a6:7c:51:4f:7f:1f:2d:d5:c8:15:42:38:a4:b2:0e:8f:2f",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.e.cpf.gov.sg.mcas.ms, DNS:*.e.cpf.gov.sg.admin-mcas.ms, DNS:*.e.cpf.gov.sg.mcas-df.ms, DNS:*.e.cpf.gov.sg.admin-mcas-df.ms",
+        "subjectKeyIdentifier": "keyid:95:2e:53:f7:dd:1a:94:49:6a:77:b2:12:83:1c:c6:a1:f6:19:89:ff",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 75716979,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=75716979&end=75716979",
+    "seen": 1787839972.698,
+    "submission_timestamp": 1787825997.455,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

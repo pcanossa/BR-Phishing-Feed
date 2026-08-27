@@ -1,0 +1,54 @@
+{
+  "dominio": "chargeback-api-gateway-qa.pagseguro.com",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 16:01:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "chargeback-api-gateway-qa.pagseguro.com",
+        "aggregated": "/CN=chargeback-api-gateway-qa.pagseguro.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "RapidSSL TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=RapidSSL TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0C59AEC3C25FFBFC0339ED390093EC40",
+      "not_before": 1787788800,
+      "not_after": 1804982399,
+      "fingerprint": "CB:E1:3C:80:9C:16:4C:5E:01:86:A8:8B:87:6E:93:4E:1D:96:F9:53",
+      "sha1": "CB:E1:3C:80:9C:16:4C:5E:01:86:A8:8B:87:6E:93:4E:1D:96:F9:53",
+      "sha256": "D3:57:19:D1:83:7A:7C:2B:D1:0C:99:46:15:4E:33:EB:95:43:AF:2F:3C:D7:1B:86:44:8E:22:4C:38:32:4F:50",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "chargeback-api-gateway-qa.pagseguro.com",
+        "www.chargeback-api-gateway-qa.pagseguro.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.rapidssl.com, URI:http://cacerts.rapidssl.com/RapidSSLTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:0c:db:6c:82:49:0f:4a:67:0a:b8:14:ee:7a:c4:48:52:88:eb:56:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:chargeback-api-gateway-qa.pagseguro.com, DNS:www.chargeback-api-gateway-qa.pagseguro.com",
+        "subjectKeyIdentifier": "keyid:67:c8:8e:d9:77:4a:2b:b7:c1:38:99:d7:9c:70:a1:1a:6c:16:ce:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 76452276,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=76452276&end=76452276",
+    "seen": 1787857299.986,
+    "submission_timestamp": 1787857295.404,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

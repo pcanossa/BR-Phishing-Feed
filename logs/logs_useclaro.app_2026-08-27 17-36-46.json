@@ -1,0 +1,52 @@
+{
+  "dominio": "useclaro.app",
+  "marcas_encontradas": [
+    "claro"
+  ],
+  "timestamp": "08/27/26 17:36:46",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "useclaro.app",
+        "aggregated": "/CN=useclaro.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E8",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E8/O=Let's Encrypt"
+      },
+      "serial_number": "059426010CAEC7F3C97AB097CB2AFFA60151",
+      "not_before": 1779574493,
+      "not_after": 1787350492,
+      "fingerprint": "D9:08:C6:D9:EA:93:68:83:7F:B8:BC:97:2C:03:E4:17:A1:64:CE:15",
+      "sha1": "D9:08:C6:D9:EA:93:68:83:7F:B8:BC:97:2C:03:E4:17:A1:64:CE:15",
+      "sha256": "12:7E:DD:F5:C2:6A:CD:DB:05:0D:4B:A8:F4:28:9D:6D:27:70:25:45:58:B2:9D:3E:1A:B1:6F:3C:F4:B6:E9:4F",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "useclaro.app",
+        "*.useclaro.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e8.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:8f:0d:13:a2:f6:2e:7e:d1:50:6c:33:18:38:5d:59:8e:23:72:91:ca",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.useclaro.app, DNS:useclaro.app",
+        "subjectKeyIdentifier": "keyid:4c:88:31:59:af:78:8a:af:37:63:c6:90:13:dc:b9:c1:af:03:e6:57"
+      }
+    },
+    "cert_index": 4418648944,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4418648944&end=4418648944",
+    "seen": 1787863005.473,
+    "submission_timestamp": 1779578006.089,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

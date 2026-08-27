@@ -1,0 +1,53 @@
+{
+  "dominio": "receitafederal.it.com",
+  "marcas_encontradas": [
+    "receita"
+  ],
+  "timestamp": "08/27/26 11:53:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "receitafederal.it.com",
+        "aggregated": "/CN=receitafederal.it.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "E02E8D10D38E79AE139A49318FF1F93D",
+      "not_before": 1779047378,
+      "not_after": 1786826897,
+      "fingerprint": "E1:36:3F:E6:EB:DC:C1:5E:B3:94:ED:C4:5F:B6:BC:7D:F3:BE:9D:51",
+      "sha1": "E1:36:3F:E6:EB:DC:C1:5E:B3:94:ED:C4:5F:B6:BC:7D:F3:BE:9D:51",
+      "sha256": "17:3D:A6:E8:AF:D2:79:C5:22:40:25:F4:8F:35:B3:4A:1D:9A:07:ED:D2:11:6A:0A:FB:DC:09:49:32:CF:BC:30",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "receitafederal.it.com",
+        "*.receitafederal.it.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/4C4, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:receitafederal.it.com, DNS:*.receitafederal.it.com",
+        "subjectKeyIdentifier": "keyid:bb:06:ee:65:f7:54:b9:16:4f:b5:87:7e:13:c7:1c:85:a7:46:35:95",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 696763888,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=696763888&end=696763888",
+    "seen": 1787842398.655,
+    "submission_timestamp": 1779051112.895,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

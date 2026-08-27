@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.numbrs.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/27/26 14:40:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.numbrs.com.br",
+        "aggregated": "/CN=cartao.numbrs.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR1/O=Google Trust Services"
+      },
+      "serial_number": "1AABC7F5193C379E0EEB274BDD2D7E8B",
+      "not_before": 1779569389,
+      "not_after": 1787348911,
+      "fingerprint": "65:A3:00:89:D1:0B:01:FA:B6:C2:AB:6E:09:47:DA:ED:9D:97:76:F4",
+      "sha1": "65:A3:00:89:D1:0B:01:FA:B6:C2:AB:6E:09:47:DA:ED:9D:97:76:F4",
+      "sha256": "FB:0F:EE:4E:8C:CC:32:67:F5:C5:1F:E8:21:34:ED:8E:40:D4:0D:3A:AD:1C:C3:0D:0A:5A:FD:4F:7D:F9:88:32",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.numbrs.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr1/Gqs, URI:http://i.pki.goog/wr1.crt",
+        "authorityKeyIdentifier": "keyid:66:69:49:d4:de:2a:9c:91:03:cf:89:0e:24:b8:0e:30:03:6e:88:2e",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.numbrs.com.br",
+        "subjectKeyIdentifier": "keyid:9d:a1:31:e5:03:02:83:e2:4c:78:8a:df:71:9c:43:28:5e:32:6d:38",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4417478785,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4417478785&end=4417478785",
+    "seen": 1787852405.817,
+    "submission_timestamp": 1779572989.756,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

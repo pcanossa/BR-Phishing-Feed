@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-i.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 15:22:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-i.com",
+        "aggregated": "/CN=cpf-i.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "06AEB2000C2A88D3C8B1D78872AFA05FE697",
+      "not_before": 1779066034,
+      "not_after": 1786842033,
+      "fingerprint": "D1:72:36:C9:1A:20:F5:C8:99:22:E4:C8:3A:07:3D:82:11:E5:6F:2D",
+      "sha1": "D1:72:36:C9:1A:20:F5:C8:99:22:E4:C8:3A:07:3D:82:11:E5:6F:2D",
+      "sha256": "01:2C:15:56:93:66:F9:D3:F9:EA:C7:FD:16:43:EB:E7:2F:A3:B0:9F:8F:A8:16:EB:FC:0A:0E:1C:04:EE:20:C6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-i.com",
+        "www.cpf-i.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-i.com, DNS:www.cpf-i.com",
+        "subjectKeyIdentifier": "keyid:66:f7:00:40:b2:8c:a8:af:1a:9a:ce:61:1d:60:56:77:29:fc:94:16",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 698790040,
+    "cert_link": "https://sphinx.ct.digicert.com/2026h2/ct/v1/get-entries?start=698790040&end=698790040",
+    "seen": 1787854961.777,
+    "submission_timestamp": 1779069544.493,
+    "source": {
+      "name": "DigiCert 'Sphinx2026h2'",
+      "url": "https://sphinx.ct.digicert.com/2026h2"
+    }
+  }
+}

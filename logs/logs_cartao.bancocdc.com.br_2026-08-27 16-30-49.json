@@ -1,0 +1,52 @@
+{
+  "dominio": "cartao.bancocdc.com.br",
+  "marcas_encontradas": [
+    "cartao"
+  ],
+  "timestamp": "08/27/26 16:30:49",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cartao.bancocdc.com.br",
+        "aggregated": "/CN=cartao.bancocdc.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "04CD23A42E2E33A617D3020AA5F8115F",
+      "not_before": 1787788800,
+      "not_after": 1804895999,
+      "fingerprint": "EF:A2:C0:D1:69:BB:8A:66:2F:26:BA:0D:12:0E:DE:BB:FA:7B:19:89",
+      "sha1": "EF:A2:C0:D1:69:BB:8A:66:2F:26:BA:0D:12:0E:DE:BB:FA:7B:19:89",
+      "sha256": "3F:8A:52:B6:BC:8C:6B:9E:7C:D6:CC:1E:85:94:DD:62:18:EE:BB:2E:6C:44:9A:56:F0:B4:EB:0E:E4:E7:0D:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cartao.bancocdc.com.br",
+        "*.cartao.bancocdc.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cartao.bancocdc.com.br, DNS:*.cartao.bancocdc.com.br",
+        "subjectKeyIdentifier": "keyid:d2:f1:00:ec:ef:bc:d4:8a:29:45:11:b9:b1:c7:07:06:08:82:3b:ae"
+      }
+    },
+    "cert_index": 31687118,
+    "cert_link": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog/tile/data/x123/777",
+    "seen": 1787859048.443,
+    "submission_timestamp": 1787858929.621,
+    "source": {
+      "name": "Google 'ParcelYard2027h1' log",
+      "url": "https://storage.googleapis.com/parcelyard2027h1.prod.certificate.transparency.goog"
+    }
+  }
+}

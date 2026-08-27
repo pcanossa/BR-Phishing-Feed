@@ -1,0 +1,52 @@
+{
+  "dominio": "bank-contadigital.pci.aws.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 11:51:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.bank-contadigital.pci.aws.pagseguro.uol",
+        "aggregated": "/CN=*.bank-contadigital.pci.aws.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0A4C5D7C96AE744D2E83041999A68F0A",
+      "not_before": 1784678400,
+      "not_after": 1801785599,
+      "fingerprint": "8C:3C:B1:46:F5:04:F8:5E:65:79:BE:F6:7A:9A:53:8F:AD:1D:BE:A7",
+      "sha1": "8C:3C:B1:46:F5:04:F8:5E:65:79:BE:F6:7A:9A:53:8F:AD:1D:BE:A7",
+      "sha256": "6A:D0:97:24:2F:37:AC:28:37:BE:98:56:D3:FD:BF:B8:C5:04:38:E5:8D:85:59:A9:94:26:87:93:39:CF:E5:6E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.bank-contadigital.pci.aws.pagseguro.uol",
+        "*.external.bank-contadigital.pci.aws.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.bank-contadigital.pci.aws.pagseguro.uol, DNS:*.external.bank-contadigital.pci.aws.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:0e:05:68:b4:83:e9:84:35:f8:44:27:9a:0e:45:6d:9e:9b:6d:bd:ba"
+      }
+    },
+    "cert_index": 101809384,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x397/692",
+    "seen": 1787842279.435,
+    "submission_timestamp": 1784679380.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

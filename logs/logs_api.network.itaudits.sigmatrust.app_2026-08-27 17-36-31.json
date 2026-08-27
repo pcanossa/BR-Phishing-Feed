@@ -1,0 +1,52 @@
+{
+  "dominio": "api.network.itaudits.sigmatrust.app",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/27/26 17:36:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "sigmatrust.app",
+        "aggregated": "/CN=sigmatrust.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "99E8955AB3BED2D513141BE0B307D428",
+      "not_before": 1781083002,
+      "not_after": 1788862591,
+      "fingerprint": "31:C3:EE:1C:C7:ED:1C:9C:B1:FE:C1:69:C2:45:67:5D:F6:E0:61:7D",
+      "sha1": "31:C3:EE:1C:C7:ED:1C:9C:B1:FE:C1:69:C2:45:67:5D:F6:E0:61:7D",
+      "sha256": "C4:AC:96:3D:DF:9B:41:5B:B2:16:91:2B:9D:16:1F:69:51:40:90:46:51:3D:EF:03:6A:74:B4:AC:A6:10:5A:EE",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "sigmatrust.app",
+        "api.network.itaudits.sigmatrust.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/meg, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:sigmatrust.app, DNS:api.network.itaudits.sigmatrust.app",
+        "subjectKeyIdentifier": "keyid:5f:27:bb:58:a5:bb:8c:0d:ed:27:c7:ff:f5:a0:d5:80:84:71:89:2b"
+      }
+    },
+    "cert_index": 409863449,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x601/029",
+    "seen": 1787862989.399,
+    "submission_timestamp": 1781086729.762,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

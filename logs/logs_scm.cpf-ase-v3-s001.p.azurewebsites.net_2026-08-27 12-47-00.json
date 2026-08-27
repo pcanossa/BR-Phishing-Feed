@@ -1,0 +1,60 @@
+{
+  "dominio": "scm.cpf-ase-v3-s001.p.azurewebsites.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 12:47:00",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "*.cpf-ase-v3-s001.p.azurewebsites.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=*.cpf-ase-v3-s001.p.azurewebsites.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "43008E078AFAF8660EA8809A1C0000008E078A",
+      "not_before": 1784573008,
+      "not_after": 1800125008,
+      "fingerprint": "80:60:60:0B:61:DC:1B:E0:0A:C7:2B:F6:08:54:B9:05:2D:66:EA:E0",
+      "sha1": "80:60:60:0B:61:DC:1B:E0:0A:C7:2B:F6:08:54:B9:05:2D:66:EA:E0",
+      "sha256": "15:5E:EE:25:F5:F0:58:05:A9:9F:2F:A9:EC:69:F8:45:F8:0B:70:6C:74:7A:0E:D0:A6:A0:71:2F:9A:86:D1:43",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf-ase-v3-s001.p.azurewebsites.net",
+        "*.scm.cpf-ase-v3-s001.p.azurewebsites.net",
+        "*.cpf-ase-v3-s001.p.azure-mobile.net",
+        "*.scm.cpf-ase-v3-s001.p.azure-mobile.net",
+        "cpf-ase-v3-s001.scm.p.azurewebsites.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf-ase-v3-s001.p.azurewebsites.net, DNS:*.scm.cpf-ase-v3-s001.p.azurewebsites.net, DNS:*.cpf-ase-v3-s001.p.azure-mobile.net, DNS:*.scm.cpf-ase-v3-s001.p.azure-mobile.net, DNS:cpf-ase-v3-s001.scm.p.azurewebsites.net",
+        "subjectKeyIdentifier": "keyid:83:ab:08:1f:62:7e:31:05:0f:69:3c:24:70:82:50:2b:5e:b4:0e:82",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 108302237,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=108302237&end=108302237",
+    "seen": 1787845619.574,
+    "submission_timestamp": 1784573613.404,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

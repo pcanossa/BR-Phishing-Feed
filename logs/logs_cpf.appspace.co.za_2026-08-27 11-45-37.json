@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.appspace.co.za",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 11:45:37",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.appspace.co.za",
+        "aggregated": "/CN=cpf.appspace.co.za"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "R12",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=R12/O=Let's Encrypt"
+      },
+      "serial_number": "05E5DEC029378B017B921DD183C5D2FC4290",
+      "not_before": 1779563747,
+      "not_after": 1787339746,
+      "fingerprint": "65:3F:B3:B5:A6:1E:81:1D:EF:E1:AF:3B:02:FB:61:61:BC:11:A1:2E",
+      "sha1": "65:3F:B3:B5:A6:1E:81:1D:EF:E1:AF:3B:02:FB:61:61:BC:11:A1:2E",
+      "sha256": "ED:C9:BF:40:69:D9:75:D8:33:75:2E:34:9F:0B:14:93:83:8A:4B:BC:7E:FA:43:68:01:36:CE:B9:66:E7:60:27",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.appspace.co.za"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://r12.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:00:b5:29:f2:2d:8e:6f:31:e8:9b:4c:ad:78:3e:fa:dc:e9:0c:d1:d2",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.appspace.co.za",
+        "subjectKeyIdentifier": "keyid:7b:d2:ea:ae:01:6a:1f:fe:89:f2:d0:44:28:bc:7b:05:d5:03:5b:c5"
+      }
+    },
+    "cert_index": 4416200087,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4416200087&end=4416200087",
+    "seen": 1787841935.864,
+    "submission_timestamp": 1779567259.248,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dominio": "redis-cpf-app-001-dev-je-100.japaneast.redis.azure.net",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 15:48:41",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "japaneast.redis.azure.net",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=japaneast.redis.azure.net/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 ECC CA OCSP 02",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 ECC CA OCSP 02/O=Microsoft Corporation"
+      },
+      "serial_number": "570004358A67AE277DD609C44D00000004358A",
+      "not_before": 1784613680,
+      "not_after": 1800165680,
+      "fingerprint": "69:88:F0:10:84:FE:25:F6:53:B0:4B:CD:A3:17:05:23:75:96:21:47",
+      "sha1": "69:88:F0:10:84:FE:25:F6:53:B0:4B:CD:A3:17:05:23:75:96:21:47",
+      "sha256": "9F:E1:F5:68:9F:16:E6:F5:66:D6:02:8E:BF:17:E8:4C:D6:60:F0:41:75:DB:0A:7E:C8:73:95:37:E6:69:86:BC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "japaneast.redis.azure.net",
+        "redis-cpf-app-001-dev-je-100.japaneast.redis.azure.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20ECC%20CA%20OCSP%2002.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20ECC%20CA%20OCSP%2002.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:e5:1f:c4:6a:09:36:e2:af:e1:64:6e:bd:fc:6b:e9:ed:c5:d0:2a:74",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:redis-cpf-app-001-dev-je-100.japaneast.redis.azure.net, DNS:japaneast.redis.azure.net",
+        "subjectKeyIdentifier": "keyid:da:56:15:0b:36:e2:c5:6d:40:d5:84:8c:ba:87:9b:e0:b5:4b:67:ee",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 109290577,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=109290577&end=109290577",
+    "seen": 1787856521.007,
+    "submission_timestamp": 1784614285.351,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

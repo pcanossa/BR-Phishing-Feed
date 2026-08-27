@@ -1,0 +1,53 @@
+{
+  "dominio": "uber-apps.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/27/26 12:13:48",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uber-apps.com",
+        "aggregated": "/CN=uber-apps.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "32655138F3DDBA3C139438482CCD7CBA",
+      "not_before": 1778845232,
+      "not_after": 1786624694,
+      "fingerprint": "A5:E0:B6:F4:E9:BC:29:1F:C3:66:80:B2:A3:3E:A0:D4:9E:69:7E:12",
+      "sha1": "A5:E0:B6:F4:E9:BC:29:1F:C3:66:80:B2:A3:3E:A0:D4:9E:69:7E:12",
+      "sha256": "FC:98:BC:E5:3E:40:CF:6E:C7:21:E8:8A:73:D3:B3:D0:E4:2D:BF:0C:BE:FD:2D:9B:3B:4C:39:6E:DC:89:FA:93",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "uber-apps.com",
+        "*.uber-apps.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/MmU, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:uber-apps.com, DNS:*.uber-apps.com",
+        "subjectKeyIdentifier": "keyid:5f:14:4c:a8:60:30:7f:f5:c2:ac:78:27:10:a3:1c:5e:80:85:1d:e4",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 702898621,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=702898621&end=702898621",
+    "seen": 1787843626.746,
+    "submission_timestamp": 1778848832.729,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

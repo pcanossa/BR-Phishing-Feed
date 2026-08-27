@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf-777.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 14:00:38",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-777.com",
+        "aggregated": "/CN=cpf-777.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "DE33520281DE72450E8BAF816CAAC460",
+      "not_before": 1778852711,
+      "not_after": 1786632223,
+      "fingerprint": "2C:78:79:01:F6:B7:C4:68:C8:AF:F1:BF:36:9E:F3:9E:19:9E:5E:B2",
+      "sha1": "2C:78:79:01:F6:B7:C4:68:C8:AF:F1:BF:36:9E:F3:9E:19:9E:5E:B2",
+      "sha256": "78:D9:8D:83:1E:44:29:6F:42:9F:F9:86:96:47:EF:9F:26:65:65:00:02:5F:61:1F:52:0F:0C:31:52:C5:B1:9B",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-777.com",
+        "*.cpf-777.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/3jM, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:cpf-777.com, DNS:*.cpf-777.com",
+        "subjectKeyIdentifier": "keyid:0d:aa:e3:45:4d:09:e9:be:4b:3f:38:4b:4f:fb:f7:04:3d:d5:0c:5e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 703827223,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=703827223&end=703827223",
+    "seen": 1787850036.717,
+    "submission_timestamp": 1778856312.222,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

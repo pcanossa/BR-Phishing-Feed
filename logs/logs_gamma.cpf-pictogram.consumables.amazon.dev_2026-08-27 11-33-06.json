@@ -1,0 +1,51 @@
+{
+  "dominio": "gamma.cpf-pictogram.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 11:33:06",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "gamma.cpf-pictogram.consumables.amazon.dev",
+        "aggregated": "/CN=gamma.cpf-pictogram.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0707A6957AF080032DDBA9916548A87D",
+      "not_before": 1784592000,
+      "not_after": 1801699199,
+      "fingerprint": "23:73:FF:BD:81:E7:30:2E:2E:8F:06:A3:CC:54:55:44:9A:66:A6:B2",
+      "sha1": "23:73:FF:BD:81:E7:30:2E:2E:8F:06:A3:CC:54:55:44:9A:66:A6:B2",
+      "sha256": "C2:14:57:4B:9A:6C:95:37:F8:2B:F0:EF:89:B2:2C:98:F8:52:EC:97:83:2C:89:FA:4A:45:73:7B:7B:0A:5A:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "gamma.cpf-pictogram.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:gamma.cpf-pictogram.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:be:09:ac:b6:c7:65:e4:c2:b3:12:ea:47:d8:c8:78:2a:4f:99:d8:b2"
+      }
+    },
+    "cert_index": 101658590,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x397/103",
+    "seen": 1787841186.472,
+    "submission_timestamp": 1784667526.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dominio": "account-security.external.aws.intranet.pagseguro.uol",
+  "marcas_encontradas": [
+    "pagseguro"
+  ],
+  "timestamp": "08/27/26 17:27:05",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.account-security.external.aws.intranet.pagseguro.uol",
+        "aggregated": "/CN=*.account-security.external.aws.intranet.pagseguro.uol"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "04064875C9B227F0B22A4A72570B1BBF",
+      "not_before": 1784851200,
+      "not_after": 1801958399,
+      "fingerprint": "27:E0:DA:EC:DF:76:90:36:83:5B:9A:7D:88:81:37:BD:0E:BC:C6:0D",
+      "sha1": "27:E0:DA:EC:DF:76:90:36:83:5B:9A:7D:88:81:37:BD:0E:BC:C6:0D",
+      "sha256": "0C:DE:35:B8:30:E3:FA:E2:97:17:A9:DB:AD:D0:25:4E:62:CF:00:AA:46:C1:E3:97:65:36:04:A8:41:BA:7E:F1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.account-security.external.aws.intranet.pagseguro.uol",
+        "account-security.external.aws.intranet.pagseguro.uol"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.account-security.external.aws.intranet.pagseguro.uol, DNS:account-security.external.aws.intranet.pagseguro.uol",
+        "subjectKeyIdentifier": "keyid:b4:e1:cc:b8:7f:b6:29:0e:17:c7:5a:26:b2:ef:3c:4b:c3:07:2e:95"
+      }
+    },
+    "cert_index": 104535472,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x408/341",
+    "seen": 1787862423.688,
+    "submission_timestamp": 1784852184.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

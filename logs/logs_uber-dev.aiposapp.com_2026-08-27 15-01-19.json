@@ -1,0 +1,52 @@
+{
+  "dominio": "uber-dev.aiposapp.com",
+  "marcas_encontradas": [
+    "uber"
+  ],
+  "timestamp": "08/27/26 15:01:19",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "uber-dev.aiposapp.com",
+        "aggregated": "/CN=uber-dev.aiposapp.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0D9F14E2DF3B0E48487762EAF81B15E7",
+      "not_before": 1784764800,
+      "not_after": 1801871999,
+      "fingerprint": "CA:93:7D:07:A1:7A:C7:6C:CC:8D:79:62:4D:28:3C:E8:58:31:D9:0B",
+      "sha1": "CA:93:7D:07:A1:7A:C7:6C:CC:8D:79:62:4D:28:3C:E8:58:31:D9:0B",
+      "sha256": "AD:9E:02:1F:8A:1B:54:4A:1B:2F:F5:A3:55:F4:58:F1:7D:2B:5C:82:5F:7A:92:8D:99:BD:05:97:CB:FD:86:F8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "uber-dev.aiposapp.com",
+        "i2mvnbj9d5hkgrv1dyjoyjtpt4l1w10.uber-dev.aiposapp.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:uber-dev.aiposapp.com, DNS:i2mvnbj9d5hkgrv1dyjoyjtpt4l1w10.uber-dev.aiposapp.com",
+        "subjectKeyIdentifier": "keyid:c5:bb:f5:81:bd:65:df:69:3a:c1:a1:45:2b:3c:ca:be:1a:46:93:f1"
+      }
+    },
+    "cert_index": 103359294,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x403/747",
+    "seen": 1787853678.607,
+    "submission_timestamp": 1784778894.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

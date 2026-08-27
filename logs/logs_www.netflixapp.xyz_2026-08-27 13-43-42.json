@@ -1,0 +1,52 @@
+{
+  "dominio": "www.netflixapp.xyz",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/27/26 13:43:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixapp.xyz",
+        "aggregated": "/CN=netflixapp.xyz"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "06B7D237AFE4DD35E5A4E796BCB1CA6C992B",
+      "not_before": 1781616322,
+      "not_after": 1789392321,
+      "fingerprint": "DC:A8:59:B2:18:1F:B3:43:48:D2:0E:EC:64:DB:63:F0:C1:D4:CD:7D",
+      "sha1": "DC:A8:59:B2:18:1F:B3:43:48:D2:0E:EC:64:DB:63:F0:C1:D4:CD:7D",
+      "sha256": "71:74:39:9D:64:57:D4:81:E9:B2:26:46:87:4F:5F:65:ED:13:D0:09:92:0C:57:98:A5:B2:17:DF:25:F3:99:AC",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "netflixapp.xyz",
+        "www.netflixapp.xyz"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflixapp.xyz, DNS:www.netflixapp.xyz",
+        "subjectKeyIdentifier": "keyid:96:ef:dd:58:65:eb:76:12:47:b5:20:07:86:07:b5:95:45:18:b6:7b"
+      }
+    },
+    "cert_index": 264765883,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x034/241",
+    "seen": 1787849022.897,
+    "submission_timestamp": 1781619832.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

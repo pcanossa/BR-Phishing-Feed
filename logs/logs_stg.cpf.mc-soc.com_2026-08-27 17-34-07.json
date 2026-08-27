@@ -1,0 +1,51 @@
+{
+  "dominio": "stg.cpf.mc-soc.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 17:34:07",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "stg.cpf.mc-soc.com",
+        "aggregated": "/CN=stg.cpf.mc-soc.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0B6CF84C6DA2E39F12DE07A279A578AB",
+      "not_before": 1784851200,
+      "not_after": 1801958399,
+      "fingerprint": "F3:66:C7:9A:90:F5:1E:25:A9:F1:84:AB:20:A6:2F:0A:44:13:BA:11",
+      "sha1": "F3:66:C7:9A:90:F5:1E:25:A9:F1:84:AB:20:A6:2F:0A:44:13:BA:11",
+      "sha256": "6C:36:3A:19:8E:C6:17:F3:D3:B4:0B:17:2E:67:C4:E0:2D:7D:56:3B:22:F3:34:07:A8:2C:26:16:CF:C5:15:A1",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "stg.cpf.mc-soc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:stg.cpf.mc-soc.com",
+        "subjectKeyIdentifier": "keyid:4f:0a:66:f3:a6:44:cb:3f:a0:13:bc:de:79:49:95:86:ea:d5:b2:a7"
+      }
+    },
+    "cert_index": 104593563,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x408/568",
+    "seen": 1787862847.349,
+    "submission_timestamp": 1784855929.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

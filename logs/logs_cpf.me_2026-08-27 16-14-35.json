@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf.me",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 16:14:35",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.me",
+        "aggregated": "/CN=cpf.me"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "A5820E6C2525E564",
+      "not_before": 1784818266,
+      "not_after": 1801925466,
+      "fingerprint": "36:67:4D:AE:99:38:D0:34:49:33:A2:C1:35:4C:58:E4:95:42:46:55",
+      "sha1": "36:67:4D:AE:99:38:D0:34:49:33:A2:C1:35:4C:58:E4:95:42:46:55",
+      "sha256": "9A:42:A1:10:B0:CD:07:47:28:46:A6:3F:61:1A:E1:0E:08:21:35:A4:6C:89:13:51:AC:62:B4:B0:46:A2:EC:B6",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.me"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.me",
+        "subjectKeyIdentifier": "keyid:61:ca:f4:94:78:c1:c6:dd:5a:0a:1c:66:3d:51:c6:4b:3e:50:3e:00"
+      }
+    },
+    "cert_index": 103957674,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x406/084",
+    "seen": 1787858075.682,
+    "submission_timestamp": 1784818417.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

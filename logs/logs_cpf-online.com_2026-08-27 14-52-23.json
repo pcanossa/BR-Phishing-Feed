@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf-online.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 14:52:23",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-online.com",
+        "aggregated": "/CN=cpf-online.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0CD1B6E88DC75B379D4945CB4F5ED7B2",
+      "not_before": 1781568000,
+      "not_after": 1789343999,
+      "fingerprint": "C2:89:5F:E6:0C:A7:F0:92:C6:03:49:14:5A:1C:43:51:40:7E:AA:4E",
+      "sha1": "C2:89:5F:E6:0C:A7:F0:92:C6:03:49:14:5A:1C:43:51:40:7E:AA:4E",
+      "sha256": "5F:A6:C6:68:1D:CF:08:D2:CF:F4:3E:4F:83:AE:0A:49:9C:56:56:33:98:E6:34:A1:2F:1D:38:12:15:D4:39:4E",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-online.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-online.com",
+        "subjectKeyIdentifier": "keyid:02:04:5d:35:4c:21:32:37:3a:99:00:49:1b:c0:a9:e7:54:c3:10:17"
+      }
+    },
+    "cert_index": 265329728,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x036/444",
+    "seen": 1787853141.321,
+    "submission_timestamp": 1781641791.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

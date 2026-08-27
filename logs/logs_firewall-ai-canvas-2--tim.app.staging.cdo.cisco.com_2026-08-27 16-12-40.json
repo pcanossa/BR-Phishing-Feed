@@ -1,0 +1,56 @@
+{
+  "dominio": "firewall-ai-canvas-2--tim.app.staging.cdo.cisco.com",
+  "marcas_encontradas": [
+    "tim"
+  ],
+  "timestamp": "08/27/26 16:12:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "firewall-ai-canvas-2--tim.app.staging.cdo.cisco.com",
+        "L": "San Jose",
+        "O": "Cisco Systems Inc.",
+        "ST": "California",
+        "aggregated": "/C=US/CN=firewall-ai-canvas-2--tim.app.staging.cdo.cisco.com/L=San Jose/O=Cisco Systems Inc./ST=California"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "HydrantID Server CA O1",
+        "O": "IdenTrust",
+        "OU": "HydrantID Trusted Certificate Service",
+        "aggregated": "/C=US/CN=HydrantID Server CA O1/O=IdenTrust/OU=HydrantID Trusted Certificate Service"
+      },
+      "serial_number": "40019F8F67296C143F9A7B8B6DD2C4E9",
+      "not_before": 1784817330,
+      "not_after": 1802010870,
+      "fingerprint": "D5:1D:8C:A3:62:B7:F7:41:13:4F:91:69:D9:78:EF:89:DD:88:FD:AE",
+      "sha1": "D5:1D:8C:A3:62:B7:F7:41:13:4F:91:69:D9:78:EF:89:DD:88:FD:AE",
+      "sha256": "12:77:85:21:05:EA:26:26:18:99:F0:A9:65:16:AA:1F:31:05:C0:22:BA:80:55:16:AA:19:BA:28:46:62:E6:07",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "firewall-ai-canvas-2--tim.app.staging.cdo.cisco.com",
+        "firewall-ai-canvas-2--timtq1.app.staging.cdo.cisco.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://commercial.ocsp.identrust.com, URI:http://validation.identrust.com/certs/hydrantidcaO1.p7c",
+        "authorityKeyIdentifier": "keyid:89:b8:9b:b6:9e:ed:fb:b0:c6:bd:0d:ec:67:4e:3c:a3:92:9d:2d:f9",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 2.16.840.1.113839.0.6.3\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:firewall-ai-canvas-2--tim.app.staging.cdo.cisco.com, DNS:firewall-ai-canvas-2--timtq1.app.staging.cdo.cisco.com",
+        "subjectKeyIdentifier": "keyid:17:07:65:17:aa:5e:fb:5f:e7:1b:32:28:87:39:5d:10:1a:2d:7d:2f"
+      }
+    },
+    "cert_index": 103942318,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x406/024",
+    "seen": 1787857960.072,
+    "submission_timestamp": 1784817330.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

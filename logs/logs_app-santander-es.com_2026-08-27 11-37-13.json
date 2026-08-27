@@ -1,0 +1,52 @@
+{
+  "dominio": "app-santander-es.com",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/27/26 11:37:13",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app-santander-es.com",
+        "aggregated": "/CN=app-santander-es.com"
+      },
+      "issuer": {
+        "C": "GB",
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited",
+        "aggregated": "/C=GB/CN=Sectigo Public Server Authentication CA DV E36/O=Sectigo Limited"
+      },
+      "serial_number": "439D1604B3D5CE90BD8465D429B8CA90",
+      "not_before": 1780963200,
+      "not_after": 1788477719,
+      "fingerprint": "E1:AE:A4:22:29:10:A3:47:FE:CE:22:3C:B7:8A:AD:25:18:B8:E8:EB",
+      "sha1": "E1:AE:A4:22:29:10:A3:47:FE:CE:22:3C:B7:8A:AD:25:18:B8:E8:EB",
+      "sha256": "46:12:BD:F6:71:3E:5E:50:7C:CA:BE:D0:8A:8F:57:9B:5D:34:E6:B6:F2:31:CD:6A:92:CB:19:DD:48:DE:A2:43",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "app-santander-es.com",
+        "*.app-santander-es.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVE36.crt, URI:http://ocsp.sectigo.com",
+        "authorityKeyIdentifier": "keyid:17:99:a8:04:c1:6f:e4:2d:70:a8:0a:10:3d:03:d3:e9:1a:b8:26:63",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 1.3.6.1.4.1.6449.1.2.2.7\nPolicy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app-santander-es.com, DNS:*.app-santander-es.com",
+        "subjectKeyIdentifier": "keyid:d5:36:c3:f6:da:d4:6d:ed:6c:aa:9c:3f:74:ee:b2:0a:70:f2:f4:22"
+      }
+    },
+    "cert_index": 405443462,
+    "cert_link": "https://raio2026h2a.ct.cloudflare.com/tile/data/x001/x583/763",
+    "seen": 1787841433.839,
+    "submission_timestamp": 1780997701.692,
+    "source": {
+      "name": "Cloudflare 'Raio2026h2a' log",
+      "url": "https://raio2026h2a.ct.cloudflare.com"
+    }
+  }
+}

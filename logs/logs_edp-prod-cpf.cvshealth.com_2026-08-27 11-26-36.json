@@ -1,0 +1,100 @@
+{
+  "dominio": "edp-prod-cpf.cvshealth.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 11:26:36",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "edp-edm.prod.cvshealth.com",
+        "L": "Woonsocket",
+        "O": "CVS Pharmacy Inc",
+        "ST": "Rhode Island",
+        "aggregated": "/C=US/CN=edp-edm.prod.cvshealth.com/L=Woonsocket/O=CVS Pharmacy Inc/ST=Rhode Island"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc",
+        "aggregated": "/C=US/CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1/O=DigiCert Inc"
+      },
+      "serial_number": "0819BDCB482CB8E005F722B0A3F106C0",
+      "not_before": 1784592000,
+      "not_after": 1801785599,
+      "fingerprint": "E7:A1:2C:4E:18:E7:74:40:08:F5:A0:DD:B1:9B:24:9B:45:45:9D:5E",
+      "sha1": "E7:A1:2C:4E:18:E7:74:40:08:F5:A0:DD:B1:9B:24:9B:45:45:9D:5E",
+      "sha256": "D5:22:30:B6:06:7C:72:F5:49:FD:9B:3B:20:52:D0:6C:88:AB:F0:B9:12:39:63:3D:11:B6:FE:C9:9D:EB:C9:46",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "edp-edm.prod.cvshealth.com",
+        "internal-argocd-np.edp-edm.prod.cvshealth.com",
+        "internal-kiali-np.edp-edm.prod.cvshealth.com",
+        "internal-tracing-np.edp-edm.prod.cvshealth.com",
+        "internal-grafana-np.edp-edm.prod.cvshealth.com",
+        "commtracker-ai-prod.cvshealth.com",
+        "edp-eds-dpr.prod.cvshealth.com",
+        "edp-prod-prime.cvshealth.com",
+        "edp-prod-abc.cvshealth.com",
+        "edp-prod-egress.cvshealth.com",
+        "edp-hirs.cvshealth.com",
+        "edp-prime.cvshealth.com",
+        "iopbulkfhir.aetapps.prod.cvshealth.com",
+        "edp-prod-cpf.cvshealth.com",
+        "iopcmr.aetapps.prod.cvshealth.com",
+        "spltopstlt-ups.cvshealth.com",
+        "eent-cloudapi.cvshealth.com",
+        "edm.cvshealth.com",
+        "eent-cloudapi-programidentification.cvshealth.com",
+        "edp-spltopstlt.prod.cvshealth.com",
+        "tlt.cvshealth.com",
+        "prime-sharedservices.cvshealth.com",
+        "edp-spatdm.cvshealth.com",
+        "sbeprvdrplansearch.aetapps.prod.cvshealth.com",
+        "sbeprvdrpharmacysrch.aetapps.prod.cvshealth.com",
+        "edp-spadp.cvshealth.com",
+        "edp-erwinrpt.prod.cvshealth.com",
+        "edp-tdmdp.cvshealth.com",
+        "eent-mbrsearch-cldapi.cvshealth.com",
+        "pgr-ui.cvshealth.com",
+        "pgr.cvshealth.com",
+        "emrd-betaprod.cvshealth.com",
+        "emrd-betaprod-api.cvshealth.com",
+        "emrd.cvshealth.com",
+        "emrd-api.cvshealth.com",
+        "enterprise-entitlements-cldapi.cvshealth.com",
+        "prime-db-internal-services.cvshealth.com",
+        "prime-compute-services.cvshealth.com",
+        "prime-storage-services.cvshealth.com",
+        "prime-iam-services.cvshealth.com",
+        "prime-projects-automation.cvshealth.com",
+        "enterprise-engagements-cldapi.cvshealth.com",
+        "provision-hub.cvshealth.com",
+        "eent-cldapi.prod.apigeex.cvshealth.com",
+        "provision-slackbot.cvshealth.com",
+        "prime-resource-inventory.cvshealth.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt",
+        "authorityKeyIdentifier": "keyid:74:85:80:c0:66:c7:df:37:de:cf:bd:29:37:aa:03:1d:be:ed:cd:17",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:edp-edm.prod.cvshealth.com, DNS:internal-argocd-np.edp-edm.prod.cvshealth.com, DNS:internal-kiali-np.edp-edm.prod.cvshealth.com, DNS:internal-tracing-np.edp-edm.prod.cvshealth.com, DNS:internal-grafana-np.edp-edm.prod.cvshealth.com, DNS:commtracker-ai-prod.cvshealth.com, DNS:edp-eds-dpr.prod.cvshealth.com, DNS:edp-prod-prime.cvshealth.com, DNS:edp-prod-abc.cvshealth.com, DNS:edp-prod-egress.cvshealth.com, DNS:edp-hirs.cvshealth.com, DNS:edp-prime.cvshealth.com, DNS:iopbulkfhir.aetapps.prod.cvshealth.com, DNS:edp-prod-cpf.cvshealth.com, DNS:iopcmr.aetapps.prod.cvshealth.com, DNS:spltopstlt-ups.cvshealth.com, DNS:eent-cloudapi.cvshealth.com, DNS:edm.cvshealth.com, DNS:eent-cloudapi-programidentification.cvshealth.com, DNS:edp-spltopstlt.prod.cvshealth.com, DNS:tlt.cvshealth.com, DNS:prime-sharedservices.cvshealth.com, DNS:edp-spatdm.cvshealth.com, DNS:sbeprvdrplansearch.aetapps.prod.cvshealth.com, DNS:sbeprvdrpharmacysrch.aetapps.prod.cvshealth.com, DNS:edp-spadp.cvshealth.com, DNS:edp-erwinrpt.prod.cvshealth.com, DNS:edp-tdmdp.cvshealth.com, DNS:eent-mbrsearch-cldapi.cvshealth.com, DNS:pgr-ui.cvshealth.com, DNS:pgr.cvshealth.com, DNS:emrd-betaprod.cvshealth.com, DNS:emrd-betaprod-api.cvshealth.com, DNS:emrd.cvshealth.com, DNS:emrd-api.cvshealth.com, DNS:enterprise-entitlements-cldapi.cvshealth.com, DNS:prime-db-internal-services.cvshealth.com, DNS:prime-compute-services.cvshealth.com, DNS:prime-storage-services.cvshealth.com, DNS:prime-iam-services.cvshealth.com, DNS:prime-projects-automation.cvshealth.com, DNS:enterprise-engagements-cldapi.cvshealth.com, DNS:provision-hub.cvshealth.com, DNS:eent-cldapi.prod.apigeex.cvshealth.com, DNS:provision-slackbot.cvshealth.com, DNS:prime-resource-inventory.cvshealth.com",
+        "subjectKeyIdentifier": "keyid:8f:b3:0e:b8:3b:dc:2e:d5:a1:4f:93:c2:20:5b:e6:7c:f8:2b:38:95"
+      }
+    },
+    "cert_index": 101605238,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x396/895",
+    "seen": 1787840795.843,
+    "submission_timestamp": 1784663701.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

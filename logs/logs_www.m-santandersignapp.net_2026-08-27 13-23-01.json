@@ -1,0 +1,52 @@
+{
+  "dominio": "www.m-santandersignapp.net",
+  "marcas_encontradas": [
+    "santander"
+  ],
+  "timestamp": "08/27/26 13:23:01",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "www.m-santandersignapp.net",
+        "aggregated": "/CN=www.m-santandersignapp.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "F73D232139E5DF75",
+      "not_before": 1783440379,
+      "not_after": 1800547579,
+      "fingerprint": "EF:B1:30:1E:70:30:7D:DF:2B:82:A9:66:60:89:C4:0B:ED:79:1A:07",
+      "sha1": "EF:B1:30:1E:70:30:7D:DF:2B:82:A9:66:60:89:C4:0B:ED:79:1A:07",
+      "sha256": "BD:CF:70:5B:93:C3:0C:C7:3E:59:16:75:56:74:88:3B:DF:7A:E9:35:A5:1E:7E:0F:F2:81:1A:56:C8:FE:8D:D8",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "www.m-santandersignapp.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:www.m-santandersignapp.net",
+        "subjectKeyIdentifier": "keyid:72:44:ab:59:9d:2f:71:aa:5c:ed:47:f3:34:67:e3:12:59:a6:53:f0",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 128746133,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=128746133&end=128746133",
+    "seen": 1787847780.501,
+    "submission_timestamp": 1783440381.066,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

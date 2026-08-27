@@ -1,0 +1,59 @@
+{
+  "dominio": "cphb-cpf.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 12:49:15",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cphb-cpf.org",
+        "aggregated": "/CN=cphb-cpf.org"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "E7",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=E7/O=Let's Encrypt"
+      },
+      "serial_number": "0687B6731B1F9751D368B553C4698A9B097D",
+      "not_before": 1779565845,
+      "not_after": 1787341844,
+      "fingerprint": "A0:35:B7:D3:F4:4A:B9:29:A0:95:B2:29:0C:4D:1B:B8:E4:4A:5C:DD",
+      "sha1": "A0:35:B7:D3:F4:4A:B9:29:A0:95:B2:29:0C:4D:1B:B8:E4:4A:5C:DD",
+      "sha256": "38:D6:6E:C1:CB:7F:6B:5E:D2:34:21:5B:5C:45:1F:F9:02:85:D2:74:A3:A9:51:17:97:0E:F7:25:35:4B:87:15",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "cphb-cpf.org",
+        "app.cphb-cpf.com",
+        "app.cphb-cpf.net",
+        "app.cphb-cpf.org",
+        "cphb-cpf.com",
+        "cphb-cpf.net",
+        "www.cphb-cpf.com",
+        "www.cphb-cpf.net",
+        "www.cphb-cpf.org"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://e7.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:ae:48:9e:dc:87:1d:44:a0:6f:da:a2:e5:60:74:04:78:c2:9c:00:80",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:app.cphb-cpf.com, DNS:app.cphb-cpf.net, DNS:app.cphb-cpf.org, DNS:cphb-cpf.com, DNS:cphb-cpf.net, DNS:cphb-cpf.org, DNS:www.cphb-cpf.com, DNS:www.cphb-cpf.net, DNS:www.cphb-cpf.org",
+        "subjectKeyIdentifier": "keyid:f6:c3:89:2c:21:7f:43:c3:ee:8d:b6:35:4d:46:e1:71:47:76:35:cf"
+      }
+    },
+    "cert_index": 4416654033,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4416654033&end=4416654033",
+    "seen": 1787845754.604,
+    "submission_timestamp": 1779569357.144,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

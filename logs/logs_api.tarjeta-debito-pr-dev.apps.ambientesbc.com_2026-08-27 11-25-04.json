@@ -1,0 +1,52 @@
+{
+  "dominio": "api.tarjeta-debito-pr-dev.apps.ambientesbc.com",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 11:25:04",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "api.tarjeta-debito-pr-dev.apps.ambientesbc.com",
+        "aggregated": "/CN=api.tarjeta-debito-pr-dev.apps.ambientesbc.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "08B96A350F666021A1F48AA85653749B",
+      "not_before": 1787788800,
+      "not_after": 1804895999,
+      "fingerprint": "E5:D4:B8:4A:B9:0B:8D:8D:57:1B:63:58:11:83:47:10:A9:54:92:C6",
+      "sha1": "E5:D4:B8:4A:B9:0B:8D:8D:57:1B:63:58:11:83:47:10:A9:54:92:C6",
+      "sha256": "5E:9D:BE:40:7F:BD:79:A7:95:E1:25:9C:5C:D2:E4:38:A0:6B:92:CF:15:9F:23:F0:1E:EB:C2:7A:41:4F:B2:7B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "api.tarjeta-debito-pr-dev.apps.ambientesbc.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:api.tarjeta-debito-pr-dev.apps.ambientesbc.com",
+        "subjectKeyIdentifier": "keyid:b8:b9:4b:db:02:98:18:08:59:14:f0:2a:4f:6e:dd:d4:a4:d5:12:7c",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 75822630,
+    "cert_link": "https://sphinx.ct.digicert.com/2027h1/ct/v1/get-entries?start=75822630&end=75822630",
+    "seen": 1787840702.513,
+    "submission_timestamp": 1787830322.776,
+    "source": {
+      "name": "DigiCert 'sphinx2027h1'",
+      "url": "https://sphinx.ct.digicert.com/2027h1"
+    }
+  }
+}

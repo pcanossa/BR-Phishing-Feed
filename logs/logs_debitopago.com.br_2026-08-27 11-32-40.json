@@ -1,0 +1,52 @@
+{
+  "dominio": "debitopago.com.br",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 11:32:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.debitopago.com.br",
+        "aggregated": "/CN=*.debitopago.com.br"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0B27BFDF8B32F67B47FECD7BCC9CDC30",
+      "not_before": 1784592000,
+      "not_after": 1801699199,
+      "fingerprint": "6E:F7:A1:23:12:F4:9D:49:DA:66:25:FC:B9:02:61:84:BA:13:B7:D3",
+      "sha1": "6E:F7:A1:23:12:F4:9D:49:DA:66:25:FC:B9:02:61:84:BA:13:B7:D3",
+      "sha256": "12:75:30:E8:D4:5B:C1:9D:95:FA:0F:0E:C3:FF:4D:1F:5D:95:CB:26:24:44:74:A2:E2:B1:21:F9:09:8A:C3:82",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.debitopago.com.br",
+        "debitopago.com.br"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.debitopago.com.br, DNS:debitopago.com.br",
+        "subjectKeyIdentifier": "keyid:f1:97:b1:21:cd:78:89:d9:39:28:e9:f1:41:7e:4a:12:25:a8:be:65"
+      }
+    },
+    "cert_index": 101654927,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x397/089",
+    "seen": 1787841161.252,
+    "submission_timestamp": 1784667212.858,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}

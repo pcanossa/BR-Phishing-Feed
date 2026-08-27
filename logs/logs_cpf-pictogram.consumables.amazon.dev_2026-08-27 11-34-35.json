@@ -1,0 +1,51 @@
+{
+  "dominio": "cpf-pictogram.consumables.amazon.dev",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 11:34:35",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf-pictogram.consumables.amazon.dev",
+        "aggregated": "/CN=cpf-pictogram.consumables.amazon.dev"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0EBCB1E7202C20CC9FBA1AB3F543D2B2",
+      "not_before": 1784592000,
+      "not_after": 1801699199,
+      "fingerprint": "55:A9:0E:9B:B7:C1:76:00:40:FC:19:D1:D4:21:67:F3:34:18:6C:73",
+      "sha1": "55:A9:0E:9B:B7:C1:76:00:40:FC:19:D1:D4:21:67:F3:34:18:6C:73",
+      "sha256": "DF:FD:41:95:C3:68:48:7B:5E:3C:91:65:87:C9:9B:03:AF:2D:F5:3F:22:F2:B8:3E:BC:DE:F5:7C:BE:6F:9C:DD",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-pictogram.consumables.amazon.dev"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-pictogram.consumables.amazon.dev",
+        "subjectKeyIdentifier": "keyid:c3:17:91:c7:e5:51:a9:0d:da:14:5d:2f:b8:8d:5c:0b:e6:fd:2a:c4"
+      }
+    },
+    "cert_index": 101670839,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2027h1/tile/data/x397/151",
+    "seen": 1787841273.876,
+    "submission_timestamp": 1784668544.857,
+    "source": {
+      "name": "Let's Encrypt 'Willow2027h1'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2027h1"
+    }
+  }
+}
