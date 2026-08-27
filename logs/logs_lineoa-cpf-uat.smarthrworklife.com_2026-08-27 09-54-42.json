@@ -1,0 +1,53 @@
+{
+  "dominio": "lineoa-cpf-uat.smarthrworklife.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 09:54:42",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "lineoa-cpf-uat.smarthrworklife.com",
+        "aggregated": "/CN=lineoa-cpf-uat.smarthrworklife.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0D8B01AC37041309FC87953CF5941CAA",
+      "not_before": 1784505600,
+      "not_after": 1801612799,
+      "fingerprint": "FF:42:C7:46:CB:9B:A0:33:27:B4:35:6C:0F:B3:86:D2:B5:FC:4D:9B",
+      "sha1": "FF:42:C7:46:CB:9B:A0:33:27:B4:35:6C:0F:B3:86:D2:B5:FC:4D:9B",
+      "sha256": "EB:00:7F:97:37:6A:8F:DB:C2:2B:9E:29:CD:D8:45:C3:5D:A8:D3:F5:60:A6:56:CC:25:6D:20:CA:BD:A5:74:90",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "lineoa-cpf-uat.smarthrworklife.com",
+        "*.lineoa-cpf-uat.smarthrworklife.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:lineoa-cpf-uat.smarthrworklife.com, DNS:*.lineoa-cpf-uat.smarthrworklife.com",
+        "subjectKeyIdentifier": "keyid:aa:29:c7:1f:7d:47:05:34:f5:68:e8:28:d7:f2:9d:c8:f0:1d:55:2e",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 106935893,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=106935893&end=106935893",
+    "seen": 1787835280.686,
+    "submission_timestamp": 1784506802.909,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

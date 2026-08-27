@@ -1,0 +1,53 @@
+{
+  "dominio": "debitonline.net",
+  "marcas_encontradas": [
+    "debito"
+  ],
+  "timestamp": "08/27/26 09:10:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "debitonline.net",
+        "aggregated": "/CN=debitonline.net"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GoDaddy TLS Intermediate CA DV - R1v1",
+        "O": "GoDaddy.com",
+        "aggregated": "/C=US/CN=GoDaddy TLS Intermediate CA DV - R1v1/O=GoDaddy.com"
+      },
+      "serial_number": "0CE9443FB7D6366A",
+      "not_before": 1778838274,
+      "not_after": 1786614274,
+      "fingerprint": "3D:67:EE:8F:68:A4:C2:DF:32:9C:B1:0B:40:33:95:B9:AE:D0:EA:A8",
+      "sha1": "3D:67:EE:8F:68:A4:C2:DF:32:9C:B1:0B:40:33:95:B9:AE:D0:EA:A8",
+      "sha256": "7B:75:48:67:8B:D2:00:D1:AD:34:7A:4D:83:64:4C:B9:F8:2E:D4:00:72:66:A3:9D:32:1A:78:FD:1B:3D:6A:30",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "debitonline.net",
+        "www.debitonline.net"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://certificates.godaddy.com/repository/gd_tls_issuing_dv-r1v1.crt, URI:http://ocsp.godaddy.com/",
+        "authorityKeyIdentifier": "keyid:89:eb:e7:1d:79:c3:be:db:3f:dc:8e:20:b0:fb:e4:1e:7c:39:f6:2b",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\nPolicy: 2.16.840.1.114413.1.7.23.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:debitonline.net, DNS:www.debitonline.net",
+        "subjectKeyIdentifier": "keyid:60:ac:82:ca:61:06:c0:2f:a6:19:bc:0f:62:f9:62:1d:e4:34:63:81",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 701492009,
+    "cert_link": "https://wyvern.ct.digicert.com/2026h2/ct/v1/get-entries?start=701492009&end=701492009",
+    "seen": 1787832655.957,
+    "submission_timestamp": 1778838274.465,
+    "source": {
+      "name": "DigiCert 'Wyvern2026h2'",
+      "url": "https://wyvern.ct.digicert.com/2026h2"
+    }
+  }
+}

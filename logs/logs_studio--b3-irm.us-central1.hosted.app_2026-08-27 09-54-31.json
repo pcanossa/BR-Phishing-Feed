@@ -1,0 +1,52 @@
+{
+  "dominio": "studio--b3-irm.us-central1.hosted.app",
+  "marcas_encontradas": [
+    "b3"
+  ],
+  "timestamp": "08/27/26 09:54:31",
+  "dados_certificado": {
+    "update_type": "X509LogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "studio--b3-irm.us-central1.hosted.app",
+        "aggregated": "/CN=studio--b3-irm.us-central1.hosted.app"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WR3",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WR3/O=Google Trust Services"
+      },
+      "serial_number": "DD6922CACADEC1BA0A48114175CD16F6",
+      "not_before": 1779630789,
+      "not_after": 1787410143,
+      "fingerprint": "00:35:0B:1E:84:15:2A:F8:25:9A:46:1B:37:40:33:B1:7D:62:44:2B",
+      "sha1": "00:35:0B:1E:84:15:2A:F8:25:9A:46:1B:37:40:33:B1:7D:62:44:2B",
+      "sha256": "43:D8:C5:40:FB:18:92:9B:1C:D5:EA:A6:FF:57:3B:C3:DB:92:2A:6D:0D:DA:94:19:E1:67:73:98:09:91:B2:FF",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "studio--b3-irm.us-central1.hosted.app",
+        "*.studio--b3-irm.us-central1.hosted.app"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/wr3/3Wk, URI:http://i.pki.goog/wr3.crt",
+        "authorityKeyIdentifier": "keyid:c7:81:f5:fd:8e:88:d9:00:3c:4d:63:a2:50:31:24:a0:ce:23:fe:23",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:studio--b3-irm.us-central1.hosted.app, DNS:*.studio--b3-irm.us-central1.hosted.app",
+        "subjectKeyIdentifier": "keyid:67:52:cf:14:3d:34:8c:cf:33:7e:4c:ba:36:99:c3:b8:70:97:18:d0"
+      }
+    },
+    "cert_index": 278640265,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x088/438",
+    "seen": 1787835267.362,
+    "submission_timestamp": 1781534923.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

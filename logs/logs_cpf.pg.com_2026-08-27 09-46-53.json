@@ -1,0 +1,52 @@
+{
+  "dominio": "cpf.pg.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 09:46:53",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "cpf.pg.com",
+        "aggregated": "/CN=cpf.pg.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=GeoTrust TLS RSA CA G1/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "0428C3A541D15F58DD2A7D74A2E5CC60",
+      "not_before": 1781481600,
+      "not_after": 1797379199,
+      "fingerprint": "BA:B5:B8:AC:FC:81:1B:6F:10:40:B8:E1:84:8B:AB:2C:5B:95:D9:19",
+      "sha1": "BA:B5:B8:AC:FC:81:1B:6F:10:40:B8:E1:84:8B:AB:2C:5B:95:D9:19",
+      "sha256": "F6:18:D3:6D:8F:05:36:63:1E:22:D3:08:E4:1E:40:3C:D8:D5:65:74:95:58:C2:7C:09:78:2B:2E:32:8F:9F:0B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf.pg.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://status.geotrust.com, URI:http://cacerts.geotrust.com/GeoTrustTLSRSACAG1.crt",
+        "authorityKeyIdentifier": "keyid:94:4f:d4:5d:8b:e4:a4:e2:a6:80:fe:fd:d8:f9:00:ef:a3:be:02:57",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth, clientAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf.pg.com",
+        "subjectKeyIdentifier": "keyid:09:52:06:de:cb:61:07:26:08:ff:b6:d1:b2:7d:ba:28:28:21:6d:d2"
+      }
+    },
+    "cert_index": 278575177,
+    "cert_link": "https://mon.sycamore.ct.letsencrypt.org/2026h2/tile/data/x001/x088/184",
+    "seen": 1787834813.888,
+    "submission_timestamp": 1781532647.201,
+    "source": {
+      "name": "Let's Encrypt 'Sycamore2026h2'",
+      "url": "https://mon.sycamore.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

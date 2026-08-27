@@ -1,0 +1,52 @@
+{
+  "dominio": "app.myspotify.live",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/27/26 09:08:20",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "app.myspotify.live",
+        "aggregated": "/CN=app.myspotify.live"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Encryption Everywhere DV TLS CA - G2",
+        "O": "DigiCert Inc",
+        "OU": "www.digicert.com",
+        "aggregated": "/C=US/CN=Encryption Everywhere DV TLS CA - G2/O=DigiCert Inc/OU=www.digicert.com"
+      },
+      "serial_number": "07E9AB0B09935D65969A86E45A3BB97C",
+      "not_before": 1781481600,
+      "not_after": 1789257599,
+      "fingerprint": "28:0B:60:57:82:4B:32:E4:29:60:04:A7:72:49:1B:E6:85:5E:E6:AA",
+      "sha1": "28:0B:60:57:82:4B:32:E4:29:60:04:A7:72:49:1B:E6:85:5E:E6:AA",
+      "sha256": "2E:84:A4:8C:D5:88:9E:49:D7:D5:C4:40:60:38:CB:67:CA:42:A8:07:08:9F:D1:2A:00:DB:F0:B4:72:B4:63:29",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "app.myspotify.live"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.digicert.com, URI:http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G2.crt",
+        "authorityKeyIdentifier": "keyid:78:df:91:90:5f:ee:de:ac:f6:c5:75:eb:d5:4c:55:53:ef:24:4a:b6",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:app.myspotify.live",
+        "subjectKeyIdentifier": "keyid:1b:74:93:98:13:f4:1b:c7:a5:22:2c:55:7b:6e:fc:da:9f:53:f8:69"
+      }
+    },
+    "cert_index": 262501330,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x025/395",
+    "seen": 1787832497.438,
+    "submission_timestamp": 1781541616.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

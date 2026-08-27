@@ -1,0 +1,53 @@
+{
+  "dominio": "netflixwrapped.com",
+  "marcas_encontradas": [
+    "netflix"
+  ],
+  "timestamp": "08/27/26 09:37:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "netflixwrapped.com",
+        "aggregated": "/CN=netflixwrapped.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "WE1",
+        "O": "Google Trust Services",
+        "aggregated": "/C=US/CN=WE1/O=Google Trust Services"
+      },
+      "serial_number": "4131E7CC8776EAE01351997F57B6A9E9",
+      "not_before": 1779560008,
+      "not_after": 1787339526,
+      "fingerprint": "BF:22:5C:F0:D2:C2:8A:22:2A:4E:BA:74:80:84:4E:93:5C:20:C9:85",
+      "sha1": "BF:22:5C:F0:D2:C2:8A:22:2A:4E:BA:74:80:84:4E:93:5C:20:C9:85",
+      "sha256": "E2:B2:A8:A1:67:A3:CC:1E:55:E0:36:55:0A:74:F4:C7:99:F2:CE:48:57:BF:97:93:78:59:67:29:63:7E:0A:28",
+      "signature_algorithm": "ecdsa, sha256",
+      "is_ca": false,
+      "all_domains": [
+        "netflixwrapped.com",
+        "*.netflixwrapped.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://o.pki.goog/s/we1/QTE, URI:http://i.pki.goog/we1.crt",
+        "authorityKeyIdentifier": "keyid:90:77:92:35:67:c4:ff:a8:cc:a9:e6:7b:d9:80:79:7b:cc:93:f9:38",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:netflixwrapped.com, DNS:*.netflixwrapped.com",
+        "subjectKeyIdentifier": "keyid:e3:a0:c4:c5:12:cd:09:2d:2a:5d:20:c1:21:3b:7f:68:5e:98:ca:af",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 4415341350,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2026/ct/v1/get-entries?start=4415341350&end=4415341350",
+    "seen": 1787834261.567,
+    "submission_timestamp": 1779563776.343,
+    "source": {
+      "name": "Cloudflare 'Nimbus2026'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2026"
+    }
+  }
+}

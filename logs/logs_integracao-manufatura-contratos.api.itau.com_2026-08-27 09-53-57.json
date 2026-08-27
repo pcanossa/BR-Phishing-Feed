@@ -1,0 +1,52 @@
+{
+  "dominio": "integracao-manufatura-contratos.api.itau.com",
+  "marcas_encontradas": [
+    "itau"
+  ],
+  "timestamp": "08/27/26 09:53:57",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "integracao-manufatura-contratos.api.itau.com",
+        "aggregated": "/CN=integracao-manufatura-contratos.api.itau.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "055A837199A8821A1AC68BA265A0E2D3",
+      "not_before": 1784505600,
+      "not_after": 1801612799,
+      "fingerprint": "9E:10:0C:BA:86:7A:46:12:92:D4:2E:F3:11:3D:07:B3:29:DF:F6:0A",
+      "sha1": "9E:10:0C:BA:86:7A:46:12:92:D4:2E:F3:11:3D:07:B3:29:DF:F6:0A",
+      "sha256": "E3:1B:EA:5E:79:70:3C:07:4E:1E:4B:3E:B0:60:CD:05:A5:19:E5:92:CD:1F:B2:F2:4F:01:A4:5D:EE:55:5D:1B",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "integracao-manufatura-contratos.api.itau.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:integracao-manufatura-contratos.api.itau.com",
+        "subjectKeyIdentifier": "keyid:f6:12:0a:19:18:44:96:4b:11:d6:08:55:de:3b:2c:0a:a2:d8:3e:e3",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 106930262,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=106930262&end=106930262",
+    "seen": 1787835235.593,
+    "submission_timestamp": 1784506617.317,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

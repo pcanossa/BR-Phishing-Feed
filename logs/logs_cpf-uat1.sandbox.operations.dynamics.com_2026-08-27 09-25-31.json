@@ -1,0 +1,57 @@
+{
+  "dominio": "cpf-uat1.sandbox.operations.dynamics.com",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 09:25:31",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "C": "US",
+        "CN": "cpf-uat1.sandbox.operations.dynamics.com",
+        "L": "Redmond",
+        "O": "Microsoft Corporation",
+        "ST": "WA",
+        "aggregated": "/C=US/CN=cpf-uat1.sandbox.operations.dynamics.com/L=Redmond/O=Microsoft Corporation/ST=WA"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Microsoft TLS G2 RSA CA OCSP 04",
+        "O": "Microsoft Corporation",
+        "aggregated": "/C=US/CN=Microsoft TLS G2 RSA CA OCSP 04/O=Microsoft Corporation"
+      },
+      "serial_number": "43008C523234BB82C9276D9AD20000008C5232",
+      "not_before": 1784492055,
+      "not_after": 1800044055,
+      "fingerprint": "53:5E:AE:20:46:CF:84:49:82:31:61:75:B2:7E:01:BB:FA:0F:D8:52",
+      "sha1": "53:5E:AE:20:46:CF:84:49:82:31:61:75:B2:7E:01:BB:FA:0F:D8:52",
+      "sha256": "89:4F:1D:D5:B2:9A:3D:65:81:72:95:24:99:46:18:D0:6E:34:18:C0:F5:06:B8:C0:73:37:BC:F0:09:0E:38:E1",
+      "signature_algorithm": "sha384, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "cpf-uat1.sandbox.operations.dynamics.com",
+        "cpf-uat1aossoap.sandbox.operations.dynamics.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://www.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://caissuers.microsoft.com/pkiops/certs/Microsoft%20TLS%20G2%20RSA%20CA%20OCSP%2004.crt, URI:http://oneocsp.microsoft.com/ocsp",
+        "authorityKeyIdentifier": "keyid:54:0c:bc:ec:18:f7:7d:f1:03:e2:84:be:34:64:44:67:cf:75:1f:65",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.2\nPolicy: 1.3.6.1.4.1.311.76.509.1.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:cpf-uat1aossoap.sandbox.operations.dynamics.com, DNS:cpf-uat1.sandbox.operations.dynamics.com",
+        "subjectKeyIdentifier": "keyid:e5:7d:7d:9c:9a:5d:d9:1e:45:22:74:e5:11:5f:8a:49:b3:72:14:e2",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 106700948,
+    "cert_link": "https://tiger2027h1.ct.sectigo.com/ct/v1/get-entries?start=106700948&end=106700948",
+    "seen": 1787833530.861,
+    "submission_timestamp": 1784492660.864,
+    "source": {
+      "name": "Sectigo 'Tiger2027h1'",
+      "url": "https://tiger2027h1.ct.sectigo.com"
+    }
+  }
+}

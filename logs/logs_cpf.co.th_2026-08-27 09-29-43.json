@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.co.th",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 09:29:43",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.co.th",
+        "aggregated": "/CN=*.cpf.co.th"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M01/O=Amazon"
+      },
+      "serial_number": "0E2D6B1C102F6B18E23409539EB486EF",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "57:7A:41:07:8B:0C:32:82:B2:E2:BD:53:DE:19:6F:DA:39:96:7C:70",
+      "sha1": "57:7A:41:07:8B:0C:32:82:B2:E2:BD:53:DE:19:6F:DA:39:96:7C:70",
+      "sha256": "A8:7C:9A:F3:53:81:80:EB:E4:E2:8F:C8:09:0F:01:75:13:31:AE:37:BD:AD:CE:EB:38:AB:D2:CD:43:FB:D5:8C",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.co.th",
+        "cpf.co.th"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m01.amazontrust.com, URI:http://crt.r2m01.amazontrust.com/r2m01.cer",
+        "authorityKeyIdentifier": "keyid:81:b8:0e:63:8a:89:12:18:e5:fa:3b:3b:50:95:9f:e6:e5:90:13:85",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.co.th, DNS:cpf.co.th",
+        "subjectKeyIdentifier": "keyid:1a:f6:b5:52:71:23:83:ba:eb:67:b0:19:16:d9:00:82:16:93:24:89",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 127186245,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=127186245&end=127186245",
+    "seen": 1787833782.653,
+    "submission_timestamp": 1783383820.129,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

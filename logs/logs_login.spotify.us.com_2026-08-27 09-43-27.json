@@ -1,0 +1,51 @@
+{
+  "dominio": "login.spotify.us.com",
+  "marcas_encontradas": [
+    "spotify"
+  ],
+  "timestamp": "08/27/26 09:43:27",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "login.spotify.us.com",
+        "aggregated": "/CN=login.spotify.us.com"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE1",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE1/O=Let's Encrypt"
+      },
+      "serial_number": "0650E1B2B622CF79422056C2D39553A6686B",
+      "not_before": 1781549498,
+      "not_after": 1789325497,
+      "fingerprint": "2B:AA:E2:DC:1A:C9:61:41:96:7D:21:77:84:75:E0:56:C1:F1:A5:20",
+      "sha1": "2B:AA:E2:DC:1A:C9:61:41:96:7D:21:77:84:75:E0:56:C1:F1:A5:20",
+      "sha256": "BD:29:F2:40:02:35:5B:D0:BC:06:09:D7:BA:75:91:65:0C:D3:36:06:BD:7E:BE:13:BD:70:E2:AE:96:8E:19:67",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "login.spotify.us.com"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye1.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:bb:20:ca:47:0b:fe:d7:e5:9c:f9:8f:09:2a:a3:8c:37:45:b1:bc:d8",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:login.spotify.us.com",
+        "subjectKeyIdentifier": "keyid:d6:ef:2f:a8:ab:ae:50:0a:5c:c7:a3:95:be:6c:6b:ca:03:0c:bf:23"
+      }
+    },
+    "cert_index": 262801147,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x026/566",
+    "seen": 1787834606.227,
+    "submission_timestamp": 1781553008.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}

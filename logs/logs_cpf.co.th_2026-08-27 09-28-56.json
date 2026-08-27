@@ -1,0 +1,53 @@
+{
+  "dominio": "cpf.co.th",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 09:28:56",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.cpf.co.th",
+        "aggregated": "/CN=*.cpf.co.th"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon",
+        "aggregated": "/C=US/CN=Amazon RSA 2048 M04/O=Amazon"
+      },
+      "serial_number": "0E8AAD9247183C0C608E6C59516FBF62",
+      "not_before": 1783382400,
+      "not_after": 1800489599,
+      "fingerprint": "98:33:EF:CC:49:78:00:C3:44:A8:32:1A:F2:4E:4B:B9:DD:3F:C7:79",
+      "sha1": "98:33:EF:CC:49:78:00:C3:44:A8:32:1A:F2:4E:4B:B9:DD:3F:C7:79",
+      "sha256": "15:A5:89:C1:1F:0D:6C:62:9A:06:E6:78:ED:E1:8F:E3:FA:75:E2:17:05:6A:9E:DB:72:F2:E6:8F:49:0A:63:49",
+      "signature_algorithm": "sha256, rsa",
+      "is_ca": false,
+      "all_domains": [
+        "*.cpf.co.th",
+        "cpf.co.th"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ocsp.r2m04.amazontrust.com, URI:http://crt.r2m04.amazontrust.com/r2m04.cer",
+        "authorityKeyIdentifier": "keyid:1f:52:92:61:56:82:54:7f:81:66:d8:1d:3d:0a:aa:32:5c:87:dd:08",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature, Key Encipherment",
+        "subjectAltName": "DNS:*.cpf.co.th, DNS:cpf.co.th",
+        "subjectKeyIdentifier": "keyid:4d:7d:c2:cd:70:fe:b2:72:41:6f:a7:fb:77:8f:92:c9:b3:fc:d8:5f",
+        "ctlPoisonByte": true
+      }
+    },
+    "cert_index": 127181528,
+    "cert_link": "https://ct.cloudflare.com/logs/nimbus2027/ct/v1/get-entries?start=127181528&end=127181528",
+    "seen": 1787833733.842,
+    "submission_timestamp": 1783383700.21,
+    "source": {
+      "name": "Cloudflare 'Nimbus2027'",
+      "url": "https://ct.cloudflare.com/logs/nimbus2027"
+    }
+  }
+}

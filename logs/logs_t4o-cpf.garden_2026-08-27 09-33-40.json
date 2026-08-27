@@ -1,0 +1,52 @@
+{
+  "dominio": "t4o-cpf.garden",
+  "marcas_encontradas": [
+    "cpf"
+  ],
+  "timestamp": "08/27/26 09:33:40",
+  "dados_certificado": {
+    "update_type": "PrecertLogEntry",
+    "leaf_cert": {
+      "subject": {
+        "CN": "*.t4o-cpf.garden",
+        "aggregated": "/CN=*.t4o-cpf.garden"
+      },
+      "issuer": {
+        "C": "US",
+        "CN": "YE2",
+        "O": "Let's Encrypt",
+        "aggregated": "/C=US/CN=YE2/O=Let's Encrypt"
+      },
+      "serial_number": "0695E2A58065E6DBA9ACD6CB3775F94D24F2",
+      "not_before": 1781546344,
+      "not_after": 1789322343,
+      "fingerprint": "05:97:5F:86:AB:19:46:61:1E:BE:80:FF:A7:ED:88:AF:3D:F7:28:73",
+      "sha1": "05:97:5F:86:AB:19:46:61:1E:BE:80:FF:A7:ED:88:AF:3D:F7:28:73",
+      "sha256": "7F:EA:CF:51:66:5D:9F:6F:1D:F0:C9:0F:21:69:05:3D:DD:5F:54:B9:E9:B6:8D:86:2D:2E:1F:FB:37:0F:13:D9",
+      "signature_algorithm": "ecdsa, sha384",
+      "is_ca": false,
+      "all_domains": [
+        "*.t4o-cpf.garden",
+        "t4o-cpf.garden"
+      ],
+      "extensions": {
+        "authorityInfoAccess": "URI:http://ye2.i.lencr.org/",
+        "authorityKeyIdentifier": "keyid:b9:59:f2:8e:cf:22:f0:86:d3:37:48:ff:76:14:18:ba:82:d8:55:87",
+        "basicConstraints": "CA:FALSE",
+        "certificatePolicies": "Policy: 2.23.140.1.2.1\n",
+        "extendedKeyUsage": "serverAuth",
+        "keyUsage": "Digital Signature",
+        "subjectAltName": "DNS:*.t4o-cpf.garden, DNS:t4o-cpf.garden",
+        "subjectKeyIdentifier": "keyid:8d:da:df:ac:4d:31:84:35:e0:7f:85:a0:3a:e0:40:b8:d7:97:66:f9"
+      }
+    },
+    "cert_index": 262721458,
+    "cert_link": "https://mon.willow.ct.letsencrypt.org/2026h2/tile/data/x001/x026/255",
+    "seen": 1787834018.873,
+    "submission_timestamp": 1781549854.946,
+    "source": {
+      "name": "Let's Encrypt 'Willow2026h2'",
+      "url": "https://mon.willow.ct.letsencrypt.org/2026h2"
+    }
+  }
+}
