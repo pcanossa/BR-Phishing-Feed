@@ -30,6 +30,12 @@ Ao invés de um simples alerta de "Bloqueado", a IA deve ser instruída a gerar 
 **FALSOS POSITIVOS AINDA PODEM OCORRER**
 
 
+
+
+
+
+
+
 **Exemplo de Saída Esperada do Pipeline de IA:**
 ```json
 {
